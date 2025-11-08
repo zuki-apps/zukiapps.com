@@ -44,6 +44,7 @@
 **יש לך 3 אפשרויות:**
 
 ### אפשרות 1: העבר את הפרויקט ל-GitHub (הכי פשוט) ⭐
+
 1. צור repository חדש ב-GitHub
 2. העתק את הקוד:
    ```bash
@@ -54,12 +55,14 @@
 4. בחר את ה-repository החדש
 
 ### אפשרות 2: Deploy ידני עם Wrangler CLI
+
 1. התקן Wrangler: `npm install -g wrangler`
 2. התחבר: `wrangler login`
 3. בנה את האתר: `npm run build`
 4. Deploy: `wrangler pages deploy .next`
 
 ### אפשרות 3: השתמש ב-Netlify (תומך ב-Bitbucket!)
+
 Netlify תומך ב-Bitbucket! אם אתה רוצה להישאר עם Bitbucket, Netlify הוא פתרון טוב יותר.
 
 ---
