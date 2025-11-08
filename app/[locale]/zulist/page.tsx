@@ -1,19 +1,29 @@
 'use client';
 
 import Link from 'next/link';
-import { ShoppingCart, ArrowLeft, Users, Wifi, Sparkles, Globe, Database, UserCircle, FolderTree, Download, Shield, FileText, Mail, ExternalLink, Bell, Layout, Crown, Image as ImageIcon, BarChart3, Moon, Smartphone, Lock, CheckCircle2, Video, Instagram, Facebook } from 'lucide-react';
+import { useTranslations, useLocale } from 'next-intl';
+import { ShoppingCart, ArrowLeft, Users, Wifi, Sparkles, Globe, Database, FolderTree, Mail, ExternalLink, Bell, Layout, Crown, Image as ImageIcon, BarChart3, Smartphone, Lock, CheckCircle2, Video, Instagram, Facebook } from 'lucide-react';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function ZuListPage() {
+  const t = useTranslations('zulist');
+  const locale = useLocale();
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      {/* Language Switcher */}
+      <div className="max-w-7xl mx-auto px-4 pt-4">
+        <LanguageSwitcher />
+      </div>
+
       {/* Back Button */}
-      <div className="max-w-7xl mx-auto px-4 pt-8">
+      <div className="max-w-7xl mx-auto px-4 pt-4">
         <Link
-          href="/"
+          href={`/${locale}`}
           className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
         >
           <ArrowLeft className="w-5 h-5" />
-          חזרה לדף הבית
+          {t('back')}
         </Link>
       </div>
 
@@ -25,16 +35,16 @@ export default function ZuListPage() {
           </div>
           <div className="inline-flex items-center gap-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             <CheckCircle2 className="w-4 h-4" />
-            Production Ready - גרסה 1.0.0
+            {t('hero.badge')}
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            ZuList
+            {t('hero.title')}
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-gray-700 max-w-3xl mx-auto">
-            רשימות קניות חכמות למשפחות
+            {t('hero.subtitle')}
           </p>
           <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-            האפליקציה המושלמת למשפחות וחברים שקונים יחד. צרו, שתפו ונהלו רשימות קניות בזמן אמת עם שיתוף פעולה חלק.
+            {t('hero.description')}
           </p>
         </div>
       </section>
@@ -43,7 +53,7 @@ export default function ZuListPage() {
       <section className="py-12 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            תכונות עיקריות
+            {t('features.title')}
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -53,16 +63,15 @@ export default function ZuListPage() {
                 <Users className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                שיתוף פעולה בזמן אמת
+                {t('features.realtime.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                שתף רשימות עם משפחה וחברים, ראה שינויים מיידית בכל המכשירים
+                {t('features.realtime.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• ניהול חברים והרשאות</li>
-                <li>• הזמנות דרך אימייל, SMS, WhatsApp</li>
-                <li>• קישורי שיתוף</li>
-                <li>• התראות Push בזמן אמת</li>
+                {t.raw('features.realtime.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -72,15 +81,15 @@ export default function ZuListPage() {
                 <Wifi className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                תמיכה במצב לא מקוון
+                {t('features.offline.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                עובד בצורה חלקה גם ללא חיבור לאינטרנט
+                {t('features.offline.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• סינכרון אוטומטי כשחוזרים לאינטרנט</li>
-                <li>• לעולם לא תאבדו את הנתונים</li>
-                <li>• גיבוי בענן (Premium)</li>
+                {t.raw('features.offline.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -90,15 +99,15 @@ export default function ZuListPage() {
                 <Sparkles className="w-8 h-8 text-purple-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                המלצות חכמות
+                {t('features.smart.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                המלצות מבוססות AI עם קטלוג מוצרים
+                {t('features.smart.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• השלמה אוטומטית חכמה</li>
-                <li>• הצעות מותאמות אישית</li>
-                <li>• למידה מהרגלי הקניות שלך</li>
+                {t.raw('features.smart.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -108,15 +117,15 @@ export default function ZuListPage() {
                 <Layout className="w-8 h-8 text-indigo-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                תבניות חכמות
+                {t('features.templates.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                תבניות רשימת קניות מוכנות מראש
+                {t('features.templates.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• התחלה מהירה לקניות נפוצות</li>
-                <li>• התאמה אישית של תבניות</li>
-                <li>• 34+ תבניות מוכנות</li>
+                {t.raw('features.templates.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -126,15 +135,15 @@ export default function ZuListPage() {
                 <Bell className="w-8 h-8 text-yellow-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                התראות חכמות
+                {t('features.notifications.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                קבל התראה כשנוספים פריטים או כשחברים מעדכנים
+                {t('features.notifications.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• מצב שקט לקניות שקטות</li>
-                <li>• ספירת תגים לעדכונים שלא נקראו</li>
-                <li>• התראות Push בזמן אמת</li>
+                {t.raw('features.notifications.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -144,16 +153,15 @@ export default function ZuListPage() {
                 <Globe className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                תמיכה ב-6 שפות
+                {t('features.multilang.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                תמיכה מלאה ב-6 שפות עם ממשק מתורגם
+                {t('features.multilang.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• 🇺🇸 English</li>
-                <li>• 🇮🇱 Hebrew (עברית) - RTL מלא</li>
-                <li>• 🇩🇪 German, 🇪🇸 Spanish</li>
-                <li>• 🇮🇹 Italian, 🇵🇹 Portuguese</li>
+                {t.raw('features.multilang.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -163,15 +171,15 @@ export default function ZuListPage() {
                 <FolderTree className="w-8 h-8 text-pink-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                ניהול קטגוריות
+                {t('features.categories.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                ארגן את הקניות שלך לפי קטגוריות ליעילות טובה יותר
+                {t('features.categories.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• קטגוריות מותאמות אישית</li>
-                <li>• אייקונים מותאמים</li>
-                <li>• ארגון אוטומטי</li>
+                {t.raw('features.categories.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -181,15 +189,15 @@ export default function ZuListPage() {
                 <ImageIcon className="w-8 h-8 text-rose-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                תמונות מותאמות אישית
+                {t('features.photos.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                הוסף תמונות מותאמות אישית לפריטים
+                {t('features.photos.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• צילום ישיר מהאפליקציה</li>
-                <li>• בחירה מהגלריה</li>
-                <li>• אופטימיזציה אוטומטית</li>
+                {t.raw('features.photos.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -199,15 +207,15 @@ export default function ZuListPage() {
                 <BarChart3 className="w-8 h-8 text-cyan-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                היסטוריית קניות
+                {t('features.history.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                עקוב אחר היסטוריית הקניות שלך
+                {t('features.history.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• סטטיסטיקות מתקדמות (Premium)</li>
-                <li>• מעקב אחר הרגלי קניות</li>
-                <li>• דוחות מפורטים</li>
+                {t.raw('features.history.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -217,15 +225,15 @@ export default function ZuListPage() {
                 <Database className="w-8 h-8 text-orange-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                אינטגרציה עם Firebase
+                {t('features.firebase.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                סנכרון ענן מאובטח עם Firebase
+                {t('features.firebase.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• Authentication, Realtime DB, Firestore</li>
-                <li>• Storage, Functions, FCM</li>
-                <li>• Deep linking</li>
+                {t.raw('features.firebase.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -235,16 +243,15 @@ export default function ZuListPage() {
                 <Lock className="w-8 h-8 text-red-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                פרטיות ואבטחה
+                {t('features.security.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                אימות מאובטח והגנה על הנתונים שלך
+                {t('features.security.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• אימות מאובטח (Google, Apple)</li>
-                <li>• הנתונים מוצפנים</li>
-                <li>• שליטה מלאה על שיתוף</li>
-                <li>• מחיקת חשבון מלאה</li>
+                {t.raw('features.security.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
 
@@ -254,16 +261,15 @@ export default function ZuListPage() {
                 <Smartphone className="w-8 h-8 text-violet-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                יפה ואינטואיטיבי
+                {t('features.ui.title')}
               </h3>
               <p className="text-gray-600 mb-4">
-                ממשק מודרני ונקי עם חוויית משתמש מעולה
+                {t('features.ui.description')}
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• דמויות Zuli Monsters לכיף</li>
-                <li>• ערכות נושא מותאמות אישית</li>
-                <li>• תמיכה במצב כהה</li>
-                <li>• תמיכה מלאה ב-Accessibility</li>
+                {t.raw('features.ui.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
           </div>
@@ -278,66 +284,56 @@ export default function ZuListPage() {
               <Crown className="w-16 h-16 text-yellow-500" />
             </div>
             <h2 className="text-4xl font-bold mb-6 text-gray-900">
-              תכונות Premium
+              {t('premium.title')}
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              שדרג ל-Premium ותהנה מתכונות מתקדמות ללא הגבלות
+              {t('premium.description')}
             </p>
             
-            <div className="grid md:grid-cols-2 gap-6 mb-8 text-right">
+            <div className={`grid md:grid-cols-2 gap-6 mb-8 ${locale === 'he' ? 'text-right' : 'text-left'}`}>
               <div className="bg-blue-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">תכונות Free</h3>
-                <ul className="space-y-2 text-gray-700 text-right">
-                  <li>• 5 רשימות מקסימום</li>
-                  <li>• 150 פריטים לרשימה</li>
-                  <li>• 1 חבר משותף לרשימה</li>
-                  <li>• פרסומות Banner</li>
-                  <li>• ללא סטטיסטיקות מתקדמות</li>
-                  <li>• ללא ערכות נושא מותאמות</li>
-                  <li>• ללא מצב אופליין</li>
-                  <li>• ללא גיבוי ענן</li>
+                <h3 className="text-xl font-bold mb-4 text-gray-900">{t('premium.free.title')}</h3>
+                <ul className="space-y-2 text-gray-700">
+                  {t.raw('premium.free.items').map((item: string, i: number) => (
+                    <li key={i}>• {item}</li>
+                  ))}
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl p-6 border-2 border-purple-300">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">תכונות Premium</h3>
-                <ul className="space-y-2 text-gray-700 text-right">
-                  <li>• רשימות ללא הגבלה</li>
-                  <li>• פריטים ללא הגבלה</li>
-                  <li>• חברים ללא הגבלה</li>
-                  <li>• חוויית שימוש ללא פרסומות</li>
-                  <li>• סטטיסטיקות מתקדמות</li>
-                  <li>• ערכות נושא מותאמות</li>
-                  <li>• מצב אופליין</li>
-                  <li>• גיבוי ענן</li>
+                <h3 className="text-xl font-bold mb-4 text-gray-900">{t('premium.premium.title')}</h3>
+                <ul className="space-y-2 text-gray-700">
+                  {t.raw('premium.premium.items').map((item: string, i: number) => (
+                    <li key={i}>• {item}</li>
+                  ))}
                 </ul>
               </div>
             </div>
 
             <div className="bg-gray-100 rounded-xl p-6 mb-6">
               <p className="text-2xl font-bold text-gray-900 mb-2">
-                💰 חודשי: ₪7.50 | שנתי: ₪65.00
+                💰 {t('premium.pricing.monthly')} | {t('premium.pricing.yearly')}
               </p>
               <p className="text-sm text-gray-600 mb-2">
-                חיסכון של 25% במנוי שנתי
+                {t('premium.pricing.savings')}
               </p>
               <p className="text-xs text-gray-500">
-                גם: $2.00/month או €1.80/month | $18.00/year או €16.00/year
+                {t('premium.pricing.other')}
               </p>
             </div>
 
             {/* Rewarded Ads */}
-            <div className="bg-yellow-50 rounded-xl p-6 mt-6">
+            <div className={`bg-yellow-50 rounded-xl p-6 mt-6 ${locale === 'he' ? 'text-right' : 'text-left'}`}>
               <div className="flex items-center justify-center gap-2 mb-3">
                 <Video className="w-6 h-6 text-yellow-600" />
-                <h3 className="text-xl font-bold text-gray-900">Rewarded Ads</h3>
+                <h3 className="text-xl font-bold text-gray-900">{t('premium.rewarded.title')}</h3>
               </div>
               <p className="text-gray-700 mb-3">
-                צפה בפרסומות וקבל גישה זמנית לתכונות Premium:
+                {t('premium.rewarded.description')}
               </p>
-              <ul className="text-sm text-gray-600 space-y-1 text-right">
-                <li>• הסרת פרסומות למשך 24 שעות</li>
-                <li>• גישה לסטטיסטיקות למשך 24 שעות</li>
-                <li>• 10 פריטים נוספים לרשימה</li>
+              <ul className="text-sm text-gray-600 space-y-1">
+                {t.raw('premium.rewarded.items').map((item: string, i: number) => (
+                  <li key={i}>• {item}</li>
+                ))}
               </ul>
             </div>
           </div>
@@ -350,23 +346,23 @@ export default function ZuListPage() {
           <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8">
             <CheckCircle2 className="w-16 h-16 mx-auto mb-4 text-green-600" />
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
-              ✅ Production Ready
+              {t('status.title')}
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              האפליקציה מוכנה לשימוש עם 521+ טסטים מקיפים
+              {t('status.description')}
             </p>
             <div className="grid md:grid-cols-3 gap-4 text-sm text-gray-600">
               <div>
-                <p className="font-semibold text-gray-900">גרסה</p>
-                <p>1.0.0+1</p>
+                <p className="font-semibold text-gray-900">{t('status.version')}</p>
+                <p>{t('status.versionValue')}</p>
               </div>
               <div>
-                <p className="font-semibold text-gray-900">טסטים</p>
-                <p>521+ טסטים</p>
+                <p className="font-semibold text-gray-900">{t('status.tests')}</p>
+                <p>{t('status.testsValue')}</p>
               </div>
               <div>
-                <p className="font-semibold text-gray-900">סטטוס</p>
-                <p>מוכן לשחרור</p>
+                <p className="font-semibold text-gray-900">{t('status.status')}</p>
+                <p>{t('status.statusValue')}</p>
               </div>
             </div>
           </div>
@@ -377,21 +373,21 @@ export default function ZuListPage() {
       <section className="py-12 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8 text-gray-900">
-            זמין בקרוב
+            {t('download.title')}
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            האפליקציה עולה בימים אלו לחנויות האפליקציות
+            {t('download.description')}
           </p>
           <div className="flex gap-8 justify-center flex-wrap">
             <div className="bg-white rounded-xl p-6 shadow-lg">
               <span className="text-4xl mb-2 block">📱</span>
-              <p className="font-semibold text-gray-700">App Store</p>
-              <p className="text-sm text-gray-500">בקרוב</p>
+              <p className="font-semibold text-gray-700">{t('download.appStore')}</p>
+              <p className="text-sm text-gray-500">{t('download.soon')}</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-lg">
               <span className="text-4xl mb-2 block">📱</span>
-              <p className="font-semibold text-gray-700">Google Play</p>
-              <p className="text-sm text-gray-500">בקרוב</p>
+              <p className="font-semibold text-gray-700">{t('download.googlePlay')}</p>
+              <p className="text-sm text-gray-500">{t('download.soon')}</p>
             </div>
           </div>
         </div>
@@ -401,24 +397,24 @@ export default function ZuListPage() {
       <section className="py-12 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            מושלם עבור
+            {t('perfectFor.title')}
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">👨‍👩‍👧‍👦 משפחות שקונות יחד</h3>
-              <p className="text-gray-600">שתפו רשימות עם כל המשפחה ותמיד תהיו מסונכרנים</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">{t('perfectFor.families.title')}</h3>
+              <p className="text-gray-600">{t('perfectFor.families.description')}</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">🏠 שותפים לדירה</h3>
-              <p className="text-gray-600">חלקו קניות עם שותפים לדירה בקלות</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">{t('perfectFor.roommates.title')}</h3>
+              <p className="text-gray-600">{t('perfectFor.roommates.description')}</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">🎉 מארגני אירועים</h3>
-              <p className="text-gray-600">תכננו אירועים עם חברים בצורה מאורגנת</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">{t('perfectFor.events.title')}</h3>
+              <p className="text-gray-600">{t('perfectFor.events.description')}</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">🛒 כל מי שרוצה קניות מאורגנות</h3>
-              <p className="text-gray-600">הפכו את הקניות למאורגנות, משותפות וכיפיות</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">{t('perfectFor.everyone.title')}</h3>
+              <p className="text-gray-600">{t('perfectFor.everyone.description')}</p>
             </div>
           </div>
         </div>
@@ -428,39 +424,39 @@ export default function ZuListPage() {
       <section className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            קישורים חשובים
+            {t('links.title')}
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <a
               href="mailto:support@zulist.app"
-              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200"
+              className={`bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
             >
               <div className="bg-blue-100 p-3 rounded-lg group-hover:bg-blue-200 transition-colors">
                 <Mail className="w-6 h-6 text-blue-600" />
               </div>
-              <div className="flex-grow text-right">
+              <div className={`flex-grow ${locale === 'he' ? 'text-right' : 'text-left'}`}>
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">
-                  תמיכה טכנית
+                  {t('links.support.title')}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  support@zulist.app
+                  {t('links.support.email')}
                 </p>
               </div>
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
             </a>
             <a
               href="mailto:zuki.apps.dev@gmail.com"
-              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200"
+              className={`bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
             >
               <div className="bg-purple-100 p-3 rounded-lg group-hover:bg-purple-200 transition-colors">
                 <Mail className="w-6 h-6 text-purple-600" />
               </div>
-              <div className="flex-grow text-right">
+              <div className={`flex-grow ${locale === 'he' ? 'text-right' : 'text-left'}`}>
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">
-                  יצירת קשר כללי
+                  {t('links.contact.title')}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  zuki.apps.dev@gmail.com
+                  {t('links.contact.email')}
                 </p>
               </div>
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-purple-600 transition-colors" />
@@ -469,26 +465,26 @@ export default function ZuListPage() {
               href="https://zulist.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200"
+              className={`bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
             >
               <div className="bg-green-100 p-3 rounded-lg group-hover:bg-green-200 transition-colors">
                 <Globe className="w-6 h-6 text-green-600" />
               </div>
-              <div className="flex-grow text-right">
+              <div className={`flex-grow ${locale === 'he' ? 'text-right' : 'text-left'}`}>
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">
-                  אתר רשמי
+                  {t('links.website.title')}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  zulist.app
+                  {t('links.website.url')}
                 </p>
               </div>
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-green-600 transition-colors" />
             </a>
-            <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4 text-right">
-                רשתות חברתיות
+            <div className={`bg-white rounded-xl p-6 shadow-lg border-2 border-gray-200 ${locale === 'he' ? 'text-right' : 'text-left'}`}>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                {t('links.social.title')}
               </h3>
-              <div className="flex gap-4 justify-end">
+              <div className={`flex gap-4 ${locale === 'he' ? 'justify-end' : 'justify-start'}`}>
                 <a
                   href="https://instagram.com/zuki.apps"
                   target="_blank"
@@ -516,12 +512,12 @@ export default function ZuListPage() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 px-4 mt-12">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-gray-400 mb-2">© 2025 ZuList - כל הזכויות שמורות</p>
+          <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
           <p className="text-sm text-gray-500">
-            חלק מ-Zuki Apps • מפתח מישראל • פותח ב-❤️
+            {t('footer.tagline')}
           </p>
           <p className="text-xs text-gray-600 mt-2">
-            Bundle ID: com.zukiapps.zulist | גרסה: 1.0.0+1
+            {t('footer.bundle')}
           </p>
         </div>
       </footer>
