@@ -16,6 +16,16 @@ export default function TermsPage() {
     day: 'numeric'
   });
 
+  // Content variables to avoid ESLint issues
+  const acceptanceContent = t('terms.sections.acceptance.content');
+  const useLicenseContent = t('terms.sections.useLicense.content');
+  const disclaimerContent = t('terms.sections.disclaimer.content');
+  const limitationsContent = t('terms.sections.limitations.content');
+  const accuracyContent = t('terms.sections.accuracy.content');
+  const linksContent = t('terms.sections.links.content');
+  const modificationsContent = t('terms.sections.modifications.content');
+  const contactInfoContent = t('terms.sections.contactInfo.content');
+
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4">
       <div className="max-w-4xl mx-auto">
@@ -45,56 +55,56 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('terms.sections.acceptance.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('terms.sections.acceptance.content')}
+                {acceptanceContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('terms.sections.useLicense.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('terms.sections.useLicense.content')}
+                {useLicenseContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('terms.sections.disclaimer.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('terms.sections.disclaimer.content')}
+                {disclaimerContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('terms.sections.limitations.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('terms.sections.limitations.content')}
+                {limitationsContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('terms.sections.accuracy.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('terms.sections.accuracy.content')}
+                {accuracyContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('terms.sections.links.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('terms.sections.links.content')}
+                {linksContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('terms.sections.modifications.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('terms.sections.modifications.content')}
+                {modificationsContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('terms.sections.contactInfo.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('terms.sections.contactInfo.content')}{' '}
+                {contactInfoContent}{' '}
                 <a href={`mailto:${t('contact.legal')}`} className="text-primary-600 hover:underline">
                   {t('contact.legal')}
                 </a>

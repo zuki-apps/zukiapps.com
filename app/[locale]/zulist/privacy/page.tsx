@@ -16,6 +16,14 @@ export default function PrivacyPage() {
     day: 'numeric'
   });
 
+  // Content variables to avoid ESLint issues
+  const infoCollectionContent = t('privacy.sections.infoCollection.content');
+  const infoUseContent = t('privacy.sections.infoUse.content');
+  const infoSharingContent = t('privacy.sections.infoSharing.content');
+  const dataSecurityContent = t('privacy.sections.dataSecurity.content');
+  const yourRightsContent = t('privacy.sections.yourRights.content');
+  const contactUsContent = t('privacy.sections.contactUs.content');
+
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4">
       <div className="max-w-4xl mx-auto">
@@ -45,42 +53,42 @@ export default function PrivacyPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('privacy.sections.infoCollection.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('privacy.sections.infoCollection.content')}
+                {infoCollectionContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('privacy.sections.infoUse.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('privacy.sections.infoUse.content')}
+                {infoUseContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('privacy.sections.infoSharing.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('privacy.sections.infoSharing.content')}
+                {infoSharingContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('privacy.sections.dataSecurity.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('privacy.sections.dataSecurity.content')}
+                {dataSecurityContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('privacy.sections.yourRights.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('privacy.sections.yourRights.content')}
+                {yourRightsContent}
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('privacy.sections.contactUs.title')}</h2>
               <p className="text-gray-700 leading-relaxed">
-                {t('privacy.sections.contactUs.content')}{' '}
+                {contactUsContent}{' '}
                 <a href={`mailto:${t('contact.legal')}`} className="text-primary-600 hover:underline">
                   {t('contact.legal')}
                 </a>
