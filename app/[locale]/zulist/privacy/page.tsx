@@ -1,4 +1,5 @@
 'use client';
+/* eslint-disable react/no-unescaped-entities */
 
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
