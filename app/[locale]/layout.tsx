@@ -23,7 +23,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={locale === 'he' ? 'rtl' : 'ltr'}>
+    <html lang={locale} dir="ltr">
       <body>
         <NextIntlClientProvider messages={messages}>
           <div className="min-h-screen flex flex-col">

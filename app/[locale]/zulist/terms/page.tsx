@@ -9,7 +9,7 @@ export default function TermsPage() {
   const tCommon = useTranslations('common');
   const locale = useLocale();
 
-  const currentDate = new Date().toLocaleDateString(locale === 'he' ? 'he-IL' : 'en-US', {
+  const currentDate = new Date().toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'

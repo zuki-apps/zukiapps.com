@@ -50,30 +50,6 @@ export default function Navigation() {
               {t('zulist')}
             </Link>
             
-            {/* Language Switcher */}
-            <div className="flex items-center gap-2 border-l border-gray-300 pl-4">
-              <Link
-                href={pathname.replace(`/${locale}`, '/en')}
-                className={`px-2 py-1 rounded text-sm ${
-                  locale === 'en'
-                    ? 'text-primary-600 font-semibold'
-                    : 'text-gray-600 hover:text-primary-600'
-                }`}
-              >
-                EN
-              </Link>
-              <span className="text-gray-300">|</span>
-              <Link
-                href={pathname.replace(`/${locale}`, '/he')}
-                className={`px-2 py-1 rounded text-sm ${
-                  locale === 'he'
-                    ? 'text-primary-600 font-semibold'
-                    : 'text-gray-600 hover:text-primary-600'
-                }`}
-              >
-                עברית
-              </Link>
-            </div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -110,31 +86,6 @@ export default function Navigation() {
             >
               {t('zulist')}
             </Link>
-            <div className="flex items-center gap-2 px-3 py-2 border-t border-gray-200 mt-2">
-              <Link
-                href={pathname.replace(`/${locale}`, '/en')}
-                onClick={toggleMenu}
-                className={`px-2 py-1 rounded text-sm ${
-                  locale === 'en'
-                    ? 'text-primary-600 font-semibold'
-                    : 'text-gray-600'
-                }`}
-              >
-                EN
-              </Link>
-              <span className="text-gray-300">|</span>
-              <Link
-                href={pathname.replace(`/${locale}`, '/he')}
-                onClick={toggleMenu}
-                className={`px-2 py-1 rounded text-sm ${
-                  locale === 'he'
-                    ? 'text-primary-600 font-semibold'
-                    : 'text-gray-600'
-                }`}
-              >
-                עברית
-              </Link>
-            </div>
           </div>
         )}
       </div>
