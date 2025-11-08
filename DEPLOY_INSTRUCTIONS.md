@@ -17,10 +17,12 @@
 ## שלב 2: פתח את Cloudflare Pages
 
 **אפשרות 1 (הכי פשוט):**
+
 1. לך ישירות ל: **https://pages.cloudflare.com**
 2. לחץ על **"Create a project"** או **"Connect to Git"**
 
 **אפשרות 2 (דרך Dashboard):**
+
 1. ב-Cloudflare Dashboard הראשי, חפש בתפריט השמאלי:
    - **"Workers & Pages"** או
    - **"Pages"** או
@@ -29,6 +31,7 @@
 3. בחר **"Pages"** → **"Connect to Git"**
 
 **אם אתה לא רואה את זה:**
+
 - נסה ישירות: **https://dash.cloudflare.com/pages**
 - או: **https://dash.cloudflare.com/workers**
 
@@ -36,10 +39,28 @@
 
 ## שלב 3: חבר את ה-Repository
 
-1. בחר **Bitbucket** (או GitHub אם אתה משתמש בו)
-2. לחץ **"Authorize Cloudflare"**
-3. תן הרשאה ל-Cloudflare לגשת ל-repositories שלך
-4. בחר את ה-repository: **`zukiapps.com`** (או איך שהוא נקרא)
+**⚠️ חשוב: Cloudflare Pages תומך רק ב-GitHub ו-GitLab, לא ב-Bitbucket!**
+
+**יש לך 3 אפשרויות:**
+
+### אפשרות 1: העבר את הפרויקט ל-GitHub (הכי פשוט) ⭐
+1. צור repository חדש ב-GitHub
+2. העתק את הקוד:
+   ```bash
+   git remote add github https://github.com/your-username/zukiapps.git
+   git push github main
+   ```
+3. ב-Cloudflare Pages, בחר **GitHub** במקום Bitbucket
+4. בחר את ה-repository החדש
+
+### אפשרות 2: Deploy ידני עם Wrangler CLI
+1. התקן Wrangler: `npm install -g wrangler`
+2. התחבר: `wrangler login`
+3. בנה את האתר: `npm run build`
+4. Deploy: `wrangler pages deploy .next`
+
+### אפשרות 3: השתמש ב-Netlify (תומך ב-Bitbucket!)
+Netlify תומך ב-Bitbucket! אם אתה רוצה להישאר עם Bitbucket, Netlify הוא פתרון טוב יותר.
 
 ---
 
