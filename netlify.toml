@@ -8,3 +8,7 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Continuous Deployment - Netlify will automatically pull and deploy on every git push
+[build.processing]
+  skip_processing = false
+
