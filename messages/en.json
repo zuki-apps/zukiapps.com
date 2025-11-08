@@ -262,6 +262,213 @@
       "copyright": "© 2025 ZuList - All rights reserved",
       "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️",
       "bundle": "Bundle ID: com.zukiapps.zulist | Version: 1.0.0+1"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: December 2024",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You have the right to access, update, or delete your personal information. You may also opt out of certain communications from us."
+      },
+      "section6": {
+        "title": "6. Camera and Photo Library Access",
+        "content": "ZuList requires access to your device's camera and photo library to allow you to take and upload photos of shopping list items. We only access these features when you explicitly choose to add a photo to a list or item. Photos are stored securely in our cloud storage and are only accessible to you and users you share your lists with."
+      },
+      "section7": {
+        "title": "7. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:"
+      }
+    },
+    "deleteAccount": {
+      "title": "Delete ZuList Account",
+      "intro": "If you wish to delete your account and all associated data, please follow the steps below:",
+      "warning": {
+        "title": "⚠️ Important Warning",
+        "content": "Account deletion is a permanent action and cannot be undone. All data associated with your account will be permanently deleted."
+      },
+      "steps": {
+        "title": "Account Deletion Instructions",
+        "step1": "Open the ZuList app on your device",
+        "step2": "Log in to your account (if you haven't already)",
+        "step3": "Tap the Profile button (or Settings) in the bottom menu",
+        "step4": "Scroll down until you find the Delete account button (or Delete account)",
+        "step5": "Tap the button and read the message",
+        "step6": "Confirm the deletion - the account and all data will be permanently deleted"
+      },
+      "data": {
+        "title": "Data That Will Be Deleted",
+        "intro": "When you delete your account, the following data will be permanently deleted:",
+        "item1": "Personal information: name, email address, user ID",
+        "item2": "Shopping lists: all shopping lists you created",
+        "item3": "Items: all items in your lists",
+        "item4": "Photos: profile photos, list photos, item photos",
+        "item5": "Preferences: personal settings and user preferences",
+        "item6": "Purchase history: all statistical data and history",
+        "item7": "Sync data: all cloud-synced data"
+      },
+      "sharedLists": {
+        "owner": {
+          "title": "Lists you created (Owner):",
+          "item1": "If there are other users in the list → Ownership will be transferred to another user (automatically)",
+          "item2": "If you are the only one in the list → The list will be completely deleted"
+        },
+        "member": {
+          "title": "Lists you participate in (Member):",
+          "item1": "You will be removed from the list",
+          "item2": "The list will remain active for other users",
+          "item3": "Data and items will remain (only you will be removed)"
+        }
+      },
+      "partialDelete": {
+        "title": "Deleting Some Data (Without Deleting the Account)",
+        "intro": "If you wish to delete only some data without deleting the account, you can:",
+        "item1": "Delete profile photos: Profile screen → Remove photo",
+        "item2": "Delete lists: Home screen → Delete list",
+        "item3": "Delete items: Inside a list → Delete item"
+      },
+      "retention": {
+        "title": "Retention Period",
+        "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have questions or issues with account deletion, please contact us:",
+        "email": "Email",
+        "privacy": "Privacy Policy",
+        "privacyLink": "Read the full privacy policy"
+      }
+    },
+    "deleteData": {
+      "title": "Delete Data - ZuList",
+      "intro": {
+        "title": "Deleting Data Without Deleting the Account",
+        "content": "You can delete some of your data without deleting the account. This way you can keep the account and delete only the data you want to remove."
+      },
+      "types": {
+        "title": "Types of Data You Can Delete",
+        "profilePhotos": {
+          "title": "1. Profile Photos",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "Your profile photo",
+          "deletedItem2": "Custom photos uploaded manually",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "Username",
+          "keptItem3": "All other data",
+          "howTo": "How to delete:",
+          "step1": "Open the ZuList app",
+          "step2": "Tap the Profile button in the bottom menu",
+          "step3": "Tap your profile photo",
+          "step4": "Select Remove Image or Remove Image",
+          "step5": "Confirm the deletion"
+        },
+        "shoppingLists": {
+          "title": "2. Shopping Lists",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "The selected shopping list",
+          "deletedItem2": "All items in the list",
+          "deletedItem3": "List photos",
+          "deletedItem4": "List settings",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "All other lists",
+          "keptItem3": "Other personal data",
+          "howTo": "How to delete:",
+          "step1": "Open the ZuList app",
+          "step2": "On the home screen, find the list you want to delete",
+          "step3": "Long press on the list (or tap three dots)",
+          "step4": "Select Delete List or Delete List",
+          "step5": "Confirm the deletion"
+        },
+        "items": {
+          "title": "3. Items in Lists",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "The selected item",
+          "deletedItem2": "Item photos",
+          "deletedItem3": "Notes on the item",
+          "deletedItem4": "Quantity and price (if entered)",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "The list itself",
+          "keptItem3": "All other items in the list",
+          "howTo": "How to delete:",
+          "step1": "Open the ZuList app",
+          "step2": "Open the list containing the item",
+          "step3": "Long press on the item (or swipe left)",
+          "step4": "Select Delete or Delete",
+          "step5": "Confirm the deletion"
+        },
+        "images": {
+          "title": "4. List and Item Photos",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "List photos (background/custom image)",
+          "deletedItem2": "Item photos",
+          "deletedItem3": "Category photos",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "The list/item/category itself",
+          "keptItem3": "All other data",
+          "howTo": "How to delete:",
+          "step1": "Open the list/item/category",
+          "step2": "Tap the photo",
+          "step3": "Select Remove Image or Remove Image",
+          "step4": "Confirm the deletion"
+        },
+        "purchaseHistory": {
+          "title": "5. Purchase History and Statistical Data",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "Purchase history (when items marked as purchased are deleted)",
+          "deletedItem2": "Statistical data (when lists are deleted)",
+          "deletedItem3": "History-based recommendations",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "Active lists",
+          "keptItem3": "Personal data",
+          "note": {
+            "title": "Note:",
+            "content": "Deleting purchase history is done automatically when items or lists are deleted. No separate action is required."
+          }
+        }
+      },
+      "info": {
+        "title": "ℹ️ Important Information:",
+        "item1": "Data deletion is immediate - data is deleted immediately from the device and cloud",
+        "item2": "Deleted data cannot be recovered",
+        "item3": "If you participate in shared lists, deleting items/lists will also affect other users",
+        "item4": "Your account will remain active even after deleting data"
+      },
+      "retention": {
+        "title": "Retention Period",
+        "content": "Deleted data will be removed from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+      },
+      "fullDelete": {
+        "title": "Want to delete the entire account?",
+        "content": "If you wish to delete the entire account and all associated data,",
+        "link": "click here for full account deletion"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have questions or issues with data deletion, please contact us:",
+        "email": "Email",
+        "privacy": "Privacy Policy",
+        "privacyLink": "Read the full privacy policy"
+      }
     }
   },
   "common": {
