@@ -57,9 +57,7 @@ export default function TermsPage() {
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">{t('terms.sections.disclaimer.title')}</h2>
-              <p className="text-gray-700 leading-relaxed">
-                {t('terms.sections.disclaimer.content')}
-              </p>
+              <p className="text-gray-700 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('terms.sections.disclaimer.content') }} />
             </section>
 
             <section className="mb-8">
