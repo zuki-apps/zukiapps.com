@@ -16,9 +16,21 @@
 
 ## שלב 2: פתח את Cloudflare Pages
 
-1. ב-Dashboard, לחץ על **"Workers & Pages"** בתפריט השמאלי
-2. לחץ על **"Create application"**
+**אפשרות 1 (הכי פשוט):**
+1. לך ישירות ל: **https://pages.cloudflare.com**
+2. לחץ על **"Create a project"** או **"Connect to Git"**
+
+**אפשרות 2 (דרך Dashboard):**
+1. ב-Cloudflare Dashboard הראשי, חפש בתפריט השמאלי:
+   - **"Workers & Pages"** או
+   - **"Pages"** או
+   - **"Workers"** (ואז Pages בתוכו)
+2. לחץ על **"Create application"** או **"Create"**
 3. בחר **"Pages"** → **"Connect to Git"**
+
+**אם אתה לא רואה את זה:**
+- נסה ישירות: **https://dash.cloudflare.com/pages**
+- או: **https://dash.cloudflare.com/workers**
 
 ---
 
@@ -36,12 +48,14 @@
 Cloudflare יזהה אוטומטית Next.js, אבל תצטרך לוודא:
 
 **Build settings:**
+
 - **Framework preset:** `Next.js` (או `Next.js (Static HTML Export)`)
 - **Build command:** `npm run build`
 - **Build output directory:** `.next`
 - **Root directory:** `/` (השאר ריק)
 
 **Environment variables:**
+
 - אין צורך ב-variables מיוחדים (השאר ריק)
 
 ---
@@ -58,6 +72,7 @@ Cloudflare יזהה אוטומטית Next.js, אבל תצטרך לוודא:
 ## מה קורה אחר כך?
 
 **כל פעם שאתה עושה `git push`:**
+
 1. Cloudflare מזהה את השינוי ב-Git
 2. בונה את האתר מחדש
 3. מעלה את הגרסה החדשה
@@ -98,4 +113,3 @@ Cloudflare יזהה אוטומטית Next.js, אבל תצטרך לוודא:
 ---
 
 **זה הכל! פשוט מאוד! 🚀**
-
