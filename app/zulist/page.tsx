@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { ShoppingCart, ArrowLeft, Users, Wifi, Sparkles, Globe, Database, UserCircle, FolderTree, Download, Shield, FileText, Mail, ExternalLink, Bell, Layout, Crown, Image as ImageIcon, BarChart3, Moon, Smartphone, Lock } from 'lucide-react';
+import { ShoppingCart, ArrowLeft, Users, Wifi, Sparkles, Globe, Database, UserCircle, FolderTree, Download, Shield, FileText, Mail, ExternalLink, Bell, Layout, Crown, Image as ImageIcon, BarChart3, Moon, Smartphone, Lock, CheckCircle2, Video, Instagram, Facebook } from 'lucide-react';
 
 export default function ZuListPage() {
   return (
@@ -23,6 +23,10 @@ export default function ZuListPage() {
           <div className="mb-8">
             <ShoppingCart className="w-24 h-24 mx-auto mb-6 text-blue-600" />
           </div>
+          <div className="inline-flex items-center gap-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            <CheckCircle2 className="w-4 h-4" />
+            Production Ready - גרסה 1.0.0
+          </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             ZuList
           </h1>
@@ -31,7 +35,6 @@ export default function ZuListPage() {
           </p>
           <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
             האפליקציה המושלמת למשפחות וחברים שקונים יחד. צרו, שתפו ונהלו רשימות קניות בזמן אמת עם שיתוף פעולה חלק.
-            עולה בימים אלו!
           </p>
         </div>
       </section>
@@ -57,8 +60,9 @@ export default function ZuListPage() {
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
                 <li>• ניהול חברים והרשאות</li>
-                <li>• מצב אורח לגישה מהירה</li>
-                <li>• התראות שיתוף פעולה בזמן אמת</li>
+                <li>• הזמנות דרך אימייל, SMS, WhatsApp</li>
+                <li>• קישורי שיתוף</li>
+                <li>• התראות Push בזמן אמת</li>
               </ul>
             </div>
 
@@ -76,7 +80,7 @@ export default function ZuListPage() {
               <ul className="text-sm text-gray-500 space-y-2">
                 <li>• סינכרון אוטומטי כשחוזרים לאינטרנט</li>
                 <li>• לעולם לא תאבדו את הנתונים</li>
-                <li>• גיבוי בענן כלול</li>
+                <li>• גיבוי בענן (Premium)</li>
               </ul>
             </div>
 
@@ -89,10 +93,10 @@ export default function ZuListPage() {
                 המלצות חכמות
               </h3>
               <p className="text-gray-600 mb-4">
-                המלצות מבוססות AI שעוזרות לך למצוא מוצרים מהר יותר
+                המלצות מבוססות AI עם קטלוג מוצרים
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• זיהוי מוצרים חכם</li>
+                <li>• השלמה אוטומטית חכמה</li>
                 <li>• הצעות מותאמות אישית</li>
                 <li>• למידה מהרגלי הקניות שלך</li>
               </ul>
@@ -140,15 +144,16 @@ export default function ZuListPage() {
                 <Globe className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                תמיכה רב-לשונית
+                תמיכה ב-6 שפות
               </h3>
               <p className="text-gray-600 mb-4">
-                זמין באנגלית ובעברית עם תמיכה מלאה
+                תמיכה מלאה ב-6 שפות עם ממשק מתורגם
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• תמיכה מלאה ב-RTL (מימין לשמאל)</li>
-                <li>• ממשק מתורגם לחלוטין</li>
-                <li>• תמיכה בשתי השפות</li>
+                <li>• 🇺🇸 English</li>
+                <li>• 🇮🇱 Hebrew (עברית) - RTL מלא</li>
+                <li>• 🇩🇪 German, 🇪🇸 Spanish</li>
+                <li>• 🇮🇹 Italian, 🇵🇹 Portuguese</li>
               </ul>
             </div>
 
@@ -165,8 +170,8 @@ export default function ZuListPage() {
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
                 <li>• קטגוריות מותאמות אישית</li>
+                <li>• אייקונים מותאמים</li>
                 <li>• ארגון אוטומטי</li>
-                <li>• חיפוש מהיר</li>
               </ul>
             </div>
 
@@ -218,9 +223,9 @@ export default function ZuListPage() {
                 סנכרון ענן מאובטח עם Firebase
               </p>
               <ul className="text-sm text-gray-500 space-y-2">
-                <li>• אחסון נתונים אמין</li>
-                <li>• גיבוי אוטומטי</li>
-                <li>• סינכרון בין מכשירים</li>
+                <li>• Authentication, Realtime DB, Firestore</li>
+                <li>• Storage, Functions, FCM</li>
+                <li>• Deep linking</li>
               </ul>
             </div>
 
@@ -239,6 +244,7 @@ export default function ZuListPage() {
                 <li>• אימות מאובטח (Google, Apple)</li>
                 <li>• הנתונים מוצפנים</li>
                 <li>• שליטה מלאה על שיתוף</li>
+                <li>• מחיקת חשבון מלאה</li>
               </ul>
             </div>
 
@@ -257,6 +263,7 @@ export default function ZuListPage() {
                 <li>• דמויות Zuli Monsters לכיף</li>
                 <li>• ערכות נושא מותאמות אישית</li>
                 <li>• תמיכה במצב כהה</li>
+                <li>• תמיכה מלאה ב-Accessibility</li>
               </ul>
             </div>
           </div>
@@ -280,40 +287,94 @@ export default function ZuListPage() {
             <div className="grid md:grid-cols-2 gap-6 mb-8 text-right">
               <div className="bg-blue-50 rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4 text-gray-900">תכונות Free</h3>
-                <ul className="space-y-2 text-gray-700">
+                <ul className="space-y-2 text-gray-700 text-right">
                   <li>• 5 רשימות מקסימום</li>
-                  <li>• 50 פריטים לרשימה</li>
-                  <li>• 3 משתתפים מקסימום</li>
-                  <li>• עם פרסומות</li>
+                  <li>• 150 פריטים לרשימה</li>
+                  <li>• 1 חבר משותף לרשימה</li>
+                  <li>• פרסומות Banner</li>
+                  <li>• ללא סטטיסטיקות מתקדמות</li>
+                  <li>• ללא ערכות נושא מותאמות</li>
+                  <li>• ללא מצב אופליין</li>
+                  <li>• ללא גיבוי ענן</li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl p-6 border-2 border-purple-300">
                 <h3 className="text-xl font-bold mb-4 text-gray-900">תכונות Premium</h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• רשימות ופריטים ללא הגבלה</li>
-                  <li>• חברים ללא הגבלה לרשימה</li>
-                  <li>• סטטיסטיקות מתקדמות</li>
+                <ul className="space-y-2 text-gray-700 text-right">
+                  <li>• רשימות ללא הגבלה</li>
+                  <li>• פריטים ללא הגבלה</li>
+                  <li>• חברים ללא הגבלה</li>
                   <li>• חוויית שימוש ללא פרסומות</li>
-                  <li>• ערכות נושא בלעדיות</li>
-                  <li>• תמיכה עדיפה</li>
+                  <li>• סטטיסטיקות מתקדמות</li>
+                  <li>• ערכות נושא מותאמות</li>
+                  <li>• מצב אופליין</li>
+                  <li>• גיבוי ענן</li>
                 </ul>
               </div>
             </div>
 
             <div className="bg-gray-100 rounded-xl p-6 mb-6">
               <p className="text-2xl font-bold text-gray-900 mb-2">
-                💰 חודשי: 9.90 ₪ | שנתי: 99.90 ₪
+                💰 חודשי: ₪7.50 | שנתי: ₪65.00
               </p>
-              <p className="text-sm text-gray-600">
-                נסה חינם למשך 7 ימים
+              <p className="text-sm text-gray-600 mb-2">
+                חיסכון של 25% במנוי שנתי
               </p>
+              <p className="text-xs text-gray-500">
+                גם: $2.00/month או €1.80/month | $18.00/year או €16.00/year
+              </p>
+            </div>
+
+            {/* Rewarded Ads */}
+            <div className="bg-yellow-50 rounded-xl p-6 mt-6">
+              <div className="flex items-center justify-center gap-2 mb-3">
+                <Video className="w-6 h-6 text-yellow-600" />
+                <h3 className="text-xl font-bold text-gray-900">Rewarded Ads</h3>
+              </div>
+              <p className="text-gray-700 mb-3">
+                צפה בפרסומות וקבל גישה זמנית לתכונות Premium:
+              </p>
+              <ul className="text-sm text-gray-600 space-y-1 text-right">
+                <li>• הסרת פרסומות למשך 24 שעות</li>
+                <li>• גישה לסטטיסטיקות למשך 24 שעות</li>
+                <li>• 10 פריטים נוספים לרשימה</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Status Section */}
+      <section className="py-12 px-4 bg-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8">
+            <CheckCircle2 className="w-16 h-16 mx-auto mb-4 text-green-600" />
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">
+              ✅ Production Ready
+            </h2>
+            <p className="text-lg text-gray-700 mb-6">
+              האפליקציה מוכנה לשימוש עם 521+ טסטים מקיפים
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 text-sm text-gray-600">
+              <div>
+                <p className="font-semibold text-gray-900">גרסה</p>
+                <p>1.0.0+1</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900">טסטים</p>
+                <p>521+ טסטים</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900">סטטוס</p>
+                <p>מוכן לשחרור</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Download Section */}
-      <section className="py-12 px-4 bg-white">
+      <section className="py-12 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8 text-gray-900">
             זמין בקרוב
@@ -322,12 +383,12 @@ export default function ZuListPage() {
             האפליקציה עולה בימים אלו לחנויות האפליקציות
           </p>
           <div className="flex gap-8 justify-center flex-wrap">
-            <div className="bg-gray-100 rounded-xl p-6 opacity-75">
+            <div className="bg-white rounded-xl p-6 shadow-lg">
               <span className="text-4xl mb-2 block">📱</span>
               <p className="font-semibold text-gray-700">App Store</p>
               <p className="text-sm text-gray-500">בקרוב</p>
             </div>
-            <div className="bg-gray-100 rounded-xl p-6 opacity-75">
+            <div className="bg-white rounded-xl p-6 shadow-lg">
               <span className="text-4xl mb-2 block">📱</span>
               <p className="font-semibold text-gray-700">Google Play</p>
               <p className="text-sm text-gray-500">בקרוב</p>
@@ -364,29 +425,90 @@ export default function ZuListPage() {
       </section>
 
       {/* Links Section */}
-      <section className="py-12 px-4">
+      <section className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
             קישורים חשובים
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <a
-              href="mailto:zuki.apps.dev@gmail.com"
-              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group"
+              href="mailto:support@zulist.app"
+              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200"
             >
               <div className="bg-blue-100 p-3 rounded-lg group-hover:bg-blue-200 transition-colors">
                 <Mail className="w-6 h-6 text-blue-600" />
               </div>
               <div className="flex-grow text-right">
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">
-                  יצירת קשר
+                  תמיכה טכנית
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  support@zulist.app
+                </p>
+              </div>
+              <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
+            </a>
+            <a
+              href="mailto:zuki.apps.dev@gmail.com"
+              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200"
+            >
+              <div className="bg-purple-100 p-3 rounded-lg group-hover:bg-purple-200 transition-colors">
+                <Mail className="w-6 h-6 text-purple-600" />
+              </div>
+              <div className="flex-grow text-right">
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                  יצירת קשר כללי
                 </h3>
                 <p className="text-gray-600 text-sm">
                   zuki.apps.dev@gmail.com
                 </p>
               </div>
-              <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
+              <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-purple-600 transition-colors" />
             </a>
+            <a
+              href="https://zulist.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200"
+            >
+              <div className="bg-green-100 p-3 rounded-lg group-hover:bg-green-200 transition-colors">
+                <Globe className="w-6 h-6 text-green-600" />
+              </div>
+              <div className="flex-grow text-right">
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                  אתר רשמי
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  zulist.app
+                </p>
+              </div>
+              <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-green-600 transition-colors" />
+            </a>
+            <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-gray-200">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 text-right">
+                רשתות חברתיות
+              </h3>
+              <div className="flex gap-4 justify-end">
+                <a
+                  href="https://instagram.com/zuki.apps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-pink-100 p-3 rounded-lg hover:bg-pink-200 transition-colors"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="w-6 h-6 text-pink-600" />
+                </a>
+                <a
+                  href="https://facebook.com/zuki.apps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 transition-colors"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="w-6 h-6 text-blue-600" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -397,6 +519,9 @@ export default function ZuListPage() {
           <p className="text-gray-400 mb-2">© 2025 ZuList - כל הזכויות שמורות</p>
           <p className="text-sm text-gray-500">
             חלק מ-Zuki Apps • מפתח מישראל • פותח ב-❤️
+          </p>
+          <p className="text-xs text-gray-600 mt-2">
+            Bundle ID: com.zukiapps.zulist | גרסה: 1.0.0+1
           </p>
         </div>
       </footer>
