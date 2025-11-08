@@ -66,6 +66,7 @@
 ### בעיה 1: Repository לא מחובר
 
 **פתרון:**
+
 1. Site settings → **Build & deploy** → **Continuous Deployment**
 2. לחץ על **Link repository**
 3. בחר **Bitbucket**
@@ -75,6 +76,7 @@
 ### בעיה 2: Webhook לא פעיל
 
 **פתרון:**
+
 1. Site settings → **Build & deploy** → **Continuous Deployment**
 2. בדוק שיש **Webhook URL** מופיע
 3. אם לא - לחץ **Update settings** ושמור מחדש
@@ -82,6 +84,7 @@
 ### בעיה 3: Bitbucket לא נותן הרשאות
 
 **פתרון:**
+
 1. לך ל-Bitbucket → **Personal settings** → **App passwords**
 2. ודא שיש לך App password ל-Netlify
 3. אם לא - צור אחד חדש
@@ -147,12 +150,14 @@ Base directory: (ריק)
 ## סיכום
 
 **Netlify עושה pull אוטומטית אם:**
+
 - ✅ Repository מחובר ב-Site settings
 - ✅ Production branch מוגדר נכון (`main` או `master`)
 - ✅ Deploy strategy = `Automatic`
 - ✅ כל `git push` גורם ל-deploy חדש ב-Netlify
 
 **אם זה לא עובד:**
+
 1. בדוק את ה-Deploy logs
 2. ודא שה-repository מחובר
 3. נסה לעשות Manual deploy
@@ -161,4 +166,3 @@ Base directory: (ריק)
 ---
 
 **זה הכל! 🚀**
-

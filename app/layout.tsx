@@ -6,10 +6,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="he" dir="rtl">
+    <html lang="en" dir="ltr">
       <head>
-        <title>Zuki Apps - מפתח אפליקציות מישראל</title>
-        <meta name="description" content="Zuki Apps - מפתח אפליקציות מישראל. ZuList - אפליקציית רשימת קניות חכמה" />
+        <title>Zuki Apps - Mobile App Developer from Israel</title>
+        <meta name="description" content="Zuki Apps - Mobile App Developer from Israel. Creating smart and intuitive mobile applications. ZuList - Smart shopping list app." />
       </head>
       <body>{children}</body>
     </html>
