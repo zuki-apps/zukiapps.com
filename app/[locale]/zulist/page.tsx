@@ -10,7 +10,7 @@ export default function ZuListPage() {
   const locale = useLocale();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
       {/* Language Switcher */}
       <div className="max-w-7xl mx-auto px-4 pt-4">
         <LanguageSwitcher />
@@ -58,7 +58,7 @@ export default function ZuListPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Real-time Collaboration */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-blue-600" />
               </div>
@@ -76,7 +76,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Offline Support */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Wifi className="w-8 h-8 text-green-600" />
               </div>
@@ -94,7 +94,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Smart Suggestions */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Sparkles className="w-8 h-8 text-purple-600" />
               </div>
@@ -112,7 +112,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Smart Templates */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Layout className="w-8 h-8 text-indigo-600" />
               </div>
@@ -130,7 +130,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Smart Notifications */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Bell className="w-8 h-8 text-yellow-600" />
               </div>
@@ -148,7 +148,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Multi-language */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Globe className="w-8 h-8 text-teal-600" />
               </div>
@@ -166,7 +166,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Category Management */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <FolderTree className="w-8 h-8 text-pink-600" />
               </div>
@@ -184,7 +184,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Custom Photos */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-rose-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <ImageIcon className="w-8 h-8 text-rose-600" />
               </div>
@@ -202,7 +202,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Purchase History */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-cyan-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <BarChart3 className="w-8 h-8 text-cyan-600" />
               </div>
@@ -220,7 +220,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Firebase Integration */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Database className="w-8 h-8 text-orange-600" />
               </div>
@@ -238,7 +238,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Security */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Lock className="w-8 h-8 text-red-600" />
               </div>
@@ -256,7 +256,7 @@ export default function ZuListPage() {
             </div>
 
             {/* Beautiful UI */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-blue-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-violet-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Smartphone className="w-8 h-8 text-violet-600" />
               </div>
@@ -279,7 +279,7 @@ export default function ZuListPage() {
       {/* Premium Features Section */}
       <section className="py-12 px-4 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 text-center">
+          <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12 text-center">
             <div className="flex items-center justify-center mb-6">
               <Crown className="w-16 h-16 text-yellow-500" />
             </div>
@@ -341,7 +341,7 @@ export default function ZuListPage() {
       </section>
 
       {/* Status Section */}
-      <section className="py-12 px-4 bg-white">
+      <section className="py-12 px-4 bg-blue-50">
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8">
             <CheckCircle2 className="w-16 h-16 mx-auto mb-4 text-green-600" />
@@ -379,12 +379,12 @@ export default function ZuListPage() {
             {t('download.description')}
           </p>
           <div className="flex gap-8 justify-center flex-wrap">
-            <div className="bg-white rounded-xl p-6 shadow-lg">
+            <div className="bg-blue-50 rounded-xl p-6 shadow-lg">
               <span className="text-4xl mb-2 block">📱</span>
               <p className="font-semibold text-gray-700">{t('download.appStore')}</p>
               <p className="text-sm text-gray-500">{t('download.soon')}</p>
             </div>
-            <div className="bg-white rounded-xl p-6 shadow-lg">
+            <div className="bg-blue-50 rounded-xl p-6 shadow-lg">
               <span className="text-4xl mb-2 block">📱</span>
               <p className="font-semibold text-gray-700">{t('download.googlePlay')}</p>
               <p className="text-sm text-gray-500">{t('download.soon')}</p>
@@ -400,19 +400,19 @@ export default function ZuListPage() {
             {t('perfectFor.title')}
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-xl p-6 shadow-lg">
+            <div className="bg-blue-50 rounded-xl p-6 shadow-lg">
               <h3 className="text-xl font-bold mb-3 text-gray-900">{t('perfectFor.families.title')}</h3>
               <p className="text-gray-600">{t('perfectFor.families.description')}</p>
             </div>
-            <div className="bg-white rounded-xl p-6 shadow-lg">
+            <div className="bg-blue-50 rounded-xl p-6 shadow-lg">
               <h3 className="text-xl font-bold mb-3 text-gray-900">{t('perfectFor.roommates.title')}</h3>
               <p className="text-gray-600">{t('perfectFor.roommates.description')}</p>
             </div>
-            <div className="bg-white rounded-xl p-6 shadow-lg">
+            <div className="bg-blue-50 rounded-xl p-6 shadow-lg">
               <h3 className="text-xl font-bold mb-3 text-gray-900">{t('perfectFor.events.title')}</h3>
               <p className="text-gray-600">{t('perfectFor.events.description')}</p>
             </div>
-            <div className="bg-white rounded-xl p-6 shadow-lg">
+            <div className="bg-blue-50 rounded-xl p-6 shadow-lg">
               <h3 className="text-xl font-bold mb-3 text-gray-900">{t('perfectFor.everyone.title')}</h3>
               <p className="text-gray-600">{t('perfectFor.everyone.description')}</p>
             </div>
@@ -421,15 +421,15 @@ export default function ZuListPage() {
       </section>
 
       {/* Links Section */}
-      <section className="py-12 px-4 bg-white">
+      <section className="py-12 px-4 bg-blue-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
             {t('links.title')}
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <a
-              href="mailto:support@zulist.app"
-              className={`bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
+              href="mailto:zuki.apps.dev@gmail.com"
+              className={`bg-blue-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
             >
               <div className="bg-blue-100 p-3 rounded-lg group-hover:bg-blue-200 transition-colors">
                 <Mail className="w-6 h-6 text-blue-600" />
@@ -445,8 +445,8 @@ export default function ZuListPage() {
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
             </a>
             <a
-              href="mailto:zuki.apps.dev@gmail.com"
-              className={`bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
+              href="mailto:zuki.apps@gmail.com"
+              className={`bg-blue-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
             >
               <div className="bg-purple-100 p-3 rounded-lg group-hover:bg-purple-200 transition-colors">
                 <Mail className="w-6 h-6 text-purple-600" />
@@ -465,7 +465,7 @@ export default function ZuListPage() {
               href="https://zulist.app"
               target="_blank"
               rel="noopener noreferrer"
-              className={`bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
+              className={`bg-blue-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
             >
               <div className="bg-green-100 p-3 rounded-lg group-hover:bg-green-200 transition-colors">
                 <Globe className="w-6 h-6 text-green-600" />
@@ -480,7 +480,7 @@ export default function ZuListPage() {
               </div>
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-green-600 transition-colors" />
             </a>
-            <div className={`bg-white rounded-xl p-6 shadow-lg border-2 border-gray-200 ${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`bg-blue-50 rounded-xl p-6 shadow-lg border-2 border-gray-200 ${locale === 'he' ? 'text-right' : 'text-left'}`}>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
                 {t('links.social.title')}
               </h3>

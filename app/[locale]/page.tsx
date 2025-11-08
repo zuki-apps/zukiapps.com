@@ -10,7 +10,7 @@ export default function Home() {
   const locale = useLocale();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
       {/* Language Switcher */}
       <div className="max-w-4xl mx-auto px-4 pt-4">
         <LanguageSwitcher />
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
 
           {/* Story Section */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12 text-left">
+          <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12 mb-12 text-left">
             <div className="flex items-center gap-3 mb-6">
               <Code className="w-8 h-8 text-blue-600" />
               <h2 className="text-3xl font-bold text-gray-900">{t('story.title')}</h2>
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           {/* ZuList App Section */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+          <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
             <div className="flex items-center justify-center mb-6">
               <ShoppingCart className="w-16 h-16 text-blue-600" />
             </div>
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
 
           {/* Contact Section */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+          <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-center mb-6">
               <Mail className="w-12 h-12 text-blue-600" />
             </div>
@@ -105,7 +105,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
               <a
-                href="mailto:zuki.apps.dev@gmail.com"
+                href="mailto:zuki.apps@gmail.com"
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
               >
                 <Mail className="w-5 h-5" />
