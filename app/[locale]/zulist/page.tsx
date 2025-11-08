@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { ShoppingCart, Users, Wifi, Sparkles, Globe, Download, Shield, FileText, Mail, ExternalLink, Database, UserCircle, FolderTree } from 'lucide-react';
