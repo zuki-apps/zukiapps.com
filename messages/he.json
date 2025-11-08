@@ -1,0 +1,60 @@
+{
+  "common": {
+    "home": "בית",
+    "apps": "אפליקציות",
+    "about": "אודות",
+    "contact": "צור קשר",
+    "download": "הורד",
+    "learnMore": "למידע נוסף",
+    "getStarted": "התחל"
+  },
+  "home": {
+    "title": "Zuki Apps - אפליקציות מובייל חכמות",
+    "description": "גלה אפליקציות מובייל חדשניות שנועדו לפשט את החיים היומיומיים שלך",
+    "heroTitle": "ברוכים הבאים ל-Zuki Apps",
+    "heroSubtitle": "יוצרים אפליקציות מובייל חכמות ואינטואיטיביות שהופכות את החיים לקלים יותר",
+    "featuredApps": "אפליקציות מומלצות"
+  },
+  "zulist": {
+    "title": "ZuList - רשימת קניות חכמה",
+    "description": "אפליקציית רשימת קניות מבוססת Flutter עם שיתוף בזמן אמת, תמיכה במצב offline והמלצות מוצרים חכמות",
+    "fullDescription": "ZuList היא אפליקציית רשימת קניות מודרנית שנועדה להפוך את הקניות לקלות ושיתופיות יותר. צור רשימות משותפות עם משפחה וחברים, קבל המלצות מוצרים חכמות ונהל את הקניות שלך ביעילות - גם במצב offline.",
+    "features": {
+      "title": "תכונות עיקריות",
+      "realtime": "שיתוף בזמן אמת",
+      "realtimeDesc": "שתף רשימות עם משפחה וחברים, ראה עדכונים מיידית בזמן אמת",
+      "offline": "ארכיטקטורה Offline-First",
+      "offlineDesc": "עובד בצורה חלקה גם ללא חיבור לאינטרנט, מסנכרן כשאתה חוזר לרשת",
+      "smart": "המלצות מוצרים חכמות",
+      "smartDesc": "המלצות מבוססות AI שעוזרות לך למצוא מוצרים מהר יותר",
+      "multilang": "תמיכה רב-לשונית",
+      "multilangDesc": "זמין באנגלית ובעברית עם תמיכה מלאה ב-RTL",
+      "firebase": "אינטגרציה עם Firebase",
+      "firebaseDesc": "סנכרון ענן מאובטח עם Firebase לאחסון נתונים אמין",
+      "profile": "ניהול פרופיל",
+      "profileDesc": "תמונות פרופיל מותאמות וניהול משתמשים",
+      "categories": "ניהול קטגוריות",
+      "categoriesDesc": "ארגן את הקניות שלך לפי קטגוריות ליעילות טובה יותר"
+    },
+    "download": "הורד עכשיו",
+    "availableOn": "זמין ב",
+    "appStore": "App Store",
+    "playStore": "Google Play",
+    "links": {
+      "title": "קישורים חשובים",
+      "privacy": "מדיניות פרטיות",
+      "terms": "תנאי שירות",
+      "invite": "הזמן חברים",
+      "support": "תמיכה",
+      "contact": "צור קשר"
+    },
+    "contact": {
+      "email": "zuki.apps.dev@gmail.com",
+      "legal": "zuki.apps.dev@gmail.com",
+      "website": "https://zuki.apps.com"
+    },
+    "version": "גרסה",
+    "copyright": "© 2024 ZuList. כל הזכויות שמורות."
+  }
+}
+

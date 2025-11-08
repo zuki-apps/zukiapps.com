@@ -1,0 +1,60 @@
+{
+  "common": {
+    "home": "Home",
+    "apps": "Apps",
+    "about": "About",
+    "contact": "Contact",
+    "download": "Download",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started"
+  },
+  "home": {
+    "title": "Zuki Apps - Smart Mobile Applications",
+    "description": "Discover innovative mobile applications designed to simplify your daily life",
+    "heroTitle": "Welcome to Zuki Apps",
+    "heroSubtitle": "Creating smart, intuitive mobile applications that make life easier",
+    "featuredApps": "Featured Applications"
+  },
+  "zulist": {
+    "title": "ZuList - Smart Shopping List",
+    "description": "A Flutter-based shopping list application with real-time collaboration, offline support, and smart product recommendations",
+    "fullDescription": "ZuList is a modern shopping list app designed to make grocery shopping easier and more collaborative. Create shared lists with family and friends, get smart product suggestions, and manage your shopping efficiently - even offline.",
+    "features": {
+      "title": "Key Features",
+      "realtime": "Real-time Collaboration",
+      "realtimeDesc": "Share lists with family and friends, see updates instantly as they happen",
+      "offline": "Offline-First Architecture",
+      "offlineDesc": "Works seamlessly even without internet connection, syncs when you're back online",
+      "smart": "Smart Product Suggestions",
+      "smartDesc": "AI-powered recommendations to help you find products faster",
+      "multilang": "Multi-language Support",
+      "multilangDesc": "Available in English and Hebrew with full RTL support",
+      "firebase": "Firebase Integration",
+      "firebaseDesc": "Secure cloud sync with Firebase for reliable data storage",
+      "profile": "Profile Management",
+      "profileDesc": "Optimized profile images and user management",
+      "categories": "Category Management",
+      "categoriesDesc": "Organize your shopping by categories for better efficiency"
+    },
+    "download": "Download Now",
+    "availableOn": "Available on",
+    "appStore": "App Store",
+    "playStore": "Google Play",
+    "links": {
+      "title": "Important Links",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "invite": "Invite Friends",
+      "support": "Support",
+      "contact": "Contact Us"
+    },
+    "contact": {
+      "email": "zuki.apps.dev@gmail.com",
+      "legal": "zuki.apps.dev@gmail.com",
+      "website": "https://zuki.apps.com"
+    },
+    "version": "Version",
+    "copyright": "Copyright © 2024 ZuList. All rights reserved."
+  }
+}
+
