@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { ShoppingCart, ArrowLeft, Users, Wifi, Sparkles, Globe, Database, UserCircle, FolderTree, Download, Shield, FileText, Mail, ExternalLink } from 'lucide-react';
+import { ShoppingCart, ArrowLeft, Users, Wifi, Sparkles, Globe, Database, UserCircle, FolderTree, Download, Shield, FileText, Mail, ExternalLink, Bell, Layout, Crown, Image as ImageIcon, BarChart3, Moon, Smartphone, Lock } from 'lucide-react';
 
 export default function ZuListPage() {
   return (
@@ -27,10 +27,10 @@ export default function ZuListPage() {
             ZuList
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-gray-700 max-w-3xl mx-auto">
-            אפליקציית רשימת קניות חכמה
+            רשימות קניות חכמות למשפחות
           </p>
           <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-            אפליקציה מבוססת Flutter עם שיתוף בזמן אמת, תמיכה במצב offline והמלצות מוצרים חכמות.
+            האפליקציה המושלמת למשפחות וחברים שקונים יחד. צרו, שתפו ונהלו רשימות קניות בזמן אמת עם שיתוף פעולה חלק.
             עולה בימים אלו!
           </p>
         </div>
@@ -50,11 +50,16 @@ export default function ZuListPage() {
                 <Users className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                שיתוף בזמן אמת
+                שיתוף פעולה בזמן אמת
               </h3>
-              <p className="text-gray-600">
-                שתף רשימות עם משפחה וחברים, ראה עדכונים מיידית בזמן אמת
+              <p className="text-gray-600 mb-4">
+                שתף רשימות עם משפחה וחברים, ראה שינויים מיידית בכל המכשירים
               </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• ניהול חברים והרשאות</li>
+                <li>• מצב אורח לגישה מהירה</li>
+                <li>• התראות שיתוף פעולה בזמן אמת</li>
+              </ul>
             </div>
 
             {/* Offline Support */}
@@ -63,11 +68,16 @@ export default function ZuListPage() {
                 <Wifi className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                תמיכה Offline
+                תמיכה במצב לא מקוון
               </h3>
-              <p className="text-gray-600">
-                עובד בצורה חלקה גם ללא חיבור לאינטרנט, מסנכרן כשאתה חוזר לרשת
+              <p className="text-gray-600 mb-4">
+                עובד בצורה חלקה גם ללא חיבור לאינטרנט
               </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• סינכרון אוטומטי כשחוזרים לאינטרנט</li>
+                <li>• לעולם לא תאבדו את הנתונים</li>
+                <li>• גיבוי בענן כלול</li>
+              </ul>
             </div>
 
             {/* Smart Suggestions */}
@@ -78,22 +88,122 @@ export default function ZuListPage() {
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
                 המלצות חכמות
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mb-4">
                 המלצות מבוססות AI שעוזרות לך למצוא מוצרים מהר יותר
               </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• זיהוי מוצרים חכם</li>
+                <li>• הצעות מותאמות אישית</li>
+                <li>• למידה מהרגלי הקניות שלך</li>
+              </ul>
+            </div>
+
+            {/* Smart Templates */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Layout className="w-8 h-8 text-indigo-600" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                תבניות חכמות
+              </h3>
+              <p className="text-gray-600 mb-4">
+                תבניות רשימת קניות מוכנות מראש
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• התחלה מהירה לקניות נפוצות</li>
+                <li>• התאמה אישית של תבניות</li>
+                <li>• 34+ תבניות מוכנות</li>
+              </ul>
+            </div>
+
+            {/* Smart Notifications */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Bell className="w-8 h-8 text-yellow-600" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                התראות חכמות
+              </h3>
+              <p className="text-gray-600 mb-4">
+                קבל התראה כשנוספים פריטים או כשחברים מעדכנים
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• מצב שקט לקניות שקטות</li>
+                <li>• ספירת תגים לעדכונים שלא נקראו</li>
+                <li>• התראות Push בזמן אמת</li>
+              </ul>
             </div>
 
             {/* Multi-language */}
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Globe className="w-8 h-8 text-indigo-600" />
+              <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Globe className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
                 תמיכה רב-לשונית
               </h3>
-              <p className="text-gray-600">
-                זמין באנגלית ובעברית עם תמיכה מלאה ב-RTL
+              <p className="text-gray-600 mb-4">
+                זמין באנגלית ובעברית עם תמיכה מלאה
               </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• תמיכה מלאה ב-RTL (מימין לשמאל)</li>
+                <li>• ממשק מתורגם לחלוטין</li>
+                <li>• תמיכה בשתי השפות</li>
+              </ul>
+            </div>
+
+            {/* Category Management */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <FolderTree className="w-8 h-8 text-pink-600" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                ניהול קטגוריות
+              </h3>
+              <p className="text-gray-600 mb-4">
+                ארגן את הקניות שלך לפי קטגוריות ליעילות טובה יותר
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• קטגוריות מותאמות אישית</li>
+                <li>• ארגון אוטומטי</li>
+                <li>• חיפוש מהיר</li>
+              </ul>
+            </div>
+
+            {/* Custom Photos */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-rose-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <ImageIcon className="w-8 h-8 text-rose-600" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                תמונות מותאמות אישית
+              </h3>
+              <p className="text-gray-600 mb-4">
+                הוסף תמונות מותאמות אישית לפריטים
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• צילום ישיר מהאפליקציה</li>
+                <li>• בחירה מהגלריה</li>
+                <li>• אופטימיזציה אוטומטית</li>
+              </ul>
+            </div>
+
+            {/* Purchase History */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-cyan-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <BarChart3 className="w-8 h-8 text-cyan-600" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                היסטוריית קניות
+              </h3>
+              <p className="text-gray-600 mb-4">
+                עקוב אחר היסטוריית הקניות שלך
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• סטטיסטיקות מתקדמות (Premium)</li>
+                <li>• מעקב אחר הרגלי קניות</li>
+                <li>• דוחות מפורטים</li>
+              </ul>
             </div>
 
             {/* Firebase Integration */}
@@ -104,34 +214,98 @@ export default function ZuListPage() {
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
                 אינטגרציה עם Firebase
               </h3>
-              <p className="text-gray-600">
-                סנכרון ענן מאובטח עם Firebase לאחסון נתונים אמין
+              <p className="text-gray-600 mb-4">
+                סנכרון ענן מאובטח עם Firebase
               </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• אחסון נתונים אמין</li>
+                <li>• גיבוי אוטומטי</li>
+                <li>• סינכרון בין מכשירים</li>
+              </ul>
             </div>
 
-            {/* Profile Management */}
+            {/* Security */}
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <UserCircle className="w-8 h-8 text-pink-600" />
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Lock className="w-8 h-8 text-red-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                ניהול פרופיל
+                פרטיות ואבטחה
               </h3>
-              <p className="text-gray-600">
-                תמונות פרופיל מותאמות וניהול משתמשים
+              <p className="text-gray-600 mb-4">
+                אימות מאובטח והגנה על הנתונים שלך
               </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• אימות מאובטח (Google, Apple)</li>
+                <li>• הנתונים מוצפנים</li>
+                <li>• שליטה מלאה על שיתוף</li>
+              </ul>
             </div>
 
-            {/* Category Management */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow md:col-span-2 lg:col-span-1">
-              <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <FolderTree className="w-8 h-8 text-teal-600" />
+            {/* Beautiful UI */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-violet-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Smartphone className="w-8 h-8 text-violet-600" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                ניהול קטגוריות
+                יפה ואינטואיטיבי
               </h3>
-              <p className="text-gray-600">
-                ארגן את הקניות שלך לפי קטגוריות ליעילות טובה יותר
+              <p className="text-gray-600 mb-4">
+                ממשק מודרני ונקי עם חוויית משתמש מעולה
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• דמויות Zuli Monsters לכיף</li>
+                <li>• ערכות נושא מותאמות אישית</li>
+                <li>• תמיכה במצב כהה</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Premium Features Section */}
+      <section className="py-12 px-4 bg-gradient-to-br from-purple-50 to-pink-50">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 text-center">
+            <div className="flex items-center justify-center mb-6">
+              <Crown className="w-16 h-16 text-yellow-500" />
+            </div>
+            <h2 className="text-4xl font-bold mb-6 text-gray-900">
+              תכונות Premium
+            </h2>
+            <p className="text-lg text-gray-700 mb-8">
+              שדרג ל-Premium ותהנה מתכונות מתקדמות ללא הגבלות
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-8 text-right">
+              <div className="bg-blue-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">תכונות Free</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• 5 רשימות מקסימום</li>
+                  <li>• 50 פריטים לרשימה</li>
+                  <li>• 3 משתתפים מקסימום</li>
+                  <li>• עם פרסומות</li>
+                </ul>
+              </div>
+              <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl p-6 border-2 border-purple-300">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">תכונות Premium</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• רשימות ופריטים ללא הגבלה</li>
+                  <li>• חברים ללא הגבלה לרשימה</li>
+                  <li>• סטטיסטיקות מתקדמות</li>
+                  <li>• חוויית שימוש ללא פרסומות</li>
+                  <li>• ערכות נושא בלעדיות</li>
+                  <li>• תמיכה עדיפה</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-gray-100 rounded-xl p-6 mb-6">
+              <p className="text-2xl font-bold text-gray-900 mb-2">
+                💰 חודשי: 9.90 ₪ | שנתי: 99.90 ₪
+              </p>
+              <p className="text-sm text-gray-600">
+                נסה חינם למשך 7 ימים
               </p>
             </div>
           </div>
@@ -162,6 +336,33 @@ export default function ZuListPage() {
         </div>
       </section>
 
+      {/* Perfect For Section */}
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+            מושלם עבור
+          </h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">👨‍👩‍👧‍👦 משפחות שקונות יחד</h3>
+              <p className="text-gray-600">שתפו רשימות עם כל המשפחה ותמיד תהיו מסונכרנים</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">🏠 שותפים לדירה</h3>
+              <p className="text-gray-600">חלקו קניות עם שותפים לדירה בקלות</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">🎉 מארגני אירועים</h3>
+              <p className="text-gray-600">תכננו אירועים עם חברים בצורה מאורגנת</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">🛒 כל מי שרוצה קניות מאורגנות</h3>
+              <p className="text-gray-600">הפכו את הקניות למאורגנות, משותפות וכיפיות</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Links Section */}
       <section className="py-12 px-4">
         <div className="max-w-4xl mx-auto">
@@ -176,7 +377,7 @@ export default function ZuListPage() {
               <div className="bg-blue-100 p-3 rounded-lg group-hover:bg-blue-200 transition-colors">
                 <Mail className="w-6 h-6 text-blue-600" />
               </div>
-              <div className="flex-grow">
+              <div className="flex-grow text-right">
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">
                   יצירת קשר
                 </h3>
@@ -195,11 +396,10 @@ export default function ZuListPage() {
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-400 mb-2">© 2025 ZuList - כל הזכויות שמורות</p>
           <p className="text-sm text-gray-500">
-            חלק מ-Zuki Apps • מפתח מישראל
+            חלק מ-Zuki Apps • מפתח מישראל • פותח ב-❤️
           </p>
         </div>
       </footer>
     </div>
   );
 }
-
