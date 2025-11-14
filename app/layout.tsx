@@ -1,5 +1,12 @@
 import { ReactNode } from 'react';
 import Script from 'next/script';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || 'vptLaNoDGkQvPt_cWG3D-SYIa253GayWGOhN'
+  }
+};
 
 export default function RootLayout({
   children,
