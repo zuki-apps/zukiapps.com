@@ -12,7 +12,7 @@ export default function ZuListPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
       {/* Language Switcher */}
-      <div className="max-w-7xl mx-auto px-4 pt-4">
+      <div className="max-w-7xl mx-auto px-4 pt-4 flex justify-end">
         <LanguageSwitcher />
       </div>
 
@@ -46,6 +46,21 @@ export default function ZuListPage() {
           <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
             {t('hero.description')}
           </p>
+          <div className="flex justify-center gap-4 text-sm">
+            <Link
+              href={`/${locale}/zulist/privacy`}
+              className="text-blue-600 hover:text-blue-700 underline"
+            >
+              {locale === 'he' ? 'מדיניות פרטיות' : 'Privacy Policy'}
+            </Link>
+            <span className="text-gray-400">|</span>
+            <Link
+              href={`/${locale}/zulist/terms`}
+              className="text-blue-600 hover:text-blue-700 underline"
+            >
+              {locale === 'he' ? 'תנאי שימוש' : 'Terms of Service'}
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -519,6 +534,21 @@ export default function ZuListPage() {
           <p className="text-xs text-gray-600 mt-2">
             {t('footer.bundle')}
           </p>
+          <div className="flex justify-center gap-4 mt-4 text-sm">
+            <Link
+              href={`/${locale}/zulist/privacy`}
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              {locale === 'he' ? 'מדיניות פרטיות' : 'Privacy Policy'}
+            </Link>
+            <span className="text-gray-600">|</span>
+            <Link
+              href={`/${locale}/zulist/terms`}
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              {locale === 'he' ? 'תנאי שימוש' : 'Terms of Service'}
+            </Link>
+          </div>
         </div>
       </footer>
     </div>

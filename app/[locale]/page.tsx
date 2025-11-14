@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
       {/* Language Switcher */}
-      <div className="max-w-4xl mx-auto px-4 pt-4">
+      <div className="max-w-4xl mx-auto px-4 pt-4 flex justify-end">
         <LanguageSwitcher />
       </div>
 

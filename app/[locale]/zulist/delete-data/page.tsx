@@ -13,7 +13,7 @@ export default function DeleteDataPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Language Switcher */}
-        <div className="mb-6">
+        <div className="mb-6 flex justify-end">
           <LanguageSwitcher />
         </div>
 
@@ -231,8 +231,11 @@ export default function DeleteDataPage() {
               <p className="text-gray-700 mb-2">
                 📧 {t('contact.email')}: <a href="mailto:zuki.apps.dev@gmail.com" className="text-blue-600 hover:underline">zuki.apps.dev@gmail.com</a>
               </p>
-              <p className="text-gray-700">
+              <p className="text-gray-700 mb-2">
                 🌐 {t('contact.privacy')}: <Link href={`/${locale}/zulist/privacy`} className="text-blue-600 hover:underline">{t('contact.privacyLink')}</Link>
+              </p>
+              <p className="text-gray-700">
+                📄 {t('contact.terms')}: <Link href={`/${locale}/zulist/terms`} className="text-blue-600 hover:underline">{t('contact.termsLink')}</Link>
               </p>
             </section>
           </div>

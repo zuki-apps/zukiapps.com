@@ -265,7 +265,7 @@
     },
     "privacy": {
       "title": "Privacy Policy",
-      "lastUpdated": "Last updated: December 2024",
+      "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
         "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support."
@@ -291,8 +291,264 @@
         "content": "ZuList requires access to your device's camera and photo library to allow you to take and upload photos of shopping list items. We only access these features when you explicitly choose to add a photo to a list or item. Photos are stored securely in our cloud storage and are only accessible to you and users you share your lists with."
       },
       "section7": {
-        "title": "7. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:"
+        "title": "7. Crash Reporting and Error Analytics",
+        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
+        "dataCollected": "Data Collected:",
+        "dataCollectedItems": [
+          "Technical information about crashes and errors (stack traces, error messages)",
+          "Device information (operating system, device model, app version)",
+          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
+          "Custom diagnostic information related to errors (error codes, operation types)"
+        ],
+        "purpose": "Purpose:",
+        "purposeItems": [
+          "Identify and fix bugs and crashes",
+          "Improve app stability and performance",
+          "Analyze error patterns"
+        ],
+        "dataSharing": "Data Sharing:",
+        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
+        "dataRetention": "Data Retention:",
+        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
+        "yourRights": "Your Rights:",
+        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using ZuList. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of ZuList (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a shopping list application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "ZuList is a mobile application that allows users to create, manage, and share shopping lists with family and friends. The Service includes:",
+        "items": {
+          "item1": "Creating and managing shopping lists",
+          "item2": "Sharing lists with other users",
+          "item3": "Real-time synchronization across devices",
+          "item4": "Product suggestions and categorization",
+          "item5": "Purchase history tracking",
+          "item6": "Premium subscription features (as described in Section 4)"
+        }
+      },
+      "section3": {
+        "title": "3. User Accounts and Registration",
+        "subtitle1": "3.1. Account Creation",
+        "content1": "To use certain features of the Service, you must create an account. You can create an account using:",
+        "items1": {
+          "item1": "Google Sign-In",
+          "item2": "Apple Sign-In",
+          "item3": "Email and password (if available)"
+        },
+        "subtitle2": "3.2. Account Responsibilities",
+        "content2": "You are responsible for:",
+        "items2": {
+          "item1": "Maintaining the confidentiality of your account credentials",
+          "item2": "All activities that occur under your account",
+          "item3": "Ensuring that your account information is accurate and up-to-date",
+          "item4": "Notifying us immediately of any unauthorized use of your account"
+        },
+        "subtitle3": "3.3. Age Requirements",
+        "content3": "You must be at least 13 years old to use the Service. If you are under 18, you represent that you have obtained parental or guardian consent to use the Service. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately."
+      },
+      "section4": {
+        "title": "4. Premium Subscriptions and Payments",
+        "subtitle1": "4.1. Subscription Plans",
+        "content1": "ZuList offers premium subscription plans that provide access to additional features:",
+        "items1": {
+          "item1": "Monthly Subscription: Billed monthly, automatically renews unless cancelled",
+          "item2": "Yearly Subscription: Billed annually, automatically renews unless cancelled"
+        },
+        "subtitle2": "4.2. Payment Terms",
+        "content2": "By purchasing a subscription, you agree to:",
+        "items2": {
+          "item1": "Pay the subscription fee at the time of purchase",
+          "item2": "Automatic renewal of your subscription at the end of each billing period",
+          "item3": "Prices may vary by region and are subject to change with notice"
+        },
+        "subtitle3": "4.3. Subscription Management",
+        "content3": "You can manage your subscription, including cancellation, through:",
+        "items3": {
+          "item1": "iOS: Settings → [Your Name] → Subscriptions → ZuList",
+          "item2": "Android: Google Play Store → Subscriptions → ZuList"
+        },
+        "content3b": "If you cancel your subscription, you will continue to have access to premium features until the end of your current billing period. After that, your account will revert to the free tier.",
+        "subtitle4": "4.4. Refunds",
+        "content4": "Refund requests are handled by Apple (for iOS) or Google (for Android) according to their respective refund policies. We do not process refunds directly. For subscription refunds, please contact Apple Support or Google Play Support.",
+        "subtitle5": "4.5. Free Trial",
+        "content5": "If we offer a free trial, it will be clearly indicated at the time of sign-up. At the end of the trial period, your subscription will automatically convert to a paid subscription unless you cancel before the trial ends."
+      },
+      "section5": {
+        "title": "5. User Content and Conduct",
+        "subtitle1": "5.1. User-Generated Content",
+        "content1": "You retain ownership of all content you create, upload, or share through the Service (\"User Content\"), including shopping lists, items, notes, and photos.",
+        "subtitle2": "5.2. License to Use Your Content",
+        "content2": "By using the Service, you grant us a worldwide, non-exclusive, royalty-free license to:",
+        "items2": {
+          "item1": "Store, process, and display your User Content",
+          "item2": "Share your User Content with other users you explicitly invite to your lists",
+          "item3": "Use your User Content to provide and improve the Service"
+        },
+        "subtitle3": "5.3. Prohibited Content and Activities",
+        "content3": "You agree not to use the Service to:",
+        "items3": {
+          "item1": "Upload, post, or share any content that is illegal, harmful, threatening, abusive, harassing, defamatory, or otherwise objectionable",
+          "item2": "Impersonate any person or entity or falsely state or misrepresent your affiliation with any person or entity",
+          "item3": "Violate any applicable laws or regulations",
+          "item4": "Interfere with or disrupt the Service or servers connected to the Service",
+          "item5": "Attempt to gain unauthorized access to any portion of the Service",
+          "item6": "Use automated systems (bots, scrapers) to access the Service without permission",
+          "item7": "Reverse engineer, decompile, or disassemble any portion of the Service"
+        }
+      },
+      "section6": {
+        "title": "6. Intellectual Property Rights",
+        "subtitle1": "6.1. Our Intellectual Property",
+        "content1": "The Service, including its original content, features, functionality, design, logos, and trademarks, is owned by Zuki Apps and is protected by international copyright, trademark, and other intellectual property laws.",
+        "subtitle2": "6.2. Zuli Monsters Characters and Images",
+        "content2": "All Zuli Monsters characters, images, icons, artwork, and related visual content displayed in the ZuList application are the exclusive property of Zuki Apps. These are original creations protected by copyright law and international intellectual property rights.",
+        "content2b": "Prohibited Uses: You may NOT, without explicit written permission from Zuki Apps:",
+        "items2": {
+          "item1": "Copy, reproduce, or duplicate any Zuli Monsters images or characters",
+          "item2": "Use Zuli Monsters images or characters in any other application, website, or product",
+          "item3": "Modify, alter, or create derivative works based on Zuli Monsters images or characters",
+          "item4": "Distribute, sell, or license Zuli Monsters images or characters to third parties",
+          "item5": "Use Zuli Monsters images or characters for commercial purposes",
+          "item6": "Remove copyright notices or attribution from Zuli Monsters images or characters"
+        },
+        "content2c": "All rights reserved. Any unauthorized use, reproduction, distribution, or commercial exploitation of Zuli Monsters images or characters constitutes copyright infringement and may result in legal action.",
+        "content2d": "For licensing inquiries or permission to use Zuli Monsters images or characters, please contact us at zuki.apps.dev@gmail.com.",
+        "subtitle3": "6.3. Limited License",
+        "content3": "We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Service for personal, non-commercial purposes in accordance with these Terms."
+      },
+      "section7": {
+        "title": "7. Third-Party Services",
+        "content": "The Service integrates with third-party services, including:",
+        "items": {
+          "item1": "Firebase (Google): For authentication, data storage, and cloud services",
+          "item2": "Google Sign-In: For account authentication",
+          "item3": "Apple Sign-In: For account authentication",
+          "item4": "Google AdMob: For displaying advertisements",
+          "item5": "Apple App Store / Google Play: For in-app purchases and subscriptions"
+        },
+        "content2": "Your use of these third-party services is subject to their respective terms of service and privacy policies. We are not responsible for the practices of these third-party services."
+      },
+      "section8": {
+        "title": "8. Advertising",
+        "content": "Free tier users may see advertisements displayed within the Service. These advertisements are provided by Google AdMob and are subject to Google's advertising policies. Premium subscribers receive an ad-free experience.",
+        "content2": "We do not use your personal information to personalize advertisements shown to you, except as permitted by applicable privacy laws and with your consent."
+      },
+      "section9": {
+        "title": "9. Service Availability and Modifications",
+        "subtitle1": "9.1. Service Availability",
+        "content1": "We strive to provide reliable service but do not guarantee that the Service will be available at all times. The Service may be unavailable due to:",
+        "items1": {
+          "item1": "Scheduled maintenance",
+          "item2": "Technical issues or failures",
+          "item3": "Force majeure events"
+        },
+        "subtitle2": "9.2. Service Modifications",
+        "content2": "We reserve the right to:",
+        "items2": {
+          "item1": "Modify, suspend, or discontinue any part of the Service at any time",
+          "item2": "Change features, functionality, or pricing with reasonable notice",
+          "item3": "Impose limits on certain features or restrict access to parts of the Service"
+        }
+      },
+      "section10": {
+        "title": "10. Termination",
+        "subtitle1": "10.1. Termination by You",
+        "content1": "You may stop using the Service at any time by:",
+        "items1": {
+          "item1": "Deleting your account through the app settings",
+          "item2": "Uninstalling the app from your device",
+          "item3": "Contacting us to request account deletion"
+        },
+        "subtitle2": "10.2. Termination by Us",
+        "content2": "We may suspend or terminate your access to the Service immediately, without prior notice, if you:",
+        "items2": {
+          "item1": "Violate these Terms",
+          "item2": "Engage in fraudulent, abusive, or illegal activity",
+          "item3": "Fail to pay subscription fees (for premium users)",
+          "item4": "Otherwise misuse the Service"
+        },
+        "subtitle3": "10.3. Effect of Termination",
+        "content3": "Upon termination:",
+        "items3": {
+          "item1": "Your right to use the Service will immediately cease",
+          "item2": "We may delete your account and User Content",
+          "item3": "You will not be entitled to any refund for unused subscription periods (subject to applicable law)"
+        }
+      },
+      "section11": {
+        "title": "11. Disclaimers",
+        "content": "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
+        "content2": "We do not warrant that:",
+        "items": {
+          "item1": "The Service will meet your requirements",
+          "item2": "The Service will be uninterrupted, timely, secure, or error-free",
+          "item3": "The results obtained from using the Service will be accurate or reliable",
+          "item4": "Any errors in the Service will be corrected"
+        }
+      },
+      "section12": {
+        "title": "12. Limitation of Liability",
+        "content": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ZUKI APPS, ITS AFFILIATES, OR THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, USE, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR USE OR INABILITY TO USE THE SERVICE.",
+        "content2": "Our total liability to you for all claims arising from or related to the Service shall not exceed the amount you paid us in the twelve (12) months preceding the claim, or $100, whichever is greater."
+      },
+      "section13": {
+        "title": "13. Indemnification",
+        "content": "You agree to indemnify, defend, and hold harmless Zuki Apps, its affiliates, and their respective officers, directors, employees, and agents from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including attorney's fees) arising from:",
+        "items": {
+          "item1": "Your use of the Service",
+          "item2": "Your violation of these Terms",
+          "item3": "Your violation of any third-party rights",
+          "item4": "Any User Content you submit, post, or transmit through the Service"
+        }
+      },
+      "section14": {
+        "title": "14. Privacy",
+        "content": "Your privacy is important to us. Our collection and use of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference."
+      },
+      "section15": {
+        "title": "15. Dispute Resolution",
+        "subtitle1": "15.1. Governing Law",
+        "content1": "These Terms shall be governed by and construed in accordance with the laws of Israel, without regard to its conflict of law provisions.",
+        "subtitle2": "15.2. Dispute Resolution Process",
+        "content2": "If you have any concerns or disputes regarding the Service, please contact us first at zuki.apps.dev@gmail.com. We will attempt to resolve any disputes in good faith."
+      },
+      "section16": {
+        "title": "16. Changes to Terms",
+        "content": "We reserve the right to modify these Terms at any time. We will notify you of any material changes by:",
+        "items": {
+          "item1": "Posting the updated Terms on this page",
+          "item2": "Updating the \"Last updated\" date",
+          "item3": "Sending a notification through the Service (if significant changes are made)"
+        },
+        "content2": "Your continued use of the Service after such changes constitutes your acceptance of the modified Terms."
+      },
+      "section17": {
+        "title": "17. Severability",
+        "content": "If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect."
+      },
+      "section18": {
+        "title": "18. Entire Agreement",
+        "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "website": "https://zukiapps.com/zulist"
       }
     },
     "deleteAccount": {
@@ -351,7 +607,9 @@
         "content": "If you have questions or issues with account deletion, please contact us:",
         "email": "Email",
         "privacy": "Privacy Policy",
-        "privacyLink": "Read the full privacy policy"
+        "privacyLink": "Read the full privacy policy",
+        "terms": "Terms of Service",
+        "termsLink": "Read the terms of service"
       }
     },
     "deleteData": {
