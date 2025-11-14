@@ -105,7 +105,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
               <a
-                href="mailto:zuki.apps@gmail.com"
+                href="mailto:zuki.apps.dev@gmail.com"
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
               >
                 <Mail className="w-5 h-5" />

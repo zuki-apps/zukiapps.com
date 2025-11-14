@@ -460,7 +460,7 @@ export default function ZuListPage() {
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
             </a>
             <a
-              href="mailto:zuki.apps@gmail.com"
+              href="mailto:zuki.apps.dev@gmail.com"
               className={`bg-blue-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all flex items-center gap-4 group border-2 border-gray-200 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
             >
               <div className="bg-purple-100 p-3 rounded-lg group-hover:bg-purple-200 transition-colors">
