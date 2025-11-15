@@ -13,6 +13,7 @@ export async function GET() {
       headers: {
         'Content-Type': 'application/json',
         'Cache-Control': 'public, max-age=3600',
+        'Access-Control-Allow-Origin': '*',
       },
     });
   } catch (error) {
@@ -28,4 +29,7 @@ export async function GET() {
     );
   }
 }
+
+// Ensure this route is not cached incorrectly
+export const dynamic = 'force-dynamic';
 
