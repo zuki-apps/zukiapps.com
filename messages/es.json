@@ -727,6 +727,65 @@
         "privacy": "Política de Privacidad",
         "privacyLink": "Lee la política de privacidad completa"
       }
+    },
+    "support": {
+      "title": "Soporte y Ayuda",
+      "subtitle": "¡Estamos aquí para ayudar! Encuentre respuestas a preguntas comunes o contáctenos directamente.",
+      "contact": {
+        "title": "Contáctenos",
+        "description": "¿Tiene una pregunta o necesita ayuda? Envíenos un correo electrónico y le responderemos lo antes posible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Enlaces Rápidos",
+        "privacy": {
+          "title": "Política de Privacidad",
+          "description": "Aprenda cómo protegemos sus datos"
+        },
+        "terms": {
+          "title": "Términos de Servicio",
+          "description": "Lea nuestros términos y condiciones"
+        },
+        "deleteAccount": {
+          "title": "Eliminar Cuenta",
+          "description": "Instrucciones para eliminar la cuenta"
+        },
+        "deleteData": {
+          "title": "Eliminar Datos",
+          "description": "Cómo eliminar datos específicos"
+        }
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes",
+        "q1": {
+          "question": "¿Cómo comparto una lista de compras con miembros de la familia?",
+          "answer": "Para compartir una lista, abra la lista y toque el botón 'Compartir' o 'Miembros'. Puede invitar miembros por correo electrónico, SMS, WhatsApp o compartiendo un enlace. Una vez que acepten la invitación, tendrán acceso a la lista y podrán agregar o modificar elementos en tiempo real."
+        },
+        "q2": {
+          "question": "¿Cómo funciona la suscripción Premium?",
+          "answer": "Premium ofrece listas ilimitadas, elementos ilimitados, miembros ilimitados, experiencia sin anuncios, estadísticas avanzadas, temas personalizados, modo offline y respaldo en la nube. Puede suscribirse mensual o anualmente a través de App Store (iOS) o Google Play (Android). Puede administrar o cancelar su suscripción en cualquier momento a través de la configuración de suscripción de su dispositivo."
+        },
+        "q3": {
+          "question": "¿Puedo usar ZuList sin conexión?",
+          "answer": "¡Sí! ZuList funciona sin conexión. Puede crear listas, agregar elementos y marcar elementos como comprados incluso sin conexión a Internet. Todos los cambios se sincronizarán automáticamente cuando vuelva a estar en línea. Nota: El modo offline es una función Premium."
+        },
+        "q4": {
+          "question": "¿Cómo elimino mi cuenta?",
+          "answer": "Para eliminar su cuenta, vaya a Perfil → Configuración → Eliminar Cuenta. Tenga en cuenta que la eliminación de la cuenta es permanente y no se puede deshacer. Todos sus datos, incluidas listas, elementos y fotos, se eliminarán permanentemente. Para instrucciones detalladas, visite nuestra página de Eliminación de Cuenta."
+        },
+        "q5": {
+          "question": "Tengo problemas con las notificaciones. ¿Qué debo hacer?",
+          "answer": "Primero, asegúrese de que las notificaciones estén habilitadas en la configuración de su dispositivo para ZuList. Si las notificaciones aún no funcionan, intente: 1) Reiniciar la aplicación, 2) Verificar la configuración de notificaciones de su dispositivo, 3) Asegurarse de tener una conexión a Internet activa, 4) Reinstalar la aplicación si el problema persiste. Si los problemas continúan, contáctenos."
+        },
+        "q6": {
+          "question": "¿Cómo restauro mis datos si cambio de dispositivo?",
+          "answer": "Si está usando la misma cuenta (Google o Apple Sign-In), sus datos se sincronizarán automáticamente cuando inicie sesión en un nuevo dispositivo. Asegúrese de estar conectado a Internet e iniciar sesión con la misma cuenta. Los usuarios Premium tienen respaldo en la nube habilitado, lo que garantiza que todos los datos se almacenen de forma segura y se puedan restaurar."
+        }
+      },
+      "additionalHelp": {
+        "title": "¿Necesita Más Ayuda?",
+        "description": "Si no pudo encontrar la respuesta que busca, o si está experimentando un problema técnico, no dude en contactarnos. Estamos aquí para ayudar y generalmente respondemos dentro de 24-48 horas."
+      }
     }
   },
   "common": {

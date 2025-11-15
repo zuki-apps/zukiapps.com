@@ -727,6 +727,65 @@
         "privacy": "Politica sulla Privacy",
         "privacyLink": "Leggi la politica sulla privacy completa"
       }
+    },
+    "support": {
+      "title": "Supporto e Aiuto",
+      "subtitle": "Siamo qui per aiutarti! Trova risposte alle domande comuni o contattaci direttamente.",
+      "contact": {
+        "title": "Contattaci",
+        "description": "Hai una domanda o hai bisogno di assistenza? Inviaci un'email e ti risponderemo il prima possibile.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Link Rapidi",
+        "privacy": {
+          "title": "Informativa sulla Privacy",
+          "description": "Scopri come proteggiamo i tuoi dati"
+        },
+        "terms": {
+          "title": "Termini di Servizio",
+          "description": "Leggi i nostri termini e condizioni"
+        },
+        "deleteAccount": {
+          "title": "Elimina Account",
+          "description": "Istruzioni per l'eliminazione dell'account"
+        },
+        "deleteData": {
+          "title": "Elimina Dati",
+          "description": "Come eliminare dati specifici"
+        }
+      },
+      "faq": {
+        "title": "Domande Frequenti",
+        "q1": {
+          "question": "Come condivido una lista della spesa con i membri della famiglia?",
+          "answer": "Per condividere una lista, apri la lista e tocca il pulsante 'Condividi' o 'Membri'. Puoi invitare membri tramite email, SMS, WhatsApp o condividendo un link. Una volta che accettano l'invito, avranno accesso alla lista e potranno aggiungere o modificare elementi in tempo reale."
+        },
+        "q2": {
+          "question": "Come funziona l'abbonamento Premium?",
+          "answer": "Premium offre liste illimitate, elementi illimitati, membri illimitati, esperienza senza pubblicità, statistiche avanzate, temi personalizzati, modalità offline e backup cloud. Puoi abbonarti mensilmente o annualmente tramite App Store (iOS) o Google Play (Android). Puoi gestire o cancellare il tuo abbonamento in qualsiasi momento tramite le impostazioni di abbonamento del tuo dispositivo."
+        },
+        "q3": {
+          "question": "Posso usare ZuList offline?",
+          "answer": "Sì! ZuList funziona offline. Puoi creare liste, aggiungere elementi e contrassegnare elementi come acquistati anche senza connessione Internet. Tutte le modifiche verranno sincronizzate automaticamente quando torni online. Nota: La modalità offline è una funzione Premium."
+        },
+        "q4": {
+          "question": "Come elimino il mio account?",
+          "answer": "Per eliminare il tuo account, vai a Profilo → Impostazioni → Elimina Account. Tieni presente che l'eliminazione dell'account è permanente e non può essere annullata. Tutti i tuoi dati, inclusi liste, elementi e foto, verranno eliminati permanentemente. Per istruzioni dettagliate, visita la nostra pagina Eliminazione Account."
+        },
+        "q5": {
+          "question": "Ho problemi con le notifiche. Cosa devo fare?",
+          "answer": "Prima di tutto, assicurati che le notifiche siano abilitate nelle impostazioni del dispositivo per ZuList. Se le notifiche non funzionano ancora, prova: 1) Riavviare l'app, 2) Controllare le impostazioni di notifica del dispositivo, 3) Assicurarti di avere una connessione Internet attiva, 4) Reinstallare l'app se il problema persiste. Se i problemi continuano, contattaci."
+        },
+        "q6": {
+          "question": "Come ripristino i miei dati se cambio dispositivo?",
+          "answer": "Se stai usando lo stesso account (Google o Apple Sign-In), i tuoi dati verranno sincronizzati automaticamente quando accedi su un nuovo dispositivo. Assicurati di essere connesso a Internet e di aver effettuato l'accesso con lo stesso account. Gli utenti Premium hanno il backup cloud abilitato, garantendo che tutti i dati siano archiviati in modo sicuro e possano essere ripristinati."
+        }
+      },
+      "additionalHelp": {
+        "title": "Hai Bisogno di Altro Aiuto?",
+        "description": "Se non hai trovato la risposta che stai cercando, o se stai riscontrando un problema tecnico, non esitare a contattarci. Siamo qui per aiutare e di solito rispondiamo entro 24-48 ore."
+      }
     }
   },
   "common": {

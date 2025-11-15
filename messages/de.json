@@ -727,6 +727,65 @@
         "privacy": "Datenschutzerklärung",
         "privacyLink": "Vollständige Datenschutzerklärung lesen"
       }
+    },
+    "support": {
+      "title": "Support & Hilfe",
+      "subtitle": "Wir sind hier, um zu helfen! Finden Sie Antworten auf häufige Fragen oder kontaktieren Sie uns direkt.",
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Haben Sie eine Frage oder benötigen Sie Hilfe? Senden Sie uns eine E-Mail und wir melden uns so schnell wie möglich bei Ihnen.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Schnelllinks",
+        "privacy": {
+          "title": "Datenschutzrichtlinie",
+          "description": "Erfahren Sie, wie wir Ihre Daten schützen"
+        },
+        "terms": {
+          "title": "Nutzungsbedingungen",
+          "description": "Lesen Sie unsere Bedingungen"
+        },
+        "deleteAccount": {
+          "title": "Konto löschen",
+          "description": "Anleitung zur Kontolöschung"
+        },
+        "deleteData": {
+          "title": "Daten löschen",
+          "description": "So löschen Sie bestimmte Daten"
+        }
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "q1": {
+          "question": "Wie teile ich eine Einkaufsliste mit Familienmitgliedern?",
+          "answer": "Um eine Liste zu teilen, öffnen Sie die Liste und tippen Sie auf die Schaltfläche 'Teilen' oder 'Mitglieder'. Sie können Mitglieder per E-Mail, SMS, WhatsApp oder durch Teilen eines Links einladen. Sobald sie die Einladung annehmen, haben sie Zugriff auf die Liste und können Einträge in Echtzeit hinzufügen oder ändern."
+        },
+        "q2": {
+          "question": "Wie funktioniert das Premium-Abonnement?",
+          "answer": "Premium bietet unbegrenzte Listen, unbegrenzte Artikel, unbegrenzte Mitglieder, werbefreie Erfahrung, erweiterte Statistiken, benutzerdefinierte Themes, Offline-Modus und Cloud-Backup. Sie können monatlich oder jährlich über den App Store (iOS) oder Google Play (Android) abonnieren. Sie können Ihr Abonnement jederzeit über die Abonnementeinstellungen Ihres Geräts verwalten oder kündigen."
+        },
+        "q3": {
+          "question": "Kann ich ZuList offline verwenden?",
+          "answer": "Ja! ZuList funktioniert offline. Sie können Listen erstellen, Artikel hinzufügen und Artikel als gekauft markieren, auch ohne Internetverbindung. Alle Änderungen werden automatisch synchronisiert, wenn Sie wieder online sind. Hinweis: Der Offline-Modus ist eine Premium-Funktion."
+        },
+        "q4": {
+          "question": "Wie lösche ich mein Konto?",
+          "answer": "Um Ihr Konto zu löschen, gehen Sie zu Profil → Einstellungen → Konto löschen. Bitte beachten Sie, dass die Kontolöschung dauerhaft ist und nicht rückgängig gemacht werden kann. Alle Ihre Daten, einschließlich Listen, Artikel und Fotos, werden dauerhaft gelöscht. Für detaillierte Anweisungen besuchen Sie unsere Seite zur Kontolöschung."
+        },
+        "q5": {
+          "question": "Ich habe Probleme mit Benachrichtigungen. Was soll ich tun?",
+          "answer": "Stellen Sie zunächst sicher, dass Benachrichtigungen in den Geräteeinstellungen für ZuList aktiviert sind. Wenn Benachrichtigungen immer noch nicht funktionieren, versuchen Sie: 1) Die App neu zu starten, 2) Die Benachrichtigungseinstellungen Ihres Geräts zu überprüfen, 3) Sicherzustellen, dass Sie eine aktive Internetverbindung haben, 4) Die App neu zu installieren, wenn das Problem weiterhin besteht. Wenn die Probleme weiterhin bestehen, kontaktieren Sie uns bitte."
+        },
+        "q6": {
+          "question": "Wie stelle ich meine Daten wieder her, wenn ich das Gerät wechsle?",
+          "answer": "Wenn Sie dasselbe Konto verwenden (Google oder Apple Sign-In), werden Ihre Daten automatisch synchronisiert, wenn Sie sich auf einem neuen Gerät anmelden. Stellen Sie sicher, dass Sie mit dem Internet verbunden sind und sich mit demselben Konto anmelden. Premium-Benutzer haben Cloud-Backup aktiviert, sodass alle Daten sicher gespeichert und wiederhergestellt werden können."
+        }
+      },
+      "additionalHelp": {
+        "title": "Benötigen Sie weitere Hilfe?",
+        "description": "Wenn Sie die gesuchte Antwort nicht finden konnten oder ein technisches Problem haben, zögern Sie bitte nicht, uns zu kontaktieren. Wir sind hier, um zu helfen und antworten normalerweise innerhalb von 24-48 Stunden."
+      }
     }
   },
   "common": {
