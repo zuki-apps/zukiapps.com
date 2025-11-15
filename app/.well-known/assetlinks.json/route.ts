@@ -8,16 +8,23 @@ export async function GET() {
     const fileContent = fs.readFileSync(filePath, 'utf-8');
     const json = JSON.parse(fileContent);
 
-    return NextResponse.json(json, {
+    return new NextResponse(JSON.stringify(json), {
+      status: 200,
       headers: {
         'Content-Type': 'application/json',
+        'Cache-Control': 'public, max-age=3600',
       },
     });
   } catch (error) {
     console.error('Error reading assetlinks.json:', error);
-    return NextResponse.json(
-      { error: 'File not found' },
-      { status: 404 }
+    return new NextResponse(
+      JSON.stringify({ error: 'File not found' }),
+      {
+        status: 404,
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }
     );
   }
 }
