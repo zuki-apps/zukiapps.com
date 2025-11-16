@@ -103,16 +103,30 @@ export function createInvitationLink(invitationId: string): string {
 // (זה יעבוד אוטומטית אחרי עדכון AppConstants)
 ```
 
-#### ד. עדכון Deep Links:
+#### ד. עדכון Deep Links ל-App Links:
 
 **`android/app/src/main/AndroidManifest.xml`:**
 ```xml
-<!-- לפני: -->
-<data android:scheme="https" android:host="zulist-26.web.app" android:pathPrefix="/invite" />
+<!-- לפני (Web Links): -->
+<intent-filter>
+    <action android:name="android.intent.action.VIEW" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <category android:name="android.intent.category.BROWSABLE" />
+    <data android:scheme="https" android:host="zulist-26.web.app" android:pathPrefix="/invite" />
+</intent-filter>
 
-<!-- אחרי: -->
-<data android:scheme="https" android:host="zukiapps.com" android:pathPrefix="/zulist/invite" />
+<!-- אחרי (App Links עם autoVerify): -->
+<intent-filter android:autoVerify="true">
+    <action android:name="android.intent.action.VIEW" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <category android:name="android.intent.category.BROWSABLE" />
+    <data android:scheme="https" android:host="zukiapps.com" android:pathPrefix="/zulist/invite" />
+</intent-filter>
 ```
+
+**⚠️ חשוב:** הוסף `android:autoVerify="true"` כדי לשדרג מ-Web Links ל-App Links. זה מאפשר ל-Android לאמת אוטומטית את הדומיין עם `assetlinks.json`.
+
+**📋 ראה גם:** `ANDROID_APP_LINKS_SETUP.md` למדריך מפורט על שדרוג ל-App Links.
 
 **`ios/Runner/Info.plist`:**
 ```xml
