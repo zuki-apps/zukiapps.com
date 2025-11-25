@@ -13,7 +13,13 @@ const languageNames: Record<string, string> = {
   de: 'Deutsch',
   es: 'Español',
   it: 'Italiano',
-  pt: 'Português'
+  pt: 'Português',
+  ru: 'Русский',
+  fr: 'Français',
+  ja: '日本語',
+  ko: '한국어',
+  ar: 'العربية',
+  zh: '中文'
 };
 
 const languageFlags: Record<string, string> = {
@@ -22,7 +28,13 @@ const languageFlags: Record<string, string> = {
   de: '🇩🇪',
   es: '🇪🇸',
   it: '🇮🇹',
-  pt: '🇵🇹'
+  pt: '🇵🇹',
+  ru: '🇷🇺',
+  fr: '🇫🇷',
+  ja: '🇯🇵',
+  ko: '🇰🇷',
+  ar: '🇸🇦',
+  zh: '🇨🇳'
 };
 
 export default function LanguageSwitcher() {
