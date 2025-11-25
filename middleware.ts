@@ -8,6 +8,6 @@ export default createMiddleware({
 });
 
 export const config = {
-  matcher: ['/((?!api|_next|_vercel|\\.well-known|.*\\..*).*)']
+  matcher: ['/((?!api|_next|_vercel|\\.well-known|app-ads\\.txt|.*\\..*).*)']
 };
 
