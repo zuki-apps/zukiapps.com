@@ -3,7 +3,9 @@
 ## 📊 סיכום שפות
 
 ### פרויקט Flutter (ZuList App)
+
 **12 שפות עיקריות:**
+
 1. 🇺🇸 **English** (`en`) - שפת בסיס
 2. 🇮🇱 **Hebrew** (`he`) - עברית עם RTL מלא
 3. 🇩🇪 **German** (`de`) - גרמנית
@@ -18,6 +20,7 @@
 12. 🇨🇳 **Chinese** (`zh`) - סינית (Simplified)
 
 **גרסאות אזוריות נוספות:**
+
 - **Portuguese:** `pt_BR` (Brazil), `pt_PT` (Portugal)
 - **Spanish:** `es_MX` (Mexico), `es_AR` (Argentina), `es_CO` (Colombia), `es_CL` (Chile), `es_PE` (Peru)
 - **Russian:** `ru_UA` (Ukraine), `ru_UZ` (Uzbekistan)
@@ -31,7 +34,9 @@
 ---
 
 ### פרויקט Next.js (ZukiApps Website)
+
 **6 שפות בלבד:**
+
 1. 🇺🇸 **English** (`en`) - שפת בסיס
 2. 🇮🇱 **Hebrew** (`he`) - עברית עם RTL מלא
 3. 🇩🇪 **German** (`de`) - גרמנית
@@ -45,29 +50,31 @@
 
 ## 📋 השוואה
 
-| שפה | Flutter App | Next.js Website | הערות |
-|-----|-------------|-----------------|-------|
-| English | ✅ | ✅ | שפת בסיס בשניהם |
-| Hebrew | ✅ | ✅ | RTL מלא בשניהם |
-| German | ✅ | ✅ | |
-| Spanish | ✅ | ✅ | |
-| Italian | ✅ | ✅ | |
-| Portuguese | ✅ | ✅ | |
-| Russian | ✅ | ❌ | **חסר ב-Website** |
-| French | ✅ | ❌ | **חסר ב-Website** |
-| Japanese | ✅ | ❌ | **חסר ב-Website** |
-| Korean | ✅ | ❌ | **חסר ב-Website** |
-| Arabic | ✅ | ❌ | **חסר ב-Website** |
-| Chinese | ✅ | ❌ | **חסר ב-Website** |
+| שפה        | Flutter App | Next.js Website | הערות             |
+| ---------- | ----------- | --------------- | ----------------- |
+| English    | ✅          | ✅              | שפת בסיס בשניהם   |
+| Hebrew     | ✅          | ✅              | RTL מלא בשניהם    |
+| German     | ✅          | ✅              |                   |
+| Spanish    | ✅          | ✅              |                   |
+| Italian    | ✅          | ✅              |                   |
+| Portuguese | ✅          | ✅              |                   |
+| Russian    | ✅          | ❌              | **חסר ב-Website** |
+| French     | ✅          | ❌              | **חסר ב-Website** |
+| Japanese   | ✅          | ❌              | **חסר ב-Website** |
+| Korean     | ✅          | ❌              | **חסר ב-Website** |
+| Arabic     | ✅          | ❌              | **חסר ב-Website** |
+| Chinese    | ✅          | ❌              | **חסר ב-Website** |
 
 ---
 
 ## 🔍 מה קיים בפרויקט Flutter
 
 ### קבצי ARB (Translation Files)
+
 **מיקום:** `F:\GIT\ZuList\lib\l10n\`
 
 **שפות עיקריות:**
+
 - `intl_en.arb` - English (שפת בסיס)
 - `intl_he.arb` - Hebrew
 - `intl_de.arb` - German
@@ -83,6 +90,7 @@
 - `intl_zh_CN.arb` - Chinese (Simplified - China)
 
 **גרסאות אזוריות:**
+
 - Portuguese: `intl_pt_BR.arb`, `intl_pt_PT.arb`
 - Spanish: `intl_es_MX.arb`, `intl_es_AR.arb`, `intl_es_CO.arb`, `intl_es_CL.arb`, `intl_es_PE.arb`
 - Russian: `intl_ru_UA.arb`, `intl_ru_UZ.arb`
@@ -91,6 +99,7 @@
 - Korean: `intl_ko_KR.arb`
 
 ### קבצי Generated Code
+
 **מיקום:** `F:\GIT\ZuList\lib\l10n\`
 
 - `app_localizations.dart` - Base class
@@ -112,9 +121,11 @@
 ## 💡 המלצות
 
 ### אופציה 1: להוסיף שפות נוספות ל-Next.js
+
 אם רוצים שהאתר יתמוך באותן שפות כמו האפליקציה:
 
 **שפות מומלצות להוספה:**
+
 1. 🇷🇺 **Russian** (`ru`) - שפה נפוצה מאוד
 2. 🇫🇷 **French** (`fr`) - שפה נפוצה מאוד
 3. 🇯🇵 **Japanese** (`ja`) - שוק גדול
@@ -123,13 +134,16 @@
 6. 🇨🇳 **Chinese** (`zh`) - שוק ענק
 
 **מה צריך לעשות:**
+
 1. הוסף את השפות ל-`routing.ts`
 2. צור קבצי JSON חדשים ב-`messages/` (למשל: `ru.json`, `fr.json`, וכו')
 3. תרגם את כל התוכן (או השתמש ב-translation service)
 4. עדכן את `LanguageSwitcher` אם צריך
 
 ### אופציה 2: להשאיר רק 6 שפות
+
 אם רוצים לשמור על פשטות:
+
 - ✅ האתר תומך ב-6 שפות עיקריות
 - ✅ האפליקציה תומכת ב-12 שפות
 - ✅ זה בסדר - האפליקציה יכולה לתמוך ביותר שפות מהאתר
@@ -147,10 +161,12 @@
 ## 🔗 קבצים רלוונטיים
 
 ### Flutter:
+
 - `F:\GIT\ZuList\l10n.yaml` - הגדרות תרגום
 - `F:\GIT\ZuList\lib\l10n\intl_*.arb` - קבצי תרגום
 
 ### Next.js:
+
 - `routing.ts` - הגדרות שפות
 - `messages/*.json` - קבצי תרגום
 - `i18n.ts` - הגדרות next-intl
@@ -158,4 +174,3 @@
 ---
 
 **✅ סיכום:** בפרויקט Flutter יש **12 שפות עיקריות** + גרסאות אזוריות, בעוד שב-Next.js יש רק **6 שפות**. אם רוצים, אפשר להוסיף שפות נוספות ל-Next.js.
-
