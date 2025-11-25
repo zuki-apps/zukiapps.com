@@ -394,11 +394,16 @@ export default function ZuListPage() {
             {t('download.description')}
           </p>
           <div className="flex gap-8 justify-center flex-wrap">
-            <div className="bg-blue-50 rounded-xl p-6 shadow-lg">
+            <a
+              href="https://apps.apple.com/app/zulist/id6753878439"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow"
+            >
               <span className="text-4xl mb-2 block">📱</span>
               <p className="font-semibold text-gray-700">{t('download.appStore')}</p>
-              <p className="text-sm text-gray-500">{t('download.soon')}</p>
-            </div>
+              <p className="text-sm text-blue-600 mt-2">{t('download.download')}</p>
+            </a>
             <div className="bg-blue-50 rounded-xl p-6 shadow-lg">
               <span className="text-4xl mb-2 block">📱</span>
               <p className="font-semibold text-gray-700">{t('download.googlePlay')}</p>
