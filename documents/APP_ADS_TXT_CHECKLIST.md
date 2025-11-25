@@ -170,6 +170,7 @@
 - ✅ **Deploy:** הושלם
 
 **השלבים הבאים:**
+
 1. ⏰ **המתן 24 שעות** ל-AdMob לסרוק את הקובץ
 2. 🔍 **בדוק ב-AdMob Console** → App settings → app-ads.txt status
 3. ✅ **וודא הדומיין** ב-Google Play/App Store תואם ל-`zukiapps.com`
