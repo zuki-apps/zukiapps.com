@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -16,18 +17,24 @@ export async function generateMetadata({
     notFound();
   }
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  
   return {
     title: 'Privacy Policy - ZuList | Zuki Apps',
     description: 'Privacy Policy for ZuList - Smart shopping list application. Learn how we collect, use, and protect your data.',
     robots: 'index, follow',
     alternates: {
-      canonical: `https://zukiapps.com/${locale}/zulist/privacy`,
-      languages: {
-        'en': 'https://zukiapps.com/en/zulist/privacy',
-        'he': 'https://zukiapps.com/he/zulist/privacy',
-        'de': 'https://zukiapps.com/de/zulist/privacy',
-        'es': 'https://zukiapps.com/es/zulist/privacy',
-      }
+      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
+        ? `${baseUrl}/zulist/privacy` 
+        : `${baseUrl}/${locale}/zulist/privacy`,
+      languages: Object.fromEntries(
+        routing.locales.map((loc) => [
+          loc,
+          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
+            ? `${baseUrl}/zulist/privacy` 
+            : `${baseUrl}/${loc}/zulist/privacy`
+        ])
+      )
     }
   };
 }
@@ -46,7 +53,16 @@ export default async function PrivacyPolicyPage({
   const t = await getTranslations({ locale, namespace: 'zulist.privacy' });
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
+    <>
+      <BreadcrumbsStructuredData
+        locale={locale}
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'ZuList', path: '/zulist' },
+          { name: 'Privacy Policy', path: '/zulist/privacy' }
+        ]}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Language Switcher */}
         <div className="mb-6 flex justify-end">
@@ -210,6 +226,7 @@ export default async function PrivacyPolicyPage({
         </div>
       </div>
     </div>
+    </>
   );
 }
 

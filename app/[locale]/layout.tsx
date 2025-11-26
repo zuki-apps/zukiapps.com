@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
 import { Metadata } from 'next';
+import Script from 'next/script';
 import '../globals.css';
 
 export function generateStaticParams() {
@@ -29,27 +30,34 @@ export async function generateMetadata({
     creator: 'Zuki Apps',
     publisher: 'Zuki Apps',
     metadataBase: new URL(baseUrl),
+    viewport: {
+      width: 'device-width',
+      initialScale: 1,
+      maximumScale: 5,
+      userScalable: true,
+    },
+    other: {
+      'format-detection': 'telephone=no',
+    },
     alternates: {
-      canonical: `/${locale}`,
-      languages: {
-        'en': '/en',
-        'he': '/he',
-        'de': '/de',
-        'es': '/es',
-        'it': '/it',
-        'pt': '/pt',
-        'ru': '/ru',
-        'fr': '/fr',
-        'ja': '/ja',
-        'ko': '/ko',
-        'ar': '/ar',
-        'zh': '/zh',
-      },
+      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
+        ? '/' 
+        : `/${locale}`,
+      languages: Object.fromEntries(
+        routing.locales.map((loc) => [
+          loc,
+          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
+            ? '/' 
+            : `/${loc}`
+        ])
+      ),
     },
     openGraph: {
       type: 'website',
-      locale: locale,
-      url: `${baseUrl}/${locale}`,
+      locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
+      url: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
+        ? baseUrl 
+        : `${baseUrl}/${locale}`,
       siteName,
       title,
       description,
@@ -85,8 +93,15 @@ export async function generateMetadata({
       google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || 'vptLaNoDGkQvPt_cWG3D-SYIa253GayWGOhN'
     },
     icons: {
-      icon: '/logo.png',
-      apple: '/logo.png',
+      icon: [
+        { url: '/logo.png', sizes: '512x512', type: 'image/png' },
+        { url: '/logo.png', sizes: '192x192', type: 'image/png' },
+        { url: '/logo.png', sizes: '32x32', type: 'image/png' }
+      ],
+      apple: [
+        { url: '/logo.png', sizes: '180x180', type: 'image/png' }
+      ],
+      shortcut: '/logo.png',
     },
   };
 }
@@ -105,9 +120,55 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages({ locale });
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const logoUrl = `${baseUrl}/logo.png`;
+
+  // Build structured data (JSON-LD)
+  const organizationData = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Zuki Apps',
+    url: baseUrl,
+    logo: logoUrl,
+    description: 'Mobile App Developer from Israel. Creating smart and intuitive mobile applications.',
+    sameAs: [
+      // Add social media links if available
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      email: 'zuki.apps.dev@gmail.com',
+      contactType: 'Customer Service'
+    }
+  };
+
+  // Build WebSite schema with searchAction
+  const websiteData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Zuki Apps',
+    url: baseUrl,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${baseUrl}/search?q={search_term_string}`
+      },
+      'query-input': 'required name=search_term_string'
+    }
+  };
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <Script
+        id="organization-structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
+      />
+      <Script
+        id="website-structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteData) }}
+      />
       {children}
     </NextIntlClientProvider>
   );

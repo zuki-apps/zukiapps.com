@@ -3,7 +3,9 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Mail, HelpCircle, MessageCircle, FileText, Shield, Settings } from 'lucide-react';
 
 export async function generateMetadata({
@@ -17,18 +19,24 @@ export async function generateMetadata({
     notFound();
   }
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  
   return {
     title: 'Support - ZuList | Zuki Apps',
     description: 'Get help and support for ZuList. Find answers to common questions, contact information, and helpful resources.',
     robots: 'index, follow',
     alternates: {
-      canonical: `https://zukiapps.com/${locale}/zulist/support`,
-      languages: {
-        'en': 'https://zukiapps.com/en/zulist/support',
-        'he': 'https://zukiapps.com/he/zulist/support',
-        'de': 'https://zukiapps.com/de/zulist/support',
-        'es': 'https://zukiapps.com/es/zulist/support',
-      }
+      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
+        ? `${baseUrl}/zulist/support` 
+        : `${baseUrl}/${locale}/zulist/support`,
+      languages: Object.fromEntries(
+        routing.locales.map((loc) => [
+          loc,
+          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
+            ? `${baseUrl}/zulist/support` 
+            : `${baseUrl}/${loc}/zulist/support`
+        ])
+      )
     }
   };
 }
@@ -45,9 +53,80 @@ export default async function SupportPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'zulist.support' });
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  
+  // Build FAQ Structured Data (JSON-LD)
+  const faqStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: t('faq.q1.question'),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: t('faq.q1.answer')
+        }
+      },
+      {
+        '@type': 'Question',
+        name: t('faq.q2.question'),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: t('faq.q2.answer')
+        }
+      },
+      {
+        '@type': 'Question',
+        name: t('faq.q3.question'),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: t('faq.q3.answer')
+        }
+      },
+      {
+        '@type': 'Question',
+        name: t('faq.q4.question'),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: t('faq.q4.answer')
+        }
+      },
+      {
+        '@type': 'Question',
+        name: t('faq.q5.question'),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: t('faq.q5.answer')
+        }
+      },
+      {
+        '@type': 'Question',
+        name: t('faq.q6.question'),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: t('faq.q6.answer')
+        }
+      }
+    ]
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
+    <>
+      <Script
+        id="faq-structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+      />
+      <BreadcrumbsStructuredData
+        locale={locale}
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'ZuList', path: '/zulist' },
+          { name: 'Support', path: '/zulist/support' }
+        ]}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Language Switcher */}
         <div className="mb-6 flex justify-end">
@@ -221,6 +300,7 @@ export default async function SupportPage({
         </div>
       </div>
     </div>
+    </>
   );
 }
 

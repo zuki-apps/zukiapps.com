@@ -10,21 +10,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/zulist/privacy',
     '/zulist/terms',
     '/zulist/support',
+    '/zulist/delete-account',
+    '/zulist/delete-data',
   ];
 
   const sitemapEntries: MetadataRoute.Sitemap = [];
 
   routing.locales.forEach((locale) => {
     routes.forEach((route) => {
+      // For default locale with 'as-needed', don't add locale prefix
+      const localePrefix = locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
+        ? '' 
+        : `/${locale}`;
+      
+      const url = `${baseUrl}${localePrefix}${route}`;
+      
+      // Build alternates - for default locale, use empty prefix, for others use locale prefix
+      const alternates: Record<string, string> = {};
+      routing.locales.forEach((loc) => {
+        const altPrefix = loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
+          ? '' 
+          : `/${loc}`;
+        alternates[loc] = `${baseUrl}${altPrefix}${route}`;
+      });
+
       sitemapEntries.push({
-        url: `${baseUrl}/${locale}${route}`,
+        url,
         lastModified: new Date(),
         changeFrequency: route === '' ? 'weekly' : 'monthly',
         priority: route === '' ? 1 : 0.8,
         alternates: {
-          languages: Object.fromEntries(
-            routing.locales.map((loc) => [loc, `${baseUrl}/${loc}${route}`])
-          ),
+          languages: alternates,
         },
       });
     });

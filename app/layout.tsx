@@ -5,8 +5,14 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com'),
   icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
+    icon: [
+      { url: '/logo.png', sizes: '512x512', type: 'image/png' },
+      { url: '/logo.png', sizes: '192x192', type: 'image/png' },
+      { url: '/logo.png', sizes: '32x32', type: 'image/png' }
+    ],
+    apple: [
+      { url: '/logo.png', sizes: '180x180', type: 'image/png' }
+    ],
     shortcut: '/logo.png',
   },
   manifest: '/manifest.json',
@@ -29,10 +35,14 @@ export default function RootLayout({
               const path = window.location.pathname;
               const localeMatch = path.match(/^\/([^/]+)/);
               const locale = localeMatch ? localeMatch[1] : 'en';
-              const validLocales = ['en', 'he', 'de', 'es', 'it', 'pt'];
+              const validLocales = ['en', 'he', 'de', 'es', 'it', 'pt', 'ru', 'fr', 'ja', 'ko', 'ar', 'zh'];
+              const rtlLocales = ['he', 'ar'];
               if (validLocales.includes(locale)) {
                 document.documentElement.lang = locale;
-                document.documentElement.dir = locale === 'he' ? 'rtl' : 'ltr';
+                document.documentElement.dir = rtlLocales.includes(locale) ? 'rtl' : 'ltr';
+              } else {
+                document.documentElement.lang = 'en';
+                document.documentElement.dir = 'ltr';
               }
             })();
           `}

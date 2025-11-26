@@ -3,13 +3,23 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 
 export default function TermsOfServicePage() {
   const t = useTranslations('zulist.terms');
   const locale = useLocale();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
+    <>
+      <BreadcrumbsStructuredData
+        locale={locale}
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'ZuList', path: '/zulist' },
+          { name: 'Terms of Service', path: '/zulist/terms' }
+        ]}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Language Switcher */}
         <div className="mb-6 flex justify-end">
@@ -507,5 +517,6 @@ export default function TermsOfServicePage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

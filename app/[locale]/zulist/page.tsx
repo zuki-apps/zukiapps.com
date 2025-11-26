@@ -5,13 +5,22 @@ import { useTranslations, useLocale } from 'next-intl';
 import { ShoppingCart, ArrowLeft, Users, Wifi, Sparkles, Globe, Database, FolderTree, Mail, ExternalLink, Bell, Layout, Crown, Image as ImageIcon, BarChart3, Smartphone, Lock, CheckCircle2, Video, Instagram, Facebook } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
+import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 
 export default function ZuListPage() {
   const t = useTranslations('zulist');
   const locale = useLocale();
 
   return (
-    <div className="min-h-screen bg-black relative overflow-hidden">
+    <>
+      <BreadcrumbsStructuredData
+        locale={locale}
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'ZuList', path: '/zulist' }
+        ]}
+      />
+      <div className="min-h-screen bg-black relative overflow-hidden">
       {/* Starry background effect */}
       <div className="fixed inset-0 z-0" aria-hidden="true">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
@@ -584,5 +593,6 @@ export default function ZuListPage() {
         </div>
       </footer>
     </div>
+    </>
   );
 }
