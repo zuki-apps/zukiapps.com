@@ -1,100 +1,100 @@
 {
   "home": {
     "title": "Zuki Apps",
-    "subtitle": "Mobile App Developer from Israel",
-    "tagline": "Creating smart and intuitive mobile applications that make everyday life easier",
+    "subtitle": "Разработчик мобильных приложений из Израиля",
+    "tagline": "Создание умных и интуитивных мобильных приложений, которые делают повседневную жизнь проще",
     "story": {
-      "title": "My Story",
-      "p1": "Between 2012 and 2016, I developed mobile applications as part of the dreamBit team. During those years, I had the opportunity to work on various projects, learning the ins and outs of mobile development and creating apps that users loved.",
-      "p2": "After a long break from active development, I've returned to pursue my passion - mobile app development. This time, I'm building apps as a hobby, driven by my love for technology and creativity.",
-      "p3": "Today, I focus on developing smart and intuitive mobile applications that can help people in their daily lives. Each app I create is crafted with attention to detail, user experience, and innovative solutions to real-world problems."
+      "title": "Моя история",
+      "p1": "В период с 2012 по 2016 год я разрабатывал мобильные приложения в составе команды dreamBit. В те годы у меня была возможность работать над различными проектами, изучая все тонкости мобильной разработки и создавая приложения, которые пользователи полюбили.",
+      "p2": "После долгого перерыва в активной разработке я вернулся к своей страсти - разработке мобильных приложений. На этот раз я создаю приложения как хобби, движимый любовью к технологиям и творчеству.",
+      "p3": "Сегодня я сосредоточен на разработке умных и интуитивных мобильных приложений, которые могут помочь людям в их повседневной жизни. Каждое приложение, которое я создаю, тщательно продумано, с вниманием к деталям, пользовательскому опыту и инновационным решениям реальных проблем."
     },
     "zuliMonsters": {
       "title": "Zuli Monsters",
-      "description": "One of the unique aspects of my apps are the original illustrations I create, which I call Zuli Monsters.",
-      "more": "These cute and colorful creatures accompany users throughout their app experience, adding a touch of fun and personality to every interaction. You'll be hearing more about them soon!"
+      "description": "Одной из уникальных особенностей моих приложений являются оригинальные иллюстрации, которые я создаю, и я называю их Zuli Monsters.",
+      "more": "Эти милые и красочные существа сопровождают пользователей на протяжении всего их опыта использования приложения, добавляя нотку веселья и индивидуальности каждому взаимодействию. Скоро вы услышите о них больше!"
     },
     "zulist": {
       "title": "ZuList",
-      "subtitle": "My first app - Smart shopping list management",
-      "description": "ZuList is a Flutter-based shopping list application designed to make grocery shopping easier and more collaborative. With real-time sharing, offline support, and smart product recommendations, it's the perfect companion for families and friends who shop together. Coming soon!",
+      "subtitle": "Мое первое приложение - Умное управление списками покупок",
+      "description": "ZuList - это приложение для списков покупок на основе Flutter, разработанное для упрощения и совместного использования покупок. С обменом в реальном времени, поддержкой офлайн и умными рекомендациями продуктов, это идеальный спутник для семей и друзей, которые делают покупки вместе. Уже доступно в App Store!",
       "features": {
-        "realtime": "Real-time Sharing",
-        "offline": "Works Offline",
-        "smart": "Smart Recommendations"
+        "realtime": "Обмен в реальном времени",
+        "offline": "Работает офлайн",
+        "smart": "Умные рекомендации"
       },
-      "learnMore": "Learn more about ZuList →"
+      "learnMore": "Узнать больше о ZuList →"
     },
     "contact": {
-      "title": "Get in Touch",
-      "description": "Have a question, an idea, or just want to connect? I'd love to hear from you!",
-      "sendEmail": "Send Email",
+      "title": "Связаться",
+      "description": "Есть вопрос, идея или просто хотите связаться? Буду рад услышать от вас!",
+      "sendEmail": "Отправить письмо",
       "email": "zuki.apps.dev@gmail.com"
     },
     "footer": {
       "copyright": "© 2025 Zuki Apps - All rights reserved",
-      "tagline": "Developed in Israel • As a hobby • With passion"
+      "tagline": "Разработано в Израиле • Как хобби • С увлечением"
     }
   },
   "zulist": {
-    "back": "Back to Home",
+    "back": "Вернуться на главную",
     "hero": {
-      "badge": "Production Ready - Version 1.0.0",
+      "badge": "Доступно Сейчас - Версия 1.0.1",
       "title": "ZuList",
-      "subtitle": "Smart Shopping Lists for Families",
-      "description": "The perfect app for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration."
+      "subtitle": "Умные списки покупок для семей",
+      "description": "Идеальное приложение для семей и друзей, которые делают покупки вместе. Создавайте, делитесь и управляйте списками покупок в реальном времени с бесшовным сотрудничеством."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Основные функции",
       "realtime": {
-        "title": "Real-time Collaboration",
-        "description": "Share lists with family and friends, see changes instantly across all devices",
+        "title": "Сотрудничество в реальном времени",
+        "description": "Делитесь списками с семьей и друзьями, видите изменения мгновенно на всех устройствах",
         "items": [
-          "Member and permission management",
-          "Invitations via email, SMS, WhatsApp",
-          "Shareable links",
-          "Real-time Push notifications"
+          "Управление участниками и разрешениями",
+          "Приглашения по электронной почте, SMS, WhatsApp",
+          "Ссылки для совместного доступа",
+          "Push-уведомления в реальном времени"
         ]
       },
       "offline": {
-        "title": "Offline Support",
-        "description": "Works seamlessly even without internet connection",
+        "title": "Поддержка офлайн",
+        "description": "Работает бесшовно даже без подключения к интернету",
         "items": [
-          "Automatic sync when back online",
-          "Never lose your data",
-          "Cloud backup (Premium)"
+          "Автоматическая синхронизация при возвращении в онлайн",
+          "Никогда не теряйте свои данные",
+          "Резервное копирование в облаке (Премиум)"
         ]
       },
       "smart": {
-        "title": "Smart Recommendations",
-        "description": "AI-based recommendations with product catalog",
+        "title": "Умные рекомендации",
+        "description": "Рекомендации на основе ИИ с каталогом продуктов",
         "items": [
-          "Intelligent autocomplete",
-          "Personalized suggestions",
-          "Learn from your shopping habits"
+          "Умное автозаполнение",
+          "Персонализированные предложения",
+          "Обучение на основе ваших привычек покупок"
         ]
       },
       "templates": {
-        "title": "Smart Templates",
-        "description": "Pre-made shopping list templates",
+        "title": "Умные шаблоны",
+        "description": "Готовые шаблоны списков покупок",
         "items": [
-          "Quick start for common shopping trips",
-          "Customize templates to your needs",
-          "34+ ready-made templates"
+          "Быстрый старт для обычных походов за покупками",
+          "Настройте шаблоны под свои нужды",
+          "34+ готовых шаблонов"
         ]
       },
       "notifications": {
-        "title": "Smart Notifications",
-        "description": "Get notified when items are added or when friends update",
+        "title": "Умные уведомления",
+        "description": "Получайте уведомления, когда добавляются элементы или когда друзья обновляют",
         "items": [
-          "Silent mode for quiet shopping",
-          "Badge counts for unread updates",
-          "Real-time Push notifications"
+          "Тихий режим для спокойных покупок",
+          "Счетчики значков для непрочитанных обновлений",
+          "Push-уведомления в реальном времени"
         ]
       },
       "multilang": {
-        "title": "12 Language Support",
-        "description": "Full support for 12 languages with translated interface",
+        "title": "Поддержка 12 языков",
+        "description": "Полная поддержка 12 языков с переведенным интерфейсом",
         "items": [
           "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
           "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
@@ -103,166 +103,165 @@
         ]
       },
       "categories": {
-        "title": "Category Management",
-        "description": "Organize your shopping by categories for better efficiency",
+        "title": "Управление категориями",
+        "description": "Организуйте свои покупки по категориям для большей эффективности",
         "items": [
-          "Custom categories",
-          "Custom icons",
-          "Automatic organization"
+          "Пользовательские категории",
+          "Пользовательские иконки",
+          "Автоматическая организация"
         ]
       },
       "photos": {
-        "title": "Custom Photos",
-        "description": "Add custom photos to items",
+        "title": "Пользовательские фотографии",
+        "description": "Добавляйте пользовательские фотографии к элементам",
         "items": [
-          "Direct camera capture",
-          "Gallery selection",
-          "Automatic optimization"
+          "Прямой захват с камеры",
+          "Выбор из галереи",
+          "Автоматическая оптимизация"
         ]
       },
       "history": {
-        "title": "Purchase History",
-        "description": "Track your shopping history",
+        "title": "История покупок",
+        "description": "Отслеживайте историю своих покупок",
         "items": [
-          "Advanced statistics (Premium)",
-          "Track shopping habits",
-          "Detailed reports"
+          "Расширенная статистика (Премиум)",
+          "Отслеживание привычек покупок",
+          "Подробные отчеты"
         ]
       },
       "firebase": {
-        "title": "Firebase Integration",
-        "description": "Secure cloud sync with Firebase",
+        "title": "Интеграция Firebase",
+        "description": "Безопасная синхронизация в облаке с Firebase",
         "items": [
-          "Authentication, Realtime DB, Firestore",
-          "Storage, Functions, FCM",
-          "Deep linking"
+          "Аутентификация, База данных в реальном времени, Firestore",
+          "Хранилище, Функции, FCM",
+          "Глубокие ссылки"
         ]
       },
       "security": {
-        "title": "Privacy & Security",
-        "description": "Secure authentication and data protection",
+        "title": "Конфиденциальность и безопасность",
+        "description": "Безопасная аутентификация и защита данных",
         "items": [
-          "Secure authentication (Google, Apple)",
-          "Encrypted data",
-          "Full control over sharing",
-          "Complete account deletion"
+          "Безопасная аутентификация (Google, Apple)",
+          "Зашифрованные данные",
+          "Полный контроль над совместным использованием",
+          "Полное удаление аккаунта"
         ]
       },
       "ui": {
-        "title": "Beautiful & Intuitive",
-        "description": "Modern and clean interface with excellent user experience",
+        "title": "Красивый и интуитивный",
+        "description": "Современный и чистый интерфейс с отличным пользовательским опытом",
         "items": [
-          "Zuli Monsters characters for fun",
-          "Customizable themes",
-          "Dark mode support",
-          "Full Accessibility support"
+          "Персонажи Zuli Monsters для развлечения",
+          "Настраиваемые темы",
+          "Поддержка темного режима",
+          "Полная поддержка доступности"
         ]
       }
     },
     "premium": {
-      "title": "Premium Features",
-      "description": "Upgrade to Premium and enjoy advanced features without limits",
+      "title": "Премиум функции",
+      "description": "Обновитесь до Премиум и наслаждайтесь расширенными функциями без ограничений",
       "free": {
-        "title": "Free Features",
+        "title": "Бесплатные функции",
         "items": [
-          "5 lists maximum",
-          "150 items per list",
-          "1 shared member per list",
-          "Banner ads",
-          "No advanced statistics",
-          "No custom themes",
-          "No offline mode",
-          "No cloud backup"
+          "Максимум 5 списков",
+          "150 элементов на список",
+          "1 общий участник на список",
+          "Баннерная реклама",
+          "Нет расширенной статистики",
+          "Нет пользовательских тем",
+          "Нет офлайн режима",
+          "Нет резервного копирования в облаке"
         ]
       },
       "premium": {
-        "title": "Premium Features",
+        "title": "Премиум функции",
         "items": [
-          "Unlimited lists",
-          "Unlimited items",
-          "Unlimited members",
-          "Ad-free experience",
-          "Advanced statistics",
-          "Custom themes",
-          "Offline mode",
-          "Cloud backup"
+          "Неограниченное количество списков",
+          "Неограниченное количество элементов",
+          "Неограниченное количество участников",
+          "Опыт без рекламы",
+          "Расширенная статистика",
+          "Пользовательские темы",
+          "Офлайн режим",
+          "Резервное копирование в облаке"
         ]
       },
       "pricing": {
-        "monthly": "Monthly: ₪7.50",
-        "yearly": "Yearly: ₪65.00",
-        "savings": "Save 25% with annual subscription",
-        "other": "Also: $2.00/month or €1.80/month | $18.00/year or €16.00/year"
+        "monthly": "Ежемесячно: $1.99",
+        "yearly": "Ежегодно: $17.99",
+        "savings": "Экономьте 25% при годовой подписке"
       },
       "rewarded": {
-        "title": "Rewarded Ads",
-        "description": "Watch ads and get temporary access to Premium features:",
+        "title": "Реклама с наградой",
+        "description": "Смотрите рекламу и получайте временный доступ к Премиум функциям:",
         "items": [
-          "Remove ads for 24 hours",
-          "Access statistics for 24 hours",
-          "10 additional items per list"
+          "Удаление рекламы на 24 часа",
+          "Доступ к статистике на 24 часа",
+          "10 дополнительных элементов на список"
         ]
       }
     },
     "status": {
-      "title": "✅ Production Ready",
-      "description": "The app is ready for use with 521+ comprehensive tests",
-      "version": "Version",
-      "tests": "Tests",
-      "status": "Status",
-      "versionValue": "1.0.0+1",
-      "testsValue": "521+ tests",
-      "statusValue": "Ready for release"
+      "title": "✅ Доступно Сейчас",
+      "description": "Приложение готово к использованию с 521+ комплексными тестами",
+      "version": "Версия",
+      "tests": "Тесты",
+      "status": "Статус",
+      "versionValue": "1.0.1+1",
+      "testsValue": "521+ тестов",
+      "statusValue": "Доступно в App Store"
     },
     "download": {
-      "title": "Download Now",
-      "description": "Get ZuList from the app stores",
+      "title": "Скачать сейчас",
+      "description": "Получите ZuList из магазинов приложений",
       "appStore": "App Store",
       "googlePlay": "Google Play",
-      "soon": "Coming soon",
-      "download": "Download"
+      "soon": "Скоро",
+      "download": "Скачать"
     },
     "perfectFor": {
-      "title": "Perfect For",
+      "title": "Идеально для",
       "families": {
-        "title": "👨‍👩‍👧‍👦 Families Shopping Together",
-        "description": "Share lists with the whole family and always stay synchronized"
+        "title": "👨‍👩‍👧‍👦 Семей, делающих покупки вместе",
+        "description": "Делитесь списками со всей семьей и всегда оставайтесь синхронизированными"
       },
       "roommates": {
-        "title": "🏠 Roommates",
-        "description": "Share groceries with roommates easily"
+        "title": "🏠 Соседей по комнате",
+        "description": "Легко делитесь покупками с соседями по комнате"
       },
       "events": {
-        "title": "🎉 Event Organizers",
-        "description": "Plan events with friends in an organized way"
+        "title": "🎉 Организаторов мероприятий",
+        "description": "Планируйте мероприятия с друзьями организованно"
       },
       "everyone": {
-        "title": "🛒 Anyone Who Wants Organized Shopping",
-        "description": "Make shopping organized, collaborative, and fun"
+        "title": "🛒 Всех, кто хочет организованные покупки",
+        "description": "Сделайте покупки организованными, совместными и веселыми"
       }
     },
     "links": {
-      "title": "Important Links",
+      "title": "Важные ссылки",
       "support": {
-        "title": "Technical Support",
+        "title": "Техническая поддержка",
         "email": "zuki.apps.dev@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "Общий контакт",
         "email": "zuki.apps.dev@gmail.com"
       },
       "website": {
-        "title": "Official Website",
+        "title": "Официальный сайт",
         "url": "zulist.app"
       },
       "social": {
-        "title": "Social Media"
+        "title": "Социальные сети"
       }
     },
     "footer": {
       "copyright": "© 2025 ZuList - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️",
-      "bundle": "Bundle ID: com.zukiapps.zulist | Version: 1.0.0+1"
+      "tagline": "Часть Zuki Apps • Разработчик из Израиля • Сделано с ❤️",
+      "bundle": "ID пакета: com.zukiapps.zulist | Версия: 1.0.1+1"
     },
     "privacy": {
       "title": "Privacy Policy",
@@ -730,34 +729,34 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "Поддержка и помощь",
+      "subtitle": "Мы здесь, чтобы помочь! Найдите ответы на часто задаваемые вопросы или свяжитесь с нами напрямую.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "Свяжитесь с нами",
+        "description": "Есть вопрос или нужна помощь? Отправьте нам письмо, и мы ответим как можно скорее.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "Быстрые ссылки",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "Политика конфиденциальности",
+          "description": "Узнайте, как мы защищаем ваши данные"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "Условия использования",
+          "description": "Прочитайте наши условия и положения"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Instructions for account deletion"
+          "title": "Удалить аккаунт",
+          "description": "Инструкции по удалению аккаунта"
         },
         "deleteData": {
-          "title": "Delete Data",
-          "description": "How to delete specific data"
+          "title": "Удалить данные",
+          "description": "Как удалить определенные данные"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "Часто задаваемые вопросы",
         "q1": {
           "question": "How do I share a shopping list with family members?",
           "answer": "To share a list, open the list and tap the 'Share' or 'Members' button. You can invite members via email, SMS, WhatsApp, or by sharing a link. Once they accept the invitation, they'll have access to the list and can add or modify items in real-time."
@@ -784,13 +783,13 @@
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "Нужна дополнительная помощь?",
+        "description": "Если вы не нашли ответ, который ищете, или если у вас возникла техническая проблема, пожалуйста, не стесняйтесь связаться с нами. Мы здесь, чтобы помочь, и обычно отвечаем в течение 24-48 часов."
       }
     }
   },
   "common": {
-    "language": "Language"
+    "language": "Язык"
   }
 }
 

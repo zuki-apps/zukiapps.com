@@ -1,100 +1,100 @@
 {
   "home": {
     "title": "Zuki Apps",
-    "subtitle": "Mobile App Developer from Israel",
-    "tagline": "Creating smart and intuitive mobile applications that make everyday life easier",
+    "subtitle": "来自以色列的移动应用开发者",
+    "tagline": "创建智能直观的移动应用程序，让日常生活更轻松",
     "story": {
-      "title": "My Story",
-      "p1": "Between 2012 and 2016, I developed mobile applications as part of the dreamBit team. During those years, I had the opportunity to work on various projects, learning the ins and outs of mobile development and creating apps that users loved.",
-      "p2": "After a long break from active development, I've returned to pursue my passion - mobile app development. This time, I'm building apps as a hobby, driven by my love for technology and creativity.",
-      "p3": "Today, I focus on developing smart and intuitive mobile applications that can help people in their daily lives. Each app I create is crafted with attention to detail, user experience, and innovative solutions to real-world problems."
+      "title": "我的故事",
+      "p1": "在2012年至2016年期间，我作为dreamBit团队的一员开发移动应用程序。在那些年里，我有机会参与各种项目，学习移动开发的方方面面，并创建用户喜爱的应用程序。",
+      "p2": "在长期中断积极开发后，我重新回到了我的热情所在——移动应用开发。这次，我将应用开发作为爱好，由对技术和创造力的热爱驱动。",
+      "p3": "如今，我专注于开发智能直观的移动应用程序，帮助人们的日常生活。我创建的每个应用程序都经过精心设计，注重细节、用户体验以及对现实世界问题的创新解决方案。"
     },
     "zuliMonsters": {
       "title": "Zuli Monsters",
-      "description": "One of the unique aspects of my apps are the original illustrations I create, which I call Zuli Monsters.",
-      "more": "These cute and colorful creatures accompany users throughout their app experience, adding a touch of fun and personality to every interaction. You'll be hearing more about them soon!"
+      "description": "我的应用程序的独特之处之一是我创作的原创插图，我称之为Zuli Monsters。",
+      "more": "这些可爱多彩的生物在用户的整个应用体验中陪伴着他们，为每次互动增添趣味和个性。您很快就会听到更多关于它们的信息！"
     },
     "zulist": {
       "title": "ZuList",
-      "subtitle": "My first app - Smart shopping list management",
-      "description": "ZuList is a Flutter-based shopping list application designed to make grocery shopping easier and more collaborative. With real-time sharing, offline support, and smart product recommendations, it's the perfect companion for families and friends who shop together. Coming soon!",
+      "subtitle": "我的第一个应用 - 智能购物清单管理",
+      "description": "ZuList是一款基于Flutter的购物清单应用程序，旨在让杂货购物更轻松、更具协作性。具有实时共享、离线支持和智能产品推荐功能，是家庭和朋友一起购物的完美伴侣。现已在App Store上架！",
       "features": {
-        "realtime": "Real-time Sharing",
-        "offline": "Works Offline",
-        "smart": "Smart Recommendations"
+        "realtime": "实时共享",
+        "offline": "离线工作",
+        "smart": "智能推荐"
       },
-      "learnMore": "Learn more about ZuList →"
+      "learnMore": "了解更多关于ZuList的信息 →"
     },
     "contact": {
-      "title": "Get in Touch",
-      "description": "Have a question, an idea, or just want to connect? I'd love to hear from you!",
-      "sendEmail": "Send Email",
+      "title": "联系我们",
+      "description": "有问题、有想法，或者只是想联系？我很乐意收到您的来信！",
+      "sendEmail": "发送邮件",
       "email": "zuki.apps.dev@gmail.com"
     },
     "footer": {
       "copyright": "© 2025 Zuki Apps - All rights reserved",
-      "tagline": "Developed in Israel • As a hobby • With passion"
+      "tagline": "在以色列开发 • 作为爱好 • 充满热情"
     }
   },
   "zulist": {
-    "back": "Back to Home",
+    "back": "返回首页",
     "hero": {
-      "badge": "Production Ready - Version 1.0.0",
+      "badge": "现已推出 - 版本 1.0.1",
       "title": "ZuList",
-      "subtitle": "Smart Shopping Lists for Families",
-      "description": "The perfect app for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration."
+      "subtitle": "面向家庭的智能购物清单",
+      "description": "适合一起购物的家庭和朋友的完美应用程序。实时创建、共享和管理购物清单，实现无缝协作。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主要功能",
       "realtime": {
-        "title": "Real-time Collaboration",
-        "description": "Share lists with family and friends, see changes instantly across all devices",
+        "title": "实时协作",
+        "description": "与家人和朋友共享清单，在所有设备上即时查看更改",
         "items": [
-          "Member and permission management",
-          "Invitations via email, SMS, WhatsApp",
-          "Shareable links",
-          "Real-time Push notifications"
+          "成员和权限管理",
+          "通过电子邮件、短信、WhatsApp邀请",
+          "可共享链接",
+          "实时推送通知"
         ]
       },
       "offline": {
-        "title": "Offline Support",
-        "description": "Works seamlessly even without internet connection",
+        "title": "离线支持",
+        "description": "即使没有互联网连接也能无缝工作",
         "items": [
-          "Automatic sync when back online",
-          "Never lose your data",
-          "Cloud backup (Premium)"
+          "重新上线时自动同步",
+          "永不丢失数据",
+          "云备份（高级版）"
         ]
       },
       "smart": {
-        "title": "Smart Recommendations",
-        "description": "AI-based recommendations with product catalog",
+        "title": "智能推荐",
+        "description": "基于AI的产品目录推荐",
         "items": [
-          "Intelligent autocomplete",
-          "Personalized suggestions",
-          "Learn from your shopping habits"
+          "智能自动完成",
+          "个性化建议",
+          "从您的购物习惯中学习"
         ]
       },
       "templates": {
-        "title": "Smart Templates",
-        "description": "Pre-made shopping list templates",
+        "title": "智能模板",
+        "description": "预制购物清单模板",
         "items": [
-          "Quick start for common shopping trips",
-          "Customize templates to your needs",
-          "34+ ready-made templates"
+          "快速开始常见购物行程",
+          "根据您的需求自定义模板",
+          "34+个现成模板"
         ]
       },
       "notifications": {
-        "title": "Smart Notifications",
-        "description": "Get notified when items are added or when friends update",
+        "title": "智能通知",
+        "description": "当添加项目或朋友更新时收到通知",
         "items": [
-          "Silent mode for quiet shopping",
-          "Badge counts for unread updates",
-          "Real-time Push notifications"
+          "安静购物的静音模式",
+          "未读更新的徽章计数",
+          "实时推送通知"
         ]
       },
       "multilang": {
-        "title": "12 Language Support",
-        "description": "Full support for 12 languages with translated interface",
+        "title": "12种语言支持",
+        "description": "完整支持12种语言，界面已翻译",
         "items": [
           "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
           "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
@@ -103,166 +103,165 @@
         ]
       },
       "categories": {
-        "title": "Category Management",
-        "description": "Organize your shopping by categories for better efficiency",
+        "title": "类别管理",
+        "description": "按类别组织购物以提高效率",
         "items": [
-          "Custom categories",
-          "Custom icons",
-          "Automatic organization"
+          "自定义类别",
+          "自定义图标",
+          "自动组织"
         ]
       },
       "photos": {
-        "title": "Custom Photos",
-        "description": "Add custom photos to items",
+        "title": "自定义照片",
+        "description": "为项目添加自定义照片",
         "items": [
-          "Direct camera capture",
-          "Gallery selection",
-          "Automatic optimization"
+          "直接相机拍摄",
+          "图库选择",
+          "自动优化"
         ]
       },
       "history": {
-        "title": "Purchase History",
-        "description": "Track your shopping history",
+        "title": "购买历史",
+        "description": "跟踪您的购物历史",
         "items": [
-          "Advanced statistics (Premium)",
-          "Track shopping habits",
-          "Detailed reports"
+          "高级统计（高级版）",
+          "跟踪购物习惯",
+          "详细报告"
         ]
       },
       "firebase": {
-        "title": "Firebase Integration",
-        "description": "Secure cloud sync with Firebase",
+        "title": "Firebase集成",
+        "description": "与Firebase的安全云同步",
         "items": [
-          "Authentication, Realtime DB, Firestore",
-          "Storage, Functions, FCM",
-          "Deep linking"
+          "身份验证、实时数据库、Firestore",
+          "存储、函数、FCM",
+          "深度链接"
         ]
       },
       "security": {
-        "title": "Privacy & Security",
-        "description": "Secure authentication and data protection",
+        "title": "隐私和安全",
+        "description": "安全身份验证和数据保护",
         "items": [
-          "Secure authentication (Google, Apple)",
-          "Encrypted data",
-          "Full control over sharing",
-          "Complete account deletion"
+          "安全身份验证（Google、Apple）",
+          "加密数据",
+          "完全控制共享",
+          "完整账户删除"
         ]
       },
       "ui": {
-        "title": "Beautiful & Intuitive",
-        "description": "Modern and clean interface with excellent user experience",
+        "title": "美观直观",
+        "description": "现代简洁的界面，用户体验出色",
         "items": [
-          "Zuli Monsters characters for fun",
-          "Customizable themes",
-          "Dark mode support",
-          "Full Accessibility support"
+          "Zuli Monsters角色增添趣味",
+          "可自定义主题",
+          "深色模式支持",
+          "完整的无障碍支持"
         ]
       }
     },
     "premium": {
-      "title": "Premium Features",
-      "description": "Upgrade to Premium and enjoy advanced features without limits",
+      "title": "高级功能",
+      "description": "升级到高级版，享受无限制的高级功能",
       "free": {
-        "title": "Free Features",
+        "title": "免费功能",
         "items": [
-          "5 lists maximum",
-          "150 items per list",
-          "1 shared member per list",
-          "Banner ads",
-          "No advanced statistics",
-          "No custom themes",
-          "No offline mode",
-          "No cloud backup"
+          "最多5个清单",
+          "每个清单150个项目",
+          "每个清单1个共享成员",
+          "横幅广告",
+          "无高级统计",
+          "无自定义主题",
+          "无离线模式",
+          "无云备份"
         ]
       },
       "premium": {
-        "title": "Premium Features",
+        "title": "高级功能",
         "items": [
-          "Unlimited lists",
-          "Unlimited items",
-          "Unlimited members",
-          "Ad-free experience",
-          "Advanced statistics",
-          "Custom themes",
-          "Offline mode",
-          "Cloud backup"
+          "无限清单",
+          "无限项目",
+          "无限成员",
+          "无广告体验",
+          "高级统计",
+          "自定义主题",
+          "离线模式",
+          "云备份"
         ]
       },
       "pricing": {
-        "monthly": "Monthly: ₪7.50",
-        "yearly": "Yearly: ₪65.00",
-        "savings": "Save 25% with annual subscription",
-        "other": "Also: $2.00/month or €1.80/month | $18.00/year or €16.00/year"
+        "monthly": "月费：$1.99",
+        "yearly": "年费：$17.99",
+        "savings": "年度订阅可节省25%"
       },
       "rewarded": {
-        "title": "Rewarded Ads",
-        "description": "Watch ads and get temporary access to Premium features:",
+        "title": "奖励广告",
+        "description": "观看广告并获得高级功能的临时访问权限：",
         "items": [
-          "Remove ads for 24 hours",
-          "Access statistics for 24 hours",
-          "10 additional items per list"
+          "24小时内移除广告",
+          "24小时内访问统计",
+          "每个清单额外10个项目"
         ]
       }
     },
     "status": {
-      "title": "✅ Production Ready",
-      "description": "The app is ready for use with 521+ comprehensive tests",
-      "version": "Version",
-      "tests": "Tests",
-      "status": "Status",
-      "versionValue": "1.0.0+1",
-      "testsValue": "521+ tests",
-      "statusValue": "Ready for release"
+      "title": "✅ 现已推出",
+      "description": "该应用程序已准备好使用，包含521+项全面测试",
+      "version": "版本",
+      "tests": "测试",
+      "status": "状态",
+      "versionValue": "1.0.1+1",
+      "testsValue": "521+项测试",
+      "statusValue": "可在 App Store 下载"
     },
     "download": {
-      "title": "Download Now",
-      "description": "Get ZuList from the app stores",
+      "title": "立即下载",
+      "description": "从应用商店获取ZuList",
       "appStore": "App Store",
       "googlePlay": "Google Play",
-      "soon": "Coming soon",
-      "download": "Download"
+      "soon": "即将推出",
+      "download": "下载"
     },
     "perfectFor": {
-      "title": "Perfect For",
+      "title": "适合",
       "families": {
-        "title": "👨‍👩‍👧‍👦 Families Shopping Together",
-        "description": "Share lists with the whole family and always stay synchronized"
+        "title": "👨‍👩‍👧‍👦 一起购物的家庭",
+        "description": "与全家人共享清单，始终保持同步"
       },
       "roommates": {
-        "title": "🏠 Roommates",
-        "description": "Share groceries with roommates easily"
+        "title": "🏠 室友",
+        "description": "轻松与室友共享杂货"
       },
       "events": {
-        "title": "🎉 Event Organizers",
-        "description": "Plan events with friends in an organized way"
+        "title": "🎉 活动组织者",
+        "description": "以有组织的方式与朋友计划活动"
       },
       "everyone": {
-        "title": "🛒 Anyone Who Wants Organized Shopping",
-        "description": "Make shopping organized, collaborative, and fun"
+        "title": "🛒 任何想要有组织购物的人",
+        "description": "让购物变得有组织、协作和有趣"
       }
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要链接",
       "support": {
-        "title": "Technical Support",
+        "title": "技术支持",
         "email": "zuki.apps.dev@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "一般联系",
         "email": "zuki.apps.dev@gmail.com"
       },
       "website": {
-        "title": "Official Website",
+        "title": "官方网站",
         "url": "zulist.app"
       },
       "social": {
-        "title": "Social Media"
+        "title": "社交媒体"
       }
     },
     "footer": {
       "copyright": "© 2025 ZuList - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️",
-      "bundle": "Bundle ID: com.zukiapps.zulist | Version: 1.0.0+1"
+      "tagline": "Zuki Apps的一部分 • 来自以色列的开发者 • 用❤️制作",
+      "bundle": "包ID：com.zukiapps.zulist | 版本：1.0.1+1"
     },
     "privacy": {
       "title": "Privacy Policy",
@@ -730,34 +729,34 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！查找常见问题的答案或直接联系我们。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "联系我们",
+        "description": "有问题或需要帮助？给我们发邮件，我们会尽快回复您。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "快速链接",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Instructions for account deletion"
+          "title": "删除账户",
+          "description": "账户删除说明"
         },
         "deleteData": {
-          "title": "Delete Data",
-          "description": "How to delete specific data"
+          "title": "删除数据",
+          "description": "如何删除特定数据"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "常见问题",
         "q1": {
           "question": "How do I share a shopping list with family members?",
           "answer": "To share a list, open the list and tap the 'Share' or 'Members' button. You can invite members via email, SMS, WhatsApp, or by sharing a link. Once they accept the invitation, they'll have access to the list and can add or modify items in real-time."
@@ -784,13 +783,13 @@
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "需要更多帮助？",
+        "description": "如果您找不到您要找的答案，或者遇到技术问题，请随时联系我们。我们随时为您提供帮助，通常在24-48小时内回复。"
       }
     }
   },
   "common": {
-    "language": "Language"
+    "language": "语言"
   }
 }
 

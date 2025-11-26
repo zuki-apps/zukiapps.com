@@ -1,43 +1,104 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { ShoppingCart, Mail, Sparkles, Users, Wifi, Code, Heart } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import Logo from '@/components/Logo';
+
+interface Star {
+  left: number;
+  top: number;
+  width: number;
+  height: number;
+  opacity: number;
+  animationDelay: number;
+  animationDuration: number;
+}
 
 export default function Home() {
   const t = useTranslations('home');
   const locale = useLocale();
+  const [stars, setStars] = useState<Star[]>([]);
+  const [isMounted, setIsMounted] = useState(false);
+
+  // Generate stars only on client side to avoid hydration mismatch
+  useEffect(() => {
+    setIsMounted(true);
+    const generatedStars: Star[] = Array.from({ length: 100 }).map(() => ({
+      left: Math.random() * 100,
+      top: Math.random() * 100,
+      width: Math.random() * 3 + 1,
+      height: Math.random() * 3 + 1,
+      opacity: Math.random() * 0.8 + 0.2,
+      animationDelay: Math.random() * 3,
+      animationDuration: Math.random() * 2 + 2,
+    }));
+    setStars(generatedStars);
+  }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
+    <div className="min-h-screen bg-black relative overflow-hidden">
+        {/* Starry background effect */}
+        <div className="fixed inset-0 z-0" aria-hidden="true">
+          <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
+          {/* Stars - only render on client to avoid hydration mismatch */}
+          {isMounted && stars.map((star, i) => (
+            <div
+              key={i}
+              className="absolute rounded-full bg-white animate-pulse"
+              style={{
+                left: `${star.left}%`,
+                top: `${star.top}%`,
+                width: `${star.width}px`,
+                height: `${star.height}px`,
+                opacity: star.opacity,
+                animationDelay: `${star.animationDelay}s`,
+                animationDuration: `${star.animationDuration}s`,
+              }}
+            />
+          ))}
+        </div>
+
+      {/* Skip to main content link for accessibility */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded-lg focus:font-semibold"
+      >
+        Skip to main content
+      </a>
+
+
       {/* Language Switcher */}
-      <div className="max-w-4xl mx-auto px-4 pt-4 flex justify-end">
+      <div className="max-w-4xl mx-auto px-4 pt-4 flex justify-end relative z-[9999]">
         <LanguageSwitcher />
       </div>
 
       {/* Hero Section */}
-      <section className="py-20 px-4">
+      <section id="main-content" className="py-12 px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8">
-            <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              {t('title')}
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-4">
+          {/* Logo */}
+          <div className="mb-8 flex justify-center animate-fade-in">
+            <Logo size="xl" />
+          </div>
+          
+          <div className="mb-8 animate-fade-in-delay">
+            <h1 className="text-3xl md:text-4xl font-black mb-4 text-white">
               {t('subtitle')}
-            </p>
-            <p className="text-lg text-gray-600">
+            </h1>
+            <p className="text-lg md:text-xl font-semibold text-gray-300">
               {t('tagline')}
             </p>
           </div>
 
           {/* Story Section */}
-          <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12 mb-12 text-left">
+          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 mb-12 text-left border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90">
             <div className="flex items-center gap-3 mb-6">
-              <Code className="w-8 h-8 text-blue-600" />
-              <h2 className="text-3xl font-bold text-gray-900">{t('story.title')}</h2>
+              <Code className="w-8 h-8 text-blue-400" aria-hidden="true" />
+              <h2 className="text-3xl font-black text-white">{t('story.title')}</h2>
             </div>
-            <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
+            <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>{t('story.p1')}</p>
               <p>{t('story.p2')}</p>
               <p>{t('story.p3')}</p>
@@ -45,74 +106,76 @@ export default function Home() {
           </div>
 
           {/* Zuli Monsters Section */}
-          <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 mb-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90">
             <div className="flex items-center justify-center mb-6">
-              <Sparkles className="w-12 h-12 text-purple-600" />
+              <Sparkles className="w-12 h-12 text-blue-400" aria-hidden="true" />
             </div>
-            <h2 className="text-3xl font-bold mb-4 text-gray-900">{t('zuliMonsters.title')}</h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <h2 className="text-3xl font-black mb-4 text-white">{t('zuliMonsters.title')}</h2>
+            <p className="text-lg text-gray-300 mb-4">
               {t('zuliMonsters.description')}
             </p>
-            <p className="text-gray-600 italic">
+            <p className="text-gray-400 italic">
               {t('zuliMonsters.more')}
             </p>
           </div>
 
           {/* ZuList App Section */}
-          <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 mb-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90">
             <div className="flex items-center justify-center mb-6">
-              <ShoppingCart className="w-16 h-16 text-blue-600" />
+              <ShoppingCart className="w-16 h-16 text-blue-400" aria-hidden="true" />
             </div>
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">{t('zulist.title')}</h2>
-            <p className="text-xl text-gray-700 mb-4">
+            <h2 className="text-3xl font-black mb-6 text-white">{t('zulist.title')}</h2>
+            <p className="text-xl text-gray-300 mb-4">
               {t('zulist.subtitle')}
             </p>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-lg text-gray-400 mb-8">
               {t('zulist.description')}
             </p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="flex flex-col items-center p-4 bg-blue-50 rounded-xl">
-                <Users className="w-8 h-8 text-blue-600 mb-2" />
-                <p className="text-sm font-semibold text-gray-700">{t('zulist.features.realtime')}</p>
+              <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.realtime')}>
+                <Users className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
+                <p className="text-sm font-black text-white">{t('zulist.features.realtime')}</p>
               </div>
-              <div className="flex flex-col items-center p-4 bg-green-50 rounded-xl">
-                <Wifi className="w-8 h-8 text-green-600 mb-2" />
-                <p className="text-sm font-semibold text-gray-700">{t('zulist.features.offline')}</p>
+              <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.offline')}>
+                <Wifi className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
+                <p className="text-sm font-black text-white">{t('zulist.features.offline')}</p>
               </div>
-              <div className="flex flex-col items-center p-4 bg-purple-50 rounded-xl">
-                <Sparkles className="w-8 h-8 text-purple-600 mb-2" />
-                <p className="text-sm font-semibold text-gray-700">{t('zulist.features.smart')}</p>
+              <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.smart')}>
+                <Sparkles className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
+                <p className="text-sm font-black text-white">{t('zulist.features.smart')}</p>
               </div>
             </div>
 
             <Link
               href={`/${locale}/zulist`}
-              className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl"
+              className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-black text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
+              aria-label={`${t('zulist.learnMore')} - ${t('zulist.title')}`}
             >
               {t('zulist.learnMore')}
             </Link>
           </div>
 
           {/* Contact Section */}
-          <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12">
+          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90">
             <div className="flex items-center justify-center mb-6">
-              <Mail className="w-12 h-12 text-blue-600" />
+              <Mail className="w-12 h-12 text-blue-400" aria-hidden="true" />
             </div>
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">{t('contact.title')}</h2>
-            <p className="text-lg text-gray-700 mb-6">
+            <h2 className="text-3xl font-black mb-6 text-white">{t('contact.title')}</h2>
+            <p className="text-lg text-gray-300 mb-6">
               {t('contact.description')}
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
               <a
                 href="mailto:zuki.apps.dev@gmail.com"
-                className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-lg font-black hover:from-blue-400 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-lg hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
+                aria-label={`${t('contact.sendEmail')} - zuki.apps.dev@gmail.com`}
               >
-                <Mail className="w-5 h-5" />
+                <Mail className="w-5 h-5" aria-hidden="true" />
                 {t('contact.sendEmail')}
               </a>
             </div>
-            <p className="mt-6 text-gray-600">
+            <p className="mt-6 text-gray-400">
               {t('contact.email')}
             </p>
           </div>
@@ -120,8 +183,11 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8 px-4 mt-12">
+      <footer className="bg-gradient-to-br from-black to-gray-900 text-white py-8 px-4 mt-12 relative z-10 border-t border-gray-800">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-4 flex justify-center">
+            <Logo size="md" />
+          </div>
           <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
           <p className="text-sm text-gray-500 flex items-center justify-center gap-2">
             <Heart className="w-4 h-4 text-red-500" />

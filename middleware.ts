@@ -4,7 +4,8 @@ import { routing } from './routing';
 export default createMiddleware({
   locales: routing.locales,
   defaultLocale: routing.defaultLocale,
-  localePrefix: routing.localePrefix
+  localePrefix: routing.localePrefix,
+  localeDetection: false // Disable automatic locale detection from browser
 });
 
 export const config = {

@@ -1,0 +1,18 @@
+{
+  "name": "Zuki Apps",
+  "short_name": "Zuki Apps",
+  "description": "Mobile App Developer from Israel. Creating smart and intuitive mobile applications.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

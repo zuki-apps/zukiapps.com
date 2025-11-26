@@ -39,7 +39,7 @@
   "zulist": {
     "back": "Voltar ao Início",
     "hero": {
-      "badge": "Pronto para Produção - Versão 1.0.0",
+      "badge": "Disponível Agora - Versão 1.0.1",
       "title": "ZuList",
       "subtitle": "Listas de Compras Inteligentes para Famílias",
       "description": "O aplicativo perfeito para famílias e amigos que fazem compras juntos. Crie, compartilhe e gerencie listas de compras em tempo real com colaboração perfeita."
@@ -135,7 +135,7 @@
         "items": [
           "Autenticação, Banco de Dados em Tempo Real, Firestore",
           "Armazenamento, Funções, FCM",
-          "Deep linking"
+          "Vinculação profunda"
         ]
       },
       "security": {
@@ -189,10 +189,9 @@
         ]
       },
       "pricing": {
-        "monthly": "Mensal: ₪7.50",
-        "yearly": "Anual: ₪65.00",
-        "savings": "Economize 25% com assinatura anual",
-        "other": "Também: $2.00/mês ou €1.80/mês | $18.00/ano ou €16.00/ano"
+        "monthly": "Mensal: €1.80",
+        "yearly": "Anual: €16.00",
+        "savings": "Economize 25% com assinatura anual"
       },
       "rewarded": {
         "title": "Anúncios com Recompensa",
@@ -205,14 +204,14 @@
       }
     },
     "status": {
-      "title": "✅ Pronto para Produção",
+      "title": "✅ Disponível Agora",
       "description": "O aplicativo está pronto para uso com 521+ testes abrangentes",
       "version": "Versão",
       "tests": "Testes",
       "status": "Status",
-      "versionValue": "1.0.0+1",
+      "versionValue": "1.0.1+1",
       "testsValue": "521+ testes",
-      "statusValue": "Pronto para lançamento"
+      "statusValue": "Disponível na App Store"
     },
     "download": {
       "title": "Baixar Agora",
@@ -262,7 +261,7 @@
     "footer": {
       "copyright": "© 2025 ZuList - Todos os direitos reservados",
       "tagline": "Parte de Zuki Apps • Desenvolvedor de Israel • Feito com ❤️",
-      "bundle": "Bundle ID: com.zukiapps.zulist | Versão: 1.0.0+1"
+      "bundle": "Bundle ID: com.zukiapps.zulist | Versão: 1.0.1+1"
     },
     "privacy": {
       "title": "Política de Privacidade",

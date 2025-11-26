@@ -39,7 +39,7 @@
   "zulist": {
     "back": "Volver al Inicio",
     "hero": {
-      "badge": "Listo para Producción - Versión 1.0.0",
+      "badge": "Disponible Ahora - Versión 1.0.1",
       "title": "ZuList",
       "subtitle": "Listas de Compras Inteligentes para Familias",
       "description": "La aplicación perfecta para familias y amigos que compran juntos. Crea, comparte y gestiona listas de compras en tiempo real con colaboración sin interrupciones."
@@ -189,10 +189,9 @@
         ]
       },
       "pricing": {
-        "monthly": "Mensual: ₪7.50",
-        "yearly": "Anual: ₪65.00",
-        "savings": "Ahorra 25% con suscripción anual",
-        "other": "También: $2.00/mes o €1.80/mes | $18.00/año o €16.00/año"
+        "monthly": "Mensual: €1.80",
+        "yearly": "Anual: €16.00",
+        "savings": "Ahorra 25% con suscripción anual"
       },
       "rewarded": {
         "title": "Anuncios con Recompensas",
@@ -205,14 +204,14 @@
       }
     },
     "status": {
-      "title": "✅ Listo para Producción",
+      "title": "✅ Disponible Ahora",
       "description": "La aplicación está lista para usar con 521+ pruebas exhaustivas",
       "version": "Versión",
       "tests": "Pruebas",
       "status": "Estado",
-      "versionValue": "1.0.0+1",
+      "versionValue": "1.0.1+1",
       "testsValue": "521+ pruebas",
-      "statusValue": "Listo para lanzamiento"
+      "statusValue": "Disponible en App Store"
     },
     "download": {
       "title": "Descargar Ahora",
@@ -262,7 +261,7 @@
     "footer": {
       "copyright": "© 2025 ZuList - Todos los derechos reservados",
       "tagline": "Parte de Zuki Apps • Desarrollador de Israel • Hecho con ❤️",
-      "bundle": "Bundle ID: com.zukiapps.zulist | Versión: 1.0.0+1"
+      "bundle": "Bundle ID: com.zukiapps.zulist | Versión: 1.0.1+1"
     },
     "privacy": {
       "title": "Política de Privacidad",

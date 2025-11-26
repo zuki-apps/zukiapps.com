@@ -3,6 +3,13 @@ import Script from 'next/script';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com'),
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+    shortcut: '/logo.png',
+  },
+  manifest: '/manifest.json',
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || 'vptLaNoDGkQvPt_cWG3D-SYIa253GayWGOhN'
   }
@@ -14,8 +21,8 @@ export default function RootLayout({
   children: ReactNode;
 }) {
   return (
-    <html lang="en" dir="ltr">
-      <body>
+    <html lang="en" dir="ltr" className="dark">
+      <body className="bg-black text-white">
         <Script id="set-locale-attributes" strategy="beforeInteractive">
           {`
             (function() {

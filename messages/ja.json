@@ -1,54 +1,54 @@
 {
   "home": {
     "title": "Zuki Apps",
-    "subtitle": "Mobile App Developer from Israel",
-    "tagline": "Creating smart and intuitive mobile applications that make everyday life easier",
+    "subtitle": "イスラエル出身のモバイルアプリ開発者",
+    "tagline": "日常生活をより簡単にするスマートで直感的なモバイルアプリケーションを作成",
     "story": {
-      "title": "My Story",
-      "p1": "Between 2012 and 2016, I developed mobile applications as part of the dreamBit team. During those years, I had the opportunity to work on various projects, learning the ins and outs of mobile development and creating apps that users loved.",
-      "p2": "After a long break from active development, I've returned to pursue my passion - mobile app development. This time, I'm building apps as a hobby, driven by my love for technology and creativity.",
-      "p3": "Today, I focus on developing smart and intuitive mobile applications that can help people in their daily lives. Each app I create is crafted with attention to detail, user experience, and innovative solutions to real-world problems."
+      "title": "私のストーリー",
+      "p1": "2012年から2016年の間、私はdreamBitチームの一員としてモバイルアプリケーションを開発しました。その数年間、様々なプロジェクトに取り組む機会があり、モバイル開発の詳細を学び、ユーザーに愛されるアプリを作成しました。",
+      "p2": "積極的な開発から長い休憩の後、私は情熱を追求するために戻ってきました - モバイルアプリ開発。今回は、テクノロジーと創造性への愛に駆られて、趣味としてアプリを構築しています。",
+      "p3": "今日、私は人々の日常生活を助けることができるスマートで直感的なモバイルアプリケーションの開発に焦点を当てています。私が作成する各アプリは、細部への注意、ユーザー体験、現実世界の問題への革新的なソリューションに注意を払って作られています。"
     },
     "zuliMonsters": {
       "title": "Zuli Monsters",
-      "description": "One of the unique aspects of my apps are the original illustrations I create, which I call Zuli Monsters.",
-      "more": "These cute and colorful creatures accompany users throughout their app experience, adding a touch of fun and personality to every interaction. You'll be hearing more about them soon!"
+      "description": "私のアプリの独特な側面の一つは、私が作成するオリジナルのイラストで、私はそれらをZuli Monstersと呼んでいます。",
+      "more": "これらの可愛らしくカラフルな生き物は、ユーザーをアプリ体験全体にわたって伴い、すべてのインタラクションに楽しさと個性のタッチを加えます。まもなくそれらについてもっと聞くことになるでしょう！"
     },
     "zulist": {
       "title": "ZuList",
-      "subtitle": "My first app - Smart shopping list management",
-      "description": "ZuList is a Flutter-based shopping list application designed to make grocery shopping easier and more collaborative. With real-time sharing, offline support, and smart product recommendations, it's the perfect companion for families and friends who shop together. Coming soon!",
+      "subtitle": "私の最初のアプリ - スマートな買い物リスト管理",
+      "description": "ZuListは、食料品の買い物をより簡単で協力的にするために設計されたFlutterベースの買い物リストアプリケーションです。リアルタイム共有、オフラインサポート、スマートな製品推奨により、一緒に買い物をする家族や友人の完璧なパートナーです。App Storeで利用可能になりました！",
       "features": {
-        "realtime": "Real-time Sharing",
-        "offline": "Works Offline",
-        "smart": "Smart Recommendations"
+        "realtime": "リアルタイム共有",
+        "offline": "オフラインで動作",
+        "smart": "スマート推奨"
       },
-      "learnMore": "Learn more about ZuList →"
+      "learnMore": "ZuListについて詳しく見る →"
     },
     "contact": {
-      "title": "Get in Touch",
-      "description": "Have a question, an idea, or just want to connect? I'd love to hear from you!",
-      "sendEmail": "Send Email",
+      "title": "お問い合わせ",
+      "description": "質問、アイデア、または単に接続したいですか？お聞かせください！",
+      "sendEmail": "メールを送信",
       "email": "zuki.apps.dev@gmail.com"
     },
     "footer": {
-      "copyright": "© 2025 Zuki Apps - All rights reserved",
-      "tagline": "Developed in Israel • As a hobby • With passion"
+      "copyright": "© 2025 Zuki Apps - 全著作権所有",
+      "tagline": "イスラエルで開発 • 趣味として • 情熱を持って"
     }
   },
   "zulist": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Production Ready - Version 1.0.0",
+      "badge": "利用可能 - バージョン 1.0.1",
       "title": "ZuList",
-      "subtitle": "Smart Shopping Lists for Families",
-      "description": "The perfect app for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration."
+      "subtitle": "家族向けスマート買い物リスト",
+      "description": "一緒に買い物をする家族や友人に最適なアプリ。リアルタイムでシームレスなコラボレーションにより、買い物リストを作成、共有、管理できます。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主な機能",
       "realtime": {
-        "title": "Real-time Collaboration",
-        "description": "Share lists with family and friends, see changes instantly across all devices",
+        "title": "リアルタイムコラボレーション",
+        "description": "家族や友人とリストを共有し、すべてのデバイスで変更を即座に確認",
         "items": [
           "Member and permission management",
           "Invitations via email, SMS, WhatsApp",
@@ -133,9 +133,9 @@
         "title": "Firebase Integration",
         "description": "Secure cloud sync with Firebase",
         "items": [
-          "Authentication, Realtime DB, Firestore",
-          "Storage, Functions, FCM",
-          "Deep linking"
+          "認証、リアルタイムデータベース、Firestore",
+          "ストレージ、関数、FCM",
+          "ディープリンク"
         ]
       },
       "security": {
@@ -160,632 +160,631 @@
       }
     },
     "premium": {
-      "title": "Premium Features",
-      "description": "Upgrade to Premium and enjoy advanced features without limits",
+      "title": "プレミアム機能",
+      "description": "プレミアムにアップグレードして、制限なしで高度な機能をお楽しみください",
       "free": {
-        "title": "Free Features",
+        "title": "無料機能",
         "items": [
-          "5 lists maximum",
-          "150 items per list",
-          "1 shared member per list",
-          "Banner ads",
-          "No advanced statistics",
-          "No custom themes",
-          "No offline mode",
-          "No cloud backup"
+          "最大5リスト",
+          "リストあたり150アイテム",
+          "リストあたり1共有メンバー",
+          "バナー広告",
+          "高度な統計なし",
+          "カスタムテーマなし",
+          "オフラインモードなし",
+          "クラウドバックアップなし"
         ]
       },
       "premium": {
-        "title": "Premium Features",
+        "title": "プレミアム機能",
         "items": [
-          "Unlimited lists",
-          "Unlimited items",
-          "Unlimited members",
-          "Ad-free experience",
-          "Advanced statistics",
-          "Custom themes",
-          "Offline mode",
-          "Cloud backup"
+          "無制限のリスト",
+          "無制限のアイテム",
+          "無制限のメンバー",
+          "広告なしの体験",
+          "高度な統計",
+          "カスタムテーマ",
+          "オフラインモード",
+          "クラウドバックアップ"
         ]
       },
       "pricing": {
-        "monthly": "Monthly: ₪7.50",
-        "yearly": "Yearly: ₪65.00",
-        "savings": "Save 25% with annual subscription",
-        "other": "Also: $2.00/month or €1.80/month | $18.00/year or €16.00/year"
+        "monthly": "月額：$1.99",
+        "yearly": "年額：$17.99",
+        "savings": "年間購読で25%節約"
       },
       "rewarded": {
-        "title": "Rewarded Ads",
-        "description": "Watch ads and get temporary access to Premium features:",
+        "title": "報酬広告",
+        "description": "広告を見て、プレミアム機能に一時的にアクセス：",
         "items": [
-          "Remove ads for 24 hours",
-          "Access statistics for 24 hours",
-          "10 additional items per list"
+          "24時間広告を削除",
+          "24時間統計にアクセス",
+          "リストあたり10個の追加アイテム"
         ]
       }
     },
     "status": {
-      "title": "✅ Production Ready",
-      "description": "The app is ready for use with 521+ comprehensive tests",
-      "version": "Version",
-      "tests": "Tests",
-      "status": "Status",
-      "versionValue": "1.0.0+1",
-      "testsValue": "521+ tests",
-      "statusValue": "Ready for release"
+      "title": "✅ 利用可能",
+      "description": "アプリは521+の包括的なテストで使用準備が整っています",
+      "version": "バージョン",
+      "tests": "テスト",
+      "status": "ステータス",
+      "versionValue": "1.0.1+1",
+      "testsValue": "521+テスト",
+      "statusValue": "App Storeで利用可能"
     },
     "download": {
-      "title": "Download Now",
-      "description": "Get ZuList from the app stores",
+      "title": "今すぐダウンロード",
+      "description": "アプリストアからZuListを入手",
       "appStore": "App Store",
       "googlePlay": "Google Play",
-      "soon": "Coming soon",
-      "download": "Download"
+      "soon": "近日公開",
+      "download": "ダウンロード"
     },
     "perfectFor": {
-      "title": "Perfect For",
+      "title": "最適な用途",
       "families": {
-        "title": "👨‍👩‍👧‍👦 Families Shopping Together",
-        "description": "Share lists with the whole family and always stay synchronized"
+        "title": "👨‍👩‍👧‍👦 一緒に買い物をする家族",
+        "description": "家族全体でリストを共有し、常に同期を保つ"
       },
       "roommates": {
-        "title": "🏠 Roommates",
-        "description": "Share groceries with roommates easily"
+        "title": "🏠 ルームメイト",
+        "description": "ルームメイトと簡単に食料品を共有"
       },
       "events": {
-        "title": "🎉 Event Organizers",
-        "description": "Plan events with friends in an organized way"
+        "title": "🎉 イベント主催者",
+        "description": "友達と整理された方法でイベントを計画"
       },
       "everyone": {
-        "title": "🛒 Anyone Who Wants Organized Shopping",
-        "description": "Make shopping organized, collaborative, and fun"
+        "title": "🛒 整理された買い物を望むすべての人",
+        "description": "買い物を整理され、協力的で楽しいものにする"
       }
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要なリンク",
       "support": {
-        "title": "Technical Support",
+        "title": "技術サポート",
         "email": "zuki.apps.dev@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "一般のお問い合わせ",
         "email": "zuki.apps.dev@gmail.com"
       },
       "website": {
-        "title": "Official Website",
+        "title": "公式ウェブサイト",
         "url": "zulist.app"
       },
       "social": {
-        "title": "Social Media"
+        "title": "ソーシャルメディア"
       }
     },
     "footer": {
-      "copyright": "© 2025 ZuList - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️",
-      "bundle": "Bundle ID: com.zukiapps.zulist | Version: 1.0.0+1"
+      "copyright": "© 2025 ZuList - 全著作権所有",
+      "tagline": "Zuki Appsの一部 • イスラエルの開発者 • ❤️で作られました",
+      "bundle": "Bundle ID: com.zukiapps.zulist | バージョン: 1.0.1+1"
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新：2025年1月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support."
+        "title": "1. 収集する情報",
+        "content": "アカウント作成、サービス利用、サポートへの問い合わせなど、お客様が直接提供する情報を収集します。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you."
+        "title": "2. 情報の使用方法",
+        "content": "収集した情報を使用して、サービスの提供、維持、改善、取引の処理、お客様とのコミュニケーションを行います。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy."
+        "title": "3. 情報の共有",
+        "content": "このポリシーに記載されている場合を除き、お客様の同意なしに個人情報を第三者に販売、交換、またはその他の方法で転送することはありません。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+        "title": "4. データセキュリティ",
+        "content": "個人情報を不正アクセス、改ざん、開示、破壊から保護するため、適切なセキュリティ対策を実施しています。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your personal information. You may also opt out of certain communications from us."
+        "title": "5. お客様の権利",
+        "content": "お客様には、個人情報にアクセス、更新、または削除する権利があります。また、当社からの特定の通信をオプトアウトすることもできます。"
       },
       "section6": {
-        "title": "6. Camera and Photo Library Access",
-        "content": "ZuList requires access to your device's camera and photo library to allow you to take and upload photos of shopping list items. We only access these features when you explicitly choose to add a photo to a list or item. Photos are stored securely in our cloud storage and are only accessible to you and users you share your lists with."
+        "title": "6. カメラとフォトライブラリへのアクセス",
+        "content": "ZuListは、買い物リストのアイテムの写真を撮影してアップロードできるように、デバイスのカメラとフォトライブラリへのアクセスが必要です。リストやアイテムに写真を追加することを明示的に選択した場合にのみ、これらの機能にアクセスします。写真はクラウドストレージに安全に保存され、お客様とリストを共有するユーザーのみがアクセスできます。"
       },
       "section7": {
-        "title": "7. Crash Reporting and Error Analytics",
-        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
-        "dataCollected": "Data Collected:",
+        "title": "7. クラッシュレポートとエラー分析",
+        "content": "Googleが提供するFirebase Crashlyticsサービスを使用して、アプリのクラッシュとエラーに関する情報を収集します。これにより、問題を特定して修正し、お客様の体験を向上させることができます。",
+        "dataCollected": "収集されるデータ：",
         "dataCollectedItems": [
-          "Technical information about crashes and errors (stack traces, error messages)",
-          "Device information (operating system, device model, app version)",
-          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
-          "Custom diagnostic information related to errors (error codes, operation types)"
+          "クラッシュとエラーに関する技術情報（スタックトレース、エラーメッセージ）",
+          "デバイス情報（オペレーティングシステム、デバイスモデル、アプリバージョン）",
+          "インストールID（アプリインストールの一意の識別子、個人の身元にはリンクされません）",
+          "エラーに関連するカスタム診断情報（エラーコード、操作タイプ）"
         ],
-        "purpose": "Purpose:",
+        "purpose": "目的：",
         "purposeItems": [
-          "Identify and fix bugs and crashes",
-          "Improve app stability and performance",
-          "Analyze error patterns"
+          "バグとクラッシュの特定と修正",
+          "アプリの安定性とパフォーマンスの向上",
+          "エラーパターンの分析"
         ],
-        "dataSharing": "Data Sharing:",
-        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
-        "dataRetention": "Data Retention:",
-        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
-        "yourRights": "Your Rights:",
-        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+        "dataSharing": "データ共有：",
+        "dataSharingContent": "このデータはGoogle Firebaseによって処理され、Googleのプライバシーポリシーの対象となります。",
+        "dataRetention": "データ保持：",
+        "dataRetentionContent": "クラッシュレポートはFirebaseによって最大90日間保持され、その後自動的に削除されます。",
+        "yourRights": "お客様の権利：",
+        "yourRightsContent": "デバイス設定でクラッシュレポートを無効にすることでオプトアウトできますが、これにより、お客様に影響を与える問題の修正が妨げられる可能性があります。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. お問い合わせ",
+        "content": "このプライバシーポリシーに関するご質問がございましたら、以下までお問い合わせください：",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using ZuList. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "利用規約",
+      "lastUpdated": "最終更新：2025年1月",
+      "intro": "ZuListを使用する前に、これらの利用規約を注意深くお読みください。サービスにアクセスまたは使用することで、これらの条件に拘束されることに同意したものとみなされます。これらの条件に同意しない場合は、サービスを使用しないでください。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of ZuList (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a shopping list application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 条件の受諾",
+        "content": "これらの利用規約（「規約」）は、Zuki Apps（「会社」）が運営する買い物リストアプリケーションZuList（「サービス」、「アプリ」、「私たち」、「当社」）へのアクセスと使用を規定します。サービスをダウンロード、インストール、アクセス、または使用することで、これらの規約とプライバシーポリシーに拘束されることに同意したものとみなされます。",
+        "content2": "組織の代理でサービスを使用している場合、その組織をこれらの規約に拘束する権限があることを表明し、保証します。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "ZuList is a mobile application that allows users to create, manage, and share shopping lists with family and friends. The Service includes:",
+        "title": "2. サービスの説明",
+        "content": "ZuListは、ユーザーが家族や友人と買い物リストを作成、管理、共有できるモバイルアプリケーションです。サービスには以下が含まれます：",
         "items": {
-          "item1": "Creating and managing shopping lists",
-          "item2": "Sharing lists with other users",
-          "item3": "Real-time synchronization across devices",
-          "item4": "Product suggestions and categorization",
-          "item5": "Purchase history tracking",
-          "item6": "Premium subscription features (as described in Section 4)"
+          "item1": "買い物リストの作成と管理",
+          "item2": "他のユーザーとのリスト共有",
+          "item3": "デバイス間のリアルタイム同期",
+          "item4": "製品の提案と分類",
+          "item5": "購入履歴の追跡",
+          "item6": "プレミアムサブスクリプション機能（セクション4で説明）"
         }
       },
       "section3": {
-        "title": "3. User Accounts and Registration",
-        "subtitle1": "3.1. Account Creation",
-        "content1": "To use certain features of the Service, you must create an account. You can create an account using:",
+        "title": "3. ユーザーアカウントと登録",
+        "subtitle1": "3.1. アカウント作成",
+        "content1": "サービスの特定の機能を使用するには、アカウントを作成する必要があります。次の方法でアカウントを作成できます：",
         "items1": {
-          "item1": "Google Sign-In",
-          "item2": "Apple Sign-In",
-          "item3": "Email and password (if available)"
+          "item1": "Googleサインイン",
+          "item2": "Appleサインイン",
+          "item3": "メールとパスワード（利用可能な場合）"
         },
-        "subtitle2": "3.2. Account Responsibilities",
-        "content2": "You are responsible for:",
+        "subtitle2": "3.2. アカウントの責任",
+        "content2": "お客様は以下について責任を負います：",
         "items2": {
-          "item1": "Maintaining the confidentiality of your account credentials",
-          "item2": "All activities that occur under your account",
-          "item3": "Ensuring that your account information is accurate and up-to-date",
-          "item4": "Notifying us immediately of any unauthorized use of your account"
+          "item1": "アカウント認証情報の機密性の維持",
+          "item2": "アカウントで発生するすべての活動",
+          "item3": "アカウント情報が正確で最新であることの確保",
+          "item4": "アカウントの不正使用を即座に通知すること"
         },
-        "subtitle3": "3.3. Age Requirements",
-        "content3": "You must be at least 13 years old to use the Service. If you are under 18, you represent that you have obtained parental or guardian consent to use the Service. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately."
+        "subtitle3": "3.3. 年齢要件",
+        "content3": "サービスを使用するには、少なくとも13歳である必要があります。18歳未満の場合、親または保護者の同意を得てサービスを使用していることを表明します。親または保護者で、お子様が個人情報を提供したと信じる場合は、すぐにご連絡ください。"
       },
       "section4": {
-        "title": "4. Premium Subscriptions and Payments",
-        "subtitle1": "4.1. Subscription Plans",
-        "content1": "ZuList offers premium subscription plans that provide access to additional features:",
+        "title": "4. プレミアムサブスクリプションと支払い",
+        "subtitle1": "4.1. サブスクリプションプラン",
+        "content1": "ZuListは、追加機能へのアクセスを提供するプレミアムサブスクリプションプランを提供しています：",
         "items1": {
-          "item1": "Monthly Subscription: Billed monthly, automatically renews unless cancelled",
-          "item2": "Yearly Subscription: Billed annually, automatically renews unless cancelled"
+          "item1": "月額サブスクリプション：毎月請求され、キャンセルしない限り自動的に更新されます",
+          "item2": "年額サブスクリプション：毎年請求され、キャンセルしない限り自動的に更新されます"
         },
-        "subtitle2": "4.2. Payment Terms",
-        "content2": "By purchasing a subscription, you agree to:",
+        "subtitle2": "4.2. 支払い条件",
+        "content2": "サブスクリプションを購入することで、以下に同意したことになります：",
         "items2": {
-          "item1": "Pay the subscription fee at the time of purchase",
-          "item2": "Automatic renewal of your subscription at the end of each billing period",
-          "item3": "Prices may vary by region and are subject to change with notice"
+          "item1": "購入時にサブスクリプション料金を支払う",
+          "item2": "各請求期間の終了時にサブスクリプションが自動的に更新される",
+          "item3": "価格は地域によって異なる場合があり、通知により変更される場合があります"
         },
-        "subtitle3": "4.3. Subscription Management",
-        "content3": "You can manage your subscription, including cancellation, through:",
+        "subtitle3": "4.3. サブスクリプション管理",
+        "content3": "次の方法でサブスクリプション（キャンセルを含む）を管理できます：",
         "items3": {
-          "item1": "iOS: Settings → [Your Name] → Subscriptions → ZuList",
-          "item2": "Android: Google Play Store → Subscriptions → ZuList"
+          "item1": "iOS: 設定 → [お名前] → サブスクリプション → ZuList",
+          "item2": "Android: Google Playストア → サブスクリプション → ZuList"
         },
-        "content3b": "If you cancel your subscription, you will continue to have access to premium features until the end of your current billing period. After that, your account will revert to the free tier.",
-        "subtitle4": "4.4. Refunds",
-        "content4": "Refund requests are handled by Apple (for iOS) or Google (for Android) according to their respective refund policies. We do not process refunds directly. For subscription refunds, please contact Apple Support or Google Play Support.",
-        "subtitle5": "4.5. Free Trial",
-        "content5": "If we offer a free trial, it will be clearly indicated at the time of sign-up. At the end of the trial period, your subscription will automatically convert to a paid subscription unless you cancel before the trial ends."
+        "content3b": "サブスクリプションをキャンセルした場合、現在の請求期間の終了までプレミアム機能にアクセスできます。その後、アカウントは無料プランに戻ります。",
+        "subtitle4": "4.4. 返金",
+        "content4": "返金リクエストは、Apple（iOSの場合）またはGoogle（Androidの場合）がそれぞれの返金ポリシーに従って処理します。当社は直接返金を処理しません。サブスクリプションの返金については、AppleサポートまたはGoogle Playサポートにお問い合わせください。",
+        "subtitle5": "4.5. 無料トライアル",
+        "content5": "無料トライアルを提供する場合、登録時に明確に表示されます。トライアル期間の終了時、トライアルが終了する前にキャンセルしない限り、サブスクリプションは自動的に有料サブスクリプションに変換されます。"
       },
       "section5": {
-        "title": "5. User Content and Conduct",
-        "subtitle1": "5.1. User-Generated Content",
-        "content1": "You retain ownership of all content you create, upload, or share through the Service (\"User Content\"), including shopping lists, items, notes, and photos.",
-        "subtitle2": "5.2. License to Use Your Content",
-        "content2": "By using the Service, you grant us a worldwide, non-exclusive, royalty-free license to:",
+        "title": "5. ユーザーコンテンツと行動",
+        "subtitle1": "5.1. ユーザー生成コンテンツ",
+        "content1": "お客様は、買い物リスト、アイテム、メモ、写真を含む、サービスを通じて作成、アップロード、または共有するすべてのコンテンツ（「ユーザーコンテンツ」）の所有権を保持します。",
+        "subtitle2": "5.2. コンテンツ使用のライセンス",
+        "content2": "サービスを使用することで、お客様は当社に以下の世界的、非独占的、ロイヤルティフリーのライセンスを付与します：",
         "items2": {
-          "item1": "Store, process, and display your User Content",
-          "item2": "Share your User Content with other users you explicitly invite to your lists",
-          "item3": "Use your User Content to provide and improve the Service"
+          "item1": "ユーザーコンテンツの保存、処理、表示",
+          "item2": "リストに明示的に招待する他のユーザーとのユーザーコンテンツの共有",
+          "item3": "サービスを提供および改善するためのユーザーコンテンツの使用"
         },
-        "subtitle3": "5.3. Prohibited Content and Activities",
-        "content3": "You agree not to use the Service to:",
+        "subtitle3": "5.3. 禁止されたコンテンツと活動",
+        "content3": "お客様は、サービスを以下の目的で使用しないことに同意します：",
         "items3": {
-          "item1": "Upload, post, or share any content that is illegal, harmful, threatening, abusive, harassing, defamatory, or otherwise objectionable",
-          "item2": "Impersonate any person or entity or falsely state or misrepresent your affiliation with any person or entity",
-          "item3": "Violate any applicable laws or regulations",
-          "item4": "Interfere with or disrupt the Service or servers connected to the Service",
-          "item5": "Attempt to gain unauthorized access to any portion of the Service",
-          "item6": "Use automated systems (bots, scrapers) to access the Service without permission",
-          "item7": "Reverse engineer, decompile, or disassemble any portion of the Service"
+          "item1": "違法、有害、脅迫的、虐待的、嫌がらせ、中傷的、またはその他不適切なコンテンツのアップロード、投稿、または共有",
+          "item2": "あらゆる人物または団体になりすます、または虚偽の声明を出す、またはあらゆる人物または団体との関係を誤って表示する",
+          "item3": "適用される法律または規制に違反する",
+          "item4": "サービスまたはサービスに接続されたサーバーを妨害または中断する",
+          "item5": "サービスのいかなる部分への不正アクセスを試みる",
+          "item6": "許可なく自動システム（ボット、スクレイパー）を使用してサービスにアクセスする",
+          "item7": "サービスのいかなる部分をリバースエンジニアリング、逆コンパイル、または逆アセンブルする"
         }
       },
       "section6": {
-        "title": "6. Intellectual Property Rights",
-        "subtitle1": "6.1. Our Intellectual Property",
-        "content1": "The Service, including its original content, features, functionality, design, logos, and trademarks, is owned by Zuki Apps and is protected by international copyright, trademark, and other intellectual property laws.",
-        "subtitle2": "6.2. Zuli Monsters Characters and Images",
-        "content2": "All Zuli Monsters characters, images, icons, artwork, and related visual content displayed in the ZuList application are the exclusive property of Zuki Apps. These are original creations protected by copyright law and international intellectual property rights.",
-        "content2b": "Prohibited Uses: You may NOT, without explicit written permission from Zuki Apps:",
+        "title": "6. 知的財産権",
+        "subtitle1": "6.1. 当社の知的財産",
+        "content1": "サービス、そのオリジナルコンテンツ、機能、機能性、デザイン、ロゴ、商標を含むすべては、Zuki Appsが所有し、国際的な著作権、商標、その他の知的財産法によって保護されています。",
+        "subtitle2": "6.2. Zuli Monstersキャラクターと画像",
+        "content2": "ZuListアプリケーションに表示されるすべてのZuli Monstersキャラクター、画像、アイコン、アートワーク、および関連する視覚コンテンツは、Zuki Appsの独占的財産です。これらは著作権法および国際的な知的財産権によって保護されたオリジナルの創作物です。",
+        "content2b": "禁止された使用：Zuki Appsからの明示的な書面による許可なしに、以下を行うことはできません：",
         "items2": {
-          "item1": "Copy, reproduce, or duplicate any Zuli Monsters images or characters",
-          "item2": "Use Zuli Monsters images or characters in any other application, website, or product",
-          "item3": "Modify, alter, or create derivative works based on Zuli Monsters images or characters",
-          "item4": "Distribute, sell, or license Zuli Monsters images or characters to third parties",
-          "item5": "Use Zuli Monsters images or characters for commercial purposes",
-          "item6": "Remove copyright notices or attribution from Zuli Monsters images or characters"
+          "item1": "Zuli Monstersの画像またはキャラクターをコピー、複製、または複写する",
+          "item2": "他のアプリケーション、ウェブサイト、または製品でZuli Monstersの画像またはキャラクターを使用する",
+          "item3": "Zuli Monstersの画像またはキャラクターに基づいて派生作品を変更、改変、または作成する",
+          "item4": "Zuli Monstersの画像またはキャラクターを第三者に配布、販売、またはライセンスする",
+          "item5": "商業目的でZuli Monstersの画像またはキャラクターを使用する",
+          "item6": "Zuli Monstersの画像またはキャラクターから著作権表示または帰属を削除する"
         },
-        "content2c": "All rights reserved. Any unauthorized use, reproduction, distribution, or commercial exploitation of Zuli Monsters images or characters constitutes copyright infringement and may result in legal action.",
-        "content2d": "For licensing inquiries or permission to use Zuli Monsters images or characters, please contact us at zuki.apps.dev@gmail.com.",
-        "subtitle3": "6.3. Limited License",
-        "content3": "We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Service for personal, non-commercial purposes in accordance with these Terms."
+        "content2c": "全著作権所有。Zuli Monstersの画像またはキャラクターの無許可の使用、複製、配布、または商業的利用は、著作権侵害を構成し、法的措置につながる可能性があります。",
+        "content2d": "Zuli Monstersの画像またはキャラクターの使用に関するライセンスのお問い合わせまたは許可については、zuki.apps.dev@gmail.comまでご連絡ください。",
+        "subtitle3": "6.3. 限定ライセンス",
+        "content3": "当社は、これらの規約に従って、個人的、非商業的目的でサービスにアクセスおよび使用するための限定、非独占、譲渡不可、取消可能なライセンスを付与します。"
       },
       "section7": {
-        "title": "7. Third-Party Services",
-        "content": "The Service integrates with third-party services, including:",
+        "title": "7. 第三者サービス",
+        "content": "サービスは、以下の第三者サービスと統合されています：",
         "items": {
-          "item1": "Firebase (Google): For authentication, data storage, and cloud services",
-          "item2": "Google Sign-In: For account authentication",
-          "item3": "Apple Sign-In: For account authentication",
-          "item4": "Google AdMob: For displaying advertisements",
-          "item5": "Apple App Store / Google Play: For in-app purchases and subscriptions"
+          "item1": "Firebase (Google): 認証、データストレージ、クラウドサービス用",
+          "item2": "Googleサインイン: アカウント認証用",
+          "item3": "Appleサインイン: アカウント認証用",
+          "item4": "Google AdMob: 広告表示用",
+          "item5": "Apple App Store / Google Play: アプリ内購入およびサブスクリプション用"
         },
-        "content2": "Your use of these third-party services is subject to their respective terms of service and privacy policies. We are not responsible for the practices of these third-party services."
+        "content2": "これらの第三者サービスの使用は、それぞれの利用規約およびプライバシーポリシーの対象となります。当社は、これらの第三者サービスの慣行について責任を負いません。"
       },
       "section8": {
-        "title": "8. Advertising",
-        "content": "Free tier users may see advertisements displayed within the Service. These advertisements are provided by Google AdMob and are subject to Google's advertising policies. Premium subscribers receive an ad-free experience.",
-        "content2": "We do not use your personal information to personalize advertisements shown to you, except as permitted by applicable privacy laws and with your consent."
+        "title": "8. 広告",
+        "content": "無料プランのユーザーは、サービス内に表示される広告を見る場合があります。これらの広告はGoogle AdMobによって提供され、Googleの広告ポリシーの対象となります。プレミアム加入者は広告なしの体験を受け取ります。",
+        "content2": "適用されるプライバシー法で許可され、お客様の同意がある場合を除き、お客様の個人情報を使用して表示される広告をパーソナライズすることはありません。"
       },
       "section9": {
-        "title": "9. Service Availability and Modifications",
-        "subtitle1": "9.1. Service Availability",
-        "content1": "We strive to provide reliable service but do not guarantee that the Service will be available at all times. The Service may be unavailable due to:",
+        "title": "9. サービスの可用性と変更",
+        "subtitle1": "9.1. サービスの可用性",
+        "content1": "当社は信頼性の高いサービスを提供するよう努めていますが、サービスが常に利用可能であることを保証するものではありません。サービスは以下の理由で利用できない場合があります：",
         "items1": {
-          "item1": "Scheduled maintenance",
-          "item2": "Technical issues or failures",
-          "item3": "Force majeure events"
+          "item1": "定期メンテナンス",
+          "item2": "技術的な問題または障害",
+          "item3": "不可抗力事象"
         },
-        "subtitle2": "9.2. Service Modifications",
-        "content2": "We reserve the right to:",
+        "subtitle2": "9.2. サービスの変更",
+        "content2": "当社は以下の権利を留保します：",
         "items2": {
-          "item1": "Modify, suspend, or discontinue any part of the Service at any time",
-          "item2": "Change features, functionality, or pricing with reasonable notice",
-          "item3": "Impose limits on certain features or restrict access to parts of the Service"
+          "item1": "いつでもサービスの任意の部分を変更、停止、または中止する",
+          "item2": "合理的な通知により機能、機能性、または価格を変更する",
+          "item3": "特定の機能に制限を課す、またはサービスの一部へのアクセスを制限する"
         }
       },
       "section10": {
-        "title": "10. Termination",
-        "subtitle1": "10.1. Termination by You",
-        "content1": "You may stop using the Service at any time by:",
+        "title": "10. 終了",
+        "subtitle1": "10.1. お客様による終了",
+        "content1": "お客様は、以下の方法でいつでもサービスの使用を停止できます：",
         "items1": {
-          "item1": "Deleting your account through the app settings",
-          "item2": "Uninstalling the app from your device",
-          "item3": "Contacting us to request account deletion"
+          "item1": "アプリ設定からアカウントを削除する",
+          "item2": "デバイスからアプリをアンインストールする",
+          "item3": "アカウント削除を依頼するために当社に連絡する"
         },
-        "subtitle2": "10.2. Termination by Us",
-        "content2": "We may suspend or terminate your access to the Service immediately, without prior notice, if you:",
+        "subtitle2": "10.2. 当社による終了",
+        "content2": "お客様が以下の場合、事前通知なしに、サービスのアクセスを即座に停止または終了する場合があります：",
         "items2": {
-          "item1": "Violate these Terms",
-          "item2": "Engage in fraudulent, abusive, or illegal activity",
-          "item3": "Fail to pay subscription fees (for premium users)",
-          "item4": "Otherwise misuse the Service"
+          "item1": "これらの規約に違反する",
+          "item2": "詐欺的、虐待的、または違法な活動に従事する",
+          "item3": "サブスクリプション料金を支払わない（プレミアムユーザーの場合）",
+          "item4": "その他、サービスを誤用する"
         },
-        "subtitle3": "10.3. Effect of Termination",
-        "content3": "Upon termination:",
+        "subtitle3": "10.3. 終了の効果",
+        "content3": "終了時：",
         "items3": {
-          "item1": "Your right to use the Service will immediately cease",
-          "item2": "We may delete your account and User Content",
-          "item3": "You will not be entitled to any refund for unused subscription periods (subject to applicable law)"
+          "item1": "サービスの使用権は即座に停止されます",
+          "item2": "当社はアカウントとユーザーコンテンツを削除する場合があります",
+          "item3": "未使用のサブスクリプション期間に対する返金を受ける権利はありません（適用される法律に従う）"
         }
       },
       "section11": {
-        "title": "11. Disclaimers",
-        "content": "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
-        "content2": "We do not warrant that:",
+        "title": "11. 免責事項",
+        "content": "サービスは「現状のまま」および「利用可能な状態で」提供され、明示または黙示を問わず、商品性、特定目的への適合性、および非侵害の黙示的保証を含むがこれに限定されない、いかなる種類の保証もなく提供されます。",
+        "content2": "当社は以下を保証しません：",
         "items": {
-          "item1": "The Service will meet your requirements",
-          "item2": "The Service will be uninterrupted, timely, secure, or error-free",
-          "item3": "The results obtained from using the Service will be accurate or reliable",
-          "item4": "Any errors in the Service will be corrected"
+          "item1": "サービスがお客様の要件を満たすこと",
+          "item2": "サービスが中断されず、タイムリーで、安全で、エラーがないこと",
+          "item3": "サービスを使用して得られた結果が正確または信頼できること",
+          "item4": "サービスのエラーが修正されること"
         }
       },
       "section12": {
-        "title": "12. Limitation of Liability",
-        "content": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ZUKI APPS, ITS AFFILIATES, OR THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, USE, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR USE OR INABILITY TO USE THE SERVICE.",
-        "content2": "Our total liability to you for all claims arising from or related to the Service shall not exceed the amount you paid us in the twelve (12) months preceding the claim, or $100, whichever is greater."
+        "title": "12. 責任の制限",
+        "content": "適用される法律で許可される最大限において、Zuki Apps、その関連会社、またはそれぞれの役員、取締役、従業員、または代理人は、サービスの使用または使用不能に起因する、利益、データ、使用、またはその他の無形の損失を含むがこれに限定されない、間接的、偶発的、特別、結果的、または懲罰的損害について一切責任を負いません。",
+        "content2": "サービスから生じる、またはサービスに関連するすべての請求に対する当社の総責任は、請求前の12か月間に当社に支払った金額、または$100のいずれか大きい方を超えることはありません。"
       },
       "section13": {
-        "title": "13. Indemnification",
-        "content": "You agree to indemnify, defend, and hold harmless Zuki Apps, its affiliates, and their respective officers, directors, employees, and agents from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including attorney's fees) arising from:",
+        "title": "13. 補償",
+        "content": "お客様は、以下から生じるすべての請求、損害、義務、損失、責任、費用、または債務、および費用（弁護士費用を含む）から、Zuki Apps、その関連会社、およびそれぞれの役員、取締役、従業員、または代理人を補償し、防御し、無害に保つことに同意します：",
         "items": {
-          "item1": "Your use of the Service",
-          "item2": "Your violation of these Terms",
-          "item3": "Your violation of any third-party rights",
-          "item4": "Any User Content you submit, post, or transmit through the Service"
+          "item1": "サービスの使用",
+          "item2": "これらの規約の違反",
+          "item3": "第三者の権利の違反",
+          "item4": "サービスを通じて送信、投稿、または送信するユーザーコンテンツ"
         }
       },
       "section14": {
-        "title": "14. Privacy",
-        "content": "Your privacy is important to us. Our collection and use of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference."
+        "title": "14. プライバシー",
+        "content": "お客様のプライバシーは当社にとって重要です。個人情報の収集および使用は、参照によりこれらの規約に組み込まれたプライバシーポリシーによって管理されます。"
       },
       "section15": {
-        "title": "15. Dispute Resolution",
-        "subtitle1": "15.1. Governing Law",
-        "content1": "These Terms shall be governed by and construed in accordance with the laws of Israel, without regard to its conflict of law provisions.",
-        "subtitle2": "15.2. Dispute Resolution Process",
-        "content2": "If you have any concerns or disputes regarding the Service, please contact us first at zuki.apps.dev@gmail.com. We will attempt to resolve any disputes in good faith."
+        "title": "15. 紛争解決",
+        "subtitle1": "15.1. 準拠法",
+        "content1": "これらの規約は、法の抵触条項に関係なく、イスラエルの法律に従って管理され、解釈されます。",
+        "subtitle2": "15.2. 紛争解決プロセス",
+        "content2": "サービスに関する懸念や紛争がある場合は、まずzuki.apps.dev@gmail.comまでご連絡ください。当社は誠意を持って紛争を解決しようとします。"
       },
       "section16": {
-        "title": "16. Changes to Terms",
-        "content": "We reserve the right to modify these Terms at any time. We will notify you of any material changes by:",
+        "title": "16. 規約の変更",
+        "content": "当社は、いつでもこれらの規約を変更する権利を留保します。重要な変更については、以下により通知します：",
         "items": {
-          "item1": "Posting the updated Terms on this page",
-          "item2": "Updating the \"Last updated\" date",
-          "item3": "Sending a notification through the Service (if significant changes are made)"
+          "item1": "このページに更新された規約を投稿する",
+          "item2": "「最終更新」日を更新する",
+          "item3": "サービスを通じて通知を送信する（重要な変更が行われた場合）"
         },
-        "content2": "Your continued use of the Service after such changes constitutes your acceptance of the modified Terms."
+        "content2": "このような変更後のサービスの継続使用は、変更された規約の受諾を構成します。"
       },
       "section17": {
-        "title": "17. Severability",
-        "content": "If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect."
+        "title": "17. 分離可能性",
+        "content": "これらの規約のいずれかの条項が執行不能または無効であると判明した場合、その条項は必要最小限に制限または排除され、残りの条項は完全に有効なままです。"
       },
       "section18": {
-        "title": "18. Entire Agreement",
-        "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
+        "title": "18. 完全合意",
+        "content": "これらの規約は、プライバシーポリシーとともに、サービスに関するお客様とZuki Appsの間の完全な合意を構成し、以前のすべての合意および理解に優先します。"
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 連絡先情報",
+        "content": "これらの規約に関するご質問がある場合は、以下までご連絡ください：",
         "email": "zuki.apps.dev@gmail.com",
         "website": "https://zukiapps.com/zulist"
       }
     },
     "deleteAccount": {
-      "title": "Delete ZuList Account",
-      "intro": "If you wish to delete your account and all associated data, please follow the steps below:",
+      "title": "ZuListアカウントの削除",
+      "intro": "アカウントと関連するすべてのデータを削除したい場合は、以下の手順に従ってください：",
       "warning": {
-        "title": "⚠️ Important Warning",
-        "content": "Account deletion is a permanent action and cannot be undone. All data associated with your account will be permanently deleted."
+        "title": "⚠️ 重要な警告",
+        "content": "アカウントの削除は永続的な操作であり、元に戻すことはできません。アカウントに関連するすべてのデータが永続的に削除されます。"
       },
       "steps": {
-        "title": "Account Deletion Instructions",
-        "step1": "Open the ZuList app on your device",
-        "step2": "Log in to your account (if you haven't already)",
-        "step3": "Tap the Profile button (or Settings) in the bottom menu",
-        "step4": "Scroll down until you find the Delete account button (or Delete account)",
-        "step5": "Tap the button and read the message",
-        "step6": "Confirm the deletion - the account and all data will be permanently deleted"
+        "title": "アカウント削除の手順",
+        "step1": "デバイスでZuListアプリを開く",
+        "step2": "アカウントにログインする（まだログインしていない場合）",
+        "step3": "下部メニューのプロフィールボタン（または設定）をタップする",
+        "step4": "アカウント削除ボタン（またはアカウント削除）が見つかるまで下にスクロールする",
+        "step5": "ボタンをタップしてメッセージを読む",
+        "step6": "削除を確認する - アカウントとすべてのデータが永続的に削除されます"
       },
       "data": {
-        "title": "Data That Will Be Deleted",
-        "intro": "When you delete your account, the following data will be permanently deleted:",
-        "item1": "Personal information: name, email address, user ID",
-        "item2": "Shopping lists: all shopping lists you created",
-        "item3": "Items: all items in your lists",
-        "item4": "Photos: profile photos, list photos, item photos",
-        "item5": "Preferences: personal settings and user preferences",
-        "item6": "Purchase history: all statistical data and history",
-        "item7": "Sync data: all cloud-synced data"
+        "title": "削除されるデータ",
+        "intro": "アカウントを削除すると、以下のデータが永続的に削除されます：",
+        "item1": "個人情報：名前、メールアドレス、ユーザーID",
+        "item2": "買い物リスト：作成したすべての買い物リスト",
+        "item3": "アイテム：リスト内のすべてのアイテム",
+        "item4": "写真：プロフィール写真、リスト写真、アイテム写真",
+        "item5": "設定：個人設定とユーザー設定",
+        "item6": "購入履歴：すべての統計データと履歴",
+        "item7": "同期データ：すべてのクラウド同期データ"
       },
       "sharedLists": {
         "owner": {
-          "title": "Lists you created (Owner):",
-          "item1": "If there are other users in the list → Ownership will be transferred to another user (automatically)",
-          "item2": "If you are the only one in the list → The list will be completely deleted"
+          "title": "作成したリスト（所有者）：",
+          "item1": "リストに他のユーザーがいる場合 → 所有権が別のユーザーに自動的に移転されます",
+          "item2": "リストにあなただけがいる場合 → リストは完全に削除されます"
         },
         "member": {
-          "title": "Lists you participate in (Member):",
-          "item1": "You will be removed from the list",
-          "item2": "The list will remain active for other users",
-          "item3": "Data and items will remain (only you will be removed)"
+          "title": "参加しているリスト（メンバー）：",
+          "item1": "リストから削除されます",
+          "item2": "リストは他のユーザーに対してアクティブのままです",
+          "item3": "データとアイテムは残ります（あなただけが削除されます）"
         }
       },
       "partialDelete": {
-        "title": "Deleting Some Data (Without Deleting the Account)",
-        "intro": "If you wish to delete only some data without deleting the account, you can:",
-        "item1": "Delete profile photos: Profile screen → Remove photo",
-        "item2": "Delete lists: Home screen → Delete list",
-        "item3": "Delete items: Inside a list → Delete item"
+        "title": "一部のデータの削除（アカウントを削除せずに）",
+        "intro": "アカウントを削除せずに一部のデータのみを削除したい場合は、以下を実行できます：",
+        "item1": "プロフィール写真を削除：プロフィール画面 → 写真を削除",
+        "item2": "リストを削除：ホーム画面 → リストを削除",
+        "item3": "アイテムを削除：リスト内 → アイテムを削除"
       },
       "retention": {
-        "title": "Retention Period",
-        "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+        "title": "保持期間",
+        "content": "アカウント削除後、データは30日以内にサーバーから削除されます。この期間中、データはバックアップに保持される場合がありますが、アプリを通じてアクセスすることはできません。"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with account deletion, please contact us:",
-        "email": "Email",
-        "privacy": "Privacy Policy",
-        "privacyLink": "Read the full privacy policy",
-        "terms": "Terms of Service",
-        "termsLink": "Read the terms of service"
+        "title": "お問い合わせ",
+        "content": "アカウント削除に関する質問や問題がある場合は、以下までご連絡ください：",
+        "email": "メール",
+        "privacy": "プライバシーポリシー",
+        "privacyLink": "完全なプライバシーポリシーを読む",
+        "terms": "利用規約",
+        "termsLink": "利用規約を読む"
       }
     },
     "deleteData": {
-      "title": "Delete Data - ZuList",
+      "title": "データの削除 - ZuList",
       "intro": {
-        "title": "Deleting Data Without Deleting the Account",
-        "content": "You can delete some of your data without deleting the account. This way you can keep the account and delete only the data you want to remove."
+        "title": "アカウントを削除せずにデータを削除する",
+        "content": "アカウントを削除せずに一部のデータを削除できます。この方法で、アカウントを保持し、削除したいデータのみを削除できます。"
       },
       "types": {
-        "title": "Types of Data You Can Delete",
+        "title": "削除できるデータの種類",
         "profilePhotos": {
-          "title": "1. Profile Photos",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "Your profile photo",
-          "deletedItem2": "Custom photos uploaded manually",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "Username",
-          "keptItem3": "All other data",
-          "howTo": "How to delete:",
-          "step1": "Open the ZuList app",
-          "step2": "Tap the Profile button in the bottom menu",
-          "step3": "Tap your profile photo",
-          "step4": "Select Remove Image or Remove Image",
-          "step5": "Confirm the deletion"
+          "title": "1. プロフィール写真",
+          "deleted": "削除されるもの：",
+          "deletedItem1": "プロフィール写真",
+          "deletedItem2": "手動でアップロードしたカスタム写真",
+          "kept": "保持されるもの：",
+          "keptItem1": "アカウント",
+          "keptItem2": "ユーザー名",
+          "keptItem3": "その他のすべてのデータ",
+          "howTo": "削除方法：",
+          "step1": "ZuListアプリを開く",
+          "step2": "下部メニューのプロフィールボタンをタップする",
+          "step3": "プロフィール写真をタップする",
+          "step4": "画像を削除または画像を削除を選択する",
+          "step5": "削除を確認する"
         },
         "shoppingLists": {
-          "title": "2. Shopping Lists",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "The selected shopping list",
-          "deletedItem2": "All items in the list",
-          "deletedItem3": "List photos",
-          "deletedItem4": "List settings",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "All other lists",
-          "keptItem3": "Other personal data",
-          "howTo": "How to delete:",
-          "step1": "Open the ZuList app",
-          "step2": "On the home screen, find the list you want to delete",
-          "step3": "Long press on the list (or tap three dots)",
-          "step4": "Select Delete List or Delete List",
-          "step5": "Confirm the deletion"
+          "title": "2. 買い物リスト",
+          "deleted": "削除されるもの：",
+          "deletedItem1": "選択した買い物リスト",
+          "deletedItem2": "リスト内のすべてのアイテム",
+          "deletedItem3": "リスト写真",
+          "deletedItem4": "リスト設定",
+          "kept": "保持されるもの：",
+          "keptItem1": "アカウント",
+          "keptItem2": "その他のすべてのリスト",
+          "keptItem3": "その他の個人データ",
+          "howTo": "削除方法：",
+          "step1": "ZuListアプリを開く",
+          "step2": "ホーム画面で削除したいリストを見つける",
+          "step3": "リストを長押しする（または3つの点をタップする）",
+          "step4": "リストを削除またはリストを削除を選択する",
+          "step5": "削除を確認する"
         },
         "items": {
-          "title": "3. Items in Lists",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "The selected item",
-          "deletedItem2": "Item photos",
-          "deletedItem3": "Notes on the item",
-          "deletedItem4": "Quantity and price (if entered)",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "The list itself",
-          "keptItem3": "All other items in the list",
-          "howTo": "How to delete:",
-          "step1": "Open the ZuList app",
-          "step2": "Open the list containing the item",
-          "step3": "Long press on the item (or swipe left)",
-          "step4": "Select Delete or Delete",
-          "step5": "Confirm the deletion"
+          "title": "3. リスト内のアイテム",
+          "deleted": "削除されるもの：",
+          "deletedItem1": "選択したアイテム",
+          "deletedItem2": "アイテム写真",
+          "deletedItem3": "アイテムのメモ",
+          "deletedItem4": "数量と価格（入力した場合）",
+          "kept": "保持されるもの：",
+          "keptItem1": "アカウント",
+          "keptItem2": "リスト自体",
+          "keptItem3": "リスト内のその他のすべてのアイテム",
+          "howTo": "削除方法：",
+          "step1": "ZuListアプリを開く",
+          "step2": "アイテムを含むリストを開く",
+          "step3": "アイテムを長押しする（または左にスワイプする）",
+          "step4": "削除または削除を選択する",
+          "step5": "削除を確認する"
         },
         "images": {
-          "title": "4. List and Item Photos",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "List photos (background/custom image)",
-          "deletedItem2": "Item photos",
-          "deletedItem3": "Category photos",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "The list/item/category itself",
-          "keptItem3": "All other data",
-          "howTo": "How to delete:",
-          "step1": "Open the list/item/category",
-          "step2": "Tap the photo",
-          "step3": "Select Remove Image or Remove Image",
-          "step4": "Confirm the deletion"
+          "title": "4. リストとアイテムの写真",
+          "deleted": "削除されるもの：",
+          "deletedItem1": "リスト写真（背景/カスタム画像）",
+          "deletedItem2": "アイテム写真",
+          "deletedItem3": "カテゴリ写真",
+          "kept": "保持されるもの：",
+          "keptItem1": "アカウント",
+          "keptItem2": "リスト/アイテム/カテゴリ自体",
+          "keptItem3": "その他のすべてのデータ",
+          "howTo": "削除方法：",
+          "step1": "リスト/アイテム/カテゴリを開く",
+          "step2": "写真をタップする",
+          "step3": "画像を削除または画像を削除を選択する",
+          "step4": "削除を確認する"
         },
         "purchaseHistory": {
-          "title": "5. Purchase History and Statistical Data",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "Purchase history (when items marked as purchased are deleted)",
-          "deletedItem2": "Statistical data (when lists are deleted)",
-          "deletedItem3": "History-based recommendations",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "Active lists",
-          "keptItem3": "Personal data",
+          "title": "5. 購入履歴と統計データ",
+          "deleted": "削除されるもの：",
+          "deletedItem1": "購入履歴（購入済みとしてマークされたアイテムが削除された場合）",
+          "deletedItem2": "統計データ（リストが削除された場合）",
+          "deletedItem3": "履歴ベースの推奨",
+          "kept": "保持されるもの：",
+          "keptItem1": "アカウント",
+          "keptItem2": "アクティブなリスト",
+          "keptItem3": "個人データ",
           "note": {
-            "title": "Note:",
-            "content": "Deleting purchase history is done automatically when items or lists are deleted. No separate action is required."
+            "title": "注意：",
+            "content": "購入履歴の削除は、アイテムまたはリストが削除されたときに自動的に行われます。別の操作は必要ありません。"
           }
         }
       },
       "info": {
-        "title": "ℹ️ Important Information:",
-        "item1": "Data deletion is immediate - data is deleted immediately from the device and cloud",
-        "item2": "Deleted data cannot be recovered",
-        "item3": "If you participate in shared lists, deleting items/lists will also affect other users",
-        "item4": "Your account will remain active even after deleting data"
+        "title": "ℹ️ 重要な情報：",
+        "item1": "データ削除は即座に行われます - データはデバイスとクラウドから即座に削除されます",
+        "item2": "削除されたデータは回復できません",
+        "item3": "共有リストに参加している場合、アイテム/リストの削除は他のユーザーにも影響します",
+        "item4": "データを削除した後でもアカウントはアクティブのままです"
       },
       "retention": {
-        "title": "Retention Period",
-        "content": "Deleted data will be removed from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+        "title": "保持期間",
+        "content": "削除されたデータは30日以内にサーバーから削除されます。この期間中、データはバックアップに保持される場合がありますが、アプリを通じてアクセスすることはできません。"
       },
       "fullDelete": {
-        "title": "Want to delete the entire account?",
-        "content": "If you wish to delete the entire account and all associated data,",
-        "link": "click here for full account deletion"
+        "title": "アカウント全体を削除しますか？",
+        "content": "アカウント全体と関連するすべてのデータを削除したい場合は、",
+        "link": "完全なアカウント削除はこちらをクリック"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with data deletion, please contact us:",
-        "email": "Email",
-        "privacy": "Privacy Policy",
-        "privacyLink": "Read the full privacy policy"
+        "title": "お問い合わせ",
+        "content": "データ削除に関する質問や問題がある場合は、以下までご連絡ください：",
+        "email": "メール",
+        "privacy": "プライバシーポリシー",
+        "privacyLink": "完全なプライバシーポリシーを読む"
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "サポートとヘルプ",
+      "subtitle": "お手伝いします！よくある質問の回答を見つけるか、直接お問い合わせください。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "お問い合わせ",
+        "description": "質問やサポートが必要ですか？メールを送信してください。できるだけ早く返信いたします。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "クイックリンク",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "プライバシーポリシー",
+          "description": "データ保護の方法を学ぶ"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "利用規約",
+          "description": "利用規約を読む"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Instructions for account deletion"
+          "title": "アカウント削除",
+          "description": "アカウント削除の手順"
         },
         "deleteData": {
-          "title": "Delete Data",
-          "description": "How to delete specific data"
+          "title": "データ削除",
+          "description": "特定のデータを削除する方法"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "よくある質問",
         "q1": {
-          "question": "How do I share a shopping list with family members?",
-          "answer": "To share a list, open the list and tap the 'Share' or 'Members' button. You can invite members via email, SMS, WhatsApp, or by sharing a link. Once they accept the invitation, they'll have access to the list and can add or modify items in real-time."
+          "question": "家族と買い物リストを共有するにはどうすればよいですか？",
+          "answer": "リストを共有するには、リストを開いて「共有」または「メンバー」ボタンをタップします。メール、SMS、WhatsApp、またはリンクを共有してメンバーを招待できます。招待を受け入れると、リストにアクセスでき、リアルタイムでアイテムを追加または変更できます。"
         },
         "q2": {
-          "question": "How does the Premium subscription work?",
-          "answer": "Premium offers unlimited lists, unlimited items, unlimited members, ad-free experience, advanced statistics, custom themes, offline mode, and cloud backup. You can subscribe monthly or yearly through the App Store (iOS) or Google Play (Android). You can manage or cancel your subscription at any time through your device's subscription settings."
+          "question": "プレミアムサブスクリプションはどのように機能しますか？",
+          "answer": "プレミアムは、無制限のリスト、無制限のアイテム、無制限のメンバー、広告なしの体験、高度な統計、カスタムテーマ、オフラインモード、クラウドバックアップを提供します。App Store（iOS）またはGoogle Play（Android）を通じて月額または年額でサブスクライブできます。デバイスのサブスクリプション設定からいつでも管理またはキャンセルできます。"
         },
         "q3": {
-          "question": "Can I use ZuList offline?",
-          "answer": "Yes! ZuList works offline. You can create lists, add items, and mark items as purchased even without an internet connection. All changes will automatically sync when you're back online. Note: Offline mode is a Premium feature."
+          "question": "ZuListをオフラインで使用できますか？",
+          "answer": "はい！ZuListはオフラインで動作します。インターネット接続がなくても、リストを作成し、アイテムを追加し、アイテムを購入済みとしてマークできます。すべての変更は、オンラインに戻ったときに自動的に同期されます。注意：オフラインモードはプレミアム機能です。"
         },
         "q4": {
-          "question": "How do I delete my account?",
-          "answer": "To delete your account, go to Profile → Settings → Delete Account. Please note that account deletion is permanent and cannot be undone. All your data, including lists, items, and photos, will be permanently deleted. For detailed instructions, visit our Delete Account page."
+          "question": "アカウントを削除するにはどうすればよいですか？",
+          "answer": "アカウントを削除するには、プロフィール → 設定 → アカウント削除に移動します。アカウント削除は永続的であり、元に戻すことができないことに注意してください。リスト、アイテム、写真を含むすべてのデータが永続的に削除されます。詳細な手順については、アカウント削除ページをご覧ください。"
         },
         "q5": {
-          "question": "I'm having trouble with notifications. What should I do?",
-          "answer": "First, make sure notifications are enabled in your device settings for ZuList. If notifications still don't work, try: 1) Restarting the app, 2) Checking your device's notification settings, 3) Ensuring you have an active internet connection, 4) Reinstalling the app if the problem persists. If issues continue, please contact us."
+          "question": "通知に問題があります。どうすればよいですか？",
+          "answer": "まず、デバイス設定でZuListの通知が有効になっていることを確認してください。通知がまだ機能しない場合は、以下を試してください：1）アプリを再起動する、2）デバイスの通知設定を確認する、3）アクティブなインターネット接続があることを確認する、4）問題が続く場合はアプリを再インストールする。問題が続く場合は、お問い合わせください。"
         },
         "q6": {
-          "question": "How do I restore my data if I switch devices?",
-          "answer": "If you're using the same account (Google or Apple Sign-In), your data will automatically sync when you log in on a new device. Make sure you're connected to the internet and signed in with the same account. Premium users have cloud backup enabled, ensuring all data is safely stored and can be restored."
+          "question": "デバイスを切り替えた場合、データを復元するにはどうすればよいですか？",
+          "answer": "同じアカウント（GoogleまたはAppleサインイン）を使用している場合、新しいデバイスにログインするとデータが自動的に同期されます。インターネットに接続し、同じアカウントでサインインしていることを確認してください。プレミアムユーザーはクラウドバックアップが有効になっており、すべてのデータが安全に保存され、復元できるようになっています。"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "さらにサポートが必要ですか？",
+        "description": "探している回答が見つからない場合、または技術的な問題が発生している場合は、お気軽にお問い合わせください。お手伝いします。通常24-48時間以内に返信いたします。"
       }
     }
   },

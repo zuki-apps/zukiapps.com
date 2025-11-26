@@ -17,7 +17,7 @@
     "zulist": {
       "title": "ZuList",
       "subtitle": "My first app - Smart shopping list management",
-      "description": "ZuList is a Flutter-based shopping list application designed to make grocery shopping easier and more collaborative. With real-time sharing, offline support, and smart product recommendations, it's the perfect companion for families and friends who shop together. Coming soon!",
+      "description": "ZuList is a Flutter-based shopping list application designed to make grocery shopping easier and more collaborative. With real-time sharing, offline support, and smart product recommendations, it's the perfect companion for families and friends who shop together. Available now on the App Store!",
       "features": {
         "realtime": "Real-time Sharing",
         "offline": "Works Offline",
@@ -39,7 +39,7 @@
   "zulist": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Production Ready - Version 1.0.0",
+      "badge": "Available Now - Version 1.0.1",
       "title": "ZuList",
       "subtitle": "Smart Shopping Lists for Families",
       "description": "The perfect app for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration."
@@ -189,10 +189,9 @@
         ]
       },
       "pricing": {
-        "monthly": "Monthly: ₪7.50",
-        "yearly": "Yearly: ₪65.00",
-        "savings": "Save 25% with annual subscription",
-        "other": "Also: $2.00/month or €1.80/month | $18.00/year or €16.00/year"
+        "monthly": "Monthly: $1.99",
+        "yearly": "Yearly: $17.99",
+        "savings": "Save 25% with annual subscription"
       },
       "rewarded": {
         "title": "Rewarded Ads",
@@ -205,14 +204,14 @@
       }
     },
     "status": {
-      "title": "✅ Production Ready",
+      "title": "✅ Available Now",
       "description": "The app is ready for use with 521+ comprehensive tests",
       "version": "Version",
       "tests": "Tests",
       "status": "Status",
-      "versionValue": "1.0.0+1",
+      "versionValue": "1.0.1+1",
       "testsValue": "521+ tests",
-      "statusValue": "Ready for release"
+      "statusValue": "Available on App Store"
     },
     "download": {
       "title": "Download Now",
@@ -262,7 +261,7 @@
     "footer": {
       "copyright": "© 2025 ZuList - All rights reserved",
       "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️",
-      "bundle": "Bundle ID: com.zukiapps.zulist | Version: 1.0.0+1"
+      "bundle": "Bundle ID: com.zukiapps.zulist | Version: 1.0.1+1"
     },
     "privacy": {
       "title": "Privacy Policy",
