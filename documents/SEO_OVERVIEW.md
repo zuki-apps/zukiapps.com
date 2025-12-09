@@ -80,6 +80,10 @@
   "url": "https://zukiapps.com",
   "logo": "https://zukiapps.com/logo.png",
   "description": "Mobile App Developer from Israel...",
+  "sameAs": [
+    "https://www.instagram.com/zuki.apps/",
+    "https://www.facebook.com/profile.php?id=61581736876235"
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "email": "zuki.apps.dev@gmail.com",
@@ -107,10 +111,16 @@
 ```
 
 ### 3. Breadcrumbs Schema (`components/BreadcrumbsStructuredData.tsx`)
-- ✅ מופיע בעמודי ZuList
+- ✅ מופיע בכל העמודים (עמוד ראשי, ZuList, Privacy, Terms, Support, Whistle Camera, Hush Gallery)
 - ✅ מבנה BreadcrumbList עם ListItem
 - ✅ מיקום (position) אוטומטי
 - ✅ URLs דינמיים לפי שפה
+
+### 4. SoftwareApplication Schema (`components/SoftwareApplicationStructuredData.tsx`)
+- ✅ מופיע בעמוד ZuList
+- ✅ כולל: שם, תיאור, מערכת הפעלה, קטגוריה
+- ✅ קישורים ל-App Store ו-Google Play
+- ✅ מידע על מחיר (Free)
 
 ---
 
@@ -254,28 +264,17 @@ robots: {
 ## נקודות לשיפור
 
 ### 🔴 בעיות קריטיות
-1. **Organization Schema - sameAs ריק**
-   - כרגע `sameAs: []` ריק
-   - **המלצה**: להוסיף קישורים לרשתות חברתיות:
-     ```json
-     "sameAs": [
-       "https://instagram.com/zuki.apps",
-       "https://facebook.com/zuki.apps"
-     ]
-     ```
-
-2. **SearchAction ללא עמוד חיפוש**
-   - מוגדר `urlTemplate: "${baseUrl}/search?q={search_term_string}"`
-   - **המלצה**: ליצור עמוד חיפוש או להסיר את ה-SearchAction
+1. ✅ **SearchAction ללא עמוד חיפוש** - **תוקן**
+   - הוסר מה-WebSite schema כי אין עמוד חיפוש
 
 ### 🟡 שיפורים מומלצים
 1. **תמונות Open Graph**
    - כרגע משתמשים ב-logo.png (לא אופטימלי ל-OG)
    - **המלצה**: ליצור תמונות OG מותאמות (1200x630px) לכל עמוד
 
-2. **Structured Data נוסף**
-   - להוסיף `SoftwareApplication` schema לעמודי האפליקציות
-   - להוסיף `BreadcrumbList` לכל העמודים (לא רק ZuList)
+2. ✅ **Structured Data נוסף** - **בוצע**
+   - ✅ הוסף `SoftwareApplication` schema לעמוד ZuList
+   - ✅ הוסף `BreadcrumbList` לכל העמודים
 
 3. **Meta Description**
    - Description כללי לכל העמודים
@@ -321,14 +320,23 @@ robots: {
 - Manifest & Icons מוגדרים
 
 ### ⚠️ נקודות לשיפור
-- להוסיף קישורי רשתות חברתיות ל-Organization Schema
-- ליצור תמונות OG מותאמות
-- להוסיף Structured Data נוסף (SoftwareApplication, BreadcrumbList)
-- לטפל ב-SearchAction (ליצור עמוד חיפוש או להסיר)
-- להוסיף descriptions ייחודיים לכל עמוד
+- ליצור תמונות OG מותאמות (1200x630px) לכל עמוד
+- להוסיף SoftwareApplication schema גם לעמודי Whistle Camera ו-Hush Gallery (כשיהיו זמינים)
+- להוסיף AggregateRating ל-SoftwareApplication schema (כשיהיו ביקורות)
 
 ---
 
 **תאריך עדכון**: 2024
-**גרסה**: 1.0
+**גרסה**: 2.0
+
+---
+
+## עדכונים אחרונים
+
+### ✅ שיפורים שבוצעו (גרסה 2.0)
+1. **הוסר SearchAction** - הוסר מה-WebSite schema כי אין עמוד חיפוש
+2. **הוסף SoftwareApplication Schema** - הוסף קומפוננטה חדשה ומופיע בעמוד ZuList
+3. **הוסף BreadcrumbList לכל העמודים** - כולל עמוד ראשי וכל העמודים האחרים
+4. **עודכן Organization Schema** - נוספו קישורי רשתות חברתיות (Instagram, Facebook)
+5. **שופרו Meta Descriptions** - descriptions ייחודיים לכל עמוד
 

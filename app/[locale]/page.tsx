@@ -6,6 +6,7 @@ import { Mail, Sparkles, Code, Heart } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppsCarousel from '@/components/AppsCarousel';
+import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 
 interface Star {
   left: number;
@@ -39,6 +40,13 @@ export default function Home() {
   }, []);
 
   return (
+    <>
+      <BreadcrumbsStructuredData
+        locale={locale}
+        items={[
+          { name: 'Home', path: '/' }
+        ]}
+      />
     <div className="min-h-screen bg-black relative overflow-hidden">
         {/* Starry background effect */}
         <div className="fixed inset-0 z-0" aria-hidden="true">
@@ -162,5 +170,6 @@ export default function Home() {
         </div>
       </footer>
     </div>
+    </>
   );
 }

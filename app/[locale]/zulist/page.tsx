@@ -1,11 +1,13 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { ShoppingCart, ArrowLeft, Users, Wifi, Sparkles, Globe, Database, FolderTree, Mail, ExternalLink, Bell, Layout, Crown, Image as ImageIcon, BarChart3, Smartphone, Lock, CheckCircle2, Video, Instagram, Facebook } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
+import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 
 export default function ZuListPage() {
   const t = useTranslations('zulist');
@@ -19,6 +21,22 @@ export default function ZuListPage() {
           { name: 'Home', path: '/' },
           { name: 'ZuList', path: '/zulist' }
         ]}
+      />
+      <SoftwareApplicationStructuredData
+        locale={locale}
+        appName="ZuList"
+        appDescription="ZuList is the ultimate shopping list app designed for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration. Features include real-time sync, offline support, smart product suggestions, category management, purchase history, and premium subscriptions."
+        operatingSystem="iOS,Android"
+        applicationCategory="ShoppingApplication"
+        offers={{
+          price: '0',
+          priceCurrency: 'USD',
+        }}
+        aggregateRating={{
+          ratingValue: 0,
+          ratingCount: 0,
+        }}
+        appStoreUrl="https://apps.apple.com/app/zulist/id6753878439"
       />
       <div className="min-h-screen bg-black relative overflow-hidden">
       {/* Starry background effect */}
@@ -65,7 +83,16 @@ export default function ZuListPage() {
       <section className="py-12 px-4 relative z-10">
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-8">
-            <ShoppingCart className="w-24 h-24 mx-auto mb-6 text-blue-400" />
+            <div className="relative w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-blue-400/30">
+              <Image
+                src="/images/zulist-icon.png"
+                alt="ZuList App Icon"
+                width={128}
+                height={128}
+                className="object-cover"
+                priority
+              />
+            </div>
           </div>
           <div className="inline-flex items-center gap-2 bg-green-900/50 border border-green-500/30 text-green-400 px-4 py-2 rounded-full text-sm font-semibold mb-4 backdrop-blur-sm">
             <CheckCircle2 className="w-4 h-4" />
@@ -431,16 +458,47 @@ export default function ZuListPage() {
               href="https://apps.apple.com/app/zulist/id6753878439"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-blue-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-blue-500/50 transition-all backdrop-blur-sm bg-opacity-90"
+              className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-blue-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-blue-500/50 transition-all backdrop-blur-sm bg-opacity-90 group"
             >
-              <span className="text-4xl mb-2 block">📱</span>
-              <p className="font-semibold text-white">{t('download.appStore')}</p>
-              <p className="text-sm text-blue-400 mt-2">{t('download.download')}</p>
+              <div className="w-32 h-10 mx-auto relative">
+                <Image
+                  src="/images/app-store-badge.svg"
+                  alt="Download on the App Store"
+                  width={128}
+                  height={40}
+                  className="object-contain"
+                  onError={(e) => {
+                    // Fallback to emoji if image not found
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const parent = target.parentElement;
+                    if (parent) {
+                      parent.innerHTML = '<span class="text-4xl mb-2 block">📱</span>';
+                    }
+                  }}
+                />
+              </div>
             </a>
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-blue-600/30 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90">
-              <span className="text-4xl mb-2 block">📱</span>
-              <p className="font-semibold text-white">{t('download.googlePlay')}</p>
-              <p className="text-sm text-gray-400">{t('download.soon')}</p>
+            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-blue-600/30 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90 opacity-60">
+              <div className="w-32 h-10 mx-auto relative">
+                <Image
+                  src="/images/google-play-badge.png"
+                  alt="Get it on Google Play"
+                  width={128}
+                  height={40}
+                  className="object-contain opacity-50"
+                  onError={(e) => {
+                    // Fallback to emoji if image not found
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const parent = target.parentElement;
+                    if (parent) {
+                      parent.innerHTML = '<span class="text-4xl mb-2 block">📱</span>';
+                    }
+                  }}
+                />
+              </div>
+              <p className="text-sm text-gray-400 mt-3">{t('download.soon')}</p>
             </div>
           </div>
         </div>

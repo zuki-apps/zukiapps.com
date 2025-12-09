@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
 import { Metadata } from 'next';
@@ -18,8 +18,12 @@ export async function generateMetadata({
   const { locale } = await params;
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   const siteName = 'Zuki Apps';
-  const title = 'Zuki Apps - Mobile App Developer from Israel';
-  const description = 'Zuki Apps - Mobile App Developer from Israel. Creating smart and intuitive mobile applications. ZuList - Smart shopping list app.';
+  
+  // Get translations for metadata
+  const t = await getTranslations({ locale, namespace: 'home' });
+  
+  const title = `${t('subtitle')} | ${siteName}`;
+  const description = `${t('subtitle')}. ${t('tagline')} ${t('zulist.description')}`;
   const logoUrl = `${baseUrl}/logo.png`;
   
   return {
@@ -142,20 +146,12 @@ export default async function LocaleLayout({
     }
   };
 
-  // Build WebSite schema with searchAction
+  // Build WebSite schema
   const websiteData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Zuki Apps',
     url: baseUrl,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${baseUrl}/search?q={search_term_string}`
-      },
-      'query-input': 'required name=search_term_string'
-    }
   };
 
   return (
