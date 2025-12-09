@@ -26,9 +26,26 @@ export default function RootLayout({
 }: {
   children: ReactNode;
 }) {
+  const measurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-ZQS2LWYD18';
+  
   return (
     <html lang="en" dir="ltr" className="dark">
       <body className="bg-black text-white">
+        {/* Google Analytics */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${measurementId}', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
         <Script id="set-locale-attributes" strategy="beforeInteractive">
           {`
             (function() {

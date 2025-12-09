@@ -5,50 +5,61 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   
   // Define all static routes with their metadata
+  // Note: /hush-gallery and /whistle-camera are excluded because they have robots: 'noindex, nofollow'
+  // Note: /zulist/invite/[id] is excluded because it's a dynamic route with parameters
   const routes: Array<{
     path: string;
     priority: number;
     changeFrequency: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
+    lastModified?: Date; // Optional: specific last modified date
   }> = [
     {
       path: '',
       priority: 1.0,
       changeFrequency: 'weekly',
+      // Home page - updated frequently
     },
     {
       path: '/zulist',
       priority: 0.9,
       changeFrequency: 'weekly',
-    },
-    {
-      path: '/zulist/privacy',
-      priority: 0.5,
-      changeFrequency: 'monthly',
-    },
-    {
-      path: '/zulist/terms',
-      priority: 0.5,
-      changeFrequency: 'monthly',
+      // Main app page - high priority, updated frequently
     },
     {
       path: '/zulist/support',
       priority: 0.7,
       changeFrequency: 'weekly',
+      // Support page - updated when FAQ changes
+    },
+    {
+      path: '/zulist/privacy',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+      // Privacy policy - updated occasionally
+    },
+    {
+      path: '/zulist/terms',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+      // Terms of service - updated occasionally
     },
     {
       path: '/zulist/delete-account',
       priority: 0.3,
       changeFrequency: 'yearly',
+      // Delete account page - rarely changes
     },
     {
       path: '/zulist/delete-data',
       priority: 0.3,
       changeFrequency: 'yearly',
+      // Delete data page - rarely changes
     },
   ];
 
   const sitemapEntries: MetadataRoute.Sitemap = [];
-  const currentDate = new Date();
+  // Use current date as default, but routes can override with specific dates
+  const defaultLastModified = new Date();
 
   routing.locales.forEach((locale) => {
     routes.forEach((route) => {
@@ -70,7 +81,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemapEntries.push({
         url,
-        lastModified: currentDate,
+        lastModified: route.lastModified || defaultLastModified,
         changeFrequency: route.changeFrequency,
         priority: route.priority,
         alternates: {
