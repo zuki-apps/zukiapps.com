@@ -4,17 +4,51 @@ import { routing } from '@/routing';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   
-  const routes = [
-    '',
-    '/zulist',
-    '/zulist/privacy',
-    '/zulist/terms',
-    '/zulist/support',
-    '/zulist/delete-account',
-    '/zulist/delete-data',
+  // Define all static routes with their metadata
+  const routes: Array<{
+    path: string;
+    priority: number;
+    changeFrequency: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
+  }> = [
+    {
+      path: '',
+      priority: 1.0,
+      changeFrequency: 'weekly',
+    },
+    {
+      path: '/zulist',
+      priority: 0.9,
+      changeFrequency: 'weekly',
+    },
+    {
+      path: '/zulist/privacy',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+    },
+    {
+      path: '/zulist/terms',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+    },
+    {
+      path: '/zulist/support',
+      priority: 0.7,
+      changeFrequency: 'weekly',
+    },
+    {
+      path: '/zulist/delete-account',
+      priority: 0.3,
+      changeFrequency: 'yearly',
+    },
+    {
+      path: '/zulist/delete-data',
+      priority: 0.3,
+      changeFrequency: 'yearly',
+    },
   ];
 
   const sitemapEntries: MetadataRoute.Sitemap = [];
+  const currentDate = new Date();
 
   routing.locales.forEach((locale) => {
     routes.forEach((route) => {
@@ -23,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         ? '' 
         : `/${locale}`;
       
-      const url = `${baseUrl}${localePrefix}${route}`;
+      const url = `${baseUrl}${localePrefix}${route.path}`;
       
       // Build alternates - for default locale, use empty prefix, for others use locale prefix
       const alternates: Record<string, string> = {};
@@ -31,14 +65,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         const altPrefix = loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
           ? '' 
           : `/${loc}`;
-        alternates[loc] = `${baseUrl}${altPrefix}${route}`;
+        alternates[loc] = `${baseUrl}${altPrefix}${route.path}`;
       });
 
       sitemapEntries.push({
         url,
-        lastModified: new Date(),
-        changeFrequency: route === '' ? 'weekly' : 'monthly',
-        priority: route === '' ? 1 : 0.8,
+        lastModified: currentDate,
+        changeFrequency: route.changeFrequency,
+        priority: route.priority,
         alternates: {
           languages: alternates,
         },

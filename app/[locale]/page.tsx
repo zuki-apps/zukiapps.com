@@ -1,12 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, Mail, Sparkles, Users, Wifi, Code, Heart } from 'lucide-react';
+import { Mail, Sparkles, Code, Heart } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
+import AppsCarousel from '@/components/AppsCarousel';
 
 interface Star {
   left: number;
@@ -93,6 +92,9 @@ export default function Home() {
             </p>
           </div>
 
+          {/* Apps Carousel Section */}
+          <AppsCarousel />
+
           {/* Story Section */}
           <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 mb-12 text-left border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90">
             <div className="flex items-center gap-3 mb-6">
@@ -118,68 +120,6 @@ export default function Home() {
             <p className="text-gray-400 italic">
               {t('zuliMonsters.more')}
             </p>
-          </div>
-
-          {/* ZuList App Section */}
-          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 mb-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90">
-            <div className="flex items-center justify-center mb-6">
-              <ShoppingCart className="w-16 h-16 text-blue-400" aria-hidden="true" />
-            </div>
-            <h2 className="text-3xl font-black mb-6 text-white">{t('zulist.title')}</h2>
-            
-            {/* Zuli Monsters Images */}
-            <div className="flex justify-center items-center gap-6 mb-6 flex-wrap">
-              <div className="relative w-32 h-32 md:w-40 md:h-40 animate-bounce" style={{ animationDuration: '2s', animationDelay: '0s' }}>
-                <Image
-                  src="/images/monsters/zuli-04.png"
-                  alt="Zuli Monster"
-                  fill
-                  sizes="(max-width: 768px) 128px, 160px"
-                  className="object-contain drop-shadow-lg"
-                  priority
-                />
-              </div>
-              <div className="relative w-32 h-32 md:w-40 md:h-40 animate-bounce" style={{ animationDuration: '2.5s', animationDelay: '0.5s' }}>
-                <Image
-                  src="/images/monsters/zuli-15.png"
-                  alt="Zuli Monster"
-                  fill
-                  sizes="(max-width: 768px) 128px, 160px"
-                  className="object-contain drop-shadow-lg"
-                  priority
-                />
-              </div>
-            </div>
-            
-            <p className="text-xl text-gray-300 mb-4">
-              {t('zulist.subtitle')}
-            </p>
-            <p className="text-lg text-gray-400 mb-8">
-              {t('zulist.description')}
-            </p>
-            
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.realtime')}>
-                <Users className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
-                <p className="text-sm font-black text-white">{t('zulist.features.realtime')}</p>
-              </div>
-              <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.offline')}>
-                <Wifi className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
-                <p className="text-sm font-black text-white">{t('zulist.features.offline')}</p>
-              </div>
-              <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.smart')}>
-                <Sparkles className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
-                <p className="text-sm font-black text-white">{t('zulist.features.smart')}</p>
-              </div>
-            </div>
-
-            <Link
-              href={`/${locale}/zulist`}
-              className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-black text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
-              aria-label={`${t('zulist.learnMore')} - ${t('zulist.title')}`}
-            >
-              {t('zulist.learnMore')}
-            </Link>
           </div>
 
           {/* Contact Section */}

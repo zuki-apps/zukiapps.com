@@ -132,7 +132,8 @@ export default async function LocaleLayout({
     logo: logoUrl,
     description: 'Mobile App Developer from Israel. Creating smart and intuitive mobile applications.',
     sameAs: [
-      // Add social media links if available
+      'https://www.instagram.com/zuki.apps/',
+      'https://www.facebook.com/profile.php?id=61581736876235'
     ],
     contactPoint: {
       '@type': 'ContactPoint',
