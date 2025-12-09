@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { ShoppingCart, Mail, Sparkles, Users, Wifi, Code, Heart } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
@@ -125,6 +126,31 @@ export default function Home() {
               <ShoppingCart className="w-16 h-16 text-blue-400" aria-hidden="true" />
             </div>
             <h2 className="text-3xl font-black mb-6 text-white">{t('zulist.title')}</h2>
+            
+            {/* Zuli Monsters Images */}
+            <div className="flex justify-center items-center gap-6 mb-6 flex-wrap">
+              <div className="relative w-32 h-32 md:w-40 md:h-40 animate-bounce" style={{ animationDuration: '2s', animationDelay: '0s' }}>
+                <Image
+                  src="/images/monsters/zuli-04.png"
+                  alt="Zuli Monster"
+                  fill
+                  sizes="(max-width: 768px) 128px, 160px"
+                  className="object-contain drop-shadow-lg"
+                  priority
+                />
+              </div>
+              <div className="relative w-32 h-32 md:w-40 md:h-40 animate-bounce" style={{ animationDuration: '2.5s', animationDelay: '0.5s' }}>
+                <Image
+                  src="/images/monsters/zuli-15.png"
+                  alt="Zuli Monster"
+                  fill
+                  sizes="(max-width: 768px) 128px, 160px"
+                  className="object-contain drop-shadow-lg"
+                  priority
+                />
+              </div>
+            </div>
+            
             <p className="text-xl text-gray-300 mb-4">
               {t('zulist.subtitle')}
             </p>
