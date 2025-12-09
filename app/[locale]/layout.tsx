@@ -2,12 +2,21 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
-import { Metadata } from 'next';
+import { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import '../globals.css';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export function generateViewport(): Viewport {
+  return {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  };
 }
 
 export async function generateMetadata({
@@ -34,12 +43,6 @@ export async function generateMetadata({
     creator: 'Zuki Apps',
     publisher: 'Zuki Apps',
     metadataBase: new URL(baseUrl),
-    viewport: {
-      width: 'device-width',
-      initialScale: 1,
-      maximumScale: 5,
-      userScalable: true,
-    },
     other: {
       'format-detection': 'telephone=no',
     },
