@@ -203,13 +203,18 @@ export default async function PrivacyPolicyPage({
                 <p className="text-gray-700 mb-4">
                   {t('section8.content')}
                 </p>
-                <p className="text-gray-700 mb-4">
+                <p className="text-gray-700 mb-2">
+                  <strong>{locale === 'he' ? 'אימייל:' : 'Email:'}</strong>{' '}
                   <a
                     href={`mailto:${t('section8.email')}`}
                     className="text-blue-600 hover:underline"
                   >
                     {t('section8.email')}
                   </a>
+                </p>
+                <p className="text-gray-700 mb-4">
+                  <strong>{locale === 'he' ? 'כתובת:' : 'Address:'}</strong>{' '}
+                  {t('section8.address')}
                 </p>
                 <p className="text-gray-700 text-sm">
                   {locale === 'he' ? '📄 ' : '📄 '}

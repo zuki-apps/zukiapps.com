@@ -65,7 +65,7 @@
       "title": "联系我们",
       "description": "有问题、有想法，或者只是想联系？我很乐意收到您的来信！",
       "sendEmail": "发送邮件",
-      "email": "zuki.apps.dev@gmail.com"
+      "email": "zuki.apps@gmail.com"
     },
     "footer": {
       "copyright": "© 2025 Zuki Apps - All rights reserved",
@@ -280,11 +280,11 @@
       "title": "重要链接",
       "support": {
         "title": "技术支持",
-        "email": "zuki.apps.dev@gmail.com"
+        "email": "zuki.apps@gmail.com"
       },
       "contact": {
         "title": "一般联系",
-        "email": "zuki.apps.dev@gmail.com"
+        "email": "zuki.apps@gmail.com"
       },
       "website": {
         "title": "官方网站",
@@ -352,7 +352,7 @@
       "section8": {
         "title": "8. Contact Us",
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
-        "email": "zuki.apps.dev@gmail.com"
+        "email": "zuki.apps@gmail.com"
       }
     },
     "terms": {
@@ -583,7 +583,7 @@
       "section19": {
         "title": "19. Contact Information",
         "content": "If you have any questions about these Terms, please contact us:",
-        "email": "zuki.apps.dev@gmail.com",
+        "email": "zuki.apps@gmail.com",
         "website": "https://zukiapps.com/zulist"
       }
     },
@@ -770,7 +770,7 @@
       "contact": {
         "title": "联系我们",
         "description": "有问题或需要帮助？给我们发邮件，我们会尽快回复您。",
-        "email": "zuki.apps.dev@gmail.com"
+        "email": "zuki.apps@gmail.com"
       },
       "quickLinks": {
         "title": "快速链接",
@@ -822,10 +822,468 @@
         "title": "需要更多帮助？",
         "description": "如果您找不到您要找的答案，或者遇到技术问题，请随时联系我们。我们随时为您提供帮助，通常在24-48小时内回复。"
       }
+    },
+    "dsa": {
+      "title": "数字服务法 (DSA) 合规",
+      "lastUpdated": "最后更新：2025年1月",
+      "traderIdentification": {
+        "title": "交易者识别",
+        "content": "ZuList由Zuki Apps提供，Zuki Apps是根据欧盟数字服务法(DSA)作为交易者运营的商业实体。"
+      },
+      "businessInfo": {
+        "title": "商业信息",
+        "company": "公司",
+        "companyValue": "Zuki Apps",
+        "service": "服务",
+        "serviceValue": "ZuList",
+        "address": "地址",
+        "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+        "contactEmail": "联系邮箱",
+        "contactEmailValue": "zuki.apps.dev@gmail.com",
+        "supportEmail": "支持邮箱",
+        "supportEmailValue": "zuki.apps@gmail.com",
+        "website": "网站",
+        "websiteValue": "https://zukiapps.com/zulist"
+      },
+      "consumerRights": {
+        "title": "消费者权利",
+        "content": "作为交易者，我们致力于透明的商业实践并遵守欧盟消费者保护法。欧盟用户拥有特定权利，包括：",
+        "items": [
+          "获得有关服务和条款的明确信息的权利",
+          "从合同中撤回的权利（数字内容14天冷静期，受适用法律约束）",
+          "投诉处理权",
+          "退款权（受适用法律和平台政策约束）"
+        ]
+      },
+      "contact": {
+        "title": "联系我们",
+        "content": "如有查询、投诉或要行使您的消费者权利，请联系我们：",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
     }
   },
   "common": {
     "language": "语言"
+  },
+  "hushGallery": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming Soon",
+      "title": "Hush Gallery",
+      "subtitle": "Private Photo Gallery",
+      "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
+    },
+    "features": {
+      "title": "Key Features",
+      "privacy": {
+        "title": "Privacy First",
+        "description": "Your photos are stored securely with advanced encryption",
+        "items": [
+          "Local-first storage in app's private directory",
+          "Optional encrypted cloud backup",
+          "PIN/password and biometric authentication",
+          "No access by other apps"
+        ]
+      },
+      "storage": {
+        "title": "Secure Storage",
+        "description": "All media stored locally with optional cloud sync",
+        "items": [
+          "Private app storage",
+          "Client-side encryption for cloud backup",
+          "Import from system gallery",
+          "Export with metadata preservation"
+        ]
+      },
+      "organization": {
+        "title": "Organized Collections",
+        "description": "Manage your photos and videos efficiently",
+        "items": [
+          "Custom folder management",
+          "Media organization tools",
+          "Search and filter capabilities",
+          "Metadata preservation"
+        ]
+      },
+      "security": {
+        "title": "App Lock",
+        "description": "Protect your gallery with multiple security options",
+        "items": [
+          "PIN/password protection",
+          "Biometric authentication (Face ID/Touch ID)",
+          "Auto-lock after inactivity",
+          "Secure entry point"
+        ]
+      },
+      "backup": {
+        "title": "Cloud Backup",
+        "description": "Optional encrypted cloud backup for your media",
+        "items": [
+          "Client-side encryption",
+          "Firebase or iCloud/Google Drive support",
+          "Selective backup",
+          "Automatic sync"
+        ]
+      },
+      "import": {
+        "title": "Import/Export",
+        "description": "Easy media management",
+        "items": [
+          "Import from system gallery",
+          "Export back with metadata",
+          "Batch operations",
+          "Format preservation"
+        ]
+      }
+    },
+    "premium": {
+      "title": "Premium Features",
+      "description": "Unlock advanced features with a one-time purchase",
+      "free": {
+        "title": "Free Features",
+        "items": [
+          "Basic gallery functionality",
+          "Local storage",
+          "App lock (PIN)",
+          "Basic folder management"
+        ]
+      },
+      "premium": {
+        "title": "Premium Features",
+        "items": [
+          "Encrypted cloud backup",
+          "Biometric authentication",
+          "Advanced folder management",
+          "Metadata tools",
+          "Priority support"
+        ]
+      },
+      "pricing": {
+        "oneTime": "One-time purchase",
+        "description": "Unlock all premium features forever"
+      }
+    },
+    "status": {
+      "title": "🚧 In Development",
+      "description": "The app is currently in development",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "0.1.0+4",
+      "statusValue": "Coming Soon"
+    },
+    "download": {
+      "title": "Coming Soon",
+      "description": "Hush Gallery will be available soon on app stores",
+      "soon": "Available soon"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps@gmail.com"
+      },
+      "contact": {
+        "title": "General Contact",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "social": {
+        "title": "Social Media"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Hush Gallery - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using Hush Gallery. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Hush Gallery (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a private photo gallery application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Hush Gallery is a mobile application that allows users to store, organize, and manage photos and videos privately. The Service includes:",
+        "items": [
+          "Local-first photo and video storage",
+          "Optional encrypted cloud backup",
+          "Folder management and organization",
+          "App lock with PIN/password and biometric authentication",
+          "Import/export functionality",
+          "Premium features (as described in the app)"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Hush Gallery is designed with privacy as a core principle. We collect minimal information necessary to provide the service. We collect information you provide directly to us, such as when you create an account (if using cloud backup), use our services, or contact us for support."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services. Your photos and videos are stored locally on your device by default. If you choose to use cloud backup, your media is encrypted client-side before being stored."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information or media to third parties without your consent, except as described in this policy. Your photos and videos remain private and are only accessible to you."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures to protect your personal information and media. All cloud backups are encrypted client-side before transmission. Local storage uses the app's private directory, which is not accessible by other apps."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You have the right to access, update, or delete your personal information and media at any time. You can delete your account and all associated data through the app settings. You may also opt out of cloud backup at any time."
+      },
+      "section6": {
+        "title": "6. Photo and Video Library Access",
+        "content": "Hush Gallery requires access to your device's photo library to allow you to import photos and videos. We only access your media when you explicitly choose to import it. All imported media is stored in the app's private directory and is not shared with third parties."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "dsa": {
+      "title": "Digital Services Act (DSA) Compliance",
+      "lastUpdated": "Last updated: January 2025",
+      "traderIdentification": {
+        "title": "Trader Identification",
+        "content": "Hush Gallery is provided by Zuki Apps, a business entity operating as a trader under the EU Digital Services Act (DSA)."
+      },
+      "businessInfo": {
+        "title": "Business Information",
+        "company": "Company",
+        "companyValue": "Zuki Apps",
+        "service": "Service",
+        "serviceValue": "Hush Gallery",
+        "address": "Address",
+        "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+        "contactEmail": "Contact Email",
+        "contactEmailValue": "zuki.apps.dev@gmail.com",
+        "website": "Website",
+        "websiteValue": "https://zukiapps.com/hush-gallery"
+      },
+      "consumerRights": {
+        "title": "Consumer Rights",
+        "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
+        "items": [
+          "Right to clear information about the service and terms",
+          "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
+          "Right to complaint handling",
+          "Right to refunds (subject to applicable law and platform policies)"
+        ]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  },
+  "whistleCamera": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming Soon",
+      "title": "Whistle Camera",
+      "subtitle": "Smart Camera App",
+      "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
+    },
+    "features": {
+      "title": "Key Features",
+      "whistle": {
+        "title": "Whistle Detection",
+        "description": "Automatically capture photos or start/stop video when a whistle is detected",
+        "items": [
+          "Real-time whistle detection",
+          "Automatic photo capture",
+          "Automatic video start/stop",
+          "Customizable sensitivity"
+        ]
+      },
+      "incognito": {
+        "title": "Incognito Mode",
+        "description": "Record or capture photos with a black screen overlay for privacy",
+        "items": [
+          "Black screen overlay",
+          "Privacy protection",
+          "Silent operation",
+          "Discreet capture"
+        ]
+      },
+      "locked": {
+        "title": "Locked Camera Capture",
+        "description": "Launch camera from Lock Screen, Control Center, and Action Button",
+        "items": [
+          "Lock Screen access",
+          "Control Center widget",
+          "Action Button support (iOS 18+)",
+          "Quick capture"
+        ]
+      },
+      "modern": {
+        "title": "Modern Architecture",
+        "description": "Built with SwiftUI and Swift concurrency",
+        "items": [
+          "SwiftUI interface",
+          "Modern Swift concurrency",
+          "Smooth performance",
+          "iOS 17+ support"
+        ]
+      },
+      "controls": {
+        "title": "Advanced Controls",
+        "description": "Full control over your camera experience",
+        "items": [
+          "Photo and video modes",
+          "Custom settings",
+          "Media gallery",
+          "Share functionality"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 In Development",
+      "description": "The app is currently in development",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "In Development",
+      "statusValue": "Coming Soon"
+    },
+    "download": {
+      "title": "Coming Soon",
+      "description": "Whistle Camera will be available soon on the App Store",
+      "soon": "Available soon"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps@gmail.com"
+      },
+      "contact": {
+        "title": "General Contact",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "social": {
+        "title": "Social Media"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Whistle Camera - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using Whistle Camera. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Whistle Camera (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a camera application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Whistle Camera is a mobile camera application that provides innovative features for mobile photography. The Service includes:",
+        "items": [
+          "Whistle detection for automatic photo capture and video recording",
+          "Incognito mode for private capture",
+          "Locked camera capture from Lock Screen and Control Center",
+          "Photo and video capture functionality",
+          "Media gallery and sharing features"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Whistle Camera is designed with privacy in mind. We collect minimal information necessary to provide the service. We collect information you provide directly to us, such as when you use our services or contact us for support."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services. Your photos and videos are stored locally on your device and are not transmitted to our servers unless you explicitly choose to share them."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information or media to third parties without your consent. Your photos and videos remain on your device and are only shared when you explicitly choose to share them."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures to protect your personal information. All photos and videos are stored locally on your device in the app's private directory, which is not accessible by other apps."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You have the right to access, update, or delete your photos and videos at any time. You can delete all media through the app's gallery. You may also uninstall the app at any time, which will remove all locally stored data."
+      },
+      "section6": {
+        "title": "6. Camera and Microphone Access",
+        "content": "Whistle Camera requires access to your device's camera and microphone to provide its core functionality. The camera is used for photo and video capture. The microphone is used for whistle detection. We do not record or store audio data - the microphone is only used for real-time whistle detection processing."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "dsa": {
+      "title": "Digital Services Act (DSA) Compliance",
+      "lastUpdated": "Last updated: January 2025",
+      "traderIdentification": {
+        "title": "Trader Identification",
+        "content": "Whistle Camera is provided by Zuki Apps, a business entity operating as a trader under the EU Digital Services Act (DSA)."
+      },
+      "businessInfo": {
+        "title": "Business Information",
+        "company": "Company",
+        "companyValue": "Zuki Apps",
+        "service": "Service",
+        "serviceValue": "Whistle Camera",
+        "address": "Address",
+        "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+        "contactEmail": "Contact Email",
+        "contactEmailValue": "zuki.apps.dev@gmail.com",
+        "website": "Website",
+        "websiteValue": "https://zukiapps.com/whistle-camera"
+      },
+      "consumerRights": {
+        "title": "Consumer Rights",
+        "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
+        "items": [
+          "Right to clear information about the service and terms",
+          "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
+          "Right to complaint handling",
+          "Right to refunds (subject to applicable law and platform policies)"
+        ]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
   }
 }
-

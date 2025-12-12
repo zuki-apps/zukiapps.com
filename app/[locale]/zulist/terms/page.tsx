@@ -491,7 +491,7 @@ export default function TermsOfServicePage() {
                     {t('section19.email')}
                   </a>
                 </p>
-                <p className="text-gray-700 mb-4">
+                <p className="text-gray-700 mb-2">
                   <strong>{locale === 'he' ? 'אתר אינטרנט:' : 'Website:'}</strong>{' '}
                   <a
                     href={t('section19.website')}
@@ -501,6 +501,10 @@ export default function TermsOfServicePage() {
                   >
                     {t('section19.website')}
                   </a>
+                </p>
+                <p className="text-gray-700 mb-4">
+                  <strong>{locale === 'he' ? 'כתובת:' : 'Address:'}</strong>{' '}
+                  {t('section19.address')}
                 </p>
                 <p className="text-gray-700 text-sm">
                   {locale === 'he' ? '🔒 ' : '🔒 '}
