@@ -115,7 +115,7 @@ export default function HushGalleryPage() {
               </Link>
               <span className="text-gray-500">|</span>
               <Link
-                href={`/${locale}/hush-gallery/dsa-compliance`}
+                href={`/${locale}/dsa-compliance`}
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
                 {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
@@ -420,7 +420,7 @@ export default function HushGalleryPage() {
               </Link>
               <span className="text-gray-600">|</span>
               <Link
-                href={`/${locale}/hush-gallery/dsa-compliance`}
+                href={`/${locale}/dsa-compliance`}
                 className="text-gray-400 hover:text-purple-400 transition-colors"
               >
                 {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}

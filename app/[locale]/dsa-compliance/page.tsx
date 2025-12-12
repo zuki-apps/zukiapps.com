@@ -18,26 +18,26 @@ export async function generateMetadata({
   }
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
-  const t = await getTranslations({ locale, namespace: 'zulist.dsa' });
+  const t = await getTranslations({ locale, namespace: 'dsa' });
   
-  const title = `${t('title')} - ZuList | Zuki Apps`;
+  const title = `${t('title')} - Zuki Apps`;
   const description = locale === 'he' 
-    ? 'ציות לחוק שירותים דיגיטליים (DSA) - ZuList. מידע על זיהוי סוחר, זכויות צרכן וציות לחוקי האיחוד האירופי.'
-    : 'Digital Services Act (DSA) Compliance - ZuList. Information about trader identification, consumer rights, and EU compliance.';
+    ? 'ציות לחוק שירותים דיגיטליים (DSA) - Zuki Apps. מידע על זיהוי סוחר, זכויות צרכן וציות לחוקי האיחוד האירופי.'
+    : 'Digital Services Act (DSA) Compliance - Zuki Apps. Information about trader identification, consumer rights, and EU compliance.';
   
   return {
     title,
     description,
     alternates: {
       canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/zulist/dsa-compliance` 
-        : `${baseUrl}/${locale}/zulist/dsa-compliance`,
+        ? `${baseUrl}/dsa-compliance` 
+        : `${baseUrl}/${locale}/dsa-compliance`,
       languages: Object.fromEntries(
         routing.locales.map((loc) => [
           loc,
           loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/zulist/dsa-compliance`
-            : `${baseUrl}/${loc}/zulist/dsa-compliance`
+            ? `${baseUrl}/dsa-compliance`
+            : `${baseUrl}/${loc}/dsa-compliance`
         ])
       )
     },
@@ -59,7 +59,7 @@ export default async function DSACompliancePage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'zulist.dsa' });
+  const t = await getTranslations({ locale, namespace: 'dsa' });
 
   return (
     <>
@@ -67,8 +67,7 @@ export default async function DSACompliancePage({
         locale={locale}
         items={[
           { name: 'Home', path: '/' },
-          { name: 'ZuList', path: '/zulist' },
-          { name: 'DSA Compliance', path: '/zulist/dsa-compliance' }
+          { name: 'DSA Compliance', path: '/dsa-compliance' }
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
@@ -79,10 +78,10 @@ export default async function DSACompliancePage({
 
           <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-blue-600">
-              <h1 className="text-4xl font-bold text-blue-600">ZuList</h1>
+              <h1 className="text-4xl font-bold text-blue-600">Zuki Apps</h1>
               <div className="flex gap-2">
                 <Link
-                  href={`/${locale}/zulist`}
+                  href={`/${locale}`}
                   className="px-4 py-2 border-2 border-blue-600 bg-white text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition-colors text-sm"
                 >
                   {locale === 'he' ? 'חזרה' : 'Back'}
@@ -115,9 +114,6 @@ export default async function DSACompliancePage({
                   <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                     <li className="text-gray-700">
                       <strong>{t('businessInfo.company')}:</strong> {t('businessInfo.companyValue')}
-                    </li>
-                    <li className="text-gray-700">
-                      <strong>{t('businessInfo.service')}:</strong> {t('businessInfo.serviceValue')}
                     </li>
                     <li className="text-gray-700">
                       <strong>{t('businessInfo.address')}:</strong> {t('businessInfo.addressValue')}
@@ -191,20 +187,29 @@ export default async function DSACompliancePage({
                 </section>
 
                 <section className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
+                  <p className="text-gray-700 text-sm mb-2">
+                    <strong>{locale === 'he' ? 'אפליקציות:' : 'Applications:'}</strong>
+                  </p>
                   <p className="text-gray-700 text-sm">
-                    {locale === 'he' ? '🔒 ' : '🔒 '}
                     <Link
-                      href={`/${locale}/zulist/privacy`}
+                      href={`/${locale}/zulist`}
                       className="text-blue-600 hover:underline"
                     >
-                      {locale === 'he' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
+                      ZuList
                     </Link>
                     {' | '}
                     <Link
-                      href={`/${locale}/zulist/terms`}
+                      href={`/${locale}/hush-gallery`}
                       className="text-blue-600 hover:underline"
                     >
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Use'}
+                      Hush Gallery
+                    </Link>
+                    {' | '}
+                    <Link
+                      href={`/${locale}/whistle-camera`}
+                      className="text-blue-600 hover:underline"
+                    >
+                      Whistle Camera
                     </Link>
                   </p>
                 </section>

@@ -115,7 +115,7 @@ export default function WhistleCameraPage() {
               </Link>
               <span className="text-gray-500">|</span>
               <Link
-                href={`/${locale}/whistle-camera/dsa-compliance`}
+                href={`/${locale}/dsa-compliance`}
                 className="text-green-400 hover:text-green-300 underline transition-colors"
               >
                 {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
@@ -360,7 +360,7 @@ export default function WhistleCameraPage() {
               </Link>
               <span className="text-gray-600">|</span>
               <Link
-                href={`/${locale}/whistle-camera/dsa-compliance`}
+                href={`/${locale}/dsa-compliance`}
                 className="text-gray-400 hover:text-green-400 transition-colors"
               >
                 {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}

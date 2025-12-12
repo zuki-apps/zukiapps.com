@@ -125,7 +125,7 @@ export default function ZuListPage() {
             </Link>
             <span className="text-gray-500">|</span>
             <Link
-              href={`/${locale}/zulist/dsa-compliance`}
+              href={`/${locale}/dsa-compliance`}
               className="text-blue-400 hover:text-blue-300 underline transition-colors"
             >
               {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
@@ -656,7 +656,7 @@ export default function ZuListPage() {
             </Link>
             <span className="text-gray-600">|</span>
             <Link
-              href={`/${locale}/zulist/dsa-compliance`}
+              href={`/${locale}/dsa-compliance`}
               className="text-gray-400 hover:text-blue-400 transition-colors"
             >
               {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}

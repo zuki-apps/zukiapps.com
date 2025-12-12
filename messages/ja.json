@@ -72,6 +72,43 @@
       "tagline": "イスラエルで開発 • 趣味として • 情熱を持って"
     }
   },
+  "dsa": {
+    "title": "Digital Services Act (DSA) Compliance",
+    "lastUpdated": "Last updated: January 2025",
+    "traderIdentification": {
+      "title": "Trader Identification",
+      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
+    },
+    "businessInfo": {
+      "title": "Business Information",
+      "company": "Company",
+      "companyValue": "Zuki Apps",
+      "address": "Address",
+      "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "contactEmail": "Contact Email",
+      "contactEmailValue": "zuki.apps.dev@gmail.com",
+      "supportEmail": "Support Email",
+      "supportEmailValue": "zuki.apps@gmail.com",
+      "website": "Website",
+      "websiteValue": "https://zukiapps.com"
+    },
+    "consumerRights": {
+      "title": "Consumer Rights",
+      "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
+      "items": [
+        "Right to clear information about the service and terms",
+        "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
+        "Right to complaint handling",
+        "Right to refunds (subject to applicable law and platform policies)"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "email": "zuki.apps.dev@gmail.com",
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+    }
+  },
   "zulist": {
     "back": "Back to Home",
     "hero": {
@@ -822,45 +859,6 @@
         "title": "さらにサポートが必要ですか？",
         "description": "探している回答が見つからない場合、または技術的な問題が発生している場合は、お気軽にお問い合わせください。お手伝いします。通常24-48時間以内に返信いたします。"
       }
-    },
-    "dsa": {
-      "title": "デジタルサービス法（DSA）コンプライアンス",
-      "lastUpdated": "最終更新：2025年1月",
-      "traderIdentification": {
-        "title": "トレーダー識別",
-        "content": "ZuListは、EUデジタルサービス法（DSA）の下でトレーダーとして運営する事業体であるZuki Appsによって提供されています。"
-      },
-      "businessInfo": {
-        "title": "事業情報",
-        "company": "会社",
-        "companyValue": "Zuki Apps",
-        "service": "サービス",
-        "serviceValue": "ZuList",
-        "address": "住所",
-        "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-        "contactEmail": "連絡先メール",
-        "contactEmailValue": "zuki.apps.dev@gmail.com",
-        "supportEmail": "サポートメール",
-        "supportEmailValue": "zuki.apps@gmail.com",
-        "website": "ウェブサイト",
-        "websiteValue": "https://zukiapps.com/zulist"
-      },
-      "consumerRights": {
-        "title": "消費者権利",
-        "content": "トレーダーとして、私たちは透明なビジネス慣行とEU消費者保護法の遵守に取り組んでいます。欧州連合のユーザーには、以下の特定の権利があります：",
-        "items": [
-          "サービスと条件について明確な情報を得る権利",
-          "契約からの撤回権（デジタルコンテンツの14日間のクーリングオフ期間、適用される法律に従う）",
-          "苦情処理を受ける権利",
-          "返金を受ける権利（適用される法律とプラットフォームポリシーに従う）"
-        ]
-      },
-      "contact": {
-        "title": "お問い合わせ",
-        "content": "お問い合わせ、苦情、または消費者権利を行使する場合は、お問い合わせください：",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
     }
   },
   "hushGallery": {
@@ -1053,43 +1051,6 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
-    },
-    "dsa": {
-      "title": "デジタルサービス法（DSA）コンプライアンス",
-      "lastUpdated": "最終更新：2025年1月",
-      "traderIdentification": {
-        "title": "トレーダー識別",
-        "content": "Hush Galleryは、EUデジタルサービス法（DSA）の下でトレーダーとして運営する事業体であるZuki Appsによって提供されています。"
-      },
-      "businessInfo": {
-        "title": "事業情報",
-        "company": "会社",
-        "companyValue": "Zuki Apps",
-        "service": "サービス",
-        "serviceValue": "Hush Gallery",
-        "address": "住所",
-        "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-        "contactEmail": "連絡先メール",
-        "contactEmailValue": "zuki.apps.dev@gmail.com",
-        "website": "ウェブサイト",
-        "websiteValue": "https://zukiapps.com/hush-gallery"
-      },
-      "consumerRights": {
-        "title": "消費者権利",
-        "content": "トレーダーとして、私たちは透明なビジネス慣行とEU消費者保護法の遵守に取り組んでいます。欧州連合のユーザーには、以下の特定の権利があります：",
-        "items": [
-          "サービスと条件について明確な情報を得る権利",
-          "契約からの撤回権（デジタルコンテンツの14日間のクーリングオフ期間、適用される法律に従う）",
-          "苦情処理を受ける権利",
-          "返金を受ける権利（適用される法律とプラットフォームポリシーに従う）"
-        ]
-      },
-      "contact": {
-        "title": "お問い合わせ",
-        "content": "お問い合わせ、苦情、または消費者権利を行使する場合は、お問い合わせください：",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
     }
   },
   "whistleCamera": {
@@ -1244,47 +1205,9 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
-    },
-    "dsa": {
-      "title": "デジタルサービス法（DSA）コンプライアンス",
-      "lastUpdated": "最終更新：2025年1月",
-      "traderIdentification": {
-        "title": "トレーダー識別",
-        "content": "Whistle Cameraは、EUデジタルサービス法（DSA）の下でトレーダーとして運営する事業体であるZuki Appsによって提供されています。"
-      },
-      "businessInfo": {
-        "title": "事業情報",
-        "company": "会社",
-        "companyValue": "Zuki Apps",
-        "service": "サービス",
-        "serviceValue": "Whistle Camera",
-        "address": "住所",
-        "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-        "contactEmail": "連絡先メール",
-        "contactEmailValue": "zuki.apps.dev@gmail.com",
-        "website": "ウェブサイト",
-        "websiteValue": "https://zukiapps.com/whistle-camera"
-      },
-      "consumerRights": {
-        "title": "消費者権利",
-        "content": "トレーダーとして、私たちは透明なビジネス慣行とEU消費者保護法の遵守に取り組んでいます。欧州連合のユーザーには、以下の特定の権利があります：",
-        "items": [
-          "サービスと条件について明確な情報を得る権利",
-          "契約からの撤回権（デジタルコンテンツの14日間のクーリングオフ期間、適用される法律に従う）",
-          "苦情処理を受ける権利",
-          "返金を受ける権利（適用される法律とプラットフォームポリシーに従う）"
-        ]
-      },
-      "contact": {
-        "title": "お問い合わせ",
-        "content": "お問い合わせ、苦情、または消費者権利を行使する場合は、お問い合わせください：",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
     }
   },
   "common": {
     "language": "Language"
   }
 }
-

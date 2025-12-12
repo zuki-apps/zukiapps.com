@@ -72,6 +72,43 @@
       "tagline": "Разработано в Израиле • Как хобби • С увлечением"
     }
   },
+  "dsa": {
+    "title": "Digital Services Act (DSA) Compliance",
+    "lastUpdated": "Last updated: January 2025",
+    "traderIdentification": {
+      "title": "Trader Identification",
+      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
+    },
+    "businessInfo": {
+      "title": "Business Information",
+      "company": "Company",
+      "companyValue": "Zuki Apps",
+      "address": "Address",
+      "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "contactEmail": "Contact Email",
+      "contactEmailValue": "zuki.apps.dev@gmail.com",
+      "supportEmail": "Support Email",
+      "supportEmailValue": "zuki.apps@gmail.com",
+      "website": "Website",
+      "websiteValue": "https://zukiapps.com"
+    },
+    "consumerRights": {
+      "title": "Consumer Rights",
+      "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
+      "items": [
+        "Right to clear information about the service and terms",
+        "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
+        "Right to complaint handling",
+        "Right to refunds (subject to applicable law and platform policies)"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "email": "zuki.apps.dev@gmail.com",
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+    }
+  },
   "zulist": {
     "back": "Вернуться на главную",
     "hero": {
@@ -822,49 +859,7 @@
         "title": "Нужна дополнительная помощь?",
         "description": "Если вы не нашли ответ, который ищете, или если у вас возникла техническая проблема, пожалуйста, не стесняйтесь связаться с нами. Мы здесь, чтобы помочь, и обычно отвечаем в течение 24-48 часов."
       }
-    },
-    "dsa": {
-      "title": "Соответствие Закону о цифровых услугах (DSA)",
-      "lastUpdated": "Последнее обновление: Январь 2025",
-      "traderIdentification": {
-        "title": "Идентификация торговца",
-        "content": "ZuList предоставляется Zuki Apps, коммерческой организацией, действующей как торговец в соответствии с Законом ЕС о цифровых услугах (DSA)."
-      },
-      "businessInfo": {
-        "title": "Бизнес-информация",
-        "company": "Компания",
-        "companyValue": "Zuki Apps",
-        "service": "Сервис",
-        "serviceValue": "ZuList",
-        "address": "Адрес",
-        "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-        "contactEmail": "Контактный Email",
-        "contactEmailValue": "zuki.apps.dev@gmail.com",
-        "supportEmail": "Email поддержки",
-        "supportEmailValue": "zuki.apps@gmail.com",
-        "website": "Веб-сайт",
-        "websiteValue": "https://zukiapps.com/zulist"
-      },
-      "consumerRights": {
-        "title": "Права потребителей",
-        "content": "Как торговец, мы обязуемся соблюдать прозрачную деловую практику и соответствие законам ЕС о защите прав потребителей. Пользователи в Европейском Союзе имеют определенные права, включая:",
-        "items": [
-          "Право на четкую информацию об услуге и условиях",
-          "Право на отказ от договоров (14-дневный период охлаждения для цифрового контента, в соответствии с применимым законодательством)",
-          "Право на обработку жалоб",
-          "Право на возврат средств (в соответствии с применимым законодательством и политикой платформы)"
-        ]
-      },
-      "contact": {
-        "title": "Свяжитесь с нами",
-        "content": "По вопросам, жалобам или для осуществления ваших прав как потребителя, пожалуйста, свяжитесь с нами:",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
     }
-  },
-  "common": {
-    "language": "Язык"
   },
   "hushGallery": {
     "back": "Back to Home",
@@ -1056,43 +1051,6 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
-    },
-    "dsa": {
-      "title": "Digital Services Act (DSA) Compliance",
-      "lastUpdated": "Last updated: January 2025",
-      "traderIdentification": {
-        "title": "Trader Identification",
-        "content": "Hush Gallery is provided by Zuki Apps, a business entity operating as a trader under the EU Digital Services Act (DSA)."
-      },
-      "businessInfo": {
-        "title": "Business Information",
-        "company": "Company",
-        "companyValue": "Zuki Apps",
-        "service": "Service",
-        "serviceValue": "Hush Gallery",
-        "address": "Address",
-        "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-        "contactEmail": "Contact Email",
-        "contactEmailValue": "zuki.apps.dev@gmail.com",
-        "website": "Website",
-        "websiteValue": "https://zukiapps.com/hush-gallery"
-      },
-      "consumerRights": {
-        "title": "Consumer Rights",
-        "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
-        "items": [
-          "Right to clear information about the service and terms",
-          "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
-          "Right to complaint handling",
-          "Right to refunds (subject to applicable law and platform policies)"
-        ]
-      },
-      "contact": {
-        "title": "Contact Us",
-        "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
     }
   },
   "whistleCamera": {
@@ -1247,43 +1205,9 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
-    },
-    "dsa": {
-      "title": "Digital Services Act (DSA) Compliance",
-      "lastUpdated": "Last updated: January 2025",
-      "traderIdentification": {
-        "title": "Trader Identification",
-        "content": "Whistle Camera is provided by Zuki Apps, a business entity operating as a trader under the EU Digital Services Act (DSA)."
-      },
-      "businessInfo": {
-        "title": "Business Information",
-        "company": "Company",
-        "companyValue": "Zuki Apps",
-        "service": "Service",
-        "serviceValue": "Whistle Camera",
-        "address": "Address",
-        "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-        "contactEmail": "Contact Email",
-        "contactEmailValue": "zuki.apps.dev@gmail.com",
-        "website": "Website",
-        "websiteValue": "https://zukiapps.com/whistle-camera"
-      },
-      "consumerRights": {
-        "title": "Consumer Rights",
-        "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
-        "items": [
-          "Right to clear information about the service and terms",
-          "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
-          "Right to complaint handling",
-          "Right to refunds (subject to applicable law and platform policies)"
-        ]
-      },
-      "contact": {
-        "title": "Contact Us",
-        "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
     }
+  },
+  "common": {
+    "language": "Язык"
   }
 }
