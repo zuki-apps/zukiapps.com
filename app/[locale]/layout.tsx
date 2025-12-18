@@ -48,14 +48,14 @@ export async function generateMetadata({
     },
     alternates: {
       canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? '/' 
-        : `/${locale}`,
+        ? baseUrl 
+        : `${baseUrl}/${locale}`,
       languages: Object.fromEntries(
         routing.locales.map((loc) => [
           loc,
           loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? '/' 
-            : `/${loc}`
+            ? baseUrl 
+            : `${baseUrl}/${loc}`
         ])
       ),
     },
