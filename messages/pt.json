@@ -1051,6 +1051,55 @@
         "email": "zuki.apps@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
+    },
+    "deleteAccount": {
+      "title": "Excluir conta do Hush Gallery",
+      "intro": "Se você deseja excluir sua conta e todos os dados associados, siga as etapas abaixo. Este processo é permanente e não pode ser desfeito.",
+      "warning": {
+        "title": "⚠️ Aviso importante",
+        "content": "A exclusão da conta é uma ação permanente e não pode ser desfeita. Todos os dados associados à sua conta serão excluídos permanentemente, incluindo fotos, vídeos, pastas e configurações."
+      },
+      "steps": {
+        "title": "Instruções para exclusão da conta",
+        "step1": "Abra o aplicativo Hush Gallery no seu dispositivo",
+        "step2": "Faça login na sua conta (se ainda não tiver feito)",
+        "step3": "Navegue até Configurações (geralmente acessível pelo menu principal ou perfil)",
+        "step4": "Role para baixo até encontrar a opção \"Excluir conta\" ou \"Configurações da conta\"",
+        "step5": "Toque no botão \"Excluir conta\" e leia cuidadosamente a mensagem de aviso",
+        "step6": "Confirme a exclusão - a conta e todos os dados serão excluídos permanentemente"
+      },
+      "data": {
+        "title": "Dados que serão excluídos",
+        "intro": "Quando você excluir sua conta, os seguintes dados serão excluídos permanentemente:",
+        "item1": "Informações da conta: nome, endereço de e-mail, ID do usuário (se usar backup na nuvem)",
+        "item2": "Fotos e vídeos: todos os mídia armazenados no aplicativo",
+        "item3": "Pastas e coleções: todas as pastas e álbuns organizados",
+        "item4": "Configurações e preferências: configurações do aplicativo, PIN/senha, configurações biométricas",
+        "item5": "Dados de backup na nuvem: todos os dados de backup criptografados (se o backup na nuvem estava habilitado)",
+        "item6": "Metadados: todos os metadados associados aos seus mídia",
+        "item7": "Armazenamento local: todos os dados armazenados no diretório privado do aplicativo"
+      },
+      "partialDelete": {
+        "title": "Excluir alguns dados (sem excluir a conta)",
+        "intro": "Se você deseja excluir apenas alguns dados sem excluir a conta, você pode:",
+        "item1": "Excluir fotos/vídeos individuais: Abrir o mídia → Opção excluir",
+        "item2": "Excluir pastas: Abrir pasta → Opção excluir pasta",
+        "item3": "Limpar dados do aplicativo: Configurações → Limpar todos os dados (mantém a conta)",
+        "item4": "Desabilitar backup na nuvem: Configurações → Desabilitar backup na nuvem (remove dados na nuvem, mas mantém dados locais)"
+      },
+      "retention": {
+        "title": "Período de retenção",
+        "content": "Após a exclusão da conta, os dados serão excluídos de nossos servidores em até 30 dias. Durante este período, os dados podem ser retidos em backups, mas não estarão acessíveis através do aplicativo. Os dados locais no seu dispositivo serão excluídos imediatamente quando você excluir a conta através do aplicativo."
+      },
+      "contact": {
+        "title": "Entre em contato",
+        "content": "Se você tiver dúvidas ou problemas com a exclusão da conta, entre em contato conosco:",
+        "email": "E-mail",
+        "privacy": "Política de privacidade",
+        "privacyLink": "Ler a política de privacidade completa",
+        "terms": "Termos de serviço",
+        "termsLink": "Ler os termos de serviço"
+      }
     }
   },
   "whistleCamera": {

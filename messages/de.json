@@ -1051,6 +1051,55 @@
         "email": "zuki.apps@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
+    },
+    "deleteAccount": {
+      "title": "Hush Gallery Konto löschen",
+      "intro": "Wenn Sie Ihr Konto und alle zugehörigen Daten löschen möchten, befolgen Sie bitte die folgenden Schritte. Dieser Vorgang ist dauerhaft und kann nicht rückgängig gemacht werden.",
+      "warning": {
+        "title": "⚠️ Wichtige Warnung",
+        "content": "Die Kontolöschung ist eine dauerhafte Aktion und kann nicht rückgängig gemacht werden. Alle mit Ihrem Konto verbundenen Daten werden dauerhaft gelöscht, einschließlich Fotos, Videos, Ordner und Einstellungen."
+      },
+      "steps": {
+        "title": "Anleitung zur Kontolöschung",
+        "step1": "Öffnen Sie die Hush Gallery App auf Ihrem Gerät",
+        "step2": "Melden Sie sich bei Ihrem Konto an (falls noch nicht geschehen)",
+        "step3": "Navigieren Sie zu den Einstellungen (normalerweise über das Hauptmenü oder Profil erreichbar)",
+        "step4": "Scrollen Sie nach unten, bis Sie die Option \"Konto löschen\" oder \"Kontoeinstellungen\" finden",
+        "step5": "Tippen Sie auf die Schaltfläche \"Konto löschen\" und lesen Sie die Warnmeldung sorgfältig",
+        "step6": "Bestätigen Sie die Löschung - das Konto und alle Daten werden dauerhaft gelöscht"
+      },
+      "data": {
+        "title": "Daten, die gelöscht werden",
+        "intro": "Wenn Sie Ihr Konto löschen, werden die folgenden Daten dauerhaft gelöscht:",
+        "item1": "Kontoinformationen: Name, E-Mail-Adresse, Benutzer-ID (bei Verwendung von Cloud-Backup)",
+        "item2": "Fotos und Videos: alle in der App gespeicherten Medien",
+        "item3": "Ordner und Sammlungen: alle organisierten Ordner und Alben",
+        "item4": "Einstellungen und Präferenzen: App-Einstellungen, PIN/Passwort, biometrische Einstellungen",
+        "item5": "Cloud-Backup-Daten: alle verschlüsselten Backup-Daten (wenn Cloud-Backup aktiviert war)",
+        "item6": "Metadaten: alle mit Ihren Medien verbundenen Metadaten",
+        "item7": "Lokaler Speicher: alle im privaten Verzeichnis der App gespeicherten Daten"
+      },
+      "partialDelete": {
+        "title": "Löschen einiger Daten (ohne Löschen des Kontos)",
+        "intro": "Wenn Sie nur einige Daten löschen möchten, ohne das Konto zu löschen, können Sie:",
+        "item1": "Einzelne Fotos/Videos löschen: Medien öffnen → Löschen-Option",
+        "item2": "Ordner löschen: Ordner öffnen → Ordner löschen-Option",
+        "item3": "App-Daten löschen: Einstellungen → Alle Daten löschen (behält Konto)",
+        "item4": "Cloud-Backup deaktivieren: Einstellungen → Cloud-Backup deaktivieren (entfernt Cloud-Daten, behält aber lokale Daten)"
+      },
+      "retention": {
+        "title": "Aufbewahrungsfrist",
+        "content": "Nach der Kontolöschung werden die Daten innerhalb von 30 Tagen von unseren Servern gelöscht. Während dieser Zeit können Daten in Backups gespeichert bleiben, sind aber nicht über die App zugänglich. Lokale Daten auf Ihrem Gerät werden sofort gelöscht, wenn Sie das Konto über die App löschen."
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "content": "Wenn Sie Fragen oder Probleme bei der Kontolöschung haben, kontaktieren Sie uns bitte:",
+        "email": "E-Mail",
+        "privacy": "Datenschutzrichtlinie",
+        "privacyLink": "Vollständige Datenschutzrichtlinie lesen",
+        "terms": "Nutzungsbedingungen",
+        "termsLink": "Nutzungsbedingungen lesen"
+      }
     }
   },
   "whistleCamera": {

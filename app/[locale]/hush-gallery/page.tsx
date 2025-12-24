@@ -120,6 +120,13 @@ export default function HushGalleryPage() {
               >
                 {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
               </Link>
+              <span className="text-gray-500">|</span>
+              <Link
+                href={`/${locale}/hush-gallery/delete-account`}
+                className="text-purple-400 hover:text-purple-300 underline transition-colors"
+              >
+                {locale === 'he' ? 'מחיקת חשבון' : 'Delete Account'}
+              </Link>
             </div>
           </div>
         </section>
@@ -424,6 +431,13 @@ export default function HushGalleryPage() {
                 className="text-gray-400 hover:text-purple-400 transition-colors"
               >
                 {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
+              </Link>
+              <span className="text-gray-600">|</span>
+              <Link
+                href={`/${locale}/hush-gallery/delete-account`}
+                className="text-gray-400 hover:text-purple-400 transition-colors"
+              >
+                {locale === 'he' ? 'מחיקת חשבון' : 'Delete Account'}
               </Link>
             </div>
           </div>

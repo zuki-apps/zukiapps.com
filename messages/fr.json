@@ -1051,6 +1051,55 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
+    },
+    "deleteAccount": {
+      "title": "Supprimer le compte Hush Gallery",
+      "intro": "Si vous souhaitez supprimer votre compte et toutes les données associées, veuillez suivre les étapes ci-dessous. Ce processus est permanent et ne peut pas être annulé.",
+      "warning": {
+        "title": "⚠️ Avertissement important",
+        "content": "La suppression du compte est une action permanente et ne peut pas être annulée. Toutes les données associées à votre compte seront définitivement supprimées, y compris les photos, vidéos, dossiers et paramètres."
+      },
+      "steps": {
+        "title": "Instructions de suppression de compte",
+        "step1": "Ouvrez l'application Hush Gallery sur votre appareil",
+        "step2": "Connectez-vous à votre compte (si vous ne l'avez pas déjà fait)",
+        "step3": "Accédez aux Paramètres (généralement accessible depuis le menu principal ou le profil)",
+        "step4": "Faites défiler jusqu'à trouver l'option \"Supprimer le compte\" ou \"Paramètres du compte\"",
+        "step5": "Appuyez sur le bouton \"Supprimer le compte\" et lisez attentivement le message d'avertissement",
+        "step6": "Confirmez la suppression - le compte et toutes les données seront définitivement supprimés"
+      },
+      "data": {
+        "title": "Données qui seront supprimées",
+        "intro": "Lorsque vous supprimez votre compte, les données suivantes seront définitivement supprimées:",
+        "item1": "Informations du compte: nom, adresse e-mail, ID utilisateur (si vous utilisez la sauvegarde cloud)",
+        "item2": "Photos et vidéos: tous les médias stockés dans l'application",
+        "item3": "Dossiers et collections: tous les dossiers et albums organisés",
+        "item4": "Paramètres et préférences: paramètres de l'application, PIN/mot de passe, paramètres biométriques",
+        "item5": "Données de sauvegarde cloud: toutes les données de sauvegarde chiffrées (si la sauvegarde cloud était activée)",
+        "item6": "Métadonnées: toutes les métadonnées associées à vos médias",
+        "item7": "Stockage local: toutes les données stockées dans le répertoire privé de l'application"
+      },
+      "partialDelete": {
+        "title": "Supprimer certaines données (sans supprimer le compte)",
+        "intro": "Si vous souhaitez supprimer uniquement certaines données sans supprimer le compte, vous pouvez:",
+        "item1": "Supprimer des photos/vidéos individuelles: Ouvrir le média → Option supprimer",
+        "item2": "Supprimer des dossiers: Ouvrir le dossier → Option supprimer le dossier",
+        "item3": "Effacer les données de l'application: Paramètres → Effacer toutes les données (conserve le compte)",
+        "item4": "Désactiver la sauvegarde cloud: Paramètres → Désactiver la sauvegarde cloud (supprime les données cloud mais conserve les données locales)"
+      },
+      "retention": {
+        "title": "Période de conservation",
+        "content": "Après la suppression du compte, les données seront supprimées de nos serveurs dans les 30 jours. Pendant cette période, les données peuvent être conservées dans les sauvegardes, mais ne seront pas accessibles via l'application. Les données locales sur votre appareil seront supprimées immédiatement lorsque vous supprimez le compte via l'application."
+      },
+      "contact": {
+        "title": "Contactez-nous",
+        "content": "Si vous avez des questions ou des problèmes concernant la suppression du compte, veuillez nous contacter:",
+        "email": "E-mail",
+        "privacy": "Politique de confidentialité",
+        "privacyLink": "Lire la politique de confidentialité complète",
+        "terms": "Conditions d'utilisation",
+        "termsLink": "Lire les conditions d'utilisation"
+      }
     }
   },
   "whistleCamera": {
