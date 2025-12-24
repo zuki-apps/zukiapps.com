@@ -32,7 +32,7 @@
     "hushGallery": {
       "title": "Hush Gallery",
       "subtitle": "Private photo gallery - Coming soon",
-      "description": "Hush Gallery is a secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories.",
+      "description": "A secure and private photo gallery application with local-first storage, optional encrypted cloud backup (iCloud/Google Drive), custom tags, app lock, and premium features. Keep your personal photos safe and organized.",
       "features": {
         "privacy": "Privacy First",
         "secure": "Secure Storage",
@@ -898,6 +898,7 @@
         "description": "Manage your photos and videos efficiently",
         "items": [
           "Custom folder management",
+          "Custom tags for organizing media",
           "Media organization tools",
           "Search and filter capabilities",
           "Metadata preservation"
@@ -918,9 +919,10 @@
         "description": "Optional encrypted cloud backup for your media",
         "items": [
           "Client-side encryption",
-          "Firebase or iCloud/Google Drive support",
+          "iCloud backup (iOS) or Google Drive backup (Android)",
           "Selective backup",
-          "Automatic sync"
+          "Automatic sync",
+          "End-to-end encryption"
         ]
       },
       "import": {
@@ -943,22 +945,24 @@
           "Basic gallery functionality",
           "Local storage",
           "App lock (PIN)",
-          "Basic folder management"
+          "Basic folder management",
+          "Limited tags",
+          "Banner ads"
         ]
       },
       "premium": {
         "title": "Premium Features",
         "items": [
-          "Encrypted cloud backup",
-          "Biometric authentication",
-          "Advanced folder management",
-          "Metadata tools",
-          "Priority support"
+          "Remove all ads",
+          "Unlimited cloud backup",
+          "Unlimited tags",
+          "Advanced security features",
+          "All future premium features"
         ]
       },
       "pricing": {
-        "oneTime": "One-time purchase",
-        "description": "Unlock all premium features forever"
+        "oneTime": "One-time purchase: $3.00",
+        "description": "Unlock all premium features forever with a single payment"
       }
     },
     "status": {
@@ -966,7 +970,7 @@
       "description": "The app is currently in development",
       "version": "Version",
       "status": "Status",
-      "versionValue": "0.1.0+4",
+      "versionValue": "0.3.3+1",
       "statusValue": "Coming Soon"
     },
     "download": {
