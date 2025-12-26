@@ -103,8 +103,8 @@
       ]
     },
     "contact": {
-      "title": "Contact Us",
-      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "title": "Связаться с нами",
+      "content": "По вопросам, жалобам или для осуществления ваших прав потребителя, пожалуйста, свяжитесь с нами:",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
@@ -115,7 +115,8 @@
       "badge": "Доступно Сейчас - Версия 1.0.1",
       "title": "ZuList",
       "subtitle": "Умные списки покупок для семей",
-      "description": "Идеальное приложение для семей и друзей, которые делают покупки вместе. Создавайте, делитесь и управляйте списками покупок в реальном времени с бесшовным сотрудничеством."
+      "description": "Идеальное приложение для семей и друзей, которые делают покупки вместе. Создавайте, делитесь и управляйте списками покупок в реальном времени с бесшовным сотрудничеством.",
+      "structuredDataDescription": "ZuList - это идеальное приложение для списков покупок, разработанное для семей и друзей, которые делают покупки вместе. Создавайте, делитесь и управляйте списками покупок в реальном времени с бесшовным сотрудничеством. Функции включают синхронизацию в реальном времени, поддержку офлайн, умные предложения продуктов, управление категориями, историю покупок и премиум-подписки."
     },
     "features": {
       "title": "Основные функции",
@@ -292,7 +293,10 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "Скоро",
-      "download": "Скачать"
+      "download": "Скачать",
+      "appIconAlt": "Иконка приложения ZuList",
+      "appStoreAlt": "Скачать в App Store",
+      "googlePlayAlt": "Скачать в Google Play"
     },
     "perfectFor": {
       "title": "Идеально для",
@@ -337,7 +341,7 @@
       "bundle": "ID пакета: com.zukiapps.zulist | Версия: 1.0.2+1"
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "Политика конфиденциальности",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -389,7 +393,8 @@
       "section8": {
         "title": "8. Contact Us",
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
-        "email": "zuki.apps@gmail.com"
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "terms": {
@@ -620,8 +625,9 @@
       "section19": {
         "title": "19. Contact Information",
         "content": "If you have any questions about these Terms, please contact us:",
-        "email": "zuki.apps@gmail.com",
-        "website": "https://zukiapps.com/zulist"
+        "email": "zuki.apps.dev@gmail.com",
+        "website": "https://zukiapps.com/zulist",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "deleteAccount": {
@@ -676,8 +682,8 @@
         "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with account deletion, please contact us:",
+        "title": "Связаться с нами",
+        "content": "Если у вас есть вопросы или проблемы с удалением аккаунта, пожалуйста, свяжитесь с нами:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy",
@@ -794,8 +800,8 @@
         "link": "click here for full account deletion"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with data deletion, please contact us:",
+        "title": "Связаться с нами",
+        "content": "Если у вас есть вопросы или проблемы с удалением данных, пожалуйста, свяжитесь с нами:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy"
@@ -862,15 +868,15 @@
     }
   },
   "hushGallery": {
-    "back": "Back to Home",
+    "back": "Вернуться на главную",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "Скоро",
       "title": "Hush Gallery",
       "subtitle": "Private Photo Gallery",
       "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Ключевые функции",
       "privacy": {
         "title": "Privacy First",
         "description": "Your photos are stored securely with advanced encryption",
@@ -960,30 +966,30 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
-      "version": "Version",
-      "status": "Status",
+      "title": "🚧 В разработке",
+      "description": "Приложение находится в стадии разработки",
+      "version": "Версия",
+      "status": "Статус",
       "versionValue": "0.1.0+4",
-      "statusValue": "Coming Soon"
+      "statusValue": "Скоро"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "Скоро",
       "description": "Hush Gallery will be available soon on app stores",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Важные ссылки",
       "support": {
-        "title": "Technical Support",
+        "title": "Техническая поддержка",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "Общий контакт",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "Социальные сети"
       }
     },
     "footer": {
@@ -1019,7 +1025,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "Политика конфиденциальности",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1054,9 +1060,9 @@
     }
   },
   "whistleCamera": {
-    "back": "Back to Home",
+    "back": "Вернуться на главную",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "Скоро",
       "title": "Whistle Camera",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1120,25 +1126,25 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "statusValue": "Скоро"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "Скоро",
       "description": "Whistle Camera will be available soon on the App Store",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Важные ссылки",
       "support": {
-        "title": "Technical Support",
+        "title": "Техническая поддержка",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "Общий контакт",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "Социальные сети"
       }
     },
     "footer": {
@@ -1173,7 +1179,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "Политика конфиденциальности",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1208,6 +1214,16 @@
     }
   },
   "common": {
-    "language": "Язык"
+    "language": "Язык",
+    "back": "Назад",
+    "home": "Главная",
+    "email": "Электронная почта",
+    "address": "Адрес",
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsOfService": "Условия использования",
+    "support": "Поддержка",
+    "contact": "Контакты",
+    "contactUs": "Связаться с нами",
+    "dsaCompliance": "Соответствие DSA"
   }
 }

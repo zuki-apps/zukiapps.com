@@ -51,15 +51,16 @@ export default async function WhistleCameraPrivacyPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'whistleCamera.privacy' });
+  const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <>
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' },
+          { name: tCommon('home'), path: '/' },
           { name: 'Whistle Camera', path: '/whistle-camera' },
-          { name: 'Privacy Policy', path: '/whistle-camera/privacy' }
+          { name: tCommon('privacyPolicy'), path: '/whistle-camera/privacy' }
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
@@ -76,7 +77,7 @@ export default async function WhistleCameraPrivacyPage({
                   href={`/${locale}/whistle-camera`}
                   className="px-4 py-2 border-2 border-green-600 bg-white text-green-600 rounded-lg hover:bg-green-600 hover:text-white transition-colors text-sm"
                 >
-                  {locale === 'he' ? 'חזרה' : 'Back'}
+                  {tCommon('back')}
                 </Link>
               </div>
             </div>
@@ -152,7 +153,7 @@ export default async function WhistleCameraPrivacyPage({
                     {t('section8.content')}
                   </p>
                   <p className="text-gray-700 mb-2">
-                    <strong>{locale === 'he' ? 'אימייל:' : 'Email:'}</strong>{' '}
+                    <strong>{tCommon('email')}:</strong>{' '}
                     <a
                       href={`mailto:${t('section8.email')}`}
                       className="text-green-600 hover:underline"
@@ -161,7 +162,7 @@ export default async function WhistleCameraPrivacyPage({
                     </a>
                   </p>
                   <p className="text-gray-700 mb-4">
-                    <strong>{locale === 'he' ? 'כתובת:' : 'Address:'}</strong>{' '}
+                    <strong>{tCommon('address')}:</strong>{' '}
                     {t('section8.address')}
                   </p>
                   <p className="text-gray-700 text-sm">

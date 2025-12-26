@@ -66,9 +66,9 @@ export default async function HushGalleryTermsPage({
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' },
+          { name: tCommon('home'), path: '/' },
           { name: 'Hush Gallery', path: '/hush-gallery' },
-          { name: 'Terms of Service', path: '/hush-gallery/terms' }
+          { name: tCommon('termsOfService'), path: '/hush-gallery/terms' }
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-purple-50 to-pink-50">
@@ -85,7 +85,7 @@ export default async function HushGalleryTermsPage({
                   href={`/${locale}/hush-gallery`}
                   className="px-4 py-2 border-2 border-purple-600 bg-white text-purple-600 rounded-lg hover:bg-purple-600 hover:text-white transition-colors text-sm"
                 >
-                  {locale === 'he' ? 'חזרה' : 'Back'}
+                  {tCommon('back')}
                 </Link>
               </div>
             </div>
@@ -139,7 +139,7 @@ export default async function HushGalleryTermsPage({
                     {t('section19.content')}
                   </p>
                   <p className="text-gray-700 mb-2">
-                    <strong>{locale === 'he' ? 'אימייל:' : 'Email:'}</strong>{' '}
+                    <strong>{tCommon('email')}:</strong>{' '}
                     <a
                       href={`mailto:${t('section19.email')}`}
                       className="text-purple-600 hover:underline"
@@ -148,7 +148,7 @@ export default async function HushGalleryTermsPage({
                     </a>
                   </p>
                   <p className="text-gray-700 mb-2">
-                    <strong>{locale === 'he' ? 'כתובת:' : 'Address:'}</strong>{' '}
+                    <strong>{tCommon('address')}:</strong>{' '}
                     {t('section19.address')}
                   </p>
                   <p className="text-gray-700 text-sm">

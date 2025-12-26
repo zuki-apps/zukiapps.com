@@ -51,15 +51,16 @@ export default async function HushGalleryPrivacyPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'hushGallery.privacy' });
+  const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <>
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' },
+          { name: tCommon('home'), path: '/' },
           { name: 'Hush Gallery', path: '/hush-gallery' },
-          { name: 'Privacy Policy', path: '/hush-gallery/privacy' }
+          { name: tCommon('privacyPolicy'), path: '/hush-gallery/privacy' }
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-purple-50 to-pink-50">
@@ -76,7 +77,7 @@ export default async function HushGalleryPrivacyPage({
                   href={`/${locale}/hush-gallery`}
                   className="px-4 py-2 border-2 border-purple-600 bg-white text-purple-600 rounded-lg hover:bg-purple-600 hover:text-white transition-colors text-sm"
                 >
-                  {locale === 'he' ? 'חזרה' : 'Back'}
+                  {tCommon('back')}
                 </Link>
               </div>
             </div>
@@ -152,7 +153,7 @@ export default async function HushGalleryPrivacyPage({
                     {t('section8.content')}
                   </p>
                   <p className="text-gray-700 mb-2">
-                    <strong>{locale === 'he' ? 'אימייל:' : 'Email:'}</strong>{' '}
+                    <strong>{tCommon('email')}:</strong>{' '}
                     <a
                       href={`mailto:${t('section8.email')}`}
                       className="text-purple-600 hover:underline"
@@ -161,7 +162,7 @@ export default async function HushGalleryPrivacyPage({
                     </a>
                   </p>
                   <p className="text-gray-700 mb-4">
-                    <strong>{locale === 'he' ? 'כתובת:' : 'Address:'}</strong>{' '}
+                    <strong>{tCommon('address')}:</strong>{' '}
                     {t('section8.address')}
                   </p>
                   <p className="text-gray-700 text-sm">

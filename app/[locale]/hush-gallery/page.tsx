@@ -10,6 +10,7 @@ import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationS
 
 export default function HushGalleryPage() {
   const t = useTranslations('hushGallery');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   return (
@@ -17,7 +18,7 @@ export default function HushGalleryPage() {
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' },
+          { name: tCommon('home'), path: '/' },
           { name: 'Hush Gallery', path: '/hush-gallery' }
         ]}
       />
@@ -104,14 +105,14 @@ export default function HushGalleryPage() {
                 href={`/${locale}/hush-gallery/privacy`}
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
-                {locale === 'he' ? 'מדיניות פרטיות' : 'Privacy Policy'}
+                {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-500">|</span>
               <Link
                 href={`/${locale}/hush-gallery/terms`}
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
-                {locale === 'he' ? 'תנאי שימוש' : 'Terms of Service'}
+                {tCommon('termsOfService')}
               </Link>
               <span className="text-gray-500">|</span>
               <Link
@@ -409,14 +410,14 @@ export default function HushGalleryPage() {
                 href={`/${locale}/hush-gallery/privacy`}
                 className="text-gray-400 hover:text-purple-400 transition-colors"
               >
-                {locale === 'he' ? 'מדיניות פרטיות' : 'Privacy Policy'}
+                {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-600">|</span>
               <Link
                 href={`/${locale}/hush-gallery/terms`}
                 className="text-gray-400 hover:text-purple-400 transition-colors"
               >
-                {locale === 'he' ? 'תנאי שימוש' : 'Terms of Service'}
+                {tCommon('termsOfService')}
               </Link>
               <span className="text-gray-600">|</span>
               <Link

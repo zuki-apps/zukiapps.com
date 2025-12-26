@@ -8,6 +8,7 @@ import { AlertTriangle } from 'lucide-react';
 
 export default function DeleteAccountPage() {
   const t = useTranslations('zulist.deleteAccount');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   return (
@@ -15,9 +16,9 @@ export default function DeleteAccountPage() {
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' },
+          { name: tCommon('home'), path: '/' },
           { name: 'ZuList', path: '/zulist' },
-          { name: 'Delete Account', path: '/zulist/delete-account' }
+          { name: t('title'), path: '/zulist/delete-account' }
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
@@ -34,7 +35,7 @@ export default function DeleteAccountPage() {
               href={`/${locale}/zulist`}
               className="px-4 py-2 border-2 border-blue-600 bg-white text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition-colors text-sm"
             >
-              {locale === 'he' ? 'חזרה' : 'Back'}
+              {tCommon('back')}
             </Link>
           </div>
 

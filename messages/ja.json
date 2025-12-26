@@ -103,19 +103,20 @@
       ]
     },
     "contact": {
-      "title": "Contact Us",
-      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "title": "お問い合わせ",
+      "content": "お問い合わせ、苦情、または消費者の権利を行使する場合は、以下までご連絡ください：",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
   },
   "zulist": {
-    "back": "Back to Home",
+    "back": "ホームに戻る",
     "hero": {
       "badge": "利用可能 - バージョン 1.0.1",
       "title": "ZuList",
       "subtitle": "家族向けスマート買い物リスト",
-      "description": "一緒に買い物をする家族や友人に最適なアプリ。リアルタイムでシームレスなコラボレーションにより、買い物リストを作成、共有、管理できます。"
+      "description": "一緒に買い物をする家族や友人に最適なアプリ。リアルタイムでシームレスなコラボレーションにより、買い物リストを作成、共有、管理できます。",
+      "structuredDataDescription": "ZuListは、一緒に買い物をする家族や友人向けに設計された究極の買い物リストアプリです。リアルタイムでシームレスなコラボレーションにより、買い物リストを作成、共有、管理できます。機能には、リアルタイム同期、オフラインサポート、スマートな商品提案、カテゴリ管理、購入履歴、プレミアムサブスクリプションが含まれます。"
     },
     "features": {
       "title": "主な機能",
@@ -123,51 +124,51 @@
         "title": "リアルタイムコラボレーション",
         "description": "家族や友人とリストを共有し、すべてのデバイスで変更を即座に確認",
         "items": [
-          "Member and permission management",
-          "Invitations via email, SMS, WhatsApp",
-          "Shareable links",
-          "Real-time Push notifications"
+          "メンバーと権限管理",
+          "メール、SMS、WhatsApp経由の招待",
+          "共有可能なリンク",
+          "リアルタイムプッシュ通知"
         ]
       },
       "offline": {
-        "title": "Offline Support",
-        "description": "Works seamlessly even without internet connection",
+        "title": "オフラインサポート",
+        "description": "インターネット接続がなくてもシームレスに動作",
         "items": [
-          "Automatic sync when back online",
-          "Never lose your data",
-          "Cloud backup (Premium)"
+          "オンライン復帰時の自動同期",
+          "データを失うことはありません",
+          "クラウドバックアップ（プレミアム）"
         ]
       },
       "smart": {
-        "title": "Smart Recommendations",
-        "description": "AI-based recommendations with product catalog",
+        "title": "スマート推奨",
+        "description": "製品カタログを使用したAIベースの推奨",
         "items": [
-          "Intelligent autocomplete",
-          "Personalized suggestions",
-          "Learn from your shopping habits"
+          "インテリジェントな自動補完",
+          "パーソナライズされた提案",
+          "買い物習慣から学習"
         ]
       },
       "templates": {
-        "title": "Smart Templates",
-        "description": "Pre-made shopping list templates",
+        "title": "スマートテンプレート",
+        "description": "あらかじめ用意された買い物リストテンプレート",
         "items": [
-          "Quick start for common shopping trips",
-          "Customize templates to your needs",
-          "34+ ready-made templates"
+          "よくある買い物のためのクイックスタート",
+          "ニーズに合わせてテンプレートをカスタマイズ",
+          "34種類以上のすぐに使えるテンプレート"
         ]
       },
       "notifications": {
-        "title": "Smart Notifications",
-        "description": "Get notified when items are added or when friends update",
+        "title": "スマート通知",
+        "description": "品目が追加されたときや家族・友人が更新したときに通知を受け取る",
         "items": [
-          "Silent mode for quiet shopping",
-          "Badge counts for unread updates",
-          "Real-time Push notifications"
+          "静かな買い物のためのサイレントモード",
+          "未読の更新を示すバッジ",
+          "リアルタイムプッシュ通知"
         ]
       },
       "multilang": {
-        "title": "12 Language Support",
-        "description": "Full support for 12 languages with translated interface",
+      "title": "12言語対応",
+      "description": "翻訳されたインターフェースによる12言語のフルサポート",
         "items": [
           "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
           "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
@@ -176,35 +177,35 @@
         ]
       },
       "categories": {
-        "title": "Category Management",
-        "description": "Organize your shopping by categories for better efficiency",
+        "title": "カテゴリ管理",
+        "description": "カテゴリ別に買い物を整理して、より効率的に管理",
         "items": [
-          "Custom categories",
-          "Custom icons",
-          "Automatic organization"
+          "カスタムカテゴリ",
+          "カスタムアイコン",
+          "自動整理"
         ]
       },
       "photos": {
-        "title": "Custom Photos",
-        "description": "Add custom photos to items",
+        "title": "カスタム写真",
+        "description": "アイテムにカスタム写真を追加",
         "items": [
-          "Direct camera capture",
-          "Gallery selection",
-          "Automatic optimization"
+          "カメラから直接撮影",
+          "ギャラリーから選択",
+          "自動最適化"
         ]
       },
       "history": {
-        "title": "Purchase History",
-        "description": "Track your shopping history",
+        "title": "購入履歴",
+        "description": "買い物履歴を追跡",
         "items": [
-          "Advanced statistics (Premium)",
-          "Track shopping habits",
-          "Detailed reports"
+          "高度な統計（プレミアム）",
+          "買い物習慣を可視化",
+          "詳細なレポート"
         ]
       },
       "firebase": {
-        "title": "Firebase Integration",
-        "description": "Secure cloud sync with Firebase",
+        "title": "Firebase連携",
+        "description": "Firebaseによる安全なクラウド同期",
         "items": [
           "認証、リアルタイムデータベース、Firestore",
           "ストレージ、関数、FCM",
@@ -212,23 +213,23 @@
         ]
       },
       "security": {
-        "title": "Privacy & Security",
-        "description": "Secure authentication and data protection",
+        "title": "プライバシーとセキュリティ",
+        "description": "安全な認証とデータ保護",
         "items": [
-          "Secure authentication (Google, Apple)",
-          "Encrypted data",
-          "Full control over sharing",
-          "Complete account deletion"
+          "安全な認証（Google・Apple）",
+          "暗号化されたデータ",
+          "共有に対する完全なコントロール",
+          "アカウントの完全削除"
         ]
       },
       "ui": {
-        "title": "Beautiful & Intuitive",
-        "description": "Modern and clean interface with excellent user experience",
+        "title": "美しく直感的",
+        "description": "使いやすさに優れたモダンでクリーンなインターフェース",
         "items": [
-          "Zuli Monsters characters for fun",
-          "Customizable themes",
-          "Dark mode support",
-          "Full Accessibility support"
+          "楽しさを演出するZuli Monstersキャラクター",
+          "カスタマイズ可能なテーマ",
+          "ダークモード対応",
+          "アクセシビリティ完全対応"
         ]
       }
     },
@@ -292,7 +293,10 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "近日公開",
-      "download": "ダウンロード"
+      "download": "ダウンロード",
+      "appIconAlt": "ZuListアプリのアイコン",
+      "appStoreAlt": "App Storeでダウンロード",
+      "googlePlayAlt": "Google Playで入手"
     },
     "perfectFor": {
       "title": "最適な用途",
@@ -389,7 +393,8 @@
       "section8": {
         "title": "8. お問い合わせ",
         "content": "このプライバシーポリシーに関するご質問がございましたら、以下までお問い合わせください：",
-        "email": "zuki.apps@gmail.com"
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "terms": {
@@ -620,8 +625,9 @@
       "section19": {
         "title": "19. 連絡先情報",
         "content": "これらの規約に関するご質問がある場合は、以下までご連絡ください：",
-        "email": "zuki.apps@gmail.com",
-        "website": "https://zukiapps.com/zulist"
+        "email": "zuki.apps.dev@gmail.com",
+        "website": "https://zukiapps.com/zulist",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "deleteAccount": {
@@ -1208,6 +1214,16 @@
     }
   },
   "common": {
-    "language": "Language"
+    "language": "言語",
+    "back": "戻る",
+    "home": "ホーム",
+    "email": "メール",
+    "address": "住所",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "support": "サポート",
+    "contact": "お問い合わせ",
+    "contactUs": "お問い合わせ",
+    "dsaCompliance": "DSA準拠"
   }
 }

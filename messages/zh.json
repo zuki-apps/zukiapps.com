@@ -103,8 +103,8 @@
       ]
     },
     "contact": {
-      "title": "Contact Us",
-      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "title": "联系我们",
+      "content": "如有查询、投诉或要行使您的消费者权利，请联系我们：",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
@@ -115,7 +115,8 @@
       "badge": "现已推出 - 版本 1.0.1",
       "title": "ZuList",
       "subtitle": "面向家庭的智能购物清单",
-      "description": "适合一起购物的家庭和朋友的完美应用程序。实时创建、共享和管理购物清单，实现无缝协作。"
+      "description": "适合一起购物的家庭和朋友的完美应用程序。实时创建、共享和管理购物清单，实现无缝协作。",
+      "structuredDataDescription": "ZuList是为一起购物的家庭和朋友设计的终极购物清单应用程序。实时创建、共享和管理购物清单，实现无缝协作。功能包括实时同步、离线支持、智能产品建议、类别管理、购买历史和高级订阅。"
     },
     "features": {
       "title": "主要功能",
@@ -292,7 +293,10 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "即将推出",
-      "download": "下载"
+      "download": "下载",
+      "appIconAlt": "ZuList应用图标",
+      "appStoreAlt": "在App Store下载",
+      "googlePlayAlt": "在Google Play获取"
     },
     "perfectFor": {
       "title": "适合",
@@ -337,7 +341,7 @@
       "bundle": "包ID：com.zukiapps.zulist | 版本：1.0.2+1"
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "隐私政策",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -387,9 +391,10 @@
         "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
-        "email": "zuki.apps@gmail.com"
+        "title": "8. 联系我们",
+        "content": "如果您对此隐私政策有任何疑问，请通过以下方式联系我们：",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "terms": {
@@ -618,10 +623,11 @@
         "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
-        "email": "zuki.apps@gmail.com",
-        "website": "https://zukiapps.com/zulist"
+        "title": "19. 联系信息",
+        "content": "如果您对这些条款有任何疑问，请通过以下方式联系我们：",
+        "email": "zuki.apps.dev@gmail.com",
+        "website": "https://zukiapps.com/zulist",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "deleteAccount": {
@@ -676,8 +682,8 @@
         "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with account deletion, please contact us:",
+        "title": "联系我们",
+        "content": "如果您对账户删除有疑问或问题，请联系我们：",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy",
@@ -794,8 +800,8 @@
         "link": "click here for full account deletion"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with data deletion, please contact us:",
+        "title": "联系我们",
+        "content": "如果您对数据删除有疑问或问题，请联系我们：",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy"
@@ -862,15 +868,15 @@
     }
   },
   "hushGallery": {
-    "back": "Back to Home",
+    "back": "返回首页",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "即将推出",
       "title": "Hush Gallery",
       "subtitle": "Private Photo Gallery",
       "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
     },
     "features": {
-      "title": "Key Features",
+      "title": "主要功能",
       "privacy": {
         "title": "Privacy First",
         "description": "Your photos are stored securely with advanced encryption",
@@ -960,30 +966,30 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
-      "version": "Version",
-      "status": "Status",
+      "title": "🚧 开发中",
+      "description": "该应用目前正在开发中",
+      "version": "版本",
+      "status": "状态",
       "versionValue": "0.1.0+4",
-      "statusValue": "Coming Soon"
+      "statusValue": "即将推出"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "即将推出",
       "description": "Hush Gallery will be available soon on app stores",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要链接",
       "support": {
-        "title": "Technical Support",
+        "title": "技术支持",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "一般联系",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "社交媒体"
       }
     },
     "footer": {
@@ -1019,7 +1025,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "隐私政策",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1054,9 +1060,9 @@
     }
   },
   "whistleCamera": {
-    "back": "Back to Home",
+    "back": "返回首页",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "即将推出",
       "title": "Whistle Camera",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1120,25 +1126,25 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "statusValue": "即将推出"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "即将推出",
       "description": "Whistle Camera will be available soon on the App Store",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要链接",
       "support": {
-        "title": "Technical Support",
+        "title": "技术支持",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "一般联系",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "社交媒体"
       }
     },
     "footer": {
@@ -1173,7 +1179,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "隐私政策",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1208,6 +1214,16 @@
     }
   },
   "common": {
-    "language": "语言"
+    "language": "语言",
+    "back": "返回",
+    "home": "首页",
+    "email": "电子邮件",
+    "address": "地址",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "support": "支持",
+    "contact": "联系",
+    "contactUs": "联系我们",
+    "dsaCompliance": "DSA合规"
   }
 }

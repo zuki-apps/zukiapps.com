@@ -103,19 +103,20 @@
       ]
     },
     "contact": {
-      "title": "Contact Us",
-      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "title": "Nous contacter",
+      "content": "Pour toute demande, plainte ou pour exercer vos droits de consommateur, veuillez nous contacter :",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
   },
   "zulist": {
-    "back": "Back to Home",
+    "back": "Retour à l'accueil",
     "hero": {
       "badge": "Disponible Maintenant - Version 1.0.1",
       "title": "ZuList",
       "subtitle": "Listes de courses intelligentes pour les familles",
-      "description": "L'application parfaite pour les familles et les amis qui font les courses ensemble. Créez, partagez et gérez des listes de courses en temps réel avec une collaboration fluide."
+      "description": "L'application parfaite pour les familles et les amis qui font les courses ensemble. Créez, partagez et gérez des listes de courses en temps réel avec une collaboration fluide.",
+      "structuredDataDescription": "ZuList est l'application de listes de courses ultime conçue pour les familles et les amis qui font les courses ensemble. Créez, partagez et gérez des listes de courses en temps réel avec une collaboration fluide. Les fonctionnalités incluent la synchronisation en temps réel, le support hors ligne, les suggestions intelligentes de produits, la gestion des catégories, l'historique des achats et les abonnements premium."
     },
     "features": {
       "title": "Fonctionnalités clés",
@@ -166,8 +167,8 @@
         ]
       },
       "multilang": {
-        "title": "Support de 12 langues",
-        "description": "Support complet pour 12 langues avec interface traduite",
+      "title": "Support de 12 langues",
+      "description": "Support complet pour 12 langues avec interface traduite",
         "items": [
           "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
           "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
@@ -176,35 +177,35 @@
         ]
       },
       "categories": {
-        "title": "Category Management",
-        "description": "Organize your shopping by categories for better efficiency",
+        "title": "Gestion des catégories",
+        "description": "Organisez vos courses par catégories pour plus d'efficacité",
         "items": [
-          "Custom categories",
-          "Custom icons",
-          "Automatic organization"
+          "Catégories personnalisées",
+          "Icônes personnalisées",
+          "Organisation automatique"
         ]
       },
       "photos": {
-        "title": "Custom Photos",
-        "description": "Add custom photos to items",
+        "title": "Photos personnalisées",
+        "description": "Ajoutez des photos personnalisées aux articles",
         "items": [
-          "Direct camera capture",
-          "Gallery selection",
-          "Automatic optimization"
+          "Capture directe avec l'appareil photo",
+          "Sélection depuis la galerie",
+          "Optimisation automatique"
         ]
       },
       "history": {
-        "title": "Purchase History",
-        "description": "Track your shopping history",
+        "title": "Historique des achats",
+        "description": "Suivez l’historique de vos achats",
         "items": [
-          "Advanced statistics (Premium)",
-          "Track shopping habits",
-          "Detailed reports"
+          "Statistiques avancées (Premium)",
+          "Suivi de vos habitudes d’achat",
+          "Rapports détaillés"
         ]
       },
       "firebase": {
-        "title": "Firebase Integration",
-        "description": "Secure cloud sync with Firebase",
+        "title": "Intégration Firebase",
+        "description": "Synchronisation cloud sécurisée avec Firebase",
         "items": [
           "Authentification, Base de données en temps réel, Firestore",
           "Stockage, Fonctions, FCM",
@@ -212,23 +213,23 @@
         ]
       },
       "security": {
-        "title": "Privacy & Security",
-        "description": "Secure authentication and data protection",
+        "title": "Confidentialité et sécurité",
+        "description": "Authentification sécurisée et protection des données",
         "items": [
-          "Secure authentication (Google, Apple)",
-          "Encrypted data",
-          "Full control over sharing",
-          "Complete account deletion"
+          "Authentification sécurisée (Google, Apple)",
+          "Données chiffrées",
+          "Contrôle total du partage",
+          "Suppression complète du compte"
         ]
       },
       "ui": {
-        "title": "Beautiful & Intuitive",
-        "description": "Modern and clean interface with excellent user experience",
+        "title": "Belle et intuitive",
+        "description": "Interface moderne et épurée avec une excellente expérience utilisateur",
         "items": [
-          "Zuli Monsters characters for fun",
-          "Customizable themes",
-          "Dark mode support",
-          "Full Accessibility support"
+          "Personnages Zuli Monsters pour plus de fun",
+          "Thèmes personnalisables",
+          "Prise en charge du mode sombre",
+          "Support complet de l’accessibilité"
         ]
       }
     },
@@ -292,7 +293,10 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "Bientôt disponible",
-      "download": "Télécharger"
+      "download": "Télécharger",
+      "appIconAlt": "Icône de l'application ZuList",
+      "appStoreAlt": "Télécharger sur l'App Store",
+      "googlePlayAlt": "Télécharger sur Google Play"
     },
     "perfectFor": {
       "title": "Parfait pour",
@@ -389,7 +393,8 @@
       "section8": {
         "title": "8. Contactez-nous",
         "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :",
-        "email": "zuki.apps@gmail.com"
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "terms": {
@@ -618,10 +623,11 @@
         "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
-        "email": "zuki.apps@gmail.com",
-        "website": "https://zukiapps.com/zulist"
+        "title": "19. Informations de contact",
+        "content": "Si vous avez des questions concernant ces Conditions, veuillez nous contacter :",
+        "email": "zuki.apps.dev@gmail.com",
+        "website": "https://zukiapps.com/zulist",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "deleteAccount": {
@@ -676,8 +682,8 @@
         "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with account deletion, please contact us:",
+        "title": "Nous contacter",
+        "content": "Si vous avez des questions ou des problèmes concernant la suppression du compte, contactez-nous :",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy",
@@ -794,8 +800,8 @@
         "link": "click here for full account deletion"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with data deletion, please contact us:",
+        "title": "Nous contacter",
+        "content": "Si vous avez des questions ou des problèmes concernant la suppression des données, contactez-nous :",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy"
@@ -805,18 +811,18 @@
       "title": "Support & Help",
       "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "Nous contacter",
+        "description": "Vous avez une question ou besoin d'aide ? Envoyez-nous un e-mail et nous vous répondrons dans les plus brefs délais.",
         "email": "zuki.apps@gmail.com"
       },
       "quickLinks": {
         "title": "Quick Links",
         "privacy": {
-          "title": "Privacy Policy",
+          "title": "Politique de confidentialité",
           "description": "Learn how we protect your data"
         },
         "terms": {
-          "title": "Terms of Service",
+          "title": "Conditions d'utilisation",
           "description": "Read our terms and conditions"
         },
         "deleteAccount": {
@@ -862,15 +868,15 @@
     }
   },
   "hushGallery": {
-    "back": "Back to Home",
+    "back": "Retour à l'accueil",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "Bientôt disponible",
       "title": "Hush Gallery",
       "subtitle": "Private Photo Gallery",
       "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Fonctionnalités clés",
       "privacy": {
         "title": "Privacy First",
         "description": "Your photos are stored securely with advanced encryption",
@@ -960,30 +966,30 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
+      "title": "🚧 En développement",
+      "description": "L’application est actuellement en cours de développement",
       "version": "Version",
-      "status": "Status",
+      "status": "Statut",
       "versionValue": "0.1.0+4",
-      "statusValue": "Coming Soon"
+      "statusValue": "Bientôt disponible"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "Bientôt disponible",
       "description": "Hush Gallery will be available soon on app stores",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Liens importants",
       "support": {
-        "title": "Technical Support",
+        "title": "Support technique",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "Contact général",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "Réseaux sociaux"
       }
     },
     "footer": {
@@ -1019,7 +1025,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "Politique de confidentialité",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1054,9 +1060,9 @@
     }
   },
   "whistleCamera": {
-    "back": "Back to Home",
+    "back": "Retour à l'accueil",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "Bientôt disponible",
       "title": "Whistle Camera",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1120,25 +1126,25 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "statusValue": "Bientôt disponible"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "Bientôt disponible",
       "description": "Whistle Camera will be available soon on the App Store",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Liens importants",
       "support": {
-        "title": "Technical Support",
+        "title": "Support technique",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "Contact général",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "Réseaux sociaux"
       }
     },
     "footer": {
@@ -1173,7 +1179,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "Politique de confidentialité",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1208,6 +1214,16 @@
     }
   },
   "common": {
-    "language": "Language"
+    "language": "Langue",
+    "back": "Retour",
+    "home": "Accueil",
+    "email": "E-mail",
+    "address": "Adresse",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "support": "Support",
+    "contact": "Contact",
+    "contactUs": "Nous contacter",
+    "dsaCompliance": "Conformité DSA"
   }
 }

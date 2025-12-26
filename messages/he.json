@@ -103,8 +103,8 @@
       ]
     },
     "contact": {
-      "title": "Contact Us",
-      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "title": "צור קשר",
+      "content": "לשאלות, תלונות או למימוש זכויות הצרכן שלך, אנא צור איתנו קשר:",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
@@ -115,7 +115,8 @@
       "badge": "זמינה כעת - גרסה 1.0.1",
       "title": "ZuList",
       "subtitle": "רשימות קניות חכמות למשפחות",
-      "description": "האפליקציה המושלמת למשפחות וחברים שקונים יחד. צרו, שתפו ונהלו רשימות קניות בזמן אמת עם שיתוף פעולה חלק."
+      "description": "האפליקציה המושלמת למשפחות וחברים שקונים יחד. צרו, שתפו ונהלו רשימות קניות בזמן אמת עם שיתוף פעולה חלק.",
+      "structuredDataDescription": "ZuList היא אפליקציית רשימת קניות מתקדמת שנועדה למשפחות וחברים שקונים יחד. צרו, שתפו ונהלו רשימות קניות בזמן אמת עם שיתוף פעולה חלק. התכונות כוללות סנכרון בזמן אמת, תמיכה במצב לא מקוון, הצעות מוצרים חכמות, ניהול קטגוריות, היסטוריית קניות ומנויי Premium."
     },
     "features": {
       "title": "תכונות עיקריות",
@@ -292,7 +293,10 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "בקרוב",
-      "download": "הורד"
+      "download": "הורד",
+      "appIconAlt": "אייקון אפליקציית ZuList",
+      "appStoreAlt": "הורד מ-App Store",
+      "googlePlayAlt": "הורד מ-Google Play"
     },
     "perfectFor": {
       "title": "מושלם עבור",
@@ -1212,6 +1216,16 @@
     }
   },
   "common": {
-    "language": "שפה"
+    "language": "שפה",
+    "back": "חזרה",
+    "home": "דף הבית",
+    "email": "אימייל",
+    "address": "כתובת",
+    "privacyPolicy": "מדיניות פרטיות",
+    "termsOfService": "תנאי שימוש",
+    "support": "תמיכה",
+    "contact": "יצירת קשר",
+    "contactUs": "צור קשר",
+    "dsaCompliance": "ציות DSA"
   }
 }

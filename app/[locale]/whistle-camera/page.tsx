@@ -10,6 +10,7 @@ import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationS
 
 export default function WhistleCameraPage() {
   const t = useTranslations('whistleCamera');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   return (
@@ -17,7 +18,7 @@ export default function WhistleCameraPage() {
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' },
+          { name: tCommon('home'), path: '/' },
           { name: 'Whistle Camera', path: '/whistle-camera' }
         ]}
       />
@@ -104,14 +105,14 @@ export default function WhistleCameraPage() {
                 href={`/${locale}/whistle-camera/privacy`}
                 className="text-green-400 hover:text-green-300 underline transition-colors"
               >
-                {locale === 'he' ? 'מדיניות פרטיות' : 'Privacy Policy'}
+                {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-500">|</span>
               <Link
                 href={`/${locale}/whistle-camera/terms`}
                 className="text-green-400 hover:text-green-300 underline transition-colors"
               >
-                {locale === 'he' ? 'תנאי שימוש' : 'Terms of Service'}
+                {tCommon('termsOfService')}
               </Link>
               <span className="text-gray-500">|</span>
               <Link
@@ -349,14 +350,14 @@ export default function WhistleCameraPage() {
                 href={`/${locale}/whistle-camera/privacy`}
                 className="text-gray-400 hover:text-green-400 transition-colors"
               >
-                {locale === 'he' ? 'מדיניות פרטיות' : 'Privacy Policy'}
+                {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-600">|</span>
               <Link
                 href={`/${locale}/whistle-camera/terms`}
                 className="text-gray-400 hover:text-green-400 transition-colors"
               >
-                {locale === 'he' ? 'תנאי שימוש' : 'Terms of Service'}
+                {tCommon('termsOfService')}
               </Link>
               <span className="text-gray-600">|</span>
               <Link

@@ -20,6 +20,7 @@ interface Star {
 
 export default function Home() {
   const t = useTranslations('home');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
   const [stars, setStars] = useState<Star[]>([]);
   const [isMounted, setIsMounted] = useState(false);
@@ -44,7 +45,7 @@ export default function Home() {
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' }
+          { name: tCommon('home'), path: '/' }
         ]}
       />
     <div className="min-h-screen bg-black relative overflow-hidden">

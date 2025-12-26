@@ -11,6 +11,7 @@ import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationS
 
 export default function ZuListPage() {
   const t = useTranslations('zulist');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   return (
@@ -18,14 +19,14 @@ export default function ZuListPage() {
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' },
+          { name: tCommon('home'), path: '/' },
           { name: 'ZuList', path: '/zulist' }
         ]}
       />
       <SoftwareApplicationStructuredData
         locale={locale}
         appName="ZuList"
-        appDescription="ZuList is the ultimate shopping list app designed for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration. Features include real-time sync, offline support, smart product suggestions, category management, purchase history, and premium subscriptions."
+        appDescription={t('hero.structuredDataDescription')}
         operatingSystem="iOS,Android"
         applicationCategory="ShoppingApplication"
         offers={{
@@ -86,7 +87,7 @@ export default function ZuListPage() {
             <div className="relative w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-blue-400/30">
               <Image
                 src="/images/zulist-icon.png"
-                alt="ZuList App Icon"
+                alt={t('download.appIconAlt')}
                 width={128}
                 height={128}
                 className="object-cover"
@@ -114,21 +115,21 @@ export default function ZuListPage() {
               href={`/${locale}/zulist/privacy`}
               className="text-blue-400 hover:text-blue-300 underline transition-colors"
             >
-              {locale === 'he' ? 'מדיניות פרטיות' : 'Privacy Policy'}
+              {tCommon('privacyPolicy')}
             </Link>
             <span className="text-gray-500">|</span>
             <Link
               href={`/${locale}/zulist/terms`}
               className="text-blue-400 hover:text-blue-300 underline transition-colors"
             >
-              {locale === 'he' ? 'תנאי שימוש' : 'Terms of Service'}
+              {tCommon('termsOfService')}
             </Link>
             <span className="text-gray-500">|</span>
             <Link
               href={`/${locale}/dsa-compliance`}
               className="text-blue-400 hover:text-blue-300 underline transition-colors"
             >
-              {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
+              {tCommon('dsaCompliance')}
             </Link>
           </div>
         </div>
@@ -470,7 +471,7 @@ export default function ZuListPage() {
               <div className="w-32 h-10 mx-auto relative">
                 <Image
                   src="/images/app-store-badge.svg"
-                  alt="Download on the App Store"
+                  alt={t('download.appStoreAlt')}
                   width={128}
                   height={40}
                   className="object-contain"
@@ -490,7 +491,7 @@ export default function ZuListPage() {
               <div className="w-32 h-10 mx-auto relative">
                 <Image
                   src="/images/google-play-badge.png"
-                  alt="Get it on Google Play"
+                  alt={t('download.googlePlayAlt')}
                   width={128}
                   height={40}
                   className="object-contain opacity-50"
@@ -645,21 +646,21 @@ export default function ZuListPage() {
               href={`/${locale}/zulist/privacy`}
               className="text-gray-400 hover:text-blue-400 transition-colors"
             >
-              {locale === 'he' ? 'מדיניות פרטיות' : 'Privacy Policy'}
+              {tCommon('privacyPolicy')}
             </Link>
             <span className="text-gray-600">|</span>
             <Link
               href={`/${locale}/zulist/terms`}
               className="text-gray-400 hover:text-blue-400 transition-colors"
             >
-              {locale === 'he' ? 'תנאי שימוש' : 'Terms of Service'}
+              {tCommon('termsOfService')}
             </Link>
             <span className="text-gray-600">|</span>
             <Link
               href={`/${locale}/dsa-compliance`}
               className="text-gray-400 hover:text-blue-400 transition-colors"
             >
-              {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
+              {tCommon('dsaCompliance')}
             </Link>
           </div>
         </div>

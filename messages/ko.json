@@ -103,71 +103,72 @@
       ]
     },
     "contact": {
-      "title": "Contact Us",
-      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "title": "문의하기",
+      "content": "문의, 불만 또는 소비자 권리를 행사하려면 다음으로 문의하세요:",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
   },
   "zulist": {
-    "back": "Back to Home",
+    "back": "홈으로 돌아가기",
     "hero": {
       "badge": "지금 사용 가능 - 버전 1.0.1",
       "title": "ZuList",
       "subtitle": "가족을 위한 스마트 쇼핑 리스트",
-      "description": "함께 쇼핑하는 가족과 친구들을 위한 완벽한 앱입니다. 실시간으로 원활한 협업을 통해 쇼핑 리스트를 만들고, 공유하고, 관리하세요."
+      "description": "함께 쇼핑하는 가족과 친구들을 위한 완벽한 앱입니다. 실시간으로 원활한 협업을 통해 쇼핑 리스트를 만들고, 공유하고, 관리하세요.",
+      "structuredDataDescription": "ZuList는 함께 쇼핑하는 가족과 친구들을 위해 설계된 최고의 쇼핑 리스트 앱입니다. 실시간으로 원활한 협업을 통해 쇼핑 리스트를 만들고, 공유하고, 관리하세요. 기능에는 실시간 동기화, 오프라인 지원, 스마트 제품 제안, 카테고리 관리, 구매 기록, 프리미엄 구독이 포함됩니다."
     },
     "features": {
       "title": "주요 기능",
       "realtime": {
         "title": "실시간 협업",
-        "description": "가족과 친구들과 리스트를 공유하고 모든 기기에서 즉시 변경 사항 확인",
+        "description": "가족과 친구들과 리스트를 공유하고 모든 기기에서 변경 사항을 즉시 확인하세요",
         "items": [
-          "Member and permission management",
-          "Invitations via email, SMS, WhatsApp",
-          "Shareable links",
-          "Real-time Push notifications"
+          "멤버 및 권한 관리",
+          "이메일, SMS, WhatsApp을 통한 초대",
+          "공유 가능한 링크",
+          "실시간 푸시 알림"
         ]
       },
       "offline": {
-        "title": "Offline Support",
-        "description": "Works seamlessly even without internet connection",
+        "title": "오프라인 지원",
+        "description": "인터넷이 없어도 끊김 없이 부드럽게 동작",
         "items": [
-          "Automatic sync when back online",
-          "Never lose your data",
-          "Cloud backup (Premium)"
+          "온라인으로 돌아올 때 자동 동기화",
+          "데이터를 잃어버리지 않도록 보호",
+          "클라우드 백업 (프리미엄)"
         ]
       },
       "smart": {
-        "title": "Smart Recommendations",
-        "description": "AI-based recommendations with product catalog",
+        "title": "스마트 추천",
+        "description": "제품 카탈로그를 활용한 AI 기반 추천",
         "items": [
-          "Intelligent autocomplete",
-          "Personalized suggestions",
-          "Learn from your shopping habits"
+          "지능형 자동 완성",
+          "개인 맞춤형 제안",
+          "구매 습관을 학습하는 추천"
         ]
       },
       "templates": {
-        "title": "Smart Templates",
-        "description": "Pre-made shopping list templates",
+        "title": "스마트 템플릿",
+        "description": "미리 준비된 쇼핑 리스트 템플릿",
         "items": [
-          "Quick start for common shopping trips",
-          "Customize templates to your needs",
-          "34+ ready-made templates"
+          "자주 하는 장보기를 위한 빠른 시작",
+          "필요에 맞게 템플릿 커스터마이즈",
+          "34개 이상의 준비된 템플릿"
         ]
       },
       "notifications": {
-        "title": "Smart Notifications",
-        "description": "Get notified when items are added or when friends update",
+        "title": "스마트 알림",
+        "description": "항목이 추가되거나 친구가 리스트를 업데이트할 때 알림 받기",
         "items": [
-          "Silent mode for quiet shopping",
-          "Badge counts for unread updates",
-          "Real-time Push notifications"
+          "조용한 사용을 위한 무음 모드",
+          "읽지 않은 업데이트를 보여주는 배지 카운트",
+          "실시간 푸시 알림"
         ]
       },
       "multilang": {
-        "title": "12 Language Support",
-        "description": "Full support for 12 languages with translated interface",
+        "title": "12개 언어 지원",
+        "description": "번역된 인터페이스로 12개 언어를 완벽 지원",
         "items": [
           "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
           "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
@@ -176,35 +177,35 @@
         ]
       },
       "categories": {
-        "title": "Category Management",
-        "description": "Organize your shopping by categories for better efficiency",
+        "title": "카테고리 관리",
+        "description": "카테고리별로 장보기를 정리해 더 효율적으로 관리",
         "items": [
-          "Custom categories",
-          "Custom icons",
-          "Automatic organization"
+          "사용자 지정 카테고리",
+          "사용자 지정 아이콘",
+          "자동 정렬 및 구성"
         ]
       },
       "photos": {
-        "title": "Custom Photos",
-        "description": "Add custom photos to items",
+        "title": "사용자 지정 사진",
+        "description": "항목에 직접 찍은 사진을 추가",
         "items": [
-          "Direct camera capture",
-          "Gallery selection",
-          "Automatic optimization"
+          "카메라로 바로 촬영",
+          "갤러리에서 선택",
+          "자동 최적화 처리"
         ]
       },
       "history": {
-        "title": "Purchase History",
-        "description": "Track your shopping history",
+        "title": "구매 기록",
+        "description": "장보기 기록을 손쉽게 추적",
         "items": [
-          "Advanced statistics (Premium)",
-          "Track shopping habits",
-          "Detailed reports"
+          "고급 통계 (프리미엄)",
+          "구매 습관 분석",
+          "자세한 리포트"
         ]
       },
       "firebase": {
-        "title": "Firebase Integration",
-        "description": "Secure cloud sync with Firebase",
+        "title": "Firebase 연동",
+        "description": "Firebase를 통한 안전한 클라우드 동기화",
         "items": [
           "인증, 실시간 데이터베이스, Firestore",
           "스토리지, 함수, FCM",
@@ -212,23 +213,23 @@
         ]
       },
       "security": {
-        "title": "Privacy & Security",
-        "description": "Secure authentication and data protection",
+        "title": "프라이버시 및 보안",
+        "description": "안전한 인증과 데이터 보호",
         "items": [
-          "Secure authentication (Google, Apple)",
-          "Encrypted data",
-          "Full control over sharing",
-          "Complete account deletion"
+          "안전한 인증 (Google, Apple)",
+          "암호화된 데이터 저장",
+          "공유에 대한 완전한 제어",
+          "계정 및 데이터 완전 삭제"
         ]
       },
       "ui": {
-        "title": "Beautiful & Intuitive",
-        "description": "Modern and clean interface with excellent user experience",
+        "title": "아름답고 직관적인 UI",
+        "description": "우수한 사용자 경험을 제공하는 모던하고 깔끔한 인터페이스",
         "items": [
-          "Zuli Monsters characters for fun",
-          "Customizable themes",
-          "Dark mode support",
-          "Full Accessibility support"
+          "재미를 더해주는 Zuli Monsters 캐릭터",
+          "사용자 지정 가능한 테마",
+          "다크 모드 지원",
+          "완전한 접근성 지원"
         ]
       }
     },
@@ -292,7 +293,10 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "곧 출시",
-      "download": "다운로드"
+      "download": "다운로드",
+      "appIconAlt": "ZuList 앱 아이콘",
+      "appStoreAlt": "App Store에서 다운로드",
+      "googlePlayAlt": "Google Play에서 받기"
     },
     "perfectFor": {
       "title": "완벽한 용도",
@@ -389,7 +393,8 @@
       "section8": {
         "title": "8. 문의하기",
         "content": "이 개인정보 보호정책에 대한 질문이 있으시면 다음으로 문의하세요:",
-        "email": "zuki.apps@gmail.com"
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "terms": {
@@ -618,10 +623,11 @@
         "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
-        "email": "zuki.apps@gmail.com",
-        "website": "https://zukiapps.com/zulist"
+        "title": "19. 연락처 정보",
+        "content": "이 약관에 대한 질문이 있으시면 다음으로 문의하세요:",
+        "email": "zuki.apps.dev@gmail.com",
+        "website": "https://zukiapps.com/zulist",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "deleteAccount": {
@@ -676,8 +682,8 @@
         "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with account deletion, please contact us:",
+        "title": "문의하기",
+        "content": "계정 삭제에 대한 질문이나 문제가 있으면 문의하세요:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy",
@@ -794,8 +800,8 @@
         "link": "click here for full account deletion"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with data deletion, please contact us:",
+        "title": "문의하기",
+        "content": "데이터 삭제에 대한 질문이나 문제가 있으면 문의하세요:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy"
@@ -805,18 +811,18 @@
       "title": "Support & Help",
       "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "문의하기",
+        "description": "질문이 있거나 도움이 필요하신가요? 이메일을 보내주시면 최대한 빨리 답변드리겠습니다.",
         "email": "zuki.apps@gmail.com"
       },
       "quickLinks": {
         "title": "Quick Links",
         "privacy": {
-          "title": "Privacy Policy",
+          "title": "개인정보 보호정책",
           "description": "Learn how we protect your data"
         },
         "terms": {
-          "title": "Terms of Service",
+          "title": "서비스 약관",
           "description": "Read our terms and conditions"
         },
         "deleteAccount": {
@@ -862,15 +868,15 @@
     }
   },
   "hushGallery": {
-    "back": "Back to Home",
+    "back": "홈으로 돌아가기",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "곧 출시",
       "title": "Hush Gallery",
       "subtitle": "Private Photo Gallery",
       "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
     },
     "features": {
-      "title": "Key Features",
+      "title": "주요 기능",
       "privacy": {
         "title": "Privacy First",
         "description": "Your photos are stored securely with advanced encryption",
@@ -960,30 +966,30 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
-      "version": "Version",
-      "status": "Status",
+      "title": "🚧 개발 중",
+      "description": "앱이 현재 개발 중입니다",
+      "version": "버전",
+      "status": "상태",
       "versionValue": "0.1.0+4",
-      "statusValue": "Coming Soon"
+      "statusValue": "곧 출시"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "곧 출시",
       "description": "Hush Gallery will be available soon on app stores",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "중요한 링크",
       "support": {
-        "title": "Technical Support",
+        "title": "기술 지원",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "일반 문의",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "소셜 미디어"
       }
     },
     "footer": {
@@ -1019,7 +1025,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "개인정보 보호정책",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1054,9 +1060,9 @@
     }
   },
   "whistleCamera": {
-    "back": "Back to Home",
+    "back": "홈으로 돌아가기",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "곧 출시",
       "title": "Whistle Camera",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1120,25 +1126,25 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "statusValue": "곧 출시"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "곧 출시",
       "description": "Whistle Camera will be available soon on the App Store",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "중요한 링크",
       "support": {
-        "title": "Technical Support",
+        "title": "기술 지원",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "일반 문의",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "소셜 미디어"
       }
     },
     "footer": {
@@ -1173,7 +1179,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "개인정보 보호정책",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1208,6 +1214,16 @@
     }
   },
   "common": {
-    "language": "Language"
+    "language": "언어",
+    "back": "뒤로",
+    "home": "홈",
+    "email": "이메일",
+    "address": "주소",
+    "privacyPolicy": "개인정보 보호정책",
+    "termsOfService": "서비스 약관",
+    "support": "지원",
+    "contact": "연락처",
+    "contactUs": "문의하기",
+    "dsaCompliance": "DSA 준수"
   }
 }

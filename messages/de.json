@@ -103,8 +103,8 @@
       ]
     },
     "contact": {
-      "title": "Contact Us",
-      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "title": "Kontaktieren Sie uns",
+      "content": "Für Anfragen, Beschwerden oder zur Ausübung Ihrer Verbraucherrechte kontaktieren Sie uns bitte:",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
@@ -115,7 +115,8 @@
       "badge": "Jetzt verfügbar - Version 1.0.1",
       "title": "ZuList",
       "subtitle": "Intelligente Einkaufslisten für Familien",
-      "description": "Die perfekte App für Familien und Freunde, die zusammen einkaufen. Erstellen, teilen und verwalten Sie Einkaufslisten in Echtzeit mit nahtloser Zusammenarbeit."
+      "description": "Die perfekte App für Familien und Freunde, die zusammen einkaufen. Erstellen, teilen und verwalten Sie Einkaufslisten in Echtzeit mit nahtloser Zusammenarbeit.",
+      "structuredDataDescription": "ZuList ist die ultimative Einkaufslisten-App, die für Familien und Freunde entwickelt wurde, die zusammen einkaufen. Erstellen, teilen und verwalten Sie Einkaufslisten in Echtzeit mit nahtloser Zusammenarbeit. Funktionen umfassen Echtzeit-Synchronisation, Offline-Unterstützung, intelligente Produktvorschläge, Kategorieverwaltung, Kaufhistorie und Premium-Abonnements."
     },
     "features": {
       "title": "Hauptfunktionen",
@@ -292,7 +293,10 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "Kommt bald",
-      "download": "Herunterladen"
+      "download": "Herunterladen",
+      "appIconAlt": "ZuList App-Symbol",
+      "appStoreAlt": "Im App Store herunterladen",
+      "googlePlayAlt": "Bei Google Play herunterladen"
     },
     "perfectFor": {
       "title": "Perfekt für",
@@ -389,7 +393,8 @@
       "section8": {
         "title": "8. Kontaktieren Sie uns",
         "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:",
-        "email": "zuki.apps@gmail.com"
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "terms": {
@@ -620,8 +625,9 @@
       "section19": {
         "title": "19. Kontaktinformationen",
         "content": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte:",
-        "email": "zuki.apps@gmail.com",
-        "website": "https://zukiapps.com/zulist"
+        "email": "zuki.apps.dev@gmail.com",
+        "website": "https://zukiapps.com/zulist",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "deleteAccount": {
@@ -1208,6 +1214,16 @@
     }
   },
   "common": {
-    "language": "Sprache"
+    "language": "Sprache",
+    "back": "Zurück",
+    "home": "Startseite",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "support": "Support",
+    "contact": "Kontakt",
+    "contactUs": "Kontaktieren Sie uns",
+    "dsaCompliance": "DSA-Konformität"
   }
 }

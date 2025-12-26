@@ -60,14 +60,15 @@ export default async function DSACompliancePage({
   }
 
   const t = await getTranslations({ locale, namespace: 'dsa' });
+  const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <>
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' },
-          { name: 'DSA Compliance', path: '/dsa-compliance' }
+          { name: tCommon('home'), path: '/' },
+          { name: t('title'), path: '/dsa-compliance' }
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50">
@@ -84,7 +85,7 @@ export default async function DSACompliancePage({
                   href={`/${locale}`}
                   className="px-4 py-2 border-2 border-blue-600 bg-white text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition-colors text-sm"
                 >
-                  {locale === 'he' ? 'חזרה' : 'Back'}
+                  {tCommon('back')}
                 </Link>
               </div>
             </div>
@@ -172,7 +173,7 @@ export default async function DSACompliancePage({
                     {t('contact.content')}
                   </p>
                   <p className="text-gray-700 mb-2">
-                    <strong>{locale === 'he' ? 'אימייל:' : 'Email:'}</strong>{' '}
+                    <strong>{tCommon('email')}:</strong>{' '}
                     <a
                       href={`mailto:${t('contact.email')}`}
                       className="text-blue-600 hover:underline"
@@ -181,7 +182,7 @@ export default async function DSACompliancePage({
                     </a>
                   </p>
                   <p className="text-gray-700 mb-2">
-                    <strong>{locale === 'he' ? 'כתובת:' : 'Address:'}</strong>{' '}
+                    <strong>{tCommon('address')}:</strong>{' '}
                     {t('contact.address')}
                   </p>
                 </section>

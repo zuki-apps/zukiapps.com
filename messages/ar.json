@@ -103,19 +103,20 @@
       ]
     },
     "contact": {
-      "title": "Contact Us",
-      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "title": "اتصل بنا",
+      "content": "للاستفسارات أو الشكاوى أو لممارسة حقوقك كمواطن، يرجى الاتصال بنا:",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
   },
   "zulist": {
-    "back": "Back to Home",
+    "back": "العودة إلى الرئيسية",
     "hero": {
       "badge": "متاح الآن - الإصدار 1.0.1",
       "title": "ZuList",
       "subtitle": "قوائم تسوق ذكية للعائلات",
-      "description": "التطبيق المثالي للعائلات والأصدقاء الذين يتسوقون معًا. أنشئ وشارك وأدر قوائم التسوق في الوقت الفعلي مع تعاون سلس."
+      "description": "التطبيق المثالي للعائلات والأصدقاء الذين يتسوقون معًا. أنشئ وشارك وأدر قوائم التسوق في الوقت الفعلي مع تعاون سلس.",
+      "structuredDataDescription": "ZuList هو تطبيق قوائم التسوق النهائي المصمم للعائلات والأصدقاء الذين يتسوقون معًا. أنشئ وشارك وأدر قوائم التسوق في الوقت الفعلي مع تعاون سلس. تتضمن الميزات المزامنة في الوقت الفعلي، والدعم في وضع عدم الاتصال، واقتراحات المنتجات الذكية، وإدارة الفئات، وسجل المشتريات، والاشتراكات المميزة."
     },
     "features": {
       "title": "الميزات الرئيسية",
@@ -123,51 +124,51 @@
         "title": "التعاون في الوقت الفعلي",
         "description": "شارك القوائم مع العائلة والأصدقاء، واطلع على التغييرات فورًا عبر جميع الأجهزة",
         "items": [
-          "Member and permission management",
-          "Invitations via email, SMS, WhatsApp",
-          "Shareable links",
-          "Real-time Push notifications"
+          "إدارة الأعضاء والصلاحيات",
+          "دعوات عبر البريد الإلكتروني والرسائل القصيرة وواتساب",
+          "روابط قابلة للمشاركة",
+          "إشعارات فورية في الوقت الحقيقي"
         ]
       },
       "offline": {
-        "title": "Offline Support",
-        "description": "Works seamlessly even without internet connection",
+        "title": "دعم العمل دون اتصال",
+        "description": "يعمل بسلاسة حتى بدون اتصال بالإنترنت",
         "items": [
-          "Automatic sync when back online",
-          "Never lose your data",
-          "Cloud backup (Premium)"
+          "مزامنة تلقائية عند العودة للاتصال",
+          "عدم فقدان بياناتك أبدًا",
+          "نسخ احتياطي سحابي (Premium)"
         ]
       },
       "smart": {
-        "title": "Smart Recommendations",
-        "description": "AI-based recommendations with product catalog",
+        "title": "توصيات ذكية",
+        "description": "توصيات قائمة على الذكاء الاصطناعي مع كتالوج منتجات",
         "items": [
-          "Intelligent autocomplete",
-          "Personalized suggestions",
-          "Learn from your shopping habits"
+          "إكمال تلقائي ذكي",
+          "اقتراحات مخصصة",
+          "يتعلم من عادات التسوق الخاصة بك"
         ]
       },
       "templates": {
-        "title": "Smart Templates",
-        "description": "Pre-made shopping list templates",
+        "title": "قوالب ذكية",
+        "description": "قوالب جاهزة لقوائم التسوق",
         "items": [
-          "Quick start for common shopping trips",
-          "Customize templates to your needs",
-          "34+ ready-made templates"
+          "بداية سريعة لرحلات التسوق الشائعة",
+          "تخصيص القوالب حسب احتياجاتك",
+          "أكثر من 34 قالبًا جاهزًا للاستخدام"
         ]
       },
       "notifications": {
-        "title": "Smart Notifications",
-        "description": "Get notified when items are added or when friends update",
+        "title": "إشعارات ذكية",
+        "description": "احصل على إشعارات عند إضافة عناصر جديدة أو عند تحديث الأصدقاء للقائمة",
         "items": [
-          "Silent mode for quiet shopping",
-          "Badge counts for unread updates",
-          "Real-time Push notifications"
+          "وضع صامت لتسوق هادئ",
+          "عدادات شارات للتحديثات غير المقروءة",
+          "إشعارات فورية في الوقت الحقيقي"
         ]
       },
       "multilang": {
-        "title": "12 Language Support",
-        "description": "Full support for 12 languages with translated interface",
+        "title": "دعم 12 لغة",
+        "description": "دعم كامل لـ 12 لغة مع واجهة مترجمة",
         "items": [
           "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
           "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
@@ -176,59 +177,59 @@
         ]
       },
       "categories": {
-        "title": "Category Management",
-        "description": "Organize your shopping by categories for better efficiency",
+        "title": "إدارة الفئات",
+        "description": "نظم التسوق حسب الفئات لتحسين الكفاءة",
         "items": [
-          "Custom categories",
-          "Custom icons",
-          "Automatic organization"
+          "فئات مخصصة",
+          "أيقونات مخصصة",
+          "تنظيم تلقائي"
         ]
       },
       "photos": {
-        "title": "Custom Photos",
-        "description": "Add custom photos to items",
+        "title": "صور مخصصة",
+        "description": "أضف صورًا مخصصة للعناصر",
         "items": [
-          "Direct camera capture",
-          "Gallery selection",
-          "Automatic optimization"
+          "التقاط مباشر بالكاميرا",
+          "اختيار من المعرض",
+          "تحسين تلقائي للصور"
         ]
       },
       "history": {
-        "title": "Purchase History",
-        "description": "Track your shopping history",
+        "title": "سجل المشتريات",
+        "description": "تتبع سجل التسوق الخاص بك",
         "items": [
-          "Advanced statistics (Premium)",
-          "Track shopping habits",
-          "Detailed reports"
+          "إحصائيات متقدمة (Premium)",
+          "تتبع عادات التسوق",
+          "تقارير تفصيلية"
         ]
       },
       "firebase": {
-        "title": "Firebase Integration",
-        "description": "Secure cloud sync with Firebase",
+        "title": "تكامل Firebase",
+        "description": "مزامنة سحابية آمنة مع Firebase",
         "items": [
           "المصادقة، قاعدة البيانات في الوقت الفعلي، Firestore",
           "التخزين، الوظائف، FCM",
-          "ربط عميق"
+          "روابط عميقة"
         ]
       },
       "security": {
-        "title": "Privacy & Security",
-        "description": "Secure authentication and data protection",
+        "title": "الخصوصية والأمان",
+        "description": "مصادقة آمنة وحماية قوية للبيانات",
         "items": [
-          "Secure authentication (Google, Apple)",
-          "Encrypted data",
-          "Full control over sharing",
-          "Complete account deletion"
+          "مصادقة آمنة (Google وApple)",
+          "بيانات مشفرة",
+          "تحكم كامل في المشاركة",
+          "حذف كامل للحساب"
         ]
       },
       "ui": {
-        "title": "Beautiful & Intuitive",
-        "description": "Modern and clean interface with excellent user experience",
+        "title": "واجهة جميلة وبديهية",
+        "description": "واجهة حديثة ونظيفة مع تجربة مستخدم ممتازة",
         "items": [
-          "Zuli Monsters characters for fun",
-          "Customizable themes",
-          "Dark mode support",
-          "Full Accessibility support"
+          "شخصيات Zuli Monsters لإضافة المتعة",
+          "سمات قابلة للتخصيص",
+          "دعم الوضع الداكن",
+          "دعم كامل لميزات الوصول"
         ]
       }
     },
@@ -292,7 +293,10 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "قريبًا",
-      "download": "تحميل"
+      "download": "تحميل",
+      "appIconAlt": "أيقونة تطبيق ZuList",
+      "appStoreAlt": "تحميل من App Store",
+      "googlePlayAlt": "الحصول عليه من Google Play"
     },
     "perfectFor": {
       "title": "مثالي لـ",
@@ -389,7 +393,8 @@
       "section8": {
         "title": "8. اتصل بنا",
         "content": "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على:",
-        "email": "zuki.apps@gmail.com"
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "terms": {
@@ -618,10 +623,11 @@
         "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
-        "email": "zuki.apps@gmail.com",
-        "website": "https://zukiapps.com/zulist"
+        "title": "19. معلومات الاتصال",
+        "content": "إذا كان لديك أي أسئلة حول هذه الشروط، يرجى الاتصال بنا:",
+        "email": "zuki.apps.dev@gmail.com",
+        "website": "https://zukiapps.com/zulist",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "deleteAccount": {
@@ -676,8 +682,8 @@
         "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with account deletion, please contact us:",
+        "title": "اتصل بنا",
+        "content": "إذا كان لديك أسئلة أو مشاكل مع حذف الحساب، يرجى الاتصال بنا:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy",
@@ -794,8 +800,8 @@
         "link": "click here for full account deletion"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with data deletion, please contact us:",
+        "title": "اتصل بنا",
+        "content": "إذا كان لديك أسئلة أو مشاكل مع حذف البيانات، يرجى الاتصال بنا:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy"
@@ -805,18 +811,18 @@
       "title": "Support & Help",
       "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "اتصل بنا",
+        "description": "هل لديك سؤال أو تحتاج إلى مساعدة؟ أرسل لنا بريدًا إلكترونيًا وسنعود إليك في أقرب وقت ممكن.",
         "email": "zuki.apps@gmail.com"
       },
       "quickLinks": {
         "title": "Quick Links",
         "privacy": {
-          "title": "Privacy Policy",
+          "title": "سياسة الخصوصية",
           "description": "Learn how we protect your data"
         },
         "terms": {
-          "title": "Terms of Service",
+          "title": "شروط الخدمة",
           "description": "Read our terms and conditions"
         },
         "deleteAccount": {
@@ -862,15 +868,15 @@
     }
   },
   "hushGallery": {
-    "back": "Back to Home",
+    "back": "العودة إلى الرئيسية",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "قريباً",
       "title": "Hush Gallery",
       "subtitle": "Private Photo Gallery",
       "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
     },
     "features": {
-      "title": "Key Features",
+      "title": "الميزات الرئيسية",
       "privacy": {
         "title": "Privacy First",
         "description": "Your photos are stored securely with advanced encryption",
@@ -960,30 +966,30 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
-      "version": "Version",
-      "status": "Status",
+      "title": "🚧 قيد التطوير",
+      "description": "التطبيق حالياً قيد التطوير",
+      "version": "الإصدار",
+      "status": "الحالة",
       "versionValue": "0.1.0+4",
-      "statusValue": "Coming Soon"
+      "statusValue": "قريباً"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "قريباً",
       "description": "Hush Gallery will be available soon on app stores",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "روابط مهمة",
       "support": {
-        "title": "Technical Support",
+        "title": "الدعم الفني",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "الاتصال العام",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "وسائل التواصل الاجتماعي"
       }
     },
     "footer": {
@@ -1019,7 +1025,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "سياسة الخصوصية",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1054,9 +1060,9 @@
     }
   },
   "whistleCamera": {
-    "back": "Back to Home",
+    "back": "العودة إلى الرئيسية",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "قريباً",
       "title": "Whistle Camera",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1120,25 +1126,25 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "statusValue": "قريباً"
     },
     "download": {
-      "title": "Coming Soon",
+      "title": "قريباً",
       "description": "Whistle Camera will be available soon on the App Store",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Important Links",
+      "title": "روابط مهمة",
       "support": {
-        "title": "Technical Support",
+        "title": "الدعم الفني",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "الاتصال العام",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "وسائل التواصل الاجتماعي"
       }
     },
     "footer": {
@@ -1173,7 +1179,7 @@
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "سياسة الخصوصية",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1208,6 +1214,16 @@
     }
   },
   "common": {
-    "language": "Language"
+    "language": "اللغة",
+    "back": "رجوع",
+    "home": "الرئيسية",
+    "email": "البريد الإلكتروني",
+    "address": "العنوان",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "support": "الدعم",
+    "contact": "اتصل",
+    "contactUs": "اتصل بنا",
+    "dsaCompliance": "امتثال DSA"
   }
 }
