@@ -5,7 +5,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   
   // Define all static routes with their metadata
-  // Note: /hush-gallery and /whistle-camera are excluded because they have robots: 'noindex, nofollow'
   // Note: /zulist/invite/[id] is excluded because it's a dynamic route with parameters
   const routes: Array<{
     path: string;
@@ -54,6 +53,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
       changeFrequency: 'yearly',
       // Delete data page - rarely changes
+    },
+    {
+      path: '/dsa-compliance',
+      priority: 0.6,
+      changeFrequency: 'monthly',
+      // DSA compliance page - important legal page
+    },
+    {
+      path: '/hush-gallery',
+      priority: 0.8,
+      changeFrequency: 'weekly',
+      // Hush Gallery app page
+    },
+    {
+      path: '/whistle-camera',
+      priority: 0.8,
+      changeFrequency: 'weekly',
+      // Whistle Camera app page
     },
   ];
 

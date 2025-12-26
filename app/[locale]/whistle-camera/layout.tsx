@@ -14,49 +14,49 @@ export async function generateMetadata({
   }
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
-  const t = await getTranslations({ locale, namespace: 'zulist' });
+  const t = await getTranslations({ locale, namespace: 'whistleCamera' });
   
-  const title = `${t('hero.title')} - Smart Shopping List App | Zuki Apps`;
-  const description = `${t('hero.description')} Download ZuList - Manage & Share Lists for iOS and Android. Real-time collaboration, offline support, and smart recommendations.`;
-  const logoUrl = `${baseUrl}/images/zulist-icon.png`;
+  const title = `${t('hero.title')} - Smart Camera App | Zuki Apps`;
+  const description = `${t('hero.description')} Download Whistle Camera - Selfie & More for iOS. Whistle detection, incognito mode, and advanced camera controls.`;
+  const logoUrl = `${baseUrl}/logo.png`;
   
   return {
     title,
     description,
     keywords: [
-      'ZuList',
-      'ZuList - Manage & Share Lists',
-      'shopping list app',
-      'grocery list app',
-      'collaborative shopping',
-      'shared shopping list',
-      'family shopping app',
-      'Flutter app',
-      'iOS shopping list',
-      'Android shopping list',
-      'real-time sync shopping',
-      'offline shopping list',
-      'smart shopping app',
-      'shopping list manager',
-      'grocery list manager',
-      'family shopping list',
-      'roommate shopping list',
-      'event shopping list',
-      'smart product recommendations',
-      'shopping list with photos',
-      'shopping list categories',
-      'premium shopping list app'
+      'Whistle Camera',
+      'Whistle Camera - Selfie & More',
+      'smart camera app',
+      'whistle detection camera',
+      'incognito camera mode',
+      'advanced camera controls',
+      'mobile photography app',
+      'camera app iOS',
+      'smart photo capture',
+      'whistle activated camera',
+      'incognito photo capture',
+      'private camera app',
+      'selfie camera app',
+      'innovative camera app',
+      'photography app iOS',
+      'camera with whistle detection',
+      'discreet camera app',
+      'smart camera features',
+      'advanced photography app',
+      'iOS camera app',
+      'camera app with incognito',
+      'whistle trigger camera'
     ],
     alternates: {
       canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/zulist` 
-        : `${baseUrl}/${locale}/zulist`,
+        ? `${baseUrl}/whistle-camera` 
+        : `${baseUrl}/${locale}/whistle-camera`,
       languages: Object.fromEntries(
         routing.locales.map((loc) => [
           loc,
           loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/zulist`
-            : `${baseUrl}/${loc}/zulist`
+            ? `${baseUrl}/whistle-camera`
+            : `${baseUrl}/${loc}/whistle-camera`
         ])
       )
     },
@@ -64,8 +64,8 @@ export async function generateMetadata({
       type: 'website',
       locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
       url: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-        ? `${baseUrl}/zulist`
-        : `${baseUrl}/${locale}/zulist`,
+        ? `${baseUrl}/whistle-camera`
+        : `${baseUrl}/${locale}/whistle-camera`,
       siteName: 'Zuki Apps',
       title,
       description,
@@ -73,7 +73,7 @@ export async function generateMetadata({
         url: logoUrl,
         width: 1200,
         height: 630,
-        alt: `${t('hero.title')} - Zuki Apps`,
+        alt: `${t('title')} - Zuki Apps`,
       }],
     },
     twitter: {
@@ -98,7 +98,7 @@ export async function generateMetadata({
   };
 }
 
-export default function ZuListLayout({
+export default function WhistleCameraLayout({
   children,
 }: {
   children: React.ReactNode;

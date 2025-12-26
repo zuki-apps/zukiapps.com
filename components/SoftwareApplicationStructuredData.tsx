@@ -34,9 +34,17 @@ export default function SoftwareApplicationStructuredData({
 }: SoftwareApplicationStructuredDataProps) {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   
+  // Determine app URL based on app name
+  let appPath = '/zulist';
+  if (appName.includes('Hush Gallery')) {
+    appPath = '/hush-gallery';
+  } else if (appName.includes('Whistle Camera')) {
+    appPath = '/whistle-camera';
+  }
+  
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-    ? `${baseUrl}/zulist`
-    : `${baseUrl}/${locale}/zulist`;
+    ? `${baseUrl}${appPath}`
+    : `${baseUrl}/${locale}${appPath}`;
 
   const softwareApplicationData: {
     '@context': string;
@@ -67,6 +75,8 @@ export default function SoftwareApplicationStructuredData({
       operatingSystem: string;
       url: string;
     }>;
+    applicationSubCategory?: string;
+    softwareVersion?: string;
   } = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',

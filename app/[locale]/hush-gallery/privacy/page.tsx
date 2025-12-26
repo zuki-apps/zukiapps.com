@@ -22,7 +22,17 @@ export async function generateMetadata({
   return {
     title: 'Privacy Policy - Hush Gallery | Zuki Apps',
     description: 'Privacy Policy for Hush Gallery - Private photo gallery application. Learn how we collect, use, and protect your data.',
-    robots: 'index, follow',
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     alternates: {
       canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
         ? `${baseUrl}/hush-gallery/privacy` 

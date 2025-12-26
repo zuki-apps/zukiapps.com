@@ -32,13 +32,33 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'home' });
   
   const title = `${t('subtitle')} | ${siteName}`;
-  const description = `${t('subtitle')}. ${t('tagline')} ${t('zulist.description')}`;
+  const description = `${t('subtitle')}. ${t('tagline')} Download ZuList - Manage & Share Lists, Hush Gallery - Hide Photos & Videos, and Whistle Camera - Selfie & More.`;
   const logoUrl = `${baseUrl}/logo.png`;
   
   return {
     title,
     description,
-    keywords: ['mobile app developer', 'Israel', 'Flutter', 'ZuList', 'shopping list app', 'mobile applications'],
+    keywords: [
+      'mobile app developer',
+      'Israel',
+      'Flutter',
+      'ZuList',
+      'ZuList - Manage & Share Lists',
+      'Hush Gallery',
+      'Hush Gallery - Hide Photos & Videos',
+      'Whistle Camera',
+      'Whistle Camera - Selfie & More',
+      'shopping list app',
+      'grocery list app',
+      'private photo gallery',
+      'secure photo storage',
+      'smart camera app',
+      'mobile applications',
+      'iOS app developer',
+      'Android app developer',
+      'app store',
+      'mobile app development'
+    ],
     authors: [{ name: 'Zuki Apps' }],
     creator: 'Zuki Apps',
     publisher: 'Zuki Apps',
@@ -155,6 +175,13 @@ export default async function LocaleLayout({
     '@type': 'WebSite',
     name: 'Zuki Apps',
     url: baseUrl,
+    description: 'Mobile App Developer from Israel. Download ZuList - Manage & Share Lists, Hush Gallery - Hide Photos & Videos, and Whistle Camera - Selfie & More.',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Zuki Apps',
+      url: baseUrl,
+    },
+    inLanguage: locale,
   };
 
   return (

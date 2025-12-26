@@ -14,49 +14,49 @@ export async function generateMetadata({
   }
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
-  const t = await getTranslations({ locale, namespace: 'zulist' });
+  const t = await getTranslations({ locale, namespace: 'hushGallery' });
   
-  const title = `${t('hero.title')} - Smart Shopping List App | Zuki Apps`;
-  const description = `${t('hero.description')} Download ZuList - Manage & Share Lists for iOS and Android. Real-time collaboration, offline support, and smart recommendations.`;
-  const logoUrl = `${baseUrl}/images/zulist-icon.png`;
+  const title = `${t('hero.title')} - Private Photo Gallery | Zuki Apps`;
+  const description = `${t('hero.description')} Download Hush Gallery - Hide Photos & Videos for iOS and Android. Secure, private photo storage with encryption and app lock.`;
+  const logoUrl = `${baseUrl}/images/hush-gallery-icon.png`;
   
   return {
     title,
     description,
     keywords: [
-      'ZuList',
-      'ZuList - Manage & Share Lists',
-      'shopping list app',
-      'grocery list app',
-      'collaborative shopping',
-      'shared shopping list',
-      'family shopping app',
-      'Flutter app',
-      'iOS shopping list',
-      'Android shopping list',
-      'real-time sync shopping',
-      'offline shopping list',
-      'smart shopping app',
-      'shopping list manager',
-      'grocery list manager',
-      'family shopping list',
-      'roommate shopping list',
-      'event shopping list',
-      'smart product recommendations',
-      'shopping list with photos',
-      'shopping list categories',
-      'premium shopping list app'
+      'Hush Gallery',
+      'Hush Gallery - Hide Photos & Videos',
+      'private photo gallery',
+      'secure photo storage',
+      'encrypted photo backup',
+      'photo privacy app',
+      'private gallery app',
+      'secure photo app',
+      'photo organization app',
+      'hide photos app',
+      'private video storage',
+      'encrypted cloud backup',
+      'photo lock app',
+      'secure gallery app',
+      'private photo vault',
+      'photo privacy protection',
+      'iOS photo privacy',
+      'Android photo privacy',
+      'photo encryption app',
+      'secure photo gallery',
+      'private photo app',
+      'photo security app'
     ],
     alternates: {
       canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/zulist` 
-        : `${baseUrl}/${locale}/zulist`,
+        ? `${baseUrl}/hush-gallery` 
+        : `${baseUrl}/${locale}/hush-gallery`,
       languages: Object.fromEntries(
         routing.locales.map((loc) => [
           loc,
           loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/zulist`
-            : `${baseUrl}/${loc}/zulist`
+            ? `${baseUrl}/hush-gallery`
+            : `${baseUrl}/${loc}/hush-gallery`
         ])
       )
     },
@@ -64,8 +64,8 @@ export async function generateMetadata({
       type: 'website',
       locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
       url: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-        ? `${baseUrl}/zulist`
-        : `${baseUrl}/${locale}/zulist`,
+        ? `${baseUrl}/hush-gallery`
+        : `${baseUrl}/${locale}/hush-gallery`,
       siteName: 'Zuki Apps',
       title,
       description,
@@ -98,7 +98,7 @@ export async function generateMetadata({
   };
 }
 
-export default function ZuListLayout({
+export default function HushGalleryLayout({
   children,
 }: {
   children: React.ReactNode;
