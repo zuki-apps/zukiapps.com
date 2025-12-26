@@ -32,7 +32,7 @@
     "hushGallery": {
       "title": "Hush Gallery",
       "subtitle": "Galerie photo privée - Bientôt disponible",
-      "description": "Hush Gallery est une application de galerie photo sécurisée et privée qui vous permet de garder vos photos personnelles en sécurité et organisées. Avec des fonctionnalités de confidentialité avancées et un design intuitif, c'est la solution parfaite pour protéger vos souvenirs.",
+      "description": "Une application de galerie photo sécurisée et privée avec stockage local, sauvegarde cloud chiffrée optionnelle (iCloud/Google Drive), tags personnalisés, verrouillage d'application et fonctionnalités premium. Gardez vos photos personnelles en sécurité et organisées.",
       "features": {
         "privacy": "Confidentialité d'abord",
         "secure": "Stockage sécurisé",
@@ -103,20 +103,19 @@
       ]
     },
     "contact": {
-      "title": "Nous contacter",
-      "content": "Pour toute demande, plainte ou pour exercer vos droits de consommateur, veuillez nous contacter :",
+      "title": "Contact Us",
+      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
   },
   "zulist": {
-    "back": "Retour à l'accueil",
+    "back": "Back to Home",
     "hero": {
       "badge": "Disponible Maintenant - Version 1.0.1",
       "title": "ZuList",
       "subtitle": "Listes de courses intelligentes pour les familles",
-      "description": "L'application parfaite pour les familles et les amis qui font les courses ensemble. Créez, partagez et gérez des listes de courses en temps réel avec une collaboration fluide.",
-      "structuredDataDescription": "ZuList est l'application de listes de courses ultime conçue pour les familles et les amis qui font les courses ensemble. Créez, partagez et gérez des listes de courses en temps réel avec une collaboration fluide. Les fonctionnalités incluent la synchronisation en temps réel, le support hors ligne, les suggestions intelligentes de produits, la gestion des catégories, l'historique des achats et les abonnements premium."
+      "description": "L'application parfaite pour les familles et les amis qui font les courses ensemble. Créez, partagez et gérez des listes de courses en temps réel avec une collaboration fluide."
     },
     "features": {
       "title": "Fonctionnalités clés",
@@ -167,8 +166,8 @@
         ]
       },
       "multilang": {
-      "title": "Support de 12 langues",
-      "description": "Support complet pour 12 langues avec interface traduite",
+        "title": "Support de 12 langues",
+        "description": "Support complet pour 12 langues avec interface traduite",
         "items": [
           "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
           "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
@@ -177,35 +176,35 @@
         ]
       },
       "categories": {
-        "title": "Gestion des catégories",
-        "description": "Organisez vos courses par catégories pour plus d'efficacité",
+        "title": "Category Management",
+        "description": "Organize your shopping by categories for better efficiency",
         "items": [
-          "Catégories personnalisées",
-          "Icônes personnalisées",
-          "Organisation automatique"
+          "Custom categories",
+          "Custom icons",
+          "Automatic organization"
         ]
       },
       "photos": {
-        "title": "Photos personnalisées",
-        "description": "Ajoutez des photos personnalisées aux articles",
+        "title": "Custom Photos",
+        "description": "Add custom photos to items",
         "items": [
-          "Capture directe avec l'appareil photo",
-          "Sélection depuis la galerie",
-          "Optimisation automatique"
+          "Direct camera capture",
+          "Gallery selection",
+          "Automatic optimization"
         ]
       },
       "history": {
-        "title": "Historique des achats",
-        "description": "Suivez l’historique de vos achats",
+        "title": "Purchase History",
+        "description": "Track your shopping history",
         "items": [
-          "Statistiques avancées (Premium)",
-          "Suivi de vos habitudes d’achat",
-          "Rapports détaillés"
+          "Advanced statistics (Premium)",
+          "Track shopping habits",
+          "Detailed reports"
         ]
       },
       "firebase": {
-        "title": "Intégration Firebase",
-        "description": "Synchronisation cloud sécurisée avec Firebase",
+        "title": "Firebase Integration",
+        "description": "Secure cloud sync with Firebase",
         "items": [
           "Authentification, Base de données en temps réel, Firestore",
           "Stockage, Fonctions, FCM",
@@ -213,23 +212,23 @@
         ]
       },
       "security": {
-        "title": "Confidentialité et sécurité",
-        "description": "Authentification sécurisée et protection des données",
+        "title": "Privacy & Security",
+        "description": "Secure authentication and data protection",
         "items": [
-          "Authentification sécurisée (Google, Apple)",
-          "Données chiffrées",
-          "Contrôle total du partage",
-          "Suppression complète du compte"
+          "Secure authentication (Google, Apple)",
+          "Encrypted data",
+          "Full control over sharing",
+          "Complete account deletion"
         ]
       },
       "ui": {
-        "title": "Belle et intuitive",
-        "description": "Interface moderne et épurée avec une excellente expérience utilisateur",
+        "title": "Beautiful & Intuitive",
+        "description": "Modern and clean interface with excellent user experience",
         "items": [
-          "Personnages Zuli Monsters pour plus de fun",
-          "Thèmes personnalisables",
-          "Prise en charge du mode sombre",
-          "Support complet de l’accessibilité"
+          "Zuli Monsters characters for fun",
+          "Customizable themes",
+          "Dark mode support",
+          "Full Accessibility support"
         ]
       }
     },
@@ -293,10 +292,7 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "Bientôt disponible",
-      "download": "Télécharger",
-      "appIconAlt": "Icône de l'application ZuList",
-      "appStoreAlt": "Télécharger sur l'App Store",
-      "googlePlayAlt": "Télécharger sur Google Play"
+      "download": "Télécharger"
     },
     "perfectFor": {
       "title": "Parfait pour",
@@ -393,8 +389,7 @@
       "section8": {
         "title": "8. Contactez-nous",
         "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "email": "zuki.apps@gmail.com"
       }
     },
     "terms": {
@@ -623,11 +618,10 @@
         "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
       },
       "section19": {
-        "title": "19. Informations de contact",
-        "content": "Si vous avez des questions concernant ces Conditions, veuillez nous contacter :",
-        "email": "zuki.apps.dev@gmail.com",
-        "website": "https://zukiapps.com/zulist",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps@gmail.com",
+        "website": "https://zukiapps.com/zulist"
       }
     },
     "deleteAccount": {
@@ -682,8 +676,8 @@
         "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
       },
       "contact": {
-        "title": "Nous contacter",
-        "content": "Si vous avez des questions ou des problèmes concernant la suppression du compte, contactez-nous :",
+        "title": "Contact Us",
+        "content": "If you have questions or issues with account deletion, please contact us:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy",
@@ -800,8 +794,8 @@
         "link": "click here for full account deletion"
       },
       "contact": {
-        "title": "Nous contacter",
-        "content": "Si vous avez des questions ou des problèmes concernant la suppression des données, contactez-nous :",
+        "title": "Contact Us",
+        "content": "If you have questions or issues with data deletion, please contact us:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy"
@@ -811,18 +805,18 @@
       "title": "Support & Help",
       "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
       "contact": {
-        "title": "Nous contacter",
-        "description": "Vous avez une question ou besoin d'aide ? Envoyez-nous un e-mail et nous vous répondrons dans les plus brefs délais.",
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
         "email": "zuki.apps@gmail.com"
       },
       "quickLinks": {
         "title": "Quick Links",
         "privacy": {
-          "title": "Politique de confidentialité",
+          "title": "Privacy Policy",
           "description": "Learn how we protect your data"
         },
         "terms": {
-          "title": "Conditions d'utilisation",
+          "title": "Terms of Service",
           "description": "Read our terms and conditions"
         },
         "deleteAccount": {
@@ -868,15 +862,15 @@
     }
   },
   "hushGallery": {
-    "back": "Retour à l'accueil",
+    "back": "Back to Home",
     "hero": {
-      "badge": "Bientôt disponible",
+      "badge": "Coming Soon",
       "title": "Hush Gallery",
       "subtitle": "Private Photo Gallery",
       "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
     },
     "features": {
-      "title": "Fonctionnalités clés",
+      "title": "Key Features",
       "privacy": {
         "title": "Privacy First",
         "description": "Your photos are stored securely with advanced encryption",
@@ -966,30 +960,30 @@
       }
     },
     "status": {
-      "title": "🚧 En développement",
-      "description": "L’application est actuellement en cours de développement",
+      "title": "🚧 In Development",
+      "description": "The app is currently in development",
       "version": "Version",
-      "status": "Statut",
-      "versionValue": "0.1.0+4",
-      "statusValue": "Bientôt disponible"
+      "status": "Status",
+      "versionValue": "0.3.3+1",
+      "statusValue": "Coming Soon"
     },
     "download": {
-      "title": "Bientôt disponible",
+      "title": "Coming Soon",
       "description": "Hush Gallery will be available soon on app stores",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Liens importants",
+      "title": "Important Links",
       "support": {
-        "title": "Support technique",
+        "title": "Technical Support",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "Contact général",
+        "title": "General Contact",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Réseaux sociaux"
+        "title": "Social Media"
       }
     },
     "footer": {
@@ -1025,7 +1019,7 @@
       }
     },
     "privacy": {
-      "title": "Politique de confidentialité",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1057,12 +1051,61 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
+    },
+    "deleteAccount": {
+      "title": "Supprimer le compte Hush Gallery",
+      "intro": "Si vous souhaitez supprimer votre compte et toutes les données associées, veuillez suivre les étapes ci-dessous. Ce processus est permanent et ne peut pas être annulé.",
+      "warning": {
+        "title": "⚠️ Avertissement important",
+        "content": "La suppression du compte est une action permanente et ne peut pas être annulée. Toutes les données associées à votre compte seront définitivement supprimées, y compris les photos, vidéos, dossiers et paramètres."
+      },
+      "steps": {
+        "title": "Instructions de suppression de compte",
+        "step1": "Ouvrez l'application Hush Gallery sur votre appareil",
+        "step2": "Connectez-vous à votre compte (si vous ne l'avez pas déjà fait)",
+        "step3": "Accédez aux Paramètres (généralement accessible depuis le menu principal ou le profil)",
+        "step4": "Faites défiler jusqu'à trouver l'option \"Supprimer le compte\" ou \"Paramètres du compte\"",
+        "step5": "Appuyez sur le bouton \"Supprimer le compte\" et lisez attentivement le message d'avertissement",
+        "step6": "Confirmez la suppression - le compte et toutes les données seront définitivement supprimés"
+      },
+      "data": {
+        "title": "Données qui seront supprimées",
+        "intro": "Lorsque vous supprimez votre compte, les données suivantes seront définitivement supprimées:",
+        "item1": "Informations du compte: nom, adresse e-mail, ID utilisateur (si vous utilisez la sauvegarde cloud)",
+        "item2": "Photos et vidéos: tous les médias stockés dans l'application",
+        "item3": "Dossiers et collections: tous les dossiers et albums organisés",
+        "item4": "Paramètres et préférences: paramètres de l'application, PIN/mot de passe, paramètres biométriques",
+        "item5": "Données de sauvegarde cloud: toutes les données de sauvegarde chiffrées (si la sauvegarde cloud était activée)",
+        "item6": "Métadonnées: toutes les métadonnées associées à vos médias",
+        "item7": "Stockage local: toutes les données stockées dans le répertoire privé de l'application"
+      },
+      "partialDelete": {
+        "title": "Supprimer certaines données (sans supprimer le compte)",
+        "intro": "Si vous souhaitez supprimer uniquement certaines données sans supprimer le compte, vous pouvez:",
+        "item1": "Supprimer des photos/vidéos individuelles: Ouvrir le média → Option supprimer",
+        "item2": "Supprimer des dossiers: Ouvrir le dossier → Option supprimer le dossier",
+        "item3": "Effacer les données de l'application: Paramètres → Effacer toutes les données (conserve le compte)",
+        "item4": "Désactiver la sauvegarde cloud: Paramètres → Désactiver la sauvegarde cloud (supprime les données cloud mais conserve les données locales)"
+      },
+      "retention": {
+        "title": "Période de conservation",
+        "content": "Après la suppression du compte, les données seront supprimées de nos serveurs dans les 30 jours. Pendant cette période, les données peuvent être conservées dans les sauvegardes, mais ne seront pas accessibles via l'application. Les données locales sur votre appareil seront supprimées immédiatement lorsque vous supprimez le compte via l'application."
+      },
+      "contact": {
+        "title": "Contactez-nous",
+        "content": "Si vous avez des questions ou des problèmes concernant la suppression du compte, veuillez nous contacter:",
+        "email": "E-mail",
+        "privacy": "Politique de confidentialité",
+        "privacyLink": "Lire la politique de confidentialité complète",
+        "terms": "Conditions d'utilisation",
+        "termsLink": "Lire les conditions d'utilisation"
+      }
     }
   },
   "whistleCamera": {
-    "back": "Retour à l'accueil",
+    "back": "Back to Home",
     "hero": {
-      "badge": "Bientôt disponible",
+      "badge": "Coming Soon",
       "title": "Whistle Camera",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1126,25 +1169,25 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "In Development",
-      "statusValue": "Bientôt disponible"
+      "statusValue": "Coming Soon"
     },
     "download": {
-      "title": "Bientôt disponible",
+      "title": "Coming Soon",
       "description": "Whistle Camera will be available soon on the App Store",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Liens importants",
+      "title": "Important Links",
       "support": {
-        "title": "Support technique",
+        "title": "Technical Support",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "Contact général",
+        "title": "General Contact",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Réseaux sociaux"
+        "title": "Social Media"
       }
     },
     "footer": {
@@ -1179,7 +1222,7 @@
       }
     },
     "privacy": {
-      "title": "Politique de confidentialité",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1214,16 +1257,6 @@
     }
   },
   "common": {
-    "language": "Langue",
-    "back": "Retour",
-    "home": "Accueil",
-    "email": "E-mail",
-    "address": "Adresse",
-    "privacyPolicy": "Politique de confidentialité",
-    "termsOfService": "Conditions d'utilisation",
-    "support": "Support",
-    "contact": "Contact",
-    "contactUs": "Nous contacter",
-    "dsaCompliance": "Conformité DSA"
+    "language": "Language"
   }
 }

@@ -32,7 +32,7 @@
     "hushGallery": {
       "title": "Hush Gallery",
       "subtitle": "Galería de fotos privada - Próximamente",
-      "description": "Hush Gallery es una aplicación de galería de fotos segura y privada que te permite mantener tus fotos personales seguras y organizadas. Con funciones de privacidad avanzadas y diseño intuitivo, es la solución perfecta para proteger tus recuerdos.",
+      "description": "Una aplicación de galería de fotos segura y privada con almacenamiento local, copia de seguridad en la nube cifrada opcional (iCloud/Google Drive), etiquetas personalizadas, bloqueo de aplicación y funciones premium. Mantén tus fotos personales seguras y organizadas.",
       "features": {
         "privacy": "Privacidad primero",
         "secure": "Almacenamiento seguro",
@@ -970,7 +970,7 @@
       "description": "La aplicación está actualmente en desarrollo",
       "version": "Versión",
       "status": "Estado",
-      "versionValue": "0.1.0+4",
+      "versionValue": "0.3.3+1",
       "statusValue": "Próximamente"
     },
     "download": {
@@ -1056,6 +1056,55 @@
         "content": "Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos en:",
         "email": "zuki.apps@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "deleteAccount": {
+      "title": "Eliminar cuenta de Hush Gallery",
+      "intro": "Si desea eliminar su cuenta y todos los datos asociados, siga los pasos a continuación. Este proceso es permanente y no se puede deshacer.",
+      "warning": {
+        "title": "⚠️ Advertencia importante",
+        "content": "La eliminación de la cuenta es una acción permanente y no se puede deshacer. Todos los datos asociados con su cuenta se eliminarán permanentemente, incluidas fotos, videos, carpetas y configuraciones."
+      },
+      "steps": {
+        "title": "Instrucciones para eliminar la cuenta",
+        "step1": "Abra la aplicación Hush Gallery en su dispositivo",
+        "step2": "Inicie sesión en su cuenta (si aún no lo ha hecho)",
+        "step3": "Navegue a Configuración (generalmente accesible desde el menú principal o perfil)",
+        "step4": "Desplácese hacia abajo hasta encontrar la opción \"Eliminar cuenta\" o \"Configuración de cuenta\"",
+        "step5": "Toque el botón \"Eliminar cuenta\" y lea cuidadosamente el mensaje de advertencia",
+        "step6": "Confirme la eliminación: la cuenta y todos los datos se eliminarán permanentemente"
+      },
+      "data": {
+        "title": "Datos que se eliminarán",
+        "intro": "Cuando elimine su cuenta, se eliminarán permanentemente los siguientes datos:",
+        "item1": "Información de la cuenta: nombre, dirección de correo electrónico, ID de usuario (si usa copia de seguridad en la nube)",
+        "item2": "Fotos y videos: todos los medios almacenados en la aplicación",
+        "item3": "Carpetas y colecciones: todas las carpetas y álbumes organizados",
+        "item4": "Configuraciones y preferencias: configuraciones de la aplicación, PIN/contraseña, configuraciones biométricas",
+        "item5": "Datos de copia de seguridad en la nube: todos los datos de copia de seguridad cifrados (si la copia de seguridad en la nube estaba habilitada)",
+        "item6": "Metadatos: todos los metadatos asociados con sus medios",
+        "item7": "Almacenamiento local: todos los datos almacenados en el directorio privado de la aplicación"
+      },
+      "partialDelete": {
+        "title": "Eliminar algunos datos (sin eliminar la cuenta)",
+        "intro": "Si desea eliminar solo algunos datos sin eliminar la cuenta, puede:",
+        "item1": "Eliminar fotos/videos individuales: Abrir el medio → Opción eliminar",
+        "item2": "Eliminar carpetas: Abrir carpeta → Opción eliminar carpeta",
+        "item3": "Borrar datos de la aplicación: Configuración → Borrar todos los datos (mantiene la cuenta)",
+        "item4": "Desactivar copia de seguridad en la nube: Configuración → Desactivar copia de seguridad en la nube (elimina datos en la nube pero mantiene datos locales)"
+      },
+      "retention": {
+        "title": "Período de retención",
+        "content": "Después de eliminar la cuenta, los datos se eliminarán de nuestros servidores dentro de 30 días. Durante este período, los datos pueden conservarse en copias de seguridad, pero no serán accesibles a través de la aplicación. Los datos locales en su dispositivo se eliminarán inmediatamente cuando elimine la cuenta a través de la aplicación."
+      },
+      "contact": {
+        "title": "Contáctenos",
+        "content": "Si tiene preguntas o problemas con la eliminación de la cuenta, contáctenos:",
+        "email": "Correo electrónico",
+        "privacy": "Política de privacidad",
+        "privacyLink": "Leer la política de privacidad completa",
+        "terms": "Términos de servicio",
+        "termsLink": "Leer los términos de servicio"
       }
     }
   },

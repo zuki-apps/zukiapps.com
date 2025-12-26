@@ -32,7 +32,7 @@
     "hushGallery": {
       "title": "Hush Gallery",
       "subtitle": "私人照片库 - 即将推出",
-      "description": "Hush Gallery是一款安全私密的照片库应用程序，可让您安全有序地保存个人照片。具有先进的隐私功能和直观的设计，是保护您回忆的完美解决方案。",
+      "description": "一款安全私密的照片库应用程序，具有本地存储、可选加密云备份(iCloud/Google Drive)、自定义标签、应用锁定和高级功能。安全有序地保存您的个人照片。",
       "features": {
         "privacy": "隐私优先",
         "secure": "安全存储",
@@ -103,8 +103,8 @@
       ]
     },
     "contact": {
-      "title": "联系我们",
-      "content": "如有查询、投诉或要行使您的消费者权利，请联系我们：",
+      "title": "Contact Us",
+      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
@@ -115,8 +115,7 @@
       "badge": "现已推出 - 版本 1.0.1",
       "title": "ZuList",
       "subtitle": "面向家庭的智能购物清单",
-      "description": "适合一起购物的家庭和朋友的完美应用程序。实时创建、共享和管理购物清单，实现无缝协作。",
-      "structuredDataDescription": "ZuList是为一起购物的家庭和朋友设计的终极购物清单应用程序。实时创建、共享和管理购物清单，实现无缝协作。功能包括实时同步、离线支持、智能产品建议、类别管理、购买历史和高级订阅。"
+      "description": "适合一起购物的家庭和朋友的完美应用程序。实时创建、共享和管理购物清单，实现无缝协作。"
     },
     "features": {
       "title": "主要功能",
@@ -293,10 +292,7 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "即将推出",
-      "download": "下载",
-      "appIconAlt": "ZuList应用图标",
-      "appStoreAlt": "在App Store下载",
-      "googlePlayAlt": "在Google Play获取"
+      "download": "下载"
     },
     "perfectFor": {
       "title": "适合",
@@ -341,7 +337,7 @@
       "bundle": "包ID：com.zukiapps.zulist | 版本：1.0.2+1"
     },
     "privacy": {
-      "title": "隐私政策",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -391,10 +387,9 @@
         "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
       },
       "section8": {
-        "title": "8. 联系我们",
-        "content": "如果您对此隐私政策有任何疑问，请通过以下方式联系我们：",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps@gmail.com"
       }
     },
     "terms": {
@@ -623,11 +618,10 @@
         "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
       },
       "section19": {
-        "title": "19. 联系信息",
-        "content": "如果您对这些条款有任何疑问，请通过以下方式联系我们：",
-        "email": "zuki.apps.dev@gmail.com",
-        "website": "https://zukiapps.com/zulist",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps@gmail.com",
+        "website": "https://zukiapps.com/zulist"
       }
     },
     "deleteAccount": {
@@ -682,8 +676,8 @@
         "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
       },
       "contact": {
-        "title": "联系我们",
-        "content": "如果您对账户删除有疑问或问题，请联系我们：",
+        "title": "Contact Us",
+        "content": "If you have questions or issues with account deletion, please contact us:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy",
@@ -800,8 +794,8 @@
         "link": "click here for full account deletion"
       },
       "contact": {
-        "title": "联系我们",
-        "content": "如果您对数据删除有疑问或问题，请联系我们：",
+        "title": "Contact Us",
+        "content": "If you have questions or issues with data deletion, please contact us:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy"
@@ -868,15 +862,15 @@
     }
   },
   "hushGallery": {
-    "back": "返回首页",
+    "back": "Back to Home",
     "hero": {
-      "badge": "即将推出",
+      "badge": "Coming Soon",
       "title": "Hush Gallery",
       "subtitle": "Private Photo Gallery",
       "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
     },
     "features": {
-      "title": "主要功能",
+      "title": "Key Features",
       "privacy": {
         "title": "Privacy First",
         "description": "Your photos are stored securely with advanced encryption",
@@ -966,30 +960,30 @@
       }
     },
     "status": {
-      "title": "🚧 开发中",
-      "description": "该应用目前正在开发中",
-      "version": "版本",
-      "status": "状态",
-      "versionValue": "0.1.0+4",
-      "statusValue": "即将推出"
+      "title": "🚧 In Development",
+      "description": "The app is currently in development",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "0.3.3+1",
+      "statusValue": "Coming Soon"
     },
     "download": {
-      "title": "即将推出",
+      "title": "Coming Soon",
       "description": "Hush Gallery will be available soon on app stores",
       "soon": "Available soon"
     },
     "links": {
-      "title": "重要链接",
+      "title": "Important Links",
       "support": {
-        "title": "技术支持",
+        "title": "Technical Support",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "一般联系",
+        "title": "General Contact",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "社交媒体"
+        "title": "Social Media"
       }
     },
     "footer": {
@@ -1025,7 +1019,7 @@
       }
     },
     "privacy": {
-      "title": "隐私政策",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1057,12 +1051,61 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
+    },
+    "deleteAccount": {
+      "title": "Delete Hush Gallery Account",
+      "intro": "If you wish to delete your account and all associated data, please follow the steps below. This process is permanent and cannot be undone.",
+      "warning": {
+        "title": "⚠️ Important Warning",
+        "content": "Account deletion is a permanent action and cannot be undone. All data associated with your account will be permanently deleted, including photos, videos, folders, and settings."
+      },
+      "steps": {
+        "title": "Account Deletion Instructions",
+        "step1": "Open the Hush Gallery app on your device",
+        "step2": "Log in to your account (if you haven't already)",
+        "step3": "Navigate to Settings (usually accessible from the main menu or profile)",
+        "step4": "Scroll down until you find the \"Delete Account\" or \"Account Settings\" option",
+        "step5": "Tap the \"Delete Account\" button and read the warning message carefully",
+        "step6": "Confirm the deletion - the account and all data will be permanently deleted"
+      },
+      "data": {
+        "title": "Data That Will Be Deleted",
+        "intro": "When you delete your account, the following data will be permanently deleted:",
+        "item1": "Account information: name, email address, user ID (if using cloud backup)",
+        "item2": "Photos and videos: all media stored in the app",
+        "item3": "Folders and collections: all organized folders and albums",
+        "item4": "Settings and preferences: app settings, PIN/password, biometric settings",
+        "item5": "Cloud backup data: all encrypted backup data (if cloud backup was enabled)",
+        "item6": "Metadata: all metadata associated with your media",
+        "item7": "Local storage: all data stored in the app's private directory"
+      },
+      "partialDelete": {
+        "title": "Deleting Some Data (Without Deleting the Account)",
+        "intro": "If you wish to delete only some data without deleting the account, you can:",
+        "item1": "Delete individual photos/videos: Open the media → Delete option",
+        "item2": "Delete folders: Open folder → Delete folder option",
+        "item3": "Clear app data: Settings → Clear all data (keeps account)",
+        "item4": "Disable cloud backup: Settings → Disable cloud backup (removes cloud data but keeps local data)"
+      },
+      "retention": {
+        "title": "Retention Period",
+        "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app. Local data on your device will be deleted immediately when you delete the account through the app."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have questions or issues with account deletion, please contact us:",
+        "email": "Email",
+        "privacy": "Privacy Policy",
+        "privacyLink": "Read the full privacy policy",
+        "terms": "Terms of Service",
+        "termsLink": "Read the terms of service"
+      }
     }
   },
   "whistleCamera": {
-    "back": "返回首页",
+    "back": "Back to Home",
     "hero": {
-      "badge": "即将推出",
+      "badge": "Coming Soon",
       "title": "Whistle Camera",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1126,25 +1169,25 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "In Development",
-      "statusValue": "即将推出"
+      "statusValue": "Coming Soon"
     },
     "download": {
-      "title": "即将推出",
+      "title": "Coming Soon",
       "description": "Whistle Camera will be available soon on the App Store",
       "soon": "Available soon"
     },
     "links": {
-      "title": "重要链接",
+      "title": "Important Links",
       "support": {
-        "title": "技术支持",
+        "title": "Technical Support",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "一般联系",
+        "title": "General Contact",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "社交媒体"
+        "title": "Social Media"
       }
     },
     "footer": {
@@ -1179,7 +1222,7 @@
       }
     },
     "privacy": {
-      "title": "隐私政策",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1214,16 +1257,6 @@
     }
   },
   "common": {
-    "language": "语言",
-    "back": "返回",
-    "home": "首页",
-    "email": "电子邮件",
-    "address": "地址",
-    "privacyPolicy": "隐私政策",
-    "termsOfService": "服务条款",
-    "support": "支持",
-    "contact": "联系",
-    "contactUs": "联系我们",
-    "dsaCompliance": "DSA合规"
+    "language": "语言"
   }
 }

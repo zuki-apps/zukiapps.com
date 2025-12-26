@@ -32,7 +32,7 @@
     "hushGallery": {
       "title": "Hush Gallery",
       "subtitle": "Приватная фотогалерея - Скоро",
-      "description": "Hush Gallery - это безопасное и приватное приложение фотогалереи, которое позволяет хранить ваши личные фотографии в безопасности и порядке. С расширенными функциями конфиденциальности и интуитивным дизайном, это идеальное решение для защиты ваших воспоминаний.",
+      "description": "Безопасное и приватное приложение фотогалереи с локальным хранилищем, опциональным зашифрованным облачным резервным копированием (iCloud/Google Drive), пользовательскими тегами, блокировкой приложения и премиум-функциями. Храните ваши личные фотографии в безопасности и порядке.",
       "features": {
         "privacy": "Конфиденциальность прежде всего",
         "secure": "Безопасное хранилище",
@@ -103,8 +103,8 @@
       ]
     },
     "contact": {
-      "title": "Связаться с нами",
-      "content": "По вопросам, жалобам или для осуществления ваших прав потребителя, пожалуйста, свяжитесь с нами:",
+      "title": "Contact Us",
+      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
@@ -115,8 +115,7 @@
       "badge": "Доступно Сейчас - Версия 1.0.1",
       "title": "ZuList",
       "subtitle": "Умные списки покупок для семей",
-      "description": "Идеальное приложение для семей и друзей, которые делают покупки вместе. Создавайте, делитесь и управляйте списками покупок в реальном времени с бесшовным сотрудничеством.",
-      "structuredDataDescription": "ZuList - это идеальное приложение для списков покупок, разработанное для семей и друзей, которые делают покупки вместе. Создавайте, делитесь и управляйте списками покупок в реальном времени с бесшовным сотрудничеством. Функции включают синхронизацию в реальном времени, поддержку офлайн, умные предложения продуктов, управление категориями, историю покупок и премиум-подписки."
+      "description": "Идеальное приложение для семей и друзей, которые делают покупки вместе. Создавайте, делитесь и управляйте списками покупок в реальном времени с бесшовным сотрудничеством."
     },
     "features": {
       "title": "Основные функции",
@@ -293,10 +292,7 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "Скоро",
-      "download": "Скачать",
-      "appIconAlt": "Иконка приложения ZuList",
-      "appStoreAlt": "Скачать в App Store",
-      "googlePlayAlt": "Скачать в Google Play"
+      "download": "Скачать"
     },
     "perfectFor": {
       "title": "Идеально для",
@@ -341,7 +337,7 @@
       "bundle": "ID пакета: com.zukiapps.zulist | Версия: 1.0.2+1"
     },
     "privacy": {
-      "title": "Политика конфиденциальности",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -393,8 +389,7 @@
       "section8": {
         "title": "8. Contact Us",
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "email": "zuki.apps@gmail.com"
       }
     },
     "terms": {
@@ -625,9 +620,8 @@
       "section19": {
         "title": "19. Contact Information",
         "content": "If you have any questions about these Terms, please contact us:",
-        "email": "zuki.apps.dev@gmail.com",
-        "website": "https://zukiapps.com/zulist",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "email": "zuki.apps@gmail.com",
+        "website": "https://zukiapps.com/zulist"
       }
     },
     "deleteAccount": {
@@ -682,8 +676,8 @@
         "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
       },
       "contact": {
-        "title": "Связаться с нами",
-        "content": "Если у вас есть вопросы или проблемы с удалением аккаунта, пожалуйста, свяжитесь с нами:",
+        "title": "Contact Us",
+        "content": "If you have questions or issues with account deletion, please contact us:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy",
@@ -800,8 +794,8 @@
         "link": "click here for full account deletion"
       },
       "contact": {
-        "title": "Связаться с нами",
-        "content": "Если у вас есть вопросы или проблемы с удалением данных, пожалуйста, свяжитесь с нами:",
+        "title": "Contact Us",
+        "content": "If you have questions or issues with data deletion, please contact us:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy"
@@ -868,15 +862,15 @@
     }
   },
   "hushGallery": {
-    "back": "Вернуться на главную",
+    "back": "Back to Home",
     "hero": {
-      "badge": "Скоро",
+      "badge": "Coming Soon",
       "title": "Hush Gallery",
       "subtitle": "Private Photo Gallery",
       "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
     },
     "features": {
-      "title": "Ключевые функции",
+      "title": "Key Features",
       "privacy": {
         "title": "Privacy First",
         "description": "Your photos are stored securely with advanced encryption",
@@ -966,30 +960,30 @@
       }
     },
     "status": {
-      "title": "🚧 В разработке",
-      "description": "Приложение находится в стадии разработки",
-      "version": "Версия",
-      "status": "Статус",
-      "versionValue": "0.1.0+4",
-      "statusValue": "Скоро"
+      "title": "🚧 In Development",
+      "description": "The app is currently in development",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "0.3.3+1",
+      "statusValue": "Coming Soon"
     },
     "download": {
-      "title": "Скоро",
+      "title": "Coming Soon",
       "description": "Hush Gallery will be available soon on app stores",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Важные ссылки",
+      "title": "Important Links",
       "support": {
-        "title": "Техническая поддержка",
+        "title": "Technical Support",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "Общий контакт",
+        "title": "General Contact",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Социальные сети"
+        "title": "Social Media"
       }
     },
     "footer": {
@@ -1025,7 +1019,7 @@
       }
     },
     "privacy": {
-      "title": "Политика конфиденциальности",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1057,12 +1051,61 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
+    },
+    "deleteAccount": {
+      "title": "Удалить аккаунт Hush Gallery",
+      "intro": "Если вы хотите удалить свой аккаунт и все связанные данные, следуйте инструкциям ниже. Этот процесс является постоянным и не может быть отменен.",
+      "warning": {
+        "title": "⚠️ Важное предупреждение",
+        "content": "Удаление аккаунта является постоянным действием и не может быть отменено. Все данные, связанные с вашим аккаунтом, будут безвозвратно удалены, включая фотографии, видео, папки и настройки."
+      },
+      "steps": {
+        "title": "Инструкции по удалению аккаунта",
+        "step1": "Откройте приложение Hush Gallery на своем устройстве",
+        "step2": "Войдите в свой аккаунт (если еще не вошли)",
+        "step3": "Перейдите в Настройки (обычно доступны из главного меню или профиля)",
+        "step4": "Прокрутите вниз, пока не найдете опцию \"Удалить аккаунт\" или \"Настройки аккаунта\"",
+        "step5": "Нажмите кнопку \"Удалить аккаунт\" и внимательно прочитайте предупреждающее сообщение",
+        "step6": "Подтвердите удаление - аккаунт и все данные будут безвозвратно удалены"
+      },
+      "data": {
+        "title": "Данные, которые будут удалены",
+        "intro": "Когда вы удалите свой аккаунт, следующие данные будут безвозвратно удалены:",
+        "item1": "Информация об аккаунте: имя, адрес электронной почты, ID пользователя (если используется облачное резервное копирование)",
+        "item2": "Фотографии и видео: все медиафайлы, хранящиеся в приложении",
+        "item3": "Папки и коллекции: все организованные папки и альбомы",
+        "item4": "Настройки и предпочтения: настройки приложения, PIN/пароль, биометрические настройки",
+        "item5": "Данные облачного резервного копирования: все зашифрованные данные резервного копирования (если облачное резервное копирование было включено)",
+        "item6": "Метаданные: все метаданные, связанные с вашими медиафайлами",
+        "item7": "Локальное хранилище: все данные, хранящиеся в частной директории приложения"
+      },
+      "partialDelete": {
+        "title": "Удаление некоторых данных (без удаления аккаунта)",
+        "intro": "Если вы хотите удалить только некоторые данные без удаления аккаунта, вы можете:",
+        "item1": "Удалить отдельные фотографии/видео: Открыть медиа → Опция удалить",
+        "item2": "Удалить папки: Открыть папку → Опция удалить папку",
+        "item3": "Очистить данные приложения: Настройки → Очистить все данные (сохраняет аккаунт)",
+        "item4": "Отключить облачное резервное копирование: Настройки → Отключить облачное резервное копирование (удаляет облачные данные, но сохраняет локальные данные)"
+      },
+      "retention": {
+        "title": "Период хранения",
+        "content": "После удаления аккаунта данные будут удалены с наших серверов в течение 30 дней. В течение этого периода данные могут храниться в резервных копиях, но не будут доступны через приложение. Локальные данные на вашем устройстве будут удалены немедленно, когда вы удалите аккаунт через приложение."
+      },
+      "contact": {
+        "title": "Свяжитесь с нами",
+        "content": "Если у вас есть вопросы или проблемы с удалением аккаунта, свяжитесь с нами:",
+        "email": "Электронная почта",
+        "privacy": "Политика конфиденциальности",
+        "privacyLink": "Прочитать полную политику конфиденциальности",
+        "terms": "Условия использования",
+        "termsLink": "Прочитать условия использования"
+      }
     }
   },
   "whistleCamera": {
-    "back": "Вернуться на главную",
+    "back": "Back to Home",
     "hero": {
-      "badge": "Скоро",
+      "badge": "Coming Soon",
       "title": "Whistle Camera",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1126,25 +1169,25 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "In Development",
-      "statusValue": "Скоро"
+      "statusValue": "Coming Soon"
     },
     "download": {
-      "title": "Скоро",
+      "title": "Coming Soon",
       "description": "Whistle Camera will be available soon on the App Store",
       "soon": "Available soon"
     },
     "links": {
-      "title": "Важные ссылки",
+      "title": "Important Links",
       "support": {
-        "title": "Техническая поддержка",
+        "title": "Technical Support",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "Общий контакт",
+        "title": "General Contact",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Социальные сети"
+        "title": "Social Media"
       }
     },
     "footer": {
@@ -1179,7 +1222,7 @@
       }
     },
     "privacy": {
-      "title": "Политика конфиденциальности",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1214,16 +1257,6 @@
     }
   },
   "common": {
-    "language": "Язык",
-    "back": "Назад",
-    "home": "Главная",
-    "email": "Электронная почта",
-    "address": "Адрес",
-    "privacyPolicy": "Политика конфиденциальности",
-    "termsOfService": "Условия использования",
-    "support": "Поддержка",
-    "contact": "Контакты",
-    "contactUs": "Связаться с нами",
-    "dsaCompliance": "Соответствие DSA"
+    "language": "Язык"
   }
 }

@@ -4,11 +4,12 @@ import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, ChevronLeft, ChevronRight, Users, Wifi, Sparkles } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree } from 'lucide-react';
 
 interface AppData {
   id: string;
   icon: React.ReactNode;
+  iconImage?: string;
   titleKey: string;
   subtitleKey: string;
   descriptionKey: string;
@@ -17,6 +18,7 @@ interface AppData {
   link?: string;
   isComingSoon: boolean;
   monsters?: string[];
+  showFeatures?: boolean;
 }
 
 export default function AppsCarousel() {
@@ -48,6 +50,7 @@ export default function AppsCarousel() {
     {
       id: 'hush-gallery',
       icon: <ImageIcon className="w-16 h-16 text-purple-400" aria-hidden="true" />,
+      iconImage: '/images/hush-gallery-icon.png',
       titleKey: 'hushGallery.title',
       subtitleKey: 'hushGallery.subtitle',
       descriptionKey: 'hushGallery.description',
@@ -55,6 +58,7 @@ export default function AppsCarousel() {
       learnMoreKey: 'hushGallery.learnMore',
       link: `/${locale}/hush-gallery`,
       isComingSoon: true,
+      showFeatures: true,
     },
     {
       id: 'whistle-camera',
@@ -148,7 +152,20 @@ export default function AppsCarousel() {
             >
               <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90 mx-4 w-full flex flex-col" style={{ minHeight: '600px' }}>
                 <div className="flex items-center justify-center mb-6">
-                  {app.icon}
+                  {app.iconImage && isMounted ? (
+                    <div className="relative w-24 h-24 md:w-32 md:h-32">
+                      <Image
+                        src={app.iconImage}
+                        alt={t(app.titleKey)}
+                        fill
+                        sizes="(max-width: 768px) 96px, 128px"
+                        className="object-contain drop-shadow-lg"
+                        priority={index === 0}
+                      />
+                    </div>
+                  ) : (
+                    app.icon
+                  )}
                 </div>
                 
                 {app.isComingSoon && (
@@ -186,35 +203,47 @@ export default function AppsCarousel() {
                   </div>
                 )}
                 
-                {/* Show subtitle and description only for ZuList */}
-                {!app.isComingSoon ? (
-                  <>
-                    <p className="text-xl text-gray-300 mb-4 text-center">
-                      {t(app.subtitleKey)}
-                    </p>
-                    <p className="text-lg text-gray-400 mb-8 text-center">
-                      {t(app.descriptionKey)}
-                    </p>
-                    
-                    {/* Features Grid (only for ZuList) */}
-                    <div className="grid md:grid-cols-3 gap-6 mb-8">
-                      <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.realtime')}>
-                        <Users className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
-                        <p className="text-sm font-black text-white">{t('zulist.features.realtime')}</p>
-                      </div>
-                      <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.offline')}>
-                        <Wifi className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
-                        <p className="text-sm font-black text-white">{t('zulist.features.offline')}</p>
-                      </div>
-                      <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.smart')}>
-                        <Sparkles className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
-                        <p className="text-sm font-black text-white">{t('zulist.features.smart')}</p>
-                      </div>
+                {/* Show subtitle and description for all apps */}
+                <p className="text-xl text-gray-300 mb-4 text-center">
+                  {t(app.subtitleKey)}
+                </p>
+                <p className="text-lg text-gray-400 mb-8 text-center">
+                  {t(app.descriptionKey)}
+                </p>
+                
+                {/* Features Grid */}
+                {app.showFeatures && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.privacy')}>
+                      <Shield className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('hushGallery.features.privacy')}</p>
                     </div>
-                  </>
-                ) : (
-                  // Spacer for Coming Soon apps to match height
-                  <div className="flex-grow"></div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.secure')}>
+                      <Lock className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('hushGallery.features.secure')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.organized')}>
+                      <FolderTree className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('hushGallery.features.organized')}</p>
+                    </div>
+                  </div>
+                )}
+                
+                {!app.showFeatures && !app.isComingSoon && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.realtime')}>
+                      <Users className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('zulist.features.realtime')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.offline')}>
+                      <Wifi className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('zulist.features.offline')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.smart')}>
+                      <Sparkles className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('zulist.features.smart')}</p>
+                    </div>
+                  </div>
                 )}
 
                 {app.link ? (

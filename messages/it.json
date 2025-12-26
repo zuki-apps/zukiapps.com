@@ -32,7 +32,7 @@
     "hushGallery": {
       "title": "Hush Gallery",
       "subtitle": "Galleria fotografica privata - Prossimamente",
-      "description": "Hush Gallery è un'applicazione di galleria fotografica sicura e privata che ti consente di mantenere le tue foto personali al sicuro e organizzate. Con funzionalità di privacy avanzate e design intuitivo, è la soluzione perfetta per proteggere i tuoi ricordi.",
+      "description": "Un'applicazione di galleria fotografica sicura e privata con archiviazione locale, backup cloud crittografato opzionale (iCloud/Google Drive), tag personalizzati, blocco app e funzionalità premium. Mantieni le tue foto personali al sicuro e organizzate.",
       "features": {
         "privacy": "Privacy prima di tutto",
         "secure": "Archiviazione sicura",
@@ -970,7 +970,7 @@
       "description": "L'app è attualmente in sviluppo",
       "version": "Versione",
       "status": "Stato",
-      "versionValue": "0.1.0+4",
+      "versionValue": "0.3.3+1",
       "statusValue": "Prossimamente"
     },
     "download": {
@@ -1056,6 +1056,55 @@
         "content": "Se hai domande su questa Informativa sulla Privacy, si prega di contattarci a:",
         "email": "zuki.apps@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "deleteAccount": {
+      "title": "Elimina account Hush Gallery",
+      "intro": "Se desideri eliminare il tuo account e tutti i dati associati, segui i passaggi seguenti. Questo processo è permanente e non può essere annullato.",
+      "warning": {
+        "title": "⚠️ Avviso importante",
+        "content": "L'eliminazione dell'account è un'azione permanente e non può essere annullata. Tutti i dati associati al tuo account verranno eliminati definitivamente, inclusi foto, video, cartelle e impostazioni."
+      },
+      "steps": {
+        "title": "Istruzioni per l'eliminazione dell'account",
+        "step1": "Apri l'app Hush Gallery sul tuo dispositivo",
+        "step2": "Accedi al tuo account (se non l'hai già fatto)",
+        "step3": "Vai alle Impostazioni (solitamente accessibili dal menu principale o dal profilo)",
+        "step4": "Scorri verso il basso fino a trovare l'opzione \"Elimina account\" o \"Impostazioni account\"",
+        "step5": "Tocca il pulsante \"Elimina account\" e leggi attentamente il messaggio di avviso",
+        "step6": "Conferma l'eliminazione - l'account e tutti i dati verranno eliminati definitivamente"
+      },
+      "data": {
+        "title": "Dati che verranno eliminati",
+        "intro": "Quando elimini il tuo account, i seguenti dati verranno eliminati definitivamente:",
+        "item1": "Informazioni account: nome, indirizzo email, ID utente (se si utilizza il backup cloud)",
+        "item2": "Foto e video: tutti i media memorizzati nell'app",
+        "item3": "Cartelle e raccolte: tutte le cartelle e gli album organizzati",
+        "item4": "Impostazioni e preferenze: impostazioni app, PIN/password, impostazioni biometriche",
+        "item5": "Dati backup cloud: tutti i dati di backup crittografati (se il backup cloud era abilitato)",
+        "item6": "Metadati: tutti i metadati associati ai tuoi media",
+        "item7": "Archiviazione locale: tutti i dati memorizzati nella directory privata dell'app"
+      },
+      "partialDelete": {
+        "title": "Eliminare alcuni dati (senza eliminare l'account)",
+        "intro": "Se desideri eliminare solo alcuni dati senza eliminare l'account, puoi:",
+        "item1": "Eliminare foto/video individuali: Apri il media → Opzione elimina",
+        "item2": "Eliminare cartelle: Apri cartella → Opzione elimina cartella",
+        "item3": "Cancellare dati app: Impostazioni → Cancella tutti i dati (mantiene l'account)",
+        "item4": "Disabilitare backup cloud: Impostazioni → Disabilita backup cloud (rimuove i dati cloud ma mantiene i dati locali)"
+      },
+      "retention": {
+        "title": "Periodo di conservazione",
+        "content": "Dopo l'eliminazione dell'account, i dati verranno eliminati dai nostri server entro 30 giorni. Durante questo periodo, i dati possono essere conservati nei backup, ma non saranno accessibili tramite l'app. I dati locali sul tuo dispositivo verranno eliminati immediatamente quando elimini l'account tramite l'app."
+      },
+      "contact": {
+        "title": "Contattaci",
+        "content": "Se hai domande o problemi con l'eliminazione dell'account, contattaci:",
+        "email": "Email",
+        "privacy": "Informativa sulla privacy",
+        "privacyLink": "Leggi l'informativa sulla privacy completa",
+        "terms": "Termini di servizio",
+        "termsLink": "Leggi i termini di servizio"
       }
     }
   },

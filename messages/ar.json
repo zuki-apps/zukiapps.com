@@ -32,7 +32,7 @@
     "hushGallery": {
       "title": "Hush Gallery",
       "subtitle": "معرض صور خاص - قريبًا",
-      "description": "Hush Gallery هو تطبيق معرض صور آمن وخاص يتيح لك الحفاظ على صورك الشخصية آمنة ومنظمة. مع ميزات الخصوصية المتقدمة والتصميم البديهي، إنه الحل المثالي لحماية ذكرياتك.",
+      "description": "تطبيق معرض صور آمن وخاص مع تخزين محلي، نسخ احتياطي سحابي مشفر اختياري (iCloud/Google Drive)، علامات مخصصة، قفل التطبيق وميزات مميزة. احتفظ بصورك الشخصية آمنة ومنظمة.",
       "features": {
         "privacy": "الخصوصية أولاً",
         "secure": "تخزين آمن",
@@ -103,20 +103,19 @@
       ]
     },
     "contact": {
-      "title": "اتصل بنا",
-      "content": "للاستفسارات أو الشكاوى أو لممارسة حقوقك كمواطن، يرجى الاتصال بنا:",
+      "title": "Contact Us",
+      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
   },
   "zulist": {
-    "back": "العودة إلى الرئيسية",
+    "back": "Back to Home",
     "hero": {
       "badge": "متاح الآن - الإصدار 1.0.1",
       "title": "ZuList",
       "subtitle": "قوائم تسوق ذكية للعائلات",
-      "description": "التطبيق المثالي للعائلات والأصدقاء الذين يتسوقون معًا. أنشئ وشارك وأدر قوائم التسوق في الوقت الفعلي مع تعاون سلس.",
-      "structuredDataDescription": "ZuList هو تطبيق قوائم التسوق النهائي المصمم للعائلات والأصدقاء الذين يتسوقون معًا. أنشئ وشارك وأدر قوائم التسوق في الوقت الفعلي مع تعاون سلس. تتضمن الميزات المزامنة في الوقت الفعلي، والدعم في وضع عدم الاتصال، واقتراحات المنتجات الذكية، وإدارة الفئات، وسجل المشتريات، والاشتراكات المميزة."
+      "description": "التطبيق المثالي للعائلات والأصدقاء الذين يتسوقون معًا. أنشئ وشارك وأدر قوائم التسوق في الوقت الفعلي مع تعاون سلس."
     },
     "features": {
       "title": "الميزات الرئيسية",
@@ -124,51 +123,51 @@
         "title": "التعاون في الوقت الفعلي",
         "description": "شارك القوائم مع العائلة والأصدقاء، واطلع على التغييرات فورًا عبر جميع الأجهزة",
         "items": [
-          "إدارة الأعضاء والصلاحيات",
-          "دعوات عبر البريد الإلكتروني والرسائل القصيرة وواتساب",
-          "روابط قابلة للمشاركة",
-          "إشعارات فورية في الوقت الحقيقي"
+          "Member and permission management",
+          "Invitations via email, SMS, WhatsApp",
+          "Shareable links",
+          "Real-time Push notifications"
         ]
       },
       "offline": {
-        "title": "دعم العمل دون اتصال",
-        "description": "يعمل بسلاسة حتى بدون اتصال بالإنترنت",
+        "title": "Offline Support",
+        "description": "Works seamlessly even without internet connection",
         "items": [
-          "مزامنة تلقائية عند العودة للاتصال",
-          "عدم فقدان بياناتك أبدًا",
-          "نسخ احتياطي سحابي (Premium)"
+          "Automatic sync when back online",
+          "Never lose your data",
+          "Cloud backup (Premium)"
         ]
       },
       "smart": {
-        "title": "توصيات ذكية",
-        "description": "توصيات قائمة على الذكاء الاصطناعي مع كتالوج منتجات",
+        "title": "Smart Recommendations",
+        "description": "AI-based recommendations with product catalog",
         "items": [
-          "إكمال تلقائي ذكي",
-          "اقتراحات مخصصة",
-          "يتعلم من عادات التسوق الخاصة بك"
+          "Intelligent autocomplete",
+          "Personalized suggestions",
+          "Learn from your shopping habits"
         ]
       },
       "templates": {
-        "title": "قوالب ذكية",
-        "description": "قوالب جاهزة لقوائم التسوق",
+        "title": "Smart Templates",
+        "description": "Pre-made shopping list templates",
         "items": [
-          "بداية سريعة لرحلات التسوق الشائعة",
-          "تخصيص القوالب حسب احتياجاتك",
-          "أكثر من 34 قالبًا جاهزًا للاستخدام"
+          "Quick start for common shopping trips",
+          "Customize templates to your needs",
+          "34+ ready-made templates"
         ]
       },
       "notifications": {
-        "title": "إشعارات ذكية",
-        "description": "احصل على إشعارات عند إضافة عناصر جديدة أو عند تحديث الأصدقاء للقائمة",
+        "title": "Smart Notifications",
+        "description": "Get notified when items are added or when friends update",
         "items": [
-          "وضع صامت لتسوق هادئ",
-          "عدادات شارات للتحديثات غير المقروءة",
-          "إشعارات فورية في الوقت الحقيقي"
+          "Silent mode for quiet shopping",
+          "Badge counts for unread updates",
+          "Real-time Push notifications"
         ]
       },
       "multilang": {
-        "title": "دعم 12 لغة",
-        "description": "دعم كامل لـ 12 لغة مع واجهة مترجمة",
+        "title": "12 Language Support",
+        "description": "Full support for 12 languages with translated interface",
         "items": [
           "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
           "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
@@ -177,59 +176,59 @@
         ]
       },
       "categories": {
-        "title": "إدارة الفئات",
-        "description": "نظم التسوق حسب الفئات لتحسين الكفاءة",
+        "title": "Category Management",
+        "description": "Organize your shopping by categories for better efficiency",
         "items": [
-          "فئات مخصصة",
-          "أيقونات مخصصة",
-          "تنظيم تلقائي"
+          "Custom categories",
+          "Custom icons",
+          "Automatic organization"
         ]
       },
       "photos": {
-        "title": "صور مخصصة",
-        "description": "أضف صورًا مخصصة للعناصر",
+        "title": "Custom Photos",
+        "description": "Add custom photos to items",
         "items": [
-          "التقاط مباشر بالكاميرا",
-          "اختيار من المعرض",
-          "تحسين تلقائي للصور"
+          "Direct camera capture",
+          "Gallery selection",
+          "Automatic optimization"
         ]
       },
       "history": {
-        "title": "سجل المشتريات",
-        "description": "تتبع سجل التسوق الخاص بك",
+        "title": "Purchase History",
+        "description": "Track your shopping history",
         "items": [
-          "إحصائيات متقدمة (Premium)",
-          "تتبع عادات التسوق",
-          "تقارير تفصيلية"
+          "Advanced statistics (Premium)",
+          "Track shopping habits",
+          "Detailed reports"
         ]
       },
       "firebase": {
-        "title": "تكامل Firebase",
-        "description": "مزامنة سحابية آمنة مع Firebase",
+        "title": "Firebase Integration",
+        "description": "Secure cloud sync with Firebase",
         "items": [
           "المصادقة، قاعدة البيانات في الوقت الفعلي، Firestore",
           "التخزين، الوظائف، FCM",
-          "روابط عميقة"
+          "ربط عميق"
         ]
       },
       "security": {
-        "title": "الخصوصية والأمان",
-        "description": "مصادقة آمنة وحماية قوية للبيانات",
+        "title": "Privacy & Security",
+        "description": "Secure authentication and data protection",
         "items": [
-          "مصادقة آمنة (Google وApple)",
-          "بيانات مشفرة",
-          "تحكم كامل في المشاركة",
-          "حذف كامل للحساب"
+          "Secure authentication (Google, Apple)",
+          "Encrypted data",
+          "Full control over sharing",
+          "Complete account deletion"
         ]
       },
       "ui": {
-        "title": "واجهة جميلة وبديهية",
-        "description": "واجهة حديثة ونظيفة مع تجربة مستخدم ممتازة",
+        "title": "Beautiful & Intuitive",
+        "description": "Modern and clean interface with excellent user experience",
         "items": [
-          "شخصيات Zuli Monsters لإضافة المتعة",
-          "سمات قابلة للتخصيص",
-          "دعم الوضع الداكن",
-          "دعم كامل لميزات الوصول"
+          "Zuli Monsters characters for fun",
+          "Customizable themes",
+          "Dark mode support",
+          "Full Accessibility support"
         ]
       }
     },
@@ -293,10 +292,7 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "قريبًا",
-      "download": "تحميل",
-      "appIconAlt": "أيقونة تطبيق ZuList",
-      "appStoreAlt": "تحميل من App Store",
-      "googlePlayAlt": "الحصول عليه من Google Play"
+      "download": "تحميل"
     },
     "perfectFor": {
       "title": "مثالي لـ",
@@ -393,8 +389,7 @@
       "section8": {
         "title": "8. اتصل بنا",
         "content": "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على:",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "email": "zuki.apps@gmail.com"
       }
     },
     "terms": {
@@ -623,11 +618,10 @@
         "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
       },
       "section19": {
-        "title": "19. معلومات الاتصال",
-        "content": "إذا كان لديك أي أسئلة حول هذه الشروط، يرجى الاتصال بنا:",
-        "email": "zuki.apps.dev@gmail.com",
-        "website": "https://zukiapps.com/zulist",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps@gmail.com",
+        "website": "https://zukiapps.com/zulist"
       }
     },
     "deleteAccount": {
@@ -682,8 +676,8 @@
         "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
       },
       "contact": {
-        "title": "اتصل بنا",
-        "content": "إذا كان لديك أسئلة أو مشاكل مع حذف الحساب، يرجى الاتصال بنا:",
+        "title": "Contact Us",
+        "content": "If you have questions or issues with account deletion, please contact us:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy",
@@ -800,8 +794,8 @@
         "link": "click here for full account deletion"
       },
       "contact": {
-        "title": "اتصل بنا",
-        "content": "إذا كان لديك أسئلة أو مشاكل مع حذف البيانات، يرجى الاتصال بنا:",
+        "title": "Contact Us",
+        "content": "If you have questions or issues with data deletion, please contact us:",
         "email": "Email",
         "privacy": "Privacy Policy",
         "privacyLink": "Read the full privacy policy"
@@ -811,18 +805,18 @@
       "title": "Support & Help",
       "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
       "contact": {
-        "title": "اتصل بنا",
-        "description": "هل لديك سؤال أو تحتاج إلى مساعدة؟ أرسل لنا بريدًا إلكترونيًا وسنعود إليك في أقرب وقت ممكن.",
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
         "email": "zuki.apps@gmail.com"
       },
       "quickLinks": {
         "title": "Quick Links",
         "privacy": {
-          "title": "سياسة الخصوصية",
+          "title": "Privacy Policy",
           "description": "Learn how we protect your data"
         },
         "terms": {
-          "title": "شروط الخدمة",
+          "title": "Terms of Service",
           "description": "Read our terms and conditions"
         },
         "deleteAccount": {
@@ -868,15 +862,15 @@
     }
   },
   "hushGallery": {
-    "back": "العودة إلى الرئيسية",
+    "back": "Back to Home",
     "hero": {
-      "badge": "قريباً",
+      "badge": "Coming Soon",
       "title": "Hush Gallery",
       "subtitle": "Private Photo Gallery",
       "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
     },
     "features": {
-      "title": "الميزات الرئيسية",
+      "title": "Key Features",
       "privacy": {
         "title": "Privacy First",
         "description": "Your photos are stored securely with advanced encryption",
@@ -966,30 +960,30 @@
       }
     },
     "status": {
-      "title": "🚧 قيد التطوير",
-      "description": "التطبيق حالياً قيد التطوير",
-      "version": "الإصدار",
-      "status": "الحالة",
-      "versionValue": "0.1.0+4",
-      "statusValue": "قريباً"
+      "title": "🚧 In Development",
+      "description": "The app is currently in development",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "0.3.3+1",
+      "statusValue": "Coming Soon"
     },
     "download": {
-      "title": "قريباً",
+      "title": "Coming Soon",
       "description": "Hush Gallery will be available soon on app stores",
       "soon": "Available soon"
     },
     "links": {
-      "title": "روابط مهمة",
+      "title": "Important Links",
       "support": {
-        "title": "الدعم الفني",
+        "title": "Technical Support",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "الاتصال العام",
+        "title": "General Contact",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "وسائل التواصل الاجتماعي"
+        "title": "Social Media"
       }
     },
     "footer": {
@@ -1025,7 +1019,7 @@
       }
     },
     "privacy": {
-      "title": "سياسة الخصوصية",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1057,12 +1051,61 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
+    },
+    "deleteAccount": {
+      "title": "Delete Hush Gallery Account",
+      "intro": "If you wish to delete your account and all associated data, please follow the steps below. This process is permanent and cannot be undone.",
+      "warning": {
+        "title": "⚠️ Important Warning",
+        "content": "Account deletion is a permanent action and cannot be undone. All data associated with your account will be permanently deleted, including photos, videos, folders, and settings."
+      },
+      "steps": {
+        "title": "Account Deletion Instructions",
+        "step1": "Open the Hush Gallery app on your device",
+        "step2": "Log in to your account (if you haven't already)",
+        "step3": "Navigate to Settings (usually accessible from the main menu or profile)",
+        "step4": "Scroll down until you find the \"Delete Account\" or \"Account Settings\" option",
+        "step5": "Tap the \"Delete Account\" button and read the warning message carefully",
+        "step6": "Confirm the deletion - the account and all data will be permanently deleted"
+      },
+      "data": {
+        "title": "Data That Will Be Deleted",
+        "intro": "When you delete your account, the following data will be permanently deleted:",
+        "item1": "Account information: name, email address, user ID (if using cloud backup)",
+        "item2": "Photos and videos: all media stored in the app",
+        "item3": "Folders and collections: all organized folders and albums",
+        "item4": "Settings and preferences: app settings, PIN/password, biometric settings",
+        "item5": "Cloud backup data: all encrypted backup data (if cloud backup was enabled)",
+        "item6": "Metadata: all metadata associated with your media",
+        "item7": "Local storage: all data stored in the app's private directory"
+      },
+      "partialDelete": {
+        "title": "Deleting Some Data (Without Deleting the Account)",
+        "intro": "If you wish to delete only some data without deleting the account, you can:",
+        "item1": "Delete individual photos/videos: Open the media → Delete option",
+        "item2": "Delete folders: Open folder → Delete folder option",
+        "item3": "Clear app data: Settings → Clear all data (keeps account)",
+        "item4": "Disable cloud backup: Settings → Disable cloud backup (removes cloud data but keeps local data)"
+      },
+      "retention": {
+        "title": "Retention Period",
+        "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app. Local data on your device will be deleted immediately when you delete the account through the app."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have questions or issues with account deletion, please contact us:",
+        "email": "Email",
+        "privacy": "Privacy Policy",
+        "privacyLink": "Read the full privacy policy",
+        "terms": "Terms of Service",
+        "termsLink": "Read the terms of service"
+      }
     }
   },
   "whistleCamera": {
-    "back": "العودة إلى الرئيسية",
+    "back": "Back to Home",
     "hero": {
-      "badge": "قريباً",
+      "badge": "Coming Soon",
       "title": "Whistle Camera",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1126,25 +1169,25 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "In Development",
-      "statusValue": "قريباً"
+      "statusValue": "Coming Soon"
     },
     "download": {
-      "title": "قريباً",
+      "title": "Coming Soon",
       "description": "Whistle Camera will be available soon on the App Store",
       "soon": "Available soon"
     },
     "links": {
-      "title": "روابط مهمة",
+      "title": "Important Links",
       "support": {
-        "title": "الدعم الفني",
+        "title": "Technical Support",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "الاتصال العام",
+        "title": "General Contact",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "وسائل التواصل الاجتماعي"
+        "title": "Social Media"
       }
     },
     "footer": {
@@ -1179,7 +1222,7 @@
       }
     },
     "privacy": {
-      "title": "سياسة الخصوصية",
+      "title": "Privacy Policy",
       "lastUpdated": "Last updated: January 2025",
       "section1": {
         "title": "1. Information We Collect",
@@ -1214,16 +1257,6 @@
     }
   },
   "common": {
-    "language": "اللغة",
-    "back": "رجوع",
-    "home": "الرئيسية",
-    "email": "البريد الإلكتروني",
-    "address": "العنوان",
-    "privacyPolicy": "سياسة الخصوصية",
-    "termsOfService": "شروط الخدمة",
-    "support": "الدعم",
-    "contact": "اتصل",
-    "contactUs": "اتصل بنا",
-    "dsaCompliance": "امتثال DSA"
+    "language": "Language"
   }
 }
