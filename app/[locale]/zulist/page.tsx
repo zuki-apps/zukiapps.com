@@ -38,6 +38,7 @@ export default function ZuListPage() {
           ratingCount: 0,
         }}
         appStoreUrl="https://apps.apple.com/app/zulist/id6753878439"
+        googlePlayUrl="https://play.google.com/store/apps/details?id=com.zuki.apps.zulist&pcampaignid=web_share"
       />
       <div className="min-h-screen bg-black relative overflow-hidden">
       {/* Starry background effect */}
@@ -487,14 +488,19 @@ export default function ZuListPage() {
                 />
               </div>
             </a>
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-blue-600/30 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90 opacity-60">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.zuki.apps.zulist&pcampaignid=web_share"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-blue-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-blue-500/50 transition-all backdrop-blur-sm bg-opacity-90 group"
+            >
               <div className="w-32 h-10 mx-auto relative">
                 <Image
                   src="/images/google-play-badge.png"
                   alt={t('download.googlePlayAlt')}
                   width={128}
                   height={40}
-                  className="object-contain opacity-50"
+                  className="object-contain"
                   onError={(e) => {
                     // Fallback to emoji if image not found
                     const target = e.target as HTMLImageElement;
@@ -506,8 +512,7 @@ export default function ZuListPage() {
                   }}
                 />
               </div>
-              <p className="text-sm text-gray-400 mt-3">{t('download.soon')}</p>
-            </div>
+            </a>
           </div>
         </div>
       </section>
