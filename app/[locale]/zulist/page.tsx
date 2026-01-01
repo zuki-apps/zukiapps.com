@@ -38,6 +38,7 @@ export default function ZuListPage() {
           ratingCount: 0,
         }}
         appStoreUrl="https://apps.apple.com/app/zulist/id6753878439"
+        googlePlayUrl="https://play.google.com/store/apps/details?id=com.zuki.apps.zulist&pcampaignid=web_share"
       />
       <div className="min-h-screen bg-black relative overflow-hidden">
       {/* Starry background effect */}
@@ -488,7 +489,7 @@ export default function ZuListPage() {
               </div>
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.zuki.apps.zulist"
+              href="https://play.google.com/store/apps/details?id=com.zuki.apps.zulist&pcampaignid=web_share"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-blue-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-blue-500/50 transition-all backdrop-blur-sm bg-opacity-90 group"
