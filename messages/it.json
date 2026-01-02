@@ -1106,6 +1106,61 @@
         "terms": "Termini di servizio",
         "termsLink": "Leggi i termini di servizio"
       }
+    },
+    "support": {
+      "title": "Supporto e Aiuto",
+      "subtitle": "Siamo qui per aiutarti! Trova risposte alle domande comuni o contattaci direttamente.",
+      "contact": {
+        "title": "Contattaci",
+        "description": "Hai una domanda o hai bisogno di assistenza? Inviaci un'email e ti risponderemo il prima possibile.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Link Rapidi",
+        "privacy": {
+          "title": "Informativa sulla Privacy",
+          "description": "Scopri come proteggiamo i tuoi dati"
+        },
+        "terms": {
+          "title": "Termini di Servizio",
+          "description": "Leggi i nostri termini e condizioni"
+        },
+        "deleteAccount": {
+          "title": "Elimina Account",
+          "description": "Istruzioni per l'eliminazione dell'account"
+        }
+      },
+      "faq": {
+        "title": "Domande Frequenti",
+        "q1": {
+          "question": "Come importo foto e video in Hush Gallery?",
+          "answer": "Per importare i media, apri l'app e tocca il pulsante '+' o 'Importa'. Puoi selezionare foto e video dalla galleria del tuo dispositivo. I media importati verranno memorizzati in modo sicuro nella directory privata dell'app e non saranno accessibili da altre app."
+        },
+        "q2": {
+          "question": "Come funziona il backup cloud?",
+          "answer": "Il backup cloud è una funzionalità Premium opzionale. Quando è abilitato, le tue foto e video vengono crittografate sul tuo dispositivo prima di essere caricate su iCloud (iOS) o Google Drive (Android). La crittografia avviene lato client, il che significa che non possiamo accedere ai tuoi media. Puoi abilitare o disabilitare il backup cloud in qualsiasi momento nelle Impostazioni."
+        },
+        "q3": {
+          "question": "Come configuro il blocco app?",
+          "answer": "Vai a Impostazioni → Sicurezza → Blocco app. Puoi impostare un PIN, una password o abilitare l'autenticazione biometrica (Face ID/Touch ID). L'app si bloccherà automaticamente dopo un periodo di inattività, che puoi configurare nelle impostazioni."
+        },
+        "q4": {
+          "question": "Come elimino il mio account?",
+          "answer": "Per eliminare il tuo account, vai a Impostazioni → Account → Elimina account. Tieni presente che l'eliminazione dell'account è permanente e non può essere annullata. Tutti i tuoi dati, inclusi foto, video, cartelle e impostazioni, verranno eliminati definitivamente. Per istruzioni dettagliate, visita la nostra pagina Elimina account."
+        },
+        "q5": {
+          "question": "Posso usare Hush Gallery senza backup cloud?",
+          "answer": "Sì! Hush Gallery funziona completamente offline. Tutte le tue foto e video sono memorizzati localmente sul tuo dispositivo per impostazione predefinita. Il backup cloud è opzionale e viene abilitato solo se scegli di usarlo. I tuoi media rimangono privati e sicuri anche senza backup cloud."
+        },
+        "q6": {
+          "question": "Cosa succede alle mie foto se disinstallo l'app?",
+          "answer": "Se disinstalli l'app senza eliminare prima il tuo account, i tuoi dati locali verranno eliminati. Se avevi abilitato il backup cloud, puoi ripristinare i tuoi dati reinstallando l'app e accedendo con lo stesso account. Ti consigliamo di esportare foto importanti prima di disinstallare se non hai abilitato il backup cloud."
+        }
+      },
+      "additionalHelp": {
+        "title": "Hai bisogno di più aiuto?",
+        "description": "Se non hai trovato la risposta che stai cercando, o se stai riscontrando un problema tecnico, non esitare a contattarci. Siamo qui per aiutare e rispondiamo generalmente entro 24-48 ore."
+      }
     }
   },
   "whistleCamera": {

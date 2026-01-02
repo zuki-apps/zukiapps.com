@@ -1112,6 +1112,61 @@
         "terms": "Terms of Service",
         "termsLink": "Read the terms of service"
       }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Instructions for account deletion"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "How do I import photos and videos into Hush Gallery?",
+          "answer": "To import media, open the app and tap the '+' or 'Import' button. You can select photos and videos from your device's gallery. The imported media will be stored securely in the app's private directory and will not be accessible by other apps."
+        },
+        "q2": {
+          "question": "How does cloud backup work?",
+          "answer": "Cloud backup is an optional Premium feature. When enabled, your photos and videos are encrypted on your device before being uploaded to iCloud (iOS) or Google Drive (Android). The encryption happens client-side, meaning we cannot access your media. You can enable or disable cloud backup at any time in Settings."
+        },
+        "q3": {
+          "question": "How do I set up app lock?",
+          "answer": "Go to Settings → Security → App Lock. You can set up a PIN, password, or enable biometric authentication (Face ID/Touch ID). The app will lock automatically after a period of inactivity, which you can configure in the settings."
+        },
+        "q4": {
+          "question": "How do I delete my account?",
+          "answer": "To delete your account, go to Settings → Account → Delete Account. Please note that account deletion is permanent and cannot be undone. All your data, including photos, videos, folders, and settings, will be permanently deleted. For detailed instructions, visit our Delete Account page."
+        },
+        "q5": {
+          "question": "Can I use Hush Gallery without cloud backup?",
+          "answer": "Yes! Hush Gallery works completely offline. All your photos and videos are stored locally on your device by default. Cloud backup is optional and only enabled if you choose to use it. Your media remains private and secure even without cloud backup."
+        },
+        "q6": {
+          "question": "What happens to my photos if I uninstall the app?",
+          "answer": "If you uninstall the app without deleting your account first, your local data will be deleted. If you had cloud backup enabled, you can restore your data by reinstalling the app and signing in with the same account. We recommend exporting important photos before uninstalling if you don't have cloud backup enabled."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
     }
   },
   "whistleCamera": {

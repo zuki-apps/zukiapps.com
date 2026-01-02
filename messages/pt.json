@@ -1106,6 +1106,61 @@
         "terms": "Termos de serviço",
         "termsLink": "Ler os termos de serviço"
       }
+    },
+    "support": {
+      "title": "Suporte e Ajuda",
+      "subtitle": "Estamos aqui para ajudar! Encontre respostas para perguntas comuns ou entre em contato conosco diretamente.",
+      "contact": {
+        "title": "Entre em contato",
+        "description": "Tem uma pergunta ou precisa de ajuda? Envie-nos um e-mail e responderemos o mais rápido possível.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Links Rápidos",
+        "privacy": {
+          "title": "Política de Privacidade",
+          "description": "Saiba como protegemos seus dados"
+        },
+        "terms": {
+          "title": "Termos de Serviço",
+          "description": "Leia nossos termos e condições"
+        },
+        "deleteAccount": {
+          "title": "Excluir Conta",
+          "description": "Instruções para exclusão de conta"
+        }
+      },
+      "faq": {
+        "title": "Perguntas Frequentes",
+        "q1": {
+          "question": "Como importo fotos e vídeos para o Hush Gallery?",
+          "answer": "Para importar mídia, abra o aplicativo e toque no botão '+' ou 'Importar'. Você pode selecionar fotos e vídeos da galeria do seu dispositivo. A mídia importada será armazenada com segurança no diretório privado do aplicativo e não será acessível por outros aplicativos."
+        },
+        "q2": {
+          "question": "Como funciona o backup na nuvem?",
+          "answer": "O backup na nuvem é um recurso Premium opcional. Quando habilitado, suas fotos e vídeos são criptografados no seu dispositivo antes de serem enviados para o iCloud (iOS) ou Google Drive (Android). A criptografia ocorre no lado do cliente, o que significa que não podemos acessar sua mídia. Você pode habilitar ou desabilitar o backup na nuvem a qualquer momento nas Configurações."
+        },
+        "q3": {
+          "question": "Como configuro o bloqueio do aplicativo?",
+          "answer": "Vá para Configurações → Segurança → Bloqueio do aplicativo. Você pode configurar um PIN, senha ou habilitar autenticação biométrica (Face ID/Touch ID). O aplicativo será bloqueado automaticamente após um período de inatividade, que você pode configurar nas configurações."
+        },
+        "q4": {
+          "question": "Como excluo minha conta?",
+          "answer": "Para excluir sua conta, vá para Configurações → Conta → Excluir conta. Observe que a exclusão da conta é permanente e não pode ser desfeita. Todos os seus dados, incluindo fotos, vídeos, pastas e configurações, serão permanentemente excluídos. Para instruções detalhadas, visite nossa página de Exclusão de conta."
+        },
+        "q5": {
+          "question": "Posso usar o Hush Gallery sem backup na nuvem?",
+          "answer": "Sim! O Hush Gallery funciona completamente offline. Todas as suas fotos e vídeos são armazenados localmente no seu dispositivo por padrão. O backup na nuvem é opcional e só é habilitado se você escolher usá-lo. Sua mídia permanece privada e segura mesmo sem backup na nuvem."
+        },
+        "q6": {
+          "question": "O que acontece com minhas fotos se eu desinstalar o aplicativo?",
+          "answer": "Se você desinstalar o aplicativo sem excluir sua conta primeiro, seus dados locais serão excluídos. Se você tinha backup na nuvem habilitado, pode restaurar seus dados reinstalando o aplicativo e fazendo login com a mesma conta. Recomendamos exportar fotos importantes antes de desinstalar se você não tiver backup na nuvem habilitado."
+        }
+      },
+      "additionalHelp": {
+        "title": "Precisa de mais ajuda?",
+        "description": "Se você não encontrou a resposta que procura, ou se está enfrentando um problema técnico, não hesite em nos contatar. Estamos aqui para ajudar e geralmente respondemos dentro de 24-48 horas."
+      }
     }
   },
   "whistleCamera": {

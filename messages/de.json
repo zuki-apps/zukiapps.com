@@ -1106,6 +1106,61 @@
         "terms": "Nutzungsbedingungen",
         "termsLink": "Nutzungsbedingungen lesen"
       }
+    },
+    "support": {
+      "title": "Support & Hilfe",
+      "subtitle": "Wir sind hier, um zu helfen! Finden Sie Antworten auf häufige Fragen oder kontaktieren Sie uns direkt.",
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Haben Sie eine Frage oder benötigen Sie Hilfe? Senden Sie uns eine E-Mail und wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Schnelllinks",
+        "privacy": {
+          "title": "Datenschutzrichtlinie",
+          "description": "Erfahren Sie, wie wir Ihre Daten schützen"
+        },
+        "terms": {
+          "title": "Nutzungsbedingungen",
+          "description": "Lesen Sie unsere Allgemeinen Geschäftsbedingungen"
+        },
+        "deleteAccount": {
+          "title": "Konto löschen",
+          "description": "Anleitung zur Kontolöschung"
+        }
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "q1": {
+          "question": "Wie importiere ich Fotos und Videos in Hush Gallery?",
+          "answer": "Um Medien zu importieren, öffnen Sie die App und tippen Sie auf die Schaltfläche '+' oder 'Importieren'. Sie können Fotos und Videos aus der Galerie Ihres Geräts auswählen. Die importierten Medien werden sicher im privaten Verzeichnis der App gespeichert und sind für andere Apps nicht zugänglich."
+        },
+        "q2": {
+          "question": "Wie funktioniert Cloud-Backup?",
+          "answer": "Cloud-Backup ist eine optionale Premium-Funktion. Wenn aktiviert, werden Ihre Fotos und Videos auf Ihrem Gerät verschlüsselt, bevor sie zu iCloud (iOS) oder Google Drive (Android) hochgeladen werden. Die Verschlüsselung erfolgt clientseitig, was bedeutet, dass wir nicht auf Ihre Medien zugreifen können. Sie können Cloud-Backup jederzeit in den Einstellungen aktivieren oder deaktivieren."
+        },
+        "q3": {
+          "question": "Wie richte ich die App-Sperre ein?",
+          "answer": "Gehen Sie zu Einstellungen → Sicherheit → App-Sperre. Sie können eine PIN, ein Passwort einrichten oder die biometrische Authentifizierung (Face ID/Touch ID) aktivieren. Die App wird automatisch nach einer Zeit der Inaktivität gesperrt, die Sie in den Einstellungen konfigurieren können."
+        },
+        "q4": {
+          "question": "Wie lösche ich mein Konto?",
+          "answer": "Um Ihr Konto zu löschen, gehen Sie zu Einstellungen → Konto → Konto löschen. Bitte beachten Sie, dass die Kontolöschung dauerhaft ist und nicht rückgängig gemacht werden kann. Alle Ihre Daten, einschließlich Fotos, Videos, Ordner und Einstellungen, werden dauerhaft gelöscht. Für detaillierte Anweisungen besuchen Sie unsere Seite zur Kontolöschung."
+        },
+        "q5": {
+          "question": "Kann ich Hush Gallery ohne Cloud-Backup verwenden?",
+          "answer": "Ja! Hush Gallery funktioniert vollständig offline. Alle Ihre Fotos und Videos werden standardmäßig lokal auf Ihrem Gerät gespeichert. Cloud-Backup ist optional und wird nur aktiviert, wenn Sie es verwenden möchten. Ihre Medien bleiben privat und sicher, auch ohne Cloud-Backup."
+        },
+        "q6": {
+          "question": "Was passiert mit meinen Fotos, wenn ich die App deinstalliere?",
+          "answer": "Wenn Sie die App deinstallieren, ohne zuvor Ihr Konto zu löschen, werden Ihre lokalen Daten gelöscht. Wenn Sie Cloud-Backup aktiviert hatten, können Sie Ihre Daten wiederherstellen, indem Sie die App neu installieren und sich mit demselben Konto anmelden. Wir empfehlen, wichtige Fotos zu exportieren, bevor Sie die App deinstallieren, wenn Sie kein Cloud-Backup aktiviert haben."
+        }
+      },
+      "additionalHelp": {
+        "title": "Benötigen Sie weitere Hilfe?",
+        "description": "Wenn Sie die gesuchte Antwort nicht gefunden haben oder ein technisches Problem haben, zögern Sie bitte nicht, uns zu kontaktieren. Wir sind hier, um zu helfen und antworten normalerweise innerhalb von 24-48 Stunden."
+      }
     }
   },
   "whistleCamera": {

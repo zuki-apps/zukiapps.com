@@ -1106,6 +1106,61 @@
         "terms": "Términos de servicio",
         "termsLink": "Leer los términos de servicio"
       }
+    },
+    "support": {
+      "title": "Soporte y Ayuda",
+      "subtitle": "¡Estamos aquí para ayudar! Encuentre respuestas a preguntas comunes o contáctenos directamente.",
+      "contact": {
+        "title": "Contáctenos",
+        "description": "¿Tiene una pregunta o necesita ayuda? Envíenos un correo electrónico y nos pondremos en contacto con usted lo antes posible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Enlaces Rápidos",
+        "privacy": {
+          "title": "Política de Privacidad",
+          "description": "Aprenda cómo protegemos sus datos"
+        },
+        "terms": {
+          "title": "Términos de Servicio",
+          "description": "Lea nuestros términos y condiciones"
+        },
+        "deleteAccount": {
+          "title": "Eliminar Cuenta",
+          "description": "Instrucciones para eliminar la cuenta"
+        }
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes",
+        "q1": {
+          "question": "¿Cómo importo fotos y videos a Hush Gallery?",
+          "answer": "Para importar medios, abra la aplicación y toque el botón '+' o 'Importar'. Puede seleccionar fotos y videos de la galería de su dispositivo. Los medios importados se almacenarán de forma segura en el directorio privado de la aplicación y no serán accesibles por otras aplicaciones."
+        },
+        "q2": {
+          "question": "¿Cómo funciona la copia de seguridad en la nube?",
+          "answer": "La copia de seguridad en la nube es una función Premium opcional. Cuando está habilitada, sus fotos y videos se cifran en su dispositivo antes de subirse a iCloud (iOS) o Google Drive (Android). El cifrado ocurre del lado del cliente, lo que significa que no podemos acceder a sus medios. Puede habilitar o deshabilitar la copia de seguridad en la nube en cualquier momento en Configuración."
+        },
+        "q3": {
+          "question": "¿Cómo configuro el bloqueo de la aplicación?",
+          "answer": "Vaya a Configuración → Seguridad → Bloqueo de aplicación. Puede configurar un PIN, contraseña o habilitar la autenticación biométrica (Face ID/Touch ID). La aplicación se bloqueará automáticamente después de un período de inactividad, que puede configurar en la configuración."
+        },
+        "q4": {
+          "question": "¿Cómo elimino mi cuenta?",
+          "answer": "Para eliminar su cuenta, vaya a Configuración → Cuenta → Eliminar cuenta. Tenga en cuenta que la eliminación de la cuenta es permanente y no se puede deshacer. Todos sus datos, incluidas fotos, videos, carpetas y configuraciones, se eliminarán permanentemente. Para instrucciones detalladas, visite nuestra página de Eliminación de cuenta."
+        },
+        "q5": {
+          "question": "¿Puedo usar Hush Gallery sin copia de seguridad en la nube?",
+          "answer": "¡Sí! Hush Gallery funciona completamente sin conexión. Todas sus fotos y videos se almacenan localmente en su dispositivo de forma predeterminada. La copia de seguridad en la nube es opcional y solo se habilita si elige usarla. Sus medios permanecen privados y seguros incluso sin copia de seguridad en la nube."
+        },
+        "q6": {
+          "question": "¿Qué pasa con mis fotos si desinstalo la aplicación?",
+          "answer": "Si desinstala la aplicación sin eliminar su cuenta primero, sus datos locales se eliminarán. Si tenía habilitada la copia de seguridad en la nube, puede restaurar sus datos reinstalando la aplicación e iniciando sesión con la misma cuenta. Recomendamos exportar fotos importantes antes de desinstalar si no tiene habilitada la copia de seguridad en la nube."
+        }
+      },
+      "additionalHelp": {
+        "title": "¿Necesita más ayuda?",
+        "description": "Si no pudo encontrar la respuesta que busca, o si está experimentando un problema técnico, no dude en contactarnos. Estamos aquí para ayudar y generalmente respondemos dentro de 24-48 horas."
+      }
     }
   },
   "whistleCamera": {

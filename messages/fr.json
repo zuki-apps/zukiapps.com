@@ -1100,6 +1100,61 @@
         "terms": "Conditions d'utilisation",
         "termsLink": "Lire les conditions d'utilisation"
       }
+    },
+    "support": {
+      "title": "Support & Aide",
+      "subtitle": "Nous sommes là pour vous aider! Trouvez des réponses aux questions courantes ou contactez-nous directement.",
+      "contact": {
+        "title": "Contactez-nous",
+        "description": "Vous avez une question ou besoin d'aide? Envoyez-nous un e-mail et nous vous répondrons dans les plus brefs délais.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Liens Rapides",
+        "privacy": {
+          "title": "Politique de Confidentialité",
+          "description": "Découvrez comment nous protégeons vos données"
+        },
+        "terms": {
+          "title": "Conditions d'Utilisation",
+          "description": "Lisez nos termes et conditions"
+        },
+        "deleteAccount": {
+          "title": "Supprimer le Compte",
+          "description": "Instructions pour supprimer le compte"
+        }
+      },
+      "faq": {
+        "title": "Questions Fréquemment Posées",
+        "q1": {
+          "question": "Comment importer des photos et vidéos dans Hush Gallery?",
+          "answer": "Pour importer des médias, ouvrez l'application et appuyez sur le bouton '+' ou 'Importer'. Vous pouvez sélectionner des photos et vidéos depuis la galerie de votre appareil. Les médias importés seront stockés en toute sécurité dans le répertoire privé de l'application et ne seront pas accessibles par d'autres applications."
+        },
+        "q2": {
+          "question": "Comment fonctionne la sauvegarde cloud?",
+          "answer": "La sauvegarde cloud est une fonctionnalité Premium optionnelle. Lorsqu'elle est activée, vos photos et vidéos sont chiffrées sur votre appareil avant d'être téléchargées vers iCloud (iOS) ou Google Drive (Android). Le chiffrement se fait côté client, ce qui signifie que nous ne pouvons pas accéder à vos médias. Vous pouvez activer ou désactiver la sauvegarde cloud à tout moment dans les Paramètres."
+        },
+        "q3": {
+          "question": "Comment configurer le verrouillage de l'application?",
+          "answer": "Allez dans Paramètres → Sécurité → Verrouillage de l'application. Vous pouvez configurer un code PIN, un mot de passe ou activer l'authentification biométrique (Face ID/Touch ID). L'application se verrouillera automatiquement après une période d'inactivité, que vous pouvez configurer dans les paramètres."
+        },
+        "q4": {
+          "question": "Comment supprimer mon compte?",
+          "answer": "Pour supprimer votre compte, allez dans Paramètres → Compte → Supprimer le compte. Veuillez noter que la suppression du compte est permanente et ne peut pas être annulée. Toutes vos données, y compris les photos, vidéos, dossiers et paramètres, seront définitivement supprimées. Pour des instructions détaillées, visitez notre page de Suppression de compte."
+        },
+        "q5": {
+          "question": "Puis-je utiliser Hush Gallery sans sauvegarde cloud?",
+          "answer": "Oui! Hush Gallery fonctionne complètement hors ligne. Toutes vos photos et vidéos sont stockées localement sur votre appareil par défaut. La sauvegarde cloud est optionnelle et n'est activée que si vous choisissez de l'utiliser. Vos médias restent privés et sécurisés même sans sauvegarde cloud."
+        },
+        "q6": {
+          "question": "Que se passe-t-il avec mes photos si je désinstalle l'application?",
+          "answer": "Si vous désinstallez l'application sans supprimer votre compte d'abord, vos données locales seront supprimées. Si vous aviez la sauvegarde cloud activée, vous pouvez restaurer vos données en réinstallant l'application et en vous connectant avec le même compte. Nous recommandons d'exporter des photos importantes avant de désinstaller si vous n'avez pas la sauvegarde cloud activée."
+        }
+      },
+      "additionalHelp": {
+        "title": "Besoin de plus d'aide?",
+        "description": "Si vous n'avez pas trouvé la réponse que vous cherchez, ou si vous rencontrez un problème technique, n'hésitez pas à nous contacter. Nous sommes là pour vous aider et répondons généralement dans les 24-48 heures."
+      }
     }
   },
   "whistleCamera": {
