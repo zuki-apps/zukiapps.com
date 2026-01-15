@@ -60,6 +60,7 @@ export default async function HushGalleryTermsPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'hushGallery.terms' });
+  const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <>

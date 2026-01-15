@@ -60,6 +60,7 @@ export default async function WhistleCameraTermsPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'whistleCamera.terms' });
+  const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <>
