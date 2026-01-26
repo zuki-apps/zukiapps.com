@@ -1273,6 +1273,57 @@
         "title": "רשתות חברתיות"
       }
     },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "How does whistle detection work?",
+          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+        },
+        "q2": {
+          "question": "What is incognito mode?",
+          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+        },
+        "q3": {
+          "question": "How do I access the camera from the Lock Screen?",
+          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+        },
+        "q4": {
+          "question": "Does Whistle Camera require an internet connection?",
+          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+        },
+        "q5": {
+          "question": "How do I adjust whistle detection sensitivity?",
+          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+        },
+        "q6": {
+          "question": "Can I use Whistle Camera without microphone access?",
+          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    },
     "footer": {
       "copyright": "© 2025 Whistle Camera - כל הזכויות שמורות",
       "tagline": "חלק מ-Zuki Apps • מפתח מישראל • פותח ב-❤️"
@@ -1453,6 +1504,57 @@
       },
       "social": {
         "title": "רשתות חברתיות"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "How do I create a custom workout?",
+          "answer": "To create a custom workout, tap the '+' button or 'New Workout' option. You can set the work duration, rest duration, number of rounds, prepare time, and cooldown period. Once created, your workout will be saved and can be used anytime."
+        },
+        "q2": {
+          "question": "Can I use Power Interval Timer offline?",
+          "answer": "Yes! Power Interval Timer works completely offline. No internet connection is required. All your workouts and settings are stored locally on your device. The app does not collect any data or require an account."
+        },
+        "q3": {
+          "question": "How do I cast the timer to my TV?",
+          "answer": "To cast to your TV, start a workout and look for the casting icon. On iOS, use AirPlay to cast to Apple TV or AirPlay-compatible devices. On Android, use MediaProjection to cast to Chromecast or other compatible devices. The timer will automatically optimize its layout for TV viewing."
+        },
+        "q4": {
+          "question": "What display modes are available?",
+          "answer": "Power Interval Timer offers 7 different display modes: circular progress timer, digital countdown, linear progress bar, minimal clean design, analog clock style, dual timer display, and chronograph watch style. You can switch between modes in the settings or during a workout."
+        },
+        "q5": {
+          "question": "How do I customize the timer appearance?",
+          "answer": "Go to Settings → Customization. You can customize timer images, color themes, font sizes, sound selection, and choose between Dark, Light, or System theme. Changes will be applied immediately to your timer display."
+        },
+        "q6": {
+          "question": "Does Power Interval Timer work on Apple TV and Android TV?",
+          "answer": "Yes! Power Interval Timer has native support for Apple TV (tvOS) and Android TV. You can install the app directly on your TV and use it with a remote control. The interface is optimized for large displays and includes platform-specific features."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
       }
     },
     "footer": {

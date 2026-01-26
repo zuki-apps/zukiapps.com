@@ -103,6 +103,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // Whistle Camera terms of service
     },
     {
+      path: '/whistle-camera/support',
+      priority: 0.7,
+      changeFrequency: 'monthly',
+      // Whistle Camera support page
+    },
+    {
       path: '/power-interval-timer',
       priority: 0.9,
       changeFrequency: 'weekly',
@@ -119,6 +125,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
       changeFrequency: 'monthly',
       // Power Interval Timer terms of service
+    },
+    {
+      path: '/power-interval-timer/support',
+      priority: 0.7,
+      changeFrequency: 'monthly',
+      // Power Interval Timer support page
     },
     {
       path: '/dsa-compliance',

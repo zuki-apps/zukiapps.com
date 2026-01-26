@@ -273,8 +273,8 @@ export default function WhistleCameraPage() {
               {t('links.title')}
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <a
-                href="mailto:zuki.apps.dev@gmail.com"
+              <Link
+                href={`/${locale}/whistle-camera/support`}
                 className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-green-500/50 transition-all flex items-center gap-4 group border-2 border-green-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
               >
                 <div className="bg-green-600/30 p-3 rounded-lg group-hover:bg-green-600/50 border border-green-500/50 transition-colors">
@@ -289,7 +289,7 @@ export default function WhistleCameraPage() {
                   </p>
                 </div>
                 <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-green-400 transition-colors" />
-              </a>
+              </Link>
               <a
                 href="mailto:zuki.apps.dev@gmail.com"
                 className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-green-500/50 transition-all flex items-center gap-4 group border-2 border-green-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
@@ -347,6 +347,13 @@ export default function WhistleCameraPage() {
               {t('footer.tagline')}
             </p>
             <div className="flex justify-center gap-4 mt-4 text-sm">
+              <Link
+                href={`/${locale}/whistle-camera/support`}
+                className="text-gray-400 hover:text-green-400 transition-colors"
+              >
+                {tCommon('support')}
+              </Link>
+              <span className="text-gray-600">|</span>
               <Link
                 href={`/${locale}/whistle-camera/privacy`}
                 className="text-gray-400 hover:text-green-400 transition-colors"

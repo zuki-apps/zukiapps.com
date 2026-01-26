@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
@@ -33,9 +33,15 @@ export default function AppsCarousel() {
 
   useEffect(() => {
     setIsMounted(true);
+    
+    // Initialize slide width on mount
+    if (containerRef.current) {
+      setSlideWidth(containerRef.current.clientWidth);
+    }
   }, []);
 
-  const apps: AppData[] = [
+  // Define apps array - using useMemo to ensure it's stable
+  const apps: AppData[] = useMemo(() => [
     {
       id: 'zulist',
       icon: <ShoppingCart className="w-16 h-16 text-blue-400" aria-hidden="true" />,
@@ -86,12 +92,13 @@ export default function AppsCarousel() {
       isComingSoon: true,
       showFeatures: true,
     },
-  ];
+  ], [locale]);
 
   const goToSlide = useCallback((index: number) => {
     if (carouselRef.current && containerRef.current) {
       isScrollingRef.current = true;
       const container = carouselRef.current;
+      // Use the container's clientWidth which matches the visible area
       const width = containerRef.current.clientWidth;
       setCurrentIndex(index);
       container.scrollTo({
@@ -100,7 +107,7 @@ export default function AppsCarousel() {
       });
       setTimeout(() => {
         isScrollingRef.current = false;
-      }, 500);
+      }, 600);
     }
   }, []);
 
@@ -136,18 +143,36 @@ export default function AppsCarousel() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [currentIndex, apps.length, goToSlide]);
 
+  // Handle window resize
+  useEffect(() => {
+    const handleResize = () => {
+      if (containerRef.current) {
+        setSlideWidth(containerRef.current.clientWidth);
+        // Re-center current slide after resize
+        if (carouselRef.current) {
+          goToSlide(currentIndex);
+        }
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [currentIndex, goToSlide]);
+
   // Update current index on scroll
   useEffect(() => {
     const container = carouselRef.current;
-    if (!container) return;
+    const containerWrapper = containerRef.current;
+    if (!container || !containerWrapper) return;
 
     const handleScroll = () => {
       if (isScrollingRef.current) return;
       
       const scrollLeft = container.scrollLeft;
-      const slideWidth = container.clientWidth;
+      // Use the wrapper's clientWidth to match the visible area
+      const slideWidth = containerWrapper.clientWidth;
       const newIndex = Math.round(scrollLeft / slideWidth);
-      if (newIndex !== currentIndex) {
+      if (newIndex >= 0 && newIndex < apps.length && newIndex !== currentIndex) {
         setCurrentIndex(newIndex);
       }
     };
@@ -156,7 +181,7 @@ export default function AppsCarousel() {
     return () => {
       container.removeEventListener('scroll', handleScroll);
     };
-  }, [currentIndex]);
+  }, [currentIndex, apps.length]);
 
   return (
     <div className="relative w-full mb-12 max-w-4xl mx-auto">
@@ -174,6 +199,7 @@ export default function AppsCarousel() {
           {apps.map((app, index) => (
             <div
               key={app.id}
+              data-slide
               className="flex-shrink-0 snap-center flex items-stretch"
               style={{ 
                 width: '100%',
