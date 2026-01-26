@@ -32,7 +32,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'home' });
   
   const title = `${t('subtitle')} | ${siteName}`;
-  const description = `${t('subtitle')}. ${t('tagline')} Download ZuList - Manage & Share Lists, Hush Gallery - Hide Photos & Videos, and Whistle Camera - Selfie & More.`;
+  const description = `${t('subtitle')}. ${t('tagline')} Download ZuList - Manage & Share Lists, Hush Gallery - Hide Photos & Videos, Whistle Camera - Selfie & More, and Power Interval Timer - Tabata & HIIT.`;
   const logoUrl = `${baseUrl}/logo.png`;
   
   return {
@@ -48,6 +48,12 @@ export async function generateMetadata({
       'Hush Gallery - Hide Photos & Videos',
       'Whistle Camera',
       'Whistle Camera - Selfie & More',
+      'Power Interval Timer',
+      'Power Interval Timer - Tabata & HIIT',
+      'Tabata timer',
+      'HIIT timer',
+      'interval workout timer',
+      'workout timer app',
       'shopping list app',
       'grocery list app',
       'private photo gallery',
@@ -175,7 +181,7 @@ export default async function LocaleLayout({
     '@type': 'WebSite',
     name: 'Zuki Apps',
     url: baseUrl,
-    description: 'Mobile App Developer from Israel. Download ZuList - Manage & Share Lists, Hush Gallery - Hide Photos & Videos, and Whistle Camera - Selfie & More.',
+    description: 'Mobile App Developer from Israel. Download ZuList - Manage & Share Lists, Hush Gallery - Hide Photos & Videos, Whistle Camera - Selfie & More, and Power Interval Timer - Tabata & HIIT.',
     publisher: {
       '@type': 'Organization',
       name: 'Zuki Apps',

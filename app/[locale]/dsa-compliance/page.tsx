@@ -212,6 +212,13 @@ export default async function DSACompliancePage({
                     >
                       Whistle Camera
                     </Link>
+                    {' | '}
+                    <Link
+                      href={`/${locale}/power-interval-timer`}
+                      className="text-blue-600 hover:underline"
+                    >
+                      Power Interval Timer
+                    </Link>
                   </p>
                 </section>
               </div>

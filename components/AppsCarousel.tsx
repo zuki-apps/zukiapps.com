@@ -1,10 +1,10 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree } from 'lucide-react';
 
 interface AppData {
   id: string;
@@ -29,6 +29,7 @@ export default function AppsCarousel() {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isMounted, setIsMounted] = useState(false);
   const [slideWidth, setSlideWidth] = useState(0);
+  const isScrollingRef = useRef(false);
 
   useEffect(() => {
     setIsMounted(true);
@@ -63,6 +64,7 @@ export default function AppsCarousel() {
     {
       id: 'whistle-camera',
       icon: <Camera className="w-16 h-16 text-green-400" aria-hidden="true" />,
+      iconImage: '/images/whistle-camera-icon.png',
       titleKey: 'whistleCamera.title',
       subtitleKey: 'whistleCamera.subtitle',
       descriptionKey: 'whistleCamera.description',
@@ -71,61 +73,90 @@ export default function AppsCarousel() {
       link: `/${locale}/whistle-camera`,
       isComingSoon: true,
     },
+    {
+      id: 'power-interval-timer',
+      icon: <Timer className="w-16 h-16 text-orange-400" aria-hidden="true" />,
+      iconImage: '/images/power-interval-timer-icon.png',
+      titleKey: 'powerIntervalTimer.title',
+      subtitleKey: 'powerIntervalTimer.subtitle',
+      descriptionKey: 'powerIntervalTimer.description',
+      featuresKey: 'powerIntervalTimer.features',
+      learnMoreKey: 'powerIntervalTimer.learnMore',
+      link: `/${locale}/power-interval-timer`,
+      isComingSoon: true,
+      showFeatures: true,
+    },
   ];
 
-  const goToSlide = (index: number) => {
-    setCurrentIndex(index);
+  const goToSlide = useCallback((index: number) => {
     if (carouselRef.current && containerRef.current) {
+      isScrollingRef.current = true;
       const container = carouselRef.current;
       const width = containerRef.current.clientWidth;
+      setCurrentIndex(index);
       container.scrollTo({
         left: width * index,
         behavior: 'smooth',
       });
+      setTimeout(() => {
+        isScrollingRef.current = false;
+      }, 500);
     }
-  };
+  }, []);
 
-  const goToPrevious = () => {
-    const newIndex = currentIndex === 0 ? apps.length - 1 : currentIndex - 1;
-    goToSlide(newIndex);
-  };
+  const goToPrevious = useCallback(() => {
+    setCurrentIndex((prevIndex) => {
+      const newIndex = prevIndex === 0 ? apps.length - 1 : prevIndex - 1;
+      goToSlide(newIndex);
+      return newIndex;
+    });
+  }, [apps.length, goToSlide]);
 
-  const goToNext = () => {
-    const newIndex = currentIndex === apps.length - 1 ? 0 : currentIndex + 1;
-    goToSlide(newIndex);
-  };
+  const goToNext = useCallback(() => {
+    setCurrentIndex((prevIndex) => {
+      const newIndex = prevIndex === apps.length - 1 ? 0 : prevIndex + 1;
+      goToSlide(newIndex);
+      return newIndex;
+    });
+  }, [apps.length, goToSlide]);
 
   // Handle keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'ArrowLeft') goToPrevious();
-      if (e.key === 'ArrowRight') goToNext();
+      if (e.key === 'ArrowLeft') {
+        const newIndex = currentIndex === 0 ? apps.length - 1 : currentIndex - 1;
+        goToSlide(newIndex);
+      }
+      if (e.key === 'ArrowRight') {
+        const newIndex = currentIndex === apps.length - 1 ? 0 : currentIndex + 1;
+        goToSlide(newIndex);
+      }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex]);
+  }, [currentIndex, apps.length, goToSlide]);
 
   // Update current index on scroll
   useEffect(() => {
-    if (!carouselRef.current) return;
+    const container = carouselRef.current;
+    if (!container) return;
 
     const handleScroll = () => {
-      const container = carouselRef.current;
-      if (!container) return;
-
+      if (isScrollingRef.current) return;
+      
       const scrollLeft = container.scrollLeft;
       const slideWidth = container.clientWidth;
       const newIndex = Math.round(scrollLeft / slideWidth);
-      setCurrentIndex(newIndex);
-    };
-
-    carouselRef.current.addEventListener('scroll', handleScroll);
-    return () => {
-      if (carouselRef.current) {
-        carouselRef.current.removeEventListener('scroll', handleScroll);
+      if (newIndex !== currentIndex) {
+        setCurrentIndex(newIndex);
       }
     };
-  }, []);
+
+    container.addEventListener('scroll', handleScroll);
+    return () => {
+      container.removeEventListener('scroll', handleScroll);
+    };
+  }, [currentIndex]);
 
   return (
     <div className="relative w-full mb-12 max-w-4xl mx-auto">
@@ -212,7 +243,7 @@ export default function AppsCarousel() {
                 </p>
                 
                 {/* Features Grid */}
-                {app.showFeatures && (
+                {app.showFeatures && app.id === 'hush-gallery' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
                     <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.privacy')}>
                       <Shield className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
@@ -225,6 +256,22 @@ export default function AppsCarousel() {
                     <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.organized')}>
                       <FolderTree className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('hushGallery.features.organized')}</p>
+                    </div>
+                  </div>
+                )}
+                {app.showFeatures && app.id === 'power-interval-timer' && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.configurable')}>
+                      <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.configurable')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.display')}>
+                      <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.display')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.offline')}>
+                      <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.offline')}</p>
                     </div>
                   </div>
                 )}

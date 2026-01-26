@@ -70,36 +70,52 @@
     "footer": {
       "copyright": "© 2025 Zuki Apps - All rights reserved",
       "tagline": "在以色列开发 • 作为爱好 • 充满热情"
+    },
+    "powerIntervalTimer": {
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "间隔训练计时器 - 即将推出",
+      "description": "适用于Tabata、HIIT和短时间训练的最小化、快速、离线间隔训练计时器。功能：可配置的训练、多种显示模式、声音提醒和屏幕投射支持。",
+      "features": {
+        "configurable": "可配置的训练",
+        "display": "多种显示模式",
+        "offline": "离线工作"
+      },
+      "learnMore": "了解更多关于 Power Interval Timer →",
+      "back": "返回首页",
+      "comingSoon": "即将推出",
+      "underConstruction": "开发中",
+      "underConstructionMessage": "我们正在努力为您带来令人惊叹的东西。请稍后再来查看！",
+      "backToHome": "返回首页"
     }
   },
   "dsa": {
-    "title": "Digital Services Act (DSA) Compliance",
-    "lastUpdated": "Last updated: January 2025",
+    "title": "数字服务法 (DSA) 合规性",
+    "lastUpdated": "最后更新：2025年1月",
     "traderIdentification": {
-      "title": "Trader Identification",
-      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
+      "title": "交易者识别",
+      "content": "Zuki Apps根据欧盟数字服务法 (DSA) 作为交易者运营。所有应用程序（ZuList、Hush Gallery、Whistle Camera、Power Interval Timer）均由 Zuki Apps 提供，这是一家致力于遵守欧盟法规的商业实体。"
     },
     "businessInfo": {
-      "title": "Business Information",
-      "company": "Company",
+      "title": "商业信息",
+      "company": "公司",
       "companyValue": "Zuki Apps",
-      "address": "Address",
+      "address": "地址",
       "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-      "contactEmail": "Contact Email",
+      "contactEmail": "联系邮箱",
       "contactEmailValue": "zuki.apps.dev@gmail.com",
-      "supportEmail": "Support Email",
+      "supportEmail": "支持邮箱",
       "supportEmailValue": "zuki.apps@gmail.com",
-      "website": "Website",
+      "website": "网站",
       "websiteValue": "https://zukiapps.com"
     },
     "consumerRights": {
-      "title": "Consumer Rights",
-      "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
+      "title": "消费者权利",
+      "content": "作为交易者，我们致力于透明的商业实践并遵守欧盟消费者保护法。欧盟用户拥有特定权利，包括：",
       "items": [
-        "Right to clear information about the service and terms",
-        "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
-        "Right to complaint handling",
-        "Right to refunds (subject to applicable law and platform policies)"
+        "获得有关服务和条款的明确信息的权利",
+        "退出合同的权利（数字内容的14天冷静期，受适用法律约束）",
+        "投诉处理权",
+        "退款权（受适用法律和平台政策约束）"
       ]
     },
     "contact": {
@@ -1323,5 +1339,198 @@
     "contact": "联系",
     "contactUs": "联系我们",
     "dsaCompliance": "DSA合规"
+  },
+  "powerIntervalTimer": {
+    "back": "返回首页",
+    "hero": {
+      "badge": "即将推出",
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "间隔训练计时器",
+      "description": "适用于Tabata、HIIT和短时间训练的最小化、快速、离线间隔训练计时器。功能：可配置的训练、多种显示模式、声音提醒和屏幕投射支持。"
+    },
+    "features": {
+      "title": "主要功能",
+      "configurable": {
+        "title": "可配置的训练",
+        "description": "自定义训练间隔以匹配您的训练需求",
+        "items": [
+          "工作时间（秒）",
+          "休息时间（秒）",
+          "轮数",
+          "带起跑提示音的准备时间",
+          "冷却期"
+        ]
+      },
+      "display": {
+        "title": "多种显示模式",
+        "description": "从7种不同的计时器显示样式中选择",
+        "items": [
+          "圆形进度计时器",
+          "数字倒计时",
+          "线性进度条",
+          "极简干净设计",
+          "模拟时钟样式",
+          "双计时器显示",
+          "计时码表样式"
+        ]
+      },
+      "offline": {
+        "title": "离线工作",
+        "description": "无需互联网连接",
+        "items": [
+          "完全离线功能",
+          "无数据收集",
+          "仅本地存储",
+          "无需账户"
+        ]
+      },
+      "casting": {
+        "title": "屏幕投射",
+        "description": "将计时器投射到电视进行团体训练",
+        "items": [
+          "AirPlay支持（iOS）",
+          "MediaProjection（Android）",
+          "电视优化布局",
+          "自动清理"
+        ]
+      },
+      "tv": {
+        "title": "电视支持",
+        "description": "原生支持Apple TV和Android TV",
+        "items": [
+          "Apple TV（tvOS）支持",
+          "Android TV支持",
+          "大屏幕优化",
+          "平台特定功能"
+        ]
+      },
+      "customization": {
+        "title": "自定义",
+        "description": "个性化您的计时器体验",
+        "items": [
+          "自定义计时器图像",
+          "颜色主题",
+          "字体大小",
+          "声音选择",
+          "深色/浅色/系统主题"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 开发中",
+      "description": "应用目前正在开发中",
+      "version": "版本",
+      "status": "状态",
+      "versionValue": "1.0.0",
+      "statusValue": "即将推出"
+    },
+    "download": {
+      "title": "即将推出",
+      "description": "Power Interval Timer即将在应用商店推出",
+      "soon": "即将推出"
+    },
+    "links": {
+      "title": "重要链接",
+      "support": {
+        "title": "技术支持",
+        "email": "zuki.apps@gmail.com"
+      },
+      "contact": {
+        "title": "一般联系",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "social": {
+        "title": "社交媒体"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Power Interval Timer - 保留所有权利",
+      "tagline": "Zuki Apps的一部分 • 来自以色列的开发者 • 用 ❤️ 制作"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using Power Interval Timer. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Power Interval Timer (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval workout timer application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Power Interval Timer is a mobile application that provides interval workout timing functionality. The Service includes:",
+        "items": [
+          "Configurable workout timers (work, rest, rounds, prepare, cooldown)",
+          "Multiple display modes for timer visualization",
+          "Sound alerts and vibration feedback",
+          "Screen casting and TV support",
+          "Local storage of saved timers",
+          "Offline functionality"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Power Interval Timer is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services. All timer configurations and saved workouts are stored locally on your device and are not transmitted to our servers."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your timer data remains on your device and is only accessible to you."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You have the right to access, update, or delete your timer data at any time. You can delete all saved timers through the app. You may also uninstall the app at any time, which will remove all locally stored data."
+      },
+      "section6": {
+        "title": "6. Photo Library Access",
+        "content": "Power Interval Timer may request access to your device's photo library to allow you to select custom timer images. We only access your photos when you explicitly choose to add a timer image. Photos are stored locally and are not shared with third parties."
+      },
+      "section7": {
+        "title": "7. Crash Reporting and Error Analytics",
+        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
+        "dataCollected": "Data Collected:",
+        "dataCollectedItems": [
+          "Technical information about crashes and errors (stack traces, error messages)",
+          "Device information (operating system, device model, app version)",
+          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
+          "Custom diagnostic information related to errors (error codes, operation types)"
+        ],
+        "purpose": "Purpose:",
+        "purposeItems": [
+          "Identify and fix bugs and crashes",
+          "Improve app stability and performance",
+          "Analyze error patterns"
+        ],
+        "dataSharing": "Data Sharing:",
+        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
+        "dataRetention": "Data Retention:",
+        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
+        "yourRights": "Your Rights:",
+        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
   }
 }

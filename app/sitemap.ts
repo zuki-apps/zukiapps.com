@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       path: '/zulist/support',
       priority: 0.7,
-      changeFrequency: 'weekly',
+      changeFrequency: 'monthly',
       // Support page - updated when FAQ changes
     },
     {
@@ -55,22 +55,76 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // Delete data page - rarely changes
     },
     {
+      path: '/hush-gallery',
+      priority: 0.9,
+      changeFrequency: 'weekly',
+      // Hush Gallery app page - high priority
+    },
+    {
+      path: '/hush-gallery/privacy',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+      // Hush Gallery privacy policy
+    },
+    {
+      path: '/hush-gallery/terms',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+      // Hush Gallery terms of service
+    },
+    {
+      path: '/hush-gallery/support',
+      priority: 0.7,
+      changeFrequency: 'monthly',
+      // Hush Gallery support page
+    },
+    {
+      path: '/hush-gallery/delete-account',
+      priority: 0.3,
+      changeFrequency: 'yearly',
+      // Hush Gallery delete account page
+    },
+    {
+      path: '/whistle-camera',
+      priority: 0.9,
+      changeFrequency: 'weekly',
+      // Whistle Camera app page - high priority
+    },
+    {
+      path: '/whistle-camera/privacy',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+      // Whistle Camera privacy policy
+    },
+    {
+      path: '/whistle-camera/terms',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+      // Whistle Camera terms of service
+    },
+    {
+      path: '/power-interval-timer',
+      priority: 0.9,
+      changeFrequency: 'weekly',
+      // Power Interval Timer app page - high priority
+    },
+    {
+      path: '/power-interval-timer/privacy',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+      // Power Interval Timer privacy policy
+    },
+    {
+      path: '/power-interval-timer/terms',
+      priority: 0.5,
+      changeFrequency: 'monthly',
+      // Power Interval Timer terms of service
+    },
+    {
       path: '/dsa-compliance',
       priority: 0.6,
       changeFrequency: 'monthly',
       // DSA compliance page - important legal page
-    },
-    {
-      path: '/hush-gallery',
-      priority: 0.8,
-      changeFrequency: 'weekly',
-      // Hush Gallery app page
-    },
-    {
-      path: '/whistle-camera',
-      priority: 0.8,
-      changeFrequency: 'weekly',
-      // Whistle Camera app page
     },
   ];
 

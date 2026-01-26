@@ -70,36 +70,52 @@
     "footer": {
       "copyright": "© 2025 Zuki Apps - 모든 권리 보유",
       "tagline": "이스라엘에서 개발 • 취미로 • 열정을 가지고"
+    },
+    "powerIntervalTimer": {
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "인터벌 운동 타이머 - 출시 예정",
+      "description": "Tabata, HIIT 및 짧은 운동을 위한 최소한의 빠른 오프라인 인터벌 운동 타이머. 기능: 설정 가능한 운동, 여러 표시 모드, 소리 알림 및 화면 캐스팅 지원.",
+      "features": {
+        "configurable": "설정 가능한 운동",
+        "display": "여러 표시 모드",
+        "offline": "오프라인 작동"
+      },
+      "learnMore": "Power Interval Timer에 대해 자세히 알아보기 →",
+      "back": "홈으로 돌아가기",
+      "comingSoon": "출시 예정",
+      "underConstruction": "개발 중",
+      "underConstructionMessage": "놀라운 것을 제공하기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
+      "backToHome": "홈으로 돌아가기"
     }
   },
   "dsa": {
-    "title": "Digital Services Act (DSA) Compliance",
-    "lastUpdated": "Last updated: January 2025",
+    "title": "디지털 서비스법(DSA) 준수",
+    "lastUpdated": "최종 업데이트: 2025년 1월",
     "traderIdentification": {
-      "title": "Trader Identification",
-      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
+      "title": "사업자 식별",
+      "content": "Zuki Apps는 EU 디지털 서비스법(DSA)에 따라 사업자로 운영됩니다. 모든 애플리케이션(ZuList, Hush Gallery, Whistle Camera, Power Interval Timer)은 EU 규정 준수에 전념하는 사업체인 Zuki Apps에서 제공합니다."
     },
     "businessInfo": {
-      "title": "Business Information",
-      "company": "Company",
+      "title": "사업 정보",
+      "company": "회사",
       "companyValue": "Zuki Apps",
-      "address": "Address",
+      "address": "주소",
       "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-      "contactEmail": "Contact Email",
+      "contactEmail": "연락처 이메일",
       "contactEmailValue": "zuki.apps.dev@gmail.com",
-      "supportEmail": "Support Email",
+      "supportEmail": "지원 이메일",
       "supportEmailValue": "zuki.apps@gmail.com",
-      "website": "Website",
+      "website": "웹사이트",
       "websiteValue": "https://zukiapps.com"
     },
     "consumerRights": {
-      "title": "Consumer Rights",
-      "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
+      "title": "소비자 권리",
+      "content": "사업자로서 우리는 투명한 사업 관행과 EU 소비자 보호법 준수에 전념하고 있습니다. 유럽 연합의 사용자는 다음과 같은 특정 권리를 갖습니다:",
       "items": [
-        "Right to clear information about the service and terms",
-        "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
-        "Right to complaint handling",
-        "Right to refunds (subject to applicable law and platform policies)"
+        "서비스 및 약관에 대한 명확한 정보를 받을 권리",
+        "계약 철회권(디지털 콘텐츠의 14일 쿨링오프 기간, 적용 가능한 법률에 따름)",
+        "불만 처리 권리",
+        "환불 권리(적용 가능한 법률 및 플랫폼 정책에 따름)"
       ]
     },
     "contact": {
@@ -862,133 +878,133 @@
     }
   },
   "hushGallery": {
-    "back": "Back to Home",
+    "back": "홈으로 돌아가기",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "출시 예정",
       "title": "Hush Gallery - Hide Photos & Videos",
-      "subtitle": "Private Photo Gallery",
-      "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
+      "subtitle": "프라이빗 사진 갤러리",
+      "description": "개인 사진을 안전하고 체계적으로 보관할 수 있는 안전하고 프라이빗한 사진 갤러리 애플리케이션입니다. 고급 개인정보 보호 기능과 직관적인 디자인으로 추억을 보호하는 완벽한 솔루션입니다."
     },
     "features": {
-      "title": "Key Features",
+      "title": "주요 기능",
       "privacy": {
-        "title": "Privacy First",
-        "description": "Your photos are stored securely with advanced encryption",
+        "title": "개인정보 보호 우선",
+        "description": "사진이 고급 암호화로 안전하게 저장됩니다",
         "items": [
-          "Local-first storage in app's private directory",
-          "Optional encrypted cloud backup",
-          "PIN/password and biometric authentication",
-          "No access by other apps"
+          "앱의 프라이빗 디렉토리에 로컬 우선 저장",
+          "선택적 암호화된 클라우드 백업",
+          "PIN/비밀번호 및 생체 인증",
+          "다른 앱의 접근 불가"
         ]
       },
       "storage": {
-        "title": "Secure Storage",
-        "description": "All media stored locally with optional cloud sync",
+        "title": "안전한 저장소",
+        "description": "선택적 클라우드 동기화와 함께 모든 미디어를 로컬에 저장",
         "items": [
-          "Private app storage",
-          "Client-side encryption for cloud backup",
-          "Import from system gallery",
-          "Export with metadata preservation"
+          "프라이빗 앱 저장소",
+          "클라우드 백업을 위한 클라이언트 측 암호화",
+          "시스템 갤러리에서 가져오기",
+          "메타데이터 보존으로 내보내기"
         ]
       },
       "organization": {
-        "title": "Organized Collections",
-        "description": "Manage your photos and videos efficiently",
+        "title": "정리된 컬렉션",
+        "description": "사진과 비디오를 효율적으로 관리",
         "items": [
-          "Custom folder management",
-          "Media organization tools",
-          "Search and filter capabilities",
-          "Metadata preservation"
+          "사용자 정의 폴더 관리",
+          "미디어 정리 도구",
+          "검색 및 필터 기능",
+          "메타데이터 보존"
         ]
       },
       "security": {
-        "title": "App Lock",
-        "description": "Protect your gallery with multiple security options",
+        "title": "앱 잠금",
+        "description": "여러 보안 옵션으로 갤러리 보호",
         "items": [
-          "PIN/password protection",
-          "Biometric authentication (Face ID/Touch ID)",
-          "Auto-lock after inactivity",
-          "Secure entry point"
+          "PIN/비밀번호 보호",
+          "생체 인증 (Face ID/Touch ID)",
+          "비활성 후 자동 잠금",
+          "안전한 진입점"
         ]
       },
       "backup": {
-        "title": "Cloud Backup",
-        "description": "Optional encrypted cloud backup for your media",
+        "title": "클라우드 백업",
+        "description": "미디어를 위한 선택적 암호화된 클라우드 백업",
         "items": [
-          "Client-side encryption",
-          "Firebase or iCloud/Google Drive support",
-          "Selective backup",
-          "Automatic sync"
+          "클라이언트 측 암호화",
+          "Firebase 또는 iCloud/Google Drive 지원",
+          "선택적 백업",
+          "자동 동기화"
         ]
       },
       "import": {
-        "title": "Import/Export",
-        "description": "Easy media management",
+        "title": "가져오기/내보내기",
+        "description": "쉬운 미디어 관리",
         "items": [
-          "Import from system gallery",
-          "Export back with metadata",
-          "Batch operations",
-          "Format preservation"
+          "시스템 갤러리에서 가져오기",
+          "메타데이터와 함께 다시 내보내기",
+          "일괄 작업",
+          "형식 보존"
         ]
       }
     },
     "premium": {
-      "title": "Premium Features",
-      "description": "Unlock advanced features with a one-time purchase",
+      "title": "프리미엄 기능",
+      "description": "일회성 구매로 고급 기능 잠금 해제",
       "free": {
-        "title": "Free Features",
+        "title": "무료 기능",
         "items": [
-          "Basic gallery functionality",
-          "Local storage",
-          "App lock (PIN)",
-          "Basic folder management"
+          "기본 갤러리 기능",
+          "로컬 저장소",
+          "앱 잠금 (PIN)",
+          "기본 폴더 관리"
         ]
       },
       "premium": {
-        "title": "Premium Features",
+        "title": "프리미엄 기능",
         "items": [
-          "Encrypted cloud backup",
-          "Biometric authentication",
-          "Advanced folder management",
-          "Metadata tools",
-          "Priority support"
+          "암호화된 클라우드 백업",
+          "생체 인증",
+          "고급 폴더 관리",
+          "메타데이터 도구",
+          "우선 지원"
         ]
       },
       "pricing": {
-        "oneTime": "One-time purchase",
-        "description": "Unlock all premium features forever"
+        "oneTime": "일회성 구매",
+        "description": "모든 프리미엄 기능을 영구적으로 잠금 해제"
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
-      "version": "Version",
-      "status": "Status",
+      "title": "🚧 개발 중",
+      "description": "앱이 현재 개발 중입니다",
+      "version": "버전",
+      "status": "상태",
       "versionValue": "0.3.3+1",
-      "statusValue": "Coming Soon"
+      "statusValue": "출시 예정"
     },
     "download": {
-      "title": "Coming Soon",
-      "description": "Hush Gallery will be available soon on app stores",
-      "soon": "Available soon"
+      "title": "출시 예정",
+      "description": "Hush Gallery는 곧 앱 스토어에서 사용할 수 있습니다",
+      "soon": "곧 사용 가능"
     },
     "links": {
-      "title": "Important Links",
+      "title": "중요한 링크",
       "support": {
-        "title": "Technical Support",
+        "title": "기술 지원",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
-        "title": "General Contact",
+        "title": "일반 문의",
         "email": "zuki.apps.dev@gmail.com"
       },
       "social": {
-        "title": "Social Media"
+        "title": "소셜 미디어"
       }
     },
     "footer": {
-      "copyright": "© 2025 Hush Gallery - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 Hush Gallery - 모든 권리 보유",
+      "tagline": "Zuki Apps의 일부 • 이스라엘 개발자 • ❤️로 제작"
     },
     "terms": {
       "title": "Terms of Use",
@@ -1323,5 +1339,198 @@
     "contact": "연락처",
     "contactUs": "문의하기",
     "dsaCompliance": "DSA 준수"
+  },
+  "powerIntervalTimer": {
+    "back": "홈으로 돌아가기",
+    "hero": {
+      "badge": "출시 예정",
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "인터벌 운동 타이머",
+      "description": "Tabata, HIIT 및 짧은 운동을 위한 최소한의 빠른 오프라인 인터벌 운동 타이머. 기능: 설정 가능한 운동, 여러 표시 모드, 소리 알림 및 화면 캐스팅 지원."
+    },
+    "features": {
+      "title": "주요 기능",
+      "configurable": {
+        "title": "설정 가능한 운동",
+        "description": "훈련 요구에 맞게 운동 인터벌 사용자 정의",
+        "items": [
+          "작업 지속 시간(초)",
+          "휴식 지속 시간(초)",
+          "라운드 수",
+          "레이스 시작 비프음이 있는 준비 시간",
+          "쿨다운 기간"
+        ]
+      },
+      "display": {
+        "title": "여러 표시 모드",
+        "description": "7가지 다른 타이머 표시 스타일 중에서 선택",
+        "items": [
+          "원형 진행 타이머",
+          "디지털 카운트다운",
+          "선형 진행 표시줄",
+          "최소한의 깔끔한 디자인",
+          "아날로그 시계 스타일",
+          "듀얼 타이머 표시",
+          "크로노그래프 시계 스타일"
+        ]
+      },
+      "offline": {
+        "title": "오프라인 작동",
+        "description": "인터넷 연결 불필요",
+        "items": [
+          "완전히 오프라인으로 작동",
+          "데이터 수집 없음",
+          "로컬 저장소만",
+          "계정 불필요"
+        ]
+      },
+      "casting": {
+        "title": "화면 캐스팅",
+        "description": "그룹 운동을 위해 타이머를 TV로 캐스팅",
+        "items": [
+          "AirPlay 지원(iOS)",
+          "MediaProjection(Android)",
+          "TV 최적화 레이아웃",
+          "자동 정리"
+        ]
+      },
+      "tv": {
+        "title": "TV 지원",
+        "description": "Apple TV 및 Android TV 네이티브 지원",
+        "items": [
+          "Apple TV(tvOS) 지원",
+          "Android TV 지원",
+          "대형 디스플레이 최적화",
+          "플랫폼별 기능"
+        ]
+      },
+      "customization": {
+        "title": "사용자 정의",
+        "description": "타이머 경험 개인화",
+        "items": [
+          "사용자 정의 타이머 이미지",
+          "색상 테마",
+          "글꼴 크기",
+          "소리 선택",
+          "다크/라이트/시스템 테마"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 개발 중",
+      "description": "앱이 현재 개발 중입니다",
+      "version": "버전",
+      "status": "상태",
+      "versionValue": "1.0.0",
+      "statusValue": "출시 예정"
+    },
+    "download": {
+      "title": "출시 예정",
+      "description": "Power Interval Timer는 곧 앱 스토어에서 사용할 수 있습니다",
+      "soon": "곧 사용 가능"
+    },
+    "links": {
+      "title": "중요한 링크",
+      "support": {
+        "title": "기술 지원",
+        "email": "zuki.apps@gmail.com"
+      },
+      "contact": {
+        "title": "일반 문의",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "social": {
+        "title": "소셜 미디어"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Power Interval Timer - 모든 권리 보유",
+      "tagline": "Zuki Apps의 일부 • 이스라엘 개발자 • ❤️로 제작"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using Power Interval Timer. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Power Interval Timer (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval workout timer application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Power Interval Timer is a mobile application that provides interval workout timing functionality. The Service includes:",
+        "items": [
+          "Configurable workout timers (work, rest, rounds, prepare, cooldown)",
+          "Multiple display modes for timer visualization",
+          "Sound alerts and vibration feedback",
+          "Screen casting and TV support",
+          "Local storage of saved timers",
+          "Offline functionality"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Power Interval Timer is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services. All timer configurations and saved workouts are stored locally on your device and are not transmitted to our servers."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your timer data remains on your device and is only accessible to you."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You have the right to access, update, or delete your timer data at any time. You can delete all saved timers through the app. You may also uninstall the app at any time, which will remove all locally stored data."
+      },
+      "section6": {
+        "title": "6. Photo Library Access",
+        "content": "Power Interval Timer may request access to your device's photo library to allow you to select custom timer images. We only access your photos when you explicitly choose to add a timer image. Photos are stored locally and are not shared with third parties."
+      },
+      "section7": {
+        "title": "7. Crash Reporting and Error Analytics",
+        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
+        "dataCollected": "Data Collected:",
+        "dataCollectedItems": [
+          "Technical information about crashes and errors (stack traces, error messages)",
+          "Device information (operating system, device model, app version)",
+          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
+          "Custom diagnostic information related to errors (error codes, operation types)"
+        ],
+        "purpose": "Purpose:",
+        "purposeItems": [
+          "Identify and fix bugs and crashes",
+          "Improve app stability and performance",
+          "Analyze error patterns"
+        ],
+        "dataSharing": "Data Sharing:",
+        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
+        "dataRetention": "Data Retention:",
+        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
+        "yourRights": "Your Rights:",
+        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
   }
 }

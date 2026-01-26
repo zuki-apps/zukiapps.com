@@ -61,6 +61,22 @@
       "underConstructionMessage": "אנחנו עובדים קשה כדי להביא לך משהו מדהים. בדוק שוב בקרוב!",
       "backToHome": "חזרה לדף הבית"
     },
+    "powerIntervalTimer": {
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "טיימר אימון אינטרוולים - בקרוב",
+      "description": "טיימר אימון אינטרוולים מינימלי, מהיר ועובד במצב לא מקוון עבור Tabata, HIIT ואימונים קצרים. כולל אימונים ניתנים להגדרה, מצבי תצוגה מרובים, התראות קול ותמיכה בהקרנה למסך.",
+      "features": {
+        "configurable": "אימונים ניתנים להגדרה",
+        "display": "מצבי תצוגה מרובים",
+        "offline": "עובד במצב לא מקוון"
+      },
+      "learnMore": "למידע נוסף על Power Interval Timer →",
+      "back": "חזרה לדף הבית",
+      "comingSoon": "בקרוב",
+      "underConstruction": "בבנייה",
+      "underConstructionMessage": "אנחנו עובדים קשה כדי להביא לך משהו מדהים. בדוק שוב בקרוב!",
+      "backToHome": "חזרה לדף הבית"
+    },
     "contact": {
       "title": "יצירת קשר",
       "description": "יש לך שאלה, רעיון או פשוט רוצה ליצור קשר? אשמח לשמוע ממך!",
@@ -73,33 +89,33 @@
     }
   },
   "dsa": {
-    "title": "Digital Services Act (DSA) Compliance",
-    "lastUpdated": "Last updated: January 2025",
+    "title": "ציות לחוק שירותים דיגיטליים (DSA)",
+    "lastUpdated": "עודכן לאחרונה: ינואר 2025",
     "traderIdentification": {
-      "title": "Trader Identification",
-      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
+      "title": "זיהוי סוחר",
+      "content": "Zuki Apps פועל כסוחר תחת חוק שירותים דיגיטליים של האיחוד האירופי (DSA). כל האפליקציות (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer) מסופקות על ידי Zuki Apps, ישות עסקית המחויבת לציות לתקנות האיחוד האירופי."
     },
     "businessInfo": {
-      "title": "Business Information",
-      "company": "Company",
+      "title": "מידע עסקי",
+      "company": "חברה",
       "companyValue": "Zuki Apps",
-      "address": "Address",
+      "address": "כתובת",
       "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-      "contactEmail": "Contact Email",
+      "contactEmail": "אימייל ליצירת קשר",
       "contactEmailValue": "zuki.apps.dev@gmail.com",
-      "supportEmail": "Support Email",
+      "supportEmail": "אימייל תמיכה",
       "supportEmailValue": "zuki.apps@gmail.com",
-      "website": "Website",
+      "website": "אתר אינטרנט",
       "websiteValue": "https://zukiapps.com"
     },
     "consumerRights": {
-      "title": "Consumer Rights",
-      "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
+      "title": "זכויות צרכן",
+      "content": "כסוחר, אנו מחויבים לפרקטיקות עסקיות שקופות ולציות לחוקי הגנת הצרכן של האיחוד האירופי. למשתמשים באיחוד האירופי יש זכויות ספציפיות, כולל:",
       "items": [
-        "Right to clear information about the service and terms",
-        "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
-        "Right to complaint handling",
-        "Right to refunds (subject to applicable law and platform policies)"
+        "זכות למידע ברור על השירות והתנאים",
+        "זכות לחזור מהסכמים (תקופת קירור של 14 יום לתוכן דיגיטלי, בכפוף לחוק החל)",
+        "זכות לטיפול בתלונות",
+        "זכות להחזר כספי (בכפוף לחוק החל ולמדיניות הפלטפורמה)"
       ]
     },
     "contact": {
@@ -1335,5 +1351,198 @@
     "contact": "יצירת קשר",
     "contactUs": "צור קשר",
     "dsaCompliance": "ציות DSA"
+  },
+  "powerIntervalTimer": {
+    "back": "חזרה לדף הבית",
+    "hero": {
+      "badge": "בקרוב",
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "טיימר אימון אינטרוולים",
+      "description": "טיימר אימון אינטרוולים מינימלי, מהיר ועובד במצב לא מקוון עבור Tabata, HIIT ואימונים קצרים. כולל אימונים ניתנים להגדרה, מצבי תצוגה מרובים, התראות קול ותמיכה בהקרנה למסך."
+    },
+    "features": {
+      "title": "תכונות עיקריות",
+      "configurable": {
+        "title": "אימונים ניתנים להגדרה",
+        "description": "התאם את מרווחי האימון שלך לצרכי האימון שלך",
+        "items": [
+          "משך עבודה (שניות)",
+          "משך מנוחה (שניות)",
+          "מספר סבבים",
+          "זמן הכנה עם צפצופי התחלה",
+          "תקופת קירור"
+        ]
+      },
+      "display": {
+        "title": "מצבי תצוגה מרובים",
+        "description": "בחר מתוך 7 סגנונות תצוגת טיימר שונים",
+        "items": [
+          "טיימר התקדמות מעגלי",
+          "ספירה לאחור דיגיטלית",
+          "סרגל התקדמות ליניארי",
+          "עיצוב מינימלי נקי",
+          "סגנון שעון אנלוגי",
+          "תצוגת טיימר כפולה",
+          "סגנון כרונוגרף"
+        ]
+      },
+      "offline": {
+        "title": "עובד במצב לא מקוון",
+        "description": "לא נדרש חיבור לאינטרנט",
+        "items": [
+          "פונקציונלי לחלוטין במצב לא מקוון",
+          "אין איסוף נתונים",
+          "אחסון מקומי בלבד",
+          "לא נדרש חשבון"
+        ]
+      },
+      "casting": {
+        "title": "הקרנה למסך",
+        "description": "הקרן את הטיימר שלך לטלוויזיה לאימונים קבוצתיים",
+        "items": [
+          "תמיכה ב-AirPlay (iOS)",
+          "MediaProjection (Android)",
+          "פריסה מותאמת לטלוויזיה",
+          "ניקוי אוטומטי"
+        ]
+      },
+      "tv": {
+        "title": "תמיכה בטלוויזיה",
+        "description": "תמיכה מקורית ב-Apple TV ו-Android TV",
+        "items": [
+          "תמיכה ב-Apple TV (tvOS)",
+          "תמיכה ב-Android TV",
+          "מותאם לתצוגה גדולה",
+          "תכונות ספציפיות לפלטפורמה"
+        ]
+      },
+      "customization": {
+        "title": "התאמה אישית",
+        "description": "התאם אישית את חוויית הטיימר שלך",
+        "items": [
+          "תמונות טיימר מותאמות אישית",
+          "ערכות נושא צבע",
+          "גדלי גופן",
+          "בחירת צליל",
+          "ערכות נושא כהה/בהיר/מערכת"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 בפיתוח",
+      "description": "האפליקציה נמצאת כעת בפיתוח",
+      "version": "גרסה",
+      "status": "סטטוס",
+      "versionValue": "1.0.0",
+      "statusValue": "בקרוב"
+    },
+    "download": {
+      "title": "בקרוב",
+      "description": "Power Interval Timer יהיה זמין בקרוב בחנויות האפליקציות",
+      "soon": "זמין בקרוב"
+    },
+    "links": {
+      "title": "קישורים חשובים",
+      "support": {
+        "title": "תמיכה טכנית",
+        "email": "zuki.apps@gmail.com"
+      },
+      "contact": {
+        "title": "יצירת קשר כללי",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "social": {
+        "title": "רשתות חברתיות"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Power Interval Timer - כל הזכויות שמורות",
+      "tagline": "חלק מ-Zuki Apps • מפתח מישראל • נוצר עם ❤️"
+    },
+    "terms": {
+      "title": "תנאי שימוש",
+      "lastUpdated": "עודכן לאחרונה: ינואר 2025",
+      "intro": "אנא קרא את תנאי השימוש האלה בעיון לפני השימוש ב-Power Interval Timer. על ידי גישה לשירות או שימוש בו, אתה מסכים להיות מחויב לתנאים אלה. אם אינך מסכים לתנאים אלה, אנא אל תשתמש בשירות שלנו.",
+      "section1": {
+        "title": "1. קבלת התנאים",
+        "content": "תנאי השימוש האלה (\"תנאים\") מגדירים את הגישה שלך לשימוש ב-Power Interval Timer (\"שירות\", \"אפליקציה\", \"אנחנו\", \"אנו\" או \"שלנו\"), אפליקציית טיימר אימון אינטרוולים המנוהלת על ידי Zuki Apps (\"חברה\"). על ידי הורדה, התקנה, גישה או שימוש בשירות, אתה מסכים להיות מחויב לתנאים אלה ולמדיניות הפרטיות שלנו.",
+        "content2": "אם אתה משתמש בשירות בשם ארגון, אתה מצהיר ומתחייב שיש לך את הסמכות לחייב את הארגון הזה לתנאים אלה."
+      },
+      "section2": {
+        "title": "2. תיאור השירות",
+        "content": "Power Interval Timer היא אפליקציה ניידת המספקת פונקציונליות של טיימינג אימון אינטרוולים. השירות כולל:",
+        "items": [
+          "טיימרי אימון ניתנים להגדרה (עבודה, מנוחה, סבבים, הכנה, קירור)",
+          "מצבי תצוגה מרובים להדמיית טיימר",
+          "התראות קול ומשוב רטט",
+          "הקרנה למסך ותמיכה בטלוויזיה",
+          "אחסון מקומי של טיימרים שמורים",
+          "פונקציונליות במצב לא מקוון"
+        ]
+      },
+      "section19": {
+        "title": "19. פרטי יצירת קשר",
+        "content": "אם יש לך שאלות כלשהן על התנאים האלה, אנא צור איתנו קשר:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "מדיניות פרטיות",
+      "lastUpdated": "עודכן לאחרונה: ינואר 2025",
+      "section1": {
+        "title": "1. מידע שאנו אוספים",
+        "content": "Power Interval Timer מעוצב עם פרטיות בחשבון. אנו אוספים מידע מינימלי הנדרש לספק את השירות. האפליקציה עובדת במלואה במצב לא מקוון ושומרת את כל הנתונים מקומית במכשיר שלך."
+      },
+      "section2": {
+        "title": "2. איך אנו משתמשים במידע שלך",
+        "content": "אנו משתמשים במידע שאנו אוספים כדי לספק, לתחזק ולשפר את השירותים שלנו. כל תצורות הטיימר ואימונים שמורים נשמרים מקומית במכשיר שלך ואינם מועברים לשרתים שלנו."
+      },
+      "section3": {
+        "title": "3. שיתוף מידע",
+        "content": "אנו לא מוכרים, סוחרים או מעבירים את המידע האישי שלך לצדדים שלישיים. נתוני הטיימר שלך נשארים במכשיר שלך ונגישים רק לך."
+      },
+      "section4": {
+        "title": "4. אבטחת נתונים",
+        "content": "אנו מיישמים אמצעי אבטחה מתאימים כדי להגן על המידע שלך. כל הנתונים נשמרים מקומית במכשיר שלך בתיקייה הפרטית של האפליקציה, שאינה נגישה לאפליקציות אחרות."
+      },
+      "section5": {
+        "title": "5. הזכויות שלך",
+        "content": "יש לך זכות לגשת, לעדכן או למחוק את נתוני הטיימר שלך בכל עת. אתה יכול למחוק את כל הטיימרים השמורים דרך האפליקציה. אתה יכול גם להסיר את האפליקציה בכל עת, מה שיסיר את כל הנתונים השמורים מקומית."
+      },
+      "section6": {
+        "title": "6. גישה לספריית תמונות",
+        "content": "Power Interval Timer עשוי לבקש גישה לספריית התמונות של המכשיר שלך כדי לאפשר לך לבחור תמונות טיימר מותאמות אישית. אנו ניגשים לתמונות שלך רק כאשר אתה בוחר במפורש להוסיף תמונת טיימר. תמונות נשמרות מקומית ואינן משותפות עם צדדים שלישיים."
+      },
+      "section7": {
+        "title": "7. דיווח על קריסות ואנליטיקת שגיאות",
+        "content": "אנו משתמשים ב-Firebase Crashlytics, שירות המסופק על ידי Google, כדי לאסוף מידע על קריסות ושגיאות אפליקציה. זה עוזר לנו לזהות ולתקן בעיות כדי לשפר את החוויה שלך.",
+        "dataCollected": "נתונים שנאספו:",
+        "dataCollectedItems": [
+          "מידע טכני על קריסות ושגיאות (עקבות מחסנית, הודעות שגיאה)",
+          "מידע על המכשיר (מערכת הפעלה, דגם מכשיר, גרסת אפליקציה)",
+          "מזהה התקנה (מזהה ייחודי להתקנת האפליקציה שלך, לא מקושר לזהות האישית שלך)",
+          "מידע אבחון מותאם אישית הקשור לשגיאות (קודי שגיאה, סוגי פעולות)"
+        ],
+        "purpose": "מטרה:",
+        "purposeItems": [
+          "זיהוי ותיקון באגים וקריסות",
+          "שיפור יציבות וביצועי האפליקציה",
+          "ניתוח דפוסי שגיאות"
+        ],
+        "dataSharing": "שיתוף נתונים:",
+        "dataSharingContent": "נתונים אלה מעובדים על ידי Google Firebase וכפופים למדיניות הפרטיות של Google.",
+        "dataRetention": "שמירת נתונים:",
+        "dataRetentionContent": "דוחות קריסה נשמרים על ידי Firebase עד 90 יום ואז נמחקים אוטומטית.",
+        "yourRights": "הזכויות שלך:",
+        "yourRightsContent": "אתה יכול לבטל את דיווח הקריסות על ידי השבתתו בהגדרות המכשיר שלך, אם כי זה עלול למנוע מאיתנו לתקן בעיות המשפיעות עליך."
+      },
+      "section8": {
+        "title": "8. צור איתנו קשר",
+        "content": "אם יש לך שאלות כלשהן על מדיניות הפרטיות הזו, אנא צור איתנו קשר ב:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
   }
 }

@@ -40,6 +40,8 @@ export default function SoftwareApplicationStructuredData({
     appPath = '/hush-gallery';
   } else if (appName.includes('Whistle Camera')) {
     appPath = '/whistle-camera';
+  } else if (appName.includes('Power Interval Timer')) {
+    appPath = '/power-interval-timer';
   }
   
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'

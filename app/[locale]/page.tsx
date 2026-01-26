@@ -1,11 +1,13 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { Mail, Sparkles, Code, Heart } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppsCarousel from '@/components/AppsCarousel';
+import AppsGrid from '@/components/AppsGrid';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 
 interface Star {
@@ -101,6 +103,9 @@ export default function Home() {
             </p>
           </div>
 
+          {/* Apps Grid Section */}
+          <AppsGrid />
+
           {/* Apps Carousel Section */}
           <AppsCarousel />
 
@@ -168,6 +173,14 @@ export default function Home() {
             <Heart className="w-4 h-4 text-red-500" />
             {t('footer.tagline')}
           </p>
+          <div className="mt-4">
+            <Link
+              href={`/${locale}/dsa-compliance`}
+              className="text-gray-400 hover:text-blue-400 transition-colors text-sm"
+            >
+              {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
+            </Link>
+          </div>
         </div>
       </footer>
     </div>

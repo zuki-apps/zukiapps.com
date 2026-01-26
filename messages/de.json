@@ -61,6 +61,22 @@
       "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
       "backToHome": "Zurück zur Startseite"
     },
+    "powerIntervalTimer": {
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "Intervall-Trainings-Timer - Demnächst verfügbar",
+      "description": "Ein minimaler, schneller, offline Intervall-Trainings-Timer für Tabata, HIIT und kurze Workouts. Funktionen: konfigurierbare Workouts, mehrere Anzeigemodi, Sound-Alarme und Bildschirmübertragungs-Unterstützung.",
+      "features": {
+        "configurable": "Konfigurierbare Workouts",
+        "display": "Mehrere Anzeigemodi",
+        "offline": "Funktioniert Offline"
+      },
+      "learnMore": "Erfahren Sie mehr über Power Interval Timer →",
+      "back": "Zurück zur Startseite",
+      "comingSoon": "Demnächst verfügbar",
+      "underConstruction": "Im Aufbau",
+      "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
+      "backToHome": "Zurück zur Startseite"
+    },
     "contact": {
       "title": "Kontakt aufnehmen",
       "description": "Haben Sie eine Frage, eine Idee oder möchten Sie einfach Kontakt aufnehmen? Ich würde gerne von Ihnen hören!",
@@ -73,33 +89,33 @@
     }
   },
   "dsa": {
-    "title": "Digital Services Act (DSA) Compliance",
-    "lastUpdated": "Last updated: January 2025",
+    "title": "Einhaltung des Digital Services Act (DSA)",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
     "traderIdentification": {
-      "title": "Trader Identification",
-      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
+      "title": "Händleridentifikation",
+      "content": "Zuki Apps agiert als Händler unter dem EU Digital Services Act (DSA). Alle Anwendungen (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer) werden von Zuki Apps bereitgestellt, einem Unternehmen, das sich der Einhaltung der EU-Vorschriften verpflichtet hat."
     },
     "businessInfo": {
-      "title": "Business Information",
-      "company": "Company",
+      "title": "Geschäftsinformationen",
+      "company": "Unternehmen",
       "companyValue": "Zuki Apps",
-      "address": "Address",
+      "address": "Adresse",
       "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-      "contactEmail": "Contact Email",
+      "contactEmail": "Kontakt-E-Mail",
       "contactEmailValue": "zuki.apps.dev@gmail.com",
-      "supportEmail": "Support Email",
+      "supportEmail": "Support-E-Mail",
       "supportEmailValue": "zuki.apps@gmail.com",
       "website": "Website",
       "websiteValue": "https://zukiapps.com"
     },
     "consumerRights": {
-      "title": "Consumer Rights",
-      "content": "As a trader, we are committed to transparent business practices and compliance with EU consumer protection laws. Users in the European Union have specific rights, including:",
+      "title": "Verbraucherrechte",
+      "content": "Als Händler sind wir transparenten Geschäftspraktiken und der Einhaltung der EU-Verbraucherschutzgesetze verpflichtet. Nutzer in der Europäischen Union haben spezifische Rechte, einschließlich:",
       "items": [
-        "Right to clear information about the service and terms",
-        "Right to withdraw from contracts (14-day cooling-off period for digital content, subject to applicable law)",
-        "Right to complaint handling",
-        "Right to refunds (subject to applicable law and platform policies)"
+        "Recht auf klare Informationen über den Service und die Bedingungen",
+        "Recht auf Widerruf von Verträgen (14-tägige Widerrufsfrist für digitale Inhalte, vorbehaltlich des geltenden Rechts)",
+        "Recht auf Bearbeitung von Beschwerden",
+        "Recht auf Rückerstattungen (vorbehaltlich des geltenden Rechts und der Plattformrichtlinien)"
       ]
     },
     "contact": {
@@ -1313,6 +1329,199 @@
         "title": "8. Kontaktieren Sie uns",
         "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:",
         "email": "zuki.apps@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  },
+  "powerIntervalTimer": {
+    "back": "Zurück zur Startseite",
+    "hero": {
+      "badge": "Demnächst verfügbar",
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "Intervall-Trainings-Timer",
+      "description": "Ein minimaler, schneller, offline Intervall-Trainings-Timer für Tabata, HIIT und kurze Workouts. Funktionen: konfigurierbare Workouts, mehrere Anzeigemodi, Sound-Alarme und Bildschirmübertragungs-Unterstützung."
+    },
+    "features": {
+      "title": "Hauptfunktionen",
+      "configurable": {
+        "title": "Konfigurierbare Workouts",
+        "description": "Passen Sie Ihre Trainingsintervalle an Ihre Trainingsbedürfnisse an",
+        "items": [
+          "Arbeitsdauer (Sekunden)",
+          "Ruhezeit (Sekunden)",
+          "Anzahl der Runden",
+          "Vorbereitungszeit mit Start-Signalen",
+          "Abkühlphase"
+        ]
+      },
+      "display": {
+        "title": "Mehrere Anzeigemodi",
+        "description": "Wählen Sie aus 7 verschiedenen Timer-Anzeigestilen",
+        "items": [
+          "Kreisförmiger Fortschritts-Timer",
+          "Digitaler Countdown",
+          "Lineare Fortschrittsleiste",
+          "Minimales sauberes Design",
+          "Analoges Uhren-Design",
+          "Dual-Timer-Anzeige",
+          "Chronographen-Uhren-Design"
+        ]
+      },
+      "offline": {
+        "title": "Funktioniert Offline",
+        "description": "Keine Internetverbindung erforderlich",
+        "items": [
+          "Vollständig offline funktionsfähig",
+          "Keine Datenerfassung",
+          "Nur lokale Speicherung",
+          "Kein Konto erforderlich"
+        ]
+      },
+      "casting": {
+        "title": "Bildschirmübertragung",
+        "description": "Übertragen Sie Ihren Timer auf den Fernseher für Gruppen-Workouts",
+        "items": [
+          "AirPlay-Unterstützung (iOS)",
+          "MediaProjection (Android)",
+          "TV-optimiertes Layout",
+          "Automatische Bereinigung"
+        ]
+      },
+      "tv": {
+        "title": "TV-Unterstützung",
+        "description": "Native Unterstützung für Apple TV und Android TV",
+        "items": [
+          "Apple TV (tvOS) Unterstützung",
+          "Android TV Unterstützung",
+          "Optimiert für große Displays",
+          "Plattformspezifische Funktionen"
+        ]
+      },
+      "customization": {
+        "title": "Anpassung",
+        "description": "Personalisieren Sie Ihre Timer-Erfahrung",
+        "items": [
+          "Benutzerdefinierte Timer-Bilder",
+          "Farbthemen",
+          "Schriftgrößen",
+          "Soundauswahl",
+          "Dunkel/Hell/System-Themen"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 In Entwicklung",
+      "description": "Die App befindet sich derzeit in der Entwicklung",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "1.0.0",
+      "statusValue": "Demnächst verfügbar"
+    },
+    "download": {
+      "title": "Demnächst verfügbar",
+      "description": "Power Interval Timer wird bald in den App-Stores verfügbar sein",
+      "soon": "Bald verfügbar"
+    },
+    "links": {
+      "title": "Wichtige Links",
+      "support": {
+        "title": "Technischer Support",
+        "email": "zuki.apps@gmail.com"
+      },
+      "contact": {
+        "title": "Allgemeiner Kontakt",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "social": {
+        "title": "Soziale Medien"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Power Interval Timer - Alle Rechte vorbehalten",
+      "tagline": "Teil von Zuki Apps • Entwickler aus Israel • Mit ❤️ gemacht"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+      "intro": "Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie Power Interval Timer verwenden. Durch den Zugriff auf oder die Nutzung unseres Dienstes stimmen Sie diesen Bedingungen zu. Wenn Sie diesen Bedingungen nicht zustimmen, verwenden Sie bitte unseren Dienst nicht.",
+      "section1": {
+        "title": "1. Annahme der Bedingungen",
+        "content": "Diese Nutzungsbedingungen (\"Bedingungen\") regeln Ihren Zugriff auf und die Nutzung von Power Interval Timer (\"Dienst\", \"App\", \"wir\", \"uns\" oder \"unser\"), einer Intervall-Trainings-Timer-Anwendung, die von Zuki Apps (\"Unternehmen\") betrieben wird. Durch Herunterladen, Installieren, Zugreifen auf oder Verwenden des Dienstes stimmen Sie diesen Bedingungen und unserer Datenschutzrichtlinie zu.",
+        "content2": "Wenn Sie den Dienst im Namen einer Organisation verwenden, erklären und garantieren Sie, dass Sie die Befugnis haben, diese Organisation an diese Bedingungen zu binden."
+      },
+      "section2": {
+        "title": "2. Beschreibung des Dienstes",
+        "content": "Power Interval Timer ist eine mobile Anwendung, die Intervall-Trainings-Timing-Funktionalität bietet. Der Dienst umfasst:",
+        "items": [
+          "Konfigurierbare Trainings-Timer (Arbeit, Ruhe, Runden, Vorbereitung, Abkühlung)",
+          "Mehrere Anzeigemodi für die Timer-Visualisierung",
+          "Sound-Alarme und Vibrations-Feedback",
+          "Bildschirmübertragung und TV-Unterstützung",
+          "Lokale Speicherung gespeicherter Timer",
+          "Offline-Funktionalität"
+        ]
+      },
+      "section19": {
+        "title": "19. Kontaktinformationen",
+        "content": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+      "section1": {
+        "title": "1. Informationen, die wir sammeln",
+        "content": "Power Interval Timer ist mit Fokus auf Datenschutz entwickelt. Wir sammeln minimale Informationen, die für die Bereitstellung des Dienstes erforderlich sind. Die App funktioniert vollständig offline und speichert alle Daten lokal auf Ihrem Gerät."
+      },
+      "section2": {
+        "title": "2. Wie wir Ihre Informationen verwenden",
+        "content": "Wir verwenden die von uns gesammelten Informationen, um unsere Dienste bereitzustellen, zu warten und zu verbessern. Alle Timer-Konfigurationen und gespeicherten Workouts werden lokal auf Ihrem Gerät gespeichert und nicht an unsere Server übertragen."
+      },
+      "section3": {
+        "title": "3. Informationsweitergabe",
+        "content": "Wir verkaufen, handeln oder übertragen Ihre persönlichen Informationen nicht an Dritte. Ihre Timer-Daten bleiben auf Ihrem Gerät und sind nur für Sie zugänglich."
+      },
+      "section4": {
+        "title": "4. Datensicherheit",
+        "content": "Wir implementieren angemessene Sicherheitsmaßnahmen zum Schutz Ihrer Informationen. Alle Daten werden lokal auf Ihrem Gerät im privaten Verzeichnis der App gespeichert, auf das andere Apps nicht zugreifen können."
+      },
+      "section5": {
+        "title": "5. Ihre Rechte",
+        "content": "Sie haben das Recht, jederzeit auf Ihre Timer-Daten zuzugreifen, sie zu aktualisieren oder zu löschen. Sie können alle gespeicherten Timer über die App löschen. Sie können die App auch jederzeit deinstallieren, wodurch alle lokal gespeicherten Daten entfernt werden."
+      },
+      "section6": {
+        "title": "6. Zugriff auf die Fotobibliothek",
+        "content": "Power Interval Timer kann Zugriff auf die Fotobibliothek Ihres Geräts anfordern, damit Sie benutzerdefinierte Timer-Bilder auswählen können. Wir greifen nur auf Ihre Fotos zu, wenn Sie explizit wählen, ein Timer-Bild hinzuzufügen. Fotos werden lokal gespeichert und nicht an Dritte weitergegeben."
+      },
+      "section7": {
+        "title": "7. Absturzberichterstattung und Fehleranalyse",
+        "content": "Wir verwenden Firebase Crashlytics, einen von Google bereitgestellten Dienst, um Informationen über App-Abstürze und Fehler zu sammeln. Dies hilft uns, Probleme zu identifizieren und zu beheben, um Ihre Erfahrung zu verbessern.",
+        "dataCollected": "Gesammelte Daten:",
+        "dataCollectedItems": [
+          "Technische Informationen über Abstürze und Fehler (Stack-Traces, Fehlermeldungen)",
+          "Geräteinformationen (Betriebssystem, Gerätemodell, App-Version)",
+          "Installations-ID (eine eindeutige Kennung für Ihre App-Installation, nicht mit Ihrer persönlichen Identität verknüpft)",
+          "Benutzerdefinierte Diagnoseinformationen zu Fehlern (Fehlercodes, Betriebstypen)"
+        ],
+        "purpose": "Zweck:",
+        "purposeItems": [
+          "Fehler und Abstürze identifizieren und beheben",
+          "App-Stabilität und Leistung verbessern",
+          "Fehlermuster analysieren"
+        ],
+        "dataSharing": "Datenweitergabe:",
+        "dataSharingContent": "Diese Daten werden von Google Firebase verarbeitet und unterliegen der Datenschutzrichtlinie von Google.",
+        "dataRetention": "Datenaufbewahrung:",
+        "dataRetentionContent": "Absturzberichte werden von Firebase bis zu 90 Tage aufbewahrt und dann automatisch gelöscht.",
+        "yourRights": "Ihre Rechte:",
+        "yourRightsContent": "Sie können die Absturzberichterstattung deaktivieren, indem Sie sie in Ihren Geräteeinstellungen deaktivieren, obwohl dies uns daran hindern kann, Probleme zu beheben, die Sie betreffen."
+      },
+      "section8": {
+        "title": "8. Kontaktieren Sie uns",
+        "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:",
+        "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     }

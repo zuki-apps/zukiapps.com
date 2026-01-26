@@ -61,6 +61,25 @@
       "underConstructionMessage": "We're working hard to bring you something amazing. Check back soon!",
       "backToHome": "Back to Home"
     },
+    "powerIntervalTimer": {
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "Interval workout timer - Coming soon",
+      "description": "A minimal, fast, offline interval workout timer for Tabata, HIIT, and short workouts. Features configurable workouts, multiple display modes, sound alerts, and screen casting support.",
+      "features": {
+        "configurable": "Configurable Workouts",
+        "display": "Multiple Display Modes",
+        "offline": "Works Offline"
+      },
+      "learnMore": "Learn more about Power Interval Timer →",
+      "back": "Back to Home",
+      "comingSoon": "Coming Soon",
+      "underConstruction": "Under Construction",
+      "underConstructionMessage": "We're working hard to bring you something amazing. Check back soon!",
+      "backToHome": "Back to Home"
+    },
+    "appsGrid": {
+      "title": "Our Apps"
+    },
     "contact": {
       "title": "Get in Touch",
       "description": "Have a question, an idea, or just want to connect? I'd love to hear from you!",
@@ -77,7 +96,7 @@
     "lastUpdated": "Last updated: January 2025",
     "traderIdentification": {
       "title": "Trader Identification",
-      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
+      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
     },
     "businessInfo": {
       "title": "Business Information",
@@ -1314,6 +1333,199 @@
       "section6": {
         "title": "6. Camera and Microphone Access",
         "content": "Whistle Camera requires access to your device's camera and microphone to provide its core functionality. The camera is used for photo and video capture. The microphone is used for whistle detection. We do not record or store audio data - the microphone is only used for real-time whistle detection processing."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  },
+  "powerIntervalTimer": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming Soon",
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "Interval Workout Timer",
+      "description": "A minimal, fast, offline interval workout timer for Tabata, HIIT, and short workouts. Features configurable workouts, multiple display modes, sound alerts, and screen casting support."
+    },
+    "features": {
+      "title": "Key Features",
+      "configurable": {
+        "title": "Configurable Workouts",
+        "description": "Customize your workout intervals to match your training needs",
+        "items": [
+          "Work duration (seconds)",
+          "Rest duration (seconds)",
+          "Number of rounds",
+          "Prepare time with race-start beeps",
+          "Cooldown period"
+        ]
+      },
+      "display": {
+        "title": "Multiple Display Modes",
+        "description": "Choose from 7 different timer display styles",
+        "items": [
+          "Circular progress timer",
+          "Digital countdown",
+          "Linear progress bar",
+          "Minimal clean design",
+          "Analog clock style",
+          "Dual timer display",
+          "Chronograph watch style"
+        ]
+      },
+      "offline": {
+        "title": "Works Offline",
+        "description": "No internet connection required",
+        "items": [
+          "Fully functional offline",
+          "No data collection",
+          "Local storage only",
+          "No account required"
+        ]
+      },
+      "casting": {
+        "title": "Screen Casting",
+        "description": "Cast your timer to TV for group workouts",
+        "items": [
+          "AirPlay support (iOS)",
+          "MediaProjection (Android)",
+          "TV-optimized layout",
+          "Automatic cleanup"
+        ]
+      },
+      "tv": {
+        "title": "TV Support",
+        "description": "Native support for Apple TV and Android TV",
+        "items": [
+          "Apple TV (tvOS) support",
+          "Android TV support",
+          "Large display optimized",
+          "Platform-specific features"
+        ]
+      },
+      "customization": {
+        "title": "Customization",
+        "description": "Personalize your timer experience",
+        "items": [
+          "Custom timer images",
+          "Color themes",
+          "Font sizes",
+          "Sound selection",
+          "Dark/Light/System themes"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 In Development",
+      "description": "The app is currently in development",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "1.0.0",
+      "statusValue": "Coming Soon"
+    },
+    "download": {
+      "title": "Coming Soon",
+      "description": "Power Interval Timer will be available soon on app stores",
+      "soon": "Available soon"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps@gmail.com"
+      },
+      "contact": {
+        "title": "General Contact",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "social": {
+        "title": "Social Media"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Power Interval Timer - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using Power Interval Timer. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Power Interval Timer (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval workout timer application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Power Interval Timer is a mobile application that provides interval workout timing functionality. The Service includes:",
+        "items": [
+          "Configurable workout timers (work, rest, rounds, prepare, cooldown)",
+          "Multiple display modes for timer visualization",
+          "Sound alerts and vibration feedback",
+          "Screen casting and TV support",
+          "Local storage of saved timers",
+          "Offline functionality"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Power Interval Timer is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services. All timer configurations and saved workouts are stored locally on your device and are not transmitted to our servers."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your timer data remains on your device and is only accessible to you."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You have the right to access, update, or delete your timer data at any time. You can delete all saved timers through the app. You may also uninstall the app at any time, which will remove all locally stored data."
+      },
+      "section6": {
+        "title": "6. Photo Library Access",
+        "content": "Power Interval Timer may request access to your device's photo library to allow you to select custom timer images. We only access your photos when you explicitly choose to add a timer image. Photos are stored locally and are not shared with third parties."
+      },
+      "section7": {
+        "title": "7. Crash Reporting and Error Analytics",
+        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
+        "dataCollected": "Data Collected:",
+        "dataCollectedItems": [
+          "Technical information about crashes and errors (stack traces, error messages)",
+          "Device information (operating system, device model, app version)",
+          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
+          "Custom diagnostic information related to errors (error codes, operation types)"
+        ],
+        "purpose": "Purpose:",
+        "purposeItems": [
+          "Identify and fix bugs and crashes",
+          "Improve app stability and performance",
+          "Analyze error patterns"
+        ],
+        "dataSharing": "Data Sharing:",
+        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
+        "dataRetention": "Data Retention:",
+        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
+        "yourRights": "Your Rights:",
+        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
       },
       "section8": {
         "title": "8. Contact Us",
