@@ -891,19 +891,19 @@
   "hushGallery": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "Available Now",
       "title": "Hush Gallery - Hide Photos & Videos",
       "subtitle": "Private Photo Gallery",
-      "description": "A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features and intuitive design, it's the perfect solution for protecting your memories."
+      "description": "The ultimate solution for securely hiding and protecting your photos and videos with PIN lock, biometric authentication, and optional cloud backup. Encryption coming soon."
     },
     "features": {
       "title": "Key Features",
       "privacy": {
         "title": "Privacy First",
-        "description": "Your photos are stored securely with advanced encryption",
+        "description": "Your photos are stored securely in the app's private directory",
         "items": [
           "Local-first storage in app's private directory",
-          "Optional encrypted cloud backup",
+          "Optional cloud backup (encryption coming soon)",
           "PIN/password and biometric authentication",
           "No access by other apps"
         ]
@@ -913,7 +913,7 @@
         "description": "All media stored locally with optional cloud sync",
         "items": [
           "Private app storage",
-          "Client-side encryption for cloud backup",
+          "Cloud backup available (encryption coming soon)",
           "Import from system gallery",
           "Export with metadata preservation"
         ]
@@ -923,8 +923,9 @@
         "description": "Manage your photos and videos efficiently",
         "items": [
           "Custom folder management",
-          "Custom tags for organizing media",
-          "Media organization tools",
+          "Unlimited tags (Premium) or up to 5 tags (Free)",
+          "Multiple selection for batch operations",
+          "Separate views for photos and videos",
           "Search and filter capabilities",
           "Metadata preservation"
         ]
@@ -941,25 +942,88 @@
       },
       "backup": {
         "title": "Cloud Backup",
-        "description": "Optional encrypted cloud backup for your media",
+        "description": "Optional cloud backup for your media (encryption coming soon)",
         "items": [
-          "Client-side encryption",
           "iCloud backup (iOS) or Google Drive backup (Android)",
           "Selective backup",
           "Automatic sync",
-          "End-to-end encryption"
+          "Encryption feature coming soon"
         ]
       },
       "import": {
         "title": "Import/Export",
         "description": "Easy media management",
         "items": [
+          "Share extension - Hide photos from WhatsApp, Messages, Gallery, and other apps",
           "Import from system gallery",
           "Export back with metadata",
           "Batch operations",
           "Format preservation"
         ]
       }
+    },
+    "businessUse": {
+      "title": "💼 Perfect for Business Use",
+      "description": "Are you a business owner who uses your phone for both work and personal life? Hush Gallery is the perfect solution to keep your business photos separate from your personal ones.",
+      "benefits": {
+        "title": "Business Benefits",
+        "items": [
+          "Create dedicated tags for product photos, client documents, marketing materials, team photos, and financial documents",
+          "Never worry about accidentally showing personal photos during a business presentation",
+          "Keep work files separate from family memories",
+          "Access business photos during meetings without exposing personal content",
+          "Share business photos with colleagues without showing personal files"
+        ]
+      },
+      "example": {
+        "title": "🎯 Real-World Example",
+        "description": "You run a small business and use your phone for everything. You take photos of products, receipts, client meetings, and also personal family photos. With Hush Gallery, you can:",
+        "items": [
+          "Create a \"Business\" tag for all work-related photos",
+          "Create a \"Personal\" tag for family photos",
+          "Keep them completely separate and secure",
+          "Access business photos during meetings without exposing personal content",
+          "Share business photos with colleagues without showing personal files"
+        ]
+      }
+    },
+    "howToUse": {
+      "title": "📱 How to Use",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Select Photos",
+          "description": "Select photos from any app (Gallery, WhatsApp, etc.)"
+        },
+        {
+          "number": "2",
+          "title": "Share to Hush Gallery",
+          "description": "Tap \"Share\" and choose \"Hush Gallery\""
+        },
+        {
+          "number": "3",
+          "title": "Auto-Hide & Encrypt",
+          "description": "Your photos are automatically hidden and encrypted"
+        },
+        {
+          "number": "4",
+          "title": "Organize with Tags",
+          "description": "Create tags to organize (Business, Personal, Family, etc.)"
+        },
+        {
+          "number": "5",
+          "title": "Secure Access",
+          "description": "Access with PIN or biometric authentication"
+        }
+      ]
+    },
+    "languages": {
+      "title": "🌍 Multi-Language Support",
+      "description": "Hush Gallery supports 12+ languages including English, עברית, Русский, العربية, Français, Italiano, Español, Português, 中文（简体）, Deutsch, 日本語, 한국어, and more."
+    },
+    "privacyGuarantee": {
+      "title": "🔒 Privacy Guarantee",
+      "description": "Your privacy is our top priority. All files are stored securely in the app's private directory, we never access your files, and your data is never sold to third parties. Encryption feature coming soon."
     },
     "premium": {
       "title": "Premium Features",
@@ -971,7 +1035,7 @@
           "Local storage",
           "App lock (PIN)",
           "Basic folder management",
-          "Limited tags",
+          "Up to 5 tags",
           "Banner ads"
         ]
       },
@@ -996,12 +1060,19 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "0.3.3+1",
-      "statusValue": "Coming Soon"
+      "statusValue": "Available on App Store"
     },
     "download": {
-      "title": "Coming Soon",
-      "description": "Hush Gallery will be available soon on app stores",
-      "soon": "Available soon"
+      "title": "Download Now",
+      "description": "Get Hush Gallery from the app stores",
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "soon": "Coming soon",
+      "download": "Download",
+      "appStoreUrl": "https://apps.apple.com/il/app/hush-gallery/id6756169045",
+      "appIconAlt": "Hush Gallery App Icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
     },
     "links": {
       "title": "Important Links",
@@ -1163,7 +1234,7 @@
         },
         "q2": {
           "question": "How does cloud backup work?",
-          "answer": "Cloud backup is an optional Premium feature. When enabled, your photos and videos are encrypted on your device before being uploaded to iCloud (iOS) or Google Drive (Android). The encryption happens client-side, meaning we cannot access your media. You can enable or disable cloud backup at any time in Settings."
+          "answer": "Cloud backup is an optional Premium feature. When enabled, your photos and videos are uploaded to iCloud (iOS) or Google Drive (Android). Encryption feature is coming soon. You can enable or disable cloud backup at any time in Settings."
         },
         "q3": {
           "question": "How do I set up app lock?",

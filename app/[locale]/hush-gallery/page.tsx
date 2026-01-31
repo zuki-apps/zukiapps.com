@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Lock, FolderTree, Cloud, Shield, Image as ImageIcon, Download, Upload, Mail, ExternalLink, Instagram, Facebook, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, Lock, FolderTree, Cloud, Shield, Image as ImageIcon, Download, Upload, Mail, ExternalLink, Instagram, Facebook, CheckCircle2, Briefcase, Globe, CheckCircle } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -89,6 +89,18 @@ export default function HushGalleryPage() {
                   fill
                   sizes="(max-width: 768px) 96px, 128px"
                   className="object-contain p-2"
+                  priority
+                />
+              </div>
+            </div>
+            <div className="mb-8 max-w-4xl mx-auto">
+              <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl ring-2 ring-purple-400/30">
+                <Image
+                  src="/images/hush-gallery-cover.jpg"
+                  alt="Hush Gallery Cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1024px"
+                  className="object-cover"
                   priority
                 />
               </div>
@@ -252,6 +264,116 @@ export default function HushGalleryPage() {
           </div>
         </section>
 
+        {/* Business Use Section */}
+        <section className="py-12 px-4 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-purple-600/30 rounded-2xl p-8 md:p-12 backdrop-blur-sm bg-opacity-90">
+              <div className="flex items-center gap-3 mb-6">
+                <Briefcase className="w-8 h-8 text-purple-400" />
+                <h2 className="text-4xl font-bold text-white">
+                  {t('businessUse.title')}
+                </h2>
+              </div>
+              <p className="text-lg text-gray-300 mb-8">
+                {t('businessUse.description')}
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-8 mb-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-white">
+                    {t('businessUse.benefits.title')}
+                  </h3>
+                  <ul className="space-y-3 text-gray-300">
+                    {t.raw('businessUse.benefits.items').map((item: string, i: number) => (
+                      <li key={i} className="flex items-start gap-2">
+                        <CheckCircle className="w-5 h-5 text-purple-400 mt-0.5 flex-shrink-0" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-white">
+                    {t('businessUse.example.title')}
+                  </h3>
+                  <p className="text-gray-300 mb-4">
+                    {t('businessUse.example.description')}
+                  </p>
+                  <ul className="space-y-2 text-gray-300">
+                    {t.raw('businessUse.example.items').map((item: string, i: number) => (
+                      <li key={i} className="flex items-start gap-2">
+                        <span className="text-purple-400 font-bold">{i + 1}.</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Use Section */}
+        <section className="py-12 px-4 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-12 text-white">
+              {t('howToUse.title')}
+            </h2>
+            <div className="grid md:grid-cols-5 gap-6">
+              {t.raw('howToUse.steps').map((step: any, i: number) => (
+                <div
+                  key={i}
+                  className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-purple-500/50 border-2 border-purple-600/30 transition-all backdrop-blur-sm bg-opacity-90 text-center"
+                >
+                  <div className="w-16 h-16 rounded-full bg-purple-600/30 border-2 border-purple-500/50 flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl font-bold text-purple-400">{step.number}</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-2 text-white">
+                    {step.title}
+                  </h3>
+                  <p className="text-sm text-gray-300">
+                    {step.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Languages Section */}
+        <section className="py-12 px-4 relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-purple-600/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <Globe className="w-8 h-8 text-purple-400" />
+                <h2 className="text-3xl font-bold text-white">
+                  {t('languages.title')}
+                </h2>
+              </div>
+              <p className="text-lg text-gray-300">
+                {t('languages.description')}
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Privacy Guarantee Section */}
+        <section className="py-12 px-4 relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-green-600/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <Shield className="w-8 h-8 text-green-400" />
+                <h2 className="text-3xl font-bold text-white">
+                  {t('privacyGuarantee.title')}
+                </h2>
+              </div>
+              <p className="text-lg text-gray-300">
+                {t('privacyGuarantee.description')}
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Premium Features Section */}
         <section className="py-12 px-4 relative z-10">
           <div className="max-w-4xl mx-auto">
@@ -327,8 +449,32 @@ export default function HushGalleryPage() {
             <p className="text-lg text-gray-300 mb-8">
               {t('download.description')}
             </p>
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-purple-600/30 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90 opacity-60">
-              <p className="text-sm text-gray-400">{t('download.soon')}</p>
+            <div className="flex gap-8 justify-center flex-wrap">
+              <a
+                href={t('download.appStoreUrl')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-purple-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-purple-500/50 transition-all backdrop-blur-sm bg-opacity-90 group"
+              >
+                <div className="w-32 h-10 mx-auto relative">
+                  <Image
+                    src="/images/app-store-badge.svg"
+                    alt={t('download.appStoreAlt')}
+                    width={128}
+                    height={40}
+                    className="object-contain"
+                    onError={(e) => {
+                      // Fallback to emoji if image not found
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent) {
+                        parent.innerHTML = '<span class="text-4xl mb-2 block">📱</span>';
+                      }
+                    }}
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </section>
@@ -444,6 +590,20 @@ export default function HushGalleryPage() {
             </div>
           </div>
         </footer>
+
+        {/* Floating Download Button */}
+        {t('download.appStoreUrl') && (
+          <a
+            href={t('download.appStoreUrl')}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="fixed bottom-6 right-6 z-50 bg-gradient-to-br from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white rounded-full p-4 shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 flex items-center gap-2 group border-2 border-purple-500/50"
+            aria-label={t('download.download')}
+          >
+            <Download className="w-6 h-6 group-hover:animate-bounce" />
+            <span className="hidden sm:inline font-semibold">{t('download.download')}</span>
+          </a>
+        )}
       </div>
     </>
   );
