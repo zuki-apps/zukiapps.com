@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { Mail, Sparkles, Code, Heart } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
@@ -145,7 +146,7 @@ export default function Home() {
             <p className="text-lg text-gray-300 mb-6">
               {t('contact.description')}
             </p>
-            <div className="flex flex-col md:flex-row gap-4 justify-center">
+            <div className="flex justify-center mb-6">
               <a
                 href="mailto:zuki.apps.dev@gmail.com"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-lg font-black hover:from-blue-400 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-lg hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
@@ -155,9 +156,74 @@ export default function Home() {
                 {t('contact.sendEmail')}
               </a>
             </div>
-            <p className="mt-6 text-gray-400">
+            <div className="flex justify-center mb-6">
+              <a
+                href="https://buymeacoffee.com/sivzuk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block hover:scale-105 active:scale-95 transition-transform duration-200"
+                aria-label={t('contact.support')}
+              >
+                <Image
+                  src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+                  alt={t('contact.support')}
+                  width={145}
+                  height={40}
+                  className="h-auto"
+                  unoptimized
+                />
+              </a>
+            </div>
+            <p className="text-gray-400">
               {t('contact.email')}
             </p>
+          </div>
+
+          {/* Social Media Section */}
+          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90 mt-12">
+            <h2 className="text-3xl font-black mb-6 text-white text-center">Social Media</h2>
+            <div className="flex justify-center gap-6 items-center">
+              <a
+                href="https://instagram.com/zuki.apps"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block hover:opacity-80 transition-opacity"
+                aria-label="Instagram"
+              >
+                <Image
+                  src="/images/instagram-logo.svg"
+                  alt="Instagram"
+                  width={40}
+                  height={40}
+                  className="h-auto"
+                  unoptimized
+                  onError={(e) => {
+                    // Fallback to official Instagram brand asset if local file doesn't exist
+                    (e.target as HTMLImageElement).src = 'https://static.cdninstagram.com/rsrc.php/v3/yS/r/ajlEU-wEDyo.png';
+                  }}
+                />
+              </a>
+              <a
+                href="https://facebook.com/zuki.apps"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block hover:opacity-80 transition-opacity"
+                aria-label="Facebook"
+              >
+                <Image
+                  src="/images/facebook-logo.svg"
+                  alt="Facebook"
+                  width={40}
+                  height={40}
+                  className="h-auto"
+                  unoptimized
+                  onError={(e) => {
+                    // Fallback to official Facebook brand asset if local file doesn't exist
+                    (e.target as HTMLImageElement).src = 'https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png';
+                  }}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>

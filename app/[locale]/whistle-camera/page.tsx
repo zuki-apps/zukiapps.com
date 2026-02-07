@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Camera, Volume2, EyeOff, Lock, Smartphone, Mail, ExternalLink, Instagram, Facebook, CheckCircle2, Download } from 'lucide-react';
+import { ArrowLeft, Camera, Volume2, EyeOff, Lock, Smartphone, Mail, ExternalLink, CheckCircle2, Download } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -12,6 +12,7 @@ import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationS
 export default function WhistleCameraPage() {
   const t = useTranslations('whistleCamera');
   const tCommon = useTranslations('common');
+  const tHome = useTranslations('home');
   const locale = useLocale();
 
   return (
@@ -290,48 +291,6 @@ export default function WhistleCameraPage() {
                 </div>
                 <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-green-400 transition-colors" />
               </Link>
-              <a
-                href="mailto:zuki.apps.dev@gmail.com"
-                className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-green-500/50 transition-all flex items-center gap-4 group border-2 border-green-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
-              >
-                <div className="bg-green-600/30 p-3 rounded-lg group-hover:bg-green-600/50 border border-green-500/50 transition-colors">
-                  <Mail className="w-6 h-6 text-green-400" />
-                </div>
-                <div className={`flex-grow ${locale === 'he' ? 'text-right' : 'text-left'}`}>
-                  <h3 className="text-xl font-semibold text-white mb-1">
-                    {t('links.contact.title')}
-                  </h3>
-                  <p className="text-gray-300 text-sm">
-                    {t('links.contact.email')}
-                  </p>
-                </div>
-                <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-green-400 transition-colors" />
-              </a>
-              <div className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg border-2 border-green-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'text-right' : 'text-left'}`}>
-                <h3 className="text-xl font-semibold text-white mb-4">
-                  {t('links.social.title')}
-                </h3>
-                <div className={`flex gap-4 ${locale === 'he' ? 'justify-end' : 'justify-start'}`}>
-                  <a
-                    href="https://instagram.com/zuki.apps"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-pink-600/30 p-3 rounded-lg hover:bg-pink-600/50 border border-pink-500/50 transition-colors"
-                    aria-label="Instagram"
-                  >
-                    <Instagram className="w-6 h-6 text-pink-400" />
-                  </a>
-                  <a
-                    href="https://facebook.com/zuki.apps"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-blue-600/30 p-3 rounded-lg hover:bg-blue-600/50 border border-blue-500/50 transition-colors"
-                    aria-label="Facebook"
-                  >
-                    <Facebook className="w-6 h-6 text-blue-400" />
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -367,6 +326,24 @@ export default function WhistleCameraPage() {
               >
                 {tCommon('termsOfService')}
               </Link>
+            </div>
+            <div className="mt-4 flex justify-center">
+              <a
+                href="https://buymeacoffee.com/sivzuk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block hover:opacity-80 transition-opacity"
+                aria-label={tHome('footer.support')}
+              >
+                <Image
+                  src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+                  alt={tHome('footer.support')}
+                  width={145}
+                  height={40}
+                  className="h-auto"
+                  unoptimized
+                />
+              </a>
             </div>
           </div>
         </footer>
