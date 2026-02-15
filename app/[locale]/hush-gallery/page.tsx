@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Lock, FolderTree, Cloud, Shield, Image as ImageIcon, Download, Upload, Mail, ExternalLink, CheckCircle2, Briefcase, Globe, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Lock, FolderTree, Cloud, Shield, Image as ImageIcon, Download, Upload, Mail, ExternalLink, CheckCircle2, Briefcase, Globe, CheckCircle, Smartphone } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -38,6 +38,8 @@ export default function HushGalleryPage() {
           ratingValue: 0,
           ratingCount: 0,
         }}
+        appStoreUrl="https://apps.apple.com/il/app/hush-gallery/id6756169045"
+        googlePlayUrl="https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery"
       />
       <div className="min-h-screen bg-black relative overflow-hidden">
         {/* Starry background effect */}
@@ -476,6 +478,31 @@ export default function HushGalleryPage() {
                   />
                 </div>
               </a>
+              <a
+                href={t('download.googlePlayUrl')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-purple-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-purple-500/50 transition-all backdrop-blur-sm bg-opacity-90 group"
+              >
+                <div className="w-32 h-10 mx-auto relative">
+                  <Image
+                    src="/images/google-play-badge.png"
+                    alt={t('download.googlePlayAlt')}
+                    width={128}
+                    height={40}
+                    className="object-contain"
+                    onError={(e) => {
+                      // Fallback to emoji if image not found
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent) {
+                        parent.innerHTML = '<span class="text-4xl mb-2 block">📱</span>';
+                      }
+                    }}
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </section>
@@ -568,19 +595,43 @@ export default function HushGalleryPage() {
           </div>
         </footer>
 
-        {/* Floating Download Button */}
-        {t('download.appStoreUrl') && (
-          <a
-            href={t('download.appStoreUrl')}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="fixed bottom-6 right-6 z-50 bg-gradient-to-br from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white rounded-full p-4 shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 flex items-center gap-2 group border-2 border-purple-500/50"
-            aria-label={t('download.download')}
-          >
-            <Download className="w-6 h-6 group-hover:animate-bounce" />
-            <span className="hidden sm:inline font-semibold">{t('download.download')}</span>
-          </a>
-        )}
+        {/* Floating Download Buttons */}
+        <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+          {t('download.appStoreUrl') && (
+            <a
+              href={t('download.appStoreUrl')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 border-purple-500/50"
+              aria-label={t('download.appStoreAlt')}
+            >
+              <Image
+                src="/images/app-store-badge.svg"
+                alt={t('download.appStoreAlt')}
+                width={120}
+                height={40}
+                className="object-contain group-hover:scale-105 transition-transform h-10"
+              />
+            </a>
+          )}
+          {t('download.googlePlayUrl') && (
+            <a
+              href={t('download.googlePlayUrl')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 border-purple-500/50"
+              aria-label={t('download.googlePlayAlt')}
+            >
+              <Image
+                src="/images/google-play-badge.png"
+                alt={t('download.googlePlayAlt')}
+                width={120}
+                height={40}
+                className="object-contain group-hover:scale-105 transition-transform h-10"
+              />
+            </a>
+          )}
+        </div>
       </div>
     </>
   );

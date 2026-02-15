@@ -348,19 +348,43 @@ export default function WhistleCameraPage() {
           </div>
         </footer>
 
-        {/* Floating Download Button */}
-        {t('download.appStoreUrl') && (
-          <a
-            href={t('download.appStoreUrl')}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="fixed bottom-6 right-6 z-50 bg-gradient-to-br from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white rounded-full p-4 shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:scale-110 flex items-center gap-2 group border-2 border-green-500/50"
-            aria-label={t('download.download') || 'Download'}
-          >
-            <Download className="w-6 h-6 group-hover:animate-bounce" />
-            <span className="hidden sm:inline font-semibold">{t('download.download') || 'Download'}</span>
-          </a>
-        )}
+        {/* Floating Download Buttons */}
+        <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+          {t('download.appStoreUrl') && (
+            <a
+              href={t('download.appStoreUrl')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 border-green-500/50"
+              aria-label={t('download.appStoreAlt') || 'Download on App Store'}
+            >
+              <Image
+                src="/images/app-store-badge.svg"
+                alt={t('download.appStoreAlt') || 'Download on App Store'}
+                width={120}
+                height={40}
+                className="object-contain group-hover:scale-105 transition-transform h-10"
+              />
+            </a>
+          )}
+          {t('download.googlePlayUrl') && (
+            <a
+              href={t('download.googlePlayUrl')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 border-green-500/50"
+              aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
+            >
+              <Image
+                src="/images/google-play-badge.png"
+                alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                width={120}
+                height={40}
+                className="object-contain group-hover:scale-105 transition-transform h-10"
+              />
+            </a>
+          )}
+        </div>
       </div>
     </>
   );
