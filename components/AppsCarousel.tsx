@@ -64,7 +64,7 @@ export default function AppsCarousel() {
       featuresKey: 'hushGallery.features',
       learnMoreKey: 'hushGallery.learnMore',
       link: `/${locale}/hush-gallery`,
-      isComingSoon: true,
+      isComingSoon: false,
       showFeatures: true,
     },
     {

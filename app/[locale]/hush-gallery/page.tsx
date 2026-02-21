@@ -108,7 +108,7 @@ export default function HushGalleryPage() {
                 />
               </div>
             </div>
-            <div className="inline-flex items-center gap-2 bg-yellow-900/50 border border-yellow-500/30 text-yellow-400 px-4 py-2 rounded-full text-sm font-semibold mb-4 backdrop-blur-sm">
+            <div className="inline-flex items-center gap-2 bg-green-900/50 border border-green-500/30 text-green-400 px-4 py-2 rounded-full text-sm font-semibold mb-4 backdrop-blur-sm">
               <CheckCircle2 className="w-4 h-4" />
               {t('hero.badge')}
             </div>
@@ -422,7 +422,8 @@ export default function HushGalleryPage() {
         {/* Status Section */}
         <section className="py-12 px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-yellow-500/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
+            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-green-500/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
+              <CheckCircle2 className="w-16 h-16 mx-auto mb-4 text-green-400" />
               <h2 className="text-3xl font-bold mb-4 text-white">
                 {t('status.title')}
               </h2>
