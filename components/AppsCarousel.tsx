@@ -89,7 +89,7 @@ export default function AppsCarousel() {
       featuresKey: 'powerIntervalTimer.features',
       learnMoreKey: 'powerIntervalTimer.learnMore',
       link: `/${locale}/power-interval-timer`,
-      isComingSoon: true,
+      isComingSoon: false,
       showFeatures: true,
     },
   ], [locale]);

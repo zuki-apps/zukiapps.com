@@ -30,6 +30,7 @@ export default function PowerIntervalTimerPage() {
         appDescription="A minimal, fast, offline interval workout timer for Tabata, HIIT, and short workouts. Features configurable workouts, multiple display modes, sound alerts, and screen casting support."
         operatingSystem="iOS,Android"
         applicationCategory="HealthApplication"
+        appStoreUrl="https://apps.apple.com/app/power-interval-timer/id6758246007"
         offers={{
           price: '0',
           priceCurrency: 'USD',
