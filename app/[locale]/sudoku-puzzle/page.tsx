@@ -3,14 +3,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Camera, Volume2, EyeOff, Lock, Smartphone, Mail, ExternalLink, CheckCircle2, Download } from 'lucide-react';
+import { ArrowLeft, Grid3X3, BarChart3, Globe, Trophy, Settings, Mail, ExternalLink, CheckCircle2, Download } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 
-export default function WhistleCameraPage() {
-  const t = useTranslations('whistleCamera');
+export default function SudokuPuzzlePage() {
+  const t = useTranslations('sudokuPuzzle');
   const tCommon = useTranslations('common');
   const tHome = useTranslations('home');
   const locale = useLocale();
@@ -21,15 +21,15 @@ export default function WhistleCameraPage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Whistle Camera', path: '/whistle-camera' }
+          { name: 'Sudoku Fun Go', path: '/sudoku-puzzle' }
         ]}
       />
       <SoftwareApplicationStructuredData
         locale={locale}
-        appName="Whistle Camera"
-        appDescription="An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
-        operatingSystem="iOS"
-        applicationCategory="PhotographyApplication"
+        appName="Sudoku Fun Go"
+        appDescription="A classic 9×9 Sudoku game with four difficulty levels, notes, hints, undo, timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games support."
+        operatingSystem="iOS,Android"
+        applicationCategory="GameApplication"
         offers={{
           price: '0',
           priceCurrency: 'USD',
@@ -40,7 +40,7 @@ export default function WhistleCameraPage() {
         }}
       />
       <div className="min-h-screen bg-black relative overflow-hidden">
-        {/* Starry background effect */}
+        {/* Background */}
         <div className="fixed inset-0 z-0" aria-hidden="true">
           <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
           {Array.from({ length: 100 }).map((_, i) => (
@@ -60,16 +60,14 @@ export default function WhistleCameraPage() {
           ))}
         </div>
 
-        {/* Language Switcher */}
         <div className="max-w-7xl mx-auto px-4 pt-4 flex justify-end relative z-50">
           <LanguageSwitcher />
         </div>
 
-        {/* Header with Logo and Back Button */}
         <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-0">
           <Link
             href={`/${locale}`}
-            className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-black transition-colors"
+            className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 font-black transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
             {t('back')}
@@ -83,10 +81,10 @@ export default function WhistleCameraPage() {
         <section className="py-12 px-4 relative z-10">
           <div className="max-w-7xl mx-auto text-center">
             <div className="mb-8">
-              <div className="relative w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-amber-400/30 bg-gradient-to-br from-amber-600 to-amber-800 flex items-center justify-center">
+              <div className="relative w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-teal-400/30 bg-gradient-to-br from-teal-500 to-cyan-700 flex items-center justify-center">
                 <Image
-                  src="/images/whistle-camera-icon.png"
-                  alt="Whistle Camera"
+                  src="/images/sudoku-puzzle-icon.png"
+                  alt="Sudoku Fun Go"
                   fill
                   sizes="(max-width: 768px) 96px, 128px"
                   className="object-contain p-2"
@@ -98,8 +96,8 @@ export default function WhistleCameraPage() {
               <CheckCircle2 className="w-4 h-4" />
               {t('hero.badge')}
             </div>
-            <h1 className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-transparent" style={{
-              filter: 'drop-shadow(0 0 8px rgba(245, 158, 11, 0.6))',
+            <h1 className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-teal-400 via-cyan-300 to-teal-500 bg-clip-text text-transparent" style={{
+              filter: 'drop-shadow(0 0 8px rgba(45, 212, 191, 0.6))',
             }}>
               {t('hero.title')}
             </h1>
@@ -111,15 +109,15 @@ export default function WhistleCameraPage() {
             </p>
             <div className="flex justify-center gap-4 text-sm">
               <Link
-                href={`/${locale}/whistle-camera/privacy`}
-                className="text-amber-400 hover:text-amber-300 underline transition-colors"
+                href={`/${locale}/sudoku-puzzle/privacy`}
+                className="text-teal-400 hover:text-teal-300 underline transition-colors"
               >
                 {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-500">|</span>
               <Link
-                href={`/${locale}/whistle-camera/terms`}
-                className="text-amber-400 hover:text-amber-300 underline transition-colors"
+                href={`/${locale}/sudoku-puzzle/terms`}
+                className="text-teal-400 hover:text-teal-300 underline transition-colors"
               >
                 {tCommon('termsOfService')}
               </Link>
@@ -135,91 +133,86 @@ export default function WhistleCameraPage() {
             </h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Whistle Detection */}
-              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-amber-500/50 border-2 border-amber-600/30 transition-all backdrop-blur-sm bg-opacity-90">
-                <div className="bg-amber-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-amber-500/50">
-                  <Volume2 className="w-8 h-8 text-amber-400" />
+              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-teal-500/50 border-2 border-teal-600/30 transition-all backdrop-blur-sm bg-opacity-90">
+                <div className="bg-teal-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-teal-500/50">
+                  <Grid3X3 className="w-8 h-8 text-teal-400" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">
-                  {t('features.whistle.title')}
+                  {t('features.difficulty.title')}
                 </h3>
                 <p className="text-gray-300 mb-4">
-                  {t('features.whistle.description')}
+                  {t('features.difficulty.description')}
                 </p>
                 <ul className="text-sm text-gray-400 space-y-2">
-                  {t.raw('features.whistle.items').map((item: string, i: number) => (
+                  {t.raw('features.difficulty.items').map((item: string, i: number) => (
                     <li key={i}>• {item}</li>
                   ))}
                 </ul>
               </div>
 
-              {/* Incognito Mode */}
-              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-amber-500/50 border-2 border-amber-600/30 transition-all backdrop-blur-sm bg-opacity-90">
-                <div className="bg-gray-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-gray-500/50">
-                  <EyeOff className="w-8 h-8 text-gray-400" />
+              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-teal-500/50 border-2 border-teal-600/30 transition-all backdrop-blur-sm bg-opacity-90">
+                <div className="bg-cyan-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-cyan-500/50">
+                  <Settings className="w-8 h-8 text-cyan-400" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">
-                  {t('features.incognito.title')}
+                  {t('features.gameplay.title')}
                 </h3>
                 <p className="text-gray-300 mb-4">
-                  {t('features.incognito.description')}
+                  {t('features.gameplay.description')}
                 </p>
                 <ul className="text-sm text-gray-400 space-y-2">
-                  {t.raw('features.incognito.items').map((item: string, i: number) => (
+                  {t.raw('features.gameplay.items').map((item: string, i: number) => (
                     <li key={i}>• {item}</li>
                   ))}
                 </ul>
               </div>
 
-              {/* Locked Camera Capture */}
-              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-amber-500/50 border-2 border-amber-600/30 transition-all backdrop-blur-sm bg-opacity-90">
-                <div className="bg-blue-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-blue-500/50">
-                  <Lock className="w-8 h-8 text-blue-400" />
+              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-teal-500/50 border-2 border-teal-600/30 transition-all backdrop-blur-sm bg-opacity-90">
+                <div className="bg-teal-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-teal-500/50">
+                  <BarChart3 className="w-8 h-8 text-teal-400" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">
-                  {t('features.locked.title')}
+                  {t('features.stats.title')}
                 </h3>
                 <p className="text-gray-300 mb-4">
-                  {t('features.locked.description')}
+                  {t('features.stats.description')}
                 </p>
                 <ul className="text-sm text-gray-400 space-y-2">
-                  {t.raw('features.locked.items').map((item: string, i: number) => (
+                  {t.raw('features.stats.items').map((item: string, i: number) => (
                     <li key={i}>• {item}</li>
                   ))}
                 </ul>
               </div>
 
-              {/* Modern Architecture */}
-              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-amber-500/50 border-2 border-amber-600/30 transition-all backdrop-blur-sm bg-opacity-90">
-                <div className="bg-purple-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-purple-500/50">
-                  <Smartphone className="w-8 h-8 text-purple-400" />
+              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-teal-500/50 border-2 border-teal-600/30 transition-all backdrop-blur-sm bg-opacity-90">
+                <div className="bg-cyan-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-cyan-500/50">
+                  <Globe className="w-8 h-8 text-cyan-400" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">
-                  {t('features.modern.title')}
+                  {t('features.localization.title')}
                 </h3>
                 <p className="text-gray-300 mb-4">
-                  {t('features.modern.description')}
+                  {t('features.localization.description')}
                 </p>
                 <ul className="text-sm text-gray-400 space-y-2">
-                  {t.raw('features.modern.items').map((item: string, i: number) => (
+                  {t.raw('features.localization.items').map((item: string, i: number) => (
                     <li key={i}>• {item}</li>
                   ))}
                 </ul>
               </div>
 
-              {/* Advanced Controls */}
-              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-amber-500/50 border-2 border-amber-600/30 transition-all backdrop-blur-sm bg-opacity-90">
-                <div className="bg-orange-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-orange-500/50">
-                  <Camera className="w-8 h-8 text-orange-400" />
+              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg hover:shadow-xl hover:border-teal-500/50 border-2 border-teal-600/30 transition-all backdrop-blur-sm bg-opacity-90">
+                <div className="bg-teal-600/30 w-16 h-16 rounded-full flex items-center justify-center mb-6 border border-teal-500/50">
+                  <Trophy className="w-8 h-8 text-teal-400" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">
-                  {t('features.controls.title')}
+                  {t('features.leaderboards.title')}
                 </h3>
                 <p className="text-gray-300 mb-4">
-                  {t('features.controls.description')}
+                  {t('features.leaderboards.description')}
                 </p>
                 <ul className="text-sm text-gray-400 space-y-2">
-                  {t.raw('features.controls.items').map((item: string, i: number) => (
+                  {t.raw('features.leaderboards.items').map((item: string, i: number) => (
                     <li key={i}>• {item}</li>
                   ))}
                 </ul>
@@ -261,9 +254,47 @@ export default function WhistleCameraPage() {
             <p className="text-lg text-gray-300 mb-8">
               {t('download.description')}
             </p>
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-amber-600/30 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90 opacity-60">
-              <p className="text-sm text-gray-400">{t('download.soon')}</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              {t('download.appStoreUrl') && (
+                <a
+                  href={t('download.appStoreUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                  aria-label={t('download.appStoreAlt') || 'Download on App Store'}
+                >
+                  <Image
+                    src="/images/app-store-badge.svg"
+                    alt={t('download.appStoreAlt') || 'Download on App Store'}
+                    width={160}
+                    height={48}
+                    className="object-contain hover:opacity-90 transition-opacity"
+                  />
+                </a>
+              )}
+              {t('download.googlePlayUrl') && (
+                <a
+                  href={t('download.googlePlayUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                  aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                >
+                  <Image
+                    src="/images/google-play-badge.png"
+                    alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                    width={160}
+                    height={48}
+                    className="object-contain hover:opacity-90 transition-opacity"
+                  />
+                </a>
+              )}
             </div>
+            {!t('download.appStoreUrl') && !t('download.googlePlayUrl') && (
+              <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-teal-600/30 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90 opacity-60">
+                <p className="text-sm text-gray-400">{t('download.soon')}</p>
+              </div>
+            )}
           </div>
         </section>
 
@@ -275,11 +306,11 @@ export default function WhistleCameraPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <Link
-                href={`/${locale}/whistle-camera/support`}
-                className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-amber-500/50 transition-all flex items-center gap-4 group border-2 border-amber-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
+                href={`/${locale}/sudoku-puzzle/support`}
+                className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-teal-500/50 transition-all flex items-center gap-4 group border-2 border-teal-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
               >
-                <div className="bg-amber-600/30 p-3 rounded-lg group-hover:bg-amber-600/50 border border-amber-500/50 transition-colors">
-                  <Mail className="w-6 h-6 text-amber-400" />
+                <div className="bg-teal-600/30 p-3 rounded-lg group-hover:bg-teal-600/50 border border-teal-500/50 transition-colors">
+                  <Mail className="w-6 h-6 text-teal-400" />
                 </div>
                 <div className={`flex-grow ${locale === 'he' ? 'text-right' : 'text-left'}`}>
                   <h3 className="text-xl font-semibold text-white mb-1">
@@ -289,7 +320,7 @@ export default function WhistleCameraPage() {
                     {t('links.support.email')}
                   </p>
                 </div>
-                <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-amber-400 transition-colors" />
+                <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-teal-400 transition-colors" />
               </Link>
             </div>
           </div>
@@ -307,22 +338,22 @@ export default function WhistleCameraPage() {
             </p>
             <div className="flex justify-center gap-4 mt-4 text-sm">
               <Link
-                href={`/${locale}/whistle-camera/support`}
-                className="text-gray-400 hover:text-amber-400 transition-colors"
+                href={`/${locale}/sudoku-puzzle/support`}
+                className="text-gray-400 hover:text-teal-400 transition-colors"
               >
                 {tCommon('support')}
               </Link>
               <span className="text-gray-600">|</span>
               <Link
-                href={`/${locale}/whistle-camera/privacy`}
-                className="text-gray-400 hover:text-amber-400 transition-colors"
+                href={`/${locale}/sudoku-puzzle/privacy`}
+                className="text-gray-400 hover:text-teal-400 transition-colors"
               >
                 {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-600">|</span>
               <Link
-                href={`/${locale}/whistle-camera/terms`}
-                className="text-gray-400 hover:text-amber-400 transition-colors"
+                href={`/${locale}/sudoku-puzzle/terms`}
+                className="text-gray-400 hover:text-teal-400 transition-colors"
               >
                 {tCommon('termsOfService')}
               </Link>
@@ -347,44 +378,6 @@ export default function WhistleCameraPage() {
             </div>
           </div>
         </footer>
-
-        {/* Floating Download Buttons */}
-        <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
-          {t('download.appStoreUrl') && (
-            <a
-              href={t('download.appStoreUrl')}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl hover:shadow-amber-500/50 transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 border-amber-500/50"
-              aria-label={t('download.appStoreAlt') || 'Download on App Store'}
-            >
-              <Image
-                src="/images/app-store-badge.svg"
-                alt={t('download.appStoreAlt') || 'Download on App Store'}
-                width={120}
-                height={40}
-                className="object-contain group-hover:scale-105 transition-transform h-10"
-              />
-            </a>
-          )}
-          {t('download.googlePlayUrl') && (
-            <a
-              href={t('download.googlePlayUrl')}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl hover:shadow-amber-500/50 transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 border-amber-500/50"
-              aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
-            >
-              <Image
-                src="/images/google-play-badge.png"
-                alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
-                width={120}
-                height={40}
-                className="object-contain group-hover:scale-105 transition-transform h-10"
-              />
-            </a>
-          )}
-        </div>
       </div>
     </>
   );

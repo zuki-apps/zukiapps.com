@@ -77,6 +77,22 @@
       "underConstructionMessage": "We're working hard to bring you something amazing. Check back soon!",
       "backToHome": "Back to Home"
     },
+    "sudokuPuzzle": {
+      "title": "Sudoku Fun Go - Classic Sudoku",
+      "subtitle": "9×9 Sudoku puzzle game",
+      "description": "A classic 9×9 Sudoku game with four difficulty levels, notes, hints, undo, timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games support.",
+      "features": {
+        "difficulty": "Difficulty Levels",
+        "gameplay": "Notes & Hints",
+        "offline": "Works Offline"
+      },
+      "learnMore": "Learn more about Sudoku Fun Go →",
+      "back": "Back to Home",
+      "comingSoon": "Coming Soon",
+      "underConstruction": "Under Construction",
+      "underConstructionMessage": "We're working hard to bring you something amazing. Check back soon!",
+      "backToHome": "Back to Home"
+    },
     "appsGrid": {
       "title": "Our Apps"
     },
@@ -98,7 +114,7 @@
     "lastUpdated": "Last updated: January 2025",
     "traderIdentification": {
       "title": "Trader Identification",
-      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
+      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
     },
     "businessInfo": {
       "title": "Business Information",
@@ -1447,6 +1463,208 @@
       "section6": {
         "title": "6. Camera and Microphone Access",
         "content": "Whistle Camera requires access to your device's camera and microphone to provide its core functionality. The camera is used for photo and video capture. The microphone is used for whistle detection. We do not record or store audio data - the microphone is only used for real-time whistle detection processing."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  },
+  "sudokuPuzzle": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming Soon",
+      "title": "Sudoku Fun Go - Classic Sudoku",
+      "subtitle": "9×9 Sudoku Puzzle Game",
+      "description": "A classic 9×9 Sudoku game built with Flutter for iOS and Android. Four difficulty levels (Easy, Medium, Hard, Expert), optional notes and hints, undo/erase, running timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games leaderboards and achievements."
+    },
+    "features": {
+      "title": "Key Features",
+      "difficulty": {
+        "title": "Difficulty Levels",
+        "description": "Choose your challenge with four difficulty levels",
+        "items": [
+          "Easy",
+          "Medium",
+          "Hard",
+          "Expert"
+        ]
+      },
+      "gameplay": {
+        "title": "Notes, Hints & Tools",
+        "description": "Full set of tools to help you solve puzzles",
+        "items": [
+          "Notes mode for pencil candidates",
+          "Hints for the selected cell",
+          "Undo and erase",
+          "Running timer",
+          "Mistake counter"
+        ]
+      },
+      "stats": {
+        "title": "Statistics",
+        "description": "Track your progress and improve",
+        "items": [
+          "Games won and win rate",
+          "Best times per difficulty",
+          "Best scores per difficulty",
+          "Current and best streaks",
+          "Total games and play time"
+        ]
+      },
+      "localization": {
+        "title": "12 Languages",
+        "description": "Fully localized with regional variants",
+        "items": [
+          "English, Hebrew (RTL), Arabic (RTL)",
+          "German, Spanish, French, Italian",
+          "Portuguese, Russian, Japanese",
+          "Korean, Chinese",
+          "17 regional variants (e.g. pt-BR, es-MX)"
+        ]
+      },
+      "leaderboards": {
+        "title": "Leaderboards & Achievements",
+        "description": "Compete and unlock achievements",
+        "items": [
+          "Game Center (iOS) & Play Games (Android)",
+          "Friends and Global leaderboards",
+          "Best score leaderboards",
+          "First win, Streak 5, Streak 10 achievements"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 In Development",
+      "description": "The app is currently in development",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "1.0.0",
+      "statusValue": "Coming Soon"
+    },
+    "download": {
+      "title": "Coming Soon",
+      "description": "Sudoku Fun Go will be available soon on App Store and Google Play",
+      "soon": "Available soon"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "What is Sudoku Fun Go?",
+          "answer": "Sudoku Fun Go is a classic 9×9 Sudoku game for iOS and Android. Fill every row, column, and 3×3 box with the digits 1–9 with no repeats. It offers four difficulty levels, notes mode, hints, undo, a timer, and persistent statistics including best times and scores per difficulty."
+        },
+        "q2": {
+          "question": "Does the app work offline?",
+          "answer": "Yes. Gameplay, stats, and settings are stored locally. You can play fully offline. Internet is only needed for Game Center / Play Games leaderboards and achievements, and for optional in-app purchases (e.g. remove ads)."
+        },
+        "q3": {
+          "question": "What are the difficulty levels?",
+          "answer": "There are four levels: Easy, Medium, Hard, and Expert. Each affects the number of given clues and puzzle complexity. Best times and best scores are tracked separately per difficulty."
+        },
+        "q4": {
+          "question": "Does the app support leaderboards?",
+          "answer": "Yes. On iOS we use Game Center with Friends and Global leaderboards for best score, plus achievements (e.g. first win, streak 5, streak 10). On Android we use Play Games Services with the same structure. Sign-in is prompted on app start."
+        },
+        "q5": {
+          "question": "In which languages is the app available?",
+          "answer": "The app is localized in 12 base languages (English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, Chinese) with 17 regional variants. Hebrew and Arabic have full RTL support."
+        },
+        "q6": {
+          "question": "How can I remove ads?",
+          "answer": "Sudoku Fun Go offers an in-app purchase to remove ads. After purchasing, ads are disabled. The purchase is restored automatically when you reinstall the app or use the same account on another device."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Sudoku Fun Go - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using Sudoku Fun Go. By accessing or using our service, you agree to be bound by these terms.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Sudoku Fun Go (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval puzzle game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Sudoku Fun Go is a mobile application that provides classic 9×9 Sudoku gameplay. The Service includes: configurable difficulty levels, notes and hints, statistics and leaderboards, Game Center / Play Games integration, and in-app purchases (e.g. remove ads).",
+        "items": [
+          "Four difficulty levels (Easy, Medium, Hard, Expert)",
+          "Notes mode, hints, undo, erase, timer, mistake count",
+          "Statistics: games won, win rate, streaks, best times and scores",
+          "Game Center (iOS) and Play Games (Android) leaderboards and achievements",
+          "In-app purchase to remove ads",
+          "12 languages with regional variants"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Sudoku Fun Go collects minimal information necessary to provide the service. We collect information you provide directly (e.g. when you contact support). Game progress, statistics, and settings are stored locally on your device."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information to provide, maintain, and improve our services. Locally stored data (puzzles, stats, settings) is not transmitted to our servers except as needed for optional services (e.g. Game Center / Play Games)."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell or share your personal information with third parties. Leaderboard scores and achievements are shared with the respective platform (Apple Game Center, Google Play Games) when you use those features."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures. Your game data is stored locally on your device. If you use Game Center or Play Games, their policies apply to data processed by those services."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You can clear local data via the app's Settings (e.g. reset statistics). You may also delete the app at any time. For platform-specific data (e.g. Game Center), you can manage that in your device or account settings."
+      },
+      "section6": {
+        "title": "6. Advertising and In-App Purchases",
+        "content": "The app may show ads (e.g. via Google Mobile Ads). We may use device identifiers and usage data for ad delivery and measurement in accordance with our ad providers' policies. In-app purchases (e.g. remove ads) are processed by Apple or Google; we do not store payment details."
       },
       "section8": {
         "title": "8. Contact Us",

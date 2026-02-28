@@ -14,41 +14,33 @@ export async function generateMetadata({
   const { locale } = await params;
   
   if (!routing.locales.includes(locale as any)) {
-    return {};
+    notFound();
   }
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
-  const t = await getTranslations({ locale, namespace: 'whistleCamera.terms' });
-  
-  const title = `${t('title')} - Whistle Camera | Zuki Apps`;
-  const description = locale === 'he' 
-    ? 'תנאי השימוש של Whistle Camera - אפליקציית מצלמה חכמה. קרא את התנאים וההגבלות לשימוש באפליקציה.'
-    : 'Terms of Service for Whistle Camera - Smart camera application. Read the terms and conditions for using the app.';
+  const t = await getTranslations({ locale, namespace: 'sudokuPuzzle.terms' });
   
   return {
-    title,
-    description,
+    title: `${t('title')} - Sudoku Fun Go | Zuki Apps`,
+    description: 'Terms of Service for Sudoku Fun Go - Classic Sudoku game. Read the terms and conditions for using the app.',
     alternates: {
       canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/whistle-camera/terms` 
-        : `${baseUrl}/${locale}/whistle-camera/terms`,
+        ? `${baseUrl}/sudoku-puzzle/terms` 
+        : `${baseUrl}/${locale}/sudoku-puzzle/terms`,
       languages: Object.fromEntries(
         routing.locales.map((loc) => [
           loc,
           loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/whistle-camera/terms`
-            : `${baseUrl}/${loc}/whistle-camera/terms`
+            ? `${baseUrl}/sudoku-puzzle/terms`
+            : `${baseUrl}/${loc}/sudoku-puzzle/terms`
         ])
       )
     },
-    robots: {
-      index: true,
-      follow: true,
-    },
+    robots: { index: true, follow: true },
   };
 }
 
-export default async function WhistleCameraTermsPage({
+export default async function SudokuPuzzleTermsPage({
   params
 }: {
   params: Promise<{ locale: string }>;
@@ -59,7 +51,7 @@ export default async function WhistleCameraTermsPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'whistleCamera.terms' });
+  const t = await getTranslations({ locale, namespace: 'sudokuPuzzle.terms' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
@@ -68,23 +60,23 @@ export default async function WhistleCameraTermsPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Whistle Camera', path: '/whistle-camera' },
-          { name: tCommon('termsOfService'), path: '/whistle-camera/terms' }
+          { name: 'Sudoku Fun Go', path: '/sudoku-puzzle' },
+          { name: tCommon('termsOfService'), path: '/sudoku-puzzle/terms' }
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-amber-50 to-amber-100">
+      <div className="min-h-screen bg-gradient-to-br from-teal-50 via-cyan-50 to-teal-50">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="mb-6 flex justify-end">
             <LanguageSwitcher />
           </div>
 
-          <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-              <h1 className="text-4xl font-bold text-amber-600">Whistle Camera</h1>
+          <div className="bg-teal-50 rounded-2xl shadow-xl p-8 md:p-12">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-teal-600">
+              <h1 className="text-4xl font-bold text-teal-600">Sudoku Fun Go</h1>
               <div className="flex gap-2">
                 <Link
-                  href={`/${locale}/whistle-camera`}
-                  className="px-4 py-2 border-2 border-amber-600 bg-white text-amber-600 rounded-lg hover:bg-amber-600 hover:text-white transition-colors text-sm"
+                  href={`/${locale}/sudoku-puzzle`}
+                  className="px-4 py-2 border-2 border-teal-600 bg-white text-teal-600 rounded-lg hover:bg-teal-600 hover:text-white transition-colors text-sm"
                 >
                   {tCommon('back')}
                 </Link>
@@ -107,7 +99,7 @@ export default async function WhistleCameraTermsPage({
 
               <div className="space-y-8">
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-teal-600 mb-4">
                     {t('section1.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
@@ -119,7 +111,7 @@ export default async function WhistleCameraTermsPage({
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-teal-600 mb-4">
                     {t('section2.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
@@ -133,7 +125,7 @@ export default async function WhistleCameraTermsPage({
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-teal-600 mb-4">
                     {t('section19.title')}
                   </h2>
                   <p className="text-gray-700 mb-4">
@@ -143,7 +135,7 @@ export default async function WhistleCameraTermsPage({
                     <strong>{tCommon('email')}:</strong>{' '}
                     <a
                       href={`mailto:${t('section19.email')}`}
-                      className="text-amber-600 hover:underline"
+                      className="text-teal-600 hover:underline"
                     >
                       {t('section19.email')}
                     </a>
@@ -153,10 +145,9 @@ export default async function WhistleCameraTermsPage({
                     {t('section19.address')}
                   </p>
                   <p className="text-gray-700 text-sm">
-                    {locale === 'he' ? '🔒 ' : '🔒 '}
                     <Link
-                      href={`/${locale}/whistle-camera/privacy`}
-                      className="text-amber-600 hover:underline"
+                      href={`/${locale}/sudoku-puzzle/privacy`}
+                      className="text-teal-600 hover:underline"
                     >
                       {locale === 'he' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
                     </Link>
@@ -170,4 +161,3 @@ export default async function WhistleCameraTermsPage({
     </>
   );
 }
-

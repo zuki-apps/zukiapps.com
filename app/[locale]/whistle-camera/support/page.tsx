@@ -127,20 +127,20 @@ export default async function SupportPage({
           { name: tCommon('support'), path: '/whistle-camera/support' }
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-green-50 via-green-50 to-gray-50">
+      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-amber-50 to-amber-100">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Language Switcher */}
         <div className="mb-6 flex justify-end">
           <LanguageSwitcher />
         </div>
 
-        <div className="bg-green-50 rounded-2xl shadow-xl p-8 md:p-12">
-          <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-green-600">
-            <h1 className="text-4xl font-bold text-green-600">Whistle Camera</h1>
+        <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
+          <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
+            <h1 className="text-4xl font-bold text-amber-600">Whistle Camera</h1>
             <div className="flex gap-2">
               <Link
                 href={`/${locale}/whistle-camera`}
-                className="px-4 py-2 border-2 border-green-600 bg-white text-green-600 rounded-lg hover:bg-green-600 hover:text-white transition-colors text-sm"
+                className="px-4 py-2 border-2 border-amber-600 bg-white text-amber-600 rounded-lg hover:bg-amber-600 hover:text-white transition-colors text-sm"
               >
                 {tCommon('back')}
               </Link>
@@ -156,11 +156,11 @@ export default async function SupportPage({
             </p>
 
             {/* Contact Section */}
-            <section className="bg-white rounded-lg p-6 mb-8 border-l-4 border-green-600">
+            <section className="bg-white rounded-lg p-6 mb-8 border-l-4 border-amber-600">
               <div className="flex items-start gap-4">
-                <Mail className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <Mail className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h2 className="text-2xl font-bold text-green-600 mb-3">
+                  <h2 className="text-2xl font-bold text-amber-600 mb-3">
                     {t('contact.title')}
                   </h2>
                   <p className="text-gray-700 mb-4">
@@ -168,7 +168,7 @@ export default async function SupportPage({
                   </p>
                   <a
                     href={`mailto:${t('contact.email')}`}
-                    className="inline-flex items-center gap-2 text-green-600 hover:text-green-700 font-semibold"
+                    className="inline-flex items-center gap-2 text-amber-600 hover:text-amber-700 font-semibold"
                   >
                     <Mail className="w-5 h-5" />
                     {t('contact.email')}
@@ -179,7 +179,7 @@ export default async function SupportPage({
 
             {/* Quick Links */}
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-green-600 mb-4">
+              <h2 className="text-2xl font-bold text-amber-600 mb-4">
                 {t('quickLinks.title')}
               </h2>
               <div className="grid md:grid-cols-2 gap-4">
@@ -188,7 +188,7 @@ export default async function SupportPage({
                   className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200"
                 >
                   <div className="flex items-start gap-3">
-                    <Shield className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Shield className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">
                         {t('quickLinks.privacy.title')}
@@ -204,7 +204,7 @@ export default async function SupportPage({
                   className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200"
                 >
                   <div className="flex items-start gap-3">
-                    <FileText className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                    <FileText className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">
                         {t('quickLinks.terms.title')}
@@ -220,14 +220,14 @@ export default async function SupportPage({
 
             {/* FAQ Section */}
             <section>
-              <h2 className="text-2xl font-bold text-green-600 mb-6">
+              <h2 className="text-2xl font-bold text-amber-600 mb-6">
                 {t('faq.title')}
               </h2>
               <div className="space-y-6">
                 {[1, 2, 3, 4, 5, 6].map((num) => (
                   <div key={num} className="bg-white rounded-lg p-6 border border-gray-200">
                     <div className="flex items-start gap-3">
-                      <HelpCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                      <HelpCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="text-xl font-semibold text-gray-900 mb-2">
                           {t(`faq.q${num}.question`)}
@@ -243,11 +243,11 @@ export default async function SupportPage({
             </section>
 
             {/* Additional Help */}
-            <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-green-600 mt-8">
+            <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-amber-600 mt-8">
               <div className="flex items-start gap-3">
-                <MessageCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <MessageCircle className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h2 className="text-2xl font-bold text-green-600 mb-3">
+                  <h2 className="text-2xl font-bold text-amber-600 mb-3">
                     {t('additionalHelp.title')}
                   </h2>
                   <p className="text-gray-700 mb-4">
@@ -257,7 +257,7 @@ export default async function SupportPage({
                     <strong>{tCommon('email')}:</strong>{' '}
                     <a
                       href={`mailto:${t('contact.email')}`}
-                      className="text-green-600 hover:underline"
+                      className="text-amber-600 hover:underline"
                     >
                       {t('contact.email')}
                     </a>
