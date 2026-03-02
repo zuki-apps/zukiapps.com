@@ -75,7 +75,7 @@
     },
     "powerIntervalTimer": {
       "title": "Power Interval Timer - Tabata & HIIT",
-      "subtitle": "Interval workout timer - Coming soon",
+      "subtitle": "Tabata, HIIT y temporizador de entrenamiento",
       "description": "A minimal, fast, offline interval workout timer for Tabata, HIIT, and short workouts. Features configurable workouts, multiple display modes, sound alerts, and screen casting support.",
       "features": {
         "configurable": "Configurable Workouts",
@@ -88,6 +88,22 @@
       "underConstruction": "Under Construction",
       "underConstructionMessage": "We're working hard to bring you something amazing. Check back soon!",
       "backToHome": "Back to Home"
+    },
+    "sudokuPuzzle": {
+      "title": "Sudoku Fun Go - Sudoku clásico",
+      "subtitle": "Juego de sudoku 9×9",
+      "description": "Sudoku clásico 9×9 con cuatro niveles de dificultad, notas, pistas, cronómetro y estadísticas. 12 idiomas, Game Center y Play Games.",
+      "features": {
+        "difficulty": "Niveles de dificultad",
+        "gameplay": "Notas y pistas",
+        "offline": "Funciona sin conexión"
+      },
+      "learnMore": "Más sobre Sudoku Fun Go →",
+      "back": "Volver al inicio",
+      "comingSoon": "Próximamente",
+      "underConstruction": "En construcción",
+      "underConstructionMessage": "Estamos trabajando duro para traerte algo increíble. ¡Vuelve pronto!",
+      "backToHome": "Volver al inicio"
     }
   },
   "dsa": {
@@ -1484,9 +1500,11 @@
       "statusValue": "Coming Soon"
     },
     "download": {
-      "title": "Coming Soon",
-      "description": "Power Interval Timer will be available soon on app stores",
-      "soon": "Available soon"
+      "title": "Descargar ahora",
+      "description": "Disponible en App Store y Google Play",
+      "soon": "Disponible ahora",
+      "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
+      "appStoreAlt": "Descargar en App Store"
     },
     "links": {
       "title": "Important Links",

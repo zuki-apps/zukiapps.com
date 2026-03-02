@@ -75,7 +75,7 @@
     },
     "powerIntervalTimer": {
       "title": "Power Interval Timer - Tabata & HIIT",
-      "subtitle": "مؤقت تمرين الفترات - قريباً",
+      "subtitle": "Tabata وHIIT ومؤقت التمارين",
       "description": "مؤقت تمرين فترات بسيط وسريع يعمل بدون اتصال لـ Tabata وHIIT والتمارين القصيرة. الميزات: تمارين قابلة للتكوين، أوضاع عرض متعددة، تنبيهات صوتية ودعم البث على الشاشة.",
       "features": {
         "configurable": "تمارين قابلة للتكوين",
@@ -83,6 +83,22 @@
         "offline": "يعمل بدون اتصال"
       },
       "learnMore": "تعرف على المزيد حول Power Interval Timer →",
+      "back": "العودة إلى الصفحة الرئيسية",
+      "comingSoon": "قريباً",
+      "underConstruction": "قيد التطوير",
+      "underConstructionMessage": "نعمل بجد لجلب شيء مذهل لك. تحقق مرة أخرى قريباً!",
+      "backToHome": "العودة إلى الصفحة الرئيسية"
+    },
+    "sudokuPuzzle": {
+      "title": "Sudoku Fun Go - سودوكو كلاسيكي",
+      "subtitle": "لعبة سودوكو 9×9",
+      "description": "لعبة سودوكو كلاسيكية 9×9 مع أربع مستويات صعوبة وملاحظات وتلميحات وتوقيت وإحصائيات. 12 لغة وGame Center وPlay Games.",
+      "features": {
+        "difficulty": "مستويات الصعوبة",
+        "gameplay": "الملاحظات والتلميحات",
+        "offline": "يعمل بدون اتصال"
+      },
+      "learnMore": "اعرف المزيد عن Sudoku Fun Go →",
       "back": "العودة إلى الصفحة الرئيسية",
       "comingSoon": "قريباً",
       "underConstruction": "قيد التطوير",
@@ -1478,9 +1494,11 @@
       "statusValue": "قريباً"
     },
     "download": {
-      "title": "قريباً",
-      "description": "سيصبح Power Interval Timer متاحاً قريباً في متاجر التطبيقات",
-      "soon": "متاح قريباً"
+      "title": "تحميل الآن",
+      "description": "متاح على App Store و Google Play",
+      "soon": "متاح الآن",
+      "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
+      "appStoreAlt": "تحميل من App Store"
     },
     "links": {
       "title": "روابط مهمة",

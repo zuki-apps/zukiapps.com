@@ -30,6 +30,7 @@ export default function PowerIntervalTimerPage() {
         appDescription="A minimal, fast, offline interval workout timer for Tabata, HIIT, and short workouts. Features configurable workouts, multiple display modes, sound alerts, and screen casting support."
         operatingSystem="iOS,Android"
         applicationCategory="HealthApplication"
+        appStoreUrl="https://apps.apple.com/app/power-interval-timer/id6758246007"
         offers={{
           price: '0',
           priceCurrency: 'USD',
@@ -279,8 +280,41 @@ export default function PowerIntervalTimerPage() {
             <p className="text-lg text-gray-300 mb-8">
               {t('download.description')}
             </p>
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-orange-600/30 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90 opacity-60">
-              <p className="text-sm text-gray-400">{t('download.soon')}</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              {t('download.appStoreUrl') && (
+                <a
+                  href={t('download.appStoreUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block hover:opacity-80 transition-opacity"
+                  aria-label={t('download.appStoreAlt') || 'Download on App Store'}
+                >
+                  <Image
+                    src="/images/app-store-badge.svg"
+                    alt={t('download.appStoreAlt') || 'Download on App Store'}
+                    width={180}
+                    height={60}
+                    className="h-auto"
+                  />
+                </a>
+              )}
+              {t('download.googlePlayUrl') && (
+                <a
+                  href={t('download.googlePlayUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block hover:opacity-80 transition-opacity"
+                  aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                >
+                  <Image
+                    src="/images/google-play-badge.png"
+                    alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                    width={180}
+                    height={60}
+                    className="h-auto"
+                  />
+                </a>
+              )}
             </div>
           </div>
         </section>

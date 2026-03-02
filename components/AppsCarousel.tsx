@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary } from 'lucide-react';
 
 interface AppData {
   id: string;
@@ -30,6 +30,7 @@ export default function AppsCarousel() {
   const [isMounted, setIsMounted] = useState(false);
   const [slideWidth, setSlideWidth] = useState(0);
   const isScrollingRef = useRef(false);
+  const hasRandomizedRef = useRef(false);
 
   useEffect(() => {
     setIsMounted(true);
@@ -69,7 +70,7 @@ export default function AppsCarousel() {
     },
     {
       id: 'whistle-camera',
-      icon: <Camera className="w-16 h-16 text-green-400" aria-hidden="true" />,
+      icon: <Camera className="w-16 h-16 text-amber-400" aria-hidden="true" />,
       iconImage: '/images/whistle-camera-icon.png',
       titleKey: 'whistleCamera.title',
       subtitleKey: 'whistleCamera.subtitle',
@@ -89,10 +90,47 @@ export default function AppsCarousel() {
       featuresKey: 'powerIntervalTimer.features',
       learnMoreKey: 'powerIntervalTimer.learnMore',
       link: `/${locale}/power-interval-timer`,
+      isComingSoon: false,
+      showFeatures: true,
+    },
+    {
+      id: 'bit-scope',
+      icon: <Binary className="w-16 h-16 text-cyan-400" aria-hidden="true" />,
+      iconImage: '/images/bit-scope-icon.png',
+      titleKey: 'bitScope.title',
+      subtitleKey: 'bitScope.subtitle',
+      descriptionKey: 'bitScope.description',
+      featuresKey: 'bitScope.features',
+      learnMoreKey: 'bitScope.learnMore',
+      link: `/${locale}/bit-scope`,
+      isComingSoon: true,
+      showFeatures: true,
+    },
+    {
+      id: 'sudoku-puzzle',
+      icon: <Grid3X3 className="w-16 h-16 text-teal-400" aria-hidden="true" />,
+      iconImage: '/images/sudoku-puzzle-icon.png',
+      titleKey: 'sudokuPuzzle.title',
+      subtitleKey: 'sudokuPuzzle.subtitle',
+      descriptionKey: 'sudokuPuzzle.description',
+      featuresKey: 'sudokuPuzzle.features',
+      learnMoreKey: 'sudokuPuzzle.learnMore',
+      link: `/${locale}/sudoku-puzzle`,
       isComingSoon: true,
       showFeatures: true,
     },
   ], [locale]);
+
+  // On each full page load, show a random app first (client-side only, once per mount)
+  useEffect(() => {
+    if (hasRandomizedRef.current || apps.length === 0) return;
+    if (!containerRef.current || !carouselRef.current) return;
+    hasRandomizedRef.current = true;
+    const randomIndex = Math.floor(Math.random() * apps.length);
+    setCurrentIndex(randomIndex);
+    const w = containerRef.current.clientWidth;
+    carouselRef.current.scrollTo({ left: w * randomIndex, behavior: 'auto' });
+  }, [apps.length]);
 
   const goToSlide = useCallback((index: number) => {
     if (carouselRef.current && containerRef.current) {
@@ -298,6 +336,22 @@ export default function AppsCarousel() {
                     <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.offline')}>
                       <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.offline')}</p>
+                    </div>
+                  </div>
+                )}
+                {app.showFeatures && app.id === 'sudoku-puzzle' && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.difficulty')}>
+                      <Grid3X3 className="w-8 h-8 text-teal-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('sudokuPuzzle.features.difficulty')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.gameplay')}>
+                      <Grid3X3 className="w-8 h-8 text-teal-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('sudokuPuzzle.features.gameplay')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.offline')}>
+                      <Grid3X3 className="w-8 h-8 text-teal-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('sudokuPuzzle.features.offline')}</p>
                     </div>
                   </div>
                 )}

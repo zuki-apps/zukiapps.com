@@ -75,7 +75,7 @@
     },
     "powerIntervalTimer": {
       "title": "Power Interval Timer - Tabata & HIIT",
-      "subtitle": "间隔训练计时器 - 即将推出",
+      "subtitle": "Tabata、HIIT 与运动计时器",
       "description": "适用于Tabata、HIIT和短时间训练的最小化、快速、离线间隔训练计时器。功能：可配置的训练、多种显示模式、声音提醒和屏幕投射支持。",
       "features": {
         "configurable": "可配置的训练",
@@ -83,6 +83,22 @@
         "offline": "离线工作"
       },
       "learnMore": "了解更多关于 Power Interval Timer →",
+      "back": "返回首页",
+      "comingSoon": "即将推出",
+      "underConstruction": "开发中",
+      "underConstructionMessage": "我们正在努力为您带来令人惊叹的东西。请稍后再来查看！",
+      "backToHome": "返回首页"
+    },
+    "sudokuPuzzle": {
+      "title": "Sudoku Fun Go - 经典数独",
+      "subtitle": "9×9 数独游戏",
+      "description": "经典 9×9 数独，四种难度、笔记、提示、计时器和统计。12 种语言，支持 Game Center 和 Play Games。",
+      "features": {
+        "difficulty": "难度等级",
+        "gameplay": "笔记与提示",
+        "offline": "离线工作"
+      },
+      "learnMore": "了解更多关于 Sudoku Fun Go →",
       "back": "返回首页",
       "comingSoon": "即将推出",
       "underConstruction": "开发中",
@@ -1478,9 +1494,11 @@
       "statusValue": "即将推出"
     },
     "download": {
-      "title": "即将推出",
-      "description": "Power Interval Timer即将在应用商店推出",
-      "soon": "即将推出"
+      "title": "立即下载",
+      "description": "可在 App Store 和 Google Play 下载",
+      "soon": "现已推出",
+      "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
+      "appStoreAlt": "在 App Store 下载"
     },
     "links": {
       "title": "重要链接",

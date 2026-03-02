@@ -63,7 +63,7 @@
     },
     "powerIntervalTimer": {
       "title": "Power Interval Timer - Tabata & HIIT",
-      "subtitle": "Intervall-Trainings-Timer - Demnächst verfügbar",
+      "subtitle": "Tabata, HIIT & Workout-Timer",
       "description": "Ein minimaler, schneller, offline Intervall-Trainings-Timer für Tabata, HIIT und kurze Workouts. Funktionen: konfigurierbare Workouts, mehrere Anzeigemodi, Sound-Alarme und Bildschirmübertragungs-Unterstützung.",
       "features": {
         "configurable": "Konfigurierbare Workouts",
@@ -71,6 +71,22 @@
         "offline": "Funktioniert Offline"
       },
       "learnMore": "Erfahren Sie mehr über Power Interval Timer →",
+      "back": "Zurück zur Startseite",
+      "comingSoon": "Demnächst verfügbar",
+      "underConstruction": "Im Aufbau",
+      "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "sudokuPuzzle": {
+      "title": "Sudoku Fun Go - Klassisches Sudoku",
+      "subtitle": "9×9-Sudoku-Spiel",
+      "description": "Klassisches 9×9-Sudoku mit vier Schwierigkeitsstufen, Notizen, Hinweisen, Timer und Statistik. 12 Sprachen, Game Center & Play Games.",
+      "features": {
+        "difficulty": "Schwierigkeitsstufen",
+        "gameplay": "Notizen & Hinweise",
+        "offline": "Funktioniert Offline"
+      },
+      "learnMore": "Erfahren Sie mehr über Sudoku Fun Go →",
       "back": "Zurück zur Startseite",
       "comingSoon": "Demnächst verfügbar",
       "underConstruction": "Im Aufbau",
@@ -1471,9 +1487,11 @@
       "statusValue": "Demnächst verfügbar"
     },
     "download": {
-      "title": "Demnächst verfügbar",
-      "description": "Power Interval Timer wird bald in den App-Stores verfügbar sein",
-      "soon": "Bald verfügbar"
+      "title": "Jetzt herunterladen",
+      "description": "Verfügbar im App Store und bei Google Play",
+      "soon": "Jetzt verfügbar",
+      "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
+      "appStoreAlt": "Im App Store herunterladen"
     },
     "links": {
       "title": "Wichtige Links",

@@ -75,7 +75,7 @@
     },
     "powerIntervalTimer": {
       "title": "Power Interval Timer - Tabata & HIIT",
-      "subtitle": "Таймер интервальных тренировок - Скоро",
+      "subtitle": "Tabata, HIIT и таймер тренировок",
       "description": "Минималистичный, быстрый, офлайн таймер интервальных тренировок для Tabata, HIIT и коротких тренировок. Функции: настраиваемые тренировки, несколько режимов отображения, звуковые сигналы и поддержка трансляции на экран.",
       "features": {
         "configurable": "Настраиваемые тренировки",
@@ -83,6 +83,22 @@
         "offline": "Работает офлайн"
       },
       "learnMore": "Узнать больше о Power Interval Timer →",
+      "back": "Вернуться на главную",
+      "comingSoon": "Скоро",
+      "underConstruction": "В разработке",
+      "underConstructionMessage": "Мы усердно работаем, чтобы предложить вам что-то удивительное. Заходите снова скоро!",
+      "backToHome": "Вернуться на главную"
+    },
+    "sudokuPuzzle": {
+      "title": "Sudoku Fun Go - Классический судоку",
+      "subtitle": "Игра судоку 9×9",
+      "description": "Классический судоку 9×9 с четырьмя уровнями сложности, заметками, подсказками, таймером и статистикой. 12 языков, Game Center и Play Games.",
+      "features": {
+        "difficulty": "Уровни сложности",
+        "gameplay": "Заметки и подсказки",
+        "offline": "Работает офлайн"
+      },
+      "learnMore": "Узнать больше о Sudoku Fun Go →",
       "back": "Вернуться на главную",
       "comingSoon": "Скоро",
       "underConstruction": "В разработке",
@@ -1478,9 +1494,11 @@
       "statusValue": "Скоро"
     },
     "download": {
-      "title": "Скоро",
-      "description": "Power Interval Timer скоро будет доступен в магазинах приложений",
-      "soon": "Скоро доступно"
+      "title": "Скачать",
+      "description": "Доступно в App Store и Google Play",
+      "soon": "Доступно сейчас",
+      "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
+      "appStoreAlt": "Скачать в App Store"
     },
     "links": {
       "title": "Важные ссылки",

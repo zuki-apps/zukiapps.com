@@ -18,26 +18,26 @@ export async function generateMetadata({
   }
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
-  const t = await getTranslations({ locale, namespace: 'whistleCamera.terms' });
+  const t = await getTranslations({ locale, namespace: 'bitScope.terms' });
   
-  const title = `${t('title')} - Whistle Camera | Zuki Apps`;
+  const title = `${t('title')} - Bit Scope | Zuki Apps`;
   const description = locale === 'he' 
-    ? 'תנאי השימוש של Whistle Camera - אפליקציית מצלמה חכמה. קרא את התנאים וההגבלות לשימוש באפליקציה.'
-    : 'Terms of Service for Whistle Camera - Smart camera application. Read the terms and conditions for using the app.';
+    ? 'תנאי השימוש של Bit Scope - אפליקציית מחשבון ביטים וממיר מספרים. קרא את התנאים וההגבלות לשימוש באפליקציה.'
+    : 'Terms of Service for Bit Scope - Bit-level calculator and number converter application. Read the terms and conditions for using the app.';
   
   return {
     title,
     description,
     alternates: {
       canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/whistle-camera/terms` 
-        : `${baseUrl}/${locale}/whistle-camera/terms`,
+        ? `${baseUrl}/bit-scope/terms` 
+        : `${baseUrl}/${locale}/bit-scope/terms`,
       languages: Object.fromEntries(
         routing.locales.map((loc) => [
           loc,
           loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/whistle-camera/terms`
-            : `${baseUrl}/${loc}/whistle-camera/terms`
+            ? `${baseUrl}/bit-scope/terms`
+            : `${baseUrl}/${loc}/bit-scope/terms`
         ])
       )
     },
@@ -48,7 +48,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function WhistleCameraTermsPage({
+export default async function BitScopeTermsPage({
   params
 }: {
   params: Promise<{ locale: string }>;
@@ -59,7 +59,7 @@ export default async function WhistleCameraTermsPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'whistleCamera.terms' });
+  const t = await getTranslations({ locale, namespace: 'bitScope.terms' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
@@ -68,23 +68,23 @@ export default async function WhistleCameraTermsPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Whistle Camera', path: '/whistle-camera' },
-          { name: tCommon('termsOfService'), path: '/whistle-camera/terms' }
+          { name: 'Bit Scope', path: '/bit-scope' },
+          { name: tCommon('termsOfService'), path: '/bit-scope/terms' }
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-amber-50 to-amber-100">
+      <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-cyan-50 to-blue-50">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="mb-6 flex justify-end">
             <LanguageSwitcher />
           </div>
 
-          <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-              <h1 className="text-4xl font-bold text-amber-600">Whistle Camera</h1>
+          <div className="bg-cyan-50 rounded-2xl shadow-xl p-8 md:p-12">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-cyan-600">
+              <h1 className="text-4xl font-bold text-cyan-600">Bit Scope</h1>
               <div className="flex gap-2">
                 <Link
-                  href={`/${locale}/whistle-camera`}
-                  className="px-4 py-2 border-2 border-amber-600 bg-white text-amber-600 rounded-lg hover:bg-amber-600 hover:text-white transition-colors text-sm"
+                  href={`/${locale}/bit-scope`}
+                  className="px-4 py-2 border-2 border-cyan-600 bg-white text-cyan-600 rounded-lg hover:bg-cyan-600 hover:text-white transition-colors text-sm"
                 >
                   {tCommon('back')}
                 </Link>
@@ -107,7 +107,7 @@ export default async function WhistleCameraTermsPage({
 
               <div className="space-y-8">
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-cyan-600 mb-4">
                     {t('section1.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
@@ -119,7 +119,7 @@ export default async function WhistleCameraTermsPage({
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-cyan-600 mb-4">
                     {t('section2.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
@@ -133,7 +133,7 @@ export default async function WhistleCameraTermsPage({
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-cyan-600 mb-4">
                     {t('section19.title')}
                   </h2>
                   <p className="text-gray-700 mb-4">
@@ -143,7 +143,7 @@ export default async function WhistleCameraTermsPage({
                     <strong>{tCommon('email')}:</strong>{' '}
                     <a
                       href={`mailto:${t('section19.email')}`}
-                      className="text-amber-600 hover:underline"
+                      className="text-cyan-600 hover:underline"
                     >
                       {t('section19.email')}
                     </a>
@@ -155,8 +155,8 @@ export default async function WhistleCameraTermsPage({
                   <p className="text-gray-700 text-sm">
                     {locale === 'he' ? '🔒 ' : '🔒 '}
                     <Link
-                      href={`/${locale}/whistle-camera/privacy`}
-                      className="text-amber-600 hover:underline"
+                      href={`/${locale}/bit-scope/privacy`}
+                      className="text-cyan-600 hover:underline"
                     >
                       {locale === 'he' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
                     </Link>
@@ -170,4 +170,3 @@ export default async function WhistleCameraTermsPage({
     </>
   );
 }
-

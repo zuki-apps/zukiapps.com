@@ -75,7 +75,7 @@
     },
     "powerIntervalTimer": {
       "title": "Power Interval Timer - Tabata & HIIT",
-      "subtitle": "インターバルトレーニングタイマー - 近日公開",
+      "subtitle": "Tabata、HIIT＆ワークアウトタイマー",
       "description": "Tabata、HIIT、短いトレーニング用の最小限で高速なオフラインインターバルトレーニングタイマー。機能：設定可能なトレーニング、複数の表示モード、音声アラート、画面キャストサポート。",
       "features": {
         "configurable": "設定可能なトレーニング",
@@ -83,6 +83,22 @@
         "offline": "オフラインで動作"
       },
       "learnMore": "Power Interval Timerについて詳しく見る →",
+      "back": "ホームに戻る",
+      "comingSoon": "近日公開",
+      "underConstruction": "開発中",
+      "underConstructionMessage": "素晴らしいものをお届けするために一生懸命取り組んでいます。また後で確認してください！",
+      "backToHome": "ホームに戻る"
+    },
+    "sudokuPuzzle": {
+      "title": "Sudoku Fun Go - クラシック数独",
+      "subtitle": "9×9数独ゲーム",
+      "description": "4段階の難易度、メモ、ヒント、タイマー、統計機能付きのクラシック9×9数独。12言語対応、Game CenterとPlay Games対応。",
+      "features": {
+        "difficulty": "難易度レベル",
+        "gameplay": "メモとヒント",
+        "offline": "オフラインで動作"
+      },
+      "learnMore": "Sudoku Fun Goの詳細を見る →",
       "back": "ホームに戻る",
       "comingSoon": "近日公開",
       "underConstruction": "開発中",
@@ -1484,9 +1500,11 @@
       "statusValue": "近日公開"
     },
     "download": {
-      "title": "近日公開",
-      "description": "Power Interval Timerはまもなくアプリストアで利用可能になります",
-      "soon": "まもなく利用可能"
+      "title": "今すぐダウンロード",
+      "description": "App StoreとGoogle Playで利用可能",
+      "soon": "利用可能",
+      "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
+      "appStoreAlt": "App Storeでダウンロード"
     },
     "links": {
       "title": "重要なリンク",

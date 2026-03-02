@@ -20,26 +20,36 @@ export async function generateMetadata({
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   
   return {
-    title: 'Privacy Policy - Whistle Camera | Zuki Apps',
-    description: 'Privacy Policy for Whistle Camera - Smart camera application. Learn how we collect, use, and protect your data.',
-    robots: 'index, follow',
+    title: 'Privacy Policy - Bit Scope | Zuki Apps',
+    description: 'Privacy Policy for Bit Scope - Bit-level calculator and number converter application. Learn how we collect, use, and protect your data.',
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     alternates: {
       canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/whistle-camera/privacy` 
-        : `${baseUrl}/${locale}/whistle-camera/privacy`,
+        ? `${baseUrl}/bit-scope/privacy` 
+        : `${baseUrl}/${locale}/bit-scope/privacy`,
       languages: Object.fromEntries(
         routing.locales.map((loc) => [
           loc,
           loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? `${baseUrl}/whistle-camera/privacy` 
-            : `${baseUrl}/${loc}/whistle-camera/privacy`
+            ? `${baseUrl}/bit-scope/privacy` 
+            : `${baseUrl}/${loc}/bit-scope/privacy`
         ])
       )
     }
   };
 }
 
-export default async function WhistleCameraPrivacyPage({
+export default async function BitScopePrivacyPage({
   params
 }: {
   params: Promise<{ locale: string }>;
@@ -50,7 +60,7 @@ export default async function WhistleCameraPrivacyPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'whistleCamera.privacy' });
+  const t = await getTranslations({ locale, namespace: 'bitScope.privacy' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
@@ -59,23 +69,23 @@ export default async function WhistleCameraPrivacyPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Whistle Camera', path: '/whistle-camera' },
-          { name: tCommon('privacyPolicy'), path: '/whistle-camera/privacy' }
+          { name: 'Bit Scope', path: '/bit-scope' },
+          { name: tCommon('privacyPolicy'), path: '/bit-scope/privacy' }
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-amber-50 to-amber-100">
+      <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-cyan-50 to-blue-50">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="mb-6 flex justify-end">
             <LanguageSwitcher />
           </div>
 
-          <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-              <h1 className="text-4xl font-bold text-amber-600">Whistle Camera</h1>
+          <div className="bg-cyan-50 rounded-2xl shadow-xl p-8 md:p-12">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-cyan-600">
+              <h1 className="text-4xl font-bold text-cyan-600">Bit Scope</h1>
               <div className="flex gap-2">
                 <Link
-                  href={`/${locale}/whistle-camera`}
-                  className="px-4 py-2 border-2 border-amber-600 bg-white text-amber-600 rounded-lg hover:bg-amber-600 hover:text-white transition-colors text-sm"
+                  href={`/${locale}/bit-scope`}
+                  className="px-4 py-2 border-2 border-cyan-600 bg-white text-cyan-600 rounded-lg hover:bg-cyan-600 hover:text-white transition-colors text-sm"
                 >
                   {tCommon('back')}
                 </Link>
@@ -92,7 +102,7 @@ export default async function WhistleCameraPrivacyPage({
 
               <div className="space-y-6">
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-cyan-600 mb-4">
                     {t('section1.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed">
@@ -101,7 +111,7 @@ export default async function WhistleCameraPrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-cyan-600 mb-4">
                     {t('section2.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed">
@@ -110,7 +120,7 @@ export default async function WhistleCameraPrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-cyan-600 mb-4">
                     {t('section3.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed">
@@ -119,7 +129,7 @@ export default async function WhistleCameraPrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-cyan-600 mb-4">
                     {t('section4.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed">
@@ -128,7 +138,7 @@ export default async function WhistleCameraPrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                  <h2 className="text-2xl font-bold text-cyan-600 mb-4">
                     {t('section5.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed">
@@ -136,17 +146,8 @@ export default async function WhistleCameraPrivacyPage({
                   </p>
                 </section>
 
-                <section>
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
-                    {t('section6.title')}
-                  </h2>
-                  <p className="text-gray-700 leading-relaxed">
-                    {t('section6.content')}
-                  </p>
-                </section>
-
-                <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-amber-600 mt-8">
-                  <h2 className="text-2xl font-bold text-amber-600 mb-4">
+                <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-cyan-600 mt-8">
+                  <h2 className="text-2xl font-bold text-cyan-600 mb-4">
                     {t('section8.title')}
                   </h2>
                   <p className="text-gray-700 mb-4">
@@ -156,7 +157,7 @@ export default async function WhistleCameraPrivacyPage({
                     <strong>{tCommon('email')}:</strong>{' '}
                     <a
                       href={`mailto:${t('section8.email')}`}
-                      className="text-amber-600 hover:underline"
+                      className="text-cyan-600 hover:underline"
                     >
                       {t('section8.email')}
                     </a>
@@ -168,8 +169,8 @@ export default async function WhistleCameraPrivacyPage({
                   <p className="text-gray-700 text-sm">
                     {locale === 'he' ? '📄 ' : '📄 '}
                     <Link
-                      href={`/${locale}/whistle-camera/terms`}
-                      className="text-amber-600 hover:underline"
+                      href={`/${locale}/bit-scope/terms`}
+                      className="text-cyan-600 hover:underline"
                     >
                       {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                     </Link>
@@ -183,4 +184,3 @@ export default async function WhistleCameraPrivacyPage({
     </>
   );
 }
-
