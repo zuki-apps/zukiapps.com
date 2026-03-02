@@ -89,6 +89,22 @@
       "underConstructionMessage": "놀라운 것을 제공하기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
       "backToHome": "홈으로 돌아가기"
     },
+    "bitScope": {
+      "title": "Bit Scope - 비트 및 숫자 계산기",
+      "subtitle": "비트 레벨 검사기 및 변환기",
+      "description": "개발자, 엔지니어 및 학생을 위한 강력한 비트 레벨 검사기 및 변환기. 여러 숫자 시스템 및 형식에서 비트 레벨로 숫자를 시각화, 조작 및 변환합니다.",
+      "features": {
+        "bitEditor": "대화형 비트 편집기",
+        "formats": "다중 숫자 형식",
+        "bases": "숫자 기수 지원"
+      },
+      "learnMore": "Bit Scope에 대해 자세히 알아보기 →",
+      "back": "홈으로 돌아가기",
+      "comingSoon": "출시 예정",
+      "underConstruction": "개발 중",
+      "underConstructionMessage": "놀라운 것을 제공하기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
+      "backToHome": "홈으로 돌아가기"
+    },
     "sudokuPuzzle": {
       "title": "Sudoku Fun Go - 클래식 스도쿠",
       "subtitle": "9×9 스도쿠 게임",
@@ -1194,7 +1210,7 @@
   "whistleCamera": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "지금 사용 가능",
       "title": "Whistle Camera - Selfie & More",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1253,17 +1269,21 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
+      "title": "✅ 지금 사용 가능",
+      "description": "Whistle Camera를 다운로드할 수 있습니다",
       "version": "Version",
       "status": "Status",
-      "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "versionValue": "1.0.0",
+      "statusValue": "사용 가능"
     },
     "download": {
-      "title": "Coming Soon",
-      "description": "Whistle Camera will be available soon on the App Store",
-      "soon": "Available soon"
+      "title": "지금 다운로드",
+      "description": "App Store에서 사용 가능",
+      "soon": "지금 사용 가능",
+      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
+      "appStoreAlt": "App Store에서 다운로드",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Google Play에서 사용 가능"
     },
     "links": {
       "title": "Important Links",
@@ -1412,7 +1432,7 @@
   "powerIntervalTimer": {
     "back": "홈으로 돌아가기",
     "hero": {
-      "badge": "출시 예정",
+      "badge": "지금 사용 가능",
       "title": "Power Interval Timer - Tabata & HIIT",
       "subtitle": "인터벌 운동 타이머",
       "description": "Tabata, HIIT 및 짧은 운동을 위한 최소한의 빠른 오프라인 인터벌 운동 타이머. 기능: 설정 가능한 운동, 여러 표시 모드, 소리 알림 및 화면 캐스팅 지원."
@@ -1652,6 +1672,110 @@
     },
     "footer": {
       "copyright": "© 2025 Power Interval Timer - 모든 권리 보유",
+      "tagline": "Zuki Apps의 일부 • 이스라엘 개발자 • ❤️로 제작"
+    }
+  },
+  "bitScope": {
+    "back": "홈으로 돌아가기",
+    "hero": {
+      "badge": "출시 예정",
+      "title": "Bit Scope - 비트 및 숫자 계산기",
+      "subtitle": "비트 레벨 검사기 및 변환기",
+      "description": "개발자, 엔지니어 및 학생을 위한 강력한 비트 레벨 검사기 및 변환기. 여러 숫자 시스템 및 형식에서 비트 레벨로 숫자를 시각화, 조작 및 변환합니다."
+    },
+    "features": {
+      "title": "주요 기능",
+      "bitEditor": {
+        "title": "대화형 비트 편집기",
+        "description": "직접 비트 조작을 위한 토글 기능이 있는 시각적 비트 그리드",
+        "items": [
+          "시각적 비트 그리드 표시",
+          "개별 비트 토글",
+          "전체 화면 비트 편집기 모달",
+          "실시간 비트 미리보기"
+        ]
+      },
+      "formats": {
+        "title": "다중 숫자 형식",
+        "description": "다양한 정수 및 부동 소수점 형식 지원",
+        "items": [
+          "8비트, 16비트, 32비트, 64비트 정수",
+          "Float16 (반정밀도)",
+          "Float32 (단정밀도)",
+          "Float64 (배정밀도) IEEE 754 준수"
+        ]
+      },
+      "bases": {
+        "title": "숫자 기수 지원",
+        "description": "여러 숫자 기수로 입력 및 표시",
+        "items": [
+          "이진수 (BIN)",
+          "8진수 (OCT)",
+          "10진수 (DEC)",
+          "16진수 (HEX)"
+        ]
+      },
+      "bitwise": {
+        "title": "비트 연산",
+        "description": "두 번째 피연산자로 비트 연산 수행",
+        "items": [
+          "AND 연산",
+          "OR 연산",
+          "XOR 연산",
+          "NOT 연산"
+        ]
+      },
+      "ieee754": {
+        "title": "IEEE 754 분해",
+        "description": "부동 소수점 구성 요소의 시각적 표현",
+        "items": [
+          "부호 비트 시각화",
+          "지수 분해",
+          "가수 표현",
+          "IEEE 754 표준 준수"
+        ]
+      },
+      "advanced": {
+        "title": "고급 옵션",
+        "description": "포괄적인 구성 옵션",
+        "items": [
+          "부호 있음/없음 모드",
+          "빅 엔디안 / 리틀 엔디안",
+          "MSB / LSB 비트 순서",
+          "실시간 변환"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 개발 중",
+      "description": "앱이 현재 개발 중입니다",
+      "version": "버전",
+      "status": "상태",
+      "versionValue": "1.0.0",
+      "statusValue": "출시 예정"
+    },
+    "download": {
+      "title": "출시 예정",
+      "description": "Bit Scope는 곧 앱 스토어에서 사용할 수 있습니다",
+      "soon": "곧 사용 가능",
+      "appStoreUrl": "",
+      "appStoreAlt": "App Store에서 다운로드",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Google Play에서 받기"
+    },
+    "links": {
+      "title": "중요한 링크",
+      "support": {
+        "title": "기술 지원",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Google Play에서 다운로드",
+        "description": "Google Play Store에서 Bit Scope 받기"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Bit Scope - 모든 권리 보유",
       "tagline": "Zuki Apps의 일부 • 이스라엘 개발자 • ❤️로 제작"
     }
   }

@@ -123,7 +123,7 @@ export default async function SupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Whistle Camera', path: '/whistle-camera' },
+          { name: t('hero.title'), path: '/whistle-camera' },
           { name: tCommon('support'), path: '/whistle-camera/support' }
         ]}
       />

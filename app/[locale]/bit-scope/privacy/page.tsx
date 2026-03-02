@@ -62,6 +62,7 @@ export default async function BitScopePrivacyPage({
 
   const t = await getTranslations({ locale, namespace: 'bitScope.privacy' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tApp = await getTranslations({ locale, namespace: 'bitScope.hero' });
 
   return (
     <>
@@ -69,7 +70,7 @@ export default async function BitScopePrivacyPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Bit Scope', path: '/bit-scope' },
+          { name: tApp('title'), path: '/bit-scope' },
           { name: tCommon('privacyPolicy'), path: '/bit-scope/privacy' }
         ]}
       />

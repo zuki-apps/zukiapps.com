@@ -53,13 +53,15 @@ export default async function SudokuPuzzlePrivacyPage({
   const t = await getTranslations({ locale, namespace: 'sudokuPuzzle.privacy' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
+  const tApp = await getTranslations({ locale, namespace: 'sudokuPuzzle.hero' });
+
   return (
     <>
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Sudoku Fun Go', path: '/sudoku-puzzle' },
+          { name: tApp('title'), path: '/sudoku-puzzle' },
           { name: tCommon('privacyPolicy'), path: '/sudoku-puzzle/privacy' }
         ]}
       />

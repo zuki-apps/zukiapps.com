@@ -343,27 +343,6 @@ export default function PowerIntervalTimerPage() {
                 </div>
                 <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-orange-400 transition-colors" />
               </Link>
-              {t('download.googlePlayUrl') && (
-                <a
-                  href={t('download.googlePlayUrl')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-orange-500/50 transition-all flex items-center gap-4 group border-2 border-orange-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
-                >
-                  <div className="bg-green-600/30 p-3 rounded-lg group-hover:bg-green-600/50 border border-green-500/50 transition-colors">
-                    <Download className="w-6 h-6 text-green-400" />
-                  </div>
-                  <div className={`flex-grow ${locale === 'he' ? 'text-right' : 'text-left'}`}>
-                    <h3 className="text-xl font-semibold text-white mb-1">
-                      {t('links.googlePlay.title')}
-                    </h3>
-                    <p className="text-gray-300 text-sm">
-                      {t('links.googlePlay.description')}
-                    </p>
-                  </div>
-                  <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-orange-400 transition-colors" />
-                </a>
-              )}
             </div>
           </div>
         </section>

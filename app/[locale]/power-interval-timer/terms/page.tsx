@@ -61,6 +61,7 @@ export default async function PowerIntervalTimerTermsPage({
 
   const t = await getTranslations({ locale, namespace: 'powerIntervalTimer.terms' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tApp = await getTranslations({ locale, namespace: 'powerIntervalTimer.hero' });
 
   return (
     <>
@@ -68,7 +69,7 @@ export default async function PowerIntervalTimerTermsPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Power Interval Timer', path: '/power-interval-timer' },
+          { name: tApp('title'), path: '/power-interval-timer' },
           { name: tCommon('termsOfService'), path: '/power-interval-timer/terms' }
         ]}
       />

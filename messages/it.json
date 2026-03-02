@@ -47,7 +47,7 @@
     },
     "whistleCamera": {
       "title": "Whistle Camera - Selfie & More",
-      "subtitle": "App fotocamera intelligente - Prossimamente",
+      "subtitle": "App fotocamera intelligente",
       "description": "Whistle Camera è un'applicazione fotocamera innovativa che porta nuove funzionalità e capacità alla fotografia mobile. Con strumenti di modifica avanzati e filtri intelligenti, cattura e migliora i tuoi momenti come mai prima.",
       "features": {
         "smart": "Funzionalità intelligenti",
@@ -88,6 +88,22 @@
       "underConstruction": "Under Construction",
       "underConstructionMessage": "We're working hard to bring you something amazing. Check back soon!",
       "backToHome": "Back to Home"
+    },
+    "bitScope": {
+      "title": "Bit Scope - Bit & Number Calculator",
+      "subtitle": "Ispezione e conversione a livello di bit",
+      "description": "Un potente ispettore e convertitore a livello di bit per sviluppatori, ingegneri e studenti. Visualizza, manipola e converti numeri a livello di bit attraverso più sistemi numerici e formati.",
+      "features": {
+        "bitEditor": "Editor di bit interattivo",
+        "formats": "Formati numerici multipli",
+        "bases": "Supporto basi numeriche"
+      },
+      "learnMore": "Scopri di più su Bit Scope →",
+      "back": "Torna alla Home",
+      "comingSoon": "Prossimamente",
+      "underConstruction": "In Costruzione",
+      "underConstructionMessage": "Stiamo lavorando sodo per portarti qualcosa di straordinario. Torna presto!",
+      "backToHome": "Torna alla Home"
     },
     "sudokuPuzzle": {
       "title": "Sudoku Fun Go - Sudoku classico",
@@ -1200,7 +1216,7 @@
   "whistleCamera": {
     "back": "Torna alla Home",
     "hero": {
-      "badge": "Prossimamente",
+      "badge": "Disponibile ora",
       "title": "Whistle Camera - Selfie & More",
       "subtitle": "App Fotocamera Intelligente",
       "description": "Un'applicazione fotocamera innovativa che porta nuove caratteristiche e capacità alla fotografia mobile. Con rilevamento del fischio, modalità incognito e controlli avanzati, cattura i tuoi momenti come mai prima."
@@ -1259,17 +1275,21 @@
       }
     },
     "status": {
-      "title": "🚧 In Sviluppo",
-      "description": "L'app è attualmente in sviluppo",
+      "title": "✅ Disponibile ora",
+      "description": "Whistle Camera è disponibile per il download",
       "version": "Versione",
       "status": "Stato",
-      "versionValue": "In Sviluppo",
-      "statusValue": "Prossimamente"
+      "versionValue": "1.0.0",
+      "statusValue": "Disponibile"
     },
     "download": {
-      "title": "Prossimamente",
-      "description": "Whistle Camera sarà presto disponibile sull'App Store",
-      "soon": "Disponibile presto"
+      "title": "Scarica ora",
+      "description": "Disponibile sull'App Store",
+      "soon": "Disponibile ora",
+      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
+      "appStoreAlt": "Scarica dall'App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Disponibile su Google Play"
     },
     "links": {
       "title": "Link Importanti",
@@ -1659,6 +1679,110 @@
     "footer": {
       "copyright": "© 2025 Power Interval Timer - All rights reserved",
       "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    }
+  },
+  "bitScope": {
+    "back": "Torna alla Home",
+    "hero": {
+      "badge": "Prossimamente",
+      "title": "Bit Scope - Bit & Number Calculator",
+      "subtitle": "Ispezione e Conversione a Livello di Bit",
+      "description": "Un potente ispettore e convertitore a livello di bit per sviluppatori, ingegneri e studenti. Visualizza, manipola e converti numeri a livello di bit attraverso più sistemi numerici e formati."
+    },
+    "features": {
+      "title": "Caratteristiche Principali",
+      "bitEditor": {
+        "title": "Editor di Bit Interattivo",
+        "description": "Griglia di bit visiva con funzionalità di toggle per manipolazione diretta dei bit",
+        "items": [
+          "Visualizzazione griglia di bit",
+          "Attiva/disattiva bit singoli",
+          "Modal editor bit a schermo intero",
+          "Anteprima bit in tempo reale"
+        ]
+      },
+      "formats": {
+        "title": "Formati Numerici Multipli",
+        "description": "Supporto per vari formati interi e a virgola mobile",
+        "items": [
+          "Interi 8-bit, 16-bit, 32-bit, 64-bit",
+          "Float16 (mezza precisione)",
+          "Float32 (precisione singola)",
+          "Float64 (doppia precisione) con IEEE 754"
+        ]
+      },
+      "bases": {
+        "title": "Supporto Basi Numeriche",
+        "description": "Input e visualizzazione in più basi numeriche",
+        "items": [
+          "Binario (BIN)",
+          "Ottale (OCT)",
+          "Decimale (DEC)",
+          "Esadecimale (HEX)"
+        ]
+      },
+      "bitwise": {
+        "title": "Operazioni Bitwise",
+        "description": "Esegui operazioni bitwise con un secondo operando",
+        "items": [
+          "Operazione AND",
+          "Operazione OR",
+          "Operazione XOR",
+          "Operazione NOT"
+        ]
+      },
+      "ieee754": {
+        "title": "Scomposizione IEEE 754",
+        "description": "Rappresentazione visiva dei componenti a virgola mobile",
+        "items": [
+          "Visualizzazione bit segno",
+          "Scomposizione esponente",
+          "Rappresentazione mantissa",
+          "Conformità standard IEEE 754"
+        ]
+      },
+      "advanced": {
+        "title": "Opzioni Avanzate",
+        "description": "Opzioni di configurazione complete",
+        "items": [
+          "Modalità con/senza segno",
+          "Big Endian / Little Endian",
+          "Ordine bit MSB / LSB",
+          "Conversione in tempo reale"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 In Sviluppo",
+      "description": "L'app è attualmente in sviluppo",
+      "version": "Versione",
+      "status": "Stato",
+      "versionValue": "1.0.0",
+      "statusValue": "Disponibile"
+    },
+    "download": {
+      "title": "Prossimamente",
+      "description": "Bit Scope sarà presto disponibile negli store di app",
+      "soon": "Disponibile presto",
+      "appStoreUrl": "",
+      "appStoreAlt": "Scarica su App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Scarica su Google Play"
+    },
+    "links": {
+      "title": "Link Importanti",
+      "support": {
+        "title": "Supporto Tecnico",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Scarica su Google Play",
+        "description": "Ottieni Bit Scope da Google Play Store"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Bit Scope - Tutti i diritti riservati",
+      "tagline": "Parte di Zuki Apps • Sviluppatore da Israele • Fatto con ❤️"
     }
   }
 }

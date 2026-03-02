@@ -77,6 +77,22 @@
       "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
       "backToHome": "Zurück zur Startseite"
     },
+    "bitScope": {
+      "title": "Bit Scope - Bit & Number Calculator",
+      "subtitle": "Bit-Level Inspector & Converter",
+      "description": "Ein leistungsstarker Bit-Level-Inspektor und -Konverter für Entwickler, Ingenieure und Studenten. Visualisieren, manipulieren und konvertieren Sie Zahlen auf Bitebene über mehrere Zahlensysteme und Formate hinweg.",
+      "features": {
+        "bitEditor": "Interaktiver Bit-Editor",
+        "formats": "Mehrere Zahlenformate",
+        "bases": "Zahlenbasis-Unterstützung"
+      },
+      "learnMore": "Erfahren Sie mehr über Bit Scope →",
+      "back": "Zurück zur Startseite",
+      "comingSoon": "Demnächst verfügbar",
+      "underConstruction": "Im Aufbau",
+      "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
+      "backToHome": "Zurück zur Startseite"
+    },
     "sudokuPuzzle": {
       "title": "Sudoku Fun Go - Klassisches Sudoku",
       "subtitle": "9×9-Sudoku-Spiel",
@@ -1200,7 +1216,7 @@
   "whistleCamera": {
     "back": "Zurück zur Startseite",
     "hero": {
-      "badge": "Demnächst verfügbar",
+      "badge": "Jetzt verfügbar",
       "title": "Whistle Camera - Selfie & More",
       "subtitle": "Intelligente Kamera-App",
       "description": "Eine innovative Kamera-Anwendung, die neue Funktionen und Möglichkeiten für die mobile Fotografie bietet. Mit Pfiff-Erkennung, Inkognito-Modus und erweiterten Steuerungen erfassen Sie Ihre Momente wie nie zuvor."
@@ -1259,17 +1275,21 @@
       }
     },
     "status": {
-      "title": "🚧 In Entwicklung",
-      "description": "Die App befindet sich derzeit in der Entwicklung",
+      "title": "✅ Jetzt verfügbar",
+      "description": "Whistle Camera ist zum Download verfügbar",
       "version": "Version",
       "status": "Status",
-      "versionValue": "In Entwicklung",
-      "statusValue": "Demnächst verfügbar"
+      "versionValue": "1.0.0",
+      "statusValue": "Verfügbar"
     },
     "download": {
-      "title": "Demnächst verfügbar",
-      "description": "Whistle Camera wird bald im App Store verfügbar sein",
-      "soon": "Bald verfügbar"
+      "title": "Jetzt herunterladen",
+      "description": "Verfügbar im App Store",
+      "soon": "Jetzt verfügbar",
+      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
+      "appStoreAlt": "Im App Store herunterladen",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Bei Google Play erhältlich"
     },
     "links": {
       "title": "Wichtige Links",
@@ -1484,7 +1504,7 @@
       "version": "Version",
       "status": "Status",
       "versionValue": "1.0.0",
-      "statusValue": "Demnächst verfügbar"
+      "statusValue": "Demnächst"
     },
     "download": {
       "title": "Jetzt herunterladen",
@@ -1660,5 +1680,109 @@
     "contact": "Kontakt",
     "contactUs": "Kontaktieren Sie uns",
     "dsaCompliance": "DSA-Konformität"
+  },
+  "bitScope": {
+    "back": "Zurück zur Startseite",
+    "hero": {
+      "badge": "Demnächst",
+      "title": "Bit Scope - Bit & Number Calculator",
+      "subtitle": "Bit-Level Inspector & Converter",
+      "description": "Ein leistungsstarker Bit-Level-Inspektor und -Konverter für Entwickler, Ingenieure und Studenten. Visualisieren, manipulieren und konvertieren Sie Zahlen auf Bitebene über mehrere Zahlensysteme und Formate hinweg."
+    },
+    "features": {
+      "title": "Hauptfunktionen",
+      "bitEditor": {
+        "title": "Interaktiver Bit-Editor",
+        "description": "Visuelles Bit-Raster mit Toggle-Funktionalität für direkte Bit-Manipulation",
+        "items": [
+          "Visuelle Bit-Raster-Anzeige",
+          "Einzelne Bits umschalten",
+          "Vollbild-Bit-Editor-Modal",
+          "Echtzeit-Bit-Vorschau"
+        ]
+      },
+      "formats": {
+        "title": "Mehrere Zahlenformate",
+        "description": "Unterstützung für verschiedene Integer- und Gleitkommaformate",
+        "items": [
+          "8-Bit, 16-Bit, 32-Bit, 64-Bit Integer",
+          "Float16 (Halbgenauigkeit)",
+          "Float32 (Einfachgenauigkeit)",
+          "Float64 (Doppelgenauigkeit) mit IEEE 754"
+        ]
+      },
+      "bases": {
+        "title": "Zahlenbasis-Unterstützung",
+        "description": "Eingabe und Anzeige in mehreren Zahlenbasen",
+        "items": [
+          "Binär (BIN)",
+          "Oktal (OCT)",
+          "Dezimal (DEC)",
+          "Hexadezimal (HEX)"
+        ]
+      },
+      "bitwise": {
+        "title": "Bitweise Operationen",
+        "description": "Führen Sie bitweise Operationen mit einem zweiten Operanden durch",
+        "items": [
+          "AND-Operation",
+          "OR-Operation",
+          "XOR-Operation",
+          "NOT-Operation"
+        ]
+      },
+      "ieee754": {
+        "title": "IEEE 754 Aufschlüsselung",
+        "description": "Visuelle Darstellung von Gleitkommakomponenten",
+        "items": [
+          "Vorzeichenbit-Visualisierung",
+          "Exponent-Aufschlüsselung",
+          "Mantissen-Darstellung",
+          "IEEE 754 Standard-Konformität"
+        ]
+      },
+      "advanced": {
+        "title": "Erweiterte Optionen",
+        "description": "Umfassende Konfigurationsoptionen",
+        "items": [
+          "Vorzeichenbehaftete/Vorzeichenlose Modi",
+          "Big Endian / Little Endian",
+          "MSB / LSB Bit-Reihenfolge",
+          "Echtzeit-Konvertierung"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 In Entwicklung",
+      "description": "Die App befindet sich derzeit in der Entwicklung",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "1.0.0",
+      "statusValue": "Verfügbar"
+    },
+    "download": {
+      "title": "Demnächst",
+      "description": "Bit Scope wird bald in den App-Stores verfügbar sein",
+      "soon": "Bald verfügbar",
+      "appStoreUrl": "",
+      "appStoreAlt": "Im App Store herunterladen",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Bei Google Play herunterladen"
+    },
+    "links": {
+      "title": "Wichtige Links",
+      "support": {
+        "title": "Technischer Support",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Bei Google Play herunterladen",
+        "description": "Holen Sie sich Bit Scope aus dem Google Play Store"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Bit Scope - Alle Rechte vorbehalten",
+      "tagline": "Teil von Zuki Apps • Entwickler aus Israel • Mit ❤️ gemacht"
+    }
   }
 }

@@ -21,13 +21,13 @@ export default function SudokuPuzzlePage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Sudoku Fun Go', path: '/sudoku-puzzle' }
+          { name: t('hero.title'), path: '/sudoku-puzzle' }
         ]}
       />
       <SoftwareApplicationStructuredData
         locale={locale}
-        appName="Sudoku Fun Go"
-        appDescription="A classic 9×9 Sudoku game with four difficulty levels, notes, hints, undo, timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games support."
+        appName={t('hero.title')}
+        appDescription={t('hero.description')}
         operatingSystem="iOS,Android"
         applicationCategory="GameApplication"
         offers={{

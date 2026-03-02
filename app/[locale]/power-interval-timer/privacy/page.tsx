@@ -62,6 +62,7 @@ export default async function PowerIntervalTimerPrivacyPage({
 
   const t = await getTranslations({ locale, namespace: 'powerIntervalTimer.privacy' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tApp = await getTranslations({ locale, namespace: 'powerIntervalTimer.hero' });
 
   return (
     <>
@@ -69,7 +70,7 @@ export default async function PowerIntervalTimerPrivacyPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Power Interval Timer', path: '/power-interval-timer' },
+          { name: tApp('title'), path: '/power-interval-timer' },
           { name: tCommon('privacyPolicy'), path: '/power-interval-timer/privacy' }
         ]}
       />

@@ -89,6 +89,22 @@
       "underConstructionMessage": "نعمل بجد لجلب شيء مذهل لك. تحقق مرة أخرى قريباً!",
       "backToHome": "العودة إلى الصفحة الرئيسية"
     },
+    "bitScope": {
+      "title": "Bit Scope - حاسبة البتات والأرقام",
+      "subtitle": "مفتش ومحول على مستوى البت",
+      "description": "مفتش ومحول قوي على مستوى البت للمطورين والمهندسين والطلاب. تصور واعمل وتحول الأرقام على مستوى البت عبر أنظمة الأرقام والتنسيقات المتعددة.",
+      "features": {
+        "bitEditor": "محرر بتات تفاعلي",
+        "formats": "تنسيقات أرقام متعددة",
+        "bases": "دعم قواعد الأرقام"
+      },
+      "learnMore": "تعرف على المزيد حول Bit Scope →",
+      "back": "العودة إلى الصفحة الرئيسية",
+      "comingSoon": "قريباً",
+      "underConstruction": "قيد التطوير",
+      "underConstructionMessage": "نعمل بجد لجلب شيء مذهل لك. تحقق مرة أخرى قريباً!",
+      "backToHome": "العودة إلى الصفحة الرئيسية"
+    },
     "sudokuPuzzle": {
       "title": "Sudoku Fun Go - سودوكو كلاسيكي",
       "subtitle": "لعبة سودوكو 9×9",
@@ -1194,7 +1210,7 @@
   "whistleCamera": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "متاح الآن",
       "title": "Whistle Camera - Selfie & More",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1253,17 +1269,21 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
+      "title": "✅ متاح الآن",
+      "description": "Whistle Camera متاح للتنزيل",
       "version": "Version",
       "status": "Status",
-      "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "versionValue": "1.0.0",
+      "statusValue": "متاح"
     },
     "download": {
-      "title": "Coming Soon",
-      "description": "Whistle Camera will be available soon on the App Store",
-      "soon": "Available soon"
+      "title": "تنزيل الآن",
+      "description": "متاح على App Store",
+      "soon": "متاح الآن",
+      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
+      "appStoreAlt": "تنزيل من App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "متاح على Google Play"
     },
     "links": {
       "title": "Important Links",
@@ -1412,7 +1432,7 @@
   "powerIntervalTimer": {
     "back": "العودة إلى الصفحة الرئيسية",
     "hero": {
-      "badge": "قريباً",
+      "badge": "متاح الآن",
       "title": "Power Interval Timer - Tabata & HIIT",
       "subtitle": "مؤقت تمرين الفترات",
       "description": "مؤقت تمرين فترات بسيط وسريع يعمل بدون اتصال لـ Tabata وHIIT والتمارين القصيرة. الميزات: تمارين قابلة للتكوين، أوضاع عرض متعددة، تنبيهات صوتية ودعم البث على الشاشة."
@@ -1652,6 +1672,110 @@
     },
     "footer": {
       "copyright": "© 2025 Power Interval Timer - جميع الحقوق محفوظة",
+      "tagline": "جزء من Zuki Apps • مطور من إسرائيل • مصنوع بـ ❤️"
+    }
+  },
+  "bitScope": {
+    "back": "العودة إلى الصفحة الرئيسية",
+    "hero": {
+      "badge": "قريباً",
+      "title": "Bit Scope - حاسبة البتات والأرقام",
+      "subtitle": "مفتش ومحول على مستوى البت",
+      "description": "مفتش ومحول قوي على مستوى البت للمطورين والمهندسين والطلاب. تصور واعمل وتحول الأرقام على مستوى البت عبر أنظمة الأرقام والتنسيقات المتعددة."
+    },
+    "features": {
+      "title": "الميزات الرئيسية",
+      "bitEditor": {
+        "title": "محرر بتات تفاعلي",
+        "description": "شبكة بتات مرئية مع وظيفة التبديل للتعامل المباشر مع البتات",
+        "items": [
+          "عرض شبكة بتات مرئية",
+          "تبديل البتات الفردية",
+          "نافذة محرر بتات ملء الشاشة",
+          "معاينة بتات في الوقت الفعلي"
+        ]
+      },
+      "formats": {
+        "title": "تنسيقات أرقام متعددة",
+        "description": "دعم لتنسيقات الأعداد الصحيحة والأرقام العشرية المختلفة",
+        "items": [
+          "أعداد صحيحة 8 بت، 16 بت، 32 بت، 64 بت",
+          "Float16 (نصف الدقة)",
+          "Float32 (دقة واحدة)",
+          "Float64 (دقة مزدوجة) مع IEEE 754"
+        ]
+      },
+      "bases": {
+        "title": "دعم قواعد الأرقام",
+        "description": "الإدخال والعرض في قواعد أرقام متعددة",
+        "items": [
+          "ثنائي (BIN)",
+          "ثماني (OCT)",
+          "عشري (DEC)",
+          "سداسي عشري (HEX)"
+        ]
+      },
+      "bitwise": {
+        "title": "عمليات البتات",
+        "description": "تنفيذ عمليات البتات مع معامل ثانٍ",
+        "items": [
+          "عملية AND",
+          "عملية OR",
+          "عملية XOR",
+          "عملية NOT"
+        ]
+      },
+      "ieee754": {
+        "title": "تفكيك IEEE 754",
+        "description": "تمثيل مرئي لمكونات الأرقام العشرية",
+        "items": [
+          "تصور بت الإشارة",
+          "تفكيك الأس",
+          "تمثيل العدد الكسري",
+          "الامتثال لمعيار IEEE 754"
+        ]
+      },
+      "advanced": {
+        "title": "خيارات متقدمة",
+        "description": "خيارات تكوين شاملة",
+        "items": [
+          "أوضاع موقعة/غير موقعة",
+          "Big Endian / Little Endian",
+          "ترتيب البتات MSB / LSB",
+          "تحويل في الوقت الفعلي"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 قيد التطوير",
+      "description": "التطبيق قيد التطوير حالياً",
+      "version": "الإصدار",
+      "status": "الحالة",
+      "versionValue": "1.0.0",
+      "statusValue": "قريباً"
+    },
+    "download": {
+      "title": "قريباً",
+      "description": "سيكون Bit Scope متاحاً قريباً في متاجر التطبيقات",
+      "soon": "متاح قريباً",
+      "appStoreUrl": "",
+      "appStoreAlt": "تنزيل من App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "الحصول عليه من Google Play"
+    },
+    "links": {
+      "title": "روابط مهمة",
+      "support": {
+        "title": "الدعم الفني",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "تنزيل من Google Play",
+        "description": "احصل على Bit Scope من Google Play Store"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Bit Scope - جميع الحقوق محفوظة",
       "tagline": "جزء من Zuki Apps • مطور من إسرائيل • مصنوع بـ ❤️"
     }
   }

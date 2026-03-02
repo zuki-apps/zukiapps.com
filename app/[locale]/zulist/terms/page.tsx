@@ -8,6 +8,7 @@ import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 export default function TermsOfServicePage() {
   const t = useTranslations('zulist.terms');
   const tCommon = useTranslations('common');
+  const tApp = useTranslations('zulist.hero');
   const locale = useLocale();
 
   return (
@@ -16,7 +17,7 @@ export default function TermsOfServicePage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'ZuList', path: '/zulist' },
+          { name: tApp('title'), path: '/zulist' },
           { name: tCommon('termsOfService'), path: '/zulist/terms' }
         ]}
       />

@@ -123,7 +123,7 @@ export default async function SupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Power Interval Timer', path: '/power-interval-timer' },
+          { name: t('hero.title'), path: '/power-interval-timer' },
           { name: tCommon('support'), path: '/power-interval-timer/support' }
         ]}
       />

@@ -89,6 +89,22 @@
       "underConstructionMessage": "Мы усердно работаем, чтобы предложить вам что-то удивительное. Заходите снова скоро!",
       "backToHome": "Вернуться на главную"
     },
+    "bitScope": {
+      "title": "Bit Scope - Bit & Number Calculator",
+      "subtitle": "Инспектор и конвертер на уровне битов",
+      "description": "Мощный инспектор и конвертер на уровне битов для разработчиков, инженеров и студентов. Визуализируйте, манипулируйте и конвертируйте числа на уровне битов в различных числовых системах и форматах.",
+      "features": {
+        "bitEditor": "Интерактивный редактор битов",
+        "formats": "Множественные числовые форматы",
+        "bases": "Поддержка числовых оснований"
+      },
+      "learnMore": "Узнать больше о Bit Scope →",
+      "back": "Вернуться на главную",
+      "comingSoon": "Скоро",
+      "underConstruction": "В разработке",
+      "underConstructionMessage": "Мы усердно работаем, чтобы предложить вам что-то удивительное. Заходите снова скоро!",
+      "backToHome": "Вернуться на главную"
+    },
     "sudokuPuzzle": {
       "title": "Sudoku Fun Go - Классический судоку",
       "subtitle": "Игра судоку 9×9",
@@ -1194,7 +1210,7 @@
   "whistleCamera": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "Доступно",
       "title": "Whistle Camera - Selfie & More",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1253,17 +1269,21 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
+      "title": "✅ Доступно сейчас",
+      "description": "Whistle Camera доступен для загрузки",
       "version": "Version",
       "status": "Status",
-      "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "versionValue": "1.0.0",
+      "statusValue": "Доступно"
     },
     "download": {
-      "title": "Coming Soon",
-      "description": "Whistle Camera will be available soon on the App Store",
-      "soon": "Available soon"
+      "title": "Скачать сейчас",
+      "description": "Доступно в App Store",
+      "soon": "Доступно сейчас",
+      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
+      "appStoreAlt": "Скачать из App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Доступно в Google Play"
     },
     "links": {
       "title": "Important Links",
@@ -1412,7 +1432,7 @@
   "powerIntervalTimer": {
     "back": "Вернуться на главную",
     "hero": {
-      "badge": "Скоро",
+      "badge": "Доступно",
       "title": "Power Interval Timer - Tabata & HIIT",
       "subtitle": "Таймер интервальных тренировок",
       "description": "Минималистичный, быстрый, офлайн таймер интервальных тренировок для Tabata, HIIT и коротких тренировок. Функции: настраиваемые тренировки, несколько режимов отображения, звуковые сигналы и поддержка трансляции на экран."
@@ -1652,6 +1672,110 @@
     },
     "footer": {
       "copyright": "© 2025 Power Interval Timer - Все права защищены",
+      "tagline": "Часть Zuki Apps • Разработчик из Израиля • Сделано с ❤️"
+    }
+  },
+  "bitScope": {
+    "back": "Вернуться на главную",
+    "hero": {
+      "badge": "Скоро",
+      "title": "Bit Scope - Bit & Number Calculator",
+      "subtitle": "Инспектор и Конвертер на Уровне Битов",
+      "description": "Мощный инспектор и конвертер на уровне битов для разработчиков, инженеров и студентов. Визуализируйте, манипулируйте и конвертируйте числа на уровне битов в различных числовых системах и форматах."
+    },
+    "features": {
+      "title": "Ключевые функции",
+      "bitEditor": {
+        "title": "Интерактивный редактор битов",
+        "description": "Визуальная сетка битов с функциональностью переключения для прямой манипуляции битами",
+        "items": [
+          "Визуальное отображение сетки битов",
+          "Переключение отдельных битов",
+          "Модальное окно редактора битов на весь экран",
+          "Предпросмотр битов в реальном времени"
+        ]
+      },
+      "formats": {
+        "title": "Множественные числовые форматы",
+        "description": "Поддержка различных форматов целых чисел и чисел с плавающей точкой",
+        "items": [
+          "Целые числа 8-бит, 16-бит, 32-бит, 64-бит",
+          "Float16 (половинная точность)",
+          "Float32 (одинарная точность)",
+          "Float64 (двойная точность) с IEEE 754"
+        ]
+      },
+      "bases": {
+        "title": "Поддержка числовых оснований",
+        "description": "Ввод и отображение в нескольких числовых основаниях",
+        "items": [
+          "Двоичное (BIN)",
+          "Восьмеричное (OCT)",
+          "Десятичное (DEC)",
+          "Шестнадцатеричное (HEX)"
+        ]
+      },
+      "bitwise": {
+        "title": "Битовые операции",
+        "description": "Выполняйте битовые операции со вторым операндом",
+        "items": [
+          "Операция AND",
+          "Операция OR",
+          "Операция XOR",
+          "Операция NOT"
+        ]
+      },
+      "ieee754": {
+        "title": "Разбор IEEE 754",
+        "description": "Визуальное представление компонентов с плавающей точкой",
+        "items": [
+          "Визуализация бита знака",
+          "Разбор экспоненты",
+          "Представление мантиссы",
+          "Соответствие стандарту IEEE 754"
+        ]
+      },
+      "advanced": {
+        "title": "Расширенные опции",
+        "description": "Комплексные опции конфигурации",
+        "items": [
+          "Режимы со знаком/без знака",
+          "Big Endian / Little Endian",
+          "Порядок битов MSB / LSB",
+          "Конвертация в реальном времени"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 В разработке",
+      "description": "Приложение находится в разработке",
+      "version": "Версия",
+      "status": "Статус",
+      "versionValue": "1.0.0",
+      "statusValue": "Скоро"
+    },
+    "download": {
+      "title": "Скоро",
+      "description": "Bit Scope скоро будет доступен в магазинах приложений",
+      "soon": "Скоро доступен",
+      "appStoreUrl": "",
+      "appStoreAlt": "Скачать в App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Получить в Google Play"
+    },
+    "links": {
+      "title": "Важные ссылки",
+      "support": {
+        "title": "Техническая поддержка",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Скачать в Google Play",
+        "description": "Получите Bit Scope из Google Play Store"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Bit Scope - Все права защищены",
       "tagline": "Часть Zuki Apps • Разработчик из Израиля • Сделано с ❤️"
     }
   }

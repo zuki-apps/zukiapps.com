@@ -9,6 +9,7 @@ import { AlertTriangle } from 'lucide-react';
 export default function DeleteAccountPage() {
   const t = useTranslations('zulist.deleteAccount');
   const tCommon = useTranslations('common');
+  const tApp = useTranslations('zulist.hero');
   const locale = useLocale();
 
   return (
@@ -17,7 +18,7 @@ export default function DeleteAccountPage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'ZuList', path: '/zulist' },
+          { name: tApp('title'), path: '/zulist' },
           { name: t('title'), path: '/zulist/delete-account' }
         ]}
       />

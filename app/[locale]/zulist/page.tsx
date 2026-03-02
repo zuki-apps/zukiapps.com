@@ -21,12 +21,12 @@ export default function ZuListPage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'ZuList', path: '/zulist' }
+          { name: t('hero.title'), path: '/zulist' }
         ]}
       />
       <SoftwareApplicationStructuredData
         locale={locale}
-        appName="ZuList"
+        appName={t('hero.title')}
         appDescription={t('hero.structuredDataDescription')}
         operatingSystem="iOS,Android"
         applicationCategory="ShoppingApplication"

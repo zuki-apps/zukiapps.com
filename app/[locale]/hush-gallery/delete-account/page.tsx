@@ -8,6 +8,8 @@ import { AlertTriangle } from 'lucide-react';
 
 export default function DeleteAccountPage() {
   const t = useTranslations('hushGallery.deleteAccount');
+  const tCommon = useTranslations('common');
+  const tApp = useTranslations('hushGallery.hero');
   const locale = useLocale();
 
   return (
@@ -15,9 +17,9 @@ export default function DeleteAccountPage() {
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
-          { name: 'Home', path: '/' },
-          { name: 'Hush Gallery', path: '/hush-gallery' },
-          { name: 'Delete Account', path: '/hush-gallery/delete-account' }
+          { name: tCommon('home'), path: '/' },
+          { name: tApp('title'), path: '/hush-gallery' },
+          { name: t('title'), path: '/hush-gallery/delete-account' }
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-purple-50 to-gray-50">

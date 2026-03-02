@@ -62,6 +62,7 @@ export default async function HushGalleryPrivacyPage({
 
   const t = await getTranslations({ locale, namespace: 'hushGallery.privacy' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tApp = await getTranslations({ locale, namespace: 'hushGallery.hero' });
 
   return (
     <>
@@ -69,7 +70,7 @@ export default async function HushGalleryPrivacyPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Hush Gallery', path: '/hush-gallery' },
+          { name: tApp('title'), path: '/hush-gallery' },
           { name: tCommon('privacyPolicy'), path: '/hush-gallery/privacy' }
         ]}
       />

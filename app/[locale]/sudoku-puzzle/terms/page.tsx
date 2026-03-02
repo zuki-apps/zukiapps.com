@@ -53,6 +53,7 @@ export default async function SudokuPuzzleTermsPage({
 
   const t = await getTranslations({ locale, namespace: 'sudokuPuzzle.terms' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tApp = await getTranslations({ locale, namespace: 'sudokuPuzzle.hero' });
 
   return (
     <>
@@ -60,7 +61,7 @@ export default async function SudokuPuzzleTermsPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Sudoku Fun Go', path: '/sudoku-puzzle' },
+          { name: tApp('title'), path: '/sudoku-puzzle' },
           { name: tCommon('termsOfService'), path: '/sudoku-puzzle/terms' }
         ]}
       />

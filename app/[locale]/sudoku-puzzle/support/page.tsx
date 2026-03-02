@@ -79,7 +79,7 @@ export default async function SudokuPuzzleSupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Sudoku Fun Go', path: '/sudoku-puzzle' },
+          { name: t('hero.title'), path: '/sudoku-puzzle' },
           { name: tCommon('support'), path: '/sudoku-puzzle/support' }
         ]}
       />

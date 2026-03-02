@@ -89,6 +89,22 @@
       "underConstructionMessage": "我们正在努力为您带来令人惊叹的东西。请稍后再来查看！",
       "backToHome": "返回首页"
     },
+    "bitScope": {
+      "title": "Bit Scope - 位和数字计算器",
+      "subtitle": "位级检查器和转换器",
+      "description": "面向开发者、工程师和学生的强大位级检查器和转换器。在多个数字系统和格式中以位级别可视化、操作和转换数字。",
+      "features": {
+        "bitEditor": "交互式位编辑器",
+        "formats": "多种数字格式",
+        "bases": "数字基数支持"
+      },
+      "learnMore": "了解更多关于 Bit Scope →",
+      "back": "返回首页",
+      "comingSoon": "即将推出",
+      "underConstruction": "开发中",
+      "underConstructionMessage": "我们正在努力为您带来令人惊叹的东西。请稍后再来查看！",
+      "backToHome": "返回首页"
+    },
     "sudokuPuzzle": {
       "title": "Sudoku Fun Go - 经典数独",
       "subtitle": "9×9 数独游戏",
@@ -1194,7 +1210,7 @@
   "whistleCamera": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "现已推出",
       "title": "Whistle Camera - Selfie & More",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1253,17 +1269,21 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
+      "title": "✅ 现已推出",
+      "description": "Whistle Camera 可供下载",
       "version": "Version",
       "status": "Status",
-      "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "versionValue": "1.0.0",
+      "statusValue": "现已推出"
     },
     "download": {
-      "title": "Coming Soon",
-      "description": "Whistle Camera will be available soon on the App Store",
-      "soon": "Available soon"
+      "title": "立即下载",
+      "description": "可在 App Store 下载",
+      "soon": "现已推出",
+      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
+      "appStoreAlt": "从 App Store 下载",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "可在 Google Play 下载"
     },
     "links": {
       "title": "Important Links",
@@ -1412,7 +1432,7 @@
   "powerIntervalTimer": {
     "back": "返回首页",
     "hero": {
-      "badge": "即将推出",
+      "badge": "现已推出",
       "title": "Power Interval Timer - Tabata & HIIT",
       "subtitle": "间隔训练计时器",
       "description": "适用于Tabata、HIIT和短时间训练的最小化、快速、离线间隔训练计时器。功能：可配置的训练、多种显示模式、声音提醒和屏幕投射支持。"
@@ -1653,6 +1673,110 @@
     "footer": {
       "copyright": "© 2025 Power Interval Timer - 保留所有权利",
       "tagline": "Zuki Apps的一部分 • 来自以色列的开发者 • 用 ❤️ 制作"
+    }
+  },
+  "bitScope": {
+    "back": "返回首页",
+    "hero": {
+      "badge": "即将推出",
+      "title": "Bit Scope - 位和数字计算器",
+      "subtitle": "位级检查器和转换器",
+      "description": "面向开发者、工程师和学生的强大位级检查器和转换器。在多个数字系统和格式中以位级别可视化、操作和转换数字。"
+    },
+    "features": {
+      "title": "主要功能",
+      "bitEditor": {
+        "title": "交互式位编辑器",
+        "description": "具有切换功能的可视化位网格，用于直接位操作",
+        "items": [
+          "可视化位网格显示",
+          "切换单个位",
+          "全屏位编辑器模态",
+          "实时位预览"
+        ]
+      },
+      "formats": {
+        "title": "多种数字格式",
+        "description": "支持各种整数和浮点格式",
+        "items": [
+          "8位、16位、32位、64位整数",
+          "Float16（半精度）",
+          "Float32（单精度）",
+          "Float64（双精度）符合 IEEE 754"
+        ]
+      },
+      "bases": {
+        "title": "数字基数支持",
+        "description": "多种数字基数的输入和显示",
+        "items": [
+          "二进制 (BIN)",
+          "八进制 (OCT)",
+          "十进制 (DEC)",
+          "十六进制 (HEX)"
+        ]
+      },
+      "bitwise": {
+        "title": "位运算",
+        "description": "使用第二个操作数执行位运算",
+        "items": [
+          "AND 运算",
+          "OR 运算",
+          "XOR 运算",
+          "NOT 运算"
+        ]
+      },
+      "ieee754": {
+        "title": "IEEE 754 分解",
+        "description": "浮点组件的可视化表示",
+        "items": [
+          "符号位可视化",
+          "指数分解",
+          "尾数表示",
+          "IEEE 754 标准合规性"
+        ]
+      },
+      "advanced": {
+        "title": "高级选项",
+        "description": "全面的配置选项",
+        "items": [
+          "有符号/无符号模式",
+          "大端序 / 小端序",
+          "MSB / LSB 位顺序",
+          "实时转换"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 开发中",
+      "description": "应用程序目前正在开发中",
+      "version": "版本",
+      "status": "状态",
+      "versionValue": "1.0.0",
+      "statusValue": "即将推出"
+    },
+    "download": {
+      "title": "即将推出",
+      "description": "Bit Scope 即将在应用商店推出",
+      "soon": "即将推出",
+      "appStoreUrl": "",
+      "appStoreAlt": "在 App Store 下载",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "在 Google Play 获取"
+    },
+    "links": {
+      "title": "重要链接",
+      "support": {
+        "title": "技术支持",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "在 Google Play 下载",
+        "description": "从 Google Play Store 获取 Bit Scope"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Bit Scope - 保留所有权利",
+      "tagline": "Zuki Apps 的一部分 • 来自以色列的开发者 • 用 ❤️ 制作"
     }
   }
 }

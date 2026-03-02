@@ -61,6 +61,7 @@ export default async function WhistleCameraTermsPage({
 
   const t = await getTranslations({ locale, namespace: 'whistleCamera.terms' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tApp = await getTranslations({ locale, namespace: 'whistleCamera.hero' });
 
   return (
     <>
@@ -68,7 +69,7 @@ export default async function WhistleCameraTermsPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Whistle Camera', path: '/whistle-camera' },
+          { name: tApp('title'), path: '/whistle-camera' },
           { name: tCommon('termsOfService'), path: '/whistle-camera/terms' }
         ]}
       />

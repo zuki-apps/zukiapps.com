@@ -61,6 +61,7 @@ export default async function HushGalleryTermsPage({
 
   const t = await getTranslations({ locale, namespace: 'hushGallery.terms' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tApp = await getTranslations({ locale, namespace: 'hushGallery.hero' });
 
   return (
     <>
@@ -68,7 +69,7 @@ export default async function HushGalleryTermsPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Hush Gallery', path: '/hush-gallery' },
+          { name: tApp('title'), path: '/hush-gallery' },
           { name: tCommon('termsOfService'), path: '/hush-gallery/terms' }
         ]}
       />

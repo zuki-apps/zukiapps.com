@@ -9,6 +9,7 @@ import { Info } from 'lucide-react';
 export default function DeleteDataPage() {
   const t = useTranslations('zulist.deleteData');
   const tCommon = useTranslations('common');
+  const tApp = useTranslations('zulist.hero');
   const locale = useLocale();
 
   return (
@@ -17,7 +18,7 @@ export default function DeleteDataPage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'ZuList', path: '/zulist' },
+          { name: tApp('title'), path: '/zulist' },
           { name: t('title'), path: '/zulist/delete-data' }
         ]}
       />

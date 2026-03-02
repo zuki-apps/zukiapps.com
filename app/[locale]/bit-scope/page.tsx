@@ -21,13 +21,13 @@ export default function BitScopePage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Bit Scope', path: '/bit-scope' }
+          { name: t('hero.title'), path: '/bit-scope' }
         ]}
       />
       <SoftwareApplicationStructuredData
         locale={locale}
-        appName="Bit Scope"
-        appDescription="A powerful bit-level inspector and converter for developers, engineers, and students. Visualize, manipulate, and convert numbers at the bit level across multiple number systems and formats."
+        appName={t('hero.title')}
+        appDescription={t('hero.description')}
         operatingSystem="iOS,Android"
         applicationCategory="UtilityApplication"
         offers={{

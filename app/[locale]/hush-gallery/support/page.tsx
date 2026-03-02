@@ -123,7 +123,7 @@ export default async function SupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Hush Gallery', path: '/hush-gallery' },
+          { name: t('hero.title'), path: '/hush-gallery' },
           { name: tCommon('support'), path: '/hush-gallery/support' }
         ]}
       />

@@ -53,13 +53,15 @@ export default async function WhistleCameraPrivacyPage({
   const t = await getTranslations({ locale, namespace: 'whistleCamera.privacy' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
+  const tApp = await getTranslations({ locale, namespace: 'whistleCamera.hero' });
+
   return (
     <>
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Whistle Camera', path: '/whistle-camera' },
+          { name: tApp('title'), path: '/whistle-camera' },
           { name: tCommon('privacyPolicy'), path: '/whistle-camera/privacy' }
         ]}
       />

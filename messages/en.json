@@ -47,7 +47,7 @@
     },
     "whistleCamera": {
       "title": "Whistle Camera - Selfie & More",
-      "subtitle": "Smart camera app - Coming soon",
+      "subtitle": "Smart camera app",
       "description": "Whistle Camera is an innovative camera application that brings new features and capabilities to mobile photography. With advanced editing tools and smart filters, capture and enhance your moments like never before.",
       "features": {
         "smart": "Smart Features",
@@ -1293,7 +1293,7 @@
   "whistleCamera": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "Available Now",
       "title": "Whistle Camera - Selfie & More",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
@@ -1352,17 +1352,21 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
+      "title": "✅ Available Now",
+      "description": "Whistle Camera is available for download",
       "version": "Version",
       "status": "Status",
-      "versionValue": "In Development",
-      "statusValue": "Coming Soon"
+      "versionValue": "1.0.0",
+      "statusValue": "Available"
     },
     "download": {
-      "title": "Coming Soon",
-      "description": "Whistle Camera will be available soon on the App Store",
-      "soon": "Available soon"
+      "title": "Download Now",
+      "description": "Available on the App Store",
+      "soon": "Available now",
+      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
+      "appStoreAlt": "Download from App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Get it on Google Play"
     },
     "links": {
       "title": "Important Links",
@@ -1696,7 +1700,7 @@
       "badge": "Available Now",
       "title": "Power Interval Timer - Tabata & HIIT",
       "subtitle": "Interval Workout Timer",
-      "description": "A minimal, fast, offline interval workout timer for Tabata, HIIT, and short workouts. Features configurable workouts, multiple display modes, sound alerts, and screen casting support."
+      "description": "A minimal, fast, offline interval workout timer for Tabata, HIIT, and short workouts. Features configurable workouts, 10 display modes (3 free + 7 premium), tap-to-start/pause, sound alerts, screen casting, and native TV support."
     },
     "features": {
       "title": "Key Features",
@@ -1707,21 +1711,27 @@
           "Work duration (seconds)",
           "Rest duration (seconds)",
           "Number of rounds",
-          "Prepare time with race-start beeps",
-          "Cooldown period"
+          "Prepare time with race-start beeps (last 4 seconds)",
+          "Cooldown period",
+          "Tap anywhere on screen to start/pause",
+          "Swipe-to-edit/delete timer cards",
+          "Drag-to-reorder timer list"
         ]
       },
       "display": {
-        "title": "Multiple Display Modes",
-        "description": "Choose from 7 different timer display styles",
+        "title": "10 Display Modes",
+        "description": "Choose from 10 different timer display styles (3 free + 7 premium)",
         "items": [
-          "Circular progress timer",
-          "Digital countdown",
-          "Linear progress bar",
-          "Minimal clean design",
-          "Analog clock style",
-          "Dual timer display",
-          "Chronograph watch style"
+          "Circular (Free) - Segmented circular progress with interval indicators",
+          "Digital (Free) - Large digital time display",
+          "Linear (Free) - Horizontal progress bar",
+          "Minimal (Premium) - Clean minimal design",
+          "Analog (Premium) - Analog clock-style display",
+          "Dual (Premium) - Small interval + large main timer",
+          "Chronograph (Premium) - Watch-style with interval count inside",
+          "Segmented Circular (Premium) - Circular ring with visible segments",
+          "Minimalist (Premium) - Enhanced minimal with larger text",
+          "Nested Circular (Premium) - Outer circle for seconds, inner for intervals"
         ]
       },
       "offline": {
@@ -1758,11 +1768,33 @@
         "title": "Customization",
         "description": "Personalize your timer experience",
         "items": [
-          "Custom timer images",
-          "Color themes",
-          "Font sizes",
-          "Sound selection",
-          "Dark/Light/System themes"
+          "Custom timer images (from gallery or default)",
+          "Color themes and gradients",
+          "Font sizes and styles",
+          "Multiple sound selection (including 'none' option)",
+          "Dark/Light/System theme modes",
+          "Timer images displayed on timer screen",
+          "RTL support (Hebrew & English)"
+        ]
+      },
+      "premium": {
+        "title": "Freemium Model",
+        "description": "Free version with optional Premium upgrade ($2.99 one-time)",
+        "items": [
+          "Free: Up to 2 saved timers, 3 basic display modes, banner ads",
+          "Premium: Unlimited timers, all 10 display modes, no ads",
+          "One-time purchase - no subscriptions",
+          "Restore purchases across devices"
+        ]
+      },
+      "watch": {
+        "title": "Apple Watch Integration",
+        "description": "Basic companion support for Apple Watch",
+        "items": [
+          "Show current phase and countdown",
+          "Display round number",
+          "Companion app functionality",
+          "Disabled on TV devices"
         ]
       }
     },
@@ -1771,7 +1803,7 @@
       "description": "Power Interval Timer is available for download",
       "version": "Version",
       "status": "Status",
-      "versionValue": "1.0.0",
+      "versionValue": "1.0.1",
       "statusValue": "Available"
     },
     "download": {
@@ -1829,11 +1861,19 @@
         },
         "q4": {
           "question": "What display modes are available?",
-          "answer": "Power Interval Timer offers 7 different display modes: circular progress timer, digital countdown, linear progress bar, minimal clean design, analog clock style, dual timer display, and chronograph watch style. You can switch between modes in the settings or during a workout."
+          "answer": "Power Interval Timer offers 10 different display modes. Free users get 3 basic modes: Circular, Digital, and Linear. Premium users ($2.99 one-time) unlock all 10 modes including Minimal, Analog, Dual, Chronograph, Segmented Circular, Minimalist, and Nested Circular. You can switch between modes in the settings or during workout setup."
         },
-        "q5": {
-          "question": "How do I customize the timer appearance?",
-          "answer": "Go to Settings → Customization. You can customize timer images, color themes, font sizes, sound selection, and choose between Dark, Light, or System theme. Changes will be applied immediately to your timer display."
+        "q7": {
+          "question": "What is the Premium upgrade?",
+          "answer": "Premium is a one-time $2.99 purchase that unlocks unlimited saved timers, all 10 display modes, and removes banner ads. The purchase is permanent and can be restored across devices using the same account."
+        },
+        "q8": {
+          "question": "How do I tap to start/pause the timer?",
+          "answer": "Simply tap anywhere on the timer screen to start or pause your workout. This intuitive gesture control makes it easy to control your timer without looking for buttons, especially useful during intense workouts."
+        },
+        "q9": {
+          "question": "Does Power Interval Timer support Apple Watch?",
+          "answer": "Yes! Power Interval Timer includes basic Apple Watch companion support. The watch app shows the current phase, countdown, and round number. Note that watch connectivity is disabled on TV devices."
         },
         "q6": {
           "question": "Does Power Interval Timer work on Apple TV and Android TV?",
@@ -2018,6 +2058,8 @@
       "title": "Coming Soon",
       "description": "Bit Scope will be available soon on app stores",
       "soon": "Available soon",
+      "appStoreUrl": "",
+      "appStoreAlt": "Download on the App Store",
       "googlePlayUrl": "",
       "googlePlayAlt": "Get it on Google Play"
     },

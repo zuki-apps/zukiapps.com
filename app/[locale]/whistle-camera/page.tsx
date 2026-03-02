@@ -21,13 +21,13 @@ export default function WhistleCameraPage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Whistle Camera', path: '/whistle-camera' }
+          { name: t('hero.title'), path: '/whistle-camera' }
         ]}
       />
       <SoftwareApplicationStructuredData
         locale={locale}
-        appName="Whistle Camera"
-        appDescription="An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
+        appName={t('hero.title')}
+        appDescription={t('hero.description')}
         operatingSystem="iOS"
         applicationCategory="PhotographyApplication"
         offers={{

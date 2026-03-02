@@ -21,13 +21,13 @@ export default function HushGalleryPage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Hush Gallery', path: '/hush-gallery' }
+          { name: t('hero.title'), path: '/hush-gallery' }
         ]}
       />
       <SoftwareApplicationStructuredData
         locale={locale}
-        appName="Hush Gallery"
-        appDescription="A secure and private photo gallery application that allows you to keep your personal photos safe and organized. With advanced privacy features, local-first storage, optional encrypted cloud backup, and intuitive design."
+        appName={t('hero.title')}
+        appDescription={t('hero.description')}
         operatingSystem="iOS,Android"
         applicationCategory="PhotoApplication"
         offers={{

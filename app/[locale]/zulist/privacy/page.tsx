@@ -52,6 +52,7 @@ export default async function PrivacyPolicyPage({
 
   const t = await getTranslations({ locale, namespace: 'zulist.privacy' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tApp = await getTranslations({ locale, namespace: 'zulist.hero' });
 
   return (
     <>
@@ -59,7 +60,7 @@ export default async function PrivacyPolicyPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'ZuList', path: '/zulist' },
+          { name: tApp('title'), path: '/zulist' },
           { name: tCommon('privacyPolicy'), path: '/zulist/privacy' }
         ]}
       />

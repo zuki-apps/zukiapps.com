@@ -89,6 +89,22 @@
       "underConstructionMessage": "素晴らしいものをお届けするために一生懸命取り組んでいます。また後で確認してください！",
       "backToHome": "ホームに戻る"
     },
+    "bitScope": {
+      "title": "Bit Scope - ビット＆数値計算機",
+      "subtitle": "ビットレベルインスペクターとコンバーター",
+      "description": "開発者、エンジニア、学生向けの強力なビットレベルインスペクターとコンバーター。複数の数値システムとフォーマットでビットレベルで数値を可視化、操作、変換します。",
+      "features": {
+        "bitEditor": "インタラクティブビットエディター",
+        "formats": "複数の数値フォーマット",
+        "bases": "数値基数サポート"
+      },
+      "learnMore": "Bit Scopeについて詳しく見る →",
+      "back": "ホームに戻る",
+      "comingSoon": "近日公開",
+      "underConstruction": "開発中",
+      "underConstructionMessage": "素晴らしいものをお届けするために一生懸命取り組んでいます。また後で確認してください！",
+      "backToHome": "ホームに戻る"
+    },
     "sudokuPuzzle": {
       "title": "Sudoku Fun Go - クラシック数独",
       "subtitle": "9×9数独ゲーム",
@@ -1200,7 +1216,7 @@
   "whistleCamera": {
     "back": "ホームに戻る",
     "hero": {
-      "badge": "近日公開",
+      "badge": "利用可能",
       "title": "Whistle Camera - Selfie & More",
       "subtitle": "スマートカメラアプリ",
       "description": "モバイル写真に新機能と機能をもたらす革新的なカメラアプリケーション。ホイッスル検出、シークレットモード、高度なコントロールにより、これまでにない方法で瞬間をキャプチャします。"
@@ -1259,17 +1275,21 @@
       }
     },
     "status": {
-      "title": "🚧 開発中",
-      "description": "アプリは現在開発中です",
+      "title": "✅ 利用可能",
+      "description": "Whistle Camera はダウンロード可能です",
       "version": "バージョン",
       "status": "ステータス",
-      "versionValue": "開発中",
-      "statusValue": "近日公開"
+      "versionValue": "1.0.0",
+      "statusValue": "利用可能"
     },
     "download": {
-      "title": "近日公開",
-      "description": "Whistle CameraはまもなくApp Storeで利用可能になります",
-      "soon": "まもなく利用可能"
+      "title": "今すぐダウンロード",
+      "description": "App Store で利用可能",
+      "soon": "利用可能",
+      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
+      "appStoreAlt": "App Store からダウンロード",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Google Play で利用可能"
     },
     "links": {
       "title": "重要なリンク",
@@ -1418,7 +1438,7 @@
   "powerIntervalTimer": {
     "back": "ホームに戻る",
     "hero": {
-      "badge": "近日公開",
+      "badge": "利用可能",
       "title": "Power Interval Timer - Tabata & HIIT",
       "subtitle": "インターバルトレーニングタイマー",
       "description": "Tabata、HIIT、短いトレーニング用の最小限で高速なオフラインインターバルトレーニングタイマー。機能：設定可能なトレーニング、複数の表示モード、音声アラート、画面キャストサポート。"
@@ -1658,6 +1678,110 @@
     },
     "footer": {
       "copyright": "© 2025 Power Interval Timer - 全著作権所有",
+      "tagline": "Zuki Appsの一部 • イスラエルの開発者 • ❤️で作成"
+    }
+  },
+  "bitScope": {
+    "back": "ホームに戻る",
+    "hero": {
+      "badge": "近日公開",
+      "title": "Bit Scope - ビット＆数値計算機",
+      "subtitle": "ビットレベルインスペクターとコンバーター",
+      "description": "開発者、エンジニア、学生向けの強力なビットレベルインスペクターとコンバーター。複数の数値システムとフォーマットでビットレベルで数値を可視化、操作、変換します。"
+    },
+    "features": {
+      "title": "主な機能",
+      "bitEditor": {
+        "title": "インタラクティブビットエディター",
+        "description": "直接ビット操作のためのトグル機能付きビジュアルビットグリッド",
+        "items": [
+          "ビジュアルビットグリッド表示",
+          "個別ビットの切り替え",
+          "フルスクリーンビットエディターモーダル",
+          "リアルタイムビットプレビュー"
+        ]
+      },
+      "formats": {
+        "title": "複数の数値フォーマット",
+        "description": "様々な整数および浮動小数点フォーマットのサポート",
+        "items": [
+          "8ビット、16ビット、32ビット、64ビット整数",
+          "Float16（半精度）",
+          "Float32（単精度）",
+          "Float64（倍精度）IEEE 754準拠"
+        ]
+      },
+      "bases": {
+        "title": "数値基数サポート",
+        "description": "複数の数値基数での入力と表示",
+        "items": [
+          "2進数 (BIN)",
+          "8進数 (OCT)",
+          "10進数 (DEC)",
+          "16進数 (HEX)"
+        ]
+      },
+      "bitwise": {
+        "title": "ビット演算",
+        "description": "2番目のオペランドでビット演算を実行",
+        "items": [
+          "AND演算",
+          "OR演算",
+          "XOR演算",
+          "NOT演算"
+        ]
+      },
+      "ieee754": {
+        "title": "IEEE 754分解",
+        "description": "浮動小数点コンポーネントの視覚的表現",
+        "items": [
+          "符号ビットの可視化",
+          "指数の分解",
+          "仮数の表現",
+          "IEEE 754標準準拠"
+        ]
+      },
+      "advanced": {
+        "title": "高度なオプション",
+        "description": "包括的な設定オプション",
+        "items": [
+          "符号付き/符号なしモード",
+          "ビッグエンディアン / リトルエンディアン",
+          "MSB / LSBビット順序",
+          "リアルタイム変換"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 開発中",
+      "description": "アプリは現在開発中です",
+      "version": "バージョン",
+      "status": "ステータス",
+      "versionValue": "1.0.0",
+      "statusValue": "近日公開"
+    },
+    "download": {
+      "title": "近日公開",
+      "description": "Bit Scopeはまもなくアプリストアで利用可能になります",
+      "soon": "まもなく利用可能",
+      "appStoreUrl": "",
+      "appStoreAlt": "App Storeでダウンロード",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Google Playで入手"
+    },
+    "links": {
+      "title": "重要なリンク",
+      "support": {
+        "title": "技術サポート",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Google Playでダウンロード",
+        "description": "Google Play StoreからBit Scopeを入手"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Bit Scope - 全著作権所有",
       "tagline": "Zuki Appsの一部 • イスラエルの開発者 • ❤️で作成"
     }
   }

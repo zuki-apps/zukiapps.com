@@ -121,7 +121,7 @@ export default async function SupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: 'Bit Scope', path: '/bit-scope' },
+          { name: t('hero.title'), path: '/bit-scope' },
           { name: tCommon('support'), path: '/bit-scope/support' }
         ]}
       />
