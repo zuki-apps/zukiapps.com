@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { Mail, Sparkles, Code, Heart } from 'lucide-react';
+import { Mail, Sparkles, Code, Heart, Instagram, Facebook } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppsCarousel from '@/components/AppsCarousel';
@@ -181,47 +181,25 @@ export default function Home() {
 
           {/* Social Media Section */}
           <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90 mt-12">
-            <h2 className="text-3xl font-black mb-6 text-white text-center">Social Media</h2>
+            <h2 className="text-3xl font-black mb-6 text-white text-center">{t('social.title')}</h2>
             <div className="flex justify-center gap-6 items-center">
               <a
                 href="https://instagram.com/zuki.apps"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block hover:opacity-80 transition-opacity"
-                aria-label="Instagram"
+                className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 transition-all hover:scale-110 shadow-lg hover:shadow-xl"
+                aria-label={t('social.instagram')}
               >
-                <Image
-                  src="/images/instagram-logo.svg"
-                  alt="Instagram"
-                  width={40}
-                  height={40}
-                  className="h-auto"
-                  unoptimized
-                  onError={(e) => {
-                    // Fallback to official Instagram brand asset if local file doesn't exist
-                    (e.target as HTMLImageElement).src = 'https://static.cdninstagram.com/rsrc.php/v3/yS/r/ajlEU-wEDyo.png';
-                  }}
-                />
+                <Instagram className="w-7 h-7 text-white" />
               </a>
               <a
                 href="https://facebook.com/zuki.apps"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block hover:opacity-80 transition-opacity"
-                aria-label="Facebook"
+                className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 transition-all hover:scale-110 shadow-lg hover:shadow-xl"
+                aria-label={t('social.facebook')}
               >
-                <Image
-                  src="/images/facebook-logo.svg"
-                  alt="Facebook"
-                  width={40}
-                  height={40}
-                  className="h-auto"
-                  unoptimized
-                  onError={(e) => {
-                    // Fallback to official Facebook brand asset if local file doesn't exist
-                    (e.target as HTMLImageElement).src = 'https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png';
-                  }}
-                />
+                <Facebook className="w-7 h-7 text-white" />
               </a>
             </div>
           </div>
