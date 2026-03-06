@@ -38,6 +38,7 @@ export default function SudokuPuzzlePage() {
           ratingValue: 0,
           ratingCount: 0,
         }}
+        appStoreUrl="https://apps.apple.com/us/app/sudoku-fun-go/id6759739806"
       />
       <div className="min-h-screen bg-black relative overflow-hidden">
         {/* Background */}

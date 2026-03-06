@@ -42,6 +42,8 @@ export default function SoftwareApplicationStructuredData({
     appPath = '/whistle-camera';
   } else if (appName.includes('Power Interval Timer')) {
     appPath = '/power-interval-timer';
+  } else if (appName.includes('Sudoku Fun Go')) {
+    appPath = '/sudoku-puzzle';
   }
   
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'

@@ -1500,7 +1500,7 @@
   "sudokuPuzzle": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming Soon",
+      "badge": "Available on App Store",
       "title": "Sudoku Fun Go - Classic Sudoku",
       "subtitle": "9×9 Sudoku Puzzle Game",
       "description": "A classic 9×9 Sudoku game built with Flutter for iOS and Android. Four difficulty levels (Easy, Medium, Hard, Expert), optional notes and hints, undo/erase, running timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games leaderboards and achievements."
@@ -1562,17 +1562,21 @@
       }
     },
     "status": {
-      "title": "🚧 In Development",
-      "description": "The app is currently in development",
+      "title": "Available",
+      "description": "Sudoku Fun Go is available on the App Store.",
       "version": "Version",
       "status": "Status",
       "versionValue": "1.0.0",
-      "statusValue": "Coming Soon"
+      "statusValue": "Available"
     },
     "download": {
-      "title": "Coming Soon",
-      "description": "Sudoku Fun Go will be available soon on App Store and Google Play",
-      "soon": "Available soon"
+      "title": "Download",
+      "description": "Available on App Store. Google Play coming soon.",
+      "soon": "Available soon",
+      "appStoreUrl": "https://apps.apple.com/us/app/sudoku-fun-go/id6759739806",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Get it on Google Play"
     },
     "links": {
       "title": "Important Links",
