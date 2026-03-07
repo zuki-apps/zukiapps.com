@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, Grid3X3, Binary } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, Grid3X3, Binary, Music } from 'lucide-react';
 
 interface AppInfo {
   id: string;
@@ -65,6 +65,13 @@ export default function AppsGrid() {
       iconImage: '/images/sudoku-puzzle-icon.png',
       titleKey: 'sudokuPuzzle.title',
       link: `/${locale}/sudoku-puzzle`,
+    },
+    {
+      id: 'tempoLabPro',
+      icon: <Music className="w-12 h-12 text-violet-400" aria-hidden="true" />,
+      iconImage: '/images/tempo-lab-pro-icon.png',
+      titleKey: 'tempoLabPro.title',
+      link: `/${locale}/tempoLabPro`,
     },
   ];
 

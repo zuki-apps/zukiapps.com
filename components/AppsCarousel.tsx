@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary, Music } from 'lucide-react';
 
 interface AppData {
   id: string;
@@ -116,6 +116,19 @@ export default function AppsCarousel() {
       featuresKey: 'sudokuPuzzle.features',
       learnMoreKey: 'sudokuPuzzle.learnMore',
       link: `/${locale}/sudoku-puzzle`,
+      isComingSoon: true,
+      showFeatures: true,
+    },
+    {
+      id: 'tempoLabPro',
+      icon: <Music className="w-16 h-16 text-violet-400" aria-hidden="true" />,
+      iconImage: '/images/tempo-lab-pro-icon.png',
+      titleKey: 'tempoLabPro.title',
+      subtitleKey: 'tempoLabPro.subtitle',
+      descriptionKey: 'tempoLabPro.description',
+      featuresKey: 'tempoLabPro.features',
+      learnMoreKey: 'tempoLabPro.learnMore',
+      link: `/${locale}/tempoLabPro`,
       isComingSoon: true,
       showFeatures: true,
     },
@@ -355,6 +368,22 @@ export default function AppsCarousel() {
                     </div>
                   </div>
                 )}
+                {app.showFeatures && app.id === 'tempoLabPro' && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.tempoPitch')}>
+                      <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('tempoLabPro.features.tempoPitch')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.tapTempo')}>
+                      <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('tempoLabPro.features.tapTempo')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.export')}>
+                      <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('tempoLabPro.features.export')}</p>
+                    </div>
+                  </div>
+                )}
                 
                 {!app.showFeatures && !app.isComingSoon && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -386,7 +415,7 @@ export default function AppsCarousel() {
                 ) : (
                   <div className="text-center">
                     <Link
-                      href={app.id === 'hush-gallery' ? `/${locale}/hush-gallery` : `/${locale}/whistle-camera`}
+                      href={app.link || `/${locale}/${app.id}`}
                       className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-black text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
                       aria-label={`${t(app.learnMoreKey)} - ${t(app.titleKey)}`}
                     >

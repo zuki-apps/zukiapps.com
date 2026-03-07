@@ -44,6 +44,8 @@ export default function SoftwareApplicationStructuredData({
     appPath = '/power-interval-timer';
   } else if (appName.includes('Sudoku Fun Go')) {
     appPath = '/sudoku-puzzle';
+  } else if (appName.includes('TempoLab Pro')) {
+    appPath = '/tempoLabPro';
   }
   
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
