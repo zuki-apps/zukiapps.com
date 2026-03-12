@@ -48,17 +48,20 @@ export async function generateMetadata({
       'premium shopping list app'
     ],
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/zulist` 
+      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
+        ? `${baseUrl}/zulist`
         : `${baseUrl}/${locale}/zulist`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/zulist`
-            : `${baseUrl}/${loc}/zulist`
-        ])
-      )
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((loc) => [
+            loc,
+            loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
+              ? `${baseUrl}/zulist`
+              : `${baseUrl}/${loc}/zulist`,
+          ])
+        ),
+        'x-default': `${baseUrl}/zulist`,
+      },
     },
     openGraph: {
       type: 'website',

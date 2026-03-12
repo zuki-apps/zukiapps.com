@@ -24,18 +24,21 @@ export async function generateMetadata({
     description: 'Privacy Policy for ZuList - Smart shopping list application. Learn how we collect, use, and protect your data.',
     robots: 'index, follow',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/zulist/privacy` 
+      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
+        ? `${baseUrl}/zulist/privacy`
         : `${baseUrl}/${locale}/zulist/privacy`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? `${baseUrl}/zulist/privacy` 
-            : `${baseUrl}/${loc}/zulist/privacy`
-        ])
-      )
-    }
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((loc) => [
+            loc,
+            loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
+              ? `${baseUrl}/zulist/privacy`
+              : `${baseUrl}/${loc}/zulist/privacy`,
+          ])
+        ),
+        'x-default': `${baseUrl}/zulist/privacy`,
+      },
+    },
   };
 }
 

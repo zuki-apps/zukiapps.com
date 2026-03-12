@@ -34,17 +34,20 @@ export async function generateMetadata({
       'ZuList account management'
     ],
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/zulist/delete-account` 
+      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
+        ? `${baseUrl}/zulist/delete-account`
         : `${baseUrl}/${locale}/zulist/delete-account`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/zulist/delete-account`
-            : `${baseUrl}/${loc}/zulist/delete-account`
-        ])
-      )
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((loc) => [
+            loc,
+            loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
+              ? `${baseUrl}/zulist/delete-account`
+              : `${baseUrl}/${loc}/zulist/delete-account`,
+          ])
+        ),
+        'x-default': `${baseUrl}/zulist/delete-account`,
+      },
     },
     openGraph: {
       type: 'website',

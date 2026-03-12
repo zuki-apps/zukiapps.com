@@ -26,18 +26,21 @@ export async function generateMetadata({
     description: 'Get help and support for ZuList. Find answers to common questions, contact information, and helpful resources.',
     robots: 'index, follow',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/zulist/support` 
+      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
+        ? `${baseUrl}/zulist/support`
         : `${baseUrl}/${locale}/zulist/support`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? `${baseUrl}/zulist/support` 
-            : `${baseUrl}/${loc}/zulist/support`
-        ])
-      )
-    }
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((loc) => [
+            loc,
+            loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
+              ? `${baseUrl}/zulist/support`
+              : `${baseUrl}/${loc}/zulist/support`,
+          ])
+        ),
+        'x-default': `${baseUrl}/zulist/support`,
+      },
+    },
   };
 }
 

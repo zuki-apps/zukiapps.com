@@ -35,17 +35,20 @@ export async function generateMetadata({
       'GDPR data deletion'
     ],
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/zulist/delete-data` 
+      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
+        ? `${baseUrl}/zulist/delete-data`
         : `${baseUrl}/${locale}/zulist/delete-data`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/zulist/delete-data`
-            : `${baseUrl}/${loc}/zulist/delete-data`
-        ])
-      )
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((loc) => [
+            loc,
+            loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
+              ? `${baseUrl}/zulist/delete-data`
+              : `${baseUrl}/${loc}/zulist/delete-data`,
+          ])
+        ),
+        'x-default': `${baseUrl}/zulist/delete-data`,
+      },
     },
     openGraph: {
       type: 'website',

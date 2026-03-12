@@ -33,17 +33,20 @@ export async function generateMetadata({
       'user agreement'
     ],
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/zulist/terms` 
+      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
+        ? `${baseUrl}/zulist/terms`
         : `${baseUrl}/${locale}/zulist/terms`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/zulist/terms`
-            : `${baseUrl}/${loc}/zulist/terms`
-        ])
-      )
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((loc) => [
+            loc,
+            loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
+              ? `${baseUrl}/zulist/terms`
+              : `${baseUrl}/${loc}/zulist/terms`,
+          ])
+        ),
+        'x-default': `${baseUrl}/zulist/terms`,
+      },
     },
     openGraph: {
       type: 'website',
