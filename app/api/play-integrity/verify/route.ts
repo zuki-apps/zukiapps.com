@@ -60,7 +60,7 @@ export async function POST(request: NextRequest) {
       console.error('GOOGLE_CLOUD_PROJECT_ID environment variable is not set');
       return NextResponse.json(
         { valid: false, error: 'Server configuration error' },
-        { status: 500 }
+        { status: 503 }
       );
     }
 
@@ -78,7 +78,7 @@ export async function POST(request: NextRequest) {
       console.error('Failed to get access token for Play Integrity API');
       return NextResponse.json(
         { valid: false, error: 'Authentication error' },
-        { status: 500 }
+        { status: 503 }
       );
     }
 
@@ -157,7 +157,7 @@ export async function POST(request: NextRequest) {
     console.error('Error verifying Play Integrity token:', error);
     return NextResponse.json(
       { valid: false, error: 'Internal server error' },
-      { status: 500 }
+      { status: 503 }
     );
   }
 }

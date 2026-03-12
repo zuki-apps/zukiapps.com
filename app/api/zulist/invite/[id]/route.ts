@@ -32,8 +32,11 @@ export async function GET(
       return new NextResponse('Invalid invitation link', { status: 400 });
     }
 
-    // Query Firestore for the invitation
-    const invitationQuery = await admin.firestore()
+    const db = admin.firestore?.();
+    if (!db) {
+      return new NextResponse('Service unavailable', { status: 503 });
+    }
+    const invitationQuery = await db
       .collection('invitations')
       .where('invitationId', '==', invitationId)
       .limit(1)
@@ -77,7 +80,8 @@ export async function GET(
 
   } catch (error) {
     console.error('Error handling invitation:', error);
-    return new NextResponse('Internal server error', { status: 500 });
+    // 503 so crawlers may retry; avoid 500 for transient/backend issues
+    return new NextResponse('Service temporarily unavailable', { status: 503 });
   }
 }
 
