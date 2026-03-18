@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary, Music } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary, Music, Trophy } from 'lucide-react';
 
 interface AppData {
   id: string;
@@ -129,6 +129,19 @@ export default function AppsCarousel() {
       featuresKey: 'tempoLabPro.features',
       learnMoreKey: 'tempoLabPro.learnMore',
       link: `/${locale}/tempoLabPro`,
+      isComingSoon: true,
+      showFeatures: true,
+    },
+    {
+      id: 'football-trivia',
+      icon: <Trophy className="w-16 h-16 text-emerald-400" aria-hidden="true" />,
+      iconImage: '/images/football-trivia-icon.png',
+      titleKey: 'footballTrivia.title',
+      subtitleKey: 'footballTrivia.subtitle',
+      descriptionKey: 'footballTrivia.description',
+      featuresKey: 'footballTrivia.features',
+      learnMoreKey: 'footballTrivia.learnMore',
+      link: `/${locale}/football-trivia`,
       isComingSoon: true,
       showFeatures: true,
     },
@@ -381,6 +394,22 @@ export default function AppsCarousel() {
                     <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.export')}>
                       <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('tempoLabPro.features.export')}</p>
+                    </div>
+                  </div>
+                )}
+                {app.showFeatures && app.id === 'football-trivia' && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.categories')}>
+                      <Trophy className="w-8 h-8 text-emerald-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('footballTrivia.features.categories')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.difficulty')}>
+                      <Trophy className="w-8 h-8 text-emerald-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('footballTrivia.features.difficulty')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.stats')}>
+                      <Trophy className="w-8 h-8 text-emerald-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('footballTrivia.features.stats')}</p>
                     </div>
                   </div>
                 )}

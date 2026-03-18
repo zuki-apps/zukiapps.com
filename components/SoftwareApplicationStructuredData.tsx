@@ -46,6 +46,10 @@ export default function SoftwareApplicationStructuredData({
     appPath = '/sudoku-puzzle';
   } else if (appName.includes('TempoLab Pro')) {
     appPath = '/tempoLabPro';
+  } else if (appName.includes('Football Trivia') || appName.includes('Football Trivia Master')) {
+    appPath = '/football-trivia';
+  } else if (appName.includes('Bit Scope')) {
+    appPath = '/bit-scope';
   }
   
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'

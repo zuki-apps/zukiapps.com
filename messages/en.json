@@ -109,6 +109,17 @@
       "underConstructionMessage": "We're working hard to bring you something amazing. Check back soon!",
       "backToHome": "Back to Home"
     },
+    "footballTrivia": {
+      "title": "Football Trivia Master",
+      "subtitle": "210+ football trivia questions",
+      "description": "Test your football knowledge with 210+ questions: World Football, National Teams, World Cups, and 2026 World Cup. Multiple categories, difficulty levels, and stats. Coming to iOS and Android.",
+      "features": {
+        "categories": "Multiple Categories",
+        "difficulty": "Difficulty Levels",
+        "stats": "Stats & Streaks"
+      },
+      "learnMore": "Learn more about Football Trivia Master →"
+    },
     "tempoLabPro": {
       "title": "TempoLab Pro - Tempo & Pitch",
       "subtitle": "Tempo and pitch audio practice",
@@ -1716,6 +1727,133 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  },
+  "footballTrivia": {
+    "back": "Back to Home",
+    "hero": {
+      "title": "Football Trivia Master",
+      "subtitle": "210+ questions • World Football, National Teams, World Cups, 2026 World Cup",
+      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps."
+    },
+    "features": {
+      "title": "Key Features",
+      "categories": {
+        "title": "4 Categories",
+        "description": "210+ questions across four themes",
+        "items": [
+          "World Football",
+          "National Teams",
+          "World Cups",
+          "2026 World Cup"
+        ]
+      },
+      "difficulty": {
+        "title": "Difficulty Levels",
+        "description": "Easy, Medium, and Hard questions",
+        "items": [
+          "Easy",
+          "Medium",
+          "Hard"
+        ]
+      },
+      "stats": {
+        "title": "Statistics & Score",
+        "description": "Track your progress and compete",
+        "items": [
+          "Best scores and streaks",
+          "Accuracy tracking",
+          "Points with streak bonuses"
+        ]
+      }
+    },
+    "status": {
+      "title": "Coming Soon",
+      "description": "Football Trivia Master is in development and will be available on the App Store and Google Play.",
+      "statusValue": "In development"
+    },
+    "download": {
+      "title": "Download",
+      "description": "Coming to iOS and Android.",
+      "soon": "Available soon"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Football Trivia Master - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using Football Trivia Master. By accessing or using our service, you agree to be bound by these terms.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use govern your access to and use of Football Trivia Master, a trivia game operated by Zuki Apps. By downloading, installing, or using the Service, you agree to be bound by these Terms and our Privacy Policy."
+      },
+      "section19": {
+        "title": "Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Football Trivia Master collects minimal information necessary to provide the service. Game progress and statistics are stored locally on your device. We may collect information you provide when you contact support."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information to provide and improve our services. Locally stored data is not transmitted to our servers except as needed for optional features."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell or share your personal information with third parties."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures. Your game data is stored locally on your device."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You can clear local data via the app's Settings. You may delete the app at any time."
+      },
+      "section6": {
+        "title": "6. Changes to This Policy",
+        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app or on our website."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": { "title": "Privacy Policy", "description": "Learn how we protect your data" },
+        "terms": { "title": "Terms of Service", "description": "Read our terms and conditions" }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
       }
     }
   },

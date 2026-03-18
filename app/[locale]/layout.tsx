@@ -32,7 +32,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'home' });
   
   const title = `${t('subtitle')} | ${siteName}`;
-  const description = `${t('subtitle')}. ${t('tagline')} Download ZuList - Manage & Share Lists, Hush Gallery - Hide Photos & Videos, Whistle Camera - Selfie & More, and Power Interval Timer - Tabata & HIIT.`;
+  const description = `${t('subtitle')}. ${t('tagline')} Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Bit Scope, TempoLab Pro. iOS & Android.`;
   const logoUrl = `${baseUrl}/logo.png`;
   
   return {
@@ -42,6 +42,7 @@ export async function generateMetadata({
       'mobile app developer',
       'Israel',
       'Flutter',
+      'Zuki Apps',
       'ZuList',
       'ZuList - Manage & Share Lists',
       'Hush Gallery',
@@ -50,6 +51,14 @@ export async function generateMetadata({
       'Whistle Camera - Selfie & More',
       'Power Interval Timer',
       'Power Interval Timer - Tabata & HIIT',
+      'Sudoku Fun Go',
+      'Sudoku puzzle app',
+      'Football Trivia',
+      'World Football Trivia 2026',
+      'Bit Scope',
+      'Bit Scope - Bit calculator',
+      'TempoLab Pro',
+      'TempoLab Pro - Tempo & Pitch',
       'Tabata timer',
       'HIIT timer',
       'interval workout timer',
@@ -175,19 +184,19 @@ export default async function LocaleLayout({
     }
   };
 
-  // Build WebSite schema
+  // Build WebSite schema (for Google Search Console / rich results)
   const websiteData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Zuki Apps',
     url: baseUrl,
-    description: 'Mobile App Developer from Israel. Download ZuList - Manage & Share Lists, Hush Gallery - Hide Photos & Videos, Whistle Camera - Selfie & More, and Power Interval Timer - Tabata & HIIT.',
+    description: 'Mobile App Developer from Israel. Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Bit Scope, TempoLab Pro. iOS & Android.',
     publisher: {
       '@type': 'Organization',
       name: 'Zuki Apps',
       url: baseUrl,
     },
-    inLanguage: locale,
+    inLanguage: routing.locales,
   };
 
   return (

@@ -133,6 +133,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // Power Interval Timer support page
     },
     {
+      path: '/bit-scope',
+      priority: 0.9,
+      changeFrequency: 'weekly',
+    },
+    { path: '/bit-scope/privacy', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/bit-scope/terms', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/bit-scope/support', priority: 0.7, changeFrequency: 'monthly' },
+    {
+      path: '/sudoku-puzzle',
+      priority: 0.9,
+      changeFrequency: 'weekly',
+    },
+    { path: '/sudoku-puzzle/privacy', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/sudoku-puzzle/terms', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/sudoku-puzzle/support', priority: 0.7, changeFrequency: 'monthly' },
+    {
+      path: '/tempoLabPro',
+      priority: 0.9,
+      changeFrequency: 'weekly',
+    },
+    { path: '/tempoLabPro/privacy', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/tempoLabPro/terms', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/tempoLabPro/support', priority: 0.7, changeFrequency: 'monthly' },
+    {
+      path: '/football-trivia',
+      priority: 0.9,
+      changeFrequency: 'weekly',
+    },
+    { path: '/football-trivia/privacy', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/football-trivia/terms', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/football-trivia/support', priority: 0.7, changeFrequency: 'monthly' },
+    {
       path: '/dsa-compliance',
       priority: 0.6,
       changeFrequency: 'monthly',

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, Grid3X3, Binary, Music } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, Grid3X3, Binary, Music, Trophy } from 'lucide-react';
 
 interface AppInfo {
   id: string;
@@ -72,6 +72,13 @@ export default function AppsGrid() {
       iconImage: '/images/tempo-lab-pro-icon.png',
       titleKey: 'tempoLabPro.title',
       link: `/${locale}/tempoLabPro`,
+    },
+    {
+      id: 'football-trivia',
+      icon: <Trophy className="w-12 h-12 text-emerald-400" aria-hidden="true" />,
+      iconImage: '/images/football-trivia-icon.png',
+      titleKey: 'footballTrivia.title',
+      link: `/${locale}/football-trivia`,
     },
   ];
 
