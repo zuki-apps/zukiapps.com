@@ -14,6 +14,9 @@ export default function WhistleCameraPage() {
   const tCommon = useTranslations('common');
   const tHome = useTranslations('home');
   const locale = useLocale();
+  const googlePlayUrl =
+    t('download.googlePlayUrl') ||
+    'https://play.google.com/store/apps/details?id=com.dreambit.whistlecamera&hl=en_GB';
 
   return (
     <>
@@ -28,7 +31,7 @@ export default function WhistleCameraPage() {
         locale={locale}
         appName={t('hero.title')}
         appDescription={t('hero.description')}
-        operatingSystem="iOS"
+        operatingSystem="iOS,Android"
         applicationCategory="PhotographyApplication"
         offers={{
           price: '0',
@@ -38,6 +41,7 @@ export default function WhistleCameraPage() {
           ratingValue: 0,
           ratingCount: 0,
         }}
+        googlePlayUrl={googlePlayUrl}
       />
       <div className="min-h-screen bg-black relative overflow-hidden">
         {/* Starry background effect */}
@@ -367,9 +371,9 @@ export default function WhistleCameraPage() {
               />
             </a>
           )}
-          {t('download.googlePlayUrl') && (
+          {googlePlayUrl && (
             <a
-              href={t('download.googlePlayUrl')}
+              href={googlePlayUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl hover:shadow-amber-500/50 transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 border-amber-500/50"
