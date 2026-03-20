@@ -8,6 +8,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
+import DownloadStoreFab from '@/components/DownloadStoreFab';
 
 export default function PowerIntervalTimerPage() {
   const t = useTranslations('powerIntervalTimer');
@@ -400,43 +401,13 @@ export default function PowerIntervalTimerPage() {
           </div>
         </footer>
 
-        {/* Floating Download Buttons */}
-        <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
-          {t('download.appStoreUrl') && (
-            <a
-              href={t('download.appStoreUrl')}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 border-orange-500/50"
-              aria-label={t('download.appStoreAlt') || 'Download on App Store'}
-            >
-              <Image
-                src="/images/app-store-badge.svg"
-                alt={t('download.appStoreAlt') || 'Download on App Store'}
-                width={120}
-                height={40}
-                className="object-contain group-hover:scale-105 transition-transform h-10"
-              />
-            </a>
-          )}
-          {t('download.googlePlayUrl') && (
-            <a
-              href={t('download.googlePlayUrl')}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 border-orange-500/50"
-              aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
-            >
-              <Image
-                src="/images/google-play-badge.png"
-                alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
-                width={120}
-                height={40}
-                className="object-contain group-hover:scale-105 transition-transform h-10"
-              />
-            </a>
-          )}
-        </div>
+        <DownloadStoreFab
+          accent="orange"
+          appStoreUrl={t('download.appStoreUrl')}
+          googlePlayUrl={t('download.googlePlayUrl')}
+          appStoreAlt={t('download.appStoreAlt')}
+          googlePlayAlt={t('download.googlePlayAlt')}
+        />
       </div>
     </>
   );

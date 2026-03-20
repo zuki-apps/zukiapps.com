@@ -8,6 +8,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
+import DownloadStoreFab from '@/components/DownloadStoreFab';
 
 export default function TempoLabProPage() {
   const t = useTranslations('tempoLabPro');
@@ -342,6 +343,14 @@ export default function TempoLabProPage() {
             </div>
           </div>
         </footer>
+
+        <DownloadStoreFab
+          accent="violet"
+          appStoreUrl={t('download.appStoreUrl')}
+          googlePlayUrl={t('download.googlePlayUrl')}
+          appStoreAlt={t('download.appStoreAlt')}
+          googlePlayAlt={t('download.googlePlayAlt')}
+        />
       </div>
     </>
   );

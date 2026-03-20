@@ -8,6 +8,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
+import DownloadStoreFab from '@/components/DownloadStoreFab';
 
 export default function SudokuPuzzlePage() {
   const t = useTranslations('sudokuPuzzle');
@@ -39,6 +40,7 @@ export default function SudokuPuzzlePage() {
           ratingCount: 0,
         }}
         appStoreUrl="https://apps.apple.com/us/app/sudoku-fun-go/id6759739806"
+        googlePlayUrl="https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo"
       />
       <div className="min-h-screen bg-black relative overflow-hidden">
         {/* Background */}
@@ -379,6 +381,14 @@ export default function SudokuPuzzlePage() {
             </div>
           </div>
         </footer>
+
+        <DownloadStoreFab
+          accent="teal"
+          appStoreUrl={t('download.appStoreUrl')}
+          googlePlayUrl={t('download.googlePlayUrl')}
+          appStoreAlt={t('download.appStoreAlt')}
+          googlePlayAlt={t('download.googlePlayAlt')}
+        />
       </div>
     </>
   );

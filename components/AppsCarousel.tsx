@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary, Music, Trophy } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary, Music, Trophy, Wand2, Palette } from 'lucide-react';
 
 interface AppData {
   id: string;
@@ -46,6 +46,7 @@ export default function AppsCarousel() {
     {
       id: 'zulist',
       icon: <ShoppingCart className="w-16 h-16 text-blue-400" aria-hidden="true" />,
+      iconImage: '/images/zulist-icon.png',
       titleKey: 'zulist.title',
       subtitleKey: 'zulist.subtitle',
       descriptionKey: 'zulist.description',
@@ -78,7 +79,8 @@ export default function AppsCarousel() {
       featuresKey: 'whistleCamera.features',
       learnMoreKey: 'whistleCamera.learnMore',
       link: `/${locale}/whistle-camera`,
-      isComingSoon: true,
+      isComingSoon: false,
+      showFeatures: true,
     },
     {
       id: 'power-interval-timer',
@@ -103,7 +105,7 @@ export default function AppsCarousel() {
       featuresKey: 'bitScope.features',
       learnMoreKey: 'bitScope.learnMore',
       link: `/${locale}/bit-scope`,
-      isComingSoon: true,
+      isComingSoon: false,
       showFeatures: true,
     },
     {
@@ -116,7 +118,7 @@ export default function AppsCarousel() {
       featuresKey: 'sudokuPuzzle.features',
       learnMoreKey: 'sudokuPuzzle.learnMore',
       link: `/${locale}/sudoku-puzzle`,
-      isComingSoon: true,
+      isComingSoon: false,
       showFeatures: true,
     },
     {
@@ -349,6 +351,22 @@ export default function AppsCarousel() {
                     </div>
                   </div>
                 )}
+                {app.showFeatures && app.id === 'whistle-camera' && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.smart')}>
+                      <Sparkles className="w-8 h-8 text-amber-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('whistleCamera.features.smart')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.editing')}>
+                      <Wand2 className="w-8 h-8 text-amber-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('whistleCamera.features.editing')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.filters')}>
+                      <Palette className="w-8 h-8 text-amber-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('whistleCamera.features.filters')}</p>
+                    </div>
+                  </div>
+                )}
                 {app.showFeatures && app.id === 'power-interval-timer' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
                     <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.configurable')}>
@@ -362,6 +380,22 @@ export default function AppsCarousel() {
                     <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.offline')}>
                       <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.offline')}</p>
+                    </div>
+                  </div>
+                )}
+                {app.showFeatures && app.id === 'bit-scope' && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.bitEditor')}>
+                      <Binary className="w-8 h-8 text-cyan-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('bitScope.features.bitEditor')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.formats')}>
+                      <Binary className="w-8 h-8 text-cyan-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('bitScope.features.formats')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.bases')}>
+                      <Binary className="w-8 h-8 text-cyan-400 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('bitScope.features.bases')}</p>
                     </div>
                   </div>
                 )}
