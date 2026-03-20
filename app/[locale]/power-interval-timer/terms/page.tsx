@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -17,7 +18,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'powerIntervalTimer.terms' });
   
   const title = `${t('title')} - Power Interval Timer | Zuki Apps`;
@@ -29,17 +30,8 @@ export async function generateMetadata({
     title,
     description,
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/power-interval-timer/terms` 
-        : `${baseUrl}/${locale}/power-interval-timer/terms`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/power-interval-timer/terms`
-            : `${baseUrl}/${loc}/power-interval-timer/terms`
-        ])
-      )
+      canonical: buildCanonical(locale, '/power-interval-timer/terms'),
+      languages: buildLanguageAlternates('/power-interval-timer/terms'),
     },
     robots: {
       index: true,

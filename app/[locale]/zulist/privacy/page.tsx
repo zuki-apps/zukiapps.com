@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -17,27 +18,15 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   
   return {
     title: 'Privacy Policy - ZuList | Zuki Apps',
     description: 'Privacy Policy for ZuList - Smart shopping list application. Learn how we collect, use, and protect your data.',
     robots: 'index, follow',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-        ? `${baseUrl}/zulist/privacy`
-        : `${baseUrl}/${locale}/zulist/privacy`,
-      languages: {
-        ...Object.fromEntries(
-          routing.locales.map((loc) => [
-            loc,
-            loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-              ? `${baseUrl}/zulist/privacy`
-              : `${baseUrl}/${loc}/zulist/privacy`,
-          ])
-        ),
-        'x-default': `${baseUrl}/zulist/privacy`,
-      },
+      canonical: buildCanonical(locale, '/zulist/privacy'),
+      languages: buildLanguageAlternates('/zulist/privacy'),
     },
   };
 }

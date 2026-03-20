@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 
 export async function generateMetadata({
   params
@@ -13,7 +14,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'hushGallery.deleteAccount' });
   
   const title = locale === 'he' 
@@ -34,24 +35,13 @@ export async function generateMetadata({
       'Hush Gallery account management'
     ],
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/hush-gallery/delete-account` 
-        : `${baseUrl}/${locale}/hush-gallery/delete-account`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/hush-gallery/delete-account`
-            : `${baseUrl}/${loc}/hush-gallery/delete-account`
-        ])
-      )
+      canonical: buildCanonical(locale, '/hush-gallery/delete-account'),
+      languages: buildLanguageAlternates('/hush-gallery/delete-account'),
     },
     openGraph: {
       type: 'website',
       locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
-      url: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-        ? `${baseUrl}/hush-gallery/delete-account`
-        : `${baseUrl}/${locale}/hush-gallery/delete-account`,
+      url: buildCanonical(locale, '/hush-gallery/delete-account'),
       siteName: 'Zuki Apps',
       title,
       description,

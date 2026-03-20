@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next';
 import { routing } from '@/routing';
+import { getSiteUrl } from '@/lib/hreflang';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   
   // Define all static routes with their metadata
   // Note: /zulist/invite/[id] is excluded because it's a dynamic route with parameters
@@ -193,6 +194,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
           : `/${loc}`;
         alternates[loc] = `${baseUrl}${altPrefix}${route.path}`;
       });
+      const xDefaultPrefix =
+        routing.localePrefix === 'as-needed' ? '' : `/${routing.defaultLocale}`;
+      alternates['x-default'] = `${baseUrl}${xDefaultPrefix}${route.path}`;
 
       sitemapEntries.push({
         url,

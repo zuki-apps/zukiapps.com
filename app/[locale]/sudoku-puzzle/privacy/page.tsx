@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -17,25 +18,16 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   
   return {
     title: 'Privacy Policy - Sudoku Fun Go | Zuki Apps',
     description: 'Privacy Policy for Sudoku Fun Go - Classic Sudoku game. Learn how we collect, use, and protect your data.',
     robots: 'index, follow',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/sudoku-puzzle/privacy` 
-        : `${baseUrl}/${locale}/sudoku-puzzle/privacy`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? `${baseUrl}/sudoku-puzzle/privacy` 
-            : `${baseUrl}/${loc}/sudoku-puzzle/privacy`
-        ])
-      )
-    }
+      canonical: buildCanonical(locale, '/sudoku-puzzle/privacy'),
+      languages: buildLanguageAlternates('/sudoku-puzzle/privacy')
+    },
   };
 }
 

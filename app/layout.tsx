@@ -1,9 +1,10 @@
 import { ReactNode } from 'react';
 import Script from 'next/script';
 import type { Metadata } from 'next';
+import { getSiteUrl } from '@/lib/hreflang';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com'),
+  metadataBase: new URL(getSiteUrl()),
   icons: {
     icon: [
       { url: '/logo.png', sizes: '512x512', type: 'image/png' },
@@ -30,7 +31,7 @@ export default function RootLayout({
   
   return (
     <html lang="en" dir="ltr" className="dark">
-      <body className="bg-black text-white">
+      <body className="bg-twilight-canvas min-h-screen text-white antialiased">
         {/* Google Analytics */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}

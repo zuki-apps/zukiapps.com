@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 
 export async function generateMetadata({
   params
@@ -13,7 +14,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'tempoLabPro' });
   
   const title = `${t('hero.title')} | Zuki Apps`;
@@ -38,24 +39,13 @@ export async function generateMetadata({
       'Zuki Apps'
     ],
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/tempoLabPro` 
-        : `${baseUrl}/${locale}/tempoLabPro`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/tempoLabPro`
-            : `${baseUrl}/${loc}/tempoLabPro`
-        ])
-      )
+      canonical: buildCanonical(locale, '/tempoLabPro'),
+      languages: buildLanguageAlternates('/tempoLabPro'),
     },
     openGraph: {
       type: 'website',
       locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
-      url: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-        ? `${baseUrl}/tempoLabPro`
-        : `${baseUrl}/${locale}/tempoLabPro`,
+      url: buildCanonical(locale, '/tempoLabPro'),
       siteName: 'Zuki Apps',
       title,
       description,

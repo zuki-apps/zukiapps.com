@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -17,24 +18,15 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'tempoLabPro.terms' });
   
   return {
     title: `${t('title')} - TempoLab Pro | Zuki Apps`,
     description: 'Terms of Service for TempoLab Pro - Tempo and pitch audio practice app. Read the terms and conditions for using the app.',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/tempoLabPro/terms` 
-        : `${baseUrl}/${locale}/tempoLabPro/terms`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/tempoLabPro/terms`
-            : `${baseUrl}/${loc}/tempoLabPro/terms`
-        ])
-      )
+      canonical: buildCanonical(locale, '/tempoLabPro/terms'),
+      languages: buildLanguageAlternates('/tempoLabPro/terms'),
     },
     robots: { index: true, follow: true },
   };

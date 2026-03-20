@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -9,15 +10,15 @@ import type { Metadata } from 'next';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!routing.locales.includes(locale as any)) notFound();
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   return {
     title: 'Privacy Policy - Football Trivia Master | Zuki Apps',
     description: 'Privacy Policy for Football Trivia Master. Learn how we collect, use, and protect your data.',
     robots: 'index, follow',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' ? `${baseUrl}/football-trivia/privacy` : `${baseUrl}/${locale}/football-trivia/privacy`,
-      languages: Object.fromEntries(routing.locales.map((loc) => [loc, loc === routing.defaultLocale && routing.localePrefix === 'as-needed' ? `${baseUrl}/football-trivia/privacy` : `${baseUrl}/${loc}/football-trivia/privacy`]))
-    }
+      canonical: buildCanonical(locale, '/football-trivia/privacy'),
+      languages: buildLanguageAlternates('/football-trivia/privacy')
+    },
   };
 }
 

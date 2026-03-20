@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -17,25 +18,16 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   
   return {
     title: 'Privacy Policy - Whistle Camera | Zuki Apps',
     description: 'Privacy Policy for Whistle Camera - Smart camera application. Learn how we collect, use, and protect your data.',
     robots: 'index, follow',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/whistle-camera/privacy` 
-        : `${baseUrl}/${locale}/whistle-camera/privacy`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? `${baseUrl}/whistle-camera/privacy` 
-            : `${baseUrl}/${loc}/whistle-camera/privacy`
-        ])
-      )
-    }
+      canonical: buildCanonical(locale, '/whistle-camera/privacy'),
+      languages: buildLanguageAlternates('/whistle-camera/privacy')
+    },
   };
 }
 

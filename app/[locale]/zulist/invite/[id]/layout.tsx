@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates } from '@/lib/hreflang';
 
 export async function generateMetadata({
   params,
@@ -10,23 +11,11 @@ export async function generateMetadata({
   if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     return {};
   }
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   const path = `/zulist/invite/${id}`;
-  const canonicalUrl =
-    locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-      ? `${baseUrl}${path}`
-      : `${baseUrl}/${locale}${path}`;
   return {
     alternates: {
-      canonical: canonicalUrl,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}${path}`
-            : `${baseUrl}/${loc}${path}`,
-        ])
-      ),
+      canonical: buildCanonical(locale, path),
+      languages: buildLanguageAlternates(path),
     },
     robots: { index: false, follow: true },
   };

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 
 export async function generateMetadata({
   params
@@ -13,7 +14,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'whistleCamera' });
   
   const title = `${t('hero.title')} - Smart Camera App | Zuki Apps`;
@@ -48,24 +49,13 @@ export async function generateMetadata({
       'whistle trigger camera'
     ],
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/whistle-camera` 
-        : `${baseUrl}/${locale}/whistle-camera`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/whistle-camera`
-            : `${baseUrl}/${loc}/whistle-camera`
-        ])
-      )
+      canonical: buildCanonical(locale, '/whistle-camera'),
+      languages: buildLanguageAlternates('/whistle-camera'),
     },
     openGraph: {
       type: 'website',
       locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
-      url: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-        ? `${baseUrl}/whistle-camera`
-        : `${baseUrl}/${locale}/whistle-camera`,
+      url: buildCanonical(locale, '/whistle-camera'),
       siteName: 'Zuki Apps',
       title,
       description,

@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -11,13 +12,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!routing.locales.includes(locale as any)) notFound();
   const t = await getTranslations({ locale, namespace: 'footballTrivia.terms' });
   const tApp = await getTranslations({ locale, namespace: 'footballTrivia' });
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   return {
     title: `${t('title')} - ${tApp('hero.title')} | Zuki Apps`,
     description: 'Terms of Service for Football Trivia Master. Read the terms and conditions for using the app.',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' ? `${baseUrl}/football-trivia/terms` : `${baseUrl}/${locale}/football-trivia/terms`,
-      languages: Object.fromEntries(routing.locales.map((loc) => [loc, loc === routing.defaultLocale && routing.localePrefix === 'as-needed' ? `${baseUrl}/football-trivia/terms` : `${baseUrl}/${loc}/football-trivia/terms`]))
+      canonical: buildCanonical(locale, '/football-trivia/terms'),
+      languages: buildLanguageAlternates('/football-trivia/terms')
     },
     robots: { index: true, follow: true },
   };

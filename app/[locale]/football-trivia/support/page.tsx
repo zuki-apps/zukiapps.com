@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -10,15 +11,15 @@ import { Mail, FileText, Shield } from 'lucide-react';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!routing.locales.includes(locale as any)) notFound();
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   return {
     title: 'Support - Football Trivia Master | Zuki Apps',
     description: 'Get help and support for Football Trivia Master. Contact information and resources.',
     robots: 'index, follow',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' ? `${baseUrl}/football-trivia/support` : `${baseUrl}/${locale}/football-trivia/support`,
-      languages: Object.fromEntries(routing.locales.map((loc) => [loc, loc === routing.defaultLocale && routing.localePrefix === 'as-needed' ? `${baseUrl}/football-trivia/support` : `${baseUrl}/${loc}/football-trivia/support`]))
-    }
+      canonical: buildCanonical(locale, '/football-trivia/support'),
+      languages: buildLanguageAlternates('/football-trivia/support')
+    },
   };
 }
 

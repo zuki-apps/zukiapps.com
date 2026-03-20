@@ -31,7 +31,7 @@ export default function Home() {
   // Generate stars only on client side to avoid hydration mismatch
   useEffect(() => {
     setIsMounted(true);
-    const generatedStars: Star[] = Array.from({ length: 100 }).map(() => ({
+    const generatedStars: Star[] = Array.from({ length: 48 }).map(() => ({
       left: Math.random() * 100,
       top: Math.random() * 100,
       width: Math.random() * 3 + 1,
@@ -51,15 +51,15 @@ export default function Home() {
           { name: tCommon('home'), path: '/' }
         ]}
       />
-    <div className="min-h-screen bg-black relative overflow-hidden">
-        {/* Starry background effect */}
+    <div className="min-h-screen relative overflow-hidden">
+        {/* Twilight sky + soft lights */}
         <div className="fixed inset-0 z-0" aria-hidden="true">
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
-          {/* Stars - only render on client to avoid hydration mismatch */}
+          <div className="absolute inset-0 twilight-sky-overlay" />
+          {/* Early stars / city lights — warm + cool specks */}
           {isMounted && stars.map((star, i) => (
             <div
               key={i}
-              className="absolute rounded-full bg-white animate-pulse"
+              className={`absolute rounded-full animate-pulse ${i % 3 === 0 ? 'bg-amber-100/90' : i % 3 === 1 ? 'bg-violet-200/80' : 'bg-sky-100/70'}`}
               style={{
                 left: `${star.left}%`,
                 top: `${star.top}%`,
@@ -111,7 +111,7 @@ export default function Home() {
           <AppsCarousel />
 
           {/* Story Section */}
-          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 mb-12 text-left border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90">
+          <div className="card-twilight text-left">
             <div className="flex items-center gap-3 mb-6">
               <Code className="w-8 h-8 text-blue-400" aria-hidden="true" />
               <h2 className="text-3xl font-black text-white">{t('story.title')}</h2>
@@ -124,7 +124,7 @@ export default function Home() {
           </div>
 
           {/* Zuli Monsters Section */}
-          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 mb-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90">
+          <div className="card-twilight">
             <div className="flex items-center justify-center mb-6">
               <Sparkles className="w-12 h-12 text-blue-400" aria-hidden="true" />
             </div>
@@ -138,7 +138,7 @@ export default function Home() {
           </div>
 
           {/* Contact Section */}
-          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90">
+          <div className="card-twilight !mb-0">
             <div className="flex items-center justify-center mb-6">
               <Mail className="w-12 h-12 text-blue-400" aria-hidden="true" />
             </div>
@@ -180,7 +180,7 @@ export default function Home() {
           </div>
 
           {/* Social Media Section */}
-          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90 mt-12">
+          <div className="card-twilight mt-12 !mb-0">
             <h2 className="text-3xl font-black mb-6 text-white text-center">{t('social.title')}</h2>
             <div className="flex justify-center gap-6 items-center">
               <a
@@ -207,7 +207,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-br from-black to-gray-900 text-white py-8 px-4 mt-12 relative z-10 border-t border-gray-800">
+      <footer className="twilight-footer-bar text-white py-8 px-4 mt-12 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-4 flex justify-center">
             <Logo size="md" />

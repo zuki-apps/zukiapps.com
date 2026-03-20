@@ -1,10 +1,32 @@
 # Google Search Console Indexing Issues - Fixes Applied
 
-**Date**: 2025-12-09  
+**Date**: 2025-12-09 (updated 2025-03-17)  
 **Issues Reported**:
 1. Alternate page with proper canonical tag
 2. Duplicate, Google chose different canonical than user
 3. Not found (404)
+
+---
+
+## 2025-03-17 — Duplicate / canonical / hreflang (GSC)
+
+**What those GSC reasons usually mean**
+
+| Reason | Meaning |
+|--------|--------|
+| **Alternate page with proper canonical tag** | URL is not indexed because another URL is canonical. **Often normal** for locale duplicates (e.g. `/en/...` → canonical `/...`). |
+| **Duplicate without user-selected canonical** | No (or weak) canonical when similar URLs exist. |
+| **Google chose different canonical than user** | Mixed signals (headers vs HTML, sitemap vs `<link rel="canonical">`, `www`/trailing slash/env URL, etc.). |
+
+**Changes made**
+
+1. **`middleware.ts`** — `alternateLinks: false` so **only** Next.js metadata emits hreflang (no duplicate `Link:` headers from next-intl vs `<link rel="alternate">`).
+2. **Removed `app/page.tsx`** — it redirected `/` → `/en`, conflicting with `localePrefix: 'as-needed'` (English = unprefixed URLs in sitemap + canonicals).
+3. **`lib/hreflang.ts`** — `getSiteUrl()` strips trailing slashes; `buildCanonical` + `buildLanguageAlternates` add **`x-default`** consistently.
+4. **`app/sitemap.xml` generation** — `alternates.languages` includes **`x-default`** per URL.
+5. **App metadata** — layouts/pages updated to use the helpers where needed.
+
+**Deploy checklist**: Set `NEXT_PUBLIC_SITE_URL` to `https://zukiapps.com` (no trailing slash). `www` → apex redirect already in `next.config.js`.
 
 ---
 

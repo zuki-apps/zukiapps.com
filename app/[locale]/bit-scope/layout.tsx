@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 
 export async function generateMetadata({
   params
@@ -13,7 +14,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'bitScope' });
   
   const title = `${t('hero.title')} - Bit & Number Calculator | Zuki Apps`;
@@ -47,24 +48,13 @@ export async function generateMetadata({
       'number system converter'
     ],
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/bit-scope` 
-        : `${baseUrl}/${locale}/bit-scope`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-            ? `${baseUrl}/bit-scope`
-            : `${baseUrl}/${loc}/bit-scope`
-        ])
-      )
+      canonical: buildCanonical(locale, '/bit-scope'),
+      languages: buildLanguageAlternates('/bit-scope'),
     },
     openGraph: {
       type: 'website',
       locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
-      url: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-        ? `${baseUrl}/bit-scope`
-        : `${baseUrl}/${locale}/bit-scope`,
+      url: buildCanonical(locale, '/bit-scope'),
       siteName: 'Zuki Apps',
       title,
       description,

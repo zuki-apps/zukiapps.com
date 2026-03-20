@@ -116,6 +116,49 @@
   }
 }
 
+/* Twilight / dusk site theme (replaces flat “night black”) */
+@layer utilities {
+  .bg-twilight-canvas {
+    background-color: #0a0f1c;
+    background-image: linear-gradient(180deg, #080d18 0%, #121535 45%, #1a1240 100%);
+    background-attachment: fixed;
+  }
+
+  .twilight-sky-overlay {
+    background:
+      radial-gradient(ellipse 110% 65% at 50% 100%, rgba(251, 191, 36, 0.2) 0%, transparent 55%),
+      radial-gradient(ellipse 75% 50% at 12% 8%, rgba(129, 140, 248, 0.2) 0%, transparent 50%),
+      radial-gradient(ellipse 65% 45% at 88% 18%, rgba(192, 132, 252, 0.12) 0%, transparent 48%),
+      linear-gradient(
+        168deg,
+        #0a0f1c 0%,
+        #121535 18%,
+        #1e1b4b 34%,
+        #31285a 50%,
+        #4a2862 66%,
+        #6b3038 80%,
+        #8b3a1a 92%,
+        #b45309 100%
+      );
+  }
+
+  .twilight-footer-bar {
+    background: linear-gradient(180deg, rgba(10, 15, 28, 0.88) 0%, rgba(30, 27, 75, 0.94) 100%);
+    border-top: 1px solid rgba(251, 191, 36, 0.22);
+  }
+
+  .card-twilight {
+    @apply rounded-2xl shadow-2xl p-8 md:p-12 mb-12 border-2 backdrop-blur-md transition-all duration-300;
+    background: linear-gradient(145deg, rgba(30, 27, 75, 0.58) 0%, rgba(49, 32, 90, 0.42) 100%);
+    border-color: rgba(129, 140, 248, 0.3);
+  }
+
+  .card-twilight:hover {
+    border-color: rgba(251, 191, 36, 0.35);
+    box-shadow: 0 25px 50px -12px rgba(99, 102, 241, 0.18);
+  }
+}
+
 /* Starry background animation */
 @keyframes twinkle {
   0%, 100% {

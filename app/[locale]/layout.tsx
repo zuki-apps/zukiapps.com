@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import '../globals.css';
@@ -25,7 +26,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   const siteName = 'Zuki Apps';
   
   // Get translations for metadata
@@ -82,24 +83,13 @@ export async function generateMetadata({
       'format-detection': 'telephone=no',
     },
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? baseUrl 
-        : `${baseUrl}/${locale}`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? baseUrl 
-            : `${baseUrl}/${loc}`
-        ])
-      ),
+      canonical: buildCanonical(locale, ''),
+      languages: buildLanguageAlternates(''),
     },
     openGraph: {
       type: 'website',
       locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
-      url: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? baseUrl 
-        : `${baseUrl}/${locale}`,
+      url: buildCanonical(locale, ''),
       siteName,
       title,
       description,

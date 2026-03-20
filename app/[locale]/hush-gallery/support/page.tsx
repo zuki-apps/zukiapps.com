@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -19,25 +20,16 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   
   return {
     title: 'Support - Hush Gallery | Zuki Apps',
     description: 'Get help and support for Hush Gallery. Find answers to common questions, contact information, and helpful resources.',
     robots: 'index, follow',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/hush-gallery/support` 
-        : `${baseUrl}/${locale}/hush-gallery/support`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? `${baseUrl}/hush-gallery/support` 
-            : `${baseUrl}/${loc}/hush-gallery/support`
-        ])
-      )
-    }
+      canonical: buildCanonical(locale, '/hush-gallery/support'),
+      languages: buildLanguageAlternates('/hush-gallery/support')
+    },
   };
 }
 
@@ -54,7 +46,7 @@ export default async function SupportPage({
 
   const t = await getTranslations({ locale, namespace: 'hushGallery.support' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   
   // Build FAQ Structured Data (JSON-LD)
   const faqStructuredData = {

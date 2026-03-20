@@ -273,7 +273,7 @@ export default function AppsCarousel() {
                 maxWidth: '100%'
               }}
             >
-              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-blue-600/30 hover:border-blue-500/50 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm bg-opacity-90 mx-4 w-full flex flex-col" style={{ minHeight: '600px' }}>
+              <div className="bg-gradient-to-br from-indigo-950/95 to-violet-950/75 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-indigo-400/35 hover:border-amber-400/40 hover:shadow-3xl transition-all duration-300 backdrop-blur-md bg-opacity-95 mx-4 w-full flex flex-col" style={{ minHeight: '600px' }}>
                 <div className="flex items-center justify-center mb-6">
                   {app.iconImage && isMounted ? (
                     <div className="relative w-24 h-24 md:w-32 md:h-32">
@@ -337,15 +337,15 @@ export default function AppsCarousel() {
                 {/* Features Grid */}
                 {app.showFeatures && app.id === 'hush-gallery' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.privacy')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.privacy')}>
                       <Shield className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('hushGallery.features.privacy')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.secure')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.secure')}>
                       <Lock className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('hushGallery.features.secure')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.organized')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.organized')}>
                       <FolderTree className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('hushGallery.features.organized')}</p>
                     </div>
@@ -353,15 +353,15 @@ export default function AppsCarousel() {
                 )}
                 {app.showFeatures && app.id === 'whistle-camera' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.smart')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.smart')}>
                       <Sparkles className="w-8 h-8 text-amber-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('whistleCamera.features.smart')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.editing')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.editing')}>
                       <Wand2 className="w-8 h-8 text-amber-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('whistleCamera.features.editing')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.filters')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.filters')}>
                       <Palette className="w-8 h-8 text-amber-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('whistleCamera.features.filters')}</p>
                     </div>
@@ -369,15 +369,15 @@ export default function AppsCarousel() {
                 )}
                 {app.showFeatures && app.id === 'power-interval-timer' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.configurable')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.configurable')}>
                       <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.configurable')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.display')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.display')}>
                       <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.display')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.offline')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.offline')}>
                       <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.offline')}</p>
                     </div>
@@ -385,15 +385,15 @@ export default function AppsCarousel() {
                 )}
                 {app.showFeatures && app.id === 'bit-scope' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.bitEditor')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.bitEditor')}>
                       <Binary className="w-8 h-8 text-cyan-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('bitScope.features.bitEditor')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.formats')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.formats')}>
                       <Binary className="w-8 h-8 text-cyan-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('bitScope.features.formats')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.bases')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.bases')}>
                       <Binary className="w-8 h-8 text-cyan-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('bitScope.features.bases')}</p>
                     </div>
@@ -401,15 +401,15 @@ export default function AppsCarousel() {
                 )}
                 {app.showFeatures && app.id === 'sudoku-puzzle' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.difficulty')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.difficulty')}>
                       <Grid3X3 className="w-8 h-8 text-teal-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('sudokuPuzzle.features.difficulty')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.gameplay')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.gameplay')}>
                       <Grid3X3 className="w-8 h-8 text-teal-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('sudokuPuzzle.features.gameplay')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.offline')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.offline')}>
                       <Grid3X3 className="w-8 h-8 text-teal-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('sudokuPuzzle.features.offline')}</p>
                     </div>
@@ -417,15 +417,15 @@ export default function AppsCarousel() {
                 )}
                 {app.showFeatures && app.id === 'tempoLabPro' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.tempoPitch')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.tempoPitch')}>
                       <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('tempoLabPro.features.tempoPitch')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.tapTempo')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.tapTempo')}>
                       <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('tempoLabPro.features.tapTempo')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.export')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.export')}>
                       <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('tempoLabPro.features.export')}</p>
                     </div>
@@ -433,15 +433,15 @@ export default function AppsCarousel() {
                 )}
                 {app.showFeatures && app.id === 'football-trivia' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.categories')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.categories')}>
                       <Trophy className="w-8 h-8 text-emerald-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('footballTrivia.features.categories')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.difficulty')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.difficulty')}>
                       <Trophy className="w-8 h-8 text-emerald-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('footballTrivia.features.difficulty')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.stats')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.stats')}>
                       <Trophy className="w-8 h-8 text-emerald-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('footballTrivia.features.stats')}</p>
                     </div>
@@ -450,15 +450,15 @@ export default function AppsCarousel() {
                 
                 {!app.showFeatures && !app.isComingSoon && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.realtime')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.realtime')}>
                       <Users className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('zulist.features.realtime')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.offline')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.offline')}>
                       <Wifi className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('zulist.features.offline')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.smart')}>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.smart')}>
                       <Sparkles className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('zulist.features.smart')}</p>
                     </div>
@@ -469,7 +469,7 @@ export default function AppsCarousel() {
                   <div className="text-center">
                     <Link
                       href={app.link}
-                      className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-black text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
+                      className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-black text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-indigo-950 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
                       aria-label={`${t(app.learnMoreKey)} - ${t(app.titleKey)}`}
                     >
                       {t(app.learnMoreKey)}
@@ -479,7 +479,7 @@ export default function AppsCarousel() {
                   <div className="text-center">
                     <Link
                       href={app.link || `/${locale}/${app.id}`}
-                      className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-black text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
+                      className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-black text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-indigo-950 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
                       aria-label={`${t(app.learnMoreKey)} - ${t(app.titleKey)}`}
                     >
                       {t(app.learnMoreKey)}
@@ -495,7 +495,7 @@ export default function AppsCarousel() {
       {/* Navigation Arrows */}
       <button
         onClick={goToPrevious}
-        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 z-10 bg-gray-900/80 hover:bg-gray-800 border-2 border-blue-600/50 hover:border-blue-500 rounded-full p-3 transition-all shadow-lg hover:shadow-xl"
+        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 z-10 bg-indigo-950/90 hover:bg-violet-950/80 border-2 border-indigo-400/45 hover:border-amber-400/50 rounded-full p-3 transition-all shadow-lg hover:shadow-xl"
         aria-label="Previous app"
         type="button"
       >
@@ -503,7 +503,7 @@ export default function AppsCarousel() {
       </button>
       <button
         onClick={goToNext}
-        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 z-10 bg-gray-900/80 hover:bg-gray-800 border-2 border-blue-600/50 hover:border-blue-500 rounded-full p-3 transition-all shadow-lg hover:shadow-xl"
+        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 z-10 bg-indigo-950/90 hover:bg-violet-950/80 border-2 border-indigo-400/45 hover:border-amber-400/50 rounded-full p-3 transition-all shadow-lg hover:shadow-xl"
         aria-label="Next app"
         type="button"
       >

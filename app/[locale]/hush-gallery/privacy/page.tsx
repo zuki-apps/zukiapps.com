@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -17,7 +18,7 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   
   return {
     title: 'Privacy Policy - Hush Gallery | Zuki Apps',
@@ -34,18 +35,9 @@ export async function generateMetadata({
       },
     },
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/hush-gallery/privacy` 
-        : `${baseUrl}/${locale}/hush-gallery/privacy`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? `${baseUrl}/hush-gallery/privacy` 
-            : `${baseUrl}/${loc}/hush-gallery/privacy`
-        ])
-      )
-    }
+      canonical: buildCanonical(locale, '/hush-gallery/privacy'),
+      languages: buildLanguageAlternates('/hush-gallery/privacy')
+    },
   };
 }
 

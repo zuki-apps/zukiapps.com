@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -19,25 +20,16 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   
   return {
     title: 'Support - TempoLab Pro | Zuki Apps',
     description: 'Get help and support for TempoLab Pro. Find answers to common questions, contact information, and helpful resources.',
     robots: 'index, follow',
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-        ? `${baseUrl}/tempoLabPro/support` 
-        : `${baseUrl}/${locale}/tempoLabPro/support`,
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [
-          loc,
-          loc === routing.defaultLocale && routing.localePrefix === 'as-needed' 
-            ? `${baseUrl}/tempoLabPro/support` 
-            : `${baseUrl}/${loc}/tempoLabPro/support`
-        ])
-      )
-    }
+      canonical: buildCanonical(locale, '/tempoLabPro/support'),
+      languages: buildLanguageAlternates('/tempoLabPro/support')
+    },
   };
 }
 

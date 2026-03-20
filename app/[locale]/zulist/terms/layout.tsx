@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
 
 export async function generateMetadata({
   params
@@ -13,7 +14,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'zulist.terms' });
   
   const title = `${t('title')} - ZuList | Zuki Apps`;
@@ -33,27 +34,13 @@ export async function generateMetadata({
       'user agreement'
     ],
     alternates: {
-      canonical: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-        ? `${baseUrl}/zulist/terms`
-        : `${baseUrl}/${locale}/zulist/terms`,
-      languages: {
-        ...Object.fromEntries(
-          routing.locales.map((loc) => [
-            loc,
-            loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
-              ? `${baseUrl}/zulist/terms`
-              : `${baseUrl}/${loc}/zulist/terms`,
-          ])
-        ),
-        'x-default': `${baseUrl}/zulist/terms`,
-      },
+      canonical: buildCanonical(locale, '/zulist/terms'),
+      languages: buildLanguageAlternates('/zulist/terms'),
     },
     openGraph: {
       type: 'website',
       locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
-      url: locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-        ? `${baseUrl}/zulist/terms`
-        : `${baseUrl}/${locale}/zulist/terms`,
+      url: buildCanonical(locale, '/zulist/terms'),
       siteName: 'Zuki Apps',
       title,
       description,

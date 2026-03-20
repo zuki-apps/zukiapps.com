@@ -42,10 +42,10 @@ export default function HushGalleryPage() {
         appStoreUrl="https://apps.apple.com/il/app/hush-gallery/id6756169045"
         googlePlayUrl="https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery"
       />
-      <div className="min-h-screen bg-black relative overflow-hidden">
+      <div className="min-h-screen relative overflow-hidden">
         {/* Starry background effect */}
         <div className="fixed inset-0 z-0" aria-hidden="true">
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
+          <div className="absolute inset-0 twilight-sky-overlay"></div>
           {Array.from({ length: 100 }).map((_, i) => (
             <div
               key={i}
@@ -538,7 +538,7 @@ export default function HushGalleryPage() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-gradient-to-br from-black to-gray-900 text-white py-8 px-4 mt-12 relative z-10 border-t border-gray-800">
+        <footer className="twilight-footer-bar text-white py-8 px-4 mt-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-4 flex justify-center">
               <Logo size="md" />
