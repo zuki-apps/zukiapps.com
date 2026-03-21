@@ -27,6 +27,8 @@ const APP_KEYS = [
   'flipLight'
 ] as const;
 
+const LARGE_RASTER_ICON_KEYS = new Set<(typeof APP_KEYS)[number]>(['hushGallery', 'whistleCamera']);
+
 const APP_ICONS: Record<(typeof APP_KEYS)[number], ReactNode> = {
   hushGallery: <ImageIcon className="w-8 h-8 text-violet-300" aria-hidden />,
   whistleCamera: <Camera className="w-8 h-8 text-amber-300" aria-hidden />,
@@ -128,7 +130,13 @@ export default function DreambitLegacyPage() {
                   className="card-twilight !mb-0 flex flex-col sm:flex-row sm:items-stretch gap-4 p-6 md:p-8"
                 >
                   <div className="flex-shrink-0 flex items-start justify-center sm:justify-start pt-1">
-                    <div className="relative h-20 w-20 sm:h-24 sm:w-24 rounded-2xl overflow-hidden border-2 border-indigo-400/30 bg-indigo-950/80 shadow-lg ring-1 ring-white/10">
+                    <div
+                      className={`relative rounded-2xl overflow-hidden border-2 border-indigo-400/30 bg-indigo-950/80 shadow-lg ring-1 ring-white/10 ${
+                        LARGE_RASTER_ICON_KEYS.has(key)
+                          ? 'h-28 w-28 sm:h-36 sm:w-36'
+                          : 'h-20 w-20 sm:h-24 sm:w-24'
+                      }`}
+                    >
                       {(() => {
                         const iconSrc = t(`iconImages.${key}`).trim();
                         if (iconSrc.startsWith('/')) {
@@ -137,8 +145,12 @@ export default function DreambitLegacyPage() {
                               src={iconSrc}
                               alt={t(`apps.${key}.title`)}
                               fill
-                              className="object-contain p-1"
-                              sizes="96px"
+                              className={
+                                LARGE_RASTER_ICON_KEYS.has(key)
+                                  ? 'object-cover object-center'
+                                  : 'object-contain p-1'
+                              }
+                              sizes={LARGE_RASTER_ICON_KEYS.has(key) ? '144px' : '96px'}
                             />
                           );
                         }
