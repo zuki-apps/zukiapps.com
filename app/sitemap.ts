@@ -171,6 +171,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       // DSA compliance page - important legal page
     },
+    {
+      path: '/dreambit-legacy',
+      priority: 0.55,
+      changeFrequency: 'yearly',
+    },
+    { path: '/dreambit-legacy/privacy', priority: 0.4, changeFrequency: 'yearly' },
+    { path: '/dreambit-legacy/terms', priority: 0.4, changeFrequency: 'yearly' },
   ];
 
   const sitemapEntries: MetadataRoute.Sitemap = [];

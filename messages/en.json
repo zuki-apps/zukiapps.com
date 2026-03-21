@@ -6,6 +6,7 @@
     "story": {
       "title": "My Story",
       "p1": "Between 2012 and 2016, I developed mobile applications as part of the dreamBit team. During those years, I had the opportunity to work on various projects, learning the ins and outs of mobile development and creating apps that users loved.",
+      "dreambitLegacyLink": "See legacy Dreambit Android apps (archive) →",
       "p2": "After a long break from active development, I've returned to pursue my passion - mobile app development. This time, I'm building apps as a hobby, driven by my love for technology and creativity.",
       "p3": "Today, I focus on developing smart and intuitive mobile applications that can help people in their daily lives. Each app I create is crafted with attention to detail, user experience, and innovative solutions to real-world problems."
     },
@@ -135,6 +136,10 @@
       "underConstruction": "Under Construction",
       "underConstructionMessage": "We're working hard to bring you something amazing. Check back soon!",
       "backToHome": "Back to Home"
+    },
+    "dreambitLegacy": {
+      "gridTitle": "Legacy Dreambit (Android)",
+      "gridBadge": "Archive"
     },
     "appsGrid": {
       "title": "Our Apps"
@@ -1848,8 +1853,14 @@
       },
       "quickLinks": {
         "title": "Quick Links",
-        "privacy": { "title": "Privacy Policy", "description": "Learn how we protect your data" },
-        "terms": { "title": "Terms of Service", "description": "Read our terms and conditions" }
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
       },
       "additionalHelp": {
         "title": "Need More Help?",
@@ -2542,4 +2553,3 @@
     "dsaCompliance": "DSA Compliance"
   }
 }
-

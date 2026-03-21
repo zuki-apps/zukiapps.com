@@ -8,9 +8,15 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
+  const userMessages = (await import(`./messages/${locale}.json`)).default;
+  const dreambitLegacy = (await import('./messages/dreambitLegacy.json')).default;
+
   return {
     locale,
-    messages: (await import(`./messages/${locale}.json`)).default
+    messages: {
+      ...userMessages,
+      dreambitLegacy
+    }
   };
 });
 

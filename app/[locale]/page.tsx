@@ -118,6 +118,14 @@ export default function Home() {
             </div>
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>{t('story.p1')}</p>
+              <p>
+                <Link
+                  href={`/${locale}/dreambit-legacy`}
+                  className="font-semibold text-amber-300 hover:text-amber-200 underline decoration-amber-400/60 underline-offset-4 transition-colors"
+                >
+                  {t('story.dreambitLegacyLink')}
+                </Link>
+              </p>
               <p>{t('story.p2')}</p>
               <p>{t('story.p3')}</p>
             </div>
@@ -217,10 +225,17 @@ export default function Home() {
             <Heart className="w-4 h-4 text-red-500" />
             {t('footer.tagline')}
           </p>
-          <div className="mt-4">
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm">
+            <Link
+              href={`/${locale}/dreambit-legacy`}
+              className="text-gray-400 hover:text-amber-300 transition-colors"
+            >
+              Legacy Dreambit apps (Android)
+            </Link>
+            <span className="text-slate-600 hidden sm:inline">|</span>
             <Link
               href={`/${locale}/dsa-compliance`}
-              className="text-gray-400 hover:text-blue-400 transition-colors text-sm"
+              className="text-gray-400 hover:text-blue-400 transition-colors"
             >
               {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
             </Link>

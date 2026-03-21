@@ -92,7 +92,7 @@ export default function AppsGrid() {
           <Link
             key={app.id}
             href={app.link}
-            className="group flex flex-col items-center p-6 bg-gradient-to-br from-indigo-950/85 to-violet-950/70 rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-indigo-500/30 hover:border-amber-400/45 backdrop-blur-md bg-opacity-90"
+            className="group flex flex-col items-center p-6 rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 backdrop-blur-md bg-opacity-90 bg-gradient-to-br from-indigo-950/85 to-violet-950/70 border-indigo-500/30 hover:border-amber-400/45"
             aria-label={`${t(app.titleKey)} - ${locale === 'he' ? 'פתח' : 'Open'}`}
           >
             <div className="relative w-20 h-20 md:w-24 md:h-24 mb-4 rounded-2xl overflow-hidden ring-2 ring-gray-600 group-hover:ring-blue-500/50 transition-all">
