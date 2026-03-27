@@ -27,7 +27,13 @@ const APP_KEYS = [
   'flipLight'
 ] as const;
 
-const LARGE_RASTER_ICON_KEYS = new Set<(typeof APP_KEYS)[number]>(['hushGallery', 'whistleCamera']);
+const LARGE_RASTER_ICON_KEYS = new Set<(typeof APP_KEYS)[number]>([
+  'hushGallery',
+  'whistleCamera',
+  'navigUp',
+  'worldCup2014',
+  'flipLight'
+]);
 
 const APP_ICONS: Record<(typeof APP_KEYS)[number], ReactNode> = {
   hushGallery: <ImageIcon className="w-8 h-8 text-violet-300" aria-hidden />,
