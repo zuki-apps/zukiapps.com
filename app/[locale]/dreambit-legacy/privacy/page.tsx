@@ -15,13 +15,21 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!routing.locales.includes(locale as any)) notFound();
   const t = await getTranslations({ locale, namespace: 'dreambitLegacy.privacy' });
+  const canonical = buildCanonical(locale, '/dreambit-legacy/privacy');
   return {
-    title: `${t('metaTitle')} | Zuki Apps`,
+    title: t('metaTitle'),
     description: t('description'),
-    robots: 'index, follow',
+    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
     alternates: {
-      canonical: buildCanonical(locale, '/dreambit-legacy/privacy'),
+      canonical,
       languages: buildLanguageAlternates('/dreambit-legacy/privacy')
+    },
+    openGraph: {
+      title: t('metaTitle'),
+      description: t('description'),
+      url: canonical,
+      type: 'article',
+      siteName: 'Zuki Apps'
     }
   };
 }
@@ -42,7 +50,12 @@ export default async function DreambitLegacyPrivacyPage({
     { title: t('s2t'), body: t('s2b') },
     { title: t('s3t'), body: t('s3b') },
     { title: t('s4t'), body: t('s4b') },
-    { title: t('s5t'), body: `${t('s5b')} ${tRoot('email')}` }
+    { title: t('s5t'), body: t('s5b') },
+    { title: t('s6t'), body: t('s6b') },
+    { title: t('s7t'), body: t('s7b') },
+    { title: t('s8t'), body: t('s8b') },
+    { title: t('s9t'), body: t('s9b') },
+    { title: t('s10t'), body: `${t('s10b')} ${tRoot('email')}.` }
   ];
 
   return (
@@ -65,7 +78,10 @@ export default async function DreambitLegacyPrivacyPage({
           </div>
           <div className="card-twilight !mb-0">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8 pb-6 border-b border-indigo-400/25">
-              <h1 className="text-2xl md:text-3xl font-black text-white">{t('title')}</h1>
+              <div>
+                <h1 className="text-2xl md:text-3xl font-black text-white">{t('title')}</h1>
+                <p className="text-slate-400 text-sm md:text-base mt-2 font-medium">{t('titleSub')}</p>
+              </div>
               <Link
                 href={`/${locale}/dreambit-legacy`}
                 className="text-violet-300 hover:text-violet-200 text-sm font-semibold whitespace-nowrap"

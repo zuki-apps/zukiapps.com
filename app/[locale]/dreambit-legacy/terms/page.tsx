@@ -16,7 +16,7 @@ export async function generateMetadata({
   if (!routing.locales.includes(locale as any)) notFound();
   const t = await getTranslations({ locale, namespace: 'dreambitLegacy.terms' });
   return {
-    title: `${t('metaTitle')} | Zuki Apps`,
+    title: t('metaTitle'),
     description: t('description'),
     robots: 'index, follow',
     alternates: {
