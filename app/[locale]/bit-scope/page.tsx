@@ -39,6 +39,8 @@ export default function BitScopePage() {
           ratingValue: 0,
           ratingCount: 0,
         }}
+        appStoreUrl={t('download.appStoreUrl')}
+        googlePlayUrl={t('download.googlePlayUrl')}
       />
       <div className="min-h-screen relative overflow-hidden">
         {/* Starry background effect */}

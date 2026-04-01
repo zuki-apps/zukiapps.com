@@ -144,7 +144,7 @@ export default function AppsCarousel() {
       featuresKey: 'footballTrivia.features',
       learnMoreKey: 'footballTrivia.learnMore',
       link: `/${locale}/football-trivia`,
-      isComingSoon: true,
+      isComingSoon: false,
       showFeatures: true,
     },
   ], [locale]);

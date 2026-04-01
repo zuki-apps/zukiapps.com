@@ -1,0 +1,27 @@
+# Runs only if this repo is mirrored to GitHub. Primary remote is Bitbucket —
+# use bitbucket-pipelines.yml for CI and sitemap ping on main.
+
+name: Ping sitemap on push
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  ping-sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ping Google with sitemap
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          if [ -z "$SITE_URL" ]; then
+            echo "SITE_URL not set in secrets, skipping ping"
+            exit 0
+          fi
+          SITEMAP_URL="$SITE_URL/sitemap.xml"
+          echo "Pinging sitemap: $SITEMAP_URL"
+          curl -m 10 "https://www.google.com/ping?sitemap=$SITEMAP_URL" || true
