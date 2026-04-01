@@ -1,0 +1,43 @@
+# Bitbucket Pipelines — CI must pass before merge (enable merge checks in repo settings).
+# Repository settings → Branch permissions → main → "Merge checks" → require successful build.
+#
+# ci:full = typecheck + lint + production build + HTTP smoke test for /sitemap.xml
+#
+# Optional: SITEMAP_USE_GIT=true for accurate lastmod from git (needs full clone).
+# Optional: SITE_LASTMOD=2025-01-15T00:00:00Z when git is unavailable.
+#
+# Optional repository variable (secured): SITE_URL = https://zukiapps.com
+# Used on main after ci:full to ping search engines.
+
+image: node:20
+
+definitions:
+  caches:
+    npm: ~/.npm
+  steps:
+    - step: &ci-check
+        name: Typecheck, lint, build, sitemap smoke
+        caches:
+          - npm
+        script:
+          - npm ci
+          - npm run ci:full
+
+pipelines:
+  default:
+    - step: *ci-check
+  branches:
+    main:
+      - step: *ci-check
+      - step:
+          name: Ping Google + Bing (optional)
+          script:
+            - |
+              if [ -z "${SITE_URL}" ]; then
+                echo "SITE_URL not set in Repository variables — skipping sitemap ping"
+                exit 0
+              fi
+              SITEMAP="${SITE_URL%/}/sitemap.xml"
+              echo "Pinging: $SITEMAP"
+              curl -m 15 -sS "https://www.google.com/ping?sitemap=${SITEMAP}" || true
+              curl -m 15 -sS "https://www.bing.com/webmaster/ping.aspx?siteMap=${SITEMAP}" || true

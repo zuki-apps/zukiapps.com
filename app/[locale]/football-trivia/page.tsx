@@ -7,8 +7,8 @@ import { ArrowLeft, Trophy, BarChart3, Zap, Mail, ExternalLink } from 'lucide-re
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
-import DownloadStoreFab from '@/components/DownloadStoreFab';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
+import DownloadStoreFab from '@/components/DownloadStoreFab';
 
 export default function FootballTriviaPage() {
   const t = useTranslations('footballTrivia');
@@ -33,7 +33,6 @@ export default function FootballTriviaPage() {
         applicationCategory="GameApplication"
         offers={{ price: '0', priceCurrency: 'USD' }}
         aggregateRating={{ ratingValue: 0, ratingCount: 0 }}
-        appStoreUrl={t('download.appStoreUrl')}
       />
       <div className="min-h-screen relative overflow-hidden">
         <div className="fixed inset-0 z-0" aria-hidden="true">
@@ -167,6 +166,42 @@ export default function FootballTriviaPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-white">{t('download.title')}</h2>
             <p className="text-lg text-gray-300 mb-8">{t('download.description')}</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              {t('download.appStoreUrl') && (
+                <a
+                  href={t('download.appStoreUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                  aria-label={t('download.appStoreAlt') || 'Download on App Store'}
+                >
+                  <Image
+                    src="/images/app-store-badge.svg"
+                    alt={t('download.appStoreAlt') || 'Download on App Store'}
+                    width={160}
+                    height={48}
+                    className="object-contain hover:opacity-90 transition-opacity"
+                  />
+                </a>
+              )}
+              {t('download.googlePlayUrl') && (
+                <a
+                  href={t('download.googlePlayUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                  aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                >
+                  <Image
+                    src="/images/google-play-badge.png"
+                    alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                    width={160}
+                    height={48}
+                    className="object-contain hover:opacity-90 transition-opacity"
+                  />
+                </a>
+              )}
+            </div>
             {!t('download.appStoreUrl') && !t('download.googlePlayUrl') && (
               <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-slate-600/35 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90 opacity-80">
                 <p className="text-sm text-gray-400">{t('download.soon')}</p>
@@ -257,7 +292,6 @@ export default function FootballTriviaPage() {
         </footer>
 
         <DownloadStoreFab
-          accent="blue"
           appStoreUrl={t('download.appStoreUrl')}
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
