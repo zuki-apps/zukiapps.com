@@ -136,7 +136,7 @@ export default function AppsCarousel() {
     },
     {
       id: 'football-trivia',
-      icon: <Trophy className="w-16 h-16 text-emerald-400" aria-hidden="true" />,
+      icon: <Trophy className="w-16 h-16 text-sky-400" aria-hidden="true" />,
       iconImage: '/images/football-trivia-icon.png',
       titleKey: 'footballTrivia.title',
       subtitleKey: 'footballTrivia.subtitle',
@@ -433,16 +433,16 @@ export default function AppsCarousel() {
                 )}
                 {app.showFeatures && app.id === 'football-trivia' && (
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.categories')}>
-                      <Trophy className="w-8 h-8 text-emerald-400 mb-2" aria-hidden="true" />
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-sky-500/45 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.categories')}>
+                      <Trophy className="w-8 h-8 text-sky-300 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('footballTrivia.features.categories')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.difficulty')}>
-                      <Trophy className="w-8 h-8 text-emerald-400 mb-2" aria-hidden="true" />
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-slate-500/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-slate-400/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.difficulty')}>
+                      <Trophy className="w-8 h-8 text-slate-200 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('footballTrivia.features.difficulty')}</p>
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-500/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.stats')}>
-                      <Trophy className="w-8 h-8 text-emerald-400 mb-2" aria-hidden="true" />
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-sky-500/45 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.stats')}>
+                      <Trophy className="w-8 h-8 text-sky-300 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('footballTrivia.features.stats')}</p>
                     </div>
                   </div>

@@ -75,7 +75,7 @@ export default function AppsGrid() {
     },
     {
       id: 'football-trivia',
-      icon: <Trophy className="w-12 h-12 text-emerald-400" aria-hidden="true" />,
+      icon: <Trophy className="w-12 h-12 text-sky-400" aria-hidden="true" />,
       iconImage: '/images/football-trivia-icon.png',
       titleKey: 'footballTrivia.title',
       link: `/${locale}/football-trivia`,

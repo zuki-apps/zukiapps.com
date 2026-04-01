@@ -40,15 +40,15 @@ export default async function FootballTriviaTermsPage({ params }: { params: Prom
           { name: tCommon('termsOfService'), path: '/football-trivia/terms' }
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-green-50 to-emerald-50">
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="mb-6 flex justify-end">
             <LanguageSwitcher />
           </div>
-          <div className="bg-emerald-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-emerald-600">
-              <h1 className="text-4xl font-bold text-emerald-600">{tApp('hero.title')}</h1>
-              <Link href={`/${locale}/football-trivia`} className="px-4 py-2 border-2 border-emerald-600 bg-white text-emerald-600 rounded-lg hover:bg-emerald-600 hover:text-white transition-colors text-sm">
+          <div className="bg-slate-50 rounded-2xl shadow-xl p-8 md:p-12">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-blue-700">
+              <h1 className="text-4xl font-bold text-blue-700">{tApp('hero.title')}</h1>
+              <Link href={`/${locale}/football-trivia`} className="px-4 py-2 border-2 border-blue-700 bg-white text-blue-700 rounded-lg hover:bg-blue-700 hover:text-white transition-colors text-sm">
                 {tCommon('back')}
               </Link>
             </div>
@@ -60,16 +60,16 @@ export default async function FootballTriviaTermsPage({ params }: { params: Prom
               </div>
               <div className="space-y-8">
                 <section>
-                  <h2 className="text-2xl font-bold text-emerald-600 mb-4">{t('section1.title')}</h2>
+                  <h2 className="text-2xl font-bold text-blue-700 mb-4">{t('section1.title')}</h2>
                   <p className="text-gray-700 leading-relaxed">{t('section1.content')}</p>
                 </section>
                 <section>
-                  <h2 className="text-2xl font-bold text-emerald-600 mb-4">{t('section19.title')}</h2>
+                  <h2 className="text-2xl font-bold text-blue-700 mb-4">{t('section19.title')}</h2>
                   <p className="text-gray-700 mb-4">{t('section19.content')}</p>
-                  <p className="text-gray-700 mb-2"><strong>{tCommon('email')}:</strong> <a href={`mailto:${t('section19.email')}`} className="text-emerald-600 hover:underline">{t('section19.email')}</a></p>
+                  <p className="text-gray-700 mb-2"><strong>{tCommon('email')}:</strong> <a href={`mailto:${t('section19.email')}`} className="text-blue-700 hover:underline">{t('section19.email')}</a></p>
                   <p className="text-gray-700 mb-2"><strong>{tCommon('address')}:</strong> {t('section19.address')}</p>
                   <p className="text-gray-700 text-sm">
-                    <Link href={`/${locale}/football-trivia/privacy`} className="text-emerald-600 hover:underline">
+                    <Link href={`/${locale}/football-trivia/privacy`} className="text-blue-700 hover:underline">
                       {locale === 'he' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
                     </Link>
                   </p>

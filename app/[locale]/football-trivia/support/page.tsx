@@ -40,28 +40,28 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
           { name: tCommon('support'), path: '/football-trivia/support' }
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-green-50 to-emerald-50">
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="mb-6 flex justify-end">
             <LanguageSwitcher />
           </div>
-          <div className="bg-emerald-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-emerald-600">
-              <h1 className="text-4xl font-bold text-emerald-600">{tApp('hero.title')}</h1>
-              <Link href={`/${locale}/football-trivia`} className="px-4 py-2 border-2 border-emerald-600 bg-white text-emerald-600 rounded-lg hover:bg-emerald-600 hover:text-white transition-colors text-sm">
+          <div className="bg-slate-50 rounded-2xl shadow-xl p-8 md:p-12">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-blue-700">
+              <h1 className="text-4xl font-bold text-blue-700">{tApp('hero.title')}</h1>
+              <Link href={`/${locale}/football-trivia`} className="px-4 py-2 border-2 border-blue-700 bg-white text-blue-700 rounded-lg hover:bg-blue-700 hover:text-white transition-colors text-sm">
                 {tCommon('back')}
               </Link>
             </div>
             <div className={locale === 'he' ? 'text-right' : 'text-left'}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-600 mb-8">{t('subtitle')}</p>
-              <section className="bg-white rounded-lg p-6 mb-8 border-l-4 border-emerald-600">
+              <section className="bg-white rounded-lg p-6 mb-8 border-l-4 border-blue-700">
                 <div className="flex items-start gap-4">
-                  <Mail className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-1" />
+                  <Mail className="w-6 h-6 text-blue-700 flex-shrink-0 mt-1" />
                   <div>
-                    <h2 className="text-2xl font-bold text-emerald-600 mb-3">{t('contact.title')}</h2>
+                    <h2 className="text-2xl font-bold text-blue-700 mb-3">{t('contact.title')}</h2>
                     <p className="text-gray-700 mb-4">{t('contact.description')}</p>
-                    <a href={`mailto:${t('contact.email')}`} className="inline-flex items-center gap-2 text-emerald-600 hover:text-emerald-700 font-semibold">
+                    <a href={`mailto:${t('contact.email')}`} className="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800 font-semibold">
                       <Mail className="w-5 h-5" />
                       {t('contact.email')}
                     </a>
@@ -69,11 +69,11 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
                 </div>
               </section>
               <section className="mb-8">
-                <h2 className="text-2xl font-bold text-emerald-600 mb-4">{t('quickLinks.title')}</h2>
+                <h2 className="text-2xl font-bold text-blue-700 mb-4">{t('quickLinks.title')}</h2>
                 <div className="grid md:grid-cols-2 gap-4">
                   <Link href={`/${locale}/football-trivia/privacy`} className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200">
                     <div className="flex items-start gap-3">
-                      <Shield className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-1" />
+                      <Shield className="w-5 h-5 text-blue-700 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">{t('quickLinks.privacy.title')}</h3>
                         <p className="text-sm text-gray-600">{t('quickLinks.privacy.description')}</p>
@@ -82,7 +82,7 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
                   </Link>
                   <Link href={`/${locale}/football-trivia/terms`} className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200">
                     <div className="flex items-start gap-3">
-                      <FileText className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-1" />
+                      <FileText className="w-5 h-5 text-blue-700 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">{t('quickLinks.terms.title')}</h3>
                         <p className="text-sm text-gray-600">{t('quickLinks.terms.description')}</p>
@@ -91,14 +91,14 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
                   </Link>
                 </div>
               </section>
-              <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-emerald-600">
+              <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-blue-700">
                 <div className="flex items-start gap-3">
-                  <Mail className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-1" />
+                  <Mail className="w-6 h-6 text-blue-700 flex-shrink-0 mt-1" />
                   <div>
-                    <h2 className="text-2xl font-bold text-emerald-600 mb-3">{t('additionalHelp.title')}</h2>
+                    <h2 className="text-2xl font-bold text-blue-700 mb-3">{t('additionalHelp.title')}</h2>
                     <p className="text-gray-700 mb-4">{t('additionalHelp.description')}</p>
                     <p className="text-gray-700">
-                      <strong>{tCommon('email')}:</strong> <a href={`mailto:${t('contact.email')}`} className="text-emerald-600 hover:underline">{t('contact.email')}</a>
+                      <strong>{tCommon('email')}:</strong> <a href={`mailto:${t('contact.email')}`} className="text-blue-700 hover:underline">{t('contact.email')}</a>
                     </p>
                   </div>
                 </div>
