@@ -3,6 +3,8 @@ import Script from 'next/script';
 import type { Metadata } from 'next';
 import { getSiteUrl } from '@/lib/hreflang';
 
+const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
+
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   icons: {
@@ -17,9 +19,7 @@ export const metadata: Metadata = {
     shortcut: '/logo.png',
   },
   manifest: '/manifest.json',
-  verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || 'vptLaNoDGkQvPt_cWG3D-SYIa253GayWGOhN'
-  }
+  ...(googleVerification ? { verification: { google: googleVerification } } : {}),
 };
 
 export default function RootLayout({

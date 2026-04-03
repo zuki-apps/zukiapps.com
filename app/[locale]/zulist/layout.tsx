@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
-import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
 
 export async function generateMetadata({
   params
@@ -54,7 +54,7 @@ export async function generateMetadata({
     },
     openGraph: {
       type: 'website',
-      locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
+      locale: openGraphLocale(locale),
       url: buildCanonical(locale, '/zulist'),
       siteName: 'Zuki Apps',
       title,

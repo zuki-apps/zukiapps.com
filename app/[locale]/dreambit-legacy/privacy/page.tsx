@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
-import { buildCanonical, buildLanguageAlternates } from '@/lib/hreflang';
+import { buildCanonical, buildLanguageAlternates, openGraphLocale } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -27,10 +27,11 @@ export async function generateMetadata({
     openGraph: {
       title: t('metaTitle'),
       description: t('description'),
+      locale: openGraphLocale(locale),
       url: canonical,
       type: 'article',
-      siteName: 'Zuki Apps'
-    }
+      siteName: 'Zuki Apps',
+    },
   };
 }
 

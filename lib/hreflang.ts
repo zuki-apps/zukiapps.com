@@ -1,5 +1,25 @@
 import { routing } from '@/routing';
 
+/** Open Graph `og:locale` (language_TERRITORY) per locale code */
+const OG_LOCALE: Record<string, string> = {
+  en: 'en_US',
+  he: 'he_IL',
+  de: 'de_DE',
+  es: 'es_ES',
+  it: 'it_IT',
+  pt: 'pt_BR',
+  ru: 'ru_RU',
+  fr: 'fr_FR',
+  ja: 'ja_JP',
+  ko: 'ko_KR',
+  ar: 'ar_SA',
+  zh: 'zh_CN',
+};
+
+export function openGraphLocale(locale: string): string {
+  return OG_LOCALE[locale] ?? locale;
+}
+
 /** Canonical site origin, no trailing slash */
 export function getSiteUrl(): string {
   return (process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com').replace(/\/+$/, '');

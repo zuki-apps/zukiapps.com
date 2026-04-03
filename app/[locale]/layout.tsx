@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
-import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
 import { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import '../globals.css';
@@ -88,7 +88,7 @@ export async function generateMetadata({
     },
     openGraph: {
       type: 'website',
-      locale: locale === 'en' ? 'en_US' : locale === 'he' ? 'he_IL' : locale,
+      locale: openGraphLocale(locale),
       url: buildCanonical(locale, ''),
       siteName,
       title,
@@ -96,8 +96,8 @@ export async function generateMetadata({
       images: [
         {
           url: logoUrl,
-          width: 1200,
-          height: 630,
+          width: 1024,
+          height: 1024,
           alt: 'Zuki Apps Logo',
         },
       ],
@@ -121,9 +121,9 @@ export async function generateMetadata({
         'max-snippet': -1,
       },
     },
-    verification: {
-      google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || 'vptLaNoDGkQvPt_cWG3D-SYIa253GayWGOhN'
-    },
+    ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+      ? { verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } }
+      : {}),
     icons: {
       icon: [
         { url: '/logo.png', sizes: '512x512', type: 'image/png' },

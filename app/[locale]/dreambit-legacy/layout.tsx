@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
-import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
+import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
 
 export async function generateMetadata({
   params
@@ -30,9 +30,10 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
+      locale: openGraphLocale(locale),
       url: buildCanonical(locale, '/dreambit-legacy'),
       siteName: 'Zuki Apps',
-      type: 'website'
+      type: 'website',
     },
     robots: { index: true, follow: true }
   };

@@ -32,6 +32,7 @@ const LARGE_RASTER_ICON_KEYS = new Set<(typeof APP_KEYS)[number]>([
   'whistleCamera',
   'navigUp',
   'worldCup2014',
+  'trickyRooms',
   'flipLight'
 ]);
 
