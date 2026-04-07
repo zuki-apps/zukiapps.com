@@ -40,6 +40,7 @@ export default function TempoLabProPage() {
           ratingCount: 0,
         }}
         appStoreUrl={t('download.appStoreUrl')}
+        googlePlayUrl={t('download.googlePlayUrl')}
       />
       <div className="min-h-screen relative overflow-hidden">
         <div className="fixed inset-0 z-0" aria-hidden="true">

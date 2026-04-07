@@ -131,7 +131,7 @@ export default function AppsCarousel() {
       featuresKey: 'tempoLabPro.features',
       learnMoreKey: 'tempoLabPro.learnMore',
       link: `/${locale}/tempoLabPro`,
-      isComingSoon: true,
+      isComingSoon: false,
       showFeatures: true,
     },
     {
