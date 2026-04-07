@@ -294,6 +294,7 @@ export default function FootballTriviaPage() {
         </footer>
 
         <DownloadStoreFab
+          accent="blue"
           appStoreUrl={t('download.appStoreUrl')}
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
