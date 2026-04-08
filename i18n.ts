@@ -41,7 +41,20 @@ export default getRequestConfig(async ({ requestLocale }) => {
     string,
     unknown
   >;
-  const dreambitLegacy = (await import('./messages/dreambitLegacy.json')).default;
+  const dreambitBase = (await import('./messages/dreambitLegacy.json')).default as Record<
+    string,
+    unknown
+  >;
+  let dreambitLegacy = dreambitBase;
+  if (locale !== routing.defaultLocale) {
+    try {
+      const dreambitOverlay = (await import(`./messages/dreambit-legacy/${locale}.json`))
+        .default as Record<string, unknown>;
+      dreambitLegacy = deepMergeMessages(dreambitBase, dreambitOverlay);
+    } catch {
+      /* no overlay: keep English base */
+    }
+  }
 
   return {
     locale,
