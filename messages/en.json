@@ -121,6 +121,17 @@
       },
       "learnMore": "Learn more about Football Trivia Master →"
     },
+    "funFactsTrivia": {
+      "title": "Fun Facts Trivia",
+      "subtitle": "Timed trivia across science, history & more",
+      "description": "Quick rounds of fun-fact questions in eight categories, three difficulties, streaks and stats. Coming soon to the App Store and Google Play.",
+      "features": {
+        "categories": "Eight categories",
+        "gameplay": "Timed rounds & difficulties",
+        "extras": "Stats & leaderboards"
+      },
+      "learnMore": "Learn more about Fun Facts Trivia →"
+    },
     "tempoLabPro": {
       "title": "TempoLab Pro - Tempo & Pitch",
       "subtitle": "Tempo and pitch audio practice",
@@ -167,7 +178,7 @@
     "lastUpdated": "Last updated: January 2025",
     "traderIdentification": {
       "title": "Trader Identification",
-      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
+      "content": "Zuki Apps operates as a trader under the EU Digital Services Act (DSA). All applications (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Fun Facts Trivia, and other Zuki Apps titles) are provided by Zuki Apps, a business entity committed to compliance with EU regulations."
     },
     "businessInfo": {
       "title": "Business Information",
@@ -1869,6 +1880,192 @@
       "additionalHelp": {
         "title": "Need More Help?",
         "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
+      }
+    }
+  },
+  "funFactsTrivia": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming soon on the App Store and Google Play",
+      "title": "Fun Facts Trivia",
+      "subtitle": "Eight categories · Easy, Medium & Hard · Streaks & stats",
+      "description": "A Flutter trivia game for iOS and Android: timed questions across science, history, geography, entertainment, and more. Play offline, climb Game Center and Play Games leaderboards, unlock achievements, and optionally remove ads with a one-time purchase."
+    },
+    "features": {
+      "title": "Key Features",
+      "categories": {
+        "title": "Eight themed categories",
+        "description": "Explore trivia topics from the natural world to culture and odd facts.",
+        "items": [
+          "Science & Nature",
+          "History & Culture",
+          "Geography & World",
+          "Odd Facts & Records",
+          "Movies & Film",
+          "Amazing Facts",
+          "Sports & Games",
+          "World Records"
+        ]
+      },
+      "gameplay": {
+        "title": "Gameplay",
+        "description": "Pick your pace and challenge level.",
+        "items": [
+          "Timed rounds with multiple-choice answers",
+          "Easy, Medium, and Hard difficulties",
+          "Fully offline play",
+          "12+ interface languages with regional variants"
+        ]
+      },
+      "progress": {
+        "title": "Progress & competition",
+        "description": "Track how you improve and compare with friends.",
+        "items": [
+          "Streaks and session stats",
+          "Game Center (iOS) and Play Games (Android)",
+          "Leaderboards and achievements",
+          "Optional in-app purchase to remove ads"
+        ]
+      }
+    },
+    "status": {
+      "title": "Availability",
+      "description": "Fun Facts Trivia is not on the stores yet. Apple App Store and Google Play links will be added here when the app is published.",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "1.0.0",
+      "statusValue": "Coming soon — App Store & Google Play"
+    },
+    "download": {
+      "title": "Download",
+      "description": "Fun Facts Trivia is coming soon to the App Store and Google Play.",
+      "soon": "App Store and Google Play badges will appear here once the app is live.",
+      "appStoreUrl": "",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Fun Facts Trivia - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: April 2026",
+      "intro": "Please read these Terms of Use carefully before using Fun Facts Trivia. By accessing or using our service, you agree to be bound by these terms.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Fun Facts Trivia (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a trivia game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Fun Facts Trivia is a mobile trivia application. The Service includes: multiple-choice questions across themed categories, difficulty levels, timed play, local statistics, optional Game Center / Play Games features, advertising, and optional in-app purchases (e.g. ad removal).",
+        "items": [
+          "Trivia gameplay across multiple categories",
+          "Easy, Medium, and Hard difficulties",
+          "Offline play with locally stored content",
+          "Ads and optional ad removal via in-app purchase",
+          "Leaderboards and achievements where platform services are available"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: April 2026",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Fun Facts Trivia collects minimal information necessary to provide the service. Game progress, preferences, and statistics may be stored locally on your device. We collect information you provide when you contact support. If you use Game Center, Play Games, ads, or analytics, additional data may be processed as described in your platform and ad provider settings."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information to provide, maintain, and improve the app, respond to support requests, and comply with legal obligations. Advertising partners may use identifiers to deliver and measure ads in accordance with their policies."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell your personal information. Data may be shared with platform providers (Apple, Google) for purchases, Game Center / Play Games, and crash reporting when those features are enabled, subject to their policies."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement reasonable measures to protect information. No method of transmission or storage is completely secure; use the app at your own discretion."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You can stop using the app, clear local data in settings where available, or uninstall the app. For platform-held data, use Apple or Google account tools. Contact us for questions about this Policy."
+      },
+      "section6": {
+        "title": "6. Advertising and Children",
+        "content": "The app may display third-party ads. Parents should review store age ratings and device parental controls. We do not knowingly collect personal information from children in violation of applicable law."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "What is Fun Facts Trivia?",
+          "answer": "Fun Facts Trivia is a mobile quiz game with multiple-choice questions across eight themed categories. You can choose difficulty, play timed rounds, build streaks, and review your stats. It is built with Flutter for iOS and Android."
+        },
+        "q2": {
+          "question": "Does the app work offline?",
+          "answer": "Yes. Questions are bundled with the app, so you can play without an internet connection. You may need connectivity for ads, in-app purchases, sign-in to Game Center or Play Games, or optional updates."
+        },
+        "q3": {
+          "question": "How do I remove ads?",
+          "answer": "An optional one-time in-app purchase removes ads. Purchases are processed by Apple or Google; restore purchases from the store or in-app settings if you reinstall."
+        },
+        "q4": {
+          "question": "Are there leaderboards?",
+          "answer": "On supported devices, the app can use Apple Game Center and Google Play Games for leaderboards and achievements when you are signed in to those services."
+        },
+        "q5": {
+          "question": "Which languages are supported?",
+          "answer": "The app UI is localized for many languages and regional variants (including English, Hebrew, Arabic, European and Asian languages). You can change language in the app settings."
+        },
+        "q6": {
+          "question": "Where can I get help?",
+          "answer": "Email zuki.apps.dev@gmail.com for support. This website lists the Privacy Policy and Terms of Use for Fun Facts Trivia."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
       }
     }
   },

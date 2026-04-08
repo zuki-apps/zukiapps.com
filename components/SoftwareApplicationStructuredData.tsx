@@ -33,7 +33,10 @@ export default function SoftwareApplicationStructuredData({
   googlePlayUrl,
 }: SoftwareApplicationStructuredDataProps) {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
-  
+
+  const isValidListingUrl = (u: string | undefined) =>
+    !!u && /^https?:\/\//i.test(u.trim());
+
   // Determine app URL based on app name
   let appPath = '/zulist';
   if (appName.includes('Hush Gallery')) {
@@ -48,10 +51,24 @@ export default function SoftwareApplicationStructuredData({
     appPath = '/tempoLabPro';
   } else if (appName.includes('Football Trivia') || appName.includes('Football Trivia Master')) {
     appPath = '/football-trivia';
+  } else if (appName.includes('Fun Facts Trivia')) {
+    appPath = '/fun-facts-trivia';
   } else if (appName.includes('Bit Scope')) {
     appPath = '/bit-scope';
   }
-  
+
+  const iconByPath: Record<string, string> = {
+    '/zulist': '/images/zulist-icon.png',
+    '/hush-gallery': '/images/hush-gallery-icon.png',
+    '/whistle-camera': '/images/whistle-camera-icon.png',
+    '/power-interval-timer': '/images/power-interval-timer-icon.png',
+    '/sudoku-puzzle': '/images/sudoku-puzzle-icon.png',
+    '/tempoLabPro': '/images/tempo-lab-pro-icon.png',
+    '/football-trivia': '/images/football-trivia-icon.png',
+    '/fun-facts-trivia': '/images/fun-facts-trivia-icon.png',
+    '/bit-scope': '/images/bit-scope-icon.png',
+  };
+
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
     ? `${baseUrl}${appPath}`
     : `${baseUrl}/${locale}${appPath}`;
@@ -87,6 +104,7 @@ export default function SoftwareApplicationStructuredData({
     }>;
     applicationSubCategory?: string;
     softwareVersion?: string;
+    image?: string[];
   } = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
@@ -102,6 +120,11 @@ export default function SoftwareApplicationStructuredData({
     },
   };
 
+  const iconPath = iconByPath[appPath];
+  if (iconPath) {
+    softwareApplicationData.image = [`${baseUrl}${iconPath}`];
+  }
+
   if (offers) {
     softwareApplicationData.offers = {
       '@type': 'Offer',
@@ -110,7 +133,13 @@ export default function SoftwareApplicationStructuredData({
     };
   }
 
-  if (aggregateRating) {
+  // Omit placeholder ratings (0/0) — Google rich-result guidelines require real user ratings.
+  if (
+    aggregateRating &&
+    aggregateRating.ratingCount > 0 &&
+    aggregateRating.ratingValue > 0 &&
+    aggregateRating.ratingValue <= 5
+  ) {
     softwareApplicationData.aggregateRating = {
       '@type': 'AggregateRating',
       ratingValue: aggregateRating.ratingValue,
@@ -118,22 +147,24 @@ export default function SoftwareApplicationStructuredData({
     };
   }
 
-  if (appStoreUrl || googlePlayUrl) {
+  const storeIos = appStoreUrl?.trim();
+  const storeAndroid = googlePlayUrl?.trim();
+  if (isValidListingUrl(storeIos) || isValidListingUrl(storeAndroid)) {
     softwareApplicationData.downloadUrl = [];
-    if (appStoreUrl) {
+    if (isValidListingUrl(storeIos)) {
       softwareApplicationData.downloadUrl.push({
         '@type': 'SoftwareApplication',
         applicationCategory: 'MobileApplication',
         operatingSystem: 'iOS',
-        url: appStoreUrl,
+        url: storeIos!,
       });
     }
-    if (googlePlayUrl) {
+    if (isValidListingUrl(storeAndroid)) {
       softwareApplicationData.downloadUrl.push({
         '@type': 'SoftwareApplication',
         applicationCategory: 'MobileApplication',
         operatingSystem: 'Android',
-        url: googlePlayUrl,
+        url: storeAndroid!,
       });
     }
   }

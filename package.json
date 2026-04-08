@@ -10,6 +10,9 @@
     "ci:check": "npx tsc --noEmit && npm run lint && npm run build",
     "ci:full": "npm run ci:check && npm run smoke:sitemap",
     "smoke:sitemap": "node scripts/smoke-sitemap.mjs",
+    "messages:sync": "node scripts/sync-messages-from-en.mjs",
+    "messages:report": "node scripts/sync-messages-report.mjs",
+    "messages:apply-fun-facts": "node scripts/apply-fun-facts-translations.mjs",
     "prepare": "husky"
   },
   "dependencies": {

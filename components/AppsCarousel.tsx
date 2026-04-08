@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary, Music, Trophy, Wand2, Palette } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary, Music, Trophy, Wand2, Palette, Lightbulb } from 'lucide-react';
 
 interface AppData {
   id: string;
@@ -145,6 +145,19 @@ export default function AppsCarousel() {
       learnMoreKey: 'footballTrivia.learnMore',
       link: `/${locale}/football-trivia`,
       isComingSoon: false,
+      showFeatures: true,
+    },
+    {
+      id: 'fun-facts-trivia',
+      icon: <Lightbulb className="w-16 h-16 text-amber-400" aria-hidden="true" />,
+      iconImage: '/images/fun-facts-trivia-icon.png',
+      titleKey: 'funFactsTrivia.title',
+      subtitleKey: 'funFactsTrivia.subtitle',
+      descriptionKey: 'funFactsTrivia.description',
+      featuresKey: 'funFactsTrivia.features',
+      learnMoreKey: 'funFactsTrivia.learnMore',
+      link: `/${locale}/fun-facts-trivia`,
+      isComingSoon: true,
       showFeatures: true,
     },
   ], [locale]);
@@ -444,6 +457,22 @@ export default function AppsCarousel() {
                     <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-sky-500/45 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.stats')}>
                       <Trophy className="w-8 h-8 text-sky-300 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('footballTrivia.features.stats')}</p>
+                    </div>
+                  </div>
+                )}
+                {app.showFeatures && app.id === 'fun-facts-trivia' && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300" role="article" aria-label={t('funFactsTrivia.features.categories')}>
+                      <Lightbulb className="w-8 h-8 text-amber-300 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('funFactsTrivia.features.categories')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/40 transition-all duration-300" role="article" aria-label={t('funFactsTrivia.features.gameplay')}>
+                      <Lightbulb className="w-8 h-8 text-amber-200 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('funFactsTrivia.features.gameplay')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300" role="article" aria-label={t('funFactsTrivia.features.extras')}>
+                      <Lightbulb className="w-8 h-8 text-amber-300 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('funFactsTrivia.features.extras')}</p>
                     </div>
                   </div>
                 )}

@@ -50,8 +50,20 @@ export async function generateMetadata({
       title,
       description,
       images: [`${baseUrl}/images/football-trivia-icon.png`],
+      creator: '@zuki_apps',
+      site: '@zuki_apps',
     },
-    robots: { index: true, follow: true },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
   };
 }
 

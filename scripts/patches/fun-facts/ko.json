@@ -1,0 +1,144 @@
+{
+  "homeFunFacts": {
+    "title": "Fun Facts Trivia",
+    "subtitle": "과학·역사 등 시간 제한 퀴즈",
+    "description": "8개 카테고리, 3단계 난이도, 연속 정답과 통계가 있는 퀴즈 라운드. App Store와 Google Play 곧 출시.",
+    "features": {
+      "categories": "8개 카테고리",
+      "gameplay": "시간 제한 라운드와 난이도",
+      "extras": "통계와 리더보드"
+    },
+    "learnMore": "Fun Facts Trivia 자세히 보기 →"
+  },
+  "funFactsTrivia": {
+    "back": "홈으로",
+    "hero": {
+      "badge": "App Store와 Google Play 곧 출시",
+      "title": "Fun Facts Trivia",
+      "subtitle": "8개 카테고리 · 쉬움·보통·어려움 · 연속 정답과 통계",
+      "description": "iOS와 Android용 Flutter 퀴즈 앱: 과학, 역사, 지리, 엔터테인먼트 등 시간 제한 객관식. 오프라인, Game Center와 Play Games 리더보드·업적, 광고 제거 일회성 인앱 구매(선택)."
+    },
+    "features": {
+      "title": "주요 기능",
+      "categories": {
+        "title": "8가지 테마 카테고리",
+        "description": "자연·과학부터 문화·기묘한 잡학까지.",
+        "items": [
+          "과학과 자연",
+          "역사와 문화",
+          "지리와 세계",
+          "기묘한 사실과 기록",
+          "영화와 시네마",
+          "놀라운 사실",
+          "스포츠와 게임",
+          "세계 기록"
+        ]
+      },
+      "gameplay": {
+        "title": "게임플레이",
+        "description": "속도와 난이도를 선택하세요.",
+        "items": [
+          "시간 제한 객관식 퀴즈",
+          "쉬움·보통·어려움",
+          "완전 오프라인",
+          "12개 이상의 UI 언어 및 지역 변형"
+        ]
+      },
+      "progress": {
+        "title": "진행과 경쟁",
+        "description": "성장을 추적하고 친구와 비교하세요.",
+        "items": [
+          "연속 정답과 세션 통계",
+          "Game Center(iOS)와 Play Games(Android)",
+          "리더보드와 업적",
+          "광고 제거 선택 인앱 구매"
+        ]
+      }
+    },
+    "status": {
+      "title": "제공 현황",
+      "description": "Fun Facts Trivia는 아직 스토어에 없습니다. 출시 후 App Store와 Google Play 링크를 여기에 추가합니다.",
+      "version": "버전",
+      "status": "상태",
+      "versionValue": "1.0.0",
+      "statusValue": "곧 출시 — App Store와 Google Play"
+    },
+    "download": {
+      "title": "다운로드",
+      "description": "Fun Facts Trivia가 곧 App Store와 Google Play에 옵니다.",
+      "soon": "앱이 출시되면 여기에 스토어 배지가 표시됩니다.",
+      "appStoreAlt": "App Store에서 다운로드",
+      "googlePlayAlt": "Google Play에서 받기"
+    },
+    "links": {
+      "title": "중요 링크",
+      "support": {
+        "title": "기술 지원",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Fun Facts Trivia — 무단 복제 금지",
+      "tagline": "Zuki Apps 일원 • 이스라엘에서 개발 • ❤️으로 제작"
+    },
+    "support": {
+      "title": "지원 및 도움말",
+      "subtitle": "자주 묻는 질문과 직접 문의를 도와드립니다.",
+      "contact": {
+        "title": "문의하기",
+        "description": "질문이나 문제가 있으면 이메일로 연락 주세요. 가능한 한 빨리 답변합니다.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "빠른 링크",
+        "privacy": {
+          "title": "개인정보 처리방침",
+          "description": "데이터 보호 방식"
+        },
+        "terms": {
+          "title": "이용약관",
+          "description": "약관 읽기"
+        }
+      },
+      "faq": {
+        "title": "자주 묻는 질문",
+        "q1": {
+          "question": "Fun Facts Trivia란?",
+          "answer": "8개 카테고리 객관식 모바일 퀴즈. 난이도 선택, 시간 제한 라운드, 연속 정답과 통계. Flutter로 만든 iOS·Android 앱입니다."
+        },
+        "q2": {
+          "question": "오프라인으로 플레이할 수 있나요?",
+          "answer": "네. 문제는 앱에 포함되어 있습니다. 광고, 구매, Game Center/Play Games, 업데이트에는 인터넷이 필요할 수 있습니다."
+        },
+        "q3": {
+          "question": "광고를 없애려면?",
+          "answer": "선택적 일회성 인앱 구매로 광고를 제거할 수 있습니다. Apple 또는 Google을 통해 결제. 재설치 시 스토어 또는 앱에서 복원하세요."
+        },
+        "q4": {
+          "question": "리더보드가 있나요?",
+          "answer": "지원 기기에서 로그인 시 Game Center와 Play Games로 리더보드와 업적을 이용할 수 있습니다."
+        },
+        "q5": {
+          "question": "어떤 언어를 지원하나요?",
+          "answer": "UI는 여러 언어와 지역 변형으로 현지화되어 있습니다. 설정에서 변경할 수 있습니다."
+        },
+        "q6": {
+          "question": "도움은 어디서 받나요?",
+          "answer": "이메일: zuki.apps.dev@gmail.com. 사이트에 개인정보 처리방침과 이용약관이 있습니다."
+        }
+      },
+      "additionalHelp": {
+        "title": "더 도움이 필요하신가요?",
+        "description": "답을 찾지 못했거나 기술 문제가 있으면 문의해 주세요. 보통 24~48시간 내에 답변합니다."
+      }
+    },
+    "terms": {
+      "title": "이용약관",
+      "lastUpdated": "최종 업데이트: 2026년 4월"
+    },
+    "privacy": {
+      "title": "개인정보 처리방침",
+      "lastUpdated": "최종 업데이트: 2026년 4월"
+    }
+  }
+}

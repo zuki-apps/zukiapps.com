@@ -1,0 +1,144 @@
+{
+  "homeFunFacts": {
+    "title": "Fun Facts Trivia",
+    "subtitle": "科学や歴史などのタイムド・トリビア",
+    "description": "8カテゴリ、3難易度、連続正解と統計のクイズラウンド。App StoreとGoogle Playに近日公開。",
+    "features": {
+      "categories": "8カテゴリ",
+      "gameplay": "タイムドラウンドと難易度",
+      "extras": "統計とリーダーボード"
+    },
+    "learnMore": "Fun Facts Trivia の詳細 →"
+  },
+  "funFactsTrivia": {
+    "back": "ホームに戻る",
+    "hero": {
+      "badge": "App StoreとGoogle Playに近日公開",
+      "title": "Fun Facts Trivia",
+      "subtitle": "8カテゴリ · かんたん・ふつう・むずかしい · 連続正解と統計",
+      "description": "iOSとAndroid向けFlutter製トリビア：科学・歴史・地理・エンタメなどのタイムドクイズ。オフライン対応、Game CenterとPlay Gamesのランキングと実績、広告削除の一回限り課金（任意）。"
+    },
+    "features": {
+      "title": "主な機能",
+      "categories": {
+        "title": "8つのテーマカテゴリ",
+        "description": "自然や科学から文化、奇妙な雑学まで。",
+        "items": [
+          "科学と自然",
+          "歴史と文化",
+          "地理と世界",
+          "奇妙な事実と記録",
+          "映画とシネマ",
+          "驚きの事実",
+          "スポーツとゲーム",
+          "世界記録"
+        ]
+      },
+      "gameplay": {
+        "title": "ゲームプレイ",
+        "description": "ペースと難易度を選べます。",
+        "items": [
+          "タイムドの4択クイズ",
+          "かんたん・ふつう・むずかしい",
+          "完全オフライン対応",
+          "12以上のUI言語と地域バリアント"
+        ]
+      },
+      "progress": {
+        "title": "進行と競争",
+        "description": "上達を追跡し、友だちと比較。",
+        "items": [
+          "連続正解とセッション統計",
+          "Game Center（iOS）とPlay Games（Android）",
+          "リーダーボードと実績",
+          "広告削除の任意アプリ内課金"
+        ]
+      }
+    },
+    "status": {
+      "title": "提供状況",
+      "description": "Fun Facts Triviaはまだストアにありません。公開後にApp StoreとGoogle Playのリンクをここに追加します。",
+      "version": "バージョン",
+      "status": "ステータス",
+      "versionValue": "1.0.0",
+      "statusValue": "近日公開 — App StoreとGoogle Play"
+    },
+    "download": {
+      "title": "ダウンロード",
+      "description": "Fun Facts TriviaはApp StoreとGoogle Playに近日登場します。",
+      "soon": "アプリが公開されたらストアバッジがここに表示されます。",
+      "appStoreAlt": "App Storeからダウンロード",
+      "googlePlayAlt": "Google Playで手に入れよう"
+    },
+    "links": {
+      "title": "重要なリンク",
+      "support": {
+        "title": "テクニカルサポート",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Fun Facts Trivia — 無断転載禁止",
+      "tagline": "Zuki Apps の一員 • イスラエルで開発 • ❤️ を込めて"
+    },
+    "support": {
+      "title": "サポートとヘルプ",
+      "subtitle": "よくある質問への回答や直接のお問い合わせに対応します。",
+      "contact": {
+        "title": "お問い合わせ",
+        "description": "ご質問や不具合はメールで。できるだけ早く返信します。",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "クイックリンク",
+        "privacy": {
+          "title": "プライバシーポリシー",
+          "description": "データの取り扱い"
+        },
+        "terms": {
+          "title": "利用規約",
+          "description": "規約を読む"
+        }
+      },
+      "faq": {
+        "title": "よくある質問",
+        "q1": {
+          "question": "Fun Facts Triviaとは？",
+          "answer": "8カテゴリの4択モバイルクイズ。難易度選択、タイムドラウンド、連続正解と統計。Flutter製のiOS/Android向けアプリです。"
+        },
+        "q2": {
+          "question": "オフラインで遊べますか？",
+          "answer": "はい。問題はアプリに同梱されています。広告、課金、Game Center/Play Games、更新のために通信が必要な場合があります。"
+        },
+        "q3": {
+          "question": "広告を消すには？",
+          "answer": "任意の一回限りアプリ内課金で広告を削除できます。AppleまたはGoogle経由で購入。再インストール時はストアまたはアプリから復元してください。"
+        },
+        "q4": {
+          "question": "ランキングはありますか？",
+          "answer": "対応端末では、サインイン時にGame CenterとPlay Gamesでランキングと実績が利用できます。"
+        },
+        "q5": {
+          "question": "対応言語は？",
+          "answer": "UIは多数の言語・地域バリアントにローカライズされています。設定で変更できます。"
+        },
+        "q6": {
+          "question": "ヘルプはどこで？",
+          "answer": "zuki.apps.dev@gmail.com までメールを。サイトにプライバシーと利用規約があります。"
+        }
+      },
+      "additionalHelp": {
+        "title": "それでも困ったら",
+        "description": "答えが見つからない場合や技術的な問題はお問い合わせください。通常24〜48時間以内に返信します。"
+      }
+    },
+    "terms": {
+      "title": "利用規約",
+      "lastUpdated": "最終更新：2026年4月"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新：2026年4月"
+    }
+  }
+}

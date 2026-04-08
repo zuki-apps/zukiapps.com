@@ -1,0 +1,144 @@
+{
+  "homeFunFacts": {
+    "title": "Fun Facts Trivia",
+    "subtitle": "限时问答：科学、历史等",
+    "description": "八个类别、三种难度、连击与统计的问答轮次。即将登陆 App Store 与 Google Play。",
+    "features": {
+      "categories": "八个类别",
+      "gameplay": "限时轮次与难度",
+      "extras": "统计与排行榜"
+    },
+    "learnMore": "了解 Fun Facts Trivia →"
+  },
+  "funFactsTrivia": {
+    "back": "返回首页",
+    "hero": {
+      "badge": "即将上架 App Store 与 Google Play",
+      "title": "Fun Facts Trivia",
+      "subtitle": "八个类别 · 简单、中等、困难 · 连击与统计",
+      "description": "面向 iOS 与 Android 的 Flutter 问答应用：科学、历史、地理、娱乐等限时选择题。可完全离线，Game Center 与 Play Games 排行榜与成就，可选一次性内购去广告。"
+    },
+    "features": {
+      "title": "主要功能",
+      "categories": {
+        "title": "八个主题类别",
+        "description": "从自然与科学到文化与奇闻。",
+        "items": [
+          "科学与自然",
+          "历史与文化",
+          "地理与世界",
+          "奇闻与纪录",
+          "电影与银幕",
+          "惊人事实",
+          "体育与游戏",
+          "世界纪录"
+        ]
+      },
+      "gameplay": {
+        "title": "玩法",
+        "description": "自选节奏与难度。",
+        "items": [
+          "限时选择题",
+          "简单、中等、困难",
+          "完全离线可玩",
+          "12 种以上界面语言与地区变体"
+        ]
+      },
+      "progress": {
+        "title": "进度与竞技",
+        "description": "追踪成长并与好友比较。",
+        "items": [
+          "连击与场次统计",
+          "Game Center（iOS）与 Play Games（Android）",
+          "排行榜与成就",
+          "可选内购去除广告"
+        ]
+      }
+    },
+    "status": {
+      "title": "上架情况",
+      "description": "Fun Facts Trivia 尚未上架应用商店。发布后我们会在此添加 App Store 与 Google Play 链接。",
+      "version": "版本",
+      "status": "状态",
+      "versionValue": "1.0.0",
+      "statusValue": "即将推出 — App Store 与 Google Play"
+    },
+    "download": {
+      "title": "下载",
+      "description": "Fun Facts Trivia 即将登陆 App Store 与 Google Play。",
+      "soon": "应用上架后，此处将显示商店徽章。",
+      "appStoreAlt": "在 App Store 下载",
+      "googlePlayAlt": "在 Google Play 获取"
+    },
+    "links": {
+      "title": "重要链接",
+      "support": {
+        "title": "技术支持",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Fun Facts Trivia — 保留所有权利",
+      "tagline": "Zuki Apps 旗下 · 以色列开发 · 用心制作 ❤️"
+    },
+    "support": {
+      "title": "支持与帮助",
+      "subtitle": "常见问题解答或直接联系我们。",
+      "contact": {
+        "title": "联系我们",
+        "description": "有疑问或遇到问题？发邮件给我们，我们会尽快回复。",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "快捷链接",
+        "privacy": {
+          "title": "隐私政策",
+          "description": "我们如何保护您的数据"
+        },
+        "terms": {
+          "title": "使用条款",
+          "description": "阅读条款"
+        }
+      },
+      "faq": {
+        "title": "常见问题",
+        "q1": {
+          "question": "什么是 Fun Facts Trivia？",
+          "answer": "八个类别的手机选择题问答。可选难度、限时轮次、连击与统计。使用 Flutter 构建的 iOS/Android 应用。"
+        },
+        "q2": {
+          "question": "可以离线玩吗？",
+          "answer": "可以。题目内置在应用中。广告、购买、Game Center/Play Games 或更新可能需要网络。"
+        },
+        "q3": {
+          "question": "如何去除广告？",
+          "answer": "可选的一次性内购可去除广告。通过 Apple 或 Google 付款；重新安装时请在商店或应用内恢复购买。"
+        },
+        "q4": {
+          "question": "有排行榜吗？",
+          "answer": "在支持的设备上，登录后可使用 Game Center 与 Play Games 的排行榜与成就。"
+        },
+        "q5": {
+          "question": "支持哪些语言？",
+          "answer": "界面已本地化为多种语言与地区变体。可在设置中更改。"
+        },
+        "q6": {
+          "question": "如何获取帮助？",
+          "answer": "邮箱：zuki.apps.dev@gmail.com。网站提供隐私政策与使用条款。"
+        }
+      },
+      "additionalHelp": {
+        "title": "还需要帮助？",
+        "description": "若未找到答案或有技术问题，请联系我们。通常在 24–48 小时内回复。"
+      }
+    },
+    "terms": {
+      "title": "使用条款",
+      "lastUpdated": "最后更新：2026 年 4 月"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新：2026 年 4 月"
+    }
+  }
+}

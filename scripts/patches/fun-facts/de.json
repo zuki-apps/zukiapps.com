@@ -1,0 +1,144 @@
+{
+  "homeFunFacts": {
+    "title": "Fun Facts Trivia",
+    "subtitle": "Zeitgesteuertes Quiz zu Wissenschaft, Geschichte und mehr",
+    "description": "Runden mit Wissensfragen in acht Kategorien, drei Schwierigkeiten, Serien und Statistiken. Demnächst im App Store und bei Google Play.",
+    "features": {
+      "categories": "Acht Kategorien",
+      "gameplay": "Zeitgesteuerte Runden & Schwierigkeiten",
+      "extras": "Statistiken & Bestenlisten"
+    },
+    "learnMore": "Mehr über Fun Facts Trivia →"
+  },
+  "funFactsTrivia": {
+    "back": "Zur Startseite",
+    "hero": {
+      "badge": "Demnächst im App Store und bei Google Play",
+      "title": "Fun Facts Trivia",
+      "subtitle": "Acht Kategorien · Leicht, Mittel & Schwer · Serien & Statistiken",
+      "description": "Ein Flutter-Trivia-Spiel für iOS und Android: zeitgesteuerte Fragen zu Wissenschaft, Geschichte, Geografie, Unterhaltung und mehr. Offline spielen, Game Center- und Play-Games-Bestenlisten, Erfolge und optionaler einmaliger Kauf zur Werbeentfernung."
+    },
+    "features": {
+      "title": "Funktionen",
+      "categories": {
+        "title": "Acht Themenkategorien",
+        "description": "Themen von Natur und Wissenschaft bis Kultur und kuriose Fakten.",
+        "items": [
+          "Natur & Wissenschaft",
+          "Geschichte & Kultur",
+          "Geografie & Welt",
+          "Kuriose Fakten & Rekorde",
+          "Filme & Kino",
+          "Erstaunliche Fakten",
+          "Sport & Spiele",
+          "Weltrekorde"
+        ]
+      },
+      "gameplay": {
+        "title": "Spielablauf",
+        "description": "Tempo und Schwierigkeit wählen.",
+        "items": [
+          "Zeitgesteuerte Runden mit Multiple Choice",
+          "Schwierigkeiten Leicht, Mittel und Schwer",
+          "Vollständig offline spielbar",
+          "12+ UI-Sprachen und regionale Varianten"
+        ]
+      },
+      "progress": {
+        "title": "Fortschritt & Wettbewerb",
+        "description": "Verbesserung verfolgen und mit Freunden vergleichen.",
+        "items": [
+          "Serien und Sitzungsstatistiken",
+          "Game Center (iOS) und Play Games (Android)",
+          "Bestenlisten und Erfolge",
+          "Optionaler In-App-Kauf zur Werbeentfernung"
+        ]
+      }
+    },
+    "status": {
+      "title": "Verfügbarkeit",
+      "description": "Fun Facts Trivia ist noch nicht in den Stores. Links zum App Store und Google Play erscheinen hier nach der Veröffentlichung.",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "1.0.0",
+      "statusValue": "Demnächst — App Store & Google Play"
+    },
+    "download": {
+      "title": "Download",
+      "description": "Fun Facts Trivia erscheint demnächst im App Store und bei Google Play.",
+      "soon": "Store-Badges erscheinen hier, sobald die App live ist.",
+      "appStoreAlt": "Im App Store laden",
+      "googlePlayAlt": "Bei Google Play laden"
+    },
+    "links": {
+      "title": "Wichtige Links",
+      "support": {
+        "title": "Technischer Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Fun Facts Trivia — Alle Rechte vorbehalten",
+      "tagline": "Teil von Zuki Apps • Entwickelt in Israel • Mit ❤️ gemacht"
+    },
+    "support": {
+      "title": "Support & Hilfe",
+      "subtitle": "Wir helfen gern! Antworten auf häufige Fragen oder direkter Kontakt.",
+      "contact": {
+        "title": "Kontakt",
+        "description": "Frage oder Problem? Schreiben Sie uns — wir melden uns schnellstmöglich.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Schnellzugriff",
+        "privacy": {
+          "title": "Datenschutz",
+          "description": "Wie wir Ihre Daten schützen"
+        },
+        "terms": {
+          "title": "Nutzungsbedingungen",
+          "description": "Unsere Bedingungen lesen"
+        }
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": {
+          "question": "Was ist Fun Facts Trivia?",
+          "answer": "Ein mobiles Quiz mit Multiple-Choice in acht Kategorien. Schwierigkeit wählen, zeitgesteuert spielen, Serien und Statistiken. Gebaut mit Flutter für iOS und Android."
+        },
+        "q2": {
+          "question": "Funktioniert die App offline?",
+          "answer": "Ja. Fragen sind in der App enthalten. Internet kann für Werbung, Käufe, Game Center/Play Games oder Updates nötig sein."
+        },
+        "q3": {
+          "question": "Wie entferne ich Werbung?",
+          "answer": "Ein optionaler einmaliger In-App-Kauf entfernt Werbung. Käufe laufen über Apple oder Google; Wiederherstellung über Store oder App-Einstellungen."
+        },
+        "q4": {
+          "question": "Gibt es Bestenlisten?",
+          "answer": "Auf unterstützten Geräten können Apple Game Center und Google Play Games für Bestenlisten und Erfolge genutzt werden, wenn Sie angemeldet sind."
+        },
+        "q5": {
+          "question": "Welche Sprachen?",
+          "answer": "Die App-Oberfläche ist in vielen Sprachen und Varianten lokalisiert. Sprache in den Einstellungen ändern."
+        },
+        "q6": {
+          "question": "Wo bekomme ich Hilfe?",
+          "answer": "E-Mail an zuki.apps.dev@gmail.com. Auf der Website finden Sie Datenschutz und AGB."
+        }
+      },
+      "additionalHelp": {
+        "title": "Noch Hilfe nötig?",
+        "description": "Wenn Sie keine Antwort finden oder ein technisches Problem haben, schreiben Sie uns. In der Regel antworten wir innerhalb von 24–48 Stunden."
+      }
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "lastUpdated": "Zuletzt aktualisiert: April 2026"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "lastUpdated": "Zuletzt aktualisiert: April 2026"
+    }
+  }
+}

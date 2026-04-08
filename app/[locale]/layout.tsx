@@ -33,7 +33,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'home' });
   
   const title = `${t('subtitle')} | ${siteName}`;
-  const description = `${t('subtitle')}. ${t('tagline')} Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Bit Scope, TempoLab Pro. iOS & Android.`;
+  const description = `${t('subtitle')}. ${t('tagline')} Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, TempoLab Pro. iOS & Android.`;
   const logoUrl = `${baseUrl}/logo.png`;
   
   return {
@@ -56,6 +56,9 @@ export async function generateMetadata({
       'Sudoku puzzle app',
       'Football Trivia',
       'World Football Trivia 2026',
+      'Fun Facts Trivia',
+      'trivia game',
+      'quiz app',
       'Bit Scope',
       'Bit Scope - Bit calculator',
       'TempoLab Pro',
@@ -180,7 +183,7 @@ export default async function LocaleLayout({
     '@type': 'WebSite',
     name: 'Zuki Apps',
     url: baseUrl,
-    description: 'Mobile App Developer from Israel. Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Bit Scope, TempoLab Pro. iOS & Android.',
+    description: 'Mobile App Developer from Israel. Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, TempoLab Pro. iOS & Android.',
     publisher: {
       '@type': 'Organization',
       name: 'Zuki Apps',

@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { getSiteUrl } from '@/lib/hreflang';
 
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
+const bingSiteAuth = process.env.NEXT_PUBLIC_BING_SITE_AUTH;
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
@@ -19,7 +20,14 @@ export const metadata: Metadata = {
     shortcut: '/logo.png',
   },
   manifest: '/manifest.json',
-  ...(googleVerification ? { verification: { google: googleVerification } } : {}),
+  ...((googleVerification || bingSiteAuth)
+    ? {
+        verification: {
+          ...(googleVerification ? { google: googleVerification } : {}),
+          ...(bingSiteAuth ? { other: { 'msvalidate.01': bingSiteAuth } } : {}),
+        },
+      }
+    : {}),
 };
 
 export default function RootLayout({
