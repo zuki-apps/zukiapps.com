@@ -45,6 +45,7 @@ export default async function SupportPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'bitScope.support' });
+  const tHero = await getTranslations({ locale, namespace: 'bitScope.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   
   const faqStructuredData = {
@@ -113,7 +114,7 @@ export default async function SupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/bit-scope' },
+          { name: tHero('title'), path: '/bit-scope' },
           { name: tCommon('support'), path: '/bit-scope/support' }
         ]}
       />

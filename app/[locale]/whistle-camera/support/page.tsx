@@ -45,6 +45,7 @@ export default async function SupportPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'whistleCamera.support' });
+  const tHero = await getTranslations({ locale, namespace: 'whistleCamera.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const baseUrl = getSiteUrl();
   
@@ -115,7 +116,7 @@ export default async function SupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/whistle-camera' },
+          { name: tHero('title'), path: '/whistle-camera' },
           { name: tCommon('support'), path: '/whistle-camera/support' }
         ]}
       />

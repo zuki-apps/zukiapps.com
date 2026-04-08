@@ -63,7 +63,7 @@ export async function generateMetadata({
         url: logoUrl,
         width: 1200,
         height: 630,
-        alt: `${t('title')} - Zuki Apps`,
+        alt: `${t('hero.title')} - Zuki Apps`,
       }],
     },
     twitter: {

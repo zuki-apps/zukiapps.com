@@ -45,6 +45,7 @@ export default async function TempoLabProSupportPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'tempoLabPro.support' });
+  const tHero = await getTranslations({ locale, namespace: 'tempoLabPro.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   
   const faqStructuredData = {
@@ -71,7 +72,7 @@ export default async function TempoLabProSupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/tempoLabPro' },
+          { name: tHero('title'), path: '/tempoLabPro' },
           { name: tCommon('support'), path: '/tempoLabPro/support' }
         ]}
       />

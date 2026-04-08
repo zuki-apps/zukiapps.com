@@ -45,6 +45,7 @@ export default async function SupportPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'powerIntervalTimer.support' });
+  const tHero = await getTranslations({ locale, namespace: 'powerIntervalTimer.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const baseUrl = getSiteUrl();
   
@@ -115,7 +116,7 @@ export default async function SupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/power-interval-timer' },
+          { name: tHero('title'), path: '/power-interval-timer' },
           { name: tCommon('support'), path: '/power-interval-timer/support' }
         ]}
       />

@@ -45,6 +45,7 @@ export default async function SudokuPuzzleSupportPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'sudokuPuzzle.support' });
+  const tHero = await getTranslations({ locale, namespace: 'sudokuPuzzle.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   
   const faqStructuredData = {
@@ -71,7 +72,7 @@ export default async function SudokuPuzzleSupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/sudoku-puzzle' },
+          { name: tHero('title'), path: '/sudoku-puzzle' },
           { name: tCommon('support'), path: '/sudoku-puzzle/support' }
         ]}
       />

@@ -165,7 +165,10 @@
     "social": {
       "title": "Redes Sociales",
       "instagram": "Síguenos en Instagram",
-      "facebook": "Síguenos en Facebook"
+      "facebook": "Síguenos en Facebook",
+      "tiktok": "Follow us on TikTok",
+      "youtube": "Subscribe on YouTube",
+      "whatsapp": "Follow our WhatsApp channel"
     },
     "footer": {
       "copyright": "© 2025 Zuki Apps - Todos los derechos reservados",
@@ -2243,6 +2246,10 @@
           "question": "What display modes are available?",
           "answer": "Power Interval Timer offers 7 different display modes: circular progress timer, digital countdown, linear progress bar, minimal clean design, analog clock style, dual timer display, and chronograph watch style. You can switch between modes in the settings or during a workout."
         },
+        "q5": {
+          "question": "How do I customize the timer appearance?",
+          "answer": "Go to Settings → Customization. You can customize timer images, color themes, font sizes, sound selection, and choose between Dark, Light, or System theme. Changes will be applied immediately to your timer display."
+        },
         "q7": {
           "question": "What is the Premium upgrade?",
           "answer": "Premium is a one-time $2.99 purchase that unlocks unlimited saved timers, all 10 display modes, and removes banner ads. The purchase is permanent and can be restored across devices using the same account."
@@ -2258,10 +2265,6 @@
         "q6": {
           "question": "Does Power Interval Timer work on Apple TV and Android TV?",
           "answer": "Yes! Power Interval Timer has native support for Apple TV (tvOS) and Android TV. You can install the app directly on your TV and use it with a remote control. The interface is optimized for large displays and includes platform-specific features."
-        },
-        "q5": {
-          "question": "How do I customize the timer appearance?",
-          "answer": "Go to Settings → Customization. You can customize timer images, color themes, font sizes, sound selection, and choose between Dark, Light, or System theme. Changes will be applied immediately to your timer display."
         }
       },
       "additionalHelp": {

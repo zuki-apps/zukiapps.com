@@ -45,6 +45,7 @@ export default async function SupportPage({
   }
 
   const t = await getTranslations({ locale, namespace: 'hushGallery.support' });
+  const tHero = await getTranslations({ locale, namespace: 'hushGallery.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const baseUrl = getSiteUrl();
   
@@ -115,7 +116,7 @@ export default async function SupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/hush-gallery' },
+          { name: tHero('title'), path: '/hush-gallery' },
           { name: tCommon('support'), path: '/hush-gallery/support' }
         ]}
       />

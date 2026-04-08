@@ -168,7 +168,10 @@ export default async function LocaleLayout({
     description: 'Mobile App Developer from Israel. Creating smart and intuitive mobile applications.',
     sameAs: [
       'https://www.instagram.com/zuki.apps/',
-      'https://www.facebook.com/profile.php?id=61581736876235'
+      'https://www.facebook.com/profile.php?id=61581736876235',
+      'https://www.tiktok.com/@zukiapps',
+      'https://www.youtube.com/@ZukiApps',
+      'https://whatsapp.com/channel/0029VbCgjkcDzgTDclgLLR0T'
     ],
     contactPoint: {
       '@type': 'ContactPoint',

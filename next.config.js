@@ -2,6 +2,11 @@ const withNextIntl = require('next-intl/plugin')('./i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Next 14.2: externalize OTEL + Google auth so dev webpack does not reference a missing `vendor-chunks/@opentelemetry.js`.
+  // (firebase-admin is already in Next's default server external list.)
+  experimental: {
+    serverComponentsExternalPackages: ['@opentelemetry/api', 'google-auth-library'],
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
