@@ -27,6 +27,7 @@ export default function BitScopePage() {
       />
       <SoftwareApplicationStructuredData
         locale={locale}
+        appPath="/bit-scope"
         appName={t('hero.title')}
         appDescription={t('hero.description')}
         operatingSystem="iOS,Android"

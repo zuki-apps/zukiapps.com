@@ -27,6 +27,7 @@ export default function ZuListPage() {
       />
       <SoftwareApplicationStructuredData
         locale={locale}
+        appPath="/zulist"
         appName={t('hero.title')}
         appDescription={t('hero.structuredDataDescription')}
         operatingSystem="iOS,Android"

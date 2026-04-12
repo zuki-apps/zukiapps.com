@@ -30,6 +30,7 @@ export default function WhistleCameraPage() {
       />
       <SoftwareApplicationStructuredData
         locale={locale}
+        appPath="/whistle-camera"
         appName={t('hero.title')}
         appDescription={t('hero.description')}
         operatingSystem="iOS,Android"
@@ -42,6 +43,7 @@ export default function WhistleCameraPage() {
           ratingValue: 0,
           ratingCount: 0,
         }}
+        appStoreUrl={t('download.appStoreUrl')}
         googlePlayUrl={googlePlayUrl}
       />
       <div className="min-h-screen relative overflow-hidden">

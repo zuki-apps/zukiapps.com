@@ -27,6 +27,7 @@ export default function FunFactsTriviaPage() {
       />
       <SoftwareApplicationStructuredData
         locale={locale}
+        appPath="/fun-facts-trivia"
         appName={t('hero.title')}
         appDescription={t('hero.description')}
         operatingSystem="iOS,Android"

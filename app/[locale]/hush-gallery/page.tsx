@@ -27,6 +27,7 @@ export default function HushGalleryPage() {
       />
       <SoftwareApplicationStructuredData
         locale={locale}
+        appPath="/hush-gallery"
         appName={t('hero.title')}
         appDescription={t('hero.description')}
         operatingSystem="iOS,Android"

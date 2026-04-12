@@ -158,10 +158,13 @@ export default async function LocaleLayout({
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   const logoUrl = `${baseUrl}/logo.png`;
 
-  // Build structured data (JSON-LD)
+  const organizationId = `${baseUrl}/#organization`;
+
+  // Build structured data (JSON-LD); @id lets app pages reference the same publisher node.
   const organizationData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': organizationId,
     name: 'Zuki Apps',
     url: baseUrl,
     logo: logoUrl,
@@ -188,9 +191,7 @@ export default async function LocaleLayout({
     url: baseUrl,
     description: 'Mobile App Developer from Israel. Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, TempoLab Pro. iOS & Android.',
     publisher: {
-      '@type': 'Organization',
-      name: 'Zuki Apps',
-      url: baseUrl,
+      '@id': organizationId,
     },
     inLanguage: routing.locales,
   };

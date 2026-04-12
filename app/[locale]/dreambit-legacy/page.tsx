@@ -17,6 +17,7 @@ import {
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
+import DreambitArchiveStructuredData from '@/components/DreambitArchiveStructuredData';
 
 const APP_KEYS = [
   'hushGallery',
@@ -58,6 +59,15 @@ export default function DreambitLegacyPage() {
           { name: tCommon('home'), path: '/' },
           { name: t('hero.title'), path: '/dreambit-legacy' }
         ]}
+      />
+      <DreambitArchiveStructuredData
+        locale={locale}
+        archiveName={t('hero.title')}
+        archiveDescription={t('meta.description')}
+        items={APP_KEYS.map((key) => ({
+          title: t(`apps.${key}.title`),
+          googlePlayUrl: t(`playUrls.${key}`),
+        }))}
       />
       <div className="min-h-screen relative overflow-hidden">
         <div className="fixed inset-0 z-0" aria-hidden="true">

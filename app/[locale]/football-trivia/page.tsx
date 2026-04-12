@@ -27,6 +27,7 @@ export default function FootballTriviaPage() {
       />
       <SoftwareApplicationStructuredData
         locale={locale}
+        appPath="/football-trivia"
         appName={t('hero.title')}
         appDescription={t('hero.description')}
         operatingSystem="iOS,Android"

@@ -2,9 +2,12 @@
 
 import Script from 'next/script';
 import { routing } from '@/routing';
+import { ANDROID_APPLICATION_ID_BY_PATH } from '@/lib/appStructuredData';
 
 interface SoftwareApplicationStructuredDataProps {
   locale: string;
+  /** Canonical path segment, e.g. `/zulist` — used for stable URLs and icons. */
+  appPath: string;
   appName: string;
   appDescription: string;
   operatingSystem: 'iOS' | 'Android' | 'iOS,Android';
@@ -19,10 +22,13 @@ interface SoftwareApplicationStructuredDataProps {
   };
   appStoreUrl?: string;
   googlePlayUrl?: string;
+  /** Overrides lookup from appPath when needed. */
+  androidApplicationId?: string;
 }
 
 export default function SoftwareApplicationStructuredData({
   locale,
+  appPath,
   appName,
   appDescription,
   operatingSystem,
@@ -31,31 +37,15 @@ export default function SoftwareApplicationStructuredData({
   aggregateRating,
   appStoreUrl,
   googlePlayUrl,
+  androidApplicationId: androidApplicationIdProp,
 }: SoftwareApplicationStructuredDataProps) {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
+  const organizationId = `${baseUrl}/#organization`;
 
   const isValidListingUrl = (u: string | undefined) =>
     !!u && /^https?:\/\//i.test(u.trim());
 
-  // Determine app URL based on app name
-  let appPath = '/zulist';
-  if (appName.includes('Hush Gallery')) {
-    appPath = '/hush-gallery';
-  } else if (appName.includes('Whistle Camera')) {
-    appPath = '/whistle-camera';
-  } else if (appName.includes('Power Interval Timer')) {
-    appPath = '/power-interval-timer';
-  } else if (appName.includes('Sudoku Fun Go')) {
-    appPath = '/sudoku-puzzle';
-  } else if (appName.includes('TempoLab Pro')) {
-    appPath = '/tempoLabPro';
-  } else if (appName.includes('Football Trivia') || appName.includes('Football Trivia Master')) {
-    appPath = '/football-trivia';
-  } else if (appName.includes('Fun Facts Trivia')) {
-    appPath = '/fun-facts-trivia';
-  } else if (appName.includes('Bit Scope')) {
-    appPath = '/bit-scope';
-  }
+  const normalizedPath = appPath.startsWith('/') ? appPath : `/${appPath}`;
 
   const iconByPath: Record<string, string> = {
     '/zulist': '/images/zulist-icon.png',
@@ -70,8 +60,11 @@ export default function SoftwareApplicationStructuredData({
   };
 
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
-    ? `${baseUrl}${appPath}`
-    : `${baseUrl}/${locale}${appPath}`;
+    ? `${baseUrl}${normalizedPath}`
+    : `${baseUrl}/${locale}${normalizedPath}`;
+
+  const androidApplicationId =
+    androidApplicationIdProp ?? ANDROID_APPLICATION_ID_BY_PATH[normalizedPath];
 
   const softwareApplicationData: {
     '@context': string;
@@ -81,11 +74,7 @@ export default function SoftwareApplicationStructuredData({
     operatingSystem: string;
     applicationCategory: string;
     url: string;
-    publisher: {
-      '@type': string;
-      name: string;
-      url: string;
-    };
+    publisher: { '@id': string };
     offers?: {
       '@type': string;
       price: string;
@@ -105,6 +94,11 @@ export default function SoftwareApplicationStructuredData({
     applicationSubCategory?: string;
     softwareVersion?: string;
     image?: string[];
+    identifier?: {
+      '@type': string;
+      name: string;
+      value: string;
+    };
   } = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
@@ -114,15 +108,21 @@ export default function SoftwareApplicationStructuredData({
     applicationCategory,
     url: appUrl,
     publisher: {
-      '@type': 'Organization',
-      name: 'Zuki Apps',
-      url: baseUrl,
+      '@id': organizationId,
     },
   };
 
-  const iconPath = iconByPath[appPath];
+  const iconPath = iconByPath[normalizedPath];
   if (iconPath) {
     softwareApplicationData.image = [`${baseUrl}${iconPath}`];
+  }
+
+  if (androidApplicationId && isValidListingUrl(googlePlayUrl)) {
+    softwareApplicationData.identifier = {
+      '@type': 'PropertyValue',
+      name: 'Android application ID',
+      value: androidApplicationId,
+    };
   }
 
   if (offers) {

@@ -27,6 +27,7 @@ export default function SudokuPuzzlePage() {
       />
       <SoftwareApplicationStructuredData
         locale={locale}
+        appPath="/sudoku-puzzle"
         appName={t('hero.title')}
         appDescription={t('hero.description')}
         operatingSystem="iOS,Android"

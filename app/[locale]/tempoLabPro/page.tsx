@@ -27,6 +27,7 @@ export default function TempoLabProPage() {
       />
       <SoftwareApplicationStructuredData
         locale={locale}
+        appPath="/tempoLabPro"
         appName={t('hero.title')}
         appDescription={t('hero.description')}
         operatingSystem="iOS,Android"
