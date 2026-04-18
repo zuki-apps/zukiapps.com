@@ -17,8 +17,16 @@
 - Short AI discovery stub: https://zukiapps.com/ai.txt
 
 ## Structured data
-- Pages emit JSON-LD: Organization, WebSite, and an ItemList catalog of product URLs (see HTML on any locale layout).
-- App product pages may emit SoftwareApplication JSON-LD where applicable.
+- Pages emit one JSON-LD `@graph` (schema.org): Organization (publisher), WebSite (with `mainEntity` → software catalog), ItemList of product URLs. App product pages may also emit SoftwareApplication where implemented.
+- Canonical URLs and hreflang alternates are in HTML `<head>` and in `sitemap.xml` per locale.
+
+## Answer engines (AEO) — factual Q&A
+- **Who is Zuki Apps?** An independent mobile app publisher; developer based in Israel; apps built with Flutter for iOS and Android.
+- **What is this website?** Public marketing site: app descriptions, store links when available, support email, and per-app Privacy / Terms pages.
+- **How do I contact support?** Email: zuki.apps.dev@gmail.com (also on app support pages and policies).
+- **Where are legal / DSA details?** EU trader and compliance hub: /dsa-compliance. App-specific privacy and terms: /{app}/privacy and /{app}/terms (e.g. /zulist/privacy).
+- **Is there a public API?** No documented public REST API for end users on this site.
+- **What apps are listed?** ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, Track Ledger, TempoLab Pro; plus DreamBit legacy archive.
 
 ## Main pages
 - Home: https://zukiapps.com/
@@ -36,6 +44,8 @@ Format: App name — URL — one-line summary
 - Fun Facts Trivia — https://zukiapps.com/fun-facts-trivia — Multi-category timed trivia.
 - Bit Scope — https://zukiapps.com/bit-scope — Developer-oriented bit/number base calculator and inspector.
 - Track Ledger — https://zukiapps.com/track-ledger — Offline-first GPS/GNSS track logger; export CSV/GPX/GeoJSON; map on OpenStreetMap; Android application id com.zuki.apps.trackledger.
+  - Privacy: https://zukiapps.com/track-ledger/privacy
+  - Terms: https://zukiapps.com/track-ledger/terms
 - TempoLab Pro — https://zukiapps.com/tempoLabPro — Tempo, pitch, and audio practice.
 
 ## Archive

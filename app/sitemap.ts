@@ -47,6 +47,8 @@ const routes: SitemapRouteMeta[] = [
   { path: '/bit-scope/terms', priority: 0.5, changefreq: 'monthly' },
   { path: '/bit-scope/support', priority: 0.7, changefreq: 'monthly' },
   { path: '/track-ledger', priority: 0.9, changefreq: 'weekly' },
+  { path: '/track-ledger/privacy', priority: 0.5, changefreq: 'monthly' },
+  { path: '/track-ledger/terms', priority: 0.5, changefreq: 'monthly' },
   { path: '/sudoku-puzzle', priority: 0.9, changefreq: 'weekly' },
   { path: '/sudoku-puzzle/privacy', priority: 0.5, changefreq: 'monthly' },
   { path: '/sudoku-puzzle/terms', priority: 0.5, changefreq: 'monthly' },

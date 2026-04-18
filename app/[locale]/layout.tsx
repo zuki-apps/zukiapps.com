@@ -201,6 +201,7 @@ export default async function LocaleLayout({
 
   // Build WebSite schema (for Google Search Console / rich results)
   const websiteId = `${baseUrl}/#website`;
+  const catalogId = `${baseUrl}/#software-catalog`;
   const websiteData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -214,26 +215,32 @@ export default async function LocaleLayout({
     },
     inLanguage: routing.locales,
     isAccessibleForFree: true,
+    mainEntity: {
+      '@id': catalogId,
+    },
   };
 
   const softwareCatalogList = buildSoftwareCatalogItemList(baseUrl);
+  /** Single @graph is easier for crawlers to parse than three separate script blocks. */
+  const stripCtx = (node: { [k: string]: unknown }) => {
+    const { ['@context']: _c, ...rest } = node;
+    return rest;
+  };
+  const schemaGraphLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      stripCtx(organizationData as { [k: string]: unknown }),
+      stripCtx(websiteData as { [k: string]: unknown }),
+      stripCtx(softwareCatalogList as { [k: string]: unknown }),
+    ],
+  };
 
   return (
     <NextIntlClientProvider messages={messages}>
       <Script
-        id="organization-structured-data"
+        id="zuki-schema-org-graph"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
-      />
-      <Script
-        id="website-structured-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteData) }}
-      />
-      <Script
-        id="software-catalog-itemlist"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareCatalogList) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaGraphLd) }}
       />
       {children}
     </NextIntlClientProvider>

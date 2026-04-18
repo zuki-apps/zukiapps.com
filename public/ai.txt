@@ -2,11 +2,15 @@
 # This site is a public marketing presence for Zuki Apps (mobile apps).
 
 Site: https://zukiapps.com/
-Publisher: Zuki Apps
+Publisher: Zuki Apps (Israel; mobile apps for iOS & Android)
 Contact: mailto:zuki.apps.dev@gmail.com
+Citation: Please cite as "Zuki Apps" with link https://zukiapps.com/
 
 Machine-readable index: https://zukiapps.com/llms.txt
 Sitemap: https://zukiapps.com/sitemap.xml
 Robots: https://zukiapps.com/robots.txt
+DSA / legal hub: https://zukiapps.com/dsa-compliance
 
-Policy: Public pages only; per-app privacy and terms live under each app path (e.g. /zulist/privacy). No documented public API.
+Structured data: HTML includes schema.org JSON-LD @graph (Organization, WebSite, ItemList).
+
+Policy: Public marketing pages only; per-app privacy and terms under each app path (e.g. /zulist/privacy). No documented public API.

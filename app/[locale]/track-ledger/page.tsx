@@ -109,6 +109,21 @@ export default function TrackLedgerPage() {
             </h1>
             <p className="text-xl md:text-2xl mb-4 text-gray-300 max-w-3xl mx-auto">{t('hero.subtitle')}</p>
             <p className="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">{t('hero.description')}</p>
+            <div className="flex justify-center gap-4 text-sm flex-wrap">
+              <Link
+                href={`/${locale}/track-ledger/privacy`}
+                className="text-cyan-400 hover:text-cyan-300 underline transition-colors"
+              >
+                {tCommon('privacyPolicy')}
+              </Link>
+              <span className="text-gray-500">|</span>
+              <Link
+                href={`/${locale}/track-ledger/terms`}
+                className="text-cyan-400 hover:text-cyan-300 underline transition-colors"
+              >
+                {tCommon('termsOfService')}
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -216,13 +231,27 @@ export default function TrackLedgerPage() {
             </div>
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
             <p className="text-sm text-gray-500">{t('footer.tagline')}</p>
-            <div className="flex justify-center gap-4 mt-4 text-sm">
+            <div className="flex justify-center gap-4 mt-4 text-sm flex-wrap">
               <a
                 href={`mailto:${supportEmail}`}
                 className="text-gray-400 hover:text-cyan-400 transition-colors"
               >
                 {tCommon('support')}
               </a>
+              <span className="text-gray-600">|</span>
+              <Link
+                href={`/${locale}/track-ledger/privacy`}
+                className="text-gray-400 hover:text-cyan-400 transition-colors"
+              >
+                {tCommon('privacyPolicy')}
+              </Link>
+              <span className="text-gray-600">|</span>
+              <Link
+                href={`/${locale}/track-ledger/terms`}
+                className="text-gray-400 hover:text-cyan-400 transition-colors"
+              >
+                {tCommon('termsOfService')}
+              </Link>
             </div>
             <div className="mt-4 flex justify-center">
               <a

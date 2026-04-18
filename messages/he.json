@@ -2839,6 +2839,63 @@
         "email": "zuki.apps.dev@gmail.com"
       }
     },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: April 2026",
+      "intro": "Please read these Terms of Use carefully before using Track Ledger. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Track Ledger (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a GPS/GNSS track logging application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Track Ledger is a mobile application that records location-related data for paths you choose to log. The Service includes:",
+        "items": [
+          "Recording of GNSS/GPS fixes and related metadata (e.g. accuracy, speed) on your device",
+          "Configurable sampling (time- or distance-based), pause and resume, and track summaries",
+          "Export and sharing of track data (e.g. CSV; GPX and GeoJSON where enabled)",
+          "Map visualization using third-party map tiles (e.g. OpenStreetMap) for completed tracks",
+          "Optional in-app purchases or ads as described in the app"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: April 2026",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Track Ledger processes location data (GNSS/GPS) when you start recording, along with app settings and track metadata needed to run the app. Depending on your device and configuration, the app may use analytics or crash reporting to improve stability (often via third-party SDKs). Data you export or share is sent only when you explicitly choose export or share. Map tiles may be loaded from third-party providers when you use the Map feature."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information described above to provide recording, storage on your device, export/sharing features you trigger, and optional product improvement through aggregated diagnostics where enabled. We do not sell your personal track history as a product."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell your personal information. Data leaves your device when you export, share, or when required third-party services (e.g. map tile servers, app stores, analytics if enabled) process requests as part of normal app operation. See in-app notices and platform settings for controls where available."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement reasonable measures appropriate to a mobile app. Track data is stored in app storage on your device; you should use device security (passcode, encryption) as recommended by your platform vendor."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "Depending on your region, you may have rights to access, correct, or delete personal data, or to opt out of certain processing. You can delete tracks in the app, uninstall the app to remove local data, and contact us for privacy requests."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
     "footer": {
       "copyright": "© 2026 Track Ledger - All rights reserved",
       "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
