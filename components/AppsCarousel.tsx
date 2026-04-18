@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary, Music, Trophy, Wand2, Palette, Lightbulb } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, ChevronLeft, ChevronRight, Users, Wifi, Sparkles, Shield, Lock, FolderTree, Grid3X3, Binary, Music, Trophy, Wand2, Palette, Lightbulb, MapPinned, Share2, Map as MapIcon } from 'lucide-react';
 
 interface AppData {
   id: string;
@@ -157,6 +157,19 @@ export default function AppsCarousel() {
       featuresKey: 'funFactsTrivia.features',
       learnMoreKey: 'funFactsTrivia.learnMore',
       link: `/${locale}/fun-facts-trivia`,
+      isComingSoon: true,
+      showFeatures: true,
+    },
+    {
+      id: 'track-ledger',
+      icon: <MapPinned className="w-16 h-16 text-cyan-400" aria-hidden="true" />,
+      iconImage: '/images/track-ledger-icon.png',
+      titleKey: 'trackLedger.title',
+      subtitleKey: 'trackLedger.subtitle',
+      descriptionKey: 'trackLedger.description',
+      featuresKey: 'trackLedger.features',
+      learnMoreKey: 'trackLedger.learnMore',
+      link: `/${locale}/track-ledger`,
       isComingSoon: true,
       showFeatures: true,
     },
@@ -473,6 +486,22 @@ export default function AppsCarousel() {
                     <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300" role="article" aria-label={t('funFactsTrivia.features.extras')}>
                       <Lightbulb className="w-8 h-8 text-amber-300 mb-2" aria-hidden="true" />
                       <p className="text-sm font-black text-white">{t('funFactsTrivia.features.extras')}</p>
+                    </div>
+                  </div>
+                )}
+                {app.showFeatures && app.id === 'track-ledger' && (
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-400/45 transition-all duration-300" role="article" aria-label={t('trackLedger.features.gnss')}>
+                      <MapPinned className="w-8 h-8 text-cyan-300 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('trackLedger.features.gnss')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-400/40 transition-all duration-300" role="article" aria-label={t('trackLedger.features.export')}>
+                      <Share2 className="w-8 h-8 text-cyan-200 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('trackLedger.features.export')}</p>
+                    </div>
+                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-400/45 transition-all duration-300" role="article" aria-label={t('trackLedger.features.map')}>
+                      <MapIcon className="w-8 h-8 text-cyan-300 mb-2" aria-hidden="true" />
+                      <p className="text-sm font-black text-white">{t('trackLedger.features.map')}</p>
                     </div>
                   </div>
                 )}

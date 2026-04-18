@@ -57,6 +57,7 @@ export default function SoftwareApplicationStructuredData({
     '/football-trivia': '/images/football-trivia-icon.png',
     '/fun-facts-trivia': '/images/fun-facts-trivia-icon.png',
     '/bit-scope': '/images/bit-scope-icon.png',
+    '/track-ledger': '/images/track-ledger-icon.png',
   };
 
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'

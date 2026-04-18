@@ -132,6 +132,17 @@
       },
       "learnMore": "Learn more about Fun Facts Trivia →"
     },
+    "trackLedger": {
+      "title": "Track Ledger",
+      "subtitle": "Log GPS data",
+      "description": "Offline-first GPS logger: raw GNSS points, configurable sampling, export (CSV, GPX, GeoJSON), and map overlays on OpenStreetMap.",
+      "features": {
+        "gnss": "Raw GNSS logging",
+        "export": "Export & share",
+        "map": "Map & OpenStreetMap"
+      },
+      "learnMore": "Learn more about Track Ledger →"
+    },
     "tempoLabPro": {
       "title": "TempoLab Pro - Tempo & Pitch",
       "subtitle": "Tempo and pitch audio practice",
@@ -2745,6 +2756,61 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
+    }
+  },
+  "trackLedger": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Zuki Apps",
+      "title": "Track Ledger",
+      "subtitle": "Log GPS data",
+      "description": "Offline-first engineering GPS logger for mobile. Track Ledger records raw GNSS points for your paths—no smoothing. Set time- or distance-based sampling, pause and resume, then export from a track summary or the track list (CSV; GPX and GeoJSON with Premium). Use the Map tab to overlay tracks on OpenStreetMap tiles."
+    },
+    "features": {
+      "title": "Key Features",
+      "gnss": {
+        "title": "Recording & tracks",
+        "description": "Log raw GNSS fixes with control over how often points are stored.",
+        "items": ["Time- or distance-based sampling", "Pause, resume, and track summaries", "Speed, distance, and accuracy at a glance"]
+      },
+      "export": {
+        "title": "Export & share",
+        "description": "Get your data out as standard formats and share from the track flow.",
+        "items": ["CSV export on all tiers", "GPX and GeoJSON with Premium", "Share sheet integration"]
+      },
+      "map": {
+        "title": "Map",
+        "description": "Visualize completed paths on familiar map tiles.",
+        "items": ["OpenStreetMap overlays", "Select one or more tracks", "Share map images"]
+      }
+    },
+    "status": {
+      "title": "Availability",
+      "description": "Native app for iOS and Android (bundle / application ID: com.zuki.apps.trackledger). Store links appear below when listings are public.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "1.0.0",
+      "statusValue": "iOS & Android"
+    },
+    "download": {
+      "title": "Download",
+      "description": "App Store and Google Play badges will appear here once the app is published.",
+      "soon": "Coming soon",
+      "appStoreUrl": "",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Track Ledger - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
     }
   },
   "common": {

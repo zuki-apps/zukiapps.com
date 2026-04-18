@@ -3,6 +3,7 @@ import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import { buildSoftwareCatalogItemList } from '@/lib/siteCatalog';
 import { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import '../globals.css';
@@ -33,7 +34,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'home' });
   
   const title = `${t('subtitle')} | ${siteName}`;
-  const description = `${t('subtitle')}. ${t('tagline')} Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, TempoLab Pro. iOS & Android.`;
+  const description = `${t('subtitle')}. ${t('tagline')} Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, Track Ledger (GPS logger), TempoLab Pro. iOS & Android.`;
   const logoUrl = `${baseUrl}/logo.png`;
   
   return {
@@ -61,6 +62,11 @@ export async function generateMetadata({
       'quiz app',
       'Bit Scope',
       'Bit Scope - Bit calculator',
+      'Track Ledger',
+      'GPS logger',
+      'GNSS tracker',
+      'GPX GeoJSON',
+      'OpenStreetMap',
       'TempoLab Pro',
       'TempoLab Pro - Tempo & Pitch',
       'Tabata timer',
@@ -168,7 +174,17 @@ export default async function LocaleLayout({
     name: 'Zuki Apps',
     url: baseUrl,
     logo: logoUrl,
-    description: 'Mobile App Developer from Israel. Creating smart and intuitive mobile applications.',
+    description:
+      'Independent mobile software publisher (Zuki Apps). Developer based in Israel; consumer apps on iOS and Android (Flutter). Product pages list each app, support contact, and legal policies.',
+    areaServed: 'Worldwide',
+    knowsAbout: [
+      'Mobile applications',
+      'iOS',
+      'Android',
+      'Flutter',
+      'GPS logging',
+      'Privacy-first apps',
+    ],
     sameAs: [
       'https://www.instagram.com/zuki.apps/',
       'https://www.facebook.com/profile.php?id=61581736876235',
@@ -184,17 +200,23 @@ export default async function LocaleLayout({
   };
 
   // Build WebSite schema (for Google Search Console / rich results)
+  const websiteId = `${baseUrl}/#website`;
   const websiteData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': websiteId,
     name: 'Zuki Apps',
     url: baseUrl,
-    description: 'Mobile App Developer from Israel. Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, TempoLab Pro. iOS & Android.',
+    description:
+      'Official site for Zuki Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, Track Ledger (GPS/GNSS logger), TempoLab Pro; plus DreamBit legacy archive. iOS and Android. Multilingual.',
     publisher: {
       '@id': organizationId,
     },
     inLanguage: routing.locales,
+    isAccessibleForFree: true,
   };
+
+  const softwareCatalogList = buildSoftwareCatalogItemList(baseUrl);
 
   return (
     <NextIntlClientProvider messages={messages}>
@@ -207,6 +229,11 @@ export default async function LocaleLayout({
         id="website-structured-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteData) }}
+      />
+      <Script
+        id="software-catalog-itemlist"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareCatalogList) }}
       />
       {children}
     </NextIntlClientProvider>

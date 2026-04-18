@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, Grid3X3, Binary, Music, Trophy, Lightbulb } from 'lucide-react';
+import { ShoppingCart, ImageIcon, Camera, Timer, Grid3X3, Binary, Music, Trophy, Lightbulb, MapPinned } from 'lucide-react';
 
 interface AppInfo {
   id: string;
@@ -58,6 +58,13 @@ export default function AppsGrid() {
       iconImage: '/images/bit-scope-icon.png',
       titleKey: 'bitScope.title',
       link: `/${locale}/bit-scope`,
+    },
+    {
+      id: 'track-ledger',
+      icon: <MapPinned className="w-12 h-12 text-cyan-400" aria-hidden="true" />,
+      iconImage: '/images/track-ledger-icon.png',
+      titleKey: 'trackLedger.title',
+      link: `/${locale}/track-ledger`,
     },
     {
       id: 'sudoku-puzzle',

@@ -1,25 +1,49 @@
-# Zuki Apps — machine-readable pointers
-# https://llmstxt.org/ (informal convention; not all clients honor this file.)
+# Zuki Apps — machine-readable site index
+# Human-readable marketing site for a small independent app publisher (Israel).
+# Conventions: https://llmstxt.org/ (informal; not all clients honor this file.)
 
-Site: https://zukiapps.com/
+## Identity
+- Publisher name: Zuki Apps
+- Site origin: https://zukiapps.com/
+- Site type: Public marketing website (no user login on the site itself; apps are on App Store / Google Play).
+- Support email (listed on support/legal pages): zuki.apps.dev@gmail.com
+- Languages: en, he, de, es, it, pt, ru, fr, ja, ko, ar, zh (default public URLs often omit /en for English).
 
-## Main
+## Discovery (use these for crawling)
+- Sitemap (all public routes): https://zukiapps.com/sitemap.xml
+- Robots: https://zukiapps.com/robots.txt
+- Web manifest (PWA hints): https://zukiapps.com/manifest.json
+- This file: https://zukiapps.com/llms.txt
+- Short AI discovery stub: https://zukiapps.com/ai.txt
+
+## Structured data
+- Pages emit JSON-LD: Organization, WebSite, and an ItemList catalog of product URLs (see HTML on any locale layout).
+- App product pages may emit SoftwareApplication JSON-LD where applicable.
+
+## Main pages
 - Home: https://zukiapps.com/
 - DSA / legal hub: https://zukiapps.com/dsa-compliance
 
-## Apps (product pages; privacy & terms under each path)
-- ZuList: https://zukiapps.com/zulist
-- Hush Gallery: https://zukiapps.com/hush-gallery
-- Whistle Camera: https://zukiapps.com/whistle-camera
-- Power Interval Timer: https://zukiapps.com/power-interval-timer
-- Sudoku Fun Go: https://zukiapps.com/sudoku-puzzle
-- Football Trivia Master: https://zukiapps.com/football-trivia
-- Fun Facts Trivia: https://zukiapps.com/fun-facts-trivia
-- Bit Scope: https://zukiapps.com/bit-scope
-- TempoLab Pro: https://zukiapps.com/tempoLabPro
+## App product pages (canonical paths; each may have /privacy, /terms, /support where implemented)
+Format: App name — URL — one-line summary
 
-## Archive (legacy DreamBit Apps — Android & iOS; page links Google Play where available)
-- https://zukiapps.com/dreambit-legacy
+- ZuList — https://zukiapps.com/zulist — Shared shopping lists (Flutter; iOS & Android).
+- Hush Gallery — https://zukiapps.com/hush-gallery — Private photo/video gallery and secure storage.
+- Whistle Camera — https://zukiapps.com/whistle-camera — Camera app with whistle-based capture.
+- Power Interval Timer — https://zukiapps.com/power-interval-timer — Tabata / HIIT interval timer.
+- Sudoku Fun Go — https://zukiapps.com/sudoku-puzzle — Classic Sudoku game.
+- Football Trivia Master — https://zukiapps.com/football-trivia — Football trivia quiz.
+- Fun Facts Trivia — https://zukiapps.com/fun-facts-trivia — Multi-category timed trivia.
+- Bit Scope — https://zukiapps.com/bit-scope — Developer-oriented bit/number base calculator and inspector.
+- Track Ledger — https://zukiapps.com/track-ledger — Offline-first GPS/GNSS track logger; export CSV/GPX/GeoJSON; map on OpenStreetMap; Android application id com.zuki.apps.trackledger.
+- TempoLab Pro — https://zukiapps.com/tempoLabPro — Tempo, pitch, and audio practice.
+
+## Archive
+- DreamBit legacy listings: https://zukiapps.com/dreambit-legacy
+
+## Licensing / use of this content
+- Marketing copy is for attribution and search/AI indexing; app-specific legal terms are on each app’s Terms/Privacy pages.
+- Do not infer API keys, private user data, or non-public endpoints from this site; there is no public REST API documented here.
 
 ## Contact
-- Developer / support email listed on app support pages and policies: zuki.apps.dev@gmail.com
+- Developer / support: zuki.apps.dev@gmail.com (also embedded in app store listings and policies where applicable).
