@@ -34,7 +34,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'home' });
   
   const title = `${t('subtitle')} | ${siteName}`;
-  const description = `${t('subtitle')}. ${t('tagline')} Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, Track Ledger (GPS logger), TempoLab Pro. iOS & Android.`;
+  const description = `${t('subtitle')}. ${t('tagline')} Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, Track Ledger (GPS logger), Noise Meter — Shusher, Paratrooper Blitz, TempoLab Pro. iOS & Android.`;
   const logoUrl = `${baseUrl}/logo.png`;
   
   return {
@@ -67,6 +67,11 @@ export async function generateMetadata({
       'GNSS tracker',
       'GPX GeoJSON',
       'OpenStreetMap',
+      'Noise Meter — Shusher',
+      'decibel meter',
+      'noise meter',
+      'Paratrooper Blitz',
+      'arcade game',
       'TempoLab Pro',
       'TempoLab Pro - Tempo & Pitch',
       'Tabata timer',
@@ -209,7 +214,7 @@ export default async function LocaleLayout({
     name: 'Zuki Apps',
     url: baseUrl,
     description:
-      'Official site for Zuki Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, Track Ledger (GPS/GNSS logger), TempoLab Pro; plus DreamBit legacy archive. iOS and Android. Multilingual.',
+      'Official site for Zuki Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts Trivia, Bit Scope, Track Ledger (GPS/GNSS logger), Noise Meter — Shusher, Paratrooper Blitz, TempoLab Pro; plus DreamBit legacy archive. iOS and Android. Multilingual.',
     publisher: {
       '@id': organizationId,
     },

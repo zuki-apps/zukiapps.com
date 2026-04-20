@@ -12,4 +12,6 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/football-trivia': 'com.zuki.apps.footballtrivia',
   '/bit-scope': 'com.zuki.apps.bitscope',
   '/track-ledger': 'com.zuki.apps.trackledger',
+  '/noise-meter-shusher': 'com.noisemeter.shusher.noise_meter_shusher',
+  '/paratrooper-blitz': 'com.paratrooper.blitz.paratrooper_blitz',
 };

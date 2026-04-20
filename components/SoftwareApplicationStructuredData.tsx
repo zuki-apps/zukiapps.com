@@ -58,6 +58,8 @@ export default function SoftwareApplicationStructuredData({
     '/fun-facts-trivia': '/images/fun-facts-trivia-icon.png',
     '/bit-scope': '/images/bit-scope-icon.png',
     '/track-ledger': '/images/track-ledger-icon.png',
+    '/noise-meter-shusher': '/images/noise-meter-shusher-icon.png',
+    '/paratrooper-blitz': '/images/paratrooper-blitz-icon.png',
   };
 
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'

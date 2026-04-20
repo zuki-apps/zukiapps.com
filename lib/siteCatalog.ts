@@ -19,6 +19,16 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
   { path: '/fun-facts-trivia', name: 'Fun Facts Trivia', description: 'Timed trivia across multiple categories.' },
   { path: '/bit-scope', name: 'Bit Scope', description: 'Bit-level number inspector and base converter for developers.' },
   { path: '/track-ledger', name: 'Track Ledger', description: 'Offline-first GPS / GNSS track logger; CSV, GPX, GeoJSON export; OpenStreetMap map.' },
+  {
+    path: '/noise-meter-shusher',
+    name: 'Noise Meter — Shusher',
+    description: 'Real-time decibel meter, noise scoring, local history, CSV export, charts; ads and optional Premium.',
+  },
+  {
+    path: '/paratrooper-blitz',
+    name: 'Paratrooper Blitz',
+    description: 'Classic arcade action: aircraft and paratroopers; Arcade and Classic DOS modes; scores, ranks, leaderboards.',
+  },
   { path: '/tempoLabPro', name: 'TempoLab Pro', description: 'Tempo, pitch, and audio practice tools.' },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];

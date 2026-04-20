@@ -4,7 +4,20 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { ShoppingCart, ImageIcon, Camera, Timer, Grid3X3, Binary, Music, Trophy, Lightbulb, MapPinned } from 'lucide-react';
+import {
+  ShoppingCart,
+  ImageIcon,
+  Camera,
+  Timer,
+  Grid3X3,
+  Binary,
+  Music,
+  Trophy,
+  Lightbulb,
+  MapPinned,
+  Volume2,
+  Gamepad2,
+} from 'lucide-react';
 
 interface AppInfo {
   id: string;
@@ -65,6 +78,20 @@ export default function AppsGrid() {
       iconImage: '/images/track-ledger-icon.png',
       titleKey: 'trackLedger.title',
       link: `/${locale}/track-ledger`,
+    },
+    {
+      id: 'noise-meter-shusher',
+      icon: <Volume2 className="w-12 h-12 text-violet-400" aria-hidden="true" />,
+      iconImage: '/images/noise-meter-shusher-icon.png',
+      titleKey: 'noiseMeterShusher.title',
+      link: `/${locale}/noise-meter-shusher`,
+    },
+    {
+      id: 'paratrooper-blitz',
+      icon: <Gamepad2 className="w-12 h-12 text-orange-400" aria-hidden="true" />,
+      iconImage: '/images/paratrooper-blitz-icon.png',
+      titleKey: 'paratrooperBlitz.title',
+      link: `/${locale}/paratrooper-blitz`,
     },
     {
       id: 'sudoku-puzzle',

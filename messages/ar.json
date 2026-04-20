@@ -185,6 +185,28 @@
       "copyright": "© 2025 Zuki Apps - جميع الحقوق محفوظة",
       "tagline": "مطور في إسرائيل • كهواية • بشغف",
       "support": "دعم عملي"
+    },
+    "noiseMeterShusher": {
+      "title": "Noise Meter — Shusher",
+      "subtitle": "Real-time dB & noise scoring",
+      "description": "Measure ambient noise with timed sessions, category scoring, local history, CSV export, and charts. Ad-supported with optional Premium unlock.",
+      "features": {
+        "meter": "Live meter & scoring",
+        "history": "History & export",
+        "premium": "Premium & charts"
+      },
+      "learnMore": "Learn more about Noise Meter — Shusher →"
+    },
+    "paratrooperBlitz": {
+      "title": "Paratrooper Blitz",
+      "subtitle": "Classic arcade action",
+      "description": "Destroy aircraft and paratroopers before they reach your turret. Arcade and Classic DOS modes, scores, career ranks, leaderboards and achievements on mobile.",
+      "features": {
+        "modes": "Arcade & Classic DOS",
+        "action": "Scores & ranks",
+        "social": "Leaderboards & achievements"
+      },
+      "learnMore": "Learn more about Paratrooper Blitz →"
     }
   },
   "dsa": {
@@ -2884,6 +2906,252 @@
     },
     "footer": {
       "copyright": "© 2026 Track Ledger - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    }
+  },
+  "noiseMeterShusher": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Zuki Apps",
+      "title": "Noise Meter — Shusher",
+      "subtitle": "Real-time dB & noise scoring",
+      "description": "Flutter app that streams microphone input into approximate decibel readings, runs timed measurement sessions, scores the environment against common noise bands, saves history on device, and offers CSV export and charts. Monetization via ads and a one-time Premium unlock for extended features."
+    },
+    "features": {
+      "title": "Key Features",
+      "meter": {
+        "title": "Live meter",
+        "description": "Start and stop timed sessions; see min, max, average, and category labels with plain-language recommendations.",
+        "items": [
+          "Approximate dB from the microphone",
+          "Noise score and category bands",
+          "Share-friendly results"
+        ]
+      },
+      "history": {
+        "title": "History & export",
+        "description": "Past sessions stay on your device; export CSV or share summaries when you choose.",
+        "items": [
+          "Local history list",
+          "CSV export",
+          "Share sheet integration"
+        ]
+      },
+      "premium": {
+        "title": "Premium & charts",
+        "description": "Unlock longer or custom durations and richer charts where enabled in the app.",
+        "items": [
+          "Premium removes certain limits",
+          "Visual charts for trends",
+          "Ad experience may differ by tier"
+        ]
+      }
+    },
+    "status": {
+      "title": "Availability",
+      "description": "iOS and Android. Android application ID: com.noisemeter.shusher.noise_meter_shusher. Store links appear when listings are public.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "1.0.0",
+      "statusValue": "iOS & Android"
+    },
+    "download": {
+      "title": "Download",
+      "description": "App Store and Google Play badges will appear here when the app is published.",
+      "soon": "Coming soon",
+      "appStoreUrl": "",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: April 2026",
+      "intro": "Please read these Terms of Use carefully before using Noise Meter — Shusher. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your access to and use of Noise Meter — Shusher (\"Service\", \"App\"), a microphone-based noise measurement application operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "The app provides approximate sound-level readings and related statistics for informational purposes. The Service includes:",
+        "items": [
+          "Timed measurement sessions and noise scoring",
+          "Local history and optional export or sharing initiated by you",
+          "Optional Premium features and advertising as described in-app",
+          "Charts and UI that may vary by platform and version"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: April 2026",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "The app uses the device microphone to measure sound while you run a session. Measurement results and history are stored locally unless you export or share them. Advertising and optional analytics SDKs may collect limited device or usage data per their policies and your OS settings (e.g. App Tracking Transparency on iOS)."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "Audio is processed to derive level estimates and scores; we do not use it for unrelated voice recognition on your speech content as a default product feature. Aggregated diagnostics may help improve stability when enabled."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell your personal information. Data leaves your device when you share or export, when required by law, or when third-party services (ads, stores, analytics) process data as part of normal operation."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "Use a device passcode and current OS updates. Uninstalling the app removes app-local data subject to OS behavior."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You may clear history in-app, revoke microphone permission in system settings, or uninstall the app. Contact us for privacy requests applicable in your region."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    }
+  },
+  "paratrooperBlitz": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Zuki Apps",
+      "title": "Paratrooper Blitz",
+      "subtitle": "Classic arcade action",
+      "description": "Arcade-style mobile game: destroy aircraft and paratroopers before they land. Two control modes (Arcade and Classic DOS), scoring, career ranks, optional ads and in-app purchases, and Google Play Games / Game Center integrations on supported builds."
+    },
+    "features": {
+      "title": "Key Features",
+      "modes": {
+        "title": "Two ways to play",
+        "description": "Pick the control scheme that fits you — fast arcade movement or classic rotation aiming.",
+        "items": [
+          "Arcade mode: move the turret left and right",
+          "Classic DOS mode: rotate and aim",
+          "Keyboard hints on supported platforms"
+        ]
+      },
+      "action": {
+        "title": "Scores & career rank",
+        "description": "Chase high scores and progress through themed military-style ranks as you play.",
+        "items": [
+          "Session scoring with aircraft and paratrooper hits",
+          "Career rank progression",
+          "Game over flow with play-again"
+        ]
+      },
+      "social": {
+        "title": "Leaderboards & achievements",
+        "description": "Where signed in, use platform services for rankings and achievements as configured in the app.",
+        "items": [
+          "Global and friends-style lists where available",
+          "Native leaderboard and achievement UIs",
+          "Firebase Analytics/Crashlytics may apply for stability"
+        ]
+      }
+    },
+    "status": {
+      "title": "Availability",
+      "description": "iOS and Android. Android application ID: com.paratrooper.blitz.paratrooper_blitz. Store links appear when listings are public.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "1.0.0",
+      "statusValue": "iOS & Android"
+    },
+    "download": {
+      "title": "Download",
+      "description": "App Store and Google Play badges will appear here when the app is published.",
+      "soon": "Coming soon",
+      "appStoreUrl": "",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: April 2026",
+      "intro": "Please read these Terms of Use carefully before using Paratrooper Blitz. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the game.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your access to and use of Paratrooper Blitz (\"Service\", \"Game\"), operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
+        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian authorized to agree on their behalf where required."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Paratrooper Blitz is an arcade-style action game. The Service includes:",
+        "items": [
+          "Gameplay sessions, scoring, and progression features",
+          "Optional integration with platform game services (e.g. leaderboards, achievements) where available",
+          "Advertising and in-app purchases as described in-app",
+          "Audio and visual effects; online features depend on third-party services and connectivity"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: April 2026",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "The game may use Firebase Analytics and Crashlytics for diagnostics, platform sign-in for game services, and advertising identifiers subject to your device settings. Gameplay data may be processed by platform providers (Apple, Google) when you use their services."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use collected information to operate the game, show ads or offers where applicable, improve stability, and comply with law. Leaderboards and achievements rely on platform APIs when you opt in or sign in."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell your personal information. Third parties (ad networks, analytics, platform game services) may process data under their policies when those features are active."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement reasonable safeguards appropriate to a mobile game. Use strong device security and keep the app updated."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "Depending on your region, you may have rights to access, delete, or restrict certain processing. Platform account settings and OS privacy controls apply. Contact us for requests we can fulfill directly."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
       "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
     }
   },
