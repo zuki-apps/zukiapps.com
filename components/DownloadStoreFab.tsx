@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { withStoreUtm } from '@/lib/withStoreUtm';
 
 const ACCENT: Record<string, string> = {
   teal: 'border-teal-500/50 hover:shadow-teal-500/50',
@@ -21,6 +22,8 @@ type Props = {
   appStoreAlt?: string;
   googlePlayAlt?: string;
   accent: DownloadStoreFabAccent;
+  /** App segment for `utm_content` (e.g. `zulist`, `track-ledger`). Omit if unknown. */
+  utmContent?: string;
 };
 
 /** Fixed bottom-right App Store + Google Play badges when at least one URL is set */
@@ -30,9 +33,12 @@ export default function DownloadStoreFab({
   appStoreAlt = 'Download on the App Store',
   googlePlayAlt = 'Get it on Google Play',
   accent,
+  utmContent,
 }: Props) {
-  const hasApp = Boolean(appStoreUrl?.trim());
-  const hasPlay = Boolean(googlePlayUrl?.trim());
+  const appHref = withStoreUtm(appStoreUrl, { campaign: 'store-fab', content: utmContent });
+  const playHref = withStoreUtm(googlePlayUrl, { campaign: 'store-fab', content: utmContent });
+  const hasApp = Boolean(appHref);
+  const hasPlay = Boolean(playHref);
   if (!hasApp && !hasPlay) return null;
 
   const ring = ACCENT[accent] ?? ACCENT.blue;
@@ -45,7 +51,7 @@ export default function DownloadStoreFab({
     >
       {hasApp && (
         <a
-          href={appStoreUrl}
+          href={appHref}
           target="_blank"
           rel="noopener noreferrer"
           className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 ${ring}`}
@@ -62,7 +68,7 @@ export default function DownloadStoreFab({
       )}
       {hasPlay && (
         <a
-          href={googlePlayUrl}
+          href={playHref}
           target="_blank"
           rel="noopener noreferrer"
           className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 ${ring}`}

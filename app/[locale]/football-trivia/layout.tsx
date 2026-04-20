@@ -18,7 +18,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'footballTrivia' });
 
   const title = `${t('hero.title')} | Zuki Apps`;
-  const description = `${t('hero.description')} Football Trivia Master: 210+ questions, 4 categories, difficulty levels, and stats. On the App Store; Google Play coming soon.`;
+  const description = t('hero.description');
 
   return {
     title,

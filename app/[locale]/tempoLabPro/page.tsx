@@ -353,6 +353,7 @@ export default function TempoLabProPage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
+          utmContent="tempoLabPro"
         />
       </div>
     </>

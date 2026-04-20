@@ -300,6 +300,7 @@ export default function FootballTriviaPage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
+        utmContent="football-trivia"
         />
       </div>
     </>

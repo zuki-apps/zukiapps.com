@@ -397,6 +397,7 @@ export default function BitScopePage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
+        utmContent="bit-scope"
         />
       </div>
     </>

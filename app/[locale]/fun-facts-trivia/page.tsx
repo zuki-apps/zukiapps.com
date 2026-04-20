@@ -317,6 +317,7 @@ export default function FunFactsTriviaPage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
+        utmContent="fun-facts-trivia"
         />
       </div>
     </>

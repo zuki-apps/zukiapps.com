@@ -604,6 +604,7 @@ export default function HushGalleryPage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
+        utmContent="hush-gallery"
         />
       </div>
     </>

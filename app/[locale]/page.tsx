@@ -192,7 +192,10 @@ export default function Home() {
 
           {/* Social Media Section */}
           <div className="card-twilight mt-12 !mb-0">
-            <h2 className="text-3xl font-black mb-6 text-white text-center">{t('social.title')}</h2>
+            <h2 className="text-3xl font-black mb-4 text-white text-center">{t('social.title')}</h2>
+            <p className="text-lg text-gray-300 mb-8 text-center max-w-2xl mx-auto leading-relaxed">
+              {t('social.description')}
+            </p>
             <div className="flex flex-wrap justify-center gap-6 items-center">
               <a
                 href="https://instagram.com/zuki.apps"

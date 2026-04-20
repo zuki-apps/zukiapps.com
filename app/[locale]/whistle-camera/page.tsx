@@ -399,6 +399,7 @@ export default function WhistleCameraPage() {
           googlePlayUrl={googlePlayUrl}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
+        utmContent="whistle-camera"
         />
       </div>
     </>

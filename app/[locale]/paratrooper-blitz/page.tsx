@@ -280,6 +280,7 @@ export default function ParatrooperBlitzPage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
+        utmContent="paratrooper-blitz"
         />
       </div>
     </>

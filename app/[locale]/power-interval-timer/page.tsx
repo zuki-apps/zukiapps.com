@@ -409,6 +409,7 @@ export default function PowerIntervalTimerPage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
+        utmContent="power-interval-timer"
         />
       </div>
     </>

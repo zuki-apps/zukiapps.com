@@ -649,6 +649,7 @@ export default function ZuListPage() {
         googlePlayUrl={t('download.googlePlayUrl')}
         appStoreAlt={t('download.appStoreAlt')}
         googlePlayAlt={t('download.googlePlayAlt')}
+        utmContent="zulist"
       />
     </div>
     </>

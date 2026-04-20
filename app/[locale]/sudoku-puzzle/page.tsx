@@ -389,6 +389,7 @@ export default function SudokuPuzzlePage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
+        utmContent="sudoku-puzzle"
         />
       </div>
     </>
