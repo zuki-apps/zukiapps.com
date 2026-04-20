@@ -166,6 +166,35 @@
     "appsGrid": {
       "title": "Our Apps"
     },
+    "faq": {
+      "title": "Common questions",
+      "items": [
+        {
+          "question": "Who is Zuki Apps?",
+          "answer": "Zuki Apps is an independent mobile software publisher. The developer is based in Israel and ships consumer apps built with Flutter for iOS and Android."
+        },
+        {
+          "question": "What is zukiapps.com?",
+          "answer": "This site is the public marketing presence for Zuki Apps: short descriptions of each app, links to the App Store and Google Play when available, support email, and links to each app’s Privacy Policy and Terms of Use. There is no user login on the website itself."
+        },
+        {
+          "question": "How do I contact Zuki Apps?",
+          "answer": "For support and general inquiries, email zuki.apps.dev@gmail.com. The same address appears on app pages and in store listings where applicable."
+        },
+        {
+          "question": "Where can I read privacy policies and terms?",
+          "answer": "Each app has its own pages: open the app’s section on this site and follow Privacy Policy and Terms of Use. EU Digital Services Act (DSA) trader information is on the DSA Compliance page. A legacy DreamBit archive is also linked from the footer."
+        },
+        {
+          "question": "Which apps are listed on this site?",
+          "answer": "The home page showcases multiple titles (for example ZuList, Hush Gallery, games, utilities, Track Ledger, Noise Meter — Shusher, Paratrooper Blitz, and others). Use the app tiles to open each product page for details and policies."
+        },
+        {
+          "question": "Is there a public API documented here?",
+          "answer": "No. This website does not document a public REST or GraphQL API for end users. Apps use their own clients on the device and normal app-store distribution."
+        }
+      ]
+    },
     "contact": {
       "title": "Get in Touch",
       "description": "Have a question, an idea, or just want to connect? I'd love to hear from you!",

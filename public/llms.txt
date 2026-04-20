@@ -19,6 +19,7 @@
 
 ## Structured data
 - Pages emit one JSON-LD `@graph` (schema.org): Organization (publisher), WebSite (with `mainEntity` → software catalog), ItemList of product URLs. App product pages may also emit SoftwareApplication where implemented.
+- Home page also emits FAQPage JSON-LD (and shows the same Q&A in HTML) for common questions about Zuki Apps and this site.
 - Canonical URLs and hreflang alternates are in HTML `<head>` and in `sitemap.xml` per locale.
 
 ## Answer engines (AEO) — factual Q&A

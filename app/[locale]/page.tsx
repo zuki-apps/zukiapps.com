@@ -10,6 +10,7 @@ import Logo from '@/components/Logo';
 import AppsCarousel from '@/components/AppsCarousel';
 import AppsGrid from '@/components/AppsGrid';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
+import HomeFaq from '@/components/HomeFaq';
 
 interface Star {
   left: number;
@@ -186,6 +187,8 @@ export default function Home() {
               {t('contact.email')}
             </p>
           </div>
+
+          <HomeFaq />
 
           {/* Social Media Section */}
           <div className="card-twilight mt-12 !mb-0">
