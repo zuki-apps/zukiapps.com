@@ -97,16 +97,16 @@ export default async function FunFactsTriviaPrivacyPage({
                 ))}
 
                 <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-amber-600 mt-8">
-                  <h2 className="text-2xl font-bold text-amber-700 mb-4">{t('section8.title')}</h2>
-                  <p className="text-gray-700 mb-4">{t('section8.content')}</p>
+                  <h2 className="text-2xl font-bold text-amber-700 mb-4">{t('section7.title')}</h2>
+                  <p className="text-gray-700 mb-4">{t('section7.content')}</p>
                   <p className="text-gray-700 mb-2">
                     <strong>{tCommon('email')}:</strong>{' '}
-                    <a href={`mailto:${t('section8.email')}`} className="text-amber-700 hover:underline">
-                      {t('section8.email')}
+                    <a href={`mailto:${t('section7.email')}`} className="text-amber-700 hover:underline">
+                      {t('section7.email')}
                     </a>
                   </p>
                   <p className="text-gray-700 mb-4">
-                    <strong>{tCommon('address')}:</strong> {t('section8.address')}
+                    <strong>{tCommon('address')}:</strong> {t('section7.address')}
                   </p>
                   <p className="text-gray-700 text-sm">
                     <Link href={`/${locale}/fun-facts-trivia/terms`} className="text-amber-700 hover:underline">
