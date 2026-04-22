@@ -10,6 +10,12 @@
   # Note: Add FIREBASE_SERVICE_ACCOUNT_KEY and NEXT_PUBLIC_BASE_URL in Netlify Dashboard
   # Site settings → Environment variables
 
+# app-ads.txt (AdMob / IAB): plain text + correct MIME for crawlers
+[[headers]]
+  for = "/app-ads.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
 # Continuous Deployment - Netlify will automatically pull and deploy on every git push
 [build.processing]
   skip_processing = false
