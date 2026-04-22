@@ -160,7 +160,16 @@ export default function FootballTriviaPage() {
             <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-slate-500/35 rounded-xl p-8 backdrop-blur-sm bg-opacity-90 ring-1 ring-blue-500/15">
               <h2 className="text-3xl font-bold mb-4 text-white">{t('status.title')}</h2>
               <p className="text-lg text-gray-300 mb-6">{t('status.description')}</p>
-              <p className="text-sm text-gray-400">{t('status.statusValue')}</p>
+              <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-400">
+                <div>
+                  <p className="font-semibold text-white">{t('status.version')}</p>
+                  <p>{t('status.versionValue')}</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-white">{t('status.status')}</p>
+                  <p>{t('status.statusValue')}</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
