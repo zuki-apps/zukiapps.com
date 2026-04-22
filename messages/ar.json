@@ -122,15 +122,15 @@
       "learnMore": "المزيد عن Football Trivia →"
     },
     "funFactsTrivia": {
-      "title": "Fun Facts Trivia",
-      "subtitle": "أسئلة ثقافية ضمن وقت: علوم، تاريخ، وأكثر",
-      "description": "جولات أسئلة في ثماني فئات، ثلاث مستويات صعوبة، سلاسل إجابات وإحصاءات. قريبًا على App Store وGoogle Play.",
+      "title": "Fun Facts! Trivia",
+      "subtitle": "تريفيا: 8 فئات، سلاسل، إحصائيات، سهل–صعب.",
+      "description": "مسابقة معلومات عامة سريعة بأسئلة اختيار من متعدد في ثماني فئات وثلاث مستويات صعوبة، مع سلاسل وإحصائيات. قريبًا على App Store وGoogle Play.",
       "features": {
         "categories": "ثماني فئات",
         "gameplay": "جولات بوقت ومستويات",
         "extras": "إحصاءات ولوحات متصدرين"
       },
-      "learnMore": "اعرف المزيد عن Fun Facts Trivia ←"
+      "learnMore": "اعرف المزيد عن Fun Facts! Trivia ←"
     },
     "trackLedger": {
       "title": "Track Ledger",
@@ -1959,24 +1959,24 @@
     "back": "العودة إلى الرئيسية",
     "hero": {
       "badge": "قريبًا على App Store وGoogle Play",
-      "title": "Fun Facts Trivia",
-      "subtitle": "ثماني فئات · سهل ومتوسط وصعب · سلاسل وإحصاءات",
-      "description": "تطبيق أسئلة على Flutter لنظامي iOS وAndroid: أسئلة متعددة الخيارات ضمن وقت في العلوم والتاريخ والجغرافيا والترفيه وغيرها. يعمل دون اتصال، لوحات متصدرين وإنجازات عبر Game Center وPlay Games، وشراء داخل التطبيق لمرة واحدة لإزالة الإعلانات (اختياري)."
+      "title": "Fun Facts! Trivia",
+      "subtitle": "مسابقة: معلومات وثقافة",
+      "description": "Fun Facts! Trivia — مسابقة معلومات عامة سريعة بأسئلة اختيار من متعدد في ثماني فئات. اختر السهولة أو المتوسط أو الصعب، أجب ضمن الوقت وابنِ سلاسل لنقاط أعلى. إحصائيات بعد كل جلسة. شراء لمرة واحدة لإزالة الإعلانات. يعمل دون اتصال مع Game Center وPlay Games."
     },
     "features": {
       "title": "الميزات الرئيسية",
       "categories": {
         "title": "ثماني فئات موضوعية",
-        "description": "من الطبيعة والعلوم إلى الثقافة والحقائق الغريبة.",
+        "description": "من العلوم والطبيعة إلى السينما والرياضة والأرقام القياسية — ثماني فئات.",
         "items": [
-          "العلوم والطبيعة",
-          "التاريخ والثقافة",
-          "الجغرافيا والعالم",
-          "حقائق غريبة وسجلات",
-          "الأفلام والسينما",
-          "حقائق مذهلة",
-          "الرياضة والألعاب",
-          "سجلات عالمية"
+          "Ø§ÙØ¹ÙÙÙ ÙØ§ÙØ·Ø¨ÙØ¹Ø©",
+          "Ø§ÙØªØ§Ø±ÙØ® ÙØ§ÙØ«ÙØ§ÙØ©",
+          "Ø§ÙØ¬ØºØ±Ø§ÙÙØ§ ÙØ§ÙØ¹Ø§ÙÙ",
+          "Ø­ÙØ§Ø¦Ù ÙØ³Ø¬ÙØ§Øª ØºØ±ÙØ¨Ø©",
+          "Ø³ÙÙÙØ§ ÙØ£ÙÙØ§Ù",
+          "Ø­ÙØ§Ø¦Ù ÙØ°ÙÙØ©",
+          "Ø§ÙØ±ÙØ§Ø¶Ø© ÙØ§ÙØ£ÙØ¹Ø§Ø¨",
+          "Ø§ÙØ£Ø±ÙØ§Ù Ø§ÙÙÙØ§Ø³ÙØ© Ø§ÙØ¹Ø§ÙÙÙØ©"
         ]
       },
       "gameplay": {
@@ -2002,15 +2002,15 @@
     },
     "status": {
       "title": "التوفر",
-      "description": "تطبيق Fun Facts Trivia غير متوفر في المتاجر بعد. ستظهر روابط App Store وGoogle Play هنا بعد النشر.",
+      "description": "المحتوى متوافق مع تطبيق Fun Facts! Trivia للجوال (الإصدار 1.0.0، الإصدار 2). ستُضاف روابط المتاجر عند النشر.",
       "version": "الإصدار",
       "status": "الحالة",
-      "versionValue": "1.0.0",
+      "versionValue": "1.0.0 (2)",
       "statusValue": "قريبًا — App Store وGoogle Play"
     },
     "download": {
       "title": "التنزيل",
-      "description": "سيصل Fun Facts Trivia قريبًا إلى App Store وGoogle Play.",
+      "description": "سيصل Fun Facts! Trivia قريبًا إلى App Store وGoogle Play.",
       "soon": "ستظهر شارات المتاجر هنا عند توفر التطبيق.",
       "appStoreUrl": "",
       "appStoreAlt": "تنزيل من App Store",
@@ -2025,21 +2025,21 @@
       }
     },
     "footer": {
-      "copyright": "© 2026 Fun Facts Trivia — جميع الحقوق محفوظة",
+      "copyright": "© 2026 Fun Facts! Trivia — جميع الحقوق محفوظة",
       "tagline": "ضمن Zuki Apps • مطوّر في إسرائيل • صُنع بـ ❤️"
     },
     "terms": {
       "title": "شروط الاستخدام",
       "lastUpdated": "آخر تحديث: أبريل 2026",
-      "intro": "Please read these Terms of Use carefully before using Fun Facts Trivia. By accessing or using our service, you agree to be bound by these terms.",
+      "intro": "Please read these Terms of Use carefully before using Fun Facts! Trivia. By accessing or using our service, you agree to be bound by these terms.",
       "section1": {
         "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Fun Facts Trivia (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a trivia game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Fun Facts! Trivia (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a trivia game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
         "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
       },
       "section2": {
         "title": "2. Description of Service",
-        "content": "Fun Facts Trivia is a mobile trivia application. The Service includes: multiple-choice questions across themed categories, difficulty levels, timed play, local statistics, optional Game Center / Play Games features, advertising, and optional in-app purchases (e.g. ad removal).",
+        "content": "Fun Facts! Trivia is a mobile trivia application. The Service includes: multiple-choice questions across themed categories, difficulty levels, timed play, local statistics, optional Game Center / Play Games features, advertising, and optional in-app purchases (e.g. ad removal).",
         "items": [
           "Trivia gameplay across multiple categories",
           "Easy, Medium, and Hard difficulties",
@@ -2060,7 +2060,7 @@
       "lastUpdated": "آخر تحديث: أبريل 2026",
       "section1": {
         "title": "1. Information We Collect",
-        "content": "Fun Facts Trivia collects minimal information necessary to provide the service. Game progress, preferences, and statistics may be stored locally on your device. We collect information you provide when you contact support. If you use Game Center, Play Games, ads, or analytics, additional data may be processed as described in your platform and ad provider settings."
+        "content": "Fun Facts! Trivia collects minimal information necessary to provide the service. Game progress, preferences, and statistics may be stored locally on your device. We collect information you provide when you contact support. If you use Game Center, Play Games, ads, or analytics, additional data may be processed as described in your platform and ad provider settings."
       },
       "section2": {
         "title": "2. How We Use Your Information",
@@ -2111,7 +2111,7 @@
       "faq": {
         "title": "الأسئلة الشائعة",
         "q1": {
-          "question": "ما هو Fun Facts Trivia؟",
+          "question": "ما هو Fun Facts! Trivia؟",
           "answer": "لعبة أسئلة متعددة الخيارات على الجوال في ثماني فئات. اختيار الصعوبة، جولات ضمن وقت، سلاسل وإحصاءات. مبني بـ Flutter لنظامي iOS وAndroid."
         },
         "q2": {

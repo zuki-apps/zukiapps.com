@@ -19,10 +19,11 @@ export async function generateMetadata({
   }
 
   const t = await getTranslations({ locale, namespace: 'funFactsTrivia.terms' });
+  const tHero = await getTranslations({ locale, namespace: 'funFactsTrivia.hero' });
 
   return {
-    title: `${t('title')} - Fun Facts Trivia | Zuki Apps`,
-    description: 'Terms of Service for Fun Facts Trivia. Read the terms and conditions for using the app.',
+    title: `${t('title')} - ${tHero('title')} | Zuki Apps`,
+    description: `Terms of Service for ${tHero('title')}. Read the terms and conditions for using the app.`,
     alternates: {
       canonical: buildCanonical(locale, '/fun-facts-trivia/terms'),
       languages: buildLanguageAlternates('/fun-facts-trivia/terms'),
@@ -64,7 +65,7 @@ export default async function FunFactsTriviaTermsPage({
 
           <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-              <h1 className="text-4xl font-bold text-amber-700">Fun Facts Trivia</h1>
+              <h1 className="text-4xl font-bold text-amber-700">{tApp('title')}</h1>
               <div className="flex gap-2">
                 <Link
                   href={`/${locale}/fun-facts-trivia`}

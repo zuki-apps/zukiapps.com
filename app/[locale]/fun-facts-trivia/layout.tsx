@@ -25,7 +25,7 @@ export async function generateMetadata({
     title,
     description,
     keywords: [
-      'Fun Facts Trivia',
+      'Fun Facts! Trivia',
       'fun facts quiz',
       'general knowledge trivia',
       'science trivia',

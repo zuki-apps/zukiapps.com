@@ -86,7 +86,7 @@ export default function FunFactsTriviaPage() {
               <div className="relative w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-amber-400/30 bg-gradient-to-br from-amber-500 to-orange-700 flex items-center justify-center">
                 <Image
                   src="/images/fun-facts-trivia-icon.png"
-                  alt="Fun Facts Trivia"
+                  alt="Fun Facts! Trivia"
                   fill
                   sizes="(max-width: 768px) 96px, 128px"
                   className="object-contain p-2"

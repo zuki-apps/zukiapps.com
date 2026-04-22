@@ -122,15 +122,15 @@
       "learnMore": "了解更多 Football Trivia →"
     },
     "funFactsTrivia": {
-      "title": "Fun Facts Trivia",
-      "subtitle": "限时问答：科学、历史等",
-      "description": "八个类别、三种难度、连击与统计的问答轮次。即将登陆 App Store 与 Google Play。",
+      "title": "Fun Facts! Trivia",
+      "subtitle": "百科问答：八大主题、连击、统计、三种难度，可离线。",
+      "description": "八大主题的快节奏四选一问答，三种难度、连击与统计。即将登陆 App Store 与 Google Play。",
       "features": {
         "categories": "八个类别",
         "gameplay": "限时轮次与难度",
         "extras": "统计与排行榜"
       },
-      "learnMore": "了解 Fun Facts Trivia →"
+      "learnMore": "了解 Fun Facts! Trivia →"
     },
     "trackLedger": {
       "title": "Track Ledger",
@@ -1959,24 +1959,24 @@
     "back": "返回首页",
     "hero": {
       "badge": "即将上架 App Store 与 Google Play",
-      "title": "Fun Facts Trivia",
-      "subtitle": "八个类别 · 简单、中等、困难 · 连击与统计",
-      "description": "面向 iOS 与 Android 的 Flutter 问答应用：科学、历史、地理、娱乐等限时选择题。可完全离线，Game Center 与 Play Games 排行榜与成就，可选一次性内购去广告。"
+      "title": "Fun Facts! Trivia",
+      "subtitle": "问答：知识与百科",
+      "description": "Fun Facts! Trivia 是一款快节奏百科知识问答，八个主题、三种难度，限时作答，连击得分，每局后可看统计。一次性内购可去广告。支持离线游玩与 Game Center、Play Games。"
     },
     "features": {
       "title": "主要功能",
       "categories": {
         "title": "八个主题类别",
-        "description": "从自然与科学到文化与奇闻。",
+        "description": "从科学与自然到影视、体育与世界纪录——八大主题。",
         "items": [
-          "科学与自然",
-          "历史与文化",
-          "地理与世界",
-          "奇闻与纪录",
-          "电影与银幕",
-          "惊人事实",
-          "体育与游戏",
-          "世界纪录"
+          "ç§å­¦ä¸èªç¶",
+          "åå²ä¸æå",
+          "å°çä¸ä¸ç",
+          "å¥æªçäºå®åè®°å½",
+          "å½±è§",
+          "æäººçäºå®",
+          "ä½è²ä¸æ¸¸æ",
+          "ä¸ççºªå½"
         ]
       },
       "gameplay": {
@@ -2002,15 +2002,15 @@
     },
     "status": {
       "title": "上架情况",
-      "description": "Fun Facts Trivia 尚未上架应用商店。发布后我们会在此添加 App Store 与 Google Play 链接。",
+      "description": "内容与 Fun Facts! Trivia 移动应用（v1.0.0，构建号 2）保持一致，上架后将添加商店链接。",
       "version": "版本",
       "status": "状态",
-      "versionValue": "1.0.0",
+      "versionValue": "1.0.0 (2)",
       "statusValue": "即将推出 — App Store 与 Google Play"
     },
     "download": {
       "title": "下载",
-      "description": "Fun Facts Trivia 即将登陆 App Store 与 Google Play。",
+      "description": "Fun Facts! Trivia 即将登陆 App Store 与 Google Play。",
       "soon": "应用上架后，此处将显示商店徽章。",
       "appStoreUrl": "",
       "appStoreAlt": "在 App Store 下载",
@@ -2025,21 +2025,21 @@
       }
     },
     "footer": {
-      "copyright": "© 2026 Fun Facts Trivia — 保留所有权利",
+      "copyright": "© 2026 Fun Facts! Trivia — 保留所有权利",
       "tagline": "Zuki Apps 旗下 · 以色列开发 · 用心制作 ❤️"
     },
     "terms": {
       "title": "使用条款",
       "lastUpdated": "最后更新：2026 年 4 月",
-      "intro": "Please read these Terms of Use carefully before using Fun Facts Trivia. By accessing or using our service, you agree to be bound by these terms.",
+      "intro": "Please read these Terms of Use carefully before using Fun Facts! Trivia. By accessing or using our service, you agree to be bound by these terms.",
       "section1": {
         "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Fun Facts Trivia (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a trivia game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Fun Facts! Trivia (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a trivia game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
         "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
       },
       "section2": {
         "title": "2. Description of Service",
-        "content": "Fun Facts Trivia is a mobile trivia application. The Service includes: multiple-choice questions across themed categories, difficulty levels, timed play, local statistics, optional Game Center / Play Games features, advertising, and optional in-app purchases (e.g. ad removal).",
+        "content": "Fun Facts! Trivia is a mobile trivia application. The Service includes: multiple-choice questions across themed categories, difficulty levels, timed play, local statistics, optional Game Center / Play Games features, advertising, and optional in-app purchases (e.g. ad removal).",
         "items": [
           "Trivia gameplay across multiple categories",
           "Easy, Medium, and Hard difficulties",
@@ -2060,7 +2060,7 @@
       "lastUpdated": "最后更新：2026 年 4 月",
       "section1": {
         "title": "1. Information We Collect",
-        "content": "Fun Facts Trivia collects minimal information necessary to provide the service. Game progress, preferences, and statistics may be stored locally on your device. We collect information you provide when you contact support. If you use Game Center, Play Games, ads, or analytics, additional data may be processed as described in your platform and ad provider settings."
+        "content": "Fun Facts! Trivia collects minimal information necessary to provide the service. Game progress, preferences, and statistics may be stored locally on your device. We collect information you provide when you contact support. If you use Game Center, Play Games, ads, or analytics, additional data may be processed as described in your platform and ad provider settings."
       },
       "section2": {
         "title": "2. How We Use Your Information",
@@ -2111,7 +2111,7 @@
       "faq": {
         "title": "常见问题",
         "q1": {
-          "question": "什么是 Fun Facts Trivia？",
+          "question": "什么是 Fun Facts! Trivia？",
           "answer": "八个类别的手机选择题问答。可选难度、限时轮次、连击与统计。使用 Flutter 构建的 iOS/Android 应用。"
         },
         "q2": {

@@ -18,10 +18,10 @@ export async function generateMetadata({
     notFound();
   }
 
+  const tHero = await getTranslations({ locale, namespace: 'funFactsTrivia.hero' });
   return {
-    title: 'Privacy Policy - Fun Facts Trivia | Zuki Apps',
-    description:
-      'Privacy Policy for Fun Facts Trivia — trivia game by Zuki Apps. Learn how we collect, use, and protect your data.',
+    title: `Privacy Policy - ${tHero('title')} | Zuki Apps`,
+    description: `Privacy Policy for ${tHero('title')} — trivia game by Zuki Apps. Learn how we collect, use, and protect your data.`,
     robots: {
       index: true,
       follow: true,
@@ -73,7 +73,7 @@ export default async function FunFactsTriviaPrivacyPage({
 
           <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-              <h1 className="text-4xl font-bold text-amber-700">Fun Facts Trivia</h1>
+              <h1 className="text-4xl font-bold text-amber-700">{tApp('title')}</h1>
               <div className="flex gap-2">
                 <Link
                   href={`/${locale}/fun-facts-trivia`}

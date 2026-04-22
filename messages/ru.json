@@ -122,15 +122,15 @@
       "learnMore": "Подробнее о Football Trivia →"
     },
     "funFactsTrivia": {
-      "title": "Fun Facts Trivia",
-      "subtitle": "Викторина на время: наука, история и другое",
-      "description": "Раунды вопросов в восьми категориях, три уровня сложности, серии и статистика. Скоро в App Store и Google Play.",
+      "title": "Fun Facts! Trivia",
+      "subtitle": "Викторина: 8 тем, серии, статистика, уровни сложности.",
+      "description": "Быстрая викторина с вопросами с выбором ответа в восьми категориях, тремя уровнями сложности, сериями и статистикой. Скоро в App Store и Google Play.",
       "features": {
         "categories": "Восемь категорий",
         "gameplay": "Раунды на время и уровни",
         "extras": "Статистика и таблицы лидеров"
       },
-      "learnMore": "Подробнее о Fun Facts Trivia →"
+      "learnMore": "Подробнее о Fun Facts! Trivia →"
     },
     "trackLedger": {
       "title": "Track Ledger",
@@ -1959,24 +1959,24 @@
     "back": "На главную",
     "hero": {
       "badge": "Скоро в App Store и Google Play",
-      "title": "Fun Facts Trivia",
-      "subtitle": "Восемь категорий · Лёгкий, средний и сложный · Серии и статистика",
-      "description": "Викторина на Flutter для iOS и Android: вопросы на время о науке, истории, географии, развлечениях и не только. Оффлайн, таблицы лидеров Game Center и Play Games, достижения и разовая покупка для отключения рекламы."
+      "title": "Fun Facts! Trivia",
+      "subtitle": "Викторина: факты и мир",
+      "description": "Fun Facts! Trivia — динамичная викторина с вопросами с выбором ответа в восьми категориях. Выберите лёгкий, средний или сложный уровень, отвечайте на время и собирайте серии для большего счёта. Статистика после каждой игры. Разовая покупка убирает рекламу. Офлайн с Game Center и Play Games."
     },
     "features": {
       "title": "Основные возможности",
       "categories": {
         "title": "Восемь тематических категорий",
-        "description": "От природы и науки до культуры и необычных фактов.",
+        "description": "От науки и природы до кино, спорта и мировых рекордов — восемь категорий.",
         "items": [
-          "Наука и природа",
-          "История и культура",
-          "География и мир",
-          "Необычные факты и рекорды",
-          "Кино и фильмы",
-          "Удивительные факты",
-          "Спорт и игры",
-          "Мировые рекорды"
+          "ÐÐ°ÑÐºÐ° Ð¸ Ð¿ÑÐ¸ÑÐ¾Ð´Ð°",
+          "ÐÑÑÐ¾ÑÐ¸Ñ Ð¸ ÐºÑÐ»ÑÑÑÑÐ°",
+          "ÐÐµÐ¾Ð³ÑÐ°ÑÐ¸Ñ Ð¸ Ð¼Ð¸Ñ",
+          "Ð¡ÑÑÐ°Ð½Ð½ÑÐµ ÑÐ°ÐºÑÑ Ð¸ Ð·Ð°Ð¿Ð¸ÑÐ¸",
+          "Ð¤Ð¸Ð»ÑÐ¼Ñ Ð¸ ÐºÐ¸Ð½Ð¾",
+          "Ð£Ð´Ð¸Ð²Ð¸ÑÐµÐ»ÑÐ½ÑÐµ ÑÐ°ÐºÑÑ",
+          "Ð¡Ð¿Ð¾ÑÑ Ð¸ Ð¸Ð³ÑÑ",
+          "ÐÐ¸ÑÐ¾Ð²ÑÐµ ÑÐµÐºÐ¾ÑÐ´Ñ"
         ]
       },
       "gameplay": {
@@ -2002,15 +2002,15 @@
     },
     "status": {
       "title": "Доступность",
-      "description": "Fun Facts Trivia пока нет в магазинах. Ссылки на App Store и Google Play появятся здесь после публикации.",
+      "description": "Тексты синхронизированы с мобильным приложением Fun Facts! Trivia (v1.0.0, сборка 2). Ссылки на магазины появятся после публикации.",
       "version": "Версия",
       "status": "Статус",
-      "versionValue": "1.0.0",
+      "versionValue": "1.0.0 (2)",
       "statusValue": "Скоро — App Store и Google Play"
     },
     "download": {
       "title": "Скачать",
-      "description": "Fun Facts Trivia скоро выйдет в App Store и Google Play.",
+      "description": "Fun Facts! Trivia скоро выйдет в App Store и Google Play.",
       "soon": "Значки магазинов появятся здесь, когда приложение будет доступно.",
       "appStoreUrl": "",
       "appStoreAlt": "Загрузить в App Store",
@@ -2025,21 +2025,21 @@
       }
     },
     "footer": {
-      "copyright": "© 2026 Fun Facts Trivia — Все права защищены",
+      "copyright": "© 2026 Fun Facts! Trivia — Все права защищены",
       "tagline": "Часть Zuki Apps • Разработано в Израиле • Сделано с ❤️"
     },
     "terms": {
       "title": "Условия использования",
       "lastUpdated": "Последнее обновление: апрель 2026",
-      "intro": "Please read these Terms of Use carefully before using Fun Facts Trivia. By accessing or using our service, you agree to be bound by these terms.",
+      "intro": "Please read these Terms of Use carefully before using Fun Facts! Trivia. By accessing or using our service, you agree to be bound by these terms.",
       "section1": {
         "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Fun Facts Trivia (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a trivia game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Fun Facts! Trivia (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a trivia game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
         "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
       },
       "section2": {
         "title": "2. Description of Service",
-        "content": "Fun Facts Trivia is a mobile trivia application. The Service includes: multiple-choice questions across themed categories, difficulty levels, timed play, local statistics, optional Game Center / Play Games features, advertising, and optional in-app purchases (e.g. ad removal).",
+        "content": "Fun Facts! Trivia is a mobile trivia application. The Service includes: multiple-choice questions across themed categories, difficulty levels, timed play, local statistics, optional Game Center / Play Games features, advertising, and optional in-app purchases (e.g. ad removal).",
         "items": [
           "Trivia gameplay across multiple categories",
           "Easy, Medium, and Hard difficulties",
@@ -2060,7 +2060,7 @@
       "lastUpdated": "Последнее обновление: апрель 2026",
       "section1": {
         "title": "1. Information We Collect",
-        "content": "Fun Facts Trivia collects minimal information necessary to provide the service. Game progress, preferences, and statistics may be stored locally on your device. We collect information you provide when you contact support. If you use Game Center, Play Games, ads, or analytics, additional data may be processed as described in your platform and ad provider settings."
+        "content": "Fun Facts! Trivia collects minimal information necessary to provide the service. Game progress, preferences, and statistics may be stored locally on your device. We collect information you provide when you contact support. If you use Game Center, Play Games, ads, or analytics, additional data may be processed as described in your platform and ad provider settings."
       },
       "section2": {
         "title": "2. How We Use Your Information",
@@ -2111,7 +2111,7 @@
       "faq": {
         "title": "Частые вопросы",
         "q1": {
-          "question": "Что такое Fun Facts Trivia?",
+          "question": "Что такое Fun Facts! Trivia?",
           "answer": "Мобильная викторина с выбором ответа в восьми категориях. Выбор сложности, раунды на время, серии и статистика. Сделано на Flutter для iOS и Android."
         },
         "q2": {

@@ -20,10 +20,10 @@ export async function generateMetadata({
     notFound();
   }
 
+  const tHero = await getTranslations({ locale, namespace: 'funFactsTrivia.hero' });
   return {
-    title: 'Support - Fun Facts Trivia | Zuki Apps',
-    description:
-      'Get help and support for Fun Facts Trivia. Find answers to common questions, contact information, and helpful resources.',
+    title: `Support - ${tHero('title')} | Zuki Apps`,
+    description: `Get help and support for ${tHero('title')}. Find answers to common questions, contact information, and helpful resources.`,
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/fun-facts-trivia/support'),
@@ -83,7 +83,7 @@ export default async function FunFactsTriviaSupportPage({
 
           <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-              <h1 className="text-4xl font-bold text-amber-700">Fun Facts Trivia</h1>
+              <h1 className="text-4xl font-bold text-amber-700">{tHero('title')}</h1>
               <div className="flex gap-2">
                 <Link
                   href={`/${locale}/fun-facts-trivia`}
