@@ -30,14 +30,17 @@ export default function Logo({ className = '', size = 'lg', href }: LogoProps) {
   }, []);
 
   const logoContent = (
-    <div className={`relative ${className}`} style={{ width: logoSize, height: logoSize }}>
+    <div
+      className={`relative overflow-hidden rounded-2xl ring-1 ring-white/12 shadow-md bg-slate-950/35 ${className}`}
+      style={{ width: logoSize, height: logoSize }}
+    >
       {!imageError ? (
         <Image
           src={logoSrc}
           alt="Zuki Apps Logo"
           width={logoSize}
           height={logoSize}
-          className="object-contain"
+          className="object-contain p-[6%]"
           priority
           style={{ background: 'transparent' }}
           onError={() => setImageError(true)}

@@ -6,6 +6,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { ArrowLeft, Trophy, BarChart3, Zap, Mail, ExternalLink } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
+import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
@@ -77,16 +78,15 @@ export default function FootballTriviaPage() {
         <section className="py-12 px-4 relative z-10">
           <div className="max-w-7xl mx-auto text-center">
             <div className="mb-8">
-              <div className="relative w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-slate-400/40 ring-offset-2 ring-offset-slate-950/50 bg-gradient-to-br from-blue-700 via-slate-800 to-slate-900 flex items-center justify-center">
-                <Image
-                  src="/images/football-trivia-icon.png"
-                  alt={t('hero.title')}
-                  fill
-                  sizes="(max-width: 768px) 96px, 128px"
-                  className="object-contain p-2"
-                  priority
-                />
-              </div>
+              <AppIconFrame
+                src="/images/football-trivia-icon.png"
+                alt={t('hero.title')}
+                sizes="(max-width: 768px) 96px, 128px"
+                priority
+                className="mx-auto mb-6"
+                boxClassName="w-24 h-24 md:w-32 md:h-32"
+                frameClassName="rounded-2xl overflow-hidden shadow-2xl ring-2 ring-sky-400/40 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-950"
+              />
             </div>
             <h1 className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-slate-100 via-sky-200 to-blue-400 bg-clip-text text-transparent" style={{ filter: 'drop-shadow(0 0 10px rgba(56, 189, 248, 0.45))' }}>
               {t('hero.title')}

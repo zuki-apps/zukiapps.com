@@ -148,7 +148,7 @@ export default function DreambitLegacyPage() {
                 >
                   <div className="flex-shrink-0 flex items-start justify-center sm:justify-start pt-1">
                     <div
-                      className={`relative rounded-2xl overflow-hidden border-2 border-indigo-400/30 bg-indigo-950/80 shadow-lg ring-1 ring-white/10 ${
+                      className={`relative rounded-2xl overflow-hidden border-2 border-indigo-400/30 bg-gradient-to-br from-slate-950 via-indigo-950/90 to-slate-950 shadow-lg ring-1 ring-white/10 ${
                         LARGE_RASTER_ICON_KEYS.has(key)
                           ? 'h-28 w-28 sm:h-36 sm:w-36'
                           : 'h-20 w-20 sm:h-24 sm:w-24'
@@ -164,8 +164,8 @@ export default function DreambitLegacyPage() {
                               fill
                               className={
                                 LARGE_RASTER_ICON_KEYS.has(key)
-                                  ? 'object-cover object-center'
-                                  : 'object-contain p-1'
+                                  ? 'object-cover object-center scale-[1.1]'
+                                  : 'object-cover object-center scale-[1.08]'
                               }
                               sizes={LARGE_RASTER_ICON_KEYS.has(key) ? '144px' : '96px'}
                             />

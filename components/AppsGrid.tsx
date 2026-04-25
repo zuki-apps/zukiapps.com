@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
+import AppIconFrame from '@/components/AppIconFrame';
 import {
   ShoppingCart,
   ImageIcon,
@@ -136,18 +136,19 @@ export default function AppsGrid() {
             className="group flex flex-col items-center p-6 rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 backdrop-blur-md bg-opacity-90 bg-gradient-to-br from-indigo-950/85 to-violet-950/70 border-indigo-500/30 hover:border-amber-400/45"
             aria-label={`${t(app.titleKey)} - ${locale === 'he' ? 'פתח' : 'Open'}`}
           >
-            <div className="relative w-20 h-20 md:w-24 md:h-24 mb-4 rounded-2xl overflow-hidden ring-2 ring-gray-600 group-hover:ring-blue-500/50 transition-all">
+            <div className="mb-4">
               {app.iconImage && isMounted ? (
-                <Image
+                <AppIconFrame
                   src={app.iconImage}
                   alt={t(app.titleKey)}
-                  fill
                   sizes="(max-width: 768px) 80px, 96px"
-                  className="object-contain p-2 group-hover:scale-110 transition-transform duration-300"
+                  boxClassName="w-20 h-20 md:w-24 md:h-24"
+                  frameClassName="rounded-2xl overflow-hidden shadow-lg ring-2 ring-white/15 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 group-hover:ring-amber-400/45 transition-all duration-300"
                   priority={app.id === 'zulist'}
+                  withGroupHover
                 />
               ) : (
-                <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-950/80 to-slate-950/90">
+                <div className="relative w-20 h-20 md:w-24 md:h-24 flex items-center justify-center rounded-2xl overflow-hidden ring-2 ring-white/15 bg-gradient-to-br from-indigo-950/80 to-slate-950/90">
                   {app.icon}
                 </div>
               )}

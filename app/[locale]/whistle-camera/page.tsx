@@ -6,6 +6,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { ArrowLeft, Camera, Volume2, EyeOff, Lock, Smartphone, Mail, ExternalLink, CheckCircle2, Download } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
+import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
@@ -88,16 +89,15 @@ export default function WhistleCameraPage() {
         <section className="py-12 px-4 relative z-10">
           <div className="max-w-7xl mx-auto text-center">
             <div className="mb-8">
-              <div className="relative w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-amber-400/30 bg-gradient-to-br from-amber-600 to-amber-800 flex items-center justify-center">
-                <Image
-                  src="/images/whistle-camera-icon.png"
-                  alt="Whistle Camera"
-                  fill
-                  sizes="(max-width: 768px) 96px, 128px"
-                  className="object-contain p-2"
-                  priority
-                />
-              </div>
+              <AppIconFrame
+                src="/images/whistle-camera-icon.png"
+                alt="Whistle Camera"
+                sizes="(max-width: 768px) 96px, 128px"
+                priority
+                className="mx-auto mb-6"
+                boxClassName="w-24 h-24 md:w-32 md:h-32"
+                frameClassName="rounded-2xl overflow-hidden shadow-2xl ring-2 ring-amber-400/35 bg-gradient-to-br from-amber-950/90 via-slate-950 to-slate-950"
+              />
             </div>
             <div className="inline-flex items-center gap-2 bg-yellow-900/50 border border-yellow-500/30 text-yellow-400 px-4 py-2 rounded-full text-sm font-semibold mb-4 backdrop-blur-sm">
               <CheckCircle2 className="w-4 h-4" />

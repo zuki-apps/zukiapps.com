@@ -4,6 +4,7 @@ import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
+import AppIconFrame from '@/components/AppIconFrame';
 import {
   ShoppingCart,
   ImageIcon,
@@ -356,16 +357,14 @@ export default function AppsCarousel() {
               <div className="bg-gradient-to-br from-indigo-950/95 to-violet-950/75 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-indigo-400/35 hover:border-amber-400/40 hover:shadow-3xl transition-all duration-300 backdrop-blur-md bg-opacity-95 mx-4 w-full flex flex-col" style={{ minHeight: '600px' }}>
                 <div className="flex items-center justify-center mb-6">
                   {app.iconImage && isMounted ? (
-                    <div className="relative w-24 h-24 md:w-32 md:h-32">
-                      <Image
-                        src={app.iconImage}
-                        alt={t(app.titleKey)}
-                        fill
-                        sizes="(max-width: 768px) 96px, 128px"
-                        className="object-contain drop-shadow-lg"
-                        priority={index === 0}
-                      />
-                    </div>
+                    <AppIconFrame
+                      src={app.iconImage}
+                      alt={t(app.titleKey)}
+                      sizes="(max-width: 768px) 96px, 128px"
+                      boxClassName="w-24 h-24 md:w-32 md:h-32"
+                      frameClassName="rounded-2xl overflow-hidden shadow-2xl ring-2 ring-white/20 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"
+                      priority={index === 0}
+                    />
                   ) : (
                     app.icon
                   )}
@@ -387,7 +386,7 @@ export default function AppsCarousel() {
                     {app.monsters.map((monster, i) => (
                       <div
                         key={monster}
-                        className="relative w-32 h-32 md:w-40 md:h-40 animate-bounce"
+                        className="relative w-32 h-32 md:w-40 md:h-40 animate-bounce rounded-2xl overflow-hidden bg-slate-950/70 ring-1 ring-white/10 shadow-lg"
                         style={{
                           animationDuration: `${2 + i * 0.5}s`,
                           animationDelay: `${i * 0.5}s`,
@@ -398,7 +397,7 @@ export default function AppsCarousel() {
                           alt="Zuli Monster"
                           fill
                           sizes="(max-width: 768px) 128px, 160px"
-                          className="object-contain drop-shadow-lg"
+                          className="object-contain p-1 drop-shadow-lg"
                           priority={index === 0}
                         />
                       </div>

@@ -54,7 +54,7 @@ export default function DownloadStoreFab({
           href={appHref}
           target="_blank"
           rel="noopener noreferrer"
-          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 ${ring}`}
+          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-1.5 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 overflow-hidden ${ring}`}
           aria-label={appStoreAlt}
         >
           <Image
@@ -62,7 +62,7 @@ export default function DownloadStoreFab({
             alt={appStoreAlt}
             width={120}
             height={40}
-            className="object-contain group-hover:scale-105 transition-transform h-10"
+            className="object-contain object-center h-10 w-[120px] max-h-10 group-hover:scale-105 transition-transform"
           />
         </a>
       )}
@@ -71,7 +71,7 @@ export default function DownloadStoreFab({
           href={playHref}
           target="_blank"
           rel="noopener noreferrer"
-          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-2 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 ${ring}`}
+          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-1.5 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 overflow-hidden ${ring}`}
           aria-label={googlePlayAlt}
         >
           <Image
@@ -79,7 +79,7 @@ export default function DownloadStoreFab({
             alt={googlePlayAlt}
             width={120}
             height={40}
-            className="object-contain group-hover:scale-105 transition-transform h-10"
+            className="object-contain object-center h-10 w-[120px] max-h-10 group-hover:scale-105 transition-transform"
           />
         </a>
       )}

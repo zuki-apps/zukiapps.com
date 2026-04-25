@@ -7,7 +7,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { Mail, HelpCircle, MessageCircle, FileText, Shield } from 'lucide-react';
+import { Mail, HelpCircle, MessageCircle, FileText, Shield, ExternalLink } from 'lucide-react';
 
 export async function generateMetadata({
   params

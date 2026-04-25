@@ -6,6 +6,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { ArrowLeft, Lock, FolderTree, Cloud, Shield, Image as ImageIcon, Download, Upload, Mail, ExternalLink, CheckCircle2, Briefcase, Globe, CheckCircle, Smartphone } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
+import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
@@ -87,16 +88,15 @@ export default function HushGalleryPage() {
         <section className="py-12 px-4 relative z-10">
           <div className="max-w-7xl mx-auto text-center">
             <div className="mb-8">
-              <div className="relative w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-purple-400/30 bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center">
-                <Image
-                  src="/images/hush-gallery-icon.png"
-                  alt="Hush Gallery"
-                  fill
-                  sizes="(max-width: 768px) 96px, 128px"
-                  className="object-contain p-2"
-                  priority
-                />
-              </div>
+              <AppIconFrame
+                src="/images/hush-gallery-icon.png"
+                alt="Hush Gallery"
+                sizes="(max-width: 768px) 96px, 128px"
+                priority
+                className="mx-auto mb-6"
+                boxClassName="w-24 h-24 md:w-32 md:h-32"
+                frameClassName="rounded-2xl overflow-hidden shadow-2xl ring-2 ring-purple-400/35 bg-gradient-to-br from-purple-950/90 via-slate-950 to-slate-950"
+              />
             </div>
             <div className="mb-8 max-w-4xl mx-auto">
               <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl ring-2 ring-purple-400/30">
