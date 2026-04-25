@@ -34,7 +34,7 @@ export async function generateMetadata({
       'Flutter',
       'iOS',
       'Android',
-      'com.paratrooper.blitz.paratrooper_blitz',
+      'com.zuki.apps.paratrooperblitz',
       'Zuki Apps',
     ],
     alternates: {
