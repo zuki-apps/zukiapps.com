@@ -15,9 +15,7 @@ export default function WhistleCameraPage() {
   const tCommon = useTranslations('common');
   const tHome = useTranslations('home');
   const locale = useLocale();
-  const googlePlayUrl =
-    t('download.googlePlayUrl') ||
-    'https://play.google.com/store/apps/details?id=com.dreambit.whistlecamera&hl=en_GB';
+  const googlePlayUrl = t('download.googlePlayUrl');
 
   return (
     <>

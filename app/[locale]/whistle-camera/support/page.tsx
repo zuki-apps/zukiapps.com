@@ -170,6 +170,32 @@ export default async function SupportPage({
               </div>
             </section>
 
+            {/* Legacy listing (obsolete) */}
+            <section className="bg-amber-50 rounded-lg p-6 mb-8 border border-amber-200">
+              <div className="flex items-start gap-4">
+                <HelpCircle className="w-6 h-6 text-amber-700 flex-shrink-0 mt-1" />
+                <div>
+                  <h2 className="text-xl font-bold text-amber-700 mb-2">
+                    {locale === 'he' ? 'קישור אנדרואיד ישן (לא רלוונטי)' : 'Old Android listing (obsolete)'}
+                  </h2>
+                  <p className="text-gray-700 mb-3">
+                    {locale === 'he'
+                      ? 'הקישור הבא הוא רישום ישן. מומלץ להשתמש בקישור ההורדה הראשי בעמוד האפליקציה.'
+                      : 'This is an old listing. Use the main download links on the app page.'}
+                  </p>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.dreambit.whistlecamera&hl=en_GB&utm_source=zukiapps&utm_medium=website&utm_campaign=store-fab&utm_content=whistle-camera"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-amber-700 hover:text-amber-800 font-semibold"
+                  >
+                    <ExternalLink className="w-5 h-5" />
+                    {locale === 'he' ? 'פתח את הרישום הישן' : 'Open old listing'}
+                  </a>
+                </div>
+              </div>
+            </section>
+
             {/* Quick Links */}
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-amber-600 mb-4">
