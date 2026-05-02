@@ -14,7 +14,7 @@ export async function renderAppOgBanner(options: {
   mode?: OgNamespaceMode;
 }) {
   const mode = options.mode ?? 'hero';
-  const t = await getTranslations({ locale, namespace: options.namespace });
+  const t = await getTranslations({ locale: options.locale, namespace: options.namespace });
   const baseUrl = getSiteUrl();
   const iconUrl = `${baseUrl}${options.iconPath.startsWith('/') ? options.iconPath : `/${options.iconPath}`}`;
 
