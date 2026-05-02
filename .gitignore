@@ -37,6 +37,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Cursor / Claude (local assistant config; do not commit)
+.claude/
+
 # IDE
 .vscode/
 .idea/
