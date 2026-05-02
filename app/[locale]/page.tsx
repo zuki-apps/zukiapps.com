@@ -280,11 +280,20 @@ export default function Home() {
               Legacy Dreambit apps (Android)
             </Link>
             <span className="text-slate-600 hidden sm:inline">|</span>
+            <a
+              href="https://play.google.com/store/apps/dev?id=7972373639235841172"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-green-400 transition-colors"
+            >
+              Google Play
+            </a>
+            <span className="text-slate-600 hidden sm:inline">|</span>
             <Link
               href={`/${locale}/dsa-compliance`}
               className="text-gray-400 hover:text-blue-400 transition-colors"
             >
-              {locale === 'he' ? 'ציות DSA' : 'DSA Compliance'}
+              {tCommon('dsaCompliance')}
             </Link>
           </div>
         </div>

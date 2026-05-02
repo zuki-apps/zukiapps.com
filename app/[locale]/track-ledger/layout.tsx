@@ -51,20 +51,12 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
-      images: [
-        {
-          url: logoUrl,
-          width: 1024,
-          height: 1024,
-          alt: `${t('hero.title')} — Zuki Apps`,
-        },
-      ],
+      images: [{ url: logoUrl, width: 1024, height: 1024, alt: 'Track Ledger app icon' }],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title,
       description,
-      images: [logoUrl],
       creator: '@zuki_apps',
       site: '@zuki_apps',
     },

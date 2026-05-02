@@ -8,7 +8,7 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/whistle-camera': 'com.dreambit.whistlecamera',
   '/power-interval-timer': 'com.zuki.apps.powerintervaltimer',
   '/sudoku-puzzle': 'com.zuki.apps.sudokufungo',
-  '/tempoLabPro': 'com.zuki.apps.tempolabpro',
+  '/tempo-lab-pro': 'com.zuki.apps.tempolabpro',
   '/football-trivia': 'com.zuki.apps.footballtrivia',
   '/bit-scope': 'com.zuki.apps.bitscope',
   '/track-ledger': 'com.zuki.apps.trackledger',

@@ -1,16 +1,32 @@
+import type { NextRequest } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './routing';
 
-export default createMiddleware({
+const intlMiddleware = createMiddleware({
   locales: routing.locales,
   defaultLocale: routing.defaultLocale,
   localePrefix: routing.localePrefix,
-  localeDetection: false, // Disable automatic locale detection from browser
-  // Avoid duplicate hreflang signals vs Next.js <link rel="alternate"> (GSC canonical/hreflang issues)
-  alternateLinks: false
+  localeDetection: false,
+  alternateLinks: false,
 });
 
-export const config = {
-  matcher: ['/((?!api|_next|_vercel|\\.well-known|app-ads\\.txt|.*\\..*).*)']
-};
+function localeFromPathname(pathname: string) {
+  const seg = pathname.split('/').filter(Boolean)[0];
+  if (seg && (routing.locales as readonly string[]).includes(seg)) {
+    return seg;
+  }
+  return routing.defaultLocale;
+}
 
+export default function middleware(request: NextRequest) {
+  const response = intlMiddleware(request);
+  const locale = localeFromPathname(request.nextUrl.pathname);
+  const dir = locale === 'he' || locale === 'ar' ? 'rtl' : 'ltr';
+  response.headers.set('x-zuki-locale', locale);
+  response.headers.set('x-zuki-dir', dir);
+  return response;
+}
+
+export const config = {
+  matcher: ['/((?!api|_next|_vercel|\\.well-known|app-ads\\.txt|.*\\..*).*)'],
+};

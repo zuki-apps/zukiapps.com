@@ -19,7 +19,7 @@ export async function generateMetadata({
   
   const title = `${t('hero.title')} - Classic Sudoku Game | Zuki Apps`;
   const description = `${t('hero.description')} Sudoku Fun Go: 9×9 Sudoku with four difficulty levels, hints, notes, timer, and stats. Available on iOS and Android.`;
-  const logoUrl = `${baseUrl}/logo.png`;
+  const logoUrl = `${baseUrl}/images/sudoku-puzzle-icon.png`;
   
   return {
     title,
@@ -57,18 +57,12 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
-      images: [{
-        url: logoUrl,
-        width: 1200,
-        height: 630,
-        alt: `${t('hero.title')} - Zuki Apps`,
-      }],
+      images: [{ url: logoUrl, width: 535, height: 535, alt: 'Sudoku Fun Go app icon' }],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title,
       description,
-      images: [logoUrl],
       creator: '@zuki_apps',
       site: '@zuki_apps',
     },

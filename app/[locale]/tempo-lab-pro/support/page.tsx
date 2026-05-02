@@ -27,8 +27,8 @@ export async function generateMetadata({
     description: 'Get help and support for TempoLab Pro. Find answers to common questions, contact information, and helpful resources.',
     robots: 'index, follow',
     alternates: {
-      canonical: buildCanonical(locale, '/tempoLabPro/support'),
-      languages: buildLanguageAlternates('/tempoLabPro/support')
+      canonical: buildCanonical(locale, '/tempo-lab-pro/support'),
+      languages: buildLanguageAlternates('/tempo-lab-pro/support')
     },
   };
 }
@@ -72,8 +72,8 @@ export default async function TempoLabProSupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: tHero('title'), path: '/tempoLabPro' },
-          { name: tCommon('support'), path: '/tempoLabPro/support' }
+          { name: tHero('title'), path: '/tempo-lab-pro' },
+          { name: tCommon('support'), path: '/tempo-lab-pro/support' }
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-violet-50 via-purple-50 to-violet-50">
@@ -87,7 +87,7 @@ export default async function TempoLabProSupportPage({
               <h1 className="text-4xl font-bold text-violet-600">TempoLab Pro</h1>
               <div className="flex gap-2">
                 <Link
-                  href={`/${locale}/tempoLabPro`}
+                  href={`/${locale}/tempo-lab-pro`}
                   className="px-4 py-2 border-2 border-violet-600 bg-white text-violet-600 rounded-lg hover:bg-violet-600 hover:text-white transition-colors text-sm"
                 >
                   {tCommon('back')}
@@ -130,7 +130,7 @@ export default async function TempoLabProSupportPage({
                 </h2>
                 <div className="grid md:grid-cols-2 gap-4">
                   <Link
-                    href={`/${locale}/tempoLabPro/privacy`}
+                    href={`/${locale}/tempo-lab-pro/privacy`}
                     className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200"
                   >
                     <div className="flex items-start gap-3">
@@ -146,7 +146,7 @@ export default async function TempoLabProSupportPage({
                     </div>
                   </Link>
                   <Link
-                    href={`/${locale}/tempoLabPro/terms`}
+                    href={`/${locale}/tempo-lab-pro/terms`}
                     className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200"
                   >
                     <div className="flex items-start gap-3">

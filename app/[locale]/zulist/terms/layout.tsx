@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
-import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import { buildCanonical, buildLanguageAlternates, openGraphLocale } from '@/lib/hreflang';
 
 export async function generateMetadata({
   params
@@ -14,7 +14,6 @@ export async function generateMetadata({
     return {};
   }
 
-  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'zulist.terms' });
   
   const title = `${t('title')} - ZuList | Zuki Apps`;
@@ -44,18 +43,11 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
-      images: [{
-        url: `${baseUrl}/logo.png`,
-        width: 1200,
-        height: 630,
-        alt: 'ZuList Terms of Service - Zuki Apps',
-      }],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: [`${baseUrl}/logo.png`],
     },
     robots: {
       index: true,

@@ -19,19 +19,20 @@ export async function generateMetadata({
   }
 
   const baseUrl = getSiteUrl();
+  const t = await getTranslations({ locale, namespace: 'tempoLabPro.terms' });
   
   return {
-    title: 'Privacy Policy - TempoLab Pro | Zuki Apps',
-    description: 'Privacy Policy for TempoLab Pro - Tempo and pitch audio practice app. Learn how we collect, use, and protect your data.',
-    robots: 'index, follow',
+    title: `${t('title')} - TempoLab Pro | Zuki Apps`,
+    description: 'Terms of Service for TempoLab Pro - Tempo and pitch audio practice app. Read the terms and conditions for using the app.',
     alternates: {
-      canonical: buildCanonical(locale, '/tempoLabPro/privacy'),
-      languages: buildLanguageAlternates('/tempoLabPro/privacy')
+      canonical: buildCanonical(locale, '/tempo-lab-pro/terms'),
+      languages: buildLanguageAlternates('/tempo-lab-pro/terms'),
     },
+    robots: { index: true, follow: true },
   };
 }
 
-export default async function TempoLabProPrivacyPage({
+export default async function TempoLabProTermsPage({
   params
 }: {
   params: Promise<{ locale: string }>;
@@ -42,7 +43,7 @@ export default async function TempoLabProPrivacyPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'tempoLabPro.privacy' });
+  const t = await getTranslations({ locale, namespace: 'tempoLabPro.terms' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const tApp = await getTranslations({ locale, namespace: 'tempoLabPro.hero' });
 
@@ -52,8 +53,8 @@ export default async function TempoLabProPrivacyPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: tApp('title'), path: '/tempoLabPro' },
-          { name: tCommon('privacyPolicy'), path: '/tempoLabPro/privacy' }
+          { name: tApp('title'), path: '/tempo-lab-pro' },
+          { name: tCommon('termsOfService'), path: '/tempo-lab-pro/terms' }
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-violet-50 via-purple-50 to-violet-50">
@@ -67,7 +68,7 @@ export default async function TempoLabProPrivacyPage({
               <h1 className="text-4xl font-bold text-violet-600">TempoLab Pro</h1>
               <div className="flex gap-2">
                 <Link
-                  href={`/${locale}/tempoLabPro`}
+                  href={`/${locale}/tempo-lab-pro`}
                   className="px-4 py-2 border-2 border-violet-600 bg-white text-violet-600 rounded-lg hover:bg-violet-600 hover:text-white transition-colors text-sm"
                 >
                   {tCommon('back')}
@@ -79,17 +80,26 @@ export default async function TempoLabProPrivacyPage({
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
-              <p className="text-gray-600 mb-8">
+              <p className="text-gray-600 mb-6">
                 {t('lastUpdated')}
               </p>
 
-              <div className="space-y-6">
+              <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8 rounded">
+                <p className="text-gray-700 font-semibold">
+                  {t('intro')}
+                </p>
+              </div>
+
+              <div className="space-y-8">
                 <section>
                   <h2 className="text-2xl font-bold text-violet-600 mb-4">
                     {t('section1.title')}
                   </h2>
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed mb-4">
                     {t('section1.content')}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('section1.content2')}
                   </p>
                 </section>
 
@@ -97,65 +107,32 @@ export default async function TempoLabProPrivacyPage({
                   <h2 className="text-2xl font-bold text-violet-600 mb-4">
                     {t('section2.title')}
                   </h2>
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed mb-4">
                     {t('section2.content')}
                   </p>
-                </section>
-
-                <section>
-                  <h2 className="text-2xl font-bold text-violet-600 mb-4">
-                    {t('section3.title')}
-                  </h2>
-                  <p className="text-gray-700 leading-relaxed">
-                    {t('section3.content')}
-                  </p>
-                </section>
-
-                <section>
-                  <h2 className="text-2xl font-bold text-violet-600 mb-4">
-                    {t('section4.title')}
-                  </h2>
-                  <p className="text-gray-700 leading-relaxed">
-                    {t('section4.content')}
-                  </p>
-                </section>
-
-                <section>
-                  <h2 className="text-2xl font-bold text-violet-600 mb-4">
-                    {t('section5.title')}
-                  </h2>
-                  <p className="text-gray-700 leading-relaxed">
-                    {t('section5.content')}
-                  </p>
+                  <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} space-y-2 text-gray-700`}>
+                    {t.raw('section2.items').map((item: string, i: number) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
                 </section>
 
                 <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-violet-600 mt-8">
                   <h2 className="text-2xl font-bold text-violet-600 mb-4">
-                    {t('section8.title')}
+                    {t('section19.title')}
                   </h2>
                   <p className="text-gray-700 mb-4">
-                    {t('section8.content')}
+                    {t('section19.content')}
                   </p>
                   <p className="text-gray-700 mb-2">
                     <strong>{tCommon('email')}:</strong>{' '}
-                    <a
-                      href={`mailto:${t('section8.email')}`}
-                      className="text-violet-600 hover:underline"
-                    >
-                      {t('section8.email')}
+                    <a href={`mailto:${t('section19.email')}`} className="text-violet-600 hover:underline">
+                      {t('section19.email')}
                     </a>
                   </p>
-                  <p className="text-gray-700 mb-4">
+                  <p className="text-gray-700">
                     <strong>{tCommon('address')}:</strong>{' '}
-                    {t('section8.address')}
-                  </p>
-                  <p className="text-gray-700 text-sm">
-                    <Link
-                      href={`/${locale}/tempoLabPro/terms`}
-                      className="text-violet-600 hover:underline"
-                    >
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
-                    </Link>
+                    {t('section19.address')}
                   </p>
                 </section>
               </div>

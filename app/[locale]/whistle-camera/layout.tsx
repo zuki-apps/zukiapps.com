@@ -19,7 +19,7 @@ export async function generateMetadata({
   
   const title = `${t('hero.title')} - Smart Camera App | Zuki Apps`;
   const description = `${t('hero.description')} Download Whistle Camera - Selfie & More for iOS. Whistle detection, incognito mode, and advanced camera controls.`;
-  const logoUrl = `${baseUrl}/logo.png`;
+  const logoUrl = `${baseUrl}/images/whistle-camera-icon.png`;
   
   return {
     title,
@@ -59,18 +59,12 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
-      images: [{
-        url: logoUrl,
-        width: 1200,
-        height: 630,
-        alt: `${t('hero.title')} - Zuki Apps`,
-      }],
+      images: [{ url: logoUrl, width: 870, height: 870, alt: 'Whistle Camera app icon' }],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title,
       description,
-      images: [logoUrl],
       creator: '@zuki_apps',
       site: '@zuki_apps',
     },

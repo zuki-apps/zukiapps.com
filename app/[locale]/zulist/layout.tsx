@@ -16,11 +16,10 @@ export async function generateMetadata({
 
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'zulist' });
-  
+
   const title = `${t('hero.title')} - Smart Shopping List App | Zuki Apps`;
   const description = `${t('hero.description')} Download ZuList - Manage & Share Lists for iOS and Android. Real-time collaboration, offline support, and smart recommendations.`;
   const logoUrl = `${baseUrl}/images/zulist-icon.png`;
-  
   return {
     title,
     description,
@@ -59,18 +58,12 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
-      images: [{
-        url: logoUrl,
-        width: 1200,
-        height: 630,
-        alt: `${t('hero.title')} - Zuki Apps`,
-      }],
+      images: [{ url: logoUrl, width: 435, height: 435, alt: 'ZuList app icon' }],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title,
       description,
-      images: [logoUrl],
       creator: '@zuki_apps',
       site: '@zuki_apps',
     },

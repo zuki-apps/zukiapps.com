@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import AppIconFrame from '@/components/AppIconFrame';
+import { getCarouselFeatureCells } from '@/lib/carouselFeatures';
 import {
   ShoppingCart,
   ImageIcon,
@@ -15,24 +16,14 @@ import {
   Users,
   Wifi,
   Sparkles,
-  Shield,
-  Lock,
-  FolderTree,
   Grid3X3,
   Binary,
   Music,
   Trophy,
-  Wand2,
-  Palette,
   Lightbulb,
   MapPinned,
-  Share2,
-  Map as MapIcon,
   Volume2,
-  History,
-  LineChart,
   Gamepad2,
-  Target,
 } from 'lucide-react';
 
 interface AppData {
@@ -47,7 +38,6 @@ interface AppData {
   link?: string;
   isComingSoon: boolean;
   monsters?: string[];
-  showFeatures?: boolean;
 }
 
 export default function AppsCarousel() {
@@ -96,7 +86,6 @@ export default function AppsCarousel() {
       learnMoreKey: 'hushGallery.learnMore',
       link: `/${locale}/hush-gallery`,
       isComingSoon: false,
-      showFeatures: true,
     },
     {
       id: 'whistle-camera',
@@ -109,7 +98,6 @@ export default function AppsCarousel() {
       learnMoreKey: 'whistleCamera.learnMore',
       link: `/${locale}/whistle-camera`,
       isComingSoon: false,
-      showFeatures: true,
     },
     {
       id: 'power-interval-timer',
@@ -122,7 +110,6 @@ export default function AppsCarousel() {
       learnMoreKey: 'powerIntervalTimer.learnMore',
       link: `/${locale}/power-interval-timer`,
       isComingSoon: false,
-      showFeatures: true,
     },
     {
       id: 'bit-scope',
@@ -135,7 +122,6 @@ export default function AppsCarousel() {
       learnMoreKey: 'bitScope.learnMore',
       link: `/${locale}/bit-scope`,
       isComingSoon: false,
-      showFeatures: true,
     },
     {
       id: 'sudoku-puzzle',
@@ -148,10 +134,9 @@ export default function AppsCarousel() {
       learnMoreKey: 'sudokuPuzzle.learnMore',
       link: `/${locale}/sudoku-puzzle`,
       isComingSoon: false,
-      showFeatures: true,
     },
     {
-      id: 'tempoLabPro',
+      id: 'tempo-lab-pro',
       icon: <Music className="w-16 h-16 text-violet-400" aria-hidden="true" />,
       iconImage: '/images/tempo-lab-pro-icon.png',
       titleKey: 'tempoLabPro.title',
@@ -159,9 +144,8 @@ export default function AppsCarousel() {
       descriptionKey: 'tempoLabPro.description',
       featuresKey: 'tempoLabPro.features',
       learnMoreKey: 'tempoLabPro.learnMore',
-      link: `/${locale}/tempoLabPro`,
+      link: `/${locale}/tempo-lab-pro`,
       isComingSoon: false,
-      showFeatures: true,
     },
     {
       id: 'football-trivia',
@@ -174,7 +158,6 @@ export default function AppsCarousel() {
       learnMoreKey: 'footballTrivia.learnMore',
       link: `/${locale}/football-trivia`,
       isComingSoon: false,
-      showFeatures: true,
     },
     {
       id: 'fun-facts-trivia',
@@ -186,8 +169,7 @@ export default function AppsCarousel() {
       featuresKey: 'funFactsTrivia.features',
       learnMoreKey: 'funFactsTrivia.learnMore',
       link: `/${locale}/fun-facts-trivia`,
-      isComingSoon: true,
-      showFeatures: true,
+      isComingSoon: false,
     },
     {
       id: 'track-ledger',
@@ -199,8 +181,7 @@ export default function AppsCarousel() {
       featuresKey: 'trackLedger.features',
       learnMoreKey: 'trackLedger.learnMore',
       link: `/${locale}/track-ledger`,
-      isComingSoon: true,
-      showFeatures: true,
+      isComingSoon: false,
     },
     {
       id: 'noise-meter-shusher',
@@ -212,8 +193,7 @@ export default function AppsCarousel() {
       featuresKey: 'noiseMeterShusher.features',
       learnMoreKey: 'noiseMeterShusher.learnMore',
       link: `/${locale}/noise-meter-shusher`,
-      isComingSoon: true,
-      showFeatures: true,
+      isComingSoon: false,
     },
     {
       id: 'paratrooper-blitz',
@@ -225,8 +205,7 @@ export default function AppsCarousel() {
       featuresKey: 'paratrooperBlitz.features',
       learnMoreKey: 'paratrooperBlitz.learnMore',
       link: `/${locale}/paratrooper-blitz`,
-      isComingSoon: true,
-      showFeatures: true,
+      isComingSoon: false,
     },
   ], [locale]);
 
@@ -414,199 +393,28 @@ export default function AppsCarousel() {
                 </p>
                 
                 {/* Features Grid */}
-                {app.showFeatures && app.id === 'hush-gallery' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.privacy')}>
-                      <Shield className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('hushGallery.features.privacy')}</p>
+                {(() => {
+                  const featureCells = getCarouselFeatureCells(app.id);
+                  if (!featureCells?.length || app.isComingSoon) return null;
+                  return (
+                    <div className="grid md:grid-cols-3 gap-6 mb-8">
+                      {featureCells.map((cell, fi) => {
+                        const CellIcon = cell.Icon;
+                        return (
+                          <div
+                            key={`${app.id}-feat-${fi}`}
+                            className={cell.cellClass}
+                            role="article"
+                            aria-label={t(cell.labelKey)}
+                          >
+                            <CellIcon className={cell.iconClassName} aria-hidden="true" />
+                            <p className="text-sm font-black text-white">{t(cell.labelKey)}</p>
+                          </div>
+                        );
+                      })}
                     </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.secure')}>
-                      <Lock className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('hushGallery.features.secure')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-purple-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-purple-500/50 transition-all duration-300" role="article" aria-label={t('hushGallery.features.organized')}>
-                      <FolderTree className="w-8 h-8 text-purple-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('hushGallery.features.organized')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'whistle-camera' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.smart')}>
-                      <Sparkles className="w-8 h-8 text-amber-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('whistleCamera.features.smart')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.editing')}>
-                      <Wand2 className="w-8 h-8 text-amber-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('whistleCamera.features.editing')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300" role="article" aria-label={t('whistleCamera.features.filters')}>
-                      <Palette className="w-8 h-8 text-amber-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('whistleCamera.features.filters')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'power-interval-timer' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.configurable')}>
-                      <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.configurable')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.display')}>
-                      <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.display')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-500/50 transition-all duration-300" role="article" aria-label={t('powerIntervalTimer.features.offline')}>
-                      <Timer className="w-8 h-8 text-orange-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('powerIntervalTimer.features.offline')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'bit-scope' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.bitEditor')}>
-                      <Binary className="w-8 h-8 text-cyan-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('bitScope.features.bitEditor')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.formats')}>
-                      <Binary className="w-8 h-8 text-cyan-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('bitScope.features.formats')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-500/50 transition-all duration-300" role="article" aria-label={t('bitScope.features.bases')}>
-                      <Binary className="w-8 h-8 text-cyan-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('bitScope.features.bases')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'sudoku-puzzle' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.difficulty')}>
-                      <Grid3X3 className="w-8 h-8 text-teal-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('sudokuPuzzle.features.difficulty')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.gameplay')}>
-                      <Grid3X3 className="w-8 h-8 text-teal-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('sudokuPuzzle.features.gameplay')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-500/50 transition-all duration-300" role="article" aria-label={t('sudokuPuzzle.features.offline')}>
-                      <Grid3X3 className="w-8 h-8 text-teal-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('sudokuPuzzle.features.offline')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'tempoLabPro' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.tempoPitch')}>
-                      <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('tempoLabPro.features.tempoPitch')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.tapTempo')}>
-                      <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('tempoLabPro.features.tapTempo')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-500/50 transition-all duration-300" role="article" aria-label={t('tempoLabPro.features.export')}>
-                      <Music className="w-8 h-8 text-violet-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('tempoLabPro.features.export')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'football-trivia' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-sky-500/45 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.categories')}>
-                      <Trophy className="w-8 h-8 text-sky-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('footballTrivia.features.categories')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-slate-500/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-slate-400/50 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.difficulty')}>
-                      <Trophy className="w-8 h-8 text-slate-200 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('footballTrivia.features.difficulty')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-sky-500/45 transition-all duration-300" role="article" aria-label={t('footballTrivia.features.stats')}>
-                      <Trophy className="w-8 h-8 text-sky-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('footballTrivia.features.stats')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'fun-facts-trivia' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300" role="article" aria-label={t('funFactsTrivia.features.categories')}>
-                      <Lightbulb className="w-8 h-8 text-amber-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('funFactsTrivia.features.categories')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/40 transition-all duration-300" role="article" aria-label={t('funFactsTrivia.features.gameplay')}>
-                      <Lightbulb className="w-8 h-8 text-amber-200 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('funFactsTrivia.features.gameplay')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300" role="article" aria-label={t('funFactsTrivia.features.extras')}>
-                      <Lightbulb className="w-8 h-8 text-amber-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('funFactsTrivia.features.extras')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'track-ledger' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-400/45 transition-all duration-300" role="article" aria-label={t('trackLedger.features.gnss')}>
-                      <MapPinned className="w-8 h-8 text-cyan-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('trackLedger.features.gnss')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-400/40 transition-all duration-300" role="article" aria-label={t('trackLedger.features.export')}>
-                      <Share2 className="w-8 h-8 text-cyan-200 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('trackLedger.features.export')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-cyan-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-cyan-400/45 transition-all duration-300" role="article" aria-label={t('trackLedger.features.map')}>
-                      <MapIcon className="w-8 h-8 text-cyan-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('trackLedger.features.map')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'noise-meter-shusher' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-400/45 transition-all duration-300" role="article" aria-label={t('noiseMeterShusher.features.meter')}>
-                      <Volume2 className="w-8 h-8 text-violet-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('noiseMeterShusher.features.meter')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-400/40 transition-all duration-300" role="article" aria-label={t('noiseMeterShusher.features.history')}>
-                      <History className="w-8 h-8 text-fuchsia-200 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('noiseMeterShusher.features.history')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-400/45 transition-all duration-300" role="article" aria-label={t('noiseMeterShusher.features.premium')}>
-                      <LineChart className="w-8 h-8 text-violet-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('noiseMeterShusher.features.premium')}</p>
-                    </div>
-                  </div>
-                )}
-                {app.showFeatures && app.id === 'paratrooper-blitz' && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-400/45 transition-all duration-300" role="article" aria-label={t('paratrooperBlitz.features.modes')}>
-                      <Gamepad2 className="w-8 h-8 text-orange-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('paratrooperBlitz.features.modes')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-400/40 transition-all duration-300" role="article" aria-label={t('paratrooperBlitz.features.action')}>
-                      <Target className="w-8 h-8 text-amber-200 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('paratrooperBlitz.features.action')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-400/45 transition-all duration-300" role="article" aria-label={t('paratrooperBlitz.features.social')}>
-                      <Trophy className="w-8 h-8 text-orange-300 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('paratrooperBlitz.features.social')}</p>
-                    </div>
-                  </div>
-                )}
-                
-                {!app.showFeatures && !app.isComingSoon && (
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.realtime')}>
-                      <Users className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('zulist.features.realtime')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.offline')}>
-                      <Wifi className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('zulist.features.offline')}</p>
-                    </div>
-                    <div className="flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-blue-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-blue-500/50 transition-all duration-300" role="article" aria-label={t('zulist.features.smart')}>
-                      <Sparkles className="w-8 h-8 text-blue-400 mb-2" aria-hidden="true" />
-                      <p className="text-sm font-black text-white">{t('zulist.features.smart')}</p>
-                    </div>
-                  </div>
-                )}
+                  );
+                })()}
 
                 {app.link ? (
                   <div className="text-center">

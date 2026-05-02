@@ -14,6 +14,7 @@
     "messages:sync": "node scripts/sync-messages-from-en.mjs",
     "messages:report": "node scripts/sync-messages-report.mjs",
     "messages:apply-fun-facts": "node scripts/apply-fun-facts-translations.mjs",
+    "images:compress": "node scripts/compress-public-images.mjs",
     "prepare": "husky"
   },
   "dependencies": {

@@ -53,7 +53,7 @@ export default function SoftwareApplicationStructuredData({
     '/whistle-camera': '/images/whistle-camera-icon.png',
     '/power-interval-timer': '/images/power-interval-timer-icon.png',
     '/sudoku-puzzle': '/images/sudoku-puzzle-icon.png',
-    '/tempoLabPro': '/images/tempo-lab-pro-icon.png',
+    '/tempo-lab-pro': '/images/tempo-lab-pro-icon.png',
     '/football-trivia': '/images/football-trivia-icon.png',
     '/fun-facts-trivia': '/images/fun-facts-trivia-icon.png',
     '/bit-scope': '/images/bit-scope-icon.png',

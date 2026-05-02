@@ -46,12 +46,6 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
-      images: [{
-        url: `${baseUrl}/logo.png`,
-        width: 1200,
-        height: 630,
-        alt: 'Delete Data - ZuList | Zuki Apps',
-      }],
     },
     robots: {
       index: true,

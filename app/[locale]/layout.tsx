@@ -33,10 +33,8 @@ export async function generateMetadata({
   // Get translations for metadata
   const t = await getTranslations({ locale, namespace: 'home' });
   
-  const title = `${t('subtitle')} | ${siteName}`;
+  const title = t('subtitle');
   const description = `${t('subtitle')}. ${t('tagline')} Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts! Trivia, Bit Scope, Track Ledger (GPS logger), Noise Meter — Shusher, Paratrooper Blitz, TempoLab Pro. iOS & Android.`;
-  const logoUrl = `${baseUrl}/logo.png`;
-  
   return {
     title,
     description,
@@ -107,20 +105,11 @@ export async function generateMetadata({
       siteName,
       title,
       description,
-      images: [
-        {
-          url: logoUrl,
-          width: 1024,
-          height: 1024,
-          alt: 'Zuki Apps Logo',
-        },
-      ],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: [logoUrl],
       creator: '@zuki_apps',
       site: '@zuki_apps',
     },
@@ -191,6 +180,7 @@ export default async function LocaleLayout({
       'Privacy-first apps',
     ],
     sameAs: [
+      'https://play.google.com/store/apps/dev?id=7972373639235841172',
       'https://www.instagram.com/zuki.apps/',
       'https://www.facebook.com/profile.php?id=61581736876235',
       'https://www.tiktok.com/@zukiapps',

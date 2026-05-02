@@ -10,6 +10,7 @@ import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
+import StarBackground from '@/components/StarBackground';
 
 export default function TrackLedgerPage() {
   const t = useTranslations('trackLedger');
@@ -46,24 +47,7 @@ export default function TrackLedgerPage() {
         googlePlayUrl={t('download.googlePlayUrl')}
       />
       <div className="min-h-screen relative overflow-hidden">
-        <div className="fixed inset-0 z-0" aria-hidden="true">
-          <div className="absolute inset-0 twilight-sky-overlay" />
-          {Array.from({ length: 100 }).map((_, i) => (
-            <div
-              key={i}
-              className="absolute rounded-full bg-white animate-pulse"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                width: `${Math.random() * 3 + 1}px`,
-                height: `${Math.random() * 3 + 1}px`,
-                opacity: Math.random() * 0.8 + 0.2,
-                animationDelay: `${Math.random() * 3}s`,
-                animationDuration: `${Math.random() * 2 + 2}s`,
-              }}
-            />
-          ))}
-        </div>
+        <StarBackground />
 
         <div className="max-w-7xl mx-auto px-4 pt-4 flex justify-end relative z-50">
           <LanguageSwitcher />

@@ -10,6 +10,7 @@ import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
+import StarBackground from '@/components/StarBackground';
 
 export default function TempoLabProPage() {
   const t = useTranslations('tempoLabPro');
@@ -23,12 +24,12 @@ export default function TempoLabProPage() {
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/tempoLabPro' }
+          { name: t('hero.title'), path: '/tempo-lab-pro' }
         ]}
       />
       <SoftwareApplicationStructuredData
         locale={locale}
-        appPath="/tempoLabPro"
+        appPath="/tempo-lab-pro"
         appName={t('hero.title')}
         appDescription={t('hero.description')}
         operatingSystem="iOS,Android"
@@ -45,24 +46,7 @@ export default function TempoLabProPage() {
         googlePlayUrl={t('download.googlePlayUrl')}
       />
       <div className="min-h-screen relative overflow-hidden">
-        <div className="fixed inset-0 z-0" aria-hidden="true">
-          <div className="absolute inset-0 twilight-sky-overlay"></div>
-          {Array.from({ length: 100 }).map((_, i) => (
-            <div
-              key={i}
-              className="absolute rounded-full bg-white animate-pulse"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                width: `${Math.random() * 3 + 1}px`,
-                height: `${Math.random() * 3 + 1}px`,
-                opacity: Math.random() * 0.8 + 0.2,
-                animationDelay: `${Math.random() * 3}s`,
-                animationDuration: `${Math.random() * 2 + 2}s`,
-              }}
-            />
-          ))}
-        </div>
+        <StarBackground />
 
         <div className="max-w-7xl mx-auto px-4 pt-4 flex justify-end relative z-50">
           <LanguageSwitcher />
@@ -112,14 +96,14 @@ export default function TempoLabProPage() {
             </p>
             <div className="flex justify-center gap-4 text-sm">
               <Link
-                href={`/${locale}/tempoLabPro/privacy`}
+                href={`/${locale}/tempo-lab-pro/privacy`}
                 className="text-violet-400 hover:text-violet-300 underline transition-colors"
               >
                 {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-500">|</span>
               <Link
-                href={`/${locale}/tempoLabPro/terms`}
+                href={`/${locale}/tempo-lab-pro/terms`}
                 className="text-violet-400 hover:text-violet-300 underline transition-colors"
               >
                 {tCommon('termsOfService')}
@@ -274,7 +258,7 @@ export default function TempoLabProPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <Link
-                href={`/${locale}/tempoLabPro/support`}
+                href={`/${locale}/tempo-lab-pro/support`}
                 className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-violet-500/50 transition-all flex items-center gap-4 group border-2 border-violet-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
               >
                 <div className="bg-violet-600/30 p-3 rounded-lg group-hover:bg-violet-600/50 border border-violet-500/50 transition-colors">
@@ -306,21 +290,21 @@ export default function TempoLabProPage() {
             </p>
             <div className="flex justify-center gap-4 mt-4 text-sm">
               <Link
-                href={`/${locale}/tempoLabPro/support`}
+                href={`/${locale}/tempo-lab-pro/support`}
                 className="text-gray-400 hover:text-violet-400 transition-colors"
               >
                 {tCommon('support')}
               </Link>
               <span className="text-gray-600">|</span>
               <Link
-                href={`/${locale}/tempoLabPro/privacy`}
+                href={`/${locale}/tempo-lab-pro/privacy`}
                 className="text-gray-400 hover:text-violet-400 transition-colors"
               >
                 {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-600">|</span>
               <Link
-                href={`/${locale}/tempoLabPro/terms`}
+                href={`/${locale}/tempo-lab-pro/terms`}
                 className="text-gray-400 hover:text-violet-400 transition-colors"
               >
                 {tCommon('termsOfService')}

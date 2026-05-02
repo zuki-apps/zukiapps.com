@@ -101,11 +101,11 @@ export default function AppsGrid() {
       link: `/${locale}/sudoku-puzzle`,
     },
     {
-      id: 'tempoLabPro',
+      id: 'tempo-lab-pro',
       icon: <Music className="w-12 h-12 text-violet-400" aria-hidden="true" />,
       iconImage: '/images/tempo-lab-pro-icon.png',
       titleKey: 'tempoLabPro.title',
-      link: `/${locale}/tempoLabPro`,
+      link: `/${locale}/tempo-lab-pro`,
     },
     {
       id: 'football-trivia',

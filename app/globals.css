@@ -48,7 +48,7 @@
 
 /* Smooth animations */
 @layer base {
-  * {
+  a, button, input, select, textarea {
     @apply transition-colors duration-200;
   }
 

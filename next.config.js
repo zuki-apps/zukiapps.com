@@ -16,6 +16,10 @@ const nextConfig = {
   async redirects() {
     const canonicalHost = 'https://zukiapps.com';
     return [
+      { source: '/tempoLabPro', destination: '/tempo-lab-pro', permanent: true },
+      { source: '/tempoLabPro/:path*', destination: '/tempo-lab-pro/:path*', permanent: true },
+      { source: '/:locale/tempoLabPro', destination: '/:locale/tempo-lab-pro', permanent: true },
+      { source: '/:locale/tempoLabPro/:path*', destination: '/:locale/tempo-lab-pro/:path*', permanent: true },
       { source: '/:path*', has: [{ type: 'host', value: 'www.zukiapps.com' }], destination: `${canonicalHost}/:path*`, permanent: true },
       { source: '/:path*', has: [{ type: 'host', value: 'zukiapps.com' }, { type: 'header', key: 'x-forwarded-proto', value: 'http' }], destination: `${canonicalHost}/:path*`, permanent: true },
     ];

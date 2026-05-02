@@ -29,7 +29,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     name: 'Paratrooper Blitz',
     description: 'Classic arcade action: aircraft and paratroopers; Arcade and Classic DOS modes; scores, ranks, leaderboards.',
   },
-  { path: '/tempoLabPro', name: 'TempoLab Pro', description: 'Tempo, pitch, and audio practice tools.' },
+  { path: '/tempo-lab-pro', name: 'TempoLab Pro', description: 'Tempo, pitch, and audio practice tools.' },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];
 

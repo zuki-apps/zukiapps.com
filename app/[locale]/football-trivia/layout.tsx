@@ -19,6 +19,7 @@ export async function generateMetadata({
 
   const title = `${t('hero.title')} | Zuki Apps`;
   const description = t('hero.description');
+  const logoUrl = `${baseUrl}/images/football-trivia-icon.png`;
 
   return {
     title,
@@ -43,13 +44,12 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
-      images: [{ url: `${baseUrl}/images/football-trivia-icon.png`, width: 512, height: 512, alt: `${t('hero.title')} - Zuki Apps` }],
+      images: [{ url: logoUrl, width: 370, height: 370, alt: 'Football Trivia Master app icon' }],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title,
       description,
-      images: [`${baseUrl}/images/football-trivia-icon.png`],
       creator: '@zuki_apps',
       site: '@zuki_apps',
     },
