@@ -36,7 +36,8 @@ export async function generateMetadata({
       'metronome',
       'audio export',
       'music app',
-      'Zuki Apps'
+      'Zuki Apps',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/tempo-lab-pro'),
@@ -49,6 +50,7 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
+      images: [{ url: logoUrl, width: 387, height: 387, alt: 'TempoLab Pro app icon' }],
     },
     twitter: {
       card: 'summary',

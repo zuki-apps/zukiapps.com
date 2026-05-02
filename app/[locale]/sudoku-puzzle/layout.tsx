@@ -17,7 +17,7 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'sudokuPuzzle' });
   
-  const title = `${t('hero.title')} - Classic Sudoku Game | Zuki Apps`;
+  const title = `${t('hero.title')} | Zuki Apps`;
   const description = `${t('hero.description')} Sudoku Fun Go: 9×9 Sudoku with four difficulty levels, hints, notes, timer, and stats. Available on iOS and Android.`;
   const logoUrl = `${baseUrl}/images/sudoku-puzzle-icon.png`;
   
@@ -44,7 +44,8 @@ export async function generateMetadata({
       'Play Games sudoku',
       'offline sudoku',
       'free sudoku app',
-      'Zuki Apps sudoku'
+      'Zuki Apps sudoku',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/sudoku-puzzle'),

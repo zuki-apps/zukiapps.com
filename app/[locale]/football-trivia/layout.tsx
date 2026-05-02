@@ -31,7 +31,8 @@ export async function generateMetadata({
       'World Cup trivia',
       'soccer trivia',
       'trivia game',
-      'Zuki Apps'
+      'Zuki Apps',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/football-trivia'),

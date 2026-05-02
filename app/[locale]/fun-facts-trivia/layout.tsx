@@ -44,6 +44,7 @@ export async function generateMetadata({
       'Game Center',
       'Play Games',
       'Google Play Games',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/fun-facts-trivia'),

@@ -17,7 +17,7 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'powerIntervalTimer' });
   
-  const title = `${t('hero.title')} - Interval Workout Timer | Zuki Apps`;
+  const title = `${t('hero.title')} | Zuki Apps`;
   const description = `${t('hero.description')} Download Power Interval Timer - Tabata & HIIT for iOS and Android. Configurable workouts, multiple display modes, and screen casting support.`;
   const logoUrl = `${baseUrl}/images/power-interval-timer-icon.png`;
   
@@ -45,7 +45,8 @@ export async function generateMetadata({
       'exercise app',
       'interval training',
       'Tabata training',
-      'HIIT training'
+      'HIIT training',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/power-interval-timer'),

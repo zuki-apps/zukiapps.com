@@ -36,6 +36,7 @@ export async function generateMetadata({
       'Android',
       'com.zuki.apps.paratrooperblitz',
       'Zuki Apps',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/paratrooper-blitz'),

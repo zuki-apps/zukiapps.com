@@ -17,7 +17,7 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'zulist' });
 
-  const title = `${t('hero.title')} - Smart Shopping List App | Zuki Apps`;
+  const title = `${t('hero.title')} | Zuki Apps`;
   const description = `${t('hero.description')} Download ZuList - Manage & Share Lists for iOS and Android. Real-time collaboration, offline support, and smart recommendations.`;
   const logoUrl = `${baseUrl}/images/zulist-icon.png`;
   return {
@@ -45,7 +45,8 @@ export async function generateMetadata({
       'smart product recommendations',
       'shopping list with photos',
       'shopping list categories',
-      'premium shopping list app'
+      'premium shopping list app',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/zulist'),

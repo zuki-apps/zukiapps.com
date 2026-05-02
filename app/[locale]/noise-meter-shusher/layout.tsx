@@ -38,6 +38,7 @@ export async function generateMetadata({
       'Android',
       'com.noisemeter.shusher.noise_meter_shusher',
       'Zuki Apps',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/noise-meter-shusher'),

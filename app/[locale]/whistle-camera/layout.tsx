@@ -17,7 +17,7 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'whistleCamera' });
   
-  const title = `${t('hero.title')} - Smart Camera App | Zuki Apps`;
+  const title = `${t('hero.title')} | Zuki Apps`;
   const description = `${t('hero.description')} Download Whistle Camera - Selfie & More for iOS. Whistle detection, incognito mode, and advanced camera controls.`;
   const logoUrl = `${baseUrl}/images/whistle-camera-icon.png`;
   
@@ -46,7 +46,8 @@ export async function generateMetadata({
       'advanced photography app',
       'iOS camera app',
       'camera app with incognito',
-      'whistle trigger camera'
+      'whistle trigger camera',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/whistle-camera'),

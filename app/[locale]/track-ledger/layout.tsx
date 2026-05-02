@@ -39,6 +39,7 @@ export async function generateMetadata({
       'Android',
       'com.zuki.apps.trackledger',
       'Zuki Apps',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/track-ledger'),

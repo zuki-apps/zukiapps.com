@@ -17,7 +17,7 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'bitScope' });
   
-  const title = `${t('hero.title')} - Bit & Number Calculator | Zuki Apps`;
+  const title = `${t('hero.title')} | Zuki Apps`;
   const description = `${t('hero.description')} Download Bit Scope for iOS and Android. Interactive bit editor, number format conversions, IEEE 754 floating-point support, and bitwise operations.`;
   const logoUrl = `${baseUrl}/images/bit-scope-icon.png`;
   
@@ -45,7 +45,8 @@ export async function generateMetadata({
       'octal converter',
       'decimal converter',
       'bit inspector',
-      'number system converter'
+      'number system converter',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/bit-scope'),

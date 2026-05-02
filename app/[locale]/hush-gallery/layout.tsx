@@ -17,7 +17,7 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'hushGallery' });
   
-  const title = `${t('hero.title')} - Private Photo Gallery | Zuki Apps`;
+  const title = `${t('hero.title')} | Zuki Apps`;
   const description = `${t('hero.description')} Download Hush Gallery - Hide Photos & Videos for iOS and Android. Secure, private photo storage with encryption and app lock.`;
   const logoUrl = `${baseUrl}/images/hush-gallery-icon.png`;
   
@@ -46,7 +46,8 @@ export async function generateMetadata({
       'photo encryption app',
       'secure photo gallery',
       'private photo app',
-      'photo security app'
+      'photo security app',
+      'zuki',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/hush-gallery'),
