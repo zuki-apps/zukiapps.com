@@ -267,7 +267,20 @@ export default function Home() {
           <div className="mb-4 flex justify-center">
             <Logo size="md" />
           </div>
-          <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
+          <p className="text-gray-400 mb-2 max-w-2xl mx-auto leading-relaxed">
+            {t.rich('footer.copyright', {
+              pulse: (chunks) => (
+                <a
+                  href="https://fitness-pulse.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-blue-400 transition-colors no-underline"
+                >
+                  {chunks}
+                </a>
+              ),
+            })}
+          </p>
           <p className="text-sm text-gray-500 flex items-center justify-center gap-2">
             <Heart className="w-4 h-4 text-red-500" />
             {t('footer.tagline')}
