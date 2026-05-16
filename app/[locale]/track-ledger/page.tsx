@@ -10,6 +10,7 @@ import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
+import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import StarBackground from '@/components/StarBackground';
 
 export default function TrackLedgerPage() {
@@ -181,9 +182,15 @@ export default function TrackLedgerPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-white">{t('download.title')}</h2>
             <p className="text-lg text-gray-300 mb-8">{t('download.description')}</p>
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-cyan-600/30 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90 opacity-60">
-              <p className="text-sm text-gray-400">{t('download.soon')}</p>
-            </div>
+            <StoreDownloadBadges
+              appStoreUrl={t('download.appStoreUrl')}
+              googlePlayUrl={t('download.googlePlayUrl')}
+              appStoreAlt={t('download.appStoreAlt')}
+              googlePlayAlt={t('download.googlePlayAlt')}
+              soonLabel={t('download.soon')}
+              fallbackBorderClass="border-cyan-600/30"
+              utmContent="track-ledger"
+            />
           </div>
         </section>
 
