@@ -1,6 +1,9 @@
 /**
  * Canonical list of public product URLs and labels for JSON-LD (ItemList) and docs.
  * Paths are locale-agnostic; default locale uses unprefixed URLs per routing.
+ *
+ * ToldYa! (`/toldya`) is wired on the site but omitted here until `TOLDYA_PUBLISHED` is true
+ * in `lib/appPublishState.ts` (and the home grid/carousel are updated).
  */
 export type SiteCatalogEntry = {
   path: string;

@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { TOLDYA_PUBLISHED } from '@/lib/appPublishState';
 import { routing } from '@/routing';
 import { getSiteUrl } from '@/lib/hreflang';
 import {
@@ -72,6 +73,12 @@ const routes: SitemapRouteMeta[] = [
   { path: '/fun-facts-trivia/terms', priority: 0.5, changefreq: 'monthly' },
   { path: '/fun-facts-trivia/support', priority: 0.7, changefreq: 'monthly' },
   { path: '/dsa-compliance', priority: 0.6, changefreq: 'monthly' },
+  ...(TOLDYA_PUBLISHED
+    ? [{ path: '/toldya', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta]
+    : []),
+  { path: '/toldya/privacy', priority: 0.5, changefreq: 'monthly' },
+  { path: '/toldya/terms', priority: 0.5, changefreq: 'monthly' },
+  { path: '/toldya/delete-account', priority: 0.35, changefreq: 'yearly' },
   { path: '/dreambit-legacy', priority: 0.55, changefreq: 'yearly' },
   { path: '/dreambit-legacy/privacy', priority: 0.4, changefreq: 'yearly' },
   { path: '/dreambit-legacy/terms', priority: 0.4, changefreq: 'yearly' },
