@@ -97,6 +97,15 @@ export default function ToldyaPage() {
                 |
               </span>
               <Link
+                href={`/${locale}/toldya/child-safety`}
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
+                {t('legalNav.childSafety')}
+              </Link>
+              <span className="text-slate-600 hidden sm:inline" aria-hidden>
+                |
+              </span>
+              <Link
                 href={`/${locale}/toldya/delete-account`}
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >

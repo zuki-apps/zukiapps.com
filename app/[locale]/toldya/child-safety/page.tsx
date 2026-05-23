@@ -16,12 +16,6 @@ const BODY_SECTIONS = [
   'section5',
   'section6',
   'section7',
-  'section8',
-  'section9',
-  'section10',
-  'section11',
-  'section12',
-  'section13',
 ] as const;
 
 export async function generateMetadata({
@@ -35,21 +29,21 @@ export async function generateMetadata({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'toldya.privacy' });
+  const t = await getTranslations({ locale, namespace: 'toldya.childSafety' });
 
   return {
     title: `${t('title')} — ToldYa! | Zuki Apps`,
     description:
-      'Privacy Policy for ToldYa! social network — account, UGC, Firebase, moderation, your rights, and account deletion.',
+      'ToldYa! published child safety standards against CSAE — zero tolerance, in-app reporting, moderation, legal compliance, and designated contact.',
     robots: { index: true, follow: true },
     alternates: {
-      canonical: buildCanonical(locale, '/toldya/privacy'),
-      languages: buildLanguageAlternates('/toldya/privacy'),
+      canonical: buildCanonical(locale, '/toldya/child-safety'),
+      languages: buildLanguageAlternates('/toldya/child-safety'),
     },
   };
 }
 
-export default async function ToldyaPrivacyPage({
+export default async function ToldyaChildSafetyPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -60,10 +54,9 @@ export default async function ToldyaPrivacyPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'toldya.privacy' });
+  const t = await getTranslations({ locale, namespace: 'toldya.childSafety' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const tApp = await getTranslations({ locale, namespace: 'toldya.hero' });
-  const tLegal = await getTranslations({ locale, namespace: 'toldya.legalNav' });
   const rtl = locale === 'he' || locale === 'ar';
 
   return (
@@ -73,7 +66,7 @@ export default async function ToldyaPrivacyPage({
         items={[
           { name: tCommon('home'), path: '/' },
           { name: tApp('title'), path: '/toldya' },
-          { name: tCommon('privacyPolicy'), path: '/toldya/privacy' },
+          { name: t('title'), path: '/toldya/child-safety' },
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-slate-50 to-teal-50">
@@ -97,21 +90,16 @@ export default async function ToldyaPrivacyPage({
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-600 mb-4">{t('lastUpdated')}</p>
               <p className="text-gray-700 leading-relaxed mb-8">{t('intro')}</p>
-              <p className="text-gray-700 mb-8">
-                <Link href={`/${locale}/toldya/delete-account`} className="text-emerald-600 hover:underline font-semibold">
-                  {tCommon('deleteAccount')}
-                </Link>
-              </p>
 
               <LegalSections
                 sections={BODY_SECTIONS}
-                listSectionKeys={['section2', 'section3']}
+                listSectionKeys={['section2']}
                 withContent2={[
-                  'section1',
-                  'section3',
+                  'section2',
+                  'section4',
                   'section5',
-                  'section8',
-                  'section9',
+                  'section6',
+                  'sectionContact',
                 ]}
                 t={t}
                 tRaw={t.raw}
@@ -121,16 +109,12 @@ export default async function ToldyaPrivacyPage({
                 addressLabel={tCommon('address')}
                 contactExtraLinks={[
                   {
+                    href: `/${locale}/toldya/privacy`,
+                    label: tCommon('privacyPolicy'),
+                  },
+                  {
                     href: `/${locale}/toldya/terms`,
                     label: tCommon('termsOfService'),
-                  },
-                  {
-                    href: `/${locale}/toldya/child-safety`,
-                    label: tLegal('childSafety'),
-                  },
-                  {
-                    href: `/${locale}/toldya/delete-account`,
-                    label: tCommon('deleteAccount'),
                   },
                 ]}
               />

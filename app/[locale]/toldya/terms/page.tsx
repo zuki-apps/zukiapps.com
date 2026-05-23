@@ -63,6 +63,7 @@ export default async function ToldyaTermsPage({
   const t = await getTranslations({ locale, namespace: 'toldya.terms' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const tApp = await getTranslations({ locale, namespace: 'toldya.hero' });
+  const tLegal = await getTranslations({ locale, namespace: 'toldya.legalNav' });
   const rtl = locale === 'he' || locale === 'ar';
 
   return (
@@ -124,6 +125,10 @@ export default async function ToldyaTermsPage({
                   {
                     href: `/${locale}/toldya/privacy`,
                     label: tCommon('privacyPolicy'),
+                  },
+                  {
+                    href: `/${locale}/toldya/child-safety`,
+                    label: tLegal('childSafety'),
                   },
                   {
                     href: `/${locale}/toldya/delete-account`,

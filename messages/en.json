@@ -3200,7 +3200,8 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Use",
       "deleteAccount": "Delete Account",
-      "contact": "Contact Support"
+      "contact": "Contact Support",
+      "childSafety": "Child Safety Standards"
     },
     "download": {
       "appStoreUrl": "https://apps.apple.com/app/id6756342206",
@@ -3428,6 +3429,56 @@
         "email": "zuki.apps.dev@gmail.com",
         "privacyLink": "Privacy Policy",
         "termsLink": "Terms of Use"
+      }
+    },
+    "childSafety": {
+      "title": "Child Safety Standards",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "ToldYa! is an invite-only social network operated by Zuki Apps. We maintain zero tolerance for child sexual abuse and exploitation (CSAE). This page describes our published standards, in-app reporting, moderation practices, and how to contact us regarding child safety.",
+      "section1": {
+        "title": "1. Zero tolerance",
+        "content": "We prohibit any content or conduct that sexually exploits, endangers, or otherwise harms children. Accounts involved in CSAE may be removed immediately and permanently. Where required by law, we report to regional and national authorities and cooperate with law enforcement."
+      },
+      "section2": {
+        "title": "2. Standards against CSAE",
+        "content": "The following are prohibited on ToldYa! and may result in account termination and referral to authorities:",
+        "items": [
+          "Child sexual abuse material (CSAM) in any form, including real, synthetic, or illustrated sexual content depicting minors",
+          "Sexualization of minors, grooming, or solicitation of minors",
+          "Content that facilitates exploitation or trafficking of children",
+          "Accounts that misrepresent age to contact or exploit minors",
+          "Links or instructions to obtain CSAM or to harm children"
+        ],
+        "content2": "These rules are also reflected in our Terms of Use. We use a combination of automated signals, user reports, and human review to enforce them."
+      },
+      "section3": {
+        "title": "3. Age requirement",
+        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). Registration requires an invitation code and is intended for adults and teens who meet the minimum age. We may suspend accounts we believe belong to underage users."
+      },
+      "section4": {
+        "title": "4. In-app reporting",
+        "content": "Users can report child safety concerns in the app. Reporting options are available on predictions, comments, profiles, and messages (where the product provides a report or flag control). Reports are routed to our moderation queue and prioritized when they involve potential harm to minors.",
+        "content2": "When reporting, choose the category that best describes the issue and add any helpful context. You may also block users to prevent further contact."
+      },
+      "section5": {
+        "title": "5. Moderation & response",
+        "content": "We review child-safety reports as a priority. Confirmed CSAM is removed, preserving only what is legally required for evidence or mandatory reporting. Offending accounts are banned. We may preserve logs and content hashes as needed for compliance and cooperation with authorities.",
+        "content2": "We continually improve detection, reporting flows, and reviewer guidance. No system is perfect; we rely on our community and staff to identify harm quickly."
+      },
+      "section6": {
+        "title": "6. Legal compliance & authority reporting",
+        "content": "We comply with applicable child safety laws in the regions where we operate. Where appropriate, we report apparent CSAM to relevant organizations and authorities (for example, national hotlines or cybercrime units) in accordance with legal obligations and industry practice.",
+        "content2": "We do not use CSAE content for any purpose other than removal, mandatory reporting, and lawful cooperation with investigations."
+      },
+      "section7": {
+        "title": "7. Parental & guardian contact",
+        "content": "If you are a parent, guardian, or educator and believe a minor is using ToldYa! unsafely, contact us immediately using the email below with the username and a description of your concern. We will investigate and take appropriate action."
+      },
+      "sectionContact": {
+        "title": "8. Designated child safety contact",
+        "content": "The designated point of contact for child safety, CSAM prevention practices, and compliance with Google Play child safety standards is ready to respond to inquiries from platforms, regulators, and users:",
+        "email": "liorzukman@gmail.com",
+        "content2": "For general app support (non–child-safety), you may also contact zuki.apps.dev@gmail.com. For privacy requests, see our Privacy Policy."
       }
     }
   },

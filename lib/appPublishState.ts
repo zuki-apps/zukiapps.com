@@ -5,3 +5,6 @@
 export const TOLDYA_PUBLISHED = false;
 
 export const TOLDYA_APP_PATH = '/toldya' as const;
+
+/** Google Play “Child safety standards” URL (public HTML, not a PDF). */
+export const TOLDYA_CHILD_SAFETY_PATH = '/toldya/child-safety' as const;

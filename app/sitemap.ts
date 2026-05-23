@@ -76,6 +76,7 @@ const routes: SitemapRouteMeta[] = [
   ...(TOLDYA_PUBLISHED
     ? [{ path: '/toldya', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta]
     : []),
+  { path: '/toldya/child-safety', priority: 0.55, changefreq: 'monthly' },
   { path: '/toldya/privacy', priority: 0.5, changefreq: 'monthly' },
   { path: '/toldya/terms', priority: 0.5, changefreq: 'monthly' },
   { path: '/toldya/delete-account', priority: 0.35, changefreq: 'yearly' },
