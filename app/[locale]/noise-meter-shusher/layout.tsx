@@ -36,7 +36,7 @@ export async function generateMetadata({
       'Flutter',
       'iOS',
       'Android',
-      'com.noisemeter.shusher.noise_meter_shusher',
+      'com.zuki.apps.noisemeter',
       'Zuki Apps',
       'zuki',
     ],
