@@ -14,4 +14,5 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/track-ledger': 'com.zuki.apps.trackledger',
   '/noise-meter-shusher': 'com.zuki.apps.noisemeter',
   '/paratrooper-blitz': 'com.zuki.apps.paratrooperblitz',
+  '/collagio': 'com.zuki.apps.collagio',
 };

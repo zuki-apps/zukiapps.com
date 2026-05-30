@@ -8,3 +8,11 @@ export const TOLDYA_APP_PATH = '/toldya' as const;
 
 /** Google Play “Child safety standards” URL (public HTML, not a PDF). */
 export const TOLDYA_CHILD_SAFETY_PATH = '/toldya/child-safety' as const;
+
+/**
+ * Collagio exists on the site but is not yet public on the home page / catalog.
+ * Set `COLLAGIO_PUBLISHED` to true when the product page should appear on home, sitemap `/collagio`, and JSON-LD.
+ */
+export const COLLAGIO_PUBLISHED = false;
+
+export const COLLAGIO_APP_PATH = '/collagio' as const;

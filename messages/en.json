@@ -3495,5 +3495,164 @@
     "contactUs": "Contact Us",
     "dsaCompliance": "DSA Compliance",
     "deleteAccount": "Delete Account"
+  },
+  "collagio": {
+    "hero": {
+      "title": "Collagio",
+      "subtitle": "Fast photo collages",
+      "description": "Create beautiful collages in under 30 seconds. Pick 2–10 photos, choose a layout, tweak borders and filters, then save or share. No account required.",
+      "structuredDataDescription": "Collagio — minimal photo collage maker with layouts, borders, filters, and Zuli Monsters stickers. iOS and Android by Zuki Apps."
+    },
+    "back": "Back to Home",
+    "underConstruction": {
+      "badge": "Coming Soon",
+      "title": "Under Construction",
+      "message": "We're preparing the Collagio product page. Privacy Policy and Terms of Use are available below for App Store and Google Play review."
+    },
+    "legalNav": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "contact": "Contact Support"
+    },
+    "download": {
+      "appStoreUrl": "",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.collagio",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) handles information when you use the Collagio mobile application and related pages at zukiapps.com/collagio (the “Service”). Collagio is a photo collage app that processes your images on your device. We do not require an account to use the core app.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller for Collagio is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the Collagio app (iOS and Android) and the legal pages we publish for the product. Third-party app stores have their own policies."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "Collagio is designed to minimize data collection. Depending on how you use the app, we may process:",
+        "items": [
+          "Photos and videos you select from your device to create collages — processed locally on your device and not uploaded to our servers for core editing.",
+          "Collage projects and export history stored locally on your device (for example, recent collages kept in app history).",
+          "Optional in-app purchase status (for example, Premium / remove watermark) processed by Apple App Store or Google Play billing systems.",
+          "Support communications if you email us.",
+          "Limited diagnostic data if we enable crash or analytics tools in a future update; we will update this Policy before doing so."
+        ]
+      },
+      "section3": {
+        "title": "3. How we use your information",
+        "content": "We use information to:",
+        "items": [
+          "Provide collage editing, layouts, filters, stickers, save, and share features",
+          "Remember your language preference and local settings",
+          "Process optional Premium purchases through the app stores",
+          "Respond to support requests",
+          "Improve stability and fix bugs when diagnostic tools are enabled"
+        ],
+        "content2": "We do not sell your personal information. Collagio does not include third-party advertising in version 1.0.0."
+      },
+      "section4": {
+        "title": "4. Permissions",
+        "content": "The app may request access to your photo library or camera (if you choose to capture photos) solely to let you select images for collages. You can revoke permissions in your device settings. Collagio does not access your photos when you are not using those features."
+      },
+      "section5": {
+        "title": "5. Storage and retention",
+        "content": "Collages and edits are stored on your device. You can delete individual items from history or uninstall the app to remove local data. We do not operate a cloud account for Collagio in version 1.0.0.",
+        "content2": "If you contact support, we retain correspondence as long as needed to resolve your request and for reasonable business records."
+      },
+      "section6": {
+        "title": "6. Purchases",
+        "content": "Optional Premium features (such as removing the export watermark) are sold as a one-time in-app purchase through Apple or Google. Payment and purchase history are handled by the store; we receive only what the store provides to confirm entitlement.",
+        "content2": "Product ID: collagio.remove_watermark (iOS and Android)."
+      },
+      "section7": {
+        "title": "7. Sharing with third parties",
+        "content": "We do not share your photos with third parties for marketing. When you use the system share sheet, exports go to apps you choose (Messages, WhatsApp, Files, etc.) under their policies.",
+        "content2": "We use Apple and Google only as needed for distribution, billing, and platform services."
+      },
+      "section8": {
+        "title": "8. Your rights and children",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights. We may need to verify your identity.",
+        "content2": "Collagio is not directed to children under 13 (or the minimum age in your country). We do not knowingly collect personal data from children."
+      },
+      "section9": {
+        "title": "9. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new “Last updated” date. Continued use after the effective date constitutes acceptance of the updated Policy."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "Please read these Terms of Use carefully before using Collagio. By downloading, installing, or using the app, you agree to these Terms and our Privacy Policy.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your use of Collagio — Photo Collage Maker (“Service”, “App”) operated by Zuki Apps (“we”, “us”). If you do not agree, do not use the Service.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Collagio lets you create photo collages on your device. The Service includes:",
+        "items": [
+          "Select 2–10 photos from your library",
+          "Automatic layouts and manual styling (borders, filters)",
+          "Save and share collages via the system share sheet",
+          "Optional Zuli Monsters stickers and sticker pack export",
+          "Optional one-time Premium purchase to remove the export watermark",
+          "English and Hebrew (RTL) interfaces"
+        ]
+      },
+      "section3": {
+        "title": "3. Your photos and content",
+        "content": "You retain ownership of photos and other content you import. You are responsible for having the rights to use that content in collages you create and share.",
+        "content2": "Do not use Collagio to create or distribute unlawful, infringing, harassing, or harmful content."
+      },
+      "section4": {
+        "title": "4. Intellectual property",
+        "content": "Collagio and the Zuli Monsters characters, names, sticker artwork, icons, and related assets are owned by Zuki Apps and protected by copyright and applicable trademark laws.",
+        "content2": "You may use stickers and characters only as provided through the app for personal, non-commercial messaging and collages. You may not copy, redistribute, sell, or create derivative works from these assets outside the app without written permission from Zuki Apps."
+      },
+      "section5": {
+        "title": "5. Premium and purchases",
+        "content": "Optional Premium (remove watermark) is a one-time in-app purchase billed by Apple or Google. Refunds follow the store’s policies. Features and pricing may change with notice where required.",
+        "content2": "Product ID: collagio.remove_watermark."
+      },
+      "section6": {
+        "title": "6. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Reverse engineer or attempt to extract source code except as permitted by law",
+          "Circumvent purchase or watermark mechanisms",
+          "Use the Service to violate law or third-party rights",
+          "Overload or disrupt the app or related systems"
+        ]
+      },
+      "section7": {
+        "title": "7. Disclaimers and liability",
+        "content": "The Service is provided “as is” without warranties of any kind to the extent permitted by law. Collage results depend on your photos and device; we do not guarantee uninterrupted operation.",
+        "content2": "To the maximum extent permitted by law, Zuki Apps is not liable for indirect, incidental, or consequential damages arising from your use of the Service. Some jurisdictions do not allow certain limitations; your rights may vary."
+      },
+      "section8": {
+        "title": "8. Termination",
+        "content": "You may stop using the Service at any time by uninstalling the app. We may suspend or discontinue the Service or these Terms where permitted by law."
+      },
+      "section9": {
+        "title": "9. Changes and governing law",
+        "content": "We may update these Terms. Material changes will be posted with a new “Last updated” date. Continued use constitutes acceptance.",
+        "content2": "These Terms are governed by the laws of Israel, without regard to conflict-of-law rules, except where mandatory consumer protections in your country apply."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
   }
 }
