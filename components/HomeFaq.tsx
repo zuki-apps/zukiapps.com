@@ -1,18 +1,16 @@
-'use client';
-
 import Script from 'next/script';
-import { useLocale, useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { CircleHelp } from 'lucide-react';
 import { buildCanonical } from '@/lib/hreflang';
 
 type FaqItem = { question: string; answer: string };
 
-export default function HomeFaq() {
-  const t = useTranslations('home');
-  const locale = useLocale();
-  const items = t.raw('faq.items') as FaqItem[];
+export default async function HomeFaq({ locale }: { locale: string }) {
+  const t = await getTranslations({ locale, namespace: 'home' });
   const pageUrl = buildCanonical(locale, '');
   const rtl = locale === 'he' || locale === 'ar';
+
+  const items = t.raw('faq.items') as FaqItem[];
 
   const jsonLd = {
     '@context': 'https://schema.org',

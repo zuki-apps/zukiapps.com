@@ -1,8 +1,5 @@
-'use client';
-
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useTranslations, useLocale } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import AppIconFrame from '@/components/AppIconFrame';
 import {
   ShoppingCart,
@@ -27,14 +24,8 @@ interface AppInfo {
   link: string;
 }
 
-export default function AppsGrid() {
-  const t = useTranslations('home');
-  const locale = useLocale();
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+export default async function AppsGrid({ locale }: { locale: string }) {
+  const t = await getTranslations({ locale, namespace: 'home' });
 
   const apps: AppInfo[] = [
     {
@@ -134,10 +125,10 @@ export default function AppsGrid() {
             key={app.id}
             href={app.link}
             className="group flex flex-col items-center p-6 rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 backdrop-blur-md bg-opacity-90 bg-gradient-to-br from-indigo-950/85 to-violet-950/70 border-indigo-500/30 hover:border-amber-400/45"
-            aria-label={`${t(app.titleKey)} - ${locale === 'he' ? 'פתח' : 'Open'}`}
+            aria-label={`${t(app.titleKey)}`}
           >
             <div className="mb-4">
-              {app.iconImage && isMounted ? (
+              {app.iconImage ? (
                 <AppIconFrame
                   src={app.iconImage}
                   alt={t(app.titleKey)}

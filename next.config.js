@@ -7,6 +7,10 @@ const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ['@opentelemetry/api', 'google-auth-library'],
   },
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 31536000,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
