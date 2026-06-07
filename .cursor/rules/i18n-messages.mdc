@@ -1,0 +1,38 @@
+---
+description: next-intl messages and legal section JSON structure
+globs: messages/**,i18n.ts
+alwaysApply: false
+---
+
+# i18n & messages
+
+## Namespaces
+
+One top-level key per app in `messages/en.json` (camelCase): `bitScope`, `noiseMeterShusher`, `collagio`, etc.
+
+Typical keys: `hero`, `download`, `privacy`, `terms`, `footer`, `features`, …
+
+## Legal sections
+
+```json
+"privacy": {
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: May 2026",
+  "intro": "...",
+  "section1": { "title": "...", "content": "...", "items": ["..."] },
+  "sectionContact": { "title": "Contact", "email": "zuki.apps.dev@gmail.com", "address": "..." }
+}
+```
+
+Wire in page with `LegalSections` — pass `sections`, `listSectionKeys`, `withContent2`, `contactSectionKey`.
+
+## Locales
+
+- `i18n.ts` deep-merges `{locale}.json` over `en.json`
+- For new apps, **en.json only** is often sufficient (other locales inherit)
+- `dreambitLegacy` loaded separately — do not nest under app keys
+
+## Pitfalls
+
+- Invalid JSON or missing nested keys → runtime 500 in prod; always mirror section keys used in `page.tsx`
+- Reformatting entire `en.json` creates huge diffs — patch surgically

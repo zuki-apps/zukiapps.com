@@ -1,0 +1,53 @@
+---
+description: App Router pages, components, SEO, and store badges
+globs: app/**/*.tsx,components/**/*.tsx,lib/**/*.ts
+alwaysApply: false
+---
+
+# Next.js app pages
+
+## New product route
+
+```
+app/[locale]/{slug}/
+  layout.tsx      # generateMetadata, robots if under construction
+  page.tsx        # landing
+  privacy/page.tsx
+  terms/page.tsx
+```
+
+Mirror an existing app (e.g. `bit-scope/` full page, `collagio/` under construction).
+
+## Metadata
+
+```typescript
+import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
+
+alternates: {
+  canonical: buildCanonical(locale, '/my-app'),
+  languages: buildLanguageAlternates('/my-app'),
+}
+```
+
+Under construction: `robots: { index: false, follow: true }` via publish flag in layout.
+
+## Store downloads
+
+```tsx
+<DownloadStoreFab
+  appStoreUrl={t('download.appStoreUrl')}
+  googlePlayUrl={t('download.googlePlayUrl')}
+  utmContent="my-app"
+/>
+<StoreDownloadBadges ... utmContent="my-app" />
+```
+
+## Structured data
+
+- `BreadcrumbsStructuredData` on every page
+- `SoftwareApplicationStructuredData` on full product pages with store URLs
+- Android ID in `lib/appStructuredData.ts` for JSON-LD
+
+## Sitemap
+
+Add routes in `app/sitemap.ts`. Legal pages always listed; main app path only when published.

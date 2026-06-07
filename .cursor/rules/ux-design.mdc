@@ -1,0 +1,31 @@
+---
+description: UX/UI design system for ZukiApps marketing site (twilight theme, a11y, RTL)
+globs: app/**/*.tsx,components/**/*.tsx,app/globals.css
+alwaysApply: false
+---
+
+# UX / UI design
+
+## Theme
+
+- Dark product pages: `StarBackground` + `card-twilight` + app-specific accent (sky, emerald, amber, cyan…)
+- Legal pages: light gradient + tinted card; accent border matches app
+- Utilities in `app/globals.css`: `text-electric-blue`, `twilight-*`, `focus-visible-ring`
+
+## Layout
+
+- Shell: `max-w-7xl mx-auto px-4`
+- Legal: `max-w-4xl`; under-construction hero: `max-w-2xl text-center`
+- Reuse: `AppIconFrame`, `StoreDownloadBadges`, `DownloadStoreFab`, `LegalSections`
+
+## UX checklist
+
+- One clear primary action per viewport
+- User strings in `messages/en.json`, not hardcoded
+- RTL: `locale === 'he' || locale === 'ar'` → `text-right`
+- Decorative icons: `aria-hidden`; meaningful controls: labels
+- Mobile touch targets ≥ 44px; test `md:` icon/heading scale
+
+## Agent
+
+Deep UX reviews: `.claude/agents/senior-ux-designer.md`

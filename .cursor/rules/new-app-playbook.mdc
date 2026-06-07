@@ -1,0 +1,31 @@
+---
+description: Checklist for adding a new Zuki app page from a Flutter repo
+alwaysApply: false
+---
+
+# New app playbook
+
+Source data: sibling repo `docs/APP_STORE_LISTING_*.md`, `GOOGLE_PLAY_LISTING_*.md`, `AppConfig` (bundle ID, legal URLs, support email).
+
+## Pre-launch (under construction)
+
+1. `lib/appPublishState.ts` → `{APP}_PUBLISHED = false`
+2. Landing: icon, hero, “Coming Soon”, links to privacy/terms
+3. `sitemap.ts`: privacy + terms only
+4. **Skip** `siteCatalog.ts`, `AppsGrid`, `AppsCarousel` until published
+
+## Go live
+
+1. Set `{APP}_PUBLISHED = true`
+2. Full product page + store badges
+3. Add to `siteCatalog.ts`, home grid/carousel, `llms.txt`
+4. Verify App Store / Play URLs (HTTP 200, correct package ID)
+5. Update `appStructuredData.ts`
+
+## Copy icon
+
+```bash
+cp /path/to/AppRepo/assets/app_icon_512.png public/images/{slug}-icon.png
+```
+
+Support email default: `zuki.apps.dev@gmail.com`. Legal URLs: `https://zukiapps.com/{slug}/privacy` and `/terms`.

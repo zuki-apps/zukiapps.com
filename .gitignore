@@ -37,8 +37,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Cursor / Claude (local assistant config; do not commit)
-.claude/
+# Cursor / Claude — commit shared AI project config; ignore local overrides
+.claude/settings.local.json
+.cursor/settings.json
 
 # IDE
 .vscode/
