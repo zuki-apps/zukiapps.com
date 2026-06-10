@@ -25,7 +25,7 @@ import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
-import { WHISTLE_CAMERA_ICON, WHISTLE_CAMERA_PET_PROMO } from '@/lib/appIcons';
+import { WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
 
 type ScreenshotItem = {
@@ -82,53 +82,33 @@ export default function WhistleCameraPage() {
         </div>
 
         <section className="py-12 px-4 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-10 lg:gap-12 items-center">
-              <div className="text-center lg:text-left">
-                <div className="mb-8 lg:mb-6">
-                  <AppIconFrame
-                    src={WHISTLE_CAMERA_ICON}
-                    alt={t('download.appIconAlt')}
-                    sizes="(max-width: 768px) 96px, 128px"
-                    priority
-                    edgeToEdge
-                    className="mx-auto lg:mx-0 mb-6"
-                    boxClassName="w-24 h-24 md:w-32 md:h-32"
-                    frameClassName="rounded-[22%] overflow-hidden shadow-2xl"
-                  />
-                </div>
-                <div className="inline-flex items-center gap-2 bg-yellow-900/50 border border-yellow-500/30 text-yellow-400 px-4 py-2 rounded-full text-sm font-semibold mb-4 backdrop-blur-sm">
-                  <CheckCircle2 className="w-4 h-4" />
-                  {t('hero.badge')}
-                </div>
-                <h1
-                  className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-transparent"
-                  style={{ filter: 'drop-shadow(0 0 8px rgba(245, 158, 11, 0.6))' }}
-                >
-                  {t('hero.title')}
-                </h1>
-                <p className="text-xl md:text-2xl mb-4 text-gray-300 max-w-3xl mx-auto lg:mx-0">{t('hero.subtitle')}</p>
-                <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto lg:mx-0">{t('hero.description')}</p>
-                <p className="text-sm text-amber-400/90 mb-8">{t('hero.socialProof')}</p>
-              </div>
-              <figure className="mx-auto w-full max-w-sm lg:max-w-md">
-                <div className="relative aspect-[473/1024] w-full rounded-2xl overflow-hidden border-2 border-amber-600/40 shadow-2xl shadow-amber-900/30">
-                  <Image
-                    src={WHISTLE_CAMERA_PET_PROMO}
-                    alt={t('petPromo.imageAlt')}
-                    fill
-                    sizes="(max-width: 1024px) 90vw, 448px"
-                    className="object-contain"
-                    priority
-                  />
-                </div>
-                <figcaption className="mt-4 text-center lg:text-left">
-                  <p className="text-lg font-bold text-white">{t('petPromo.title')}</p>
-                  <p className="text-sm text-gray-400 mt-2 leading-relaxed">{t('petPromo.subtitle')}</p>
-                </figcaption>
-              </figure>
+          <div className="max-w-7xl mx-auto text-center">
+            <div className="mb-8">
+              <AppIconFrame
+                src={WHISTLE_CAMERA_ICON}
+                alt={t('download.appIconAlt')}
+                sizes="(max-width: 768px) 96px, 128px"
+                priority
+                edgeToEdge
+                className="mx-auto mb-6"
+                boxClassName="w-24 h-24 md:w-32 md:h-32"
+                frameClassName="rounded-[22%] overflow-hidden shadow-2xl"
+              />
             </div>
-            <div className="flex justify-center gap-4 text-sm flex-wrap mb-8 mt-8">
+            <div className="inline-flex items-center gap-2 bg-yellow-900/50 border border-yellow-500/30 text-yellow-400 px-4 py-2 rounded-full text-sm font-semibold mb-4 backdrop-blur-sm">
+              <CheckCircle2 className="w-4 h-4" />
+              {t('hero.badge')}
+            </div>
+            <h1
+              className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-transparent"
+              style={{ filter: 'drop-shadow(0 0 8px rgba(245, 158, 11, 0.6))' }}
+            >
+              {t('hero.title')}
+            </h1>
+            <p className="text-xl md:text-2xl mb-4 text-gray-300 max-w-3xl mx-auto">{t('hero.subtitle')}</p>
+            <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto">{t('hero.description')}</p>
+            <p className="text-sm text-amber-400/90 mb-8">{t('hero.socialProof')}</p>
+            <div className="flex justify-center gap-4 text-sm flex-wrap mb-8">
               <Link href={`/${locale}/whistle-camera/privacy`} className="text-amber-400 hover:text-amber-300 underline">
                 {tCommon('privacyPolicy')}
               </Link>
@@ -141,7 +121,7 @@ export default function WhistleCameraPage() {
                 {tCommon('support')}
               </Link>
             </div>
-            <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm text-gray-400 mt-4" aria-label="Page sections">
+            <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm text-gray-400" aria-label="Page sections">
               <a href="#features" className="hover:text-amber-300">{t('pageNav.features')}</a>
               <span className="text-gray-600" aria-hidden>|</span>
               <a href="#screenshots" className="hover:text-amber-300">{t('pageNav.screenshots')}</a>
