@@ -7,10 +7,19 @@ import { ArrowLeft, Lock, FolderTree, Cloud, Shield, Image as ImageIcon, Downloa
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
-import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
+import StoreDownloadBadges from '@/components/StoreDownloadBadges';
+import { HUSH_GALLERY_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
+
+type ScreenshotItem = {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  alt: string;
+  category: string;
+};
 
 export default function HushGalleryPage() {
   const t = useTranslations('hushGallery');
@@ -18,33 +27,13 @@ export default function HushGalleryPage() {
   const tHome = useTranslations('home');
   const locale = useLocale();
 
+  const faqItems = (t.raw('faq.items') as Array<{ question: string; answer: string }> | undefined) ?? [];
+  const howToSteps =
+    (t.raw('howToUse.steps') as Array<{ number: string; title: string; description: string }> | undefined) ?? [];
+  const screenshotItems = (t.raw('screenshots.items') as ScreenshotItem[] | undefined) ?? [];
+
   return (
     <>
-      <BreadcrumbsStructuredData
-        locale={locale}
-        items={[
-          { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/hush-gallery' }
-        ]}
-      />
-      <SoftwareApplicationStructuredData
-        locale={locale}
-        appPath="/hush-gallery"
-        appName={t('hero.title')}
-        appDescription={t('hero.description')}
-        operatingSystem="iOS,Android"
-        applicationCategory="PhotoApplication"
-        offers={{
-          price: '0',
-          priceCurrency: 'USD',
-        }}
-        aggregateRating={{
-          ratingValue: 0,
-          ratingCount: 0,
-        }}
-        appStoreUrl="https://apps.apple.com/il/app/hush-gallery/id6756169045"
-        googlePlayUrl="https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery"
-      />
       <div className="min-h-screen relative overflow-hidden">
         <StarBackground />
 
@@ -72,26 +61,15 @@ export default function HushGalleryPage() {
           <div className="max-w-7xl mx-auto text-center">
             <div className="mb-8">
               <AppIconFrame
-                src="/images/hush-gallery-icon.png"
-                alt="Hush Gallery"
+                src={HUSH_GALLERY_ICON}
+                alt={t('download.appIconAlt')}
                 sizes="(max-width: 768px) 96px, 128px"
                 priority
+                edgeToEdge
                 className="mx-auto mb-6"
                 boxClassName="w-24 h-24 md:w-32 md:h-32"
-                frameClassName="rounded-2xl overflow-hidden shadow-2xl ring-2 ring-purple-400/35 bg-gradient-to-br from-purple-950/90 via-slate-950 to-slate-950"
+                frameClassName="rounded-[22%] overflow-hidden shadow-2xl"
               />
-            </div>
-            <div className="mb-8 max-w-4xl mx-auto">
-              <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl ring-2 ring-purple-400/30">
-                <Image
-                  src="/images/hush-gallery-cover.jpg"
-                  alt="Hush Gallery Cover"
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1024px"
-                  className="object-cover"
-                  priority
-                />
-              </div>
             </div>
             <div className="inline-flex items-center gap-2 bg-green-900/50 border border-green-500/30 text-green-400 px-4 py-2 rounded-full text-sm font-semibold mb-4 backdrop-blur-sm">
               <CheckCircle2 className="w-4 h-4" />
@@ -108,7 +86,7 @@ export default function HushGalleryPage() {
             <p className="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">
               {t('hero.description')}
             </p>
-            <div className="flex justify-center gap-4 text-sm">
+            <div className="flex justify-center gap-4 text-sm flex-wrap mb-8">
               <Link
                 href={`/${locale}/hush-gallery/privacy`}
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
@@ -124,17 +102,42 @@ export default function HushGalleryPage() {
               </Link>
               <span className="text-gray-500">|</span>
               <Link
+                href={`/${locale}/hush-gallery/support`}
+                className="text-purple-400 hover:text-purple-300 underline transition-colors"
+              >
+                {tCommon('support')}
+              </Link>
+              <span className="text-gray-500">|</span>
+              <Link
                 href={`/${locale}/hush-gallery/delete-account`}
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
                 {locale === 'he' ? 'מחיקת חשבון' : 'Delete Account'}
               </Link>
             </div>
+            <nav
+              className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm text-gray-400"
+              aria-label="Page sections"
+            >
+              <a href="#features" className="hover:text-purple-300 transition-colors">{t('pageNav.features')}</a>
+              <span className="text-gray-600" aria-hidden>|</span>
+              <a href="#screenshots" className="hover:text-purple-300 transition-colors">{t('pageNav.screenshots')}</a>
+              <span className="text-gray-600" aria-hidden>|</span>
+              <a href="#how-to" className="hover:text-purple-300 transition-colors">{t('pageNav.howTo')}</a>
+              <span className="text-gray-600" aria-hidden>|</span>
+              <a href="#manual" className="hover:text-purple-300 transition-colors">{t('pageNav.manual')}</a>
+              <span className="text-gray-600" aria-hidden>|</span>
+              <a href="#tips" className="hover:text-purple-300 transition-colors">{t('pageNav.tips')}</a>
+              <span className="text-gray-600" aria-hidden>|</span>
+              <a href="#faq" className="hover:text-purple-300 transition-colors">{t('pageNav.faq')}</a>
+              <span className="text-gray-600" aria-hidden>|</span>
+              <a href="#download" className="hover:text-purple-300 transition-colors">{t('pageNav.download')}</a>
+            </nav>
           </div>
         </section>
 
         {/* Features Section */}
-        <section className="py-12 px-4 relative z-10">
+        <section className="py-12 px-4 relative z-10" id="features">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-12 text-white">
               {t('features.title')}
@@ -252,6 +255,148 @@ export default function HushGalleryPage() {
           </div>
         </section>
 
+        {/* Screenshots Section */}
+        <section className="py-12 px-4 relative z-10" id="screenshots">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-4 text-white">
+              {t('screenshots.title')}
+            </h2>
+            <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+              {t('screenshots.subtitle')}
+            </p>
+
+            <h3 className="text-2xl font-bold text-purple-300 mb-6">
+              {t('screenshots.featuresTitle')}
+            </h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+              {screenshotItems
+                .filter((item) => item.category === 'features')
+                .map((item) => (
+                  <figure
+                    key={item.id}
+                    className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 border-purple-600/30 hover:border-purple-500/50 transition-all"
+                  >
+                    <div className="relative aspect-[9/19] w-full max-w-[220px] mx-auto">
+                      <Image
+                        src={item.image}
+                        alt={item.alt}
+                        fill
+                        sizes="220px"
+                        className="object-cover object-top"
+                      />
+                    </div>
+                    <figcaption className="p-4">
+                      <h4 className="font-bold text-white mb-2">{item.title}</h4>
+                      <p className="text-sm text-gray-400">{item.description}</p>
+                    </figcaption>
+                  </figure>
+                ))}
+            </div>
+
+            <h3 className="text-2xl font-bold text-purple-300 mb-2">
+              {t('screenshots.onboardingTitle')}
+            </h3>
+            <p className="text-gray-400 mb-6 max-w-2xl">{t('screenshots.onboardingSubtitle')}</p>
+            <div className="grid md:grid-cols-3 gap-8 mb-16">
+              {screenshotItems
+                .filter((item) => item.category === 'onboarding')
+                .map((item) => (
+                  <figure
+                    key={item.id}
+                    className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 border-purple-600/30 hover:border-purple-500/50 transition-all"
+                  >
+                    <div className="relative aspect-[9/19] w-full max-w-[220px] mx-auto">
+                      <Image
+                        src={item.image}
+                        alt={item.alt}
+                        fill
+                        sizes="220px"
+                        className="object-cover object-top"
+                      />
+                    </div>
+                    <figcaption className="p-4">
+                      <h4 className="font-bold text-white mb-2">{item.title}</h4>
+                      <p className="text-sm text-gray-400">{item.description}</p>
+                    </figcaption>
+                  </figure>
+                ))}
+            </div>
+
+          </div>
+        </section>
+
+        {/* User Manual */}
+        <section className="py-12 px-4 relative z-10" id="manual">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-4 text-white">{t('manual.title')}</h2>
+            <p className="text-center text-gray-400 mb-12">{t('manual.subtitle')}</p>
+            <div className="grid md:grid-cols-2 gap-6">
+              {(t.raw('manual.sections') as Array<{ title: string; steps: string[] }>).map((section, i) => (
+                <div
+                  key={i}
+                  className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 border-2 border-purple-600/30"
+                >
+                  <h3 className="text-xl font-bold text-white mb-4">{section.title}</h3>
+                  <ol className="list-decimal list-inside space-y-2 text-gray-300 text-sm">
+                    {section.steps.map((step, j) => (
+                      <li key={j}>{step}</li>
+                    ))}
+                  </ol>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Tips */}
+        <section className="py-12 px-4 relative z-10" id="tips">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-4 text-white">{t('tips.title')}</h2>
+            <p className="text-center text-gray-400 mb-12">{t('tips.subtitle')}</p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {(t.raw('tips.items') as Array<{ title: string; description: string }>).map((tip, i) => (
+                <div
+                  key={i}
+                  className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 border-2 border-purple-600/30 hover:border-purple-500/50 transition-all"
+                >
+                  <h3 className="text-lg font-bold text-purple-300 mb-2">{tip.title}</h3>
+                  <p className="text-sm text-gray-400 leading-relaxed">{tip.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Preview */}
+        <section className="py-12 px-4 relative z-10" id="faq">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-4 text-white">{t('faq.title')}</h2>
+            <p className="text-center text-gray-400 mb-8">{t('faq.subtitle')}</p>
+            <div className="space-y-4">
+              {faqItems.map((item, i) => (
+                <details
+                  key={i}
+                  className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl border border-purple-600/30 group"
+                >
+                  <summary className="cursor-pointer p-5 font-semibold text-white list-none flex justify-between items-center">
+                    {item.question}
+                    <span className="text-purple-400 ml-2 group-open:rotate-45 transition-transform">+</span>
+                  </summary>
+                  <p className="px-5 pb-5 text-gray-400 text-sm leading-relaxed">{item.answer}</p>
+                </details>
+              ))}
+            </div>
+            <div className="text-center mt-8">
+              <Link
+                href={`/${locale}/hush-gallery/support`}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-500 text-white font-semibold rounded-lg transition-colors"
+              >
+                {t('faq.viewAllSupport')}
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* Business Use Section */}
         <section className="py-12 px-4 relative z-10">
           <div className="max-w-7xl mx-auto">
@@ -302,7 +447,7 @@ export default function HushGalleryPage() {
         </section>
 
         {/* How to Use Section */}
-        <section className="py-12 px-4 relative z-10">
+        <section className="py-12 px-4 relative z-10" id="how-to">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-12 text-white">
               {t('howToUse.title')}
@@ -430,7 +575,7 @@ export default function HushGalleryPage() {
         </section>
 
         {/* Download Section */}
-        <section className="py-12 px-4 relative z-10">
+        <section className="py-12 px-4 relative z-10" id="download">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-white">
               {t('download.title')}
@@ -438,58 +583,14 @@ export default function HushGalleryPage() {
             <p className="text-lg text-gray-300 mb-8">
               {t('download.description')}
             </p>
-            <div className="flex gap-8 justify-center flex-wrap">
-              <a
-                href={t('download.appStoreUrl')}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-purple-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-purple-500/50 transition-all backdrop-blur-sm bg-opacity-90 group"
-              >
-                <div className="w-32 h-10 mx-auto relative">
-                  <Image
-                    src="/images/app-store-badge.svg"
-                    alt={t('download.appStoreAlt')}
-                    width={128}
-                    height={40}
-                    className="object-contain"
-                    onError={(e) => {
-                      // Fallback to emoji if image not found
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                      const parent = target.parentElement;
-                      if (parent) {
-                        parent.innerHTML = '<span class="text-4xl mb-2 block">📱</span>';
-                      }
-                    }}
-                  />
-                </div>
-              </a>
-              <a
-                href={t('download.googlePlayUrl')}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-purple-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-purple-500/50 transition-all backdrop-blur-sm bg-opacity-90 group"
-              >
-                <div className="w-32 h-10 mx-auto relative">
-                  <Image
-                    src="/images/google-play-badge.png"
-                    alt={t('download.googlePlayAlt')}
-                    width={128}
-                    height={40}
-                    className="object-contain"
-                    onError={(e) => {
-                      // Fallback to emoji if image not found
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                      const parent = target.parentElement;
-                      if (parent) {
-                        parent.innerHTML = '<span class="text-4xl mb-2 block">📱</span>';
-                      }
-                    }}
-                  />
-                </div>
-              </a>
-            </div>
+            <StoreDownloadBadges
+              appStoreUrl={t('download.appStoreUrl')}
+              googlePlayUrl={t('download.googlePlayUrl')}
+              appStoreAlt={t('download.appStoreAlt')}
+              googlePlayAlt={t('download.googlePlayAlt')}
+              fallbackBorderClass="border-purple-600/30"
+              utmContent="hush-gallery"
+            />
           </div>
         </section>
 

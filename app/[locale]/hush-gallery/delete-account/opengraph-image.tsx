@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { OG_CONTENT_TYPE, OG_SIZE, renderLegalOgBanner } from '@/lib/og/app-banner';
+import { HUSH_GALLERY_ICON } from '@/lib/appIcons';
 
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
@@ -10,6 +11,6 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
   return renderLegalOgBanner({
     title: t('title'),
     subtitle: 'Hush Gallery · Zuki Apps',
-    iconPath: '/images/hush-gallery-icon.png',
+    iconPath: HUSH_GALLERY_ICON,
   });
 }

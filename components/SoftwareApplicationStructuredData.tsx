@@ -1,8 +1,6 @@
-'use client';
-
-import Script from 'next/script';
 import { routing } from '@/routing';
 import { ANDROID_APPLICATION_ID_BY_PATH } from '@/lib/appStructuredData';
+import { HUSH_GALLERY_ICON, WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
 
 interface SoftwareApplicationStructuredDataProps {
   locale: string;
@@ -49,8 +47,8 @@ export default function SoftwareApplicationStructuredData({
 
   const iconByPath: Record<string, string> = {
     '/zulist': '/images/zulist-icon.png',
-    '/hush-gallery': '/images/hush-gallery-icon.png',
-    '/whistle-camera': '/images/whistle-camera-icon.png',
+    '/hush-gallery': HUSH_GALLERY_ICON,
+    '/whistle-camera': WHISTLE_CAMERA_ICON,
     '/power-interval-timer': '/images/power-interval-timer-icon.png',
     '/sudoku-puzzle': '/images/sudoku-puzzle-icon.png',
     '/tempo-lab-pro': '/images/tempo-lab-pro-icon.png',
@@ -173,7 +171,7 @@ export default function SoftwareApplicationStructuredData({
   }
 
   return (
-    <Script
+    <script
       id="software-application-structured-data"
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareApplicationData) }}

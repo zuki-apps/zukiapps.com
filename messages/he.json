@@ -1353,6 +1353,179 @@
         "termsLink": "קרא את תנאי השימוש"
       }
     },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers for users and search assistants about Hush Gallery features, privacy, and troubleshooting.",
+      "viewAllSupport": "Full support page",
+      "items": [
+        {
+          "question": "What is Hush Gallery?",
+          "answer": "Hush Gallery is a private photo and video gallery for iOS and Android. Media is stored in the app's private storage (separate from your public Photos app), organized with tags, protected with optional Premium app lock (PIN/biometric), and optionally backed up to iCloud (iOS) or Google Drive (Android). Package: com.zuki.apps.hushGallery."
+        },
+        {
+          "question": "How do I import photos and videos into Hush Gallery?",
+          "answer": "Open Hush Gallery and tap the + (Add) button. Choose Import from Gallery, Take Photo, or Take Video. Select one or more items from your device library. After import you can optionally delete the originals from your public gallery. You can also share directly from WhatsApp, Messages, Photos, or other apps using Share → Hush Gallery."
+        },
+        {
+          "question": "How does Share to Hush Gallery work on iPhone?",
+          "answer": "In Photos, WhatsApp, or any app: select media → Share → Hush Gallery. The iOS Share Extension copies files to secure app storage and opens Hush Gallery. On first launch after sharing, accept the privacy notice if shown, then confirm import. You may be asked whether to delete originals from the Photos library."
+        },
+        {
+          "question": "How does Share to Hush Gallery work on Android?",
+          "answer": "Select photos or videos in any app → Share → Hush Gallery. The app receives the shared files and imports them into private storage. Grant photo access when prompted. Optional: delete originals after import via the in-app dialog or Settings → Deletion → Auto-Delete Source Files."
+        },
+        {
+          "question": "Can I delete originals from my public gallery after import?",
+          "answer": "Yes. After each import, Hush Gallery can ask: Delete original files from your photo gallery? Enable Settings → Deletion → Auto-Delete Source Files to skip the prompt. Deletion uses Photos library asset IDs on iOS when available; if identification fails, you will be asked to delete manually for safety."
+        },
+        {
+          "question": "How do tags work in Hush Gallery?",
+          "answer": "Create custom tags from the tags bar (Manage Tags). Filter the grid with All, Untagged, or any tag. In selection mode, assign tags to multiple items at once. Free users: up to 5 tags. Premium: unlimited tags. Reorder tags in edit mode."
+        },
+        {
+          "question": "What is the difference between Free and Premium?",
+          "answer": "Free: local private gallery, import/export, up to 5 tags, banner ads. Premium (one-time purchase): remove all ads, unlimited tags, App Lock (PIN/biometric/auto-lock), cloud backup, and future premium features. Watch a rewarded ad for 24 hours ad-free on the free tier."
+        },
+        {
+          "question": "How do I set up App Lock?",
+          "answer": "Premium required. Go to Settings → Security → App Lock. Set a 4- or 6-digit PIN and optionally enable Face ID / Touch ID / fingerprint. Configure auto-lock timeout (immediately, 1, 5, or 15 minutes). Verified email is required for PIN recovery."
+        },
+        {
+          "question": "I forgot my PIN. How do I recover access?",
+          "answer": "On the lock screen tap Forgot PIN. Sign in with the verified email used for recovery, or restore your PIN from an encrypted cloud backup if enabled. Clearing lock settings removes the PIN but does not delete your media."
+        },
+        {
+          "question": "How does cloud backup work?",
+          "answer": "Premium feature. Settings → Backup → Backup Now or enable Auto Backup. iOS uses iCloud; Android uses Google Drive. Restore on a new device from Settings or during onboarding. Keep the app open during backup/restore."
+        },
+        {
+          "question": "Is my media encrypted?",
+          "answer": "Media is stored in the app's private directory inaccessible to other apps. Client-side encryption for local files and cloud backup is Coming Soon in Settings. Cloud backup uploads to your own iCloud/Google account when enabled."
+        },
+        {
+          "question": "Where are my photos stored? Can other apps see them?",
+          "answer": "Imported files live in Hush Gallery's private app storage on your device—not in the public camera roll unless you export them. Other apps cannot browse the vault without your unlock PIN/biometric (Premium)."
+        },
+        {
+          "question": "How do I export photos back to my device gallery?",
+          "answer": "Open a photo/video → Export to Gallery, or select multiple items in selection mode → Export. Metadata is preserved where supported. Move to Gallery exports and optionally removes the copy from Hush Gallery."
+        },
+        {
+          "question": "How does swipe-to-delete work?",
+          "answer": "Swipe a thumbnail left to delete. A snackbar appears for 5 seconds with Undo. Confirm deletes permanently from Hush Gallery (not from the public gallery unless you imported with delete-original)."
+        },
+        {
+          "question": "What languages does Hush Gallery support?",
+          "answer": "12+ languages including English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, and Chinese. Change in Settings → Language."
+        },
+        {
+          "question": "What is the first-launch privacy notice?",
+          "answer": "On first open, Hush Gallery shows a privacy notice explaining that media stays on your device and changes can be permanent. Tap Continue after accepting, or Not now to defer (shown again next launch)."
+        },
+        {
+          "question": "How do I delete my account?",
+          "answer": "Settings → Account → Delete Account. See https://zukiapps.com/hush-gallery/delete-account for step-by-step instructions."
+        },
+        {
+          "question": "What happens if I uninstall the app?",
+          "answer": "Local private storage is removed with the app unless you exported files first. If cloud backup was enabled, reinstall, sign in, and use Restore from Backup."
+        },
+        {
+          "question": "Does Hush Gallery show ads?",
+          "answer": "Free tier shows banner ads and occasional interstitials. Premium removes all ads. Free users can watch a rewarded ad for 24 hours without ads."
+        },
+        {
+          "question": "How do I contact support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/hush-gallery/support. Privacy: https://zukiapps.com/hush-gallery/privacy. Terms: https://zukiapps.com/hush-gallery/terms."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Screenshots & Guides",
+      "subtitle": "Visual overview of Hush Gallery features and step-by-step flows.",
+      "featuresTitle": "Features",
+      "howToTitle": "How-to",
+      "items": [
+        {
+          "id": "gallery",
+          "title": "Private gallery grid",
+          "description": "Browse photos and videos in a secure grid. Filter by tags, sort by date or size, and swipe to delete with undo.",
+          "image": "/images/hush-gallery/screenshot-gallery.png",
+          "alt": "Hush Gallery main photo grid with tag filters",
+          "category": "features"
+        },
+        {
+          "id": "tags",
+          "title": "Organize with tags",
+          "description": "Create tags like Business, Personal, or Family. Filter instantly and assign tags in batch selection mode.",
+          "image": "/images/hush-gallery/screenshot-tags.png",
+          "alt": "Hush Gallery tag management and filter chips",
+          "category": "features"
+        },
+        {
+          "id": "lock",
+          "title": "App Lock (Premium)",
+          "description": "Protect your vault with PIN and Face ID / Touch ID. Auto-lock after inactivity.",
+          "image": "/images/hush-gallery/screenshot-lock.png",
+          "alt": "Hush Gallery PIN lock screen",
+          "category": "features"
+        },
+        {
+          "id": "backup",
+          "title": "Cloud backup (Premium)",
+          "description": "Backup Now, auto backup, and restore from iCloud or Google Drive.",
+          "image": "/images/hush-gallery/screenshot-backup.png",
+          "alt": "Hush Gallery backup and restore settings",
+          "category": "features"
+        },
+        {
+          "id": "settings",
+          "title": "Settings",
+          "description": "Security, backup, Premium, language, theme, and account in one place.",
+          "image": "/images/hush-gallery/screenshot-settings.png",
+          "alt": "Hush Gallery settings screen",
+          "category": "features"
+        }
+      ]
+    },
+    "manual": {
+      "title": "User Manual",
+      "subtitle": "Quick reference for common tasks.",
+      "sections": [
+        {
+          "title": "Import from gallery",
+          "steps": [
+            "Open Hush Gallery → tap + → Import from Gallery.",
+            "Select photos/videos → confirm import.",
+            "Optional: delete originals when prompted."
+          ]
+        },
+        {
+          "title": "Share from another app",
+          "steps": [
+            "Select media in Photos, WhatsApp, etc.",
+            "Tap Share → Hush Gallery.",
+            "Open Hush Gallery and complete import."
+          ]
+        },
+        {
+          "title": "Enable App Lock (Premium)",
+          "steps": [
+            "Upgrade to Premium if needed.",
+            "Settings → Security → App Lock → set PIN.",
+            "Enable biometric unlock and auto-lock timeout."
+          ]
+        },
+        {
+          "title": "Backup and restore",
+          "steps": [
+            "Settings → Backup → Backup Now (Premium).",
+            "Enable Auto Backup for scheduled sync.",
+            "On new device: Restore from Backup after sign-in."
+          ]
+        }
+      ]
+    },
     "support": {
       "title": "תמיכה ועזרה",
       "subtitle": "אנחנו כאן לעזור! מצא תשובות לשאלות נפוצות או צור איתנו קשר ישירות.",
@@ -1375,6 +1548,10 @@
           "title": "מחיקת חשבון",
           "description": "הוראות למחיקת חשבון"
         }
+      },
+      "additionalHelp": {
+        "title": "צריך עזרה נוספת?",
+        "description": "אם לא מצאת את התשובה שאתה מחפש, או אם אתה חווה בעיה טכנית, אנא אל תהסס ליצור איתנו קשר. אנחנו כאן לעזור ובדרך כלל מגיבים תוך 24-48 שעות."
       },
       "faq": {
         "title": "שאלות נפוצות",
@@ -1402,10 +1579,6 @@
           "question": "מה קורה לתמונות שלי אם אני מסיר את האפליקציה?",
           "answer": "אם תסיר את האפליקציה ללא מחיקת החשבון תחילה, הנתונים המקומיים שלך יימחקו. אם היה לך גיבוי ענן מופעל, תוכל לשחזר את הנתונים שלך על ידי התקנה מחדש של האפליקציה והתחברות עם אותו חשבון. אנו ממליצים לייצא תמונות חשובות לפני הסרה אם אין לך גיבוי ענן מופעל."
         }
-      },
-      "additionalHelp": {
-        "title": "צריך עזרה נוספת?",
-        "description": "אם לא מצאת את התשובה שאתה מחפש, או אם אתה חווה בעיה טכנית, אנא אל תהסס ליצור איתנו קשר. אנחנו כאן לעזור ובדרך כלל מגיבים תוך 24-48 שעות."
       }
     }
   },
@@ -3202,6 +3375,305 @@
       "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
     }
   },
+  "toldya": {
+    "hero": {
+      "title": "ToldYa!",
+      "subtitle": "Told you so! Prove it.",
+      "description": "ToldYa! is an invite-only social network built around predictions — follow people, vote in the Arena, build a reputation score, and celebrate when you were right.",
+      "structuredDataDescription": "ToldYa! — invite-only social network for predictions, voting, comments, and reputation. iOS and Android by Zuki Apps."
+    },
+    "back": "Back to Home",
+    "underConstruction": {
+      "badge": "Coming Soon",
+      "title": "Under Construction",
+      "message": "We're preparing the ToldYa! social network product page. Legal policies and account deletion instructions are available below."
+    },
+    "legalNav": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "deleteAccount": "Delete Account",
+      "contact": "Contact Support",
+      "childSafety": "Child Safety Standards"
+    },
+    "download": {
+      "appStoreUrl": "https://apps.apple.com/app/id6756342206",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.toldya",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) processes personal data when you use the ToldYa! mobile application and related pages at zukiapps.com/toldya (the “Service”). ToldYa! is a social network centered on user-generated predictions, voting, comments, and messaging.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller for ToldYa! is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the ToldYa! app (iOS and Android) and the legal pages we publish for the product. It does not cover third-party websites or app stores, which have their own policies."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "We collect information you provide and information generated when you use the Service:",
+        "items": [
+          "Account data: email address, username, display name, password (stored in hashed form by our authentication provider), optional profile bio and avatar image, language preference, and invitation-related metadata.",
+          "Social & content data: predictions (text, category, target dates, status), votes, likes, comments, retweets/shares, follower relationships, reputation or category scores, and direct messages you send or receive.",
+          "Media: photos or videos you attach to predictions, if you choose to upload them.",
+          "Device & usage data: device type, operating system, app version, push notification tokens (if you enable notifications), IP-derived region (where available), crash logs, and analytics events via Google Firebase Analytics and Crashlytics.",
+          "Support & safety: information you send when contacting support or reporting content or users.",
+          "Communications metadata: timestamps and delivery status for notifications and messages."
+        ]
+      },
+      "section3": {
+        "title": "3. How we use your information",
+        "content": "We use personal data to provide and secure the social network, including:",
+        "items": [
+          "Create and manage your account, invitation access, and profile",
+          "Display feeds, Arena views, voting results, comments, and notifications",
+          "Operate follower features, search, and reputation scoring",
+          "Send push or in-app notifications you have enabled",
+          "Detect abuse, enforce our Terms, and respond to reports",
+          "Maintain reliability, debug crashes, and improve the Service",
+          "Comply with law and respond to lawful requests"
+        ],
+        "content2": "We do not sell your personal information. We do not use your data for third-party advertising profiles in the current version of the app."
+      },
+      "section4": {
+        "title": "4. Legal bases (where applicable)",
+        "content": "Depending on your location, we rely on: performance of a contract (providing the Service you request); legitimate interests (security, fraud prevention, product improvement, and community safety, balanced against your rights); consent (e.g. optional notifications or permissions you grant on device); and legal obligation (records we must keep)."
+      },
+      "section5": {
+        "title": "5. How we share information",
+        "content": "Other members of the community can see your public profile (username, display name, avatar, bio, scores, and public predictions and interactions) according to product design. We do not display your email address to other users.",
+        "content2": "We use service providers that process data on our behalf, including Google Firebase (authentication, cloud database, file storage, analytics, crash reporting, and hosting as configured in our project). These providers act under contractual terms appropriate to their role. We may disclose information if required by law, to protect users and the public, or in connection with a merger or asset sale, with notice where required."
+      },
+      "section6": {
+        "title": "6. User-generated content & moderation",
+        "content": "Predictions, comments, messages, and media are user-generated. We may review, remove, or restrict content and accounts that violate our Terms or applicable law. Removed content may remain in backups for a limited period before deletion."
+      },
+      "section7": {
+        "title": "7. Retention",
+        "content": "We keep personal data while your account is active and as needed to operate the Service. After account deletion, we delete or anonymize profile and content data within a reasonable period (typically within 30 days), except where we must retain limited records for legal, security, or dispute purposes."
+      },
+      "section8": {
+        "title": "8. Account deletion",
+        "content": "You can delete your account in the app (Settings → Delete account) or by following the instructions on our Delete Account page. Deletion is permanent and removes your profile, predictions, votes, comments, and messages from the live Service, subject to backup and legal retention described above.",
+        "content2": "See: https://zukiapps.com/toldya/delete-account"
+      },
+      "section9": {
+        "title": "9. Your rights",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, restrict, or object to certain processing, and to data portability. You may withdraw consent where processing is consent-based. To exercise rights, contact us using the details below; we may need to verify your identity.",
+        "content2": "Users in the EU/EEA, UK, and Israel may also lodge a complaint with a supervisory authority. California residents may have additional rights under applicable state law; contact us to submit a request."
+      },
+      "section10": {
+        "title": "10. Security",
+        "content": "We implement technical and organizational measures appropriate to a consumer social application (access controls, encrypted transport, and provider security features). No system is completely secure; use a strong password and protect your device."
+      },
+      "section11": {
+        "title": "11. International transfers",
+        "content": "Data may be processed in countries where we or our providers operate (including the United States and regions used by Google Cloud/Firebase). Where required, we rely on appropriate safeguards such as standard contractual clauses or equivalent mechanisms."
+      },
+      "section12": {
+        "title": "12. Children",
+        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). We do not knowingly collect personal data from children. If you believe a child has provided data, contact us and we will delete it."
+      },
+      "section13": {
+        "title": "13. Changes to this Policy",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new “Last updated” date. Material changes may be notified in-app or by email where appropriate. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy or your data:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "These Terms of Use (“Terms”) govern your access to ToldYa! (“Service”, “app”), an invite-only social network operated by Zuki Apps. By creating an account or using the Service, you agree to these Terms and our Privacy Policy. If you do not agree, do not use the Service.",
+      "section1": {
+        "title": "1. Acceptance",
+        "content": "You must be legally able to enter a binding agreement in your jurisdiction. If you use the Service on behalf of an organization, you represent that you have authority to bind that organization.",
+        "content2": "We may update these Terms. We will post the updated version with a new “Last updated” date. Material changes may be communicated in-app. Continued use after changes take effect constitutes acceptance."
+      },
+      "section2": {
+        "title": "2. The Service",
+        "content": "ToldYa! is a social network where members post time-bound predictions, vote on others’ predictions, comment, follow users, send direct messages, and build reputation scores by category. The Service is for entertainment, opinion, and community discussion only.",
+        "content2": "There is no real-money wagering, betting, prizes with monetary value, or virtual currency redeemable for money. Predictions are not financial, legal, or professional advice."
+      },
+      "section3": {
+        "title": "3. Accounts & invitations",
+        "content": "Access currently requires a valid invitation code. You must provide accurate registration information and keep your credentials confidential. You are responsible for all activity under your account.",
+        "content2": "You may not share, sell, or publicly distribute invitation codes in a way that circumvents our access controls. We may refuse registration, reclaim usernames, or close accounts at our discretion."
+      },
+      "section4": {
+        "title": "4. Your responsibilities",
+        "content": "As a member of a community social network, you agree to:",
+        "items": [
+          "Treat other users with respect and comply with applicable laws",
+          "Post only content you have the right to share and that is appropriate for a general-audience social app",
+          "Use your real identity only as permitted by the product (no impersonation or deceptive profiles)",
+          "Not scrape, reverse engineer, or overload the Service without permission",
+          "Not manipulate votes, rankings, or reputation through bots, coordinated inauthentic behavior, or exploits",
+          "Report content or users you believe violate these Terms"
+        ]
+      },
+      "section5": {
+        "title": "5. Community standards — prohibited content",
+        "content": "You may not post, upload, transmit, or link to content that includes or promotes:",
+        "items": [
+          "Nudity, pornography, sexually explicit material, or solicitation of sexual services",
+          "Sexual content involving minors or any exploitation of minors (zero tolerance; we report to authorities where required)",
+          "Graphic violence, gore, or content primarily intended to shock or glorify violence",
+          "Threats, harassment, bullying, stalking, or hate speech targeting individuals or groups",
+          "Illegal activity, fraud, or instructions to cause harm",
+          "Self-harm or suicide promotion (if you are in crisis, seek local emergency or crisis services)",
+          "Spam, malware, phishing, or deceptive schemes",
+          "Personal data of others without their consent (doxxing)",
+          "Intellectual property you do not have rights to use"
+        ],
+        "content2": "We may remove content and suspend or terminate accounts without prior notice for violations."
+      },
+      "section6": {
+        "title": "6. Additional prohibited conduct",
+        "content": "You also must not:",
+        "items": [
+          "Use the Service if you are barred under applicable law",
+          "Circumvent security, invitation, or rate limits",
+          "Create multiple accounts to evade enforcement",
+          "Use automated means to access the Service except through features we expressly provide",
+          "Collect other users’ data for marketing or harassment"
+        ]
+      },
+      "section7": {
+        "title": "7. Your content & license",
+        "content": "You retain ownership of content you submit. You grant Zuki Apps a worldwide, non-exclusive, royalty-free license to host, store, reproduce, display, distribute, and adapt your content as needed to operate, promote, and improve the Service (including showing it to other users and in feeds).",
+        "content2": "You represent that your content does not violate these Terms or third-party rights. You may delete your predictions where the product allows; deletion of your account removes associated content as described in our Privacy Policy."
+      },
+      "section8": {
+        "title": "8. Moderation & enforcement",
+        "content": "We may (but are not obligated to) monitor, filter, or review content. We may remove content, limit features, suspend, or permanently terminate accounts. Enforcement decisions are at our sole discretion to protect the community and comply with law.",
+        "content2": "If you believe content or an account violates these Terms, use in-app reporting where available or contact support."
+      },
+      "section9": {
+        "title": "9. Voting & predictions disclaimer",
+        "content": "Votes and comments reflect community opinion, not facts verified by us. We do not guarantee accuracy of predictions or outcomes. You use others’ content at your own risk."
+      },
+      "section10": {
+        "title": "10. Privacy",
+        "content": "Our Privacy Policy explains how we collect and use personal data, including account deletion. It is incorporated into these Terms by reference."
+      },
+      "section11": {
+        "title": "11. Termination & account deletion",
+        "content": "You may stop using the Service at any time and delete your account in Settings or via our Delete Account page. We may suspend or terminate your access for any violation of these Terms or for risk to users or the Service.",
+        "content2": "Upon termination, licenses you granted survive only as needed for legal compliance and backup deletion cycles."
+      },
+      "section12": {
+        "title": "12. Disclaimers & limitation of liability",
+        "content": "THE SERVICE IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY LAW. WE DISCLAIM IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
+        "content2": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, ZUKI APPS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOSS OF PROFITS, DATA, OR GOODWILL, ARISING FROM YOUR USE OF THE SERVICE. OUR TOTAL LIABILITY FOR ANY CLAIM RELATING TO THE SERVICE IS LIMITED TO THE GREATER OF USD $50 OR THE AMOUNT YOU PAID US IN THE TWELVE MONTHS BEFORE THE CLAIM (TYPICALLY ZERO FOR THE FREE APP)."
+      },
+      "section13": {
+        "title": "13. Governing law",
+        "content": "These Terms are governed by the laws of the State of Israel, without regard to conflict-of-law rules, except where mandatory consumer protections in your country require otherwise. Courts in Israel shall have exclusive jurisdiction where permitted, subject to mandatory local rights."
+      },
+      "section19": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "deleteAccount": {
+      "title": "Delete your ToldYa! account",
+      "intro": "You can permanently delete your ToldYa! account and associated personal data. This action cannot be undone.",
+      "warning": {
+        "title": "Important",
+        "content": "Deleting your account removes your profile, predictions, votes, comments, direct messages, follower relationships, and reputation data from the live Service. Some information may remain in encrypted backups for a limited time before automatic deletion, or where we must retain records by law."
+      },
+      "steps": {
+        "title": "Delete in the app (recommended)",
+        "step1": "Open ToldYa! and sign in",
+        "step2": "Go to Settings (profile / gear menu)",
+        "step3": "Choose Delete account (or Account → Delete account)",
+        "step4": "Read the confirmation carefully and confirm deletion",
+        "step5": "You will be signed out and your account will be scheduled for removal"
+      },
+      "stepsEmail": {
+        "title": "Cannot access the app?",
+        "content": "Email zuki.apps.dev@gmail.com from the address linked to your account with the subject “Delete my ToldYa account”. Include your username so we can verify ownership. We may ask for additional verification before processing the request."
+      },
+      "data": {
+        "title": "Data removed",
+        "intro": "After successful deletion, we delete or anonymize, among other things:",
+        "item1": "Account credentials and profile (email, username, display name, bio, avatar)",
+        "item2": "Predictions, votes, comments, likes, and retweets",
+        "item3": "Direct messages and notification history tied to your account",
+        "item4": "Follower / following relationships and category scores",
+        "item5": "Push notification tokens for your devices"
+      },
+      "retention": {
+        "title": "Retention",
+        "content": "We aim to complete deletion from primary systems within 30 days. Limited logs or backups may persist briefly for security and disaster recovery, then expire according to our retention schedule."
+      },
+      "contact": {
+        "title": "Questions",
+        "content": "For help with deletion or privacy requests:",
+        "email": "zuki.apps.dev@gmail.com",
+        "privacyLink": "Privacy Policy",
+        "termsLink": "Terms of Use"
+      }
+    },
+    "childSafety": {
+      "title": "Child Safety Standards",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "ToldYa! is an invite-only social network operated by Zuki Apps. We maintain zero tolerance for child sexual abuse and exploitation (CSAE). This page describes our published standards, in-app reporting, moderation practices, and how to contact us regarding child safety.",
+      "section1": {
+        "title": "1. Zero tolerance",
+        "content": "We prohibit any content or conduct that sexually exploits, endangers, or otherwise harms children. Accounts involved in CSAE may be removed immediately and permanently. Where required by law, we report to regional and national authorities and cooperate with law enforcement."
+      },
+      "section2": {
+        "title": "2. Standards against CSAE",
+        "content": "The following are prohibited on ToldYa! and may result in account termination and referral to authorities:",
+        "items": [
+          "Child sexual abuse material (CSAM) in any form, including real, synthetic, or illustrated sexual content depicting minors",
+          "Sexualization of minors, grooming, or solicitation of minors",
+          "Content that facilitates exploitation or trafficking of children",
+          "Accounts that misrepresent age to contact or exploit minors",
+          "Links or instructions to obtain CSAM or to harm children"
+        ],
+        "content2": "These rules are also reflected in our Terms of Use. We use a combination of automated signals, user reports, and human review to enforce them."
+      },
+      "section3": {
+        "title": "3. Age requirement",
+        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). Registration requires an invitation code and is intended for adults and teens who meet the minimum age. We may suspend accounts we believe belong to underage users."
+      },
+      "section4": {
+        "title": "4. In-app reporting",
+        "content": "Users can report child safety concerns in the app. Reporting options are available on predictions, comments, profiles, and messages (where the product provides a report or flag control). Reports are routed to our moderation queue and prioritized when they involve potential harm to minors.",
+        "content2": "When reporting, choose the category that best describes the issue and add any helpful context. You may also block users to prevent further contact."
+      },
+      "section5": {
+        "title": "5. Moderation & response",
+        "content": "We review child-safety reports as a priority. Confirmed CSAM is removed, preserving only what is legally required for evidence or mandatory reporting. Offending accounts are banned. We may preserve logs and content hashes as needed for compliance and cooperation with authorities.",
+        "content2": "We continually improve detection, reporting flows, and reviewer guidance. No system is perfect; we rely on our community and staff to identify harm quickly."
+      },
+      "section6": {
+        "title": "6. Legal compliance & authority reporting",
+        "content": "We comply with applicable child safety laws in the regions where we operate. Where appropriate, we report apparent CSAM to relevant organizations and authorities (for example, national hotlines or cybercrime units) in accordance with legal obligations and industry practice.",
+        "content2": "We do not use CSAE content for any purpose other than removal, mandatory reporting, and lawful cooperation with investigations."
+      },
+      "section7": {
+        "title": "7. Parental & guardian contact",
+        "content": "If you are a parent, guardian, or educator and believe a minor is using ToldYa! unsafely, contact us immediately using the email below with the username and a description of your concern. We will investigate and take appropriate action."
+      },
+      "sectionContact": {
+        "title": "8. Designated child safety contact",
+        "content": "The designated point of contact for child safety, CSAM prevention practices, and compliance with Google Play child safety standards is ready to respond to inquiries from platforms, regulators, and users:",
+        "email": "liorzukman@gmail.com",
+        "content2": "For general app support (non–child-safety), you may also contact zuki.apps.dev@gmail.com. For privacy requests, see our Privacy Policy."
+      }
+    }
+  },
   "common": {
     "language": "שפה",
     "back": "חזרה",
@@ -3213,6 +3685,166 @@
     "support": "תמיכה",
     "contact": "יצירת קשר",
     "contactUs": "צור קשר",
-    "dsaCompliance": "ציות DSA"
+    "dsaCompliance": "ציות DSA",
+    "deleteAccount": "Delete Account"
+  },
+  "collagio": {
+    "hero": {
+      "title": "Collagio",
+      "subtitle": "Fast photo collages",
+      "description": "Create beautiful collages in under 30 seconds. Pick 2–10 photos, choose a layout, tweak borders and filters, then save or share. No account required.",
+      "structuredDataDescription": "Collagio — minimal photo collage maker with layouts, borders, filters, and Zuli Monsters stickers. iOS and Android by Zuki Apps."
+    },
+    "back": "Back to Home",
+    "underConstruction": {
+      "badge": "Coming Soon",
+      "title": "Under Construction",
+      "message": "We're preparing the Collagio product page. Privacy Policy and Terms of Use are available below for App Store and Google Play review."
+    },
+    "legalNav": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "contact": "Contact Support"
+    },
+    "download": {
+      "appStoreUrl": "",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.collagio",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) handles information when you use the Collagio mobile application and related pages at zukiapps.com/collagio (the “Service”). Collagio is a photo collage app that processes your images on your device. We do not require an account to use the core app.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller for Collagio is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the Collagio app (iOS and Android) and the legal pages we publish for the product. Third-party app stores have their own policies."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "Collagio is designed to minimize data collection. Depending on how you use the app, we may process:",
+        "items": [
+          "Photos and videos you select from your device to create collages — processed locally on your device and not uploaded to our servers for core editing.",
+          "Collage projects and export history stored locally on your device (for example, recent collages kept in app history).",
+          "Optional in-app purchase status (for example, Premium / remove watermark) processed by Apple App Store or Google Play billing systems.",
+          "Support communications if you email us.",
+          "Limited diagnostic data if we enable crash or analytics tools in a future update; we will update this Policy before doing so."
+        ]
+      },
+      "section3": {
+        "title": "3. How we use your information",
+        "content": "We use information to:",
+        "items": [
+          "Provide collage editing, layouts, filters, stickers, save, and share features",
+          "Remember your language preference and local settings",
+          "Process optional Premium purchases through the app stores",
+          "Respond to support requests",
+          "Improve stability and fix bugs when diagnostic tools are enabled"
+        ],
+        "content2": "We do not sell your personal information. Collagio does not include third-party advertising in version 1.0.0."
+      },
+      "section4": {
+        "title": "4. Permissions",
+        "content": "The app may request access to your photo library or camera (if you choose to capture photos) solely to let you select images for collages. You can revoke permissions in your device settings. Collagio does not access your photos when you are not using those features."
+      },
+      "section5": {
+        "title": "5. Storage and retention",
+        "content": "Collages and edits are stored on your device. You can delete individual items from history or uninstall the app to remove local data. We do not operate a cloud account for Collagio in version 1.0.0.",
+        "content2": "If you contact support, we retain correspondence as long as needed to resolve your request and for reasonable business records."
+      },
+      "section6": {
+        "title": "6. Purchases",
+        "content": "Optional Premium features (such as removing the export watermark) are sold as a one-time in-app purchase through Apple or Google. Payment and purchase history are handled by the store; we receive only what the store provides to confirm entitlement.",
+        "content2": "Product ID: collagio.remove_watermark (iOS and Android)."
+      },
+      "section7": {
+        "title": "7. Sharing with third parties",
+        "content": "We do not share your photos with third parties for marketing. When you use the system share sheet, exports go to apps you choose (Messages, WhatsApp, Files, etc.) under their policies.",
+        "content2": "We use Apple and Google only as needed for distribution, billing, and platform services."
+      },
+      "section8": {
+        "title": "8. Your rights and children",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights. We may need to verify your identity.",
+        "content2": "Collagio is not directed to children under 13 (or the minimum age in your country). We do not knowingly collect personal data from children."
+      },
+      "section9": {
+        "title": "9. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new “Last updated” date. Continued use after the effective date constitutes acceptance of the updated Policy."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "Please read these Terms of Use carefully before using Collagio. By downloading, installing, or using the app, you agree to these Terms and our Privacy Policy.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your use of Collagio — Photo Collage Maker (“Service”, “App”) operated by Zuki Apps (“we”, “us”). If you do not agree, do not use the Service.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Collagio lets you create photo collages on your device. The Service includes:",
+        "items": [
+          "Select 2–10 photos from your library",
+          "Automatic layouts and manual styling (borders, filters)",
+          "Save and share collages via the system share sheet",
+          "Optional Zuli Monsters stickers and sticker pack export",
+          "Optional one-time Premium purchase to remove the export watermark",
+          "English and Hebrew (RTL) interfaces"
+        ]
+      },
+      "section3": {
+        "title": "3. Your photos and content",
+        "content": "You retain ownership of photos and other content you import. You are responsible for having the rights to use that content in collages you create and share.",
+        "content2": "Do not use Collagio to create or distribute unlawful, infringing, harassing, or harmful content."
+      },
+      "section4": {
+        "title": "4. Intellectual property",
+        "content": "Collagio and the Zuli Monsters characters, names, sticker artwork, icons, and related assets are owned by Zuki Apps and protected by copyright and applicable trademark laws.",
+        "content2": "You may use stickers and characters only as provided through the app for personal, non-commercial messaging and collages. You may not copy, redistribute, sell, or create derivative works from these assets outside the app without written permission from Zuki Apps."
+      },
+      "section5": {
+        "title": "5. Premium and purchases",
+        "content": "Optional Premium (remove watermark) is a one-time in-app purchase billed by Apple or Google. Refunds follow the store’s policies. Features and pricing may change with notice where required.",
+        "content2": "Product ID: collagio.remove_watermark."
+      },
+      "section6": {
+        "title": "6. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Reverse engineer or attempt to extract source code except as permitted by law",
+          "Circumvent purchase or watermark mechanisms",
+          "Use the Service to violate law or third-party rights",
+          "Overload or disrupt the app or related systems"
+        ]
+      },
+      "section7": {
+        "title": "7. Disclaimers and liability",
+        "content": "The Service is provided “as is” without warranties of any kind to the extent permitted by law. Collage results depend on your photos and device; we do not guarantee uninterrupted operation.",
+        "content2": "To the maximum extent permitted by law, Zuki Apps is not liable for indirect, incidental, or consequential damages arising from your use of the Service. Some jurisdictions do not allow certain limitations; your rights may vary."
+      },
+      "section8": {
+        "title": "8. Termination",
+        "content": "You may stop using the Service at any time by uninstalling the app. We may suspend or discontinue the Service or these Terms where permitted by law."
+      },
+      "section9": {
+        "title": "9. Changes and governing law",
+        "content": "We may update these Terms. Material changes will be posted with a new “Last updated” date. Continued use constitutes acceptance.",
+        "content2": "These Terms are governed by the laws of Israel, without regard to conflict-of-law rules, except where mandatory consumer protections in your country apply."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
   }
 }

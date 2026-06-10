@@ -1,0 +1,45 @@
+---
+description: SEO, Google ranking, and answer-engine (AEO) patterns for product pages and public indexes
+globs: app/**/layout.tsx,app/**/page.tsx,public/llms.txt,public/**/faq.md,lib/siteCatalog.ts,lib/appStructuredData.ts,components/*StructuredData*
+alwaysApply: false
+---
+
+# SEO & AEO
+
+## Every published app page
+
+- `hero.structuredDataDescription` in `messages/en.json` — factual, includes Android package + iOS store ID when known
+- `layout.tsx`: title `"{hero.title} — {hero.subtitle} | Zuki Apps"`, description from structuredDataDescription
+- `buildCanonical` + `buildLanguageAlternates` on all indexable routes
+- `SoftwareApplicationStructuredData` on main product page (`lib/appStructuredData.ts` Android ID)
+- Rich pages: `FaqStructuredData` + `HowToStructuredData` (`components/FaqHowToStructuredData.tsx`)
+
+## Machine-readable discovery
+
+| File | Purpose |
+|------|---------|
+| `public/llms.txt` | Expanded per-app entry: support, faq.md, store URLs, features |
+| `public/{slug}/faq.md` | Crawler Q&A stub |
+| `app/api/site-facts/route.ts` | JSON catalog (`lib/siteCatalog.ts`) |
+| `app/sitemap.ts` | All public routes |
+
+## Rich product page sections (benchmark: hush-gallery, whistle-camera)
+
+`screenshots`, `howToUse`, `faq.items`, `manual`, `tips`, `pageNav`, `useCases` (optional), `premium` (optional)
+
+## Icons & OG
+
+- `lib/appIcons.ts` — bump `?v=` when replacing PNGs (Next image cache)
+- OG: app icon 512×512 or `opengraph-image.tsx` via `renderAppOgBanner`
+
+## Home alignment
+
+`home.{namespace}` carousel copy must match product page — stale copy hurts SEO and ad message match.
+
+## Verify before ship
+
+```bash
+npm run build
+```
+
+Spot-check: store URLs 200, package IDs match Play Console / App Store Connect.

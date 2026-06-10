@@ -23,8 +23,9 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   
   return {
-    title: 'Support - Whistle Camera | Zuki Apps',
-    description: 'Get help and support for Whistle Camera. Find answers to common questions, contact information, and helpful resources.',
+    title: 'Support & FAQ - Whistle Camera | Zuki Apps',
+    description:
+      'Whistle Camera FAQ: whistle detection, calibration, Pro, offline use, microphone privacy, storage, and troubleshooting. Contact zuki.apps.dev@gmail.com.',
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/whistle-camera/support'),
@@ -100,6 +101,22 @@ export default async function SupportPage({
         acceptedAnswer: {
           '@type': 'Answer',
           text: t('faq.q6.answer')
+        }
+      },
+      {
+        '@type': 'Question',
+        name: t('faq.q7.question'),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: t('faq.q7.answer')
+        }
+      },
+      {
+        '@type': 'Question',
+        name: t('faq.q8.question'),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: t('faq.q8.answer')
         }
       }
     ]

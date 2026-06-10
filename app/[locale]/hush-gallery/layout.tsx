@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import { HUSH_GALLERY_ICON } from '@/lib/appIcons';
+import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
 
 export async function generateMetadata({
   params
@@ -17,9 +19,9 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'hushGallery' });
   
-  const title = `${t('hero.title')} | Zuki Apps`;
-  const description = `${t('hero.description')} Download Hush Gallery - Hide Photos & Videos for iOS and Android. Secure, private photo storage with encryption and app lock.`;
-  const logoUrl = `${baseUrl}/images/hush-gallery-icon.png`;
+  const title = `${t('hero.title')} — ${t('hero.subtitle')} | Zuki Apps`;
+  const description = t('hero.structuredDataDescription');
+  const logoUrl = `${baseUrl}${HUSH_GALLERY_ICON}`;
   
   return {
     title,
@@ -47,6 +49,10 @@ export async function generateMetadata({
       'secure photo gallery',
       'private photo app',
       'photo security app',
+      'com.zuki.apps.hushGallery',
+      '6756169045',
+      'private photo vault',
+      'hide photos WhatsApp',
       'zuki',
     ],
     alternates: {
@@ -60,7 +66,7 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
-      images: [{ url: logoUrl, width: 448, height: 448, alt: 'Hush Gallery app icon' }],
+      images: [{ url: logoUrl, width: 512, height: 512, alt: 'Hush Gallery app icon' }],
     },
     twitter: {
       card: 'summary',
@@ -83,11 +89,27 @@ export async function generateMetadata({
   };
 }
 
-export default function HushGalleryLayout({
+export default async function HushGalleryLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
-  return <>{children}</>;
+  const { locale } = await params;
+
+  return (
+    <>
+      <ProductStructuredDataBlock
+        locale={locale}
+        namespace="hushGallery"
+        appPath="/hush-gallery"
+        applicationCategory="PhotoApplication"
+        faqId="hush-gallery-faq-ld"
+        howToId="hush-gallery-howto-ld"
+      />
+      {children}
+    </>
+  );
 }
 

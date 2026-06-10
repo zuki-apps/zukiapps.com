@@ -84,22 +84,22 @@ export function getCarouselFeatureCells(appId: string): CarouselFeatureCell[] | 
     case 'whistle-camera':
       return [
         {
+          Icon: Volume2,
+          labelKey: 'whistleCamera.features.handsFree',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-amber-400 mb-2',
+        },
+        {
+          Icon: Target,
+          labelKey: 'whistleCamera.features.calibration',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-amber-400 mb-2',
+        },
+        {
           Icon: Sparkles,
-          labelKey: 'whistleCamera.features.smart',
-          cellClass:
-            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300',
-          iconClassName: 'w-8 h-8 text-amber-400 mb-2',
-        },
-        {
-          Icon: Wand2,
-          labelKey: 'whistleCamera.features.editing',
-          cellClass:
-            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300',
-          iconClassName: 'w-8 h-8 text-amber-400 mb-2',
-        },
-        {
-          Icon: Palette,
-          labelKey: 'whistleCamera.features.filters',
+          labelKey: 'whistleCamera.features.widgets',
           cellClass:
             'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-500/50 transition-all duration-300',
           iconClassName: 'w-8 h-8 text-amber-400 mb-2',

@@ -4,36 +4,32 @@ Read `.cursor/context/project_context.md` for full detail.
 
 ## Site
 
-**zukiapps.com** — product landing pages, privacy/terms, SEO. Not the Flutter app code.
+**zukiapps.com** — product landing pages, privacy/terms, **SEO/AEO**. Not the Flutter/native app code.
 
-**Stack:** Next.js 14 App Router, TypeScript, Tailwind, next-intl (12 locales, en default, he/ar RTL).
+**Stack:** Next.js 14, TypeScript, Tailwind, next-intl (12 locales, en default, he/ar RTL).
 
 ## Key paths
 
 ```
 app/[locale]/           # pages per app + home
 messages/en.json        # copy source of truth
-lib/appPublishState.ts  # TOLDYA_PUBLISHED, COLLAGIO_PUBLISHED
-lib/appStructuredData.ts # Android IDs for schema.org
-components/             # LegalSections, StoreDownloadBadges, DownloadStoreFab
+lib/appIcons.ts         # icon URLs with ?v= cache bust
+lib/appPublishState.ts
+lib/appStructuredData.ts
+lib/siteCatalog.ts
+public/llms.txt
+public/{slug}/faq.md
+scripts/patch-*-content.py
 ```
 
-## App slugs (published on home)
+## Rich pages (SEO benchmark)
 
-zulist, hush-gallery, whistle-camera, power-interval-timer, sudoku-puzzle, football-trivia, fun-facts-trivia, bit-scope, track-ledger, noise-meter-shusher, paratrooper-blitz, tempo-lab-pro, dreambit-legacy
+`hush-gallery`, `whistle-camera` — screenshots, FAQ, manual, tips, how-to, JSON-LD.
 
-**Hidden until flag:** toldya, collagio
+## Agents
 
-## Patterns
+`.claude/agents/` — marketing-seo, advertising, web-developer, ux-designer, content-sync
 
-- Full page: `bit-scope/page.tsx` (FAB, badges, JSON-LD)
-- Under construction: `collagio/page.tsx` (noindex, legal nav only)
-- Legal: server component + `LegalSections` + namespace `*.privacy` / `*.terms`
+## App repos (marketing source)
 
-## UX agent
-
-`.claude/agents/senior-ux-designer.md` — twilight theme, a11y, RTL, Tailwind polish. Rule: `.cursor/rules/ux-design.mdc`.
-
-## Flutter repos
-
-App metadata lives in sibling repos (`Collagio`, `ToldYA`, `ZuList`, …): `docs/*LISTING*.md`, `AppConfig` URLs must match this site.
+`/Users/zukman/GIT/{AppName}/marketing/` — sync via `content-sync-specialist` or `marketing-enrichment` prompt.

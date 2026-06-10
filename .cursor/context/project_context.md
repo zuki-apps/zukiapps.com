@@ -85,11 +85,31 @@ public/
 - Legal pages use `LegalSections` + section keys (`section1`, …, `sectionContact`)
 - Dreambit legacy: base `dreambitLegacy.json` + optional `dreambit-legacy/{locale}.json`
 
-## SEO & metadata
+## SEO, AEO & ranking
 
-- Per-app `layout.tsx` or page `generateMetadata` with `buildCanonical`, `buildLanguageAlternates`
-- Store links: prefer `t('download.appStoreUrl')` / `googlePlayUrl`; use `withStoreUtm` in components
-- JSON-LD: `SoftwareApplicationStructuredData`, `BreadcrumbsStructuredData`
+**Cursor rule:** `.cursor/rules/seo-aeo.mdc` · **Marketing sync:** `.cursor/rules/marketing-content.mdc`
+
+### Rich product pages (benchmark)
+
+`hush-gallery`, `whistle-camera` — sections: hero + `pageNav`, features, screenshots, how-to, use cases, manual, tips, FAQ, download.
+
+| Concern | Location |
+|---------|----------|
+| Copy | `messages/en.json` → `hero.structuredDataDescription`, `faq.items`, `howToUse`, `screenshots.items` |
+| JSON-LD | `FaqStructuredData`, `HowToStructuredData`, `SoftwareApplicationStructuredData` |
+| Crawlers | `public/llms.txt`, `public/{slug}/faq.md` |
+| Icons cache-bust | `lib/appIcons.ts` (`?v=N`) + `AppIconFrame` `unoptimized` |
+| Patch scripts | `scripts/patch-hush-gallery-content.py`, `scripts/patch-whistle-camera-content.py` |
+
+### Metadata (every app)
+
+- `layout.tsx`: title, description, OG, keywords, canonical/hreflang
+- Store links: `t('download.*')` + `withStoreUtm`
+- Android ID: `lib/appStructuredData.ts`
+
+### App marketing source repos
+
+`/Users/zukman/GIT/{AppName}/marketing/` — FAQ, manuals, screenshots, `aeo/faq.json`, ad copy.
 
 ## Commands
 
@@ -117,11 +137,18 @@ Each app has its own repo under `/Users/zukman/GIT/{AppName}/` with `docs/APP_ST
 - Prefer `t('…')` over hardcoded store URLs
 - Keep rules in `.cursor/rules/` and this file in sync when architecture changes
 
-## Specialized agents
+## AI agents (`.claude/agents/` · index in `.cursor/agents/`)
 
-| Agent | Path | Use for |
-|-------|------|---------|
-| Senior UX/UI designer | `.claude/agents/senior-ux-designer.md` | Layout, twilight theme, a11y, RTL, responsive polish |
-| UX review prompt | `.claude/prompts/ux-review.md` | Structured UI critique |
+| Agent | Use for |
+|-------|---------|
+| **senior-marketing-seo** | Organic SEO, AEO, llms.txt, FAQ/schema, page enrichment |
+| **senior-advertising** | SEA/UAC/Meta/ASA message match, landing ↔ ads |
+| **senior-web-developer** | Next.js, i18n, builds, routes, structured data |
+| **senior-ux-designer** | Twilight UI, a11y, RTL, responsive polish |
+| **content-sync-specialist** | Scan app repo → update product page |
 
-Cursor rule: `.cursor/rules/ux-design.mdc` (applies to `app/`, `components/`, `globals.css`).
+**Prompts:** `.claude/prompts/` — `seo-audit.md`, `marketing-enrichment.md`, `aeo-checklist.md`, `ux-review.md`, `review.md`
+
+**Cursor rules:** `project-overview.mdc` (always), `seo-aeo.mdc`, `marketing-content.mdc`, `ux-design.mdc`, `new-app-playbook.mdc`, `nextjs-app-pages.mdc`, `i18n-messages.mdc`
+
+See **`AGENTS.md`** at repo root.

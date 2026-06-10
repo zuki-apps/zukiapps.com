@@ -13,6 +13,8 @@ export type AppIconFrameProps = {
   className?: string;
   /** When the frame sits inside a `group` (e.g. home grid link), subtle zoom on hover */
   withGroupHover?: boolean;
+  /** Full-bleed store icon (no zoom crop, transparent frame) */
+  edgeToEdge?: boolean;
 };
 
 /**
@@ -28,8 +30,12 @@ export default function AppIconFrame({
   frameClassName,
   className = '',
   withGroupHover = false,
+  edgeToEdge = false,
 }: AppIconFrameProps) {
   const hover = withGroupHover ? 'motion-safe:group-hover:scale-[1.18]' : '';
+  const imageFit = edgeToEdge
+    ? 'object-contain object-center scale-100'
+    : 'object-cover object-center scale-[1.12]';
   return (
     <div className={`relative ${boxClassName} ${frameClassName} ${className}`.trim()}>
       <Image
@@ -38,7 +44,8 @@ export default function AppIconFrame({
         fill
         sizes={sizes}
         priority={priority}
-        className={`object-cover object-center scale-[1.12] motion-safe:transition-transform motion-safe:duration-300 ${hover}`.trim()}
+        unoptimized={edgeToEdge}
+        className={`${imageFit} motion-safe:transition-transform motion-safe:duration-300 ${hover}`.trim()}
       />
     </div>
   );

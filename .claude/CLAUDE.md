@@ -1,6 +1,6 @@
 # ZukiApps-WEB — Claude Code
 
-Marketing and legal site for **Zuki Apps** (Next.js 14, next-intl, Tailwind).
+Marketing and legal site for **Zuki Apps** (Next.js 14, next-intl, Tailwind). Optimized for **Google SEO** and **answer-engine (AEO)** discovery.
 
 ## Quick reference
 
@@ -8,12 +8,23 @@ Marketing and legal site for **Zuki Apps** (Next.js 14, next-intl, Tailwind).
 |-------|----------|
 | Full context | `.cursor/context/project_context.md` |
 | Short context | `.claude/context.md` |
+| Agent roster | `AGENTS.md` |
 | Cursor rules | `.cursor/rules/*.mdc` |
-| UX/UI agent | `.claude/agents/senior-ux-designer.md` |
+| SEO/AEO rule | `.cursor/rules/seo-aeo.mdc` |
 | Publish flags | `lib/appPublishState.ts` |
 | English copy | `messages/en.json` |
-| App routes | `app/[locale]/{slug}/` |
-| Sitemap | `app/sitemap.ts` |
+| Rich page examples | `hush-gallery/`, `whistle-camera/` |
+| Machine index | `public/llms.txt`, `api/site-facts` |
+
+## Agents (`.claude/agents/`)
+
+| Agent | Role |
+|-------|------|
+| `senior-marketing-seo` | SEO, AEO, structured data, llms.txt |
+| `senior-advertising` | Paid ads ↔ landing message match |
+| `senior-web-developer` | Next.js implementation |
+| `senior-ux-designer` | UI, twilight theme, a11y |
+| `content-sync-specialist` | App repo → web page sync |
 
 ## Commands
 
@@ -28,12 +39,7 @@ npm run lint
 - Minimize diff scope; match existing app page patterns
 - Update `messages/en.json` first for new copy
 - Do not commit unless explicitly asked
-- Do not commit `.env*` or secrets
-- Store URLs: verify live package IDs; use `lib/appStructuredData.ts` + `download.*` in JSON
-- Hidden apps (ToldYa, Collagio): no home grid until `*_PUBLISHED = true`
+- Store URLs: verify live package IDs; `lib/appStructuredData.ts`
+- Hidden apps: no home grid until `*_PUBLISHED = true`
 
-## Adding an app
-
-Follow `.cursor/rules/new-app-playbook.mdc`. Pull listing copy from the Flutter repo under `/Users/zukman/GIT/`.
-
-See also **`AGENTS.md`** at repo root.
+See **`AGENTS.md`** at repo root.

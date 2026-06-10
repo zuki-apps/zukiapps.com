@@ -48,12 +48,12 @@
     },
     "whistleCamera": {
       "title": "Whistle Camera - Selfie & More",
-      "subtitle": "Smart camera app",
-      "description": "Whistle Camera is an innovative camera application that brings new features and capabilities to mobile photography. With advanced editing tools and smart filters, capture and enhance your moments like never before.",
+      "subtitle": "Whistle to snap — hands-free photos & video",
+      "description": "Just whistle and your phone takes the shot. Hands-free selfies, pet photos, and group shots — no remote, no timer sprint. iOS & Android, 40+ languages.",
       "features": {
-        "smart": "Smart Features",
-        "editing": "Advanced Editing",
-        "filters": "Creative Filters"
+        "handsFree": "Whistle to capture",
+        "calibration": "Tuned to your whistle",
+        "widgets": "Widgets & shortcuts"
       },
       "learnMore": "Learn more about Whistle Camera →",
       "back": "Back to Home",
@@ -1038,7 +1038,8 @@
       "badge": "Available Now",
       "title": "Hush Gallery - Hide Photos & Videos",
       "subtitle": "Private Photo Gallery",
-      "description": "The ultimate solution for securely hiding and protecting your photos and videos with PIN lock, biometric authentication, and optional cloud backup. Encryption coming soon."
+      "description": "Hide and protect photos and videos on your device. Share from WhatsApp or Photos into a private vault, organize with tags, lock with PIN or biometrics (Premium), and optionally back up to iCloud or Google Drive. No account required for local use.",
+      "structuredDataDescription": "Hush Gallery — private photo and video vault for iOS and Android. Hide media from WhatsApp and Photos via Share, organize with tags, PIN/biometric App Lock (Premium), optional iCloud/Google Drive backup. Package com.zuki.apps.hushGallery by Zuki Apps."
     },
     "features": {
       "title": "Key Features",
@@ -1146,8 +1147,8 @@
         },
         {
           "number": "3",
-          "title": "Auto-Hide & Encrypt",
-          "description": "Your photos are automatically hidden and encrypted"
+          "title": "Stored privately",
+          "description": "Media is copied to Hush Gallery's private vault on your device"
         },
         {
           "number": "4",
@@ -1176,11 +1177,10 @@
         "title": "Free Features",
         "items": [
           "Basic gallery functionality",
-          "Local storage",
-          "App lock (PIN)",
-          "Basic folder management",
+          "Local private storage",
+          "Import, export, and share",
           "Up to 5 tags",
-          "Banner ads"
+          "Banner ads (watch ad for 24h ad-free)"
         ]
       },
       "premium": {
@@ -1189,7 +1189,7 @@
           "Remove all ads",
           "Unlimited cloud backup",
           "Unlimited tags",
-          "Advanced security features",
+          "App Lock (PIN + biometric)",
           "All future premium features"
         ]
       },
@@ -1203,7 +1203,7 @@
       "description": "Available on App Store and Google Play",
       "version": "Version",
       "status": "Status",
-      "versionValue": "1.0.13+14",
+      "versionValue": "1.0.16+17",
       "statusValue": "Available on App Store & Google Play"
     },
     "download": {
@@ -1348,6 +1348,317 @@
         "termsLink": "Read the terms of service"
       }
     },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers about privacy, import, Share extension, tags, App Lock, backup, Premium, and troubleshooting. Full list also on Support.",
+      "viewAllSupport": "View all FAQ on Support",
+      "items": [
+        {
+          "question": "What is Hush Gallery?",
+          "answer": "Hush Gallery is a private photo and video gallery for iOS and Android. Media is stored in the app's private storage (separate from your public Photos app), organized with tags, protected with optional Premium app lock (PIN/biometric), and optionally backed up to iCloud (iOS) or Google Drive (Android). Package: com.zuki.apps.hushGallery."
+        },
+        {
+          "question": "How do I import photos and videos into Hush Gallery?",
+          "answer": "Open Hush Gallery and tap the + (Add) button. Choose Import from Gallery, Take Photo, or Take Video. Select one or more items from your device library. After import you can optionally delete the originals from your public gallery. You can also share directly from WhatsApp, Messages, Photos, or other apps using Share → Hush Gallery."
+        },
+        {
+          "question": "How does Share to Hush Gallery work on iPhone?",
+          "answer": "In Photos, WhatsApp, or any app: select media → Share → Hush Gallery. The iOS Share Extension copies files to secure app storage and opens Hush Gallery. On first launch after sharing, accept the privacy notice if shown, then confirm import. You may be asked whether to delete originals from the Photos library."
+        },
+        {
+          "question": "How does Share to Hush Gallery work on Android?",
+          "answer": "Select photos or videos in any app → Share → Hush Gallery. The app receives the shared files and imports them into private storage. Grant photo access when prompted. Optional: delete originals after import via the in-app dialog or Settings → Deletion → Auto-Delete Source Files."
+        },
+        {
+          "question": "Can I delete originals from my public gallery after import?",
+          "answer": "Yes. After each import, Hush Gallery can ask: Delete original files from your photo gallery? Enable Settings → Deletion → Auto-Delete Source Files to skip the prompt. Deletion uses Photos library asset IDs on iOS when available; if identification fails, you will be asked to delete manually for safety."
+        },
+        {
+          "question": "How do tags work in Hush Gallery?",
+          "answer": "Create custom tags from the tags bar (Manage Tags). Filter the grid with All, Untagged, or any tag. In selection mode, assign tags to multiple items at once. Free users: up to 5 tags. Premium: unlimited tags. Reorder tags in edit mode."
+        },
+        {
+          "question": "What is the difference between Free and Premium?",
+          "answer": "Free: local private gallery, import/export, up to 5 tags, banner ads. Premium (one-time purchase): remove all ads, unlimited tags, App Lock (PIN/biometric/auto-lock), cloud backup, and future premium features. Watch a rewarded ad for 24 hours ad-free on the free tier."
+        },
+        {
+          "question": "How do I set up App Lock?",
+          "answer": "Premium required. Go to Settings → Security → App Lock. Set a 4- or 6-digit PIN and optionally enable Face ID / Touch ID / fingerprint. Configure auto-lock timeout (immediately, 1, 5, or 15 minutes). Verified email is required for PIN recovery."
+        },
+        {
+          "question": "I forgot my PIN. How do I recover access?",
+          "answer": "On the lock screen tap Forgot PIN. Sign in with the verified email used for recovery, or restore your PIN from an encrypted cloud backup if enabled. Clearing lock settings removes the PIN but does not delete your media."
+        },
+        {
+          "question": "How does cloud backup work?",
+          "answer": "Premium feature. Settings → Backup → Backup Now or enable Auto Backup. iOS uses iCloud; Android uses Google Drive. Restore on a new device from Settings or during onboarding. Keep the app open during backup/restore."
+        },
+        {
+          "question": "Is my media encrypted?",
+          "answer": "Media is stored in the app's private directory inaccessible to other apps. Client-side encryption for local files and cloud backup is Coming Soon in Settings. Cloud backup uploads to your own iCloud/Google account when enabled."
+        },
+        {
+          "question": "Where are my photos stored? Can other apps see them?",
+          "answer": "Imported files live in Hush Gallery's private app storage on your device—not in the public camera roll unless you export them. Other apps cannot browse the vault without your unlock PIN/biometric (Premium)."
+        },
+        {
+          "question": "How do I export photos back to my device gallery?",
+          "answer": "Open a photo/video → Export to Gallery, or select multiple items in selection mode → Export. Metadata is preserved where supported. Move to Gallery exports and optionally removes the copy from Hush Gallery."
+        },
+        {
+          "question": "How does swipe-to-delete work?",
+          "answer": "Swipe a thumbnail left to delete. A snackbar appears for 5 seconds with Undo. Confirm deletes permanently from Hush Gallery (not from the public gallery unless you imported with delete-original)."
+        },
+        {
+          "question": "What languages does Hush Gallery support?",
+          "answer": "12+ languages including English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, and Chinese. Change in Settings → Language."
+        },
+        {
+          "question": "What is the first-launch privacy notice?",
+          "answer": "On first open, Hush Gallery shows a privacy notice explaining that media stays on your device and changes can be permanent. Tap Continue after accepting, or Not now to defer (shown again next launch)."
+        },
+        {
+          "question": "How do I delete my account?",
+          "answer": "Settings → Account → Delete Account. See https://zukiapps.com/hush-gallery/delete-account for step-by-step instructions."
+        },
+        {
+          "question": "What happens if I uninstall the app?",
+          "answer": "Local private storage is removed with the app unless you exported files first. If cloud backup was enabled, reinstall, sign in, and use Restore from Backup."
+        },
+        {
+          "question": "Does Hush Gallery show ads?",
+          "answer": "Free tier shows banner ads and occasional interstitials. Premium removes all ads. Free users can watch a rewarded ad for 24 hours without ads."
+        },
+        {
+          "question": "How do I contact support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/hush-gallery/support. Privacy: https://zukiapps.com/hush-gallery/privacy. Terms: https://zukiapps.com/hush-gallery/terms."
+        },
+        {
+          "question": "Does Zuki Apps have access to my photos?",
+          "answer": "No. Hush Gallery stores media locally on your device in private app storage. We do not upload or access your files unless you explicitly enable cloud backup to your own iCloud or Google Drive account."
+        },
+        {
+          "question": "Can I use Hush Gallery without signing in?",
+          "answer": "Yes. The gallery, import, tags, and export work offline without an account. Sign-in is only needed for cloud backup and PIN restore via backup."
+        },
+        {
+          "question": "What are All and Untagged filters?",
+          "answer": "All shows every item in your vault. Untagged shows only items with no custom tags assigned. Custom tag chips filter to one label at a time."
+        },
+        {
+          "question": "How do I sort the gallery?",
+          "answer": "Tap the sort icon (⇅) in the gallery app bar. Choose date, file size, import date, name, or media type (photos vs videos first)."
+        },
+        {
+          "question": "Does import remove photos from my camera roll?",
+          "answer": "By default, import copies files into Hush Gallery; originals stay in Photos unless you choose delete-original when offered or remove them yourself."
+        },
+        {
+          "question": "Is cloud backup required?",
+          "answer": "No. Backup is optional. Your vault works entirely on-device without backup or an account."
+        },
+        {
+          "question": "What is included in a backup?",
+          "answer": "Backup includes media files and metadata such as tags. Platform behavior depends on iCloud (iOS) or Google Drive (Android) and your signed-in account."
+        },
+        {
+          "question": "How do I restore a Premium purchase?",
+          "answer": "Open Premium → Restore purchases. Use the same Apple ID or Google Play account used for the original purchase."
+        },
+        {
+          "question": "Why does the app ask for my PIN when I return?",
+          "answer": "App Lock re-locks when you background the app or after your chosen auto-lock timeout. This prevents unauthorized access to your vault."
+        },
+        {
+          "question": "Thumbnails look empty or broken — what should I do?",
+          "answer": "Force-quit and reopen Hush Gallery. If files were moved outside the app, metadata may be stale — re-import the media if needed."
+        },
+        {
+          "question": "Backup failed — how do I fix it?",
+          "answer": "Check Wi‑Fi or cellular data, confirm you are signed in, verify cloud storage space, and ensure Premium/backup eligibility for your account."
+        },
+        {
+          "question": "Share Extension import did not show up",
+          "answer": "Open Hush Gallery manually; pending share imports run on launch. Retry sharing from Photos if the share sheet reported an error."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Screenshots & Guides",
+      "subtitle": "Real app screens from Hush Gallery — gallery, tags, security, backup, and onboarding.",
+      "featuresTitle": "App screens",
+      "howToTitle": "How to hide photos",
+      "onboardingTitle": "First launch tour",
+      "onboardingSubtitle": "Privacy, tags, and optional cloud backup explained before you import.",
+      "items": [
+        {
+          "id": "gallery",
+          "title": "Private gallery grid",
+          "description": "Browse photos and videos in a secure grid. Filter by All, Untagged, or custom tags. Swipe to delete with undo.",
+          "image": "/images/hush-gallery/screenshot-gallery.png",
+          "alt": "Hush Gallery main photo grid with thumbnails",
+          "category": "features"
+        },
+        {
+          "id": "sort",
+          "title": "Sort your library",
+          "description": "Tap the sort icon to order by date, size, import date, name, or media type.",
+          "image": "/images/hush-gallery/screenshot-sort.png",
+          "alt": "Hush Gallery sort menu with date and size options",
+          "category": "features"
+        },
+        {
+          "id": "tags",
+          "title": "Filter by tags",
+          "description": "Create tags like Vacation or Family. Tap a chip to filter; long-press to rename or reorder.",
+          "image": "/images/hush-gallery/screenshot-tags.png",
+          "alt": "Hush Gallery tag filter bar",
+          "category": "features"
+        },
+        {
+          "id": "lock",
+          "title": "App Lock",
+          "description": "PIN (4 or 6 digits) plus Face ID or Touch ID. Auto-lock after inactivity (Premium).",
+          "image": "/images/hush-gallery/screenshot-lock.png",
+          "alt": "Hush Gallery PIN lock screen",
+          "category": "features"
+        },
+        {
+          "id": "backup",
+          "title": "Cloud backup",
+          "description": "Optional backup to iCloud (iOS) or Google Drive (Android). Manual backup, restore, and reminders (Premium).",
+          "image": "/images/hush-gallery/screenshot-backup.png",
+          "alt": "Hush Gallery onboarding cloud backup screen",
+          "category": "features"
+        },
+        {
+          "id": "premium",
+          "title": "Premium",
+          "description": "One-time purchase: remove ads, unlimited tags, App Lock, and cloud backup access.",
+          "image": "/images/hush-gallery/screenshot-premium.png",
+          "alt": "Hush Gallery Premium upgrade screen",
+          "category": "features"
+        },
+        {
+          "id": "settings",
+          "title": "Settings",
+          "description": "Security, encryption, backup, Premium, language, theme, account, and About in one hub.",
+          "image": "/images/hush-gallery/screenshot-settings.png",
+          "alt": "Hush Gallery settings screen",
+          "category": "features"
+        },
+        {
+          "id": "onboarding-private",
+          "title": "Private & secure",
+          "description": "First-launch onboarding: your media stays on your device unless you enable backup.",
+          "image": "/images/hush-gallery/onboarding-private.png",
+          "alt": "Hush Gallery onboarding private storage",
+          "category": "onboarding"
+        },
+        {
+          "id": "onboarding-tags",
+          "title": "Organize with tags",
+          "description": "Onboarding explains custom tags to filter and group photos and videos.",
+          "image": "/images/hush-gallery/onboarding-tags.png",
+          "alt": "Hush Gallery onboarding tags",
+          "category": "onboarding"
+        }
+      ]
+    },
+    "manual": {
+      "title": "User manual",
+      "subtitle": "Step-by-step guide for import, tags, security, backup, and sharing.",
+      "sections": [
+        {
+          "title": "1. Getting started",
+          "steps": [
+            "Install Hush Gallery from the App Store or Google Play.",
+            "Accept the first-launch privacy notice — media stays on your device by default.",
+            "Complete or skip the onboarding tour (private storage, tags, optional backup).",
+            "Tap + in the gallery to import your first photos or videos."
+          ]
+        },
+        {
+          "title": "2. Gallery & filters",
+          "steps": [
+            "Open the gallery grid to browse thumbnails.",
+            "Use All, Untagged, or custom tag chips to filter.",
+            "Tap ⇅ (sort) for date, size, import date, name, or type.",
+            "Swipe a row left to delete; undo appears before permanent removal."
+          ]
+        },
+        {
+          "title": "3. Import media",
+          "steps": [
+            "Tap + → choose Photo library or Camera.",
+            "Files are copied into Hush Gallery private storage.",
+            "Optionally delete originals when the import flow offers it.",
+            "From other apps: Share → Hush Gallery, then open Hush Gallery to complete."
+          ]
+        },
+        {
+          "title": "4. Viewer & selection",
+          "steps": [
+            "Tap a thumbnail for full-screen view; pinch to zoom.",
+            "Long-press a thumbnail for selection mode.",
+            "Select multiple items to export, share, tag, or delete.",
+            "Export to Gallery copies items back to the system Photos app."
+          ]
+        },
+        {
+          "title": "5. Tags",
+          "steps": [
+            "Create tags from the tag bar menu or during import.",
+            "Assign multiple tags per item.",
+            "Long-press a tag chip to rename, reorder, or delete.",
+            "Free tier: up to 5 tags; Premium: unlimited."
+          ]
+        },
+        {
+          "title": "6. App Lock (Premium)",
+          "steps": [
+            "Settings → Security → App Lock.",
+            "Set a 4- or 6-digit PIN; enable Face ID / Touch ID if available.",
+            "Choose auto-lock: Immediately, 1, 5, or 15 minutes.",
+            "Forgot PIN? Use Restore PIN if you backed up PIN while signed in."
+          ]
+        },
+        {
+          "title": "7. Encryption",
+          "steps": [
+            "Settings → Encryption to enable optional on-disk encryption.",
+            "Encryption key is stored in the device secure enclave / keystore.",
+            "When enabled, media files are encrypted before being written locally."
+          ]
+        },
+        {
+          "title": "8. Cloud backup (Premium)",
+          "steps": [
+            "Sign in under Settings → Account when prompted.",
+            "Settings → Backup → Backup Now for manual sync.",
+            "Enable Auto Backup and reminder frequency if offered.",
+            "New device: sign in and tap Restore from Settings or the first-run prompt."
+          ]
+        },
+        {
+          "title": "9. Premium & ads",
+          "steps": [
+            "Open Premium from Settings or the gallery banner.",
+            "One-time purchase removes ads and unlocks Premium features.",
+            "Restore purchases with the same Apple ID or Google account.",
+            "Free tier: watch a rewarded ad for temporary ad-free time (when offered)."
+          ]
+        },
+        {
+          "title": "10. Share Extension (iOS)",
+          "steps": [
+            "In Photos, select items → Share → Hush Gallery.",
+            "The extension stages files; open Hush Gallery to import.",
+            "If import does not appear, open the app manually — import runs on launch."
+          ]
+        }
+      ]
+    },
     "support": {
       "title": "Support & Help",
       "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
@@ -1371,115 +1682,138 @@
           "description": "Instructions for account deletion"
         }
       },
-      "faq": {
-        "title": "Frequently Asked Questions",
-        "q1": {
-          "question": "How do I import photos and videos into Hush Gallery?",
-          "answer": "To import media, open the app and tap the '+' or 'Import' button. You can select photos and videos from your device's gallery. The imported media will be stored securely in the app's private directory and will not be accessible by other apps."
-        },
-        "q2": {
-          "question": "How does cloud backup work?",
-          "answer": "Cloud backup is an optional Premium feature. When enabled, your photos and videos are uploaded to iCloud (iOS) or Google Drive (Android). Encryption feature is coming soon. You can enable or disable cloud backup at any time in Settings."
-        },
-        "q3": {
-          "question": "How do I set up app lock?",
-          "answer": "Go to Settings → Security → App Lock. You can set up a PIN, password, or enable biometric authentication (Face ID/Touch ID). The app will lock automatically after a period of inactivity, which you can configure in the settings."
-        },
-        "q4": {
-          "question": "How do I delete my account?",
-          "answer": "To delete your account, go to Settings → Account → Delete Account. Please note that account deletion is permanent and cannot be undone. All your data, including photos, videos, folders, and settings, will be permanently deleted. For detailed instructions, visit our Delete Account page."
-        },
-        "q5": {
-          "question": "Can I use Hush Gallery without cloud backup?",
-          "answer": "Yes! Hush Gallery works completely offline. All your photos and videos are stored locally on your device by default. Cloud backup is optional and only enabled if you choose to use it. Your media remains private and secure even without cloud backup."
-        },
-        "q6": {
-          "question": "What happens to my photos if I uninstall the app?",
-          "answer": "If you uninstall the app without deleting your account first, your local data will be deleted. If you had cloud backup enabled, you can restore your data by reinstalling the app and signing in with the same account. We recommend exporting important photos before uninstalling if you don't have cloud backup enabled."
-        }
-      },
       "additionalHelp": {
         "title": "Need More Help?",
         "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
       }
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get the most from your private gallery.",
+      "items": [
+        {
+          "title": "Hide from WhatsApp fast",
+          "description": "Long-press a photo in WhatsApp → Share → Hush Gallery. Faster than saving to Camera Roll first."
+        },
+        {
+          "title": "Use tags early",
+          "description": "Create tags when you import so filtering stays easy as your vault grows."
+        },
+        {
+          "title": "Short auto-lock",
+          "description": "Set App Lock to Immediately or 1 minute if you hand your phone to others often."
+        },
+        {
+          "title": "Backup before a new phone",
+          "description": "Run Backup Now before replacing your device; restore after signing in on the new install."
+        },
+        {
+          "title": "Export without losing vault copy",
+          "description": "Export to Gallery copies files out; originals remain in Hush Gallery until you delete them."
+        },
+        {
+          "title": "Restore purchases",
+          "description": "Reinstalled? Premium → Restore purchases with the same store account."
+        },
+        {
+          "title": "12 languages + RTL",
+          "description": "Settings → Language includes Hebrew and Arabic with full RTL layout support."
+        },
+        {
+          "title": "Send feedback in-app",
+          "description": "Settings → About → Send feedback, or email zuki.apps.dev@gmail.com before leaving a store review."
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to",
+      "manual": "Manual",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
     }
   },
   "whistleCamera": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Available Now",
-      "title": "Whistle Camera - Selfie & More",
-      "subtitle": "Smart Camera App",
-      "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before."
+      "badge": "Free on iOS & Android",
+      "title": "Whistle Camera",
+      "subtitle": "Just whistle — your phone takes the photo.",
+      "description": "Hands-free capture for selfies, pets, and moments when your hands are full. Real-time whistle detection, Practice mode calibration, in-app gallery, countdown timer, and Pro video start/stop.",
+      "structuredDataDescription": "Whistle Camera — hands-free photo and video app for iOS and Android. Whistle to snap selfies, pet shots, and group photos. Practice whistle calibration, widgets, Siri shortcuts. Android com.zuki.apps.whistlecamera; iOS App Store id1037716421 by Zuki Apps.",
+      "socialProof": "Free download · 40+ languages · iOS & Android"
     },
     "features": {
-      "title": "Key Features",
+      "title": "Why Whistle Camera?",
       "whistle": {
-        "title": "Whistle Detection",
-        "description": "Automatically capture photos or start/stop video when a whistle is detected",
+        "title": "Whistle to capture",
+        "description": "The app listens in real time. When it hears your whistle in the band you set, it fires the shutter — no tapping, no remote.",
         "items": [
-          "Real-time whistle detection",
-          "Automatic photo capture",
-          "Automatic video start/stop",
-          "Customizable sensitivity"
+          "Real-time on-device detection",
+          "Photo capture on whistle",
+          "Video start/stop on whistle (Pro)",
+          "Green ring when your whistle is heard"
         ]
       },
-      "incognito": {
-        "title": "Incognito Mode",
-        "description": "Record or capture photos with a black screen overlay for privacy",
+      "calibration": {
+        "title": "Tuned to your whistle",
+        "description": "Practice mode teaches the app your exact whistle. Adjust sensitivity (1–5) and the 0–100 frequency band for quiet rooms or noisy parks.",
         "items": [
-          "Black screen overlay",
-          "Privacy protection",
-          "Silent operation",
-          "Discreet capture"
+          "Practice whistle in Settings",
+          "Sensitivity presets (Quiet → Loud)",
+          "Live debug overlay",
+          "≈750–3000 Hz detection band"
         ]
       },
-      "locked": {
-        "title": "Locked Camera Capture",
-        "description": "Launch camera from Lock Screen, Control Center, and Action Button",
+      "photoVideo": {
+        "title": "Photo & video",
+        "description": "Whistle for a still, or switch to video and whistle-start / whistle-stop recording. Countdown 0, 3, 5, or 10 seconds works with both.",
         "items": [
-          "Lock Screen access",
-          "Control Center widget",
-          "Action Button support (iOS 18+)",
-          "Quick capture"
+          "Front and rear camera",
+          "Flash / torch",
+          "Pinch or slider zoom",
+          "Incognito mode for discreet capture"
         ]
       },
-      "modern": {
-        "title": "Modern Architecture",
-        "description": "Built with SwiftUI and Swift concurrency",
+      "gallery": {
+        "title": "Gallery & sharing",
+        "description": "Browse captures in the built-in gallery. Full-screen preview, multi-select share or delete, optional save to a Photos album.",
         "items": [
-          "SwiftUI interface",
-          "Modern Swift concurrency",
-          "Smooth performance",
-          "iOS 17+ support"
+          "In-app media grid",
+          "Pinch-zoom preview",
+          "Bulk share and delete",
+          "Optional “Whistle Camera” album"
         ]
       },
-      "controls": {
-        "title": "Advanced Controls",
-        "description": "Full control over your camera experience",
+      "shortcuts": {
+        "title": "Widgets & Siri",
+        "description": "Launch photo or video capture from Home Screen widgets. Siri shortcuts and Apple Watch remote shutter when the companion is installed.",
         "items": [
-          "Photo and video modes",
-          "Custom settings",
-          "Media gallery",
-          "Share functionality"
+          "Home Screen widgets (iOS)",
+          "Siri / Shortcuts intents",
+          "Apple Watch shutter",
+          "Lock Screen & Control Center (iOS)"
         ]
       }
     },
     "status": {
-      "title": "✅ Available Now",
-      "description": "Whistle Camera is available for download",
-      "version": "Version",
-      "status": "Status",
-      "versionValue": "1.3.4+10",
-      "statusValue": "Available"
+      "title": "Available now",
+      "description": "Whistle Camera is on the App Store and Google Play.",
+      "version": "Latest release",
+      "status": "Platforms",
+      "versionValue": "1.3.8",
+      "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download Now",
-      "description": "Available on the App Store",
-      "soon": "Available now",
-      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
-      "appStoreAlt": "Download from App Store",
+      "title": "Download Whistle Camera",
+      "description": "Free download with optional Pro upgrade. Whistle. Snap. Done.",
+      "soon": "Coming soon",
+      "appStoreUrl": "https://apps.apple.com/app/id1037716421",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera",
+      "appIconAlt": "Whistle Camera app icon",
+      "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play"
     },
     "links": {
@@ -1511,28 +1845,36 @@
       "faq": {
         "title": "Frequently Asked Questions",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "What is Whistle Camera?",
+          "answer": "Whistle Camera is a hands-free camera app for iOS and Android. Whistle to take a photo or (with Pro) start and stop video. Package on Android: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "It doesn’t detect my whistle well. What can I do?",
+          "answer": "Lower sensitivity (try level 1), widen the frequency range in Settings, enable the live debug overlay, and use Practice whistle to calibrate from your session peaks."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "Do I need internet?",
+          "answer": "Core whistle capture works offline. Ads, analytics, and purchase checks may need a network connection."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "Why does the app need the microphone?",
+          "answer": "The app listens for your whistle to trigger the camera. Audio is processed on-device for detection — it is not stored as recordings."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "Where are photos stored?",
+          "answer": "In the in-app gallery by default. You can optionally copy captures to a Photos album named Whistle Camera in Settings."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "What is Pro?",
+          "answer": "Pro unlocks whistle start/stop video, extra premium modes, and removes ads. One-time purchase; restore from Settings after reinstall."
+        },
+        "q7": {
+          "question": "Can I use a timer instead of whistling?",
+          "answer": "Yes — countdown timer (3, 5, or 10 seconds) works with or without whistle detection enabled."
+        },
+        "q8": {
+          "question": "Is Whistle Camera on Android?",
+          "answer": "Yes — https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera"
         }
       },
       "additionalHelp": {
@@ -1604,6 +1946,249 @@
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
+    },
+    "useCases": {
+      "title": "Perfect for",
+      "subtitle": "Real scenarios where your hands are busy or the phone is out of reach.",
+      "items": [
+        {
+          "title": "Pet owners",
+          "description": "Whistle for eye contact — the app captures in the same moment. Sharp front-facing pet shots without a helper."
+        },
+        {
+          "title": "Selfies & groups",
+          "description": "Prop the phone, whistle from where you stand. No running to a 10-second timer."
+        },
+        {
+          "title": "Hands-busy moments",
+          "description": "Cooking, crafts, biking — whistle when the shot is ready. No accessory remote."
+        },
+        {
+          "title": "Outdoor & sports",
+          "description": "Tripod or ledge setup. Walk to your subject, whistle, capture — great for landscapes and action."
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How it works",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Set up",
+          "description": "Point the camera. Enable whistle detection. Calibrate in Settings if needed."
+        },
+        {
+          "number": "2",
+          "title": "Whistle",
+          "description": "One short, clear whistle. The ring turns green when detected."
+        },
+        {
+          "number": "3",
+          "title": "Captured",
+          "description": "Photo or video is taken — your hands never touched the phone."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens — whistle detection, capture, calibration, gallery, video, and timer.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "whistle",
+          "title": "Hands-free whistle",
+          "description": "Detection ring shows when your whistle is heard — then the shutter fires.",
+          "image": "/images/whistle-camera/screenshot-whistle.png",
+          "alt": "Whistle Camera hands-free whistle detection screen",
+          "category": "features"
+        },
+        {
+          "id": "capture",
+          "title": "Photo capture",
+          "description": "Front or rear camera with flash, zoom, and manual shutter when you want both options.",
+          "image": "/images/whistle-camera/screenshot-capture.png",
+          "alt": "Whistle Camera photo capture screen",
+          "category": "features"
+        },
+        {
+          "id": "settings",
+          "title": "Calibrate your whistle",
+          "description": "Practice mode, sensitivity, and frequency band — tuned to you, not a generic preset.",
+          "image": "/images/whistle-camera/screenshot-settings.png",
+          "alt": "Whistle Camera whistle calibration settings",
+          "category": "features"
+        },
+        {
+          "id": "gallery",
+          "title": "In-app gallery",
+          "description": "Browse, preview, share, and delete without leaving the app.",
+          "image": "/images/whistle-camera/screenshot-gallery.png",
+          "alt": "Whistle Camera in-app photo gallery",
+          "category": "features"
+        },
+        {
+          "id": "video",
+          "title": "Video mode (Pro)",
+          "description": "Whistle to start and stop recording — hands-free video workflow.",
+          "image": "/images/whistle-camera/screenshot-video.png",
+          "alt": "Whistle Camera video mode",
+          "category": "features"
+        },
+        {
+          "id": "timer",
+          "title": "Timer controls",
+          "description": "3, 5, or 10 second countdown — works with whistle or manual capture.",
+          "image": "/images/whistle-camera/screenshot-timer.png",
+          "alt": "Whistle Camera countdown timer",
+          "category": "features"
+        }
+      ]
+    },
+    "manual": {
+      "title": "User manual",
+      "subtitle": "Camera controls, settings, gallery, and extensions.",
+      "sections": [
+        {
+          "title": "1. Camera screen",
+          "steps": [
+            "Shutter / record — manual capture anytime.",
+            "Whistle detector — enable hands-free trigger.",
+            "Timer — delay after trigger (0/3/5/10 s).",
+            "Flash, flip camera, zoom slider, gallery, settings."
+          ]
+        },
+        {
+          "title": "2. Whistle settings",
+          "steps": [
+            "Sensitivity 1 (easiest) to 5 (strictest).",
+            "Frequency band 0–100 in UI (~750–3000 Hz).",
+            "Practice whistle — listen, whistle, tap Set to calibrate.",
+            "Presets: Quiet, Default, Outside, Loud."
+          ]
+        },
+        {
+          "title": "3. Gallery",
+          "steps": [
+            "Tap a thumbnail for full-screen preview.",
+            "Select mode for bulk share or delete.",
+            "Optional save to Photos album “Whistle Camera”."
+          ]
+        },
+        {
+          "title": "4. Pro & extensions",
+          "steps": [
+            "Pro: whistle video start/stop, premium modes, no ads.",
+            "Widgets — quick launch photo or video.",
+            "Siri / Shortcuts and Apple Watch remote shutter.",
+            "Restore purchases from Settings after reinstall."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get reliable detection and better shots.",
+      "items": [
+        {
+          "title": "Selfies without shake",
+          "description": "Front camera + whistle — no jostling the phone tapping the shutter."
+        },
+        {
+          "title": "Pet photos",
+          "description": "Calibrate in Settings first, then whistle for eye contact and capture in one motion."
+        },
+        {
+          "title": "Group shots",
+          "description": "Set a 3 s timer, whistle — everyone settles before the shot fires."
+        },
+        {
+          "title": "Noisy environments",
+          "description": "Lower sensitivity to level 1 and widen the band; enable the debug overlay to see peaks."
+        },
+        {
+          "title": "Tripod distance",
+          "description": "Place the phone, walk into frame, whistle — great for landscapes and sports."
+        },
+        {
+          "title": "Widgets",
+          "description": "Add photo/video widgets for one-tap launch from the Home Screen."
+        },
+        {
+          "title": "Timer fallback",
+          "description": "Countdown works with or without whistle — use either trigger."
+        },
+        {
+          "title": "Restore Pro",
+          "description": "Reinstalled? Settings → restore purchases with the same store account."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Detection, privacy, storage, Pro, and troubleshooting.",
+      "viewAllSupport": "Full FAQ on Support",
+      "items": [
+        {
+          "question": "What is Whistle Camera?",
+          "answer": "Whistle Camera is a hands-free camera app for iOS and Android. Whistle to take a photo or (with Pro) start and stop video. Package on Android: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
+        },
+        {
+          "question": "It doesn’t detect my whistle well. What can I do?",
+          "answer": "Lower sensitivity (try level 1), widen the frequency range in Settings, enable the live debug overlay, and use Practice whistle to calibrate from your session peaks."
+        },
+        {
+          "question": "Do I need internet?",
+          "answer": "Core whistle capture works offline. Ads, analytics, and purchase checks may need a network connection."
+        },
+        {
+          "question": "Why does the app need the microphone?",
+          "answer": "The app listens for your whistle to trigger the camera. Audio is processed on-device for detection — it is not stored as recordings."
+        },
+        {
+          "question": "Where are photos stored?",
+          "answer": "In the in-app gallery by default. You can optionally copy captures to a Photos album named Whistle Camera in Settings."
+        },
+        {
+          "question": "What is Pro?",
+          "answer": "Pro unlocks whistle start/stop video, extra premium modes, and removes ads. One-time purchase; restore from Settings after reinstall."
+        },
+        {
+          "question": "Can I use a timer instead of whistling?",
+          "answer": "Yes — countdown timer (3, 5, or 10 seconds) works with or without whistle detection enabled."
+        },
+        {
+          "question": "Is Whistle Camera on Android?",
+          "answer": "Yes — https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera"
+        },
+        {
+          "question": "How do I get support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/whistle-camera/support. Privacy: https://zukiapps.com/whistle-camera/privacy"
+        }
+      ]
+    },
+    "premium": {
+      "title": "Whistle Camera Pro",
+      "description": "One-time upgrade: whistle video start/stop, premium capture modes, ad-free gallery experience.",
+      "items": [
+        "Whistle to start and stop video recording",
+        "Premium capture modes",
+        "No ads in gallery",
+        "Restore purchases anytime in Settings"
+      ]
+    },
+    "languages": {
+      "title": "40+ languages",
+      "description": "In-app language picker including English, Hebrew (RTL), Arabic (RTL), and 37+ more locales."
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How it works",
+      "useCases": "Use cases",
+      "manual": "Manual",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
     }
   },
   "sudokuPuzzle": {

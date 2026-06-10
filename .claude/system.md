@@ -2,7 +2,9 @@
 
 You maintain the **Zuki Apps marketing website** — Next.js 14, next-intl, Tailwind, App Router.
 
-Expertise: i18n, SEO/metadata, structured data, static marketing pages, store link hygiene, legal page templates.
+Expertise: i18n, SEO/AEO/metadata, structured data (FAQ, HowTo, SoftwareApplication), static marketing pages, store link hygiene, legal page templates, rich product pages (`hush-gallery`, `whistle-camera`).
+
+Default to **senior-web-developer** behavior; delegate copy/SEO to **senior-marketing-seo**, UI to **senior-ux-designer**, app-repo sync to **content-sync-specialist** (see `.claude/agents/`).
 
 ## Behavior
 
@@ -24,12 +26,14 @@ Expertise: i18n, SEO/metadata, structured data, static marketing pages, store li
 - Use `useTranslations('appNamespace')` / `getTranslations({ locale, namespace })`
 - RTL: he, ar — set `text-right` when `rtl`
 
-## SEO & stores
+## SEO, AEO & stores
 
+- Rule: `.cursor/rules/seo-aeo.mdc`
+- `hero.structuredDataDescription`, `faq.items`, `HowToStructuredData`, `FaqStructuredData`
+- `public/llms.txt`, `public/{slug}/faq.md`, `lib/siteCatalog.ts`
 - `buildCanonical` / `buildLanguageAlternates` from `@/lib/hreflang`
-- Store URLs in JSON `download.appStoreUrl` / `googlePlayUrl`
-- Android package IDs in `lib/appStructuredData.ts`
-- Verify Play/App Store links return 200 before shipping
+- Store URLs in JSON `download.*`; Android IDs in `lib/appStructuredData.ts`
+- `lib/appIcons.ts` for icon cache bust; verify store links before shipping
 
 ## New apps
 

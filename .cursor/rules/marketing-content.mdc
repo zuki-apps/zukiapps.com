@@ -1,0 +1,35 @@
+---
+description: Pull marketing copy and assets from sibling app repos into product pages
+globs: messages/en.json,scripts/patch-*.py,public/images/**
+alwaysApply: false
+---
+
+# Marketing content sync
+
+## Source repos (sibling to ZukiApps-WEB)
+
+`/Users/zukman/GIT/{AppName}/` — scan:
+
+- `marketing/shared/guides/faq.md`, `user-manual.md`, `tips-and-tricks.md`
+- `marketing/shared/website/landing-page.md`, `copy/locales.json`
+- `marketing/android/screenshots/`, `marketing/shared/branding/app-icon-512.png`
+- `docs/APP_STORE_LISTING_*.md`, `GOOGLE_PLAY_LISTING_*.md`
+
+## Patch workflow
+
+1. English only first: `messages/en.json` namespace (`hero`, `features`, `faq.items`, …)
+2. Optional script: `scripts/patch-{slug}-content.py`
+3. Assets: `public/images/{slug}/`, icon at `public/images/{slug}-icon.png`
+4. Page: mirror `hush-gallery` or `whistle-camera` section order
+5. Update `public/llms.txt` + `public/{slug}/faq.md`
+
+## Copy rules
+
+- Lead with user benefit, not tech stack (unless dev-focused app like Bit Scope)
+- FAQ answers: concrete steps, real URLs (`https://zukiapps.com/...`)
+- No placeholder screenshots (black/empty viewer frames)
+- Version in `status.versionValue` from app marketing version when known
+
+## Agent
+
+Use `.claude/agents/content-sync-specialist.md` or `.claude/agents/senior-marketing-seo.md` for full enrichment passes.

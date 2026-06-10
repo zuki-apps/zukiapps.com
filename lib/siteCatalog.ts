@@ -15,7 +15,7 @@ export type SiteCatalogEntry = {
 export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
   { path: '/zulist', name: 'ZuList', description: 'Shopping and shared lists — Flutter, iOS and Android.' },
   { path: '/hush-gallery', name: 'Hush Gallery', description: 'Private photo and video gallery with secure storage.' },
-  { path: '/whistle-camera', name: 'Whistle Camera', description: 'Camera app with whistle-triggered capture.' },
+  { path: '/whistle-camera', name: 'Whistle Camera', description: 'Hands-free camera: whistle to snap photos and Pro video on iOS and Android.' },
   { path: '/power-interval-timer', name: 'Power Interval Timer', description: 'Tabata and HIIT interval workout timer.' },
   { path: '/sudoku-puzzle', name: 'Sudoku Fun Go', description: 'Classic 9×9 Sudoku puzzle game.' },
   { path: '/football-trivia', name: 'Football Trivia Master', description: 'Football trivia quiz game.' },

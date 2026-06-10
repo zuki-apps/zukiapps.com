@@ -6,6 +6,8 @@ import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import AppIconFrame from '@/components/AppIconFrame';
 import { getCarouselFeatureCells } from '@/lib/carouselFeatures';
+import { HUSH_GALLERY_ICON, WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
+import { HOME_APP_IDS } from '@/lib/homeApps';
 import {
   ShoppingCart,
   ImageIcon,
@@ -30,6 +32,7 @@ interface AppData {
   id: string;
   icon: React.ReactNode;
   iconImage?: string;
+  iconEdgeToEdge?: boolean;
   titleKey: string;
   subtitleKey: string;
   descriptionKey: string;
@@ -47,22 +50,22 @@ export default function AppsCarousel() {
   const carouselRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [isMounted, setIsMounted] = useState(false);
-  const [slideWidth, setSlideWidth] = useState(0);
   const isScrollingRef = useRef(false);
+  const programmaticTargetRef = useRef<number | null>(null);
+  const currentIndexRef = useRef(0);
   const hasRandomizedRef = useRef(false);
 
   useEffect(() => {
     setIsMounted(true);
-    
-    // Initialize slide width on mount
-    if (containerRef.current) {
-      setSlideWidth(containerRef.current.clientWidth);
-    }
   }, []);
 
-  // Define apps array - using useMemo to ensure it's stable
-  const apps: AppData[] = useMemo(() => [
-    {
+  useEffect(() => {
+    currentIndexRef.current = currentIndex;
+  }, [currentIndex]);
+
+  const appsById = useMemo(
+    (): Record<string, AppData> => ({
+    zulist: {
       id: 'zulist',
       icon: <ShoppingCart className="w-16 h-16 text-blue-400" aria-hidden="true" />,
       iconImage: '/images/zulist-icon.png',
@@ -75,10 +78,11 @@ export default function AppsCarousel() {
       isComingSoon: false,
       monsters: ['zuli-04.png', 'zuli-15.png'],
     },
-    {
+    'hush-gallery': {
       id: 'hush-gallery',
       icon: <ImageIcon className="w-16 h-16 text-purple-400" aria-hidden="true" />,
-      iconImage: '/images/hush-gallery-icon.png',
+      iconImage: HUSH_GALLERY_ICON,
+      iconEdgeToEdge: true,
       titleKey: 'hushGallery.title',
       subtitleKey: 'hushGallery.subtitle',
       descriptionKey: 'hushGallery.description',
@@ -87,10 +91,11 @@ export default function AppsCarousel() {
       link: `/${locale}/hush-gallery`,
       isComingSoon: false,
     },
-    {
+    'whistle-camera': {
       id: 'whistle-camera',
       icon: <Camera className="w-16 h-16 text-amber-400" aria-hidden="true" />,
-      iconImage: '/images/whistle-camera-icon.png',
+      iconImage: WHISTLE_CAMERA_ICON,
+      iconEdgeToEdge: true,
       titleKey: 'whistleCamera.title',
       subtitleKey: 'whistleCamera.subtitle',
       descriptionKey: 'whistleCamera.description',
@@ -99,7 +104,7 @@ export default function AppsCarousel() {
       link: `/${locale}/whistle-camera`,
       isComingSoon: false,
     },
-    {
+    'power-interval-timer': {
       id: 'power-interval-timer',
       icon: <Timer className="w-16 h-16 text-orange-400" aria-hidden="true" />,
       iconImage: '/images/power-interval-timer-icon.png',
@@ -111,7 +116,7 @@ export default function AppsCarousel() {
       link: `/${locale}/power-interval-timer`,
       isComingSoon: false,
     },
-    {
+    'bit-scope': {
       id: 'bit-scope',
       icon: <Binary className="w-16 h-16 text-cyan-400" aria-hidden="true" />,
       iconImage: '/images/bit-scope-icon.png',
@@ -123,55 +128,7 @@ export default function AppsCarousel() {
       link: `/${locale}/bit-scope`,
       isComingSoon: false,
     },
-    {
-      id: 'sudoku-puzzle',
-      icon: <Grid3X3 className="w-16 h-16 text-teal-400" aria-hidden="true" />,
-      iconImage: '/images/sudoku-puzzle-icon.png',
-      titleKey: 'sudokuPuzzle.title',
-      subtitleKey: 'sudokuPuzzle.subtitle',
-      descriptionKey: 'sudokuPuzzle.description',
-      featuresKey: 'sudokuPuzzle.features',
-      learnMoreKey: 'sudokuPuzzle.learnMore',
-      link: `/${locale}/sudoku-puzzle`,
-      isComingSoon: false,
-    },
-    {
-      id: 'tempo-lab-pro',
-      icon: <Music className="w-16 h-16 text-violet-400" aria-hidden="true" />,
-      iconImage: '/images/tempo-lab-pro-icon.png',
-      titleKey: 'tempoLabPro.title',
-      subtitleKey: 'tempoLabPro.subtitle',
-      descriptionKey: 'tempoLabPro.description',
-      featuresKey: 'tempoLabPro.features',
-      learnMoreKey: 'tempoLabPro.learnMore',
-      link: `/${locale}/tempo-lab-pro`,
-      isComingSoon: false,
-    },
-    {
-      id: 'football-trivia',
-      icon: <Trophy className="w-16 h-16 text-sky-400" aria-hidden="true" />,
-      iconImage: '/images/football-trivia-icon.png',
-      titleKey: 'footballTrivia.title',
-      subtitleKey: 'footballTrivia.subtitle',
-      descriptionKey: 'footballTrivia.description',
-      featuresKey: 'footballTrivia.features',
-      learnMoreKey: 'footballTrivia.learnMore',
-      link: `/${locale}/football-trivia`,
-      isComingSoon: false,
-    },
-    {
-      id: 'fun-facts-trivia',
-      icon: <Lightbulb className="w-16 h-16 text-amber-400" aria-hidden="true" />,
-      iconImage: '/images/fun-facts-trivia-icon.png',
-      titleKey: 'funFactsTrivia.title',
-      subtitleKey: 'funFactsTrivia.subtitle',
-      descriptionKey: 'funFactsTrivia.description',
-      featuresKey: 'funFactsTrivia.features',
-      learnMoreKey: 'funFactsTrivia.learnMore',
-      link: `/${locale}/fun-facts-trivia`,
-      isComingSoon: false,
-    },
-    {
+    'track-ledger': {
       id: 'track-ledger',
       icon: <MapPinned className="w-16 h-16 text-cyan-400" aria-hidden="true" />,
       iconImage: '/images/track-ledger-icon.png',
@@ -183,7 +140,7 @@ export default function AppsCarousel() {
       link: `/${locale}/track-ledger`,
       isComingSoon: false,
     },
-    {
+    'noise-meter-shusher': {
       id: 'noise-meter-shusher',
       icon: <Volume2 className="w-16 h-16 text-violet-400" aria-hidden="true" />,
       iconImage: '/images/noise-meter-shusher-icon.png',
@@ -195,7 +152,7 @@ export default function AppsCarousel() {
       link: `/${locale}/noise-meter-shusher`,
       isComingSoon: false,
     },
-    {
+    'paratrooper-blitz': {
       id: 'paratrooper-blitz',
       icon: <Gamepad2 className="w-16 h-16 text-orange-400" aria-hidden="true" />,
       iconImage: '/images/paratrooper-blitz-icon.png',
@@ -207,7 +164,62 @@ export default function AppsCarousel() {
       link: `/${locale}/paratrooper-blitz`,
       isComingSoon: false,
     },
-  ], [locale]);
+    'sudoku-puzzle': {
+      id: 'sudoku-puzzle',
+      icon: <Grid3X3 className="w-16 h-16 text-teal-400" aria-hidden="true" />,
+      iconImage: '/images/sudoku-puzzle-icon.png',
+      titleKey: 'sudokuPuzzle.title',
+      subtitleKey: 'sudokuPuzzle.subtitle',
+      descriptionKey: 'sudokuPuzzle.description',
+      featuresKey: 'sudokuPuzzle.features',
+      learnMoreKey: 'sudokuPuzzle.learnMore',
+      link: `/${locale}/sudoku-puzzle`,
+      isComingSoon: false,
+    },
+    'tempo-lab-pro': {
+      id: 'tempo-lab-pro',
+      icon: <Music className="w-16 h-16 text-violet-400" aria-hidden="true" />,
+      iconImage: '/images/tempo-lab-pro-icon.png',
+      titleKey: 'tempoLabPro.title',
+      subtitleKey: 'tempoLabPro.subtitle',
+      descriptionKey: 'tempoLabPro.description',
+      featuresKey: 'tempoLabPro.features',
+      learnMoreKey: 'tempoLabPro.learnMore',
+      link: `/${locale}/tempo-lab-pro`,
+      isComingSoon: false,
+    },
+    'football-trivia': {
+      id: 'football-trivia',
+      icon: <Trophy className="w-16 h-16 text-sky-400" aria-hidden="true" />,
+      iconImage: '/images/football-trivia-icon.png',
+      titleKey: 'footballTrivia.title',
+      subtitleKey: 'footballTrivia.subtitle',
+      descriptionKey: 'footballTrivia.description',
+      featuresKey: 'footballTrivia.features',
+      learnMoreKey: 'footballTrivia.learnMore',
+      link: `/${locale}/football-trivia`,
+      isComingSoon: false,
+    },
+    'fun-facts-trivia': {
+      id: 'fun-facts-trivia',
+      icon: <Lightbulb className="w-16 h-16 text-amber-400" aria-hidden="true" />,
+      iconImage: '/images/fun-facts-trivia-icon.png',
+      titleKey: 'funFactsTrivia.title',
+      subtitleKey: 'funFactsTrivia.subtitle',
+      descriptionKey: 'funFactsTrivia.description',
+      featuresKey: 'funFactsTrivia.features',
+      learnMoreKey: 'funFactsTrivia.learnMore',
+      link: `/${locale}/fun-facts-trivia`,
+      isComingSoon: false,
+    },
+    }),
+    [locale]
+  );
+
+  const apps: AppData[] = useMemo(
+    () => HOME_APP_IDS.map((id) => appsById[id]),
+    [appsById]
+  );
 
   // On each full page load, show a random app first (client-side only, once per mount)
   useEffect(() => {
@@ -220,70 +232,73 @@ export default function AppsCarousel() {
     carouselRef.current.scrollTo({ left: w * randomIndex, behavior: 'auto' });
   }, [apps.length]);
 
-  const goToSlide = useCallback((index: number) => {
-    if (carouselRef.current && containerRef.current) {
-      isScrollingRef.current = true;
-      const container = carouselRef.current;
-      // Use the container's clientWidth which matches the visible area
-      const width = containerRef.current.clientWidth;
-      setCurrentIndex(index);
-      container.scrollTo({
-        left: width * index,
-        behavior: 'smooth',
-      });
-      setTimeout(() => {
-        isScrollingRef.current = false;
-      }, 600);
-    }
+  const scrollToIndex = useCallback((index: number) => {
+    if (!carouselRef.current || !containerRef.current) return;
+    isScrollingRef.current = true;
+    programmaticTargetRef.current = index;
+    const width = containerRef.current.clientWidth;
+    carouselRef.current.scrollTo({
+      left: width * index,
+      behavior: 'smooth',
+    });
+    setTimeout(() => {
+      isScrollingRef.current = false;
+      programmaticTargetRef.current = null;
+    }, 600);
   }, []);
+
+  const goToSlide = useCallback(
+    (index: number) => {
+      setCurrentIndex(index);
+      scrollToIndex(index);
+    },
+    [scrollToIndex]
+  );
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prevIndex) => {
       const newIndex = prevIndex === 0 ? apps.length - 1 : prevIndex - 1;
-      goToSlide(newIndex);
+      scrollToIndex(newIndex);
       return newIndex;
     });
-  }, [apps.length, goToSlide]);
+  }, [apps.length, scrollToIndex]);
 
   const goToNext = useCallback(() => {
     setCurrentIndex((prevIndex) => {
       const newIndex = prevIndex === apps.length - 1 ? 0 : prevIndex + 1;
-      goToSlide(newIndex);
+      scrollToIndex(newIndex);
       return newIndex;
     });
-  }, [apps.length, goToSlide]);
+  }, [apps.length, scrollToIndex]);
 
   // Handle keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      const index = currentIndexRef.current;
       if (e.key === 'ArrowLeft') {
-        const newIndex = currentIndex === 0 ? apps.length - 1 : currentIndex - 1;
+        const newIndex = index === 0 ? apps.length - 1 : index - 1;
         goToSlide(newIndex);
       }
       if (e.key === 'ArrowRight') {
-        const newIndex = currentIndex === apps.length - 1 ? 0 : currentIndex + 1;
+        const newIndex = index === apps.length - 1 ? 0 : index + 1;
         goToSlide(newIndex);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, apps.length, goToSlide]);
+  }, [apps.length, goToSlide]);
 
   // Handle window resize
   useEffect(() => {
     const handleResize = () => {
-      if (containerRef.current) {
-        setSlideWidth(containerRef.current.clientWidth);
-        // Re-center current slide after resize
-        if (carouselRef.current) {
-          goToSlide(currentIndex);
-        }
+      if (containerRef.current && carouselRef.current) {
+        scrollToIndex(currentIndexRef.current);
       }
     };
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  }, [currentIndex, goToSlide]);
+  }, [scrollToIndex]);
 
   // Update current index on scroll
   useEffect(() => {
@@ -292,12 +307,16 @@ export default function AppsCarousel() {
     if (!container || !containerWrapper) return;
 
     const handleScroll = () => {
-      if (isScrollingRef.current) return;
-      
       const scrollLeft = container.scrollLeft;
-      // Use the wrapper's clientWidth to match the visible area
       const slideWidth = containerWrapper.clientWidth;
       const newIndex = Math.round(scrollLeft / slideWidth);
+
+      if (isScrollingRef.current && programmaticTargetRef.current !== null) {
+        if (newIndex === programmaticTargetRef.current) return;
+        isScrollingRef.current = false;
+        programmaticTargetRef.current = null;
+      }
+
       if (newIndex >= 0 && newIndex < apps.length && newIndex !== currentIndex) {
         setCurrentIndex(newIndex);
       }
@@ -341,7 +360,12 @@ export default function AppsCarousel() {
                       alt={t(app.titleKey)}
                       sizes="(max-width: 768px) 96px, 128px"
                       boxClassName="w-24 h-24 md:w-32 md:h-32"
-                      frameClassName="rounded-2xl overflow-hidden shadow-2xl ring-2 ring-white/20 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"
+                      frameClassName={
+                        app.iconEdgeToEdge
+                          ? 'rounded-[22%] overflow-hidden shadow-2xl'
+                          : 'rounded-2xl overflow-hidden shadow-2xl ring-2 ring-white/20 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950'
+                      }
+                      edgeToEdge={app.iconEdgeToEdge}
                       priority={index === 0}
                     />
                   ) : (

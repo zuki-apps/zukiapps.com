@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import { WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
+import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
 
 export async function generateMetadata({
   params
@@ -17,37 +19,28 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'whistleCamera' });
   
-  const title = `${t('hero.title')} | Zuki Apps`;
-  const description = `${t('hero.description')} Download Whistle Camera - Selfie & More for iOS. Whistle detection, incognito mode, and advanced camera controls.`;
-  const logoUrl = `${baseUrl}/images/whistle-camera-icon.png`;
+  const title = `${t('hero.title')} — ${t('hero.subtitle')} | Zuki Apps`;
+  const description = t('hero.structuredDataDescription');
+  const logoUrl = `${baseUrl}${WHISTLE_CAMERA_ICON}`;
   
   return {
     title,
     description,
     keywords: [
       'Whistle Camera',
-      'Whistle Camera - Selfie & More',
-      'smart camera app',
+      'whistle camera app',
+      'hands-free selfie',
+      'whistle to take photo',
       'whistle detection camera',
-      'incognito camera mode',
-      'advanced camera controls',
-      'mobile photography app',
-      'camera app iOS',
-      'smart photo capture',
-      'whistle activated camera',
-      'incognito photo capture',
-      'private camera app',
-      'selfie camera app',
-      'innovative camera app',
-      'photography app iOS',
-      'camera with whistle detection',
-      'discreet camera app',
-      'smart camera features',
-      'advanced photography app',
-      'iOS camera app',
-      'camera app with incognito',
-      'whistle trigger camera',
-      'zuki',
+      'pet photo app',
+      'group photo timer',
+      'hands-free video',
+      'com.zuki.apps.whistlecamera',
+      '1037716421',
+      'selfie without touching phone',
+      'whistle trigger shutter',
+      'camera app iOS Android',
+      'zuki apps',
     ],
     alternates: {
       canonical: buildCanonical(locale, '/whistle-camera'),
@@ -60,7 +53,7 @@ export async function generateMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
-      images: [{ url: logoUrl, width: 870, height: 870, alt: 'Whistle Camera app icon' }],
+      images: [{ url: logoUrl, width: 512, height: 512, alt: 'Whistle Camera app icon' }],
     },
     twitter: {
       card: 'summary',
@@ -83,11 +76,27 @@ export async function generateMetadata({
   };
 }
 
-export default function WhistleCameraLayout({
+export default async function WhistleCameraLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
-  return <>{children}</>;
+  const { locale } = await params;
+
+  return (
+    <>
+      <ProductStructuredDataBlock
+        locale={locale}
+        namespace="whistleCamera"
+        appPath="/whistle-camera"
+        applicationCategory="PhotographyApplication"
+        faqId="whistle-camera-faq-ld"
+        howToId="whistle-camera-howto-ld"
+      />
+      {children}
+    </>
+  );
 }
 
