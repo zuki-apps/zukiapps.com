@@ -151,6 +151,7 @@ export default function ToldyaPage() {
           appStoreUrl={t('download.appStoreUrl')}
           googlePlayUrl={t('download.googlePlayUrl')}
           utmContent="toldya"
+          accent="emerald"
         />
       </div>
     </>

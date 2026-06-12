@@ -12,8 +12,16 @@ import {
   MapPinned,
   Trophy,
   ScanSearch,
-  Smartphone
+  Smartphone,
 } from 'lucide-react';
+import {
+  GOOGLE_PLAY_BADGE_SRC,
+  STORE_BADGE_GOOGLE_PLAY_WIDTH,
+  STORE_BADGE_HEIGHT,
+  storeBadgeFrameClass,
+  storeBadgeGooglePlayImageClass,
+  storeBadgeImageStyle,
+} from '@/lib/storeBadges';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -189,15 +197,17 @@ export default function DreambitLegacyPage() {
                         href={playUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 rounded-lg"
+                        className={`${storeBadgeFrameClass} focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 rounded-lg`}
                         aria-label={t('googlePlayAlt')}
                       >
                         <Image
-                          src="/images/google-play-badge.png"
+                          src={GOOGLE_PLAY_BADGE_SRC}
                           alt={t('googlePlayAlt')}
-                          width={180}
-                          height={54}
-                          className="h-auto w-[150px] sm:w-[180px] object-contain hover:opacity-90 transition-opacity"
+                          width={STORE_BADGE_GOOGLE_PLAY_WIDTH}
+                          height={STORE_BADGE_HEIGHT}
+                          className={storeBadgeGooglePlayImageClass}
+                          style={storeBadgeImageStyle}
+                          unoptimized
                         />
                       </a>
                     ) : (

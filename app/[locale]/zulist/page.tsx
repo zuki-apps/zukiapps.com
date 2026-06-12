@@ -10,6 +10,16 @@ import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
+import {
+  APP_STORE_BADGE_SRC,
+  GOOGLE_PLAY_BADGE_SRC,
+  STORE_BADGE_APP_STORE_WIDTH,
+  STORE_BADGE_GOOGLE_PLAY_WIDTH,
+  STORE_BADGE_HEIGHT,
+  storeBadgeAppStoreImageClass,
+  storeBadgeGooglePlayImageClass,
+  storeBadgeImageStyle,
+} from '@/lib/storeBadges';
 import StarBackground from '@/components/StarBackground';
 
 export default function ZuListPage() {
@@ -447,13 +457,14 @@ export default function ZuListPage() {
               rel="noopener noreferrer"
               className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-blue-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-blue-500/50 transition-all backdrop-blur-sm bg-opacity-90 group"
             >
-              <div className="w-32 h-10 mx-auto relative">
+              <div className="inline-flex items-center justify-center mx-auto">
                 <Image
-                  src="/images/app-store-badge.svg"
+                  src={APP_STORE_BADGE_SRC}
                   alt={t('download.appStoreAlt')}
-                  width={128}
-                  height={40}
-                  className="object-contain"
+                  width={STORE_BADGE_APP_STORE_WIDTH}
+                  height={STORE_BADGE_HEIGHT}
+                  className={storeBadgeAppStoreImageClass}
+                  style={storeBadgeImageStyle}
                   onError={(e) => {
                     // Fallback to emoji if image not found
                     const target = e.target as HTMLImageElement;
@@ -472,13 +483,15 @@ export default function ZuListPage() {
               rel="noopener noreferrer"
               className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-blue-600/30 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-blue-500/50 transition-all backdrop-blur-sm bg-opacity-90 group"
             >
-              <div className="w-32 h-10 mx-auto relative">
+              <div className="inline-flex items-center justify-center mx-auto">
                 <Image
-                  src="/images/google-play-badge.png"
+                  src={GOOGLE_PLAY_BADGE_SRC}
                   alt={t('download.googlePlayAlt')}
-                  width={128}
-                  height={40}
-                  className="object-contain"
+                  width={STORE_BADGE_GOOGLE_PLAY_WIDTH}
+                  height={STORE_BADGE_HEIGHT}
+                  className={storeBadgeGooglePlayImageClass}
+                  style={storeBadgeImageStyle}
+                  unoptimized
                   onError={(e) => {
                     // Fallback to emoji if image not found
                     const target = e.target as HTMLImageElement;

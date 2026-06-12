@@ -2,6 +2,17 @@
 
 import Image from 'next/image';
 import { withStoreUtm } from '@/lib/withStoreUtm';
+import {
+  APP_STORE_BADGE_SRC,
+  GOOGLE_PLAY_BADGE_SRC,
+  STORE_BADGE_APP_STORE_WIDTH,
+  STORE_BADGE_GOOGLE_PLAY_WIDTH,
+  STORE_BADGE_HEIGHT,
+  storeBadgeFabAppStoreImageClass,
+  storeBadgeFabFrameClass,
+  storeBadgeFabGooglePlayImageClass,
+  storeBadgeImageStyle,
+} from '@/lib/storeBadges';
 
 const ACCENT: Record<string, string> = {
   teal: 'border-teal-500/50 hover:shadow-teal-500/50',
@@ -54,15 +65,16 @@ export default function DownloadStoreFab({
           href={appHref}
           target="_blank"
           rel="noopener noreferrer"
-          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-1.5 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 overflow-hidden ${ring}`}
+          className={`${storeBadgeFabFrameClass} ${ring}`}
           aria-label={appStoreAlt}
         >
           <Image
-            src="/images/app-store-badge.svg"
+            src={APP_STORE_BADGE_SRC}
             alt={appStoreAlt}
-            width={120}
-            height={40}
-            className="object-contain object-center h-10 w-[120px] max-h-10 group-hover:scale-105 transition-transform"
+            width={STORE_BADGE_APP_STORE_WIDTH}
+            height={STORE_BADGE_HEIGHT}
+            className={storeBadgeFabAppStoreImageClass}
+            style={storeBadgeImageStyle}
           />
         </a>
       )}
@@ -71,15 +83,17 @@ export default function DownloadStoreFab({
           href={playHref}
           target="_blank"
           rel="noopener noreferrer"
-          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-1.5 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 overflow-hidden ${ring}`}
+          className={`${storeBadgeFabFrameClass} ${ring}`}
           aria-label={googlePlayAlt}
         >
           <Image
-            src="/images/google-play-badge.png"
+            src={GOOGLE_PLAY_BADGE_SRC}
             alt={googlePlayAlt}
-            width={120}
-            height={40}
-            className="object-contain object-center h-10 w-[120px] max-h-10 group-hover:scale-105 transition-transform"
+            width={STORE_BADGE_GOOGLE_PLAY_WIDTH}
+            height={STORE_BADGE_HEIGHT}
+            className={storeBadgeFabGooglePlayImageClass}
+            style={storeBadgeImageStyle}
+            unoptimized
           />
         </a>
       )}

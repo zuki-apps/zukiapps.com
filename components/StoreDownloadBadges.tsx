@@ -2,6 +2,17 @@
 
 import Image from 'next/image';
 import { withStoreUtm } from '@/lib/withStoreUtm';
+import {
+  APP_STORE_BADGE_SRC,
+  GOOGLE_PLAY_BADGE_SRC,
+  STORE_BADGE_APP_STORE_WIDTH,
+  STORE_BADGE_GOOGLE_PLAY_WIDTH,
+  STORE_BADGE_HEIGHT,
+  storeBadgeAppStoreImageClass,
+  storeBadgeFrameClass,
+  storeBadgeGooglePlayImageClass,
+  storeBadgeImageStyle,
+} from '@/lib/storeBadges';
 
 type Props = {
   appStoreUrl?: string;
@@ -45,15 +56,16 @@ export default function StoreDownloadBadges({
           href={appHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block"
+          className={storeBadgeFrameClass}
           aria-label={appStoreAlt}
         >
           <Image
-            src="/images/app-store-badge.svg"
+            src={APP_STORE_BADGE_SRC}
             alt={appStoreAlt}
-            width={160}
-            height={48}
-            className="object-contain hover:opacity-90 transition-opacity"
+            width={STORE_BADGE_APP_STORE_WIDTH}
+            height={STORE_BADGE_HEIGHT}
+            className={storeBadgeAppStoreImageClass}
+            style={storeBadgeImageStyle}
           />
         </a>
       )}
@@ -62,15 +74,17 @@ export default function StoreDownloadBadges({
           href={playHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block"
+          className={storeBadgeFrameClass}
           aria-label={googlePlayAlt}
         >
           <Image
-            src="/images/google-play-badge.png"
+            src={GOOGLE_PLAY_BADGE_SRC}
             alt={googlePlayAlt}
-            width={160}
-            height={48}
-            className="object-contain hover:opacity-90 transition-opacity"
+            width={STORE_BADGE_GOOGLE_PLAY_WIDTH}
+            height={STORE_BADGE_HEIGHT}
+            className={storeBadgeGooglePlayImageClass}
+            style={storeBadgeImageStyle}
+            unoptimized
           />
         </a>
       )}
