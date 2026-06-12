@@ -10,7 +10,6 @@ import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
-import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import StarBackground from '@/components/StarBackground';
 
 export default function PowerIntervalTimerPage() {
@@ -267,13 +266,42 @@ export default function PowerIntervalTimerPage() {
             <p className="text-lg text-gray-300 mb-8">
               {t('download.description')}
             </p>
-            <StoreDownloadBadges
-              appStoreUrl={t('download.appStoreUrl')}
-              googlePlayUrl={t('download.googlePlayUrl')}
-              appStoreAlt={t('download.appStoreAlt') || 'Download on App Store'}
-              googlePlayAlt={t('download.googlePlayAlt') || 'Get it on Google Play'}
-              utmContent="power-interval-timer"
-            />
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              {t('download.appStoreUrl') && (
+                <a
+                  href={t('download.appStoreUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block hover:opacity-80 transition-opacity"
+                  aria-label={t('download.appStoreAlt') || 'Download on App Store'}
+                >
+                  <Image
+                    src="/images/app-store-badge.svg"
+                    alt={t('download.appStoreAlt') || 'Download on App Store'}
+                    width={180}
+                    height={60}
+                    className="h-auto"
+                  />
+                </a>
+              )}
+              {t('download.googlePlayUrl') && (
+                <a
+                  href={t('download.googlePlayUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block hover:opacity-80 transition-opacity"
+                  aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                >
+                  <Image
+                    src="/images/google-play-badge.png"
+                    alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                    width={180}
+                    height={60}
+                    className="h-auto"
+                  />
+                </a>
+              )}
+            </div>
           </div>
         </section>
 

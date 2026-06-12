@@ -10,7 +10,6 @@ import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
-import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import StarBackground from '@/components/StarBackground';
 
 export default function SudokuPuzzlePage() {
@@ -242,14 +241,47 @@ export default function SudokuPuzzlePage() {
             <p className="text-lg text-gray-300 mb-8">
               {t('download.description')}
             </p>
-            <StoreDownloadBadges
-              appStoreUrl={t('download.appStoreUrl')}
-              googlePlayUrl={t('download.googlePlayUrl')}
-              appStoreAlt={t('download.appStoreAlt') || 'Download on App Store'}
-              googlePlayAlt={t('download.googlePlayAlt') || 'Get it on Google Play'}
-              soonLabel={t('download.soon')}
-              utmContent="sudoku-puzzle"
-            />
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              {t('download.appStoreUrl') && (
+                <a
+                  href={t('download.appStoreUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                  aria-label={t('download.appStoreAlt') || 'Download on App Store'}
+                >
+                  <Image
+                    src="/images/app-store-badge.svg"
+                    alt={t('download.appStoreAlt') || 'Download on App Store'}
+                    width={160}
+                    height={48}
+                    className="object-contain hover:opacity-90 transition-opacity"
+                  />
+                </a>
+              )}
+              {t('download.googlePlayUrl') && (
+                <a
+                  href={t('download.googlePlayUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                  aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                >
+                  <Image
+                    src="/images/google-play-badge.png"
+                    alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
+                    width={160}
+                    height={48}
+                    className="object-contain hover:opacity-90 transition-opacity"
+                  />
+                </a>
+              )}
+            </div>
+            {!t('download.appStoreUrl') && !t('download.googlePlayUrl') && (
+              <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-teal-600/30 rounded-xl p-6 shadow-lg backdrop-blur-sm bg-opacity-90 opacity-60">
+                <p className="text-sm text-gray-400">{t('download.soon')}</p>
+              </div>
+            )}
           </div>
         </section>
 
