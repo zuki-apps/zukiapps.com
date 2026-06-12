@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { COLLAGIO_PUBLISHED, TOLDYA_PUBLISHED } from '@/lib/appPublishState';
+import { COLLAGIO_PUBLISHED, TOLDYA_PILOT, TOLDYA_PUBLISHED } from '@/lib/appPublishState';
 import { routing } from '@/routing';
 import { getSiteUrl } from '@/lib/hreflang';
 import {
@@ -73,7 +73,7 @@ const routes: SitemapRouteMeta[] = [
   { path: '/fun-facts-trivia/terms', priority: 0.5, changefreq: 'monthly' },
   { path: '/fun-facts-trivia/support', priority: 0.7, changefreq: 'monthly' },
   { path: '/dsa-compliance', priority: 0.6, changefreq: 'monthly' },
-  ...(TOLDYA_PUBLISHED
+  ...(TOLDYA_PUBLISHED || TOLDYA_PILOT
     ? [{ path: '/toldya', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta]
     : []),
   { path: '/toldya/child-safety', priority: 0.55, changefreq: 'monthly' },

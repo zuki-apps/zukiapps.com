@@ -1,8 +1,11 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
-import { TOLDYA_PUBLISHED } from '@/lib/appPublishState';
+import { TOLDYA_PILOT, TOLDYA_PUBLISHED } from '@/lib/appPublishState';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
+
+const TOLDYA_INDEXABLE = TOLDYA_PUBLISHED || TOLDYA_PILOT;
 
 export async function generateMetadata({
   params,
@@ -18,7 +21,7 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'toldya' });
   const title = `${t('hero.title')} — ${t('hero.subtitle')} | Zuki Apps`;
-  const description = t('hero.description');
+  const description = t('hero.structuredDataDescription');
   const logoUrl = `${baseUrl}/images/toldya-icon.png`;
 
   return {
@@ -27,12 +30,15 @@ export async function generateMetadata({
     keywords: [
       'ToldYa',
       'Told Ya',
+      'ToldYa Double or Nothing',
       'predictions',
       'social predictions',
       'voting',
       'forecast',
       'reputation',
       'invite-only',
+      'com.zuki.apps.toldya',
+      '6756342206',
       'Zuki Apps',
       'Flutter',
       'iOS',
@@ -58,7 +64,7 @@ export async function generateMetadata({
       creator: '@zuki_apps',
       site: '@zuki_apps',
     },
-    robots: TOLDYA_PUBLISHED
+    robots: TOLDYA_INDEXABLE
       ? {
           index: true,
           follow: true,
@@ -77,6 +83,30 @@ export async function generateMetadata({
   };
 }
 
-export default function ToldyaLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+export default async function ToldyaLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'toldya' });
+
+  return (
+    <>
+      <SoftwareApplicationStructuredData
+        locale={locale}
+        appPath="/toldya"
+        appName={t('hero.title')}
+        appDescription={t('hero.structuredDataDescription')}
+        operatingSystem="iOS,Android"
+        applicationCategory="SocialNetworkingApplication"
+        offers={{ price: '0', priceCurrency: 'USD' }}
+        appStoreUrl={t('download.appStoreUrl')}
+        googlePlayUrl={t('download.googlePlayUrl')}
+      />
+      {children}
+    </>
+  );
 }

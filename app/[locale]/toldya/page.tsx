@@ -2,11 +2,13 @@
 
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Construction, Mail } from 'lucide-react';
+import { ArrowLeft, Mail, Rocket, CheckCircle2 } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
+import DownloadStoreFab from '@/components/DownloadStoreFab';
+import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import StarBackground from '@/components/StarBackground';
 
 export default function ToldyaPage() {
@@ -14,6 +16,7 @@ export default function ToldyaPage() {
   const tCommon = useTranslations('common');
   const locale = useLocale();
   const supportEmail = 'zuki.apps.dev@gmail.com';
+  const pilotHighlights = (t.raw('pilot.highlights') as string[] | undefined) ?? [];
 
   return (
     <>
@@ -44,7 +47,7 @@ export default function ToldyaPage() {
           </Link>
         </div>
 
-        <section className="py-16 px-4 relative z-10">
+        <section className="py-16 px-4 relative z-10" id="download">
           <div className="max-w-2xl mx-auto text-center">
             <AppIconFrame
               src="/images/toldya-icon.png"
@@ -57,21 +60,40 @@ export default function ToldyaPage() {
             />
 
             <div className="inline-flex items-center gap-2 bg-emerald-950/60 border border-emerald-500/40 text-emerald-200 px-4 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
-              <Construction className="w-4 h-4" aria-hidden />
-              {t('underConstruction.badge')}
+              <Rocket className="w-4 h-4" aria-hidden />
+              {t('pilot.badge')}
             </div>
 
             <h1 className="text-4xl md:text-5xl font-black mb-4 bg-gradient-to-r from-emerald-400 via-teal-300 to-blue-400 bg-clip-text text-transparent">
               {t('hero.title')}
             </h1>
             <p className="text-xl text-gray-300 mb-2">{t('hero.subtitle')}</p>
-            <p className="text-gray-400 mb-10 leading-relaxed">{t('hero.description')}</p>
+            <p className="text-gray-400 mb-8 leading-relaxed">{t('hero.description')}</p>
 
-            <div className="card-twilight text-left mb-10">
-              <h2 className="text-2xl font-black text-white mb-3 text-center">
-                {t('underConstruction.title')}
-              </h2>
-              <p className="text-gray-300 text-center leading-relaxed">{t('underConstruction.message')}</p>
+            <div className="card-twilight text-left mb-8">
+              <h2 className="text-2xl font-black text-white mb-3 text-center">{t('pilot.title')}</h2>
+              <p className="text-gray-300 text-center leading-relaxed mb-4">{t('pilot.message')}</p>
+              <p className="text-sm text-emerald-300/90 text-center font-semibold mb-6">{t('pilot.inviteNote')}</p>
+              {pilotHighlights.length > 0 && (
+                <ul className="space-y-2 text-sm text-gray-400">
+                  {pilotHighlights.map((item, i) => (
+                    <li key={i} className="flex gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" aria-hidden />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+
+            <div className="mb-10">
+              <StoreDownloadBadges
+                appStoreUrl={t('download.appStoreUrl')}
+                googlePlayUrl={t('download.googlePlayUrl')}
+                appStoreAlt={t('download.appStoreAlt')}
+                googlePlayAlt={t('download.googlePlayAlt')}
+                utmContent="toldya"
+              />
             </div>
 
             <nav
@@ -124,6 +146,12 @@ export default function ToldyaPage() {
             </nav>
           </div>
         </section>
+
+        <DownloadStoreFab
+          appStoreUrl={t('download.appStoreUrl')}
+          googlePlayUrl={t('download.googlePlayUrl')}
+          utmContent="toldya"
+        />
       </div>
     </>
   );

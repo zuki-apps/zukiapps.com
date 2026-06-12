@@ -3772,15 +3772,10 @@
     "hero": {
       "title": "ToldYa!",
       "subtitle": "Told you so! Prove it.",
-      "description": "ToldYa! is an invite-only social network built around predictions — follow people, vote in the Arena, build a reputation score, and celebrate when you were right.",
-      "structuredDataDescription": "ToldYa! — invite-only social network for predictions, voting, comments, and reputation. iOS and Android by Zuki Apps."
+      "description": "Invite-only social predictions — post your call before it happens, vote in the Arena, build a reputation score, and prove you called it. Free on iOS and Android; no ads, no in-app purchases.",
+      "structuredDataDescription": "ToldYa! — invite-only social network for predictions, Arena voting, comments, and reputation. Android com.zuki.apps.toldya; iOS App Store id6756342206 by Zuki Apps."
     },
     "back": "Back to Home",
-    "underConstruction": {
-      "badge": "Coming Soon",
-      "title": "Under Construction",
-      "message": "We're preparing the ToldYa! social network product page. Legal policies and account deletion instructions are available below."
-    },
     "legalNav": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Use",
@@ -3789,7 +3784,7 @@
       "childSafety": "Child Safety Standards"
     },
     "download": {
-      "appStoreUrl": "https://apps.apple.com/app/id6756342206",
+      "appStoreUrl": "https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.toldya",
       "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play"
@@ -4065,6 +4060,18 @@
         "email": "liorzukman@gmail.com",
         "content2": "For general app support (non–child-safety), you may also contact zuki.apps.dev@gmail.com. For privacy requests, see our Privacy Policy."
       }
+    },
+    "pilot": {
+      "badge": "Pilot — iOS & Android",
+      "title": "Now in pilot",
+      "message": "ToldYa! is live on the App Store and Google Play as an invite-only pilot. Download the app, sign up with your invitation code, and start putting your predictions on the record.",
+      "inviteNote": "Invite-only — you need a valid invitation code to register.",
+      "highlights": [
+        "Post predictions your followers can see; vote and comment in the Arena",
+        "Category accuracy scores and a track record others can watch",
+        "English and Hebrew with RTL · dark and light themes",
+        "Free: no ads, no in-app purchases — reputation and bragging rights only"
+      ]
     }
   },
   "common": {

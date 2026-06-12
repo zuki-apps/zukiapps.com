@@ -58,6 +58,7 @@ export default function SoftwareApplicationStructuredData({
     '/track-ledger': '/images/track-ledger-icon.png',
     '/noise-meter-shusher': '/images/noise-meter-shusher-icon.png',
     '/paratrooper-blitz': '/images/paratrooper-blitz-icon.png',
+    '/toldya': '/images/toldya-icon.png',
   };
 
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'
