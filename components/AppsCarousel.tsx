@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import AppIconFrame from '@/components/AppIconFrame';
 import { getCarouselFeatureCells } from '@/lib/carouselFeatures';
-import { HUSH_GALLERY_ICON, WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
+import { HOME_APP_ICON_WEBP } from '@/lib/homeAppIcons';
 import { HOME_APP_IDS } from '@/lib/homeApps';
 import {
   ShoppingCart,
@@ -49,15 +49,10 @@ export default function AppsCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [isMounted, setIsMounted] = useState(false);
   const isScrollingRef = useRef(false);
   const programmaticTargetRef = useRef<number | null>(null);
   const currentIndexRef = useRef(0);
   const hasRandomizedRef = useRef(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
 
   useEffect(() => {
     currentIndexRef.current = currentIndex;
@@ -68,7 +63,7 @@ export default function AppsCarousel() {
     zulist: {
       id: 'zulist',
       icon: <ShoppingCart className="w-16 h-16 text-blue-400" aria-hidden="true" />,
-      iconImage: '/images/zulist-icon.png',
+      iconImage: HOME_APP_ICON_WEBP.zulist,
       titleKey: 'zulist.title',
       subtitleKey: 'zulist.subtitle',
       descriptionKey: 'zulist.description',
@@ -81,7 +76,7 @@ export default function AppsCarousel() {
     'hush-gallery': {
       id: 'hush-gallery',
       icon: <ImageIcon className="w-16 h-16 text-purple-400" aria-hidden="true" />,
-      iconImage: HUSH_GALLERY_ICON,
+      iconImage: HOME_APP_ICON_WEBP['hush-gallery'],
       iconEdgeToEdge: true,
       titleKey: 'hushGallery.title',
       subtitleKey: 'hushGallery.subtitle',
@@ -94,7 +89,7 @@ export default function AppsCarousel() {
     'whistle-camera': {
       id: 'whistle-camera',
       icon: <Camera className="w-16 h-16 text-amber-400" aria-hidden="true" />,
-      iconImage: WHISTLE_CAMERA_ICON,
+      iconImage: HOME_APP_ICON_WEBP['whistle-camera'],
       iconEdgeToEdge: true,
       titleKey: 'whistleCamera.title',
       subtitleKey: 'whistleCamera.subtitle',
@@ -107,7 +102,7 @@ export default function AppsCarousel() {
     'power-interval-timer': {
       id: 'power-interval-timer',
       icon: <Timer className="w-16 h-16 text-orange-400" aria-hidden="true" />,
-      iconImage: '/images/power-interval-timer-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['power-interval-timer'],
       titleKey: 'powerIntervalTimer.title',
       subtitleKey: 'powerIntervalTimer.subtitle',
       descriptionKey: 'powerIntervalTimer.description',
@@ -119,7 +114,7 @@ export default function AppsCarousel() {
     'bit-scope': {
       id: 'bit-scope',
       icon: <Binary className="w-16 h-16 text-cyan-400" aria-hidden="true" />,
-      iconImage: '/images/bit-scope-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['bit-scope'],
       titleKey: 'bitScope.title',
       subtitleKey: 'bitScope.subtitle',
       descriptionKey: 'bitScope.description',
@@ -131,7 +126,7 @@ export default function AppsCarousel() {
     'track-ledger': {
       id: 'track-ledger',
       icon: <MapPinned className="w-16 h-16 text-cyan-400" aria-hidden="true" />,
-      iconImage: '/images/track-ledger-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['track-ledger'],
       titleKey: 'trackLedger.title',
       subtitleKey: 'trackLedger.subtitle',
       descriptionKey: 'trackLedger.description',
@@ -143,7 +138,7 @@ export default function AppsCarousel() {
     'noise-meter-shusher': {
       id: 'noise-meter-shusher',
       icon: <Volume2 className="w-16 h-16 text-violet-400" aria-hidden="true" />,
-      iconImage: '/images/noise-meter-shusher-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['noise-meter-shusher'],
       titleKey: 'noiseMeterShusher.title',
       subtitleKey: 'noiseMeterShusher.subtitle',
       descriptionKey: 'noiseMeterShusher.description',
@@ -155,7 +150,7 @@ export default function AppsCarousel() {
     'paratrooper-blitz': {
       id: 'paratrooper-blitz',
       icon: <Gamepad2 className="w-16 h-16 text-orange-400" aria-hidden="true" />,
-      iconImage: '/images/paratrooper-blitz-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['paratrooper-blitz'],
       titleKey: 'paratrooperBlitz.title',
       subtitleKey: 'paratrooperBlitz.subtitle',
       descriptionKey: 'paratrooperBlitz.description',
@@ -167,7 +162,7 @@ export default function AppsCarousel() {
     'sudoku-puzzle': {
       id: 'sudoku-puzzle',
       icon: <Grid3X3 className="w-16 h-16 text-teal-400" aria-hidden="true" />,
-      iconImage: '/images/sudoku-puzzle-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['sudoku-puzzle'],
       titleKey: 'sudokuPuzzle.title',
       subtitleKey: 'sudokuPuzzle.subtitle',
       descriptionKey: 'sudokuPuzzle.description',
@@ -179,7 +174,7 @@ export default function AppsCarousel() {
     'tempo-lab-pro': {
       id: 'tempo-lab-pro',
       icon: <Music className="w-16 h-16 text-violet-400" aria-hidden="true" />,
-      iconImage: '/images/tempo-lab-pro-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['tempo-lab-pro'],
       titleKey: 'tempoLabPro.title',
       subtitleKey: 'tempoLabPro.subtitle',
       descriptionKey: 'tempoLabPro.description',
@@ -191,7 +186,7 @@ export default function AppsCarousel() {
     'football-trivia': {
       id: 'football-trivia',
       icon: <Trophy className="w-16 h-16 text-sky-400" aria-hidden="true" />,
-      iconImage: '/images/football-trivia-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['football-trivia'],
       titleKey: 'footballTrivia.title',
       subtitleKey: 'footballTrivia.subtitle',
       descriptionKey: 'footballTrivia.description',
@@ -203,7 +198,7 @@ export default function AppsCarousel() {
     'fun-facts-trivia': {
       id: 'fun-facts-trivia',
       icon: <Lightbulb className="w-16 h-16 text-amber-400" aria-hidden="true" />,
-      iconImage: '/images/fun-facts-trivia-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['fun-facts-trivia'],
       titleKey: 'funFactsTrivia.title',
       subtitleKey: 'funFactsTrivia.subtitle',
       descriptionKey: 'funFactsTrivia.description',
@@ -353,8 +348,8 @@ export default function AppsCarousel() {
               }}
             >
               <div className="bg-gradient-to-br from-indigo-950/95 to-violet-950/75 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-indigo-400/35 hover:border-amber-400/40 hover:shadow-3xl transition-all duration-300 backdrop-blur-md bg-opacity-95 mx-4 w-full flex flex-col" style={{ minHeight: '600px' }}>
-                <div className="flex items-center justify-center mb-6">
-                  {app.iconImage && isMounted ? (
+                <div className="flex items-center justify-center mb-6 min-h-24 md:min-h-32">
+                  {app.iconImage ? (
                     <AppIconFrame
                       src={app.iconImage}
                       alt={t(app.titleKey)}
@@ -366,7 +361,6 @@ export default function AppsCarousel() {
                           : 'rounded-2xl overflow-hidden shadow-2xl ring-2 ring-white/20 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950'
                       }
                       edgeToEdge={app.iconEdgeToEdge}
-                      priority={index === 0}
                     />
                   ) : (
                     app.icon
@@ -384,8 +378,8 @@ export default function AppsCarousel() {
                 <h2 className="text-3xl font-black mb-6 text-white text-center">{t(app.titleKey)}</h2>
                 
                 {/* Zuli Monsters Images (only for ZuList) */}
-                {app.monsters && isMounted && (
-                  <div className="flex justify-center items-center gap-6 mb-6 flex-wrap">
+                {app.monsters && (
+                  <div className="flex justify-center items-center gap-6 mb-6 flex-wrap min-h-32 md:min-h-40">
                     {app.monsters.map((monster, i) => (
                       <div
                         key={monster}
@@ -401,7 +395,7 @@ export default function AppsCarousel() {
                           fill
                           sizes="(max-width: 768px) 128px, 160px"
                           className="object-contain p-1 drop-shadow-lg"
-                          priority={index === 0}
+                          loading="lazy"
                         />
                       </div>
                     ))}

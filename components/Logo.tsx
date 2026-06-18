@@ -19,7 +19,7 @@ export default function Logo({ className = '', size = 'lg', href, priority = fal
 
   const imageEl = (
     <Image
-      src="/logo.png"
+      src="/logo.webp"
       alt="Zuki Apps Logo"
       width={370}
       height={370}

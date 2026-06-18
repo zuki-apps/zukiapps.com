@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import AppIconFrame from '@/components/AppIconFrame';
-import { HUSH_GALLERY_ICON, WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
+import { HOME_APP_ICON_WEBP } from '@/lib/homeAppIcons';
 import { HOME_APP_IDS } from '@/lib/homeApps';
 import {
   ShoppingCart,
@@ -34,14 +34,14 @@ export default async function AppsGrid({ locale }: { locale: string }) {
     zulist: {
       id: 'zulist',
       icon: <ShoppingCart className="w-12 h-12 text-blue-400" aria-hidden="true" />,
-      iconImage: '/images/zulist-icon.png',
+      iconImage: HOME_APP_ICON_WEBP.zulist,
       titleKey: 'zulist.title',
       link: `/${locale}/zulist`,
     },
     'hush-gallery': {
       id: 'hush-gallery',
       icon: <ImageIcon className="w-12 h-12 text-purple-400" aria-hidden="true" />,
-      iconImage: HUSH_GALLERY_ICON,
+      iconImage: HOME_APP_ICON_WEBP['hush-gallery'],
       iconEdgeToEdge: true,
       titleKey: 'hushGallery.title',
       link: `/${locale}/hush-gallery`,
@@ -49,7 +49,7 @@ export default async function AppsGrid({ locale }: { locale: string }) {
     'whistle-camera': {
       id: 'whistle-camera',
       icon: <Camera className="w-12 h-12 text-amber-400" aria-hidden="true" />,
-      iconImage: WHISTLE_CAMERA_ICON,
+      iconImage: HOME_APP_ICON_WEBP['whistle-camera'],
       iconEdgeToEdge: true,
       titleKey: 'whistleCamera.title',
       link: `/${locale}/whistle-camera`,
@@ -57,63 +57,63 @@ export default async function AppsGrid({ locale }: { locale: string }) {
     'power-interval-timer': {
       id: 'power-interval-timer',
       icon: <Timer className="w-12 h-12 text-orange-400" aria-hidden="true" />,
-      iconImage: '/images/power-interval-timer-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['power-interval-timer'],
       titleKey: 'powerIntervalTimer.title',
       link: `/${locale}/power-interval-timer`,
     },
     'bit-scope': {
       id: 'bit-scope',
       icon: <Binary className="w-12 h-12 text-cyan-400" aria-hidden="true" />,
-      iconImage: '/images/bit-scope-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['bit-scope'],
       titleKey: 'bitScope.title',
       link: `/${locale}/bit-scope`,
     },
     'track-ledger': {
       id: 'track-ledger',
       icon: <MapPinned className="w-12 h-12 text-cyan-400" aria-hidden="true" />,
-      iconImage: '/images/track-ledger-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['track-ledger'],
       titleKey: 'trackLedger.title',
       link: `/${locale}/track-ledger`,
     },
     'noise-meter-shusher': {
       id: 'noise-meter-shusher',
       icon: <Volume2 className="w-12 h-12 text-violet-400" aria-hidden="true" />,
-      iconImage: '/images/noise-meter-shusher-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['noise-meter-shusher'],
       titleKey: 'noiseMeterShusher.title',
       link: `/${locale}/noise-meter-shusher`,
     },
     'paratrooper-blitz': {
       id: 'paratrooper-blitz',
       icon: <Gamepad2 className="w-12 h-12 text-orange-400" aria-hidden="true" />,
-      iconImage: '/images/paratrooper-blitz-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['paratrooper-blitz'],
       titleKey: 'paratrooperBlitz.title',
       link: `/${locale}/paratrooper-blitz`,
     },
     'sudoku-puzzle': {
       id: 'sudoku-puzzle',
       icon: <Grid3X3 className="w-12 h-12 text-teal-400" aria-hidden="true" />,
-      iconImage: '/images/sudoku-puzzle-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['sudoku-puzzle'],
       titleKey: 'sudokuPuzzle.title',
       link: `/${locale}/sudoku-puzzle`,
     },
     'tempo-lab-pro': {
       id: 'tempo-lab-pro',
       icon: <Music className="w-12 h-12 text-violet-400" aria-hidden="true" />,
-      iconImage: '/images/tempo-lab-pro-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['tempo-lab-pro'],
       titleKey: 'tempoLabPro.title',
       link: `/${locale}/tempo-lab-pro`,
     },
     'football-trivia': {
       id: 'football-trivia',
       icon: <Trophy className="w-12 h-12 text-sky-400" aria-hidden="true" />,
-      iconImage: '/images/football-trivia-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['football-trivia'],
       titleKey: 'footballTrivia.title',
       link: `/${locale}/football-trivia`,
     },
     'fun-facts-trivia': {
       id: 'fun-facts-trivia',
       icon: <Lightbulb className="w-12 h-12 text-amber-400" aria-hidden="true" />,
-      iconImage: '/images/fun-facts-trivia-icon.png',
+      iconImage: HOME_APP_ICON_WEBP['fun-facts-trivia'],
       titleKey: 'funFactsTrivia.title',
       link: `/${locale}/fun-facts-trivia`,
     },
@@ -147,7 +147,6 @@ export default async function AppsGrid({ locale }: { locale: string }) {
                       : 'rounded-2xl overflow-hidden shadow-lg ring-2 ring-white/15 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 group-hover:ring-amber-400/45 transition-all duration-300'
                   }
                   edgeToEdge={app.iconEdgeToEdge}
-                  priority={app.id === 'zulist'}
                   withGroupHover
                 />
               ) : (

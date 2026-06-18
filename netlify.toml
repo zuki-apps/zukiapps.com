@@ -10,6 +10,23 @@
   # Note: Add FIREBASE_SERVICE_ACCOUNT_KEY and NEXT_PUBLIC_BASE_URL in Netlify Dashboard
   # Site settings → Environment variables
 
+# Next.js hashed assets — long-lived immutable cache
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# LCP logo — cache with SWR
+[[headers]]
+  for = "/logo.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/logo.png"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
 # Static app icons and screenshots — 1-year immutable cache (cache-bust via ?v=N)
 [[headers]]
   for = "/images/*"

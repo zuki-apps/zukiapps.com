@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Mail, Sparkles, Code, Heart, Instagram, Facebook, Youtube } from 'lucide-react';
 import dynamic from 'next/dynamic';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
@@ -10,7 +10,18 @@ import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import HomeFaq from '@/components/HomeFaq';
 import StarField from '@/components/StarField';
 
-const AppsCarousel = dynamic(() => import('@/components/AppsCarousel'));
+const AppsCarousel = dynamic(() => import('@/components/AppsCarousel'), {
+  ssr: false,
+  loading: () => (
+    <div
+      className="relative w-full mb-12 max-w-4xl mx-auto min-h-[660px] rounded-2xl border border-indigo-500/20 bg-indigo-950/30"
+      aria-busy="true"
+      aria-label="Loading apps carousel"
+    />
+  ),
+});
+
+export const revalidate = 3600;
 
 export default async function Home({
   params,
@@ -18,6 +29,7 @@ export default async function Home({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'home' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
@@ -138,6 +150,7 @@ export default async function Home({
                     width={145}
                     height={40}
                     className="h-auto"
+                    loading="lazy"
                   />
                 </a>
               </div>

@@ -1,7 +1,8 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
+import LocaleHtmlSync from '@/components/LocaleHtmlSync';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
 import { buildSoftwareCatalogItemList } from '@/lib/siteCatalog';
 import { Metadata, Viewport } from 'next';
@@ -149,11 +150,13 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  
+
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
 
+  setRequestLocale(locale);
+  const dir = locale === 'he' || locale === 'ar' ? 'rtl' : 'ltr';
   const messages = await getMessages({ locale });
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   const logoUrl = `${baseUrl}/logo.png`;
@@ -232,6 +235,7 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <LocaleHtmlSync locale={locale} dir={dir} />
       <Script
         id="zuki-schema-org-graph"
         type="application/ld+json"

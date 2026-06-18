@@ -1,7 +1,6 @@
 import { ReactNode } from 'react';
 import Script from 'next/script';
 import type { Metadata } from 'next';
-import { headers } from 'next/headers';
 import { getSiteUrl } from '@/lib/hreflang';
 
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
@@ -29,26 +28,32 @@ export const metadata: Metadata = {
     : {}),
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: ReactNode;
 }) {
-  const h = await headers();
-  const locale = h.get('x-zuki-locale') ?? 'en';
-  const dir = h.get('x-zuki-dir') === 'rtl' ? 'rtl' : 'ltr';
   const measurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
   return (
-    <html lang={locale} dir={dir} className="dark">
+    <html lang="en" dir="ltr" className="dark" suppressHydrationWarning>
+      <head>
+        <link
+          rel="preload"
+          href="/logo.webp"
+          as="image"
+          type="image/webp"
+          fetchPriority="high"
+        />
+      </head>
       <body className="bg-twilight-canvas min-h-screen text-white antialiased">
         {measurementId ? (
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
-              strategy="afterInteractive"
+              strategy="lazyOnload"
             />
-            <Script id="google-analytics" strategy="afterInteractive">
+            <Script id="google-analytics" strategy="lazyOnload">
               {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
