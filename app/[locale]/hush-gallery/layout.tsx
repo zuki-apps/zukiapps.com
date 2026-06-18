@@ -100,14 +100,7 @@ export default async function HushGalleryLayout({
 
   return (
     <>
-      <ProductStructuredDataBlock
-        locale={locale}
-        namespace="hushGallery"
-        appPath="/hush-gallery"
-        applicationCategory="PhotoApplication"
-        faqId="hush-gallery-faq-ld"
-        howToId="hush-gallery-howto-ld"
-      />
+      <ProductStructuredDataBlock locale={locale} slug="hush-gallery" />
       {children}
     </>
   );

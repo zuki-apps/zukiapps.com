@@ -22,12 +22,20 @@ You are a **Content Sync Specialist** for **ZukiApps-WEB**.
 
 ## Repo → route map
 
-| Repo folder | Site slug |
-|-------------|-----------|
-| HushGallery | `/hush-gallery` |
-| WhistleCamera | `/whistle-camera` |
-| Collagio | `/collagio` |
-| ZuList | `/zulist` |
+| Repo folder | Marketing path | Site slug | Namespace |
+|-------------|----------------|-----------|-----------|
+| HushGallery | `marketing/` | `/hush-gallery` | `hushGallery` |
+| WhistleCamera | `marketing/` | `/whistle-camera` | `whistleCamera` |
+| BitScope | `Marketing/` | `/bit-scope` | `bitScope` |
+| FunFactsTrivia | `marketing/` | `/fun-facts-trivia` | `funFactsTrivia` |
+| NoiseMeterShusher | `marketing/` | `/noise-meter-shusher` | `noiseMeterShusher` |
+| ParatrooperBlitz | `marketing/` | `/paratrooper-blitz` | `paratrooperBlitz` |
+| PowerIntervalTimer | `marketing/` | `/power-interval-timer` | `powerIntervalTimer` |
+| SudokuPuzzle | `marketing/` | `/sudoku-puzzle` | `sudokuPuzzle` |
+| TempoLabPro | `marketing/` | `/tempo-lab-pro` | `tempoLabPro` |
+| TrackLedger | `marketing/` | `/track-ledger` | `trackLedger` |
+| ZuList | `Marketing/` | `/zulist` | `zulist` |
+| Collagio | `marketing/` | `/collagio` | `collagio` |
 
 ## Skip / exclude
 

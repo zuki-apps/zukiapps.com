@@ -109,7 +109,6 @@ export default async function ToldyaTermsPage({
                   'section2',
                   'section3',
                   'section5',
-                  'section6',
                   'section7',
                   'section8',
                   'section11',

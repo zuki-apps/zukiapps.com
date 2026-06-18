@@ -21,8 +21,10 @@ Instructions for AI assistants (Cursor, Claude Code, etc.) maintaining **zukiapp
 | **senior-web-developer** | Next.js routes, i18n, metadata, builds, publish flags |
 | **senior-ux-designer** | Layout, twilight theme, a11y, RTL, store CTAs |
 | **content-sync-specialist** | Scan app repo (`marketing/`, `docs/`) → update site |
+| **site-growth-orchestrator** | Multi-app SEO/AEO enrichment; coordinates all specialists above |
 
-Definitions: `.claude/agents/{name}.md`
+Definitions: `.claude/agents/{name}.md`  
+Project skill: `.cursor/skills/product-page-enrichment/SKILL.md`
 
 ## Prompts (copy into chat)
 

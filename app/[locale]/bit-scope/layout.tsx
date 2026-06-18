@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
 
 export async function generateMetadata({
   params
@@ -18,7 +19,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'bitScope' });
   
   const title = `${t('hero.title')} | Zuki Apps`;
-  const description = `${t('hero.description')} Download Bit Scope for iOS and Android. Interactive bit editor, number format conversions, IEEE 754 floating-point support, and bitwise operations.`;
+  const description = t('hero.structuredDataDescription');
   const logoUrl = `${baseUrl}/images/bit-scope-icon.png`;
   
   return {
@@ -82,10 +83,18 @@ export async function generateMetadata({
   };
 }
 
-export default function BitScopeLayout({
+export default async function BitScopeLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
-  return <>{children}</>;
+  const { locale } = await params;
+  return (
+    <>
+      <ProductStructuredDataBlock locale={locale} slug="bit-scope" />
+      {children}
+    </>
+  );
 }

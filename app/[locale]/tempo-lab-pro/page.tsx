@@ -7,10 +7,9 @@ import { ArrowLeft, Music, Activity, Download, Mail, ExternalLink, CheckCircle2 
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
-import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StarBackground from '@/components/StarBackground';
+import ProductMarketingSections, { ProductPageNav } from '@/components/ProductMarketingSections';
 
 export default function TempoLabProPage() {
   const t = useTranslations('tempoLabPro');
@@ -20,31 +19,6 @@ export default function TempoLabProPage() {
 
   return (
     <>
-      <BreadcrumbsStructuredData
-        locale={locale}
-        items={[
-          { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/tempo-lab-pro' }
-        ]}
-      />
-      <SoftwareApplicationStructuredData
-        locale={locale}
-        appPath="/tempo-lab-pro"
-        appName={t('hero.title')}
-        appDescription={t('hero.description')}
-        operatingSystem="iOS,Android"
-        applicationCategory="MusicApplication"
-        offers={{
-          price: '0',
-          priceCurrency: 'USD',
-        }}
-        aggregateRating={{
-          ratingValue: 0,
-          ratingCount: 0,
-        }}
-        appStoreUrl={t('download.appStoreUrl')}
-        googlePlayUrl={t('download.googlePlayUrl')}
-      />
       <div className="min-h-screen relative overflow-hidden">
         <StarBackground />
 
@@ -113,7 +87,7 @@ export default function TempoLabProPage() {
         </section>
 
         {/* Features Section */}
-        <section className="py-12 px-4 relative z-10">
+        <section className="py-12 px-4 relative z-10" id="features">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-12 text-white">
               {t('features.title')}
@@ -172,7 +146,9 @@ export default function TempoLabProPage() {
         </section>
 
         {/* Status Section */}
-        <section className="py-12 px-4 relative z-10">
+        
+        <ProductMarketingSections namespace="tempoLabPro" slug="tempo-lab-pro" accent="rose" hasSupportPage={true} />
+<section className="py-12 px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-yellow-500/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
               <h2 className="text-3xl font-bold mb-4 text-white">
@@ -196,7 +172,7 @@ export default function TempoLabProPage() {
         </section>
 
         {/* Download Section */}
-        <section className="py-12 px-4 relative z-10">
+        <section className="py-12 px-4 relative z-10" id="download">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-white">
               {t('download.title')}

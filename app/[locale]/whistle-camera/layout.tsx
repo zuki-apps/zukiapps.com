@@ -87,14 +87,7 @@ export default async function WhistleCameraLayout({
 
   return (
     <>
-      <ProductStructuredDataBlock
-        locale={locale}
-        namespace="whistleCamera"
-        appPath="/whistle-camera"
-        applicationCategory="PhotographyApplication"
-        faqId="whistle-camera-faq-ld"
-        howToId="whistle-camera-howto-ld"
-      />
+      <ProductStructuredDataBlock locale={locale} slug="whistle-camera" />
       {children}
     </>
   );

@@ -7,10 +7,9 @@ import { ArrowLeft, Grid3X3, BarChart3, Globe, Trophy, Settings, Mail, ExternalL
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
-import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StarBackground from '@/components/StarBackground';
+import ProductMarketingSections, { ProductPageNav } from '@/components/ProductMarketingSections';
 
 export default function SudokuPuzzlePage() {
   const t = useTranslations('sudokuPuzzle');
@@ -20,31 +19,6 @@ export default function SudokuPuzzlePage() {
 
   return (
     <>
-      <BreadcrumbsStructuredData
-        locale={locale}
-        items={[
-          { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/sudoku-puzzle' }
-        ]}
-      />
-      <SoftwareApplicationStructuredData
-        locale={locale}
-        appPath="/sudoku-puzzle"
-        appName={t('hero.title')}
-        appDescription={t('hero.description')}
-        operatingSystem="iOS,Android"
-        applicationCategory="GameApplication"
-        offers={{
-          price: '0',
-          priceCurrency: 'USD',
-        }}
-        aggregateRating={{
-          ratingValue: 0,
-          ratingCount: 0,
-        }}
-        appStoreUrl="https://apps.apple.com/us/app/sudoku-fun-go/id6759739806"
-        googlePlayUrl="https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo"
-      />
       <div className="min-h-screen relative overflow-hidden">
         <StarBackground />
 
@@ -113,7 +87,7 @@ export default function SudokuPuzzlePage() {
         </section>
 
         {/* Features Section */}
-        <section className="py-12 px-4 relative z-10">
+        <section className="py-12 px-4 relative z-10" id="features">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-12 text-white">
               {t('features.title')}
@@ -209,7 +183,9 @@ export default function SudokuPuzzlePage() {
         </section>
 
         {/* Status Section */}
-        <section className="py-12 px-4 relative z-10">
+        
+        <ProductMarketingSections namespace="sudokuPuzzle" slug="sudoku-puzzle" accent="blue" hasSupportPage={true} />
+<section className="py-12 px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-yellow-500/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
               <h2 className="text-3xl font-bold mb-4 text-white">
@@ -233,7 +209,7 @@ export default function SudokuPuzzlePage() {
         </section>
 
         {/* Download Section */}
-        <section className="py-12 px-4 relative z-10">
+        <section className="py-12 px-4 relative z-10" id="download">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-white">
               {t('download.title')}

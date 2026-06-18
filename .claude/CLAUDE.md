@@ -25,6 +25,9 @@ Marketing and legal site for **Zuki Apps** (Next.js 14, next-intl, Tailwind). Op
 | `senior-web-developer` | Next.js implementation |
 | `senior-ux-designer` | UI, twilight theme, a11y |
 | `content-sync-specialist` | App repo → web page sync |
+| `site-growth-orchestrator` | Multi-app SEO/AEO; coordinates specialists |
+
+**Skill:** `.cursor/skills/product-page-enrichment/SKILL.md`
 
 ## Commands
 

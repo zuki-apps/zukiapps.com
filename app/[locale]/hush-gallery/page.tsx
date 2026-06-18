@@ -268,7 +268,7 @@ export default function HushGalleryPage() {
             <h3 className="text-2xl font-bold text-purple-300 mb-6">
               {t('screenshots.featuresTitle')}
             </h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 items-start">
               {screenshotItems
                 .filter((item) => item.category === 'features')
                 .map((item) => (
@@ -276,13 +276,14 @@ export default function HushGalleryPage() {
                     key={item.id}
                     className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 border-purple-600/30 hover:border-purple-500/50 transition-all"
                   >
-                    <div className="relative aspect-[9/19] w-full max-w-[220px] mx-auto">
+                    <div className="w-full max-w-[220px] mx-auto">
                       <Image
                         src={item.image}
                         alt={item.alt}
-                        fill
+                        width={0}
+                        height={0}
                         sizes="220px"
-                        className="object-cover object-top"
+                        className="w-full h-auto block"
                       />
                     </div>
                     <figcaption className="p-4">
@@ -297,7 +298,7 @@ export default function HushGalleryPage() {
               {t('screenshots.onboardingTitle')}
             </h3>
             <p className="text-gray-400 mb-6 max-w-2xl">{t('screenshots.onboardingSubtitle')}</p>
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="grid md:grid-cols-3 gap-8 mb-16 items-start">
               {screenshotItems
                 .filter((item) => item.category === 'onboarding')
                 .map((item) => (
@@ -305,13 +306,14 @@ export default function HushGalleryPage() {
                     key={item.id}
                     className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 border-purple-600/30 hover:border-purple-500/50 transition-all"
                   >
-                    <div className="relative aspect-[9/19] w-full max-w-[220px] mx-auto">
+                    <div className="w-full max-w-[220px] mx-auto">
                       <Image
                         src={item.image}
                         alt={item.alt}
-                        fill
+                        width={0}
+                        height={0}
                         sizes="220px"
-                        className="object-cover object-top"
+                        className="w-full h-auto block"
                       />
                     </div>
                     <figcaption className="p-4">

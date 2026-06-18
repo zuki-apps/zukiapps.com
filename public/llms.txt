@@ -37,7 +37,6 @@
 ## App product pages (canonical paths; each may have /privacy, /terms, /support where implemented)
 Format: App name — URL — one-line summary
 
-- ZuList — https://zukiapps.com/zulist — Shared shopping lists (Flutter; iOS & Android).
 - Hush Gallery — https://zukiapps.com/hush-gallery — Private photo/video vault: Share from WhatsApp or Photos, tags, PIN/biometric App Lock (Premium), optional iCloud/Google Drive backup. Android com.zuki.apps.hushGallery; iOS App Store id6756169045. FAQ, user manual, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/hush-gallery-icon.png
   - Support & FAQ: https://zukiapps.com/hush-gallery/support
   - Privacy: https://zukiapps.com/hush-gallery/privacy
@@ -56,21 +55,79 @@ Format: App name — URL — one-line summary
   - Terms: https://zukiapps.com/whistle-camera/terms
   - iOS App Store: https://apps.apple.com/app/id1037716421
   - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera
-- Power Interval Timer — https://zukiapps.com/power-interval-timer — Tabata / HIIT interval timer.
-- Sudoku Fun Go — https://zukiapps.com/sudoku-puzzle — Classic Sudoku game.
-- Football Trivia Master — https://zukiapps.com/football-trivia — Football trivia quiz.
-- Fun Facts! Trivia — https://zukiapps.com/fun-facts-trivia — Multi-category timed trivia.
-- Bit Scope — https://zukiapps.com/bit-scope — Developer-oriented bit/number base calculator and inspector.
-- Track Ledger — https://zukiapps.com/track-ledger — Offline-first GPS/GNSS track logger; export CSV/GPX/GeoJSON; map on OpenStreetMap; Android application id com.zuki.apps.trackledger.
+- Power Interval Timer — https://zukiapps.com/power-interval-timer — Tabata / HIIT interval timer with custom work/rest rounds, presets, display modes, audio cues, offline timing. Android com.zuki.apps.powerintervaltimer; iOS App Store id6758246007. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/power-interval-timer-icon.png
+  - Machine-readable FAQ: https://zukiapps.com/power-interval-timer/faq.md
+  - Support: https://zukiapps.com/power-interval-timer/support
+  - Privacy: https://zukiapps.com/power-interval-timer/privacy
+  - Terms: https://zukiapps.com/power-interval-timer/terms
+  - iOS App Store: https://apps.apple.com/app/power-interval-timer/id6758246007
+  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.powerintervaltimer
+  - Key features: Tabata & HIIT presets, custom work/rest rounds, large countdown display, audio cues, offline timing, 12+ languages
+- Sudoku Fun Go — https://zukiapps.com/sudoku-puzzle — Classic Sudoku puzzle game with multiple difficulties, hints, statistics, and clean grid UI. Android com.zuki.apps.sudokufungo; iOS App Store id6759739806. FAQ and screenshots on the product page. Icon: https://zukiapps.com/images/sudoku-puzzle-icon.png
+  - Machine-readable FAQ: https://zukiapps.com/sudoku-puzzle/faq.md
+  - Support: https://zukiapps.com/sudoku-puzzle/support
+  - Privacy: https://zukiapps.com/sudoku-puzzle/privacy
+  - Terms: https://zukiapps.com/sudoku-puzzle/terms
+  - iOS App Store: https://apps.apple.com/us/app/sudoku-fun-go/id6759739806
+  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo
+  - Key features: Easy to expert difficulty, hints, notes, win/streak statistics, clean minimal grid, 12+ languages
+- Football Trivia Master — https://zukiapps.com/football-trivia — Football trivia quiz. Android com.zuki.apps.footballtrivia.
+- Fun Facts! Trivia — https://zukiapps.com/fun-facts-trivia — Multi-category timed trivia quiz with leaderboards, category unlocks, and 12+ languages. Android com.zuki.apps.funfactstrivia; iOS App Store id6762831794. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/fun-facts-trivia-icon.png
+  - Machine-readable FAQ: https://zukiapps.com/fun-facts-trivia/faq.md
+  - Support: https://zukiapps.com/fun-facts-trivia/support
+  - Privacy: https://zukiapps.com/fun-facts-trivia/privacy
+  - Terms: https://zukiapps.com/fun-facts-trivia/terms
+  - iOS App Store: https://apps.apple.com/il/app/fun-facts-trivia/id6762831794
+  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.funfactstrivia
+  - Key features: timed rounds, multiple categories (science, history, sports, etc.), global leaderboards, answer explanations, 12+ languages
+- Bit Scope — https://zukiapps.com/bit-scope — Bit-level calculator and converter for developers: binary/hex/octal/decimal, IEEE 754 floats, CRC, hashes, interactive bit canvas, batch convert, home-screen widgets. Android com.zuki.apps.bitscope; iOS App Store id6759933934. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/bit-scope-icon.png
+  - Machine-readable FAQ: https://zukiapps.com/bit-scope/faq.md
+  - Support: https://zukiapps.com/bit-scope/support
+  - Privacy: https://zukiapps.com/bit-scope/privacy
+  - Terms: https://zukiapps.com/bit-scope/terms
+  - iOS App Store: https://apps.apple.com/il/app/bit-scope-converter/id6759933934
+  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.bitscope
+  - Key features: 8/16/32/64-bit integers + custom width, Float16/32/64 IEEE 754, bitwise ops (AND/OR/XOR/NOT/shifts), interactive bit canvas, CRC & hash (Premium), home-screen widgets, 12+ languages
+- Track Ledger — https://zukiapps.com/track-ledger — Offline-first GPS/GNSS track logger: record raw points, elevation profiles, OpenStreetMap overlay, export CSV (free) or GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger; iOS App Store id6762567364. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/track-ledger-icon.png
+  - Machine-readable FAQ: https://zukiapps.com/track-ledger/faq.md
+  - Support: https://zukiapps.com/track-ledger/support
   - Privacy: https://zukiapps.com/track-ledger/privacy
   - Terms: https://zukiapps.com/track-ledger/terms
-- Noise Meter — Shusher — https://zukiapps.com/noise-meter-shusher — Real-time decibel meter, noise scoring, history, CSV; Android com.zuki.apps.noisemeter. Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.noisemeter
+  - iOS App Store: https://apps.apple.com/il/app/track-ledger-log-gps-data/id6762567364
+  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.trackledger
+  - Key features: raw GNSS point logging, elevation vs distance charts, OSM map overlay, project organization, CSV export (free), GPX/GeoJSON (Premium), 12+ languages
+- Noise Meter — Shusher — https://zukiapps.com/noise-meter-shusher — Real-time decibel meter with live gauge, timed sessions, noise scores, Shusher in-app threshold alerts, on-device history, and Premium charts/CSV export. Android com.zuki.apps.noisemeter; iOS App Store id6763019075. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/noise-meter-shusher-icon.png
+  - Machine-readable FAQ: https://zukiapps.com/noise-meter-shusher/faq.md
+  - Support: https://zukiapps.com/noise-meter-shusher/support
   - Privacy: https://zukiapps.com/noise-meter-shusher/privacy
   - Terms: https://zukiapps.com/noise-meter-shusher/terms
-- Paratrooper Blitz — https://zukiapps.com/paratrooper-blitz — Classic arcade game; Arcade & Classic DOS modes; leaderboards; Android com.zuki.apps.paratrooperblitz.
+  - iOS App Store: https://apps.apple.com/il/app/noise-meter-shusher/id6763019075
+  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.noisemeter
+  - Key features: live dB gauge and waveform, timed sessions, noise category scoring, Shusher threshold alerts, on-device history, Premium charts & CSV export, 12+ languages
+- Paratrooper Blitz — https://zukiapps.com/paratrooper-blitz — Retro anti-air arcade game: Arcade (slide-and-shoot) and Classic (aim-and-fire) modes, leaderboards, 14 achievements, 12+ languages. Android com.zuki.apps.paratrooperblitz; iOS App Store id6763775995. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/paratrooper-blitz-icon.png
+  - Machine-readable FAQ: https://zukiapps.com/paratrooper-blitz/faq.md
+  - Support: https://zukiapps.com/paratrooper-blitz/support
   - Privacy: https://zukiapps.com/paratrooper-blitz/privacy
   - Terms: https://zukiapps.com/paratrooper-blitz/terms
-- TempoLab Pro — https://zukiapps.com/tempo-lab-pro — Tempo, pitch, and audio practice.
+  - iOS App Store: https://apps.apple.com/il/app/paratrooper-blitz/id6763775995
+  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.paratrooperblitz
+  - Key features: Arcade slide-and-shoot mode, Classic aim-and-fire mode, global leaderboards, 14 Game Center achievements, escalating waves, combo scoring, 12+ languages
+- TempoLab Pro — https://zukiapps.com/tempo-lab-pro — Tempo, pitch, and audio practice lab for musicians: metronome, loop markers, tap tempo, EQ and effects, import/export backing tracks. Android com.zuki.apps.tempolabpro; iOS App Store id6760204327. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/tempo-lab-pro-icon.png
+  - Machine-readable FAQ: https://zukiapps.com/tempo-lab-pro/faq.md
+  - Support: https://zukiapps.com/tempo-lab-pro/support
+  - Privacy: https://zukiapps.com/tempo-lab-pro/privacy
+  - Terms: https://zukiapps.com/tempo-lab-pro/terms
+  - iOS App Store: https://apps.apple.com/il/app/tempo-lab-pro/id6760204327
+  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.tempolabpro
+  - Key features: visual metronome, tap tempo, loop section markers, EQ and audio effects, import backing tracks, export presets, 12+ languages
+- ZuList — https://zukiapps.com/zulist — Shared shopping lists with real-time sync, home-screen widgets, invite links (no account required for guests), and Premium tiers. Android com.zuki.apps.zulist; iOS App Store id6753878439. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/zulist-icon.png
+  - Machine-readable FAQ: https://zukiapps.com/zulist/faq.md
+  - Support: https://zukiapps.com/zulist/support
+  - Privacy: https://zukiapps.com/zulist/privacy
+  - Terms: https://zukiapps.com/zulist/terms
+  - iOS App Store: https://apps.apple.com/us/app/zulist/id6753878439
+  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.zulist
+  - Key features: real-time multi-device sync, invite links (guests need no account), item quantities & categories, home-screen widgets, check-off shopping mode, Premium tiers, 12+ languages
 - Collagio — https://zukiapps.com/collagio — Photo collage maker (2–10 photos, layouts, filters, Zuli Monsters stickers); product page under construction; Android com.zuki.apps.collagio.
   - Privacy: https://zukiapps.com/collagio/privacy
   - Terms: https://zukiapps.com/collagio/terms

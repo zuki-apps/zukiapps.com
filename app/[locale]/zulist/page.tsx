@@ -7,10 +7,9 @@ import { ShoppingCart, ArrowLeft, Users, Wifi, Sparkles, Globe, Database, Folder
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
-import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StarBackground from '@/components/StarBackground';
+import ProductMarketingSections, { ProductPageNav } from '@/components/ProductMarketingSections';
 
 export default function ZuListPage() {
   const t = useTranslations('zulist');
@@ -20,31 +19,6 @@ export default function ZuListPage() {
 
   return (
     <>
-      <BreadcrumbsStructuredData
-        locale={locale}
-        items={[
-          { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/zulist' }
-        ]}
-      />
-      <SoftwareApplicationStructuredData
-        locale={locale}
-        appPath="/zulist"
-        appName={t('hero.title')}
-        appDescription={t('hero.structuredDataDescription')}
-        operatingSystem="iOS,Android"
-        applicationCategory="ShoppingApplication"
-        offers={{
-          price: '0',
-          priceCurrency: 'USD',
-        }}
-        aggregateRating={{
-          ratingValue: 0,
-          ratingCount: 0,
-        }}
-        appStoreUrl="https://apps.apple.com/app/zulist/id6753878439"
-        googlePlayUrl="https://play.google.com/store/apps/details?id=com.zuki.apps.zulist&pcampaignid=web_share"
-      />
       <div className="min-h-screen relative overflow-hidden">
       <StarBackground />
 
@@ -115,7 +89,7 @@ export default function ZuListPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 px-4 relative z-10">
+      <section className="py-12 px-4 relative z-10" id="features">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-white">
             {t('features.title')}
@@ -403,7 +377,9 @@ export default function ZuListPage() {
       </section>
 
       {/* Status Section */}
-      <section className="py-12 px-4 relative z-10">
+      
+        <ProductMarketingSections namespace="zulist" slug="zulist" accent="blue" hasSupportPage={true} />
+<section className="py-12 px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-green-500/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
             <CheckCircle2 className="w-16 h-16 mx-auto mb-4 text-green-400" />
@@ -432,7 +408,7 @@ export default function ZuListPage() {
       </section>
 
       {/* Download Section */}
-      <section className="py-12 px-4 relative z-10">
+      <section className="py-12 px-4 relative z-10" id="download">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8 text-white">
             {t('download.title')}

@@ -30,6 +30,23 @@ alwaysApply: false
 - No placeholder screenshots (black/empty viewer frames)
 - Version in `status.versionValue` from app marketing version when known
 
-## Agent
+| ZuList | `Marketing/` | `/zulist` | `zulist` |
+| BitScope | `Marketing/` | `/bit-scope` | `bitScope` |
+| FunFactsTrivia | `marketing/` | `/fun-facts-trivia` | `funFactsTrivia` |
+| NoiseMeterShusher | `marketing/` | `/noise-meter-shusher` | `noiseMeterShusher` |
+| ParatrooperBlitz | `marketing/` | `/paratrooper-blitz` | `paratrooperBlitz` |
+| PowerIntervalTimer | `marketing/` | `/power-interval-timer` | `powerIntervalTimer` |
+| SudokuPuzzle | `marketing/` | `/sudoku-puzzle` | `sudokuPuzzle` |
+| TempoLabPro | `marketing/` | `/tempo-lab-pro` | `tempoLabPro` |
+| TrackLedger | `marketing/` | `/track-ledger` | `trackLedger` |
 
-Use `.claude/agents/content-sync-specialist.md` or `.claude/agents/senior-marketing-seo.md` for full enrichment passes.
+## Batch sync
+
+```bash
+python3 scripts/sync-product-marketing.py --app all
+python3 scripts/apply-product-page-enrichment.py
+npm run build
+```
+
+Skill: `.cursor/skills/product-page-enrichment/SKILL.md`  
+Orchestrator: `.claude/agents/site-growth-orchestrator.md`

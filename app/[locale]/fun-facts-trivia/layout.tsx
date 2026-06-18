@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
 
 export async function generateMetadata({
   params
@@ -18,7 +19,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'funFactsTrivia' });
 
   const title = `${t('hero.title')} — ${t('hero.subtitle')} | Zuki Apps`;
-  const description = `${t('hero.subtitle')}. ${t('hero.description')}`;
+  const description = t('hero.structuredDataDescription');
   const logoUrl = `${baseUrl}/images/fun-facts-trivia-icon.png`;
 
   return {
@@ -80,6 +81,19 @@ export async function generateMetadata({
   };
 }
 
-export default function FunFactsTriviaLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+export default async function FunFactsTriviaLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+
+  return (
+    <>
+      <ProductStructuredDataBlock locale={locale} slug="fun-facts-trivia" />
+      {children}
+    </>
+  );
 }
