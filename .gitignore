@@ -9,19 +9,21 @@ node_modules/
 # Next.js
 /.next/
 /out/
+.swc/
 
 # Production
 /build
 /dist
+.turbo/
 
 # Misc
-.DS_Store
 *.pem
 
 # Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # Local env files
 .env
@@ -30,16 +32,21 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Vercel
+# Vercel / Netlify
 .vercel
+.netlify/
 
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
 
-# Cursor / Claude — commit shared AI project config; ignore local overrides
-.claude/settings.local.json
+# Cursor — commit shared rules, agents, skills, context; ignore local IDE state
 .cursor/settings.json
+.cursor/projects/
+.cursor/worktrees/
+
+# Claude — commit shared agents/prompts; ignore local overrides
+.claude/settings.local.json
 
 # IDE
 .vscode/
@@ -55,21 +62,21 @@ next-env.d.ts
 *.sublime-workspace
 
 # OS
-Thumbs.db
 .DS_Store
+**/.DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
+Thumbs.db
 ehthumbs.db
 Desktop.ini
 
 # Logs
-logs
+logs/
 *.log
 
 # Temporary files
 *.tmp
 *.temp
 .cache/
-
