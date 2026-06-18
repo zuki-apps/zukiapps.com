@@ -24,6 +24,16 @@ export default function middleware(request: NextRequest) {
   const dir = locale === 'he' || locale === 'ar' ? 'rtl' : 'ltr';
   response.headers.set('x-zuki-locale', locale);
   response.headers.set('x-zuki-dir', dir);
+
+  // next-intl sets a NEXT_LOCALE cookie even with localeDetection:false, which forces
+  // Cache-Control:no-store and blocks the browser back/forward cache.
+  // Since localePrefix:"as-needed" encodes locale in the URL, the cookie is redundant.
+  // Strip it so pages remain bfcache-eligible and CDN-cacheable.
+  const setCookie = response.headers.get('set-cookie');
+  if (setCookie && /^NEXT_LOCALE=[^;]+;/.test(setCookie)) {
+    response.headers.delete('set-cookie');
+  }
+
   return response;
 }
 

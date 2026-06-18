@@ -4,6 +4,7 @@ interface LogoProps {
   className?: string;
   size?: 'sm' | 'md' | 'lg' | 'xl';
   href?: string;
+  priority?: boolean;
 }
 
 const sizeMap = {
@@ -13,20 +14,17 @@ const sizeMap = {
   xl: 400,
 };
 
-const LOGO_SRC_WIDTH = 1024;
-const LOGO_SRC_HEIGHT = 1024;
-
-export default function Logo({ className = '', size = 'lg', href }: LogoProps) {
+export default function Logo({ className = '', size = 'lg', href, priority = false }: LogoProps) {
   const maxPx = sizeMap[size];
 
   const imageEl = (
     <Image
       src="/logo.png"
       alt="Zuki Apps Logo"
-      width={LOGO_SRC_WIDTH}
-      height={LOGO_SRC_HEIGHT}
+      width={370}
+      height={370}
       sizes={`${maxPx}px`}
-      priority
+      priority={priority}
       className={`block h-auto w-auto max-w-full border-0 bg-transparent p-0 shadow-none outline-none ring-0 rounded-none ${className}`.trim()}
       style={{ maxWidth: maxPx, border: 0, outline: 'none' }}
     />

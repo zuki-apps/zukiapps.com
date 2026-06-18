@@ -52,7 +52,7 @@ export default async function Home({
           <div className="max-w-4xl mx-auto text-center">
             {/* Logo */}
             <div className="mb-8 flex justify-center animate-fade-in">
-              <Logo size="xl" />
+              <Logo size="xl" priority />
             </div>
 
             <div className="mb-8 animate-fade-in-delay">

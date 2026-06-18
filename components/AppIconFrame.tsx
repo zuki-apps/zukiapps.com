@@ -44,7 +44,6 @@ export default function AppIconFrame({
         fill
         sizes={sizes}
         priority={priority}
-        unoptimized={edgeToEdge}
         className={`${imageFit} motion-safe:transition-transform motion-safe:duration-300 ${hover}`.trim()}
       />
     </div>

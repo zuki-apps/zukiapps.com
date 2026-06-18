@@ -2,6 +2,8 @@ const withNextIntl = require('next-intl/plugin')('./i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  compress: true,
+  poweredByHeader: false,
   // Next 14.2: externalize OTEL + Google auth so dev webpack does not reference a missing `vendor-chunks/@opentelemetry.js`.
   // (firebase-admin is already in Next's default server external list.)
   experimental: {
@@ -10,6 +12,8 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 31536000,
+    deviceSizes: [640, 750, 828, 1080, 1200],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256],
   },
   eslint: {
     ignoreDuringBuilds: true,
