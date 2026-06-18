@@ -148,8 +148,11 @@ export default function ToldyaPage() {
         </section>
 
         <DownloadStoreFab
+          accent="emerald"
           appStoreUrl={t('download.appStoreUrl')}
           googlePlayUrl={t('download.googlePlayUrl')}
+          appStoreAlt={t('download.appStoreAlt')}
+          googlePlayAlt={t('download.googlePlayAlt')}
           utmContent="toldya"
         />
       </div>
