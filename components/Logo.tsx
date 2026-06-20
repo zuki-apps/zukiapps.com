@@ -23,7 +23,7 @@ export default function Logo({ className = '', size = 'lg', href, priority = fal
       alt="Zuki Apps Logo"
       width={370}
       height={370}
-      sizes={`${maxPx}px`}
+      sizes={`(max-width: 640px) ${Math.round(maxPx / 2)}px, ${maxPx}px`}
       priority={priority}
       className={`block h-auto w-auto max-w-full border-0 bg-transparent p-0 shadow-none outline-none ring-0 rounded-none ${className}`.trim()}
       style={{ maxWidth: maxPx, border: 0, outline: 'none' }}

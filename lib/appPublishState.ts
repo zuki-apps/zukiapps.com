@@ -14,7 +14,9 @@ export const TOLDYA_CHILD_SAFETY_PATH = '/toldya/child-safety' as const;
 /**
  * Collagio exists on the site but is not yet public on the home page / catalog.
  * Set `COLLAGIO_PUBLISHED` to true when the product page should appear on home, sitemap `/collagio`, and JSON-LD.
+ * `COLLAGIO_PILOT` — indexed landing page (e.g. Google Play live) without home grid.
  */
-export const COLLAGIO_PUBLISHED = false;
+export const COLLAGIO_PILOT = true;
+export const COLLAGIO_PUBLISHED = true;
 
 export const COLLAGIO_APP_PATH = '/collagio' as const;

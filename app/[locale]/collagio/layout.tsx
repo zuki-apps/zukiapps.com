@@ -1,8 +1,12 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
-import { COLLAGIO_PUBLISHED } from '@/lib/appPublishState';
+import { COLLAGIO_PILOT, COLLAGIO_PUBLISHED } from '@/lib/appPublishState';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import { COLLAGIO_ICON } from '@/lib/appIcons';
+import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
+
+const COLLAGIO_INDEXABLE = COLLAGIO_PUBLISHED || COLLAGIO_PILOT;
 
 export async function generateMetadata({
   params,
@@ -18,20 +22,21 @@ export async function generateMetadata({
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'collagio' });
   const title = `${t('hero.title')} — ${t('hero.subtitle')} | Zuki Apps`;
-  const description = t('hero.description');
-  const logoUrl = `${baseUrl}/images/collagio-icon.png`;
+  const description = t('hero.structuredDataDescription');
+  const logoUrl = `${baseUrl}${COLLAGIO_ICON}`;
 
   return {
     title,
     description,
     keywords: [
       'Collagio',
-      'photo collage',
-      'collage maker',
+      'photo collage maker',
+      'collage app',
       'photo grid',
-      'layout',
+      'layout editor',
+      'Instagram collage',
+      'WhatsApp stickers',
       'Zuli Monsters',
-      'stickers',
       'Zuki Apps',
       'Flutter',
       'iOS',
@@ -52,13 +57,13 @@ export async function generateMetadata({
       images: [{ url: logoUrl, width: 512, height: 512, alt: 'Collagio app icon' }],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title,
       description,
       creator: '@zuki_apps',
       site: '@zuki_apps',
     },
-    robots: COLLAGIO_PUBLISHED
+    robots: COLLAGIO_INDEXABLE
       ? {
           index: true,
           follow: true,
@@ -77,6 +82,19 @@ export async function generateMetadata({
   };
 }
 
-export default function CollagioLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+export default async function CollagioLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+
+  return (
+    <>
+      <ProductStructuredDataBlock locale={locale} slug="collagio" />
+      {children}
+    </>
+  );
 }

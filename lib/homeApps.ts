@@ -12,6 +12,7 @@ export const HOME_APP_IDS = [
   'tempo-lab-pro',
   'football-trivia',
   'fun-facts-trivia',
+  'collagio',
 ] as const;
 
 export type HomeAppId = (typeof HOME_APP_IDS)[number];

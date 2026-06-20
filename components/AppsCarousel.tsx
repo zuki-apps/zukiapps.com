@@ -26,6 +26,7 @@ import {
   MapPinned,
   Volume2,
   Gamepad2,
+  Layers,
 } from 'lucide-react';
 
 interface AppData {
@@ -205,6 +206,18 @@ export default function AppsCarousel() {
       featuresKey: 'funFactsTrivia.features',
       learnMoreKey: 'funFactsTrivia.learnMore',
       link: `/${locale}/fun-facts-trivia`,
+      isComingSoon: false,
+    },
+    collagio: {
+      id: 'collagio',
+      icon: <Layers className="w-16 h-16 text-pink-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP['collagio'],
+      titleKey: 'collagio.title',
+      subtitleKey: 'collagio.subtitle',
+      descriptionKey: 'collagio.description',
+      featuresKey: 'collagio.features',
+      learnMoreKey: 'collagio.learnMore',
+      link: `/${locale}/collagio`,
       isComingSoon: false,
     },
     }),

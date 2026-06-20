@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { COLLAGIO_PUBLISHED, TOLDYA_PILOT, TOLDYA_PUBLISHED } from '@/lib/appPublishState';
+import { COLLAGIO_PUBLISHED, COLLAGIO_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED } from '@/lib/appPublishState';
 import { routing } from '@/routing';
 import { getSiteUrl } from '@/lib/hreflang';
 import {
@@ -80,8 +80,11 @@ const routes: SitemapRouteMeta[] = [
   { path: '/toldya/privacy', priority: 0.5, changefreq: 'monthly' },
   { path: '/toldya/terms', priority: 0.5, changefreq: 'monthly' },
   { path: '/toldya/delete-account', priority: 0.35, changefreq: 'yearly' },
-  ...(COLLAGIO_PUBLISHED
-    ? [{ path: '/collagio', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta]
+  ...(COLLAGIO_PUBLISHED || COLLAGIO_PILOT
+    ? [
+        { path: '/collagio', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
+        { path: '/collagio/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+      ]
     : []),
   { path: '/collagio/privacy', priority: 0.5, changefreq: 'monthly' },
   { path: '/collagio/terms', priority: 0.5, changefreq: 'monthly' },

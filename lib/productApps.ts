@@ -10,7 +10,8 @@ export type ProductAppSlug =
   | 'track-ledger'
   | 'zulist'
   | 'hush-gallery'
-  | 'whistle-camera';
+  | 'whistle-camera'
+  | 'collagio';
 
 export type ProductAppNamespace =
   | 'bitScope'
@@ -23,7 +24,8 @@ export type ProductAppNamespace =
   | 'trackLedger'
   | 'zulist'
   | 'hushGallery'
-  | 'whistleCamera';
+  | 'whistleCamera'
+  | 'collagio';
 
 export type ProductAppConfig = {
   slug: ProductAppSlug;
@@ -56,6 +58,16 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'whistle-camera-faq-ld',
     howToId: 'whistle-camera-howto-ld',
     accent: 'amber',
+    hasSupportPage: true,
+  },
+  collagio: {
+    slug: 'collagio',
+    namespace: 'collagio',
+    appPath: '/collagio',
+    applicationCategory: 'PhotographyApplication',
+    faqId: 'collagio-faq-ld',
+    howToId: 'collagio-howto-ld',
+    accent: 'rose',
     hasSupportPage: true,
   },
   'bit-scope': {

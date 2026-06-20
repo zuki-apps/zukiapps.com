@@ -16,6 +16,7 @@ import {
   MapPinned,
   Volume2,
   Gamepad2,
+  Layers,
 } from 'lucide-react';
 
 interface AppInfo {
@@ -116,6 +117,13 @@ export default async function AppsGrid({ locale }: { locale: string }) {
       iconImage: HOME_APP_ICON_WEBP['fun-facts-trivia'],
       titleKey: 'funFactsTrivia.title',
       link: `/${locale}/fun-facts-trivia`,
+    },
+    collagio: {
+      id: 'collagio',
+      icon: <Layers className="w-12 h-12 text-pink-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP['collagio'],
+      titleKey: 'collagio.title',
+      link: `/${locale}/collagio`,
     },
   };
 

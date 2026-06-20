@@ -16,4 +16,5 @@ export const HOME_APP_ICON_WEBP: Record<HomeAppId, string> = {
   'tempo-lab-pro': `/images/tempo-lab-pro-icon.webp?v=${v}`,
   'football-trivia': `/images/football-trivia-icon.webp?v=${v}`,
   'fun-facts-trivia': `/images/fun-facts-trivia-icon.webp?v=${v}`,
+  collagio: `/images/collagio-icon.webp?v=${v}`,
 };

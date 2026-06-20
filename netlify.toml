@@ -16,16 +16,22 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# LCP logo — cache with SWR
+# Logos — 1 week + long SWR (versioned via new deploy; no content hash in filename)
 [[headers]]
   for = "/logo.webp"
   [headers.values]
-    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=2592000"
 
 [[headers]]
   for = "/logo.png"
   [headers.values]
-    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=2592000"
+
+# Next.js image-optimisation endpoint — parameters act as cache key, safe to cache long
+[[headers]]
+  for = "/_next/image*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, stale-while-revalidate=31536000"
 
 # Static app icons and screenshots — 1-year immutable cache (cache-bust via ?v=N)
 [[headers]]

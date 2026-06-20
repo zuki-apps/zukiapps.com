@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Mail, Sparkles, Code, Heart, Instagram, Facebook, Youtube } from 'lucide-react';
-import dynamic from 'next/dynamic';
+import lazyLoad from 'next/dynamic';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppsGrid from '@/components/AppsGrid';
@@ -10,7 +10,7 @@ import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import HomeFaq from '@/components/HomeFaq';
 import StarField from '@/components/StarField';
 
-const AppsCarousel = dynamic(() => import('@/components/AppsCarousel'), {
+const AppsCarousel = lazyLoad(() => import('@/components/AppsCarousel'), {
   ssr: false,
   loading: () => (
     <div
@@ -21,7 +21,7 @@ const AppsCarousel = dynamic(() => import('@/components/AppsCarousel'), {
   ),
 });
 
-export const revalidate = 3600;
+export const dynamic = 'force-static';
 
 export default async function Home({
   params,
