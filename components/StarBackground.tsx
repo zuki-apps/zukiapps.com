@@ -1,5 +1,3 @@
-'use client';
-
 import { STAR_FIELD_SPECS } from '@/lib/starFieldStars';
 
 /** Twilight sky + deterministic stars (SSR-safe, no hydration flash). */
@@ -10,7 +8,7 @@ export default function StarBackground() {
       {STAR_FIELD_SPECS.map((star, i) => (
         <div
           key={i}
-          className={`absolute rounded-full animate-pulse ${star.colorClass}`}
+          className={`absolute rounded-full animate-pulse motion-reduce:animate-none ${star.colorClass}`}
           style={{
             left: `${star.left}%`,
             top: `${star.top}%`,

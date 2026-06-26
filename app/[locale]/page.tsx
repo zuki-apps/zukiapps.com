@@ -14,7 +14,7 @@ const AppsCarousel = lazyLoad(() => import('@/components/AppsCarousel'), {
   ssr: false,
   loading: () => (
     <div
-      className="relative w-full mb-12 max-w-4xl mx-auto min-h-[660px] rounded-2xl border border-indigo-500/20 bg-indigo-950/30"
+      className="relative w-full mb-12 max-w-4xl mx-auto min-h-[648px] rounded-2xl border border-indigo-500/20 bg-indigo-950/30"
       aria-busy="true"
       aria-label="Loading apps carousel"
     />

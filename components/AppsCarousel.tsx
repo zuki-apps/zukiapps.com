@@ -493,19 +493,22 @@ export default function AppsCarousel() {
       </button>
 
       {/* Indicators */}
-      <div className="flex justify-center gap-2 mt-6">
+      <div className="flex justify-center gap-3 mt-6">
         {apps.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`h-3 rounded-full transition-all ${
-              index === currentIndex
-                ? 'w-8 bg-blue-500'
-                : 'w-3 bg-gray-600 hover:bg-gray-500'
-            }`}
+            className="inline-flex h-6 w-6 items-center justify-center rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
             aria-label={`Go to slide ${index + 1}`}
             type="button"
-          />
+          >
+            <span
+              aria-hidden="true"
+              className={`block h-2 rounded-full transition-all ${
+                index === currentIndex ? 'w-6 bg-blue-500' : 'w-2 bg-gray-400'
+              }`}
+            />
+          </button>
         ))}
       </div>
     </div>
