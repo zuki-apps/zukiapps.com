@@ -6,6 +6,7 @@ import lazyLoad from 'next/dynamic';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppsGrid from '@/components/AppsGrid';
+import FeaturedApps from '@/components/FeaturedApps';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import HomeFaq from '@/components/HomeFaq';
 import StarField from '@/components/StarField';
@@ -76,7 +77,8 @@ export default async function Home({
               </p>
             </div>
 
-            {/* Apps Grid Section */}
+            {/* Featured + full catalog */}
+            <FeaturedApps locale={locale} />
             <AppsGrid locale={locale} />
 
             {/* Apps Carousel Section */}

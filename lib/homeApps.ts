@@ -16,3 +16,11 @@ export const HOME_APP_IDS = [
 ] as const;
 
 export type HomeAppId = (typeof HOME_APP_IDS)[number];
+
+/** Highlighted on home — keep in sync with marketing priority. */
+export const FEATURED_APP_IDS = [
+  'hush-gallery',
+  'zulist',
+  'whistle-camera',
+  'collagio',
+] as const satisfies readonly HomeAppId[];
