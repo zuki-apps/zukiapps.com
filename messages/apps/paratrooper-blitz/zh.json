@@ -1,282 +1,284 @@
 {
   "paratrooperBlitz": {
-    "back": "Back to Home",
+    "back": "返回首页",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Paratrooper Blitz",
-      "subtitle": "Classic arcade action",
-      "description": "Arcade-style mobile game: destroy aircraft and paratroopers before they land. Two control modes (Arcade and Classic DOS), scoring, career ranks, optional ads and in-app purchases, and Google Play Games / Game Center integrations on supported builds.",
-      "structuredDataDescription": "Paratrooper Blitz — retro anti-air arcade for iOS and Android. Arcade slide-and-shoot and Classic aim-and-fire modes, leaderboards, 14 achievements, 12 languages. Android com.zuki.apps.paratrooperblitz by Zuki Apps."
+      "title": "伞兵闪电战",
+      "subtitle": "经典街机动作",
+      "description": "街机风格的手机游戏：在飞机和伞兵降落前将其摧毁。两种控制模式（街机和经典 DOS）、评分、职业排名、可选广告和应用内购买，以及受支持版本上的 Google Play 游戏 / Game Center 集成。",
+      "structuredDataDescription": "Paratrooper Blitz — iOS 和 Android 的复古防空街机。街机滑动射击和经典瞄准射击模式、排行榜、14 项成就、12 种语言。 Android com.zuki.apps.paratrooperblitz，作者：Zuki Apps。",
+      "seoTitle": "伞兵闪电战 — 街机动作 | Zuki Apps",
+      "metaDescription": "带有分数和排行榜的经典伞兵街机。 iOS 和 Android 免费 — 立即玩。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主要特点",
       "modes": {
-        "title": "Two ways to play",
-        "description": "Pick the control scheme that fits you — fast arcade movement or classic rotation aiming.",
+        "title": "两种玩法",
+        "description": "选择适合您的控制方案 - 快速街机移动或经典旋转瞄准。",
         "items": [
-          "Arcade mode: move the turret left and right",
-          "Classic DOS mode: rotate and aim",
-          "Keyboard hints on supported platforms"
+          "街机模式：左右移动炮塔",
+          "经典 DOS 模式：旋转和瞄准",
+          "支持平台上的键盘提示"
         ]
       },
       "action": {
-        "title": "Scores & career rank",
-        "description": "Chase high scores and progress through themed military-style ranks as you play.",
+        "title": "分数和职业排名",
+        "description": "玩游戏时，在主题军事风格的排名中追逐高分并取得进步。",
         "items": [
-          "Session scoring with aircraft and paratrooper hits",
-          "Career rank progression",
-          "Game over flow with play-again"
+          "飞机和伞兵命中的会话得分",
+          "职业生涯排名进展",
+          "游戏结束并重玩"
         ]
       },
       "social": {
-        "title": "Leaderboards & achievements",
-        "description": "Where signed in, use platform services for rankings and achievements as configured in the app.",
+        "title": "排行榜和成就",
+        "description": "登录后，使用应用程序中配置的平台服务来获取排名和成就。",
         "items": [
-          "Global and friends-style lists where available",
-          "Native leaderboard and achievement UIs",
-          "Firebase Analytics/Crashlytics may apply for stability"
+          "全局和朋友式列表（如果有）",
+          "原生排行榜和成就 UI",
+          "Firebase Analytics/Crashlytics 可能适用于稳定性"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "可用性",
       "description": "iOS and Android. Android application ID: com.zuki.apps.paratrooperblitz. Store links appear when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "版本",
+      "status": "平台",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "下载",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/paratrooper-blitz/id6763775995",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "下载App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.paratrooperblitz",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "获取Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要链接",
       "support": {
-        "title": "Technical Support",
+        "title": "技术支援",
         "email": "support@zukiapps.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Paratrooper Blitz. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the game.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2026 年 4 月",
+      "intro": "在使用伞兵闪电战之前，请仔细阅读这些使用条款。通过访问或使用我们的服务，您同意受这些条款的约束。如果您不同意，请不要使用该游戏。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Paratrooper Blitz (\"Service\", \"Game\"), operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian authorized to agree on their behalf where required."
+        "title": "1. 接受条款",
+        "content": "这些条款管辖您对由 Zuki Apps 运营的 Paratrooper Blitz（“服务”、“游戏”）的访问和使用。下载、安装、访问或使用服务即表示您同意这些条款和我们的隐私政策。",
+        "content2": "如果您代表未成年人使用本服务，则您声明您是父母或监护人，有权在需要时代表他们同意。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Paratrooper Blitz is an arcade-style action game. The Service includes:",
+        "title": "2. 服务说明",
+        "content": "伞兵闪电战是一款街机风格的动作游戏。该服务包括：",
         "items": [
-          "Gameplay sessions, scoring, and progression features",
-          "Optional integration with platform game services (e.g. leaderboards, achievements) where available",
-          "Advertising and in-app purchases as described in-app",
-          "Audio and visual effects; online features depend on third-party services and connectivity"
+          "游戏会话、评分和进度功能",
+          "可选与平台游戏服务（例如排行榜、成就）集成（如果可用）",
+          "应用内描述的广告和应用内购买",
+          "音频和视觉效果；在线功能取决于第三方服务和连接"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. 联系方式",
+        "content": "有关这些条款的问题：",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2026 年 4 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The game may use Firebase Analytics and Crashlytics for diagnostics, platform sign-in for game services, and advertising identifiers subject to your device settings. Gameplay data may be processed by platform providers (Apple, Google) when you use their services."
+        "title": "1. 我们收集的信息",
+        "content": "游戏可能会使用 Firebase Analytics 和 Crashlytics 进行诊断、游戏服务平台登录以及广告标识符，具体取决于您的设备设置。当您使用平台提供商（Apple、Google）的服务时，游戏数据可能会由平台提供商处理。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use collected information to operate the game, show ads or offers where applicable, improve stability, and comply with law. Leaderboards and achievements rely on platform APIs when you opt in or sign in."
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用收集到的信息来运营游戏、在适用的情况下展示广告或优惠、提高稳定性并遵守法律。当您选择加入或登录时，排行榜和成就依赖于平台 API。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Third parties (ad networks, analytics, platform game services) may process data under their policies when those features are active."
+        "title": "3. 信息共享",
+        "content": "我们不会出售您的个人信息。当这些功能处于活动状态时，第三方（广告网络、分析、平台游戏服务）可能会根据其政策处理数据。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable safeguards appropriate to a mobile game. Use strong device security and keep the app updated."
+        "title": "4. 数据安全",
+        "content": "我们实施适合手机游戏的合理保障措施。使用强大的设备安全性并保持应用程序更新。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, delete, or restrict certain processing. Platform account settings and OS privacy controls apply. Contact us for requests we can fulfill directly."
+        "title": "5. 您的权利",
+        "content": "根据您所在的地区，您可能有权访问、删除或限制某些处理。平台帐户设置和操作系统隐私控制适用。如需我们可以直接满足的请求，请联系我们。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. 联系我们",
+        "content": "有关本隐私政策的问题：",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       },
       "metaDescription": "伞兵闪电战 - 街机游戏的隐私政策。如何处理游戏数据、广告、Firebase和平台游戏服务。"
     },
     "footer": {
-      "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 伞兵闪电战 - 保留所有权利",
+      "tagline": "Zuki Apps 的一部分 • 来自以色列的开发商 • 由 ❤️ 制作"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "如何使用",
+      "tips": "尖端",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "下载"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Paratrooper Blitz.",
-      "featuresTitle": "App screens",
+      "title": "截图",
+      "subtitle": "伞兵闪电战的真实应用程序屏幕。",
+      "featuresTitle": "应用程序屏幕",
       "items": [
         {
-          "id": "menu",
-          "title": "Main menu",
-          "description": "Pick Arcade or Classic and view your best scores.",
+          "id": "菜单",
+          "title": "主菜单",
+          "description": "选择街机或经典并查看您的最佳成绩。",
           "image": "/images/paratrooper-blitz/screenshot-menu.png",
-          "alt": "Main menu — paratrooper blitz",
-          "category": "features"
+          "alt": "主菜单——伞兵闪电战",
+          "category": "特征"
         },
         {
-          "id": "classic",
-          "title": "Classic mode",
-          "description": "Aim-and-fire paratrooper action with scoring on screen.",
+          "id": "经典的",
+          "title": "经典模式",
+          "description": "伞兵瞄准射击动作，屏幕上计分。",
           "image": "/images/paratrooper-blitz/screenshot-classic.png",
-          "alt": "Classic mode — paratrooper blitz",
-          "category": "features"
+          "alt": "经典模式——伞兵闪电战",
+          "category": "特征"
         },
         {
-          "id": "arcade",
-          "title": "Arcade mode",
-          "description": "Slide-and-shoot waves of aircraft and chutes.",
+          "id": "拱廊",
+          "title": "街机模式",
+          "description": "滑动并射击一波又一波的飞机和降落伞。",
           "image": "/images/paratrooper-blitz/screenshot-arcade.png",
-          "alt": "Arcade mode — paratrooper blitz",
-          "category": "features"
+          "alt": "街机模式——伞兵闪电战",
+          "category": "特征"
         },
         {
-          "id": "chute",
-          "title": "Chute shots",
-          "description": "Time your shots before paratroopers land.",
+          "id": "滑道",
+          "title": "滑道射击",
+          "description": "在伞兵降落之前安排好射击时间。",
           "image": "/images/paratrooper-blitz/screenshot-chute.png",
-          "alt": "Chute shots — paratrooper blitz",
-          "category": "features"
+          "alt": "降落伞射击——伞兵闪电战",
+          "category": "特征"
         },
         {
-          "id": "wave",
-          "title": "Wave pressure",
-          "description": "Survive escalating waves for a high score.",
+          "id": "海浪",
+          "title": "波浪压力",
+          "description": "在不断升级的海浪中生存下来以获得高分。",
           "image": "/images/paratrooper-blitz/screenshot-wave.png",
-          "alt": "Wave pressure — paratrooper blitz",
-          "category": "features"
+          "alt": "波浪压力——伞兵闪电战",
+          "category": "特征"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "如何使用",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a mode",
-          "description": "Arcade for slide-and-shoot; Classic for aim-and-fire."
+          "title": "选择一种模式",
+          "description": "滑动射击的街机；瞄准射击的经典之作。"
         },
         {
           "number": "2",
-          "title": "Destroy threats",
-          "description": "Shoot aircraft and paratroopers before they reach your turret."
+          "title": "摧毁威胁",
+          "description": "在飞机和伞兵到达你的炮塔之前对其进行射击。"
         },
         {
           "number": "3",
-          "title": "Chain combos",
-          "description": "Keep accuracy high to maximize score multipliers."
+          "title": "连锁组合",
+          "description": "保持较高的准确度以最大化分数乘数。"
         },
         {
           "number": "4",
-          "title": "Beat your best",
-          "description": "Submit scores to leaderboards and unlock achievements."
+          "title": "击败你最好的",
+          "description": "将分数提交到排行榜并解锁成就。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "提示和技巧",
+      "subtitle": "从应用程序中获取更多信息。",
       "items": [
         {
-          "title": "Beginner",
-          "description": "1. Learn Arcade first — fixed vertical shots are easier to aim. 2. Watch the ground — two soldiers on one side triggers a danger alert; four ends the run. 3. Pop chutes early — +150 points and they fall fast without a canopy."
+          "title": "初学者",
+          "description": "1.先学Arcade——固定垂直射击更容易瞄准。 2.观察地面——一侧两名士兵触发危险警报；四结束运行。 3. 尽早弹出降落伞 — +150 点，它们在没有顶篷的情况下快速坠落。"
         },
         {
-          "title": "Intermediate",
-          "description": "4. Center your turret in Arcade so you can reach both sides quickly. 5. Save fire for clusters — combo windows reward back-to-back kills. 6. Deal with bombers first — destroy the plane or the bomb before it lands."
+          "title": "中间的",
+          "description": "4.将你的炮塔置于Arcade中心，这样你就可以快速到达两侧。 5. 为集群保存火力——组合窗口奖励连续击杀。 6. 先对付轰炸机——在飞机或炸弹着陆前将其摧毁。"
         },
         {
-          "title": "Advanced",
-          "description": "7. Classic mode — sweep the sky in arcs; lead aircraft moving horizontally. 8. Wave spikes — after ~2 minutes, spawn rate increases; stay calm and prioritize landings. 9. Sign in once from home → Global Rankings so game-over scores upload."
+          "title": "先进的",
+          "description": "7.经典模式——弧线扫空；引导飞机水平移动。 8. 波浪尖峰 — 约 2 分钟后，产卵率增加；保持冷静并优先着陆。 9. 在家登录一次 → 全球排名，以便上传游戏结束分数。"
         },
         {
-          "title": "Career & achievements",
-          "description": "Rank up on the home screen from lifetime stats. - Check the trophy catalog for 14 achievements (score milestones, career totals, session goals)."
+          "title": "职业生涯和成就",
+          "description": "根据生命周期统计数据在主屏幕上排名。 - 检查奖杯目录中的 14 项成就（里程碑得分、职业生涯总得分、会话目标）。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "常见问题",
+      "subtitle": "有关功能、隐私和计费的快速解答。",
+      "viewAllSupport": "查看完整支持 & FAQ",
       "items": [
         {
-          "question": "Is Paratrooper Blitz free?",
-          "answer": "Yes. The game is free to download and play. Optional one-time Remove Ads purchase removes banner and interstitial ads."
+          "question": "伞兵闪电战是免费的吗？",
+          "answer": "是的。该游戏可免费下载和玩。可选的一次性“删除广告”购买可删除横幅广告和插页式广告。"
         },
         {
-          "question": "What age is the game for?",
-          "answer": "Rated Teen (13+). Mild military-style arcade action—no gore, no chat, no user-generated content."
+          "question": "该游戏适合什么年龄段的人？",
+          "answer": "评级为青少年（13 岁以上）。温和的军事风格街机动作——没有血腥，没有聊天，没有用户生成的内容。"
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Core gameplay works offline. Leaderboards, achievements, ads, and purchases need network and store services."
+          "question": "可以离线使用吗？",
+          "answer": "核心游戏玩法可以离线运行。排行榜、成就、广告和购买都需要网络和商店服务。"
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Arabic, German, Spanish, French, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified). Change in Settings."
+          "question": "支持哪些语言？",
+          "answer": "英语、阿拉伯语、德语、西班牙语、法语、希伯来语、意大利语、日语、韩语、葡萄牙语、俄语和中文（简体）。更改设置。"
         },
         {
-          "question": "What’s the difference between Arcade and Classic?",
-          "answer": "Arcade: slide left/right, shoot up. Classic: rotate turret 360° and aim manually."
+          "question": "街机版和经典版有什么区别？",
+          "answer": "街机：左/右滑动，向上射击。经典：炮塔 360° 旋转并手动瞄准。"
         },
         {
-          "question": "How do I lose?",
-          "answer": "Four parachutists land on the **same side** of your turret, or a bomb hits the ground."
+          "question": "我怎么会输呢？",
+          "answer": "四名伞兵降落在你的炮塔的**同一侧**，或者一枚炸弹击中地面。"
         },
         {
-          "question": "Why did my score go down when I fired?",
-          "answer": "Each shot costs 1 point (classic Paratrooper rule)."
+          "question": "为什么我的分数在我解雇后下降了？",
+          "answer": "每次射击需要 1 分（经典伞兵规则）。"
         },
         {
-          "question": "Do paratroopers ever land off-screen?",
-          "answer": "No—drops stay within the play area."
+          "question": "伞兵曾经降落在屏幕之外吗？",
+          "answer": "不会——水滴会留在游戏区域内。"
         },
         {
-          "question": "Why didn’t my score appear on the leaderboard?",
-          "answer": "You must sign in to Google Play Games (Android) or Game Center (iOS). Open **Global Rankings** from the home menu once to complete sign-in, then play a full round."
+          "question": "为什么我的分数没有出现在排行榜上？",
+          "answer": "您必须登录 Google Play 游戏 (Android) 或 Game Center (iOS)。从主菜单打开**全球排名**一次完成登录，然后玩一整轮。"
         },
         {
-          "question": "Are Arcade and Classic scores separate?",
-          "answer": "Yes—each mode has its own leaderboard."
+          "question": "街机和经典分数是分开的吗？",
+          "answer": "是的，每种模式都有自己的排行榜。"
         },
         {
-          "question": "How many achievements are there?",
-          "answer": "14 trophies with an in-app catalog showing requirements."
+          "question": "有多少成就？",
+          "answer": "14 个奖杯，应用内目录显示要求。"
         },
         {
-          "question": "What does Remove Ads include?",
-          "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
+          "question": "去除广告包括什么？",
+          "answer": "删除主页横幅和游戏后插页式广告。一次性非消耗品购买。"
         }
       ]
     },

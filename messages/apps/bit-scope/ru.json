@@ -3,10 +3,12 @@
     "back": "Вернуться на главную",
     "hero": {
       "badge": "Доступно",
-      "title": "Bit Scope - Bit & Number Calculator",
+      "title": "Bit Scope - Калькулятор битов и чисел",
       "subtitle": "Инспектор и Конвертер на Уровне Битов",
       "description": "Мощный инспектор и конвертер на уровне битов для разработчиков, инженеров и студентов. Визуализируйте, манипулируйте и конвертируйте числа на уровне битов в различных числовых системах и форматах.",
-      "structuredDataDescription": "Bit Scope — bit-level calculator for developers and students on iOS and Android. Binary, octal, decimal, hex, IEEE 754, CRC32, hashes, bit canvas, batch convert, widgets. Android com.zuki.apps.bitscope by Zuki Apps."
+      "structuredDataDescription": "Bit Scope — разрядный калькулятор для разработчиков и студентов iOS и Android. Двоичный, восьмеричный, десятичный, шестнадцатеричный, IEEE 754, CRC32, хэши, битовый холст, пакетное преобразование, виджеты. Android com.zuki.apps.bitscope на Zuki Apps.",
+      "seoTitle": "Bit Scope — Инструмент «Номер разработчика» | Zuki Apps",
+      "metaDescription": "Проверьте биты, базы и двоичную математику на устройстве. Создано для разработчиков. Бесплатно на iOS и Android."
     },
     "features": {
       "title": "Ключевые функции",
@@ -65,7 +67,7 @@
         "description": "Комплексные опции конфигурации",
         "items": [
           "Режимы со знаком/без знака",
-          "Big Endian / Little Endian",
+          "Большой порядок байтов / Маленький порядок байтов",
           "Порядок битов MSB / LSB",
           "Конвертация в реальном времени"
         ]
@@ -100,54 +102,54 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "Поддержка и помощь",
+      "subtitle": "Мы здесь, чтобы помочь! Найдите ответы на распространенные вопросы или свяжитесь с нами напрямую.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "Связаться с нами",
+        "description": "Есть вопросы или нужна помощь? Отправьте нам электронное письмо, и мы свяжемся с вами как можно скорее.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "Быстрые ссылки",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "политика конфиденциальности",
+          "description": "Узнайте, как мы защищаем ваши данные"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "Условия использования",
+          "description": "Прочтите наши условия"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "Часто задаваемые вопросы",
         "q1": {
-          "question": "What number formats does Bit Scope support?",
-          "answer": "Bit Scope supports 8-bit, 16-bit, 32-bit, and 64-bit integers, as well as Float16, Float32, and Float64 floating-point formats with full IEEE 754 compliance."
+          "question": "Какие числовые форматы поддерживает Bit Scope?",
+          "answer": "Bit Scope поддерживает 8-битные, 16-битные, 32-битные и 64-битные целые числа, а также форматы с плавающей запятой Float16, Float32 и Float64 с полным соответствием стандарту IEEE 754."
         },
         "q2": {
-          "question": "Can I perform bitwise operations?",
-          "answer": "Yes! Bit Scope supports AND, OR, XOR, and NOT bitwise operations. You can use a second operand (B) to perform operations with your primary value (A)."
+          "question": "Могу ли я выполнять побитовые операции?",
+          "answer": "Да! Bit Scope поддерживает побитовые операции AND, OR, XOR и NOT. Вы можете использовать второй операнд (B) для выполнения операций с основным значением (A)."
         },
         "q3": {
-          "question": "What number bases are supported?",
-          "answer": "Bit Scope supports Binary (BIN), Octal (OCT), Decimal (DEC), and Hexadecimal (HEX) number bases. You can input and display values in any of these bases with real-time conversion."
+          "question": "Какие системы счисления поддерживаются?",
+          "answer": "Bit Scope поддерживает двоичную (BIN), восьмеричную (OCT), десятичную (DEC) и шестнадцатеричную (HEX) системы счисления. Вы можете вводить и отображать значения в любой из этих баз с преобразованием в реальном времени."
         },
         "q4": {
-          "question": "Does Bit Scope work offline?",
-          "answer": "Yes! Bit Scope works completely offline. No internet connection is required. All calculations are performed locally on your device using BigInt for integers and IEEE 754 standards for floating-point numbers."
+          "question": "Bit Scope работает в автономном режиме?",
+          "answer": "Да! Bit Scope работает полностью в автономном режиме. Подключение к Интернету не требуется. Все вычисления выполняются локально на вашем устройстве с использованием BigInt для целых чисел и стандартов IEEE 754 для чисел с плавающей запятой."
         },
         "q5": {
-          "question": "What is the IEEE 754 breakdown feature?",
-          "answer": "The IEEE 754 breakdown provides a visual representation of floating-point number components, showing the sign bit, exponent, and mantissa separately. This is helpful for understanding how floating-point numbers are stored and represented."
+          "question": "В чем особенность неисправности IEEE 754?",
+          "answer": "Разбивка IEEE 754 обеспечивает визуальное представление компонентов чисел с плавающей запятой, показывая бит знака, показатель степени и мантиссу отдельно. Это полезно для понимания того, как хранятся и представляются числа с плавающей запятой."
         },
         "q6": {
-          "question": "Can I change endianness and bit order?",
-          "answer": "Yes! Bit Scope allows you to switch between Big Endian (BE) and Little Endian (LE) byte ordering, as well as choose between MSB (Most Significant Bit) and LSB (Least Significant Bit) bit order for display."
+          "question": "Могу ли я изменить порядок байтов и порядок байтов?",
+          "answer": "Да! Bit Scope позволяет переключаться между порядком байтов с прямым порядком байтов (BE) и прямым порядком байтов (LE), а также выбирать для отображения порядок битов между MSB (самый значащий бит) и LSB (наименьший значащий бит)."
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "Нужна дополнительная помощь?",
+        "description": "Если вы не смогли найти ответ, который искали, или у вас возникла техническая проблема, пожалуйста, не стесняйтесь обращаться к нам. Мы здесь, чтобы помочь и обычно отвечаем в течение 24–48 часов."
       },
       "metaTitle": "Поддержка и помощь — Bit Scope | Zuki Apps",
       "metaDescription": "Bit Scope FAQ и поддержка — осциллограф и анализ сигналов. Контакты, конфиденциальность и устранение неполадок."
@@ -157,231 +159,231 @@
       "tagline": "Часть Zuki Apps • Разработчик из Израиля • Сделано с ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Bit Scope. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "Условия эксплуатации",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
+      "intro": "Пожалуйста, внимательно прочтите настоящие Условия использования перед использованием Bit Scope. Получая доступ к нашему сервису или используя его, вы соглашаетесь соблюдать эти условия. Если вы не согласны с этими условиями, пожалуйста, не используйте наш сервис.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Bit Scope (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a bit-level calculator and number converter application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. Принятие Условий",
+        "content": "Настоящие Условия использования («Условия») регулируют ваш доступ и использование Bit Scope («Сервис», «Приложение», «мы», «нас» или «наш»), приложения битового калькулятора и преобразователя чисел, управляемого Zuki Apps («Компания»). Загружая, устанавливая, получая доступ к Сервису или используя его, вы соглашаетесь соблюдать настоящие Условия и нашу Политику конфиденциальности.",
+        "content2": "Если вы используете Сервис от имени организации, вы заявляете и гарантируете, что у вас есть полномочия обязать эту организацию соблюдать настоящие Условия."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Bit Scope is a mobile application that provides bit-level number inspection and conversion functionality. The Service includes:",
+        "title": "2. Описание услуги",
+        "content": "Bit Scope — это мобильное приложение, обеспечивающее проверку и преобразование чисел на уровне битов. Услуга включает в себя:",
         "items": [
-          "Interactive bit editor with visual bit grid",
-          "Multiple number format support (8-bit, 16-bit, 32-bit, 64-bit integers and Float16, Float32, Float64)",
-          "Number base conversion (Binary, Octal, Decimal, Hexadecimal)",
-          "Bitwise operations (AND, OR, XOR, NOT)",
-          "IEEE 754 floating-point breakdown",
-          "Endianness and bit order configuration",
-          "Real-time conversion between formats and bases"
+          "Интерактивный битовый редактор с визуальной битовой сеткой",
+          "Поддержка нескольких числовых форматов (8-битные, 16-битные, 32-битные, 64-битные целые числа и Float16, Float32, Float64).",
+          "Преобразование системы счисления (двоичная, восьмеричная, десятичная, шестнадцатеричная)",
+          "Побитовые операции (И, ИЛИ, исключающее ИЛИ, НЕ)",
+          "Разбивка IEEE 754 с плавающей запятой",
+          "Конфигурация порядка байтов и порядка байтов",
+          "Преобразование в реальном времени между форматами и базами"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. Контактная информация",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящих Условий, свяжитесь с нами:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "политика конфиденциальности",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Bit Scope is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+        "title": "1. Информация, которую мы собираем",
+        "content": "Bit Scope разработан с учетом конфиденциальности. Мы собираем минимальную информацию, необходимую для предоставления услуги. Приложение работает полностью в автономном режиме и сохраняет все данные локально на вашем устройстве."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. All calculations and conversions are performed locally on your device and are not transmitted to our servers."
+        "title": "2. Как мы используем вашу информацию",
+        "content": "Мы используем информацию, которую собираем, для предоставления, обслуживания и улучшения наших услуг. Все расчеты и преобразования выполняются локально на вашем устройстве и не передаются на наши серверы."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your calculation data remains on your device and is only accessible to you."
+        "title": "3. Обмен информацией",
+        "content": "Мы не продаем, не обмениваем и не передаем иным образом вашу личную информацию третьим лицам. Данные ваших расчетов остаются на вашем устройстве и доступны только вам."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+        "title": "4. Безопасность данных",
+        "content": "Мы реализуем соответствующие меры безопасности для защиты вашей информации. Все данные хранятся локально на вашем устройстве в личном каталоге приложения, который недоступен другим приложениям."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your data at any time. You may also uninstall the app at any time, which will remove all locally stored data."
+        "title": "5. Ваши права",
+        "content": "Вы имеете право на доступ, обновление или удаление своих данных в любое время. Вы также можете удалить приложение в любое время, при этом будут удалены все локально сохраненные данные."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. Свяжитесь с нами",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящей Политики конфиденциальности, свяжитесь с нами по адресу:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       },
       "metaDescription": "Bit Scope политика конфиденциальности — как мы обрабатываем ваши данные на iOS и Android."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "Функции",
+      "screenshots": "Скриншоты",
+      "howTo": "Как использовать",
+      "tips": "Советы",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Скачать"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Bit Scope - Bit & Number Calculator.",
-      "featuresTitle": "App screens",
+      "title": "Скриншоты",
+      "subtitle": "Реальные экраны приложений из Bit Scope — Калькулятор битов и чисел.",
+      "featuresTitle": "Экраны приложений",
       "items": [
         {
-          "id": "calculator",
-          "title": "Calculator",
-          "description": "Convert and inspect values across number bases and bit widths.",
+          "id": "калькулятор",
+          "title": "Калькулятор",
+          "description": "Преобразуйте и проверяйте значения в разных системах счисления и разрядности.",
           "image": "/images/bit-scope/screenshot-calculator.png",
-          "alt": "Calculator — bit scope",
-          "category": "features"
+          "alt": "Калькулятор — bit scope",
+          "category": "функции"
         },
         {
-          "id": "canvas",
-          "title": "Bit canvas",
-          "description": "Flip bits on a live canvas and copy results in one tap.",
+          "id": "холст",
+          "title": "Битовый холст",
+          "description": "Переворачивайте фрагменты на живом холсте и копируйте результаты одним касанием.",
           "image": "/images/bit-scope/screenshot-canvas.png",
-          "alt": "Bit canvas — bit scope",
-          "category": "features"
+          "alt": "Битовое полотно — bit scope",
+          "category": "функции"
         },
         {
-          "id": "converters",
-          "title": "Converters",
-          "description": "IEEE 754, CRC, hash, and more engineering utilities.",
+          "id": "преобразователи",
+          "title": "Конвертеры",
+          "description": "IEEE 754, CRC, хэш и другие инженерные утилиты.",
           "image": "/images/bit-scope/screenshot-converters.png",
-          "alt": "Converters — bit scope",
-          "category": "features"
+          "alt": "Конвертеры — bit scope",
+          "category": "функции"
         },
         {
-          "id": "utilities",
-          "title": "Utilities",
-          "description": "Premium tools for power users — one-time unlock.",
+          "id": "коммунальные услуги",
+          "title": "Утилиты",
+          "description": "Premium инструменты для опытных пользователей — одноразовая разблокировка.",
           "image": "/images/bit-scope/screenshot-utilities.png",
-          "alt": "Utilities — bit scope",
-          "category": "features"
+          "alt": "Коммунальные услуги — bit scope",
+          "category": "функции"
         },
         {
-          "id": "widgets",
-          "title": "Widgets",
-          "description": "Home-screen widgets for quick conversions.",
+          "id": "виджеты",
+          "title": "Виджеты",
+          "description": "Виджеты на главном экране для быстрого преобразования.",
           "image": "/images/bit-scope/screenshot-widgets.png",
-          "alt": "Widgets — bit scope",
-          "category": "features"
+          "alt": "Виджеты — bit scope",
+          "category": "функции"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Как использовать",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a format",
-          "description": "Choose binary, octal, decimal, or hex and your bit width."
+          "title": "Выберите формат",
+          "description": "Выберите двоичную, восьмеричную, десятичную или шестнадцатеричную разрядность."
         },
         {
           "number": "2",
-          "title": "Enter a value",
-          "description": "Type or paste — results update instantly across representations."
+          "title": "Введите значение",
+          "description": "Введите или вставьте — результаты мгновенно обновляются в разных представлениях."
         },
         {
           "number": "3",
-          "title": "Use the canvas",
-          "description": "Tap bits to flip them and see the value change live."
+          "title": "Используйте холст",
+          "description": "Нажимайте на биты, чтобы перевернуть их и увидеть изменение значения в реальном времени."
         },
         {
           "number": "4",
-          "title": "Copy or export",
-          "description": "One-tap copy, history, and batch convert when you need more."
+          "title": "Копировать или экспортировать",
+          "description": "Копирование одним касанием, история и пакетное преобразование, когда вам нужно больше."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Часто задаваемые вопросы",
+      "subtitle": "Быстрые ответы о функциях, конфиденциальности и выставлении счетов.",
+      "viewAllSupport": "Посмотреть полную поддержку и FAQ",
       "items": [
         {
-          "question": "What is Bit Scope?",
-          "answer": "Bit Scope is a bit-level calculator and converter for developers. It converts between binary, octal, decimal, and hex; supports IEEE 754 floats; includes bitwise operations; and bundles converters and (with Premium) utilities like CRC and hash."
+          "question": "Что такое Bit Scope?",
+          "answer": "Bit Scope — калькулятор и конвертер битового уровня для разработчиков. Он преобразует двоичные, восьмеричные, десятичные и шестнадцатеричные числа; поддерживает числа с плавающей запятой IEEE 754; включает побитовые операции; и объединяет конвертеры и (с Premium) утилиты, такие как CRC и хэш."
         },
         {
-          "question": "Is Bit Scope free?",
-          "answer": "Yes. The calculator, bitwise tools, converters, history, and learning examples are free. Premium is a one-time purchase that removes ads and unlocks the Utilities tab."
+          "question": "Bit Scope бесплатно?",
+          "answer": "Да. Калькулятор, побитовые инструменты, конвертеры, история и обучающие примеры бесплатны. Premium — это единоразовая покупка, которая убирает рекламу и открывает вкладку «Утилиты»."
         },
         {
-          "question": "Is Premium a subscription?",
-          "answer": "No. Premium is a one-time in-app purchase. Future Premium-only tools are included without a recurring fee."
+          "question": "Является ли Premium подпиской?",
+          "answer": "Нет. Premium — это единоразовая покупка в приложении. Будущие инструменты, предназначенные только для Premium, включены без регулярной платы."
         },
         {
-          "question": "Which platforms are supported?",
-          "answer": "iPhone and iPad (iOS). Android availability follows your Google Play listing. See store links on [zukiapps.com/bit-scope](https://zukiapps.com/bit-scope)."
+          "question": "Какие платформы поддерживаются?",
+          "answer": "iPhone и iPad (iOS). Наличие Android следует за вашим объявлением в Google Play. См. ссылки на магазины на странице [zukiapps.com/bit-scope](https://zukiapps.com/bit-scope)."
         },
         {
-          "question": "What languages are supported?",
-          "answer": "12 base languages with regional variants (e.g. en-US, pt-BR, zh-Hans). Hebrew and Arabic include full RTL layout."
+          "question": "Какие языки поддерживаются?",
+          "answer": "12 базовых языков с региональными вариантами (например, en-US, pt-BR, zh-Hans). Иврит и арабский язык включают полную раскладку RTL."
         },
         {
-          "question": "How do I open the bit canvas?",
-          "answer": "On the Calculator tab, open the bit grid preview or modal (tap the grid / bit visualization control). Tap any bit to toggle it; values update across all representations."
+          "question": "Как открыть битовый холст?",
+          "answer": "На вкладке «Калькулятор» откройте предварительный просмотр битовой сетки или модальное окно (коснитесь элемента управления визуализацией сетки/бита). Нажмите любой бит, чтобы переключить его; значения обновляются во всех представлениях."
         },
         {
-          "question": "What is MSB vs LSB bit order?",
-          "answer": "MSB lists bits from most significant to least. LSB reverses the visual order. Choose the view that matches your datasheet or protocol diagram."
+          "question": "Что такое порядок битов MSB и LSB?",
+          "answer": "MSB перечисляет биты от наиболее значимого к младшему. LSB меняет визуальный порядок. Выберите представление, соответствующее вашей таблице данных или диаграмме протокола."
         },
         {
-          "question": "What endianness settings do?",
-          "answer": "Big-endian stores the most significant byte first; little-endian stores the least significant byte first. Bit Scope shows how your integer maps to bytes for each mode."
+          "question": "Что делают настройки порядка байтов?",
+          "answer": "При обратном порядке байтов сначала сохраняется наиболее значимый байт; Little-endian сначала сохраняет младший байт. Bit Scope показывает, как целое число отображается в байты для каждого режима."
         },
         {
-          "question": "Can I use custom bit widths?",
-          "answer": "Yes. Select a preset (8, 16, 32, 64) or enter a custom width (within app limits) for masks and registers that are not power-of-two aligned."
+          "question": "Могу ли я использовать нестандартную разрядность?",
+          "answer": "Да. Выберите предустановку (8, 16, 32, 64) или введите пользовательскую ширину (в пределах ограничений приложения) для масок и регистров, которые не выровнены по степени двойки."
         },
         {
-          "question": "How does copy work?",
-          "answer": "Tap the copy icon on a result card or tool output. Text is copied without extra spaces (e.g. binary groups may be stripped per field). A checkmark confirms success."
+          "question": "Как работает копирование?",
+          "answer": "Коснитесь значка копирования на карточке результатов или выводе инструмента. Текст копируется без дополнительных пробелов (например, двоичные группы могут быть удалены для каждого поля). Галочка подтверждает успех."
         },
         {
-          "question": "Which tools are free vs Premium?",
-          "answer": "Free: Base64, color picker, timestamp, value comparator, batch converter—and all calculator features. Premium: CRC, hash, ASCII/Unicode viewer, QR generator, hex dump—and adding utility tools to custom widgets."
+          "question": "Какие инструменты бесплатны по сравнению с Premium?",
+          "answer": "Бесплатно: Base64, палитра цветов, метка времени, компаратор значений, пакетный преобразователь и все функции калькулятора. Premium: CRC, хэш, просмотрщик ASCII/Unicode, генератор QR, шестнадцатеричный дамп, а также добавление служебных инструментов в пользовательские виджеты."
         },
         {
-          "question": "Why does CRC say input is too large?",
-          "answer": "Very large inputs can exceed safe calculation limits on device. Shorten the input or split the data block. Bit Scope shows a clear message instead of failing silently."
+          "question": "Почему CRC говорит, что ввод слишком велик?",
+          "answer": "Очень большие входные данные могут превысить безопасные пределы вычислений на устройстве. Сократите ввод или разделите блок данных. Bit Scope показывает четкое сообщение, а не молчаливый сбой."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "Советы и рекомендации",
+      "subtitle": "Получите больше от приложения.",
       "items": [
         {
-          "title": "Calculator",
-          "description": "1. Set width before paste — Pasting `0xFFFF` into 16-bit mode behaves differently than 32-bit. 2. Endian toggle for protocol bugs — Flip BE/LE when a register looks “byte-swapped”. 3. Gray code — Use for encoder / rotary sensor homework or validation. 4. Float switch — Jump INT → F32 to decode IEEE 754 from the same bit pattern. 5. History export — Snapshot a debug session before clearing the chip"
+          "title": "Калькулятор",
+          "description": "1. Установите ширину перед вставкой. Вставка `0xFFFF` в 16-битный режим ведет себя иначе, чем в 32-битный. 2. Переключение порядка байтов для ошибок протокола — переключайте BE/LE, когда регистр выглядит «перемещенным байтом». 3. Код Грея — используется для домашней работы или проверки энкодера/поворотного датчика. 4. Плавающий переключатель — перейдите INT → F32 для декодирования IEEE 754 из того же бита pattern. 5. Экспорт истории — снимок сеанса отладки перед очисткой чипа."
         },
         {
-          "title": "Bit canvas",
-          "description": "6. Tap don't type — Mask tweaks (set bit 7) are faster on the grid than hex math. 7. Sign bit first — In signed 8-bit, bit 7 is your quick sanity check for negatives."
+          "title": "Битовый холст",
+          "description": "6. Коснитесь, не вводите — настройка маски (установка бита 7) выполняется быстрее в сетке, чем в шестнадцатеричных математических вычислениях. 7. Сначала подписывайте бит. В знаковых 8-битах бит 7 — это ваша быстрая проверка работоспособности на наличие негативов."
         },
         {
-          "title": "Copy workflow",
-          "description": "8. Checkmark = shipped — Wait for the icon before switching apps. 9. Paste once — Verify hex has no stray spaces before `gcc` or `xxd`."
+          "title": "Копирование рабочего процесса",
+          "description": "8. Галочка = отправлено. Прежде чем переключать приложения, дождитесь появления значка. 9. Вставьте один раз. Убедитесь, что в шестнадцатеричном формате нет лишних пробелов перед `gcc` или `xxd`."
         },
         {
-          "title": "Converters",
-          "description": "10. RAL colors — Firmware UI teams: match enclosure paint chips to RGB for docs. 11. Timestamp now — Tap current-time shortcut (if shown) for log correlation. 12. Comparator — Diff two hex constants side by side before merging branches."
+          "title": "Конвертеры",
+          "description": "10. Цвета RAL. Команды пользовательского интерфейса встроенного программного обеспечения: сопоставьте чипы краски корпуса с RGB для документов. 11. Временная метка сейчас — нажмите ярлык текущего времени (если отображается) для корреляции журналов. 12. Компаратор. Сравните две шестнадцатеричные константы рядом перед объединением ветвей."
         },
         {
-          "title": "Utilities (Premium)",
-          "description": "13. CRC test vectors — Keep `123456789` and `Hello` strings as mental benchmarks. 14. Hex dump import — Paste a snippet from `xxd` to inspect structure. 15. QR for Wi-Fi or URL — Field provisioning without a laptop."
+          "title": "Коммунальные услуги (Premium)",
+          "description": "13. Тестовые векторы CRC. Сохраняйте строки «123456789» и «Hello» в качестве мысленных ориентиров. 14. Импорт шестнадцатеричного дампа. Вставьте фрагмент из xxd, чтобы проверить структуру. 15. QR-код для Wi-Fi или URL-адреса — подготовка поля без ноутбука."
         },
         {
-          "title": "Widgets & layout",
-          "description": "16. Three-tool board — Calculator tab + Widgets with Timestamp + Base64 covers 80% of bring-up. 17. iPad rail — Landscape uses side navigation—more vertical space for hex dump."
+          "title": "Виджеты и макет",
+          "description": "16. Панель с тремя инструментами — вкладка «Калькулятор» + виджеты с отметкой времени + Base64 покрывают 80% содержимого. 17. Направляющая для iPad. В альбомной ориентации используется боковая навигация — больше места по вертикали для шестнадцатеричного дампа."
         },
         {
-          "title": "Settings",
-          "description": "18. Dark theme default — Easier on eyes during late firmware sessions; light for outdoor. 19. Language per device — System language vs in-app override for bilingual teams. 20. Learn tab — Send interns to Settings → Learn before asking about two's complement."
+          "title": "Настройки",
+          "description": "18. Темная тема по умолчанию — удобнее для глаз во время поздних сеансов прошивки; свет для улицы. 19. Язык для каждого устройства. Язык системы или переопределение внутри приложения для двуязычных команд. 20. Вкладка «Обучение» — отправьте стажеров в «Настройки» → «Узнайте, прежде чем спрашивать о дополнении к двум»."
         },
         {
           "title": "Premium",

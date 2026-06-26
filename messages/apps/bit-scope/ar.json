@@ -6,7 +6,9 @@
       "title": "Bit Scope - حاسبة البتات والأرقام",
       "subtitle": "مفتش ومحول على مستوى البت",
       "description": "مفتش ومحول قوي على مستوى البت للمطورين والمهندسين والطلاب. تصور واعمل وتحول الأرقام على مستوى البت عبر أنظمة الأرقام والتنسيقات المتعددة.",
-      "structuredDataDescription": "Bit Scope — bit-level calculator for developers and students on iOS and Android. Binary, octal, decimal, hex, IEEE 754, CRC32, hashes, bit canvas, batch convert, widgets. Android com.zuki.apps.bitscope by Zuki Apps."
+      "structuredDataDescription": "Bit Scope — آلة حاسبة على مستوى البت للمطورين والطلاب على iOS وAndroid. ثنائي، ثماني، عشري، سداسي عشري، IEEE 754، CRC32، التجزئة، قماش البت، تحويل الدُفعات، عناصر واجهة المستخدم. Android com.zuki.apps.bitscope بواسطة Zuki Apps.",
+      "seoTitle": "Bit Scope — أداة رقم المطور | Zuki Apps",
+      "metaDescription": "فحص البتات والقواعد والرياضيات الثنائية على الجهاز. بنيت للمطورين. مجانًا على iOS وAndroid."
     },
     "features": {
       "title": "الميزات الرئيسية",
@@ -65,7 +67,7 @@
         "description": "خيارات تكوين شاملة",
         "items": [
           "أوضاع موقعة/غير موقعة",
-          "Big Endian / Little Endian",
+          "إنديان الكبير / إنديان الصغير",
           "ترتيب البتات MSB / LSB",
           "تحويل في الوقت الفعلي"
         ]
@@ -100,54 +102,54 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "الدعم والمساعدة",
+      "subtitle": "نحن هنا للمساعدة! ابحث عن إجابات للأسئلة الشائعة أو اتصل بنا مباشرة.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "اتصل بنا",
+        "description": "هل لديك سؤال أو بحاجة إلى المساعدة؟ أرسل لنا بريدًا إلكترونيًا وسنقوم بالرد عليك في أقرب وقت ممكن.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "روابط سريعة",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "سياسة الخصوصية",
+          "description": "تعلم كيف نحمي بياناتك"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "شروط الخدمة",
+          "description": "اقرأ الشروط والأحكام الخاصة بنا"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "الأسئلة المتداولة",
         "q1": {
-          "question": "What number formats does Bit Scope support?",
-          "answer": "Bit Scope supports 8-bit, 16-bit, 32-bit, and 64-bit integers, as well as Float16, Float32, and Float64 floating-point formats with full IEEE 754 compliance."
+          "question": "ما هي تنسيقات الأرقام التي يدعمها Bit Scope؟",
+          "answer": "Bit Scope يدعم الأعداد الصحيحة 8 بت و16 بت و32 بت و64 بت، بالإضافة إلى تنسيقات الفاصلة العائمة Float16 وFloat32 وFloat64 مع الامتثال الكامل لـ IEEE 754."
         },
         "q2": {
-          "question": "Can I perform bitwise operations?",
-          "answer": "Yes! Bit Scope supports AND, OR, XOR, and NOT bitwise operations. You can use a second operand (B) to perform operations with your primary value (A)."
+          "question": "هل يمكنني إجراء عمليات bitwise؟",
+          "answer": "نعم! Bit Scope يدعم عمليات AND وOR وXOR وليس عمليات البت. يمكنك استخدام المعامل الثاني (B) لإجراء العمليات باستخدام القيمة الأساسية (A)."
         },
         "q3": {
-          "question": "What number bases are supported?",
-          "answer": "Bit Scope supports Binary (BIN), Octal (OCT), Decimal (DEC), and Hexadecimal (HEX) number bases. You can input and display values in any of these bases with real-time conversion."
+          "question": "ما هي قواعد الأرقام المدعومة؟",
+          "answer": "Bit Scope يدعم قواعد الأرقام الثنائية (BIN)، والأوكتال (OCT)، والعشري (DEC)، والسداسي العشري (HEX). يمكنك إدخال القيم وعرضها في أي من هذه القواعد من خلال التحويل في الوقت الفعلي."
         },
         "q4": {
-          "question": "Does Bit Scope work offline?",
-          "answer": "Yes! Bit Scope works completely offline. No internet connection is required. All calculations are performed locally on your device using BigInt for integers and IEEE 754 standards for floating-point numbers."
+          "question": "هل يعمل Bit Scope دون الاتصال بالإنترنت؟",
+          "answer": "نعم! Bit Scope يعمل دون اتصال بالإنترنت تمامًا. لا يلزم الاتصال بالإنترنت. يتم إجراء كافة العمليات الحسابية محليًا على جهازك باستخدام BigInt للأعداد الصحيحة ومعايير IEEE 754 لأرقام الفاصلة العائمة."
         },
         "q5": {
-          "question": "What is the IEEE 754 breakdown feature?",
-          "answer": "The IEEE 754 breakdown provides a visual representation of floating-point number components, showing the sign bit, exponent, and mantissa separately. This is helpful for understanding how floating-point numbers are stored and represented."
+          "question": "ما هي ميزة الانهيار IEEE 754؟",
+          "answer": "يوفر تفصيل IEEE 754 تمثيلاً مرئيًا لمكونات أرقام الفاصلة العائمة، مع إظهار بت الإشارة والأس والجزء العشري بشكل منفصل. وهذا مفيد لفهم كيفية تخزين أرقام الفاصلة العائمة وتمثيلها."
         },
         "q6": {
-          "question": "Can I change endianness and bit order?",
-          "answer": "Yes! Bit Scope allows you to switch between Big Endian (BE) and Little Endian (LE) byte ordering, as well as choose between MSB (Most Significant Bit) and LSB (Least Significant Bit) bit order for display."
+          "question": "هل يمكنني تغيير endianness وترتيب البت؟",
+          "answer": "نعم! Bit Scope يسمح لك بالتبديل بين ترتيب البايتات Big Endian (BE) و Little Endian (LE)، بالإضافة إلى الاختيار بين ترتيب البت MSB (البت الأكثر أهمية) وLSB (البت الأقل أهمية) للعرض."
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "هل تحتاج إلى المزيد من المساعدة؟",
+        "description": "إذا لم تتمكن من العثور على الإجابة التي تبحث عنها، أو إذا كنت تواجه مشكلة فنية، فلا تتردد في الاتصال بنا. نحن هنا للمساعدة ونرد عادةً خلال 24 إلى 48 ساعة."
       },
       "metaTitle": "الدعم والمساعدة — Bit Scope | Zuki Apps",
       "metaDescription": "Bit Scope FAQ والدعم — راسم الذبذبات وتحليل الإشارة. الاتصال والخصوصية واستكشاف الأخطاء وإصلاحها."
@@ -157,231 +159,231 @@
       "tagline": "جزء من Zuki Apps • مطور من إسرائيل • مصنوع بـ ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Bit Scope. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "شروط الاستخدام",
+      "lastUpdated": "آخر تحديث: يناير 2025",
+      "intro": "يرجى قراءة شروط الاستخدام هذه بعناية قبل استخدام Bit Scope. من خلال الوصول إلى خدمتنا أو استخدامها، فإنك توافق على الالتزام بهذه الشروط. إذا كنت لا توافق على هذه الشروط، يرجى عدم استخدام خدمتنا.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Bit Scope (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a bit-level calculator and number converter application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. قبول الشروط",
+        "content": "تحكم شروط الاستخدام هذه (\"الشروط\") وصولك إلى واستخدام Bit Scope (\"الخدمة\" أو \"التطبيق\" أو \"نحن\" أو \"نا\" أو \"خاصتنا\")، وهي آلة حاسبة على مستوى البت وتطبيق محول الأرقام الذي تديره Zuki Apps (\"الشركة\"). من خلال تنزيل الخدمة أو تثبيتها أو الوصول إليها أو استخدامها، فإنك توافق على الالتزام بهذه الشروط وسياسة الخصوصية الخاصة بنا.",
+        "content2": "إذا كنت تستخدم الخدمة نيابة عن مؤسسة، فإنك تقر وتضمن أن لديك السلطة لإلزام تلك المؤسسة بهذه الشروط."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Bit Scope is a mobile application that provides bit-level number inspection and conversion functionality. The Service includes:",
+        "title": "2. وصف الخدمة",
+        "content": "Bit Scope هو تطبيق للهاتف المحمول يوفر وظيفة فحص وتحويل الأرقام على مستوى البت. الخدمة تشمل:",
         "items": [
-          "Interactive bit editor with visual bit grid",
-          "Multiple number format support (8-bit, 16-bit, 32-bit, 64-bit integers and Float16, Float32, Float64)",
-          "Number base conversion (Binary, Octal, Decimal, Hexadecimal)",
-          "Bitwise operations (AND, OR, XOR, NOT)",
-          "IEEE 754 floating-point breakdown",
-          "Endianness and bit order configuration",
-          "Real-time conversion between formats and bases"
+          "محرر بت تفاعلي مع شبكة بت مرئية",
+          "دعم تنسيقات الأرقام المتعددة (الأعداد الصحيحة 8 بت، 16 بت، 32 بت، 64 بت وFloat16، Float32، Float64)",
+          "تحويل قاعدة الأرقام (ثنائي، ثماني، عشري، سداسي عشري)",
+          "العمليات الثنائية (AND، OR، XOR، NOT)",
+          "IEEE 754 انهيار الفاصلة العائمة",
+          "Endianness وتكوين ترتيب البت",
+          "التحويل في الوقت الحقيقي بين الصيغ والقواعد"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. معلومات الاتصال",
+        "content": "إذا كان لديك أي أسئلة حول هذه الشروط، يرجى الاتصال بنا:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36، سار، ص. 22805، إسرائيل"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "سياسة الخصوصية",
+      "lastUpdated": "آخر تحديث: يناير 2025",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Bit Scope is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+        "title": "1. المعلومات التي نجمعها",
+        "content": "Bit Scope تم تصميمه مع وضع الخصوصية في الاعتبار. نقوم بجمع الحد الأدنى من المعلومات اللازمة لتقديم الخدمة. يعمل التطبيق بشكل كامل دون اتصال بالإنترنت ويخزن جميع البيانات محليًا على جهازك."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. All calculations and conversions are performed locally on your device and are not transmitted to our servers."
+        "title": "2. كيف نستخدم معلوماتك",
+        "content": "نحن نستخدم المعلومات التي نجمعها لتوفير خدماتنا وصيانتها وتحسينها. يتم إجراء جميع الحسابات والتحويلات محليًا على جهازك ولا يتم نقلها إلى خوادمنا."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your calculation data remains on your device and is only accessible to you."
+        "title": "3. تبادل المعلومات",
+        "content": "نحن لا نبيع أو نتاجر أو ننقل معلوماتك الشخصية إلى أطراف ثالثة. تظل بيانات الحساب الخاصة بك على جهازك ولا يمكن لأحد سواك الوصول إليها."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+        "title": "4. أمن البيانات",
+        "content": "نحن ننفذ الإجراءات الأمنية المناسبة لحماية معلوماتك. يتم تخزين جميع البيانات محليًا على جهازك في الدليل الخاص بالتطبيق، والذي لا يمكن الوصول إليه بواسطة التطبيقات الأخرى."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your data at any time. You may also uninstall the app at any time, which will remove all locally stored data."
+        "title": "5. حقوقك",
+        "content": "لديك الحق في الوصول إلى بياناتك أو تحديثها أو حذفها في أي وقت. يمكنك أيضًا إلغاء تثبيت التطبيق في أي وقت، مما سيؤدي إلى إزالة جميع البيانات المخزنة محليًا."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. اتصل بنا",
+        "content": "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36، سار، ص. 22805، إسرائيل"
       },
       "metaDescription": "Bit Scope سياسة الخصوصية - كيف نتعامل مع بياناتك على iOS وAndroid."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "سمات",
+      "screenshots": "لقطات الشاشة",
+      "howTo": "كيفية الاستخدام",
+      "tips": "نصائح",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "تحميل"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Bit Scope - Bit & Number Calculator.",
-      "featuresTitle": "App screens",
+      "title": "لقطات الشاشة",
+      "subtitle": "شاشات التطبيق الحقيقية من Bit Scope - حاسبة البت والأرقام.",
+      "featuresTitle": "شاشات التطبيقات",
       "items": [
         {
-          "id": "calculator",
-          "title": "Calculator",
-          "description": "Convert and inspect values across number bases and bit widths.",
+          "id": "آلة حاسبة",
+          "title": "آلة حاسبة",
+          "description": "تحويل وفحص القيم عبر قواعد الأرقام وعرض البتات.",
           "image": "/images/bit-scope/screenshot-calculator.png",
-          "alt": "Calculator — bit scope",
-          "category": "features"
+          "alt": "الآلة الحاسبة — bit scope",
+          "category": "سمات"
         },
         {
-          "id": "canvas",
-          "title": "Bit canvas",
-          "description": "Flip bits on a live canvas and copy results in one tap.",
+          "id": "قماش",
+          "title": "قماش بت",
+          "description": "اقلب البتات على لوحة قماشية مباشرة وانسخ النتائج بنقرة واحدة.",
           "image": "/images/bit-scope/screenshot-canvas.png",
-          "alt": "Bit canvas — bit scope",
-          "category": "features"
+          "alt": "قطعة قماش — bit scope",
+          "category": "سمات"
         },
         {
-          "id": "converters",
-          "title": "Converters",
-          "description": "IEEE 754, CRC, hash, and more engineering utilities.",
+          "id": "المحولات",
+          "title": "المحولات",
+          "description": "IEEE 754، CRC، التجزئة، والمزيد من المرافق الهندسية.",
           "image": "/images/bit-scope/screenshot-converters.png",
-          "alt": "Converters — bit scope",
-          "category": "features"
+          "alt": "المحولات — bit scope",
+          "category": "سمات"
         },
         {
-          "id": "utilities",
-          "title": "Utilities",
-          "description": "Premium tools for power users — one-time unlock.",
+          "id": "المرافق",
+          "title": "المرافق",
+          "description": "Premium أدوات للمستخدمين المتميزين - فتح لمرة واحدة.",
           "image": "/images/bit-scope/screenshot-utilities.png",
-          "alt": "Utilities — bit scope",
-          "category": "features"
+          "alt": "المرافق — bit scope",
+          "category": "سمات"
         },
         {
-          "id": "widgets",
-          "title": "Widgets",
-          "description": "Home-screen widgets for quick conversions.",
+          "id": "الحاجيات",
+          "title": "الحاجيات",
+          "description": "أدوات الشاشة الرئيسية للتحويلات السريعة.",
           "image": "/images/bit-scope/screenshot-widgets.png",
-          "alt": "Widgets — bit scope",
-          "category": "features"
+          "alt": "الحاجيات — bit scope",
+          "category": "سمات"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "كيفية الاستخدام",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a format",
-          "description": "Choose binary, octal, decimal, or hex and your bit width."
+          "title": "اختر التنسيق",
+          "description": "اختر ثنائيًا أو ثمانيًا أو عشريًا أو سداسيًا وعرض البت الخاص بك."
         },
         {
           "number": "2",
-          "title": "Enter a value",
-          "description": "Type or paste — results update instantly across representations."
+          "title": "أدخل قيمة",
+          "description": "الكتابة أو اللصق — يتم تحديث النتائج فورًا عبر التمثيلات."
         },
         {
           "number": "3",
-          "title": "Use the canvas",
-          "description": "Tap bits to flip them and see the value change live."
+          "title": "استخدم القماش",
+          "description": "اضغط على البتات لقلبها ورؤية القيمة تتغير مباشرة."
         },
         {
           "number": "4",
-          "title": "Copy or export",
-          "description": "One-tap copy, history, and batch convert when you need more."
+          "title": "نسخ أو تصدير",
+          "description": "النسخ والتاريخ وتحويل الدفعة بنقرة واحدة عندما تحتاج إلى المزيد."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "الأسئلة المتداولة",
+      "subtitle": "إجابات سريعة حول الميزات والخصوصية والفواتير.",
+      "viewAllSupport": "عرض الدعم الكامل & FAQ",
       "items": [
         {
-          "question": "What is Bit Scope?",
-          "answer": "Bit Scope is a bit-level calculator and converter for developers. It converts between binary, octal, decimal, and hex; supports IEEE 754 floats; includes bitwise operations; and bundles converters and (with Premium) utilities like CRC and hash."
+          "question": "ما هو Bit Scope؟",
+          "answer": "Bit Scope عبارة عن آلة حاسبة ومحول على مستوى البت للمطورين. يقوم بالتحويل بين الثنائي والثماني والعشري والست عشري؛ يدعم عوامات IEEE 754؛ يتضمن عمليات bitwise؛ ومحولات الحزم وأدوات مساعدة (مع Premium) مثل CRC والتجزئة."
         },
         {
-          "question": "Is Bit Scope free?",
-          "answer": "Yes. The calculator, bitwise tools, converters, history, and learning examples are free. Premium is a one-time purchase that removes ads and unlocks the Utilities tab."
+          "question": "هل Bit Scope مجاني؟",
+          "answer": "نعم. الآلة الحاسبة وأدوات البت والمحولات والتاريخ وأمثلة التعلم مجانية. Premium عبارة عن عملية شراء لمرة واحدة تزيل الإعلانات وتفتح علامة التبويب \"الأدوات المساعدة\"."
         },
         {
-          "question": "Is Premium a subscription?",
-          "answer": "No. Premium is a one-time in-app purchase. Future Premium-only tools are included without a recurring fee."
+          "question": "هل Premium اشتراك؟",
+          "answer": "رقم Premium هي عملية شراء داخل التطبيق لمرة واحدة. المستقبل Premium-يتم تضمين الأدوات فقط دون رسوم متكررة."
         },
         {
-          "question": "Which platforms are supported?",
-          "answer": "iPhone and iPad (iOS). Android availability follows your Google Play listing. See store links on [zukiapps.com/bit-scope](https://zukiapps.com/bit-scope)."
+          "question": "ما هي المنصات المدعومة؟",
+          "answer": "آيفون وآيباد (iOS). Android التوفر يتبع قائمة Google Play الخاصة بك. شاهد روابط المتجر على [zukiapps.com/bit-scope](https://zukiapps.com/bit-scope)."
         },
         {
-          "question": "What languages are supported?",
-          "answer": "12 base languages with regional variants (e.g. en-US, pt-BR, zh-Hans). Hebrew and Arabic include full RTL layout."
+          "question": "ما هي اللغات المدعومة؟",
+          "answer": "12 لغة أساسية مع المتغيرات الإقليمية (مثل en-US وpt-BR وzh-Hans). تتضمن العبرية والعربية تخطيطًا كاملاً RTL."
         },
         {
-          "question": "How do I open the bit canvas?",
-          "answer": "On the Calculator tab, open the bit grid preview or modal (tap the grid / bit visualization control). Tap any bit to toggle it; values update across all representations."
+          "question": "كيف يمكنني فتح اللوحة القماشية الصغيرة؟",
+          "answer": "في علامة التبويب الحاسبة، افتح معاينة شبكة البت أو الشكل (انقر فوق عنصر التحكم في تصور الشبكة / البت). اضغط على أي جزء لتبديله. تحديث القيم عبر جميع التمثيلات."
         },
         {
-          "question": "What is MSB vs LSB bit order?",
-          "answer": "MSB lists bits from most significant to least. LSB reverses the visual order. Choose the view that matches your datasheet or protocol diagram."
+          "question": "ما هو ترتيب بت MSB مقابل LSB؟",
+          "answer": "يسرد MSB البتات من الأكثر أهمية إلى الأقل. يعكس LSB الترتيب المرئي. اختر طريقة العرض التي تطابق ورقة البيانات أو الرسم التخطيطي للبروتوكول."
         },
         {
-          "question": "What endianness settings do?",
-          "answer": "Big-endian stores the most significant byte first; little-endian stores the least significant byte first. Bit Scope shows how your integer maps to bytes for each mode."
+          "question": "ما هي إعدادات endianness تفعل؟",
+          "answer": "يقوم Big-endian بتخزين البايت الأكثر أهمية أولاً؛ يخزن Little-Endian البايت الأقل أهمية أولاً. Bit Scope يُظهر كيفية تعيين العدد الصحيح للبايتات لكل وضع."
         },
         {
-          "question": "Can I use custom bit widths?",
-          "answer": "Yes. Select a preset (8, 16, 32, 64) or enter a custom width (within app limits) for masks and registers that are not power-of-two aligned."
+          "question": "هل يمكنني استخدام عروض البت المخصصة؟",
+          "answer": "نعم. حدد إعدادًا مسبقًا (8، 16، 32، 64) أو أدخل عرضًا مخصصًا (ضمن حدود التطبيق) للأقنعة والسجلات غير المتوافقة مع قوة اثنين."
         },
         {
-          "question": "How does copy work?",
-          "answer": "Tap the copy icon on a result card or tool output. Text is copied without extra spaces (e.g. binary groups may be stripped per field). A checkmark confirms success."
+          "question": "كيف يعمل النسخ؟",
+          "answer": "اضغط على أيقونة النسخ الموجودة على بطاقة النتائج أو مخرجات الأداة. يتم نسخ النص بدون مسافات إضافية (على سبيل المثال، قد يتم تجريد المجموعات الثنائية لكل حقل). علامة اختيار تؤكد النجاح."
         },
         {
-          "question": "Which tools are free vs Premium?",
-          "answer": "Free: Base64, color picker, timestamp, value comparator, batch converter—and all calculator features. Premium: CRC, hash, ASCII/Unicode viewer, QR generator, hex dump—and adding utility tools to custom widgets."
+          "question": "ما هي الأدوات المجانية مقابل Premium؟",
+          "answer": "مجانًا: Base64، ومنتقي الألوان، والطابع الزمني، ومقارنة القيم، ومحول الدُفعات — وجميع ميزات الآلة الحاسبة. Premium: CRC، والتجزئة، وعارض ASCII/Unicode، ومولد QR، والتفريغ السداسي - وإضافة أدوات مساعدة إلى عناصر واجهة المستخدم المخصصة."
         },
         {
-          "question": "Why does CRC say input is too large?",
-          "answer": "Very large inputs can exceed safe calculation limits on device. Shorten the input or split the data block. Bit Scope shows a clear message instead of failing silently."
+          "question": "لماذا تقول CRC أن الإدخال كبير جدًا؟",
+          "answer": "يمكن أن تتجاوز المدخلات الكبيرة جدًا حدود الحساب الآمن على الجهاز. تقصير المدخلات أو تقسيم كتلة البيانات. Bit Scope يظهر رسالة واضحة بدلاً من الفشل بصمت."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "نصائح وحيل",
+      "subtitle": "احصل على المزيد من التطبيق.",
       "items": [
         {
-          "title": "Calculator",
-          "description": "1. Set width before paste — Pasting `0xFFFF` into 16-bit mode behaves differently than 32-bit. 2. Endian toggle for protocol bugs — Flip BE/LE when a register looks “byte-swapped”. 3. Gray code — Use for encoder / rotary sensor homework or validation. 4. Float switch — Jump INT → F32 to decode IEEE 754 from the same bit pattern. 5. History export — Snapshot a debug session before clearing the chip"
+          "title": "آلة حاسبة",
+          "description": "1. قم بتعيين العرض قبل اللصق - يتصرف لصق `0xFFFF` في وضع 16 بت بشكل مختلف عن 32 بت. 2. تبديل Endian لأخطاء البروتوكول - قم بقلب BE/LE عندما يبدو السجل \"مستبدل بالبايت\". 3. الرمز الرمادي - يستخدم للواجبات المنزلية لجهاز التشفير/المستشعر الدوار أو التحقق من الصحة. 4. المفتاح العائم — انتقل إلى INT → F32 لفك تشفير IEEE 754 من نفس البت pattern. 5. تصدير السجل — قم بالتقاط صورة لجلسة تصحيح الأخطاء قبل مسح الشريحة"
         },
         {
-          "title": "Bit canvas",
-          "description": "6. Tap don't type — Mask tweaks (set bit 7) are faster on the grid than hex math. 7. Sign bit first — In signed 8-bit, bit 7 is your quick sanity check for negatives."
+          "title": "قماش بت",
+          "description": "6. اضغط على \"لا تكتب\" - تعد تعديلات القناع (ضبط البت 7) أسرع على الشبكة من الرياضيات السداسية. 7. قم بتسجيل الدخول أولاً — في الإصدار 8 بت الموقع، فإن البت 7 هو التحقق السريع من سلامة الأمور بحثًا عن السلبيات."
         },
         {
-          "title": "Copy workflow",
-          "description": "8. Checkmark = shipped — Wait for the icon before switching apps. 9. Paste once — Verify hex has no stray spaces before `gcc` or `xxd`."
+          "title": "نسخ سير العمل",
+          "description": "8. علامة الاختيار = تم الشحن — انتظر ظهور الأيقونة قبل تبديل التطبيقات. 9. الصق مرة واحدة - تأكد من عدم وجود مسافات شاردة قبل `gcc` أو `xxd`."
         },
         {
-          "title": "Converters",
-          "description": "10. RAL colors — Firmware UI teams: match enclosure paint chips to RGB for docs. 11. Timestamp now — Tap current-time shortcut (if shown) for log correlation. 12. Comparator — Diff two hex constants side by side before merging branches."
+          "title": "المحولات",
+          "description": "10. ألوان RAL - فرق واجهة مستخدم البرامج الثابتة: قم بمطابقة رقائق طلاء العلبة مع RGB للمستندات. 11. الطابع الزمني الآن - اضغط على اختصار الوقت الحالي (إذا كان ظاهرًا) لارتباط السجل. 12. المقارنة — قم بالتمييز بين الثوابت السداسية جنبًا إلى جنب قبل دمج الفروع."
         },
         {
-          "title": "Utilities (Premium)",
-          "description": "13. CRC test vectors — Keep `123456789` and `Hello` strings as mental benchmarks. 14. Hex dump import — Paste a snippet from `xxd` to inspect structure. 15. QR for Wi-Fi or URL — Field provisioning without a laptop."
+          "title": "المرافق (Premium)",
+          "description": "13. متجهات اختبار CRC - احتفظ بالسلاسل \"123456789\" و\"Hello\" كمقاييس عقلية. 14. استيراد التفريغ السداسي - الصق مقتطفًا من `xxd` لفحص البنية. 15. QR لشبكة Wi-Fi أو URL - توفير الخدمة الميدانية بدون كمبيوتر محمول."
         },
         {
-          "title": "Widgets & layout",
-          "description": "16. Three-tool board — Calculator tab + Widgets with Timestamp + Base64 covers 80% of bring-up. 17. iPad rail — Landscape uses side navigation—more vertical space for hex dump."
+          "title": "الحاجيات والتخطيط",
+          "description": "16. لوحة مكونة من ثلاث أدوات — علامة تبويب الآلة الحاسبة + عناصر واجهة المستخدم ذات الطابع الزمني + Base64 تغطي 80% من عملية الإحضار. 17. iPad Rail - يستخدم الوضع الأفقي التنقل الجانبي - ومساحة عمودية أكبر للتفريغ السداسي."
         },
         {
-          "title": "Settings",
-          "description": "18. Dark theme default — Easier on eyes during late firmware sessions; light for outdoor. 19. Language per device — System language vs in-app override for bilingual teams. 20. Learn tab — Send interns to Settings → Learn before asking about two's complement."
+          "title": "إعدادات",
+          "description": "18. المظهر الافتراضي الداكن - يكون أكثر راحة للعين أثناء جلسات البرامج الثابتة المتأخرة؛ ضوء للخارجية. 19. اللغة لكل جهاز - تجاوز لغة النظام مقابل التجاوز داخل التطبيق للفرق ثنائية اللغة. 20. علامة التبويب \"تعلم\" — أرسل المتدربين إلى الإعدادات ← تعلم قبل السؤال عن تكملة لشخصين."
         },
         {
           "title": "Premium",

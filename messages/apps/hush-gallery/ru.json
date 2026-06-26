@@ -3,10 +3,12 @@
     "back": "Вернуться на главную",
     "hero": {
       "badge": "Доступно",
-      "title": "Hush Gallery - Hide Photos & Videos",
+      "title": "Hush Gallery - Скрыть фото и видео",
       "subtitle": "Приватная фотогалерея",
       "description": "Безопасное и приватное приложение для фотогалереи, которое позволяет хранить ваши личные фотографии в безопасности и порядке. С расширенными функциями конфиденциальности и интуитивным дизайном, это идеальное решение для защиты ваших воспоминаний.",
-      "structuredDataDescription": "Hush Gallery — private photo and video vault for iOS and Android. Hide media from WhatsApp and Photos via Share, organize with tags, PIN/biometric App Lock (Premium), optional iCloud/Google Drive backup. Package com.zuki.apps.hushGallery by Zuki Apps."
+      "structuredDataDescription": "Hush Gallery — личное хранилище фотографий и видео для iOS и Android. Скрывайте медиафайлы из WhatsApp и фотографий с помощью функции «Поделиться», организуйте их с помощью тегов, PIN-кода/биометрической блокировки приложений (Premium), дополнительного резервного копирования iCloud/Google Drive. Пакет com.zuki.apps.hushGallery от Zuki Apps.",
+      "seoTitle": "Hush Gallery — Частное хранилище фотографий | Zuki Apps",
+      "metaDescription": "Скройте фотографии и видео в личном хранилище. Блокировка PIN-кода, теги, импорт WhatsApp. Бесплатно на iOS и Android — скачайте прямо сейчас."
     },
     "features": {
       "title": "Ключевые функции",
@@ -36,6 +38,8 @@
         "items": [
           "Управление пользовательскими папками",
           "Инструменты организации медиа",
+          "Возможности поиска и фильтрации",
+          "Сохранение метаданных",
           "Возможности поиска и фильтрации",
           "Сохранение метаданных"
         ]
@@ -67,47 +71,48 @@
           "Импорт из системной галереи",
           "Экспорт обратно с метаданными",
           "Пакетные операции",
+          "Сохранение формата",
           "Сохранение формата"
         ]
       }
     },
     "businessUse": {
-      "title": "💼 Perfect for Business Use",
-      "description": "Are you a business owner who uses your phone for both work and personal life? Hush Gallery is the perfect solution to keep your business photos separate from your personal ones.",
+      "title": "💼 Идеально подходит для делового использования",
+      "description": "Вы владелец бизнеса и используете телефон как на работе, так и в личной жизни? Hush Gallery — идеальное решение, позволяющее хранить деловые фотографии отдельно от личных.",
       "benefits": {
-        "title": "Business Benefits",
+        "title": "Преимущества для бизнеса",
         "items": [
-          "Create dedicated tags for product photos, client documents, marketing materials, team photos, and financial documents",
-          "Never worry about accidentally showing personal photos during a business presentation",
-          "Keep work files separate from family memories",
-          "Access business photos during meetings without exposing personal content",
-          "Share business photos with colleagues without showing personal files"
+          "Создавайте специальные теги для фотографий продуктов, клиентских документов, маркетинговых материалов, фотографий команды и финансовых документов.",
+          "Никогда не беспокойтесь о случайном показе личных фотографий во время деловой презентации.",
+          "Храните рабочие файлы отдельно от семейных воспоминаний.",
+          "Доступ к деловым фотографиям во время встреч, не раскрывая личный контент",
+          "Делитесь деловыми фотографиями с коллегами, не показывая личные файлы"
         ]
       },
       "example": {
-        "title": "🎯 Real-World Example",
-        "description": "You run a small business and use your phone for everything. You take photos of products, receipts, client meetings, and also personal family photos. With Hush Gallery, you can:",
+        "title": "🎯 Пример из реальной жизни",
+        "description": "Вы управляете малым бизнесом и для всего используете свой телефон. Вы фотографируете продукцию, чеки, встречи с клиентами, а также личные семейные фотографии. С помощью Hush Gallery вы можете:",
         "items": [
-          "Create a \"Business\" tag for all work-related photos",
-          "Create a \"Personal\" tag for family photos",
-          "Keep them completely separate and secure",
-          "Access business photos during meetings without exposing personal content",
-          "Share business photos with colleagues without showing personal files"
+          "Создайте тег «Бизнес» для всех фотографий, связанных с работой.",
+          "Создайте тег «Личное» для семейных фотографий.",
+          "Держите их полностью отдельно и в безопасности",
+          "Доступ к деловым фотографиям во время встреч, не раскрывая личный контент",
+          "Делитесь деловыми фотографиями с коллегами, не показывая личные файлы"
         ]
       }
     },
     "howToUse": {
-      "title": "📱 How to Use",
+      "title": "📱 Как использовать",
       "steps": [
         {
           "number": "1",
-          "title": "Select Photos",
-          "description": "Select photos from any app (Gallery, WhatsApp, etc.)"
+          "title": "Выберите фотографии",
+          "description": "Выбирайте фотографии из любого приложения (Галерея, WhatsApp и т. д.)"
         },
         {
           "number": "2",
-          "title": "Share to Hush Gallery",
-          "description": "Tap \"Share\" and choose \"Hush Gallery\""
+          "title": "Поделиться с Hush Gallery",
+          "description": "Нажмите «Поделиться» и выберите «Hush Gallery»."
         },
         {
           "number": "3",
@@ -116,23 +121,23 @@
         },
         {
           "number": "4",
-          "title": "Organize with Tags",
-          "description": "Create tags to organize (Business, Personal, Family, etc.)"
+          "title": "Организуйте с помощью тегов",
+          "description": "Создавайте теги для организации («Деловой», «Личный», «Семейный» и т. д.)"
         },
         {
           "number": "5",
-          "title": "Secure Access",
-          "description": "Access with PIN or biometric authentication"
+          "title": "Безопасный доступ",
+          "description": "Доступ с помощью PIN-кода или биометрической аутентификации"
         }
       ]
     },
     "languages": {
-      "title": "🌍 Multi-Language Support",
-      "description": "Hush Gallery supports 12+ languages including English, עברית, Русский, العربية, Français, Italiano, Español, Português, 中文（简体）, Deutsch, 日本語, 한국어, and more."
+      "title": "🌍 Многоязычная поддержка",
+      "description": "Hush Gallery поддерживает более 12 языков, включая английский, עברית, русский, العربية, французский, итальянский, испанский, португальский, китайский, немецкий, 日本語, 한국어 и другие."
     },
     "privacyGuarantee": {
-      "title": "🔒 Privacy Guarantee",
-      "description": "Your privacy is our top priority. All files are stored securely in the app's private directory, we never access your files, and your data is never sold to third parties. Encryption feature coming soon."
+      "title": "🔒 Гарантия конфиденциальности",
+      "description": "Ваша конфиденциальность является нашим главным приоритетом. Все файлы надежно хранятся в личном каталоге приложения, мы никогда не получаем доступ к вашим файлам, а ваши данные никогда не продаются третьим лицам. Функция шифрования появится в ближайшее время."
     },
     "premium": {
       "title": "Премиум функции",
@@ -143,7 +148,8 @@
           "Базовая функциональность галереи",
           "Локальное хранилище",
           "Блокировка приложения (PIN)",
-          "Базовое управление папками"
+          "Базовое управление папками",
+          "Баннерная реклама (смотрите рекламу 24 часа без рекламы)"
         ]
       },
       "premium": {
@@ -175,12 +181,12 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "Скоро доступно",
-      "download": "Download",
+      "download": "Скачать",
       "appStoreUrl": "https://apps.apple.com/il/app/hush-gallery/id6756169045",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery",
-      "appIconAlt": "Hush Gallery App Icon",
-      "appStoreAlt": "Download on the App Store",
-      "googlePlayAlt": "Get it on Google Play"
+      "appIconAlt": "Hush Gallery Значок приложения",
+      "appStoreAlt": "Скачать на App Store",
+      "googlePlayAlt": "Получите это на Google Play"
     },
     "links": {
       "title": "Важные ссылки",
@@ -201,65 +207,65 @@
       "tagline": "Часть Zuki Apps • Разработчик из Израиля • Сделано с ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Hush Gallery. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "Условия эксплуатации",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
+      "intro": "Пожалуйста, внимательно прочтите настоящие Условия использования перед использованием Hush Gallery. Получая доступ к нашему сервису или используя его, вы соглашаетесь соблюдать эти условия. Если вы не согласны с этими условиями, пожалуйста, не используйте наш сервис.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Hush Gallery (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a private photo gallery application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. Принятие Условий",
+        "content": "Настоящие Условия использования («Условия») регулируют ваш доступ и использование Hush Gallery («Сервис», «Приложение», «мы», «нас» или «наш»), приложения для частной фотогалереи, которым управляет Zuki Apps («Компания»). Загружая, устанавливая, получая доступ к Сервису или используя его, вы соглашаетесь соблюдать настоящие Условия и нашу Политику конфиденциальности.",
+        "content2": "Если вы используете Сервис от имени организации, вы заявляете и гарантируете, что у вас есть полномочия обязать эту организацию соблюдать настоящие Условия."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Hush Gallery is a mobile application that allows users to store, organize, and manage photos and videos privately. The Service includes:",
+        "title": "2. Описание услуги",
+        "content": "Hush Gallery — это мобильное приложение, которое позволяет пользователям хранить, систематизировать и управлять фотографиями и видео в частном порядке. Услуга включает в себя:",
         "items": [
-          "Local-first photo and video storage",
-          "Optional encrypted cloud backup",
-          "Folder management and organization",
-          "App lock with PIN/password and biometric authentication",
-          "Import/export functionality",
-          "Premium features (as described in the app)"
+          "Локальное хранилище фото и видео",
+          "Дополнительное зашифрованное резервное копирование в облаке",
+          "Управление и организация папок",
+          "Блокировка приложения с помощью PIN-кода/пароля и биометрической аутентификации",
+          "Функционал импорта/экспорта",
+          "Premium функции (как описано в приложении)"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. Контактная информация",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящих Условий, свяжитесь с нами:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "политика конфиденциальности",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Hush Gallery is designed with privacy as a core principle. We collect minimal information necessary to provide the service. We collect information you provide directly to us, such as when you create an account (if using cloud backup), use our services, or contact us for support."
+        "title": "1. Информация, которую мы собираем",
+        "content": "Hush Gallery разработан с учетом конфиденциальности в качестве основного принципа. Мы собираем минимальную информацию, необходимую для предоставления услуги. Мы собираем информацию, которую вы предоставляете непосредственно нам, например, когда вы создаете учетную запись (при использовании облачного резервного копирования), используете наши услуги или обращаетесь к нам за поддержкой."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. Your photos and videos are stored locally on your device by default. If you choose to use cloud backup, your media is encrypted client-side before being stored."
+        "title": "2. Как мы используем вашу информацию",
+        "content": "Мы используем информацию, которую собираем, для предоставления, обслуживания и улучшения наших услуг. По умолчанию ваши фотографии и видео хранятся локально на вашем устройстве. Если вы решите использовать облачное резервное копирование, ваши медиафайлы шифруются на стороне клиента перед сохранением."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information or media to third parties without your consent, except as described in this policy. Your photos and videos remain private and are only accessible to you."
+        "title": "3. Обмен информацией",
+        "content": "Мы не продаем, не обмениваем и не передаем иным образом вашу личную информацию или носители третьим лицам без вашего согласия, за исключением случаев, описанных в настоящей политике. Ваши фотографии и видео остаются конфиденциальными и доступны только вам."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your personal information and media. All cloud backups are encrypted client-side before transmission. Local storage uses the app's private directory, which is not accessible by other apps."
+        "title": "4. Безопасность данных",
+        "content": "Мы реализуем соответствующие меры безопасности для защиты вашей личной информации и носителей. Все облачные резервные копии перед передачей шифруются на стороне клиента. Локальное хранилище использует личный каталог приложения, недоступный другим приложениям."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your personal information and media at any time. You can delete your account and all associated data through the app settings. You may also opt out of cloud backup at any time."
+        "title": "5. Ваши права",
+        "content": "Вы имеете право на доступ, обновление или удаление вашей личной информации и мультимедиа в любое время. Вы можете удалить свою учетную запись и все связанные с ней данные через настройки приложения. Вы также можете в любой момент отказаться от резервного копирования в облако."
       },
       "section6": {
-        "title": "6. Photo and Video Library Access",
-        "content": "Hush Gallery requires access to your device's photo library to allow you to import photos and videos. We only access your media when you explicitly choose to import it. All imported media is stored in the app's private directory and is not shared with third parties."
+        "title": "6. Доступ к фото- и видеобиблиотеке",
+        "content": "Hush Gallery требует доступа к библиотеке фотографий вашего устройства, чтобы вы могли импортировать фотографии и видео. Мы получаем доступ к вашим медиафайлам только в том случае, если вы явно решите их импортировать. Все импортированные медиафайлы хранятся в личном каталоге приложения и не передаются третьим лицам."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. Свяжитесь с нами",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящей Политики конфиденциальности, свяжитесь с нами по адресу:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       },
       "metaDescription": "Hush Gallery политика конфиденциальности — как мы обрабатываем ваши данные на iOS и Android."
     },
@@ -313,7 +319,7 @@
       }
     },
     "faq": {
-      "title": "Frequently Asked Questions",
+      "title": "Часто задаваемые вопросы",
       "subtitle": "Answers for users and search assistants about Hush Gallery features, privacy, and troubleshooting.",
       "viewAllSupport": "Full support page",
       "items": [
@@ -448,20 +454,20 @@
       ]
     },
     "screenshots": {
-      "title": "Screenshots & Guides",
+      "title": "Скриншоты и руководства",
       "subtitle": "Visual overview of Hush Gallery features and step-by-step flows.",
       "featuresTitle": "Features",
       "howToTitle": "How-to",
-      "onboardingTitle": "First launch tour",
-      "onboardingSubtitle": "Privacy, tags, and optional cloud backup explained before you import.",
+      "onboardingTitle": "Первый стартовый тур",
+      "onboardingSubtitle": "Перед импортом объясняется конфиденциальность, теги и дополнительное облачное резервное копирование.",
       "items": [
         {
-          "id": "gallery",
-          "title": "Private gallery grid",
+          "id": "галерея",
+          "title": "Сетка частной галереи",
           "description": "Browse photos and videos in a secure grid. Filter by tags, sort by date or size, and swipe to delete with undo.",
           "image": "/images/hush-gallery/screenshot-gallery.png",
           "alt": "Hush Gallery main photo grid with tag filters",
-          "category": "features"
+          "category": "функции"
         },
         {
           "id": "tags",
@@ -469,7 +475,7 @@
           "description": "Create tags like Business, Personal, or Family. Filter instantly and assign tags in batch selection mode.",
           "image": "/images/hush-gallery/screenshot-tags.png",
           "alt": "Hush Gallery tag management and filter chips",
-          "category": "features"
+          "category": "функции"
         },
         {
           "id": "lock",
@@ -477,7 +483,7 @@
           "description": "Protect your vault with PIN and Face ID / Touch ID. Auto-lock after inactivity.",
           "image": "/images/hush-gallery/screenshot-lock.png",
           "alt": "Hush Gallery PIN lock screen",
-          "category": "features"
+          "category": "функции"
         },
         {
           "id": "backup",
@@ -485,7 +491,7 @@
           "description": "Backup Now, auto backup, and restore from iCloud or Google Drive.",
           "image": "/images/hush-gallery/screenshot-backup.png",
           "alt": "Hush Gallery backup and restore settings",
-          "category": "features"
+          "category": "функции"
         },
         {
           "id": "settings",
@@ -493,7 +499,35 @@
           "description": "Security, backup, Premium, language, theme, and account in one place.",
           "image": "/images/hush-gallery/screenshot-settings.png",
           "alt": "Hush Gallery settings screen",
-          "category": "features"
+          "category": "функции"
+        },
+        {
+          "id": "premium",
+          "title": "Premium",
+          "description": "Единоразовая покупка: удаление рекламы, неограниченное количество тегов, блокировка приложений и доступ к резервному копированию в облаке.",
+          "alt": "Hush Gallery Premium экран обновления",
+          "category": "функции"
+        },
+        {
+          "id": "настройки",
+          "title": "Настройки",
+          "description": "Безопасность, шифрование, резервное копирование, Premium, язык, тема, учетная запись и информация в одном хабе.",
+          "alt": "Hush Gallery экран настроек",
+          "category": "функции"
+        },
+        {
+          "id": "регистрация-частная",
+          "title": "Частный и безопасный",
+          "description": "Регистрация при первом запуске: ваши медиафайлы останутся на вашем устройстве, пока вы не включите резервное копирование.",
+          "alt": "Hush Gallery подключение частного хранилища",
+          "category": "адаптация"
+        },
+        {
+          "id": "онбординг-теги",
+          "title": "Организуйте с помощью тегов",
+          "description": "В разделе «Онбординг» объясняются пользовательские теги для фильтрации и группировки фотографий и видео.",
+          "alt": "Hush Gallery теги онбординга",
+          "category": "адаптация"
         }
       ]
     },
@@ -506,7 +540,8 @@
           "steps": [
             "Open Hush Gallery → tap + → Import from Gallery.",
             "Select photos/videos → confirm import.",
-            "Optional: delete originals when prompted."
+            "Optional: delete originals when prompted.",
+            "Нажмите + в галерее, чтобы импортировать свои первые фотографии или видео."
           ]
         },
         {
@@ -514,7 +549,8 @@
           "steps": [
             "Select media in Photos, WhatsApp, etc.",
             "Tap Share → Hush Gallery.",
-            "Open Hush Gallery and complete import."
+            "Open Hush Gallery and complete import.",
+            "Проведите пальцем по строке влево, чтобы удалить ее; Отмена появляется перед окончательным удалением."
           ]
         },
         {
@@ -522,7 +558,8 @@
           "steps": [
             "Upgrade to Premium if needed.",
             "Settings → Security → App Lock → set PIN.",
-            "Enable biometric unlock and auto-lock timeout."
+            "Enable biometric unlock and auto-lock timeout.",
+            "Из других приложений: «Поделиться» → Hush Gallery, затем откройте Hush Gallery для завершения."
           ]
         },
         {
@@ -530,7 +567,60 @@
           "steps": [
             "Settings → Backup → Backup Now (Premium).",
             "Enable Auto Backup for scheduled sync.",
-            "On new device: Restore from Backup after sign-in."
+            "On new device: Restore from Backup after sign-in.",
+            "Экспорт в галерею копирует элементы обратно в системное приложение «Фотографии»."
+          ]
+        },
+        {
+          "title": "5. Теги",
+          "steps": [
+            "Создавайте теги из меню панели тегов или во время импорта.",
+            "Назначьте несколько тегов для каждого элемента.",
+            "Нажмите и удерживайте чип тега, чтобы переименовать, изменить порядок или удалить.",
+            "Уровень бесплатного пользования: до 5 тегов; Premium: неограниченно."
+          ]
+        },
+        {
+          "title": "6. Блокировка приложения (Premium)",
+          "steps": [
+            "Настройки → Безопасность → Блокировка приложений.",
+            "Установите 4- или 6-значный PIN-код; включите Face ID/Touch ID, если доступно.",
+            "Выберите автоматическую блокировку: немедленно, через 1, 5 или 15 минут.",
+            "Забыли PIN-код? Используйте «Восстановить PIN-код», если вы сохранили резервную копию PIN-кода при входе в систему."
+          ]
+        },
+        {
+          "title": "7. Шифрование",
+          "steps": [
+            "Настройки → Шифрование, чтобы включить дополнительное шифрование на диске.",
+            "Ключ шифрования хранится в безопасном анклаве/хранилище ключей устройства.",
+            "Если этот параметр включен, медиафайлы шифруются перед записью локально."
+          ]
+        },
+        {
+          "title": "8. Резервное копирование в облаке (Premium)",
+          "steps": [
+            "Войдите в систему в разделе «Настройки» → «Учетная запись», когда будет предложено.",
+            "Настройки → Резервное копирование → Резервное копирование сейчас для синхронизации вручную.",
+            "Включите автоматическое резервное копирование и частоту напоминаний, если предлагается.",
+            "Новое устройство: войдите в систему и нажмите «Восстановить из настроек» или приглашение при первом запуске."
+          ]
+        },
+        {
+          "title": "9. Premium и реклама",
+          "steps": [
+            "Откройте Premium в настройках или на баннере галереи.",
+            "Разовая покупка удаляет рекламу и открывает Premium функций.",
+            "Восстановите покупки с тем же Apple ID или учетной записью Google.",
+            "Уровень бесплатного пользования: смотрите рекламу с вознаграждением в течение временного периода без рекламы (если она предлагается)."
+          ]
+        },
+        {
+          "title": "10. Расширение общего доступа (iOS)",
+          "steps": [
+            "В приложении «Фото» выберите объекты → Поделиться → Hush Gallery.",
+            "Расширение размещает файлы; откройте Hush Gallery для импорта.",
+            "Если импорт не появился, откройте приложение вручную — импорт запускается при запуске."
           ]
         }
       ]
@@ -593,51 +683,51 @@
       "metaDescription": "Hush Gallery FAQ и поддержка — частная фото и видео галерея. Контакты, конфиденциальность и устранение неполадок."
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get the most from your private gallery.",
+      "title": "Советы и рекомендации",
+      "subtitle": "Получите максимум от своей частной галереи.",
       "items": [
         {
-          "title": "Hide from WhatsApp fast",
-          "description": "Long-press a photo in WhatsApp → Share → Hush Gallery. Faster than saving to Camera Roll first."
+          "title": "Быстро спрятаться от WhatsApp",
+          "description": "Нажмите и удерживайте фотографию в WhatsApp → Поделиться → Hush Gallery. Быстрее, чем сначала сохранить в Фотопленку."
         },
         {
-          "title": "Use tags early",
-          "description": "Create tags when you import so filtering stays easy as your vault grows."
+          "title": "Используйте теги заранее",
+          "description": "Создавайте теги при импорте, чтобы фильтрация оставалась простой по мере роста вашего хранилища."
         },
         {
-          "title": "Short auto-lock",
-          "description": "Set App Lock to Immediately or 1 minute if you hand your phone to others often."
+          "title": "Короткая автоблокировка",
+          "description": "Установите для блокировки приложений значение «Немедленно» или «1 минуту», если вы часто передаете свой телефон другим людям."
         },
         {
-          "title": "Backup before a new phone",
-          "description": "Run Backup Now before replacing your device; restore after signing in on the new install."
+          "title": "Резервное копирование перед новым телефоном",
+          "description": "Запустите Backup Now перед заменой устройства; восстановить после входа в систему при новой установке."
         },
         {
-          "title": "Export without losing vault copy",
-          "description": "Export to Gallery copies files out; originals remain in Hush Gallery until you delete them."
+          "title": "Экспортируйте без потери копии хранилища",
+          "description": "Экспорт в галерею копирует файлы; оригиналы остаются в Hush Gallery, пока вы их не удалите."
         },
         {
-          "title": "Restore purchases",
-          "description": "Reinstalled? Premium → Restore purchases with the same store account."
+          "title": "Восстановление покупок",
+          "description": "Переустановил? Premium → Восстановить покупки с той же учетной записью магазина."
         },
         {
-          "title": "12 languages + RTL",
-          "description": "Settings → Language includes Hebrew and Arabic with full RTL layout support."
+          "title": "12 языков + RTL",
+          "description": "Настройки → Язык включает иврит и арабский язык с полной поддержкой раскладки RTL."
         },
         {
-          "title": "Send feedback in-app",
+          "title": "Отправить отзыв в приложении",
           "description": "Settings → About → Send feedback, or email zuki.apps.dev@gmail.com before leaving a store review."
         }
       ]
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to",
-      "manual": "Manual",
-      "tips": "Tips",
+      "features": "Функции",
+      "screenshots": "Скриншоты",
+      "howTo": "Как",
+      "manual": "Руководство",
+      "tips": "Советы",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Скачать"
     }
   }
 }

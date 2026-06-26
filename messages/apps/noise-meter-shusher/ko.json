@@ -1,298 +1,300 @@
 {
   "noiseMeterShusher": {
-    "back": "Back to Home",
+    "back": "홈으로 돌아가기",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Noise Meter — Shusher",
-      "subtitle": "Real-time dB & noise scoring",
-      "description": "Flutter app that streams microphone input into approximate decibel readings, runs timed measurement sessions, scores the environment against common noise bands, saves history on device, and offers CSV export and charts. Monetization via ads and a one-time Premium unlock for extended features.",
-      "structuredDataDescription": "Noise Meter — Shusher — real-time decibel meter for iOS and Android. Live sound level, timed sessions, noise scores, on-device history, Shusher in-app alerts, optional Premium charts and CSV export. Android com.zuki.apps.noisemeter by Zuki Apps."
+      "title": "소음 측정기 - Shusher",
+      "subtitle": "실시간 dB 및 소음 채점",
+      "description": "마이크 입력을 대략적인 데시벨 판독값으로 스트리밍하고, 시간 제한 측정 세션을 실행하고, 일반적인 소음 대역에 대해 환경 점수를 매기고, 기기에 기록을 저장하고, CSV 내보내기 및 차트를 제공하는 Flutter 앱입니다. 광고를 통한 수익 창출 및 확장 기능에 대한 일회성 Premium 잠금 해제.",
+      "structuredDataDescription": "소음 측정기 — Shusher — iOS 및 Android에 대한 실시간 데시벨 측정기. 실시간 사운드 레벨, 시간 제한 세션, 소음 점수, 기기 내 기록, Shusher 인앱 알림, 옵션 Premium 차트 및 CSV 내보내기. Android com.zuki.apps.noisemeter by Zuki Apps.",
+      "seoTitle": "소음 측정기 - 데시벨 및 Shusher | Zuki Apps",
+      "metaDescription": "dB 미터 및 기록으로 어디서나 소음 수준을 측정하세요. 계정이 없습니다. iOS 및 Android에서는 무료입니다."
     },
     "features": {
-      "title": "Key Features",
+      "title": "주요 특징",
       "meter": {
-        "title": "Live meter",
-        "description": "Start and stop timed sessions; see min, max, average, and category labels with plain-language recommendations.",
+        "title": "라이브 미터",
+        "description": "시간 제한 세션을 시작하고 중지합니다. 일반 언어 추천으로 최소, 최대, 평균 및 카테고리 라벨을 확인하세요.",
         "items": [
-          "Approximate dB from the microphone",
-          "Noise score and category bands",
-          "Share-friendly results"
+          "마이크의 대략적인 dB",
+          "소음 점수 및 카테고리 밴드",
+          "공유 친화적인 결과"
         ]
       },
       "history": {
-        "title": "History & export",
-        "description": "Past sessions stay on your device; export CSV or share summaries when you choose.",
+        "title": "역사 및 수출",
+        "description": "지난 세션은 기기에 남아 있습니다. 원하는 경우 CSV를 내보내거나 요약을 공유할 수 있습니다.",
         "items": [
-          "Local history list",
-          "CSV export",
-          "Share sheet integration"
+          "지역 역사 목록",
+          "CSV 내보내기",
+          "공유 시트 통합"
         ]
       },
       "premium": {
-        "title": "Premium & charts",
-        "description": "Unlock longer or custom durations and richer charts where enabled in the app.",
+        "title": "Premium 및 차트",
+        "description": "앱에서 활성화된 경우 더 길거나 사용자 정의된 기간과 더 풍부한 차트를 잠금 해제하세요.",
         "items": [
-          "Premium removes certain limits",
-          "Visual charts for trends",
-          "Ad experience may differ by tier"
+          "Premium 특정 제한을 제거합니다.",
+          "추세에 대한 시각적 차트",
+          "광고 경험은 계층에 따라 다를 수 있습니다."
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "유효성",
       "description": "iOS and Android. Android application ID: com.zuki.apps.noisemeter. Store links appear when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "버전",
+      "status": "플랫폼",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "다운로드",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/noise-meter-shusher/id6763019075",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "App Store에서 다운로드하세요.",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.noisemeter",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "시작해 보세요 Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "중요한 링크",
       "support": {
-        "title": "Technical Support",
+        "title": "기술지원",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Noise Meter — Shusher. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "title": "이용약관",
+      "lastUpdated": "최종 업데이트 날짜: 2026년 4월",
+      "intro": "소음 측정기 - Shusher를 사용하기 전에 본 이용 약관을 주의 깊게 읽으십시오. 당사 서비스에 액세스하거나 이를 사용함으로써 귀하는 본 약관을 준수할 것에 동의하게 됩니다. 동의하지 않으시면 앱을 사용하지 마세요.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Noise Meter — Shusher (\"Service\", \"App\"), a microphone-based noise measurement application operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+        "title": "1. 약관 동의",
+        "content": "본 약관은 Zuki Apps에서 운영하는 마이크 기반 소음 측정 애플리케이션인 소음 측정기 Shusher(\"서비스\", \"앱\")에 대한 액세스 및 사용에 적용됩니다. 서비스를 다운로드, 설치, 액세스 또는 사용함으로써 귀하는 본 약관 및 개인정보 보호정책에 동의하게 됩니다.",
+        "content2": "귀하가 조직을 대신하여 서비스를 사용하는 경우 귀하는 해당 조직을 구속할 권한이 있음을 진술합니다."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "The app provides approximate sound-level readings and related statistics for informational purposes. The Service includes:",
+        "title": "2. 서비스 설명",
+        "content": "이 앱은 정보 제공 목적으로 대략적인 소음 수준 판독값과 관련 통계를 제공합니다. 서비스에는 다음이 포함됩니다.",
         "items": [
-          "Timed measurement sessions and noise scoring",
-          "Local history and optional export or sharing initiated by you",
-          "Optional Premium features and advertising as described in-app",
-          "Charts and UI that may vary by platform and version"
+          "시간 측정 세션 및 소음 채점",
+          "귀하가 시작한 로컬 기록 및 선택적 내보내기 또는 공유",
+          "앱 내 설명에 따른 선택적 Premium 기능 및 광고",
+          "플랫폼 및 버전에 따라 다를 수 있는 차트 및 UI"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. 연락처 정보",
+        "content": "본 약관에 관한 질문:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "개인 정보 보호 정책",
+      "lastUpdated": "최종 업데이트 날짜: 2026년 4월",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The app uses the device microphone to measure sound while you run a session. Measurement results and history are stored locally unless you export or share them. Advertising and optional analytics SDKs may collect limited device or usage data per their policies and your OS settings (e.g. App Tracking Transparency on iOS)."
+        "title": "1. 당사가 수집하는 정보",
+        "content": "앱은 세션을 실행하는 동안 장치 마이크를 사용하여 소리를 측정합니다. 측정 결과 및 기록은 내보내거나 공유하지 않는 한 로컬에 저장됩니다. 광고 및 선택적 분석 SDK는 해당 정책 및 OS 설정(예: iOS의 앱 추적 투명성)에 따라 제한된 장치 또는 사용 데이터를 수집할 수 있습니다."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "Audio is processed to derive level estimates and scores; we do not use it for unrelated voice recognition on your speech content as a default product feature. Aggregated diagnostics may help improve stability when enabled."
+        "title": "2. 당사가 귀하의 정보를 사용하는 방법",
+        "content": "레벨 추정치와 점수를 도출하기 위해 오디오가 처리됩니다. 우리는 기본 제품 기능으로 음성 콘텐츠에 대한 관련 없는 음성 인식을 위해 이를 사용하지 않습니다. 집계된 진단을 활성화하면 안정성을 향상시키는 데 도움이 될 수 있습니다."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Data leaves your device when you share or export, when required by law, or when third-party services (ads, stores, analytics) process data as part of normal operation."
+        "title": "3. 정보 공유",
+        "content": "우리는 귀하의 개인 정보를 판매하지 않습니다. 데이터는 귀하가 공유하거나 내보낼 때, 법적으로 요구되는 경우 또는 제3자 서비스(광고, 매장, 분석)가 정상적인 작업의 일부로 데이터를 처리할 때 귀하의 장치에서 나옵니다."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "Use a device passcode and current OS updates. Uninstalling the app removes app-local data subject to OS behavior."
+        "title": "4. 데이터 보안",
+        "content": "장치 비밀번호와 현재 OS 업데이트를 사용하세요. 앱을 제거하면 OS 동작에 따라 앱 로컬 데이터가 제거됩니다."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You may clear history in-app, revoke microphone permission in system settings, or uninstall the app. Contact us for privacy requests applicable in your region."
+        "title": "5. 귀하의 권리",
+        "content": "앱 내 기록을 삭제하거나, 시스템 설정에서 마이크 권한을 취소하거나, 앱을 제거할 수 있습니다. 귀하의 지역에 적용되는 개인 정보 보호 요청에 대해서는 당사에 문의하십시오."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. 문의하기",
+        "content": "본 개인정보 보호정책에 관한 질문:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       },
       "metaDescription": "소음 측정기 — Shusher — 데시벨 및 소음 점수 앱에 대한 개인 정보 보호 정책. 마이크 오디오, 지역 기록, 광고 및 분석이 처리되는 방식입니다."
     },
     "footer": {
-      "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 소음 측정기 — Shusher - 판권 소유",
+      "tagline": "Zuki Apps의 일부 • 이스라엘의 개발자 • ❤️로 제작됨"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "특징",
+      "screenshots": "스크린샷",
+      "howTo": "사용방법",
+      "tips": "팁",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "다운로드"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Noise Meter — Shusher.",
-      "featuresTitle": "App screens",
+      "title": "스크린샷",
+      "subtitle": "Noise Meter — Shusher의 실제 앱 화면.",
+      "featuresTitle": "앱 화면",
       "items": [
         {
-          "id": "live-meter",
-          "title": "Live sound meter",
-          "description": "Real-time dB gauge and waveform while you measure.",
+          "id": "라이브 미터",
+          "title": "라이브 사운드 미터",
+          "description": "측정하는 동안 실시간 dB 게이지 및 파형.",
           "image": "/images/noise-meter-shusher/screenshot-live-meter.png",
-          "alt": "Live sound meter — noise meter shusher",
-          "category": "features"
+          "alt": "라이브 사운드 미터 - 소음 측정기 슈셔",
+          "category": "특징"
         },
         {
-          "id": "results",
-          "title": "Session results",
-          "description": "Average, min, max, noise category, and tips after each session.",
+          "id": "결과",
+          "title": "세션 결과",
+          "description": "각 세션 후 평균, 최소, 최대, 소음 범주 및 팁.",
           "image": "/images/noise-meter-shusher/screenshot-results.png",
-          "alt": "Session results — noise meter shusher",
-          "category": "features"
+          "alt": "세션 결과 — 소음 측정기 슈셔",
+          "category": "특징"
         },
         {
-          "id": "shusher",
-          "title": "Shusher alerts",
-          "description": "Set a threshold and get in-app nudges when noise crosses your line.",
+          "id": "슈셔",
+          "title": "슈셔 알림",
+          "description": "임계값을 설정하고 노이즈가 선을 넘을 때 인앱 넛지를 받으세요.",
           "image": "/images/noise-meter-shusher/screenshot-shusher.png",
-          "alt": "Shusher alerts — noise meter shusher",
-          "category": "features"
+          "alt": "Shusher 경고 - 소음 측정기 Shusher",
+          "category": "특징"
         },
         {
-          "id": "history",
-          "title": "History",
-          "description": "Compare rooms and times — data stays on your device.",
+          "id": "역사",
+          "title": "역사",
+          "description": "객실과 시간을 비교하세요. 데이터는 기기에 보관됩니다.",
           "image": "/images/noise-meter-shusher/screenshot-history.png",
-          "alt": "History — noise meter shusher",
-          "category": "features"
+          "alt": "역사 - 소음 측정기 슈셔",
+          "category": "특징"
         },
         {
           "id": "premium",
           "title": "Premium",
-          "description": "Longer sessions, charts, CSV export, themes, and no ads.",
+          "description": "더 긴 세션, 차트, CSV 내보내기, 테마, 광고 없음.",
           "image": "/images/noise-meter-shusher/screenshot-premium.png",
-          "alt": "Premium — noise meter shusher",
-          "category": "features"
+          "alt": "Premium — 소음 측정기 슈셔",
+          "category": "특징"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "사용방법",
       "steps": [
         {
           "number": "1",
-          "title": "Allow microphone",
-          "description": "Grant mic access when prompted so the app can estimate ambient level."
+          "title": "마이크 허용",
+          "description": "앱이 주변 수준을 추정할 수 있도록 메시지가 표시되면 마이크 액세스 권한을 부여하세요."
         },
         {
           "number": "2",
-          "title": "Start measuring",
-          "description": "Watch the live meter or tap Start measurement for a timed session."
+          "title": "측정 시작",
+          "description": "실시간 측정기를 보거나 시간이 지정된 세션을 위해 측정 시작을 탭하세요."
         },
         {
           "number": "3",
-          "title": "Read your score",
-          "description": "See average, category, and recommendations on the results screen."
+          "title": "점수 읽기",
+          "description": "결과 화면에서 평균, 카테고리, 추천을 확인하세요."
         },
         {
           "number": "4",
-          "title": "Save or share",
-          "description": "Add to History or share a clean results graphic with a label."
+          "title": "저장 또는 공유",
+          "description": "기록에 추가하거나 라벨과 함께 깔끔한 결과 그래픽을 공유하세요."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "자주 묻는 질문",
+      "subtitle": "기능, 개인정보 보호, 청구에 대한 빠른 답변.",
+      "viewAllSupport": "전체 지원 보기 & FAQ",
       "items": [
         {
-          "question": "What is Noise Meter — Shusher?",
-          "answer": "A mobile app that estimates ambient sound level using your phone’s microphone, runs timed measurement sessions, scores the environment, saves history on device, and optionally alerts you in-app when noise exceeds a threshold (Shusher)."
+          "question": "소음 측정기 - Shusher란 무엇입니까?",
+          "answer": "휴대폰의 마이크를 사용하여 주변 소음 수준을 추정하고, 시간에 따른 측정 세션을 실행하고, 환경 점수를 매기고, 기기에 기록을 저장하고, 선택적으로 소음이 임계값을 초과할 때 앱 내에서 경고하는 모바일 앱입니다(Shusher)."
         },
         {
-          "question": "Is it free?",
-          "answer": "Yes. Core metering, sessions, Shusher, and limited history are free. Premium is a one-time upgrade for charts, CSV export, longer sessions, themes, more history, and no ads."
+          "question": "무료인가요?",
+          "answer": "예. 코어 미터링, 세션, Shusher 및 제한된 기록은 무료입니다. Premium는 차트, CSV 내보내기, 더 긴 세션, 테마, 더 많은 기록을 위한 일회성 업그레이드이며 광고가 없습니다."
         },
         {
-          "question": "iPhone or Android?",
-          "answer": "Both. Bundle ID: `com.zuki.apps.noisemeter`."
+          "question": "아이폰 아니면 Android?",
+          "answer": "둘 다. 번들 ID: `com.zuki.apps.noisemeter`."
         },
         {
-          "question": "What languages are supported?",
-          "answer": "12 locales including English, Hebrew, Arabic, French, German, Italian, Japanese, Korean, Chinese, Portuguese, Russian, and Spanish. Change language in Settings."
+          "question": "어떤 언어가 지원되나요?",
+          "answer": "영어, 히브리어, 아랍어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어, 중국어, 포르투갈어, 러시아어, 스페인어를 포함한 12개 로케일. 설정에서 언어를 변경하세요."
         },
         {
-          "question": "How accurate is the decibel reading?",
-          "answer": "It is an approximate level based on consumer phone hardware. Position, case, wind, and device model all affect results. Not calibrated for professional SPL, OSHA, or legal noise-ordinance enforcement."
+          "question": "데시벨 수치는 얼마나 정확합니까?",
+          "answer": "소비자 휴대폰 하드웨어를 기준으로 한 대략적인 수준입니다. 위치, 케이스, 바람 및 장치 모델이 모두 결과에 영향을 미칩니다. 전문 SPL, OSHA 또는 법적 소음 규제 시행에 맞게 보정되지 않았습니다."
         },
         {
-          "question": "Why does my reading differ from a real sound meter?",
-          "answer": "Professional meters use calibrated microphones and specific measurement standards. Phones are tuned for speech and vary by manufacturer."
+          "question": "측정값이 실제 소음 측정기와 다른 이유는 무엇입니까?",
+          "answer": "전문 미터는 보정된 마이크와 특정 측정 표준을 사용합니다. 전화기는 음성에 맞게 조정되어 있으며 제조업체에 따라 다릅니다."
         },
         {
-          "question": "Can I use this in a dispute with a neighbor or landlord?",
-          "answer": "Use readings as informal context only. For legal or compliance matters, hire a qualified acoustician with calibrated equipment."
+          "question": "이웃이나 집주인과의 분쟁에서 이것을 사용할 수 있습니까?",
+          "answer": "비공식적인 맥락으로만 판독값을 사용하십시오. 법적 또는 규정 준수 담당자의 경우 보정된 장비를 갖춘 자격을 갖춘 음향 전문가를 고용하세요."
         },
         {
-          "question": "Does the app record or upload audio?",
-          "answer": "No continuous recording or cloud upload of raw audio. The app processes level data locally for metering and sessions."
+          "question": "앱이 오디오를 녹음하거나 업로드하나요?",
+          "answer": "원시 오디오의 지속적인 녹음이나 클라우드 업로드가 없습니다. 앱은 측정 및 세션을 위해 로컬에서 레벨 데이터를 처리합니다."
         },
         {
-          "question": "When is the microphone active?",
-          "answer": "While the app is open and metering or running a session—not as a background listener."
+          "question": "마이크는 언제 활성화되나요?",
+          "answer": "앱이 열려 있고 세션을 측정하거나 실행하는 동안(백그라운드 리스너로 사용되지 않음)"
         },
         {
-          "question": "Why does iOS ask for tracking (ATT)?",
-          "answer": "Free tier uses ads. Apple requires permission before personalized ad tracking. Premium removes ads."
+          "question": "iOS가 추적(ATT)을 요청하는 이유는 무엇인가요?",
+          "answer": "무료 등급은 광고를 사용합니다. Apple에서는 개인화된 광고를 추적하기 전에 허가가 필요합니다. Premium 광고를 제거합니다."
         },
         {
-          "question": "Are Shusher alerts push notifications?",
-          "answer": "No. They appear inside the app while the live meter is active."
+          "question": "Shusher 알림은 푸시 알림인가요?",
+          "answer": "아니요. 실시간 측정기가 활성화되어 있는 동안 앱 내부에 표시됩니다."
         },
         {
-          "question": "Shusher doesn’t alert me",
-          "answer": "Check: Shusher enabled in Settings · threshold not set too high · meter tab open and mic running · live level actually exceeds threshold."
+          "question": "Shusher가 나에게 알림을 보내지 않음",
+          "answer": "확인: 설정에서 Shusher가 활성화되었습니다. · 임계값이 너무 높게 설정되지 않았습니다. · 미터 탭이 열려 있고 마이크가 작동 중입니다. · 라이브 레벨이 실제로 임계값을 초과합니다."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "팁과 요령",
+      "subtitle": "앱에서 더 많은 것을 얻으세요.",
       "items": [
         {
-          "title": "Placement matters",
-          "description": "1. Same spot every time — compare “apples to apples” when tracking a room over days. 2. Mic unobstructed — remove thick cases; don’t cover the bottom edge (common mic location). 3. Orientation — pick portrait or landscape and stick with it; mic direction changes slightly. 4. Height — ear level for “how loud does it feel?”; desk level for workspace noise. 5. Distance — 0.5–1 m from the main noise s"
+          "title": "게재위치 matters",
+          "description": "1. 매번 같은 지점 - 며칠에 걸쳐 방을 추적할 때 \"사과와 사과\"를 비교하십시오. 2. 방해받지 않는 마이크 — 두꺼운 케이스를 제거합니다. 하단 가장자리(공통 마이크 위치)를 덮지 마십시오. 3. 방향 - 세로 또는 가로를 선택하고 이를 고수합니다. 마이크 방향이 약간 변경됩니다. 4. 높이 - \"얼마나 크게 느껴지나요?\"에 대한 귀 높이; 작업 공간 소음을 고려한 책상 수준. 5. 거리 — 주요 소음으로부터 0.5-1m"
         },
         {
-          "title": "When to use a short vs long session",
-          "description": "| Goal | Suggestion | |------|------------| | Quick snapshot | 5 s (default) | | HVAC cycle | 15–30 s (Premium) | | Conversation level | 10–15 s while people talk naturally | | Street noise | 30–60 s (Premium) to catch peaks | ---"
+          "title": "짧은 세션과 긴 세션을 사용하는 경우",
+          "description": "| 목표 | 제안 | |------|------------| | 빠른 스냅샷 | 5초(기본값) | | HVAC 사이클 | 15~30초(Premium) | | 대화 수준 | 사람들이 자연스럽게 이야기하는 10~15초 | | 거리 소음 | 최고점을 포착하려면 30~60초(Premium) | ---"
         },
         {
-          "title": "Simple average vs energy average (Leq)",
-          "description": "Steady hum (fan, AC constant) → simple average is fine. - Bursty noise (dishes, traffic, classroom chatter) → switch to energy average (Leq) in Settings for a fairer score. ---"
+          "title": "단순 평균 대 에너지 평균(Leq)",
+          "description": "꾸준한 윙윙거림(팬, AC 상수) → 단순 평균이면 괜찮습니다. - 폭발적인 소음(요리, 교통, 교실 chatter) → 더 공정한 점수를 얻으려면 설정에서 에너지 평균(Leq)으로 전환하세요. ---"
         },
         {
-          "title": "Shusher use cases",
-          "description": "| Scenario | Starting threshold | |----------|-------------------| | Library / study | 45–55 dB | | Open office focus | 55–65 dB | | Living room with kids | 65–75 dB | | Workshop / garage | 75–85 dB | Lower the threshold if alerts rarely fire; raise it if too sensitive. ---"
+          "title": "Shusher 사용 사례",
+          "description": "| 시나리오 | 시작 임계값 | |------------|------| | 도서관/학습 | 45~55dB | | 오픈 오피스 포커스 | 55~65dB | | 아이들과 함께하는 거실 | 65~75dB | | 작업장/차고 | 75~85dB | 경고가 거의 발생하지 않으면 임계값을 낮추십시오. 너무 민감하면 올리세요. ---"
         },
         {
-          "title": "Compare before & after",
-          "description": "1. Measure before a change (rug, curtains, door seal, “quiet hours” sign). 2. Apply the change. 3. Measure after at the same time of day. 4. Save both to History with clear names. Small dB drops can mean a noticeably calmer space. ---"
+          "title": "전후 비교",
+          "description": "1. 교체 전 측정하십시오(러그, 커튼, 도어 씰, \"조용한 시간\" 표시). 2. 변경 사항을 적용합니다. 3. 같은 시간에 측정한 후 측정하세요. 4. 둘 다 명확한 이름으로 기록에 저장합니다. 작은 dB 감소는 눈에 띄게 조용한 공간을 의미할 수 있습니다. ---"
         },
         {
-          "title": "Sharing results without drama",
-          "description": "Use neutral labels: “Tuesday 8pm apartment” not “neighbor noise proof.” - Share the results graphic for a single snapshot—not a live argument meter. - Remember: phone readings are approximate, not legal evidence. ---"
+          "title": "드라마 없이 결과를 공유하다",
+          "description": "중립 라벨을 사용하세요. '이웃 소음 방지'가 아닌 '화요일 오후 8시 아파트'입니다. - 실시간 인수 측정기가 아닌 단일 스냅샷에 대한 결과 그래픽을 공유합니다. - 기억하세요: 전화 판독값은 대략적인 수치이며 법적 증거가 아닙니다. ---"
         },
         {
-          "title": "Reduce false highs",
-          "description": "Don’t speak directly into the mic while measuring ambient noise. - Move away from TV speakers and phone notifications. - Wind outdoors can spike readings—shield the mic or measure indoors. ---"
+          "title": "거짓 최고치 감소",
+          "description": "주변 소음을 측정하는 동안 마이크에 직접 말하지 마세요. - TV 스피커와 전화 알림에서 벗어나세요. - 실외에서 바람이 불면 판독값이 급증할 수 있습니다. 마이크를 보호하거나 실내에서 측정하세요. ---"
         },
         {
-          "title": "Premium worth it?",
-          "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
+          "title": "Premium 그럴만한 가치가 있나요?",
+          "description": "다음과 같은 경우 Premium을 고려하세요. - 집주인, 학교 또는 내부 보고서를 위해 CSV 내보내기 - 회의 중 급증을 확인하기 위해 세션 차트가 필요 - 반복되는 일일 확인 중에 더 긴 샘플을 원하고 광고가 없음 일회성 구매 - 구독 없음. ---"
         }
       ]
     },

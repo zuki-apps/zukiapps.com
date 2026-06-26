@@ -6,7 +6,9 @@
       "title": "Bit Scope - 位和数字计算器",
       "subtitle": "位级检查器和转换器",
       "description": "面向开发者、工程师和学生的强大位级检查器和转换器。在多个数字系统和格式中以位级别可视化、操作和转换数字。",
-      "structuredDataDescription": "Bit Scope — bit-level calculator for developers and students on iOS and Android. Binary, octal, decimal, hex, IEEE 754, CRC32, hashes, bit canvas, batch convert, widgets. Android com.zuki.apps.bitscope by Zuki Apps."
+      "structuredDataDescription": "Bit Scope — 面向开发者和学生的iOS和Android位级计算器。二进制、八进制、十进制、十六进制、IEEE 754、CRC32、哈希、位画布、批量转换、小部件。 Android com.zuki.apps.bitscope，作者：Zuki Apps。",
+      "seoTitle": "Bit Scope — 开发者编号工具 | Zuki Apps",
+      "metaDescription": "检查设备上的位、基数和二进制数学。专为开发人员打造。 iOS 和 Android 免费。"
     },
     "features": {
       "title": "主要功能",
@@ -100,54 +102,54 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！查找常见问题的答案或直接联系我们。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发送电子邮件，我们会尽快回复您。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "快速链接",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "常见问题解答",
         "q1": {
-          "question": "What number formats does Bit Scope support?",
-          "answer": "Bit Scope supports 8-bit, 16-bit, 32-bit, and 64-bit integers, as well as Float16, Float32, and Float64 floating-point formats with full IEEE 754 compliance."
+          "question": "Bit Scope支持哪些数字格式？",
+          "answer": "Bit Scope 支持 8 位、16 位、32 位和 64 位整数，以及 Float16、Float32 和 Float64 浮点格式，完全符合 IEEE 754 标准。"
         },
         "q2": {
-          "question": "Can I perform bitwise operations?",
-          "answer": "Yes! Bit Scope supports AND, OR, XOR, and NOT bitwise operations. You can use a second operand (B) to perform operations with your primary value (A)."
+          "question": "我可以执行按位运算吗？",
+          "answer": "是的！ Bit Scope 支持 AND、OR、XOR 和 NOT 按位运算。您可以使用第二个操作数 (B) 来对主值 (A) 执行运算。"
         },
         "q3": {
-          "question": "What number bases are supported?",
-          "answer": "Bit Scope supports Binary (BIN), Octal (OCT), Decimal (DEC), and Hexadecimal (HEX) number bases. You can input and display values in any of these bases with real-time conversion."
+          "question": "支持哪些基数？",
+          "answer": "Bit Scope 支持二进制 (BIN)、八进制 (OCT)、十进制 (DEC) 和十六进制 (HEX) 数基。您可以通过实时转换输入和显示任何这些基数的值。"
         },
         "q4": {
-          "question": "Does Bit Scope work offline?",
-          "answer": "Yes! Bit Scope works completely offline. No internet connection is required. All calculations are performed locally on your device using BigInt for integers and IEEE 754 standards for floating-point numbers."
+          "question": "Bit Scope可以离线使用吗？",
+          "answer": "是的！ Bit Scope 完全离线工作。不需要互联网连接。所有计算均在您的设备上本地执行，对于整数使用 BigInt，对于浮点数使用 IEEE 754 标准。"
         },
         "q5": {
-          "question": "What is the IEEE 754 breakdown feature?",
-          "answer": "The IEEE 754 breakdown provides a visual representation of floating-point number components, showing the sign bit, exponent, and mantissa separately. This is helpful for understanding how floating-point numbers are stored and represented."
+          "question": "IEEE 754 故障特征是什么？",
+          "answer": "IEEE 754 细分提供了浮点数组件的可视化表示，分别显示符号位、指数和尾数。这有助于理解浮点数的存储和表示方式。"
         },
         "q6": {
-          "question": "Can I change endianness and bit order?",
-          "answer": "Yes! Bit Scope allows you to switch between Big Endian (BE) and Little Endian (LE) byte ordering, as well as choose between MSB (Most Significant Bit) and LSB (Least Significant Bit) bit order for display."
+          "question": "我可以更改字节顺序和位顺序吗？",
+          "answer": "是的！ Bit Scope 允许您在 Big Endian (BE) 和 Little Endian (LE) 字节顺序之间切换，以及在 MSB（最高有效位）和 LSB（最低有效位）位顺序之间进行选择以进行显示。"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到所需的答案，或者遇到技术问题，请随时与我们联系。我们随时为您提供帮助，通常会在 24-48 小时内回复。"
       },
       "metaTitle": "支持与帮助 — Bit Scope | Zuki Apps",
       "metaDescription": "Bit Scope FAQ 和支持 — 示波器和信号分析。联系方式、隐私和故障排除。"
@@ -157,231 +159,231 @@
       "tagline": "Zuki Apps 的一部分 • 来自以色列的开发者 • 用 ❤️ 制作"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Bit Scope. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
+      "intro": "使用Bit Scope前请仔细阅读本使用条款。通过访问或使用我们的服务，您同意受这些条款的约束。如果您不同意这些条款，请不要使用我们的服务。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Bit Scope (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a bit-level calculator and number converter application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 接受条款",
+        "content": "这些使用条款（“条款”）管辖您对Bit Scope（“服务”、“应用程序”、“我们”、“我们”或“我们的”）的访问和使用，Zuki Apps（“公司”）运营的位级计算器和数字转换器应用程序。通过下载、安装、访问或使用服务，您同意受这些条款和我们的隐私政策的约束。",
+        "content2": "如果您代表某个组织使用服务，则您声明并保证您有权约束该组织遵守这些条款。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Bit Scope is a mobile application that provides bit-level number inspection and conversion functionality. The Service includes:",
+        "title": "2. 服务说明",
+        "content": "Bit Scope是一款提供位级数字检查和转换功能的移动应用程序。该服务包括：",
         "items": [
-          "Interactive bit editor with visual bit grid",
-          "Multiple number format support (8-bit, 16-bit, 32-bit, 64-bit integers and Float16, Float32, Float64)",
-          "Number base conversion (Binary, Octal, Decimal, Hexadecimal)",
-          "Bitwise operations (AND, OR, XOR, NOT)",
-          "IEEE 754 floating-point breakdown",
-          "Endianness and bit order configuration",
-          "Real-time conversion between formats and bases"
+          "具有可视位网格的交互式位编辑器",
+          "多种数字格式支持（8位、16位、32位、64位整数和Float16、Float32、Float64）",
+          "数基转换（二进制、八进制、十进制、十六进制）",
+          "位运算（AND、OR、XOR、NOT）",
+          "IEEE 754 浮点细分",
+          "字节序和位顺序配置",
+          "格式和基数之间的实时转换"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 联系方式",
+        "content": "如果您对这些条款有任何疑问，请联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Bit Scope is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+        "title": "1. 我们收集的信息",
+        "content": "Bit Scope 的设计考虑到了隐私。我们收集提供服务所需的最少信息。该应用程序完全离线工作，并将所有数据本地存储在您的设备上。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. All calculations and conversions are performed locally on your device and are not transmitted to our servers."
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用收集的信息来提供、维护和改进我们的服务。所有计算和转换均在您的设备上本地执行，不会传输到我们的服务器。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your calculation data remains on your device and is only accessible to you."
+        "title": "3. 信息共享",
+        "content": "我们不会出售、交易或以其他方式将您的个人信息转让给第三方。您的计算数据保留在您的设备上，并且只有您可以访问。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+        "title": "4. 数据安全",
+        "content": "我们实施适当的安全措施来保护您的信息。所有数据都存储在您设备本地应用程序的私有目录中，其他应用程序无法访问该目录。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your data at any time. You may also uninstall the app at any time, which will remove all locally stored data."
+        "title": "5. 您的权利",
+        "content": "您有权随时访问、更新或删除您的数据。您还可以随时卸载该应用程序，这将删除所有本地存储的数据。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 联系我们",
+        "content": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       },
       "metaDescription": "Bit Scope 隐私政策 — 我们如何处理您在 iOS 和 Android 上的数据。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "如何使用",
+      "tips": "尖端",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "下载"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Bit Scope - Bit & Number Calculator.",
-      "featuresTitle": "App screens",
+      "title": "截图",
+      "subtitle": "真实应用程序屏幕来自 Bit Scope - 位和数字计算器。",
+      "featuresTitle": "应用程序屏幕",
       "items": [
         {
-          "id": "calculator",
-          "title": "Calculator",
-          "description": "Convert and inspect values across number bases and bit widths.",
+          "id": "计算器",
+          "title": "计算器",
+          "description": "跨数字基数和位宽度转换和检查值。",
           "image": "/images/bit-scope/screenshot-calculator.png",
-          "alt": "Calculator — bit scope",
-          "category": "features"
+          "alt": "计算器 — bit scope",
+          "category": "特征"
         },
         {
-          "id": "canvas",
-          "title": "Bit canvas",
-          "description": "Flip bits on a live canvas and copy results in one tap.",
+          "id": "帆布",
+          "title": "位画布",
+          "description": "翻转实时画布上的位并一键复制结果。",
           "image": "/images/bit-scope/screenshot-canvas.png",
-          "alt": "Bit canvas — bit scope",
-          "category": "features"
+          "alt": "位画布 — bit scope",
+          "category": "特征"
         },
         {
-          "id": "converters",
-          "title": "Converters",
-          "description": "IEEE 754, CRC, hash, and more engineering utilities.",
+          "id": "转换器",
+          "title": "转换器",
+          "description": "IEEE 754、CRC、哈希和更多工程实用程序。",
           "image": "/images/bit-scope/screenshot-converters.png",
-          "alt": "Converters — bit scope",
-          "category": "features"
+          "alt": "转换器 — bit scope",
+          "category": "特征"
         },
         {
-          "id": "utilities",
-          "title": "Utilities",
-          "description": "Premium tools for power users — one-time unlock.",
+          "id": "公用事业",
+          "title": "公用事业",
+          "description": "Premium 高级用户工具 — 一次性解锁。",
           "image": "/images/bit-scope/screenshot-utilities.png",
-          "alt": "Utilities — bit scope",
-          "category": "features"
+          "alt": "公用事业 — bit scope",
+          "category": "特征"
         },
         {
-          "id": "widgets",
-          "title": "Widgets",
-          "description": "Home-screen widgets for quick conversions.",
+          "id": "小部件",
+          "title": "小部件",
+          "description": "用于快速转换的主屏幕小部件。",
           "image": "/images/bit-scope/screenshot-widgets.png",
-          "alt": "Widgets — bit scope",
-          "category": "features"
+          "alt": "小部件 — bit scope",
+          "category": "特征"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "如何使用",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a format",
-          "description": "Choose binary, octal, decimal, or hex and your bit width."
+          "title": "选择一种格式",
+          "description": "选择二进制、八进制、十进制或十六进制以及您的位宽度。"
         },
         {
           "number": "2",
-          "title": "Enter a value",
-          "description": "Type or paste — results update instantly across representations."
+          "title": "输入一个值",
+          "description": "键入或粘贴 — 结果会在表示中立即更新。"
         },
         {
           "number": "3",
-          "title": "Use the canvas",
-          "description": "Tap bits to flip them and see the value change live."
+          "title": "使用画布",
+          "description": "点击位来翻转它们并实时查看值的变化。"
         },
         {
           "number": "4",
-          "title": "Copy or export",
-          "description": "One-tap copy, history, and batch convert when you need more."
+          "title": "复制或导出",
+          "description": "当您需要更多时，一键复制、历史记录和批量转换。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "常见问题",
+      "subtitle": "有关功能、隐私和计费的快速解答。",
+      "viewAllSupport": "查看完整支持 & FAQ",
       "items": [
         {
-          "question": "What is Bit Scope?",
-          "answer": "Bit Scope is a bit-level calculator and converter for developers. It converts between binary, octal, decimal, and hex; supports IEEE 754 floats; includes bitwise operations; and bundles converters and (with Premium) utilities like CRC and hash."
+          "question": "Bit Scope是什么？",
+          "answer": "Bit Scope是一款为开发者提供的位级计算器和转换器。它在二进制、八进制、十进制和十六进制之间进行转换；支持 IEEE 754 浮点数；包括按位运算；并捆绑转换器和（使用 Premium）实用程序，例如 CRC 和哈希。"
         },
         {
-          "question": "Is Bit Scope free?",
-          "answer": "Yes. The calculator, bitwise tools, converters, history, and learning examples are free. Premium is a one-time purchase that removes ads and unlocks the Utilities tab."
+          "question": "Bit Scope免费吗？",
+          "answer": "是的。计算器、按位工具、转换器、历史记录和学习示例都是免费的。 Premium 是一次性购买，可删除广告并解锁“实用程序”选项卡。"
         },
         {
-          "question": "Is Premium a subscription?",
-          "answer": "No. Premium is a one-time in-app purchase. Future Premium-only tools are included without a recurring fee."
+          "question": "Premium 是订阅吗？",
+          "answer": "否。 Premium 是一次性应用内购买。未来仅包含 Premium 工具，无需支付经常性费用。"
         },
         {
-          "question": "Which platforms are supported?",
-          "answer": "iPhone and iPad (iOS). Android availability follows your Google Play listing. See store links on [zukiapps.com/bit-scope](https://zukiapps.com/bit-scope)."
+          "question": "支持哪些平台？",
+          "answer": "iPhone 和 iPad (iOS)。 Android 可用性遵循您的 Google Play 列表。请参阅 [zukiapps.com/bit-scope](https://zukiapps.com/bit-scope) 上的商店链接。"
         },
         {
-          "question": "What languages are supported?",
-          "answer": "12 base languages with regional variants (e.g. en-US, pt-BR, zh-Hans). Hebrew and Arabic include full RTL layout."
+          "question": "支持哪些语言？",
+          "answer": "12 种具有区域变体的基本语言（例如 en-US、pt-BR、zh-Hans）。希伯来语和阿拉伯语包括完整的 RTL 布局。"
         },
         {
-          "question": "How do I open the bit canvas?",
-          "answer": "On the Calculator tab, open the bit grid preview or modal (tap the grid / bit visualization control). Tap any bit to toggle it; values update across all representations."
+          "question": "如何打开位画布？",
+          "answer": "在“计算器”选项卡上，打开位网格预览或模态（点击网格/位可视化控件）。点击任意位即可切换；所有表示的值都会更新。"
         },
         {
-          "question": "What is MSB vs LSB bit order?",
-          "answer": "MSB lists bits from most significant to least. LSB reverses the visual order. Choose the view that matches your datasheet or protocol diagram."
+          "question": "什么是 MSB 与 LSB 位顺序？",
+          "answer": "MSB 从最高有效位到最低有效位列出位。 LSB 反转视觉顺序。选择与您的数据表或协议图匹配的视图。"
         },
         {
-          "question": "What endianness settings do?",
-          "answer": "Big-endian stores the most significant byte first; little-endian stores the least significant byte first. Bit Scope shows how your integer maps to bytes for each mode."
+          "question": "什么字节序设置有什么作用？",
+          "answer": "Big-endian 首先存储最高有效字节；小尾数法首先存储最低有效字节。 Bit Scope 显示整数如何映射到每种模式的字节。"
         },
         {
-          "question": "Can I use custom bit widths?",
-          "answer": "Yes. Select a preset (8, 16, 32, 64) or enter a custom width (within app limits) for masks and registers that are not power-of-two aligned."
+          "question": "我可以使用自定义位宽度吗？",
+          "answer": "是的。为未进行 2 的幂对齐的掩码和寄存器选择预设（8、16、32、64）或输入自定义宽度（在应用程序限制内）。"
         },
         {
-          "question": "How does copy work?",
-          "answer": "Tap the copy icon on a result card or tool output. Text is copied without extra spaces (e.g. binary groups may be stripped per field). A checkmark confirms success."
+          "question": "复制如何运作？",
+          "answer": "点击结果卡或工具输出上的复制图标。复制文本时不带额外空格（例如，每个字段可能会删除二进制组）。复选标记确认成功。"
         },
         {
-          "question": "Which tools are free vs Premium?",
-          "answer": "Free: Base64, color picker, timestamp, value comparator, batch converter—and all calculator features. Premium: CRC, hash, ASCII/Unicode viewer, QR generator, hex dump—and adding utility tools to custom widgets."
+          "question": "哪些工具是免费的，哪些工具是Premium？",
+          "answer": "免费：Base64、颜色选择器、时间戳、值比较器、批量转换器以及所有计算器功能。 Premium：CRC、哈希、ASCII/Unicode 查看器、QR 生成器、十六进制转储 - 以及向自定义小部件添加实用工具。"
         },
         {
-          "question": "Why does CRC say input is too large?",
-          "answer": "Very large inputs can exceed safe calculation limits on device. Shorten the input or split the data block. Bit Scope shows a clear message instead of failing silently."
+          "question": "为什么CRC说输入太大？",
+          "answer": "非常大的输入可能会超出设备的安全计算限制。缩短输入或分割数据块。 Bit Scope 显示清晰的消息，而不是默默地失败。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "提示和技巧",
+      "subtitle": "从应用程序中获取更多信息。",
       "items": [
         {
-          "title": "Calculator",
-          "description": "1. Set width before paste — Pasting `0xFFFF` into 16-bit mode behaves differently than 32-bit. 2. Endian toggle for protocol bugs — Flip BE/LE when a register looks “byte-swapped”. 3. Gray code — Use for encoder / rotary sensor homework or validation. 4. Float switch — Jump INT → F32 to decode IEEE 754 from the same bit pattern. 5. History export — Snapshot a debug session before clearing the chip"
+          "title": "计算器",
+          "description": "1. 粘贴前设置宽度 — 将 `0xFFFF` 粘贴到 16 位模式中的行为与 32 位模式不同。 2. 协议错误的字节序切换 - 当寄存器看起来“字节交换”时翻转 BE/LE。 3. 格雷码 — 用于编码器/旋转传感器作业或验证。 4. 浮动开关 — 跳转 INT → F32 以从同一位 pattern 解码 IEEE 754。 5. 历史记录导出——在清除芯片之前拍摄调试会话快照"
         },
         {
-          "title": "Bit canvas",
-          "description": "6. Tap don't type — Mask tweaks (set bit 7) are faster on the grid than hex math. 7. Sign bit first — In signed 8-bit, bit 7 is your quick sanity check for negatives."
+          "title": "位画布",
+          "description": "6. 点击而不是键入 - 网格上的掩码调整（设置位 7）比十六进制数学更快。 7. 先符号位——在有符号的 8 位中，第 7 位是您对负数的快速健全性检查。"
         },
         {
-          "title": "Copy workflow",
-          "description": "8. Checkmark = shipped — Wait for the icon before switching apps. 9. Paste once — Verify hex has no stray spaces before `gcc` or `xxd`."
+          "title": "复制工作流程",
+          "description": "8. 复选标记 = 已发货 — 等待图标出现后再切换应用程序。 9. 粘贴一次 — 验证十六进制在“gcc”或“xxd”之前没有杂散空格。"
         },
         {
-          "title": "Converters",
-          "description": "10. RAL colors — Firmware UI teams: match enclosure paint chips to RGB for docs. 11. Timestamp now — Tap current-time shortcut (if shown) for log correlation. 12. Comparator — Diff two hex constants side by side before merging branches."
+          "title": "转换器",
+          "description": "10. RAL 颜色 — 固件 UI 团队：将外壳油漆芯片与文档的 RGB 相匹配。 11. 立即时间戳 — 点击当前时间快捷方式（如果显示）以进行日志关联。 12. 比较器 — 在合并分支之前并排比较两个十六进制常量。"
         },
         {
-          "title": "Utilities (Premium)",
-          "description": "13. CRC test vectors — Keep `123456789` and `Hello` strings as mental benchmarks. 14. Hex dump import — Paste a snippet from `xxd` to inspect structure. 15. QR for Wi-Fi or URL — Field provisioning without a laptop."
+          "title": "公用事业 (Premium)",
+          "description": "13. CRC 测试向量 — 将“123456789”和“Hello”字符串保留为心理基准。 14. 十六进制转储导入 — 粘贴“xxd”中的片段以检查结构。 15. Wi-Fi 或 URL 的 QR — 无需笔记本电脑即可进行现场配置。"
         },
         {
-          "title": "Widgets & layout",
-          "description": "16. Three-tool board — Calculator tab + Widgets with Timestamp + Base64 covers 80% of bring-up. 17. iPad rail — Landscape uses side navigation—more vertical space for hex dump."
+          "title": "小部件和布局",
+          "description": "16. 三工具板 - 计算器选项卡 + 带时间戳的小部件 + Base64 覆盖 80% 的启动。 17. iPad 导轨 — 横向使用侧面导航 — 为六角转储提供更多垂直空间。"
         },
         {
-          "title": "Settings",
-          "description": "18. Dark theme default — Easier on eyes during late firmware sessions; light for outdoor. 19. Language per device — System language vs in-app override for bilingual teams. 20. Learn tab — Send interns to Settings → Learn before asking about two's complement."
+          "title": "设置",
+          "description": "18.默认深色主题——在后期固件会话期间更方便眼睛；户外照明。 19. 每个设备的语言 — 双语团队的系统语言与应用内覆盖。 20.“学习”选项卡 — 将实习生发送到“设置”→“学习”，然后再询问补码。"
         },
         {
           "title": "Premium",

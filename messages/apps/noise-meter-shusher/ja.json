@@ -1,298 +1,300 @@
 {
   "noiseMeterShusher": {
-    "back": "Back to Home",
+    "back": "ホームに戻る",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Noise Meter — Shusher",
-      "subtitle": "Real-time dB & noise scoring",
-      "description": "Flutter app that streams microphone input into approximate decibel readings, runs timed measurement sessions, scores the environment against common noise bands, saves history on device, and offers CSV export and charts. Monetization via ads and a one-time Premium unlock for extended features.",
-      "structuredDataDescription": "Noise Meter — Shusher — real-time decibel meter for iOS and Android. Live sound level, timed sessions, noise scores, on-device history, Shusher in-app alerts, optional Premium charts and CSV export. Android com.zuki.apps.noisemeter by Zuki Apps."
+      "title": "騒音計 — シャッシャー",
+      "subtitle": "リアルタイムのdBおよびノイズスコアリング",
+      "description": "Flutter アプリは、マイク入力をおおよそのデシベル読み取り値にストリーミングし、時間指定された測定セッションを実行し、一般的なノイズ帯域に対して環境をスコア化し、デバイスに履歴を保存し、CSV エクスポートとグラフを提供します。広告による収益化と、拡張機能の 1 回限りの Premium ロック解除。",
+      "structuredDataDescription": "騒音計 — Shusher — iOS と Android のリアルタイム デシベル メーター。ライブサウンドレベル、時間指定セッション、ノイズスコア、デバイス上の履歴、Shusher アプリ内アラート、オプションのPremium チャート、およびCSV エクスポート。 Android com.zuki.apps.noisemeter by Zuki Apps。",
+      "seoTitle": "騒音計 - デシベルとシャッシャー | Zuki Apps",
+      "metaDescription": "dB メーターと履歴を使用して、どこでも騒音レベルを測定します。アカウントがありません。 iOS と Android は無料です。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主な特長",
       "meter": {
-        "title": "Live meter",
-        "description": "Start and stop timed sessions; see min, max, average, and category labels with plain-language recommendations.",
+        "title": "ライブメーター",
+        "description": "時間指定セッションを開始および停止します。わかりやすい言葉での推奨事項を含む最小、最大、平均、およびカテゴリのラベルを参照してください。",
         "items": [
-          "Approximate dB from the microphone",
-          "Noise score and category bands",
-          "Share-friendly results"
+          "マイクからのおおよその dB",
+          "ノイズスコアとカテゴリバンド",
+          "共有しやすい結果"
         ]
       },
       "history": {
-        "title": "History & export",
-        "description": "Past sessions stay on your device; export CSV or share summaries when you choose.",
+        "title": "歴史と輸出",
+        "description": "過去のセッションはデバイスに残ります。選択した場合は、CSV をエクスポートするか、概要を共有します。",
         "items": [
-          "Local history list",
-          "CSV export",
-          "Share sheet integration"
+          "郷土史一覧",
+          "CSV エクスポート",
+          "共有シートの統合"
         ]
       },
       "premium": {
-        "title": "Premium & charts",
-        "description": "Unlock longer or custom durations and richer charts where enabled in the app.",
+        "title": "Premium & チャート",
+        "description": "アプリで有効にすると、より長い期間またはカスタムの期間とより豊富なチャートを利用できるようになります。",
         "items": [
-          "Premium removes certain limits",
-          "Visual charts for trends",
-          "Ad experience may differ by tier"
+          "Premium は特定の制限を削除します",
+          "トレンドを視覚的に把握できるチャート",
+          "広告エクスペリエンスは階層によって異なる場合があります"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "可用性",
       "description": "iOS and Android. Android application ID: com.zuki.apps.noisemeter. Store links appear when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "バージョン",
+      "status": "プラットフォーム",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "ダウンロード",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/noise-meter-shusher/id6763019075",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "App Store からダウンロードしてください",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.noisemeter",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Google Play で入手"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要なリンク",
       "support": {
-        "title": "Technical Support",
+        "title": "テクニカルサポート",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Noise Meter — Shusher. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "title": "利用規約",
+      "lastUpdated": "最終更新日: 2026 年 4 月",
+      "intro": "Noise Meter — Shusher を使用する前に、これらの利用規約をよくお読みください。当社のサービスにアクセスまたは使用すると、これらの規約に拘束されることに同意したものとみなされます。同意できない場合は、アプリを使用しないでください。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Noise Meter — Shusher (\"Service\", \"App\"), a microphone-based noise measurement application operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+        "title": "1. 規約への同意",
+        "content": "本規約は、Zuki Apps が運営するマイクベースの騒音測定アプリケーションである Noise Meter — Shusher (「サービス」、「アプリ」) へのアクセスと使用に適用されます。サービスをダウンロード、インストール、アクセス、または使用することにより、お客様は本規約およびプライバシー ポリシーに同意したものとみなされます。",
+        "content2": "組織を代表してサービスを使用する場合、その組織を拘束する権限があることを表明することになります。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "The app provides approximate sound-level readings and related statistics for informational purposes. The Service includes:",
+        "title": "2. サービスの説明",
+        "content": "このアプリは、情報提供を目的として、おおよその騒音レベルの測定値と関連統計を提供します。サービスには以下が含まれます:",
         "items": [
-          "Timed measurement sessions and noise scoring",
-          "Local history and optional export or sharing initiated by you",
-          "Optional Premium features and advertising as described in-app",
-          "Charts and UI that may vary by platform and version"
+          "時間指定された測定セッションとノイズスコアリング",
+          "ローカル履歴と、ユーザーが開始したオプションのエクスポートまたは共有",
+          "アプリ内で説明されているオプションの Premium 機能と広告",
+          "チャートと UI はプラットフォームとバージョンによって異なる場合があります"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. 連絡先情報",
+        "content": "これらの規約に関する質問:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2026 年 4 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The app uses the device microphone to measure sound while you run a session. Measurement results and history are stored locally unless you export or share them. Advertising and optional analytics SDKs may collect limited device or usage data per their policies and your OS settings (e.g. App Tracking Transparency on iOS)."
+        "title": "1. 当社が収集する情報",
+        "content": "アプリはデバイスのマイクを使用して、セッションの実行中にサウンドを測定します。測定結果と履歴は、エクスポートまたは共有しない限り、ローカルに保存されます。広告およびオプションの分析 SDK は、そのポリシーおよび OS 設定 (例: iOS のアプリ追跡の透明性) に従って、限定されたデバイスまたは使用状況データを収集する場合があります。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "Audio is processed to derive level estimates and scores; we do not use it for unrelated voice recognition on your speech content as a default product feature. Aggregated diagnostics may help improve stability when enabled."
+        "title": "2. お客様の情報の使用方法",
+        "content": "音声はレベル推定値とスコアを導き出すために処理されます。デフォルトの製品機能として、音声コンテンツに関係のない音声認識には使用しません。集約された診断を有効にすると、安定性の向上に役立つ場合があります。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Data leaves your device when you share or export, when required by law, or when third-party services (ads, stores, analytics) process data as part of normal operation."
+        "title": "3. 情報共有",
+        "content": "当社はあなたの個人情報を販売しません。データは、共有またはエクスポートするとき、法律で義務付けられているとき、または通常の操作の一環としてサードパーティのサービス (広告、ストア、分析) がデータを処理するときに、デバイスから流出します。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "Use a device passcode and current OS updates. Uninstalling the app removes app-local data subject to OS behavior."
+        "title": "4. データセキュリティ",
+        "content": "デバイスのパスコードと現在の OS アップデートを使用します。アプリをアンインストールすると、OS の動作に応じてアプリのローカル データが削除されます。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You may clear history in-app, revoke microphone permission in system settings, or uninstall the app. Contact us for privacy requests applicable in your region."
+        "title": "5. お客様の権利",
+        "content": "アプリ内で履歴をクリアしたり、システム設定でマイクの許可を取り消したり、アプリをアンインストールしたりできます。お住まいの地域に適用されるプライバシー要求については、お問い合わせください。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. お問い合わせ",
+        "content": "このプライバシー ポリシーに関する質問:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       },
       "metaDescription": "Noise Meter — Shusher — デシベルおよび騒音スコアリング アプリのプライバシー ポリシー。マイク音声、ローカル履歴、広告、分析がどのように処理されるか。"
     },
     "footer": {
-      "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 騒音計 — Shusher - 無断複写・転載を禁じます",
+      "tagline": "Zuki Apps の一部 • イスラエル出身の開発者 • ❤️ で作られました"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特徴",
+      "screenshots": "スクリーンショット",
+      "howTo": "使用方法",
+      "tips": "ヒント",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "ダウンロード"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Noise Meter — Shusher.",
-      "featuresTitle": "App screens",
+      "title": "スクリーンショット",
+      "subtitle": "Noise Meter — Shusher の実際のアプリ画面。",
+      "featuresTitle": "アプリ画面",
       "items": [
         {
-          "id": "live-meter",
-          "title": "Live sound meter",
-          "description": "Real-time dB gauge and waveform while you measure.",
+          "id": "ライブメーター",
+          "title": "ライブサウンドメーター",
+          "description": "測定中のリアルタイムのdBゲージと波形。",
           "image": "/images/noise-meter-shusher/screenshot-live-meter.png",
-          "alt": "Live sound meter — noise meter shusher",
-          "category": "features"
+          "alt": "ライブサウンドメーター — 騒音計シャッシャー",
+          "category": "特徴"
         },
         {
-          "id": "results",
-          "title": "Session results",
-          "description": "Average, min, max, noise category, and tips after each session.",
+          "id": "結果",
+          "title": "セッション結果",
+          "description": "各セッション後の平均、最小、最大、ノイズ カテゴリ、およびヒント。",
           "image": "/images/noise-meter-shusher/screenshot-results.png",
-          "alt": "Session results — noise meter shusher",
-          "category": "features"
+          "alt": "セッション結果 — 騒音計シャッシャー",
+          "category": "特徴"
         },
         {
-          "id": "shusher",
-          "title": "Shusher alerts",
-          "description": "Set a threshold and get in-app nudges when noise crosses your line.",
+          "id": "シャッシャー",
+          "title": "シャッシャーアラート",
+          "description": "しきい値を設定すると、ノイズが一線を越えたときにアプリ内でナッジが行われます。",
           "image": "/images/noise-meter-shusher/screenshot-shusher.png",
-          "alt": "Shusher alerts — noise meter shusher",
-          "category": "features"
+          "alt": "シャッシャーアラート — 騒音計シャッシャー",
+          "category": "特徴"
         },
         {
-          "id": "history",
-          "title": "History",
-          "description": "Compare rooms and times — data stays on your device.",
+          "id": "歴史",
+          "title": "歴史",
+          "description": "部屋と時間を比較します。データはデバイスに残ります。",
           "image": "/images/noise-meter-shusher/screenshot-history.png",
-          "alt": "History — noise meter shusher",
-          "category": "features"
+          "alt": "歴史 — 騒音計シャッシャー",
+          "category": "特徴"
         },
         {
           "id": "premium",
           "title": "Premium",
-          "description": "Longer sessions, charts, CSV export, themes, and no ads.",
+          "description": "より長いセッション、チャート、CSV エクスポート、テーマ、広告なし。",
           "image": "/images/noise-meter-shusher/screenshot-premium.png",
-          "alt": "Premium — noise meter shusher",
-          "category": "features"
+          "alt": "Premium — 騒音計シャッシャー",
+          "category": "特徴"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "使用方法",
       "steps": [
         {
           "number": "1",
-          "title": "Allow microphone",
-          "description": "Grant mic access when prompted so the app can estimate ambient level."
+          "title": "マイクを許可する",
+          "description": "アプリが周囲レベルを推定できるように、プロンプトが表示されたらマイクへのアクセスを許可します。"
         },
         {
           "number": "2",
-          "title": "Start measuring",
-          "description": "Watch the live meter or tap Start measurement for a timed session."
+          "title": "測定開始",
+          "description": "ライブメーターを確認するか、時間指定セッションの「測定を開始」をタップします。"
         },
         {
           "number": "3",
-          "title": "Read your score",
-          "description": "See average, category, and recommendations on the results screen."
+          "title": "スコアを読む",
+          "description": "結果画面で平均、カテゴリ、推奨事項を確認します。"
         },
         {
           "number": "4",
-          "title": "Save or share",
-          "description": "Add to History or share a clean results graphic with a label."
+          "title": "保存または共有",
+          "description": "履歴に追加するか、ラベルを付けてクリーンな結果グラフィックを共有します。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "よくある質問",
+      "subtitle": "機能、プライバシー、請求に関する簡単な回答。",
+      "viewAllSupport": "フルサポートを見る & FAQ",
       "items": [
         {
-          "question": "What is Noise Meter — Shusher?",
-          "answer": "A mobile app that estimates ambient sound level using your phone’s microphone, runs timed measurement sessions, scores the environment, saves history on device, and optionally alerts you in-app when noise exceeds a threshold (Shusher)."
+          "question": "騒音計Shusherとは何ですか？",
+          "answer": "携帯電話のマイクを使用して周囲の騒音レベルを推定し、時間指定の測定セッションを実行し、環境をスコア化し、デバイスに履歴を保存し、オプションで騒音がしきい値を超えたときにアプリ内で警告を発するモバイル アプリ (Shusher)。"
         },
         {
-          "question": "Is it free?",
-          "answer": "Yes. Core metering, sessions, Shusher, and limited history are free. Premium is a one-time upgrade for charts, CSV export, longer sessions, themes, more history, and no ads."
+          "question": "無料ですか？",
+          "answer": "はい。コアメータリング、セッション、Shusher、限定された履歴は無料です。 Premium はチャートの 1 回限りのアップグレード、CSV のエクスポート、より長いセッション、テーマ、より多くの履歴、および広告なしです。"
         },
         {
-          "question": "iPhone or Android?",
-          "answer": "Both. Bundle ID: `com.zuki.apps.noisemeter`."
+          "question": "iPhone それともAndroid?",
+          "answer": "両方。バンドル ID: `com.zuki.apps.noisemeter`。"
         },
         {
-          "question": "What languages are supported?",
-          "answer": "12 locales including English, Hebrew, Arabic, French, German, Italian, Japanese, Korean, Chinese, Portuguese, Russian, and Spanish. Change language in Settings."
+          "question": "どの言語がサポートされていますか?",
+          "answer": "英語、ヘブライ語、アラビア語、フランス語、ドイツ語、イタリア語、日本語、韓国語、中国語、ポルトガル語、ロシア語、スペイン語を含む 12 のロケール。設定で言語を変更します。"
         },
         {
-          "question": "How accurate is the decibel reading?",
-          "answer": "It is an approximate level based on consumer phone hardware. Position, case, wind, and device model all affect results. Not calibrated for professional SPL, OSHA, or legal noise-ordinance enforcement."
+          "question": "デシベルの測定値はどのくらい正確ですか?",
+          "answer": "これは、消費者向け電話ハードウェアに基づいたおおよそのレベルです。位置、ケース、風、デバイスのモデルはすべて結果に影響します。専門的な SPL、OSHA、または法的騒音規制の執行向けに校正されていません。"
         },
         {
-          "question": "Why does my reading differ from a real sound meter?",
-          "answer": "Professional meters use calibrated microphones and specific measurement standards. Phones are tuned for speech and vary by manufacturer."
+          "question": "私の測定値が実際の騒音計と異なるのはなぜですか?",
+          "answer": "プロフェッショナル向けメーターは、校正されたマイクと特定の測定基準を使用します。電話機は音声向けに調整されており、メーカーによって異なります。"
         },
         {
-          "question": "Can I use this in a dispute with a neighbor or landlord?",
-          "answer": "Use readings as informal context only. For legal or compliance matters, hire a qualified acoustician with calibrated equipment."
+          "question": "隣人や家主との紛争でこれを使用できますか?",
+          "answer": "読み方は非公式な文脈としてのみ使用してください。法的またはコンプライアンスを担当する場合は、校正済みの機器を備えた資格のある音響技師を雇ってください。"
         },
         {
-          "question": "Does the app record or upload audio?",
-          "answer": "No continuous recording or cloud upload of raw audio. The app processes level data locally for metering and sessions."
+          "question": "アプリは音声を録音またはアップロードしますか?",
+          "answer": "生の音声を継続的に録音したり、クラウドにアップロードしたりすることはできません。アプリは、メーターリングとセッションのためにレベル データをローカルで処理します。"
         },
         {
-          "question": "When is the microphone active?",
-          "answer": "While the app is open and metering or running a session—not as a background listener."
+          "question": "マイクはいつアクティブになりますか?",
+          "answer": "アプリがバックグラウンド リスナーとしてではなく、開いていてセッションを計測または実行している間。"
         },
         {
-          "question": "Why does iOS ask for tracking (ATT)?",
-          "answer": "Free tier uses ads. Apple requires permission before personalized ad tracking. Premium removes ads."
+          "question": "iOS が追跡 (ATT) を要求するのはなぜですか?",
+          "answer": "無料枠では広告が使用されます。 Apple はパーソナライズされた広告追跡の前に許可を必要とします。 Premium は広告を削除します。"
         },
         {
-          "question": "Are Shusher alerts push notifications?",
-          "answer": "No. They appear inside the app while the live meter is active."
+          "question": "Shusher アラートはプッシュ通知ですか?",
+          "answer": "いいえ。ライブメーターがアクティブな間、アプリ内に表示されます。"
         },
         {
-          "question": "Shusher doesn’t alert me",
-          "answer": "Check: Shusher enabled in Settings · threshold not set too high · meter tab open and mic running · live level actually exceeds threshold."
+          "question": "シャッシャーは警告しません",
+          "answer": "チェック: 設定で Shusher が有効になっている · しきい値の設定が高すぎない · メータータブが開いていてマイクが動作している · ライブレベルが実際にしきい値を超えている。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "ヒントとコツ",
+      "subtitle": "アプリをさらに活用しましょう。",
       "items": [
         {
-          "title": "Placement matters",
-          "description": "1. Same spot every time — compare “apples to apples” when tracking a room over days. 2. Mic unobstructed — remove thick cases; don’t cover the bottom edge (common mic location). 3. Orientation — pick portrait or landscape and stick with it; mic direction changes slightly. 4. Height — ear level for “how loud does it feel?”; desk level for workspace noise. 5. Distance — 0.5–1 m from the main noise s"
+          "title": "配置メーターatters",
+          "description": "1. 毎回同じ場所 — 部屋を数日間追跡するときに「同一箇所」を比較します。 2. マイクを遮るものがない - 厚いケースを取り外します。下端（一般的なマイクの位置）を覆わないでください。 3. 向き — 縦または横を選択し、それを使います。マイクの方向が少し変わります。 4. 身長 - 「どのくらいうるさく感じますか?」の耳の高さ。ワークスペースの騒音をデスクレベルに抑えます。 5. 距離 — 主な騒音から 0.5 ～ 1 m"
         },
         {
-          "title": "When to use a short vs long session",
-          "description": "| Goal | Suggestion | |------|------------| | Quick snapshot | 5 s (default) | | HVAC cycle | 15–30 s (Premium) | | Conversation level | 10–15 s while people talk naturally | | Street noise | 30–60 s (Premium) to catch peaks | ---"
+          "title": "短いセッションと長いセッションをいつ使用するか",
+          "description": "|目標 |提案 | |------|-----------| |クイックスナップショット | 5 秒 (デフォルト) | |空調サイクル | 15 ～ 30 秒 (Premium) | |会話レベル |人々が自然に話している間の 10 ～ 15 秒 | |街路騒音 |ピークを捉えるまで 30 ～ 60 秒 (Premium) | ---"
         },
         {
-          "title": "Simple average vs energy average (Leq)",
-          "description": "Steady hum (fan, AC constant) → simple average is fine. - Bursty noise (dishes, traffic, classroom chatter) → switch to energy average (Leq) in Settings for a fairer score. ---"
+          "title": "単純平均とエネルギー平均 (Leq)",
+          "description": "安定したハム音 (ファン、AC 一定) → 単純な平均で問題ありません。 - 爆発的な騒音 (食器、交通、教室のチャンネルatter) → より公平なスコアを得るために、設定でエネルギー平均 (Leq) に切り替えます。 ---"
         },
         {
-          "title": "Shusher use cases",
-          "description": "| Scenario | Starting threshold | |----------|-------------------| | Library / study | 45–55 dB | | Open office focus | 55–65 dB | | Living room with kids | 65–75 dB | | Workshop / garage | 75–85 dB | Lower the threshold if alerts rarely fire; raise it if too sensitive. ---"
+          "title": "シャッシャーの使用例",
+          "description": "|シナリオ |開始しきい値 | |----------|---------------------| |図書館・書斎 | 45～55dB | |オープンオフィスの焦点 | 55～65dB | |子供がいるリビングルーム | 写真65～75dB | |ワークショップ/ガレージ | 75～85dB |アラートがほとんど発生しない場合は、しきい値を下げます。敏感すぎる場合は上げてください。 ---"
         },
         {
-          "title": "Compare before & after",
-          "description": "1. Measure before a change (rug, curtains, door seal, “quiet hours” sign). 2. Apply the change. 3. Measure after at the same time of day. 4. Save both to History with clear names. Small dB drops can mean a noticeably calmer space. ---"
+          "title": "前後を比較してみる",
+          "description": "1. 変更する前に測定します (敷物、カーテン、ドアのシール、「静かな時間」の標識)。 2. 変更を適用します。 3. 後で同じ時間帯に測定します。 4. 両方を明確な名前で履歴に保存します。 dB の低下が小さいと、空間が著しく静かになる可能性があります。 ---"
         },
         {
-          "title": "Sharing results without drama",
-          "description": "Use neutral labels: “Tuesday 8pm apartment” not “neighbor noise proof.” - Share the results graphic for a single snapshot—not a live argument meter. - Remember: phone readings are approximate, not legal evidence. ---"
+          "title": "ドラマなしで結果を共有",
+          "description": "「近隣騒音防止」ではなく、「火曜日午後 8 時のアパート」という中立的なラベルを使用してください。 - ライブ引数メーターではなく、単一のスナップショットの結果グラフィックを共有します。 - 覚えておいてください: 電話での測定値はおおよそのものであり、法的証拠ではありません。 ---"
         },
         {
-          "title": "Reduce false highs",
-          "description": "Don’t speak directly into the mic while measuring ambient noise. - Move away from TV speakers and phone notifications. - Wind outdoors can spike readings—shield the mic or measure indoors. ---"
+          "title": "偽高値を減らす",
+          "description": "周囲の騒音を測定している間は、マイクに向かって直接話さないでください。 - テレビのスピーカーや電話の通知から離れてください。 - 屋外の風により測定値が急上昇する可能性があります。マイクをシールドするか、屋内で測定してください。 ---"
         },
         {
-          "title": "Premium worth it?",
-          "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
+          "title": "Premiumそれだけの価値はありますか？",
+          "description": "次のような場合は、Premium を検討してください。 - 家主、学校、または内部レポート用に CSV をエクスポート - 会議中のスパイクを確認するためにセッション グラフが必要 - 毎日の繰り返しチェック中に、より長いサンプルと広告を表示しないことが必要 1 回限りの購入 - サブスクリプションなし。 ---"
         }
       ]
     },

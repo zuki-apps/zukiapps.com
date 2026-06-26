@@ -1,298 +1,300 @@
 {
   "noiseMeterShusher": {
-    "back": "Back to Home",
+    "back": "Zurück nach Hause",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Noise Meter — Shusher",
-      "subtitle": "Real-time dB & noise scoring",
-      "description": "Flutter app that streams microphone input into approximate decibel readings, runs timed measurement sessions, scores the environment against common noise bands, saves history on device, and offers CSV export and charts. Monetization via ads and a one-time Premium unlock for extended features.",
-      "structuredDataDescription": "Noise Meter — Shusher — real-time decibel meter for iOS and Android. Live sound level, timed sessions, noise scores, on-device history, Shusher in-app alerts, optional Premium charts and CSV export. Android com.zuki.apps.noisemeter by Zuki Apps."
+      "title": "Lärmmessgerät – Shusher",
+      "subtitle": "dB- und Geräuschbewertung in Echtzeit",
+      "description": "Flutter-App, die Mikrofoneingaben in ungefähre Dezibelwerte umwandelt, zeitgesteuerte Messsitzungen durchführt, die Umgebung anhand üblicher Geräuschbänder bewertet, den Verlauf auf dem Gerät speichert und CSV-Export und Diagramme bietet. Monetarisierung über Anzeigen und eine einmalige Premium Freischaltung für erweiterte Funktionen.",
+      "structuredDataDescription": "Lärmmesser – Shusher – Echtzeit-Dezibelmesser für iOS und Android. Live-Schallpegel, zeitgesteuerte Sitzungen, Geräuschbewertungen, Verlauf auf dem Gerät, Shusher-In-App-Benachrichtigungen, optionale Premium-Diagramme und CSV-Export. Android com.zuki.apps.noisemeter von Zuki Apps.",
+      "seoTitle": "Lärmmesser – Dezibel & Shusher | Zuki Apps",
+      "metaDescription": "Messen Sie den Geräuschpegel überall mit dB-Messgerät und Verlauf. Kein Konto. Kostenlos am iOS und Android."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Hauptmerkmale",
       "meter": {
-        "title": "Live meter",
-        "description": "Start and stop timed sessions; see min, max, average, and category labels with plain-language recommendations.",
+        "title": "Live-Meter",
+        "description": "Zeitgesteuerte Sitzungen starten und stoppen; Sehen Sie sich Min-, Max-, Durchschnitt- und Kategoriebezeichnungen mit Empfehlungen in einfacher Sprache an.",
         "items": [
-          "Approximate dB from the microphone",
-          "Noise score and category bands",
-          "Share-friendly results"
+          "Ungefähre dB vom Mikrofon",
+          "Lärmbewertung und Kategoriebänder",
+          "Teilenfreundliche Ergebnisse"
         ]
       },
       "history": {
-        "title": "History & export",
-        "description": "Past sessions stay on your device; export CSV or share summaries when you choose.",
+        "title": "Geschichte & Export",
+        "description": "Vergangene Sitzungen bleiben auf Ihrem Gerät; Exportieren Sie CSV oder teilen Sie Zusammenfassungen, wenn Sie möchten.",
         "items": [
-          "Local history list",
-          "CSV export",
-          "Share sheet integration"
+          "Lokalgeschichtliche Liste",
+          "CSV exportieren",
+          "Share-Sheet-Integration"
         ]
       },
       "premium": {
-        "title": "Premium & charts",
-        "description": "Unlock longer or custom durations and richer charts where enabled in the app.",
+        "title": "Premium & Diagramme",
+        "description": "Schalten Sie längere oder benutzerdefinierte Zeiträume und umfangreichere Diagramme frei, sofern diese in der App aktiviert sind.",
         "items": [
-          "Premium removes certain limits",
-          "Visual charts for trends",
-          "Ad experience may differ by tier"
+          "Premium entfernt bestimmte Grenzen",
+          "Visuelle Diagramme für Trends",
+          "Das Anzeigenerlebnis kann je nach Stufe unterschiedlich sein"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "Verfügbarkeit",
       "description": "iOS and Android. Android application ID: com.zuki.apps.noisemeter. Store links appear when listings are public.",
       "version": "Version",
-      "status": "Platform",
+      "status": "Plattform",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "Herunterladen",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/noise-meter-shusher/id6763019075",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "Download auf der App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.noisemeter",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Schalten Sie es ein Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Wichtige Links",
       "support": {
-        "title": "Technical Support",
+        "title": "Technische Unterstützung",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Noise Meter — Shusher. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "title": "Nutzungsbedingungen",
+      "lastUpdated": "Letzte Aktualisierung: April 2026",
+      "intro": "Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie Noise Meter – Shusher verwenden. Durch den Zugriff auf oder die Nutzung unseres Dienstes erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie damit nicht einverstanden sind, nutzen Sie die App bitte nicht.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Noise Meter — Shusher (\"Service\", \"App\"), a microphone-based noise measurement application operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+        "title": "1. Annahme der Bedingungen",
+        "content": "Diese Bedingungen regeln Ihren Zugriff auf und Ihre Nutzung von Noise Meter – Shusher („Dienst“, „App“), einer mikrofonbasierten Anwendung zur Lärmmessung, die von Zuki Apps betrieben wird. Durch das Herunterladen, die Installation, den Zugriff oder die Nutzung des Dienstes stimmen Sie diesen Bedingungen und unserer Datenschutzrichtlinie zu.",
+        "content2": "Wenn Sie den Dienst im Namen einer Organisation nutzen, erklären Sie, dass Sie befugt sind, diese Organisation zu verpflichten."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "The app provides approximate sound-level readings and related statistics for informational purposes. The Service includes:",
+        "title": "2. Beschreibung des Dienstes",
+        "content": "Zu Informationszwecken stellt die App ungefähre Schallpegelwerte und zugehörige Statistiken bereit. Der Service umfasst:",
         "items": [
-          "Timed measurement sessions and noise scoring",
-          "Local history and optional export or sharing initiated by you",
-          "Optional Premium features and advertising as described in-app",
-          "Charts and UI that may vary by platform and version"
+          "Zeitgesteuerte Messsitzungen und Lärmbewertung",
+          "Lokaler Verlauf und optionaler von Ihnen initiierter Export oder Freigabe",
+          "Optionale Premium Funktionen und Werbung wie in der App beschrieben",
+          "Diagramme und Benutzeroberfläche können je nach Plattform und Version variieren"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. Kontaktinformationen",
+        "content": "Fragen zu diesen Bedingungen:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "Datenschutzrichtlinie",
+      "lastUpdated": "Letzte Aktualisierung: April 2026",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The app uses the device microphone to measure sound while you run a session. Measurement results and history are stored locally unless you export or share them. Advertising and optional analytics SDKs may collect limited device or usage data per their policies and your OS settings (e.g. App Tracking Transparency on iOS)."
+        "title": "1. Informationen, die wir sammeln",
+        "content": "Die App verwendet das Gerätemikrofon, um den Ton zu messen, während Sie eine Sitzung durchführen. Messergebnisse und Verlauf werden lokal gespeichert, es sei denn, Sie exportieren oder teilen sie. Werbe- und optionale Analyse-SDKs erfassen möglicherweise begrenzte Geräte- oder Nutzungsdaten gemäß ihren Richtlinien und Ihren Betriebssystemeinstellungen (z. B. App-Tracking-Transparenz auf iOS)."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "Audio is processed to derive level estimates and scores; we do not use it for unrelated voice recognition on your speech content as a default product feature. Aggregated diagnostics may help improve stability when enabled."
+        "title": "2. Wie wir Ihre Daten verwenden",
+        "content": "Audiodaten werden verarbeitet, um Pegelschätzungen und Bewertungen abzuleiten. Wir verwenden es nicht zur unabhängigen Spracherkennung Ihrer Sprachinhalte als Standardproduktfunktion. Aggregierte Diagnosen können bei Aktivierung zur Verbesserung der Stabilität beitragen."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Data leaves your device when you share or export, when required by law, or when third-party services (ads, stores, analytics) process data as part of normal operation."
+        "title": "3. Informationsaustausch",
+        "content": "Wir verkaufen Ihre persönlichen Daten nicht. Daten verlassen Ihr Gerät, wenn Sie sie teilen oder exportieren, wenn dies gesetzlich vorgeschrieben ist oder wenn Dienste Dritter (Anzeigen, Shops, Analysen) Daten im Rahmen des normalen Betriebs verarbeiten."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "Use a device passcode and current OS updates. Uninstalling the app removes app-local data subject to OS behavior."
+        "title": "4. Datensicherheit",
+        "content": "Verwenden Sie einen Gerätepasscode und aktuelle Betriebssystem-Updates. Durch die Deinstallation der App werden app-lokale Daten entfernt, die vom Verhalten des Betriebssystems abhängen."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You may clear history in-app, revoke microphone permission in system settings, or uninstall the app. Contact us for privacy requests applicable in your region."
+        "title": "5. Ihre Rechte",
+        "content": "Sie können den Verlauf in der App löschen, die Mikrofonberechtigung in den Systemeinstellungen widerrufen oder die App deinstallieren. Kontaktieren Sie uns für Datenschutzanfragen, die in Ihrer Region gelten."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. Kontaktieren Sie uns",
+        "content": "Fragen zu dieser Datenschutzerklärung:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       },
       "metaDescription": "Datenschutzrichtlinie für Noise Meter – Shusher – Dezibel- und Lärmbewertungs-App. Wie Mikrofon-Audio, lokaler Verlauf, Anzeigen und Analysen gehandhabt werden."
     },
     "footer": {
-      "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 Noise Meter – Shusher – Alle Rechte vorbehalten",
+      "tagline": "Teil von Zuki Apps • Entwickler aus Israel • Hergestellt mit ❤️"
     },
     "pageNav": {
-      "features": "Features",
+      "features": "Merkmale",
       "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "howTo": "Wie zu verwenden",
+      "tips": "Tipps",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Herunterladen"
     },
     "screenshots": {
       "title": "Screenshots",
-      "subtitle": "Real app screens from Noise Meter — Shusher.",
-      "featuresTitle": "App screens",
+      "subtitle": "Echte App-Bildschirme von Noise Meter – Shusher.",
+      "featuresTitle": "App-Bildschirme",
       "items": [
         {
-          "id": "live-meter",
-          "title": "Live sound meter",
-          "description": "Real-time dB gauge and waveform while you measure.",
+          "id": "Live-Meter",
+          "title": "Live-Sound-Meter",
+          "description": "Echtzeit-dB-Anzeige und Wellenform während der Messung.",
           "image": "/images/noise-meter-shusher/screenshot-live-meter.png",
-          "alt": "Live sound meter — noise meter shusher",
-          "category": "features"
+          "alt": "Live-Schallmessgerät – Lärmmessgerät Shusher",
+          "category": "Merkmale"
         },
         {
-          "id": "results",
-          "title": "Session results",
-          "description": "Average, min, max, noise category, and tips after each session.",
+          "id": "Ergebnisse",
+          "title": "Sitzungsergebnisse",
+          "description": "Durchschnitt, Min., Max., Geräuschkategorie und Tipps nach jeder Sitzung.",
           "image": "/images/noise-meter-shusher/screenshot-results.png",
-          "alt": "Session results — noise meter shusher",
-          "category": "features"
+          "alt": "Sitzungsergebnisse – Lärmmesser-Shusher",
+          "category": "Merkmale"
         },
         {
-          "id": "shusher",
-          "title": "Shusher alerts",
-          "description": "Set a threshold and get in-app nudges when noise crosses your line.",
+          "id": "Shusher",
+          "title": "Shusher-Warnungen",
+          "description": "Legen Sie einen Schwellenwert fest und erhalten Sie In-App-Anstöße, wenn Lärm Ihre Grenze überschreitet.",
           "image": "/images/noise-meter-shusher/screenshot-shusher.png",
-          "alt": "Shusher alerts — noise meter shusher",
-          "category": "features"
+          "alt": "Shusher-Warnungen – Lärmmesser-Shusher",
+          "category": "Merkmale"
         },
         {
-          "id": "history",
-          "title": "History",
-          "description": "Compare rooms and times — data stays on your device.",
+          "id": "Geschichte",
+          "title": "Geschichte",
+          "description": "Vergleichen Sie Räume und Zeiten – die Daten bleiben auf Ihrem Gerät.",
           "image": "/images/noise-meter-shusher/screenshot-history.png",
-          "alt": "History — noise meter shusher",
-          "category": "features"
+          "alt": "Geschichte – Lärmmessgerät Shusher",
+          "category": "Merkmale"
         },
         {
           "id": "premium",
           "title": "Premium",
-          "description": "Longer sessions, charts, CSV export, themes, and no ads.",
+          "description": "Längere Sitzungen, Diagramme, CSV Export, Themen und keine Werbung.",
           "image": "/images/noise-meter-shusher/screenshot-premium.png",
-          "alt": "Premium — noise meter shusher",
-          "category": "features"
+          "alt": "Premium – Lärmmesser-Shusher",
+          "category": "Merkmale"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Wie zu verwenden",
       "steps": [
         {
           "number": "1",
-          "title": "Allow microphone",
-          "description": "Grant mic access when prompted so the app can estimate ambient level."
+          "title": "Mikrofon zulassen",
+          "description": "Gewähren Sie den Zugriff auf das Mikrofon, wenn Sie dazu aufgefordert werden, damit die App die Umgebungslautstärke einschätzen kann."
         },
         {
           "number": "2",
-          "title": "Start measuring",
-          "description": "Watch the live meter or tap Start measurement for a timed session."
+          "title": "Beginnen Sie mit der Messung",
+          "description": "Beobachten Sie die Live-Messung oder tippen Sie auf Messung starten, um eine zeitgesteuerte Sitzung zu starten."
         },
         {
           "number": "3",
-          "title": "Read your score",
-          "description": "See average, category, and recommendations on the results screen."
+          "title": "Lesen Sie Ihre Punktzahl",
+          "description": "Sehen Sie sich Durchschnitt, Kategorie und Empfehlungen auf dem Ergebnisbildschirm an."
         },
         {
           "number": "4",
-          "title": "Save or share",
-          "description": "Add to History or share a clean results graphic with a label."
+          "title": "Speichern oder teilen",
+          "description": "Zum Verlauf hinzufügen oder eine saubere Ergebnisgrafik mit einer Beschriftung teilen."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Schnelle Antworten zu Funktionen, Datenschutz und Abrechnung.",
+      "viewAllSupport": "Vollständigen Support anzeigen & FAQ",
       "items": [
         {
-          "question": "What is Noise Meter — Shusher?",
-          "answer": "A mobile app that estimates ambient sound level using your phone’s microphone, runs timed measurement sessions, scores the environment, saves history on device, and optionally alerts you in-app when noise exceeds a threshold (Shusher)."
+          "question": "Was ist Lärmmessgerät – Shusher?",
+          "answer": "Eine mobile App, die mithilfe des Mikrofons Ihres Telefons den Umgebungsgeräuschpegel schätzt, zeitgesteuerte Messsitzungen durchführt, die Umgebung bewertet, den Verlauf auf dem Gerät speichert und Sie optional in der App benachrichtigt, wenn der Lärm einen Schwellenwert überschreitet (Shusher)."
         },
         {
-          "question": "Is it free?",
-          "answer": "Yes. Core metering, sessions, Shusher, and limited history are free. Premium is a one-time upgrade for charts, CSV export, longer sessions, themes, more history, and no ads."
+          "question": "Ist es kostenlos?",
+          "answer": "Ja. Kernmessung, Sitzungen, Shusher und begrenzter Verlauf sind kostenlos. Premium ist ein einmaliges Upgrade für Diagramme, CSV Export, längere Sitzungen, Themen, mehr Verlauf und keine Werbung."
         },
         {
-          "question": "iPhone or Android?",
-          "answer": "Both. Bundle ID: `com.zuki.apps.noisemeter`."
+          "question": "iPhone oder Android?",
+          "answer": "Beide. Bundle-ID: „com.zuki.apps.noisemeter“."
         },
         {
-          "question": "What languages are supported?",
-          "answer": "12 locales including English, Hebrew, Arabic, French, German, Italian, Japanese, Korean, Chinese, Portuguese, Russian, and Spanish. Change language in Settings."
+          "question": "Welche Sprachen werden unterstützt?",
+          "answer": "12 Sprachen, darunter Englisch, Hebräisch, Arabisch, Französisch, Deutsch, Italienisch, Japanisch, Koreanisch, Chinesisch, Portugiesisch, Russisch und Spanisch. Ändern Sie die Sprache in den Einstellungen."
         },
         {
-          "question": "How accurate is the decibel reading?",
-          "answer": "It is an approximate level based on consumer phone hardware. Position, case, wind, and device model all affect results. Not calibrated for professional SPL, OSHA, or legal noise-ordinance enforcement."
+          "question": "Wie genau ist die Dezibel-Anzeige?",
+          "answer": "Dabei handelt es sich um einen ungefähren Wert, der auf der Hardware von Verbrauchertelefonen basiert. Position, Gehäuse, Wind und Gerätemodell beeinflussen alle die Ergebnisse. Nicht für professionelle Schalldruckpegel, OSHA oder die Durchsetzung gesetzlicher Lärmschutzbestimmungen kalibriert."
         },
         {
-          "question": "Why does my reading differ from a real sound meter?",
-          "answer": "Professional meters use calibrated microphones and specific measurement standards. Phones are tuned for speech and vary by manufacturer."
+          "question": "Warum unterscheidet sich mein Messwert von einem echten Schallmessgerät?",
+          "answer": "Professionelle Messgeräte verwenden kalibrierte Mikrofone und spezifische Messstandards. Telefone sind auf Sprache abgestimmt und variieren je nach Hersteller."
         },
         {
-          "question": "Can I use this in a dispute with a neighbor or landlord?",
-          "answer": "Use readings as informal context only. For legal or compliance matters, hire a qualified acoustician with calibrated equipment."
+          "question": "Kann ich dies im Streit mit einem Nachbarn oder Vermieter nutzen?",
+          "answer": "Verwenden Sie Lesungen nur als informellen Kontext. Beauftragen Sie für rechtliche oder Compliance-Matter einen qualifizierten Akustiker mit kalibrierter Ausrüstung."
         },
         {
-          "question": "Does the app record or upload audio?",
-          "answer": "No continuous recording or cloud upload of raw audio. The app processes level data locally for metering and sessions."
+          "question": "Nimmt die App Audio auf oder lädt sie hoch?",
+          "answer": "Keine kontinuierliche Aufnahme oder Cloud-Upload von Rohaudio. Die App verarbeitet Füllstandsdaten lokal für Messungen und Sitzungen."
         },
         {
-          "question": "When is the microphone active?",
-          "answer": "While the app is open and metering or running a session—not as a background listener."
+          "question": "Wann ist das Mikrofon aktiv?",
+          "answer": "Während die App geöffnet ist und eine Sitzung misst oder ausführt – nicht als Hintergrund-Listener."
         },
         {
-          "question": "Why does iOS ask for tracking (ATT)?",
-          "answer": "Free tier uses ads. Apple requires permission before personalized ad tracking. Premium removes ads."
+          "question": "Warum fragt iOS nach Tracking (ATT)?",
+          "answer": "Im kostenlosen Kontingent werden Anzeigen verwendet. Apple benötigt vor dem Tracking personalisierter Werbung eine Genehmigung. Premium entfernt Werbung."
         },
         {
-          "question": "Are Shusher alerts push notifications?",
-          "answer": "No. They appear inside the app while the live meter is active."
+          "question": "Sind Shusher-Benachrichtigungen Push-Benachrichtigungen?",
+          "answer": "Nein. Sie erscheinen in der App, während die Live-Anzeige aktiv ist."
         },
         {
-          "question": "Shusher doesn’t alert me",
-          "answer": "Check: Shusher enabled in Settings · threshold not set too high · meter tab open and mic running · live level actually exceeds threshold."
+          "question": "Shusher macht mich nicht darauf aufmerksam",
+          "answer": "Überprüfen Sie: Shusher in den Einstellungen aktiviert · Schwellenwert nicht zu hoch eingestellt · Pegelanzeige geöffnet und Mikrofon in Betrieb · Live-Pegel überschreitet tatsächlich den Schwellenwert."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "Tipps & Tricks",
+      "subtitle": "Holen Sie mehr aus der App heraus.",
       "items": [
         {
-          "title": "Placement matters",
-          "description": "1. Same spot every time — compare “apples to apples” when tracking a room over days. 2. Mic unobstructed — remove thick cases; don’t cover the bottom edge (common mic location). 3. Orientation — pick portrait or landscape and stick with it; mic direction changes slightly. 4. Height — ear level for “how loud does it feel?”; desk level for workspace noise. 5. Distance — 0.5–1 m from the main noise s"
+          "title": "Platzierung matters",
+          "description": "1. Immer derselbe Ort – vergleichen Sie „Äpfel mit Äpfeln“, wenn Sie einen Raum über Tage hinweg verfolgen. 2. Mikrofon frei – dicke Hüllen entfernen; Decken Sie nicht die Unterkante ab (übliche Mikrofonposition). 3. Ausrichtung – Wählen Sie Hoch- oder Querformat und bleiben Sie dabei; Die Mikrofonrichtung ändert sich leicht. 4. Höhe – Ohrhöhe für „Wie laut fühlt es sich an?“; Schreibtischhöhe für Lärm am Arbeitsplatz. 5. Abstand – 0,5–1 m vom Hauptlärm"
         },
         {
-          "title": "When to use a short vs long session",
-          "description": "| Goal | Suggestion | |------|------------| | Quick snapshot | 5 s (default) | | HVAC cycle | 15–30 s (Premium) | | Conversation level | 10–15 s while people talk naturally | | Street noise | 30–60 s (Premium) to catch peaks | ---"
+          "title": "Wann sollte man eine kurze oder eine lange Sitzung verwenden?",
+          "description": "| Ziel | Suggestion | |------|------------| | Schneller Schnappschuss | 5 s (default) | | HVAC cycle | 15–30 s (Premium) | | Konversationsebene | 10–15 s, während die Leute natürlich reden | | Street noise | 30–60 s (Premium), um Gipfel einzufangen | ---"
         },
         {
-          "title": "Simple average vs energy average (Leq)",
-          "description": "Steady hum (fan, AC constant) → simple average is fine. - Bursty noise (dishes, traffic, classroom chatter) → switch to energy average (Leq) in Settings for a fairer score. ---"
+          "title": "Einfacher Durchschnitt vs. Energiedurchschnitt (Leq)",
+          "description": "Ständiges Brummen (Lüfter, Wechselstrom konstant) → einfacher Durchschnitt ist in Ordnung. - Strömender Lärm (Geschirr, Verkehr, Klassenzimmer) → Wechseln Sie in den Einstellungen zum Energiedurchschnitt (Leq), um eine fairere Bewertung zu erhalten. ---"
         },
         {
-          "title": "Shusher use cases",
-          "description": "| Scenario | Starting threshold | |----------|-------------------| | Library / study | 45–55 dB | | Open office focus | 55–65 dB | | Living room with kids | 65–75 dB | | Workshop / garage | 75–85 dB | Lower the threshold if alerts rarely fire; raise it if too sensitive. ---"
+          "title": "Shusher-Anwendungsfälle",
+          "description": "| Szenario | Startschwelle | |----------|-----| | Bibliothek / Studium | 45–55 dB | | Fokus auf Großraumbüros | 55–65 dB | | Wohnzimmer mit Kindern | 65–75 dB | | Werkstatt / Garage | 75–85 dB | Senken Sie den Schwellenwert, wenn Warnungen selten ausgelöst werden. Erhöhen Sie den Wert, wenn er zu empfindlich ist. ---"
         },
         {
-          "title": "Compare before & after",
-          "description": "1. Measure before a change (rug, curtains, door seal, “quiet hours” sign). 2. Apply the change. 3. Measure after at the same time of day. 4. Save both to History with clear names. Small dB drops can mean a noticeably calmer space. ---"
+          "title": "Vergleichen Sie Vorher und Nachher",
+          "description": "1. Measure before a change (rug, curtains, door seal, “quiet hours” sign). 2. Übernehmen Sie die Änderung. 3. Messen Sie danach zur gleichen Tageszeit. 4. Speichern Sie beide mit Klarnamen im Verlauf. Small dB drops can mean a noticeably calmer space. ---"
         },
         {
-          "title": "Sharing results without drama",
-          "description": "Use neutral labels: “Tuesday 8pm apartment” not “neighbor noise proof.” - Share the results graphic for a single snapshot—not a live argument meter. - Remember: phone readings are approximate, not legal evidence. ---"
+          "title": "Ergebnisse ohne Drama teilen",
+          "description": "Use neutral labels: “Tuesday 8pm apartment” not “neighbor noise proof.” - Teilen Sie die Ergebnisgrafik für einen einzelnen Schnappschuss – nicht für eine Live-Argumentanzeige. - Denken Sie daran: Telefonmesswerte sind Näherungswerte und keine rechtlichen Beweise. ---"
         },
         {
-          "title": "Reduce false highs",
-          "description": "Don’t speak directly into the mic while measuring ambient noise. - Move away from TV speakers and phone notifications. - Wind outdoors can spike readings—shield the mic or measure indoors. ---"
+          "title": "Reduzieren Sie falsche Höhen",
+          "description": "Sprechen Sie beim Messen von Umgebungsgeräuschen nicht direkt in das Mikrofon. - Vermeiden Sie Fernsehlautsprecher und Telefonbenachrichtigungen. - Wind im Freien kann zu Messwertspitzen führen – schirmen Sie das Mikrofon ab oder messen Sie es in Innenräumen. ---"
         },
         {
-          "title": "Premium worth it?",
-          "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
+          "title": "Premium lohnt es sich?",
+          "description": "Erwägen Sie Premium, wenn Sie: - CSV für einen Vermieter-, Schul- oder internen Bericht exportieren - Sitzungsdiagramme benötigen, um Spitzen während einer Besprechung zu erkennen - längere Proben und keine Werbung bei wiederholten täglichen Überprüfungen wünschen. Einmaliger Kauf – kein Abonnement. ---"
         }
       ]
     },

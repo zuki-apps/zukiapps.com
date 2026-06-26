@@ -115,6 +115,8 @@ export default function CollagioPage() {
                 googlePlayUrl={t('download.googlePlayUrl')}
                 appStoreAlt={t('download.appStoreAlt')}
                 googlePlayAlt={t('download.googlePlayAlt')}
+                soonLabel={t('download.soon')}
+                fallbackBorderClass="border-rose-600/30"
                 utmContent="collagio"
               />
             </div>
@@ -250,9 +252,11 @@ export default function CollagioPage() {
               googlePlayUrl={t('download.googlePlayUrl')}
               appStoreAlt={t('download.appStoreAlt')}
               googlePlayAlt={t('download.googlePlayAlt')}
+              soonLabel={t('download.soon')}
+              fallbackBorderClass="border-rose-600/30"
               utmContent="collagio"
             />
-            {!t('download.appStoreUrl') && t('download.googlePlayUrl') && (
+            {!t('download.appStoreUrl') && !t('download.googlePlayUrl') && (
               <p className="text-sm text-gray-400 mt-6">{t('download.soon')}</p>
             )}
           </div>

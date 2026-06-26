@@ -1,282 +1,284 @@
 {
   "paratrooperBlitz": {
-    "back": "Back to Home",
+    "back": "חזרה לבית",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Paratrooper Blitz",
-      "subtitle": "Classic arcade action",
-      "description": "Arcade-style mobile game: destroy aircraft and paratroopers before they land. Two control modes (Arcade and Classic DOS), scoring, career ranks, optional ads and in-app purchases, and Google Play Games / Game Center integrations on supported builds.",
-      "structuredDataDescription": "Paratrooper Blitz — retro anti-air arcade for iOS and Android. Arcade slide-and-shoot and Classic aim-and-fire modes, leaderboards, 14 achievements, 12 languages. Android com.zuki.apps.paratrooperblitz by Zuki Apps."
+      "title": "צנחן בליץ",
+      "subtitle": "אקשן ארקייד קלאסי",
+      "description": "משחק נייד בסגנון ארקייד: השמדת מטוסים וצנחנים לפני שהם נוחתים. שני מצבי שליטה (Arcade ו-Classic DOS), ניקוד, דירוגי קריירה, מודעות אופציונליות ורכישות בתוך האפליקציה, ושילובים של Google Play משחקים / Game Center בגירסאות נתמכות.",
+      "structuredDataDescription": "צנחנים בליץ - ארקייד רטרו נגד אוויר עבור iOS וAndroid. מצבי החלקה-וירה של ארקייד ומצבי כיוון וירי קלאסיים, לוחות הישגים, 14 הישגים, 12 שפות. Android com.zuki.apps.paratrooperblitz מאת Zuki Apps.",
+      "seoTitle": "צנחנים בליץ — ארקייד אקשן | Zuki Apps",
+      "metaDescription": "ארקייד צנחנים קלאסי עם תוצאות ולוחות הישגים. חינם בiOS & Android - שחקו עכשיו."
     },
     "features": {
-      "title": "Key Features",
+      "title": "תכונות עיקריות",
       "modes": {
         "title": "Two ways to play",
-        "description": "Pick the control scheme that fits you — fast arcade movement or classic rotation aiming.",
+        "description": "בחר את ערכת הבקרה המתאימה לך - תנועת ארקייד מהירה או כיוון סיבוב קלאסי.",
         "items": [
-          "Arcade mode: move the turret left and right",
-          "Classic DOS mode: rotate and aim",
-          "Keyboard hints on supported platforms"
+          "מצב ארקייד: הזז את הצריח ימינה ושמאלה",
+          "מצב DOS קלאסי: סובב וכוון",
+          "רמזים למקלדת על פלטפורמות נתמכות"
         ]
       },
       "action": {
-        "title": "Scores & career rank",
-        "description": "Chase high scores and progress through themed military-style ranks as you play.",
+        "title": "ציונים ודירוג קריירה",
+        "description": "רדפו אחרי תוצאות גבוהות והתקדמו בדרגות בסגנון צבאי תוך כדי משחק.",
         "items": [
-          "Session scoring with aircraft and paratrooper hits",
-          "Career rank progression",
-          "Game over flow with play-again"
+          "ניקוד מושב עם פגעי מטוסים וצנחנים",
+          "התקדמות דירוג קריירה",
+          "משחק על זרימת עם משחק שוב"
         ]
       },
       "social": {
-        "title": "Leaderboards & achievements",
-        "description": "Where signed in, use platform services for rankings and achievements as configured in the app.",
+        "title": "לוחות הישגים והישגים",
+        "description": "כאשר אתה מחובר, השתמש בשירותי פלטפורמה לדירוג והישגים כפי שהוגדרו באפליקציה.",
         "items": [
-          "Global and friends-style lists where available",
-          "Native leaderboard and achievement UIs",
-          "Firebase Analytics/Crashlytics may apply for stability"
+          "רשימות גלובליות ובסגנון חברים היכן שזמינות",
+          "Leaderboard מקורי וממשקי משתמש הישגיים",
+          "Firebase Analytics/Crashlytics עשויים לבקש יציבות"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "זְמִינוּת",
       "description": "iOS and Android. Android application ID: com.zuki.apps.paratrooperblitz. Store links appear when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "גִרְסָה",
+      "status": "פּלַטפוֹרמָה",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "הורד",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/paratrooper-blitz/id6763775995",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "הורד ב-App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.paratrooperblitz",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "קבל את זה בGoogle Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "קישורים חשובים",
       "support": {
-        "title": "Technical Support",
+        "title": "תמיכה טכנית",
         "email": "support@zukiapps.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Paratrooper Blitz. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the game.",
+      "title": "תנאי שימוש",
+      "lastUpdated": "עדכון אחרון: אפריל 2026",
+      "intro": "אנא קרא את תנאי השימוש הללו בעיון לפני השימוש בצנחן בליץ. על ידי גישה או שימוש בשירות שלנו, אתה מסכים להיות מחויב לתנאים אלה. אם אינך מסכים, אנא אל תשתמש במשחק.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Paratrooper Blitz (\"Service\", \"Game\"), operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian authorized to agree on their behalf where required."
+        "title": "1. הסכמה לתנאים",
+        "content": "תנאים אלה מסדירים את הגישה והשימוש שלך בצנחן בליץ (\"שירות\", \"משחק\"), המופעל על ידי Zuki Apps. על ידי הורדה, התקנה, גישה או שימוש בשירות, אתה מסכים לתנאים אלה ולמדיניות הפרטיות שלנו.",
+        "content2": "אם אתה משתמש בשירות בשמו של קטין, אתה מצהיר שאתה ההורה או האפוטרופוס המורשים להסכים בשמם במידת הצורך."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Paratrooper Blitz is an arcade-style action game. The Service includes:",
+        "title": "2. תיאור השירות",
+        "content": "צנחנים בליץ הוא משחק פעולה בסגנון ארקייד. השירות כולל:",
         "items": [
-          "Gameplay sessions, scoring, and progression features",
-          "Optional integration with platform game services (e.g. leaderboards, achievements) where available",
-          "Advertising and in-app purchases as described in-app",
-          "Audio and visual effects; online features depend on third-party services and connectivity"
+          "הפעלות משחק, ניקוד ותכונות התקדמות",
+          "אינטגרציה אופציונלית עם שירותי משחקי פלטפורמה (למשל, לוחות הישגים, הישגים) היכן שזמין",
+          "פרסום ורכישות בתוך האפליקציה כמתואר בתוך האפליקציה",
+          "אפקטים אודיו וויזואליים; תכונות מקוונות תלויות בשירותים ובקישוריות של צד שלישי"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. מידע ליצירת קשר",
+        "content": "שאלות לגבי תנאים אלה:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "מדיניות פרטיות",
+      "lastUpdated": "עדכון אחרון: אפריל 2026",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The game may use Firebase Analytics and Crashlytics for diagnostics, platform sign-in for game services, and advertising identifiers subject to your device settings. Gameplay data may be processed by platform providers (Apple, Google) when you use their services."
+        "title": "1. מידע שאנו אוספים",
+        "content": "המשחק עשוי להשתמש ב-Firebase Analytics ו-Crashlytics לאבחון, כניסה לפלטפורמה לשירותי משחקים ומזהי פרסום בכפוף להגדרות המכשיר שלך. נתוני משחק עשויים להיות מעובדים על ידי ספקי פלטפורמה (אפל, גוגל) כאשר אתה משתמש בשירותים שלהם."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use collected information to operate the game, show ads or offers where applicable, improve stability, and comply with law. Leaderboards and achievements rely on platform APIs when you opt in or sign in."
+        "title": "2. כיצד אנו משתמשים במידע שלך",
+        "content": "אנו משתמשים במידע שנאסף כדי להפעיל את המשחק, להציג מודעות או הצעות במידת האפשר, לשפר את היציבות ולציית לחוק. Leaderboards והישגים מסתמכים על ממשקי API של פלטפורמה כאשר אתה מצטרף או נכנס."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Third parties (ad networks, analytics, platform game services) may process data under their policies when those features are active."
+        "title": "3. שיתוף מידע",
+        "content": "אנחנו לא מוכרים את המידע האישי שלך. צדדים שלישיים (רשתות מודעות, ניתוחים, שירותי משחקי פלטפורמה) עשויים לעבד נתונים במסגרת המדיניות שלהם כאשר תכונות אלו פעילות."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable safeguards appropriate to a mobile game. Use strong device security and keep the app updated."
+        "title": "4. אבטחת מידע",
+        "content": "אנו מיישמים אמצעי הגנה סבירים המתאימים למשחק נייד. השתמש באבטחת מכשיר חזקה ושמור את האפליקציה מעודכנת."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, delete, or restrict certain processing. Platform account settings and OS privacy controls apply. Contact us for requests we can fulfill directly."
+        "title": "5. הזכויות שלך",
+        "content": "בהתאם לאזור שלך, ייתכן שיש לך זכויות לגשת, למחוק או להגביל עיבוד מסוים. הגדרות חשבון הפלטפורמה ובקרות הפרטיות של מערכת ההפעלה חלות. צור איתנו קשר לבקשות שנוכל למלא ישירות."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. צור קשר",
+        "content": "שאלות לגבי מדיניות פרטיות זו:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
       },
       "metaDescription": "מדיניות פרטיות לצנחנים בליץ - משחק ארקייד. כיצד מטופלים נתוני משחק, מודעות, Firebase ושירותי משחקי פלטפורמה."
     },
     "footer": {
-      "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 צנחנים בליץ - כל הזכויות שמורות",
+      "tagline": "חלק מZuki Apps • מפתח מישראל • תוצרת ❤️"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "תכונות",
+      "screenshots": "צילומי מסך",
+      "howTo": "כיצד להשתמש",
+      "tips": "טיפים",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "הורד"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Paratrooper Blitz.",
-      "featuresTitle": "App screens",
+      "title": "צילומי מסך",
+      "subtitle": "מסכי אפליקציה אמיתיים מבית הצנחן בליץ.",
+      "featuresTitle": "מסכי אפליקציה",
       "items": [
         {
-          "id": "menu",
-          "title": "Main menu",
-          "description": "Pick Arcade or Classic and view your best scores.",
+          "id": "תַפרִיט",
+          "title": "תפריט ראשי",
+          "description": "בחר ארקייד או קלאסי וצפה בתוצאות הטובות ביותר שלך.",
           "image": "/images/paratrooper-blitz/screenshot-menu.png",
-          "alt": "Main menu — paratrooper blitz",
-          "category": "features"
+          "alt": "תפריט ראשי - בליץ צנחנים",
+          "category": "תכונות"
         },
         {
-          "id": "classic",
-          "title": "Classic mode",
-          "description": "Aim-and-fire paratrooper action with scoring on screen.",
+          "id": "קלַאסִי",
+          "title": "מצב קלאסי",
+          "description": "פעולת צנחנים לכוון ולירות עם ניקוד על המסך.",
           "image": "/images/paratrooper-blitz/screenshot-classic.png",
-          "alt": "Classic mode — paratrooper blitz",
-          "category": "features"
+          "alt": "מצב קלאסי - בזק צנחנים",
+          "category": "תכונות"
         },
         {
-          "id": "arcade",
-          "title": "Arcade mode",
-          "description": "Slide-and-shoot waves of aircraft and chutes.",
+          "id": "מִקמֶרֶת",
+          "title": "מצב ארקייד",
+          "description": "החלק וירה גלים של מטוסים ומגלחים.",
           "image": "/images/paratrooper-blitz/screenshot-arcade.png",
-          "alt": "Arcade mode — paratrooper blitz",
-          "category": "features"
+          "alt": "מצב ארקייד - בזק צנחנים",
+          "category": "תכונות"
         },
         {
-          "id": "chute",
-          "title": "Chute shots",
-          "description": "Time your shots before paratroopers land.",
+          "id": "מִגלָשָׁה",
+          "title": "יריות מצנח",
+          "description": "תזמן את היריות שלך לפני שצנחנים נוחתים.",
           "image": "/images/paratrooper-blitz/screenshot-chute.png",
-          "alt": "Chute shots — paratrooper blitz",
-          "category": "features"
+          "alt": "יריות מצנח - בליץ של צנחנים",
+          "category": "תכונות"
         },
         {
-          "id": "wave",
-          "title": "Wave pressure",
-          "description": "Survive escalating waves for a high score.",
+          "id": "גַל",
+          "title": "לחץ גלים",
+          "description": "לשרוד גלים מתגברים עבור ציון גבוה.",
           "image": "/images/paratrooper-blitz/screenshot-wave.png",
-          "alt": "Wave pressure — paratrooper blitz",
-          "category": "features"
+          "alt": "לחץ גל - בליץ של צנחנים",
+          "category": "תכונות"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "כיצד להשתמש",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a mode",
-          "description": "Arcade for slide-and-shoot; Classic for aim-and-fire."
+          "title": "בחר מצב",
+          "description": "ארקייד עבור החלקה וצילום; קלאסי לכוון-ואש."
         },
         {
           "number": "2",
-          "title": "Destroy threats",
-          "description": "Shoot aircraft and paratroopers before they reach your turret."
+          "title": "להרוס איומים",
+          "description": "תירה במטוסים ובצנחנים לפני שהם מגיעים לצריח שלך."
         },
         {
           "number": "3",
-          "title": "Chain combos",
-          "description": "Keep accuracy high to maximize score multipliers."
+          "title": "שילובי שרשרת",
+          "description": "שמור על דיוק גבוה כדי למקסם מכפילי ציון."
         },
         {
           "number": "4",
-          "title": "Beat your best",
-          "description": "Submit scores to leaderboards and unlock achievements."
+          "title": "תנצח את המיטב שלך",
+          "description": "שלח ציונים ללוחות המובילים ופתח הישגים."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "טיפים וטריקים",
+      "subtitle": "קבל יותר מהאפליקציה.",
       "items": [
         {
-          "title": "Beginner",
-          "description": "1. Learn Arcade first — fixed vertical shots are easier to aim. 2. Watch the ground — two soldiers on one side triggers a danger alert; four ends the run. 3. Pop chutes early — +150 points and they fall fast without a canopy."
+          "title": "מַתחִיל",
+          "description": "1. למד קודם את ארקייד - קל יותר לכוון יריות אנכיות קבועות. 2. שמירה על הקרקע - שני חיילים בצד אחד מפעילים התראת סכנה; ארבעה מסיימים את הריצה. 3. פופ מצנחים מוקדם - +150 נקודות והם נופלים מהר ללא חופה."
         },
         {
-          "title": "Intermediate",
-          "description": "4. Center your turret in Arcade so you can reach both sides quickly. 5. Save fire for clusters — combo windows reward back-to-back kills. 6. Deal with bombers first — destroy the plane or the bomb before it lands."
+          "title": "ביניים",
+          "description": "4. מרכז את הצריח שלך בארקייד כדי שתוכל להגיע לשני הצדדים במהירות. 5. שמור אש לאשכולות - חלונות משולבים מתגמלים הרג גב אל גב. 6. התמודד קודם עם מפציצים - השמידו את המטוס או את הפצצה לפני שהוא נוחת."
         },
         {
-          "title": "Advanced",
-          "description": "7. Classic mode — sweep the sky in arcs; lead aircraft moving horizontally. 8. Wave spikes — after ~2 minutes, spawn rate increases; stay calm and prioritize landings. 9. Sign in once from home → Global Rankings so game-over scores upload."
+          "title": "מִתקַדֵם",
+          "description": "7. מצב קלאסי - לטאטא את השמיים בקשתות; להוביל כלי טיס נעים אופקית. 8. קוצים גלים - לאחר ~2 דקות, קצב השרצים עולה; הישארו רגועים ותעדיפו נחיתות. 9. היכנס פעם אחת מהבית ← דירוג גלובלי כדי להעלות את התוצאות של המשחק."
         },
         {
-          "title": "Career & achievements",
-          "description": "Rank up on the home screen from lifetime stats. - Check the trophy catalog for 14 achievements (score milestones, career totals, session goals)."
+          "title": "קריירה והישגים",
+          "description": "דרג במסך הבית מתוך נתונים סטטיסטיים לכל החיים. - בדוק את קטלוג הגביעים עבור 14 הישגים (ציון אבני דרך, סיכומי קריירה, יעדי מפגש)."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "שאלות נפוצות",
+      "subtitle": "תשובות מהירות לגבי תכונות, פרטיות וחיובים.",
+      "viewAllSupport": "צפה בתמיכה מלאה & FAQ",
       "items": [
         {
-          "question": "Is Paratrooper Blitz free?",
-          "answer": "Yes. The game is free to download and play. Optional one-time Remove Ads purchase removes banner and interstitial ads."
+          "question": "האם צנחן בליץ בחינם?",
+          "answer": "כֵּן. המשחק ניתן להורדה ולהפעלה בחינם. רכישה חד-פעמית אופציונלית של הסר מודעות מסירה מודעות באנר ומודעות ביניים."
         },
         {
-          "question": "What age is the game for?",
-          "answer": "Rated Teen (13+). Mild military-style arcade action—no gore, no chat, no user-generated content."
+          "question": "לאיזה גיל המשחק מיועד?",
+          "answer": "נער מדורג (13+). פעולת ארקייד מתונה בסגנון צבאי - ללא גסיסה, ללא צ'אט, ללא תוכן שנוצר על ידי משתמשים."
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Core gameplay works offline. Leaderboards, achievements, ads, and purchases need network and store services."
+          "question": "זה עובד במצב לא מקוון?",
+          "answer": "משחק הליבה עובד במצב לא מקוון. לוחות הישגים, הישגים, מודעות ורכישות זקוקים לשירותי רשת וחנויות."
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Arabic, German, Spanish, French, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified). Change in Settings."
+          "question": "אילו שפות נתמכות?",
+          "answer": "אנגלית, ערבית, גרמנית, ספרדית, צרפתית, עברית, איטלקית, יפנית, קוריאנית, פורטוגזית, רוסית וסינית (פשוטה). שנה בהגדרות."
         },
         {
-          "question": "What’s the difference between Arcade and Classic?",
-          "answer": "Arcade: slide left/right, shoot up. Classic: rotate turret 360° and aim manually."
+          "question": "מה ההבדל בין ארקייד לקלאסי?",
+          "answer": "ארקייד: החלק שמאלה/ימינה, צלם למעלה. קלאסי: סובב את הצריח ב-360 מעלות וכוון ידנית."
         },
         {
-          "question": "How do I lose?",
-          "answer": "Four parachutists land on the **same side** of your turret, or a bomb hits the ground."
+          "question": "איך אני מפסיד?",
+          "answer": "ארבעה צנחנים נוחתים על **אותו צד** של הצריח שלך, או שפצצה פוגעת בקרקע."
         },
         {
-          "question": "Why did my score go down when I fired?",
-          "answer": "Each shot costs 1 point (classic Paratrooper rule)."
+          "question": "למה הציון שלי ירד כשיריתי?",
+          "answer": "כל ירייה עולה נקודה אחת (כלל הצנחנים הקלאסי)."
         },
         {
-          "question": "Do paratroopers ever land off-screen?",
-          "answer": "No—drops stay within the play area."
+          "question": "האם צנחנים נוחתים אי פעם מחוץ למסך?",
+          "answer": "לא - טיפות נשארות בתוך אזור המשחקים."
         },
         {
-          "question": "Why didn’t my score appear on the leaderboard?",
-          "answer": "You must sign in to Google Play Games (Android) or Game Center (iOS). Open **Global Rankings** from the home menu once to complete sign-in, then play a full round."
+          "question": "מדוע הציון שלי לא הופיע בטבלת ההישגים?",
+          "answer": "עליך להיכנס ל-Google Play משחקים (Android) או Game Center (iOS). פתח את **דירוג גלובלי** מתפריט הבית פעם אחת כדי להשלים את הכניסה, ואז שחק סיבוב שלם."
         },
         {
-          "question": "Are Arcade and Classic scores separate?",
-          "answer": "Yes—each mode has its own leaderboard."
+          "question": "האם ציוני ארקייד וקלאסיקה נפרדים?",
+          "answer": "כן - לכל מצב יש Leaderboard משלו."
         },
         {
-          "question": "How many achievements are there?",
-          "answer": "14 trophies with an in-app catalog showing requirements."
+          "question": "כמה הישגים יש?",
+          "answer": "14 גביעים עם קטלוג בתוך האפליקציה המציג דרישות."
         },
         {
-          "question": "What does Remove Ads include?",
-          "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
+          "question": "מה כולל הסר מודעות?",
+          "answer": "מסיר את הבאנר הביתי ואת מודעת הביניים שלאחר המשחק. רכישה חד פעמית שאינה מתכלה."
         }
       ]
     },

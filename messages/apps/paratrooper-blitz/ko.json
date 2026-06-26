@@ -1,282 +1,284 @@
 {
   "paratrooperBlitz": {
-    "back": "Back to Home",
+    "back": "홈으로 돌아가기",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Paratrooper Blitz",
-      "subtitle": "Classic arcade action",
-      "description": "Arcade-style mobile game: destroy aircraft and paratroopers before they land. Two control modes (Arcade and Classic DOS), scoring, career ranks, optional ads and in-app purchases, and Google Play Games / Game Center integrations on supported builds.",
-      "structuredDataDescription": "Paratrooper Blitz — retro anti-air arcade for iOS and Android. Arcade slide-and-shoot and Classic aim-and-fire modes, leaderboards, 14 achievements, 12 languages. Android com.zuki.apps.paratrooperblitz by Zuki Apps."
+      "title": "낙하산병 블리츠",
+      "subtitle": "클래식 아케이드 액션",
+      "description": "아케이드 스타일 모바일 게임: 항공기와 낙하산병이 착륙하기 전에 파괴하세요. 두 가지 제어 모드(아케이드 및 클래식 DOS), 득점, 경력 순위, 선택적 광고 및 인앱 구매, 지원되는 빌드에 대한 Google Play 게임 / Game Center 통합.",
+      "structuredDataDescription": "Paratrooper Blitz — iOS 및 Android용 복고풍 대공 아케이드. 아케이드 슬라이드 앤 슛 및 클래식 조준 및 발사 모드, 순위표, 14개 업적, 12개 언어. Android com.zuki.apps.paratrooperblitz by Zuki Apps.",
+      "seoTitle": "낙하산병 공습 — 아케이드 액션 | Zuki Apps",
+      "metaDescription": "점수와 순위표가 있는 클래식 낙하산병 아케이드입니다. iOS 및 Android에서 무료 — 지금 플레이하세요."
     },
     "features": {
-      "title": "Key Features",
+      "title": "주요 특징",
       "modes": {
-        "title": "Two ways to play",
-        "description": "Pick the control scheme that fits you — fast arcade movement or classic rotation aiming.",
+        "title": "플레이하는 두 가지 방법",
+        "description": "빠른 아케이드 이동 또는 클래식 회전 조준 등 자신에게 맞는 제어 방식을 선택하세요.",
         "items": [
-          "Arcade mode: move the turret left and right",
-          "Classic DOS mode: rotate and aim",
-          "Keyboard hints on supported platforms"
+          "아케이드 모드: 포탑을 좌우로 움직입니다.",
+          "클래식 DOS 모드: 회전 및 조준",
+          "지원되는 플랫폼의 키보드 힌트"
         ]
       },
       "action": {
-        "title": "Scores & career rank",
-        "description": "Chase high scores and progress through themed military-style ranks as you play.",
+        "title": "점수 및 경력 순위",
+        "description": "플레이하면서 높은 점수를 추적하고 테마가 있는 군사 스타일 순위를 달성하세요.",
         "items": [
-          "Session scoring with aircraft and paratrooper hits",
-          "Career rank progression",
-          "Game over flow with play-again"
+          "항공기 및 낙하산 병 히트로 세션 채점",
+          "경력 순위 진행",
+          "다시 플레이를 통한 게임 오버 흐름"
         ]
       },
       "social": {
-        "title": "Leaderboards & achievements",
-        "description": "Where signed in, use platform services for rankings and achievements as configured in the app.",
+        "title": "리더보드 및 성과",
+        "description": "로그인한 경우 앱에 구성된 순위 및 성과에 대한 플랫폼 서비스를 사용하세요.",
         "items": [
-          "Global and friends-style lists where available",
-          "Native leaderboard and achievement UIs",
-          "Firebase Analytics/Crashlytics may apply for stability"
+          "사용 가능한 경우 글로벌 및 친구 스타일 목록",
+          "기본 리더보드 및 업적 UI",
+          "Firebase 안정성을 위해 Analytics/Crashlytics가 적용될 수 있습니다."
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "유효성",
       "description": "iOS and Android. Android application ID: com.zuki.apps.paratrooperblitz. Store links appear when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "버전",
+      "status": "플랫폼",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "다운로드",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/paratrooper-blitz/id6763775995",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "App Store에서 다운로드하세요.",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.paratrooperblitz",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "시작해 보세요 Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "중요한 링크",
       "support": {
-        "title": "Technical Support",
+        "title": "기술지원",
         "email": "support@zukiapps.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Paratrooper Blitz. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the game.",
+      "title": "이용약관",
+      "lastUpdated": "최종 업데이트 날짜: 2026년 4월",
+      "intro": "Paratrooper Blitz를 사용하기 전에 본 이용 약관을 주의 깊게 읽으십시오. 당사 서비스에 액세스하거나 이를 사용함으로써 귀하는 본 약관을 준수할 것에 동의하게 됩니다. 동의하지 않으시면 게임 이용을 중단해주시기 바랍니다.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Paratrooper Blitz (\"Service\", \"Game\"), operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian authorized to agree on their behalf where required."
+        "title": "1. 약관 동의",
+        "content": "본 약관은 Zuki Apps에서 운영하는 Paratrooper Blitz(\"서비스\", \"게임\")에 대한 액세스 및 사용에 적용됩니다. 서비스를 다운로드, 설치, 액세스 또는 사용함으로써 귀하는 본 약관 및 개인정보 보호정책에 동의하게 됩니다.",
+        "content2": "귀하가 미성년자를 대신하여 서비스를 이용하는 경우, 귀하는 필요한 경우 미성년자를 대신하여 동의할 권한이 있는 부모 또는 보호자임을 진술합니다."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Paratrooper Blitz is an arcade-style action game. The Service includes:",
+        "title": "2. 서비스 설명",
+        "content": "Paratrooper Blitz는 아케이드 스타일의 액션 게임입니다. 서비스에는 다음이 포함됩니다.",
         "items": [
-          "Gameplay sessions, scoring, and progression features",
-          "Optional integration with platform game services (e.g. leaderboards, achievements) where available",
-          "Advertising and in-app purchases as described in-app",
-          "Audio and visual effects; online features depend on third-party services and connectivity"
+          "게임플레이 세션, 채점 및 진행 기능",
+          "가능한 경우 플랫폼 게임 서비스(예: 리더보드, 업적)와의 선택적 통합",
+          "인앱 설명에 따른 광고 및 인앱 구매",
+          "오디오 및 시각 효과; 온라인 기능은 타사 서비스 및 연결에 따라 다릅니다."
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. 연락처 정보",
+        "content": "본 약관에 관한 질문:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "개인 정보 보호 정책",
+      "lastUpdated": "최종 업데이트 날짜: 2026년 4월",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The game may use Firebase Analytics and Crashlytics for diagnostics, platform sign-in for game services, and advertising identifiers subject to your device settings. Gameplay data may be processed by platform providers (Apple, Google) when you use their services."
+        "title": "1. 당사가 수집하는 정보",
+        "content": "게임은 진단을 위해 Firebase 분석 및 Crashlytics, 게임 서비스를 위한 플랫폼 로그인, 기기 설정에 따른 광고 식별자를 사용할 수 있습니다. 게임플레이 데이터는 귀하가 서비스를 이용할 때 플랫폼 제공자(Apple, Google)에 의해 처리될 수 있습니다."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use collected information to operate the game, show ads or offers where applicable, improve stability, and comply with law. Leaderboards and achievements rely on platform APIs when you opt in or sign in."
+        "title": "2. 당사가 귀하의 정보를 사용하는 방법",
+        "content": "당사는 수집된 정보를 사용하여 게임을 운영하고, 해당되는 경우 광고 또는 제안을 표시하고, 안정성을 개선하고, 법률을 준수합니다. 리더보드 및 성과는 귀하가 선택하거나 로그인할 때 플랫폼 API를 사용합니다."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Third parties (ad networks, analytics, platform game services) may process data under their policies when those features are active."
+        "title": "3. 정보 공유",
+        "content": "우리는 귀하의 개인 정보를 판매하지 않습니다. 제3자(광고 네트워크, 분석, 플랫폼 게임 서비스)는 해당 기능이 활성화된 경우 해당 정책에 따라 데이터를 처리할 수 있습니다."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable safeguards appropriate to a mobile game. Use strong device security and keep the app updated."
+        "title": "4. 데이터 보안",
+        "content": "우리는 모바일 게임에 적합한 합리적인 보호 장치를 구현합니다. 강력한 장치 보안을 사용하고 앱을 최신 상태로 유지하세요."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, delete, or restrict certain processing. Platform account settings and OS privacy controls apply. Contact us for requests we can fulfill directly."
+        "title": "5. 귀하의 권리",
+        "content": "귀하의 지역에 따라 귀하는 특정 처리에 접근, 삭제 또는 제한할 권리가 있을 수 있습니다. 플랫폼 계정 설정 및 OS 개인 정보 보호 제어가 적용됩니다. 직접 처리할 수 있는 요청이 있으면 문의해 주세요."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. 문의하기",
+        "content": "본 개인정보 보호정책에 대한 질문:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       },
       "metaDescription": "Paratrooper Blitz — 아케이드 게임에 대한 개인 정보 보호 정책. 게임플레이 데이터, 광고, Firebase 및 플랫폼 게임 서비스가 처리되는 방식입니다."
     },
     "footer": {
-      "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 낙하산병 블리츠 - 판권 소유",
+      "tagline": "Zuki Apps의 일부 • 이스라엘의 개발자 • ❤️로 제작됨"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "특징",
+      "screenshots": "스크린샷",
+      "howTo": "사용방법",
+      "tips": "팁",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "다운로드"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Paratrooper Blitz.",
-      "featuresTitle": "App screens",
+      "title": "스크린샷",
+      "subtitle": "Paratrooper Blitz의 실제 앱 화면.",
+      "featuresTitle": "앱 화면",
       "items": [
         {
-          "id": "menu",
-          "title": "Main menu",
-          "description": "Pick Arcade or Classic and view your best scores.",
+          "id": "메뉴",
+          "title": "메인 메뉴",
+          "description": "아케이드 또는 클래식을 선택하고 최고 점수를 확인하세요.",
           "image": "/images/paratrooper-blitz/screenshot-menu.png",
-          "alt": "Main menu — paratrooper blitz",
-          "category": "features"
+          "alt": "메인 메뉴 — 낙하산병 공세",
+          "category": "특징"
         },
         {
-          "id": "classic",
-          "title": "Classic mode",
-          "description": "Aim-and-fire paratrooper action with scoring on screen.",
+          "id": "권위 있는",
+          "title": "클래식 모드",
+          "description": "화면에 점수가 표시되는 조준 사격 낙하산병 액션.",
           "image": "/images/paratrooper-blitz/screenshot-classic.png",
-          "alt": "Classic mode — paratrooper blitz",
-          "category": "features"
+          "alt": "클래식 모드 — 낙하산병 공세",
+          "category": "특징"
         },
         {
-          "id": "arcade",
-          "title": "Arcade mode",
-          "description": "Slide-and-shoot waves of aircraft and chutes.",
+          "id": "아케이드",
+          "title": "아케이드 모드",
+          "description": "항공기와 낙하산의 슬라이드 앤 슛 파도.",
           "image": "/images/paratrooper-blitz/screenshot-arcade.png",
-          "alt": "Arcade mode — paratrooper blitz",
-          "category": "features"
+          "alt": "아케이드 모드 — 낙하산병 공세",
+          "category": "특징"
         },
         {
-          "id": "chute",
-          "title": "Chute shots",
-          "description": "Time your shots before paratroopers land.",
+          "id": "급류",
+          "title": "슈트 샷",
+          "description": "낙하산병이 착륙하기 전에 사격 시간을 정하세요.",
           "image": "/images/paratrooper-blitz/screenshot-chute.png",
-          "alt": "Chute shots — paratrooper blitz",
-          "category": "features"
+          "alt": "낙하산 사격 — 낙하산병 공세",
+          "category": "특징"
         },
         {
-          "id": "wave",
-          "title": "Wave pressure",
-          "description": "Survive escalating waves for a high score.",
+          "id": "파도",
+          "title": "파압",
+          "description": "점점 커지는 파도에서 살아남아 높은 점수를 획득하세요.",
           "image": "/images/paratrooper-blitz/screenshot-wave.png",
-          "alt": "Wave pressure — paratrooper blitz",
-          "category": "features"
+          "alt": "파도 압력 - 낙하산 병 공세",
+          "category": "특징"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "사용방법",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a mode",
-          "description": "Arcade for slide-and-shoot; Classic for aim-and-fire."
+          "title": "모드를 선택하세요",
+          "description": "슬라이드 앤 슛을 즐길 수 있는 아케이드; 조준 및 사격을 위한 클래식."
         },
         {
           "number": "2",
-          "title": "Destroy threats",
-          "description": "Shoot aircraft and paratroopers before they reach your turret."
+          "title": "위협 제거",
+          "description": "항공기와 낙하산병이 포탑에 도달하기 전에 사격하세요."
         },
         {
           "number": "3",
-          "title": "Chain combos",
-          "description": "Keep accuracy high to maximize score multipliers."
+          "title": "체인 콤보",
+          "description": "점수 배율을 최대화하려면 정확도를 높게 유지하세요."
         },
         {
           "number": "4",
-          "title": "Beat your best",
-          "description": "Submit scores to leaderboards and unlock achievements."
+          "title": "최선을 다해 승리하세요",
+          "description": "점수를 리더보드에 제출하고 성과를 달성하세요."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "팁과 요령",
+      "subtitle": "앱에서 더 많은 것을 얻으세요.",
       "items": [
         {
-          "title": "Beginner",
-          "description": "1. Learn Arcade first — fixed vertical shots are easier to aim. 2. Watch the ground — two soldiers on one side triggers a danger alert; four ends the run. 3. Pop chutes early — +150 points and they fall fast without a canopy."
+          "title": "초보자",
+          "description": "1. 아케이드를 먼저 배우세요. 고정된 수직 사격이 조준하기 더 쉽습니다. 2. 지상을 감시하십시오. 한쪽에 두 명의 군인이 위험 경보를 발령합니다. 4번의 실행이 종료됩니다. 3. 낙하산을 일찍 터뜨리세요. - +150점이며 캐노피 없이 빠르게 낙하합니다."
         },
         {
-          "title": "Intermediate",
-          "description": "4. Center your turret in Arcade so you can reach both sides quickly. 5. Save fire for clusters — combo windows reward back-to-back kills. 6. Deal with bombers first — destroy the plane or the bomb before it lands."
+          "title": "중급",
+          "description": "4. 양쪽에 빠르게 접근할 수 있도록 포탑을 아케이드 중앙에 두세요. 5. 클러스터에 대한 불을 피하십시오 - 콤보 창은 연속적인 처치를 보상합니다. 6. 폭격기를 먼저 처리하십시오. 비행기나 폭탄이 착륙하기 전에 파괴하십시오."
         },
         {
-          "title": "Advanced",
-          "description": "7. Classic mode — sweep the sky in arcs; lead aircraft moving horizontally. 8. Wave spikes — after ~2 minutes, spawn rate increases; stay calm and prioritize landings. 9. Sign in once from home → Global Rankings so game-over scores upload."
+          "title": "고급의",
+          "description": "7. 클래식 모드 - 하늘을 호 모양으로 쓸어보세요. 수평으로 움직이는 선두 항공기. 8. 웨이브 스파이크 - ~2분 후 생성 속도가 증가합니다. 침착함을 유지하고 착륙을 우선시하세요. 9. 홈 → 글로벌랭킹에서 한 번 로그인하면 게임오버 점수가 업로드됩니다."
         },
         {
-          "title": "Career & achievements",
-          "description": "Rank up on the home screen from lifetime stats. - Check the trophy catalog for 14 achievements (score milestones, career totals, session goals)."
+          "title": "경력 및 업적",
+          "description": "홈 화면에서 평생 통계로 순위를 올려보세요. - 트로피 카탈로그에서 14개 성과(점수 이정표, 총 경력, 세션 목표)를 확인하세요."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "자주 묻는 질문",
+      "subtitle": "기능, 개인정보 보호, 청구에 대한 빠른 답변.",
+      "viewAllSupport": "전체 지원 보기 & FAQ",
       "items": [
         {
-          "question": "Is Paratrooper Blitz free?",
-          "answer": "Yes. The game is free to download and play. Optional one-time Remove Ads purchase removes banner and interstitial ads."
+          "question": "Paratrooper Blitz는 무료인가요?",
+          "answer": "예. 게임은 무료로 다운로드하여 플레이할 수 있습니다. 일회성 광고 제거 옵션을 구매하면 배너 및 전면 광고가 제거됩니다."
         },
         {
-          "question": "What age is the game for?",
-          "answer": "Rated Teen (13+). Mild military-style arcade action—no gore, no chat, no user-generated content."
+          "question": "게임은 몇세용인가요?",
+          "answer": "청소년(13세 이상) 등급. 가벼운 밀리터리 스타일 아케이드 액션으로 고어, 채팅, 사용자 생성 콘텐츠가 없습니다."
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Core gameplay works offline. Leaderboards, achievements, ads, and purchases need network and store services."
+          "question": "오프라인에서도 작동하나요?",
+          "answer": "핵심 게임플레이는 오프라인에서 작동합니다. 리더보드, 업적, 광고, 구매에는 네트워크 및 스토어 서비스가 필요합니다."
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Arabic, German, Spanish, French, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified). Change in Settings."
+          "question": "어떤 언어가 지원되나요?",
+          "answer": "영어, 아랍어, 독일어, 스페인어, 프랑스어, 히브리어, 이탈리아어, 일본어, 한국어, 포르투갈어, 러시아어 및 중국어(간체). 설정에서 변경하세요."
         },
         {
-          "question": "What’s the difference between Arcade and Classic?",
-          "answer": "Arcade: slide left/right, shoot up. Classic: rotate turret 360° and aim manually."
+          "question": "아케이드와 클래식의 차이점은 무엇인가요?",
+          "answer": "아케이드: 왼쪽/오른쪽으로 슬라이드하고 총을 쏘세요. 클래식: 포탑을 360° 회전하고 수동으로 조준합니다."
         },
         {
-          "question": "How do I lose?",
-          "answer": "Four parachutists land on the **same side** of your turret, or a bomb hits the ground."
+          "question": "어떻게 잃나요?",
+          "answer": "네 명의 낙하산병이 포탑의 **같은 쪽에** 착지하거나 폭탄이 땅에 떨어지게 됩니다."
         },
         {
-          "question": "Why did my score go down when I fired?",
-          "answer": "Each shot costs 1 point (classic Paratrooper rule)."
+          "question": "해고했는데 왜 점수가 떨어졌나요?",
+          "answer": "각 사격 비용은 1점입니다(고전적인 낙하산병 규칙)."
         },
         {
-          "question": "Do paratroopers ever land off-screen?",
-          "answer": "No—drops stay within the play area."
+          "question": "낙하산병이 화면 밖에 착륙한 적도 있나요?",
+          "answer": "아니요. 드롭은 플레이 영역 내에 유지됩니다."
         },
         {
-          "question": "Why didn’t my score appear on the leaderboard?",
-          "answer": "You must sign in to Google Play Games (Android) or Game Center (iOS). Open **Global Rankings** from the home menu once to complete sign-in, then play a full round."
+          "question": "내 점수가 리더보드에 표시되지 않는 이유는 무엇인가요?",
+          "answer": "Google Play 게임(Android) 또는 Game Center(iOS)에 로그인해야 합니다. 홈 메뉴에서 **글로벌 랭킹**을 한 번 열어 로그인을 완료한 후 전체 라운드를 플레이하세요."
         },
         {
-          "question": "Are Arcade and Classic scores separate?",
-          "answer": "Yes—each mode has its own leaderboard."
+          "question": "아케이드 점수와 클래식 점수는 별개인가요?",
+          "answer": "예. 각 모드에는 자체 순위표가 있습니다."
         },
         {
-          "question": "How many achievements are there?",
-          "answer": "14 trophies with an in-app catalog showing requirements."
+          "question": "업적은 몇개인가요?",
+          "answer": "요구 사항을 보여주는 인앱 카탈로그가 포함된 트로피 14개."
         },
         {
-          "question": "What does Remove Ads include?",
-          "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
+          "question": "광고 제거에는 무엇이 포함되어 있나요?",
+          "answer": "홈 배너와 게임 후 전면 광고를 제거합니다. 일회성 비소모성 구매입니다."
         }
       ]
     },

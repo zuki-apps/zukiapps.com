@@ -19,6 +19,6 @@ export const TOLDYA_CHILD_SAFETY_PATH = '/toldya/child-safety' as const;
  * Privacy/terms/support sitemap entries follow the same pilot/published gate in `app/sitemap.ts`.
  */
 export const COLLAGIO_PILOT = true;
-export const COLLAGIO_PUBLISHED = true;
+export const COLLAGIO_PUBLISHED = false;
 
 export const COLLAGIO_APP_PATH = '/collagio' as const;

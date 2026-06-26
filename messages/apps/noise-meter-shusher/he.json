@@ -1,298 +1,300 @@
 {
   "noiseMeterShusher": {
-    "back": "Back to Home",
+    "back": "חזרה לבית",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Noise Meter — Shusher",
-      "subtitle": "Real-time dB & noise scoring",
-      "description": "Flutter app that streams microphone input into approximate decibel readings, runs timed measurement sessions, scores the environment against common noise bands, saves history on device, and offers CSV export and charts. Monetization via ads and a one-time Premium unlock for extended features.",
-      "structuredDataDescription": "Noise Meter — Shusher — real-time decibel meter for iOS and Android. Live sound level, timed sessions, noise scores, on-device history, Shusher in-app alerts, optional Premium charts and CSV export. Android com.zuki.apps.noisemeter by Zuki Apps."
+      "title": "מד רעש - שושר",
+      "subtitle": "ציון dB ורעש בזמן אמת",
+      "description": "אפליקציית פלאטר שמזרימה קלט מיקרופון לקריאות דציבלים משוערות, מפעילה מפגשי מדידה מתוזמנים, מבוקרת את הסביבה מול פסי רעש נפוצים, שומרת היסטוריה במכשיר ומציעה CSV ייצוא ותרשימים. מונטיזציה באמצעות מודעות וביטול נעילה חד פעמי של Premium לתכונות מורחבות.",
+      "structuredDataDescription": "מד רעש - Shusher - מד דציבל בזמן אמת עבור iOS וAndroid. רמת צליל חיה, הפעלות מתוזמנות, ציוני רעש, היסטוריה במכשיר, התראות Shusher בתוך האפליקציה, תרשימים אופציונליים של Premium ויצוא CSV. Android com.zuki.apps.noisemeter מאת Zuki Apps.",
+      "seoTitle": "מד רעש — דציבל ושושר | Zuki Apps",
+      "metaDescription": "מדוד את רמות הרעש בכל מקום עם מד dB והיסטוריה. אין חשבון. חינם בiOS וAndroid."
     },
     "features": {
-      "title": "Key Features",
+      "title": "תכונות עיקריות",
       "meter": {
-        "title": "Live meter",
-        "description": "Start and stop timed sessions; see min, max, average, and category labels with plain-language recommendations.",
+        "title": "מד חי",
+        "description": "התחל והפסק מפגשים מתוזמנים; ראה תוויות מינימום, מקסימום, ממוצע וקטגוריות עם המלצות בשפה פשוטה.",
         "items": [
-          "Approximate dB from the microphone",
-          "Noise score and category bands",
-          "Share-friendly results"
+          "dB משוער מהמיקרופון",
+          "להקות רעש וקטגוריה",
+          "תוצאות ידידותיות לשיתוף"
         ]
       },
       "history": {
-        "title": "History & export",
-        "description": "Past sessions stay on your device; export CSV or share summaries when you choose.",
+        "title": "היסטוריה ויצוא",
+        "description": "הפעלות קודמות נשארות במכשיר שלך; ייצא CSV או שתף סיכומים לפי בחירתך.",
         "items": [
-          "Local history list",
-          "CSV export",
-          "Share sheet integration"
+          "רשימת היסטוריה מקומית",
+          "CSV ייצוא",
+          "שתף שילוב גיליון"
         ]
       },
       "premium": {
-        "title": "Premium & charts",
-        "description": "Unlock longer or custom durations and richer charts where enabled in the app.",
+        "title": "Premium ותרשימים",
+        "description": "בטל נעילה של משכי זמן ארוכים יותר או מותאמים אישית ותרשימים עשירים יותר כאשר מופעלים באפליקציה.",
         "items": [
-          "Premium removes certain limits",
-          "Visual charts for trends",
-          "Ad experience may differ by tier"
+          "Premium מסיר מגבלות מסוימות",
+          "תרשימים חזותיים לטרנדים",
+          "חוויית המודעה עשויה להשתנות לפי שכבה"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "זְמִינוּת",
       "description": "iOS and Android. Android application ID: com.zuki.apps.noisemeter. Store links appear when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "גִרְסָה",
+      "status": "פּלַטפוֹרמָה",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "הורד",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/noise-meter-shusher/id6763019075",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "הורד ב-App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.noisemeter",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "קבל את זה בGoogle Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "קישורים חשובים",
       "support": {
-        "title": "Technical Support",
+        "title": "תמיכה טכנית",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Noise Meter — Shusher. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "title": "תנאי שימוש",
+      "lastUpdated": "עדכון אחרון: אפריל 2026",
+      "intro": "אנא קרא את תנאי השימוש הללו בעיון לפני השימוש במד רעש - Shusher. על ידי גישה או שימוש בשירות שלנו, אתה מסכים להיות מחויב לתנאים אלה. אם אינך מסכים, אנא אל תשתמש באפליקציה.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Noise Meter — Shusher (\"Service\", \"App\"), a microphone-based noise measurement application operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+        "title": "1. הסכמה לתנאים",
+        "content": "תנאים אלה מסדירים את הגישה והשימוש שלך ב-Noise Meter - Shusher (\"שירות\", \"אפליקציה\"), אפליקציה למדידת רעש מבוססת מיקרופון המופעלת על ידי Zuki Apps. על ידי הורדה, התקנה, גישה או שימוש בשירות, אתה מסכים לתנאים אלה ולמדיניות הפרטיות שלנו.",
+        "content2": "אם אתה משתמש בשירות מטעם ארגון, אתה מצהיר שיש לך סמכות לחייב את הארגון הזה."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "The app provides approximate sound-level readings and related statistics for informational purposes. The Service includes:",
+        "title": "2. תיאור השירות",
+        "content": "האפליקציה מספקת קריאות משוערות ברמת הקול וסטטיסטיקות קשורות למטרות מידע. השירות כולל:",
         "items": [
-          "Timed measurement sessions and noise scoring",
-          "Local history and optional export or sharing initiated by you",
-          "Optional Premium features and advertising as described in-app",
-          "Charts and UI that may vary by platform and version"
+          "מפגשי מדידה מתוזמנים וציון רעש",
+          "היסטוריה מקומית וייצוא או שיתוף אופציונלי ביוזמתך",
+          "תכונות ופרסום אופציונליים Premium כמתואר באפליקציה",
+          "תרשימים וממשק המשתמש עשויים להשתנות לפי פלטפורמה וגרסה"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. מידע ליצירת קשר",
+        "content": "שאלות לגבי תנאים אלה:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "מדיניות פרטיות",
+      "lastUpdated": "עדכון אחרון: אפריל 2026",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The app uses the device microphone to measure sound while you run a session. Measurement results and history are stored locally unless you export or share them. Advertising and optional analytics SDKs may collect limited device or usage data per their policies and your OS settings (e.g. App Tracking Transparency on iOS)."
+        "title": "1. מידע שאנו אוספים",
+        "content": "האפליקציה משתמשת במיקרופון של המכשיר כדי למדוד סאונד בזמן שאתה מפעיל סשן. תוצאות המדידה וההיסטוריה מאוחסנות באופן מקומי אלא אם אתה מייצא או משתף אותן. ערכות SDK של פרסום וניתוח אופציונלי עשויות לאסוף נתוני מכשירים או שימוש מוגבלים בהתאם למדיניות שלהן ולהגדרות מערכת ההפעלה שלך (למשל, שקיפות מעקב אחר אפליקציות ב-iOS)."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "Audio is processed to derive level estimates and scores; we do not use it for unrelated voice recognition on your speech content as a default product feature. Aggregated diagnostics may help improve stability when enabled."
+        "title": "2. כיצד אנו משתמשים במידע שלך",
+        "content": "אודיו מעובד כדי לגזור הערכות רמות וציונים; אנחנו לא משתמשים בו לזיהוי קולי לא קשור בתוכן הדיבור שלך כתכונת ברירת מחדל של מוצר. אבחון מצטבר עשוי לסייע בשיפור היציבות כאשר מופעל."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Data leaves your device when you share or export, when required by law, or when third-party services (ads, stores, analytics) process data as part of normal operation."
+        "title": "3. שיתוף מידע",
+        "content": "אנחנו לא מוכרים את המידע האישי שלך. נתונים עוזבים את המכשיר שלך כאשר אתה משתף או מייצא, כאשר הדבר נדרש על פי חוק, או כאשר שירותי צד שלישי (מודעות, חנויות, ניתוח) מעבדים נתונים כחלק מפעילות רגילה."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "Use a device passcode and current OS updates. Uninstalling the app removes app-local data subject to OS behavior."
+        "title": "4. אבטחת מידע",
+        "content": "השתמש בקוד גישה למכשיר ובעדכוני מערכת הפעלה נוכחיים. הסרת ההתקנה של האפליקציה מסירה נתונים מקומיים של אפליקציה בכפוף להתנהגות מערכת ההפעלה."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You may clear history in-app, revoke microphone permission in system settings, or uninstall the app. Contact us for privacy requests applicable in your region."
+        "title": "5. הזכויות שלך",
+        "content": "אתה יכול לנקות היסטוריה בתוך האפליקציה, לבטל את הרשאת המיקרופון בהגדרות המערכת או להסיר את ההתקנה של האפליקציה. צור איתנו קשר עבור בקשות פרטיות החלות באזור שלך."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. צור קשר",
+        "content": "שאלות לגבי מדיניות פרטיות זו:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
       },
       "metaDescription": "מדיניות פרטיות עבור מד רעש - שושר - אפליקציית ניקוד דציבלים ורעש. כיצד מטפלים באודיו במיקרופון, בהיסטוריה מקומית, במודעות ובניתוחים."
     },
     "footer": {
-      "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 מד רעש — שושר - כל הזכויות שמורות",
+      "tagline": "חלק מZuki Apps • מפתח מישראל • תוצרת ❤️"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "תכונות",
+      "screenshots": "צילומי מסך",
+      "howTo": "כיצד להשתמש",
+      "tips": "טיפים",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "הורד"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Noise Meter — Shusher.",
-      "featuresTitle": "App screens",
+      "title": "צילומי מסך",
+      "subtitle": "מסכי אפליקציה אמיתיים מ-Noise Meter — Shusher.",
+      "featuresTitle": "מסכי אפליקציה",
       "items": [
         {
-          "id": "live-meter",
-          "title": "Live sound meter",
-          "description": "Real-time dB gauge and waveform while you measure.",
+          "id": "מד חי",
+          "title": "מד סאונד חי",
+          "description": "מד dB וצורת גל בזמן אמת בזמן המדידה.",
           "image": "/images/noise-meter-shusher/screenshot-live-meter.png",
-          "alt": "Live sound meter — noise meter shusher",
-          "category": "features"
+          "alt": "מד צליל חי - מד רעש שושר",
+          "category": "תכונות"
         },
         {
-          "id": "results",
-          "title": "Session results",
-          "description": "Average, min, max, noise category, and tips after each session.",
+          "id": "תוצאות",
+          "title": "תוצאות הפגישה",
+          "description": "ממוצע, מינימום, מקסימום, קטגוריית רעש וטיפים לאחר כל פגישה.",
           "image": "/images/noise-meter-shusher/screenshot-results.png",
-          "alt": "Session results — noise meter shusher",
-          "category": "features"
+          "alt": "תוצאות הפגישה - מד רעש שושר",
+          "category": "תכונות"
         },
         {
-          "id": "shusher",
-          "title": "Shusher alerts",
-          "description": "Set a threshold and get in-app nudges when noise crosses your line.",
+          "id": "שושר",
+          "title": "התראות שושר",
+          "description": "הגדר סף וקבל דחיפות בתוך האפליקציה כאשר רעש חוצה את הגבול שלך.",
           "image": "/images/noise-meter-shusher/screenshot-shusher.png",
-          "alt": "Shusher alerts — noise meter shusher",
-          "category": "features"
+          "alt": "התראות שושר - שושר מד רעש",
+          "category": "תכונות"
         },
         {
-          "id": "history",
-          "title": "History",
-          "description": "Compare rooms and times — data stays on your device.",
+          "id": "הִיסטוֹרִיָה",
+          "title": "הִיסטוֹרִיָה",
+          "description": "השווה חדרים ושעות - הנתונים נשארים במכשיר שלך.",
           "image": "/images/noise-meter-shusher/screenshot-history.png",
-          "alt": "History — noise meter shusher",
-          "category": "features"
+          "alt": "היסטוריה - מד רעש שושר",
+          "category": "תכונות"
         },
         {
           "id": "premium",
           "title": "Premium",
-          "description": "Longer sessions, charts, CSV export, themes, and no ads.",
+          "description": "הפעלות ארוכות יותר, תרשימים, ייצוא CSV, ערכות נושא וללא מודעות.",
           "image": "/images/noise-meter-shusher/screenshot-premium.png",
-          "alt": "Premium — noise meter shusher",
-          "category": "features"
+          "alt": "Premium — מד רעש מדשדש",
+          "category": "תכונות"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "כיצד להשתמש",
       "steps": [
         {
           "number": "1",
-          "title": "Allow microphone",
-          "description": "Grant mic access when prompted so the app can estimate ambient level."
+          "title": "אפשר מיקרופון",
+          "description": "הענק גישה למיקרופון כאשר תתבקש כך שהאפליקציה תוכל להעריך את רמת הסביבה."
         },
         {
           "number": "2",
-          "title": "Start measuring",
-          "description": "Watch the live meter or tap Start measurement for a timed session."
+          "title": "תתחיל למדוד",
+          "description": "צפה במד החי או הקש על התחל מדידה לסשן מתוזמן."
         },
         {
           "number": "3",
-          "title": "Read your score",
-          "description": "See average, category, and recommendations on the results screen."
+          "title": "קרא את הציון שלך",
+          "description": "ראה ממוצע, קטגוריה והמלצות במסך התוצאות."
         },
         {
           "number": "4",
-          "title": "Save or share",
-          "description": "Add to History or share a clean results graphic with a label."
+          "title": "שמור או שתף",
+          "description": "הוסף להיסטוריה או שתף גרפיקת תוצאות נקייה עם תווית."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "שאלות נפוצות",
+      "subtitle": "תשובות מהירות לגבי תכונות, פרטיות וחיובים.",
+      "viewAllSupport": "צפה בתמיכה מלאה & FAQ",
       "items": [
         {
-          "question": "What is Noise Meter — Shusher?",
-          "answer": "A mobile app that estimates ambient sound level using your phone’s microphone, runs timed measurement sessions, scores the environment, saves history on device, and optionally alerts you in-app when noise exceeds a threshold (Shusher)."
+          "question": "מהו מד רעש - שושר?",
+          "answer": "אפליקציה לנייד שמעריכה את רמת הצליל הסביבה באמצעות המיקרופון של הטלפון שלך, מפעילה מפגשי מדידה מתוזמנים, מבוקרת את הסביבה, שומרת היסטוריה במכשיר, ובאופן אופציונלית מתריעה בפניך באפליקציה כאשר הרעש חורג מסף (Shusher)."
         },
         {
-          "question": "Is it free?",
-          "answer": "Yes. Core metering, sessions, Shusher, and limited history are free. Premium is a one-time upgrade for charts, CSV export, longer sessions, themes, more history, and no ads."
+          "question": "האם זה בחינם?",
+          "answer": "כֵּן. מדידת ליבה, הפעלות, שושר והיסטוריה מוגבלת הם בחינם. Premium הוא שדרוג חד פעמי עבור תרשימים, ייצוא CSV, הפעלות ארוכות יותר, ערכות נושא, עוד היסטוריה וללא מודעות."
         },
         {
-          "question": "iPhone or Android?",
-          "answer": "Both. Bundle ID: `com.zuki.apps.noisemeter`."
+          "question": "אייפון או Android?",
+          "answer": "שְׁנֵיהֶם. מזהה חבילה: `com.zuki.apps.noisemeter`."
         },
         {
-          "question": "What languages are supported?",
-          "answer": "12 locales including English, Hebrew, Arabic, French, German, Italian, Japanese, Korean, Chinese, Portuguese, Russian, and Spanish. Change language in Settings."
+          "question": "אילו שפות נתמכות?",
+          "answer": "12 אזורים כולל אנגלית, עברית, ערבית, צרפתית, גרמנית, איטלקית, יפנית, קוריאנית, סינית, פורטוגזית, רוסית וספרדית. שנה שפה בהגדרות."
         },
         {
-          "question": "How accurate is the decibel reading?",
-          "answer": "It is an approximate level based on consumer phone hardware. Position, case, wind, and device model all affect results. Not calibrated for professional SPL, OSHA, or legal noise-ordinance enforcement."
+          "question": "כמה מדויקת קריאת הדציבלים?",
+          "answer": "זוהי רמה משוערת המבוססת על חומרת הטלפון הצרכני. המיקום, המארז, הרוח ודגם המכשיר משפיעים כולם על התוצאות. לא מכויל לאכיפה מקצועית של SPL, OSHA או תקנות רעש משפטיות."
         },
         {
-          "question": "Why does my reading differ from a real sound meter?",
-          "answer": "Professional meters use calibrated microphones and specific measurement standards. Phones are tuned for speech and vary by manufacturer."
+          "question": "מדוע הקריאה שלי שונה ממד קול אמיתי?",
+          "answer": "מונים מקצועיים משתמשים במיקרופונים מכוילים ותקני מדידה ספציפיים. הטלפונים מכוונים לדיבור ומשתנים בהתאם ליצרן."
         },
         {
-          "question": "Can I use this in a dispute with a neighbor or landlord?",
-          "answer": "Use readings as informal context only. For legal or compliance matters, hire a qualified acoustician with calibrated equipment."
+          "question": "האם אני יכול להשתמש בזה בסכסוך עם שכן או בעל בית?",
+          "answer": "השתמש בקריאות כהקשר לא פורמלי בלבד. לאנשי חוק או תאימות, שכור אקוסטיקאי מוסמך עם ציוד מכויל."
         },
         {
-          "question": "Does the app record or upload audio?",
-          "answer": "No continuous recording or cloud upload of raw audio. The app processes level data locally for metering and sessions."
+          "question": "האם האפליקציה מקליטת או מעלה אודיו?",
+          "answer": "אין הקלטה רציפה או העלאה בענן של אודיו גולמי. האפליקציה מעבדת נתונים ברמה מקומית עבור מדידה והפעלות."
         },
         {
-          "question": "When is the microphone active?",
-          "answer": "While the app is open and metering or running a session—not as a background listener."
+          "question": "מתי המיקרופון פעיל?",
+          "answer": "בזמן שהאפליקציה פתוחה ומדידה או מפעילה הפעלה - לא כמאזין ברקע."
         },
         {
-          "question": "Why does iOS ask for tracking (ATT)?",
-          "answer": "Free tier uses ads. Apple requires permission before personalized ad tracking. Premium removes ads."
+          "question": "מדוע iOS מבקש מעקב (ATT)?",
+          "answer": "שכבת חינם משתמשת במודעות. אפל דורשת אישור לפני מעקב אחר מודעות מותאם אישית. Premium מסיר מודעות."
         },
         {
-          "question": "Are Shusher alerts push notifications?",
-          "answer": "No. They appear inside the app while the live meter is active."
+          "question": "האם התראות שושר הן הודעות דחיפה?",
+          "answer": "לא. הם מופיעים בתוך האפליקציה בזמן שהמד החי פעיל."
         },
         {
-          "question": "Shusher doesn’t alert me",
-          "answer": "Check: Shusher enabled in Settings · threshold not set too high · meter tab open and mic running · live level actually exceeds threshold."
+          "question": "שושר לא מזהירה אותי",
+          "answer": "בדוק: Shusher מופעלת בהגדרות · סף לא מוגדר גבוה מדי · לשונית מטר פתוחה והמיקרופון פועל · רמת חי למעשה עוברת את הסף."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "טיפים וטריקים",
+      "subtitle": "קבל יותר מהאפליקציה.",
       "items": [
         {
-          "title": "Placement matters",
-          "description": "1. Same spot every time — compare “apples to apples” when tracking a room over days. 2. Mic unobstructed — remove thick cases; don’t cover the bottom edge (common mic location). 3. Orientation — pick portrait or landscape and stick with it; mic direction changes slightly. 4. Height — ear level for “how loud does it feel?”; desk level for workspace noise. 5. Distance — 0.5–1 m from the main noise s"
+          "title": "מיקום matters",
+          "description": "1. אותה נקודה בכל פעם - השווה \"תפוחים לתפוחים\" בעת מעקב אחר חדר לאורך ימים. 2. מיקרופון ללא הפרעה - הסר תיקים עבים; אל תכסה את הקצה התחתון (מיקום מיקרופון נפוץ). 3. אוריינטציה - בחר דיוקן או נוף והיצמד אליו; כיוון המיקרופון משתנה מעט. 4. גובה - גובה האוזניים עבור \"כמה רועש זה מרגיש?\"; מפלס שולחן לרעש סביבת העבודה. 5. מרחק - 0.5-1 מ' מהרעש הראשי s"
         },
         {
-          "title": "When to use a short vs long session",
-          "description": "| Goal | Suggestion | |------|------------| | Quick snapshot | 5 s (default) | | HVAC cycle | 15–30 s (Premium) | | Conversation level | 10–15 s while people talk naturally | | Street noise | 30–60 s (Premium) to catch peaks | ---"
+          "title": "מתי להשתמש בסשן קצר לעומת ארוך",
+          "description": "| מטרה | הצעה | |------|--------| | תמונת מצב מהירה | 5 שניות (ברירת מחדל) | | מחזור HVAC | 15–30 שניות (Premium) | | רמת שיחה | 10–15 שניות בזמן שאנשים מדברים באופן טבעי | | רעש רחוב | 30–60 שניות (Premium) לתפוס פסגות | ---"
         },
         {
-          "title": "Simple average vs energy average (Leq)",
-          "description": "Steady hum (fan, AC constant) → simple average is fine. - Bursty noise (dishes, traffic, classroom chatter) → switch to energy average (Leq) in Settings for a fairer score. ---"
+          "title": "ממוצע פשוט לעומת ממוצע אנרגיה (Leq)",
+          "description": "זמזום קבוע (מאוורר, AC קבוע) ← ממוצע פשוט הוא בסדר. - רעש פרץ (כלים, תנועה, כיתה בכיתה) ← עבור לממוצע אנרגיה (Leq) בהגדרות לקבלת ציון הוגן יותר. ---"
         },
         {
-          "title": "Shusher use cases",
-          "description": "| Scenario | Starting threshold | |----------|-------------------| | Library / study | 45–55 dB | | Open office focus | 55–65 dB | | Living room with kids | 65–75 dB | | Workshop / garage | 75–85 dB | Lower the threshold if alerts rarely fire; raise it if too sensitive. ---"
+          "title": "מקרי שימוש בשושר",
+          "description": "| תרחיש | סף התחלה | |--------|------------------------| | ספרייה / לימוד | 45–55 dB | | מוקד משרד פתוח | 55–65 dB | | סלון עם ילדים | 65–75 dB | | סדנה / מוסך | 75–85 dB | הורד את הסף אם התראות נופלות רק לעתים רחוקות; להעלות אותו אם רגיש מדי. ---"
         },
         {
-          "title": "Compare before & after",
-          "description": "1. Measure before a change (rug, curtains, door seal, “quiet hours” sign). 2. Apply the change. 3. Measure after at the same time of day. 4. Save both to History with clear names. Small dB drops can mean a noticeably calmer space. ---"
+          "title": "השווה לפני ואחרי",
+          "description": "1. למדוד לפני החלפה (שטיח, וילונות, אטם לדלת, שלט \"שעות שקט\"). 2. החל את השינוי. 3. למדוד אחרי באותה שעה ביום. 4. שמור את שניהם בהיסטוריה עם שמות ברורים. טיפות dB קטנות יכולות להיות מרחב רגוע בצורה ניכרת. ---"
         },
         {
-          "title": "Sharing results without drama",
-          "description": "Use neutral labels: “Tuesday 8pm apartment” not “neighbor noise proof.” - Share the results graphic for a single snapshot—not a live argument meter. - Remember: phone readings are approximate, not legal evidence. ---"
+          "title": "שיתוף תוצאות ללא דרמה",
+          "description": "השתמש בתוויות ניטרליות: \"דירה ביום שלישי ב-20:00\" לא \"עמידה בפני רעש של שכנים\". - שתף את גרפיקת התוצאות עבור תמונת מצב בודדת - לא מד ארגומנטים חי. - זכור: קריאות הטלפון הן משוערות, לא ראיות משפטיות. ---"
         },
         {
-          "title": "Reduce false highs",
-          "description": "Don’t speak directly into the mic while measuring ambient noise. - Move away from TV speakers and phone notifications. - Wind outdoors can spike readings—shield the mic or measure indoors. ---"
+          "title": "הפחת שיאים כוזבים",
+          "description": "אל תדבר ישירות לתוך המיקרופון תוך כדי מדידת רעשי סביבה. - התרחק מרמקולי טלוויזיה והודעות בטלפון. - רוח בחוץ יכולה להגביר קריאות - להגן על המיקרופון או למדוד בתוך הבית. ---"
         },
         {
-          "title": "Premium worth it?",
-          "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
+          "title": "Premium שווה את זה?",
+          "description": "שקול Premium אם אתה: - מייצא CSV עבור בעל בית, בית ספר או דו\"ח פנימי - צריך תרשימי הפעלה כדי לראות עליות במהלך פגישה - רוצה דוגמאות ארוכות יותר וללא מודעות במהלך בדיקות יומיות חוזרות רכישה חד פעמית - ללא מנוי. ---"
         }
       ]
     },

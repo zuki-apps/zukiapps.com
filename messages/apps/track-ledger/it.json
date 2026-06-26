@@ -1,287 +1,289 @@
 {
   "trackLedger": {
-    "back": "Back to Home",
+    "back": "Ritorno a casa",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Track Ledger",
-      "subtitle": "Log GPS data",
-      "description": "Offline-first engineering GPS logger for mobile. Track Ledger records raw GNSS points for your paths—no smoothing. Set time- or distance-based sampling, pause and resume, then export from a track summary or the track list (CSV; GPX and GeoJSON with Premium). Use the Map tab to overlay tracks on OpenStreetMap tiles.",
-      "structuredDataDescription": "Track Ledger — offline-first GPS/GNSS track logger for iOS and Android. Record raw points, elevation profiles, OSM map overlay, export CSV (free) or GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger by Zuki Apps."
+      "title": "Traccia registro",
+      "subtitle": "Registra GPS dati",
+      "description": "Logger GPS di progettazione offline per dispositivi mobili. Track Ledger registra GNSS punti grezzi per i tuoi percorsi, senza livellamenti. Imposta il campionamento basato sul tempo o sulla distanza, metti in pausa e riprendi, quindi esporta da un riepilogo della traccia o dall'elenco delle tracce (CSV; GPX e GeoJSON con Premium). Utilizza la scheda Mappa per sovrapporre le tracce ai riquadri OpenStreetMap.",
+      "structuredDataDescription": "Track Ledger: registratore di tracce GPS/GNSS offline-first per iOS e Android. Registra punti grezzi, profili altimetrici, sovrapposizione mappa OSM, esporta CSV (gratuito) o GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger di Zuki Apps.",
+      "seoTitle": "Registro tracce — GPS Registratore tracce | Zuki Apps",
+      "metaDescription": "Registra GPS tracce offline, esporta GPX/CSV/GeoJSON. Nessun account necessario. Gratis su iOS e Android."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Caratteristiche principali",
       "gnss": {
-        "title": "Recording & tracks",
-        "description": "Log raw GNSS fixes with control over how often points are stored.",
+        "title": "Registrazione e tracce",
+        "description": "Log raw GNSS correzioni con il controllo sulla frequenza con cui i punti vengono memorizzati.",
         "items": [
-          "Time- or distance-based sampling",
-          "Pause, resume, and track summaries",
-          "Speed, distance, and accuracy at a glance"
+          "Campionamento basato sul tempo o sulla distanza",
+          "Metti in pausa, riprendi e tieni traccia dei riepiloghi",
+          "Velocità, distanza e precisione a colpo d'occhio"
         ]
       },
       "export": {
-        "title": "Export & share",
-        "description": "Get your data out as standard formats and share from the track flow.",
+        "title": "Esporta e condividi",
+        "description": "Ottieni i tuoi dati in formati standard e condividili dal flusso di traccia.",
         "items": [
-          "CSV export on all tiers",
-          "GPX and GeoJSON with Premium",
-          "Share sheet integration"
+          "CSV esportazione su tutti i livelli",
+          "GPX e GeoJSON con Premium",
+          "Condividi l'integrazione del foglio"
         ]
       },
       "map": {
-        "title": "Map",
-        "description": "Visualize completed paths on familiar map tiles.",
+        "title": "Mappa",
+        "description": "Visualizza i percorsi completati su riquadri della mappa familiari.",
         "items": [
-          "OpenStreetMap overlays",
-          "Select one or more tracks",
-          "Share map images"
+          "Sovrapposizioni di OpenStreetMap",
+          "Seleziona una o più tracce",
+          "Condividi le immagini della mappa"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "Disponibilità",
       "description": "Native app for iOS and Android (bundle / application ID: com.zuki.apps.trackledger). Store links appear below when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "Versione",
+      "status": "Piattaforma",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "Scaricamento",
       "description": "App Store and Google Play badges will appear here once the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/track-ledger-log-gps-data/id6762567364",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "Scarica su App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.trackledger",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Scaricalo Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Collegamenti importanti",
       "support": {
-        "title": "Technical Support",
+        "title": "Supporto tecnico",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Track Ledger. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "title": "Termini di utilizzo",
+      "lastUpdated": "Ultimo aggiornamento: aprile 2026",
+      "intro": "Si prega di leggere attentamente le presenti Condizioni d'uso prima di utilizzare Track Ledger. Accedendo o utilizzando il nostro servizio, accetti di essere vincolato da questi termini. Se non sei d'accordo, non utilizzare l'app.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Track Ledger (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a GPS/GNSS track logging application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. Accettazione dei Termini",
+        "content": "I presenti Termini di utilizzo (\"Termini\") regolano l'accesso e l'utilizzo di Track Ledger (\"Servizio\", \"App\", \"noi\", \"ci\" o \"nostro\"), un'applicazione di registrazione delle tracce GPS/GNSS gestita da Zuki Apps (\"Azienda\"). Scaricando, installando, accedendo o utilizzando il Servizio, accetti di essere vincolato dai presenti Termini e dalla nostra Informativa sulla privacy.",
+        "content2": "Se utilizzi il Servizio per conto di un'organizzazione, dichiari e garantisci di avere l'autorità per vincolare tale organizzazione ai presenti Termini."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Track Ledger is a mobile application that records location-related data for paths you choose to log. The Service includes:",
+        "title": "2. Descrizione del Servizio",
+        "content": "Track Ledger è un'applicazione mobile che registra i dati relativi alla posizione per i percorsi che scegli di registrare. Il Servizio include:",
         "items": [
-          "Recording of GNSS/GPS fixes and related metadata (e.g. accuracy, speed) on your device",
-          "Configurable sampling (time- or distance-based), pause and resume, and track summaries",
-          "Export and sharing of track data (e.g. CSV; GPX and GeoJSON where enabled)",
-          "Map visualization using third-party map tiles (e.g. OpenStreetMap) for completed tracks",
-          "Optional in-app purchases or ads as described in the app"
+          "Registrazione di GNSS/GPS correzioni e relativi metadati (ad esempio precisione, velocità) sul tuo dispositivo",
+          "Campionamento configurabile (basato sul tempo o sulla distanza), pausa e ripresa e traccia dei riepiloghi",
+          "Esportazione e condivisione dei dati della traccia (es. CSV; GPX e GeoJSON dove abilitato)",
+          "Visualizzazione della mappa utilizzando riquadri di mappe di terze parti (ad esempio OpenStreetMap) per le tracce completate",
+          "Acquisti o annunci in-app opzionali come descritto nell'app"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. Informazioni di contatto",
+        "content": "In caso di domande sui presenti Termini, contattaci:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAELE"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "politica sulla riservatezza",
+      "lastUpdated": "Ultimo aggiornamento: aprile 2026",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Track Ledger processes location data (GNSS/GPS) when you start recording, along with app settings and track metadata needed to run the app. Depending on your device and configuration, the app may use analytics or crash reporting to improve stability (often via third-party SDKs). Data you export or share is sent only when you explicitly choose export or share. Map tiles may be loaded from third-party providers when you use the Map feature."
+        "title": "1. Informazioni che raccogliamo",
+        "content": "Track Ledger elabora i dati sulla posizione (GNSS/GPS) quando avvii la registrazione, insieme alle impostazioni dell'app e ai metadati di traccia necessari per eseguire l'app. A seconda del dispositivo e della configurazione, l'app potrebbe utilizzare analisi o segnalazioni di arresti anomali per migliorare la stabilità (spesso tramite SDK di terze parti). I dati che esporti o condividi vengono inviati solo quando scegli esplicitamente di esportare o condividere. I riquadri della mappa potrebbero essere caricati da fornitori di terze parti quando si utilizza la funzionalità Mappa."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information described above to provide recording, storage on your device, export/sharing features you trigger, and optional product improvement through aggregated diagnostics where enabled. We do not sell your personal track history as a product."
+        "title": "2. Come utilizziamo le tue informazioni",
+        "content": "Utilizziamo le informazioni sopra descritte per fornire registrazione, archiviazione sul tuo dispositivo, funzionalità di esportazione/condivisione attivate e miglioramenti facoltativi del prodotto attraverso la diagnostica aggregata, ove abilitata. Non vendiamo la tua cronologia personale come prodotto."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Data leaves your device when you export, share, or when required third-party services (e.g. map tile servers, app stores, analytics if enabled) process requests as part of normal app operation. See in-app notices and platform settings for controls where available."
+        "title": "3. Condivisione delle informazioni",
+        "content": "Non vendiamo le tue informazioni personali. I dati lasciano il tuo dispositivo quando esporti, condividi o quando richiesto servizi di terze parti (ad esempio server di riquadri di mappe, app stores, analisi se abilitati) elaborano le richieste come parte del normale funzionamento dell'app. Consulta gli avvisi in-app e le impostazioni della piattaforma per i controlli, ove disponibili."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable measures appropriate to a mobile app. Track data is stored in app storage on your device; you should use device security (passcode, encryption) as recommended by your platform vendor."
+        "title": "4. Sicurezza dei dati",
+        "content": "Implementiamo misure ragionevoli adeguate a un'app mobile. I dati del tracciamento vengono archiviati nell'archivio app del tuo dispositivo; dovresti utilizzare la sicurezza del dispositivo (passcode, crittografia) come consigliato dal fornitore della tua piattaforma."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, correct, or delete personal data, or to opt out of certain processing. You can delete tracks in the app, uninstall the app to remove local data, and contact us for privacy requests."
+        "title": "5. I tuoi diritti",
+        "content": "A seconda della tua regione, potresti avere il diritto di accedere, correggere o eliminare i dati personali o di rinunciare a determinati trattamenti. Puoi eliminare le tracce nell'app, disinstallare l'app per rimuovere i dati locali e contattarci per richieste sulla privacy."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. Contattaci",
+        "content": "In caso di domande sulla presente Informativa sulla privacy, contattaci all'indirizzo:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAELE"
       },
       "metaDescription": "Informativa sulla privacy per Track Ledger: app di registrazione traccia GPS/GNSS. Come vengono gestiti i dati sulla posizione, le esportazioni e le analisi facoltative."
     },
     "footer": {
-      "copyright": "© 2026 Track Ledger - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 Track Ledger - Tutti i diritti riservati",
+      "tagline": "Parte di Zuki Apps • Sviluppatore da Israele • Realizzato con ❤️"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "Caratteristiche",
+      "screenshots": "Schermate",
+      "howTo": "Come usare",
+      "tips": "Suggerimenti",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Scaricamento"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Track Ledger.",
-      "featuresTitle": "App screens",
+      "title": "Schermate",
+      "subtitle": "Schermate delle app reali da Track Ledger.",
+      "featuresTitle": "Schermate dell'app",
       "items": [
         {
-          "id": "recording",
-          "title": "Recording",
-          "description": "Live distance, speed, and accuracy while logging.",
+          "id": "registrazione",
+          "title": "Registrazione",
+          "description": "Distanza, velocità e precisione in tempo reale durante la registrazione.",
           "image": "/images/track-ledger/screenshot-recording.png",
-          "alt": "Recording — track ledger",
-          "category": "features"
+          "alt": "Registrazione: registro delle tracce",
+          "category": "caratteristiche"
         },
         {
-          "id": "map",
-          "title": "Map overlay",
-          "description": "Review tracks on OpenStreetMap tiles.",
+          "id": "mappa",
+          "title": "Sovrapposizione della mappa",
+          "description": "Rivedi le tracce sui riquadri OpenStreetMap.",
           "image": "/images/track-ledger/screenshot-map.png",
-          "alt": "Map overlay — track ledger",
-          "category": "features"
+          "alt": "Sovrapposizione mappa: registro delle tracce",
+          "category": "caratteristiche"
         },
         {
-          "id": "summary",
-          "title": "Track summary",
-          "description": "Elevation vs distance and session stats.",
+          "id": "riepilogo",
+          "title": "Riepilogo traccia",
+          "description": "Elevazione vs distanza e statistiche della sessione.",
           "image": "/images/track-ledger/screenshot-summary.png",
-          "alt": "Track summary — track ledger",
-          "category": "features"
+          "alt": "Riepilogo traccia: registro traccia",
+          "category": "caratteristiche"
         },
         {
-          "id": "settings",
-          "title": "Settings",
-          "description": "Sampling, projects, and export options.",
+          "id": "impostazioni",
+          "title": "Impostazioni",
+          "description": "Campionamento, progetti e opzioni di esportazione.",
           "image": "/images/track-ledger/screenshot-settings.png",
-          "alt": "Settings — track ledger",
-          "category": "features"
+          "alt": "Impostazioni: traccia registro",
+          "category": "caratteristiche"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Come usare",
       "steps": [
         {
           "number": "1",
-          "title": "Create a project",
-          "description": "Organize field work into named projects."
+          "title": "Crea un progetto",
+          "description": "Organizzare il lavoro sul campo in progetti denominati."
         },
         {
           "number": "2",
-          "title": "Start recording",
-          "description": "Log raw GNSS points with your chosen sampling mode."
+          "title": "Inizia a registrare",
+          "description": "Registra GNSS punti grezzi con la modalità di campionamento scelta."
         },
         {
           "number": "3",
-          "title": "Review on map",
-          "description": "Inspect path, elevation chart, and accuracy."
+          "title": "Recensione sulla mappa",
+          "description": "Ispezionare il percorso, il grafico dell'elevazione e la precisione."
         },
         {
           "number": "4",
-          "title": "Export data",
-          "description": "Share CSV free; GPX and GeoJSON with Premium."
+          "title": "Esporta dati",
+          "description": "Condividi CSV gratuitamente; GPX e GeoJSON con Premium."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Domande frequenti",
+      "subtitle": "Risposte rapide su funzionalità, privacy e fatturazione.",
+      "viewAllSupport": "Visualizza il supporto completo e FAQ",
       "items": [
         {
-          "question": "What is Track Ledger?",
-          "answer": "A simple GPS / GNSS track logger focused on data export and field use. It records your path as raw points with optional time- or distance-based sampling."
+          "question": "Cos'è il registro traccia?",
+          "answer": "Un semplice registratore di tracce GPS / GNSS focalizzato sull'esportazione dei dati e sull'uso sul campo. Registra il tuo percorso come punti grezzi con campionamento opzionale basato sul tempo o sulla distanza."
         },
         {
-          "question": "Is it a fitness or social app?",
-          "answer": "No. There are no leaderboards, workouts, or social feeds. It's built for people who need reliable location logs and file exports."
+          "question": "È un'app per il fitness o per i social?",
+          "answer": "No. Non ci sono classifiche, allenamenti o feed social. È progettato per le persone che necessitano di registri di posizione affidabili ed esportazioni di file."
         },
         {
-          "question": "Do I need an account?",
-          "answer": "No. Everything is stored locally on your device."
+          "question": "Ho bisogno di un account?",
+          "answer": "No. Tutto è archiviato localmente sul tuo dispositivo."
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Yes. Recording and viewing saved tracks work without internet. The Map tab needs network to load OpenStreetMap tiles."
+          "question": "Funziona offline?",
+          "answer": "SÌ. La registrazione e la visualizzazione delle tracce salvate funzionano senza Internet. La scheda Mappa necessita della rete per caricare i riquadri OpenStreetMap."
         },
         {
-          "question": "When does the app use my location?",
-          "answer": "Only while you have an active recording (and optionally in the background if you have Premium and background recording enabled)."
+          "question": "Quando l'app utilizza la mia posizione?",
+          "answer": "Solo mentre hai una registrazione attiva (e facoltativamente in background se hai Premium e la registrazione in background abilitata)."
         },
         {
-          "question": "Why did recording pause when I switched apps?",
-          "answer": "On the free plan, new GPS points are logged only while Track Ledger is in the foreground. Premium with background recording enabled continues logging when you leave the app."
+          "question": "Perché la registrazione è stata messa in pausa quando ho cambiato app?",
+          "answer": "Nel piano gratuito, i nuovi GPS punti vengono registrati solo mentre Track Ledger è in primo piano. Premium con la registrazione in background abilitata continua la registrazione quando esci dall'app."
         },
         {
-          "question": "What does \"raw GNSS, no smoothing\" mean?",
-          "answer": "Points are saved as the device reports them. We don't apply a smoothing filter — you get the honest trace for your own analysis."
+          "question": "Cosa significa \"grezzo GNSS, senza levigatura\"?",
+          "answer": "I punti vengono salvati man mano che il dispositivo li segnala. Non applichiamo un filtro di livellamento: ottieni la traccia onesta per la tua analisi."
         },
         {
-          "question": "How many tracks can I save?",
-          "answer": "Free: up to 10 completed tracks. Premium: unlimited (or a higher cap you choose in Settings)."
+          "question": "Quante tracce posso salvare?",
+          "answer": "Gratuito: fino a 10 brani completati. Premium: illimitato (o un limite superiore scelto in Impostazioni)."
         },
         {
-          "question": "What happens when the ledger is full?",
-          "answer": "In Settings → Ledger you choose: automatically remove oldest tracks, or refuse new recordings until you delete tracks manually."
+          "question": "Cosa succede quando il registro è pieno?",
+          "answer": "In Impostazioni → Registro puoi scegliere: rimuovere automaticamente le tracce più vecchie o rifiutare nuove registrazioni finché non elimini le tracce manualmente."
         },
         {
-          "question": "Which formats are free?",
-          "answer": "CSV export and share are always available."
+          "question": "Quali formati sono gratuiti?",
+          "answer": "CSV esportazione e condivisione sono sempre disponibili."
         },
         {
-          "question": "Which formats need Premium?",
-          "answer": "GPX and GeoJSON."
+          "question": "Quali formati necessitano di Premium?",
+          "answer": "GPX e GeoJSON."
         },
         {
-          "question": "Can I share a track to another app?",
-          "answer": "Yes — use Share from track summary or Ledger. The system share sheet opens (Mail, Files, AirDrop, etc.)."
+          "question": "Posso condividere una traccia con un'altra app?",
+          "answer": "Sì: utilizza Condividi dal riepilogo della traccia o dal registro. Si apre il foglio di condivisione del sistema (Mail, File, AirDrop, ecc.)."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "Suggerimenti e trucchi",
+      "subtitle": "Ottieni di più dall'app.",
       "items": [
         {
-          "title": "GPS quality",
-          "description": "Wait for a good fix before tapping Start — check GPS accuracy on the recording screen. - Open sky beats urban canyons and dense tree cover. - Raw points are logged without smoothing — if accuracy is poor, you'll see it in the data (by design)."
+          "title": "GPS qualità",
+          "description": "Attendi una correzione corretta prima di toccare Avvia: controlla la precisione GPS sulla schermata di registrazione. - Il cielo aperto batte i canyon urbani e la fitta copertura arborea. - I punti grezzi vengono registrati senza livellamento: se la precisione è scarsa, lo vedrai nei dati (in base alla progettazione)."
         },
         {
-          "title": "Sampling strategy",
-          "description": "| Scenario | Suggested setting | |----------|-------------------| | Walking / hiking | Time: every 5–10 s | | Driving / vehicle survey | Distance: every 25–50 m | | Long battery life | Wider intervals (time or distance) | | Detailed path capture | Tighter intervals (more points, larger files) |"
+          "title": "Strategia di campionamento",
+          "description": "| Scenario | Impostazione consigliata | |----------|-------------| | Passeggiate / escursioni | Tempo: ogni 5–10 s | | Perizia di guida/veicolo | Distanza: ogni 25–50 m | | Lunga vita | Intervalli più ampi (tempo o distanza) | | Acquisizione dettagliata del percorso | Intervalli più stretti (più punti, file più grandi) |"
         },
         {
           "title": "Battery",
-          "description": "Enable Keep screen on only when you need to watch the screen continuously. - Wider sampling intervals reduce CPU and GPS wakeups. - Background recording (Premium) uses more battery — expected for continuous logging."
+          "description": "Abilita Mantieni schermo attivo solo quando è necessario guardare lo schermo continuamente. - Intervalli di campionamento più ampi riducono i risvegli della CPU e GPS. - La registrazione in background (Premium) utilizza più battery — previsto per la registrazione continua."
         },
         {
-          "title": "Field workflow",
-          "description": "1. Create a project per job site or client. 2. Record with a consistent sampling preset per project type. 3. Export CSV in the field for quick checks; use GPX/GeoJSON back at the office. 4. Use Map tab to compare multiple passes on the same corridor."
+          "title": "Flusso di lavoro sul campo",
+          "description": "1. Creare un progetto per cantiere o cliente. 2. Registra con un preset di campionamento coerente per tipo di progetto. 3. Esporta CSV sul campo per controlli rapidi; usa GPX/GeoJSON in ufficio. 4. Utilizzare la scheda Mappa per confrontare più passaggi sullo stesso corridoio."
         },
         {
-          "title": "Data hygiene",
-          "description": "Rename tracks right after stop while context is fresh. - Delete test runs so you don't hit the free-tier ledger limit. - Premium users: set max completed tracks and when full policy before long field seasons."
+          "title": "Igiene dei dati",
+          "description": "Rinomina le tracce subito dopo l'interruzione mentre il contesto è fresco. - Elimina le esecuzioni di test in modo da non raggiungere il limite del registro del livello gratuito. - Premium utenti: imposta il numero massimo di piste completate e la politica di completamento prima delle lunghe stagioni sul campo."
         },
         {
-          "title": "Exports & GIS",
-          "description": "CSV — columns include coordinates, time, elevation (as logged). Open in Excel, Python, R. - GPX — import to QGIS, Gaia GPS, or custom pipelines. - GeoJSON — drop into web maps or `ogr2ogr` workflows."
+          "title": "Esportazioni e GIS",
+          "description": "CSV: le colonne includono coordinate, ora, elevazione (come registrato). Apri in Excel, Python, R. - GPX: importa in QGIS, Gaia GPS o pipeline personalizzate. - GeoJSON: inseriscilo nelle mappe web o nei flussi di lavoro `ogr2ogr`."
         },
         {
-          "title": "Premium worth it if you…",
-          "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
+          "title": "Premium ne vale la pena se...",
+          "description": "È necessaria la registrazione in background durante l'utilizzo delle app per fotocamera o note - Esporta regolarmente su GPX o GeoJSON - Desideri l'arresto automatico a una distanza o durata fissa - Registra più di 10 tracce completate Acquisto una tantum: nessun abbonamento."
         }
       ]
     },

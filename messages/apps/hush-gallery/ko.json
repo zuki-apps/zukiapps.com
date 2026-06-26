@@ -3,10 +3,12 @@
     "back": "홈으로 돌아가기",
     "hero": {
       "badge": "출시됨",
-      "title": "Hush Gallery - Hide Photos & Videos",
+      "title": "Hush Gallery - 사진 및 비디오 숨기기",
       "subtitle": "프라이빗 사진 갤러리",
       "description": "개인 사진을 안전하고 체계적으로 보관할 수 있는 안전하고 프라이빗한 사진 갤러리 애플리케이션입니다. 고급 개인정보 보호 기능과 직관적인 디자인으로 추억을 보호하는 완벽한 솔루션입니다.",
-      "structuredDataDescription": "Hush Gallery — private photo and video vault for iOS and Android. Hide media from WhatsApp and Photos via Share, organize with tags, PIN/biometric App Lock (Premium), optional iCloud/Google Drive backup. Package com.zuki.apps.hushGallery by Zuki Apps."
+      "structuredDataDescription": "Hush Gallery — iOS 및 Android용 개인 사진 및 동영상 보관함. 공유를 통해 WhatsApp 및 사진에서 미디어를 숨기고, 태그로 정리하고, PIN/생체 인식 앱 잠금(Premium), iCloud/Google Drive 백업 옵션을 사용하세요. Zuki Apps의 com.zuki.apps.hushGallery 패키지.",
+      "seoTitle": "Hush Gallery — 개인 사진 보관함 | Zuki Apps",
+      "metaDescription": "개인 금고에 사진과 비디오를 숨기세요. PIN 잠금, 태그, WhatsApp 가져오기. iOS 및 Android에서 무료 — 지금 다운로드하세요."
     },
     "features": {
       "title": "주요 기능",
@@ -37,6 +39,8 @@
           "사용자 정의 폴더 관리",
           "미디어 정리 도구",
           "검색 및 필터 기능",
+          "메타데이터 보존",
+          "검색 및 필터링 기능",
           "메타데이터 보존"
         ]
       },
@@ -67,47 +71,48 @@
           "시스템 갤러리에서 가져오기",
           "메타데이터와 함께 다시 내보내기",
           "일괄 작업",
+          "형식 보존",
           "형식 보존"
         ]
       }
     },
     "businessUse": {
-      "title": "💼 Perfect for Business Use",
-      "description": "Are you a business owner who uses your phone for both work and personal life? Hush Gallery is the perfect solution to keep your business photos separate from your personal ones.",
+      "title": "💼 비즈니스 용도로 적합",
+      "description": "업무와 개인 생활 모두에 휴대폰을 사용하는 사업주이신가요? Hush Gallery는 비즈니스 사진을 개인 사진과 별도로 보관할 수 있는 완벽한 솔루션입니다.",
       "benefits": {
-        "title": "Business Benefits",
+        "title": "비즈니스 이점",
         "items": [
-          "Create dedicated tags for product photos, client documents, marketing materials, team photos, and financial documents",
-          "Never worry about accidentally showing personal photos during a business presentation",
-          "Keep work files separate from family memories",
-          "Access business photos during meetings without exposing personal content",
-          "Share business photos with colleagues without showing personal files"
+          "제품 사진, 고객 문서, 마케팅 자료, 팀 사진 및 재무 문서에 대한 전용 태그 생성",
+          "비즈니스 프레젠테이션 중에 실수로 개인 사진을 보여줄 염려가 없습니다.",
+          "업무 파일을 가족 추억과 별도로 보관하세요.",
+          "개인 콘텐츠를 노출하지 않고 회의 중에 비즈니스 사진에 액세스하세요.",
+          "개인 파일을 표시하지 않고 동료와 비즈니스 사진을 공유하세요."
         ]
       },
       "example": {
-        "title": "🎯 Real-World Example",
-        "description": "You run a small business and use your phone for everything. You take photos of products, receipts, client meetings, and also personal family photos. With Hush Gallery, you can:",
+        "title": "🎯 실제 사례",
+        "description": "당신은 소규모 사업체를 운영하며 모든 일에 휴대폰을 사용합니다. 제품, 영수증, 고객 미팅 사진은 물론 개인 가족 사진도 찍습니다. Hush Gallery를 사용하면 다음을 수행할 수 있습니다.",
         "items": [
-          "Create a \"Business\" tag for all work-related photos",
-          "Create a \"Personal\" tag for family photos",
-          "Keep them completely separate and secure",
-          "Access business photos during meetings without exposing personal content",
-          "Share business photos with colleagues without showing personal files"
+          "모든 업무 관련 사진에 '비즈니스' 태그를 만듭니다.",
+          "가족 사진을 위한 \"개인\" 태그 만들기",
+          "완전히 분리되어 안전하게 보관하세요.",
+          "개인 콘텐츠를 노출하지 않고 회의 중에 비즈니스 사진에 액세스하세요.",
+          "개인 파일을 표시하지 않고 동료와 비즈니스 사진을 공유하세요."
         ]
       }
     },
     "howToUse": {
-      "title": "📱 How to Use",
+      "title": "📱 사용 방법",
       "steps": [
         {
           "number": "1",
-          "title": "Select Photos",
-          "description": "Select photos from any app (Gallery, WhatsApp, etc.)"
+          "title": "사진 선택",
+          "description": "모든 앱(갤러리, WhatsApp 등)에서 사진을 선택하세요."
         },
         {
           "number": "2",
-          "title": "Share to Hush Gallery",
-          "description": "Tap \"Share\" and choose \"Hush Gallery\""
+          "title": "Hush Gallery에 공유",
+          "description": "'공유'를 탭하고 'Hush Gallery'를 선택하세요."
         },
         {
           "number": "3",
@@ -116,23 +121,23 @@
         },
         {
           "number": "4",
-          "title": "Organize with Tags",
-          "description": "Create tags to organize (Business, Personal, Family, etc.)"
+          "title": "태그로 정리",
+          "description": "정리할 태그를 만듭니다(비즈니스, 개인, 가족 등)."
         },
         {
           "number": "5",
-          "title": "Secure Access",
-          "description": "Access with PIN or biometric authentication"
+          "title": "보안 액세스",
+          "description": "PIN 또는 생체 인식 인증을 통한 액세스"
         }
       ]
     },
     "languages": {
-      "title": "🌍 Multi-Language Support",
-      "description": "Hush Gallery supports 12+ languages including English, עברית, Русский, العربية, Français, Italiano, Español, Português, 中文（简体）, Deutsch, 日本語, 한국어, and more."
+      "title": "🌍 다국어 지원",
+      "description": "Hush Gallery는 영어, עברית, Русский, العربية, Français, Italiano, Español, Português, 中文(简体), Deutsch, 日本語, 한국어 등을 포함한 12개 이상의 언어를 지원합니다."
     },
     "privacyGuarantee": {
-      "title": "🔒 Privacy Guarantee",
-      "description": "Your privacy is our top priority. All files are stored securely in the app's private directory, we never access your files, and your data is never sold to third parties. Encryption feature coming soon."
+      "title": "🔒 개인정보 보호",
+      "description": "귀하의 개인 정보 보호는 우리의 최우선 사항입니다. 모든 파일은 앱의 개인 디렉토리에 안전하게 저장되며, 우리는 귀하의 파일에 절대 접근하지 않으며 귀하의 데이터는 제3자에게 판매되지 않습니다. 암호화 기능이 곧 제공될 예정입니다."
     },
     "premium": {
       "title": "프리미엄 기능",
@@ -143,7 +148,8 @@
           "기본 갤러리 기능",
           "로컬 저장소",
           "앱 잠금 (PIN)",
-          "기본 폴더 관리"
+          "기본 폴더 관리",
+          "배너 광고(24시간 동안 광고 없이 광고 시청)"
         ]
       },
       "premium": {
@@ -175,12 +181,12 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "곧 사용 가능",
-      "download": "Download",
+      "download": "다운로드",
       "appStoreUrl": "https://apps.apple.com/il/app/hush-gallery/id6756169045",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery",
-      "appIconAlt": "Hush Gallery App Icon",
-      "appStoreAlt": "Download on the App Store",
-      "googlePlayAlt": "Get it on Google Play"
+      "appIconAlt": "Hush Gallery 앱 아이콘",
+      "appStoreAlt": "App Store에서 다운로드하세요.",
+      "googlePlayAlt": "시작해 보세요 Google Play"
     },
     "links": {
       "title": "중요한 링크",
@@ -201,119 +207,119 @@
       "tagline": "Zuki Apps의 일부 • 이스라엘 개발자 • ❤️로 제작"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Hush Gallery. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "이용약관",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
+      "intro": "Hush Gallery를 사용하기 전에 본 이용약관을 주의 깊게 읽어보시기 바랍니다. 당사 서비스에 액세스하거나 이를 사용함으로써 귀하는 본 약관을 준수할 것에 동의하게 됩니다. 본 약관에 동의하지 않는 경우 당사 서비스를 이용하지 마십시오.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Hush Gallery (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a private photo gallery application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 약관 동의",
+        "content": "본 이용 약관(\"약관\")은 Zuki Apps(\"회사\")가 운영하는 개인 사진 갤러리 애플리케이션인 Hush Gallery(\"서비스\", \"앱\", \"당사\", \"당사\" 또는 \"당사의\")에 대한 액세스 및 사용에 적용됩니다. 서비스를 다운로드, 설치, 액세스 또는 사용함으로써 귀하는 본 약관 및 당사의 개인정보 보호정책을 준수할 것에 동의하게 됩니다.",
+        "content2": "귀하가 조직을 대신하여 서비스를 사용하는 경우 귀하는 해당 조직을 본 약관에 구속할 권한이 있음을 진술하고 보증합니다."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Hush Gallery is a mobile application that allows users to store, organize, and manage photos and videos privately. The Service includes:",
+        "title": "2. 서비스 설명",
+        "content": "Hush Gallery는 사용자가 사진과 동영상을 비공개로 저장, 정리, 관리할 수 있는 모바일 애플리케이션입니다. 서비스에는 다음이 포함됩니다.",
         "items": [
-          "Local-first photo and video storage",
-          "Optional encrypted cloud backup",
-          "Folder management and organization",
-          "App lock with PIN/password and biometric authentication",
-          "Import/export functionality",
-          "Premium features (as described in the app)"
+          "로컬 우선 사진 및 비디오 저장",
+          "암호화된 클라우드 백업(선택 사항)",
+          "폴더 관리 및 구성",
+          "PIN/비밀번호 및 생체 인식 인증을 통한 앱 잠금",
+          "가져오기/내보내기 기능",
+          "Premium 기능(앱에 설명된 대로)"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 연락처 정보",
+        "content": "본 약관에 대해 질문이 있는 경우 다음 연락처로 문의해 주세요.",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "개인 정보 보호 정책",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Hush Gallery is designed with privacy as a core principle. We collect minimal information necessary to provide the service. We collect information you provide directly to us, such as when you create an account (if using cloud backup), use our services, or contact us for support."
+        "title": "1. 당사가 수집하는 정보",
+        "content": "Hush Gallery는 개인정보 보호를 핵심 원칙으로 하여 설계되었습니다. 서비스 제공을 위해 필요한 최소한의 정보를 수집합니다. 당사는 귀하가 계정을 생성할 때(클라우드 백업을 사용하는 경우), 당사의 서비스를 사용할 때 또는 지원을 위해 당사에 문의할 때와 같이 귀하가 당사에 직접 제공하는 정보를 수집합니다."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. Your photos and videos are stored locally on your device by default. If you choose to use cloud backup, your media is encrypted client-side before being stored."
+        "title": "2. 당사가 귀하의 정보를 사용하는 방법",
+        "content": "당사는 서비스를 제공, 유지 및 개선하기 위해 수집한 정보를 사용합니다. 사진과 비디오는 기본적으로 장치에 로컬로 저장됩니다. 클라우드 백업을 사용하기로 선택한 경우 미디어는 저장되기 전에 클라이언트 측에서 암호화됩니다."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information or media to third parties without your consent, except as described in this policy. Your photos and videos remain private and are only accessible to you."
+        "title": "3. 정보 공유",
+        "content": "당사는 본 정책에 설명된 경우를 제외하고 귀하의 동의 없이 귀하의 개인 정보나 미디어를 제3자에게 판매, 거래 또는 양도하지 않습니다. 귀하의 사진과 비디오는 비공개로 유지되며 귀하만 접근할 수 있습니다."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your personal information and media. All cloud backups are encrypted client-side before transmission. Local storage uses the app's private directory, which is not accessible by other apps."
+        "title": "4. 데이터 보안",
+        "content": "당사는 귀하의 개인정보와 미디어를 보호하기 위해 적절한 보안 조치를 취합니다. 모든 클라우드 백업은 전송 전에 클라이언트 측에서 암호화됩니다. 로컬 저장소는 다른 앱에서 액세스할 수 없는 앱의 개인 디렉터리를 사용합니다."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your personal information and media at any time. You can delete your account and all associated data through the app settings. You may also opt out of cloud backup at any time."
+        "title": "5. 귀하의 권리",
+        "content": "귀하는 언제든지 귀하의 개인정보와 미디어에 접근, 업데이트, 삭제할 권리가 있습니다. 앱 설정을 통해 계정 및 모든 관련 데이터를 삭제할 수 있습니다. 언제든지 클라우드 백업을 선택 해제할 수도 있습니다."
       },
       "section6": {
-        "title": "6. Photo and Video Library Access",
-        "content": "Hush Gallery requires access to your device's photo library to allow you to import photos and videos. We only access your media when you explicitly choose to import it. All imported media is stored in the app's private directory and is not shared with third parties."
+        "title": "6. 사진 및 비디오 라이브러리 이용",
+        "content": "Hush Gallery에서 사진과 동영상을 가져오려면 기기의 사진 라이브러리에 액세스해야 합니다. 귀하가 명시적으로 미디어 가져오기를 선택한 경우에만 당사는 귀하의 미디어에 액세스합니다. 가져온 모든 미디어는 앱의 개인 디렉터리에 저장되며 제3자와 공유되지 않습니다."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 문의하기",
+        "content": "본 개인정보 보호정책에 대해 질문이 있는 경우 다음 주소로 문의하시기 바랍니다.",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       },
       "metaDescription": "Hush Gallery 개인정보 보호정책 — 당사가 iOS 및 Android에서 귀하의 데이터를 처리하는 방법."
     },
     "deleteAccount": {
-      "title": "Delete Hush Gallery Account",
-      "intro": "If you wish to delete your account and all associated data, please follow the steps below. This process is permanent and cannot be undone.",
+      "title": "Hush Gallery 계정 삭제",
+      "intro": "귀하의 계정 및 모든 관련 데이터를 삭제하려면 다음 단계를 따르십시오. 이 프로세스는 영구적이며 취소할 수 없습니다.",
       "warning": {
-        "title": "⚠️ Important Warning",
-        "content": "Account deletion is a permanent action and cannot be undone. All data associated with your account will be permanently deleted, including photos, videos, folders, and settings."
+        "title": "⚠️ 중요 경고",
+        "content": "계정 삭제는 영구적인 작업이며 취소할 수 없습니다. 사진, 비디오, 폴더 및 설정을 포함하여 계정과 관련된 모든 데이터가 영구적으로 삭제됩니다."
       },
       "steps": {
-        "title": "Account Deletion Instructions",
-        "step1": "Open the Hush Gallery app on your device",
-        "step2": "Log in to your account (if you haven't already)",
-        "step3": "Navigate to Settings (usually accessible from the main menu or profile)",
-        "step4": "Scroll down until you find the \"Delete Account\" or \"Account Settings\" option",
-        "step5": "Tap the \"Delete Account\" button and read the warning message carefully",
-        "step6": "Confirm the deletion - the account and all data will be permanently deleted"
+        "title": "계정 삭제 지침",
+        "step1": "기기에서 Hush Gallery 앱을 엽니다.",
+        "step2": "귀하의 계정에 로그인하십시오 (아직 로그인하지 않은 경우)",
+        "step3": "설정으로 이동합니다(일반적으로 기본 메뉴나 프로필에서 액세스할 수 있음).",
+        "step4": "\"계정 삭제\" 또는 \"계정 설정\" 옵션을 찾을 때까지 아래로 스크롤하세요.",
+        "step5": "\"계정 삭제\" 버튼을 누르고 경고 메시지를 주의 깊게 읽어보세요.",
+        "step6": "삭제 확인 - 계정과 모든 데이터가 영구적으로 삭제됩니다."
       },
       "data": {
-        "title": "Data That Will Be Deleted",
-        "intro": "When you delete your account, the following data will be permanently deleted:",
-        "item1": "Account information: name, email address, user ID (if using cloud backup)",
-        "item2": "Photos and videos: all media stored in the app",
-        "item3": "Folders and collections: all organized folders and albums",
-        "item4": "Settings and preferences: app settings, PIN/password, biometric settings",
-        "item5": "Cloud backup data: all encrypted backup data (if cloud backup was enabled)",
-        "item6": "Metadata: all metadata associated with your media",
-        "item7": "Local storage: all data stored in the app's private directory"
+        "title": "삭제될 데이터",
+        "intro": "계정을 삭제하면 다음 데이터가 영구적으로 삭제됩니다.",
+        "item1": "계정 정보: 이름, 이메일 주소, 사용자 ID(클라우드 백업을 사용하는 경우)",
+        "item2": "사진 및 동영상: 앱에 저장된 모든 미디어",
+        "item3": "폴더 및 컬렉션: 정리된 모든 폴더 및 앨범",
+        "item4": "설정 및 기본 설정: 앱 설정, PIN/비밀번호, 생체 인식 설정",
+        "item5": "클라우드 백업 데이터: 암호화된 모든 백업 데이터(클라우드 백업이 활성화된 경우)",
+        "item6": "메타데이터: 미디어와 관련된 모든 메타데이터",
+        "item7": "로컬 저장소: 앱의 개인 디렉터리에 저장된 모든 데이터"
       },
       "partialDelete": {
-        "title": "Deleting Some Data (Without Deleting the Account)",
-        "intro": "If you wish to delete only some data without deleting the account, you can:",
-        "item1": "Delete individual photos/videos: Open the media → Delete option",
-        "item2": "Delete folders: Open folder → Delete folder option",
-        "item3": "Clear app data: Settings → Clear all data (keeps account)",
-        "item4": "Disable cloud backup: Settings → Disable cloud backup (removes cloud data but keeps local data)"
+        "title": "일부 데이터 삭제(계정을 삭제하지 않고)",
+        "intro": "계정을 삭제하지 않고 일부 데이터만 삭제하려면 다음을 수행하세요.",
+        "item1": "개별 사진/동영상 삭제: 미디어 열기 → 삭제 옵션",
+        "item2": "폴더 삭제: 폴더 열기 → 폴더 삭제 옵션",
+        "item3": "앱 데이터 지우기: 설정 → 모든 데이터 지우기(계정 유지)",
+        "item4": "클라우드 백업 비활성화: 설정 → 클라우드 백업 비활성화(클라우드 데이터는 제거하지만 로컬 데이터는 유지)"
       },
       "retention": {
-        "title": "Retention Period",
-        "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app. Local data on your device will be deleted immediately when you delete the account through the app."
+        "title": "보유기간",
+        "content": "계정 삭제 후 데이터는 30일 이내에 당사 서버에서 삭제됩니다. 이 기간 동안 데이터는 백업에 보관될 수 있지만 앱을 통해 액세스할 수는 없습니다. 앱을 통해 계정을 삭제하면 기기의 로컬 데이터가 즉시 삭제됩니다."
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with account deletion, please contact us:",
-        "email": "Email",
-        "privacy": "Privacy Policy",
-        "privacyLink": "Read the full privacy policy",
-        "terms": "Terms of Service",
-        "termsLink": "Read the terms of service"
+        "title": "문의하기",
+        "content": "계정 삭제에 대해 질문이나 문제가 있는 경우 다음 연락처로 문의하세요.",
+        "email": "이메일",
+        "privacy": "개인 정보 보호 정책",
+        "privacyLink": "개인정보 보호정책 전문을 읽어보세요",
+        "terms": "서비스 약관",
+        "termsLink": "서비스 약관 읽기"
       }
     },
     "faq": {
-      "title": "Frequently Asked Questions",
+      "title": "자주 묻는 질문",
       "subtitle": "Answers for users and search assistants about Hush Gallery features, privacy, and troubleshooting.",
       "viewAllSupport": "Full support page",
       "items": [
@@ -448,20 +454,20 @@
       ]
     },
     "screenshots": {
-      "title": "Screenshots & Guides",
+      "title": "스크린샷 및 가이드",
       "subtitle": "Visual overview of Hush Gallery features and step-by-step flows.",
       "featuresTitle": "Features",
       "howToTitle": "How-to",
-      "onboardingTitle": "First launch tour",
-      "onboardingSubtitle": "Privacy, tags, and optional cloud backup explained before you import.",
+      "onboardingTitle": "첫 론칭 투어",
+      "onboardingSubtitle": "가져오기 전에 개인 정보 보호, 태그 및 선택적 클라우드 백업에 대해 설명합니다.",
       "items": [
         {
-          "id": "gallery",
-          "title": "Private gallery grid",
+          "id": "갱도",
+          "title": "개인 갤러리 그리드",
           "description": "Browse photos and videos in a secure grid. Filter by tags, sort by date or size, and swipe to delete with undo.",
           "image": "/images/hush-gallery/screenshot-gallery.png",
           "alt": "Hush Gallery main photo grid with tag filters",
-          "category": "features"
+          "category": "특징"
         },
         {
           "id": "tags",
@@ -469,7 +475,7 @@
           "description": "Create tags like Business, Personal, or Family. Filter instantly and assign tags in batch selection mode.",
           "image": "/images/hush-gallery/screenshot-tags.png",
           "alt": "Hush Gallery tag management and filter chips",
-          "category": "features"
+          "category": "특징"
         },
         {
           "id": "lock",
@@ -477,7 +483,7 @@
           "description": "Protect your vault with PIN and Face ID / Touch ID. Auto-lock after inactivity.",
           "image": "/images/hush-gallery/screenshot-lock.png",
           "alt": "Hush Gallery PIN lock screen",
-          "category": "features"
+          "category": "특징"
         },
         {
           "id": "backup",
@@ -485,7 +491,7 @@
           "description": "Backup Now, auto backup, and restore from iCloud or Google Drive.",
           "image": "/images/hush-gallery/screenshot-backup.png",
           "alt": "Hush Gallery backup and restore settings",
-          "category": "features"
+          "category": "특징"
         },
         {
           "id": "settings",
@@ -493,7 +499,35 @@
           "description": "Security, backup, Premium, language, theme, and account in one place.",
           "image": "/images/hush-gallery/screenshot-settings.png",
           "alt": "Hush Gallery settings screen",
-          "category": "features"
+          "category": "특징"
+        },
+        {
+          "id": "premium",
+          "title": "Premium",
+          "description": "일회성 구매: 광고 제거, 무제한 태그, 앱 잠금 및 클라우드 백업 액세스.",
+          "alt": "Hush Gallery Premium 업그레이드 화면",
+          "category": "특징"
+        },
+        {
+          "id": "설정",
+          "title": "설정",
+          "description": "보안, 암호화, 백업, Premium, 언어, 테마, 계정, 정보를 하나의 허브에 담았습니다.",
+          "alt": "Hush Gallery 설정 화면",
+          "category": "특징"
+        },
+        {
+          "id": "온보딩-비공개",
+          "title": "비공개 및 보안",
+          "description": "최초 실행 온보딩: 백업을 활성화하지 않는 한 미디어는 장치에 유지됩니다.",
+          "alt": "Hush Gallery 개인 저장소 온보딩",
+          "category": "온보딩"
+        },
+        {
+          "id": "온보딩 태그",
+          "title": "태그로 정리",
+          "description": "온보딩에서는 사진과 비디오를 필터링하고 그룹화하는 사용자 정의 태그를 설명합니다.",
+          "alt": "Hush Gallery 온보딩 태그",
+          "category": "온보딩"
         }
       ]
     },
@@ -506,7 +540,8 @@
           "steps": [
             "Open Hush Gallery → tap + → Import from Gallery.",
             "Select photos/videos → confirm import.",
-            "Optional: delete originals when prompted."
+            "Optional: delete originals when prompted.",
+            "첫 번째 사진이나 비디오를 가져오려면 갤러리에서 +를 탭하세요."
           ]
         },
         {
@@ -514,7 +549,8 @@
           "steps": [
             "Select media in Photos, WhatsApp, etc.",
             "Tap Share → Hush Gallery.",
-            "Open Hush Gallery and complete import."
+            "Open Hush Gallery and complete import.",
+            "삭제하려면 행을 왼쪽으로 스와이프하세요. 영구적으로 제거되기 전에 실행 취소가 나타납니다."
           ]
         },
         {
@@ -522,7 +558,8 @@
           "steps": [
             "Upgrade to Premium if needed.",
             "Settings → Security → App Lock → set PIN.",
-            "Enable biometric unlock and auto-lock timeout."
+            "Enable biometric unlock and auto-lock timeout.",
+            "다른 앱에서: 공유 → Hush Gallery를 누른 다음 Hush Gallery를 열어 완료합니다."
           ]
         },
         {
@@ -530,7 +567,60 @@
           "steps": [
             "Settings → Backup → Backup Now (Premium).",
             "Enable Auto Backup for scheduled sync.",
-            "On new device: Restore from Backup after sign-in."
+            "On new device: Restore from Backup after sign-in.",
+            "갤러리로 내보내기는 항목을 시스템 사진 앱으로 다시 복사합니다."
+          ]
+        },
+        {
+          "title": "5. 태그",
+          "steps": [
+            "태그 표시줄 메뉴에서 또는 가져오는 동안 태그를 생성합니다.",
+            "항목당 여러 태그를 할당합니다.",
+            "태그 칩을 길게 누르면 이름을 바꾸거나 순서를 바꾸거나 삭제할 수 있습니다.",
+            "무료 등급: 최대 5개의 태그; Premium: 무제한."
+          ]
+        },
+        {
+          "title": "6. 앱 잠금(Premium)",
+          "steps": [
+            "설정 → 보안 → 앱 잠금.",
+            "4자리 또는 6자리 PIN을 설정하세요. 가능한 경우 Face ID/Touch ID를 활성화합니다.",
+            "자동 잠금 선택: 즉시, 1, 5, 15분.",
+            "PIN을 잊으셨나요? 로그인한 동안 PIN을 백업한 경우 PIN 복원을 사용하세요."
+          ]
+        },
+        {
+          "title": "7. 암호화",
+          "steps": [
+            "설정 → 암호화를 선택하여 선택적 온디스크 암호화를 활성화합니다.",
+            "암호화 키는 장치 보안 엔클레이브/키 저장소에 저장됩니다.",
+            "활성화되면 미디어 파일이 로컬로 기록되기 전에 암호화됩니다."
+          ]
+        },
+        {
+          "title": "8. 클라우드 백업(Premium)",
+          "steps": [
+            "메시지가 표시되면 설정 → 계정에서 로그인하세요.",
+            "설정 → 백업 → 지금 백업을 수동으로 동기화하세요.",
+            "제공되는 경우 자동 백업 및 알림 빈도를 활성화합니다.",
+            "새 장치: 로그인하고 설정 또는 첫 실행 프롬프트에서 복원을 탭합니다."
+          ]
+        },
+        {
+          "title": "9. Premium 및 광고",
+          "steps": [
+            "설정 또는 갤러리 배너에서 Premium를 엽니다.",
+            "일회성 구매로 광고가 제거되고 Premium 기능이 잠금 해제됩니다.",
+            "동일한 Apple ID 또는 Google 계정으로 구매를 복원하세요.",
+            "무료 등급: 일시적으로 광고 없는 시간(제공되는 경우) 동안 보상형 광고를 시청하세요."
+          ]
+        },
+        {
+          "title": "10. 공유 확장 (iOS)",
+          "steps": [
+            "사진에서 항목 → 공유 → Hush Gallery를 선택합니다.",
+            "확장은 파일을 준비합니다. Hush Gallery를 열어 가져오세요.",
+            "가져오기가 표시되지 않으면 앱을 수동으로 엽니다. 시작 시 가져오기가 실행됩니다."
           ]
         }
       ]
@@ -593,51 +683,51 @@
       "metaDescription": "Hush Gallery FAQ 및 지원 — 개인 사진 및 비디오 갤러리. 연락처, 개인 정보 보호 및 문제 해결."
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get the most from your private gallery.",
+      "title": "팁과 요령",
+      "subtitle": "개인 갤러리를 최대한 활용하세요.",
       "items": [
         {
-          "title": "Hide from WhatsApp fast",
-          "description": "Long-press a photo in WhatsApp → Share → Hush Gallery. Faster than saving to Camera Roll first."
+          "title": "WhatsApp에서 빨리 숨으세요.",
+          "description": "WhatsApp → 공유 → Hush Gallery에서 사진을 길게 누르세요. 먼저 카메라 롤에 저장하는 것보다 빠릅니다."
         },
         {
-          "title": "Use tags early",
-          "description": "Create tags when you import so filtering stays easy as your vault grows."
+          "title": "태그를 조기에 사용하세요",
+          "description": "가져올 때 태그를 생성하면 볼트가 커짐에 따라 필터링이 쉽게 유지됩니다."
         },
         {
-          "title": "Short auto-lock",
-          "description": "Set App Lock to Immediately or 1 minute if you hand your phone to others often."
+          "title": "짧은 자동 잠금",
+          "description": "앱 잠금을 즉시로 설정하거나 휴대폰을 다른 사람에게 자주 건네주는 경우 1분으로 설정하세요."
         },
         {
-          "title": "Backup before a new phone",
-          "description": "Run Backup Now before replacing your device; restore after signing in on the new install."
+          "title": "새 휴대전화를 사용하기 전에 백업",
+          "description": "장치를 교체하기 전에 지금 백업을 실행하십시오. 새로 설치 시 로그인한 후 복원하세요."
         },
         {
-          "title": "Export without losing vault copy",
-          "description": "Export to Gallery copies files out; originals remain in Hush Gallery until you delete them."
+          "title": "볼트 사본 손실 없이 내보내기",
+          "description": "갤러리로 내보내기는 파일을 복사합니다. 원본은 삭제할 때까지 Hush Gallery에 남아 있습니다."
         },
         {
-          "title": "Restore purchases",
-          "description": "Reinstalled? Premium → Restore purchases with the same store account."
+          "title": "구매 복원",
+          "description": "다시 설치하시겠습니까? Premium → 동일한 매장 계정으로 구매를 복원합니다."
         },
         {
-          "title": "12 languages + RTL",
-          "description": "Settings → Language includes Hebrew and Arabic with full RTL layout support."
+          "title": "12개 언어 + RTL",
+          "description": "설정 → 언어에는 히브리어와 아랍어가 포함되어 있으며 RTL 레이아웃이 완전히 지원됩니다."
         },
         {
-          "title": "Send feedback in-app",
+          "title": "인앱으로 피드백 보내기",
           "description": "Settings → About → Send feedback, or email zuki.apps.dev@gmail.com before leaving a store review."
         }
       ]
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to",
-      "manual": "Manual",
-      "tips": "Tips",
+      "features": "특징",
+      "screenshots": "스크린샷",
+      "howTo": "방법",
+      "manual": "수동",
+      "tips": "팁",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "다운로드"
     }
   }
 }

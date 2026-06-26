@@ -1,287 +1,289 @@
 {
   "trackLedger": {
-    "back": "Back to Home",
+    "back": "חזרה לבית",
     "hero": {
       "badge": "Zuki Apps",
       "title": "Track Ledger",
-      "subtitle": "Log GPS data",
-      "description": "Offline-first engineering GPS logger for mobile. Track Ledger records raw GNSS points for your paths—no smoothing. Set time- or distance-based sampling, pause and resume, then export from a track summary or the track list (CSV; GPX and GeoJSON with Premium). Use the Map tab to overlay tracks on OpenStreetMap tiles.",
-      "structuredDataDescription": "Track Ledger — offline-first GPS/GNSS track logger for iOS and Android. Record raw points, elevation profiles, OSM map overlay, export CSV (free) or GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger by Zuki Apps."
+      "subtitle": "רישום נתוני GPS",
+      "description": "GPS לוגר הנדסה לא מקוון ראשון לנייד. עקוב אחר רשומות Ledger גולמיות של GNSS נקודות עבור הנתיבים שלך - ללא החלקה. הגדר דגימה מבוססת זמן או מרחק, השהה והמשך, ולאחר מכן ייצא מסיכום רצועות או מרשימת הרצועות (CSV; GPX ו-GeoJSON עם Premium). השתמש בכרטיסייה מפה כדי לשכב רצועות על אריחי OpenStreetMap.",
+      "structuredDataDescription": "עקוב אחר חשבונות — לא מקוון-ראשון GPS/GNSS לוגר מסלולים עבור iOS וAndroid. הקלט נקודות גולמיות, פרופילי גובה, שכבת-על של מפת OSM, ייצוא CSV (חינם) או GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger מאת Zuki Apps.",
+      "seoTitle": "חשבונות מעקב — GPS לוגר מסלול | Zuki Apps",
+      "metaDescription": "יומן GPS רצועות במצב לא מקוון, ייצא GPX/CSV/GeoJSON. אין צורך בחשבון. חינם בiOS וAndroid."
     },
     "features": {
-      "title": "Key Features",
+      "title": "תכונות עיקריות",
       "gnss": {
-        "title": "Recording & tracks",
-        "description": "Log raw GNSS fixes with control over how often points are stored.",
+        "title": "הקלטה ורצועות",
+        "description": "יומן תיקונים גולמיים GNSS עם שליטה על תדירות האחסון של נקודות.",
         "items": [
-          "Time- or distance-based sampling",
-          "Pause, resume, and track summaries",
-          "Speed, distance, and accuracy at a glance"
+          "דגימה מבוססת זמן או מרחק",
+          "השהה, המשך ועקוב אחר סיכומים",
+          "מהירות, מרחק ודיוק במבט אחד"
         ]
       },
       "export": {
-        "title": "Export & share",
-        "description": "Get your data out as standard formats and share from the track flow.",
+        "title": "ייצוא ושתף",
+        "description": "הוצא את הנתונים שלך כפורמטים סטנדרטיים ושתף מזרימת המסלול.",
         "items": [
-          "CSV export on all tiers",
-          "GPX and GeoJSON with Premium",
-          "Share sheet integration"
+          "CSV ייצוא בכל השכבות",
+          "GPX וGeoJSON עם Premium",
+          "שתף שילוב גיליון"
         ]
       },
       "map": {
-        "title": "Map",
-        "description": "Visualize completed paths on familiar map tiles.",
+        "title": "מַפָּה",
+        "description": "דמיין נתיבים שהושלמו על אריחי מפה מוכרים.",
         "items": [
-          "OpenStreetMap overlays",
-          "Select one or more tracks",
-          "Share map images"
+          "שכבות-על של OpenStreetMap",
+          "בחר רצועה אחת או יותר",
+          "שתף תמונות מפה"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "זְמִינוּת",
       "description": "Native app for iOS and Android (bundle / application ID: com.zuki.apps.trackledger). Store links appear below when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "גִרְסָה",
+      "status": "פּלַטפוֹרמָה",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "הורד",
       "description": "App Store and Google Play badges will appear here once the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/track-ledger-log-gps-data/id6762567364",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "הורד ב-App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.trackledger",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "קבל את זה בGoogle Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "קישורים חשובים",
       "support": {
-        "title": "Technical Support",
+        "title": "תמיכה טכנית",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Track Ledger. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "title": "תנאי שימוש",
+      "lastUpdated": "עדכון אחרון: אפריל 2026",
+      "intro": "אנא קרא את תנאי השימוש הללו בעיון לפני השימוש ב-Track Ledger. על ידי גישה או שימוש בשירות שלנו, אתה מסכים להיות מחויב לתנאים אלה. אם אינך מסכים, אנא אל תשתמש באפליקציה.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Track Ledger (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a GPS/GNSS track logging application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. הסכמה לתנאים",
+        "content": "תנאי שימוש אלה (\"תנאים\") מסדירים את הגישה והשימוש שלך ב-Track Ledger (\"שירות\", \"אפליקציה\", \"אנחנו\", \"אנחנו\", או \"שלנו\"), אפליקציה לרישום מסלולים GPS/GNSS המופעלת על ידי Zuki Apps (\"החברה\"). בהורדה, התקנה, גישה או שימוש בשירות, אתה מסכים להיות כפוף לתנאים אלה ולמדיניות הפרטיות שלנו.",
+        "content2": "אם אתה משתמש בשירות מטעם ארגון, אתה מצהיר ומתחייב שיש לך הסמכות לחייב את הארגון הזה לתנאים אלה."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Track Ledger is a mobile application that records location-related data for paths you choose to log. The Service includes:",
+        "title": "2. תיאור השירות",
+        "content": "Track Ledger היא אפליקציה לנייד שמתעדת נתונים הקשורים למיקום עבור נתיבים שתבחר לרשום. השירות כולל:",
         "items": [
-          "Recording of GNSS/GPS fixes and related metadata (e.g. accuracy, speed) on your device",
-          "Configurable sampling (time- or distance-based), pause and resume, and track summaries",
-          "Export and sharing of track data (e.g. CSV; GPX and GeoJSON where enabled)",
-          "Map visualization using third-party map tiles (e.g. OpenStreetMap) for completed tracks",
-          "Optional in-app purchases or ads as described in the app"
+          "הקלטה של ​​תיקוני GNSS/GPS ומטא נתונים קשורים (למשל דיוק, מהירות) במכשיר שלך",
+          "דגימה ניתנת להגדרה (מבוססת זמן או מרחק), הפסקה וחידוש וסיכומים",
+          "ייצוא ושיתוף של נתוני מסלול (למשל CSV; GPX ו-GeoJSON כאשר מופעלים)",
+          "הדמיית מפה באמצעות אריחי מפה של צד שלישי (למשל OpenStreetMap) למסלולים שהושלמו",
+          "רכישות או מודעות אופציונליות בתוך האפליקציה כמתואר באפליקציה"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. מידע ליצירת קשר",
+        "content": "אם יש לך שאלות כלשהן לגבי תנאים אלה, אנא צור איתנו קשר:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "מדיניות פרטיות",
+      "lastUpdated": "עדכון אחרון: אפריל 2026",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Track Ledger processes location data (GNSS/GPS) when you start recording, along with app settings and track metadata needed to run the app. Depending on your device and configuration, the app may use analytics or crash reporting to improve stability (often via third-party SDKs). Data you export or share is sent only when you explicitly choose export or share. Map tiles may be loaded from third-party providers when you use the Map feature."
+        "title": "1. מידע שאנו אוספים",
+        "content": "Track Ledger מעבד נתוני מיקום (GNSS/GPS) כשאתה מתחיל להקליט, יחד עם הגדרות האפליקציה ומטא-נתונים של המעקב הדרושים להפעלת האפליקציה. בהתאם למכשיר ולתצורה שלך, האפליקציה עשויה להשתמש בניתוח או בדיווח קריסה כדי לשפר את היציבות (לעתים קרובות באמצעות SDK של צד שלישי). נתונים שאתה מייצא או משתף נשלחים רק כאשר אתה בוחר במפורש לייצא או לשתף. אריחי מפה עשויים להיטען מספקי צד שלישי כאשר אתה משתמש בתכונת המפה."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information described above to provide recording, storage on your device, export/sharing features you trigger, and optional product improvement through aggregated diagnostics where enabled. We do not sell your personal track history as a product."
+        "title": "2. כיצד אנו משתמשים במידע שלך",
+        "content": "אנו משתמשים במידע המתואר לעיל כדי לספק הקלטה, אחסון במכשיר שלך, תכונות ייצוא/שיתוף שאתה מפעיל ושיפור מוצר אופציונלי באמצעות אבחון מצטבר כאשר מופעל. אנחנו לא מוכרים את היסטוריית המסלול האישית שלך כמוצר."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Data leaves your device when you export, share, or when required third-party services (e.g. map tile servers, app stores, analytics if enabled) process requests as part of normal app operation. See in-app notices and platform settings for controls where available."
+        "title": "3. שיתוף מידע",
+        "content": "אנחנו לא מוכרים את המידע האישי שלך. נתונים עוזבים את המכשיר שלך כשאתה מייצא, משתף, או כאשר נדרשים שירותי צד שלישי (למשל שרתי אריחי מפות, app stores, ניתוח אם מופעל) בקשות עיבוד כחלק מתפעול אפליקציה רגיל. ראה הודעות בתוך האפליקציה והגדרות פלטפורמה עבור בקרות היכן שהן זמינות."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable measures appropriate to a mobile app. Track data is stored in app storage on your device; you should use device security (passcode, encryption) as recommended by your platform vendor."
+        "title": "4. אבטחת מידע",
+        "content": "אנו מיישמים אמצעים סבירים המתאימים לאפליקציה לנייד. נתוני המעקב מאוחסנים באחסון האפליקציה במכשיר שלך; עליך להשתמש באבטחת המכשיר (קוד גישה, הצפנה) כפי שהומלץ על ידי ספק הפלטפורמה שלך."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, correct, or delete personal data, or to opt out of certain processing. You can delete tracks in the app, uninstall the app to remove local data, and contact us for privacy requests."
+        "title": "5. הזכויות שלך",
+        "content": "בהתאם לאזור שלך, ייתכן שיש לך זכויות לגשת, לתקן או למחוק נתונים אישיים, או לבטל את הסכמתך לעיבוד מסוים. אתה יכול למחוק רצועות באפליקציה, להסיר את ההתקנה של האפליקציה כדי להסיר נתונים מקומיים וליצור איתנו קשר לבקשות פרטיות."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. צור קשר",
+        "content": "אם יש לך שאלות כלשהן לגבי מדיניות פרטיות זו, אנא צור איתנו קשר בכתובת:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
       },
       "metaDescription": "מדיניות פרטיות עבור Track Ledger - אפליקציית רישום מסלולים GPS/GNSS. כיצד מטופלים נתוני מיקום, ייצוא וניתוח אופציונלי."
     },
     "footer": {
-      "copyright": "© 2026 Track Ledger - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 Track Ledger - כל הזכויות שמורות",
+      "tagline": "חלק מZuki Apps • מפתח מישראל • תוצרת ❤️"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "תכונות",
+      "screenshots": "צילומי מסך",
+      "howTo": "כיצד להשתמש",
+      "tips": "טיפים",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "הורד"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Track Ledger.",
-      "featuresTitle": "App screens",
+      "title": "צילומי מסך",
+      "subtitle": "מסכי אפליקציה אמיתיים מ-Track Ledger.",
+      "featuresTitle": "מסכי אפליקציה",
       "items": [
         {
-          "id": "recording",
-          "title": "Recording",
-          "description": "Live distance, speed, and accuracy while logging.",
+          "id": "הַקלָטָה",
+          "title": "הַקלָטָה",
+          "description": "מרחק חי, מהירות ודיוק בזמן רישום.",
           "image": "/images/track-ledger/screenshot-recording.png",
-          "alt": "Recording — track ledger",
-          "category": "features"
+          "alt": "הקלטה - ספר חשבונות מסלול",
+          "category": "תכונות"
         },
         {
-          "id": "map",
-          "title": "Map overlay",
-          "description": "Review tracks on OpenStreetMap tiles.",
+          "id": "מַפָּה",
+          "title": "שכבת-על של מפה",
+          "description": "סקור רצועות על אריחי OpenStreetMap.",
           "image": "/images/track-ledger/screenshot-map.png",
-          "alt": "Map overlay — track ledger",
-          "category": "features"
+          "alt": "שכבת-על של מפה - ספר חשבונות מסלול",
+          "category": "תכונות"
         },
         {
-          "id": "summary",
-          "title": "Track summary",
-          "description": "Elevation vs distance and session stats.",
+          "id": "תַקצִיר",
+          "title": "סיכום מסלול",
+          "description": "נתונים סטטיסטיים של גובה לעומת מרחק ומפגש.",
           "image": "/images/track-ledger/screenshot-summary.png",
-          "alt": "Track summary — track ledger",
-          "category": "features"
+          "alt": "סיכום מסלול - ספר חשבונות מסלול",
+          "category": "תכונות"
         },
         {
-          "id": "settings",
-          "title": "Settings",
-          "description": "Sampling, projects, and export options.",
+          "id": "הגדרות",
+          "title": "הגדרות",
+          "description": "אפשרויות דגימה, פרויקטים ויצוא.",
           "image": "/images/track-ledger/screenshot-settings.png",
-          "alt": "Settings — track ledger",
-          "category": "features"
+          "alt": "הגדרות - ספר חשבונות מעקב",
+          "category": "תכונות"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "כיצד להשתמש",
       "steps": [
         {
           "number": "1",
-          "title": "Create a project",
-          "description": "Organize field work into named projects."
+          "title": "צור פרויקט",
+          "description": "ארגן עבודת שטח בפרויקטים בעלי שם."
         },
         {
           "number": "2",
-          "title": "Start recording",
-          "description": "Log raw GNSS points with your chosen sampling mode."
+          "title": "התחל להקליט",
+          "description": "רישום נקודות גולמיות של GNSS עם מצב הדגימה שבחרת."
         },
         {
           "number": "3",
-          "title": "Review on map",
-          "description": "Inspect path, elevation chart, and accuracy."
+          "title": "סקירה על המפה",
+          "description": "בדוק נתיב, תרשים גובה ודיוק."
         },
         {
           "number": "4",
-          "title": "Export data",
-          "description": "Share CSV free; GPX and GeoJSON with Premium."
+          "title": "ייצוא נתונים",
+          "description": "שתף CSV בחינם; GPX וGeoJSON עם Premium."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "שאלות נפוצות",
+      "subtitle": "תשובות מהירות לגבי תכונות, פרטיות וחיובים.",
+      "viewAllSupport": "צפה בתמיכה מלאה & FAQ",
       "items": [
         {
-          "question": "What is Track Ledger?",
-          "answer": "A simple GPS / GNSS track logger focused on data export and field use. It records your path as raw points with optional time- or distance-based sampling."
+          "question": "מה זה Track Ledger?",
+          "answer": "לוגר מסלול פשוט GPS / GNSS המתמקד בייצוא נתונים ושימוש בשטח. הוא מתעד את הנתיב שלך כנקודות גולמיות עם דגימה אופציונלית מבוססת זמן או מרחק."
         },
         {
-          "question": "Is it a fitness or social app?",
-          "answer": "No. There are no leaderboards, workouts, or social feeds. It's built for people who need reliable location logs and file exports."
+          "question": "האם זו אפליקציה לכושר או חברתית?",
+          "answer": "לא. אין לוחות הישגים, אימונים או עדכונים חברתיים. זה נבנה עבור אנשים שזקוקים ליומני מיקום אמינים וייצוא קבצים."
         },
         {
-          "question": "Do I need an account?",
-          "answer": "No. Everything is stored locally on your device."
+          "question": "האם אני צריך חשבון?",
+          "answer": "לא. הכל מאוחסן באופן מקומי במכשיר שלך."
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Yes. Recording and viewing saved tracks work without internet. The Map tab needs network to load OpenStreetMap tiles."
+          "question": "זה עובד במצב לא מקוון?",
+          "answer": "כֵּן. הקלטה וצפייה ברצועות שמורות פועלות ללא אינטרנט. הכרטיסייה מפה זקוקה לרשת כדי לטעון אריחי OpenStreetMap."
         },
         {
-          "question": "When does the app use my location?",
-          "answer": "Only while you have an active recording (and optionally in the background if you have Premium and background recording enabled)."
+          "question": "מתי האפליקציה משתמשת במיקום שלי?",
+          "answer": "רק בזמן שיש לך הקלטה פעילה (ואופציונלי ברקע אם הפעלת Premium והקלטת רקע)."
         },
         {
-          "question": "Why did recording pause when I switched apps?",
-          "answer": "On the free plan, new GPS points are logged only while Track Ledger is in the foreground. Premium with background recording enabled continues logging when you leave the app."
+          "question": "מדוע ההקלטה הושהתה כאשר החלפתי אפליקציות?",
+          "answer": "בתוכנית החינמית, GPS נקודות חדשות נרשמות רק כאשר Track Ledger נמצא בחזית. Premium עם הקלטת רקע מופעלת ממשיך ברישום כשאתה עוזב את האפליקציה."
         },
         {
-          "question": "What does \"raw GNSS, no smoothing\" mean?",
-          "answer": "Points are saved as the device reports them. We don't apply a smoothing filter — you get the honest trace for your own analysis."
+          "question": "מה המשמעות של \"גולמי GNSS, ללא החלקה\"?",
+          "answer": "הנקודות נשמרות כשהמכשיר מדווח עליהן. אנחנו לא מיישמים מסנן החלקה - אתה מקבל את המעקב הכנה לניתוח שלך."
         },
         {
-          "question": "How many tracks can I save?",
-          "answer": "Free: up to 10 completed tracks. Premium: unlimited (or a higher cap you choose in Settings)."
+          "question": "כמה רצועות אני יכול לשמור?",
+          "answer": "חינם: עד 10 רצועות שהושלמו. Premium: בלתי מוגבל (או מכסה גבוהה יותר שתבחר בהגדרות)."
         },
         {
-          "question": "What happens when the ledger is full?",
-          "answer": "In Settings → Ledger you choose: automatically remove oldest tracks, or refuse new recordings until you delete tracks manually."
+          "question": "מה קורה כאשר ספר החשבונות מלא?",
+          "answer": "בהגדרות ← Ledger אתה בוחר: להסיר אוטומטית את הרצועות הישנות ביותר, או לסרב להקלטות חדשות עד שתמחק רצועות באופן ידני."
         },
         {
-          "question": "Which formats are free?",
-          "answer": "CSV export and share are always available."
+          "question": "אילו פורמטים הם חינמיים?",
+          "answer": "CSV ייצוא ושיתוף זמינים תמיד."
         },
         {
-          "question": "Which formats need Premium?",
-          "answer": "GPX and GeoJSON."
+          "question": "אילו פורמטים צריכים Premium?",
+          "answer": "GPX וGeoJSON."
         },
         {
-          "question": "Can I share a track to another app?",
-          "answer": "Yes — use Share from track summary or Ledger. The system share sheet opens (Mail, Files, AirDrop, etc.)."
+          "question": "האם אוכל לשתף רצועה עם אפליקציה אחרת?",
+          "answer": "כן - השתמש בשיתוף מסיכום רצועה או ב-Ledger. גיליון השיתוף של המערכת נפתח (דואר, קבצים, AirDrop וכו')."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "טיפים וטריקים",
+      "subtitle": "קבל יותר מהאפליקציה.",
       "items": [
         {
-          "title": "GPS quality",
-          "description": "Wait for a good fix before tapping Start — check GPS accuracy on the recording screen. - Open sky beats urban canyons and dense tree cover. - Raw points are logged without smoothing — if accuracy is poor, you'll see it in the data (by design)."
+          "title": "איכות GPS",
+          "description": "המתן לתיקון טוב לפני הקשה על התחל - בדוק את דיוק GPS במסך ההקלטה. - שמיים פתוחים מנצחים קניונים עירוניים וכיסוי עצים צפוף. - נקודות גולמיות נרשמות ללא החלקה - אם הדיוק גרוע, תראה זאת בנתונים (לפי התכנון)."
         },
         {
-          "title": "Sampling strategy",
-          "description": "| Scenario | Suggested setting | |----------|-------------------| | Walking / hiking | Time: every 5–10 s | | Driving / vehicle survey | Distance: every 25–50 m | | Long battery life | Wider intervals (time or distance) | | Detailed path capture | Tighter intervals (more points, larger files) |"
+          "title": "אסטרטגיית דגימה",
+          "description": "| תרחיש | הגדרה מוצעת | |--------|------------------------| | הליכה / טיולים | זמן: כל 5–10 שניות | | סקר נהיגה / רכב | מרחק: כל 25–50 מ' | | חיים ארוכים ב-0⟧ | מרווחים רחבים יותר (זמן או מרחק) | | לכידת נתיב מפורט | מרווחים הדוקים יותר (יותר נקודות, קבצים גדולים יותר) |"
         },
         {
           "title": "Battery",
-          "description": "Enable Keep screen on only when you need to watch the screen continuously. - Wider sampling intervals reduce CPU and GPS wakeups. - Background recording (Premium) uses more battery — expected for continuous logging."
+          "description": "הפעל את שמור את המסך פועל רק כאשר אתה צריך לצפות במסך ברציפות. - מרווחי דגימה רחבים יותר מפחיתים מעבד ו-GPS השכמה. - הקלטת רקע (Premium) משתמשת יותר בattery - צפוי לרישום רציף."
         },
         {
-          "title": "Field workflow",
-          "description": "1. Create a project per job site or client. 2. Record with a consistent sampling preset per project type. 3. Export CSV in the field for quick checks; use GPX/GeoJSON back at the office. 4. Use Map tab to compare multiple passes on the same corridor."
+          "title": "זרימת עבודה בשטח",
+          "description": "1. צור פרויקט לכל אתר עבודה או לקוח. 2. הקלט עם קביעת דגימה קבועה מראש לכל סוג פרויקט. 3. ייצא CSV בשדה לבדיקות מהירות; השתמש ב-GPX/GeoJSON במשרד. 4. השתמש בכרטיסייה מפה כדי להשוות מספר מעברים באותו מסדרון."
         },
         {
-          "title": "Data hygiene",
-          "description": "Rename tracks right after stop while context is fresh. - Delete test runs so you don't hit the free-tier ledger limit. - Premium users: set max completed tracks and when full policy before long field seasons."
+          "title": "היגיינת נתונים",
+          "description": "שנה את שמות הרצועות מיד לאחר עצירה כשההקשר חדש. - מחק ריצות בדיקה כדי שלא תגיע למגבלת ספר החשבונות החופשי. - Premium משתמשים: הגדר מקסימום מסלולים שהושלמו ומתי מדיניות מלאה לפני עונות שטח ארוכות."
         },
         {
-          "title": "Exports & GIS",
-          "description": "CSV — columns include coordinates, time, elevation (as logged). Open in Excel, Python, R. - GPX — import to QGIS, Gaia GPS, or custom pipelines. - GeoJSON — drop into web maps or `ogr2ogr` workflows."
+          "title": "יצוא ו-GIS",
+          "description": "CSV - העמודות כוללות קואורדינטות, זמן, גובה (כפי שנרשם). פתח ב-Excel, Python, R. - GPX - ייבא ל-QGIS, Gaia GPS או צינורות מותאמים אישית. - GeoJSON - היכנס למפות אינטרנט או לזרימות עבודה של 'ogr2ogr'."
         },
         {
-          "title": "Premium worth it if you…",
-          "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
+          "title": "Premium שווה את זה אם אתה...",
+          "description": "צריך רישום ברקע בזמן שימוש ביישומי מצלמה או הערות - ייצוא ל-GPX או GeoJSON באופן קבוע - רוצה עצירה אוטומטית במרחק או משך קבוע - הקלט יותר מ-10 רצועות שהושלמו רכישה חד פעמית - ללא מנוי."
         }
       ]
     },

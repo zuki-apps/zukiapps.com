@@ -3,10 +3,12 @@
     "back": "ホームに戻る",
     "hero": {
       "badge": "利用可能",
-      "title": "Power Interval Timer - Tabata & HIIT",
+      "title": "パワーインターバルタイマー - タバタ式 & HIIT",
       "subtitle": "インターバルトレーニングタイマー",
       "description": "Tabata、HIIT、短いトレーニング用の最小限で高速なオフラインインターバルトレーニングタイマー。機能：設定可能なトレーニング、複数の表示モード、音声アラート、画面キャストサポート。",
-      "structuredDataDescription": "Power Interval Timer — Tabata and HIIT interval timer for iOS and Android. Custom work/rest rounds, presets, display modes, audio cues. Android com.zuki.apps.powerintervaltimer by Zuki Apps."
+      "structuredDataDescription": "パワーインターバルタイマー — iOS と Android のタバタ式および HIIT インターバルタイマー。カスタムの作業/休憩ラウンド、プリセット、表示モード、オーディオキュー。 Android com.zuki.apps.powerintervaltimer 作: Zuki Apps。",
+      "seoTitle": "パワーインターバルタイマー — HIIT & タバタ | Zuki Apps",
+      "metaDescription": "カスタムワークアウトを備えた高速オフラインタバタ＆HIITタイマー。 iOS と Android は無料 — 次のセッションを開始します。"
     },
     "features": {
       "title": "主な機能",
@@ -18,7 +20,10 @@
           "休息時間（秒）",
           "ラウンド数",
           "レーススタートビープ付き準備時間",
-          "クールダウン期間"
+          "クールダウン期間",
+          "画面上の任意の場所をタップして開始/一時停止します",
+          "スワイプしてタイマーカードを編集/削除",
+          "ドラッグしてタイマーリストを並べ替える"
         ]
       },
       "display": {
@@ -31,7 +36,10 @@
           "ミニマルでクリーンなデザイン",
           "アナログ時計スタイル",
           "デュアルタイマー表示",
-          "クロノグラフ時計スタイル"
+          "クロノグラフ時計スタイル",
+          "セグメント化された円形 (Premium) - セグメントが表示される円形リング",
+          "ミニマリスト (Premium) - より大きなテキストで強化されたミニマリスト",
+          "ネストされた円形 (Premium) - 外側の円は秒、内側の円は間隔を表します"
         ]
       },
       "offline": {
@@ -72,27 +80,29 @@
           "カラーテーマ",
           "フォントサイズ",
           "サウンド選択",
-          "ダーク/ライト/システムテーマ"
+          "ダーク/ライト/システムテーマ",
+          "タイマー画面に表示されるタイマー画像",
+          "RTL サポート (ヘブライ語と英語)"
         ]
       },
       "premium": {
-        "title": "Freemium Model",
-        "description": "Free version with optional Premium upgrade ($2.99 one-time)",
+        "title": "フリーミアムモデル",
+        "description": "オプションの Premium アップグレード付きの無料バージョン (1 回あたり 2.99 ドル)",
         "items": [
-          "Free: Up to 2 saved timers, 3 basic display modes, banner ads",
-          "Premium: Unlimited timers, all 10 display modes, no ads",
-          "One-time purchase - no subscriptions",
-          "Restore purchases across devices"
+          "無料: 最大 2 つの保存タイマー、3 つの基本表示モード、バナー広告",
+          "Premium: 無制限のタイマー、10 種類の表示モードすべて、広告なし",
+          "1 回限りの購入 - サブスクリプションなし",
+          "デバイス間で購入を復元する"
         ]
       },
       "watch": {
-        "title": "Apple Watch Integration",
-        "description": "Basic companion support for Apple Watch",
+        "title": "Apple Watchの統合",
+        "description": "Apple Watchの基本的なコンパニオンサポート",
         "items": [
-          "Show current phase and countdown",
-          "Display round number",
-          "Companion app functionality",
-          "Disabled on TV devices"
+          "現在のフェーズとカウントダウンを表示",
+          "表示ラウンド数",
+          "コンパニオンアプリの機能",
+          "TV デバイスでは無効になっています"
         ]
       }
     },
@@ -111,7 +121,7 @@
       "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
       "appStoreAlt": "App Storeでダウンロード",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.powerintervaltimer",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Google Play で入手"
     },
     "links": {
       "title": "重要なリンク",
@@ -120,8 +130,8 @@
         "email": "zuki.apps@gmail.com"
       },
       "googlePlay": {
-        "title": "Download on Google Play",
-        "description": "Get Power Interval Timer from Google Play Store"
+        "title": "Google Play でダウンロード",
+        "description": "Google Play ストアから電源インターバル タイマーを入手"
       },
       "contact": {
         "title": "一般のお問い合わせ",
@@ -132,40 +142,40 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "サポートとヘルプ",
+      "subtitle": "私たちがお手伝いします！よくある質問への回答を見つけるか、直接お問い合わせください。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "お問い合わせ",
+        "description": "ご質問がありますか、サポートが必要ですか?メールをお送りください。できるだけ早くご連絡いたします。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "クイックリンク",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "プライバシーポリシー",
+          "description": "データをどのように保護するかをご覧ください"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "利用規約",
+          "description": "利用規約をお読みください"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "よくある質問",
         "q1": {
-          "question": "How do I create a custom workout?",
-          "answer": "To create a custom workout, tap the '+' button or 'New Workout' option. You can set the work duration, rest duration, number of rounds, prepare time, and cooldown period. Once created, your workout will be saved and can be used anytime."
+          "question": "カスタム ワークアウトを作成するにはどうすればよいですか?",
+          "answer": "カスタムワークアウトを作成するには、「+」ボタンまたは「新しいワークアウト」オプションをタップします。作業時間、休憩時間、ラウンド数、準備時間、クールダウン期間を設定できます。ワークアウトを作成すると保存され、いつでも使用できます。"
         },
         "q2": {
-          "question": "Can I use Power Interval Timer offline?",
-          "answer": "Yes! Power Interval Timer works completely offline. No internet connection is required. All your workouts and settings are stored locally on your device. The app does not collect any data or require an account."
+          "question": "パワーインターバルタイマーをオフラインでも使用できますか?",
+          "answer": "はい！パワーインターバルタイマーは完全にオフラインで動作します。インターネット接続は必要ありません。すべてのワークアウトと設定はデバイスにローカルに保存されます。アプリはデータを収集せず、アカウントも必要ありません。"
         },
         "q3": {
-          "question": "How do I cast the timer to my TV?",
-          "answer": "To cast to your TV, start a workout and look for the casting icon. On iOS, use AirPlay to cast to Apple TV or AirPlay-compatible devices. On Android, use MediaProjection to cast to Chromecast or other compatible devices. The timer will automatically optimize its layout for TV viewing."
+          "question": "タイマーをテレビにキャストするにはどうすればよいですか?",
+          "answer": "テレビにキャストするには、ワークアウトを開始し、キャスト アイコンを探します。 iOS では、AirPlay を使用して Apple TV または AirPlay 互換デバイスにキャストします。 Android では、MediaProjection を使用して Chromecast またはその他の互換性のあるデバイスにキャストします。タイマーは、テレビ視聴用にレイアウトを自動的に最適化します。"
         },
         "q4": {
-          "question": "What display modes are available?",
+          "question": "どのような表示モードが利用可能ですか?",
           "answer": "Power Interval Timer offers 7 different display modes: circular progress timer, digital countdown, linear progress bar, minimal clean design, analog clock style, dual timer display, and chronograph watch style. You can switch between modes in the settings or during a workout."
         },
         "q5": {
@@ -173,25 +183,25 @@
           "answer": "Go to Settings → Customization. You can customize timer images, color themes, font sizes, sound selection, and choose between Dark, Light, or System theme. Changes will be applied immediately to your timer display."
         },
         "q7": {
-          "question": "What is the Premium upgrade?",
-          "answer": "Premium is a one-time $2.99 purchase that unlocks unlimited saved timers, all 10 display modes, and removes banner ads. The purchase is permanent and can be restored across devices using the same account."
+          "question": "Premium アップグレードとは何ですか?",
+          "answer": "Premium は $2.99 の 1 回限りの購入で、無制限の保存タイマー、10 個すべての表示モードのロックを解除し、バナー広告を削除します。購入は永続的であり、同じアカウントを使用してデバイス間で復元できます。"
         },
         "q8": {
-          "question": "How do I tap to start/pause the timer?",
-          "answer": "Simply tap anywhere on the timer screen to start or pause your workout. This intuitive gesture control makes it easy to control your timer without looking for buttons, especially useful during intense workouts."
+          "question": "タップしてタイマーを開始/一時停止するにはどうすればよいですか?",
+          "answer": "タイマー画面の任意の場所をタップするだけで、ワークアウトを開始または一時停止できます。この直感的なジェスチャー コントロールにより、ボタンを探すことなく簡単にタイマーを制御できるため、激しいトレーニング中に特に役立ちます。"
         },
         "q9": {
-          "question": "Does Power Interval Timer support Apple Watch?",
-          "answer": "Yes! Power Interval Timer includes basic Apple Watch companion support. The watch app shows the current phase, countdown, and round number. Note that watch connectivity is disabled on TV devices."
+          "question": "パワーインターバルタイマーは Apple Watch をサポートしていますか?",
+          "answer": "はい！パワーインターバルタイマーには、基本的な Apple Watch コンパニオンのサポートが含まれています。時計アプリには、現在のフェーズ、カウントダウン、ラウンド数が表示されます。 TV デバイスでは時計の接続が無効になっていることに注意してください。"
         },
         "q6": {
-          "question": "Does Power Interval Timer work on Apple TV and Android TV?",
-          "answer": "Yes! Power Interval Timer has native support for Apple TV (tvOS) and Android TV. You can install the app directly on your TV and use it with a remote control. The interface is optimized for large displays and includes platform-specific features."
+          "question": "電源インターバルタイマーは Apple TV と Android TV で機能しますか?",
+          "answer": "はい！パワーインターバルタイマーは、Apple TV (tvOS) および Android TV をネイティブサポートしています。アプリをテレビに直接インストールし、リモコンで使用できます。インターフェイスは大型ディスプレイ用に最適化されており、プラットフォーム固有の機能が含まれています。"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "さらにサポートが必要ですか?",
+        "description": "探している答えが見つからない場合、または技術的な問題が発生した場合は、お気軽にお問い合わせください。通常 24 ～ 48 時間以内に対応させていただきます。"
       },
       "metaTitle": "サポートとヘルプ — 電源インターバルタイマー | Zuki Apps",
       "metaDescription": "パワー インターバル タイマー FAQ とサポート — HIIT とインターバル ワークアウト。連絡先、プライバシー、トラブルシューティング。"
@@ -201,249 +211,249 @@
       "tagline": "Zuki Appsの一部 • イスラエルの開発者 • ❤️で作成"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Power Interval Timer. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "利用規約",
+      "lastUpdated": "最終更新日: 2025 年 1 月",
+      "intro": "パワーインターバルタイマーを使用する前に、これらの利用規約をよくお読みください。当社のサービスにアクセスまたは使用すると、これらの規約に拘束されることに同意したものとみなされます。これらの条件に同意できない場合は、当社のサービスを使用しないでください。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Power Interval Timer (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval workout timer application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 規約への同意",
+        "content": "これらの利用規約 (「規約」) は、Zuki Apps (「会社」) が運営するインターバル ワークアウト タイマー アプリケーションであるパワー インターバル タイマー (「サービス」、「アプリ」、「当社」) へのお客様のアクセスおよび使用を規定します。サービスをダウンロード、インストール、アクセス、または使用することにより、お客様は本規約および当社のプライバシー ポリシーに拘束されることに同意したものとみなされます。",
+        "content2": "あなたが組織を代表して本サービスを使用している場合、あなたはその組織を本規約に拘束する権限を持っていることを表明し、保証するものとします。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Power Interval Timer is a mobile application that provides interval workout timing functionality. The Service includes:",
+        "title": "2. サービスの説明",
+        "content": "パワー インターバル タイマーは、インターバル トレーニングのタイミング機能を提供するモバイル アプリケーションです。サービスには以下が含まれます:",
         "items": [
-          "Configurable workout timers (work, rest, rounds, prepare, cooldown)",
-          "Multiple display modes for timer visualization",
-          "Sound alerts and vibration feedback",
-          "Screen casting and TV support",
-          "Local storage of saved timers",
-          "Offline functionality"
+          "設定可能なワークアウトタイマー (作業、休憩、ラウンド、準備、クールダウン)",
+          "タイマーを視覚化するための複数の表示モード",
+          "音声アラートと振動フィードバック",
+          "スクリーンキャストとテレビのサポート",
+          "保存されたタイマーのローカルストレージ",
+          "オフライン機能"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 連絡先情報",
+        "content": "これらの規約についてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Power Interval Timer is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+        "title": "1. 当社が収集する情報",
+        "content": "パワーインターバルタイマーはプライバシーを考慮して設計されています。サービスを提供するために必要な最小限の情報を収集します。アプリは完全にオフラインで動作し、すべてのデータをデバイス上にローカルに保存します。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. All timer configurations and saved workouts are stored locally on your device and are not transmitted to our servers."
+        "title": "2. お客様の情報の使用方法",
+        "content": "当社は収集した情報を使用して、サービスを提供、維持、改善します。すべてのタイマー設定と保存されたワークアウトはデバイス上にローカルに保存され、当社のサーバーには送信されません。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your timer data remains on your device and is only accessible to you."
+        "title": "3. 情報共有",
+        "content": "当社は、お客様の個人情報を第三者に販売、取引、またはその他の方法で譲渡することはありません。タイマー データはデバイス上に残り、あなただけがアクセスできます。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+        "title": "4. データセキュリティ",
+        "content": "当社はお客様の情報を保護するために適切なセキュリティ対策を実施しています。すべてのデータは、デバイス上のアプリのプライベート ディレクトリにローカルに保存され、他のアプリからはアクセスできません。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your timer data at any time. You can delete all saved timers through the app. You may also uninstall the app at any time, which will remove all locally stored data."
+        "title": "5. お客様の権利",
+        "content": "あなたには、いつでもタイマー データにアクセス、更新、または削除する権利があります。保存されているタイマーはすべてアプリから削除できます。アプリはいつでもアンインストールできます。アンインストールすると、ローカルに保存されているデータがすべて削除されます。"
       },
       "section6": {
-        "title": "6. Photo Library Access",
-        "content": "Power Interval Timer may request access to your device's photo library to allow you to select custom timer images. We only access your photos when you explicitly choose to add a timer image. Photos are stored locally and are not shared with third parties."
+        "title": "6. フォトライブラリへのアクセス",
+        "content": "パワー インターバル タイマーは、カスタム タイマー画像を選択できるようにするために、デバイスの写真ライブラリへのアクセスを要求する場合があります。タイマー画像の追加を明示的に選択した場合にのみ、私たちがあなたの写真にアクセスします。写真はローカルに保存され、第三者と共有されることはありません。"
       },
       "section7": {
-        "title": "7. Crash Reporting and Error Analytics",
-        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
-        "dataCollected": "Data Collected:",
+        "title": "7. クラッシュレポートとエラー分析",
+        "content": "当社は、Google が提供するサービスである Firebase Crashlytics を使用して、アプリのクラッシュやエラーに関する情報を収集します。これは、問題を特定して修正し、エクスペリエンスを向上させるのに役立ちます。",
+        "dataCollected": "収集されるデータ:",
         "dataCollectedItems": [
-          "Technical information about crashes and errors (stack traces, error messages)",
-          "Device information (operating system, device model, app version)",
-          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
-          "Custom diagnostic information related to errors (error codes, operation types)"
+          "クラッシュとエラーに関する技術情報 (スタック トレース、エラー メッセージ)",
+          "デバイス情報 (オペレーティング システム、デバイスのモデル、アプリのバージョン)",
+          "インストール ID (個人情報に関連付けられていない、アプリのインストールの一意の識別子)",
+          "エラーに関連するカスタム診断情報 (エラー コード、操作の種類)"
         ],
-        "purpose": "Purpose:",
+        "purpose": "目的：",
         "purposeItems": [
-          "Identify and fix bugs and crashes",
-          "Improve app stability and performance",
-          "Analyze error patterns"
+          "バグやクラッシュを特定して修正する",
+          "アプリの安定性とパフォーマンスを向上させる",
+          "エラー エラーを分析する"
         ],
-        "dataSharing": "Data Sharing:",
-        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
-        "dataRetention": "Data Retention:",
-        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
-        "yourRights": "Your Rights:",
-        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+        "dataSharing": "データ共有:",
+        "dataSharingContent": "このデータは Google Firebase によって処理され、Google のプライバシー ポリシーが適用されます。",
+        "dataRetention": "データ保持:",
+        "dataRetentionContent": "クラッシュ レポートは、Firebase によって最大 90 日間保存され、その後自動的に削除されます。",
+        "yourRights": "あなたの権利:",
+        "yourRightsContent": "デバイスの設定でクラッシュレポートを無効にすることでクラッシュレポートをオプトアウトできますが、これにより、お客様に影響を与える問題を修正できなくなる可能性があります。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. お問い合わせ",
+        "content": "このプライバシー ポリシーについてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       },
       "metaDescription": "パワー インターバル タイマーのプライバシー ポリシー — iOS と Android におけるお客様のデータの取り扱い方法。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特徴",
+      "screenshots": "スクリーンショット",
+      "howTo": "使用方法",
+      "tips": "ヒント",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "ダウンロード"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Power Interval Timer - Tabata & HIIT.",
-      "featuresTitle": "App screens",
+      "title": "スクリーンショット",
+      "subtitle": "パワーインターバルタイマー - タバタ式 & HIIT の実際のアプリ画面。",
+      "featuresTitle": "アプリ画面",
       "items": [
         {
-          "id": "home",
-          "title": "Home",
-          "description": "Pick a workout preset or build your own intervals.",
+          "id": "家",
+          "title": "家",
+          "description": "ワークアウトのプリセットを選択するか、独自の間隔を構築します。",
           "image": "/images/power-interval-timer/screenshot-home.png",
-          "alt": "Home — power interval timer",
-          "category": "features"
+          "alt": "ホーム — 電源インターバルタイマー",
+          "category": "特徴"
         },
         {
-          "id": "timer",
-          "title": "Work interval",
-          "description": "Large countdown with clear work/rest phases.",
+          "id": "タイマー",
+          "title": "作業間隔",
+          "description": "作業/休憩フェーズを明確にした大規模なカウントダウン。",
           "image": "/images/power-interval-timer/screenshot-timer.png",
-          "alt": "Work interval — power interval timer",
-          "category": "features"
+          "alt": "作業間隔 — 電源間隔タイマー",
+          "category": "特徴"
         },
         {
-          "id": "setup",
-          "title": "Setup",
-          "description": "Configure rounds, durations, and rest periods.",
+          "id": "設定",
+          "title": "設定",
+          "description": "ラウンド、期間、休憩時間を設定します。",
           "image": "/images/power-interval-timer/screenshot-setup.png",
-          "alt": "Setup — power interval timer",
-          "category": "features"
+          "alt": "セットアップ — 電源インターバルタイマー",
+          "category": "特徴"
         },
         {
-          "id": "display",
-          "title": "Display modes",
-          "description": "Choose the view that works in the gym or at home.",
+          "id": "画面",
+          "title": "表示モード",
+          "description": "ジムや自宅で使用できるビューを選択してください。",
           "image": "/images/power-interval-timer/screenshot-display.png",
-          "alt": "Display modes — power interval timer",
-          "category": "features"
+          "alt": "表示モード — 電源インターバルタイマー",
+          "category": "特徴"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "使用方法",
       "steps": [
         {
           "number": "1",
-          "title": "Choose a preset",
-          "description": "Start with Tabata, HIIT, or custom intervals."
+          "title": "プリセットを選択する",
+          "description": "タバタ式、HIIT、またはカスタム インターバルから始めます。"
         },
         {
           "number": "2",
-          "title": "Set work & rest",
-          "description": "Adjust seconds per phase and number of rounds."
+          "title": "仕事と休憩を設定する",
+          "description": "フェーズごとの秒数とラウンド数を調整します。"
         },
         {
           "number": "3",
-          "title": "Start the timer",
-          "description": "Follow audio and visual cues through each interval."
+          "title": "タイマーを開始する",
+          "description": "各インターバルを通じて音声と視覚の合図に従います。"
         },
         {
           "number": "4",
-          "title": "Track sessions",
-          "description": "Repeat workouts and refine your timing."
+          "title": "セッションを追跡する",
+          "description": "トレーニングを繰り返して、タイミングを調整してください。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "ヒントとコツ",
+      "subtitle": "アプリをさらに活用しましょう。",
       "items": [
         {
-          "title": "Programming tips",
-          "description": "1. Name timers like programs — “Strength 90/60”, “Engine 30/15”, not “Timer 3”. 2. Use prepare wisely — 10–15 s for demos; 0 s when athletes are already set. 3. Cooldown is discipline — 30–60 s walk-down beats stopping cold after HIIT. 4. Progression — duplicate a timer and add one round per week instead of rebuilding. 5. Pair work/rest to goal — 1:1 for conditioning; 1:2 or 1:3 for strength super"
+          "title": "プログラミングのヒント",
+          "description": "1. タイマーにプログラムのような名前を付けます。「タイマー 3」ではなく、「強度 90/60」、「エンジン 30/15」です。 2. 賢明に準備を行います。デモには 10 ～ 15 秒かかります。アスリートがすでに設定されている場合は 0 秒。 3. クールダウンは規律です — HIIT 後の 30 ～ 60 秒のウォークダウンは、冷えを止めるビートです。 4. 進行 — タイマーを複製し、再構築する代わりに 1 週​​間に 1 ラウンドを追加します。 5. 目標に合わせて仕事と休憩をペアにする — コンディショニングには 1:1。強度スーパーの場合は 1:2 または 1:3"
         },
         {
-          "title": "Tabata & HIIT",
-          "description": "Classic Tabata: 20 s on / 10 s off × 8 (4 min). Quality drops after round 6 — that’s normal; note it in your log. - HIIT blocks: 40/20 or 30/15 for 10–20 min total work time. - EMOM-style: set work = 60 s, rest = 0, rounds = minutes in block; start each minute on the beep."
+          "title": "タバタ＆HIIT",
+          "description": "クラシック タバタ: 20 秒オン / 10 秒オフ × 8 (4 分)。ラウンド 6 以降は品質が低下しますが、これは正常です。ログに記録してください。 - HIIT ブロック: 40/20 または 30/15、合計作業時間は 10 ～ 20 分。 - EMOM スタイル: 作業 = 60 秒、休憩 = 0、ラウンド = 分をブロックに設定します。毎分ビープ音で開始します。"
         },
         {
-          "title": "In the gym",
-          "description": "Landscape on a bench rack — timer + controls side by side. - Cast to TV for bootcamps so late arrivals see the phase. - Digital mode for bright floors; Circular for quick glance at distance."
+          "title": "ジムで",
+          "description": "ベンチラック上の横向き — タイマーとコントロールを並べて配置します。 - ブートキャンプのためにテレビにキャストして、遅れて到着した人にも段階を確認してもらいます。 - 明るい床用のデジタルモード。円形なので遠くまで一目瞭然。"
         },
         {
-          "title": "Sound & vibration",
-          "description": "Test alert volume before the first work interval of a class. - “None” sound + vibration only for studios with noise rules. - Prepare beeps train athletes to set on the last countdown, not the first second of work."
+          "title": "音と振動",
+          "description": "クラスの最初の作業間隔の前にアラートの量をテストします。 - 騒音ルールのあるスタッドios のみ「なし」の音 + 振動。 - ビープ音を準備して、アスリートが作業の最初の 1 秒ではなく、最後のカウントダウンに設定するように訓練します。"
         },
         {
-          "title": "Premium worth it when…",
-          "description": "You run more than two distinct protocols per week. - You want Chronograph / Dual modes for readability on iPad at arm’s length. - Ads distract clients during demos (one-time remove ads)."
+          "title": "Premium 価値があるのは…",
+          "description": "週に 2 つ以上の異なるプロトコルを実行します。 - iPad で腕を伸ばした状態でも読みやすいクロノグラフ / デュアル モードが必要です。 - デモ中に広告がクライアントの注意をそらします (広告を 1 回削除します)。"
         },
         {
-          "title": "Recovery & safety",
-          "description": "If form breaks, pause — don’t chase the clock. - Hydrate during rest, not work. - Cooldown isn’t optional for high-intensity blocks with beginners."
+          "title": "回復と安全性",
+          "description": "フォームが崩れたら、時間を追うのではなく、一時停止してください。 - 水分補給は仕事中ではなく休憩中に行ってください。 - 初心者向けの高強度ブロックではクールダウンはオプションではありません。"
         },
         {
-          "title": "Weekly habit",
-          "description": "Sunday: reorder Home to match Mon–Fri plan. - Friday: archive or delete timers you didn’t use — keeps Home honest."
+          "title": "毎週の習慣",
+          "description": "日曜日: 月曜から金曜のプランに合わせてホームを再注文します。 - 金曜日: 使用しなかったタイマーをアーカイブまたは削除 — 家を正直に保ちます。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "よくある質問",
+      "subtitle": "機能、プライバシー、請求に関する簡単な回答。",
+      "viewAllSupport": "フルサポートを見る & FAQ",
       "items": [
         {
-          "question": "What is Power Interval Timer?",
-          "answer": "A minimal interval timer for Tabata, HIIT, and custom work/rest rounds. It runs offline and focuses on clarity mid-workout."
+          "question": "パワーインターバルタイマーとは何ですか?",
+          "answer": "タバタ式、HIIT、カスタムワーク/レストラウンド用の最小限のインターバルタイマー。オフラインで実行され、ワー​​クアウト中の明瞭さに重点が置かれます。"
         },
         {
-          "question": "Do I need an account?",
-          "answer": "No. Timers are stored on your device."
+          "question": "アカウントは必要ですか?",
+          "answer": "いいえ、タイマーはデバイスに保存されます。"
         },
         {
-          "question": "Does it work without internet?",
-          "answer": "Yes. Core timing, sounds, and saved timers work offline. Ads and purchase verification may need connectivity when those features are used."
+          "question": "インターネットなしでも動作しますか?",
+          "answer": "はい。コアのタイミング、サウンド、保存されたタイマーはオフラインでも機能します。広告と購入確認は、これらの機能を使用するときに接続が必要になる場合があります。"
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "iPhone, iPad, Android phones/tablets, Apple TV, and Android TV."
+          "question": "どのデバイスがサポートされていますか?",
+          "answer": "iPhone、iPad、Android 携帯電話/タブレット、Apple TV、および Android テレビ。"
         },
         {
-          "question": "Can I do classic Tabata?",
-          "answer": "Yes — 20 s work, 10 s rest, 8 rounds (adjust prepare/cooldown as you like)."
+          "question": "古典的なタバタもできますか？",
+          "answer": "はい — 20 秒の作業、10 秒の休憩、8 ラウンド (必要に応じて準備/クールダウンを調整します)。"
         },
         {
-          "question": "Can I skip rest or end early?",
-          "answer": "Use **Skip** for the current phase or **Stop** to end the session."
+          "question": "休憩をスキップしたり、早く終了したりすることはできますか?",
+          "answer": "現在のフェーズには **スキップ** を使用し、セッションを終了するには **停止** を使用します。"
         },
         {
-          "question": "How do I pause with gloves on?",
-          "answer": "Tap anywhere on the timer face to start/pause."
+          "question": "手袋をしたまま一時停止するにはどうすればよいですか?",
+          "answer": "タイマーの表面のどこかをタップして開始/一時停止します。"
         },
         {
-          "question": "How many clock styles are there?",
-          "answer": "Ten display modes. Three are free (Circular, Digital, Linear); seven are Premium."
+          "question": "時計のスタイルは何種類ありますか?",
+          "answer": "10 種類の表示モード。 3 つは無料 (サーキュラー、デジタル、リニア)。 7 つは Premium です。"
         },
         {
-          "question": "Can I use my own photo on a timer?",
-          "answer": "Yes — pick from your gallery when creating/editing a timer (system photo picker on modern Android)."
+          "question": "自分の写真をタイマーに使用できますか?",
+          "answer": "はい — タイマーを作成/編集するときにギャラリーから選択します (最新の Android のシステム写真ピッカー)。"
         },
         {
-          "question": "Dark mode?",
-          "answer": "Settings → Theme: Light, Dark, or System."
+          "question": "ダークモード？",
+          "answer": "設定 → テーマ: ライト、ダーク、またはシステム。"
         },
         {
-          "question": "What’s included in Premium?",
-          "answer": "Unlimited saved timers, all display modes, no ads. One-time purchase (not a subscription)."
+          "question": "Premiumには何が含まれますか?",
+          "answer": "無制限に保存されたタイマー、すべての表示モード、広告なし。 1 回限りの購入 (サブスクリプションではありません)。"
         },
         {
-          "question": "How much is Premium?",
-          "answer": "Price is shown in the app from your local App Store or Google Play (varies by country)."
+          "question": "Premiumはいくらですか?",
+          "answer": "価格は現地の App Store または Google Play (国によって異なります) からアプリに表示されます。"
         }
       ]
     }

@@ -1,282 +1,284 @@
 {
   "paratrooperBlitz": {
-    "back": "Back to Home",
+    "back": "Вернуться домой",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Paratrooper Blitz",
-      "subtitle": "Classic arcade action",
-      "description": "Arcade-style mobile game: destroy aircraft and paratroopers before they land. Two control modes (Arcade and Classic DOS), scoring, career ranks, optional ads and in-app purchases, and Google Play Games / Game Center integrations on supported builds.",
-      "structuredDataDescription": "Paratrooper Blitz — retro anti-air arcade for iOS and Android. Arcade slide-and-shoot and Classic aim-and-fire modes, leaderboards, 14 achievements, 12 languages. Android com.zuki.apps.paratrooperblitz by Zuki Apps."
+      "title": "Десантник-блиц",
+      "subtitle": "Классический аркадный экшен",
+      "description": "Мобильная игра в аркадном стиле: уничтожайте самолеты и десантники до того, как они приземлятся. Два режима управления (Аркадный и Классический DOS), подсчет очков, карьерные звания, дополнительная реклама и покупки в приложении, а также Google Play Игры / Game Center интеграции в поддерживаемых сборках.",
+      "structuredDataDescription": "Paratrooper Blitz — ретро-зенитная аркада для iOS и Android. Аркадный режим «стреляй и стреляй» и классический режим «прицеливайся и стреляй», таблицы лидеров, 14 достижений, 12 языков. Android com.zuki.apps.paratrooperblitz от Zuki Apps.",
+      "seoTitle": "Paratrooper Blitz — Аркадный экшен | Zuki Apps",
+      "metaDescription": "Классическая аркада о десантниках со счетом и таблицами лидеров. Бесплатно на iOS и Android — играйте прямо сейчас."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Ключевые особенности",
       "modes": {
-        "title": "Two ways to play",
-        "description": "Pick the control scheme that fits you — fast arcade movement or classic rotation aiming.",
+        "title": "Два способа игры",
+        "description": "Выбирайте подходящую вам схему управления — быстрое аркадное движение или классическое прицеливание с вращением.",
         "items": [
-          "Arcade mode: move the turret left and right",
-          "Classic DOS mode: rotate and aim",
-          "Keyboard hints on supported platforms"
+          "Аркадный режим: перемещайте турель влево и вправо.",
+          "Классический режим DOS: вращайте и цельтесь",
+          "Подсказки клавиатуры на поддерживаемых платформах"
         ]
       },
       "action": {
-        "title": "Scores & career rank",
-        "description": "Chase high scores and progress through themed military-style ranks as you play.",
+        "title": "Очки и карьерный рейтинг",
+        "description": "Набирайте рекорды и продвигайтесь по тематическим рангам в военном стиле во время игры.",
         "items": [
-          "Session scoring with aircraft and paratrooper hits",
-          "Career rank progression",
-          "Game over flow with play-again"
+          "Подсчет очков с учетом попаданий самолетов и десантников",
+          "Карьерный рост",
+          "Игра окончена с повторной игрой"
         ]
       },
       "social": {
-        "title": "Leaderboards & achievements",
-        "description": "Where signed in, use platform services for rankings and achievements as configured in the app.",
+        "title": "Таблицы лидеров и достижения",
+        "description": "После входа в систему используйте сервисы платформы для получения рейтингов и достижений, настроенные в приложении.",
         "items": [
-          "Global and friends-style lists where available",
-          "Native leaderboard and achievement UIs",
-          "Firebase Analytics/Crashlytics may apply for stability"
+          "Глобальные списки и списки друзей, если они доступны.",
+          "Собственный интерфейс лидеров и достижений",
+          "Firebase Analytics/Crashlytics могут требовать стабильности"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "Доступность",
       "description": "iOS and Android. Android application ID: com.zuki.apps.paratrooperblitz. Store links appear when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "Версия",
+      "status": "Платформа",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "Скачать",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/paratrooper-blitz/id6763775995",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "Скачать на App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.paratrooperblitz",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Получите это на Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Важные ссылки",
       "support": {
-        "title": "Technical Support",
+        "title": "Техническая поддержка",
         "email": "support@zukiapps.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Paratrooper Blitz. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the game.",
+      "title": "Условия эксплуатации",
+      "lastUpdated": "Последнее обновление: апрель 2026 г.",
+      "intro": "Пожалуйста, внимательно прочтите настоящие Условия использования перед использованием Paratrooper Blitz. Получая доступ к нашему сервису или используя его, вы соглашаетесь соблюдать эти условия. Если вы не согласны, пожалуйста, не используйте игру.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Paratrooper Blitz (\"Service\", \"Game\"), operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian authorized to agree on their behalf where required."
+        "title": "1. Принятие Условий",
+        "content": "Настоящие Условия регулируют ваш доступ и использование Paratrooper Blitz («Сервис», «Игра»), которым управляет Zuki Apps. Загружая, устанавливая, получая доступ к Сервису или используя его, вы соглашаетесь с настоящими Условиями и нашей Политикой конфиденциальности.",
+        "content2": "Если вы используете Сервис от имени несовершеннолетнего, вы подтверждаете, что являетесь родителем или опекуном, уполномоченным заключать соглашения от его имени, когда это необходимо."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Paratrooper Blitz is an arcade-style action game. The Service includes:",
+        "title": "2. Описание услуги",
+        "content": "Paratrooper Blitz — это экшн-игра в аркадном стиле. Услуга включает в себя:",
         "items": [
-          "Gameplay sessions, scoring, and progression features",
-          "Optional integration with platform game services (e.g. leaderboards, achievements) where available",
-          "Advertising and in-app purchases as described in-app",
-          "Audio and visual effects; online features depend on third-party services and connectivity"
+          "Игровые сессии, подсчет очков и функции развития",
+          "Дополнительная интеграция с сервисами платформенных игр (например, таблицами лидеров, достижениями), если это возможно.",
+          "Реклама и покупки в приложении, как описано в приложении.",
+          "Аудио и визуальные эффекты; онлайн-функции зависят от сторонних сервисов и возможностей подключения."
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. Контактная информация",
+        "content": "Вопросы по поводу настоящих Условий:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "политика конфиденциальности",
+      "lastUpdated": "Последнее обновление: апрель 2026 г.",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The game may use Firebase Analytics and Crashlytics for diagnostics, platform sign-in for game services, and advertising identifiers subject to your device settings. Gameplay data may be processed by platform providers (Apple, Google) when you use their services."
+        "title": "1. Информация, которую мы собираем",
+        "content": "Игра может использовать Firebase Analytics и Crashlytics для диагностики, входа на платформу для игровых сервисов и рекламные идентификаторы в зависимости от настроек вашего устройства. Данные игрового процесса могут обрабатываться поставщиками платформ (Apple, Google), когда вы пользуетесь их услугами."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use collected information to operate the game, show ads or offers where applicable, improve stability, and comply with law. Leaderboards and achievements rely on platform APIs when you opt in or sign in."
+        "title": "2. Как мы используем вашу информацию",
+        "content": "Мы используем собранную информацию для управления игрой, показа рекламы или предложений, где это применимо, повышения стабильности и соблюдения закона. Таблицы лидеров и достижения зависят от API-интерфейсов платформы, когда вы соглашаетесь или входите в систему."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Third parties (ad networks, analytics, platform game services) may process data under their policies when those features are active."
+        "title": "3. Обмен информацией",
+        "content": "Мы не продаем вашу личную информацию. Третьи лица (рекламные сети, аналитика, сервисы платформенных игр) могут обрабатывать данные в соответствии со своими политиками, когда эти функции активны."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable safeguards appropriate to a mobile game. Use strong device security and keep the app updated."
+        "title": "4. Безопасность данных",
+        "content": "Мы реализуем разумные меры безопасности, соответствующие мобильной игре. Используйте надежную защиту устройства и обновляйте приложение."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, delete, or restrict certain processing. Platform account settings and OS privacy controls apply. Contact us for requests we can fulfill directly."
+        "title": "5. Ваши права",
+        "content": "В зависимости от вашего региона у вас могут быть права на доступ, удаление или ограничение определенной обработки. Применяются настройки учетной записи платформы и элементы управления конфиденциальностью ОС. Свяжитесь с нами для запросов, которые мы можем выполнить напрямую."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. Свяжитесь с нами",
+        "content": "Вопросы по поводу настоящей Политики конфиденциальности:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       },
       "metaDescription": "Политика конфиденциальности Paratrooper Blitz — аркадной игры. Как обрабатываются игровые данные, реклама, Firebase и сервисы платформенных игр."
     },
     "footer": {
-      "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 Paratrooper Blitz - Все права защищены.",
+      "tagline": "Часть Zuki Apps • Разработчик из Израиля • Сделано с ❤️"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "Функции",
+      "screenshots": "Скриншоты",
+      "howTo": "Как использовать",
+      "tips": "Советы",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Скачать"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Paratrooper Blitz.",
-      "featuresTitle": "App screens",
+      "title": "Скриншоты",
+      "subtitle": "Реальные экраны приложений из Paratrooper Blitz.",
+      "featuresTitle": "Экраны приложений",
       "items": [
         {
-          "id": "menu",
-          "title": "Main menu",
-          "description": "Pick Arcade or Classic and view your best scores.",
+          "id": "меню",
+          "title": "Главное меню",
+          "description": "Выберите «Аркаду» или «Классику» и просмотрите свои лучшие результаты.",
           "image": "/images/paratrooper-blitz/screenshot-menu.png",
-          "alt": "Main menu — paratrooper blitz",
-          "category": "features"
+          "alt": "Главное меню — блиц-десантник",
+          "category": "функции"
         },
         {
-          "id": "classic",
-          "title": "Classic mode",
-          "description": "Aim-and-fire paratrooper action with scoring on screen.",
+          "id": "классический",
+          "title": "Классический режим",
+          "description": "Стрельба десантника с подсчетом очков на экране.",
           "image": "/images/paratrooper-blitz/screenshot-classic.png",
-          "alt": "Classic mode — paratrooper blitz",
-          "category": "features"
+          "alt": "Классический режим — десантный блиц",
+          "category": "функции"
         },
         {
-          "id": "arcade",
-          "title": "Arcade mode",
-          "description": "Slide-and-shoot waves of aircraft and chutes.",
+          "id": "аркада",
+          "title": "Аркадный режим",
+          "description": "Скользите и стреляйте волнами самолетов и парашютов.",
           "image": "/images/paratrooper-blitz/screenshot-arcade.png",
-          "alt": "Arcade mode — paratrooper blitz",
-          "category": "features"
+          "alt": "Аркадный режим — десантный блиц",
+          "category": "функции"
         },
         {
-          "id": "chute",
-          "title": "Chute shots",
-          "description": "Time your shots before paratroopers land.",
+          "id": "желоб",
+          "title": "Выстрелы с парашютом",
+          "description": "Рассчитайте время для выстрела до того, как приземлятся десантники.",
           "image": "/images/paratrooper-blitz/screenshot-chute.png",
-          "alt": "Chute shots — paratrooper blitz",
-          "category": "features"
+          "alt": "Выстрелы из парашюта — блиц-десант",
+          "category": "функции"
         },
         {
-          "id": "wave",
-          "title": "Wave pressure",
-          "description": "Survive escalating waves for a high score.",
+          "id": "волна",
+          "title": "Волновое давление",
+          "description": "Переживите нарастающие волны и наберите высокий балл.",
           "image": "/images/paratrooper-blitz/screenshot-wave.png",
-          "alt": "Wave pressure — paratrooper blitz",
-          "category": "features"
+          "alt": "Волновое давление — десантный блиц",
+          "category": "функции"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Как использовать",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a mode",
-          "description": "Arcade for slide-and-shoot; Classic for aim-and-fire."
+          "title": "Выберите режим",
+          "description": "Аркада для катания и стрельбы; Классика для прицеливания и огня."
         },
         {
           "number": "2",
-          "title": "Destroy threats",
-          "description": "Shoot aircraft and paratroopers before they reach your turret."
+          "title": "Уничтожить угрозы",
+          "description": "Стреляйте в самолеты и десантников, прежде чем они доберутся до вашей башни."
         },
         {
           "number": "3",
-          "title": "Chain combos",
-          "description": "Keep accuracy high to maximize score multipliers."
+          "title": "Цепные комбинации",
+          "description": "Сохраняйте высокую точность, чтобы максимизировать множители очков."
         },
         {
           "number": "4",
-          "title": "Beat your best",
-          "description": "Submit scores to leaderboards and unlock achievements."
+          "title": "Побейте все возможное",
+          "description": "Отправляйте результаты в таблицы лидеров и открывайте достижения."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "Советы и рекомендации",
+      "subtitle": "Получите больше от приложения.",
       "items": [
         {
-          "title": "Beginner",
-          "description": "1. Learn Arcade first — fixed vertical shots are easier to aim. 2. Watch the ground — two soldiers on one side triggers a danger alert; four ends the run. 3. Pop chutes early — +150 points and they fall fast without a canopy."
+          "title": "Новичок",
+          "description": "1. Сначала изучите аркадный режим: из фиксированных вертикальных выстрелов легче прицелиться. 2. Следите за землей — два солдата с одной стороны вызывают тревогу; четверо заканчивает забег. 3. Рано лопнуть парашюты — +150 очков и без навеса они быстро падают."
         },
         {
-          "title": "Intermediate",
-          "description": "4. Center your turret in Arcade so you can reach both sides quickly. 5. Save fire for clusters — combo windows reward back-to-back kills. 6. Deal with bombers first — destroy the plane or the bomb before it lands."
+          "title": "Средний",
+          "description": "4. Отцентрируйте турель в Аркаде, чтобы можно было быстро добраться до обеих сторон. 5. Приберегите огонь для кластеров — комбо-окна вознаграждают за последовательные убийства. 6. Сначала разберитесь с бомбардировщиками — уничтожьте самолет или бомбу до того, как она приземлится."
         },
         {
-          "title": "Advanced",
-          "description": "7. Classic mode — sweep the sky in arcs; lead aircraft moving horizontally. 8. Wave spikes — after ~2 minutes, spawn rate increases; stay calm and prioritize landings. 9. Sign in once from home → Global Rankings so game-over scores upload."
+          "title": "Передовой",
+          "description": "7. Классический режим — проведите небо по дугам; ведущий самолет движется горизонтально. 8. Всплески волн — примерно через 2 минуты скорость появления увеличивается; сохраняйте спокойствие и расставляйте приоритеты приземлений. 9. Войдите в систему один раз из дома → Глобальный рейтинг, чтобы загрузить результаты игр."
         },
         {
-          "title": "Career & achievements",
-          "description": "Rank up on the home screen from lifetime stats. - Check the trophy catalog for 14 achievements (score milestones, career totals, session goals)."
+          "title": "Карьера и достижения",
+          "description": "Повышайте рейтинг на главном экране на основе статистики за все время. - Проверьте каталог трофеев на наличие 14 достижений (этапы очков, итоги карьеры, цели сессии)."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Часто задаваемые вопросы",
+      "subtitle": "Быстрые ответы о функциях, конфиденциальности и выставлении счетов.",
+      "viewAllSupport": "Посмотреть полную поддержку и FAQ",
       "items": [
         {
-          "question": "Is Paratrooper Blitz free?",
-          "answer": "Yes. The game is free to download and play. Optional one-time Remove Ads purchase removes banner and interstitial ads."
+          "question": "Paratrooper Blitz бесплатен?",
+          "answer": "Да. Игру можно скачать и играть бесплатно. Дополнительная однократная покупка «Удалить рекламу» удаляет баннеры и межстраничные объявления."
         },
         {
-          "question": "What age is the game for?",
-          "answer": "Rated Teen (13+). Mild military-style arcade action—no gore, no chat, no user-generated content."
+          "question": "Для какого возраста игра?",
+          "answer": "Рейтинг подростков (13+). Умеренная аркадная игра в военном стиле — без крови, чатов и пользовательского контента."
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Core gameplay works offline. Leaderboards, achievements, ads, and purchases need network and store services."
+          "question": "Работает ли он в автономном режиме?",
+          "answer": "Основной игровой процесс работает в автономном режиме. Таблицы лидеров, достижения, реклама и покупки нуждаются в услугах сети и магазина."
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Arabic, German, Spanish, French, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified). Change in Settings."
+          "question": "Какие языки поддерживаются?",
+          "answer": "Английский, арабский, немецкий, испанский, французский, иврит, итальянский, японский, корейский, португальский, русский и китайский (упрощенный). Изменение настроек."
         },
         {
-          "question": "What’s the difference between Arcade and Classic?",
-          "answer": "Arcade: slide left/right, shoot up. Classic: rotate turret 360° and aim manually."
+          "question": "В чем разница между аркадой и классикой?",
+          "answer": "Аркада: скользите влево/вправо, стреляйте вверх. Классика: вращайте турель на 360° и цельтесь вручную."
         },
         {
-          "question": "How do I lose?",
-          "answer": "Four parachutists land on the **same side** of your turret, or a bomb hits the ground."
+          "question": "Как мне проиграть?",
+          "answer": "Четыре парашютиста приземляются с **одной стороны** вашей башни, или на землю падает бомба."
         },
         {
-          "question": "Why did my score go down when I fired?",
-          "answer": "Each shot costs 1 point (classic Paratrooper rule)."
+          "question": "Почему мой счет снизился, когда я выстрелил?",
+          "answer": "Каждый выстрел стоит 1 очко (классическое правило десантника)."
         },
         {
-          "question": "Do paratroopers ever land off-screen?",
-          "answer": "No—drops stay within the play area."
+          "question": "Десантники когда-нибудь приземляются за кадром?",
+          "answer": "Нет — капли остаются в игровой зоне."
         },
         {
-          "question": "Why didn’t my score appear on the leaderboard?",
-          "answer": "You must sign in to Google Play Games (Android) or Game Center (iOS). Open **Global Rankings** from the home menu once to complete sign-in, then play a full round."
+          "question": "Почему мой результат не появился в таблице лидеров?",
+          "answer": "Вы должны войти в систему Google Play Games (Android) или Game Center (iOS). Откройте **Глобальный рейтинг** в главном меню один раз, чтобы завершить вход, а затем сыграйте полный раунд."
         },
         {
-          "question": "Are Arcade and Classic scores separate?",
-          "answer": "Yes—each mode has its own leaderboard."
+          "question": "Разделены ли аркадные и классические игры?",
+          "answer": "Да, в каждом режиме есть своя таблица лидеров."
         },
         {
-          "question": "How many achievements are there?",
-          "answer": "14 trophies with an in-app catalog showing requirements."
+          "question": "Сколько там достижений?",
+          "answer": "14 призов с каталогом в приложении с указанием требований."
         },
         {
-          "question": "What does Remove Ads include?",
-          "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
+          "question": "Что включает в себя удаление рекламы?",
+          "answer": "Удаляет домашний баннер и вставку после игры. Единоразовая нерасходуемая покупка."
         }
       ]
     },

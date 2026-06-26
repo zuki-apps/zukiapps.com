@@ -3,10 +3,12 @@
     "back": "홈으로 돌아가기",
     "hero": {
       "badge": "지금 사용 가능",
-      "title": "Power Interval Timer - Tabata & HIIT",
+      "title": "전원 간격 타이머 - Tabata & HIIT",
       "subtitle": "인터벌 운동 타이머",
       "description": "Tabata, HIIT 및 짧은 운동을 위한 최소한의 빠른 오프라인 인터벌 운동 타이머. 기능: 설정 가능한 운동, 여러 표시 모드, 소리 알림 및 화면 캐스팅 지원.",
-      "structuredDataDescription": "Power Interval Timer — Tabata and HIIT interval timer for iOS and Android. Custom work/rest rounds, presets, display modes, audio cues. Android com.zuki.apps.powerintervaltimer by Zuki Apps."
+      "structuredDataDescription": "전원 간격 타이머 — iOS 및 Android에 대한 Tabata 및 HIIT 간격 타이머입니다. 사용자 정의 작업/휴식 라운드, 사전 설정, 디스플레이 모드, 오디오 신호. Android com.zuki.apps.powerintervaltimer by Zuki Apps.",
+      "seoTitle": "전원 간격 타이머 - HIIT 및 Tabata | Zuki Apps",
+      "metaDescription": "맞춤형 운동을 제공하는 빠른 오프라인 Tabata 및 HIIT 타이머. iOS 및 Android에서는 무료입니다. 다음 세션을 시작하세요."
     },
     "features": {
       "title": "주요 기능",
@@ -18,7 +20,10 @@
           "휴식 지속 시간(초)",
           "라운드 수",
           "레이스 시작 비프음이 있는 준비 시간",
-          "쿨다운 기간"
+          "쿨다운 기간",
+          "시작/일시 중지하려면 화면의 아무 곳이나 탭하세요.",
+          "스와이프하여 타이머 카드 수정/삭제",
+          "드래그하여 재정렬 타이머 목록"
         ]
       },
       "display": {
@@ -31,7 +36,10 @@
           "최소한의 깔끔한 디자인",
           "아날로그 시계 스타일",
           "듀얼 타이머 표시",
-          "크로노그래프 시계 스타일"
+          "크로노그래프 시계 스타일",
+          "분할된 원형(Premium) - 분할된 부분이 보이는 원형 링",
+          "미니멀리스트(Premium) - 더 큰 텍스트로 최소화됨",
+          "중첩된 원형(Premium) - 초는 외부 원, 간격은 내부"
         ]
       },
       "offline": {
@@ -72,27 +80,29 @@
           "색상 테마",
           "글꼴 크기",
           "소리 선택",
-          "다크/라이트/시스템 테마"
+          "다크/라이트/시스템 테마",
+          "타이머 화면에 표시되는 타이머 이미지",
+          "RTL 지원(히브리어 및 영어)"
         ]
       },
       "premium": {
-        "title": "Freemium Model",
-        "description": "Free version with optional Premium upgrade ($2.99 one-time)",
+        "title": "프리미엄 모델",
+        "description": "Premium 업그레이드 옵션이 포함된 무료 버전(1회 $2.99)",
         "items": [
-          "Free: Up to 2 saved timers, 3 basic display modes, banner ads",
-          "Premium: Unlimited timers, all 10 display modes, no ads",
-          "One-time purchase - no subscriptions",
-          "Restore purchases across devices"
+          "무료: 저장된 타이머 최대 2개, 기본 디스플레이 모드 3개, 배너 광고",
+          "Premium: 무제한 타이머, 10가지 디스플레이 모드, 광고 없음",
+          "일회성 구매 - 구독 없음",
+          "여러 기기에서 구매 복원"
         ]
       },
       "watch": {
-        "title": "Apple Watch Integration",
-        "description": "Basic companion support for Apple Watch",
+        "title": "Apple Watch 통합",
+        "description": "Apple Watch에 대한 기본 동반자 지원",
         "items": [
-          "Show current phase and countdown",
-          "Display round number",
-          "Companion app functionality",
-          "Disabled on TV devices"
+          "현재 단계 및 카운트다운 표시",
+          "라운드 수 표시",
+          "동반 앱 기능",
+          "TV 기기에서 사용 중지됨"
         ]
       }
     },
@@ -111,7 +121,7 @@
       "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
       "appStoreAlt": "App Store에서 다운로드",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.powerintervaltimer",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "시작해 보세요 Google Play"
     },
     "links": {
       "title": "중요한 링크",
@@ -120,8 +130,8 @@
         "email": "zuki.apps@gmail.com"
       },
       "googlePlay": {
-        "title": "Download on Google Play",
-        "description": "Get Power Interval Timer from Google Play Store"
+        "title": "Google Play에서 다운로드하세요",
+        "description": "Google Play Store에서 전원 간격 타이머 받기"
       },
       "contact": {
         "title": "일반 문의",
@@ -132,40 +142,40 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "지원 및 도움말",
+      "subtitle": "우리가 도와드리겠습니다! 일반적인 질문에 대한 답변을 찾거나 당사에 직접 문의하세요.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "문의하기",
+        "description": "질문이 있거나 도움이 필요하신가요? 이메일을 보내주시면 최대한 빨리 연락드리겠습니다.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "빠른 링크",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "개인 정보 보호 정책",
+          "description": "귀하의 데이터를 보호하는 방법 알아보기"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "서비스 약관",
+          "description": "이용 약관을 읽어보세요"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "자주 묻는 질문",
         "q1": {
-          "question": "How do I create a custom workout?",
-          "answer": "To create a custom workout, tap the '+' button or 'New Workout' option. You can set the work duration, rest duration, number of rounds, prepare time, and cooldown period. Once created, your workout will be saved and can be used anytime."
+          "question": "맞춤형 운동을 어떻게 생성하나요?",
+          "answer": "맞춤 운동을 만들려면 '+' 버튼을 누르거나 '새 운동' 옵션을 탭하세요. 작업 시간, 휴식 시간, 라운드 수, 준비 시간, 휴지 시간을 설정할 수 있습니다. 일단 생성되면 운동이 저장되어 언제든지 사용할 수 있습니다."
         },
         "q2": {
-          "question": "Can I use Power Interval Timer offline?",
-          "answer": "Yes! Power Interval Timer works completely offline. No internet connection is required. All your workouts and settings are stored locally on your device. The app does not collect any data or require an account."
+          "question": "전원 간격 타이머를 오프라인으로 사용할 수 있나요?",
+          "answer": "예! 전원 간격 타이머는 완전히 오프라인으로 작동합니다. 인터넷 연결이 필요하지 않습니다. 모든 운동과 설정은 장치에 로컬로 저장됩니다. 이 앱은 데이터를 수집하지 않으며 계정이 필요하지 않습니다."
         },
         "q3": {
-          "question": "How do I cast the timer to my TV?",
-          "answer": "To cast to your TV, start a workout and look for the casting icon. On iOS, use AirPlay to cast to Apple TV or AirPlay-compatible devices. On Android, use MediaProjection to cast to Chromecast or other compatible devices. The timer will automatically optimize its layout for TV viewing."
+          "question": "타이머를 TV로 전송하려면 어떻게 해야 하나요?",
+          "answer": "TV로 전송하려면 운동을 시작하고 전송 아이콘을 찾으세요. iOS에서는 AirPlay를 사용하여 Apple TV 또는 AirPlay 호환 기기로 전송하세요. Android에서는 MediaProjection을 사용하여 Chromecast 또는 기타 호환 장치로 전송하세요. 타이머는 TV 시청에 맞게 레이아웃을 자동으로 최적화합니다."
         },
         "q4": {
-          "question": "What display modes are available?",
+          "question": "어떤 디스플레이 모드를 사용할 수 있나요?",
           "answer": "Power Interval Timer offers 7 different display modes: circular progress timer, digital countdown, linear progress bar, minimal clean design, analog clock style, dual timer display, and chronograph watch style. You can switch between modes in the settings or during a workout."
         },
         "q5": {
@@ -173,25 +183,25 @@
           "answer": "Go to Settings → Customization. You can customize timer images, color themes, font sizes, sound selection, and choose between Dark, Light, or System theme. Changes will be applied immediately to your timer display."
         },
         "q7": {
-          "question": "What is the Premium upgrade?",
-          "answer": "Premium is a one-time $2.99 purchase that unlocks unlimited saved timers, all 10 display modes, and removes banner ads. The purchase is permanent and can be restored across devices using the same account."
+          "question": "Premium 업그레이드란 무엇인가요?",
+          "answer": "Premium 일회성 $2.99 ​​구매로 무제한 저장된 타이머, 10가지 디스플레이 모드 모두 잠금 해제되고 배너 광고가 제거됩니다. 구매는 영구적이며 동일한 계정을 사용하는 여러 기기에서 복원될 수 있습니다."
         },
         "q8": {
-          "question": "How do I tap to start/pause the timer?",
-          "answer": "Simply tap anywhere on the timer screen to start or pause your workout. This intuitive gesture control makes it easy to control your timer without looking for buttons, especially useful during intense workouts."
+          "question": "타이머를 시작/일시 중지하려면 어떻게 탭하나요?",
+          "answer": "운동을 시작하거나 일시 중지하려면 타이머 화면의 아무 곳이나 누르기만 하면 됩니다. 이 직관적인 제스처 컨트롤을 사용하면 버튼을 찾지 않고도 타이머를 쉽게 제어할 수 있으며, 특히 격렬한 운동 중에 유용합니다."
         },
         "q9": {
-          "question": "Does Power Interval Timer support Apple Watch?",
-          "answer": "Yes! Power Interval Timer includes basic Apple Watch companion support. The watch app shows the current phase, countdown, and round number. Note that watch connectivity is disabled on TV devices."
+          "question": "전원 간격 타이머는 Apple Watch를 지원합니까?",
+          "answer": "예! 전원 간격 타이머에는 기본 Apple Watch 도우미 지원이 포함되어 있습니다. 시계 앱에는 현재 단계, 카운트다운, 라운드 횟수가 표시됩니다. TV 장치에서는 시계 연결이 비활성화되어 있습니다."
         },
         "q6": {
-          "question": "Does Power Interval Timer work on Apple TV and Android TV?",
-          "answer": "Yes! Power Interval Timer has native support for Apple TV (tvOS) and Android TV. You can install the app directly on your TV and use it with a remote control. The interface is optimized for large displays and includes platform-specific features."
+          "question": "전원 간격 타이머는 Apple TV 및 Android TV에서 작동합니까?",
+          "answer": "예! 전원 간격 타이머는 Apple TV(tvOS) 및 Android TV를 기본적으로 지원합니다. 앱을 TV에 직접 설치하고 리모컨으로 사용할 수 있습니다. 인터페이스는 대형 디스플레이에 최적화되어 있으며 플랫폼별 기능을 포함합니다."
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "도움이 더 필요하신가요?",
+        "description": "원하는 답변을 찾을 수 없거나 기술적인 문제가 발생하는 경우, 주저하지 말고 저희에게 연락해 주세요. 우리는 도움을 드리고 일반적으로 24~48시간 이내에 응답합니다."
       },
       "metaTitle": "지원 및 도움말 - 전원 간격 타이머 | Zuki Apps",
       "metaDescription": "파워 인터벌 타이머 FAQ 및 지원 — HIIT 및 인터벌 운동. 연락처, 개인 정보 보호 및 문제 해결."
@@ -201,249 +211,249 @@
       "tagline": "Zuki Apps의 일부 • 이스라엘 개발자 • ❤️로 제작"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Power Interval Timer. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "이용약관",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
+      "intro": "전원 간격 타이머를 사용하기 전에 본 이용 약관을 주의 깊게 읽으십시오. 당사 서비스에 액세스하거나 이를 사용함으로써 귀하는 본 약관을 준수할 것에 동의하게 됩니다. 본 약관에 동의하지 않는 경우 당사 서비스를 이용하지 마십시오.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Power Interval Timer (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval workout timer application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 약관 동의",
+        "content": "본 이용약관(\"약관\")은 Zuki Apps(\"회사\")가 운영하는 간격 운동 타이머 애플리케이션인 Power Interval Timer(\"서비스\", \"앱\", \"당사\", \"당사\" 또는 \"당사의\")에 대한 액세스 및 사용에 적용됩니다. 서비스를 다운로드, 설치, 액세스 또는 사용함으로써 귀하는 본 약관 및 당사의 개인정보 보호정책을 준수할 것에 동의하게 됩니다.",
+        "content2": "귀하가 조직을 대신하여 서비스를 사용하는 경우 귀하는 해당 조직을 본 약관에 구속할 권한이 있음을 진술하고 보증합니다."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Power Interval Timer is a mobile application that provides interval workout timing functionality. The Service includes:",
+        "title": "2. 서비스 설명",
+        "content": "파워 인터벌 타이머(Power Interval Timer)는 인터벌 운동 타이밍 기능을 제공하는 모바일 애플리케이션입니다. 서비스에는 다음이 포함됩니다.",
         "items": [
-          "Configurable workout timers (work, rest, rounds, prepare, cooldown)",
-          "Multiple display modes for timer visualization",
-          "Sound alerts and vibration feedback",
-          "Screen casting and TV support",
-          "Local storage of saved timers",
-          "Offline functionality"
+          "구성 가능한 운동 타이머(작업, 휴식, 라운드, 준비, 쿨다운)",
+          "타이머 시각화를 위한 다양한 디스플레이 모드",
+          "소리 알림 및 진동 피드백",
+          "스크린 캐스팅 및 TV 지원",
+          "저장된 타이머의 로컬 저장소",
+          "오프라인 기능"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 연락처 정보",
+        "content": "본 약관에 대해 질문이 있는 경우 다음 연락처로 문의해 주세요.",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "개인 정보 보호 정책",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Power Interval Timer is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+        "title": "1. 당사가 수집하는 정보",
+        "content": "전원 간격 타이머는 개인 정보 보호를 염두에 두고 설계되었습니다. 서비스 제공을 위해 필요한 최소한의 정보를 수집합니다. 이 앱은 완전히 오프라인으로 작동하며 모든 데이터를 기기에 로컬로 저장합니다."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. All timer configurations and saved workouts are stored locally on your device and are not transmitted to our servers."
+        "title": "2. 당사가 귀하의 정보를 사용하는 방법",
+        "content": "당사는 서비스를 제공, 유지 및 개선하기 위해 수집한 정보를 사용합니다. 모든 타이머 구성과 저장된 운동은 귀하의 장치에 로컬로 저장되며 당사 서버로 전송되지 않습니다."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your timer data remains on your device and is only accessible to you."
+        "title": "3. 정보 공유",
+        "content": "당사는 귀하의 개인정보를 제3자에게 판매, 거래 또는 기타 방법으로 양도하지 않습니다. 귀하의 타이머 데이터는 귀하의 장치에 남아 있으며 귀하만 접근할 수 있습니다."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+        "title": "4. 데이터 보안",
+        "content": "당사는 귀하의 정보를 보호하기 위해 적절한 보안 조치를 시행합니다. 모든 데이터는 기기의 앱 비공개 디렉터리에 로컬로 저장되며, 이는 다른 앱에서 접근할 수 없습니다."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your timer data at any time. You can delete all saved timers through the app. You may also uninstall the app at any time, which will remove all locally stored data."
+        "title": "5. 귀하의 권리",
+        "content": "귀하는 언제든지 귀하의 타이머 데이터에 접근, 업데이트 또는 삭제할 권리가 있습니다. 앱을 통해 저장된 모든 타이머를 삭제할 수 있습니다. 언제든지 앱을 제거할 수도 있으며, 이렇게 하면 로컬에 저장된 모든 데이터가 제거됩니다."
       },
       "section6": {
-        "title": "6. Photo Library Access",
-        "content": "Power Interval Timer may request access to your device's photo library to allow you to select custom timer images. We only access your photos when you explicitly choose to add a timer image. Photos are stored locally and are not shared with third parties."
+        "title": "6. 사진 라이브러리 액세스",
+        "content": "전원 간격 타이머는 사용자가 사용자 정의 타이머 이미지를 선택할 수 있도록 장치의 사진 라이브러리에 대한 액세스를 요청할 수 있습니다. 귀하가 명시적으로 타이머 이미지를 추가하도록 선택한 경우에만 당사는 귀하의 사진에 접근합니다. 사진은 로컬에 저장되며 제3자와 공유되지 않습니다."
       },
       "section7": {
-        "title": "7. Crash Reporting and Error Analytics",
-        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
-        "dataCollected": "Data Collected:",
+        "title": "7. 충돌 보고 및 오류 분석",
+        "content": "당사는 앱 충돌 및 오류에 대한 정보를 수집하기 위해 Google에서 제공하는 서비스인 Firebase Crashlytics를 사용합니다. 이는 문제를 식별하고 수정하여 사용자 경험을 개선하는 데 도움이 됩니다.",
+        "dataCollected": "수집된 데이터:",
         "dataCollectedItems": [
-          "Technical information about crashes and errors (stack traces, error messages)",
-          "Device information (operating system, device model, app version)",
-          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
-          "Custom diagnostic information related to errors (error codes, operation types)"
+          "충돌 및 오류에 대한 기술 정보(스택 추적, 오류 메시지)",
+          "기기 정보(운영 체제, 기기 모델, 앱 버전)",
+          "설치 ID(개인 신원과 연결되지 않은 앱 설치를 위한 고유 식별자)",
+          "오류 관련 사용자 정의 진단 정보(오류 코드, 작업 유형)"
         ],
-        "purpose": "Purpose:",
+        "purpose": "목적:",
         "purposeItems": [
-          "Identify and fix bugs and crashes",
-          "Improve app stability and performance",
-          "Analyze error patterns"
+          "버그 및 충돌 식별 및 수정",
+          "앱 안정성 및 성능 향상",
+          "오류 patterns 분석"
         ],
-        "dataSharing": "Data Sharing:",
-        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
-        "dataRetention": "Data Retention:",
-        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
-        "yourRights": "Your Rights:",
-        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+        "dataSharing": "데이터 공유:",
+        "dataSharingContent": "이 데이터는 Google Firebase에서 처리되며 Google 개인정보취급방침의 적용을 받습니다.",
+        "dataRetention": "데이터 보존:",
+        "dataRetentionContent": "충돌 보고서는 Firebase에서 최대 90일 동안 보관한 후 자동으로 삭제됩니다.",
+        "yourRights": "귀하의 권리:",
+        "yourRightsContent": "장치 설정에서 충돌 보고를 비활성화하여 이를 거부할 수 있습니다. 하지만 이렇게 하면 귀하에게 영향을 미치는 문제를 해결하지 못할 수도 있습니다."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 문의하기",
+        "content": "본 개인정보 보호정책에 대해 질문이 있는 경우 다음 주소로 문의하시기 바랍니다.",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       },
       "metaDescription": "전원 간격 타이머 개인 정보 보호 정책 — iOS 및 Android에서 귀하의 데이터를 처리하는 방법."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "특징",
+      "screenshots": "스크린샷",
+      "howTo": "사용방법",
+      "tips": "팁",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "다운로드"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Power Interval Timer - Tabata & HIIT.",
-      "featuresTitle": "App screens",
+      "title": "스크린샷",
+      "subtitle": "Power Interval Timer - Tabata & HIIT의 실제 앱 화면.",
+      "featuresTitle": "앱 화면",
       "items": [
         {
-          "id": "home",
-          "title": "Home",
-          "description": "Pick a workout preset or build your own intervals.",
+          "id": "집",
+          "title": "집",
+          "description": "운동 사전 설정을 선택하거나 자신만의 간격을 만드세요.",
           "image": "/images/power-interval-timer/screenshot-home.png",
-          "alt": "Home — power interval timer",
-          "category": "features"
+          "alt": "홈 - 전원 간격 타이머",
+          "category": "특징"
         },
         {
-          "id": "timer",
-          "title": "Work interval",
-          "description": "Large countdown with clear work/rest phases.",
+          "id": "시간제 노동자",
+          "title": "작업 간격",
+          "description": "명확한 작업/휴식 단계가 포함된 대규모 카운트다운.",
           "image": "/images/power-interval-timer/screenshot-timer.png",
-          "alt": "Work interval — power interval timer",
-          "category": "features"
+          "alt": "작업 간격 - 전원 간격 타이머",
+          "category": "특징"
         },
         {
-          "id": "setup",
-          "title": "Setup",
-          "description": "Configure rounds, durations, and rest periods.",
+          "id": "설정",
+          "title": "설정",
+          "description": "라운드, 기간, 휴식 기간을 구성합니다.",
           "image": "/images/power-interval-timer/screenshot-setup.png",
-          "alt": "Setup — power interval timer",
-          "category": "features"
+          "alt": "설정 - 전원 간격 타이머",
+          "category": "특징"
         },
         {
-          "id": "display",
-          "title": "Display modes",
-          "description": "Choose the view that works in the gym or at home.",
+          "id": "표시하다",
+          "title": "디스플레이 모드",
+          "description": "체육관이나 집에서 작동하는 보기를 선택하세요.",
           "image": "/images/power-interval-timer/screenshot-display.png",
-          "alt": "Display modes — power interval timer",
-          "category": "features"
+          "alt": "디스플레이 모드 - 전원 간격 타이머",
+          "category": "특징"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "사용방법",
       "steps": [
         {
           "number": "1",
-          "title": "Choose a preset",
-          "description": "Start with Tabata, HIIT, or custom intervals."
+          "title": "사전 설정 선택",
+          "description": "Tabata, HIIT 또는 사용자 지정 간격으로 시작하세요."
         },
         {
           "number": "2",
-          "title": "Set work & rest",
-          "description": "Adjust seconds per phase and number of rounds."
+          "title": "일과 휴식 설정하기",
+          "description": "단계당 초와 라운드 수를 조정합니다."
         },
         {
           "number": "3",
-          "title": "Start the timer",
-          "description": "Follow audio and visual cues through each interval."
+          "title": "타이머 시작",
+          "description": "각 간격 동안 오디오 및 시각적 신호를 따르십시오."
         },
         {
           "number": "4",
-          "title": "Track sessions",
-          "description": "Repeat workouts and refine your timing."
+          "title": "세션 추적",
+          "description": "운동을 반복하고 타이밍을 조정하세요."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "팁과 요령",
+      "subtitle": "앱에서 더 많은 것을 얻으세요.",
       "items": [
         {
-          "title": "Programming tips",
-          "description": "1. Name timers like programs — “Strength 90/60”, “Engine 30/15”, not “Timer 3”. 2. Use prepare wisely — 10–15 s for demos; 0 s when athletes are already set. 3. Cooldown is discipline — 30–60 s walk-down beats stopping cold after HIIT. 4. Progression — duplicate a timer and add one round per week instead of rebuilding. 5. Pair work/rest to goal — 1:1 for conditioning; 1:2 or 1:3 for strength super"
+          "title": "프로그래밍 팁",
+          "description": "1. 프로그램과 같은 타이머 이름을 지정합니다. \"Timer 3\"이 아닌 \"Strength 90/60\", \"Engine 30/15\". 2. 현명하게 준비하십시오. 데모의 경우 10~15초, 선수가 이미 설정된 경우 0초입니다. 3. 쿨다운은 규율입니다. 30~60초 워크다운 비트는 HIIT 후 차가워집니다. 4. 진행 - 재구축 대신 타이머를 복제하고 일주일에 한 라운드를 추가합니다. 5. 목표에 맞춰 작업/휴식을 병행하세요. 컨디셔닝은 1:1, 1:2 또는 1:3 강도 슈퍼"
         },
         {
-          "title": "Tabata & HIIT",
-          "description": "Classic Tabata: 20 s on / 10 s off × 8 (4 min). Quality drops after round 6 — that’s normal; note it in your log. - HIIT blocks: 40/20 or 30/15 for 10–20 min total work time. - EMOM-style: set work = 60 s, rest = 0, rounds = minutes in block; start each minute on the beep."
+          "title": "타바타 & HIIT",
+          "description": "클래식 타바타: 20초 켜기/10초 끄기 × 8(4분). 6라운드 이후에는 품질이 떨어집니다. 이는 정상입니다. 로그에 기록해 두세요. - HIIT 블록: 총 작업 시간 10~20분 동안 40/20 또는 30/15. - EMOM 스타일: 작업 = 60초, 휴식 = 0, 라운드 = 블록 내 분 단위로 설정합니다. 경고음이 울리면 매 분마다 시작됩니다."
         },
         {
-          "title": "In the gym",
-          "description": "Landscape on a bench rack — timer + controls side by side. - Cast to TV for bootcamps so late arrivals see the phase. - Digital mode for bright floors; Circular for quick glance at distance."
+          "title": "체육관에서",
+          "description": "벤치 랙 위의 풍경 — 타이머 + 컨트롤이 나란히 있습니다. - 부트캠프를 위해 TV로 전송하여 늦게 도착하는 사람들도 단계를 볼 수 있도록 합니다. - 밝은 바닥을 위한 디지털 모드 멀리 있는 것을 빠르게 볼 수 있는 원형입니다."
         },
         {
-          "title": "Sound & vibration",
-          "description": "Test alert volume before the first work interval of a class. - “None” sound + vibration only for studios with noise rules. - Prepare beeps train athletes to set on the last countdown, not the first second of work."
+          "title": "소리 및 진동",
+          "description": "수업의 첫 번째 작업 간격 전에 경고 볼륨을 테스트합니다. - 소음 규정에 따라 스터드ios에만 \"없음\" 소리 + 진동이 발생합니다. - 작업의 첫 번째 초가 아닌 마지막 카운트다운을 설정하도록 운동선수를 훈련시키는 경고음을 준비합니다."
         },
         {
-          "title": "Premium worth it when…",
-          "description": "You run more than two distinct protocols per week. - You want Chronograph / Dual modes for readability on iPad at arm’s length. - Ads distract clients during demos (one-time remove ads)."
+          "title": "Premium 그럴 때 가치가 있는…",
+          "description": "매주 2개 이상의 서로 다른 프로토콜을 실행합니다. - iPad에서 팔 길이만큼 가독성을 높이기 위해 크로노그래프/듀얼 모드를 원합니다. - 데모 중에 광고가 고객의 주의를 분산시킵니다(일회성 광고 제거)."
         },
         {
-          "title": "Recovery & safety",
-          "description": "If form breaks, pause — don’t chase the clock. - Hydrate during rest, not work. - Cooldown isn’t optional for high-intensity blocks with beginners."
+          "title": "회복 및 안전",
+          "description": "양식이 깨지면 일시 중지하세요. 시계를 쫓지 마세요. - 쉬는 동안 수분을 섭취하세요. 작업하지 마세요. - 초보자를 위한 고강도 블록의 경우 쿨다운은 선택 사항이 아닙니다."
         },
         {
-          "title": "Weekly habit",
-          "description": "Sunday: reorder Home to match Mon–Fri plan. - Friday: archive or delete timers you didn’t use — keeps Home honest."
+          "title": "주간 습관",
+          "description": "일요일: 월요일~금요일 계획에 맞게 집 순서를 변경합니다. - 금요일: 사용하지 않은 타이머를 보관하거나 삭제하여 홈을 정직하게 유지하세요."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "자주 묻는 질문",
+      "subtitle": "기능, 개인정보 보호, 청구에 대한 빠른 답변.",
+      "viewAllSupport": "전체 지원 보기 & FAQ",
       "items": [
         {
-          "question": "What is Power Interval Timer?",
-          "answer": "A minimal interval timer for Tabata, HIIT, and custom work/rest rounds. It runs offline and focuses on clarity mid-workout."
+          "question": "전원 간격 타이머란 무엇입니까?",
+          "answer": "Tabata, HIIT 및 맞춤형 작업/휴식 라운드를 위한 최소 간격 타이머입니다. 오프라인으로 실행되며 운동 중간에 명확성에 중점을 둡니다."
         },
         {
-          "question": "Do I need an account?",
-          "answer": "No. Timers are stored on your device."
+          "question": "계정이 필요합니까?",
+          "answer": "아니요. 타이머는 기기에 저장됩니다."
         },
         {
-          "question": "Does it work without internet?",
-          "answer": "Yes. Core timing, sounds, and saved timers work offline. Ads and purchase verification may need connectivity when those features are used."
+          "question": "인터넷 없이도 작동하나요?",
+          "answer": "예. 핵심 타이밍, 사운드 및 저장된 타이머는 오프라인으로 작동합니다. 광고 및 구매 확인 기능을 사용하려면 연결이 필요할 수 있습니다."
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "iPhone, iPad, Android phones/tablets, Apple TV, and Android TV."
+          "question": "어떤 장치가 지원되나요?",
+          "answer": "iPhone, iPad, Android 휴대폰/태블릿, Apple TV 및 Android TV."
         },
         {
-          "question": "Can I do classic Tabata?",
-          "answer": "Yes — 20 s work, 10 s rest, 8 rounds (adjust prepare/cooldown as you like)."
+          "question": "클래식 타바타를 할 수 있나요?",
+          "answer": "예 — 20초 작업, 10초 휴식, 8라운드(원하는 대로 준비/쿨다운 조정)."
         },
         {
-          "question": "Can I skip rest or end early?",
-          "answer": "Use **Skip** for the current phase or **Stop** to end the session."
+          "question": "휴식을 건너뛰거나 일찍 끝낼 수 있나요?",
+          "answer": "현재 단계에서는 **건너뛰기**를 사용하고 세션을 종료하려면 **중지**를 사용하세요."
         },
         {
-          "question": "How do I pause with gloves on?",
-          "answer": "Tap anywhere on the timer face to start/pause."
+          "question": "장갑을 낀 채로 어떻게 잠시 멈추나요?",
+          "answer": "시작/일시 중지하려면 타이머 화면의 아무 곳이나 탭하세요."
         },
         {
-          "question": "How many clock styles are there?",
-          "answer": "Ten display modes. Three are free (Circular, Digital, Linear); seven are Premium."
+          "question": "시계 스타일은 몇 개나 있나요?",
+          "answer": "10가지 디스플레이 모드. 3개는 무료입니다(원형, 디지털, 선형). 7개는 Premium입니다."
         },
         {
-          "question": "Can I use my own photo on a timer?",
-          "answer": "Yes — pick from your gallery when creating/editing a timer (system photo picker on modern Android)."
+          "question": "타이머에 내 사진을 사용할 수 있나요?",
+          "answer": "예 — 타이머를 생성/편집할 때 갤러리에서 선택하세요(최신 Android의 시스템 사진 선택기)."
         },
         {
-          "question": "Dark mode?",
-          "answer": "Settings → Theme: Light, Dark, or System."
+          "question": "다크 모드?",
+          "answer": "설정 → 테마: 밝음, 어두움 또는 시스템."
         },
         {
-          "question": "What’s included in Premium?",
-          "answer": "Unlimited saved timers, all display modes, no ads. One-time purchase (not a subscription)."
+          "question": "Premium에는 무엇이 포함되어 있나요?",
+          "answer": "무제한 저장된 타이머, 모든 디스플레이 모드, 광고 없음. One-time purchase (not a subscription)."
         },
         {
-          "question": "How much is Premium?",
-          "answer": "Price is shown in the app from your local App Store or Google Play (varies by country)."
+          "question": "Premium는 얼마인가요?",
+          "answer": "가격은 해당 지역의 App Store 또는 Google Play(국가별로 다름)로 앱에 표시됩니다."
         }
       ]
     }

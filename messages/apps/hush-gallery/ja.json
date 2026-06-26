@@ -3,10 +3,12 @@
     "back": "ホームに戻る",
     "hero": {
       "badge": "配信中",
-      "title": "Hush Gallery - Hide Photos & Videos",
+      "title": "Hush Gallery - 写真とビデオを非表示にする",
       "subtitle": "プライベートフォトギャラリー",
       "description": "個人の写真を安全に整理して保管できる、安全でプライベートなフォトギャラリーアプリケーション。高度なプライバシー機能と直感的なデザインにより、思い出を保護するための完璧なソリューションです。",
-      "structuredDataDescription": "Hush Gallery — private photo and video vault for iOS and Android. Hide media from WhatsApp and Photos via Share, organize with tags, PIN/biometric App Lock (Premium), optional iCloud/Google Drive backup. Package com.zuki.apps.hushGallery by Zuki Apps."
+      "structuredDataDescription": "Hush Gallery — iOS と Android のプライベート写真とビデオ保管庫。 WhatsApp と共有経由の写真からメディアを非表示にし、タグで整理し、PIN/生体認証アプリ ロック (Premium)、オプションで iCloud/Google ドライブのバックアップを実行します。 Zuki Apps によるパッケージ com.zuki.apps.hushGallery。",
+      "seoTitle": "Hush Gallery — プライベート写真保管庫 | Zuki Apps",
+      "metaDescription": "写真とビデオをプライベート保管庫に隠します。 PIN ロック、タグ、WhatsApp インポート。 iOS と Android で無料 — 今すぐダウンロードしてください。"
     },
     "features": {
       "title": "主な機能",
@@ -37,7 +39,9 @@
           "カスタムフォルダ管理",
           "メディア整理ツール",
           "検索とフィルタ機能",
-          "メタデータ保持"
+          "メタデータ保持",
+          "検索およびフィルター機能",
+          "メタデータの保存"
         ]
       },
       "security": {
@@ -67,47 +71,48 @@
           "システムギャラリーからのインポート",
           "メタデータ付きエクスポート",
           "バッチ操作",
-          "フォーマット保持"
+          "フォーマット保持",
+          "フォーマットの保存"
         ]
       }
     },
     "businessUse": {
-      "title": "💼 Perfect for Business Use",
-      "description": "Are you a business owner who uses your phone for both work and personal life? Hush Gallery is the perfect solution to keep your business photos separate from your personal ones.",
+      "title": "💼 ビジネス用途に最適",
+      "description": "あなたは仕事と私生活の両方で電話を使用するビジネスオーナーですか? Hush Gallery は、ビジネス用の写真を個人用の写真と区別して保管するのに最適なソリューションです。",
       "benefits": {
-        "title": "Business Benefits",
+        "title": "ビジネス上のメリット",
         "items": [
-          "Create dedicated tags for product photos, client documents, marketing materials, team photos, and financial documents",
-          "Never worry about accidentally showing personal photos during a business presentation",
-          "Keep work files separate from family memories",
-          "Access business photos during meetings without exposing personal content",
-          "Share business photos with colleagues without showing personal files"
+          "製品写真、顧客文書、マーケティング資料、チーム写真、財務書類用の専用タグを作成します。",
+          "ビジネスプレゼンテーション中に誤って個人的な写真を見せてしまうことを心配する必要はありません",
+          "仕事用ファイルを家族の思い出から切り離して保管",
+          "個人的な内容を公開することなく、会議中にビジネス写真にアクセスできます",
+          "個人ファイルを表示せずにビジネス写真を同僚と共有する"
         ]
       },
       "example": {
-        "title": "🎯 Real-World Example",
-        "description": "You run a small business and use your phone for everything. You take photos of products, receipts, client meetings, and also personal family photos. With Hush Gallery, you can:",
+        "title": "🎯 実際の例",
+        "description": "あなたは中小企業を経営しており、あらゆることに電話を使用しています。製品、領収書、顧客とのミーティング、さらには個人的な家族の写真も撮影します。 Hush Gallery を使用すると、次のことができます。",
         "items": [
-          "Create a \"Business\" tag for all work-related photos",
-          "Create a \"Personal\" tag for family photos",
-          "Keep them completely separate and secure",
-          "Access business photos during meetings without exposing personal content",
-          "Share business photos with colleagues without showing personal files"
+          "仕事関連のすべての写真に「ビジネス」タグを作成する",
+          "家族写真に「個人」タグを作成する",
+          "完全に分離して安全に保管してください",
+          "個人的な内容を公開することなく、会議中にビジネス写真にアクセスできます",
+          "個人ファイルを表示せずにビジネス写真を同僚と共有する"
         ]
       }
     },
     "howToUse": {
-      "title": "📱 How to Use",
+      "title": "📱使用方法",
       "steps": [
         {
           "number": "1",
-          "title": "Select Photos",
-          "description": "Select photos from any app (Gallery, WhatsApp, etc.)"
+          "title": "写真を選択",
+          "description": "任意のアプリ (ギャラリー、WhatsApp など) から写真を選択します"
         },
         {
           "number": "2",
-          "title": "Share to Hush Gallery",
-          "description": "Tap \"Share\" and choose \"Hush Gallery\""
+          "title": "Hush Gallery に共有",
+          "description": "「共有」をタップし、「Hush Gallery」を選択します"
         },
         {
           "number": "3",
@@ -116,23 +121,23 @@
         },
         {
           "number": "4",
-          "title": "Organize with Tags",
-          "description": "Create tags to organize (Business, Personal, Family, etc.)"
+          "title": "タグで整理する",
+          "description": "タグを作成して整理します (ビジネス、個人、家族など)"
         },
         {
           "number": "5",
-          "title": "Secure Access",
-          "description": "Access with PIN or biometric authentication"
+          "title": "安全なアクセス",
+          "description": "PINまたは生体認証によるアクセス"
         }
       ]
     },
     "languages": {
-      "title": "🌍 Multi-Language Support",
-      "description": "Hush Gallery supports 12+ languages including English, עברית, Русский, العربية, Français, Italiano, Español, Português, 中文（简体）, Deutsch, 日本語, 한국어, and more."
+      "title": "🌍 多言語サポート",
+      "description": "Hush Gallery は、英語、עברית、Русский、العربية、Français、Italiano、Español、Português、中文（简体）、Deutsch、日本語、한국어などを含む 12 以上の言語をサポートしています。"
     },
     "privacyGuarantee": {
-      "title": "🔒 Privacy Guarantee",
-      "description": "Your privacy is our top priority. All files are stored securely in the app's private directory, we never access your files, and your data is never sold to third parties. Encryption feature coming soon."
+      "title": "🔒 プライバシー保証",
+      "description": "Your privacy is our top priority.すべてのファイルはアプリのプライベート ディレクトリに安全に保存され、当社があなたのファイルにアクセスすることはなく、データが第三者に販売されることはありません。 Encryption feature coming soon."
     },
     "premium": {
       "title": "プレミアム機能",
@@ -143,7 +148,8 @@
           "基本的なギャラリー機能",
           "ローカルストレージ",
           "アプリロック（PIN）",
-          "基本的なフォルダ管理"
+          "基本的なフォルダ管理",
+          "バナー広告 (24 時間広告なしで広告を視聴)"
         ]
       },
       "premium": {
@@ -175,12 +181,12 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "まもなく利用可能",
-      "download": "Download",
+      "download": "ダウンロード",
       "appStoreUrl": "https://apps.apple.com/il/app/hush-gallery/id6756169045",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery",
-      "appIconAlt": "Hush Gallery App Icon",
-      "appStoreAlt": "Download on the App Store",
-      "googlePlayAlt": "Get it on Google Play"
+      "appIconAlt": "Hush Gallery アプリアイコン",
+      "appStoreAlt": "App Store からダウンロードしてください",
+      "googlePlayAlt": "Google Play で入手"
     },
     "links": {
       "title": "重要なリンク",
@@ -225,7 +231,7 @@
         "title": "19. 連絡先情報",
         "content": "これらの条件についてご質問がある場合は、お問い合わせください：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "privacy": {
@@ -259,7 +265,7 @@
         "title": "8. お問い合わせ",
         "content": "このプライバシーポリシーについてご質問がある場合は、お問い合わせください：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       },
       "metaDescription": "Hush Gallery プライバシー ポリシー — iOS および Android におけるお客様のデータの取り扱い方法。"
     },
@@ -313,7 +319,7 @@
       }
     },
     "faq": {
-      "title": "Frequently Asked Questions",
+      "title": "よくある質問",
       "subtitle": "Answers for users and search assistants about Hush Gallery features, privacy, and troubleshooting.",
       "viewAllSupport": "Full support page",
       "items": [
@@ -448,20 +454,20 @@
       ]
     },
     "screenshots": {
-      "title": "Screenshots & Guides",
+      "title": "スクリーンショットとガイド",
       "subtitle": "Visual overview of Hush Gallery features and step-by-step flows.",
       "featuresTitle": "Features",
       "howToTitle": "How-to",
-      "onboardingTitle": "First launch tour",
-      "onboardingSubtitle": "Privacy, tags, and optional cloud backup explained before you import.",
+      "onboardingTitle": "初の打ち上げツアー",
+      "onboardingSubtitle": "インポートする前に、プライバシー、タグ、およびオプションのクラウド バックアップについて説明します。",
       "items": [
         {
-          "id": "gallery",
-          "title": "Private gallery grid",
+          "id": "ギャラリー",
+          "title": "プライベートギャラリーグリッド",
           "description": "Browse photos and videos in a secure grid. Filter by tags, sort by date or size, and swipe to delete with undo.",
           "image": "/images/hush-gallery/screenshot-gallery.png",
           "alt": "Hush Gallery main photo grid with tag filters",
-          "category": "features"
+          "category": "特徴"
         },
         {
           "id": "tags",
@@ -469,7 +475,7 @@
           "description": "Create tags like Business, Personal, or Family. Filter instantly and assign tags in batch selection mode.",
           "image": "/images/hush-gallery/screenshot-tags.png",
           "alt": "Hush Gallery tag management and filter chips",
-          "category": "features"
+          "category": "特徴"
         },
         {
           "id": "lock",
@@ -477,7 +483,7 @@
           "description": "Protect your vault with PIN and Face ID / Touch ID. Auto-lock after inactivity.",
           "image": "/images/hush-gallery/screenshot-lock.png",
           "alt": "Hush Gallery PIN lock screen",
-          "category": "features"
+          "category": "特徴"
         },
         {
           "id": "backup",
@@ -485,7 +491,7 @@
           "description": "Backup Now, auto backup, and restore from iCloud or Google Drive.",
           "image": "/images/hush-gallery/screenshot-backup.png",
           "alt": "Hush Gallery backup and restore settings",
-          "category": "features"
+          "category": "特徴"
         },
         {
           "id": "settings",
@@ -493,7 +499,35 @@
           "description": "Security, backup, Premium, language, theme, and account in one place.",
           "image": "/images/hush-gallery/screenshot-settings.png",
           "alt": "Hush Gallery settings screen",
-          "category": "features"
+          "category": "特徴"
+        },
+        {
+          "id": "premium",
+          "title": "Premium",
+          "description": "1 回限りの購入: 広告の削除、無制限のタグ、アプリのロック、クラウド バックアップ アクセス。",
+          "alt": "Hush Gallery Premium アップグレード画面",
+          "category": "特徴"
+        },
+        {
+          "id": "設定",
+          "title": "設定",
+          "description": "セキュリティ、暗号化、バックアップ、Premium、言語、テーマ、アカウント、バージョン情報を 1 つのハブにまとめました。",
+          "alt": "Hush Gallery設定画面",
+          "category": "特徴"
+        },
+        {
+          "id": "オンボーディング-プライベート",
+          "title": "プライベートかつ安全",
+          "description": "初回起動オンボーディング: バックアップを有効にしない限り、メディアはデバイス上に残ります。",
+          "alt": "Hush Gallery プライベート ストレージのオンボーディング",
+          "category": "オンボーディング"
+        },
+        {
+          "id": "オンボーディングタグ",
+          "title": "タグで整理する",
+          "description": "オンボーディングでは、写真やビデオをフィルタリングおよびグループ化するためのカスタム タグについて説明します。",
+          "alt": "Hush Gallery オンボーディングタグ",
+          "category": "オンボーディング"
         }
       ]
     },
@@ -506,7 +540,8 @@
           "steps": [
             "Open Hush Gallery → tap + → Import from Gallery.",
             "Select photos/videos → confirm import.",
-            "Optional: delete originals when prompted."
+            "Optional: delete originals when prompted.",
+            "ギャラリーで [+] をタップして、最初の写真またはビデオをインポートします。"
           ]
         },
         {
@@ -514,7 +549,8 @@
           "steps": [
             "Select media in Photos, WhatsApp, etc.",
             "Tap Share → Hush Gallery.",
-            "Open Hush Gallery and complete import."
+            "Open Hush Gallery and complete import.",
+            "行を左にスワイプして削除します。永久に削除する前に「元に戻す」が表示されます。"
           ]
         },
         {
@@ -522,7 +558,8 @@
           "steps": [
             "Upgrade to Premium if needed.",
             "Settings → Security → App Lock → set PIN.",
-            "Enable biometric unlock and auto-lock timeout."
+            "Enable biometric unlock and auto-lock timeout.",
+            "他のアプリから: 共有 → Hush Gallery を選択し、Hush Gallery を開いて完了します。"
           ]
         },
         {
@@ -530,7 +567,60 @@
           "steps": [
             "Settings → Backup → Backup Now (Premium).",
             "Enable Auto Backup for scheduled sync.",
-            "On new device: Restore from Backup after sign-in."
+            "On new device: Restore from Backup after sign-in.",
+            "ギャラリーにエクスポートすると、アイテムがシステムの写真アプリにコピーされます。"
+          ]
+        },
+        {
+          "title": "5. タグ",
+          "steps": [
+            "タグバーメニューから、またはインポート中にタグを作成します。",
+            "アイテムごとに複数のタグを割り当てます。",
+            "タグチップを長押しすると、名前の変更、並べ替え、または削除ができます。",
+            "無料利用枠: タグは最大 5 つまで。 Premium: 無制限。"
+          ]
+        },
+        {
+          "title": "6. アプリロック (Premium)",
+          "steps": [
+            "「設定」→「セキュリティ」→「アプリロック」。",
+            "4 桁または 6 桁の PIN を設定します。利用可能な場合は、Face ID / Touch ID を有効にします。",
+            "自動ロックを選択します: 即時、1、5、または 15 分。",
+            "PIN をお忘れですか?サインイン中に PIN をバックアップした場合は、[PIN の復元] を使用します。"
+          ]
+        },
+        {
+          "title": "7. 暗号化",
+          "steps": [
+            "[設定] → [暗号化] を選択して、オプションのディスク上の暗号化を有効にします。",
+            "暗号化キーはデバイスのセキュア エンクレーブ/キーストアに保存されます。",
+            "有効にすると、メディア ファイルはローカルに書き込まれる前に暗号化されます。"
+          ]
+        },
+        {
+          "title": "8. クラウドバックアップ (Premium)",
+          "steps": [
+            "プロンプトが表示されたら、「設定」→「アカウント」でサインインします。",
+            "手動同期の場合は、[設定] → [バックアップ] → [今すぐバックアップ] をクリックします。",
+            "提供されている場合は、自動バックアップとリマインダーの頻度を有効にします。",
+            "新しいデバイス: サインインし、[設定] または初回実​​行時のプロンプトから [復元] をタップします。"
+          ]
+        },
+        {
+          "title": "9. Premium と広告",
+          "steps": [
+            "設定またはギャラリーバナーからPremiumを開きます。",
+            "一度購入すると広告が削除され、Premium 機能のロックが解除されます。",
+            "同じ Apple ID または Google アカウントを使用して購入を復元します。",
+            "無料枠: 一時的に広告が表示されない時間にリワード広告を視聴します (提供されている場合)。"
+          ]
+        },
+        {
+          "title": "10. 共有拡張機能 (iOS)",
+          "steps": [
+            "写真で、アイテムを選択→共有→Hush Gallery。",
+            "拡張子はファイルをステージングします。 Hush Galleryを開いてインポートします。",
+            "インポートが表示されない場合は、アプリを手動で開きます。インポートは起動時に実行されます。"
           ]
         }
       ]
@@ -593,51 +683,51 @@
       "metaDescription": "Hush Gallery FAQ とサポート — プライベート写真とビデオ ギャラリー。連絡先、プライバシー、トラブルシューティング。"
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get the most from your private gallery.",
+      "title": "ヒントとコツ",
+      "subtitle": "プライベート ギャラリーを最大限に活用しましょう。",
       "items": [
         {
-          "title": "Hide from WhatsApp fast",
-          "description": "Long-press a photo in WhatsApp → Share → Hush Gallery. Faster than saving to Camera Roll first."
+          "title": "WhatsAppから素早く隠れる",
+          "description": "WhatsApp → 共有 → Hush Gallery で写真を長押しします。最初にカメラロールに保存するよりも高速です。"
         },
         {
-          "title": "Use tags early",
-          "description": "Create tags when you import so filtering stays easy as your vault grows."
+          "title": "早めにタグを使用する",
+          "description": "インポート時にタグを作成すると、コンテナーが大きくなってもフィルタリングが簡単になります。"
         },
         {
-          "title": "Short auto-lock",
-          "description": "Set App Lock to Immediately or 1 minute if you hand your phone to others often."
+          "title": "ショートオートロック",
+          "description": "携帯電話を他の人に頻繁に渡す場合は、アプリのロックを即時または 1 分に設定します。"
         },
         {
-          "title": "Backup before a new phone",
-          "description": "Run Backup Now before replacing your device; restore after signing in on the new install."
+          "title": "新しい携帯電話の前にバックアップする",
+          "description": "デバイスを交換する前に、今すぐバックアップを実行してください。新規インストールでサインインした後に復元します。"
         },
         {
-          "title": "Export without losing vault copy",
-          "description": "Export to Gallery copies files out; originals remain in Hush Gallery until you delete them."
+          "title": "ボールトのコピーを失わずにエクスポート",
+          "description": "[ギャラリーにエクスポート] ではファイルがコピーされます。オリジナルは削除するまで Hush Gallery に残ります。"
         },
         {
-          "title": "Restore purchases",
-          "description": "Reinstalled? Premium → Restore purchases with the same store account."
+          "title": "購入したものを復元する",
+          "description": "再インストールされましたか? Premium → 同じストアアカウントで購入を復元します。"
         },
         {
-          "title": "12 languages + RTL",
-          "description": "Settings → Language includes Hebrew and Arabic with full RTL layout support."
+          "title": "12 言語 + RTL",
+          "description": "設定 → 言語にはヘブライ語とアラビア語が含まれており、RTL レイアウトを完全にサポートしています。"
         },
         {
-          "title": "Send feedback in-app",
+          "title": "アプリ内でフィードバックを送信",
           "description": "Settings → About → Send feedback, or email zuki.apps.dev@gmail.com before leaving a store review."
         }
       ]
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to",
-      "manual": "Manual",
-      "tips": "Tips",
+      "features": "特徴",
+      "screenshots": "スクリーンショット",
+      "howTo": "方法",
+      "manual": "マニュアル",
+      "tips": "ヒント",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "ダウンロード"
     }
   }
 }

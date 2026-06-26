@@ -1,287 +1,289 @@
 {
   "trackLedger": {
-    "back": "Back to Home",
+    "back": "返回首页",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Track Ledger",
-      "subtitle": "Log GPS data",
-      "description": "Offline-first engineering GPS logger for mobile. Track Ledger records raw GNSS points for your paths—no smoothing. Set time- or distance-based sampling, pause and resume, then export from a track summary or the track list (CSV; GPX and GeoJSON with Premium). Use the Map tab to overlay tracks on OpenStreetMap tiles.",
-      "structuredDataDescription": "Track Ledger — offline-first GPS/GNSS track logger for iOS and Android. Record raw points, elevation profiles, OSM map overlay, export CSV (free) or GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger by Zuki Apps."
+      "title": "跟踪分类帐",
+      "subtitle": "记录GPS数据",
+      "description": "离线优先工程GPS移动记录器。 Track Ledger 记录您路径的原始 GNSS 点 - 不进行平滑处理。设置基于时间或距离的采样、暂停和恢复，然后从曲目摘要或曲目列表导出（CSV；GPX和GeoJSON以及Premium）。使用“地图”选项卡在 OpenStreetMap 图块上覆盖轨迹。",
+      "structuredDataDescription": "Track Ledger — 离线优先 GPS/GNSS iOS 和 Android 的跟踪记录器。记录原始点、高程剖面、OSM 地图叠加、导出 CSV（免费）或 GPX/GeoJSON (Premium)。 Android com.zuki.apps.trackledger，作者：Zuki Apps。",
+      "seoTitle": "追踪分类帐 — GPS 追踪记录器 | Zuki Apps",
+      "metaDescription": "记录GPS离线轨迹，导出GPX/CSV/GeoJSON。无需帐户。 iOS & Android 免费。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主要特点",
       "gnss": {
-        "title": "Recording & tracks",
-        "description": "Log raw GNSS fixes with control over how often points are stored.",
+        "title": "录音与曲目",
+        "description": "记录原始GNSS修复了对点存储频率的控制。",
         "items": [
-          "Time- or distance-based sampling",
-          "Pause, resume, and track summaries",
-          "Speed, distance, and accuracy at a glance"
+          "基于时间或距离的采样",
+          "暂停、恢复和跟踪摘要",
+          "速度、距离和准确性一目了然"
         ]
       },
       "export": {
-        "title": "Export & share",
-        "description": "Get your data out as standard formats and share from the track flow.",
+        "title": "导出和分享",
+        "description": "以标准格式获取数据并从跟踪流中共享。",
         "items": [
-          "CSV export on all tiers",
-          "GPX and GeoJSON with Premium",
-          "Share sheet integration"
+          "CSV 所有级别的导出",
+          "GPX 和 GeoJSON 以及 Premium",
+          "共享表集成"
         ]
       },
       "map": {
-        "title": "Map",
-        "description": "Visualize completed paths on familiar map tiles.",
+        "title": "地图",
+        "description": "在熟悉的地图图块上可视化完成的路径。",
         "items": [
-          "OpenStreetMap overlays",
-          "Select one or more tracks",
-          "Share map images"
+          "OpenStreetMap 叠加层",
+          "选择一首或多首曲目",
+          "分享地图图像"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "可用性",
       "description": "Native app for iOS and Android (bundle / application ID: com.zuki.apps.trackledger). Store links appear below when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "版本",
+      "status": "平台",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "下载",
       "description": "App Store and Google Play badges will appear here once the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/track-ledger-log-gps-data/id6762567364",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "下载App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.trackledger",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "获取Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要链接",
       "support": {
-        "title": "Technical Support",
+        "title": "技术支援",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Track Ledger. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2026 年 4 月",
+      "intro": "在使用 Track Ledger 之前，请仔细阅读这些使用条款。通过访问或使用我们的服务，您同意受这些条款的约束。如果您不同意，请不要使用该应用程序。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Track Ledger (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a GPS/GNSS track logging application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 接受条款",
+        "content": "这些使用条款（“条款”）管辖您对 Track Ledger（“服务”、“应用程序”、“我们”、“我们”或“我们的”）的访问和使用，Track Ledger 是由 Zuki Apps（“公司”）运营的 GPS/GNSS 轨迹记录应用程序。通过下载、安装、访问或使用服务，您同意受这些条款和我们的隐私政策的约束。",
+        "content2": "如果您代表某个组织使用服务，则您声明并保证您有权约束该组织遵守这些条款。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Track Ledger is a mobile application that records location-related data for paths you choose to log. The Service includes:",
+        "title": "2. 服务说明",
+        "content": "Track Ledger 是一款移动应用程序，可记录您选择记录的路径的位置相关数据。该服务包括：",
         "items": [
-          "Recording of GNSS/GPS fixes and related metadata (e.g. accuracy, speed) on your device",
-          "Configurable sampling (time- or distance-based), pause and resume, and track summaries",
-          "Export and sharing of track data (e.g. CSV; GPX and GeoJSON where enabled)",
-          "Map visualization using third-party map tiles (e.g. OpenStreetMap) for completed tracks",
-          "Optional in-app purchases or ads as described in the app"
+          "在您的设备上记录GNSS/GPS修复和相关元数据（例如准确性、速度）",
+          "可配置的采样（基于时间或距离）、暂停和恢复以及跟踪摘要",
+          "导出和共享轨迹数据（例如，CSV；GPX 和 GeoJSON（启用时））",
+          "使用第三方地图图块（例如 OpenStreetMap）对已完成的轨迹进行地图可视化",
+          "可选的应用内购买或广告（如应用中所述）"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 联系方式",
+        "content": "如果您对这些条款有任何疑问，请联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2026 年 4 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Track Ledger processes location data (GNSS/GPS) when you start recording, along with app settings and track metadata needed to run the app. Depending on your device and configuration, the app may use analytics or crash reporting to improve stability (often via third-party SDKs). Data you export or share is sent only when you explicitly choose export or share. Map tiles may be loaded from third-party providers when you use the Map feature."
+        "title": "1. 我们收集的信息",
+        "content": "当您开始录制时，Track Ledger 会处理位置数据 (GNSS/GPS)，以及应用程序设置和运行应用程序所需的跟踪元数据。根据您的设备和配置，应用程序可能会使用分析或崩溃报告来提高稳定性（通常通过第三方 SDK）。仅当您明确选择导出或共享时，才会发送您导出或共享的数据。当您使用地图功能时，可能会从第三方提供商加载地图图块。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information described above to provide recording, storage on your device, export/sharing features you trigger, and optional product improvement through aggregated diagnostics where enabled. We do not sell your personal track history as a product."
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用上述信息来提供记录、在您的设备上存储、您触发的导出/共享功能，以及通过启用聚合诊断进行可选的产品改进。我们不会将您的个人轨迹历史作为产品出售。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Data leaves your device when you export, share, or when required third-party services (e.g. map tile servers, app stores, analytics if enabled) process requests as part of normal app operation. See in-app notices and platform settings for controls where available."
+        "title": "3. 信息共享",
+        "content": "我们不会出售您的个人信息。当您导出、共享或需要第三方服务（例如地图切片服务器、app stores、分析（如果启用））作为正常应用操作的一部分处理请求时，数据就会离开您的设备。请参阅应用内通知和平台设置以了解可用的控件。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable measures appropriate to a mobile app. Track data is stored in app storage on your device; you should use device security (passcode, encryption) as recommended by your platform vendor."
+        "title": "4. 数据安全",
+        "content": "我们实施适合移动应用程序的合理措施。轨迹数据存储在您设备上的应用程序存储中；您应该按照平台供应商的建议使用设备安全性（密码、加密）。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, correct, or delete personal data, or to opt out of certain processing. You can delete tracks in the app, uninstall the app to remove local data, and contact us for privacy requests."
+        "title": "5. 您的权利",
+        "content": "根据您所在的地区，您可能有权访问、更正或删除个人数据，或选择退出某些处理。您可以删除应用程序中的曲目、卸载应用程序以删除本地数据，以及联系我们提出隐私请求。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 联系我们",
+        "content": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       },
       "metaDescription": "Track Ledger 的隐私政策 — GPS/GNSS 跟踪记录应用程序。如何处理位置数据、导出和可选分析。"
     },
     "footer": {
-      "copyright": "© 2026 Track Ledger - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 Track Ledger - 保留所有权利",
+      "tagline": "Zuki Apps 的一部分 • 来自以色列的开发商 • 由 ❤️ 制作"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "如何使用",
+      "tips": "尖端",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "下载"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Track Ledger.",
-      "featuresTitle": "App screens",
+      "title": "截图",
+      "subtitle": "来自 Track Ledger 的真实应用程序屏幕。",
+      "featuresTitle": "应用程序屏幕",
       "items": [
         {
-          "id": "recording",
-          "title": "Recording",
-          "description": "Live distance, speed, and accuracy while logging.",
+          "id": "记录",
+          "title": "记录",
+          "description": "记录时的实时距离、速度和准确性。",
           "image": "/images/track-ledger/screenshot-recording.png",
-          "alt": "Recording — track ledger",
-          "category": "features"
+          "alt": "记录——跟踪账本",
+          "category": "特征"
         },
         {
-          "id": "map",
-          "title": "Map overlay",
-          "description": "Review tracks on OpenStreetMap tiles.",
+          "id": "地图",
+          "title": "地图叠加",
+          "description": "查看 OpenStreetMap 图块上的轨迹。",
           "image": "/images/track-ledger/screenshot-map.png",
-          "alt": "Map overlay — track ledger",
-          "category": "features"
+          "alt": "地图覆盖——追踪账本",
+          "category": "特征"
         },
         {
-          "id": "summary",
-          "title": "Track summary",
-          "description": "Elevation vs distance and session stats.",
+          "id": "概括",
+          "title": "曲目摘要",
+          "description": "海拔与距离和会话统计数据。",
           "image": "/images/track-ledger/screenshot-summary.png",
-          "alt": "Track summary — track ledger",
-          "category": "features"
+          "alt": "轨迹总结——轨迹分类账",
+          "category": "特征"
         },
         {
-          "id": "settings",
-          "title": "Settings",
-          "description": "Sampling, projects, and export options.",
+          "id": "设置",
+          "title": "设置",
+          "description": "采样、项目和导出选项。",
           "image": "/images/track-ledger/screenshot-settings.png",
-          "alt": "Settings — track ledger",
-          "category": "features"
+          "alt": "设置——跟踪账本",
+          "category": "特征"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "如何使用",
       "steps": [
         {
           "number": "1",
-          "title": "Create a project",
-          "description": "Organize field work into named projects."
+          "title": "创建一个项目",
+          "description": "将现场工作组织成指定项目。"
         },
         {
           "number": "2",
-          "title": "Start recording",
-          "description": "Log raw GNSS points with your chosen sampling mode."
+          "title": "开始录音",
+          "description": "使用您选择的采样模式记录原始 GNSS 点。"
         },
         {
           "number": "3",
-          "title": "Review on map",
-          "description": "Inspect path, elevation chart, and accuracy."
+          "title": "在地图上查看",
+          "description": "检查路径、海拔图和准确性。"
         },
         {
           "number": "4",
-          "title": "Export data",
-          "description": "Share CSV free; GPX and GeoJSON with Premium."
+          "title": "导出数据",
+          "description": "免费分享CSV； GPX 和 GeoJSON 以及 Premium。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "常见问题",
+      "subtitle": "有关功能、隐私和计费的快速解答。",
+      "viewAllSupport": "查看完整支持 & FAQ",
       "items": [
         {
-          "question": "What is Track Ledger?",
-          "answer": "A simple GPS / GNSS track logger focused on data export and field use. It records your path as raw points with optional time- or distance-based sampling."
+          "question": "什么是追踪账本？",
+          "answer": "一个简单的 GPS / GNSS 轨迹记录器，专注于数据导出和现场使用。它通过可选的基于时间或距离的采样将您的路径记录为原始点。"
         },
         {
-          "question": "Is it a fitness or social app?",
-          "answer": "No. There are no leaderboards, workouts, or social feeds. It's built for people who need reliable location logs and file exports."
+          "question": "它是健身应用程序还是社交应用程序？",
+          "answer": "不。没有排行榜、锻炼或社交信息。它是为需要可靠的位置日志和文件导出的人们而构建的。"
         },
         {
-          "question": "Do I need an account?",
-          "answer": "No. Everything is stored locally on your device."
+          "question": "我需要一个帐户吗？",
+          "answer": "不会。所有内容都存储在您的本地设备上。"
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Yes. Recording and viewing saved tracks work without internet. The Map tab needs network to load OpenStreetMap tiles."
+          "question": "可以离线使用吗？",
+          "answer": "是的。无需互联网即可录制和查看已保存的曲目。地图选项卡需要网络来加载 OpenStreetMap 图块。"
         },
         {
-          "question": "When does the app use my location?",
-          "answer": "Only while you have an active recording (and optionally in the background if you have Premium and background recording enabled)."
+          "question": "该应用程序何时使用我的位置？",
+          "answer": "仅当您正在进行活动录制时（如果您启用了 Premium 并启用了后台录制，则可以选择在后台进行录制）。"
         },
         {
-          "question": "Why did recording pause when I switched apps?",
-          "answer": "On the free plan, new GPS points are logged only while Track Ledger is in the foreground. Premium with background recording enabled continues logging when you leave the app."
+          "question": "为什么切换应用程序时录音会暂停？",
+          "answer": "在免费计划中，仅当 Track Ledger 位于前台时才会记录新的 GPS 点。 Premium 启用后台录制后，当您离开应用程序时会继续记录。"
         },
         {
-          "question": "What does \"raw GNSS, no smoothing\" mean?",
-          "answer": "Points are saved as the device reports them. We don't apply a smoothing filter — you get the honest trace for your own analysis."
+          "question": "“原始GNSS，无平滑”是什么意思？",
+          "answer": "点在设备报告时保存。我们不应用平滑过滤器——您会得到诚实的跟踪供您自己分析。"
         },
         {
-          "question": "How many tracks can I save?",
-          "answer": "Free: up to 10 completed tracks. Premium: unlimited (or a higher cap you choose in Settings)."
+          "question": "我可以保存多少曲目？",
+          "answer": "免费：最多 10 个已完成的曲目。 Premium：无限制（或您在“设置”中选择的更高上限）。"
         },
         {
-          "question": "What happens when the ledger is full?",
-          "answer": "In Settings → Ledger you choose: automatically remove oldest tracks, or refuse new recordings until you delete tracks manually."
+          "question": "当账本已满时会发生什么？",
+          "answer": "在“设置”→“分类帐”中，您可以选择：自动删除最旧的曲目，或拒绝新的录音，直到您手动删除曲目。"
         },
         {
-          "question": "Which formats are free?",
-          "answer": "CSV export and share are always available."
+          "question": "哪些格式是免费的？",
+          "answer": "CSV 导出和共享始终可用。"
         },
         {
-          "question": "Which formats need Premium?",
-          "answer": "GPX and GeoJSON."
+          "question": "哪些格式需要Premium？",
+          "answer": "GPX 和 GeoJSON。"
         },
         {
-          "question": "Can I share a track to another app?",
-          "answer": "Yes — use Share from track summary or Ledger. The system share sheet opens (Mail, Files, AirDrop, etc.)."
+          "question": "我可以将曲目分享给其他应用程序吗？",
+          "answer": "是的 - 使用来自跟踪摘要或 Ledger 的共享。系统共享表打开（邮件、文件、AirDrop 等）。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "提示和技巧",
+      "subtitle": "从应用程序中获取更多信息。",
       "items": [
         {
-          "title": "GPS quality",
-          "description": "Wait for a good fix before tapping Start — check GPS accuracy on the recording screen. - Open sky beats urban canyons and dense tree cover. - Raw points are logged without smoothing — if accuracy is poor, you'll see it in the data (by design)."
+          "title": "GPS质量",
+          "description": "在点击“开始”之前等待良好的修复 - 在录制屏幕上检查 GPS 准确性。 - 开阔的天空击败城市峡谷和茂密的树木。 - 记录原始点时未进行平滑处理 - 如果准确性较差，您会在数据中看到它（按设计）。"
         },
         {
-          "title": "Sampling strategy",
-          "description": "| Scenario | Suggested setting | |----------|-------------------| | Walking / hiking | Time: every 5–10 s | | Driving / vehicle survey | Distance: every 25–50 m | | Long battery life | Wider intervals (time or distance) | | Detailed path capture | Tighter intervals (more points, larger files) |"
+          "title": "抽样策略",
+          "description": "|场景 |建议设置 | |----------|--------------------| |步行/远足 |时间：每 5-10 秒 | |驾驶/车辆调查|距离：每 25–50 m | |电池寿命长att |更宽的间隔（时间或距离）| |详细路径捕捉 |更紧密的间隔（更多点，更大的文件）|"
         },
         {
           "title": "Battery",
-          "description": "Enable Keep screen on only when you need to watch the screen continuously. - Wider sampling intervals reduce CPU and GPS wakeups. - Background recording (Premium) uses more battery — expected for continuous logging."
+          "description": "仅当您需要连续观看屏幕时才启用保持屏幕打开。 - 更宽的采样间隔可减少 CPU 和 GPS 唤醒。 - 后台记录 (Premium) 使用更多 battery — 预计用于连续记录。"
         },
         {
-          "title": "Field workflow",
-          "description": "1. Create a project per job site or client. 2. Record with a consistent sampling preset per project type. 3. Export CSV in the field for quick checks; use GPX/GeoJSON back at the office. 4. Use Map tab to compare multiple passes on the same corridor."
+          "title": "现场工作流程",
+          "description": "1. 为每个工作地点或客户创建一个项目。 2. 根据项目类型使用一致的采样预设进行记录。 3、导出CSV现场快速检查；回到办公室使用GPX/GeoJSON。 4. 使用“地图”选项卡比较同一走廊上的多个通道。"
         },
         {
-          "title": "Data hygiene",
-          "description": "Rename tracks right after stop while context is fresh. - Delete test runs so you don't hit the free-tier ledger limit. - Premium users: set max completed tracks and when full policy before long field seasons."
+          "title": "数据卫生",
+          "description": "停止后立即重命名曲目，同时上下文是新鲜的。 - 删除测试运行，这样您就不会达到免费套餐的分类帐限制。 - Premium 用户：设置最大完成赛道以及在漫长的野外季节之前的满政策。"
         },
         {
-          "title": "Exports & GIS",
-          "description": "CSV — columns include coordinates, time, elevation (as logged). Open in Excel, Python, R. - GPX — import to QGIS, Gaia GPS, or custom pipelines. - GeoJSON — drop into web maps or `ogr2ogr` workflows."
+          "title": "出口和地理信息系统",
+          "description": "CSV — 列包括坐标、时间、海拔（按记录）。在 Excel、Python、R 中打开。 - GPX — 导入到 QGIS、Gaia GPS 或自定义管道。 - GeoJSON — 放入网络地图或 `ogr2ogr` 工作流程中。"
         },
         {
-          "title": "Premium worth it if you…",
-          "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
+          "title": "Premium 值得，如果你...",
+          "description": "使用相机或笔记应用程序时需要后台记录 - 定期导出到 GPX 或 GeoJSON - 想要在固定距离或固定持续时间内自动停止 - 记录超过 10 个已完成的曲目 一次性购买 - 无需订阅。"
         }
       ]
     },

@@ -6,7 +6,9 @@
       "title": "Bit Scope - ビット＆数値計算機",
       "subtitle": "ビットレベルインスペクターとコンバーター",
       "description": "開発者、エンジニア、学生向けの強力なビットレベルインスペクターとコンバーター。複数の数値システムとフォーマットでビットレベルで数値を可視化、操作、変換します。",
-      "structuredDataDescription": "Bit Scope — bit-level calculator for developers and students on iOS and Android. Binary, octal, decimal, hex, IEEE 754, CRC32, hashes, bit canvas, batch convert, widgets. Android com.zuki.apps.bitscope by Zuki Apps."
+      "structuredDataDescription": "Bit Scope — iOS と Android の開発者と学生のためのビットレベルの計算機。 2進数、8進数、10進数、16進数、IEEE 754、CRC32、ハッシュ、ビットキャンバス、バッチ変換、ウィジェット。 Android com.zuki.apps.bitscope 作成者: Zuki Apps。",
+      "seoTitle": "Bit Scope — 開発者番号ツール | Zuki Apps",
+      "metaDescription": "デバイス上のビット、基数、バイナリ演算を検査します。開発者向けに構築されています。 iOS と Android は無料です。"
     },
     "features": {
       "title": "主な機能",
@@ -100,54 +102,54 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "サポートとヘルプ",
+      "subtitle": "私たちがお手伝いします！よくある質問への回答を見つけるか、直接お問い合わせください。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "お問い合わせ",
+        "description": "ご質問がありますか、サポートが必要ですか?メールをお送りください。できるだけ早くご連絡いたします。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "クイックリンク",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "プライバシーポリシー",
+          "description": "データをどのように保護するかをご覧ください"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "利用規約",
+          "description": "利用規約をお読みください"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "よくある質問",
         "q1": {
-          "question": "What number formats does Bit Scope support?",
-          "answer": "Bit Scope supports 8-bit, 16-bit, 32-bit, and 64-bit integers, as well as Float16, Float32, and Float64 floating-point formats with full IEEE 754 compliance."
+          "question": "Bit Scope はどのような数値形式をサポートしていますか?",
+          "answer": "Bit Scope は、8 ビット、16 ビット、32 ビット、および 64 ビットの整数に加え、IEEE 754 に完全準拠した Float16、Float32、および Float64 浮動小数点形式をサポートします。"
         },
         "q2": {
-          "question": "Can I perform bitwise operations?",
-          "answer": "Yes! Bit Scope supports AND, OR, XOR, and NOT bitwise operations. You can use a second operand (B) to perform operations with your primary value (A)."
+          "question": "ビット単位の演算は実行できますか?",
+          "answer": "はい！ Bit Scope は、AND、OR、XOR、および NOT ビット単位の演算をサポートします。 2 番目のオペランド (B) を使用して、主な値 (A) で演算を実行できます。"
         },
         "q3": {
-          "question": "What number bases are supported?",
-          "answer": "Bit Scope supports Binary (BIN), Octal (OCT), Decimal (DEC), and Hexadecimal (HEX) number bases. You can input and display values in any of these bases with real-time conversion."
+          "question": "どのような基数がサポートされていますか?",
+          "answer": "Bit Scope は、2 進数 (BIN)、8 進数 (OCT)、10 進数 (DEC)、および 16 進数 (HEX) の基数をサポートします。リアルタイム変換を使用して、これらの基数のいずれかに値を入力および表示できます。"
         },
         "q4": {
-          "question": "Does Bit Scope work offline?",
-          "answer": "Yes! Bit Scope works completely offline. No internet connection is required. All calculations are performed locally on your device using BigInt for integers and IEEE 754 standards for floating-point numbers."
+          "question": "Bit Scope はオフラインでも動作しますか?",
+          "answer": "はい！ Bit Scope は完全にオフラインで動作します。インターネット接続は必要ありません。すべての計算は、整数には BigInt を、浮動小数点数には IEEE 754 標準を使用して、デバイス上でローカルに実行されます。"
         },
         "q5": {
-          "question": "What is the IEEE 754 breakdown feature?",
-          "answer": "The IEEE 754 breakdown provides a visual representation of floating-point number components, showing the sign bit, exponent, and mantissa separately. This is helpful for understanding how floating-point numbers are stored and represented."
+          "question": "IEEE 754 ブレークダウン機能とは何ですか?",
+          "answer": "IEEE 754 の内訳は、浮動小数点数のコンポーネントを視覚的に表現し、符号ビット、指数、仮数を個別に示します。これは、浮動小数点数がどのように保存され表現されるかを理解するのに役立ちます。"
         },
         "q6": {
-          "question": "Can I change endianness and bit order?",
-          "answer": "Yes! Bit Scope allows you to switch between Big Endian (BE) and Little Endian (LE) byte ordering, as well as choose between MSB (Most Significant Bit) and LSB (Least Significant Bit) bit order for display."
+          "question": "エンディアンとビット順序を変更できますか?",
+          "answer": "はい！ Bit Scope を使用すると、ビッグ エンディアン (BE) とリトル エンディアン (LE) のバイト順序を切り替えたり、表示のビット順序を MSB (最上位ビット) と LSB (最下位ビット) から選択したりできます。"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "さらにサポートが必要ですか?",
+        "description": "探している答えが見つからない場合、または技術的な問題が発生した場合は、お気軽にお問い合わせください。通常 24 ～ 48 時間以内に対応させていただきます。"
       },
       "metaTitle": "サポートとヘルプ — Bit Scope | Zuki Apps",
       "metaDescription": "Bit Scope FAQ およびサポート - オシロスコープと信号分析。連絡先、プライバシー、トラブルシューティング。"
@@ -157,231 +159,231 @@
       "tagline": "Zuki Appsの一部 • イスラエルの開発者 • ❤️で作成"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Bit Scope. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "利用規約",
+      "lastUpdated": "最終更新日: 2025 年 1 月",
+      "intro": "Bit Scope を使用する前に、これらの利用規約をよくお読みください。当社のサービスにアクセスまたは使用すると、これらの規約に拘束されることに同意したものとみなされます。これらの条件に同意できない場合は、当社のサービスを使用しないでください。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Bit Scope (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a bit-level calculator and number converter application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 規約への同意",
+        "content": "これらの利用規約 (「規約」) は、Zuki Apps (「会社」) が運営するビットレベルの計算機および数値変換アプリケーションである Bit Scope (「サービス」、「アプリ」、「当社」、「当社」) へのアクセスおよび使用を規定します。サービスをダウンロード、インストール、アクセス、または使用することにより、お客様は本規約および当社のプライバシー ポリシーに拘束されることに同意したものとみなされます。",
+        "content2": "あなたが組織を代表して本サービスを使用している場合、あなたはその組織を本規約に拘束する権限を持っていることを表明し、保証するものとします。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Bit Scope is a mobile application that provides bit-level number inspection and conversion functionality. The Service includes:",
+        "title": "2. サービスの説明",
+        "content": "Bit Scope は、ビットレベルの数値検査および変換機能を提供するモバイル アプリケーションです。サービスには以下が含まれます:",
         "items": [
-          "Interactive bit editor with visual bit grid",
-          "Multiple number format support (8-bit, 16-bit, 32-bit, 64-bit integers and Float16, Float32, Float64)",
-          "Number base conversion (Binary, Octal, Decimal, Hexadecimal)",
-          "Bitwise operations (AND, OR, XOR, NOT)",
-          "IEEE 754 floating-point breakdown",
-          "Endianness and bit order configuration",
-          "Real-time conversion between formats and bases"
+          "視覚的なビットグリッドを備えたインタラクティブなビットエディター",
+          "複数の数値形式のサポート (8 ビット、16 ビット、32 ビット、64 ビット整数および Float16、Float32、Float64)",
+          "基数変換（2進数、8進数、10進数、16進数）",
+          "ビット演算 (AND、OR、XOR、NOT)",
+          "IEEE 754 浮動小数点の内訳",
+          "エンディアンネスとビット順序の構成",
+          "フォーマットとベース間のリアルタイム変換"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 連絡先情報",
+        "content": "これらの規約についてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Bit Scope is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+        "title": "1. 当社が収集する情報",
+        "content": "Bit Scope はプライバシーを考慮して設計されています。サービスを提供するために必要な最小限の情報を収集します。アプリは完全にオフラインで動作し、すべてのデータをデバイス上にローカルに保存します。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. All calculations and conversions are performed locally on your device and are not transmitted to our servers."
+        "title": "2. お客様の情報の使用方法",
+        "content": "当社は収集した情報を使用して、サービスを提供、維持、改善します。すべての計算と変換はデバイス上でローカルに実行され、当社のサーバーには送信されません。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your calculation data remains on your device and is only accessible to you."
+        "title": "3. 情報共有",
+        "content": "当社は、お客様の個人情報を第三者に販売、取引、またはその他の方法で譲渡することはありません。計算データはデバイス上に残り、あなただけがアクセスできます。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+        "title": "4. データセキュリティ",
+        "content": "当社はお客様の情報を保護するために適切なセキュリティ対策を実施しています。すべてのデータは、デバイス上のアプリのプライベート ディレクトリにローカルに保存され、他のアプリからはアクセスできません。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your data at any time. You may also uninstall the app at any time, which will remove all locally stored data."
+        "title": "5. お客様の権利",
+        "content": "あなたには、いつでも自分のデータにアクセス、更新、削除する権利があります。アプリはいつでもアンインストールできます。アンインストールすると、ローカルに保存されているデータがすべて削除されます。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. お問い合わせ",
+        "content": "このプライバシー ポリシーについてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       },
       "metaDescription": "Bit Scope プライバシー ポリシー — iOS および Android におけるお客様のデータの取り扱い方法。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特徴",
+      "screenshots": "スクリーンショット",
+      "howTo": "使用方法",
+      "tips": "ヒント",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "ダウンロード"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Bit Scope - Bit & Number Calculator.",
-      "featuresTitle": "App screens",
+      "title": "スクリーンショット",
+      "subtitle": "Bit Scope - Bit & Number Calculator の実際のアプリ画面。",
+      "featuresTitle": "アプリ画面",
       "items": [
         {
-          "id": "calculator",
-          "title": "Calculator",
-          "description": "Convert and inspect values across number bases and bit widths.",
+          "id": "電卓",
+          "title": "電卓",
+          "description": "基数およびビット幅全体で値を変換および検査します。",
           "image": "/images/bit-scope/screenshot-calculator.png",
-          "alt": "Calculator — bit scope",
-          "category": "features"
+          "alt": "電卓 — bit scope",
+          "category": "特徴"
         },
         {
-          "id": "canvas",
-          "title": "Bit canvas",
-          "description": "Flip bits on a live canvas and copy results in one tap.",
+          "id": "キャンバス",
+          "title": "ビットキャンバス",
+          "description": "ライブ キャンバス上でビットを反転し、ワンタップで結果をコピーします。",
           "image": "/images/bit-scope/screenshot-canvas.png",
-          "alt": "Bit canvas — bit scope",
-          "category": "features"
+          "alt": "ビットキャンバス — bit scope",
+          "category": "特徴"
         },
         {
-          "id": "converters",
-          "title": "Converters",
-          "description": "IEEE 754, CRC, hash, and more engineering utilities.",
+          "id": "コンバーター",
+          "title": "コンバーター",
+          "description": "IEEE 754、CRC、ハッシュ、その他のエンジニアリング ユーティリティ。",
           "image": "/images/bit-scope/screenshot-converters.png",
-          "alt": "Converters — bit scope",
-          "category": "features"
+          "alt": "コンバーター — bit scope",
+          "category": "特徴"
         },
         {
-          "id": "utilities",
-          "title": "Utilities",
-          "description": "Premium tools for power users — one-time unlock.",
+          "id": "公共事業",
+          "title": "公共事業",
+          "description": "パワー ユーザー向けのPremium ツール — 1 回限りのロック解除。",
           "image": "/images/bit-scope/screenshot-utilities.png",
-          "alt": "Utilities — bit scope",
-          "category": "features"
+          "alt": "公共事業 — bit scope",
+          "category": "特徴"
         },
         {
-          "id": "widgets",
-          "title": "Widgets",
-          "description": "Home-screen widgets for quick conversions.",
+          "id": "ウィジェット",
+          "title": "ウィジェット",
+          "description": "素早い変換のためのホーム画面ウィジェット。",
           "image": "/images/bit-scope/screenshot-widgets.png",
-          "alt": "Widgets — bit scope",
-          "category": "features"
+          "alt": "ウィジェット — bit scope",
+          "category": "特徴"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "使用方法",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a format",
-          "description": "Choose binary, octal, decimal, or hex and your bit width."
+          "title": "形式を選択してください",
+          "description": "2 進数、8 進数、10 進数、または 16 進数とビット幅を選択します。"
         },
         {
           "number": "2",
-          "title": "Enter a value",
-          "description": "Type or paste — results update instantly across representations."
+          "title": "値を入力してください",
+          "description": "入力または貼り付け — 結果は表現全体で即座に更新されます。"
         },
         {
           "number": "3",
-          "title": "Use the canvas",
-          "description": "Tap bits to flip them and see the value change live."
+          "title": "キャンバスを使用する",
+          "description": "ビットをタップして反転し、値の変化をライブで確認します。"
         },
         {
           "number": "4",
-          "title": "Copy or export",
-          "description": "One-tap copy, history, and batch convert when you need more."
+          "title": "コピーまたはエクスポート",
+          "description": "さらに必要な場合は、ワンタップでコピー、履歴、バッチ変換を実行できます。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "よくある質問",
+      "subtitle": "機能、プライバシー、請求に関する簡単な回答。",
+      "viewAllSupport": "フルサポートを見る & FAQ",
       "items": [
         {
-          "question": "What is Bit Scope?",
-          "answer": "Bit Scope is a bit-level calculator and converter for developers. It converts between binary, octal, decimal, and hex; supports IEEE 754 floats; includes bitwise operations; and bundles converters and (with Premium) utilities like CRC and hash."
+          "question": "Bit Scopeとは何ですか?",
+          "answer": "Bit Scope は、開発者向けのビットレベルの計算機およびコンバーターです。 2 進数、8 進数、10 進数、16 進数の間で変換します。 IEEE 754 フロートをサポートします。ビット単位の演算が含まれます。コンバーターと (Premium を含む) CRC やハッシュなどのユーティリティがバンドルされています。"
         },
         {
-          "question": "Is Bit Scope free?",
-          "answer": "Yes. The calculator, bitwise tools, converters, history, and learning examples are free. Premium is a one-time purchase that removes ads and unlocks the Utilities tab."
+          "question": "Bit Scopeは無料ですか?",
+          "answer": "はい。計算機、ビットごとのツール、コンバーター、履歴、学習サンプルは無料です。 Premium は 1 回限りの購入で、広告が削除され、[ユーティリティ] タブのロックが解除されます。"
         },
         {
-          "question": "Is Premium a subscription?",
-          "answer": "No. Premium is a one-time in-app purchase. Future Premium-only tools are included without a recurring fee."
+          "question": "Premium は定期購入ですか?",
+          "answer": "いいえ、Premium は 1 回限りのアプリ内購入です。今後の Premium 専用ツールは、定期料金なしで含まれています。"
         },
         {
-          "question": "Which platforms are supported?",
-          "answer": "iPhone and iPad (iOS). Android availability follows your Google Play listing. See store links on [zukiapps.com/bit-scope](https://zukiapps.com/bit-scope)."
+          "question": "どのプラットフォームがサポートされていますか?",
+          "answer": "iPhone と iPad (iOS)。 Android の在庫状況は Google Play のリストに従います。 [zukiapps.com/bit-scope](https://zukiapps.com/bit-scope)のストアリンクをご覧ください。"
         },
         {
-          "question": "What languages are supported?",
-          "answer": "12 base languages with regional variants (e.g. en-US, pt-BR, zh-Hans). Hebrew and Arabic include full RTL layout."
+          "question": "どの言語がサポートされていますか?",
+          "answer": "地域ごとに異なる 12 の基本言語 (en-US、pt-BR、zh-Hans など)。ヘブライ語とアラビア語には完全な RTL レイアウトが含まれています。"
         },
         {
-          "question": "How do I open the bit canvas?",
-          "answer": "On the Calculator tab, open the bit grid preview or modal (tap the grid / bit visualization control). Tap any bit to toggle it; values update across all representations."
+          "question": "ビットキャンバスを開くにはどうすればよいですか?",
+          "answer": "[計算機] タブで、ビット グリッド プレビューまたはモーダルを開きます (グリッド/ビット視覚化コントロールをタップします)。任意のビットをタップして切り替えます。値はすべての表現にわたって更新されます。"
         },
         {
-          "question": "What is MSB vs LSB bit order?",
-          "answer": "MSB lists bits from most significant to least. LSB reverses the visual order. Choose the view that matches your datasheet or protocol diagram."
+          "question": "MSB と LSB のビット順序は何ですか?",
+          "answer": "MSB には、最上位ビットから最下位ビットまでがリストされます。 LSB は視覚的な順序を逆にします。データシートまたはプロトコル図に一致するビューを選択してください。"
         },
         {
-          "question": "What endianness settings do?",
-          "answer": "Big-endian stores the most significant byte first; little-endian stores the least significant byte first. Bit Scope shows how your integer maps to bytes for each mode."
+          "question": "エンディアン設定はどのようなことを行うのでしょうか?",
+          "answer": "ビッグエンディアンでは、最上位バイトが最初に格納されます。リトルエンディアンは、最下位バイトを最初に格納します。 Bit Scope は、整数が各モードのバイトにどのようにマッピングされるかを示します。"
         },
         {
-          "question": "Can I use custom bit widths?",
-          "answer": "Yes. Select a preset (8, 16, 32, 64) or enter a custom width (within app limits) for masks and registers that are not power-of-two aligned."
+          "question": "カスタムのビット幅を使用できますか?",
+          "answer": "はい。プリセット (8、16、32、64) を選択するか、2 のべき乗で整列されていないマスクとレジスターのカスタム幅 (アプリの制限内) を入力します。"
         },
         {
-          "question": "How does copy work?",
-          "answer": "Tap the copy icon on a result card or tool output. Text is copied without extra spaces (e.g. binary groups may be stripped per field). A checkmark confirms success."
+          "question": "コピーはどのように機能しますか?",
+          "answer": "結果カードまたはツール出力のコピー アイコンをタップします。テキストは余分なスペースなしでコピーされます (たとえば、バイナリ グループはフィールドごとに削除される場合があります)。チェックマークは成功を確認します。"
         },
         {
-          "question": "Which tools are free vs Premium?",
-          "answer": "Free: Base64, color picker, timestamp, value comparator, batch converter—and all calculator features. Premium: CRC, hash, ASCII/Unicode viewer, QR generator, hex dump—and adding utility tools to custom widgets."
+          "question": "Premium と比較して無料のツールはどれですか?",
+          "answer": "無料: Base64、カラー ピッカー、タイムスタンプ、値コンパレーター、バッチ コンバーター、およびすべての電卓機能。 Premium: CRC、ハッシュ、ASCII/Unicode ビューア、QR ジェネレーター、16 進数ダンプ、およびカスタム ウィジェットへのユーティリティ ツールの追加。"
         },
         {
-          "question": "Why does CRC say input is too large?",
-          "answer": "Very large inputs can exceed safe calculation limits on device. Shorten the input or split the data block. Bit Scope shows a clear message instead of failing silently."
+          "question": "CRC が入力が大きすぎると言うのはなぜですか?",
+          "answer": "非常に大きな入力は、デバイス上の安全な計算制限を超える可能性があります。入力を短くするか、データ ブロックを分割します。 Bit Scope は、サイレントに失敗するのではなく、明確なメッセージを表示します。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "ヒントとコツ",
+      "subtitle": "アプリをさらに活用しましょう。",
       "items": [
         {
-          "title": "Calculator",
-          "description": "1. Set width before paste — Pasting `0xFFFF` into 16-bit mode behaves differently than 32-bit. 2. Endian toggle for protocol bugs — Flip BE/LE when a register looks “byte-swapped”. 3. Gray code — Use for encoder / rotary sensor homework or validation. 4. Float switch — Jump INT → F32 to decode IEEE 754 from the same bit pattern. 5. History export — Snapshot a debug session before clearing the chip"
+          "title": "電卓",
+          "description": "1. 貼り付ける前に幅を設定します — `0xFFFF` を 16 ビット モードに貼り付けると、32 ビット モードとは異なる動作が行われます。 2. プロトコル バグのエンディアン切り替え — レジスタが「バイト スワップ」されているように見える場合、BE/LE を反転します。 3. グレー コード — エンコーダー/ロータリー センサーの宿題または検証に使用します。 4. フロート スイッチ — INT → F32 にジャンプして、同じビット pattern から IEEE 754 をデコードします。 5. 履歴のエクスポート — チップをクリアする前にデバッグ セッションのスナップショットを作成します。"
         },
         {
-          "title": "Bit canvas",
-          "description": "6. Tap don't type — Mask tweaks (set bit 7) are faster on the grid than hex math. 7. Sign bit first — In signed 8-bit, bit 7 is your quick sanity check for negatives."
+          "title": "ビットキャンバス",
+          "description": "6. 「入力しない」をタップします — マスクの調整 (ビット 7 を設定) は、16 進数計算よりもグリッド上で高速です。 7. ビットを最初に署名します — 符号付き 8 ビットでは、ビット 7 がネガティブな健全性を簡単にチェックします。"
         },
         {
-          "title": "Copy workflow",
-          "description": "8. Checkmark = shipped — Wait for the icon before switching apps. 9. Paste once — Verify hex has no stray spaces before `gcc` or `xxd`."
+          "title": "コピーワークフロー",
+          "description": "8. チェックマーク = 出荷済み — アプリを切り替える前にアイコンが表示されるまで待ちます。 9. 1 回貼り付け — hex の「gcc」または「xxd」の前に空きスペースがないことを確認します。"
         },
         {
-          "title": "Converters",
-          "description": "10. RAL colors — Firmware UI teams: match enclosure paint chips to RGB for docs. 11. Timestamp now — Tap current-time shortcut (if shown) for log correlation. 12. Comparator — Diff two hex constants side by side before merging branches."
+          "title": "コンバーター",
+          "description": "10. RAL カラー — ファームウェア UI チーム: ドキュメント用にエンクロージャのペイント チップを RGB に一致させます。 11. 今すぐタイムスタンプ — ログ相関のための現在の時刻のショートカット (表示されている場合) をタップします。 12. コンパレータ — ブランチをマージする前に、2 つの 16 進定数を並べて比較します。"
         },
         {
-          "title": "Utilities (Premium)",
-          "description": "13. CRC test vectors — Keep `123456789` and `Hello` strings as mental benchmarks. 14. Hex dump import — Paste a snippet from `xxd` to inspect structure. 15. QR for Wi-Fi or URL — Field provisioning without a laptop."
+          "title": "ユーティリティ (Premium)",
+          "description": "13. CRC テスト ベクトル — 精神的なベンチマークとして `123456789` および `Hello` 文字列を保持します。 14. 16 進ダンプのインポート — `xxd` からスニペットを貼り付けて構造を検査します。 15. Wi-Fi または URL の QR — ラップトップを使用しないフィールド プロビジョニング。"
         },
         {
-          "title": "Widgets & layout",
-          "description": "16. Three-tool board — Calculator tab + Widgets with Timestamp + Base64 covers 80% of bring-up. 17. iPad rail — Landscape uses side navigation—more vertical space for hex dump."
+          "title": "ウィジェットとレイアウト",
+          "description": "16. 3 つのツール ボード — 電卓タブ + タイムスタンプ付きウィジェット + Base64 が起動の 80% をカバーします。 17. iPad レール — ランドスケープではサイド ナビゲーションが使用され、16 進ダンプ用に垂直方向のスペースが増加します。"
         },
         {
-          "title": "Settings",
-          "description": "18. Dark theme default — Easier on eyes during late firmware sessions; light for outdoor. 19. Language per device — System language vs in-app override for bilingual teams. 20. Learn tab — Send interns to Settings → Learn before asking about two's complement."
+          "title": "設定",
+          "description": "18. ダークテーマのデフォルト — ファームウェアセッションの後半で目に優しくなります。アウトドア用のライト。 19. デバイスごとの言語 — バイリンガル チーム向けのシステム言語とアプリ内オーバーライド。 20. 「学習」タブ — インターンを「設定」→「2 の補数について質問する前に学習」に送信します。"
         },
         {
           "title": "Premium",

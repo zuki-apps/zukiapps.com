@@ -1,282 +1,284 @@
 {
   "paratrooperBlitz": {
-    "back": "Back to Home",
+    "back": "ホームに戻る",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Paratrooper Blitz",
-      "subtitle": "Classic arcade action",
-      "description": "Arcade-style mobile game: destroy aircraft and paratroopers before they land. Two control modes (Arcade and Classic DOS), scoring, career ranks, optional ads and in-app purchases, and Google Play Games / Game Center integrations on supported builds.",
-      "structuredDataDescription": "Paratrooper Blitz — retro anti-air arcade for iOS and Android. Arcade slide-and-shoot and Classic aim-and-fire modes, leaderboards, 14 achievements, 12 languages. Android com.zuki.apps.paratrooperblitz by Zuki Apps."
+      "title": "空挺部隊ブリッツ",
+      "subtitle": "古典的なアーケードアクション",
+      "description": "アーケード スタイルのモバイル ゲーム: 航空機と空挺部隊が着陸する前に破壊します。 2 つのコントロール モード (アーケードとクラシック DOS)、スコアリング、キャリア ランク、オプションの広告とアプリ内購入、サポートされているビルドでの Google Play ゲーム / Game Center の統合。",
+      "structuredDataDescription": "Paratrooper Blitz — iOS および Android 用のレトロな対空アーケード。アーケードのスライド アンド シュート モードとクラシック エイム アンド ファイア モード、リーダーボード、14 の実績、12 の言語。 Android com.zuki.apps.paratrooperblitz by Zuki Apps。",
+      "seoTitle": "パラトルーパー ブリッツ — アーケード アクション | Zuki Apps",
+      "metaDescription": "スコアとリーダーボードを備えた古典的な空挺部隊のアーケード。 iOS と Android は無料 — 今すぐプレイしてください。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主な特長",
       "modes": {
-        "title": "Two ways to play",
-        "description": "Pick the control scheme that fits you — fast arcade movement or classic rotation aiming.",
+        "title": "2つの遊び方",
+        "description": "アーケードの高速移動や古典的な回転照準など、自分に合った制御スキームを選択してください。",
         "items": [
-          "Arcade mode: move the turret left and right",
-          "Classic DOS mode: rotate and aim",
-          "Keyboard hints on supported platforms"
+          "アーケードモード: 砲塔を左右に動かします",
+          "クラシック DOS モード: 回転して狙いを定める",
+          "サポートされているプラ​​ットフォームのキーボードのヒント"
         ]
       },
       "action": {
-        "title": "Scores & career rank",
-        "description": "Chase high scores and progress through themed military-style ranks as you play.",
+        "title": "スコアとキャリアランク",
+        "description": "ハイスコ​​アを追い求め、プレイしながらテーマに沿った軍事スタイルのランクを上げていきましょう。",
         "items": [
-          "Session scoring with aircraft and paratrooper hits",
-          "Career rank progression",
-          "Game over flow with play-again"
+          "航空機と空挺部隊のヒットによるセッションスコアリング",
+          "キャリアランクの進行",
+          "やり直しによるゲームオーバーの流れ"
         ]
       },
       "social": {
-        "title": "Leaderboards & achievements",
-        "description": "Where signed in, use platform services for rankings and achievements as configured in the app.",
+        "title": "リーダーボードと実績",
+        "description": "サインインしている場合は、アプリで設定されているランキングと実績のプラットフォーム サービスを使用します。",
         "items": [
-          "Global and friends-style lists where available",
-          "Native leaderboard and achievement UIs",
-          "Firebase Analytics/Crashlytics may apply for stability"
+          "グローバルおよびフレンド形式のリスト（利用可能な場合）",
+          "ネイティブのリーダーボードと実績 UI",
+          "Firebase Analytics/Crashlytics は安定性を確保するために適用される場合があります"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "可用性",
       "description": "iOS and Android. Android application ID: com.zuki.apps.paratrooperblitz. Store links appear when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "バージョン",
+      "status": "プラットフォーム",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "ダウンロード",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/paratrooper-blitz/id6763775995",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "App Store からダウンロードしてください",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.paratrooperblitz",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Google Play で入手"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要なリンク",
       "support": {
-        "title": "Technical Support",
+        "title": "テクニカルサポート",
         "email": "support@zukiapps.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Paratrooper Blitz. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the game.",
+      "title": "利用規約",
+      "lastUpdated": "最終更新日: 2026 年 4 月",
+      "intro": "Paratrooper Blitz を使用する前に、これらの利用規約をよくお読みください。当社のサービスにアクセスまたは使用すると、これらの規約に拘束されることに同意したものとみなされます。同意できない場合は、ゲームを使用しないでください。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Paratrooper Blitz (\"Service\", \"Game\"), operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian authorized to agree on their behalf where required."
+        "title": "1. 規約への同意",
+        "content": "本規約は、Zuki Apps が運営する Paratrooper Blitz (「サービス」、「ゲーム」) へのアクセスおよび使用に適用されます。サービスをダウンロード、インストール、アクセス、または使用することにより、お客様は本規約およびプライバシー ポリシーに同意したものとみなされます。",
+        "content2": "お客様が未成年者に代わって本サービスを利用する場合、お客様は、必要に応じて未成年者に代わって同意する権限を与えられた親または保護者であることを表明するものとします。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Paratrooper Blitz is an arcade-style action game. The Service includes:",
+        "title": "2. サービスの説明",
+        "content": "Paratrooper Blitz はアーケード スタイルのアクション ゲームです。サービスには以下が含まれます:",
         "items": [
-          "Gameplay sessions, scoring, and progression features",
-          "Optional integration with platform game services (e.g. leaderboards, achievements) where available",
-          "Advertising and in-app purchases as described in-app",
-          "Audio and visual effects; online features depend on third-party services and connectivity"
+          "ゲームプレイセッション、スコアリング、および進行機能",
+          "利用可能な場合は、プラットフォーム ゲーム サービス (リーダーボード、実績など) とのオプションの統合",
+          "アプリ内で説明されている広告とアプリ内購入",
+          "オーディオおよび視覚効果。オンライン機能はサードパーティのサービスと接続に依存します"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. 連絡先情報",
+        "content": "これらの規約に関する質問:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2026 年 4 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The game may use Firebase Analytics and Crashlytics for diagnostics, platform sign-in for game services, and advertising identifiers subject to your device settings. Gameplay data may be processed by platform providers (Apple, Google) when you use their services."
+        "title": "1. 当社が収集する情報",
+        "content": "ゲームは、デバイスの設定に応じて、診断、ゲーム サービスのプラットフォーム サインイン、および広告識別子のために Firebase Analytics および Crashlytics を使用する場合があります。ゲームプレイ データは、プラットフォーム プロバイダー (Apple、Google) のサービスを使用するときに、プラットフォーム プロバイダーによって処理される場合があります。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use collected information to operate the game, show ads or offers where applicable, improve stability, and comply with law. Leaderboards and achievements rely on platform APIs when you opt in or sign in."
+        "title": "2. お客様の情報の使用方法",
+        "content": "当社は収集した情報を、ゲームの運営、該当する場合には広告やオファーの表示、安定性の向上、法律の遵守のために使用します。リーダーボードと実績は、オプトインまたはサインインするときにプラットフォーム API に依存します。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Third parties (ad networks, analytics, platform game services) may process data under their policies when those features are active."
+        "title": "3. 情報共有",
+        "content": "当社はあなたの個人情報を販売しません。サードパーティ (広告ネットワーク、分析、プラットフォーム ゲーム サービス) は、これらの機能が有効な場合、そのポリシーに基づいてデータを処理する場合があります。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable safeguards appropriate to a mobile game. Use strong device security and keep the app updated."
+        "title": "4. データセキュリティ",
+        "content": "当社はモバイル ゲームに適した合理的な安全対策を実装しています。強力なデバイス セキュリティを使用し、アプリを常に最新の状態に保ちます。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, delete, or restrict certain processing. Platform account settings and OS privacy controls apply. Contact us for requests we can fulfill directly."
+        "title": "5. お客様の権利",
+        "content": "お住まいの地域によっては、特定の処理にアクセス、削除、または制限する権利がある場合があります。プラットフォーム アカウント設定と OS プライバシー制御が適用されます。直接対応できるリクエストについては、お問い合わせください。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. お問い合わせ",
+        "content": "このプライバシー ポリシーに関する質問:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       },
       "metaDescription": "Paratrooper Blitz — アーケード ゲームのプライバシー ポリシー。ゲームプレイ データ、広告、Firebase、プラットフォーム ゲーム サービスの処理方法。"
     },
     "footer": {
-      "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 空挺部隊ブリッツ - 無断複写・転載を禁じます",
+      "tagline": "Zuki Apps の一部 • イスラエル出身の開発者 • ❤️ で作られました"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特徴",
+      "screenshots": "スクリーンショット",
+      "howTo": "使用方法",
+      "tips": "ヒント",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "ダウンロード"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Paratrooper Blitz.",
-      "featuresTitle": "App screens",
+      "title": "スクリーンショット",
+      "subtitle": "Paratrooper Blitz の実際のアプリ画面。",
+      "featuresTitle": "アプリ画面",
       "items": [
         {
-          "id": "menu",
-          "title": "Main menu",
-          "description": "Pick Arcade or Classic and view your best scores.",
+          "id": "メニュー",
+          "title": "メインメニュー",
+          "description": "アーケードまたはクラシックを選択して、ベストスコアを表示します。",
           "image": "/images/paratrooper-blitz/screenshot-menu.png",
-          "alt": "Main menu — paratrooper blitz",
-          "category": "features"
+          "alt": "メインメニュー — 空挺部隊ブリッツ",
+          "category": "特徴"
         },
         {
-          "id": "classic",
-          "title": "Classic mode",
-          "description": "Aim-and-fire paratrooper action with scoring on screen.",
+          "id": "クラシック",
+          "title": "クラシックモード",
+          "description": "画面上にスコアが表示される、狙いを定めて発射する空挺部隊のアクション。",
           "image": "/images/paratrooper-blitz/screenshot-classic.png",
-          "alt": "Classic mode — paratrooper blitz",
-          "category": "features"
+          "alt": "クラシックモード - 空挺部隊ブリッツ",
+          "category": "特徴"
         },
         {
-          "id": "arcade",
-          "title": "Arcade mode",
-          "description": "Slide-and-shoot waves of aircraft and chutes.",
+          "id": "アーケード",
+          "title": "アーケードモード",
+          "description": "飛行機やシュートの波をスライドして撃ちます。",
           "image": "/images/paratrooper-blitz/screenshot-arcade.png",
-          "alt": "Arcade mode — paratrooper blitz",
-          "category": "features"
+          "alt": "アーケード モード — 空挺部隊ブリッツ",
+          "category": "特徴"
         },
         {
-          "id": "chute",
-          "title": "Chute shots",
-          "description": "Time your shots before paratroopers land.",
+          "id": "シュート",
+          "title": "シュートショット",
+          "description": "空挺部隊が着陸する前に射撃のタイミングを計ろう。",
           "image": "/images/paratrooper-blitz/screenshot-chute.png",
-          "alt": "Chute shots — paratrooper blitz",
-          "category": "features"
+          "alt": "シュートショット — 空挺部隊のブリッツ",
+          "category": "特徴"
         },
         {
-          "id": "wave",
-          "title": "Wave pressure",
-          "description": "Survive escalating waves for a high score.",
+          "id": "波",
+          "title": "波圧",
+          "description": "エスカレートする波を生き延びてハイスコアを目指しましょう。",
           "image": "/images/paratrooper-blitz/screenshot-wave.png",
-          "alt": "Wave pressure — paratrooper blitz",
-          "category": "features"
+          "alt": "波圧 — 空挺部隊のブリッツ",
+          "category": "特徴"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "使用方法",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a mode",
-          "description": "Arcade for slide-and-shoot; Classic for aim-and-fire."
+          "title": "モードを選択してください",
+          "description": "スライドアンドシュート用のアーケード。照準を合わせて射撃するための古典的なもの。"
         },
         {
           "number": "2",
-          "title": "Destroy threats",
-          "description": "Shoot aircraft and paratroopers before they reach your turret."
+          "title": "脅威を打ち破る",
+          "description": "航空機と空挺部隊が砲塔に到達する前に撃ちましょう。"
         },
         {
           "number": "3",
-          "title": "Chain combos",
-          "description": "Keep accuracy high to maximize score multipliers."
+          "title": "チェーンコンボ",
+          "description": "精度を高く保ち、スコア倍率を最大化します。"
         },
         {
           "number": "4",
-          "title": "Beat your best",
-          "description": "Submit scores to leaderboards and unlock achievements."
+          "title": "ベストを尽くしてください",
+          "description": "スコアをリーダーボードに送信し、実績のロックを解除します。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "ヒントとコツ",
+      "subtitle": "アプリをさらに活用しましょう。",
       "items": [
         {
-          "title": "Beginner",
-          "description": "1. Learn Arcade first — fixed vertical shots are easier to aim. 2. Watch the ground — two soldiers on one side triggers a danger alert; four ends the run. 3. Pop chutes early — +150 points and they fall fast without a canopy."
+          "title": "初心者",
+          "description": "1. 最初にアーケードを学びましょう — 固定垂直ショットの方が狙いやすいです。 2. 地面に注意してください - 片側に 2 人の兵士がいると危険警報が発せられます。 4 でランが終了します。 3. シュートを早めにポップする — +150 ポイント、キャノピーなしで素早く落下します。"
         },
         {
-          "title": "Intermediate",
-          "description": "4. Center your turret in Arcade so you can reach both sides quickly. 5. Save fire for clusters — combo windows reward back-to-back kills. 6. Deal with bombers first — destroy the plane or the bomb before it lands."
+          "title": "中級",
+          "description": "4. 砲塔をアーケードの中心に置き、両側に素早く到達できるようにします。 5. クラスターのために火を温存します — コンボウィンドウは連続キルに報酬を与えます。 6. 爆撃機に最初に対処します。着陸する前に飛行機または爆弾を破壊します。"
         },
         {
-          "title": "Advanced",
-          "description": "7. Classic mode — sweep the sky in arcs; lead aircraft moving horizontally. 8. Wave spikes — after ~2 minutes, spawn rate increases; stay calm and prioritize landings. 9. Sign in once from home → Global Rankings so game-over scores upload."
+          "title": "高度な",
+          "description": "7. クラシック モード — 空を弧を描いてスイープします。水平方向に移動する先頭の航空機。 8. 波のスパイク — 約 2 分後、スポーン率が増加します。落ち着いて着陸を優先してください。 9. ホーム→グローバルランキングから一度サインインすると、ゲームオーバースコアがアップロードされます。"
         },
         {
-          "title": "Career & achievements",
-          "description": "Rank up on the home screen from lifetime stats. - Check the trophy catalog for 14 achievements (score milestones, career totals, session goals)."
+          "title": "経歴と実績",
+          "description": "生涯統計からホーム画面でランクアップします。 - トロフィー カタログで 14 の実績 (スコアマイルストーン、キャリア合計、セッション目標) を確認してください。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "よくある質問",
+      "subtitle": "機能、プライバシー、請求に関する簡単な回答。",
+      "viewAllSupport": "フルサポートを見る & FAQ",
       "items": [
         {
-          "question": "Is Paratrooper Blitz free?",
-          "answer": "Yes. The game is free to download and play. Optional one-time Remove Ads purchase removes banner and interstitial ads."
+          "question": "パラトルーパー ブリッツは無料ですか?",
+          "answer": "はい。ゲームは無料でダウンロードしてプレイできます。オプションで 1 回限りの広告削除を購入すると、バナー広告とインタースティシャル広告が削除されます。"
         },
         {
-          "question": "What age is the game for?",
-          "answer": "Rated Teen (13+). Mild military-style arcade action—no gore, no chat, no user-generated content."
+          "question": "ゲームは何歳向けですか?",
+          "answer": "ティーン (13 歳以上) と評価されています。マイルドなミリタリー スタイルのアーケード アクション。ゴア表現、チャット、ユーザー作成コンテンツはありません。"
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Core gameplay works offline. Leaderboards, achievements, ads, and purchases need network and store services."
+          "question": "オフラインでも動作しますか?",
+          "answer": "コアなゲームプレイはオフラインでも動作します。リーダーボード、実績、広告、購入にはネットワーク サービスとストア サービスが必要です。"
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Arabic, German, Spanish, French, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified). Change in Settings."
+          "question": "どの言語がサポートされていますか?",
+          "answer": "英語、アラビア語、ドイツ語、スペイン語、フランス語、ヘブライ語、イタリア語、日本語、韓国語、ポルトガル語、ロシア語、中国語 (簡体字)。設定の変更。"
         },
         {
-          "question": "What’s the difference between Arcade and Classic?",
-          "answer": "Arcade: slide left/right, shoot up. Classic: rotate turret 360° and aim manually."
+          "question": "アーケードとクラシックの違いは何ですか?",
+          "answer": "アーケード: 左/右にスライドし、上に撃ちます。クラシック: 砲塔を 360° 回転させ、手動で照準を合わせます。"
         },
         {
-          "question": "How do I lose?",
-          "answer": "Four parachutists land on the **same side** of your turret, or a bomb hits the ground."
+          "question": "どうすれば負けますか？",
+          "answer": "4 人の落下傘兵が砲塔の**同じ側**に着陸するか、爆弾が地面に着弾します。"
         },
         {
-          "question": "Why did my score go down when I fired?",
-          "answer": "Each shot costs 1 point (classic Paratrooper rule)."
+          "question": "解雇するとスコアが下がったのはなぜですか?",
+          "answer": "各ショットのコストは 1 ポイントです (古典的な空挺部隊ルール)。"
         },
         {
-          "question": "Do paratroopers ever land off-screen?",
-          "answer": "No—drops stay within the play area."
+          "question": "空挺部隊が画面外に着陸することはありますか?",
+          "answer": "いいえ - ドロップはプレイエリア内に留まります。"
         },
         {
-          "question": "Why didn’t my score appear on the leaderboard?",
-          "answer": "You must sign in to Google Play Games (Android) or Game Center (iOS). Open **Global Rankings** from the home menu once to complete sign-in, then play a full round."
+          "question": "私のスコアがリーダーボードに表示されないのはなぜですか?",
+          "answer": "Google Play ゲーム (Android) または Game Center (iOS) にサインインする必要があります。ホーム メニューから **グローバル ランキング** を開いてサインインを完了し、フル ラウンドをプレイします。"
         },
         {
-          "question": "Are Arcade and Classic scores separate?",
-          "answer": "Yes—each mode has its own leaderboard."
+          "question": "アーケードとクラシックのスコアは別のものですか?",
+          "answer": "はい、各モードには独自のリーダーボードがあります。"
         },
         {
-          "question": "How many achievements are there?",
-          "answer": "14 trophies with an in-app catalog showing requirements."
+          "question": "実績はいくつありますか？",
+          "answer": "要件を示すアプリ内カタログを含む 14 個のトロフィー。"
         },
         {
-          "question": "What does Remove Ads include?",
-          "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
+          "question": "広告の削除には何が含まれますか?",
+          "answer": "ホームバナーと試合後のインタースティシャルを削除します。消耗品ではない 1 回限りの購入。"
         }
       ]
     },

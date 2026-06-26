@@ -35,7 +35,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
   {
     path: '/collagio',
     name: 'Collagio',
-    description: 'Photo collage maker: 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device, English & Hebrew.',
+    description: 'Photo collage maker: 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device, English & Hebrew. Coming soon on iOS and Android.',
   },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];

@@ -3,10 +3,12 @@
     "back": "חזרה לדף הבית",
     "hero": {
       "badge": "זמין כעת",
-      "title": "Hush Gallery - Hide Photos & Videos",
+      "title": "Hush Gallery - הסתר תמונות וסרטונים",
       "subtitle": "גלריית תמונות פרטית",
       "description": "אפליקציית גלריית תמונות מאובטחת ופרטית שמאפשרת לך לשמור על התמונות האישיות שלך בטוחות ומאורגנות. עם תכונות פרטיות מתקדמות ועיצוב אינטואיטיבי, זה הפתרון המושלם להגנה על הזיכרונות שלך.",
-      "structuredDataDescription": "Hush Gallery — private photo and video vault for iOS and Android. Hide media from WhatsApp and Photos via Share, organize with tags, PIN/biometric App Lock (Premium), optional iCloud/Google Drive backup. Package com.zuki.apps.hushGallery by Zuki Apps."
+      "structuredDataDescription": "Hush Gallery — כספת פרטית של תמונה ווידאו עבור iOS וAndroid. הסתר מדיה מ-WhatsApp ותמונות באמצעות שיתוף, ארגן עם תגים, PIN/נעילת אפליקציה ביומטרית (Premium), גיבוי אופציונלי של iCloud/Google Drive. חבילה com.zuki.apps.hushGallery מאת Zuki Apps.",
+      "seoTitle": "Hush Gallery — כספת תמונה פרטית | Zuki Apps",
+      "metaDescription": "הסתר תמונות וסרטונים בכספת פרטית. נעילת PIN, תגים, WhatsApp ייבוא. חינם ב-iOS & Android - הורד עכשיו."
     },
     "features": {
       "title": "תכונות עיקריות",
@@ -38,7 +40,8 @@
           "תגיות מותאמות אישית לארגון מדיה",
           "כלי ארגון מדיה",
           "יכולות חיפוש וסינון",
-          "שמירת מטא-דאטה"
+          "שמירת מטא-דאטה",
+          "שימור מטא נתונים"
         ]
       },
       "security": {
@@ -69,47 +72,48 @@
           "ייבוא מגלריית המערכת",
           "ייצוא חזרה עם מטא-דאטה",
           "פעולות אצווה",
-          "שמירת פורמט"
+          "שמירת פורמט",
+          "שימור פורמט"
         ]
       }
     },
     "businessUse": {
-      "title": "💼 Perfect for Business Use",
-      "description": "Are you a business owner who uses your phone for both work and personal life? Hush Gallery is the perfect solution to keep your business photos separate from your personal ones.",
+      "title": "💼 מושלם לשימוש עסקי",
+      "description": "האם אתה בעל עסק שמשתמש בטלפון שלך הן לעבודה והן לחיים האישיים? Hush Gallery הוא הפתרון המושלם לשמור על תמונות העסק שלך בנפרד מהתמונות האישיות שלך.",
       "benefits": {
-        "title": "Business Benefits",
+        "title": "יתרונות עסקיים",
         "items": [
-          "Create dedicated tags for product photos, client documents, marketing materials, team photos, and financial documents",
-          "Never worry about accidentally showing personal photos during a business presentation",
-          "Keep work files separate from family memories",
-          "Access business photos during meetings without exposing personal content",
-          "Share business photos with colleagues without showing personal files"
+          "צור תגיות ייעודיות לתמונות מוצר, מסמכי לקוחות, חומרים שיווקיים, תמונות צוות ומסמכים פיננסיים",
+          "לעולם אל תדאג לגבי הצגת תמונות אישיות בטעות במהלך מצגת עסקית",
+          "שמור קבצי עבודה נפרדים מזיכרונות משפחתיים",
+          "גישה לתמונות עסקיות במהלך פגישות מבלי לחשוף תוכן אישי",
+          "שתף תמונות עסקיות עם עמיתים מבלי להציג קבצים אישיים"
         ]
       },
       "example": {
-        "title": "🎯 Real-World Example",
-        "description": "You run a small business and use your phone for everything. You take photos of products, receipts, client meetings, and also personal family photos. With Hush Gallery, you can:",
+        "title": "🎯 דוגמה בעולם האמיתי",
+        "description": "אתה מנהל עסק קטן ומשתמש בטלפון שלך לכל דבר. אתה מצלם מוצרים, קבלות, פגישות לקוחות וגם תמונות משפחתיות אישיות. עם Hush Gallery, אתה יכול:",
         "items": [
-          "Create a \"Business\" tag for all work-related photos",
-          "Create a \"Personal\" tag for family photos",
-          "Keep them completely separate and secure",
-          "Access business photos during meetings without exposing personal content",
-          "Share business photos with colleagues without showing personal files"
+          "צור תג \"עסקי\" עבור כל התמונות הקשורות לעבודה",
+          "צור תג \"אישי\" לתמונות משפחתיות",
+          "שמור אותם נפרדים ומאובטחים לחלוטין",
+          "גישה לתמונות עסקיות במהלך פגישות מבלי לחשוף תוכן אישי",
+          "שתף תמונות עסקיות עם עמיתים מבלי להציג קבצים אישיים"
         ]
       }
     },
     "howToUse": {
-      "title": "📱 How to Use",
+      "title": "📱 כיצד להשתמש",
       "steps": [
         {
           "number": "1",
-          "title": "Select Photos",
-          "description": "Select photos from any app (Gallery, WhatsApp, etc.)"
+          "title": "בחר תמונות",
+          "description": "בחר תמונות מכל אפליקציה (גלריה, WhatsApp וכו')"
         },
         {
           "number": "2",
-          "title": "Share to Hush Gallery",
-          "description": "Tap \"Share\" and choose \"Hush Gallery\""
+          "title": "שתף לHush Gallery",
+          "description": "הקש על \"שתף\" ובחר \"Hush Gallery\""
         },
         {
           "number": "3",
@@ -118,23 +122,23 @@
         },
         {
           "number": "4",
-          "title": "Organize with Tags",
-          "description": "Create tags to organize (Business, Personal, Family, etc.)"
+          "title": "ארגן עם תגים",
+          "description": "צור תגים לארגון (עסקי, אישי, משפחתי וכו')"
         },
         {
           "number": "5",
-          "title": "Secure Access",
-          "description": "Access with PIN or biometric authentication"
+          "title": "גישה מאובטחת",
+          "description": "גישה באמצעות PIN או אימות ביומטרי"
         }
       ]
     },
     "languages": {
-      "title": "🌍 Multi-Language Support",
-      "description": "Hush Gallery supports 12+ languages including English, עברית, Русский, العربية, Français, Italiano, Español, Português, 中文（简体）, Deutsch, 日本語, 한국어, and more."
+      "title": "🌍 תמיכה בריבוי שפות",
+      "description": "Hush Gallery supports 12+ languages ​​including English, עברית, Русский, العربية, Français, Italiano, Español, Português, 中文（简体）, Deutsch, 日本語, 한국어, and more."
     },
     "privacyGuarantee": {
-      "title": "🔒 Privacy Guarantee",
-      "description": "Your privacy is our top priority. All files are stored securely in the app's private directory, we never access your files, and your data is never sold to third parties. Encryption feature coming soon."
+      "title": "🔒 הבטחת פרטיות",
+      "description": "הפרטיות שלך היא בראש סדר העדיפויות שלנו. כל הקבצים מאוחסנים בצורה מאובטחת בספרייה הפרטית של האפליקציה, אנחנו לעולם לא ניגשים לקבצים שלך, והנתונים שלך לעולם לא נמכרים לצדדים שלישיים. תכונת הצפנה תגיע בקרוב."
     },
     "premium": {
       "title": "תכונות Premium",
@@ -179,12 +183,12 @@
       "appStore": "App Store",
       "googlePlay": "Google Play",
       "soon": "זמין בקרוב",
-      "download": "Download",
+      "download": "הורד",
       "appStoreUrl": "https://apps.apple.com/il/app/hush-gallery/id6756169045",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery",
-      "appIconAlt": "Hush Gallery App Icon",
-      "appStoreAlt": "Download on the App Store",
-      "googlePlayAlt": "Get it on Google Play"
+      "appIconAlt": "Hush Gallery סמל אפליקציה",
+      "appStoreAlt": "הורד ב-App Store",
+      "googlePlayAlt": "קבל את זה בGoogle Play"
     },
     "links": {
       "title": "קישורים חשובים",
@@ -317,7 +321,7 @@
       }
     },
     "faq": {
-      "title": "Frequently Asked Questions",
+      "title": "שאלות נפוצות",
       "subtitle": "Answers for users and search assistants about Hush Gallery features, privacy, and troubleshooting.",
       "viewAllSupport": "Full support page",
       "items": [
@@ -452,20 +456,20 @@
       ]
     },
     "screenshots": {
-      "title": "Screenshots & Guides",
+      "title": "צילומי מסך ומדריכים",
       "subtitle": "Visual overview of Hush Gallery features and step-by-step flows.",
       "featuresTitle": "Features",
       "howToTitle": "How-to",
-      "onboardingTitle": "First launch tour",
-      "onboardingSubtitle": "Privacy, tags, and optional cloud backup explained before you import.",
+      "onboardingTitle": "סיור השקה ראשון",
+      "onboardingSubtitle": "פרטיות, תגים וגיבוי ענן אופציונלי מוסברים לפני הייבוא.",
       "items": [
         {
-          "id": "gallery",
-          "title": "Private gallery grid",
+          "id": "גָלֶרֵיָה",
+          "title": "רשת גלריה פרטית",
           "description": "Browse photos and videos in a secure grid. Filter by tags, sort by date or size, and swipe to delete with undo.",
           "image": "/images/hush-gallery/screenshot-gallery.png",
           "alt": "Hush Gallery main photo grid with tag filters",
-          "category": "features"
+          "category": "תכונות"
         },
         {
           "id": "tags",
@@ -473,7 +477,7 @@
           "description": "Create tags like Business, Personal, or Family. Filter instantly and assign tags in batch selection mode.",
           "image": "/images/hush-gallery/screenshot-tags.png",
           "alt": "Hush Gallery tag management and filter chips",
-          "category": "features"
+          "category": "תכונות"
         },
         {
           "id": "lock",
@@ -481,7 +485,7 @@
           "description": "Protect your vault with PIN and Face ID / Touch ID. Auto-lock after inactivity.",
           "image": "/images/hush-gallery/screenshot-lock.png",
           "alt": "Hush Gallery PIN lock screen",
-          "category": "features"
+          "category": "תכונות"
         },
         {
           "id": "backup",
@@ -489,7 +493,7 @@
           "description": "Backup Now, auto backup, and restore from iCloud or Google Drive.",
           "image": "/images/hush-gallery/screenshot-backup.png",
           "alt": "Hush Gallery backup and restore settings",
-          "category": "features"
+          "category": "תכונות"
         },
         {
           "id": "settings",
@@ -497,7 +501,35 @@
           "description": "Security, backup, Premium, language, theme, and account in one place.",
           "image": "/images/hush-gallery/screenshot-settings.png",
           "alt": "Hush Gallery settings screen",
-          "category": "features"
+          "category": "תכונות"
+        },
+        {
+          "id": "premium",
+          "title": "Premium",
+          "description": "רכישה חד פעמית: הסרת מודעות, תגים ללא הגבלה, נעילת אפליקציות וגישה לגיבוי בענן.",
+          "alt": "Hush Gallery Premium מסך שדרוג",
+          "category": "תכונות"
+        },
+        {
+          "id": "הגדרות",
+          "title": "הגדרות",
+          "description": "אבטחה, הצפנה, גיבוי, Premium, שפה, ערכת נושא, חשבון ואודות ברכזת אחת.",
+          "alt": "מסך הגדרות Hush Gallery",
+          "category": "תכונות"
+        },
+        {
+          "id": "onboarding-פרטי",
+          "title": "פרטי ומאובטח",
+          "description": "הפעלה ראשונה להפעלה: המדיה שלך נשארת במכשיר שלך אלא אם תפעיל גיבוי.",
+          "alt": "Hush Gallery הצטרפות לאחסון פרטי",
+          "category": "עלייה למטוס"
+        },
+        {
+          "id": "onboarding-tags",
+          "title": "ארגן עם תגים",
+          "description": "Onboarding מסביר תגים מותאמים אישית לסינון ולקבץ תמונות וסרטונים.",
+          "alt": "Hush Gallery תגי הצטרפות",
+          "category": "עלייה למטוס"
         }
       ]
     },
@@ -510,7 +542,8 @@
           "steps": [
             "Open Hush Gallery → tap + → Import from Gallery.",
             "Select photos/videos → confirm import.",
-            "Optional: delete originals when prompted."
+            "Optional: delete originals when prompted.",
+            "הקש על + בגלריה כדי לייבא את התמונות או הסרטונים הראשונים שלך."
           ]
         },
         {
@@ -518,7 +551,8 @@
           "steps": [
             "Select media in Photos, WhatsApp, etc.",
             "Tap Share → Hush Gallery.",
-            "Open Hush Gallery and complete import."
+            "Open Hush Gallery and complete import.",
+            "החלק שורה שמאלה כדי למחוק; בטל מופיע לפני הסרה לצמיתות."
           ]
         },
         {
@@ -526,7 +560,8 @@
           "steps": [
             "Upgrade to Premium if needed.",
             "Settings → Security → App Lock → set PIN.",
-            "Enable biometric unlock and auto-lock timeout."
+            "Enable biometric unlock and auto-lock timeout.",
+            "מאפליקציות אחרות: שתף Hush Gallery, ואז פתח את Hush Gallery כדי להשלים."
           ]
         },
         {
@@ -534,7 +569,60 @@
           "steps": [
             "Settings → Backup → Backup Now (Premium).",
             "Enable Auto Backup for scheduled sync.",
-            "On new device: Restore from Backup after sign-in."
+            "On new device: Restore from Backup after sign-in.",
+            "ייצוא לגלריה מעתיק פריטים חזרה לאפליקציית תמונות המערכת."
+          ]
+        },
+        {
+          "title": "5. תגיות",
+          "steps": [
+            "צור תגים מתפריט שורת התגים או במהלך הייבוא.",
+            "הקצה מספר תגים לכל פריט.",
+            "לחץ לחיצה ארוכה על שבב תג כדי לשנות שם, לסדר מחדש או למחוק.",
+            "שכבה חינם: עד 5 תגים; Premium: ללא הגבלה."
+          ]
+        },
+        {
+          "title": "6. נעילת אפליקציה (Premium)",
+          "steps": [
+            "הגדרות ← אבטחה ← נעילת אפליקציה.",
+            "הגדר PIN בן 4 או 6 ספרות; אפשר Face ID / Touch ID אם זמין.",
+            "בחר נעילה אוטומטית: מיד, 1, 5 או 15 דקות.",
+            "שכחת PIN? השתמש בשחזור PIN אם גיבית את ה-PIN בזמן שאתה מחובר."
+          ]
+        },
+        {
+          "title": "7. הצפנה",
+          "steps": [
+            "הגדרות ← הצפנה כדי לאפשר הצפנה אופציונלית בדיסק.",
+            "מפתח ההצפנה מאוחסן במובלעת המאובטחת / מאגר המפתחות של המכשיר.",
+            "כאשר מופעל, קובצי מדיה מוצפנים לפני כתיבה מקומית."
+          ]
+        },
+        {
+          "title": "8. גיבוי בענן (Premium)",
+          "steps": [
+            "היכנס תחת הגדרות ← חשבון כאשר תתבקש.",
+            "הגדרות ← גיבוי ← גיבוי עכשיו לסנכרון ידני.",
+            "הפעל גיבוי אוטומטי ותדירות תזכורות אם מוצע.",
+            "מכשיר חדש: היכנס והקש על שחזר מהגדרות או מהנחיית ההרצה הראשונה."
+          ]
+        },
+        {
+          "title": "9. Premium ומודעות",
+          "steps": [
+            "פתח את Premium מההגדרות או מהבאנר של הגלריה.",
+            "רכישה חד פעמית מסירה מודעות ופותחת תכונות של Premium.",
+            "שחזר רכישות עם אותו Apple ID או חשבון Google.",
+            "שכבת חינם: צפה במודעה מתגמלת עבור זמן זמני ללא פרסומות (כאשר מוצע)."
+          ]
+        },
+        {
+          "title": "10. שיתוף הרחבה (iOS)",
+          "steps": [
+            "בתמונות, בחר פריטים → שתף → Hush Gallery.",
+            "ההרחבה משלבת קבצים; פתח את Hush Gallery כדי לייבא.",
+            "אם הייבוא ​​לא מופיע, פתח את האפליקציה באופן ידני - הייבוא ​​מופעל בעת ההשקה."
           ]
         }
       ]
@@ -597,51 +685,51 @@
       "metaDescription": "Hush Gallery FAQ ותמיכה - גלריית תמונות וסרטונים פרטיים. קשר, פרטיות ופתרון בעיות."
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get the most from your private gallery.",
+      "title": "טיפים וטריקים",
+      "subtitle": "הפק את המרב מהגלריה הפרטית שלך.",
       "items": [
         {
-          "title": "Hide from WhatsApp fast",
-          "description": "Long-press a photo in WhatsApp → Share → Hush Gallery. Faster than saving to Camera Roll first."
+          "title": "הסתר מהר מ-WhatsApp",
+          "description": "לחץ לחיצה ארוכה על תמונה ב-WhatsApp → שתף → Hush Gallery. מהיר יותר מלשמור ב-Camera Roll תחילה."
         },
         {
-          "title": "Use tags early",
-          "description": "Create tags when you import so filtering stays easy as your vault grows."
+          "title": "השתמש בתגים מוקדם",
+          "description": "צור תגים כשאתה מייבא כך שהסינון יישאר קל ככל שהכספת שלך גדלה."
         },
         {
-          "title": "Short auto-lock",
-          "description": "Set App Lock to Immediately or 1 minute if you hand your phone to others often."
+          "title": "נעילה אוטומטית קצרה",
+          "description": "הגדר את נעילת האפליקציה למידי או לדקה אחת אם אתה מוסר את הטלפון שלך לאחרים לעתים קרובות."
         },
         {
-          "title": "Backup before a new phone",
-          "description": "Run Backup Now before replacing your device; restore after signing in on the new install."
+          "title": "גיבוי לפני טלפון חדש",
+          "description": "הפעל את הגיבוי עכשיו לפני החלפת המכשיר שלך; לשחזר לאחר כניסה להתקנה החדשה."
         },
         {
-          "title": "Export without losing vault copy",
-          "description": "Export to Gallery copies files out; originals remain in Hush Gallery until you delete them."
+          "title": "ייצא מבלי לאבד את עותק הכספת",
+          "description": "ייצוא לגלריה מעתיק קבצים החוצה; המקורות נשארים ב-Hush Gallery עד שתמחקו אותם."
         },
         {
-          "title": "Restore purchases",
-          "description": "Reinstalled? Premium → Restore purchases with the same store account."
+          "title": "שחזור רכישות",
+          "description": "מותקן מחדש? Premium → שחזר רכישות עם אותו חשבון חנות."
         },
         {
-          "title": "12 languages + RTL",
-          "description": "Settings → Language includes Hebrew and Arabic with full RTL layout support."
+          "title": "12 שפות + RTL",
+          "description": "הגדרות → שפה כוללת עברית וערבית עם תמיכה מלאה בפריסה RTL."
         },
         {
-          "title": "Send feedback in-app",
+          "title": "שלח משוב בתוך האפליקציה",
           "description": "Settings → About → Send feedback, or email zuki.apps.dev@gmail.com before leaving a store review."
         }
       ]
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to",
-      "manual": "Manual",
-      "tips": "Tips",
+      "features": "תכונות",
+      "screenshots": "צילומי מסך",
+      "howTo": "איך",
+      "manual": "יָדָנִי",
+      "tips": "טיפים",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "הורד"
     }
   }
 }

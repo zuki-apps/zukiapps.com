@@ -1,5 +1,7 @@
 /** Canonical home grid / carousel app order — keep AppsGrid and AppsCarousel in sync. */
-export const HOME_APP_IDS = [
+import { COLLAGIO_PUBLISHED } from '@/lib/appPublishState';
+
+const HOME_APP_IDS_BASE = [
   'zulist',
   'hush-gallery',
   'whistle-camera',
@@ -12,7 +14,11 @@ export const HOME_APP_IDS = [
   'tempo-lab-pro',
   'football-trivia',
   'fun-facts-trivia',
-  'collagio',
+] as const;
+
+export const HOME_APP_IDS = [
+  ...HOME_APP_IDS_BASE,
+  ...(COLLAGIO_PUBLISHED ? (['collagio'] as const) : []),
 ] as const;
 
 export type HomeAppId = (typeof HOME_APP_IDS)[number];

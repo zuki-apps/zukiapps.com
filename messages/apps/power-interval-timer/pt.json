@@ -1,24 +1,29 @@
 {
   "powerIntervalTimer": {
-    "back": "Back to Home",
+    "back": "De volta para casa",
     "hero": {
       "badge": "Disponível agora",
-      "title": "Power Interval Timer - Tabata & HIIT",
-      "subtitle": "Interval Workout Timer",
+      "title": "Temporizador de intervalo de potência - Tabata e HIIT",
+      "subtitle": "Temporizador de treino de intervalo",
       "description": "A minimal, fast, offline interval workout timer for Tabata, HIIT, and short workouts. Features configurable workouts, multiple display modes, sound alerts, and screen casting support.",
-      "structuredDataDescription": "Power Interval Timer — Tabata and HIIT interval timer for iOS and Android. Custom work/rest rounds, presets, display modes, audio cues. Android com.zuki.apps.powerintervaltimer by Zuki Apps."
+      "structuredDataDescription": "Power Interval Timer — Temporizador de intervalo Tabata e HIIT para iOS e Android. Rodadas personalizadas de trabalho/descanso, predefinições, modos de exibição, dicas de áudio. Android com.zuki.apps.powerintervaltimer por Zuki Apps.",
+      "seoTitle": "Temporizador de intervalo de potência - HIIT e Tabata | Zuki Apps",
+      "metaDescription": "Temporizador Tabata e HIIT off-line rápido com exercícios personalizados. Gratuito em iOS e Android — comece sua próxima sessão."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Principais recursos",
       "configurable": {
-        "title": "Configurable Workouts",
-        "description": "Customize your workout intervals to match your training needs",
+        "title": "Exercícios configuráveis",
+        "description": "Personalize seus intervalos de treino para atender às suas necessidades de treinamento",
         "items": [
-          "Work duration (seconds)",
-          "Rest duration (seconds)",
-          "Number of rounds",
+          "Duração do trabalho (segundos)",
+          "Duração do descanso (segundos)",
+          "Número de rodadas",
           "Prepare time with race-start beeps",
-          "Cooldown period"
+          "Período de espera",
+          "Toque em qualquer lugar da tela para iniciar/pausar",
+          "Deslize para editar/excluir cartões de cronômetro",
+          "Lista de cronômetros de arrastar para reordenar"
         ]
       },
       "display": {
@@ -31,75 +36,80 @@
           "Minimal clean design",
           "Analog clock style",
           "Dual timer display",
-          "Chronograph watch style"
+          "Chronograph watch style",
+          "Circular Segmentado (Premium) - Anel circular com segmentos visíveis",
+          "Minimalista (Premium) – Mínimo aprimorado com texto maior",
+          "Circular aninhada (Premium) - Círculo externo para segundos, interno para intervalos"
         ]
       },
       "offline": {
-        "title": "Works Offline",
-        "description": "No internet connection required",
+        "title": "Funciona off-line",
+        "description": "Não requer conexão com internet",
         "items": [
-          "Fully functional offline",
-          "No data collection",
-          "Local storage only",
-          "No account required"
+          "Totalmente funcional off-line",
+          "Sem coleta de dados",
+          "Somente armazenamento local",
+          "Nenhuma conta necessária"
         ]
       },
       "casting": {
-        "title": "Screen Casting",
-        "description": "Cast your timer to TV for group workouts",
+        "title": "Transmissão de tela",
+        "description": "Transmita seu cronômetro para a TV para exercícios em grupo",
         "items": [
-          "AirPlay support (iOS)",
-          "MediaProjection (Android)",
-          "TV-optimized layout",
-          "Automatic cleanup"
+          "Suporte AirPlay (iOS)",
+          "Projeção de mídia (Android)",
+          "Layout otimizado para TV",
+          "Limpeza automática"
         ]
       },
       "tv": {
-        "title": "TV Support",
-        "description": "Native support for Apple TV and Android TV",
+        "title": "Suporte para TV",
+        "description": "Suporte nativo para Apple TV e Android TV",
         "items": [
-          "Apple TV (tvOS) support",
-          "Android TV support",
-          "Large display optimized",
-          "Platform-specific features"
+          "Suporte para Apple TV (tvOS)",
+          "Android Suporte para TV",
+          "Tela grande otimizada",
+          "Recursos específicos da plataforma"
         ]
       },
       "customization": {
-        "title": "Customization",
-        "description": "Personalize your timer experience",
+        "title": "Personalização",
+        "description": "Personalize sua experiência de cronômetro",
         "items": [
           "Custom timer images",
           "Color themes",
           "Font sizes",
           "Sound selection",
-          "Dark/Light/System themes"
+          "Dark/Light/System themes",
+          "Imagens do temporizador exibidas na tela do temporizador",
+          "RTL suporte (hebraico e inglês)"
         ]
       },
       "premium": {
-        "title": "Freemium Model",
-        "description": "Free version with optional Premium upgrade ($2.99 one-time)",
+        "title": "Modelo Freemium",
+        "description": "Versão gratuita com atualização opcional Premium (US$ 2,99 única)",
         "items": [
-          "Free: Up to 2 saved timers, 3 basic display modes, banner ads",
-          "Premium: Unlimited timers, all 10 display modes, no ads",
-          "One-time purchase - no subscriptions",
-          "Restore purchases across devices"
+          "Grátis: até 2 temporizadores salvos, 3 modos de exibição básicos, anúncios em banner",
+          "Premium: Temporizadores ilimitados, todos os 10 modos de exibição, sem anúncios",
+          "Compra única - sem assinaturas",
+          "Restaurar compras em vários dispositivos"
         ]
       },
       "watch": {
-        "title": "Apple Watch Integration",
-        "description": "Basic companion support for Apple Watch",
+        "title": "Integração com Apple Watch",
+        "description": "Suporte complementar básico para Apple Watch",
         "items": [
-          "Show current phase and countdown",
-          "Display round number",
-          "Companion app functionality",
-          "Disabled on TV devices"
+          "Mostrar fase atual e contagem regressiva",
+          "Exibir número redondo",
+          "Funcionalidade do aplicativo complementar",
+          "Desativado em dispositivos de TV"
         ]
       }
     },
     "status": {
       "title": "🚧 In Development",
       "description": "The app is currently in development",
-      "version": "Version",
+      "version": "Versão",
       "status": "Status",
       "versionValue": "1.0.5+11",
       "statusValue": "Coming Soon"
@@ -111,17 +121,17 @@
       "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
       "appStoreAlt": "Baixar na App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.powerintervaltimer",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Ative Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Links importantes",
       "support": {
-        "title": "Technical Support",
+        "title": "Suporte Técnico",
         "email": "zuki.apps@gmail.com"
       },
       "googlePlay": {
-        "title": "Download on Google Play",
-        "description": "Get Power Interval Timer from Google Play Store"
+        "title": "Baixe em Google Play",
+        "description": "Obtenha o temporizador de intervalo de energia na loja Google Play"
       },
       "contact": {
         "title": "General Contact",
@@ -132,40 +142,40 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "Suporte e Ajuda",
+      "subtitle": "Estamos aqui para ajudar! Encontre respostas para perguntas comuns ou entre em contato conosco diretamente.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "Contate-nos",
+        "description": "Tem alguma dúvida ou precisa de ajuda? Envie-nos um e-mail e entraremos em contato com você o mais breve possível.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "Links rápidos",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "política de Privacidade",
+          "description": "Saiba como protegemos seus dados"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "Termos de Serviço",
+          "description": "Leia nossos termos e condições"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "Perguntas frequentes",
         "q1": {
-          "question": "How do I create a custom workout?",
-          "answer": "To create a custom workout, tap the '+' button or 'New Workout' option. You can set the work duration, rest duration, number of rounds, prepare time, and cooldown period. Once created, your workout will be saved and can be used anytime."
+          "question": "Como faço para criar um treino personalizado?",
+          "answer": "Para criar um treino personalizado, toque no botão ‘+’ ou na opção ‘Novo treino’. Você pode definir a duração do trabalho, a duração do descanso, o número de rodadas, o tempo de preparação e o período de espera. Depois de criado, seu treino será salvo e poderá ser usado a qualquer momento."
         },
         "q2": {
-          "question": "Can I use Power Interval Timer offline?",
-          "answer": "Yes! Power Interval Timer works completely offline. No internet connection is required. All your workouts and settings are stored locally on your device. The app does not collect any data or require an account."
+          "question": "Posso usar o temporizador de intervalo de energia offline?",
+          "answer": "Sim! O Power Interval Timer funciona totalmente offline. Nenhuma conexão com a internet é necessária. Todos os seus treinos e configurações são armazenados localmente no seu dispositivo. O aplicativo não coleta dados nem requer uma conta."
         },
         "q3": {
-          "question": "How do I cast the timer to my TV?",
-          "answer": "To cast to your TV, start a workout and look for the casting icon. On iOS, use AirPlay to cast to Apple TV or AirPlay-compatible devices. On Android, use MediaProjection to cast to Chromecast or other compatible devices. The timer will automatically optimize its layout for TV viewing."
+          "question": "Como faço para transmitir o cronômetro para minha TV?",
+          "answer": "Para transmitir para sua TV, inicie um treino e procure o ícone de transmissão. Em iOS, use o AirPlay para transmitir para Apple TV ou dispositivos compatíveis com AirPlay. Em Android, use MediaProjection para transmitir para o Chromecast ou outros dispositivos compatíveis. O cronômetro otimizará automaticamente seu layout para assistir TV."
         },
         "q4": {
-          "question": "What display modes are available?",
+          "question": "Quais modos de exibição estão disponíveis?",
           "answer": "Power Interval Timer offers 7 different display modes: circular progress timer, digital countdown, linear progress bar, minimal clean design, analog clock style, dual timer display, and chronograph watch style. You can switch between modes in the settings or during a workout."
         },
         "q5": {
@@ -173,277 +183,277 @@
           "answer": "Go to Settings → Customization. You can customize timer images, color themes, font sizes, sound selection, and choose between Dark, Light, or System theme. Changes will be applied immediately to your timer display."
         },
         "q7": {
-          "question": "What is the Premium upgrade?",
-          "answer": "Premium is a one-time $2.99 purchase that unlocks unlimited saved timers, all 10 display modes, and removes banner ads. The purchase is permanent and can be restored across devices using the same account."
+          "question": "Qual é a atualização Premium?",
+          "answer": "Premium é uma compra única de US$ 2,99 que desbloqueia temporizadores salvos ilimitados, todos os 10 modos de exibição e remove banners de anúncios. A compra é permanente e pode ser restaurada em vários dispositivos usando a mesma conta."
         },
         "q8": {
-          "question": "How do I tap to start/pause the timer?",
-          "answer": "Simply tap anywhere on the timer screen to start or pause your workout. This intuitive gesture control makes it easy to control your timer without looking for buttons, especially useful during intense workouts."
+          "question": "Como toco para iniciar/pausar o cronômetro?",
+          "answer": "Basta tocar em qualquer lugar da tela do cronômetro para iniciar ou pausar o treino. Este controle intuitivo por gestos facilita o controle do cronômetro sem procurar botões, especialmente útil durante treinos intensos."
         },
         "q9": {
-          "question": "Does Power Interval Timer support Apple Watch?",
-          "answer": "Yes! Power Interval Timer includes basic Apple Watch companion support. The watch app shows the current phase, countdown, and round number. Note that watch connectivity is disabled on TV devices."
+          "question": "O Power Interval Timer é compatível com Apple Watch?",
+          "answer": "Sim! O Power Interval Timer inclui suporte básico complementar ao Apple Watch. O aplicativo de relógio mostra a fase atual, a contagem regressiva e o número da rodada. Observe que a conectividade do relógio está desativada em dispositivos de TV."
         },
         "q6": {
-          "question": "Does Power Interval Timer work on Apple TV and Android TV?",
-          "answer": "Yes! Power Interval Timer has native support for Apple TV (tvOS) and Android TV. You can install the app directly on your TV and use it with a remote control. The interface is optimized for large displays and includes platform-specific features."
+          "question": "O Power Interval Timer funciona na Apple TV e na Android TV?",
+          "answer": "Sim! Power Interval Timer tem suporte nativo para Apple TV (tvOS) e Android TV. Você pode instalar o aplicativo diretamente na sua TV e usá-lo com um controle remoto. A interface é otimizada para telas grandes e inclui recursos específicos da plataforma."
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "Precisa de mais ajuda?",
+        "description": "Se você não encontrou a resposta que procura ou se está enfrentando um problema técnico, não hesite em nos contatar. Estamos aqui para ajudar e normalmente respondemos dentro de 24 a 48 horas."
       },
       "metaTitle": "Suporte e Ajuda — Temporizador de intervalo de energia | Zuki Apps",
       "metaDescription": "Power Interval Timer FAQ e suporte – HIIT e treinos intervalados. Contato, privacidade e solução de problemas."
     },
     "footer": {
-      "copyright": "© 2025 Power Interval Timer - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 Temporizador de intervalo de energia - Todos os direitos reservados",
+      "tagline": "Parte de Zuki Apps • Desenvolvedor de Israel • Feito com ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Power Interval Timer. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "Termos de Uso",
+      "lastUpdated": "Última atualização: janeiro de 2025",
+      "intro": "Leia estes Termos de Uso com atenção antes de usar o Power Interval Timer. Ao acessar ou usar nosso serviço, você concorda em obedecer a estes termos. Se você não concorda com estes termos, não utilize nosso serviço.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Power Interval Timer (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval workout timer application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. Aceitação dos Termos",
+        "content": "Estes Termos de Uso (\"Termos\") regem o seu acesso e uso do Power Interval Timer (\"Serviço\", \"Aplicativo\", \"nós\", \"nos\" ou \"nosso\"), um aplicativo de cronômetro de treino intervalado operado por Zuki Apps (\"Empresa\"). Ao baixar, instalar, acessar ou usar o Serviço, você concorda em ficar vinculado a estes Termos e à nossa Política de Privacidade.",
+        "content2": "Se estiver usando o Serviço em nome de uma organização, você declara e garante que tem autoridade para vincular essa organização a estes Termos."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Power Interval Timer is a mobile application that provides interval workout timing functionality. The Service includes:",
+        "title": "2. Descrição do Serviço",
+        "content": "Power Interval Timer é um aplicativo móvel que fornece funcionalidade de tempo de treino intervalado. O Serviço inclui:",
         "items": [
-          "Configurable workout timers (work, rest, rounds, prepare, cooldown)",
-          "Multiple display modes for timer visualization",
-          "Sound alerts and vibration feedback",
-          "Screen casting and TV support",
-          "Local storage of saved timers",
-          "Offline functionality"
+          "Temporizadores de treino configuráveis ​​(trabalho, descanso, rodadas, preparação, resfriamento)",
+          "Vários modos de exibição para visualização do temporizador",
+          "Alertas sonoros e feedback vibratório",
+          "Transmissão de tela e suporte para TV",
+          "Armazenamento local de temporizadores salvos",
+          "Funcionalidade off-line"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. Informações de contato",
+        "content": "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "política de Privacidade",
+      "lastUpdated": "Última atualização: janeiro de 2025",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Power Interval Timer is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+        "title": "1. Informações que coletamos",
+        "content": "O Power Interval Timer foi projetado tendo a privacidade em mente. Coletamos informações mínimas necessárias para fornecer o serviço. O aplicativo funciona totalmente offline e armazena todos os dados localmente no seu dispositivo."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. All timer configurations and saved workouts are stored locally on your device and are not transmitted to our servers."
+        "title": "2. Como usamos suas informações",
+        "content": "Usamos as informações que coletamos para fornecer, manter e melhorar nossos serviços. Todas as configurações do cronômetro e treinos salvos são armazenados localmente no seu dispositivo e não são transmitidos para nossos servidores."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your timer data remains on your device and is only accessible to you."
+        "title": "3. Compartilhamento de informações",
+        "content": "Não vendemos, comercializamos ou transferimos de outra forma suas informações pessoais a terceiros. Os dados do seu cronômetro permanecem no seu dispositivo e só podem ser acessados ​​por você."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+        "title": "4. Segurança de dados",
+        "content": "Implementamos medidas de segurança adequadas para proteger suas informações. Todos os dados são armazenados localmente no seu dispositivo, no diretório privado do aplicativo, que não pode ser acessado por outros aplicativos."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your timer data at any time. You can delete all saved timers through the app. You may also uninstall the app at any time, which will remove all locally stored data."
+        "title": "5. Seus direitos",
+        "content": "Você tem o direito de acessar, atualizar ou excluir os dados do seu cronômetro a qualquer momento. Você pode excluir todos os temporizadores salvos por meio do aplicativo. Você também pode desinstalar o aplicativo a qualquer momento, o que removerá todos os dados armazenados localmente."
       },
       "section6": {
-        "title": "6. Photo Library Access",
-        "content": "Power Interval Timer may request access to your device's photo library to allow you to select custom timer images. We only access your photos when you explicitly choose to add a timer image. Photos are stored locally and are not shared with third parties."
+        "title": "6. Acesso à biblioteca de fotos",
+        "content": "O Power Interval Timer pode solicitar acesso à biblioteca de fotos do seu dispositivo para permitir que você selecione imagens personalizadas do temporizador. Só acessamos suas fotos quando você escolhe explicitamente adicionar uma imagem com temporizador. As fotos são armazenadas localmente e não são compartilhadas com terceiros."
       },
       "section7": {
-        "title": "7. Crash Reporting and Error Analytics",
-        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
-        "dataCollected": "Data Collected:",
+        "title": "7. Relatórios de falhas e análises de erros",
+        "content": "Usamos o Firebase Crashlytics, um serviço fornecido pelo Google, para coletar informações sobre falhas e erros do aplicativo. Isso nos ajuda a identificar e corrigir problemas para melhorar sua experiência.",
+        "dataCollected": "Dados coletados:",
         "dataCollectedItems": [
-          "Technical information about crashes and errors (stack traces, error messages)",
-          "Device information (operating system, device model, app version)",
-          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
-          "Custom diagnostic information related to errors (error codes, operation types)"
+          "Informações técnicas sobre falhas e erros (rastreamentos de pilha, mensagens de erro)",
+          "Informações do dispositivo (sistema operacional, modelo do dispositivo, versão do aplicativo)",
+          "ID de instalação (um identificador exclusivo para a instalação do seu aplicativo, não vinculado à sua identidade pessoal)",
+          "Informações de diagnóstico personalizadas relacionadas a erros (códigos de erro, tipos de operação)"
         ],
-        "purpose": "Purpose:",
+        "purpose": "Propósito:",
         "purposeItems": [
-          "Identify and fix bugs and crashes",
-          "Improve app stability and performance",
-          "Analyze error patterns"
+          "Identifique e corrija bugs e falhas",
+          "Melhore a estabilidade e o desempenho do aplicativo",
+          "Analisar patterns de erro"
         ],
-        "dataSharing": "Data Sharing:",
-        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
-        "dataRetention": "Data Retention:",
-        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
-        "yourRights": "Your Rights:",
-        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+        "dataSharing": "Compartilhamento de dados:",
+        "dataSharingContent": "Esses dados são processados ​​pelo Google Firebase e estão sujeitos à Política de Privacidade do Google.",
+        "dataRetention": "Retenção de dados:",
+        "dataRetentionContent": "Os relatórios de falhas são retidos por Firebase por até 90 dias e depois são excluídos automaticamente.",
+        "yourRights": "Seus direitos:",
+        "yourRightsContent": "Você pode desativar o relatório de falhas desativando-o nas configurações do seu dispositivo, embora isso possa nos impedir de corrigir problemas que afetam você."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. Contate-nos",
+        "content": "Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       },
       "metaDescription": "Política de privacidade do Power Interval Timer — como lidamos com seus dados em iOS e Android."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "Características",
+      "screenshots": "Capturas de tela",
+      "howTo": "Como usar",
+      "tips": "Pontas",
       "faq": "FAQ",
       "download": "Download"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Power Interval Timer - Tabata & HIIT.",
-      "featuresTitle": "App screens",
+      "title": "Capturas de tela",
+      "subtitle": "Telas reais de aplicativos do Power Interval Timer - Tabata e HIIT.",
+      "featuresTitle": "Telas de aplicativos",
       "items": [
         {
-          "id": "home",
-          "title": "Home",
-          "description": "Pick a workout preset or build your own intervals.",
+          "id": "lar",
+          "title": "Lar",
+          "description": "Escolha uma predefinição de treino ou crie seus próprios intervalos.",
           "image": "/images/power-interval-timer/screenshot-home.png",
-          "alt": "Home — power interval timer",
-          "category": "features"
+          "alt": "Início – temporizador de intervalo de energia",
+          "category": "características"
         },
         {
-          "id": "timer",
-          "title": "Work interval",
-          "description": "Large countdown with clear work/rest phases.",
+          "id": "temporizador",
+          "title": "Intervalo de trabalho",
+          "description": "Grande contagem regressiva com fases claras de trabalho/descanso.",
           "image": "/images/power-interval-timer/screenshot-timer.png",
-          "alt": "Work interval — power interval timer",
-          "category": "features"
+          "alt": "Intervalo de trabalho — temporizador de intervalo de energia",
+          "category": "características"
         },
         {
-          "id": "setup",
-          "title": "Setup",
-          "description": "Configure rounds, durations, and rest periods.",
+          "id": "configurar",
+          "title": "Configurar",
+          "description": "Configure rodadas, durações e períodos de descanso.",
           "image": "/images/power-interval-timer/screenshot-setup.png",
-          "alt": "Setup — power interval timer",
-          "category": "features"
+          "alt": "Configuração – temporizador de intervalo de energia",
+          "category": "características"
         },
         {
-          "id": "display",
-          "title": "Display modes",
-          "description": "Choose the view that works in the gym or at home.",
+          "id": "mostrar",
+          "title": "Modos de exibição",
+          "description": "Escolha a visualização que funciona na academia ou em casa.",
           "image": "/images/power-interval-timer/screenshot-display.png",
-          "alt": "Display modes — power interval timer",
-          "category": "features"
+          "alt": "Modos de exibição — temporizador de intervalo de energia",
+          "category": "características"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Como usar",
       "steps": [
         {
           "number": "1",
-          "title": "Choose a preset",
-          "description": "Start with Tabata, HIIT, or custom intervals."
+          "title": "Escolha uma predefinição",
+          "description": "Comece com Tabata, HIIT ou intervalos personalizados."
         },
         {
           "number": "2",
-          "title": "Set work & rest",
-          "description": "Adjust seconds per phase and number of rounds."
+          "title": "Definir trabalho e descanso",
+          "description": "Ajuste os segundos por fase e o número de rodadas."
         },
         {
           "number": "3",
-          "title": "Start the timer",
-          "description": "Follow audio and visual cues through each interval."
+          "title": "Inicie o cronômetro",
+          "description": "Siga dicas de áudio e visuais em cada intervalo."
         },
         {
           "number": "4",
-          "title": "Track sessions",
-          "description": "Repeat workouts and refine your timing."
+          "title": "Acompanhar sessões",
+          "description": "Repita os treinos e refine seu tempo."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "Dicas e truques",
+      "subtitle": "Obtenha mais do aplicativo.",
       "items": [
         {
-          "title": "Programming tips",
-          "description": "1. Name timers like programs — “Strength 90/60”, “Engine 30/15”, not “Timer 3”. 2. Use prepare wisely — 10–15 s for demos; 0 s when athletes are already set. 3. Cooldown is discipline — 30–60 s walk-down beats stopping cold after HIIT. 4. Progression — duplicate a timer and add one round per week instead of rebuilding. 5. Pair work/rest to goal — 1:1 for conditioning; 1:2 or 1:3 for strength super"
+          "title": "Dicas de programação",
+          "description": "1. Nomeie os temporizadores como programas - “Força 90/60”, “Motor 30/15”, não “Temporizador 3”. 2. Use a preparação com sabedoria – 10–15 s para demonstrações; 0 s quando os atletas já estão definidos. 3. Cooldown é disciplina – batidas de caminhada de 30 a 60 segundos parando de frio após o HIIT. 4. Progressão – duplique um cronômetro e adicione uma rodada por semana em vez de reconstruir. 5. Combine trabalho/descanso com a meta – 1:1 para condicionamento; 1:2 ou 1:3 para força super"
         },
         {
-          "title": "Tabata & HIIT",
-          "description": "Classic Tabata: 20 s on / 10 s off × 8 (4 min). Quality drops after round 6 — that’s normal; note it in your log. - HIIT blocks: 40/20 or 30/15 for 10–20 min total work time. - EMOM-style: set work = 60 s, rest = 0, rounds = minutes in block; start each minute on the beep."
+          "title": "Tabata e HIIT",
+          "description": "Tabata Clássico: 20 s ligado / 10 s desligado × 8 (4 min). A qualidade cai após a rodada 6 – isso é normal; anote isso em seu log. - Blocos HIIT: 40/20 ou 30/15 por 10–20 minutos de tempo total de trabalho. - Estilo EMOM: trabalho definido = 60 s, descanso = 0, voltas = minutos em bloco; comece cada minuto com o sinal sonoro."
         },
         {
-          "title": "In the gym",
-          "description": "Landscape on a bench rack — timer + controls side by side. - Cast to TV for bootcamps so late arrivals see the phase. - Digital mode for bright floors; Circular for quick glance at distance."
+          "title": "Na academia",
+          "description": "Paisagem em uma bancada - cronômetro + controles lado a lado. - Transmitir para a TV os bootcamps para que os que chegam atrasados ​​vejam a fase. - Modo digital para pisos claros; Circular para uma rápida visão à distância."
         },
         {
-          "title": "Sound & vibration",
-          "description": "Test alert volume before the first work interval of a class. - “None” sound + vibration only for studios with noise rules. - Prepare beeps train athletes to set on the last countdown, not the first second of work."
+          "title": "Som e vibração",
+          "description": "Teste o volume do alerta antes do primeiro intervalo de trabalho de uma aula. - Som “Nenhum” + vibração apenas para studios com regras de ruído. - Prepare bipes para treinar atletas para definir a última contagem regressiva e não o primeiro segundo de trabalho."
         },
         {
-          "title": "Premium worth it when…",
-          "description": "You run more than two distinct protocols per week. - You want Chronograph / Dual modes for readability on iPad at arm’s length. - Ads distract clients during demos (one-time remove ads)."
+          "title": "Premium vale a pena quando…",
+          "description": "Você executa mais de dois protocolos distintos por semana. Você deseja os modos Cronógrafo / Duplo para legibilidade no iPad com o braço estendido. - Os anúncios distraem os clientes durante as demonstrações (remoção única de anúncios)."
         },
         {
-          "title": "Recovery & safety",
-          "description": "If form breaks, pause — don’t chase the clock. - Hydrate during rest, not work. - Cooldown isn’t optional for high-intensity blocks with beginners."
+          "title": "Recuperação e segurança",
+          "description": "Se o formulário quebrar, faça uma pausa – não persiga o relógio. - Hidrate-se durante o descanso, não no trabalho. - O resfriamento não é opcional para blocos de alta intensidade para iniciantes."
         },
         {
-          "title": "Weekly habit",
-          "description": "Sunday: reorder Home to match Mon–Fri plan. - Friday: archive or delete timers you didn’t use — keeps Home honest."
+          "title": "Hábito semanal",
+          "description": "Domingo: reordene a página inicial para corresponder ao plano de segunda a sexta. - Sexta-feira: arquive ou exclua temporizadores que você não usou – mantenha o Home honesto."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Perguntas frequentes",
+      "subtitle": "Respostas rápidas sobre recursos, privacidade e cobrança.",
+      "viewAllSupport": "Ver suporte completo e FAQ",
       "items": [
         {
-          "question": "What is Power Interval Timer?",
-          "answer": "A minimal interval timer for Tabata, HIIT, and custom work/rest rounds. It runs offline and focuses on clarity mid-workout."
+          "question": "O que é temporizador de intervalo de energia?",
+          "answer": "Um cronômetro de intervalo mínimo para Tabata, HIIT e rodadas personalizadas de trabalho/descanso. Ele funciona offline e se concentra na clareza no meio do treino."
         },
         {
-          "question": "Do I need an account?",
-          "answer": "No. Timers are stored on your device."
+          "question": "Eu preciso de uma conta?",
+          "answer": "Não. Os temporizadores são armazenados no seu dispositivo."
         },
         {
-          "question": "Does it work without internet?",
-          "answer": "Yes. Core timing, sounds, and saved timers work offline. Ads and purchase verification may need connectivity when those features are used."
+          "question": "Funciona sem internet?",
+          "answer": "Sim. O tempo principal, os sons e os temporizadores salvos funcionam offline. Anúncios e verificação de compras podem precisar de conectividade quando esses recursos são usados."
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "iPhone, iPad, Android phones/tablets, Apple TV, and Android TV."
+          "question": "Quais dispositivos são suportados?",
+          "answer": "iPhone, iPad, telefones/tablets Android, Apple TV e TV Android."
         },
         {
-          "question": "Can I do classic Tabata?",
-          "answer": "Yes — 20 s work, 10 s rest, 8 rounds (adjust prepare/cooldown as you like)."
+          "question": "Posso fazer Tabata clássico?",
+          "answer": "Sim – 20 s de trabalho, 10 s de descanso, 8 rodadas (ajuste a preparação/recarga conforme desejar)."
         },
         {
-          "question": "Can I skip rest or end early?",
-          "answer": "Use **Skip** for the current phase or **Stop** to end the session."
+          "question": "Posso pular o descanso ou terminar mais cedo?",
+          "answer": "Use **Pular** para a fase atual ou **Parar** para encerrar a sessão."
         },
         {
-          "question": "How do I pause with gloves on?",
-          "answer": "Tap anywhere on the timer face to start/pause."
+          "question": "Como faço uma pausa com luvas?",
+          "answer": "Toque em qualquer lugar do cronômetro para iniciar/pausar."
         },
         {
-          "question": "How many clock styles are there?",
-          "answer": "Ten display modes. Three are free (Circular, Digital, Linear); seven are Premium."
+          "question": "Quantos estilos de relógio existem?",
+          "answer": "Dez modos de exibição. Três são gratuitos (Circular, Digital, Linear); sete são Premium."
         },
         {
-          "question": "Can I use my own photo on a timer?",
-          "answer": "Yes — pick from your gallery when creating/editing a timer (system photo picker on modern Android)."
+          "question": "Posso usar minha própria foto em um cronômetro?",
+          "answer": "Sim - escolha na sua galeria ao criar/editar um cronômetro (seletor de fotos do sistema no Android moderno)."
         },
         {
-          "question": "Dark mode?",
-          "answer": "Settings → Theme: Light, Dark, or System."
+          "question": "Modo escuro?",
+          "answer": "Configurações → Tema: Claro, Escuro ou Sistema."
         },
         {
-          "question": "What’s included in Premium?",
-          "answer": "Unlimited saved timers, all display modes, no ads. One-time purchase (not a subscription)."
+          "question": "O que está incluído em Premium?",
+          "answer": "Temporizadores salvos ilimitados, todos os modos de exibição, sem anúncios. Compra única (não uma assinatura)."
         },
         {
-          "question": "How much is Premium?",
-          "answer": "Price is shown in the app from your local App Store or Google Play (varies by country)."
+          "question": "Quanto é Premium?",
+          "answer": "O preço é mostrado no aplicativo em App Store ou Google Play local (varia de acordo com o país)."
         }
       ]
     }

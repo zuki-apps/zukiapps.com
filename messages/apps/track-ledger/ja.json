@@ -1,287 +1,289 @@
 {
   "trackLedger": {
-    "back": "Back to Home",
+    "back": "ホームに戻る",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Track Ledger",
-      "subtitle": "Log GPS data",
-      "description": "Offline-first engineering GPS logger for mobile. Track Ledger records raw GNSS points for your paths—no smoothing. Set time- or distance-based sampling, pause and resume, then export from a track summary or the track list (CSV; GPX and GeoJSON with Premium). Use the Map tab to overlay tracks on OpenStreetMap tiles.",
-      "structuredDataDescription": "Track Ledger — offline-first GPS/GNSS track logger for iOS and Android. Record raw points, elevation profiles, OSM map overlay, export CSV (free) or GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger by Zuki Apps."
+      "title": "台帳の追跡",
+      "subtitle": "GPS データをログに記録する",
+      "description": "オフラインファーストエンジニアリングGPS モバイル用ロガー。 Track Ledger は、平滑化を行わずに、パスの生の GNSS ポイントを記録します。時間または距離ベースのサンプリングを設定し、一時停止して再開し、トラック概要またはトラックリストからエクスポートします (CSV、GPX、GeoJSON と Premium)。 [マップ] タブを使用して、OpenStreetMap タイルにトラックをオーバーレイします。",
+      "structuredDataDescription": "台帳の追跡 — iOS および Android のオフラインファースト GPS/GNSS 追跡ロガー。生のポイント、標高プロファイル、OSM マップ オーバーレイを記録し、CSV (無料) または GPX/GeoJSON (Premium) をエクスポートします。 Android com.zuki.apps.trackledger 作: Zuki Apps。",
+      "seoTitle": "台帳を追跡 — GPS 追跡ロガー | Zuki Apps",
+      "metaDescription": "GPS トラックをオフラインでログに記録し、GPX/CSV/GeoJSON をエクスポートします。アカウントは必要ありません。 iOS と Android は無料です。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主な特長",
       "gnss": {
-        "title": "Recording & tracks",
-        "description": "Log raw GNSS fixes with control over how often points are stored.",
+        "title": "録音とトラック",
+        "description": "ポイントが保存される頻度を制御できる生の GNSS 修正をログに記録します。",
         "items": [
-          "Time- or distance-based sampling",
-          "Pause, resume, and track summaries",
-          "Speed, distance, and accuracy at a glance"
+          "時間または距離ベースのサンプリング",
+          "概要を一時停止、再開、追跡する",
+          "速度、距離、精度が一目で分かる"
         ]
       },
       "export": {
-        "title": "Export & share",
-        "description": "Get your data out as standard formats and share from the track flow.",
+        "title": "エクスポートと共有",
+        "description": "データを標準形式で取得し、トラック フローから共有します。",
         "items": [
-          "CSV export on all tiers",
-          "GPX and GeoJSON with Premium",
-          "Share sheet integration"
+          "CSV すべての階層でエクスポート",
+          "GPX と GeoJSON と Premium",
+          "共有シートの統合"
         ]
       },
       "map": {
-        "title": "Map",
-        "description": "Visualize completed paths on familiar map tiles.",
+        "title": "地図",
+        "description": "完成したパスを使い慣れた地図タイル上に視覚化します。",
         "items": [
-          "OpenStreetMap overlays",
-          "Select one or more tracks",
-          "Share map images"
+          "OpenStreetMap オーバーレイ",
+          "1 つ以上のトラックを選択します",
+          "地図画像を共有する"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "可用性",
       "description": "Native app for iOS and Android (bundle / application ID: com.zuki.apps.trackledger). Store links appear below when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "バージョン",
+      "status": "プラットフォーム",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "ダウンロード",
       "description": "App Store and Google Play badges will appear here once the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/track-ledger-log-gps-data/id6762567364",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "App Store からダウンロードしてください",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.trackledger",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Google Play で入手"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要なリンク",
       "support": {
-        "title": "Technical Support",
+        "title": "テクニカルサポート",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Track Ledger. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "title": "利用規約",
+      "lastUpdated": "最終更新日: 2026 年 4 月",
+      "intro": "Track Ledger を使用する前に、これらの利用規約をよくお読みください。当社のサービスにアクセスまたは使用すると、これらの規約に拘束されることに同意したものとみなされます。同意できない場合は、アプリを使用しないでください。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Track Ledger (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a GPS/GNSS track logging application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 規約への同意",
+        "content": "これらの利用規約 (「規約」) は、Zuki Apps (「会社」) が運営する GPS/GNSS 追跡ログ アプリケーションである Track Ledger (「サービス」、「アプリ」、「当社」、「当社」) へのアクセスおよび使用を規定します。サービスをダウンロード、インストール、アクセス、または使用することにより、お客様は本規約および当社のプライバシー ポリシーに拘束されることに同意したものとみなされます。",
+        "content2": "あなたが組織を代表して本サービスを使用している場合、あなたはその組織を本規約に拘束する権限を持っていることを表明し、保証するものとします。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Track Ledger is a mobile application that records location-related data for paths you choose to log. The Service includes:",
+        "title": "2. サービスの説明",
+        "content": "Track Ledger は、ログに選択したパスの位置関連データを記録するモバイル アプリケーションです。サービスには以下が含まれます:",
         "items": [
-          "Recording of GNSS/GPS fixes and related metadata (e.g. accuracy, speed) on your device",
-          "Configurable sampling (time- or distance-based), pause and resume, and track summaries",
-          "Export and sharing of track data (e.g. CSV; GPX and GeoJSON where enabled)",
-          "Map visualization using third-party map tiles (e.g. OpenStreetMap) for completed tracks",
-          "Optional in-app purchases or ads as described in the app"
+          "デバイス上のGNSS/GPS 修正および関連メタデータ (精度、速度など) の記録",
+          "構成可能なサンプリング (時間または距離ベース)、一時停止と再開、および概要の追跡",
+          "トラックデータのエクスポートと共有 (例: CSV、GPX、GeoJSON が有効な場合)",
+          "完成したトラックに対するサードパーティの地図タイル (OpenStreetMap など) を使用した地図の視覚化",
+          "アプリ内で説明されているオプションのアプリ内購入または広告"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 連絡先情報",
+        "content": "これらの規約についてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2026 年 4 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Track Ledger processes location data (GNSS/GPS) when you start recording, along with app settings and track metadata needed to run the app. Depending on your device and configuration, the app may use analytics or crash reporting to improve stability (often via third-party SDKs). Data you export or share is sent only when you explicitly choose export or share. Map tiles may be loaded from third-party providers when you use the Map feature."
+        "title": "1. 当社が収集する情報",
+        "content": "Track Ledger は、記録を開始すると位置データ (GNSS/GPS) を処理し、アプリの設定とアプリの実行に必要なメタデータを追跡します。デバイスと構成に応じて、アプリは安定性を向上させるために分析またはクラッシュレポートを使用する場合があります (多くの場合、サードパーティの SDK を介して)。エクスポートまたは共有するデータは、明示的にエクスポートまたは共有を選択した場合にのみ送信されます。地図機能を使用するときに、サードパーティのプロバイダーから地図タイルが読み込まれる場合があります。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information described above to provide recording, storage on your device, export/sharing features you trigger, and optional product improvement through aggregated diagnostics where enabled. We do not sell your personal track history as a product."
+        "title": "2. お客様の情報の使用方法",
+        "content": "当社は、上記の情報を使用して、記録、デバイスへの保存、ユーザーがトリガーしたエクスポート/共有機能、および有効な場合は集約された診断によるオプションの製品改善を提供します。当社は、お客様の個人的なトラック履歴を商品として販売することはありません。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Data leaves your device when you export, share, or when required third-party services (e.g. map tile servers, app stores, analytics if enabled) process requests as part of normal app operation. See in-app notices and platform settings for controls where available."
+        "title": "3. 情報共有",
+        "content": "当社はあなたの個人情報を販売しません。データは、エクスポート、共有するとき、または通常のアプリ操作の一部としてリクエストを処理する必要なサードパーティ サービス (マップ タイル サーバー、app stores、有効な場合は分析など) に応じてデバイスから送信されます。利用可能な場合は、アプリ内通知とコントロールのプラットフォーム設定を参照してください。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable measures appropriate to a mobile app. Track data is stored in app storage on your device; you should use device security (passcode, encryption) as recommended by your platform vendor."
+        "title": "4. データセキュリティ",
+        "content": "モバイルアプリに応じた合理的な措置を講じます。追跡データはデバイスのアプリ ストレージに保存されます。プラットフォーム ベンダーが推奨するデバイス セキュリティ (パスコード、暗号化) を使用する必要があります。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, correct, or delete personal data, or to opt out of certain processing. You can delete tracks in the app, uninstall the app to remove local data, and contact us for privacy requests."
+        "title": "5. お客様の権利",
+        "content": "お住まいの地域によっては、個人データにアクセス、修正、削除する権利、または特定の処理をオプトアウトする権利がある場合があります。アプリ内のトラックを削除したり、アプリをアンインストールしてローカル データを削除したり、プライバシー リクエストについてお問い合わせいただくことができます。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. お問い合わせ",
+        "content": "このプライバシー ポリシーについてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       },
       "metaDescription": "Track Ledger のプライバシー ポリシー — GPS/GNSS 追跡ログ アプリ。位置データ、エクスポート、およびオプションの分析がどのように処理されるか。"
     },
     "footer": {
-      "copyright": "© 2026 Track Ledger - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 トラック台帳 - 無断複写・転載を禁じます",
+      "tagline": "Zuki Apps の一部 • イスラエル出身の開発者 • ❤️ で作られました"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特徴",
+      "screenshots": "スクリーンショット",
+      "howTo": "使用方法",
+      "tips": "ヒント",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "ダウンロード"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Track Ledger.",
-      "featuresTitle": "App screens",
+      "title": "スクリーンショット",
+      "subtitle": "Track Ledger の実際のアプリ画面。",
+      "featuresTitle": "アプリ画面",
       "items": [
         {
-          "id": "recording",
-          "title": "Recording",
-          "description": "Live distance, speed, and accuracy while logging.",
+          "id": "録音",
+          "title": "録音",
+          "description": "ログ中の実際の距離、速度、精度。",
           "image": "/images/track-ledger/screenshot-recording.png",
-          "alt": "Recording — track ledger",
-          "category": "features"
+          "alt": "記録 — トラック台帳",
+          "category": "特徴"
         },
         {
-          "id": "map",
-          "title": "Map overlay",
-          "description": "Review tracks on OpenStreetMap tiles.",
+          "id": "地図",
+          "title": "地図オーバーレイ",
+          "description": "OpenStreetMap タイル上のトラックを確認します。",
           "image": "/images/track-ledger/screenshot-map.png",
-          "alt": "Map overlay — track ledger",
-          "category": "features"
+          "alt": "地図オーバーレイ — 台帳を追跡する",
+          "category": "特徴"
         },
         {
-          "id": "summary",
-          "title": "Track summary",
-          "description": "Elevation vs distance and session stats.",
+          "id": "まとめ",
+          "title": "トラック概要",
+          "description": "標高と距離、およびセッションの統計。",
           "image": "/images/track-ledger/screenshot-summary.png",
-          "alt": "Track summary — track ledger",
-          "category": "features"
+          "alt": "トラックの概要 — トラック台帳",
+          "category": "特徴"
         },
         {
-          "id": "settings",
-          "title": "Settings",
-          "description": "Sampling, projects, and export options.",
+          "id": "設定",
+          "title": "設定",
+          "description": "サンプリング、プロジェクト、エクスポートのオプション。",
           "image": "/images/track-ledger/screenshot-settings.png",
-          "alt": "Settings — track ledger",
-          "category": "features"
+          "alt": "設定 — 台帳を追跡する",
+          "category": "特徴"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "使用方法",
       "steps": [
         {
           "number": "1",
-          "title": "Create a project",
-          "description": "Organize field work into named projects."
+          "title": "プロジェクトを作成する",
+          "description": "フィールド作業を名前付きプロジェクトに整理します。"
         },
         {
           "number": "2",
-          "title": "Start recording",
-          "description": "Log raw GNSS points with your chosen sampling mode."
+          "title": "録音を開始する",
+          "description": "選択したサンプリング モードで生の GNSS ポイントを記録します。"
         },
         {
           "number": "3",
-          "title": "Review on map",
-          "description": "Inspect path, elevation chart, and accuracy."
+          "title": "地図でレビュー",
+          "description": "経路、標高図、精度を検査します。"
         },
         {
           "number": "4",
-          "title": "Export data",
-          "description": "Share CSV free; GPX and GeoJSON with Premium."
+          "title": "データのエクスポート",
+          "description": "CSV を無料で共有します。 GPX と GeoJSON に Premium が付いています。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "よくある質問",
+      "subtitle": "機能、プライバシー、請求に関する簡単な回答。",
+      "viewAllSupport": "フルサポートを見る & FAQ",
       "items": [
         {
-          "question": "What is Track Ledger?",
-          "answer": "A simple GPS / GNSS track logger focused on data export and field use. It records your path as raw points with optional time- or distance-based sampling."
+          "question": "追跡台帳とは何ですか?",
+          "answer": "データのエクスポートと現場での使用に重点を置いたシンプルな GPS / GNSS トラック ロガー。オプションの時間または距離ベースのサンプリングを使用して、パスを生のポイントとして記録します。"
         },
         {
-          "question": "Is it a fitness or social app?",
-          "answer": "No. There are no leaderboards, workouts, or social feeds. It's built for people who need reliable location logs and file exports."
+          "question": "それはフィットネス アプリですか、それともソーシャル アプリですか?",
+          "answer": "いいえ、リーダーボード、ワークアウト、ソーシャル フィードはありません。信頼できる位置ログとファイルのエクスポートを必要とするユーザー向けに構築されています。"
         },
         {
-          "question": "Do I need an account?",
-          "answer": "No. Everything is stored locally on your device."
+          "question": "アカウントは必要ですか?",
+          "answer": "いいえ、すべてがデバイス上にローカルに保存されます。"
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Yes. Recording and viewing saved tracks work without internet. The Map tab needs network to load OpenStreetMap tiles."
+          "question": "オフラインでも動作しますか?",
+          "answer": "はい。保存されたトラックの録音と表示は、インターネットがなくても機能します。 [マップ] タブには、OpenStreetMap タイルを読み込むためのネットワークが必要です。"
         },
         {
-          "question": "When does the app use my location?",
-          "answer": "Only while you have an active recording (and optionally in the background if you have Premium and background recording enabled)."
+          "question": "アプリはいつ私の位置情報を使用しますか?",
+          "answer": "アクティブな録音がある間のみ (および、Premium とバックグラウンド録音が有効になっている場合は、オプションでバックグラウンドでも)。"
         },
         {
-          "question": "Why did recording pause when I switched apps?",
-          "answer": "On the free plan, new GPS points are logged only while Track Ledger is in the foreground. Premium with background recording enabled continues logging when you leave the app."
+          "question": "アプリを切り替えると録音が一時停止するのはなぜですか?",
+          "answer": "無料プランでは、Track Ledger がフォアグラウンドにあるときにのみ、新しい GPS ポイントが記録されます。 Premium バックグラウンド記録が有効になっている場合、アプリを終了しても記録が継続されます。"
         },
         {
-          "question": "What does \"raw GNSS, no smoothing\" mean?",
-          "answer": "Points are saved as the device reports them. We don't apply a smoothing filter — you get the honest trace for your own analysis."
+          "question": "「生 GNSS、スムージングなし」とはどういう意味ですか?",
+          "answer": "ポイントは、デバイスが報告すると保存されます。平滑化フィルターは適用しません。独自の分析に使用できる正直なトレースが得られます。"
         },
         {
-          "question": "How many tracks can I save?",
-          "answer": "Free: up to 10 completed tracks. Premium: unlimited (or a higher cap you choose in Settings)."
+          "question": "トラックは何曲まで保存できますか?",
+          "answer": "無料: 完成したトラックは最大 10 曲まで。 Premium: 無制限 (または設定で選択したより高い上限)。"
         },
         {
-          "question": "What happens when the ledger is full?",
-          "answer": "In Settings → Ledger you choose: automatically remove oldest tracks, or refuse new recordings until you delete tracks manually."
+          "question": "台帳がいっぱいになるとどうなりますか?",
+          "answer": "「設定」→「台帳」で、最も古いトラックを自動的に削除するか、トラックを手動で削除するまで新しい録音を拒否するかを選択します。"
         },
         {
-          "question": "Which formats are free?",
-          "answer": "CSV export and share are always available."
+          "question": "どの形式が無料ですか?",
+          "answer": "CSV エクスポートと共有はいつでも利用できます。"
         },
         {
-          "question": "Which formats need Premium?",
-          "answer": "GPX and GeoJSON."
+          "question": "Premium が必要な形式はどれですか?",
+          "answer": "GPX と GeoJSON。"
         },
         {
-          "question": "Can I share a track to another app?",
-          "answer": "Yes — use Share from track summary or Ledger. The system share sheet opens (Mail, Files, AirDrop, etc.)."
+          "question": "トラックを別のアプリと共有できますか?",
+          "answer": "はい — トラックサマリーまたは元帳から共有を使用します。システム共有シートが開きます (メール、ファイル、AirDrop など)。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "ヒントとコツ",
+      "subtitle": "アプリをさらに活用しましょう。",
       "items": [
         {
-          "title": "GPS quality",
-          "description": "Wait for a good fix before tapping Start — check GPS accuracy on the recording screen. - Open sky beats urban canyons and dense tree cover. - Raw points are logged without smoothing — if accuracy is poor, you'll see it in the data (by design)."
+          "title": "GPS品質",
+          "description": "適切な修正が行われるまで待ってから、「開始」をタップします。録画画面でGPS の精度を確認してください。 - 開放的な空は、都会の渓谷や鬱蒼とした木々に勝ります。 - 生のポイントは平滑化せずにログに記録されます。精度が悪い場合は、(仕様により) データに表示されます。"
         },
         {
-          "title": "Sampling strategy",
-          "description": "| Scenario | Suggested setting | |----------|-------------------| | Walking / hiking | Time: every 5–10 s | | Driving / vehicle survey | Distance: every 25–50 m | | Long battery life | Wider intervals (time or distance) | | Detailed path capture | Tighter intervals (more points, larger files) |"
+          "title": "サンプリング戦略",
+          "description": "|シナリオ |推奨設定 | |----------|---------------------| |ウォーキング/ハイキング |時間: 5 ～ 10 秒ごと | |運転・車両調査 |距離: 25 ～ 50 m ごと | |長生き |より広い間隔 (時間または距離) | |詳細なパスのキャプチャ |より狭い間隔 (より多くのポイント、より大きなファイル) |"
         },
         {
           "title": "Battery",
-          "description": "Enable Keep screen on only when you need to watch the screen continuously. - Wider sampling intervals reduce CPU and GPS wakeups. - Background recording (Premium) uses more battery — expected for continuous logging."
+          "description": "画面を継続的に見る必要がある場合にのみ、「画面をオンのままにする」を有効にします。 - サンプリング間隔が広いと、CPU と GPS ウェイクアップが減少します。 - バックグラウンド記録 (Premium) は、より多くの battery を使用します。これは継続的なログ記録に期待されます。"
         },
         {
-          "title": "Field workflow",
-          "description": "1. Create a project per job site or client. 2. Record with a consistent sampling preset per project type. 3. Export CSV in the field for quick checks; use GPX/GeoJSON back at the office. 4. Use Map tab to compare multiple passes on the same corridor."
+          "title": "フィールドワークフロー",
+          "description": "1. 現場またはクライアントごとにプロジェクトを作成します。 2. プロジェクト タイプごとに一貫したサンプリング プリセットを使用して録音します。 3. CSV をフィールドにエクスポートして簡単に確認します。オフィスに戻って GPX/GeoJSON を使用してください。 4. [マップ] タブを使用して、同じコリドー上の複数のパスを比較します。"
         },
         {
-          "title": "Data hygiene",
-          "description": "Rename tracks right after stop while context is fresh. - Delete test runs so you don't hit the free-tier ledger limit. - Premium users: set max completed tracks and when full policy before long field seasons."
+          "title": "データの健全性",
+          "description": "コンテキストが新しい間に、停止直後にトラックの名前を変更します。 - 無料利用枠の台帳制限に達しないように、テスト実行を削除します。 - Premium ユーザー: 完了したトラックの最大数と、長いフィールドシーズンの前に完全ポリシーを設定します。"
         },
         {
-          "title": "Exports & GIS",
-          "description": "CSV — columns include coordinates, time, elevation (as logged). Open in Excel, Python, R. - GPX — import to QGIS, Gaia GPS, or custom pipelines. - GeoJSON — drop into web maps or `ogr2ogr` workflows."
+          "title": "輸出とGIS",
+          "description": "CSV — 列には、座標、時間、標高 (ログに記録されたもの) が含まれます。 Excel、Python、R で開きます。 - GPX — QGIS、Gaia GPS、またはカスタム パイプラインにインポートします。 - GeoJSON — Web マップまたは「ogr2ogr」ワークフローにドロップします。"
         },
         {
-          "title": "Premium worth it if you…",
-          "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
+          "title": "Premium 価値があるのは…",
+          "description": "カメラまたはメモ アプリの使用中にバックグラウンド ログが必要 - GPX または GeoJSON に定期的にエクスポート - 一定の距離または期間で自動停止が必要 - 10 曲以上の完成したトラックを録音 1 回限りの購入 — サブスクリプションなし。"
         }
       ]
     },

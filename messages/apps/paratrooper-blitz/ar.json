@@ -1,282 +1,284 @@
 {
   "paratrooperBlitz": {
-    "back": "Back to Home",
+    "back": "العودة إلى المنزل",
     "hero": {
       "badge": "Zuki Apps",
-      "title": "Paratrooper Blitz",
-      "subtitle": "Classic arcade action",
-      "description": "Arcade-style mobile game: destroy aircraft and paratroopers before they land. Two control modes (Arcade and Classic DOS), scoring, career ranks, optional ads and in-app purchases, and Google Play Games / Game Center integrations on supported builds.",
-      "structuredDataDescription": "Paratrooper Blitz — retro anti-air arcade for iOS and Android. Arcade slide-and-shoot and Classic aim-and-fire modes, leaderboards, 14 achievements, 12 languages. Android com.zuki.apps.paratrooperblitz by Zuki Apps."
+      "title": "المظلي الغارة",
+      "subtitle": "عمل الممرات الكلاسيكية",
+      "description": "لعبة متنقلة بأسلوب أركيد: قم بتدمير الطائرات والمظليين قبل أن يهبطوا. وضعان للتحكم (Arcade وClassic DOS)، والتسجيل، والرتب المهنية، والإعلانات الاختيارية وعمليات الشراء داخل التطبيق، وعمليات تكامل Google Play Games / Game Center على الإصدارات المدعومة.",
+      "structuredDataDescription": "Paratrooper Blitz — ممر قديم مضاد للهواء لـ iOS وAndroid. أركيد الشريحة والتصويب وأوضاع التصويب وإطلاق النار الكلاسيكية، ولوحات المتصدرين، و14 إنجازًا، و12 لغة. Android com.zuki.apps.paratrooperblitz بواسطة Zuki Apps.",
+      "seoTitle": "المظلي الخاطف — ممر العمل | Zuki Apps",
+      "metaDescription": "ممر مظلي كلاسيكي مع النتائج ولوحات المتصدرين. مجانًا على iOS وAndroid — العب الآن."
     },
     "features": {
-      "title": "Key Features",
+      "title": "الميزات الرئيسية",
       "modes": {
-        "title": "Two ways to play",
-        "description": "Pick the control scheme that fits you — fast arcade movement or classic rotation aiming.",
+        "title": "طريقتان للعب",
+        "description": "اختر نظام التحكم الذي يناسبك - حركة الممرات السريعة أو التصويب بالتناوب الكلاسيكي.",
         "items": [
-          "Arcade mode: move the turret left and right",
-          "Classic DOS mode: rotate and aim",
-          "Keyboard hints on supported platforms"
+          "وضع الممرات: حرك البرج إلى اليسار واليمين",
+          "وضع DOS الكلاسيكي: قم بالتدوير والهدف",
+          "تلميحات لوحة المفاتيح على الأنظمة الأساسية المدعومة"
         ]
       },
       "action": {
-        "title": "Scores & career rank",
-        "description": "Chase high scores and progress through themed military-style ranks as you play.",
+        "title": "النتائج والرتبة المهنية",
+        "description": "حقق أعلى النتائج وحقق التقدم من خلال الرتب ذات الطابع العسكري أثناء اللعب.",
         "items": [
-          "Session scoring with aircraft and paratrooper hits",
-          "Career rank progression",
-          "Game over flow with play-again"
+          "سجل الجلسة بضربات الطائرات والمظليين",
+          "التقدم في الرتبة الوظيفية",
+          "انتهت اللعبة مع اللعب مرة أخرى"
         ]
       },
       "social": {
-        "title": "Leaderboards & achievements",
-        "description": "Where signed in, use platform services for rankings and achievements as configured in the app.",
+        "title": "المتصدرين والإنجازات",
+        "description": "عند تسجيل الدخول، استخدم خدمات النظام الأساسي للتصنيفات والإنجازات كما تم تكوينها في التطبيق.",
         "items": [
-          "Global and friends-style lists where available",
-          "Native leaderboard and achievement UIs",
-          "Firebase Analytics/Crashlytics may apply for stability"
+          "القوائم العالمية وقوائم نمط الأصدقاء حيثما كان ذلك متاحًا",
+          "المتصدرين الأصليين وواجهات المستخدم للإنجاز",
+          "Firebase قد يتم تطبيق التحليلات/Crashlytics لتحقيق الاستقرار"
         ]
       }
     },
     "status": {
-      "title": "Availability",
+      "title": "التوفر",
       "description": "iOS and Android. Android application ID: com.zuki.apps.paratrooperblitz. Store links appear when listings are public.",
-      "version": "Version",
-      "status": "Platform",
+      "version": "إصدار",
+      "status": "منصة",
       "versionValue": "1.0.0+1",
       "statusValue": "iOS & Android"
     },
     "download": {
-      "title": "Download",
+      "title": "تحميل",
       "description": "App Store and Google Play badges will appear here when the app is published.",
       "soon": "Coming soon",
       "appStoreUrl": "https://apps.apple.com/il/app/paratrooper-blitz/id6763775995",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "تحميل على App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.paratrooperblitz",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "احصل عليه Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "روابط مهمة",
       "support": {
-        "title": "Technical Support",
+        "title": "الدعم الفني",
         "email": "support@zukiapps.com"
       }
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: April 2026",
-      "intro": "Please read these Terms of Use carefully before using Paratrooper Blitz. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the game.",
+      "title": "شروط الاستخدام",
+      "lastUpdated": "آخر تحديث: أبريل 2026",
+      "intro": "يرجى قراءة شروط الاستخدام هذه بعناية قبل استخدام Paratrooper Blitz. من خلال الوصول إلى خدمتنا أو استخدامها، فإنك توافق على الالتزام بهذه الشروط. إذا كنت لا توافق، يرجى عدم استخدام اللعبة.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your access to and use of Paratrooper Blitz (\"Service\", \"Game\"), operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
-        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian authorized to agree on their behalf where required."
+        "title": "1. قبول الشروط",
+        "content": "تحكم هذه الشروط وصولك إلى واستخدام Paratrooper Blitz (\"الخدمة\"، \"اللعبة\")، التي تديرها Zuki Apps. عن طريق تنزيل الخدمة أو تثبيتها أو الوصول إليها أو استخدامها، فإنك توافق على هذه الشروط وسياسة الخصوصية الخاصة بنا.",
+        "content2": "إذا كنت تستخدم الخدمة نيابة عن قاصر، فإنك تقر بأنك الوالد أو الوصي المفوض بالموافقة نيابة عنه عند الاقتضاء."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Paratrooper Blitz is an arcade-style action game. The Service includes:",
+        "title": "2. وصف الخدمة",
+        "content": "Paratrooper Blitz هي لعبة حركية بأسلوب الأركيد. الخدمة تشمل:",
         "items": [
-          "Gameplay sessions, scoring, and progression features",
-          "Optional integration with platform game services (e.g. leaderboards, achievements) where available",
-          "Advertising and in-app purchases as described in-app",
-          "Audio and visual effects; online features depend on third-party services and connectivity"
+          "جلسات اللعب وميزات التسجيل والتقدم",
+          "التكامل الاختياري مع خدمات ألعاب النظام الأساسي (مثل لوحات الصدارة والإنجازات) حيثما كان ذلك متاحًا",
+          "الإعلانات وعمليات الشراء داخل التطبيق كما هو موضح داخل التطبيق",
+          "المؤثرات الصوتية والمرئية. تعتمد الميزات عبر الإنترنت على خدمات واتصالات الجهات الخارجية"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "Questions about these Terms:",
+        "title": "19. معلومات الاتصال",
+        "content": "أسئلة حول هذه الشروط:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36، سار، ص. 22805، إسرائيل"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 2026",
+      "title": "سياسة الخصوصية",
+      "lastUpdated": "آخر تحديث: أبريل 2026",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "The game may use Firebase Analytics and Crashlytics for diagnostics, platform sign-in for game services, and advertising identifiers subject to your device settings. Gameplay data may be processed by platform providers (Apple, Google) when you use their services."
+        "title": "1. المعلومات التي نجمعها",
+        "content": "قد تستخدم اللعبة Firebase Analytics وCrashlytics للتشخيص وتسجيل الدخول إلى النظام الأساسي لخدمات اللعبة ومعرفات الإعلانات التي تخضع لإعدادات جهازك. قد تتم معالجة بيانات اللعب بواسطة موفري الأنظمة الأساسية (Apple وGoogle) عند استخدام خدماتهم."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use collected information to operate the game, show ads or offers where applicable, improve stability, and comply with law. Leaderboards and achievements rely on platform APIs when you opt in or sign in."
+        "title": "2. كيف نستخدم معلوماتك",
+        "content": "نحن نستخدم المعلومات التي تم جمعها لتشغيل اللعبة وعرض الإعلانات أو العروض حيثما ينطبق ذلك وتحسين الاستقرار والامتثال للقانون. تعتمد لوحات المتصدرين والإنجازات على واجهات برمجة تطبيقات النظام الأساسي عند الاشتراك أو تسجيل الدخول."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell your personal information. Third parties (ad networks, analytics, platform game services) may process data under their policies when those features are active."
+        "title": "3. تبادل المعلومات",
+        "content": "نحن لا نبيع معلوماتك الشخصية. يجوز للأطراف الثالثة (شبكات الإعلانات، والتحليلات، وخدمات ألعاب المنصات) معالجة البيانات بموجب سياساتها عندما تكون هذه الميزات نشطة."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement reasonable safeguards appropriate to a mobile game. Use strong device security and keep the app updated."
+        "title": "4. أمن البيانات",
+        "content": "نحن ننفذ ضمانات معقولة مناسبة للعبة الهاتف المحمول. استخدم أمانًا قويًا للجهاز وحافظ على تحديث التطبيق."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "Depending on your region, you may have rights to access, delete, or restrict certain processing. Platform account settings and OS privacy controls apply. Contact us for requests we can fulfill directly."
+        "title": "5. حقوقك",
+        "content": "اعتمادًا على منطقتك، قد يكون لديك حقوق الوصول إلى عمليات معالجة معينة أو حذفها أو تقييدها. تنطبق إعدادات حساب النظام الأساسي وعناصر التحكم في خصوصية نظام التشغيل. اتصل بنا للطلبات التي يمكننا تلبيتها مباشرة."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "Questions about this Privacy Policy:",
+        "title": "8. اتصل بنا",
+        "content": "أسئلة حول سياسة الخصوصية هذه:",
         "email": "support@zukiapps.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36، سار، ص. 22805، إسرائيل"
       },
       "metaDescription": "سياسة الخصوصية للعبة Paratrooper Blitz — لعبة أركيد. كيفية التعامل مع بيانات اللعب والإعلانات وFirebase وخدمات ألعاب النظام الأساسي."
     },
     "footer": {
-      "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2026 باراتروبر بليتز - جميع الحقوق محفوظة",
+      "tagline": "جزء من Zuki Apps • مطور من إسرائيل • مصنوع باستخدام ❤️"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "سمات",
+      "screenshots": "لقطات الشاشة",
+      "howTo": "كيفية الاستخدام",
+      "tips": "نصائح",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "تحميل"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Paratrooper Blitz.",
-      "featuresTitle": "App screens",
+      "title": "لقطات الشاشة",
+      "subtitle": "شاشات التطبيق الحقيقية من Paratrooper Blitz.",
+      "featuresTitle": "شاشات التطبيقات",
       "items": [
         {
-          "id": "menu",
-          "title": "Main menu",
-          "description": "Pick Arcade or Classic and view your best scores.",
+          "id": "قائمة طعام",
+          "title": "القائمة الرئيسية",
+          "description": "اختر Arcade أو Classic واعرض أفضل نتائجك.",
           "image": "/images/paratrooper-blitz/screenshot-menu.png",
-          "alt": "Main menu — paratrooper blitz",
-          "category": "features"
+          "alt": "القائمة الرئيسية - الهجوم الخاطف المظلي",
+          "category": "سمات"
         },
         {
-          "id": "classic",
-          "title": "Classic mode",
-          "description": "Aim-and-fire paratrooper action with scoring on screen.",
+          "id": "كلاسيكي",
+          "title": "الوضع الكلاسيكي",
+          "description": "حركة مظلية تهدف إلى إطلاق النار مع تسجيل الأهداف على الشاشة.",
           "image": "/images/paratrooper-blitz/screenshot-classic.png",
-          "alt": "Classic mode — paratrooper blitz",
-          "category": "features"
+          "alt": "الوضع الكلاسيكي — الهجوم الخاطف المظلي",
+          "category": "سمات"
         },
         {
-          "id": "arcade",
-          "title": "Arcade mode",
-          "description": "Slide-and-shoot waves of aircraft and chutes.",
+          "id": "ممر",
+          "title": "وضع الممرات",
+          "description": "موجات الشريحة واطلاق النار من الطائرات والمزالق.",
           "image": "/images/paratrooper-blitz/screenshot-arcade.png",
-          "alt": "Arcade mode — paratrooper blitz",
-          "category": "features"
+          "alt": "وضع الممرات - الهجوم المظلي",
+          "category": "سمات"
         },
         {
-          "id": "chute",
-          "title": "Chute shots",
-          "description": "Time your shots before paratroopers land.",
+          "id": "شلال",
+          "title": "طلقات شلال",
+          "description": "حدد توقيت إطلاق النار قبل هبوط المظليين.",
           "image": "/images/paratrooper-blitz/screenshot-chute.png",
-          "alt": "Chute shots — paratrooper blitz",
-          "category": "features"
+          "alt": "طلقات شلال - الهجوم الخاطف للمظلي",
+          "category": "سمات"
         },
         {
-          "id": "wave",
-          "title": "Wave pressure",
-          "description": "Survive escalating waves for a high score.",
+          "id": "موجة",
+          "title": "الضغط الموجي",
+          "description": "البقاء على قيد الحياة موجات متصاعدة لدرجة عالية.",
           "image": "/images/paratrooper-blitz/screenshot-wave.png",
-          "alt": "Wave pressure — paratrooper blitz",
-          "category": "features"
+          "alt": "ضغط الموجة - الهجوم المظلي",
+          "category": "سمات"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "كيفية الاستخدام",
       "steps": [
         {
           "number": "1",
-          "title": "Pick a mode",
-          "description": "Arcade for slide-and-shoot; Classic for aim-and-fire."
+          "title": "اختر الوضع",
+          "description": "أركيد للتمرير والتقاط الصور؛ الكلاسيكية للتصويب والنار."
         },
         {
           "number": "2",
-          "title": "Destroy threats",
-          "description": "Shoot aircraft and paratroopers before they reach your turret."
+          "title": "تدمير التهديدات",
+          "description": "أطلق النار على الطائرات والمظليين قبل أن يصلوا إلى برجك."
         },
         {
           "number": "3",
-          "title": "Chain combos",
-          "description": "Keep accuracy high to maximize score multipliers."
+          "title": "مجموعات السلسلة",
+          "description": "حافظ على دقة عالية لتعظيم مضاعفات النتيجة."
         },
         {
           "number": "4",
-          "title": "Beat your best",
-          "description": "Submit scores to leaderboards and unlock achievements."
+          "title": "تغلب على أفضل ما لديك",
+          "description": "إرسال النتائج إلى المتصدرين وفتح الإنجازات."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "نصائح وحيل",
+      "subtitle": "احصل على المزيد من التطبيق.",
       "items": [
         {
-          "title": "Beginner",
-          "description": "1. Learn Arcade first — fixed vertical shots are easier to aim. 2. Watch the ground — two soldiers on one side triggers a danger alert; four ends the run. 3. Pop chutes early — +150 points and they fall fast without a canopy."
+          "title": "مبتدئ",
+          "description": "1. تعلم الآركيد أولًا — من الأسهل تصويب اللقطات العمودية الثابتة. 2. راقب الأرض – جنديان على جانب واحد يطلقان إنذارًا بالخطر؛ أربعة ينهي المدى. 3. قم بتفجير المزالق مبكرًا — +150 نقطة وستسقط بسرعة بدون مظلة."
         },
         {
-          "title": "Intermediate",
-          "description": "4. Center your turret in Arcade so you can reach both sides quickly. 5. Save fire for clusters — combo windows reward back-to-back kills. 6. Deal with bombers first — destroy the plane or the bomb before it lands."
+          "title": "متوسط",
+          "description": "4. قم بتوسيط برجك في Arcade حتى تتمكن من الوصول إلى كلا الجانبين بسرعة. 5. وفر النار للمجموعات - نوافذ التحرير والسرد تكافئ عمليات القتل المتتالية. 6. تعامل مع قاذفات القنابل أولاً – دمر الطائرة أو القنبلة قبل أن تهبط."
         },
         {
-          "title": "Advanced",
-          "description": "7. Classic mode — sweep the sky in arcs; lead aircraft moving horizontally. 8. Wave spikes — after ~2 minutes, spawn rate increases; stay calm and prioritize landings. 9. Sign in once from home → Global Rankings so game-over scores upload."
+          "title": "متقدم",
+          "description": "7. الوضع الكلاسيكي — اكتساح السماء في شكل أقواس؛ قيادة الطائرات تتحرك أفقيا. 8. ارتفاعات الموجة — بعد دقيقتين تقريبًا، يزداد معدل التكاثر؛ التزام الهدوء وإعطاء الأولوية للهبوط. 9. قم بتسجيل الدخول مرة واحدة من المنزل ← التصنيف العالمي حتى يتم تحميل نتائج نهاية اللعبة."
         },
         {
-          "title": "Career & achievements",
-          "description": "Rank up on the home screen from lifetime stats. - Check the trophy catalog for 14 achievements (score milestones, career totals, session goals)."
+          "title": "الوظيفي والإنجازات",
+          "description": "قم بالترتيب على الشاشة الرئيسية من إحصائيات مدى الحياة. - تحقق من كتالوج الجوائز بحثًا عن 14 إنجازًا (الإنجازات الرئيسية، الإجمالي الوظيفي، أهداف الجلسة)."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "الأسئلة المتداولة",
+      "subtitle": "إجابات سريعة حول الميزات والخصوصية والفواتير.",
+      "viewAllSupport": "عرض الدعم الكامل & FAQ",
       "items": [
         {
-          "question": "Is Paratrooper Blitz free?",
-          "answer": "Yes. The game is free to download and play. Optional one-time Remove Ads purchase removes banner and interstitial ads."
+          "question": "هل المظلي بليتز مجاني؟",
+          "answer": "نعم. اللعبة مجانية للتحميل واللعب. يؤدي شراء إزالة الإعلانات الاختياري لمرة واحدة إلى إزالة الشعارات والإعلانات البينية."
         },
         {
-          "question": "What age is the game for?",
-          "answer": "Rated Teen (13+). Mild military-style arcade action—no gore, no chat, no user-generated content."
+          "question": "ما هو عمر اللعبة؟",
+          "answer": "تصنيف المراهقين (13+). حركة أركيد خفيفة على الطراز العسكري - لا يوجد دم ولا دردشة ولا محتوى من إنشاء المستخدم."
         },
         {
-          "question": "Does it work offline?",
-          "answer": "Core gameplay works offline. Leaderboards, achievements, ads, and purchases need network and store services."
+          "question": "هل يعمل حاليا؟",
+          "answer": "طريقة اللعب الأساسية تعمل دون الاتصال بالإنترنت. تحتاج لوحات المتصدرين والإنجازات والإعلانات والمشتريات إلى خدمات الشبكة والمتجر."
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Arabic, German, Spanish, French, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified). Change in Settings."
+          "question": "ما هي اللغات المدعومة؟",
+          "answer": "الإنجليزية والعربية والألمانية والإسبانية والفرنسية والعبرية والإيطالية واليابانية والكورية والبرتغالية والروسية والصينية (المبسطة). التغيير في الإعدادات."
         },
         {
-          "question": "What’s the difference between Arcade and Classic?",
-          "answer": "Arcade: slide left/right, shoot up. Classic: rotate turret 360° and aim manually."
+          "question": "ما الفرق بين الأركيد والكلاسيكي؟",
+          "answer": "الممرات: حرك اليسار / اليمين، واطلاق النار لأعلى. الكلاسيكية: قم بتدوير البرج 360 درجة وقم بالتصويب يدويًا."
         },
         {
-          "question": "How do I lose?",
-          "answer": "Four parachutists land on the **same side** of your turret, or a bomb hits the ground."
+          "question": "كيف أخسر؟",
+          "answer": "يهبط أربعة مظليين على **نفس الجانب** من برجك، أو تسقط قنبلة على الأرض."
         },
         {
-          "question": "Why did my score go down when I fired?",
-          "answer": "Each shot costs 1 point (classic Paratrooper rule)."
+          "question": "لماذا انخفضت درجاتي عندما طردت؟",
+          "answer": "كل طلقة تكلف نقطة واحدة (قاعدة المظليين الكلاسيكية)."
         },
         {
-          "question": "Do paratroopers ever land off-screen?",
-          "answer": "No—drops stay within the play area."
+          "question": "هل يهبط المظليون خارج الشاشة؟",
+          "answer": "لا، تبقى القطرات داخل منطقة اللعب."
         },
         {
-          "question": "Why didn’t my score appear on the leaderboard?",
-          "answer": "You must sign in to Google Play Games (Android) or Game Center (iOS). Open **Global Rankings** from the home menu once to complete sign-in, then play a full round."
+          "question": "لماذا لم تظهر درجاتي على لوحة المتصدرين؟",
+          "answer": "يجب عليك تسجيل الدخول إلى Google Play الألعاب (Android) أو Game Center (iOS). افتح **التصنيفات العالمية** من القائمة الرئيسية مرة واحدة لإكمال تسجيل الدخول، ثم العب جولة كاملة."
         },
         {
-          "question": "Are Arcade and Classic scores separate?",
-          "answer": "Yes—each mode has its own leaderboard."
+          "question": "هل نتائج Arcade و Classic منفصلة؟",
+          "answer": "نعم، كل وضع له لوحة صدارة خاصة به."
         },
         {
-          "question": "How many achievements are there?",
-          "answer": "14 trophies with an in-app catalog showing requirements."
+          "question": "كم عدد الإنجازات هناك؟",
+          "answer": "14 جائزة مع كتالوج داخل التطبيق يوضح المتطلبات."
         },
         {
-          "question": "What does Remove Ads include?",
-          "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
+          "question": "ماذا تتضمن إزالة الإعلانات؟",
+          "answer": "إزالة شعار الصفحة الرئيسية والإعلان البيني بعد اللعبة. شراء غير قابل للاستهلاك لمرة واحدة."
         }
       ]
     },

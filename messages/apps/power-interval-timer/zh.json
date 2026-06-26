@@ -3,10 +3,12 @@
     "back": "返回首页",
     "hero": {
       "badge": "现已推出",
-      "title": "Power Interval Timer - Tabata & HIIT",
+      "title": "间歇训练计时器 - Tabata 和 HIIT",
       "subtitle": "间隔训练计时器",
       "description": "适用于Tabata、HIIT和短时间训练的最小化、快速、离线间隔训练计时器。功能：可配置的训练、多种显示模式、声音提醒和屏幕投射支持。",
-      "structuredDataDescription": "Power Interval Timer — Tabata and HIIT interval timer for iOS and Android. Custom work/rest rounds, presets, display modes, audio cues. Android com.zuki.apps.powerintervaltimer by Zuki Apps."
+      "structuredDataDescription": "功率间隔计时器 — iOS 和 Android 的 Tabata 和 HIIT 间隔计时器。自定义工作/休息回合、预设、显示模式、音频提示。 Android com.zuki.apps.powerintervaltimer by Zuki Apps。",
+      "seoTitle": "功率间隔计时器 — HIIT 和 Tabata | Zuki Apps",
+      "metaDescription": "快速离线 Tabata 和 HIIT 计时器以及自定义锻炼。 iOS 和 Android 免费 — 开始您的下一个课程。"
     },
     "features": {
       "title": "主要功能",
@@ -18,7 +20,10 @@
           "休息时间（秒）",
           "轮数",
           "带起跑提示音的准备时间",
-          "冷却期"
+          "冷却期",
+          "点击屏幕上的任意位置即可开始/暂停",
+          "滑动编辑/删除计时器卡",
+          "拖动以重新排序计时器列表"
         ]
       },
       "display": {
@@ -31,7 +36,10 @@
           "极简干净设计",
           "模拟时钟样式",
           "双计时器显示",
-          "计时码表样式"
+          "计时码表样式",
+          "分段圆形 (Premium) - 具有可见分段的圆环",
+          "Minimalist (Premium) - 使用更大的文本增强最小化",
+          "嵌套循环 (Premium) - 外圈表示秒，内圈表示间隔"
         ]
       },
       "offline": {
@@ -72,27 +80,29 @@
           "颜色主题",
           "字体大小",
           "声音选择",
-          "深色/浅色/系统主题"
+          "深色/浅色/系统主题",
+          "定时器屏幕上显示定时器图像",
+          "RTL 支持（希伯来语和英语）"
         ]
       },
       "premium": {
-        "title": "Freemium Model",
-        "description": "Free version with optional Premium upgrade ($2.99 one-time)",
+        "title": "免费增值模式",
+        "description": "免费版本，可选 Premium 升级（一次性 2.99 美元）",
         "items": [
-          "Free: Up to 2 saved timers, 3 basic display modes, banner ads",
-          "Premium: Unlimited timers, all 10 display modes, no ads",
-          "One-time purchase - no subscriptions",
-          "Restore purchases across devices"
+          "免费：最多 2 个保存的计时器、3 种基本显示模式、横幅广告",
+          "Premium：无限计时器，全部10种显示模式，无广告",
+          "一次性购买 - 无需订阅",
+          "恢复跨设备购买"
         ]
       },
       "watch": {
-        "title": "Apple Watch Integration",
-        "description": "Basic companion support for Apple Watch",
+        "title": "苹果手表集成",
+        "description": "Apple Watch 的基本配套支持",
         "items": [
-          "Show current phase and countdown",
-          "Display round number",
-          "Companion app functionality",
-          "Disabled on TV devices"
+          "显示当前阶段和倒计时",
+          "显示轮数",
+          "配套应用程序功能",
+          "在电视设备上禁用"
         ]
       }
     },
@@ -111,7 +121,7 @@
       "appStoreUrl": "https://apps.apple.com/app/power-interval-timer/id6758246007",
       "appStoreAlt": "在 App Store 下载",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.powerintervaltimer",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "获取Google Play"
     },
     "links": {
       "title": "重要链接",
@@ -120,8 +130,8 @@
         "email": "zuki.apps@gmail.com"
       },
       "googlePlay": {
-        "title": "Download on Google Play",
-        "description": "Get Power Interval Timer from Google Play Store"
+        "title": "下载Google Play",
+        "description": "从 Google Play 商店获取电源间隔计时器"
       },
       "contact": {
         "title": "一般联系",
@@ -132,40 +142,40 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！查找常见问题的答案或直接联系我们。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发送电子邮件，我们会尽快回复您。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "快速链接",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "常见问题解答",
         "q1": {
-          "question": "How do I create a custom workout?",
-          "answer": "To create a custom workout, tap the '+' button or 'New Workout' option. You can set the work duration, rest duration, number of rounds, prepare time, and cooldown period. Once created, your workout will be saved and can be used anytime."
+          "question": "如何创建自定义锻炼？",
+          "answer": "要创建自定义锻炼，请点击“+”按钮或“新锻炼”选项。您可以设置工作时长、休息时长、轮数、准备时间和冷却时间。创建后，您的锻炼将被保存并可以随时使用。"
         },
         "q2": {
-          "question": "Can I use Power Interval Timer offline?",
-          "answer": "Yes! Power Interval Timer works completely offline. No internet connection is required. All your workouts and settings are stored locally on your device. The app does not collect any data or require an account."
+          "question": "我可以离线使用电源间隔定时器吗？",
+          "answer": "是的！电源间隔定时器完全离线工作。不需要互联网连接。您的所有锻炼和设置都存储在您的设备本地。该应用程序不收集任何数据或需要帐户。"
         },
         "q3": {
-          "question": "How do I cast the timer to my TV?",
-          "answer": "To cast to your TV, start a workout and look for the casting icon. On iOS, use AirPlay to cast to Apple TV or AirPlay-compatible devices. On Android, use MediaProjection to cast to Chromecast or other compatible devices. The timer will automatically optimize its layout for TV viewing."
+          "question": "如何将计时器投射到电视上？",
+          "answer": "要投射到电视，请开始锻炼并查找投射图标。在 iOS 上，使用 AirPlay 投射到 Apple TV 或 AirPlay 兼容设备。在 Android 上，使用 MediaProjection 投射到 Chromecast 或其他兼容设备。计时器将自动优化其布局以适合电视观看。"
         },
         "q4": {
-          "question": "What display modes are available?",
+          "question": "有哪些显示模式可用？",
           "answer": "Power Interval Timer offers 7 different display modes: circular progress timer, digital countdown, linear progress bar, minimal clean design, analog clock style, dual timer display, and chronograph watch style. You can switch between modes in the settings or during a workout."
         },
         "q5": {
@@ -173,25 +183,25 @@
           "answer": "Go to Settings → Customization. You can customize timer images, color themes, font sizes, sound selection, and choose between Dark, Light, or System theme. Changes will be applied immediately to your timer display."
         },
         "q7": {
-          "question": "What is the Premium upgrade?",
-          "answer": "Premium is a one-time $2.99 purchase that unlocks unlimited saved timers, all 10 display modes, and removes banner ads. The purchase is permanent and can be restored across devices using the same account."
+          "question": "什么是Premium升级？",
+          "answer": "Premium 是一次性购买，售价 2.99 美元，可解锁无限个已保存计时器、所有 10 种显示模式，并删除横幅广告。购买是永久性的，可以使用同一帐户在不同设备上恢复。"
         },
         "q8": {
-          "question": "How do I tap to start/pause the timer?",
-          "answer": "Simply tap anywhere on the timer screen to start or pause your workout. This intuitive gesture control makes it easy to control your timer without looking for buttons, especially useful during intense workouts."
+          "question": "如何点击来启动/暂停计时器？",
+          "answer": "只需点击计时器屏幕上的任意位置即可开始或暂停锻炼。这种直观的手势控制使您无需寻找按钮即可轻松控制计时器，在激烈的锻炼期间尤其有用。"
         },
         "q9": {
-          "question": "Does Power Interval Timer support Apple Watch?",
-          "answer": "Yes! Power Interval Timer includes basic Apple Watch companion support. The watch app shows the current phase, countdown, and round number. Note that watch connectivity is disabled on TV devices."
+          "question": "间隔定时器支持 Apple Watch 吗？",
+          "answer": "是的！电量间隔计时器包括基本的 Apple Watch 配套支持。手表应用程序显示当前阶段、倒计时和轮数。请注意，手表连接在电视设备上被禁用。"
         },
         "q6": {
-          "question": "Does Power Interval Timer work on Apple TV and Android TV?",
-          "answer": "Yes! Power Interval Timer has native support for Apple TV (tvOS) and Android TV. You can install the app directly on your TV and use it with a remote control. The interface is optimized for large displays and includes platform-specific features."
+          "question": "电源间隔定时器是否适用于 Apple TV 和 Android TV？",
+          "answer": "是的！电源间隔计时器原生支持 Apple TV (tvOS) 和 Android TV。您可以直接在电视上安装该应用程序并通过遥控器使用它。该界面针对大型显示器进行了优化，并包含特定于平台的功能。"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到所需的答案，或者遇到技术问题，请随时与我们联系。我们随时为您提供帮助，通常会在 24-48 小时内回复。"
       },
       "metaTitle": "支持与帮助 — 电源间隔定时器 | Zuki Apps",
       "metaDescription": "功率间隔计时器 FAQ 和支持 — HIIT 和间歇锻炼。联系方式、隐私和故障排除。"
@@ -201,249 +211,249 @@
       "tagline": "Zuki Apps的一部分 • 来自以色列的开发者 • 用 ❤️ 制作"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Power Interval Timer. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
+      "intro": "在使用电源间隔定时器之前，请仔细阅读这些使用条款。通过访问或使用我们的服务，您同意受这些条款的约束。如果您不同意这些条款，请不要使用我们的服务。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Power Interval Timer (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval workout timer application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 接受条款",
+        "content": "这些使用条款（“条款”）管辖您对 Power Interval Timer（“服务”、“应用程序”、“我们”、“我们”或“我们的”）的访问和使用，这是由Zuki Apps（“公司”）运营的间歇锻炼计时器应用程序。通过下载、安装、访问或使用服务，您同意受这些条款和我们的隐私政策的约束。",
+        "content2": "如果您代表某个组织使用服务，则您声明并保证您有权约束该组织遵守这些条款。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Power Interval Timer is a mobile application that provides interval workout timing functionality. The Service includes:",
+        "title": "2. 服务说明",
+        "content": "功率间隔计时器是一款提供间歇锻炼计时功能的移动应用程序。该服务包括：",
         "items": [
-          "Configurable workout timers (work, rest, rounds, prepare, cooldown)",
-          "Multiple display modes for timer visualization",
-          "Sound alerts and vibration feedback",
-          "Screen casting and TV support",
-          "Local storage of saved timers",
-          "Offline functionality"
+          "可配置的锻炼计时器（工作、休息、回合、准备、冷却）",
+          "定时器可视化的多种显示模式",
+          "声音警报和振动反馈",
+          "屏幕投射和电视支持",
+          "已保存定时器的本地存储",
+          "离线功能"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 联系方式",
+        "content": "如果您对这些条款有任何疑问，请联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Power Interval Timer is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+        "title": "1. 我们收集的信息",
+        "content": "电源间隔计时器的设计考虑到了隐私。我们收集提供服务所需的最少信息。该应用程序完全离线工作，并将所有数据本地存储在您的设备上。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. All timer configurations and saved workouts are stored locally on your device and are not transmitted to our servers."
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用收集的信息来提供、维护和改进我们的服务。所有计时器配置和保存的锻炼都存储在您的设备本地，不会传输到我们的服务器。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your timer data remains on your device and is only accessible to you."
+        "title": "3. 信息共享",
+        "content": "我们不会出售、交易或以其他方式将您的个人信息转让给第三方。您的计时器数据保留在您的设备上，并且只有您可以访问。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+        "title": "4. 数据安全",
+        "content": "我们实施适当的安全措施来保护您的信息。所有数据都存储在您设备本地应用程序的私有目录中，其他应用程序无法访问该目录。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your timer data at any time. You can delete all saved timers through the app. You may also uninstall the app at any time, which will remove all locally stored data."
+        "title": "5. 您的权利",
+        "content": "您有权随时访问、更新或删除您的计时器数据。您可以通过应用程序删除所有已保存的计时器。您还可以随时卸载该应用程序，这将删除所有本地存储的数据。"
       },
       "section6": {
-        "title": "6. Photo Library Access",
-        "content": "Power Interval Timer may request access to your device's photo library to allow you to select custom timer images. We only access your photos when you explicitly choose to add a timer image. Photos are stored locally and are not shared with third parties."
+        "title": "6. 照片库访问",
+        "content": "电源间隔计时器可能会请求访问您设备的照片库，以便您选择自定义计时器图像。仅当您明确选择添加计时器图像时，我们才会访问您的照片。照片存储在本地，不会与第三方共享。"
       },
       "section7": {
-        "title": "7. Crash Reporting and Error Analytics",
-        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
-        "dataCollected": "Data Collected:",
+        "title": "7. 崩溃报告和错误分析",
+        "content": "我们使用Firebase Crashlytics（Google 提供的一项服务）来收集有关应用程序崩溃和错误的信息。这有助于我们识别并解决问题以改善您的体验。",
+        "dataCollected": "收集的数据：",
         "dataCollectedItems": [
-          "Technical information about crashes and errors (stack traces, error messages)",
-          "Device information (operating system, device model, app version)",
-          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
-          "Custom diagnostic information related to errors (error codes, operation types)"
+          "有关崩溃和错误的技术信息（堆栈跟踪、错误消息）",
+          "设备信息（操作系统、设备型号、应用版本）",
+          "安装 ID（您的应用安装的唯一标识符，与您的个人身份无关）",
+          "与错误相关的自定义诊断信息（错误代码、操作类型）"
         ],
-        "purpose": "Purpose:",
+        "purpose": "目的：",
         "purposeItems": [
-          "Identify and fix bugs and crashes",
-          "Improve app stability and performance",
-          "Analyze error patterns"
+          "识别并修复错误和崩溃",
+          "提高应用稳定性和性能",
+          "分析错误 pattern"
         ],
-        "dataSharing": "Data Sharing:",
-        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
-        "dataRetention": "Data Retention:",
-        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
-        "yourRights": "Your Rights:",
-        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+        "dataSharing": "数据共享：",
+        "dataSharingContent": "该数据由 Google Firebase 处理，并受 Google 隐私政策的约束。",
+        "dataRetention": "数据保留：",
+        "dataRetentionContent": "崩溃报告会被 Firebase 保留最多 90 天，然后自动删除。",
+        "yourRights": "您的权利：",
+        "yourRightsContent": "您可以通过在设备设置中禁用崩溃报告来选择退出，但这可能会阻止我们修复影响您的问题。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 联系我们",
+        "content": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       },
       "metaDescription": "电源间隔定时器隐私政策 — 我们如何处理您在 iOS 和 Android 上的数据。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "如何使用",
+      "tips": "尖端",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "下载"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Power Interval Timer - Tabata & HIIT.",
-      "featuresTitle": "App screens",
+      "title": "截图",
+      "subtitle": "来自 Power Interval Timer - Tabata 和 HIIT 的真实应用程序屏幕。",
+      "featuresTitle": "应用程序屏幕",
       "items": [
         {
-          "id": "home",
-          "title": "Home",
-          "description": "Pick a workout preset or build your own intervals.",
+          "id": "家",
+          "title": "家",
+          "description": "选择锻炼预设或建立您自己的间隔。",
           "image": "/images/power-interval-timer/screenshot-home.png",
-          "alt": "Home — power interval timer",
-          "category": "features"
+          "alt": "首页 — 功率间隔定时器",
+          "category": "特征"
         },
         {
-          "id": "timer",
-          "title": "Work interval",
-          "description": "Large countdown with clear work/rest phases.",
+          "id": "计时器",
+          "title": "工作间隔",
+          "description": "大型倒计时，工作/休息阶段清晰。",
           "image": "/images/power-interval-timer/screenshot-timer.png",
-          "alt": "Work interval — power interval timer",
-          "category": "features"
+          "alt": "工作间隔——功率间隔计时器",
+          "category": "特征"
         },
         {
-          "id": "setup",
-          "title": "Setup",
-          "description": "Configure rounds, durations, and rest periods.",
+          "id": "设置",
+          "title": "设置",
+          "description": "配置回合、持续时间和休息时间。",
           "image": "/images/power-interval-timer/screenshot-setup.png",
-          "alt": "Setup — power interval timer",
-          "category": "features"
+          "alt": "设置——功率间隔计时器",
+          "category": "特征"
         },
         {
-          "id": "display",
-          "title": "Display modes",
-          "description": "Choose the view that works in the gym or at home.",
+          "id": "展示",
+          "title": "显示模式",
+          "description": "选择适合健身房或家里的视图。",
           "image": "/images/power-interval-timer/screenshot-display.png",
-          "alt": "Display modes — power interval timer",
-          "category": "features"
+          "alt": "显示模式——功率间隔定时器",
+          "category": "特征"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "如何使用",
       "steps": [
         {
           "number": "1",
-          "title": "Choose a preset",
-          "description": "Start with Tabata, HIIT, or custom intervals."
+          "title": "选择预设",
+          "description": "从 Tabata、HIIT 或自定义间隔开始。"
         },
         {
           "number": "2",
-          "title": "Set work & rest",
-          "description": "Adjust seconds per phase and number of rounds."
+          "title": "设定作息",
+          "description": "调整每个阶段的秒数和轮数。"
         },
         {
           "number": "3",
-          "title": "Start the timer",
-          "description": "Follow audio and visual cues through each interval."
+          "title": "启动计时器",
+          "description": "在每个间隔中遵循音频和视觉提示。"
         },
         {
           "number": "4",
-          "title": "Track sessions",
-          "description": "Repeat workouts and refine your timing."
+          "title": "跟踪会话",
+          "description": "重复锻炼并调整你的时间安排。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "提示和技巧",
+      "subtitle": "从应用程序中获取更多信息。",
       "items": [
         {
-          "title": "Programming tips",
-          "description": "1. Name timers like programs — “Strength 90/60”, “Engine 30/15”, not “Timer 3”. 2. Use prepare wisely — 10–15 s for demos; 0 s when athletes are already set. 3. Cooldown is discipline — 30–60 s walk-down beats stopping cold after HIIT. 4. Progression — duplicate a timer and add one round per week instead of rebuilding. 5. Pair work/rest to goal — 1:1 for conditioning; 1:2 or 1:3 for strength super"
+          "title": "编程技巧",
+          "description": "1. 像程序一样命名计时器 - “强度 90/60”、“引擎 30/15”，而不是“计时器 3”。 2. 明智地使用准备——演示 10-15 秒； 0 秒，运动员已就位。 3. 放松是一种纪律——HIIT 后 30-60 秒的放松节拍停止放松。 4. 进度——复制一个计时器并每周添加一轮而不是重建。 5. 将工作/休息与目标配对——1:1 进行调节； 1:2 或 1:3 强度超级"
         },
         {
-          "title": "Tabata & HIIT",
-          "description": "Classic Tabata: 20 s on / 10 s off × 8 (4 min). Quality drops after round 6 — that’s normal; note it in your log. - HIIT blocks: 40/20 or 30/15 for 10–20 min total work time. - EMOM-style: set work = 60 s, rest = 0, rounds = minutes in block; start each minute on the beep."
+          "title": "塔巴塔和HIIT",
+          "description": "经典 Tabata：20 秒开启/10 秒关闭 × 8（4 分钟）。第六轮后质量下降——这是正常的；在你的日志中记下它。 - HIIT 模块：40/20 或 30/15，总工作时间为 10-20 分钟。 - EMOM 式：设置工作 = 60 秒，休息 = 0，回合数 = 分钟；每分钟在蜂鸣声中开始。"
         },
         {
-          "title": "In the gym",
-          "description": "Landscape on a bench rack — timer + controls side by side. - Cast to TV for bootcamps so late arrivals see the phase. - Digital mode for bright floors; Circular for quick glance at distance."
+          "title": "在健身房里",
+          "description": "长凳架上的景观 — 计时器 + 控件并排。 - 在电视上播放训练营，以便迟到的人可以看到这个阶段。 - 明亮地板的数字模式；圆形，便于快速查看距离。"
         },
         {
-          "title": "Sound & vibration",
-          "description": "Test alert volume before the first work interval of a class. - “None” sound + vibration only for studios with noise rules. - Prepare beeps train athletes to set on the last countdown, not the first second of work."
+          "title": "声音和振动",
+          "description": "在课程的第一个工作间隔之前测试警报音量。 - “无”声音+振动仅适用于具有噪音规则的螺柱ios。 - 准备蜂鸣声训练运动员在最后倒计时开始，而不是在工作的第一秒。"
         },
         {
-          "title": "Premium worth it when…",
-          "description": "You run more than two distinct protocols per week. - You want Chronograph / Dual modes for readability on iPad at arm’s length. - Ads distract clients during demos (one-time remove ads)."
+          "title": "Premium值得的时候......",
+          "description": "您每周运行两个以上不同的方案。 - 您需要计时码表/双重模式，以便在 iPad 上保持一臂距离的可读性。 - 广告在演示期间分散客户的注意力（一次性删除广告）。"
         },
         {
-          "title": "Recovery & safety",
-          "description": "If form breaks, pause — don’t chase the clock. - Hydrate during rest, not work. - Cooldown isn’t optional for high-intensity blocks with beginners."
+          "title": "恢复与安全",
+          "description": "如果形式被打破，暂停——不要追赶时间。 - 在休息时补充水分，而不是在工作时补充水分。 - 对于初学者的高强度块来说，冷却不是可选的。"
         },
         {
-          "title": "Weekly habit",
-          "description": "Sunday: reorder Home to match Mon–Fri plan. - Friday: archive or delete timers you didn’t use — keeps Home honest."
+          "title": "每周习惯",
+          "description": "周日：重新订购主页以符合周一至周五的计划。 - 星期五：存档或删除您未使用的计时器 - 保持主页诚实。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "常见问题",
+      "subtitle": "有关功能、隐私和计费的快速解答。",
+      "viewAllSupport": "查看完整支持 & FAQ",
       "items": [
         {
-          "question": "What is Power Interval Timer?",
-          "answer": "A minimal interval timer for Tabata, HIIT, and custom work/rest rounds. It runs offline and focuses on clarity mid-workout."
+          "question": "什么是功率间隔定时器？",
+          "answer": "用于 Tabata、HIIT 和自定义工作/休息轮次的最小间隔计时器。它离线运行，专注于锻炼过程中的清晰度。"
         },
         {
-          "question": "Do I need an account?",
-          "answer": "No. Timers are stored on your device."
+          "question": "我需要一个帐户吗？",
+          "answer": "不会。计时器存储在您的设备上。"
         },
         {
-          "question": "Does it work without internet?",
-          "answer": "Yes. Core timing, sounds, and saved timers work offline. Ads and purchase verification may need connectivity when those features are used."
+          "question": "没有互联网也能工作吗？",
+          "answer": "是的。核心计时、声音和保存的计时器可以离线工作。使用这些功能时，广告和购买验证可能需要连接。"
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "iPhone, iPad, Android phones/tablets, Apple TV, and Android TV."
+          "question": "支持哪些设备？",
+          "answer": "iPhone、iPad、Android 手机/平板电脑、Apple TV 和 Android 电视。"
         },
         {
-          "question": "Can I do classic Tabata?",
-          "answer": "Yes — 20 s work, 10 s rest, 8 rounds (adjust prepare/cooldown as you like)."
+          "question": "我可以做经典 Tabata 吗？",
+          "answer": "是的 — 20 秒工作，10 秒休息，8 轮（根据需要调整准备/冷却时间）。"
         },
         {
-          "question": "Can I skip rest or end early?",
-          "answer": "Use **Skip** for the current phase or **Stop** to end the session."
+          "question": "我可以跳过休息或提前结束吗？",
+          "answer": "对当前阶段使用 **Skip** 或使用 **Stop** 结束会话。"
         },
         {
-          "question": "How do I pause with gloves on?",
-          "answer": "Tap anywhere on the timer face to start/pause."
+          "question": "戴着手套如何暂停？",
+          "answer": "点击计时器表面的任意位置即可开始/暂停。"
         },
         {
-          "question": "How many clock styles are there?",
-          "answer": "Ten display modes. Three are free (Circular, Digital, Linear); seven are Premium."
+          "question": "时钟有多少种款式？",
+          "answer": "十种显示模式。三种是免费的（圆形、数字、线性）；七个是Premium。"
         },
         {
-          "question": "Can I use my own photo on a timer?",
-          "answer": "Yes — pick from your gallery when creating/editing a timer (system photo picker on modern Android)."
+          "question": "我可以在计时器上使用自己的照片吗？",
+          "answer": "是的 - 创建/编辑计时器时从图库中选择（现代 Android 上的系统照片选择器）。"
         },
         {
-          "question": "Dark mode?",
-          "answer": "Settings → Theme: Light, Dark, or System."
+          "question": "深色模式？",
+          "answer": "设置 → 主题：浅色、深色或系统。"
         },
         {
-          "question": "What’s included in Premium?",
-          "answer": "Unlimited saved timers, all display modes, no ads. One-time purchase (not a subscription)."
+          "question": "Premium包含什么？",
+          "answer": "无限保存计时器，所有显示模式，无广告。一次性购买（非订阅）。"
         },
         {
-          "question": "How much is Premium?",
-          "answer": "Price is shown in the app from your local App Store or Google Play (varies by country)."
+          "question": "Premium多少钱？",
+          "answer": "应用程序中显示的价格是您当地的 App Store 或 Google Play（因国家/地区而异）。"
         }
       ]
     }
