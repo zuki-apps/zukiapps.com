@@ -1,0 +1,475 @@
+{
+  "collagio": {
+    "back": "Retour à la maison",
+    "hero": {
+      "badge": "Gratuit sur Android · iOS à venir",
+      "title": "Transformez 2 à 10 photos en collage en quelques secondes",
+      "productName": "Collagio — Créateur de collages de photos",
+      "subtitle": "Collagio — Créateur de collages de photos",
+      "description": "Choisissez des photos, choisissez une mise en page, ajoutez des filtres et des autocollants Zuli Monsters, puis enregistrez ou partagez. Aucun compte requis : tout reste sur votre appareil.",
+      "socialProof": "2 à 10 photos · Mises en page intelligentes · Filtres · 48 Zuli Monsters · Anglais et hébreu",
+      "structuredDataDescription": "Créez de superbes collages de photos de 2 à 10 images en quelques secondes. Mises en page, filtres, texte et 48 autocollants Zuli Monsters. Gratuit pour iOS et Android. Aucun compte requis.",
+      "phoneAlt": "Écran d'accueil Collagio sur iPhone"
+    },
+    "legalNav": {
+      "privacy": "politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "contact": "Contacter l'assistance"
+    },
+    "pageNav": {
+      "features": "Caractéristiques",
+      "screenshots": "Captures d'écran",
+      "howTo": "Comment utiliser",
+      "faq": "FAQ",
+      "zuliMonsters": "Zuli Monsters",
+      "premium": "Premium",
+      "download": "Télécharger"
+    },
+    "screenshots": {
+      "title": "Voir Collagio en action",
+      "subtitle": "Captures d'appareils réels : accueil, sélecteur, éditeur, autocollants, exportation et Layout Studio.",
+      "featuresTitle": "Écrans d'application",
+      "items": [
+        {
+          "id": "home",
+          "title": "De superbes collages en quelques secondes",
+          "description": "Créez un collage, un historique récent, Layout Studio et Zuli Monsters, le tout à partir d'un seul écran d'accueil.",
+          "image": "/images/collagio/screenshot-home.png?v=2",
+          "alt": "Écran d'accueil Collagio avec Créer un collage et des collages récents",
+          "category": "features"
+        },
+        {
+          "id": "picker",
+          "title": "Choisissez des photos et choisissez une mise en page",
+          "description": "Sélectionnez 2 à 10 photos, réorganisez-les en appuyant longuement sur le glisser et faites défiler les mises en page correspondant à votre nombre.",
+          "image": "/images/collagio/screenshot-picker.png?v=2",
+          "alt": "Sélecteur de photos Collagio avec bande de mise en page",
+          "category": "features"
+        },
+        {
+          "id": "stickers",
+          "title": "Stylisez votre collage et ajoutez Zuli Monsters",
+          "description": "Filtres, bordures, espacements et 48 caractères d'autocollants originaux : redimensionnez-les et placez-les n'importe où sur la toile.",
+          "image": "/images/collagio/screenshot-stickers.png?v=2",
+          "alt": "Éditeur Collagio avec filtres et autocollants Zuli Monsters sur un collage",
+          "category": "features"
+        },
+        {
+          "id": "stickersShare",
+          "title": "48 personnages autocollants originaux",
+          "description": "Installez les packs d'autocollants WhatsApp ou utilisez l'extension iMessage — mêmes caractères que dans l'éditeur.",
+          "image": "/images/collagio/screenshot-stickers-share.png?v=2",
+          "alt": "Hub d'autocollants Collagio Zuli Monsters avec installation de WhatsApp et iMessage",
+          "category": "features"
+        },
+        {
+          "id": "export",
+          "title": "Enregistrez, partagez ou envoyez sous forme d'autocollant",
+          "description": "Exportez vers Photos, Instagram, WhatsApp ou sous forme d'autocollant transparent PNG.",
+          "image": "/images/collagio/screenshot-export.png?v=2",
+          "alt": "Écran d'exportation Collagio avec options de sauvegarde et de partage",
+          "category": "features"
+        },
+        {
+          "id": "layoutStudio",
+          "title": "Concevez vos propres mises en page",
+          "description": "Faites glisser, redimensionnez et façonnez des emplacements numérotés : enregistrez des mises en page personnalisées pour votre prochain collage.",
+          "image": "/images/collagio/screenshot-layout-studio.png?v=2",
+          "alt": "Collagio Layout Studio avec disposition des emplacements personnalisée",
+          "category": "features"
+        },
+        {
+          "id": "collageResult",
+          "title": "Sortie du collage terminée",
+          "description": "Ce que produit Collagio : des grilles carrées, des formats d'histoire, des filtres et des cadres prêts à être partagés.",
+          "image": "/images/collagio/screenshot-collage-result.png?v=2",
+          "alt": "Exemple de collage de photos carrées exporté depuis Collagio",
+          "category": "features"
+        }
+      ]
+    },
+    "features": {
+      "title": "Tout ce dont vous avez besoin, rien de superflu",
+      "layouts": {
+        "title": "Mises en page intelligentes",
+        "description": "Grilles, cellules sélectionnées, styles d'album et emplacements de forme : filtrés automatiquement en fonction du nombre de photos.",
+        "items": [
+          "2 à 10 photos par collage",
+          "Réorganiser en appuyant longuement sur le glisser",
+          "Zoom par pincement et panoramique par photo",
+          "Annuler et rédiger un CV"
+        ]
+      },
+      "canvas": {
+        "title": "Formes de toile",
+        "description": "Cadres carrés, histoires, portraits, paysages, cercles, arrondis, cœurs et classiques 4:3.",
+        "items": [
+          "Histoire 9:16 pour les réseaux sociaux",
+          "Arrière-plans dégradés ou photo",
+          "Espacement et rayon de coin",
+          "Montures polaroïd et dorées"
+        ]
+      },
+      "filters": {
+        "title": "Filtres et texte",
+        "description": "Chaud, froid, N&B, fondu, gras, vif et sombre, ainsi que du texte déplaçable avec l'hébreu RTL.",
+        "items": [
+          "Préréglages de filtre en un seul clic",
+          "Plusieurs calques de texte",
+          "Contrôles de police et de couleur",
+          "Exportation d'autocollants transparents (Premium)"
+        ]
+      },
+      "stickers": {
+        "title": "Zuli Monsters",
+        "description": "48 personnages originaux créés et détenus par Zuki Apps — utilisez-les dans des collages, des packs WhatsApp et iMessage.",
+        "items": [
+          "Bac à autocollants intégré",
+          "WhatsApp installation en un clic",
+          "Extension iMessage",
+          "Utilisation personnelle à l'intérieur de Collagio uniquement"
+        ]
+      },
+      "layoutStudio": {
+        "title": "Layout Studio",
+        "description": "Dessinez, redimensionnez et façonnez des emplacements numérotés : enregistrez des mises en page personnalisées pour chaque collage.",
+        "items": [
+          "Glisser et redimensionner les emplacements",
+          "Cercle, coeur, cellules de diamant",
+          "Commencer à partir de modèles",
+          "Dispositions nommées dans le sélecteur"
+        ]
+      },
+      "privacy": {
+        "title": "Privé par conception",
+        "description": "Pas de connexion, pas de téléchargement cloud de vos photos. Les collages restent sur votre appareil jusqu'à ce que vous les exportiez.",
+        "items": [
+          "Traitement sur l'appareil",
+          "Histoire locale (30 collages)",
+          "Anglais et hébreu RTL UI",
+          "Premium unique en option"
+        ]
+      }
+    },
+    "zuliMonsters": {
+      "title": "Zuli Monsters",
+      "subtitle": "Personnages originaux par Zuki Apps",
+      "description": "48 caractères d'autocollants groupés que vous pouvez placer sur des collages ou installer pour WhatsApp et iMessage.",
+      "rightsNotice": "Zuli Monsters™, y compris tous les designs de personnages, noms, ressemblances, illustrations d'autocollants, icônes et actifs associés, sont la propriété intellectuelle exclusive de Zuki Apps. Tous droits réservés.",
+      "usageNotice": "Vous pouvez utiliser Zuli Monsters uniquement comme prévu via Collagio pour des collages et des messages personnels. Vous ne pouvez pas copier, redistribuer, vendre, accorder des sous-licences ou créer des œuvres dérivées à partir de ces personnages en dehors de l'application sans l'autorisation écrite préalable de Zuki Apps."
+    },
+    "premium": {
+      "title": "Collagio Premium",
+      "subtitle": "Achat unique – pas d'abonnement",
+      "freeTitle": "Gratuit",
+      "premiumTitle": "Premium",
+      "freeItems": [
+        "Éditeur de collages complet",
+        "Toutes les mises en page et formes de toile",
+        "Filtres, texte, autocollants, Layout Studio",
+        "Annonces et exportation de filigrane"
+      ],
+      "premiumItems": [
+        "Aucune publicité",
+        "Pas de filigrane sur les exportations",
+        "Exportation haute résolution (6×)",
+        "Exportation d'autocollants PNG transparents",
+        "Sauvegarde par lots de l'historique"
+      ]
+    },
+    "download": {
+      "title": "Télécharger Collagio",
+      "description": "Téléchargement gratuit. Votre premier collage en moins de 30 secondes.",
+      "appStoreUrl": "",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.collagio",
+      "appStoreAlt": "Télécharger sur le App Store",
+      "googlePlayAlt": "Obtenez-le sur Google Play",
+      "appIconAlt": "Icône de l'application Collagio",
+      "soon": "Lien App Store à venir — disponible dès maintenant sur Google Play."
+    },
+    "status": {
+      "title": "Disponible le Google Play",
+      "description": "Collagio est en direct sur Android. La version iOS est en cours.",
+      "version": "Libérer",
+      "status": "Magasins",
+      "versionValue": "1.0 (Android)",
+      "statusValue": "Google Play en direct · App Store bientôt"
+    },
+    "links": {
+      "title": "Aide & légal",
+      "support": {
+        "title": "Soutien",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Google Play",
+        "description": "Téléchargez Collagio pour Android"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Zuki Apps. Collagio et Zuli Monsters sont des œuvres et des marques déposées protégées par le droit d'auteur de Zuki Apps. Tous droits réservés.",
+      "tagline": "De superbes collages en quelques secondes · Réalisé avec ❤️ en Israël"
+    },
+    "howToUse": {
+      "title": "Comment faire un collage",
+      "subtitle": "Aucun tutoriel n'est nécessaire. Ouvrez l'application, choisissez des photos et vous avez terminé.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Choisissez des photos",
+          "description": "Choisissez 2 à 10 images. Appuyez longuement et faites glisser pour réorganiser — les numéros d'emplacement suivent votre commande."
+        },
+        {
+          "number": "2",
+          "title": "Stylisez-le",
+          "description": "Échangez les mises en page, choisissez une forme de canevas, appliquez des filtres, ajoutez du texte et déposez Zuli Monsters."
+        },
+        {
+          "number": "3",
+          "title": "Enregistrer ou partager",
+          "description": "Exportez vers votre galerie, Instagram, WhatsApp, ou sous forme d'autocollant transparent."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "subtitle": "Réponses rapides sur les fonctionnalités Collagio, la confidentialité et Premium.",
+      "viewAllSupport": "Voir l'assistance complète et la FAQ",
+      "items": [
+        {
+          "question": "Qu'est-ce que Collagio ?",
+          "answer": "Collagio est un créateur de collages de photos pour iOS et Android. Sélectionnez 2 à 10 photos, choisissez une mise en page, stylisez-la avec des filtres et des autocollants, puis enregistrez ou partagez, généralement en moins de 30 secondes."
+        },
+        {
+          "question": "Ai-je besoin d'un compte ?",
+          "answer": "Non. Collagio fonctionne entièrement sur votre appareil. Il n'y a pas d'inscription, de connexion ou de stockage cloud de vos photos."
+        },
+        {
+          "question": "Combien de photos puis-je utiliser ?",
+          "answer": "Entre 2 et 10 photos par collage. Les mises en page correspondent automatiquement à votre nombre de photos."
+        },
+        {
+          "question": "Que sont Zuli Monsters ?",
+          "answer": "48 personnages autocollants originaux créés et détenus par Zuki Apps. Utilisez-les dans des collages ou installez des packs pour WhatsApp et iMessage. Zuli Monsters™, y compris tous les designs, noms et illustrations des personnages, sont la propriété intellectuelle exclusive de Zuki Apps. Tous droits réservés."
+        },
+        {
+          "question": "Qu'est-ce que Layout Studio ?",
+          "answer": "Un outil pour concevoir des mises en page de collage personnalisées : faites glisser des emplacements numérotés, redimensionnez-les, choisissez des formes, nommez la mise en page et réutilisez-la dans de futurs collages."
+        },
+        {
+          "question": "Mes photos sont-elles téléchargées sur vos serveurs ?",
+          "answer": "Non. Tout le traitement des images s’effectue sur votre appareil. Les photos ne sont jamais téléchargées sur les serveurs Zuki Apps."
+        },
+        {
+          "question": "Que comprend Collagio Premium ?",
+          "answer": "Premium est un achat unique : pas de publicité, pas de filigrane sur les exportations, exportation haute résolution, exportation d'autocollants PNG transparents et sauvegarde par lots de l'historique."
+        },
+        {
+          "question": "Quelles langues sont prises en charge ?",
+          "answer": "Anglais et hébreu, avec une interface utilisateur entièrement miroir de droite à gauche (RTL) en hébreu."
+        },
+        {
+          "question": "Comment réorganiser les photos ?",
+          "answer": "Sur l’écran du sélecteur, appuyez longuement et faites glisser les vignettes. Les numéros sur l'aperçu de la mise en page correspondent à l'ordre des photos (1 = première photo)."
+        },
+        {
+          "question": "Pourquoi y a-t-il un filigrane sur les exportations ?",
+          "answer": "Le niveau gratuit ajoute un petit filigrane Collagio. Collagio Premium le supprime avec un achat unique."
+        },
+        {
+          "question": "Comment ajouter Zuli Monsters à WhatsApp ?",
+          "answer": "Depuis l'accueil de l'application, ouvrez Zuli Monsters → Ajouter à WhatsApp → confirmez dans WhatsApp."
+        }
+      ]
+    },
+    "support": {
+      "title": "Assistance et aide",
+      "subtitle": "Trouvez des réponses ou contactez Zuki Apps à propos de Collagio.",
+      "metaTitle": "Assistance et aide - Collagio | Zuki Apps",
+      "metaDescription": "Obtenez de l'aide avec le créateur de collages de photos Collagio. FAQ, contact, confidentialité et conditions.",
+      "contact": {
+        "title": "Contactez-nous",
+        "description": "Envoyez-nous un email et nous vous répondrons dans les plus brefs délais.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Liens rapides",
+        "privacy": {
+          "title": "politique de confidentialité",
+          "description": "Comment Collagio gère vos données"
+        },
+        "terms": {
+          "title": "Conditions d'utilisation",
+          "description": "Conditions d'utilisation de Collagio"
+        }
+      },
+      "faq": {
+        "title": "Questions fréquemment posées",
+        "q1": {
+          "question": "Comment réorganiser les photos ?",
+          "answer": "Sur l’écran du sélecteur, appuyez longuement sur une vignette et faites-la glisser vers une nouvelle position. Les numéros des emplacements de disposition suivent l’ordre des vignettes."
+        },
+        "q2": {
+          "question": "Comment zoomer une photo à l’intérieur de sa cellule ?",
+          "answer": "Dans l'éditeur, appuyez sur une cellule photo pour la sélectionner, puis pincez pour zoomer ou faites glisser pour effectuer un panoramique à l'intérieur de cet emplacement."
+        },
+        "q3": {
+          "question": "Pourquoi y a-t-il un filigrane sur les exportations ?",
+          "answer": "Le niveau gratuit ajoute un petit filigrane Collagio. Collagio Premium le supprime avec un achat unique."
+        },
+        "q4": {
+          "question": "Premium n'a pas été activé après l'achat",
+          "answer": "Ouvrez Paramètres → Restaurer les achats. Utilisez le même identifiant Apple ou le même compte Google que vous avez acheté."
+        },
+        "q5": {
+          "question": "Comment ajouter Zuli Monsters à WhatsApp ?",
+          "answer": "Depuis l'accueil de l'application, ouvrez Zuli Monsters → Ajouter à WhatsApp → confirmez dans WhatsApp."
+        },
+        "q6": {
+          "question": "Où puis-je lire la FAQ complète ?",
+          "answer": "Consultez la FAQ sur la page du produit Collagio ou lisez public/collagio/faq.md sur zukiapps.com pour une copie conviviale pour le moteur de réponse."
+        }
+      },
+      "additionalHelp": {
+        "title": "Besoin d'aide supplémentaire ?",
+        "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+      }
+    },
+    "privacy": {
+      "title": "politique de confidentialité",
+      "metaDescription": "Politique de confidentialité pour Collagio — application de collage de photos sur l'appareil ; traitement local, pas de téléchargement cloud de vos photos, achat Premium facultatif.",
+      "lastUpdated": "Dernière mise à jour : mai 2026",
+      "intro": "Cette politique de confidentialité explique comment Zuki Apps (« nous », « notre ») traite les informations lorsque vous utilisez l'application mobile Collagio et les pages associées sur zukiapps.com/collagio (le « Service »). Collagio est une application de collage de photos qui traite vos images sur votre appareil. Nous n'avons pas besoin d'un compte pour utiliser l'application principale.",
+      "section1": {
+        "title": "1. Qui nous sommes",
+        "content": "Le responsable du traitement de Collagio est Zuki Apps. Les coordonnées se trouvent à la fin de cette politique.",
+        "content2": "Cette politique s'applique à l'application Collagio (iOS et Android) et aux pages juridiques que nous publions pour le produit. Les app store tiers ont leurs propres politiques."
+      },
+      "section2": {
+        "title": "2. Informations que nous collectons",
+        "content": "Collagio est conçu pour minimiser la collecte de données. En fonction de la manière dont vous utilisez l'application, nous pouvons traiter :",
+        "items": [
+          "Photos et vidéos que vous sélectionnez sur votre appareil pour créer des collages – traitées localement sur votre appareil et non téléchargées sur nos serveurs pour l'édition principale.",
+          "Projets de collage et historique d'exportation stockés localement sur votre appareil (par exemple, collages récents conservés dans l'historique de l'application).",
+          "Statut d'achat intégré facultatif (par exemple, Premium / supprimer le filigrane) traité par les systèmes de facturation Apple App Store ou Google Play.",
+          "Soutenez les communications si vous nous envoyez un e-mail.",
+          "Données de diagnostic limitées si nous activons des outils de crash ou d'analyse dans une future mise à jour ; nous mettrons à jour cette politique avant de le faire."
+        ]
+      },
+      "section3": {
+        "title": "3. Comment nous utilisons vos informations",
+        "content": "Nous utilisons les informations pour :",
+        "items": [
+          "Fournissez des fonctionnalités d'édition de collages, de mises en page, de filtres, d'autocollants, d'enregistrement et de partage",
+          "Mémorisez votre préférence linguistique et vos paramètres locaux",
+          "Traitez les achats Premium facultatifs via les app store",
+          "Répondre aux demandes d'assistance",
+          "Améliorer la stabilité et corriger les bugs lorsque les outils de diagnostic sont activés"
+        ],
+        "content2": "Nous ne vendons pas vos informations personnelles. Collagio n'inclut pas la publicité tierce dans la version 1.0.0."
+      },
+      "section4": {
+        "title": "4. Autorisations",
+        "content": "L'application peut demander l'accès à votre photothèque ou à votre appareil photo (si vous choisissez de capturer des photos) uniquement pour vous permettre de sélectionner des images pour des collages. Vous pouvez révoquer les autorisations dans les paramètres de votre appareil. Collagio n'accède pas à vos photos lorsque vous n'utilisez pas ces fonctionnalités."
+      },
+      "section5": {
+        "title": "5. Stockage et conservation",
+        "content": "Les collages et les modifications sont stockés sur votre appareil. Vous pouvez supprimer des éléments individuels de l'historique ou désinstaller l'application pour supprimer les données locales. Nous n'exploitons pas de compte cloud pour Collagio dans la version 1.0.0.",
+        "content2": "Si vous contactez l'assistance, nous conservons la correspondance aussi longtemps que nécessaire pour résoudre votre demande et pour des dossiers commerciaux raisonnables."
+      },
+      "section6": {
+        "title": "6. Achats",
+        "content": "Les fonctionnalités facultatives Premium (telles que la suppression du filigrane d'exportation) sont vendues sous la forme d'un achat unique dans l'application via Apple ou Google. L'historique des paiements et des achats est géré par le magasin ; nous recevons uniquement ce que le magasin fournit pour confirmer le droit.",
+        "content2": "ID du produit : collagio.remove_watermark (iOS et Android)."
+      },
+      "section7": {
+        "title": "7. Partage avec des tiers",
+        "content": "Nous ne partageons pas vos photos avec des tiers à des fins de marketing. Lorsque vous utilisez la feuille de partage système, les exportations sont dirigées vers les applications que vous choisissez (Messages, WhatsApp, Fichiers, etc.) selon leurs politiques.",
+        "content2": "Nous utilisons Apple et Google uniquement lorsque cela est nécessaire pour les services de distribution, de facturation et de plateforme."
+      },
+      "section8": {
+        "title": "8. Vos droits et vos enfants",
+        "content": "En fonction de votre juridiction, vous pouvez disposer de droits d'accès, de rectification, de suppression ou d'opposition à certains traitements. Contactez-nous pour exercer vos droits. Nous devrons peut-être vérifier votre identité.",
+        "content2": "Collagio ne s'adresse pas aux enfants de moins de 13 ans (ou l'âge minimum dans votre pays). Nous ne collectons pas sciemment de données personnelles auprès des enfants."
+      },
+      "section9": {
+        "title": "9. Modifications",
+        "content": "Nous pouvons mettre à jour cette politique de temps à autre. Nous publierons la version révisée avec une nouvelle date de « Dernière mise à jour ». L'utilisation continue après la date d'entrée en vigueur constitue l'acceptation de la politique mise à jour."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions concernant cette politique de confidentialité :",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAËL"
+      }
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "metaDescription": "Conditions d'utilisation de Collagio — application de collage de photos, propriété intellectuelle Zuli Monsters, achat Premium et utilisation acceptable.",
+      "lastUpdated": "Dernière mise à jour : mai 2026",
+      "intro": "Veuillez lire attentivement ces conditions d'utilisation avant d'utiliser Collagio. En téléchargeant, en installant ou en utilisant l'application, vous acceptez ces conditions et notre politique de confidentialité.",
+      "section1": {
+        "title": "1. Acceptation des conditions",
+        "content": "Les présentes Conditions régissent votre utilisation de Collagio — Photo Collage Maker (« Service », « Application ») exploité par Zuki Apps (« nous », « notre »). Si vous n'êtes pas d'accord, n'utilisez pas le Service.",
+        "content2": "Si vous utilisez le Service au nom d'une organisation, vous déclarez que vous avez le pouvoir de lier cette organisation."
+      },
+      "section2": {
+        "title": "2. Description du service",
+        "content": "Collagio vous permet de créer des collages de photos sur votre appareil. La Prestation comprend :",
+        "items": [
+          "Sélectionnez 2 à 10 photos de votre bibliothèque",
+          "Mises en page automatiques et style manuel (bordures, filtres)",
+          "Enregistrez et partagez des collages via la feuille de partage du système",
+          "Autocollants Zuli Monsters et exportation de packs d'autocollants en option",
+          "Achat unique Premium facultatif pour supprimer le filigrane d'exportation",
+          "Interfaces en anglais et en hébreu (RTL)"
+        ]
+      },
+      "section3": {
+        "title": "3. Vos photos et contenu",
+        "content": "Vous conservez la propriété des photos et autres contenus que vous importez. Vous êtes responsable d’avoir les droits d’utilisation de ce contenu dans les collages que vous créez et partagez.",
+        "content2": "N'utilisez pas Collagio pour créer ou distribuer du contenu illégal, contrefait, harcelant ou préjudiciable."
+      },
+      "section4": {
+        "title": "4. Propriété intellectuelle",
+        "content": "Collagio et les personnages, noms, illustrations d'autocollants, icônes et actifs associés Zuli Monsters sont la propriété de Zuki Apps et sont protégés par les lois sur les droits d'auteur et les marques applicables.",
+        "content2": "Vous pouvez utiliser des autocollants et des personnages uniquement tels que fournis via l'application pour des messages et des collages personnels et non commerciaux. Vous ne pouvez pas copier, redistribuer, vendre ou créer des œuvres dérivées à partir de ces actifs en dehors de l'application sans l'autorisation écrite de Zuki Apps."
+      },
+      "section5": {
+        "title": "5. Premium et achats",
+        "content": "L'option Premium (supprimer le filigrane) est un achat unique dans l'application facturé par Apple ou Google. Les remboursements suivent les politiques du magasin. Les fonctionnalités et les prix peuvent changer avec préavis si nécessaire.",
+        "content2": "ID du produit : collagio.remove_watermark."
+      },
+      "section6": {
+        "title": "6. Utilisation acceptable",
+        "content": "Vous vous engagez à ne pas :",
+        "items": [
+          "Faire de l'ingénierie inverse ou tenter d'extraire le code source, sauf dans la mesure permise par la loi.",
+          "Contourner les mécanismes d’achat ou de filigrane",
+          "Utiliser le Service pour violer la loi ou les droits de tiers",
+          "Surcharger ou perturber l'application ou les systèmes associés"
+        ]
+      },
+      "section7": {
+        "title": "7. Avis de non-responsabilité et responsabilité",
+        "content": "Le Service est fourni « tel quel », sans garantie d'aucune sorte dans la mesure permise par la loi. Les résultats du collage dépendent de vos photos et de votre appareil ; nous ne garantissons pas un fonctionnement ininterrompu.",
+        "content2": "Dans toute la mesure permise par la loi, Zuki Apps n'est pas responsable des dommages indirects, accessoires ou consécutifs découlant de votre utilisation du Service. Certaines juridictions n'autorisent pas certaines limitations ; vos droits peuvent varier."
+      },
+      "section8": {
+        "title": "8. Résiliation",
+        "content": "Vous pouvez cesser d'utiliser le Service à tout moment en désinstallant l'application. Nous pouvons suspendre ou interrompre le Service ou les présentes Conditions lorsque la loi le permet."
+      },
+      "section9": {
+        "title": "9. Modifications et droit applicable",
+        "content": "Nous pouvons mettre à jour ces conditions. Les modifications importantes seront publiées avec une nouvelle date de « Dernière mise à jour ». L'utilisation continue constitue une acceptation.",
+        "content2": "Les présentes Conditions sont régies par les lois d'Israël, sans égard aux règles de conflit de lois, sauf lorsque les protections obligatoires des consommateurs dans votre pays s'appliquent."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions concernant ces Conditions :",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAËL"
+      }
+    }
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "noiseMeterShusher": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Zuki Apps",
+      "title": "Noise Meter — Shusher",
+      "subtitle": "Real-time dB & noise scoring",
+      "description": "Flutter app that streams microphone input into approximate decibel readings, runs timed measurement sessions, scores the environment against common noise bands, saves history on device, and offers CSV export and charts. Monetization via ads and a one-time Premium unlock for extended features.",
+      "structuredDataDescription": "Noise Meter — Shusher — real-time decibel meter for iOS and Android. Live sound level, timed sessions, noise scores, on-device history, Shusher in-app alerts, optional Premium charts and CSV export. Android com.zuki.apps.noisemeter by Zuki Apps."
+    },
+    "features": {
+      "title": "Key Features",
+      "meter": {
+        "title": "Live meter",
+        "description": "Start and stop timed sessions; see min, max, average, and category labels with plain-language recommendations.",
+        "items": [
+          "Approximate dB from the microphone",
+          "Noise score and category bands",
+          "Share-friendly results"
+        ]
+      },
+      "history": {
+        "title": "History & export",
+        "description": "Past sessions stay on your device; export CSV or share summaries when you choose.",
+        "items": [
+          "Local history list",
+          "CSV export",
+          "Share sheet integration"
+        ]
+      },
+      "premium": {
+        "title": "Premium & charts",
+        "description": "Unlock longer or custom durations and richer charts where enabled in the app.",
+        "items": [
+          "Premium removes certain limits",
+          "Visual charts for trends",
+          "Ad experience may differ by tier"
+        ]
+      }
+    },
+    "status": {
+      "title": "Availability",
+      "description": "iOS and Android. Android application ID: com.zuki.apps.noisemeter. Store links are below.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "1.0.0+1",
+      "statusValue": "Available on the App Store & Google Play"
+    },
+    "download": {
+      "title": "Download",
+      "description": "Get Noise Meter — Shusher on the App Store and Google Play.",
+      "soon": "Use the badges below to open the store pages.",
+      "appStoreUrl": "https://apps.apple.com/il/app/noise-meter-shusher/id6763019075",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.noisemeter",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: April 2026",
+      "intro": "Please read these Terms of Use carefully before using Noise Meter — Shusher. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your access to and use of Noise Meter — Shusher (\"Service\", \"App\"), a microphone-based noise measurement application operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "The app provides approximate sound-level readings and related statistics for informational purposes. The Service includes:",
+        "items": [
+          "Timed measurement sessions and noise scoring",
+          "Local history and optional export or sharing initiated by you",
+          "Optional Premium features and advertising as described in-app",
+          "Charts and UI that may vary by platform and version"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: April 2026",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "The app uses the device microphone to measure sound while you run a session. Measurement results and history are stored locally unless you export or share them. Advertising and optional analytics SDKs may collect limited device or usage data per their policies and your OS settings (e.g. App Tracking Transparency on iOS)."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "Audio is processed to derive level estimates and scores; we do not use it for unrelated voice recognition on your speech content as a default product feature. Aggregated diagnostics may help improve stability when enabled."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell your personal information. Data leaves your device when you share or export, when required by law, or when third-party services (ads, stores, analytics) process data as part of normal operation."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "Use a device passcode and current OS updates. Uninstalling the app removes app-local data subject to OS behavior."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You may clear history in-app, revoke microphone permission in system settings, or uninstall the app. Contact us for privacy requests applicable in your region."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to use",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens from Noise Meter — Shusher.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "live-meter",
+          "title": "Live sound meter",
+          "description": "Real-time dB gauge and waveform while you measure.",
+          "image": "/images/noise-meter-shusher/screenshot-live-meter.png",
+          "alt": "Live sound meter — noise meter shusher",
+          "category": "features"
+        },
+        {
+          "id": "results",
+          "title": "Session results",
+          "description": "Average, min, max, noise category, and tips after each session.",
+          "image": "/images/noise-meter-shusher/screenshot-results.png",
+          "alt": "Session results — noise meter shusher",
+          "category": "features"
+        },
+        {
+          "id": "shusher",
+          "title": "Shusher alerts",
+          "description": "Set a threshold and get in-app nudges when noise crosses your line.",
+          "image": "/images/noise-meter-shusher/screenshot-shusher.png",
+          "alt": "Shusher alerts — noise meter shusher",
+          "category": "features"
+        },
+        {
+          "id": "history",
+          "title": "History",
+          "description": "Compare rooms and times — data stays on your device.",
+          "image": "/images/noise-meter-shusher/screenshot-history.png",
+          "alt": "History — noise meter shusher",
+          "category": "features"
+        },
+        {
+          "id": "premium",
+          "title": "Premium",
+          "description": "Longer sessions, charts, CSV export, themes, and no ads.",
+          "image": "/images/noise-meter-shusher/screenshot-premium.png",
+          "alt": "Premium — noise meter shusher",
+          "category": "features"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How to use",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Allow microphone",
+          "description": "Grant mic access when prompted so the app can estimate ambient level."
+        },
+        {
+          "number": "2",
+          "title": "Start measuring",
+          "description": "Watch the live meter or tap Start measurement for a timed session."
+        },
+        {
+          "number": "3",
+          "title": "Read your score",
+          "description": "See average, category, and recommendations on the results screen."
+        },
+        {
+          "number": "4",
+          "title": "Save or share",
+          "description": "Add to History or share a clean results graphic with a label."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers about features, privacy, and billing.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is Noise Meter — Shusher?",
+          "answer": "A mobile app that estimates ambient sound level using your phone’s microphone, runs timed measurement sessions, scores the environment, saves history on device, and optionally alerts you in-app when noise exceeds a threshold (Shusher)."
+        },
+        {
+          "question": "Is it free?",
+          "answer": "Yes. Core metering, sessions, Shusher, and limited history are free. Premium is a one-time upgrade for charts, CSV export, longer sessions, themes, more history, and no ads."
+        },
+        {
+          "question": "iPhone or Android?",
+          "answer": "Both. Bundle ID: `com.zuki.apps.noisemeter`."
+        },
+        {
+          "question": "What languages are supported?",
+          "answer": "12 locales including English, Hebrew, Arabic, French, German, Italian, Japanese, Korean, Chinese, Portuguese, Russian, and Spanish. Change language in Settings."
+        },
+        {
+          "question": "How accurate is the decibel reading?",
+          "answer": "It is an approximate level based on consumer phone hardware. Position, case, wind, and device model all affect results. Not calibrated for professional SPL, OSHA, or legal noise-ordinance enforcement."
+        },
+        {
+          "question": "Why does my reading differ from a real sound meter?",
+          "answer": "Professional meters use calibrated microphones and specific measurement standards. Phones are tuned for speech and vary by manufacturer."
+        },
+        {
+          "question": "Can I use this in a dispute with a neighbor or landlord?",
+          "answer": "Use readings as informal context only. For legal or compliance matters, hire a qualified acoustician with calibrated equipment."
+        },
+        {
+          "question": "Does the app record or upload audio?",
+          "answer": "No continuous recording or cloud upload of raw audio. The app processes level data locally for metering and sessions."
+        },
+        {
+          "question": "When is the microphone active?",
+          "answer": "While the app is open and metering or running a session—not as a background listener."
+        },
+        {
+          "question": "Why does iOS ask for tracking (ATT)?",
+          "answer": "Free tier uses ads. Apple requires permission before personalized ad tracking. Premium removes ads."
+        },
+        {
+          "question": "Are Shusher alerts push notifications?",
+          "answer": "No. They appear inside the app while the live meter is active."
+        },
+        {
+          "question": "Shusher doesn’t alert me",
+          "answer": "Check: Shusher enabled in Settings · threshold not set too high · meter tab open and mic running · live level actually exceeds threshold."
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get more from the app.",
+      "items": [
+        {
+          "title": "Placement matters",
+          "description": "1. Same spot every time — compare “apples to apples” when tracking a room over days. 2. Mic unobstructed — remove thick cases; don’t cover the bottom edge (common mic location). 3. Orientation — pick portrait or landscape and stick with it; mic direction changes slightly. 4. Height — ear level for “how loud does it feel?”; desk level for workspace noise. 5. Distance — 0.5–1 m from the main noise s"
+        },
+        {
+          "title": "When to use a short vs long session",
+          "description": "| Goal | Suggestion | |------|------------| | Quick snapshot | 5 s (default) | | HVAC cycle | 15–30 s (Premium) | | Conversation level | 10–15 s while people talk naturally | | Street noise | 30–60 s (Premium) to catch peaks | ---"
+        },
+        {
+          "title": "Simple average vs energy average (Leq)",
+          "description": "Steady hum (fan, AC constant) → simple average is fine. - Bursty noise (dishes, traffic, classroom chatter) → switch to energy average (Leq) in Settings for a fairer score. ---"
+        },
+        {
+          "title": "Shusher use cases",
+          "description": "| Scenario | Starting threshold | |----------|-------------------| | Library / study | 45–55 dB | | Open office focus | 55–65 dB | | Living room with kids | 65–75 dB | | Workshop / garage | 75–85 dB | Lower the threshold if alerts rarely fire; raise it if too sensitive. ---"
+        },
+        {
+          "title": "Compare before & after",
+          "description": "1. Measure before a change (rug, curtains, door seal, “quiet hours” sign). 2. Apply the change. 3. Measure after at the same time of day. 4. Save both to History with clear names. Small dB drops can mean a noticeably calmer space. ---"
+        },
+        {
+          "title": "Sharing results without drama",
+          "description": "Use neutral labels: “Tuesday 8pm apartment” not “neighbor noise proof.” - Share the results graphic for a single snapshot—not a live argument meter. - Remember: phone readings are approximate, not legal evidence. ---"
+        },
+        {
+          "title": "Reduce false highs",
+          "description": "Don’t speak directly into the mic while measuring ambient noise. - Move away from TV speakers and phone notifications. - Wind outdoors can spike readings—shield the mic or measure indoors. ---"
+        },
+        {
+          "title": "Premium worth it?",
+          "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
+        }
+      ]
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers about Noise Meter — Shusher or contact us directly.",
+      "metaTitle": "Support & Help — Noise Meter — Shusher | Zuki Apps",
+      "metaDescription": "Get help with Noise Meter — Shusher — decibel readings, Shusher alerts, permissions, Premium, and troubleshooting.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "What is Noise Meter — Shusher?",
+          "answer": "A mobile app that estimates ambient sound level using your phone’s microphone, runs timed measurement sessions, scores the environment, saves history on device, and optionally alerts you in-app when noise exceeds a threshold (Shusher)."
+        },
+        "q2": {
+          "question": "Is it free?",
+          "answer": "Yes. Core metering, sessions, Shusher, and limited history are free. Premium is a one-time upgrade for charts, CSV export, longer sessions, themes, more history, and no ads."
+        },
+        "q3": {
+          "question": "iPhone or Android?",
+          "answer": "Both. Bundle ID: `com.zuki.apps.noisemeter`."
+        },
+        "q4": {
+          "question": "What languages are supported?",
+          "answer": "12 locales including English, Hebrew, Arabic, French, German, Italian, Japanese, Korean, Chinese, Portuguese, Russian, and Spanish. Change language in Settings."
+        },
+        "q5": {
+          "question": "How accurate is the decibel reading?",
+          "answer": "It is an approximate level based on consumer phone hardware. Position, case, wind, and device model all affect results. Not calibrated for professional SPL, OSHA, or legal noise-ordinance enforcement."
+        },
+        "q6": {
+          "question": "Why does my reading differ from a real sound meter?",
+          "answer": "Professional meters use calibrated microphones and specific measurement standards. Phones are tuned for speech and vary by manufacturer."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    }
+  }
+}

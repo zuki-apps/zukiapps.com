@@ -1,0 +1,336 @@
+{
+  "sudokuPuzzle": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Available on App Store",
+      "title": "Sudoku Fun Go - Classic Sudoku",
+      "subtitle": "9×9 Sudoku Puzzle Game",
+      "description": "A classic 9×9 Sudoku game built with Flutter for iOS and Android. Four difficulty levels (Easy, Medium, Hard, Expert), optional notes and hints, undo/erase, running timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games leaderboards and achievements.",
+      "structuredDataDescription": "Sudoku Fun Go — classic Sudoku puzzle game for iOS and Android. Multiple difficulties, hints, statistics, clean grid UI, 12+ languages. Android com.zuki.apps.sudokupuzzle by Zuki Apps."
+    },
+    "features": {
+      "title": "Key Features",
+      "difficulty": {
+        "title": "Difficulty Levels",
+        "description": "Choose your challenge with four difficulty levels",
+        "items": [
+          "Easy",
+          "Medium",
+          "Hard",
+          "Expert"
+        ]
+      },
+      "gameplay": {
+        "title": "Notes, Hints & Tools",
+        "description": "Full set of tools to help you solve puzzles",
+        "items": [
+          "Notes mode for pencil candidates",
+          "Hints for the selected cell",
+          "Undo and erase",
+          "Running timer",
+          "Mistake counter"
+        ]
+      },
+      "stats": {
+        "title": "Statistics",
+        "description": "Track your progress and improve",
+        "items": [
+          "Games won and win rate",
+          "Best times per difficulty",
+          "Best scores per difficulty",
+          "Current and best streaks",
+          "Total games and play time"
+        ]
+      },
+      "localization": {
+        "title": "12 Languages",
+        "description": "Fully localized with regional variants",
+        "items": [
+          "English, Hebrew (RTL), Arabic (RTL)",
+          "German, Spanish, French, Italian",
+          "Portuguese, Russian, Japanese",
+          "Korean, Chinese",
+          "17 regional variants (e.g. pt-BR, es-MX)"
+        ]
+      },
+      "leaderboards": {
+        "title": "Leaderboards & Achievements",
+        "description": "Compete and unlock achievements",
+        "items": [
+          "Game Center (iOS) & Play Games (Android)",
+          "Friends and Global leaderboards",
+          "Best score leaderboards",
+          "First win, Streak 5, Streak 10 achievements"
+        ]
+      }
+    },
+    "status": {
+      "title": "Available",
+      "description": "Sudoku Fun Go is available on the App Store and Google Play.",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "1.0.4+10",
+      "statusValue": "Available"
+    },
+    "download": {
+      "title": "Download",
+      "description": "Available on the App Store and Google Play.",
+      "soon": "Available soon",
+      "appStoreUrl": "https://apps.apple.com/us/app/sudoku-fun-go/id6759739806",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "What is Sudoku Fun Go?",
+          "answer": "Sudoku Fun Go is a classic 9×9 Sudoku game for iOS and Android. Fill every row, column, and 3×3 box with the digits 1–9 with no repeats. It offers four difficulty levels, notes mode, hints, undo, a timer, and persistent statistics including best times and scores per difficulty."
+        },
+        "q2": {
+          "question": "Does the app work offline?",
+          "answer": "Yes. Gameplay, stats, and settings are stored locally. You can play fully offline. Internet is only needed for Game Center / Play Games leaderboards and achievements, and for optional in-app purchases (e.g. remove ads)."
+        },
+        "q3": {
+          "question": "What are the difficulty levels?",
+          "answer": "There are four levels: Easy, Medium, Hard, and Expert. Each affects the number of given clues and puzzle complexity. Best times and best scores are tracked separately per difficulty."
+        },
+        "q4": {
+          "question": "Does the app support leaderboards?",
+          "answer": "Yes. On iOS we use Game Center with Friends and Global leaderboards for best score, plus achievements (e.g. first win, streak 5, streak 10). On Android we use Play Games Services with the same structure. Sign-in is prompted on app start."
+        },
+        "q5": {
+          "question": "In which languages is the app available?",
+          "answer": "The app is localized in 12 base languages (English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, Chinese) with 17 regional variants. Hebrew and Arabic have full RTL support."
+        },
+        "q6": {
+          "question": "How can I remove ads?",
+          "answer": "Sudoku Fun Go offers an in-app purchase to remove ads. After purchasing, ads are disabled. The purchase is restored automatically when you reinstall the app or use the same account on another device."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Sudoku Fun Go - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using Sudoku Fun Go. By accessing or using our service, you agree to be bound by these terms.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Sudoku Fun Go (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval puzzle game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Sudoku Fun Go is a mobile application that provides classic 9×9 Sudoku gameplay. The Service includes: configurable difficulty levels, notes and hints, statistics and leaderboards, Game Center / Play Games integration, and in-app purchases (e.g. remove ads).",
+        "items": [
+          "Four difficulty levels (Easy, Medium, Hard, Expert)",
+          "Notes mode, hints, undo, erase, timer, mistake count",
+          "Statistics: games won, win rate, streaks, best times and scores",
+          "Game Center (iOS) and Play Games (Android) leaderboards and achievements",
+          "In-app purchase to remove ads",
+          "12 languages with regional variants"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Sudoku Fun Go collects minimal information necessary to provide the service. We collect information you provide directly (e.g. when you contact support). Game progress, statistics, and settings are stored locally on your device."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information to provide, maintain, and improve our services. Locally stored data (puzzles, stats, settings) is not transmitted to our servers except as needed for optional services (e.g. Game Center / Play Games)."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell or share your personal information with third parties. Leaderboard scores and achievements are shared with the respective platform (Apple Game Center, Google Play Games) when you use those features."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures. Your game data is stored locally on your device. If you use Game Center or Play Games, their policies apply to data processed by those services."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You can clear local data via the app's Settings (e.g. reset statistics). You may also delete the app at any time. For platform-specific data (e.g. Game Center), you can manage that in your device or account settings."
+      },
+      "section6": {
+        "title": "6. Advertising and In-App Purchases",
+        "content": "The app may show ads (e.g. via Google Mobile Ads). We may use device identifiers and usage data for ad delivery and measurement in accordance with our ad providers' policies. In-app purchases (e.g. remove ads) are processed by Apple or Google; we do not store payment details."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to use",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens from Sudoku Fun Go - Classic Sudoku.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "home",
+          "title": "New puzzle",
+          "description": "Pick difficulty and start a fresh grid.",
+          "image": "/images/sudoku-puzzle/screenshot-home.png",
+          "alt": "New puzzle — sudoku puzzle",
+          "category": "features"
+        },
+        {
+          "id": "gameplay",
+          "title": "Gameplay",
+          "description": "Fill the grid with notes and smart hints.",
+          "image": "/images/sudoku-puzzle/screenshot-gameplay.png",
+          "alt": "Gameplay — sudoku puzzle",
+          "category": "features"
+        },
+        {
+          "id": "victory",
+          "title": "Victory",
+          "description": "Celebrate completion with time and stats.",
+          "image": "/images/sudoku-puzzle/screenshot-victory.png",
+          "alt": "Victory — sudoku puzzle",
+          "category": "features"
+        },
+        {
+          "id": "statistics",
+          "title": "Statistics",
+          "description": "Track wins, streaks, and best times.",
+          "image": "/images/sudoku-puzzle/screenshot-statistics.png",
+          "alt": "Statistics — sudoku puzzle",
+          "category": "features"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How to use",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Select difficulty",
+          "description": "Easy to expert — find the level that fits you."
+        },
+        {
+          "number": "2",
+          "title": "Fill the grid",
+          "description": "Tap cells, use notes, and avoid duplicate digits per row, column, and box."
+        },
+        {
+          "number": "3",
+          "title": "Use hints wisely",
+          "description": "Hints help when stuck without spoiling the whole puzzle."
+        },
+        {
+          "number": "4",
+          "title": "Finish & improve",
+          "description": "Complete puzzles to grow your stats and streaks."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers about features, privacy, and billing.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Open the app and tap New Game. Game Center (iOS) or Google Play Games (Android) is optional for leaderboards and achievements."
+        },
+        {
+          "question": "Is the app free?",
+          "answer": "Yes. Sudoku Fun Go is free to download and play. Ads support development. You can remove ads with a one-time in-app purchase."
+        },
+        {
+          "question": "Which devices are supported?",
+          "answer": "iPhone and iPad (iOS), and Android phones and tablets with Google Play services. Requires a recent OS version — see the store listing for details."
+        },
+        {
+          "question": "What are the difficulty levels?",
+          "answer": "| Level | For whom | |-------|----------| | Easy | Beginners — fewer empty cells | | Medium | Balanced daily challenge | | Hard | Experienced solvers | | Expert | Maximum empty cells — bravest players only |"
+        },
+        {
+          "question": "Can I pause mid-game?",
+          "answer": "Yes. Tap pause; the timer stops until you resume. Your puzzle is saved automatically."
+        },
+        {
+          "question": "What happens if I quit?",
+          "answer": "If you leave without finishing, that puzzle’s progress is lost. Use Continue Game on the home screen to return to an in-progress puzzle."
+        },
+        {
+          "question": "How do notes work?",
+          "answer": "Turn on Notes, tap a cell, then tap digits to mark candidates. When you place a confirmed number, matching notes in the row, column, and box can auto-clear (if enabled in Settings)."
+        },
+        {
+          "question": "Do hints hurt my score?",
+          "answer": "Yes. Each hint costs 300 points from your final score. Use them when stuck, but fewer hints = higher rank."
+        },
+        {
+          "question": "How many mistakes are allowed?",
+          "answer": "Mistakes are tracked and reduce your score (−500 each). The puzzle does not end on a wrong entry — you can keep solving."
+        },
+        {
+          "question": "How is my score calculated?",
+          "answer": "Base = 10,000 × difficulty multiplier (Easy ×1, Medium ×2, Hard ×3, Expert ×5) Minus 2 points per second, 500 per mistake, 300 per hint. Example: Expert, 10 minutes, 0 mistakes, 0 hints → up to 48,800 before time penalty details."
+        },
+        {
+          "question": "Why is my leaderboard empty?",
+          "answer": "Sign in to Game Center or Play Games, complete a puzzle to submit a score, then open Statistics → Friends or Global. Install from the Play Store or App Store (not sideload) for full Play Games / billing support on Android."
+        },
+        {
+          "question": "How do achievements unlock?",
+          "answer": "Automatically when you meet goals (first win, streaks, flawless solve, etc.). Open Statistics → Achievements to view progress."
+        }
+      ]
+    }
+  }
+}

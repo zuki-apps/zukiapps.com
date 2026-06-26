@@ -6,6 +6,7 @@ import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import LegalSections from '@/components/LegalSections';
+import { collagioBrandName } from '@/lib/collagioBrand';
 import type { Metadata } from 'next';
 
 const BODY_SECTIONS = [
@@ -35,8 +36,7 @@ export async function generateMetadata({
 
   return {
     title: `${t('title')} — Collagio | Zuki Apps`,
-    description:
-      'Privacy Policy for Collagio — photo collage app; local processing, photos on device, optional Premium purchase.',
+    description: t('metaDescription'),
     robots: { index: true, follow: true },
     alternates: {
       canonical: buildCanonical(locale, '/collagio/privacy'),
@@ -60,6 +60,7 @@ export default async function CollagioPrivacyPage({
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const tApp = await getTranslations({ locale, namespace: 'collagio.hero' });
   const rtl = locale === 'he' || locale === 'ar';
+  const brandName = collagioBrandName(tApp);
 
   return (
     <>
@@ -67,22 +68,22 @@ export default async function CollagioPrivacyPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: tApp('title'), path: '/collagio' },
+          { name: brandName, path: '/collagio' },
           { name: tCommon('privacyPolicy'), path: '/collagio/privacy' },
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-sky-50 via-slate-50 to-blue-50">
+      <div className="min-h-screen bg-gradient-to-br from-rose-50 via-rose-50 to-gray-50">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="mb-6 flex justify-end">
             <LanguageSwitcher />
           </div>
 
-          <div className="bg-sky-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-sky-600">
-              <h1 className="text-4xl font-bold text-sky-700">{tApp('title')}</h1>
+          <div className="bg-rose-50 rounded-2xl shadow-xl p-8 md:p-12">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-rose-600">
+              <h1 className="text-4xl font-bold text-rose-700">{brandName}</h1>
               <Link
                 href={`/${locale}/collagio`}
-                className="px-4 py-2 border-2 border-sky-600 bg-white text-sky-700 rounded-lg hover:bg-sky-600 hover:text-white transition-colors text-sm"
+                className="px-4 py-2 border-2 border-rose-600 bg-white text-rose-700 rounded-lg hover:bg-rose-600 hover:text-white transition-colors text-sm"
               >
                 {tCommon('back')}
               </Link>

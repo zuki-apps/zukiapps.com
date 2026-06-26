@@ -1,7 +1,7 @@
 import { getRequestConfig } from 'next-intl/server';
 import { routing } from './routing';
 
-/** Deep-merge locale JSON over English so missing nested keys (e.g. bitScope.terms) never 500 in prod. */
+/** Deep-merge locale JSON over English so missing nested keys never 500 in prod. */
 function deepMergeMessages(
   base: Record<string, unknown>,
   override: Record<string, unknown>
@@ -26,6 +26,29 @@ function deepMergeMessages(
   return result;
 }
 
+/**
+ * App folder names under messages/apps/.
+ * Each folder has en.json (English base) and optional {locale}.json overlays.
+ * Adding a new app = add its folder + list it here.
+ */
+const APPS = [
+  'hush-gallery',
+  'whistle-camera',
+  'zulist',
+  'sudoku-puzzle',
+  'football-trivia',
+  'fun-facts-trivia',
+  'power-interval-timer',
+  'tempo-lab-pro',
+  'bit-scope',
+  'track-ledger',
+  'noise-meter-shusher',
+  'paratrooper-blitz',
+  'toldya',
+  'collagio',
+  'dreambit-legacy',
+] as const;
+
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
 
@@ -33,35 +56,45 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
-  const enMessages = (await import('./messages/en.json')).default as Record<
-    string,
-    unknown
-  >;
-  const userMessages = (await import(`./messages/${locale}.json`)).default as Record<
-    string,
-    unknown
-  >;
-  const dreambitBase = (await import('./messages/dreambitLegacy.json')).default as Record<
-    string,
-    unknown
-  >;
-  let dreambitLegacy = dreambitBase;
+  // Load shared messages: home, common, dsa
+  const sharedEn = (await import('./messages/shared/en.json')).default as Record<string, unknown>;
+  let messages: Record<string, unknown> = sharedEn;
+
   if (locale !== routing.defaultLocale) {
     try {
-      const dreambitOverlay = (await import(`./messages/dreambit-legacy/${locale}.json`))
-        .default as Record<string, unknown>;
-      dreambitLegacy = deepMergeMessages(dreambitBase, dreambitOverlay);
+      const sharedLocale = (
+        await import(`./messages/shared/${locale}.json`)
+      ).default as Record<string, unknown>;
+      messages = deepMergeMessages(messages, sharedLocale) as Record<string, unknown>;
     } catch {
-      /* no overlay: keep English base */
+      /* no shared locale file — use English */
     }
   }
 
-  return {
-    locale,
-    messages: {
-      ...deepMergeMessages(enMessages, userMessages),
-      dreambitLegacy,
-    },
-  };
-});
+  // Load per-app messages: en.json as base, deep-merged with locale overlay when available
+  for (const app of APPS) {
+    try {
+      const appEn = (
+        await import(`./messages/apps/${app}/en.json`)
+      ).default as Record<string, unknown>;
+      let appMessages: Record<string, unknown> = appEn;
 
+      if (locale !== routing.defaultLocale) {
+        try {
+          const appLocale = (
+            await import(`./messages/apps/${app}/${locale}.json`)
+          ).default as Record<string, unknown>;
+          appMessages = deepMergeMessages(appEn, appLocale) as Record<string, unknown>;
+        } catch {
+          /* no locale file for this app — use English */
+        }
+      }
+
+      messages = deepMergeMessages(messages, appMessages) as Record<string, unknown>;
+    } catch {
+      /* app folder not found — skip */
+    }
+  }
+
+  return { locale, messages };
+});

@@ -82,6 +82,13 @@ export default function TrackLedgerPage() {
               >
                 {tCommon('termsOfService')}
               </Link>
+              <span className="text-gray-500">|</span>
+              <Link
+                href={`/${locale}/track-ledger/support`}
+                className="text-cyan-400 hover:text-cyan-300 underline transition-colors"
+              >
+                {tCommon('support')}
+              </Link>
             </div>
           </div>
         </section>
@@ -134,7 +141,7 @@ export default function TrackLedgerPage() {
         </section>
 
         
-        <ProductMarketingSections namespace="trackLedger" slug="track-ledger" accent="teal" hasSupportPage={false} />
+        <ProductMarketingSections namespace="trackLedger" slug="track-ledger" accent="teal" hasSupportPage={true} />
 <section className="py-12 px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-cyan-500/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
@@ -174,19 +181,19 @@ export default function TrackLedgerPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-12 text-white">{t('links.title')}</h2>
             <div className="grid md:grid-cols-1 gap-6 max-w-xl mx-auto">
-              <a
-                href={`mailto:${supportEmail}`}
-                className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-cyan-500/50 transition-all flex items-center gap-4 group border-2 border-cyan-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
+              <Link
+                href={`/${locale}/track-ledger/support`}
+                className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-cyan-500/50 transition-all flex items-center gap-4 group border-2 border-cyan-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' || locale === 'ar' ? 'flex-row-reverse' : ''}`}
               >
                 <div className="bg-cyan-600/30 p-3 rounded-lg group-hover:bg-cyan-600/50 border border-cyan-500/50 transition-colors">
                   <Mail className="w-6 h-6 text-cyan-400" />
                 </div>
-                <div className={`flex-grow ${locale === 'he' ? 'text-right' : 'text-left'}`}>
+                <div className={`flex-grow ${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   <h3 className="text-xl font-semibold text-white mb-1">{t('links.support.title')}</h3>
                   <p className="text-gray-300 text-sm">{supportEmail}</p>
                 </div>
                 <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-cyan-400 transition-colors" />
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -199,12 +206,12 @@ export default function TrackLedgerPage() {
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
             <p className="text-sm text-gray-500">{t('footer.tagline')}</p>
             <div className="flex justify-center gap-4 mt-4 text-sm flex-wrap">
-              <a
-                href={`mailto:${supportEmail}`}
+              <Link
+                href={`/${locale}/track-ledger/support`}
                 className="text-gray-400 hover:text-cyan-400 transition-colors"
               >
                 {tCommon('support')}
-              </a>
+              </Link>
               <span className="text-gray-600">|</span>
               <Link
                 href={`/${locale}/track-ledger/privacy`}

@@ -1,0 +1,307 @@
+{
+  "home": {
+    "title": "Zuki Apps",
+    "subtitle": "Zuki Apps — iOS 및 Android용 모바일 앱",
+    "tagline": "일상생활을 더 쉽게 만드는 스마트하고 직관적인 모바일 애플리케이션 제작",
+    "story": {
+      "title": "내 이야기",
+      "p1": "2012년부터 2016년까지, 저는 dreamBit 팀의 일원으로 모바일 애플리케이션을 개발했습니다. 그 몇 년 동안, 저는 다양한 프로젝트에서 작업할 기회를 얻었고, 모바일 개발의 세부 사항을 배우고 사용자들이 사랑하는 앱을 만들었습니다.",
+      "dreambitLegacyLink": "See legacy Dreambit Android apps (archive) →",
+      "p2": "적극적인 개발에서 긴 휴식 후, 저는 제 열정을 추구하기 위해 돌아왔습니다 - 모바일 앱 개발. 이번에는 기술과 창의성에 대한 사랑에 의해 추진되어 취미로 앱을 만들고 있습니다.",
+      "p3": "오늘, 저는 사람들의 일상생활을 도울 수 있는 스마트하고 직관적인 모바일 애플리케이션 개발에 집중하고 있습니다. 제가 만드는 각 앱은 세부 사항, 사용자 경험, 실제 문제에 대한 혁신적인 솔루션에 주의를 기울여 제작됩니다."
+    },
+    "zuliMonsters": {
+      "title": "Zuli Monsters",
+      "description": "제 앱의 독특한 측면 중 하나는 제가 만드는 오리지널 일러스트레이션으로, 저는 그것들을 Zuli Monsters라고 부릅니다.",
+      "more": "이 귀엽고 다채로운 생물들은 사용자들이 앱 경험 전반에 걸쳐 동반하며, 모든 상호작용에 재미와 개성을 더합니다. 곧 그들에 대해 더 많이 듣게 될 것입니다!"
+    },
+    "comingSoon": "출시 예정",
+    "underConstruction": "구축 중",
+    "underConstructionMessage": "놀라운 것을 제공하기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
+    "backToHome": "홈으로 돌아가기",
+    "zulist": {
+      "title": "ZuList - Manage & Share Lists",
+      "subtitle": "제 첫 번째 앱 - 스마트 쇼핑 리스트 관리",
+      "description": "ZuList는 식료품 쇼핑을 더 쉽고 협력적으로 만들기 위해 설계된 Flutter 기반 쇼핑 리스트 애플리케이션입니다. 실시간 공유, 오프라인 지원, 스마트 제품 추천으로 함께 쇼핑하는 가족과 친구들에게 완벽한 동반자입니다. 지금 App Store에서 이용 가능합니다!",
+      "features": {
+        "realtime": "실시간 공유",
+        "offline": "오프라인 작동",
+        "smart": "스마트 추천"
+      },
+      "learnMore": "ZuList에 대해 자세히 알아보기 →"
+    },
+    "hushGallery": {
+      "title": "Hush Gallery - Hide Photos & Videos",
+      "subtitle": "프라이빗 사진 갤러리 - 출시 예정",
+      "description": "로컬 스토리지, 선택적 암호화된 클라우드 백업(iCloud/Google Drive), 사용자 정의 태그, 앱 잠금 및 프리미엄 기능이 있는 안전하고 프라이빗한 사진 갤러리 애플리케이션입니다. 개인 사진을 안전하고 체계적으로 보관하세요.",
+      "features": {
+        "privacy": "개인정보 보호 우선",
+        "secure": "안전한 저장소",
+        "organized": "정리된 컬렉션"
+      },
+      "learnMore": "Hush Gallery에 대해 자세히 알아보기 →",
+      "back": "홈으로 돌아가기",
+      "comingSoon": "출시 예정",
+      "underConstruction": "구축 중",
+      "underConstructionMessage": "놀라운 것을 가져다 드리기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
+      "backToHome": "홈으로 돌아가기"
+    },
+    "whistleCamera": {
+      "title": "Whistle Camera - Selfie & More",
+      "subtitle": "스마트 카메라 앱 - 출시 예정",
+      "description": "Whistle Camera는 모바일 사진에 새로운 기능과 기능을 제공하는 혁신적인 카메라 애플리케이션입니다. 고급 편집 도구와 스마트 필터로 이전과는 다른 방식으로 순간을 캡처하고 향상시킵니다.",
+      "features": {
+        "handsFree": "Whistle to capture",
+        "calibration": "Tuned to your whistle",
+        "widgets": "Widgets & shortcuts",
+        "smart": "스마트 기능",
+        "editing": "고급 편집",
+        "filters": "창의적인 필터"
+      },
+      "learnMore": "Whistle Camera에 대해 자세히 알아보기 →",
+      "back": "홈으로 돌아가기",
+      "comingSoon": "출시 예정",
+      "underConstruction": "구축 중",
+      "underConstructionMessage": "놀라운 것을 가져다 드리기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
+      "backToHome": "홈으로 돌아가기"
+    },
+    "powerIntervalTimer": {
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "Tabata, HIIT 및 운동 타이머",
+      "description": "Tabata, HIIT 및 짧은 운동을 위한 최소한의 빠른 오프라인 인터벌 운동 타이머. 기능: 설정 가능한 운동, 여러 표시 모드, 소리 알림 및 화면 캐스팅 지원.",
+      "features": {
+        "configurable": "설정 가능한 운동",
+        "display": "여러 표시 모드",
+        "offline": "오프라인 작동"
+      },
+      "learnMore": "Power Interval Timer에 대해 자세히 알아보기 →",
+      "back": "홈으로 돌아가기",
+      "comingSoon": "출시 예정",
+      "underConstruction": "개발 중",
+      "underConstructionMessage": "놀라운 것을 제공하기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
+      "backToHome": "홈으로 돌아가기"
+    },
+    "bitScope": {
+      "title": "Bit Scope - 비트 및 숫자 계산기",
+      "subtitle": "비트 레벨 검사기 및 변환기",
+      "description": "개발자, 엔지니어 및 학생을 위한 강력한 비트 레벨 검사기 및 변환기. 여러 숫자 시스템 및 형식에서 비트 레벨로 숫자를 시각화, 조작 및 변환합니다.",
+      "features": {
+        "bitEditor": "대화형 비트 편집기",
+        "formats": "다중 숫자 형식",
+        "bases": "숫자 기수 지원"
+      },
+      "learnMore": "Bit Scope에 대해 자세히 알아보기 →",
+      "back": "홈으로 돌아가기",
+      "comingSoon": "출시 예정",
+      "underConstruction": "개발 중",
+      "underConstructionMessage": "놀라운 것을 제공하기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
+      "backToHome": "홈으로 돌아가기"
+    },
+    "sudokuPuzzle": {
+      "title": "Sudoku Fun Go - 클래식 스도쿠",
+      "subtitle": "9×9 스도쿠 게임",
+      "description": "4가지 난이도, 메모, 힌트, 타이머, 통계가 있는 클래식 9×9 스도쿠. 12개 언어, Game Center 및 Play Games 지원.",
+      "features": {
+        "difficulty": "난이도 레벨",
+        "gameplay": "메모 및 힌트",
+        "offline": "오프라인 작동"
+      },
+      "learnMore": "Sudoku Fun Go 자세히 알아보기 →",
+      "back": "홈으로 돌아가기",
+      "comingSoon": "출시 예정",
+      "underConstruction": "개발 중",
+      "underConstructionMessage": "놀라운 것을 제공하기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
+      "backToHome": "홈으로 돌아가기"
+    },
+    "footballTrivia": {
+      "title": "Football Trivia",
+      "subtitle": "월드 축구 퀴즈",
+      "description": "월드 축구, 국가대표팀, 월드컵, 2026 월드컵 퀴즈로 축구 지식을 테스트하세요. 여러 카테고리와 난이도. iOS·Android 출시 예정.",
+      "features": {
+        "categories": "여러 카테고리",
+        "difficulty": "난이도",
+        "stats": "통계 및 연속 정답"
+      },
+      "learnMore": "Football Trivia 자세히 알아보기 →"
+    },
+    "funFactsTrivia": {
+      "title": "Fun Facts! Trivia",
+      "subtitle": "퀴즈: 8주제, 연속정답, 통계, 난이도, 오프라인.",
+      "description": "여덟 가지 카테고리의 객관식 상식 퀴즈, 세 가지 난이도, 연속 정답과 통계. 곧 App Store 및 Google Play.",
+      "features": {
+        "categories": "8개 카테고리",
+        "gameplay": "시간 제한 라운드와 난이도",
+        "extras": "통계와 리더보드"
+      },
+      "learnMore": "Fun Facts! Trivia 자세히 보기 →"
+    },
+    "trackLedger": {
+      "title": "Track Ledger",
+      "subtitle": "Log GPS data",
+      "description": "Offline-first GPS logger: raw GNSS points, configurable sampling, export (CSV, GPX, GeoJSON), and map overlays on OpenStreetMap.",
+      "features": {
+        "gnss": "Raw GNSS logging",
+        "export": "Export & share",
+        "map": "Map & OpenStreetMap"
+      },
+      "learnMore": "Learn more about Track Ledger →"
+    },
+    "tempoLabPro": {
+      "title": "TempoLab Pro - 템포 및 피치",
+      "subtitle": "템포 및 피치 오디오 연습",
+      "description": "템포 및 피치 오디오 연습용 Flutter 앱. 탭 템포, BPM 감지, 피치 시프트, 루프, 내보내기.",
+      "features": {
+        "tempoPitch": "Tempo & Pitch",
+        "tapTempo": "Tap Tempo",
+        "export": "Export & Loop"
+      },
+      "learnMore": "TempoLab Pro 자세히 알아보기 →",
+      "back": "홈으로 돌아가기",
+      "comingSoon": "출시 예정",
+      "underConstruction": "개발 중",
+      "underConstructionMessage": "놀라운 것을 제공하기 위해 열심히 노력하고 있습니다. 곧 다시 확인해 주세요!",
+      "backToHome": "홈으로 돌아가기"
+    },
+    "dreambitLegacy": {
+      "gridTitle": "Legacy Dreambit (Android)",
+      "gridBadge": "Archive"
+    },
+    "appsGrid": {
+      "title": "Our Apps"
+    },
+    "faq": {
+      "title": "Common questions",
+      "items": [
+        {
+          "question": "Who is Zuki Apps?",
+          "answer": "Zuki Apps is an independent mobile software publisher. The developer is based in Israel, previously developed Android and iOS apps as part of DreamBit Apps (2012–2016), and now ships consumer apps built with Flutter for iOS and Android."
+        },
+        {
+          "question": "What is zukiapps.com?",
+          "answer": "This site is the public marketing presence for Zuki Apps: short descriptions of each app, links to the App Store and Google Play when available, support email, and links to each app’s Privacy Policy and Terms of Use. There is no user login on the website itself."
+        },
+        {
+          "question": "How do I contact Zuki Apps?",
+          "answer": "For support and general inquiries, email zuki.apps.dev@gmail.com. The same address appears on app pages and in store listings where applicable."
+        },
+        {
+          "question": "Where can I read privacy policies and terms?",
+          "answer": "Each app has its own pages: open the app’s section on this site and follow Privacy Policy and Terms of Use. EU Digital Services Act (DSA) trader information is on the DSA Compliance page. A legacy DreamBit archive is also linked from the footer."
+        },
+        {
+          "question": "Which apps are listed on this site?",
+          "answer": "The home page showcases multiple titles (for example ZuList, Hush Gallery, games, utilities, Track Ledger, Noise Meter — Shusher, Paratrooper Blitz, and others). Use the app tiles to open each product page for details and policies."
+        },
+        {
+          "question": "Is there a public API documented here?",
+          "answer": "No. This website does not document a public REST or GraphQL API for end users. Apps use their own clients on the device and normal app-store distribution."
+        }
+      ]
+    },
+    "contact": {
+      "title": "연락하기",
+      "description": "질문이나 아이디어가 있거나 그냥 인사를 나누고 싶으신가요? 언제든 연락 주세요. 피드백·기능 요청·버그 신고도 환영이며, 보내 주신 내용은 모두 읽고 가능한 한 모두에게 답하려고 노력합니다.",
+      "sendEmail": "이메일 보내기",
+      "email": "zuki.apps@gmail.com",
+      "support": "내 작업 지원하기"
+    },
+    "social": {
+      "title": "소셜 미디어",
+      "description": "뉴스와 앱 업데이트, 그리고 소통을 위해 누구나 소셜 미디어를 팔로우하셔도 좋아요. 피드백이나 요청도 소셜로 남겨 주세요. 이메일과 소셜 모두 최대한 답하려고 노력합니다.",
+      "instagram": "Instagram에서 팔로우",
+      "facebook": "Facebook에서 팔로우",
+      "tiktok": "Follow us on TikTok",
+      "youtube": "Subscribe on YouTube",
+      "whatsapp": "Follow our WhatsApp channel"
+    },
+    "footer": {
+      "copyright": "© 2025 Zuki Apps - 모든 권리 보유. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
+      "tagline": "이스라엘에서 개발 • 취미로 • 열정을 가지고",
+      "support": "내 작업 지원하기"
+    },
+    "noiseMeterShusher": {
+      "title": "Noise Meter — Shusher",
+      "subtitle": "Real-time dB & noise scoring",
+      "description": "Measure ambient noise with timed sessions, category scoring, local history, CSV export, and charts. Ad-supported with optional Premium unlock.",
+      "features": {
+        "meter": "Live meter & scoring",
+        "history": "History & export",
+        "premium": "Premium & charts"
+      },
+      "learnMore": "Learn more about Noise Meter — Shusher →"
+    },
+    "paratrooperBlitz": {
+      "title": "Paratrooper Blitz",
+      "subtitle": "Classic arcade action",
+      "description": "Destroy aircraft and paratroopers before they reach your turret. Arcade and Classic DOS modes, scores, career ranks, leaderboards and achievements on mobile.",
+      "features": {
+        "modes": "Arcade & Classic DOS",
+        "action": "Scores & ranks",
+        "social": "Leaderboards & achievements"
+      },
+      "learnMore": "Learn more about Paratrooper Blitz →"
+    },
+    "collagio": {
+      "title": "Collagio - 사진 콜라주 메이커",
+      "subtitle": "2~10장의 사진을 몇 초 만에 콜라주로",
+      "description": "사진을 선택하고 레이아웃을 고르고 필터와 Zuli Monsters 스티커를 추가한 다음 저장하거나 공유하세요. 계정이 필요 없습니다.",
+      "learnMore": "Collagio에 대해 더 알아보기 →",
+      "features": {
+        "layouts": "스마트 레이아웃",
+        "filters": "필터 및 스티커",
+        "private": "로그인 불필요"
+      }
+    }
+  },
+  "common": {
+    "language": "언어",
+    "back": "뒤로",
+    "home": "홈",
+    "email": "이메일",
+    "address": "주소",
+    "privacyPolicy": "개인정보 보호정책",
+    "termsOfService": "서비스 약관",
+    "support": "지원",
+    "contact": "연락처",
+    "contactUs": "문의하기",
+    "dsaCompliance": "DSA 준수",
+    "deleteAccount": "Delete Account"
+  },
+  "dsa": {
+    "title": "디지털 서비스법(DSA) 준수",
+    "lastUpdated": "최종 업데이트: 2025년 1월",
+    "traderIdentification": {
+      "title": "사업자 식별",
+      "content": "Zuki Apps는 EU 디지털 서비스법(DSA)에 따라 사업자로 운영됩니다. 모든 애플리케이션(ZuList, Hush Gallery, Whistle Camera, Power Interval Timer)은 EU 규정 준수에 전념하는 사업체인 Zuki Apps에서 제공합니다."
+    },
+    "businessInfo": {
+      "title": "사업 정보",
+      "company": "회사",
+      "companyValue": "Zuki Apps",
+      "address": "주소",
+      "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "contactEmail": "연락처 이메일",
+      "contactEmailValue": "zuki.apps.dev@gmail.com",
+      "supportEmail": "지원 이메일",
+      "supportEmailValue": "zuki.apps@gmail.com",
+      "website": "웹사이트",
+      "websiteValue": "https://zukiapps.com"
+    },
+    "consumerRights": {
+      "title": "소비자 권리",
+      "content": "사업자로서 우리는 투명한 사업 관행과 EU 소비자 보호법 준수에 전념하고 있습니다. 유럽 연합의 사용자는 다음과 같은 특정 권리를 갖습니다:",
+      "items": [
+        "서비스 및 약관에 대한 명확한 정보를 받을 권리",
+        "계약 철회권(디지털 콘텐츠의 14일 쿨링오프 기간, 적용 가능한 법률에 따름)",
+        "불만 처리 권리",
+        "환불 권리(적용 가능한 법률 및 플랫폼 정책에 따름)"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
+      "email": "zuki.apps.dev@gmail.com",
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+    }
+  }
+}

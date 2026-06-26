@@ -1,0 +1,307 @@
+{
+  "home": {
+    "title": "Zuki Apps",
+    "subtitle": "Zuki Apps — Mobile Apps für iOS und Android",
+    "tagline": "Erstellen intelligenter und intuitiver mobiler Anwendungen, die das tägliche Leben erleichtern",
+    "story": {
+      "title": "Meine Geschichte",
+      "p1": "Zwischen 2012 und 2016 entwickelte ich mobile Anwendungen als Teil des dreamBit-Teams. In diesen Jahren hatte ich die Gelegenheit, an verschiedenen Projekten zu arbeiten, die Feinheiten der mobilen Entwicklung zu erlernen und Apps zu erstellen, die Benutzer liebten.",
+      "dreambitLegacyLink": "See legacy Dreambit Android apps (archive) →",
+      "p2": "Nach einer langen Pause von der aktiven Entwicklung bin ich zurückgekehrt, um meiner Leidenschaft nachzugehen - der Entwicklung mobiler Apps. Diesmal baue ich Apps als Hobby, angetrieben von meiner Liebe zur Technologie und Kreativität.",
+      "p3": "Heute konzentriere ich mich auf die Entwicklung intelligenter und intuitiver mobiler Anwendungen, die Menschen in ihrem täglichen Leben helfen können. Jede App, die ich erstelle, wird mit Aufmerksamkeit für Details, Benutzererfahrung und innovative Lösungen für reale Probleme entwickelt."
+    },
+    "zuliMonsters": {
+      "title": "Zuli Monsters",
+      "description": "Einer der einzigartigen Aspekte meiner Apps sind die originalen Illustrationen, die ich erstelle und die ich Zuli Monsters nenne.",
+      "more": "Diese süßen und bunten Kreaturen begleiten Benutzer während ihrer App-Erfahrung und verleihen jeder Interaktion eine Prise Spaß und Persönlichkeit. Sie werden bald mehr über sie hören!"
+    },
+    "comingSoon": "Demnächst verfügbar",
+    "underConstruction": "Im Aufbau",
+    "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Erstaunliches zu bringen. Schauen Sie bald wieder vorbei!",
+    "backToHome": "Zurück zur Startseite",
+    "zulist": {
+      "title": "ZuList - Manage & Share Lists",
+      "subtitle": "Meine erste App - Intelligente Einkaufslistenverwaltung",
+      "description": "ZuList ist eine Flutter-basierte Einkaufslisten-Anwendung, die entwickelt wurde, um den Lebensmitteleinkauf einfacher und kollaborativer zu gestalten. Mit Echtzeit-Sharing, Offline-Unterstützung und intelligenten Produktempfehlungen ist es der perfekte Begleiter für Familien und Freunde, die zusammen einkaufen. Kommt bald!",
+      "features": {
+        "realtime": "Echtzeit-Sharing",
+        "offline": "Funktioniert Offline",
+        "smart": "Intelligente Empfehlungen"
+      },
+      "learnMore": "Erfahren Sie mehr über ZuList →"
+    },
+    "hushGallery": {
+      "title": "Hush Gallery - Hide Photos & Videos",
+      "subtitle": "Private Fotogalerie",
+      "description": "Eine sichere und private Fotogalerie-Anwendung mit lokalem Speicher, optionalem verschlüsseltem Cloud-Backup (iCloud/Google Drive), benutzerdefinierten Tags, App-Sperre und Premium-Funktionen. Bewahren Sie Ihre persönlichen Fotos sicher und organisiert auf.",
+      "features": {
+        "privacy": "Datenschutz zuerst",
+        "secure": "Sichere Speicherung",
+        "organized": "Organisierte Sammlungen"
+      },
+      "learnMore": "Erfahren Sie mehr über Hush Gallery →",
+      "back": "Zurück zur Startseite",
+      "comingSoon": "Demnächst verfügbar",
+      "underConstruction": "Im Aufbau",
+      "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "whistleCamera": {
+      "title": "Whistle Camera - Selfie & More",
+      "subtitle": "Intelligente Kamera-App - Demnächst verfügbar",
+      "description": "Whistle Camera ist eine innovative Kamera-Anwendung, die neue Funktionen und Fähigkeiten für die mobile Fotografie bietet. Mit erweiterten Bearbeitungstools und intelligenten Filtern erfassen und verbessern Sie Ihre Momente wie nie zuvor.",
+      "features": {
+        "handsFree": "Whistle to capture",
+        "calibration": "Tuned to your whistle",
+        "widgets": "Widgets & shortcuts",
+        "smart": "Intelligente Funktionen",
+        "editing": "Erweiterte Bearbeitung",
+        "filters": "Kreative Filter"
+      },
+      "learnMore": "Erfahren Sie mehr über Whistle Camera →",
+      "back": "Zurück zur Startseite",
+      "comingSoon": "Demnächst verfügbar",
+      "underConstruction": "Im Aufbau",
+      "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "powerIntervalTimer": {
+      "title": "Power Interval Timer - Tabata & HIIT",
+      "subtitle": "Tabata, HIIT & Workout-Timer",
+      "description": "Ein minimaler, schneller, offline Intervall-Trainings-Timer für Tabata, HIIT und kurze Workouts. Funktionen: konfigurierbare Workouts, mehrere Anzeigemodi, Sound-Alarme und Bildschirmübertragungs-Unterstützung.",
+      "features": {
+        "configurable": "Konfigurierbare Workouts",
+        "display": "Mehrere Anzeigemodi",
+        "offline": "Funktioniert Offline"
+      },
+      "learnMore": "Erfahren Sie mehr über Power Interval Timer →",
+      "back": "Zurück zur Startseite",
+      "comingSoon": "Demnächst verfügbar",
+      "underConstruction": "Im Aufbau",
+      "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "bitScope": {
+      "title": "Bit Scope - Bit & Number Calculator",
+      "subtitle": "Bit-Level Inspector & Converter",
+      "description": "Ein leistungsstarker Bit-Level-Inspektor und -Konverter für Entwickler, Ingenieure und Studenten. Visualisieren, manipulieren und konvertieren Sie Zahlen auf Bitebene über mehrere Zahlensysteme und Formate hinweg.",
+      "features": {
+        "bitEditor": "Interaktiver Bit-Editor",
+        "formats": "Mehrere Zahlenformate",
+        "bases": "Zahlenbasis-Unterstützung"
+      },
+      "learnMore": "Erfahren Sie mehr über Bit Scope →",
+      "back": "Zurück zur Startseite",
+      "comingSoon": "Demnächst verfügbar",
+      "underConstruction": "Im Aufbau",
+      "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "sudokuPuzzle": {
+      "title": "Sudoku Fun Go - Klassisches Sudoku",
+      "subtitle": "9×9-Sudoku-Spiel",
+      "description": "Klassisches 9×9-Sudoku mit vier Schwierigkeitsstufen, Notizen, Hinweisen, Timer und Statistik. 12 Sprachen, Game Center & Play Games.",
+      "features": {
+        "difficulty": "Schwierigkeitsstufen",
+        "gameplay": "Notizen & Hinweise",
+        "offline": "Funktioniert Offline"
+      },
+      "learnMore": "Erfahren Sie mehr über Sudoku Fun Go →",
+      "back": "Zurück zur Startseite",
+      "comingSoon": "Demnächst verfügbar",
+      "underConstruction": "Im Aufbau",
+      "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "footballTrivia": {
+      "title": "Football Trivia",
+      "subtitle": "Welt-Fußball-Quiz",
+      "description": "Testen Sie Ihr Fußballwissen mit Fragen zu Weltfußball, Nationalteams, Weltmeisterschaften und der WM 2026. Mehrere Kategorien und Schwierigkeitsstufen. Bald für iOS und Android.",
+      "features": {
+        "categories": "Mehrere Kategorien",
+        "difficulty": "Schwierigkeitsstufen",
+        "stats": "Statistik & Serien"
+      },
+      "learnMore": "Mehr über Football Trivia →"
+    },
+    "funFactsTrivia": {
+      "title": "Fun Facts! Trivia",
+      "subtitle": "Quiz: 8 Themen, Serien, Stats, leicht–schwer, offline.",
+      "description": "Schnelles Wissensquiz mit Multiple Choice in acht Kategorien, drei Schwierigkeiten, Serien und Statistiken. Bald im App Store und bei Google Play.",
+      "features": {
+        "categories": "Acht Kategorien",
+        "gameplay": "Zeitgesteuerte Runden & Schwierigkeiten",
+        "extras": "Statistiken & Bestenlisten"
+      },
+      "learnMore": "Mehr über Fun Facts! Trivia →"
+    },
+    "trackLedger": {
+      "title": "Track Ledger",
+      "subtitle": "Log GPS data",
+      "description": "Offline-first GPS logger: raw GNSS points, configurable sampling, export (CSV, GPX, GeoJSON), and map overlays on OpenStreetMap.",
+      "features": {
+        "gnss": "Raw GNSS logging",
+        "export": "Export & share",
+        "map": "Map & OpenStreetMap"
+      },
+      "learnMore": "Learn more about Track Ledger →"
+    },
+    "tempoLabPro": {
+      "title": "TempoLab Pro - Tempo & Pitch",
+      "subtitle": "Tempo- und Pitch-Audio-Übung",
+      "description": "Flutter-App für Tempo- und Pitch-Audio-Übung. Tap Tempo, BPM-Erkennung, Pitch-Shift, Loop, Export.",
+      "features": {
+        "tempoPitch": "Tempo & Pitch",
+        "tapTempo": "Tap Tempo",
+        "export": "Export & Loop"
+      },
+      "learnMore": "Mehr über TempoLab Pro →",
+      "back": "Zurück zur Startseite",
+      "comingSoon": "Demnächst verfügbar",
+      "underConstruction": "Im Aufbau",
+      "underConstructionMessage": "Wir arbeiten hart daran, Ihnen etwas Großartiges zu bringen. Schauen Sie bald wieder vorbei!",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "dreambitLegacy": {
+      "gridTitle": "Legacy Dreambit (Android)",
+      "gridBadge": "Archive"
+    },
+    "appsGrid": {
+      "title": "Our Apps"
+    },
+    "faq": {
+      "title": "Common questions",
+      "items": [
+        {
+          "question": "Who is Zuki Apps?",
+          "answer": "Zuki Apps is an independent mobile software publisher. The developer is based in Israel, previously developed Android and iOS apps as part of DreamBit Apps (2012–2016), and now ships consumer apps built with Flutter for iOS and Android."
+        },
+        {
+          "question": "What is zukiapps.com?",
+          "answer": "This site is the public marketing presence for Zuki Apps: short descriptions of each app, links to the App Store and Google Play when available, support email, and links to each app’s Privacy Policy and Terms of Use. There is no user login on the website itself."
+        },
+        {
+          "question": "How do I contact Zuki Apps?",
+          "answer": "For support and general inquiries, email zuki.apps.dev@gmail.com. The same address appears on app pages and in store listings where applicable."
+        },
+        {
+          "question": "Where can I read privacy policies and terms?",
+          "answer": "Each app has its own pages: open the app’s section on this site and follow Privacy Policy and Terms of Use. EU Digital Services Act (DSA) trader information is on the DSA Compliance page. A legacy DreamBit archive is also linked from the footer."
+        },
+        {
+          "question": "Which apps are listed on this site?",
+          "answer": "The home page showcases multiple titles (for example ZuList, Hush Gallery, games, utilities, Track Ledger, Noise Meter — Shusher, Paratrooper Blitz, and others). Use the app tiles to open each product page for details and policies."
+        },
+        {
+          "question": "Is there a public API documented here?",
+          "answer": "No. This website does not document a public REST or GraphQL API for end users. Apps use their own clients on the device and normal app-store distribution."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontakt aufnehmen",
+      "description": "Haben Sie eine Frage, eine Idee oder möchten Sie einfach Kontakt aufnehmen? Ich freue mich auf Ihre Nachricht. Feedback, Funktionswünsche und Fehlermeldungen sind willkommen — ich lese alles und antworte so gut ich kann jedem.",
+      "sendEmail": "E-Mail senden",
+      "email": "zuki.apps@gmail.com",
+      "support": "Unterstützen Sie Meine Arbeit"
+    },
+    "social": {
+      "title": "Soziale Medien",
+      "description": "Alle sind eingeladen, uns in den sozialen Medien zu folgen: Neuigkeiten, App-Updates und ein einfacher Weg, in Kontakt zu bleiben. Schreiben Sie dort gern Feedback oder Wünsche — ich bemühe mich, auf E-Mails und soziale Kanäle zu antworten.",
+      "instagram": "Folgen Sie uns auf Instagram",
+      "facebook": "Folgen Sie uns auf Facebook",
+      "tiktok": "Follow us on TikTok",
+      "youtube": "Subscribe on YouTube",
+      "whatsapp": "Follow our WhatsApp channel"
+    },
+    "footer": {
+      "copyright": "© 2025 Zuki Apps - Alle Rechte vorbehalten. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
+      "tagline": "Entwickelt in Israel • Als Hobby • Mit Leidenschaft",
+      "support": "Unterstützen Sie Meine Arbeit"
+    },
+    "noiseMeterShusher": {
+      "title": "Noise Meter — Shusher",
+      "subtitle": "Real-time dB & noise scoring",
+      "description": "Measure ambient noise with timed sessions, category scoring, local history, CSV export, and charts. Ad-supported with optional Premium unlock.",
+      "features": {
+        "meter": "Live meter & scoring",
+        "history": "History & export",
+        "premium": "Premium & charts"
+      },
+      "learnMore": "Learn more about Noise Meter — Shusher →"
+    },
+    "paratrooperBlitz": {
+      "title": "Paratrooper Blitz",
+      "subtitle": "Classic arcade action",
+      "description": "Destroy aircraft and paratroopers before they reach your turret. Arcade and Classic DOS modes, scores, career ranks, leaderboards and achievements on mobile.",
+      "features": {
+        "modes": "Arcade & Classic DOS",
+        "action": "Scores & ranks",
+        "social": "Leaderboards & achievements"
+      },
+      "learnMore": "Learn more about Paratrooper Blitz →"
+    },
+    "collagio": {
+      "title": "Collagio - Foto-Collage-Ersteller",
+      "subtitle": "Verwandle 2–10 Fotos in Sekunden in eine Collage",
+      "description": "Wähle Fotos aus, wähle ein Layout, füge Filter und Zuli Monsters-Sticker hinzu, dann speichern oder teilen. Kein Konto erforderlich.",
+      "learnMore": "Mehr über Collagio erfahren →",
+      "features": {
+        "layouts": "Smarte Layouts",
+        "filters": "Filter & Sticker",
+        "private": "Kein Login"
+      }
+    }
+  },
+  "common": {
+    "language": "Sprache",
+    "back": "Zurück",
+    "home": "Startseite",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "support": "Support",
+    "contact": "Kontakt",
+    "contactUs": "Kontaktieren Sie uns",
+    "dsaCompliance": "DSA-Konformität",
+    "deleteAccount": "Delete Account"
+  },
+  "dsa": {
+    "title": "Einhaltung des Digital Services Act (DSA)",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+    "traderIdentification": {
+      "title": "Händleridentifikation",
+      "content": "Zuki Apps agiert als Händler unter dem EU Digital Services Act (DSA). Alle Anwendungen (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer) werden von Zuki Apps bereitgestellt, einem Unternehmen, das sich der Einhaltung der EU-Vorschriften verpflichtet hat."
+    },
+    "businessInfo": {
+      "title": "Geschäftsinformationen",
+      "company": "Unternehmen",
+      "companyValue": "Zuki Apps",
+      "address": "Adresse",
+      "addressValue": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "contactEmail": "Kontakt-E-Mail",
+      "contactEmailValue": "zuki.apps.dev@gmail.com",
+      "supportEmail": "Support-E-Mail",
+      "supportEmailValue": "zuki.apps@gmail.com",
+      "website": "Website",
+      "websiteValue": "https://zukiapps.com"
+    },
+    "consumerRights": {
+      "title": "Verbraucherrechte",
+      "content": "Als Händler sind wir transparenten Geschäftspraktiken und der Einhaltung der EU-Verbraucherschutzgesetze verpflichtet. Nutzer in der Europäischen Union haben spezifische Rechte, einschließlich:",
+      "items": [
+        "Recht auf klare Informationen über den Service und die Bedingungen",
+        "Recht auf Widerruf von Verträgen (14-tägige Widerrufsfrist für digitale Inhalte, vorbehaltlich des geltenden Rechts)",
+        "Recht auf Bearbeitung von Beschwerden",
+        "Recht auf Rückerstattungen (vorbehaltlich des geltenden Rechts und der Plattformrichtlinien)"
+      ]
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Für Anfragen, Beschwerden oder zur Ausübung Ihrer Verbraucherrechte kontaktieren Sie uns bitte:",
+      "email": "zuki.apps.dev@gmail.com",
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+    }
+  }
+}

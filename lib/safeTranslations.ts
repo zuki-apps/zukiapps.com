@@ -1,5 +1,11 @@
-/** Read optional i18n keys without throwing MISSING_MESSAGE in prod. */
-export function safeRaw(t: { raw: (key: string) => unknown }, key: string): unknown {
+/** Read optional i18n keys without throwing or logging MISSING_MESSAGE. */
+export function safeRaw(
+  t: { raw: (key: string) => unknown; has?: (key: string) => boolean },
+  key: string
+): unknown {
+  if (typeof t.has === 'function' && !t.has(key)) {
+    return undefined;
+  }
   try {
     return t.raw(key);
   } catch {

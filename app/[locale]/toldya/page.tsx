@@ -15,7 +15,6 @@ export default function ToldyaPage() {
   const t = useTranslations('toldya');
   const tCommon = useTranslations('common');
   const locale = useLocale();
-  const supportEmail = 'zuki.apps.dev@gmail.com';
   const pilotHighlights = (t.raw('pilot.highlights') as string[] | undefined) ?? [];
 
   return (
@@ -136,13 +135,13 @@ export default function ToldyaPage() {
               <span className="text-slate-600 hidden sm:inline" aria-hidden>
                 |
               </span>
-              <a
-                href={`mailto:${supportEmail}?subject=ToldYa!%20Support`}
+              <Link
+                href={`/${locale}/toldya/support`}
                 className="inline-flex items-center gap-1.5 text-gray-400 hover:text-emerald-400 transition-colors"
               >
                 <Mail className="w-4 h-4" aria-hidden />
                 {t('legalNav.contact')}
-              </a>
+              </Link>
             </nav>
           </div>
         </section>

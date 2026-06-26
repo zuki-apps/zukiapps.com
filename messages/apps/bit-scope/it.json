@@ -1,0 +1,390 @@
+{
+  "bitScope": {
+    "back": "Torna alla Home",
+    "hero": {
+      "badge": "Disponibile ora",
+      "title": "Bit Scope - Bit & Number Calculator",
+      "subtitle": "Ispezione e Conversione a Livello di Bit",
+      "description": "Un potente ispettore e convertitore a livello di bit per sviluppatori, ingegneri e studenti. Visualizza, manipola e converti numeri a livello di bit attraverso più sistemi numerici e formati.",
+      "structuredDataDescription": "Bit Scope — bit-level calculator for developers and students on iOS and Android. Binary, octal, decimal, hex, IEEE 754, CRC32, hashes, bit canvas, batch convert, widgets. Android com.zuki.apps.bitscope by Zuki Apps."
+    },
+    "features": {
+      "title": "Caratteristiche Principali",
+      "bitEditor": {
+        "title": "Editor di Bit Interattivo",
+        "description": "Griglia di bit visiva con funzionalità di toggle per manipolazione diretta dei bit",
+        "items": [
+          "Visualizzazione griglia di bit",
+          "Attiva/disattiva bit singoli",
+          "Modal editor bit a schermo intero",
+          "Anteprima bit in tempo reale"
+        ]
+      },
+      "formats": {
+        "title": "Formati Numerici Multipli",
+        "description": "Supporto per vari formati interi e a virgola mobile",
+        "items": [
+          "Interi 8-bit, 16-bit, 32-bit, 64-bit",
+          "Float16 (mezza precisione)",
+          "Float32 (precisione singola)",
+          "Float64 (doppia precisione) con IEEE 754"
+        ]
+      },
+      "bases": {
+        "title": "Supporto Basi Numeriche",
+        "description": "Input e visualizzazione in più basi numeriche",
+        "items": [
+          "Binario (BIN)",
+          "Ottale (OCT)",
+          "Decimale (DEC)",
+          "Esadecimale (HEX)"
+        ]
+      },
+      "bitwise": {
+        "title": "Operazioni Bitwise",
+        "description": "Esegui operazioni bitwise con un secondo operando",
+        "items": [
+          "Operazione AND",
+          "Operazione OR",
+          "Operazione XOR",
+          "Operazione NOT"
+        ]
+      },
+      "ieee754": {
+        "title": "Scomposizione IEEE 754",
+        "description": "Rappresentazione visiva dei componenti a virgola mobile",
+        "items": [
+          "Visualizzazione bit segno",
+          "Scomposizione esponente",
+          "Rappresentazione mantissa",
+          "Conformità standard IEEE 754"
+        ]
+      },
+      "advanced": {
+        "title": "Opzioni Avanzate",
+        "description": "Opzioni di configurazione complete",
+        "items": [
+          "Modalità con/senza segno",
+          "Big Endian / Little Endian",
+          "Ordine bit MSB / LSB",
+          "Conversione in tempo reale"
+        ]
+      }
+    },
+    "status": {
+      "title": "🚧 In Sviluppo",
+      "description": "L'app è attualmente in sviluppo",
+      "version": "Versione",
+      "status": "Stato",
+      "versionValue": "1.0.2+6",
+      "statusValue": "Disponibile"
+    },
+    "download": {
+      "title": "Prossimamente",
+      "description": "Bit Scope sarà presto disponibile negli store di app",
+      "soon": "Disponibile presto",
+      "appStoreUrl": "https://apps.apple.com/il/app/bit-scope-converter/id6759933934",
+      "appStoreAlt": "Scarica su App Store",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.bitscope",
+      "googlePlayAlt": "Scarica su Google Play"
+    },
+    "links": {
+      "title": "Link Importanti",
+      "support": {
+        "title": "Supporto Tecnico",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Scarica su Google Play",
+        "description": "Ottieni Bit Scope da Google Play Store"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "What number formats does Bit Scope support?",
+          "answer": "Bit Scope supports 8-bit, 16-bit, 32-bit, and 64-bit integers, as well as Float16, Float32, and Float64 floating-point formats with full IEEE 754 compliance."
+        },
+        "q2": {
+          "question": "Can I perform bitwise operations?",
+          "answer": "Yes! Bit Scope supports AND, OR, XOR, and NOT bitwise operations. You can use a second operand (B) to perform operations with your primary value (A)."
+        },
+        "q3": {
+          "question": "What number bases are supported?",
+          "answer": "Bit Scope supports Binary (BIN), Octal (OCT), Decimal (DEC), and Hexadecimal (HEX) number bases. You can input and display values in any of these bases with real-time conversion."
+        },
+        "q4": {
+          "question": "Does Bit Scope work offline?",
+          "answer": "Yes! Bit Scope works completely offline. No internet connection is required. All calculations are performed locally on your device using BigInt for integers and IEEE 754 standards for floating-point numbers."
+        },
+        "q5": {
+          "question": "What is the IEEE 754 breakdown feature?",
+          "answer": "The IEEE 754 breakdown provides a visual representation of floating-point number components, showing the sign bit, exponent, and mantissa separately. This is helpful for understanding how floating-point numbers are stored and represented."
+        },
+        "q6": {
+          "question": "Can I change endianness and bit order?",
+          "answer": "Yes! Bit Scope allows you to switch between Big Endian (BE) and Little Endian (LE) byte ordering, as well as choose between MSB (Most Significant Bit) and LSB (Least Significant Bit) bit order for display."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Bit Scope - Tutti i diritti riservati",
+      "tagline": "Parte di Zuki Apps • Sviluppatore da Israele • Fatto con ❤️"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using Bit Scope. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Bit Scope (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a bit-level calculator and number converter application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Bit Scope is a mobile application that provides bit-level number inspection and conversion functionality. The Service includes:",
+        "items": [
+          "Interactive bit editor with visual bit grid",
+          "Multiple number format support (8-bit, 16-bit, 32-bit, 64-bit integers and Float16, Float32, Float64)",
+          "Number base conversion (Binary, Octal, Decimal, Hexadecimal)",
+          "Bitwise operations (AND, OR, XOR, NOT)",
+          "IEEE 754 floating-point breakdown",
+          "Endianness and bit order configuration",
+          "Real-time conversion between formats and bases"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Bit Scope is designed with privacy in mind. We collect minimal information necessary to provide the service. The app works fully offline and stores all data locally on your device."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services. All calculations and conversions are performed locally on your device and are not transmitted to our servers."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties. Your calculation data remains on your device and is only accessible to you."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures to protect your information. All data is stored locally on your device in the app's private directory, which is not accessible by other apps."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You have the right to access, update, or delete your data at any time. You may also uninstall the app at any time, which will remove all locally stored data."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to use",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens from Bit Scope - Bit & Number Calculator.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "calculator",
+          "title": "Calculator",
+          "description": "Convert and inspect values across number bases and bit widths.",
+          "image": "/images/bit-scope/screenshot-calculator.png",
+          "alt": "Calculator — bit scope",
+          "category": "features"
+        },
+        {
+          "id": "canvas",
+          "title": "Bit canvas",
+          "description": "Flip bits on a live canvas and copy results in one tap.",
+          "image": "/images/bit-scope/screenshot-canvas.png",
+          "alt": "Bit canvas — bit scope",
+          "category": "features"
+        },
+        {
+          "id": "converters",
+          "title": "Converters",
+          "description": "IEEE 754, CRC, hash, and more engineering utilities.",
+          "image": "/images/bit-scope/screenshot-converters.png",
+          "alt": "Converters — bit scope",
+          "category": "features"
+        },
+        {
+          "id": "utilities",
+          "title": "Utilities",
+          "description": "Premium tools for power users — one-time unlock.",
+          "image": "/images/bit-scope/screenshot-utilities.png",
+          "alt": "Utilities — bit scope",
+          "category": "features"
+        },
+        {
+          "id": "widgets",
+          "title": "Widgets",
+          "description": "Home-screen widgets for quick conversions.",
+          "image": "/images/bit-scope/screenshot-widgets.png",
+          "alt": "Widgets — bit scope",
+          "category": "features"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How to use",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Pick a format",
+          "description": "Choose binary, octal, decimal, or hex and your bit width."
+        },
+        {
+          "number": "2",
+          "title": "Enter a value",
+          "description": "Type or paste — results update instantly across representations."
+        },
+        {
+          "number": "3",
+          "title": "Use the canvas",
+          "description": "Tap bits to flip them and see the value change live."
+        },
+        {
+          "number": "4",
+          "title": "Copy or export",
+          "description": "One-tap copy, history, and batch convert when you need more."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers about features, privacy, and billing.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is Bit Scope?",
+          "answer": "Bit Scope is a bit-level calculator and converter for developers. It converts between binary, octal, decimal, and hex; supports IEEE 754 floats; includes bitwise operations; and bundles converters and (with Premium) utilities like CRC and hash."
+        },
+        {
+          "question": "Is Bit Scope free?",
+          "answer": "Yes. The calculator, bitwise tools, converters, history, and learning examples are free. Premium is a one-time purchase that removes ads and unlocks the Utilities tab."
+        },
+        {
+          "question": "Is Premium a subscription?",
+          "answer": "No. Premium is a one-time in-app purchase. Future Premium-only tools are included without a recurring fee."
+        },
+        {
+          "question": "Which platforms are supported?",
+          "answer": "iPhone and iPad (iOS). Android availability follows your Google Play listing. See store links on [zukiapps.com/bit-scope](https://zukiapps.com/bit-scope)."
+        },
+        {
+          "question": "What languages are supported?",
+          "answer": "12 base languages with regional variants (e.g. en-US, pt-BR, zh-Hans). Hebrew and Arabic include full RTL layout."
+        },
+        {
+          "question": "How do I open the bit canvas?",
+          "answer": "On the Calculator tab, open the bit grid preview or modal (tap the grid / bit visualization control). Tap any bit to toggle it; values update across all representations."
+        },
+        {
+          "question": "What is MSB vs LSB bit order?",
+          "answer": "MSB lists bits from most significant to least. LSB reverses the visual order. Choose the view that matches your datasheet or protocol diagram."
+        },
+        {
+          "question": "What endianness settings do?",
+          "answer": "Big-endian stores the most significant byte first; little-endian stores the least significant byte first. Bit Scope shows how your integer maps to bytes for each mode."
+        },
+        {
+          "question": "Can I use custom bit widths?",
+          "answer": "Yes. Select a preset (8, 16, 32, 64) or enter a custom width (within app limits) for masks and registers that are not power-of-two aligned."
+        },
+        {
+          "question": "How does copy work?",
+          "answer": "Tap the copy icon on a result card or tool output. Text is copied without extra spaces (e.g. binary groups may be stripped per field). A checkmark confirms success."
+        },
+        {
+          "question": "Which tools are free vs Premium?",
+          "answer": "Free: Base64, color picker, timestamp, value comparator, batch converter—and all calculator features. Premium: CRC, hash, ASCII/Unicode viewer, QR generator, hex dump—and adding utility tools to custom widgets."
+        },
+        {
+          "question": "Why does CRC say input is too large?",
+          "answer": "Very large inputs can exceed safe calculation limits on device. Shorten the input or split the data block. Bit Scope shows a clear message instead of failing silently."
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get more from the app.",
+      "items": [
+        {
+          "title": "Calculator",
+          "description": "1. Set width before paste — Pasting `0xFFFF` into 16-bit mode behaves differently than 32-bit. 2. Endian toggle for protocol bugs — Flip BE/LE when a register looks “byte-swapped”. 3. Gray code — Use for encoder / rotary sensor homework or validation. 4. Float switch — Jump INT → F32 to decode IEEE 754 from the same bit pattern. 5. History export — Snapshot a debug session before clearing the chip"
+        },
+        {
+          "title": "Bit canvas",
+          "description": "6. Tap don't type — Mask tweaks (set bit 7) are faster on the grid than hex math. 7. Sign bit first — In signed 8-bit, bit 7 is your quick sanity check for negatives."
+        },
+        {
+          "title": "Copy workflow",
+          "description": "8. Checkmark = shipped — Wait for the icon before switching apps. 9. Paste once — Verify hex has no stray spaces before `gcc` or `xxd`."
+        },
+        {
+          "title": "Converters",
+          "description": "10. RAL colors — Firmware UI teams: match enclosure paint chips to RGB for docs. 11. Timestamp now — Tap current-time shortcut (if shown) for log correlation. 12. Comparator — Diff two hex constants side by side before merging branches."
+        },
+        {
+          "title": "Utilities (Premium)",
+          "description": "13. CRC test vectors — Keep `123456789` and `Hello` strings as mental benchmarks. 14. Hex dump import — Paste a snippet from `xxd` to inspect structure. 15. QR for Wi-Fi or URL — Field provisioning without a laptop."
+        },
+        {
+          "title": "Widgets & layout",
+          "description": "16. Three-tool board — Calculator tab + Widgets with Timestamp + Base64 covers 80% of bring-up. 17. iPad rail — Landscape uses side navigation—more vertical space for hex dump."
+        },
+        {
+          "title": "Settings",
+          "description": "18. Dark theme default — Easier on eyes during late firmware sessions; light for outdoor. 19. Language per device — System language vs in-app override for bilingual teams. 20. Learn tab — Send interns to Settings → Learn before asking about two's complement."
+        },
+        {
+          "title": "Premium",
+          "description": "21. One purchase — Restore on new phone before rebuying. 22. Future tools — Premium includes utilities we add later—no upsell tier. --- *Have a tip we should add? zuki.apps.dev@gmail.com*"
+        }
+      ]
+    }
+  }
+}

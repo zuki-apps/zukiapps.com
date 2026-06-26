@@ -12,6 +12,7 @@ const ACCENT: Record<string, string> = {
   cyan: 'border-cyan-500/50 hover:shadow-cyan-500/50',
   amber: 'border-amber-500/50 hover:shadow-amber-500/50',
   emerald: 'border-emerald-500/50 hover:shadow-emerald-500/50',
+  rose: 'border-rose-500/50 hover:shadow-rose-500/50',
 };
 
 export type DownloadStoreFabAccent = keyof typeof ACCENT;

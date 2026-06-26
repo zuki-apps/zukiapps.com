@@ -1,12 +1,23 @@
 #!/usr/bin/env bash
-# Wipe and re-copy Collagio marketing screenshots into public/images/collagio
+# Copy Collagio marketing screenshots → public/images/collagio/
+# Prefer raw/device captures (unique real screens); resize to 640w for the web gallery.
 set -euo pipefail
 COLLAGIO="${COLLAGIO_REPO:-/Users/zukman/GIT/Collagio}"
 SRC="$COLLAGIO/marketing/screenshots"
+DEVICE="$SRC/raw/device"
 DST="$(cd "$(dirname "$0")/.." && pwd)/public/images/collagio"
 
 mkdir -p "$DST"
-rm -f "$DST"/*
+
+resize640() {
+  local from="$1" to="$2"
+  if [[ ! -f "$from" ]]; then
+    echo "skip (missing): $from" >&2
+    return 0
+  fi
+  sips -Z 640 "$from" --out "$DST/$to" >/dev/null
+  echo "  $to (640w)"
+}
 
 copy() {
   local from="$1" to="$2"
@@ -18,29 +29,20 @@ copy() {
   echo "  $to"
 }
 
-echo "Hero / web strip:"
+echo "Gallery screenshots (device captures):"
+resize640 "$DEVICE/01-home.png" screenshot-home.png
+resize640 "$DEVICE/02-picker.png" screenshot-picker.png
+resize640 "$DEVICE/05-editor-stickers.png" screenshot-stickers.png
+resize640 "$DEVICE/06-stickers-share.png" screenshot-stickers-share.png
+resize640 "$DEVICE/07-export.png" screenshot-export.png
+resize640 "$DEVICE/08-layout-studio.png" screenshot-layout-studio.png
+resize640 "$DEVICE/collage-export.png" screenshot-collage-result.png
+
+echo "Hero:"
 copy "$SRC/web/hero-phone-900w.png" hero-phone.png
-copy "$SRC/web/feature-editor-640w.png" hero-editor.png
-copy "$SRC/web/feature-export-640w.png" hero-export.png
-copy "$SRC/web/feature-collage-result-640w.png" hero-collage-result.png
-copy "$SRC/web/feature-layout-studio-640w.png" hero-layout-studio.png
-copy "$SRC/web/feature-text-640w.png" hero-text.png
 
-echo "App Store frames:"
-copy "$SRC/app-store/01_home.png" screenshot-home.png
-copy "$SRC/app-store/02_picker_layouts.png" screenshot-picker.png
-copy "$SRC/app-store/03_editor.png" screenshot-editor.png
-copy "$SRC/app-store/05_editor_stickers.png" screenshot-stickers.png
-copy "$SRC/app-store/06_stickers_share.png" screenshot-stickers-share.png
-copy "$SRC/app-store/07_export.png" screenshot-export.png
-copy "$SRC/app-store/08_layout_studio.png" screenshot-layout-studio.png
-
-echo "Device captures (optional real-device refs):"
-copy "$SRC/raw/device/collage-export.png" device-collage-export.png
-
-echo "Social / OG:"
-OG_DST="$(cd "$(dirname "$0")/.." && pwd)/public/images/collagio"
-copy "$SRC/social/og-1200x630.jpg" og-1200x630.jpg
+# Drop legacy duplicate if present
+rm -f "$DST/screenshot-editor.png"
 
 echo "Done → $DST"
-ls -la "$DST"
+ls -lh "$DST"

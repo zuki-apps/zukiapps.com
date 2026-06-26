@@ -37,8 +37,8 @@ const FEATURE_ICONS = {
 export default function CollagioPage() {
   const t = useTranslations('collagio');
   const tCommon = useTranslations('common');
-  const tHome = useTranslations('home');
   const locale = useLocale();
+  const rtl = locale === 'he' || locale === 'ar';
   const featureKeys = Object.keys(FEATURE_ICONS) as Array<keyof typeof FEATURE_ICONS>;
   const freeItems = (t.raw('premium.freeItems') as string[] | undefined) ?? [];
   const premiumItems = (t.raw('premium.premiumItems') as string[] | undefined) ?? [];
@@ -65,8 +65,8 @@ export default function CollagioPage() {
           </Link>
         </div>
 
-        <section className="py-12 px-4 relative z-10">
-          <div className="max-w-7xl mx-auto text-center">
+        <section className={`py-12 px-4 relative z-10 ${rtl ? 'text-right' : 'text-center'}`}>
+          <div className={`max-w-7xl mx-auto ${rtl ? '' : 'text-center'}`}>
             <div className="mb-8">
               <AppIconFrame
                 src={COLLAGIO_ICON}
@@ -84,15 +84,17 @@ export default function CollagioPage() {
               {t('hero.badge')}
             </div>
             <h1
-              className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-rose-400 via-red-300 to-rose-500 bg-clip-text text-transparent"
+              className={`text-5xl md:text-6xl font-black mb-3 bg-gradient-to-r from-rose-400 via-red-300 to-rose-500 bg-clip-text text-transparent ${rtl ? 'text-right' : 'text-center'}`}
               style={{ filter: 'drop-shadow(0 0 8px rgba(244, 63, 94, 0.5))' }}
             >
               {t('hero.title')}
             </h1>
-            <p className="text-xl md:text-2xl mb-4 text-gray-300 max-w-3xl mx-auto">{t('hero.subtitle')}</p>
-            <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto">{t('hero.description')}</p>
-            <p className="text-sm text-rose-300/90 mb-8">{t('hero.socialProof')}</p>
-            <div className="flex justify-center gap-4 text-sm flex-wrap mb-6">
+            <p className={`text-lg md:text-xl text-rose-300/90 mb-4 max-w-3xl ${rtl ? 'mr-0 ml-auto' : 'mx-auto'}`}>
+              {t.has('hero.productName') ? t('hero.productName') : t('hero.subtitle')}
+            </p>
+            <p className={`text-lg text-gray-400 mb-4 max-w-3xl ${rtl ? 'mr-0 ml-auto' : 'mx-auto'}`}>{t('hero.description')}</p>
+            <p className={`text-sm text-rose-300/90 mb-8 max-w-3xl ${rtl ? 'mr-0 ml-auto' : 'mx-auto'}`}>{t('hero.socialProof')}</p>
+            <div className={`flex gap-4 text-sm flex-wrap mb-6 ${rtl ? 'justify-end' : 'justify-center'}`}>
               <Link href={`/${locale}/collagio/privacy`} className="text-rose-400 hover:text-rose-300 underline">
                 {tCommon('privacyPolicy')}
               </Link>
@@ -115,30 +117,18 @@ export default function CollagioPage() {
                 utmContent="collagio"
               />
             </div>
-          </div>
-        </section>
-
-        <section className="py-8 px-4 relative z-10" aria-label="App screenshots preview">
-          <div className="max-w-6xl mx-auto flex gap-4 md:gap-6 overflow-x-auto pb-2 justify-center items-end snap-x snap-mandatory">
-            {[
-              { src: '/images/collagio/hero-phone.png', alt: 'Collagio home screen' },
-              { src: '/images/collagio/hero-editor.png', alt: 'Collagio collage editor' },
-              { src: '/images/collagio/hero-export.png', alt: 'Collagio export and share' },
-            ].map((shot) => (
-              <figure
-                key={shot.src}
-                className="flex-shrink-0 w-[220px] md:w-[280px] snap-center rounded-2xl overflow-hidden border border-rose-600/30 shadow-xl bg-slate-950/80"
-              >
-                <Image
-                  src={shot.src}
-                  alt={shot.alt}
-                  width={900}
-                  height={1800}
-                  className="w-full h-auto block"
-                  loading="lazy"
-                />
-              </figure>
-            ))}
+            <div className={`flex justify-center ${rtl ? '' : ''}`}>
+              <Image
+                src="/images/collagio/hero-phone.png"
+                alt={t('hero.phoneAlt')}
+                width={900}
+                height={1800}
+                unoptimized
+                sizes="(max-width: 768px) 220px, 280px"
+                className="max-w-[220px] md:max-w-[280px] h-auto rounded-2xl shadow-2xl border border-rose-500/20"
+                priority
+              />
+            </div>
           </div>
         </section>
 
@@ -169,6 +159,8 @@ export default function CollagioPage() {
             </div>
           </div>
         </section>
+
+        <ProductMarketingSections namespace="collagio" slug="collagio" accent="rose" hasSupportPage />
 
         <section className="py-12 px-4 relative z-10" id="zuli-monsters">
           <div className="max-w-4xl mx-auto">
@@ -229,9 +221,7 @@ export default function CollagioPage() {
           </div>
         </section>
 
-        <ProductMarketingSections namespace="collagio" slug="collagio" accent="rose" hasSupportPage />
-
-        <section className="py-12 px-4 relative z-10">
+        <section className="py-12 px-4 relative z-10" id="status">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-rose-500/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
               <h2 className="text-3xl font-bold mb-4 text-white">{t('status.title')}</h2>
@@ -329,7 +319,7 @@ export default function CollagioPage() {
         </footer>
 
         <DownloadStoreFab
-          accent="orange"
+          accent="rose"
           appStoreUrl={t('download.appStoreUrl')}
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}

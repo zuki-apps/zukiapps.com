@@ -21,7 +21,8 @@ export async function generateMetadata({
 
   const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'collagio' });
-  const title = `${t('hero.title')} — ${t('hero.subtitle')} | Zuki Apps`;
+  const productName = t.has('hero.productName') ? t('hero.productName') : t('hero.subtitle');
+  const title = `${productName} | Zuki Apps`;
   const description = t('hero.structuredDataDescription');
   const logoUrl = `${baseUrl}${COLLAGIO_ICON}`;
 
@@ -38,7 +39,6 @@ export async function generateMetadata({
       'WhatsApp stickers',
       'Zuli Monsters',
       'Zuki Apps',
-      'Flutter',
       'iOS',
       'Android',
       'com.zuki.apps.collagio',
@@ -57,7 +57,7 @@ export async function generateMetadata({
       images: [{ url: logoUrl, width: 512, height: 512, alt: 'Collagio app icon' }],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title,
       description,
       creator: '@zuki_apps',

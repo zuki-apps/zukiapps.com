@@ -1,0 +1,313 @@
+{
+  "toldya": {
+    "hero": {
+      "title": "ToldYa!",
+      "subtitle": "Told you so! Prove it.",
+      "description": "ToldYa! is an invite-only social network built around predictions — follow people, vote in the Arena, build a reputation score, and celebrate when you were right.",
+      "structuredDataDescription": "ToldYa! — invite-only social network for predictions, voting, comments, and reputation. iOS and Android by Zuki Apps."
+    },
+    "back": "Back to Home",
+    "legalNav": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "deleteAccount": "Delete Account",
+      "contact": "Contact Support",
+      "childSafety": "Child Safety Standards"
+    },
+    "download": {
+      "appStoreUrl": "https://apps.apple.com/app/id6756342206",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.toldya",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) processes personal data when you use the ToldYa! mobile application and related pages at zukiapps.com/toldya (the “Service”). ToldYa! is a social network centered on user-generated predictions, voting, comments, and messaging.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller for ToldYa! is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the ToldYa! app (iOS and Android) and the legal pages we publish for the product. It does not cover third-party websites or app stores, which have their own policies."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "We collect information you provide and information generated when you use the Service:",
+        "items": [
+          "Account data: email address, username, display name, password (stored in hashed form by our authentication provider), optional profile bio and avatar image, language preference, and invitation-related metadata.",
+          "Social & content data: predictions (text, category, target dates, status), votes, likes, comments, retweets/shares, follower relationships, reputation or category scores, and direct messages you send or receive.",
+          "Media: photos or videos you attach to predictions, if you choose to upload them.",
+          "Device & usage data: device type, operating system, app version, push notification tokens (if you enable notifications), IP-derived region (where available), crash logs, and analytics events via Google Firebase Analytics and Crashlytics.",
+          "Support & safety: information you send when contacting support or reporting content or users.",
+          "Communications metadata: timestamps and delivery status for notifications and messages."
+        ]
+      },
+      "section3": {
+        "title": "3. How we use your information",
+        "content": "We use personal data to provide and secure the social network, including:",
+        "items": [
+          "Create and manage your account, invitation access, and profile",
+          "Display feeds, Arena views, voting results, comments, and notifications",
+          "Operate follower features, search, and reputation scoring",
+          "Send push or in-app notifications you have enabled",
+          "Detect abuse, enforce our Terms, and respond to reports",
+          "Maintain reliability, debug crashes, and improve the Service",
+          "Comply with law and respond to lawful requests"
+        ],
+        "content2": "We do not sell your personal information. We do not use your data for third-party advertising profiles in the current version of the app."
+      },
+      "section4": {
+        "title": "4. Legal bases (where applicable)",
+        "content": "Depending on your location, we rely on: performance of a contract (providing the Service you request); legitimate interests (security, fraud prevention, product improvement, and community safety, balanced against your rights); consent (e.g. optional notifications or permissions you grant on device); and legal obligation (records we must keep)."
+      },
+      "section5": {
+        "title": "5. How we share information",
+        "content": "Other members of the community can see your public profile (username, display name, avatar, bio, scores, and public predictions and interactions) according to product design. We do not display your email address to other users.",
+        "content2": "We use service providers that process data on our behalf, including Google Firebase (authentication, cloud database, file storage, analytics, crash reporting, and hosting as configured in our project). These providers act under contractual terms appropriate to their role. We may disclose information if required by law, to protect users and the public, or in connection with a merger or asset sale, with notice where required."
+      },
+      "section6": {
+        "title": "6. User-generated content & moderation",
+        "content": "Predictions, comments, messages, and media are user-generated. We may review, remove, or restrict content and accounts that violate our Terms or applicable law. Removed content may remain in backups for a limited period before deletion."
+      },
+      "section7": {
+        "title": "7. Retention",
+        "content": "We keep personal data while your account is active and as needed to operate the Service. After account deletion, we delete or anonymize profile and content data within a reasonable period (typically within 30 days), except where we must retain limited records for legal, security, or dispute purposes."
+      },
+      "section8": {
+        "title": "8. Account deletion",
+        "content": "You can delete your account in the app (Settings → Delete account) or by following the instructions on our Delete Account page. Deletion is permanent and removes your profile, predictions, votes, comments, and messages from the live Service, subject to backup and legal retention described above.",
+        "content2": "See: https://zukiapps.com/toldya/delete-account"
+      },
+      "section9": {
+        "title": "9. Your rights",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, restrict, or object to certain processing, and to data portability. You may withdraw consent where processing is consent-based. To exercise rights, contact us using the details below; we may need to verify your identity.",
+        "content2": "Users in the EU/EEA, UK, and Israel may also lodge a complaint with a supervisory authority. California residents may have additional rights under applicable state law; contact us to submit a request."
+      },
+      "section10": {
+        "title": "10. Security",
+        "content": "We implement technical and organizational measures appropriate to a consumer social application (access controls, encrypted transport, and provider security features). No system is completely secure; use a strong password and protect your device."
+      },
+      "section11": {
+        "title": "11. International transfers",
+        "content": "Data may be processed in countries where we or our providers operate (including the United States and regions used by Google Cloud/Firebase). Where required, we rely on appropriate safeguards such as standard contractual clauses or equivalent mechanisms."
+      },
+      "section12": {
+        "title": "12. Children",
+        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). We do not knowingly collect personal data from children. If you believe a child has provided data, contact us and we will delete it."
+      },
+      "section13": {
+        "title": "13. Changes to this Policy",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new “Last updated” date. Material changes may be notified in-app or by email where appropriate. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy or your data:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "These Terms of Use (“Terms”) govern your access to ToldYa! (“Service”, “app”), an invite-only social network operated by Zuki Apps. By creating an account or using the Service, you agree to these Terms and our Privacy Policy. If you do not agree, do not use the Service.",
+      "section1": {
+        "title": "1. Acceptance",
+        "content": "You must be legally able to enter a binding agreement in your jurisdiction. If you use the Service on behalf of an organization, you represent that you have authority to bind that organization.",
+        "content2": "We may update these Terms. We will post the updated version with a new “Last updated” date. Material changes may be communicated in-app. Continued use after changes take effect constitutes acceptance."
+      },
+      "section2": {
+        "title": "2. The Service",
+        "content": "ToldYa! is a social network where members post time-bound predictions, vote on others’ predictions, comment, follow users, send direct messages, and build reputation scores by category. The Service is for entertainment, opinion, and community discussion only.",
+        "content2": "There is no real-money wagering, betting, prizes with monetary value, or virtual currency redeemable for money. Predictions are not financial, legal, or professional advice."
+      },
+      "section3": {
+        "title": "3. Accounts & invitations",
+        "content": "Access currently requires a valid invitation code. You must provide accurate registration information and keep your credentials confidential. You are responsible for all activity under your account.",
+        "content2": "You may not share, sell, or publicly distribute invitation codes in a way that circumvents our access controls. We may refuse registration, reclaim usernames, or close accounts at our discretion."
+      },
+      "section4": {
+        "title": "4. Your responsibilities",
+        "content": "As a member of a community social network, you agree to:",
+        "items": [
+          "Treat other users with respect and comply with applicable laws",
+          "Post only content you have the right to share and that is appropriate for a general-audience social app",
+          "Use your real identity only as permitted by the product (no impersonation or deceptive profiles)",
+          "Not scrape, reverse engineer, or overload the Service without permission",
+          "Not manipulate votes, rankings, or reputation through bots, coordinated inauthentic behavior, or exploits",
+          "Report content or users you believe violate these Terms"
+        ]
+      },
+      "section5": {
+        "title": "5. Community standards — prohibited content",
+        "content": "You may not post, upload, transmit, or link to content that includes or promotes:",
+        "items": [
+          "Nudity, pornography, sexually explicit material, or solicitation of sexual services",
+          "Sexual content involving minors or any exploitation of minors (zero tolerance; we report to authorities where required)",
+          "Graphic violence, gore, or content primarily intended to shock or glorify violence",
+          "Threats, harassment, bullying, stalking, or hate speech targeting individuals or groups",
+          "Illegal activity, fraud, or instructions to cause harm",
+          "Self-harm or suicide promotion (if you are in crisis, seek local emergency or crisis services)",
+          "Spam, malware, phishing, or deceptive schemes",
+          "Personal data of others without their consent (doxxing)",
+          "Intellectual property you do not have rights to use"
+        ],
+        "content2": "We may remove content and suspend or terminate accounts without prior notice for violations."
+      },
+      "section6": {
+        "title": "6. Additional prohibited conduct",
+        "content": "You also must not:",
+        "items": [
+          "Use the Service if you are barred under applicable law",
+          "Circumvent security, invitation, or rate limits",
+          "Create multiple accounts to evade enforcement",
+          "Use automated means to access the Service except through features we expressly provide",
+          "Collect other users’ data for marketing or harassment"
+        ]
+      },
+      "section7": {
+        "title": "7. Your content & license",
+        "content": "You retain ownership of content you submit. You grant Zuki Apps a worldwide, non-exclusive, royalty-free license to host, store, reproduce, display, distribute, and adapt your content as needed to operate, promote, and improve the Service (including showing it to other users and in feeds).",
+        "content2": "You represent that your content does not violate these Terms or third-party rights. You may delete your predictions where the product allows; deletion of your account removes associated content as described in our Privacy Policy."
+      },
+      "section8": {
+        "title": "8. Moderation & enforcement",
+        "content": "We may (but are not obligated to) monitor, filter, or review content. We may remove content, limit features, suspend, or permanently terminate accounts. Enforcement decisions are at our sole discretion to protect the community and comply with law.",
+        "content2": "If you believe content or an account violates these Terms, use in-app reporting where available or contact support."
+      },
+      "section9": {
+        "title": "9. Voting & predictions disclaimer",
+        "content": "Votes and comments reflect community opinion, not facts verified by us. We do not guarantee accuracy of predictions or outcomes. You use others’ content at your own risk."
+      },
+      "section10": {
+        "title": "10. Privacy",
+        "content": "Our Privacy Policy explains how we collect and use personal data, including account deletion. It is incorporated into these Terms by reference."
+      },
+      "section11": {
+        "title": "11. Termination & account deletion",
+        "content": "You may stop using the Service at any time and delete your account in Settings or via our Delete Account page. We may suspend or terminate your access for any violation of these Terms or for risk to users or the Service.",
+        "content2": "Upon termination, licenses you granted survive only as needed for legal compliance and backup deletion cycles."
+      },
+      "section12": {
+        "title": "12. Disclaimers & limitation of liability",
+        "content": "THE SERVICE IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY LAW. WE DISCLAIM IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
+        "content2": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, ZUKI APPS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOSS OF PROFITS, DATA, OR GOODWILL, ARISING FROM YOUR USE OF THE SERVICE. OUR TOTAL LIABILITY FOR ANY CLAIM RELATING TO THE SERVICE IS LIMITED TO THE GREATER OF USD $50 OR THE AMOUNT YOU PAID US IN THE TWELVE MONTHS BEFORE THE CLAIM (TYPICALLY ZERO FOR THE FREE APP)."
+      },
+      "section13": {
+        "title": "13. Governing law",
+        "content": "These Terms are governed by the laws of the State of Israel, without regard to conflict-of-law rules, except where mandatory consumer protections in your country require otherwise. Courts in Israel shall have exclusive jurisdiction where permitted, subject to mandatory local rights."
+      },
+      "section19": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "deleteAccount": {
+      "title": "Delete your ToldYa! account",
+      "intro": "You can permanently delete your ToldYa! account and associated personal data. This action cannot be undone.",
+      "warning": {
+        "title": "Important",
+        "content": "Deleting your account removes your profile, predictions, votes, comments, direct messages, follower relationships, and reputation data from the live Service. Some information may remain in encrypted backups for a limited time before automatic deletion, or where we must retain records by law."
+      },
+      "steps": {
+        "title": "Delete in the app (recommended)",
+        "step1": "Open ToldYa! and sign in",
+        "step2": "Go to Settings (profile / gear menu)",
+        "step3": "Choose Delete account (or Account → Delete account)",
+        "step4": "Read the confirmation carefully and confirm deletion",
+        "step5": "You will be signed out and your account will be scheduled for removal"
+      },
+      "stepsEmail": {
+        "title": "Cannot access the app?",
+        "content": "Email zuki.apps.dev@gmail.com from the address linked to your account with the subject “Delete my ToldYa account”. Include your username so we can verify ownership. We may ask for additional verification before processing the request."
+      },
+      "data": {
+        "title": "Data removed",
+        "intro": "After successful deletion, we delete or anonymize, among other things:",
+        "item1": "Account credentials and profile (email, username, display name, bio, avatar)",
+        "item2": "Predictions, votes, comments, likes, and retweets",
+        "item3": "Direct messages and notification history tied to your account",
+        "item4": "Follower / following relationships and category scores",
+        "item5": "Push notification tokens for your devices"
+      },
+      "retention": {
+        "title": "Retention",
+        "content": "We aim to complete deletion from primary systems within 30 days. Limited logs or backups may persist briefly for security and disaster recovery, then expire according to our retention schedule."
+      },
+      "contact": {
+        "title": "Questions",
+        "content": "For help with deletion or privacy requests:",
+        "email": "zuki.apps.dev@gmail.com",
+        "privacyLink": "Privacy Policy",
+        "termsLink": "Terms of Use"
+      }
+    },
+    "childSafety": {
+      "title": "Child Safety Standards",
+      "lastUpdated": "Last updated: May 2026",
+      "intro": "ToldYa! is an invite-only social network operated by Zuki Apps. We maintain zero tolerance for child sexual abuse and exploitation (CSAE). This page describes our published standards, in-app reporting, moderation practices, and how to contact us regarding child safety.",
+      "section1": {
+        "title": "1. Zero tolerance",
+        "content": "We prohibit any content or conduct that sexually exploits, endangers, or otherwise harms children. Accounts involved in CSAE may be removed immediately and permanently. Where required by law, we report to regional and national authorities and cooperate with law enforcement."
+      },
+      "section2": {
+        "title": "2. Standards against CSAE",
+        "content": "The following are prohibited on ToldYa! and may result in account termination and referral to authorities:",
+        "items": [
+          "Child sexual abuse material (CSAM) in any form, including real, synthetic, or illustrated sexual content depicting minors",
+          "Sexualization of minors, grooming, or solicitation of minors",
+          "Content that facilitates exploitation or trafficking of children",
+          "Accounts that misrepresent age to contact or exploit minors",
+          "Links or instructions to obtain CSAM or to harm children"
+        ],
+        "content2": "These rules are also reflected in our Terms of Use. We use a combination of automated signals, user reports, and human review to enforce them."
+      },
+      "section3": {
+        "title": "3. Age requirement",
+        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). Registration requires an invitation code and is intended for adults and teens who meet the minimum age. We may suspend accounts we believe belong to underage users."
+      },
+      "section4": {
+        "title": "4. In-app reporting",
+        "content": "Users can report child safety concerns in the app. Reporting options are available on predictions, comments, profiles, and messages (where the product provides a report or flag control). Reports are routed to our moderation queue and prioritized when they involve potential harm to minors.",
+        "content2": "When reporting, choose the category that best describes the issue and add any helpful context. You may also block users to prevent further contact."
+      },
+      "section5": {
+        "title": "5. Moderation & response",
+        "content": "We review child-safety reports as a priority. Confirmed CSAM is removed, preserving only what is legally required for evidence or mandatory reporting. Offending accounts are banned. We may preserve logs and content hashes as needed for compliance and cooperation with authorities.",
+        "content2": "We continually improve detection, reporting flows, and reviewer guidance. No system is perfect; we rely on our community and staff to identify harm quickly."
+      },
+      "section6": {
+        "title": "6. Legal compliance & authority reporting",
+        "content": "We comply with applicable child safety laws in the regions where we operate. Where appropriate, we report apparent CSAM to relevant organizations and authorities (for example, national hotlines or cybercrime units) in accordance with legal obligations and industry practice.",
+        "content2": "We do not use CSAE content for any purpose other than removal, mandatory reporting, and lawful cooperation with investigations."
+      },
+      "section7": {
+        "title": "7. Parental & guardian contact",
+        "content": "If you are a parent, guardian, or educator and believe a minor is using ToldYa! unsafely, contact us immediately using the email below with the username and a description of your concern. We will investigate and take appropriate action."
+      },
+      "sectionContact": {
+        "title": "8. Designated child safety contact",
+        "content": "The designated point of contact for child safety, CSAM prevention practices, and compliance with Google Play child safety standards is ready to respond to inquiries from platforms, regulators, and users:",
+        "email": "liorzukman@gmail.com",
+        "content2": "For general app support (non–child-safety), you may also contact zuki.apps.dev@gmail.com. For privacy requests, see our Privacy Policy."
+      }
+    },
+    "pilot": {
+      "badge": "Pilot — iOS & Android",
+      "title": "Now in pilot",
+      "message": "ToldYa! is live on the App Store and Google Play as an invite-only pilot. Download the app, sign up with your invitation code, and start putting your predictions on the record.",
+      "inviteNote": "Invite-only — you need a valid invitation code to register.",
+      "highlights": [
+        "Post predictions your followers can see; vote and comment in the Arena",
+        "Category accuracy scores and a track record others can watch",
+        "English and Hebrew with RTL · dark and light themes",
+        "Free: no ads, no in-app purchases — reputation and bragging rights only"
+      ]
+    },
+    "underConstruction": {
+      "badge": "Coming Soon",
+      "title": "Under Construction",
+      "message": "We're preparing the ToldYa! social network product page. Legal policies and account deletion instructions are available below."
+    }
+  }
+}

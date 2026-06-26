@@ -1,0 +1,352 @@
+{
+  "tempoLabPro": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Available Now",
+      "title": "TempoLab Pro - Tempo & Pitch",
+      "subtitle": "Tempo and pitch audio practice",
+      "description": "Production-ready Flutter app for tempo and pitch audio practice. Tap tempo, BPM detection, pitch shift, loop, markers, 5-band EQ, and export to MP3/WAV/M4A.",
+      "structuredDataDescription": "TempoLab Pro — tempo, pitch, and audio practice lab for iOS and Android. Metronome, loop markers, tap tempo, import/export, EQ and effects for musicians. Android com.zuki.apps.tempolabpro by Zuki Apps."
+    },
+    "features": {
+      "title": "Key Features",
+      "tempoPitch": {
+        "title": "Tempo & Pitch",
+        "description": "Control playback and practice with precision",
+        "items": [
+          "Playback speed control",
+          "Pitch shift with formant correction",
+          "Vinyl mode (tempo and pitch linked)",
+          "Loop playback",
+          "Markers (Set A / Set B)"
+        ]
+      },
+      "tapTempo": {
+        "title": "Tap Tempo",
+        "description": "Detect BPM by tapping",
+        "items": [
+          "Tap repeatedly to detect tempo",
+          "BPM display",
+          "Use detected tempo for practice"
+        ]
+      },
+      "export": {
+        "title": "Export & Loop",
+        "description": "Export and organize your audio",
+        "items": [
+          "Export to MP3, WAV, M4A",
+          "5-band EQ",
+          "Import audio files",
+          "Local file management"
+        ]
+      }
+    },
+    "status": {
+      "title": "Available",
+      "description": "Download Tempo Lab Pro on the App Store and Google Play.",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "1.0.1+13",
+      "statusValue": "Live"
+    },
+    "download": {
+      "title": "Download",
+      "description": "Get Tempo Lab Pro on the App Store and Google Play.",
+      "soon": "Available now",
+      "appStoreUrl": "https://apps.apple.com/il/app/tempo-lab-pro/id6760204327",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.tempolabpro",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "support": {
+      "hero": {
+        "title": "TempoLab Pro"
+      },
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "What is TempoLab Pro?",
+          "answer": "TempoLab Pro is a tempo and pitch audio practice app for musicians. You can import audio, change playback speed and pitch, use tap tempo to detect BPM, add markers, apply a 5-band EQ, and export to MP3, WAV, or M4A."
+        },
+        "q2": {
+          "question": "Can I use TempoLab Pro offline?",
+          "answer": "Yes. The app works offline. Audio files are stored locally and you can practice and export without an internet connection."
+        },
+        "q3": {
+          "question": "What audio formats are supported?",
+          "answer": "You can import common audio formats and export to MP3, WAV, or M4A. The app supports local file management and export to your device."
+        },
+        "q4": {
+          "question": "How does tap tempo work?",
+          "answer": "Tap the Tap Tempo button repeatedly in time with a beat. The app detects the BPM and you can use it for practice or reference."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 TempoLab Pro - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: January 2025",
+      "intro": "Please read these Terms of Use carefully before using TempoLab Pro. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of TempoLab Pro (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a tempo and pitch audio practice application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "TempoLab Pro is a mobile application that provides tempo and pitch audio practice functionality. The Service includes:",
+        "items": [
+          "Import and playback of audio files",
+          "Tempo control (playback speed)",
+          "Pitch shift with optional formant correction",
+          "Tap tempo (BPM detection)",
+          "Loop playback and markers",
+          "5-band EQ and effects",
+          "Export to MP3, WAV, M4A",
+          "Local storage and offline use"
+        ]
+      },
+      "section19": {
+        "title": "3. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2025",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "TempoLab Pro is designed with privacy in mind. The app works with audio files you import and stores data locally on your device. We do not collect personal information for the core practice features."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use minimal information to provide and improve the service. Audio files and app data remain on your device. If crash reporting is enabled, we may receive anonymous crash data to fix issues."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell or share your personal information with third parties. Your audio and project data stay on your device unless you explicitly export or share them."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate security measures. Your files and data are stored in the app's local storage, which is not accessible by other apps without your permission."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "You can delete your data at any time by removing the app or clearing app data. You may contact us to request information or deletion of any data we might hold (e.g. crash reports)."
+      },
+      "section8": {
+        "title": "6. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to use",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens from TempoLab Pro - Tempo & Pitch.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "practice",
+          "title": "Practice view",
+          "description": "Tempo, time signature, and visual beat in one screen.",
+          "image": "/images/tempo-lab-pro/screenshot-practice.png",
+          "alt": "Practice view — tempo lab pro",
+          "category": "features"
+        },
+        {
+          "id": "loops",
+          "title": "Loop markers",
+          "description": "Mark sections and loop difficult passages.",
+          "image": "/images/tempo-lab-pro/screenshot-loops.png",
+          "alt": "Loop markers — tempo lab pro",
+          "category": "features"
+        },
+        {
+          "id": "effects",
+          "title": "Effects & EQ",
+          "description": "Shape tone while you practice along.",
+          "image": "/images/tempo-lab-pro/screenshot-effects.png",
+          "alt": "Effects & EQ — tempo lab pro",
+          "category": "features"
+        },
+        {
+          "id": "tap-tempo",
+          "title": "Tap tempo",
+          "description": "Set BPM by tapping the beat.",
+          "image": "/images/tempo-lab-pro/screenshot-tap-tempo.png",
+          "alt": "Tap tempo — tempo lab pro",
+          "category": "features"
+        },
+        {
+          "id": "import",
+          "title": "Import & export",
+          "description": "Bring backing tracks and save your presets.",
+          "image": "/images/tempo-lab-pro/screenshot-import.png",
+          "alt": "Import & export — tempo lab pro",
+          "category": "features"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How to use",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Set tempo",
+          "description": "Enter BPM or tap tempo; pick time signature."
+        },
+        {
+          "number": "2",
+          "title": "Load audio",
+          "description": "Import a track or use the built-in click."
+        },
+        {
+          "number": "3",
+          "title": "Mark loops",
+          "description": "Place markers around the section you are drilling."
+        },
+        {
+          "number": "4",
+          "title": "Practice & adjust",
+          "description": "Tweak EQ, pitch, and effects as you rehearse."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers about features, privacy, and billing.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is TempoLab Pro?",
+          "answer": "A mobile app for practicing with your own audio files: change tempo and pitch, loop sections, add markers, use EQ/reverb/metronome, and export results. Built for musicians, singers, and anyone who learns by listening."
+        },
+        {
+          "question": "Which platforms are supported?",
+          "answer": "iOS and Android. iPad and large Android tablets get an enhanced layout with side navigation."
+        },
+        {
+          "question": "Is it free?",
+          "answer": "Yes to download and practice. Ads appear in the free tier. A one-time Remove Ads purchase unlocks Premium features."
+        },
+        {
+          "question": "What languages are supported?",
+          "answer": "17 locales including English, Hebrew, Arabic, Chinese (Simplified & Traditional), French, German, Italian, Japanese, Korean, Portuguese (BR & PT), Russian, and Spanish."
+        },
+        {
+          "question": "What file formats can I import?",
+          "answer": "Common formats such as MP3, M4A, WAV, and FLAC (device-dependent). If import fails, try another format or a non-DRM copy."
+        },
+        {
+          "question": "Why can’t I import my Apple Music / Spotify song?",
+          "answer": "Streaming downloads are often DRM-protected. TempoLab Pro only works with files you have rights to use locally — recordings you made, purchased downloads without DRM, or stems shared with you."
+        },
+        {
+          "question": "Does changing tempo change pitch?",
+          "answer": "Not by default. Tempo and pitch are independent. Vinyl mode links them intentionally for creative/record-style playback."
+        },
+        {
+          "question": "How precise is looping?",
+          "answer": "You can nudge loop points by ±10 milliseconds — enough to align by ear to transients and grid."
+        },
+        {
+          "question": "What is formant correction?",
+          "answer": "When shifting pitch on vocals, formant processing helps the voice keep a more natural character instead of sounding overly thin or heavy."
+        },
+        {
+          "question": "What’s the difference between waveform and spectrogram?",
+          "answer": "Waveform shows amplitude over time; spectrogram shows frequency content. Both help you navigate — use whichever reads faster for your material."
+        },
+        {
+          "question": "Does Practice mode increase tempo automatically?",
+          "answer": "Yes. You set start speed, end speed, and step size; the app ramps speed during the session."
+        },
+        {
+          "question": "Is there a metronome?",
+          "answer": "Yes — use it alongside your track or with tap tempo to match BPM."
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get more from the app.",
+      "items": [
+        {
+          "title": "The 70% rule",
+          "description": "If you can’t play it cleanly at 70% tempo, you’re not ready to speed up. Drop to 60%. Loop four bars, not the whole tune. TempoLab exists so you don’t waste reps on vanity speed. ---"
+        },
+        {
+          "title": "Mark the money beats",
+          "description": "Before you touch EQ or reverb, mark where the kick lands, where the vocal breathes, where the guitar slides. Your future self will jump there in one tap instead of scrubbing blind. ---"
+        },
+        {
+          "title": "Loop small, win small",
+          "description": "A two-bar loop beats a thirty-two-bar loop for muscle memory. Set A just before the downbeat, B on the last sixteenth you keep rushing. ±10 ms matters — your ear feels phase before your brain names it. ---"
+        },
+        {
+          "title": "Pitch is for comfort, not cheating",
+          "description": "Transpose down for morning warmups, up to test if a part still speaks when you’re tired. If you’re learning a cover, practice in the original key at least every third session so you don’t surprise yourself at the gig. ---"
+        },
+        {
+          "title": "Vinyl mode has a vibe",
+          "description": "When you link tempo and pitch, you get that sampler/record feel — useful for creative practice, not just transcription. Try it on a soul sample: slow down and hear the harmonics move together. ---"
+        },
+        {
+          "title": "EQ while you practice, not after",
+          "description": "Cut 200–400 Hz if the guitar mask is hiding the kick. Boost 3–5 kHz lightly to hear pick attack on acoustic parts. You’re not mastering — you’re making the part audible at low tempo. ---"
+        },
+        {
+          "title": "Practice mode = honest reps",
+          "description": "Set start 65%, end 95%, small steps. The day you fail is data: note the % and loop that bar again tomorrow. Speed is a side effect of accuracy. ---"
+        },
+        {
+          "title": "Tap tempo before you argue BPM",
+          "description": "Two producers, two numbers. Tap the groove — swing lies to the grid. Use metronome after you agree on feel. ---"
+        }
+      ]
+    }
+  }
+}

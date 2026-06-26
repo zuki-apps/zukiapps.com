@@ -1,0 +1,923 @@
+{
+  "zulist": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "지금 사용 가능 - 버전 1.0.9",
+      "title": "ZuList - Manage & Share Lists",
+      "subtitle": "가족을 위한 스마트 쇼핑 리스트",
+      "description": "함께 쇼핑하는 가족과 친구들을 위한 완벽한 앱입니다. 실시간으로 원활한 협업을 통해 쇼핑 리스트를 만들고, 공유하고, 관리하세요.",
+      "structuredDataDescription": "ZuList is the ultimate shopping list app designed for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration. Features include real-time sync, offline support, smart product suggestions, category management, purchase history, and premium subscriptions."
+    },
+    "features": {
+      "title": "주요 기능",
+      "realtime": {
+        "title": "실시간 협업",
+        "description": "가족과 친구들과 리스트를 공유하고 모든 기기에서 즉시 변경 사항 확인",
+        "items": [
+          "Member and permission management",
+          "Invitations via email, SMS, WhatsApp",
+          "Shareable links",
+          "Real-time Push notifications"
+        ]
+      },
+      "offline": {
+        "title": "Offline Support",
+        "description": "Works seamlessly even without internet connection",
+        "items": [
+          "Automatic sync when back online",
+          "Never lose your data",
+          "Cloud backup (Premium)"
+        ]
+      },
+      "smart": {
+        "title": "Smart Recommendations",
+        "description": "AI-based recommendations with product catalog",
+        "items": [
+          "Intelligent autocomplete",
+          "Personalized suggestions",
+          "Learn from your shopping habits"
+        ]
+      },
+      "templates": {
+        "title": "Smart Templates",
+        "description": "Pre-made shopping list templates",
+        "items": [
+          "Quick start for common shopping trips",
+          "Customize templates to your needs",
+          "34+ ready-made templates"
+        ]
+      },
+      "notifications": {
+        "title": "Smart Notifications",
+        "description": "Get notified when items are added or when friends update",
+        "items": [
+          "Silent mode for quiet shopping",
+          "Badge counts for unread updates",
+          "Real-time Push notifications"
+        ]
+      },
+      "multilang": {
+        "title": "12 Language Support",
+        "description": "Full support for 12 languages with translated interface",
+        "items": [
+          "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
+          "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
+          "🇵🇹 Portuguese, 🇷🇺 Russian, 🇫🇷 French",
+          "🇯🇵 Japanese, 🇰🇷 Korean, 🇸🇦 Arabic, 🇨🇳 Chinese"
+        ]
+      },
+      "categories": {
+        "title": "Category Management",
+        "description": "Organize your shopping by categories for better efficiency",
+        "items": [
+          "Custom categories",
+          "Custom icons",
+          "Automatic organization"
+        ]
+      },
+      "photos": {
+        "title": "Custom Photos",
+        "description": "Add custom photos to items",
+        "items": [
+          "Direct camera capture",
+          "Gallery selection",
+          "Automatic optimization"
+        ]
+      },
+      "history": {
+        "title": "Purchase History",
+        "description": "Track your shopping history",
+        "items": [
+          "Advanced statistics (Premium)",
+          "Track shopping habits",
+          "Detailed reports"
+        ]
+      },
+      "firebase": {
+        "title": "Firebase Integration",
+        "description": "Secure cloud sync with Firebase",
+        "items": [
+          "인증, 실시간 데이터베이스, Firestore",
+          "스토리지, 함수, FCM",
+          "딥 링크"
+        ]
+      },
+      "security": {
+        "title": "Privacy & Security",
+        "description": "Secure authentication and data protection",
+        "items": [
+          "Secure authentication (Google, Apple)",
+          "Encrypted data",
+          "Full control over sharing",
+          "Complete account deletion"
+        ]
+      },
+      "ui": {
+        "title": "Beautiful & Intuitive",
+        "description": "Modern and clean interface with excellent user experience",
+        "items": [
+          "Zuli Monsters characters for fun",
+          "Customizable themes",
+          "Dark mode support",
+          "Full Accessibility support"
+        ]
+      }
+    },
+    "premium": {
+      "title": "프리미엄 기능",
+      "description": "프리미엄으로 업그레이드하고 제한 없이 고급 기능을 즐기세요",
+      "free": {
+        "title": "무료 기능",
+        "items": [
+          "최대 5개 리스트",
+          "리스트당 150개 항목",
+          "리스트당 1명의 공유 멤버",
+          "배너 광고",
+          "고급 통계 없음",
+          "커스텀 테마 없음",
+          "오프라인 모드 없음",
+          "클라우드 백업 없음"
+        ]
+      },
+      "premium": {
+        "title": "프리미엄 기능",
+        "items": [
+          "무제한 리스트",
+          "무제한 항목",
+          "무제한 멤버",
+          "광고 없는 경험",
+          "고급 통계",
+          "커스텀 테마",
+          "오프라인 모드",
+          "클라우드 백업"
+        ]
+      },
+      "pricing": {
+        "monthly": "월간: $1.99",
+        "yearly": "연간: $17.99",
+        "savings": "연간 구독으로 25% 절약"
+      },
+      "rewarded": {
+        "title": "보상 광고",
+        "description": "광고를 시청하고 프리미엄 기능에 임시로 액세스:",
+        "items": [
+          "24시간 동안 광고 제거",
+          "24시간 동안 통계 액세스",
+          "리스트당 10개의 추가 항목"
+        ]
+      }
+    },
+    "status": {
+      "title": "✅ 지금 사용 가능",
+      "description": "앱은 1062+ 종합 테스트로 사용 준비가 되었습니다",
+      "version": "버전",
+      "tests": "테스트",
+      "status": "상태",
+      "versionValue": "1.0.9+74",
+      "testsValue": "1062+ 테스트",
+      "statusValue": "App Store 및 Google Play에서 사용 가능"
+    },
+    "download": {
+      "title": "지금 다운로드",
+      "description": "앱 스토어에서 ZuList 받기",
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "soon": "곧 출시",
+      "download": "다운로드",
+      "appStoreUrl": "https://apps.apple.com/us/app/zulist/id6753878439",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.zulist",
+      "appIconAlt": "ZuList App Icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "perfectFor": {
+      "title": "완벽한 용도",
+      "families": {
+        "title": "👨‍👩‍👧‍👦 함께 쇼핑하는 가족",
+        "description": "가족 전체와 리스트를 공유하고 항상 동기화 유지"
+      },
+      "roommates": {
+        "title": "🏠 룸메이트",
+        "description": "룸메이트와 쉽게 식료품 공유"
+      },
+      "events": {
+        "title": "🎉 이벤트 주최자",
+        "description": "친구들과 체계적인 방식으로 이벤트 계획"
+      },
+      "everyone": {
+        "title": "🛒 체계적인 쇼핑을 원하는 모든 사람",
+        "description": "쇼핑을 체계적이고 협력적이며 재미있게 만들기"
+      }
+    },
+    "links": {
+      "title": "중요한 링크",
+      "support": {
+        "title": "기술 지원",
+        "email": "zuki.apps@gmail.com"
+      },
+      "website": {
+        "title": "공식 웹사이트",
+        "url": "zulist.app"
+      },
+      "social": {
+        "title": "소셜 미디어"
+      },
+      "contact": {
+        "title": "일반 문의",
+        "email": "zuki.apps@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 ZuList - 모든 권리 보유",
+      "tagline": "Zuki Apps의 일부 • 이스라엘의 개발자 • ❤️로 제작",
+      "bundle": "Bundle ID: com.zukiapps.zulist | 버전: 1.0.4"
+    },
+    "privacy": {
+      "title": "개인정보 보호정책",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
+      "section1": {
+        "title": "1. 수집하는 정보",
+        "content": "계정 생성, 서비스 이용, 지원 문의 등 고객이 직접 제공하는 정보를 수집합니다."
+      },
+      "section2": {
+        "title": "2. 정보 사용 방법",
+        "content": "수집한 정보를 사용하여 서비스를 제공, 유지, 개선하고, 거래를 처리하며, 고객과 소통합니다."
+      },
+      "section3": {
+        "title": "3. 정보 공유",
+        "content": "이 정책에 명시된 경우를 제외하고, 고객의 동의 없이 개인정보를 제3자에게 판매, 거래 또는 전송하지 않습니다."
+      },
+      "section4": {
+        "title": "4. 데이터 보안",
+        "content": "개인정보를 무단 액세스, 변경, 공개 또는 파괴로부터 보호하기 위해 적절한 보안 조치를 시행합니다."
+      },
+      "section5": {
+        "title": "5. 고객 권리",
+        "content": "고객은 개인정보에 액세스, 업데이트 또는 삭제할 권리가 있습니다. 또한 당사로부터의 특정 통신을 거부할 수 있습니다."
+      },
+      "section6": {
+        "title": "6. 카메라 및 사진 라이브러리 액세스",
+        "content": "ZuList는 쇼핑 목록 항목의 사진을 촬영하고 업로드할 수 있도록 기기의 카메라 및 사진 라이브러리에 대한 액세스가 필요합니다. 목록이나 항목에 사진을 추가하도록 명시적으로 선택한 경우에만 이러한 기능에 액세스합니다. 사진은 클라우드 스토리지에 안전하게 저장되며 고객과 목록을 공유하는 사용자만 액세스할 수 있습니다."
+      },
+      "section7": {
+        "title": "7. 크래시 보고 및 오류 분석",
+        "content": "Google에서 제공하는 Firebase Crashlytics 서비스를 사용하여 앱 크래시 및 오류에 대한 정보를 수집합니다. 이를 통해 문제를 식별하고 수정하여 고객 경험을 개선할 수 있습니다.",
+        "dataCollected": "수집되는 데이터:",
+        "dataCollectedItems": [
+          "크래시 및 오류에 대한 기술 정보(스택 추적, 오류 메시지)",
+          "기기 정보(운영 체제, 기기 모델, 앱 버전)",
+          "설치 ID(앱 설치의 고유 식별자, 개인 신원과 연결되지 않음)",
+          "오류와 관련된 사용자 정의 진단 정보(오류 코드, 작업 유형)"
+        ],
+        "purpose": "목적:",
+        "purposeItems": [
+          "버그 및 크래시 식별 및 수정",
+          "앱 안정성 및 성능 개선",
+          "오류 패턴 분석"
+        ],
+        "dataSharing": "데이터 공유:",
+        "dataSharingContent": "이 데이터는 Google Firebase에서 처리되며 Google의 개인정보 보호정책의 적용을 받습니다.",
+        "dataRetention": "데이터 보관:",
+        "dataRetentionContent": "크래시 보고서는 Firebase에서 최대 90일 동안 보관된 후 자동으로 삭제됩니다.",
+        "yourRights": "고객 권리:",
+        "yourRightsContent": "기기 설정에서 크래시 보고를 비활성화하여 거부할 수 있지만, 이는 고객에게 영향을 미치는 문제 수정을 방해할 수 있습니다."
+      },
+      "section8": {
+        "title": "8. 문의하기",
+        "content": "이 개인정보 보호정책에 대한 질문이 있으시면 다음으로 문의하세요:",
+        "email": "zuki.apps@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "이용약관",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
+      "intro": "ZuList를 사용하기 전에 이러한 이용약관을 주의 깊게 읽어주세요. 서비스에 액세스하거나 사용함으로써 이러한 조건에 구속되는 것에 동의하는 것입니다. 이러한 조건에 동의하지 않는 경우 서비스를 사용하지 마세요.",
+      "section1": {
+        "title": "1. 조건 수락",
+        "content": "이러한 이용약관(\"약관\")은 Zuki Apps(\"회사\")가 운영하는 쇼핑 목록 애플리케이션 ZuList(\"서비스\", \"앱\", \"우리\", \"당사\")에 대한 액세스 및 사용을 규제합니다. 서비스를 다운로드, 설치, 액세스 또는 사용함으로써 이러한 약관 및 개인정보 보호정책에 구속되는 것에 동의하는 것입니다.",
+        "content2": "조직을 대신하여 서비스를 사용하는 경우, 해당 조직을 이러한 약관에 구속할 권한이 있음을 진술하고 보증합니다."
+      },
+      "section2": {
+        "title": "2. 서비스 설명",
+        "content": "ZuList는 사용자가 가족 및 친구와 쇼핑 목록을 생성, 관리 및 공유할 수 있도록 하는 모바일 애플리케이션입니다. 서비스에는 다음이 포함됩니다:",
+        "items": {
+          "item1": "쇼핑 목록 생성 및 관리",
+          "item2": "다른 사용자와 목록 공유",
+          "item3": "기기 간 실시간 동기화",
+          "item4": "제품 제안 및 분류",
+          "item5": "구매 기록 추적",
+          "item6": "프리미엄 구독 기능(섹션 4에 설명된 대로)"
+        }
+      },
+      "section3": {
+        "title": "3. 사용자 계정 및 등록",
+        "subtitle1": "3.1. 계정 생성",
+        "content1": "서비스의 특정 기능을 사용하려면 계정을 생성해야 합니다. 다음 방법으로 계정을 생성할 수 있습니다:",
+        "items1": {
+          "item1": "Google 로그인",
+          "item2": "Apple 로그인",
+          "item3": "이메일 및 비밀번호(사용 가능한 경우)"
+        },
+        "subtitle2": "3.2. 계정 책임",
+        "content2": "다음에 대해 책임이 있습니다:",
+        "items2": {
+          "item1": "계정 자격 증명의 기밀성 유지",
+          "item2": "계정에서 발생하는 모든 활동",
+          "item3": "계정 정보가 정확하고 최신 상태인지 확인",
+          "item4": "계정의 무단 사용을 즉시 알림"
+        },
+        "subtitle3": "3.3. 연령 요구사항",
+        "content3": "서비스를 사용하려면 최소 13세 이상이어야 합니다. 18세 미만인 경우 부모 또는 보호자의 동의를 받아 서비스를 사용하고 있음을 진술합니다. 부모 또는 보호자이며 자녀가 개인정보를 제공했다고 생각하는 경우 즉시 문의하세요."
+      },
+      "section4": {
+        "title": "4. Premium Subscriptions and Payments",
+        "subtitle1": "4.1. Subscription Plans",
+        "content1": "ZuList offers premium subscription plans that provide access to additional features:",
+        "items1": {
+          "item1": "Monthly Subscription: Billed monthly, automatically renews unless cancelled",
+          "item2": "Yearly Subscription: Billed annually, automatically renews unless cancelled"
+        },
+        "subtitle2": "4.2. Payment Terms",
+        "content2": "By purchasing a subscription, you agree to:",
+        "items2": {
+          "item1": "Pay the subscription fee at the time of purchase",
+          "item2": "Automatic renewal of your subscription at the end of each billing period",
+          "item3": "Prices may vary by region and are subject to change with notice"
+        },
+        "subtitle3": "4.3. Subscription Management",
+        "content3": "You can manage your subscription, including cancellation, through:",
+        "items3": {
+          "item1": "iOS: Settings → [Your Name] → Subscriptions → ZuList",
+          "item2": "Android: Google Play Store → Subscriptions → ZuList"
+        },
+        "content3b": "If you cancel your subscription, you will continue to have access to premium features until the end of your current billing period. After that, your account will revert to the free tier.",
+        "subtitle4": "4.4. Refunds",
+        "content4": "Refund requests are handled by Apple (for iOS) or Google (for Android) according to their respective refund policies. We do not process refunds directly. For subscription refunds, please contact Apple Support or Google Play Support.",
+        "subtitle5": "4.5. Free Trial",
+        "content5": "If we offer a free trial, it will be clearly indicated at the time of sign-up. At the end of the trial period, your subscription will automatically convert to a paid subscription unless you cancel before the trial ends."
+      },
+      "section5": {
+        "title": "5. User Content and Conduct",
+        "subtitle1": "5.1. User-Generated Content",
+        "content1": "You retain ownership of all content you create, upload, or share through the Service (\"User Content\"), including shopping lists, items, notes, and photos.",
+        "subtitle2": "5.2. License to Use Your Content",
+        "content2": "By using the Service, you grant us a worldwide, non-exclusive, royalty-free license to:",
+        "items2": {
+          "item1": "Store, process, and display your User Content",
+          "item2": "Share your User Content with other users you explicitly invite to your lists",
+          "item3": "Use your User Content to provide and improve the Service"
+        },
+        "subtitle3": "5.3. Prohibited Content and Activities",
+        "content3": "You agree not to use the Service to:",
+        "items3": {
+          "item1": "Upload, post, or share any content that is illegal, harmful, threatening, abusive, harassing, defamatory, or otherwise objectionable",
+          "item2": "Impersonate any person or entity or falsely state or misrepresent your affiliation with any person or entity",
+          "item3": "Violate any applicable laws or regulations",
+          "item4": "Interfere with or disrupt the Service or servers connected to the Service",
+          "item5": "Attempt to gain unauthorized access to any portion of the Service",
+          "item6": "Use automated systems (bots, scrapers) to access the Service without permission",
+          "item7": "Reverse engineer, decompile, or disassemble any portion of the Service"
+        }
+      },
+      "section6": {
+        "title": "6. Intellectual Property Rights",
+        "subtitle1": "6.1. Our Intellectual Property",
+        "content1": "The Service, including its original content, features, functionality, design, logos, and trademarks, is owned by Zuki Apps and is protected by international copyright, trademark, and other intellectual property laws.",
+        "subtitle2": "6.2. Zuli Monsters Characters and Images",
+        "content2": "All Zuli Monsters characters, images, icons, artwork, and related visual content displayed in the ZuList application are the exclusive property of Zuki Apps. These are original creations protected by copyright law and international intellectual property rights.",
+        "content2b": "Prohibited Uses: You may NOT, without explicit written permission from Zuki Apps:",
+        "items2": {
+          "item1": "Copy, reproduce, or duplicate any Zuli Monsters images or characters",
+          "item2": "Use Zuli Monsters images or characters in any other application, website, or product",
+          "item3": "Modify, alter, or create derivative works based on Zuli Monsters images or characters",
+          "item4": "Distribute, sell, or license Zuli Monsters images or characters to third parties",
+          "item5": "Use Zuli Monsters images or characters for commercial purposes",
+          "item6": "Remove copyright notices or attribution from Zuli Monsters images or characters"
+        },
+        "content2c": "All rights reserved. Any unauthorized use, reproduction, distribution, or commercial exploitation of Zuli Monsters images or characters constitutes copyright infringement and may result in legal action.",
+        "content2d": "For licensing inquiries or permission to use Zuli Monsters images or characters, please contact us at zuki.apps.dev@gmail.com.",
+        "subtitle3": "6.3. Limited License",
+        "content3": "We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Service for personal, non-commercial purposes in accordance with these Terms."
+      },
+      "section7": {
+        "title": "7. Third-Party Services",
+        "content": "The Service integrates with third-party services, including:",
+        "items": {
+          "item1": "Firebase (Google): For authentication, data storage, and cloud services",
+          "item2": "Google Sign-In: For account authentication",
+          "item3": "Apple Sign-In: For account authentication",
+          "item4": "Google AdMob: For displaying advertisements",
+          "item5": "Apple App Store / Google Play: For in-app purchases and subscriptions"
+        },
+        "content2": "Your use of these third-party services is subject to their respective terms of service and privacy policies. We are not responsible for the practices of these third-party services."
+      },
+      "section8": {
+        "title": "8. Advertising",
+        "content": "Free tier users may see advertisements displayed within the Service. These advertisements are provided by Google AdMob and are subject to Google's advertising policies. Premium subscribers receive an ad-free experience.",
+        "content2": "We do not use your personal information to personalize advertisements shown to you, except as permitted by applicable privacy laws and with your consent."
+      },
+      "section9": {
+        "title": "9. Service Availability and Modifications",
+        "subtitle1": "9.1. Service Availability",
+        "content1": "We strive to provide reliable service but do not guarantee that the Service will be available at all times. The Service may be unavailable due to:",
+        "items1": {
+          "item1": "Scheduled maintenance",
+          "item2": "Technical issues or failures",
+          "item3": "Force majeure events"
+        },
+        "subtitle2": "9.2. Service Modifications",
+        "content2": "We reserve the right to:",
+        "items2": {
+          "item1": "Modify, suspend, or discontinue any part of the Service at any time",
+          "item2": "Change features, functionality, or pricing with reasonable notice",
+          "item3": "Impose limits on certain features or restrict access to parts of the Service"
+        }
+      },
+      "section10": {
+        "title": "10. Termination",
+        "subtitle1": "10.1. Termination by You",
+        "content1": "You may stop using the Service at any time by:",
+        "items1": {
+          "item1": "Deleting your account through the app settings",
+          "item2": "Uninstalling the app from your device",
+          "item3": "Contacting us to request account deletion"
+        },
+        "subtitle2": "10.2. Termination by Us",
+        "content2": "We may suspend or terminate your access to the Service immediately, without prior notice, if you:",
+        "items2": {
+          "item1": "Violate these Terms",
+          "item2": "Engage in fraudulent, abusive, or illegal activity",
+          "item3": "Fail to pay subscription fees (for premium users)",
+          "item4": "Otherwise misuse the Service"
+        },
+        "subtitle3": "10.3. Effect of Termination",
+        "content3": "Upon termination:",
+        "items3": {
+          "item1": "Your right to use the Service will immediately cease",
+          "item2": "We may delete your account and User Content",
+          "item3": "You will not be entitled to any refund for unused subscription periods (subject to applicable law)"
+        }
+      },
+      "section11": {
+        "title": "11. Disclaimers",
+        "content": "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
+        "content2": "We do not warrant that:",
+        "items": {
+          "item1": "The Service will meet your requirements",
+          "item2": "The Service will be uninterrupted, timely, secure, or error-free",
+          "item3": "The results obtained from using the Service will be accurate or reliable",
+          "item4": "Any errors in the Service will be corrected"
+        }
+      },
+      "section12": {
+        "title": "12. Limitation of Liability",
+        "content": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ZUKI APPS, ITS AFFILIATES, OR THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, USE, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR USE OR INABILITY TO USE THE SERVICE.",
+        "content2": "Our total liability to you for all claims arising from or related to the Service shall not exceed the amount you paid us in the twelve (12) months preceding the claim, or $100, whichever is greater."
+      },
+      "section13": {
+        "title": "13. Indemnification",
+        "content": "You agree to indemnify, defend, and hold harmless Zuki Apps, its affiliates, and their respective officers, directors, employees, and agents from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including attorney's fees) arising from:",
+        "items": {
+          "item1": "Your use of the Service",
+          "item2": "Your violation of these Terms",
+          "item3": "Your violation of any third-party rights",
+          "item4": "Any User Content you submit, post, or transmit through the Service"
+        }
+      },
+      "section14": {
+        "title": "14. Privacy",
+        "content": "Your privacy is important to us. Our collection and use of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference."
+      },
+      "section15": {
+        "title": "15. Dispute Resolution",
+        "subtitle1": "15.1. Governing Law",
+        "content1": "These Terms shall be governed by and construed in accordance with the laws of Israel, without regard to its conflict of law provisions.",
+        "subtitle2": "15.2. Dispute Resolution Process",
+        "content2": "If you have any concerns or disputes regarding the Service, please contact us first at zuki.apps.dev@gmail.com. We will attempt to resolve any disputes in good faith."
+      },
+      "section16": {
+        "title": "16. Changes to Terms",
+        "content": "We reserve the right to modify these Terms at any time. We will notify you of any material changes by:",
+        "items": {
+          "item1": "Posting the updated Terms on this page",
+          "item2": "Updating the \"Last updated\" date",
+          "item3": "Sending a notification through the Service (if significant changes are made)"
+        },
+        "content2": "Your continued use of the Service after such changes constitutes your acceptance of the modified Terms."
+      },
+      "section17": {
+        "title": "17. Severability",
+        "content": "If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect."
+      },
+      "section18": {
+        "title": "18. Entire Agreement",
+        "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps@gmail.com",
+        "website": "https://zukiapps.com/zulist",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "deleteAccount": {
+      "title": "Delete ZuList Account",
+      "intro": "If you wish to delete your account and all associated data, please follow the steps below:",
+      "warning": {
+        "title": "⚠️ Important Warning",
+        "content": "Account deletion is a permanent action and cannot be undone. All data associated with your account will be permanently deleted."
+      },
+      "steps": {
+        "title": "Account Deletion Instructions",
+        "step1": "Open the ZuList app on your device",
+        "step2": "Log in to your account (if you haven't already)",
+        "step3": "Tap the Profile button (or Settings) in the bottom menu",
+        "step4": "Scroll down until you find the Delete account button (or Delete account)",
+        "step5": "Tap the button and read the message",
+        "step6": "Confirm the deletion - the account and all data will be permanently deleted"
+      },
+      "data": {
+        "title": "Data That Will Be Deleted",
+        "intro": "When you delete your account, the following data will be permanently deleted:",
+        "item1": "Personal information: name, email address, user ID",
+        "item2": "Shopping lists: all shopping lists you created",
+        "item3": "Items: all items in your lists",
+        "item4": "Photos: profile photos, list photos, item photos",
+        "item5": "Preferences: personal settings and user preferences",
+        "item6": "Purchase history: all statistical data and history",
+        "item7": "Sync data: all cloud-synced data"
+      },
+      "sharedLists": {
+        "owner": {
+          "title": "Lists you created (Owner):",
+          "item1": "If there are other users in the list → Ownership will be transferred to another user (automatically)",
+          "item2": "If you are the only one in the list → The list will be completely deleted"
+        },
+        "member": {
+          "title": "Lists you participate in (Member):",
+          "item1": "You will be removed from the list",
+          "item2": "The list will remain active for other users",
+          "item3": "Data and items will remain (only you will be removed)"
+        }
+      },
+      "partialDelete": {
+        "title": "Deleting Some Data (Without Deleting the Account)",
+        "intro": "If you wish to delete only some data without deleting the account, you can:",
+        "item1": "Delete profile photos: Profile screen → Remove photo",
+        "item2": "Delete lists: Home screen → Delete list",
+        "item3": "Delete items: Inside a list → Delete item"
+      },
+      "retention": {
+        "title": "Retention Period",
+        "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have questions or issues with account deletion, please contact us:",
+        "email": "Email",
+        "privacy": "Privacy Policy",
+        "privacyLink": "Read the full privacy policy",
+        "terms": "Terms of Service",
+        "termsLink": "Read the terms of service"
+      }
+    },
+    "deleteData": {
+      "title": "Delete Data - ZuList",
+      "intro": {
+        "title": "Deleting Data Without Deleting the Account",
+        "content": "You can delete some of your data without deleting the account. This way you can keep the account and delete only the data you want to remove."
+      },
+      "types": {
+        "title": "Types of Data You Can Delete",
+        "profilePhotos": {
+          "title": "1. Profile Photos",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "Your profile photo",
+          "deletedItem2": "Custom photos uploaded manually",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "Username",
+          "keptItem3": "All other data",
+          "howTo": "How to delete:",
+          "step1": "Open the ZuList app",
+          "step2": "Tap the Profile button in the bottom menu",
+          "step3": "Tap your profile photo",
+          "step4": "Select Remove Image or Remove Image",
+          "step5": "Confirm the deletion"
+        },
+        "shoppingLists": {
+          "title": "2. Shopping Lists",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "The selected shopping list",
+          "deletedItem2": "All items in the list",
+          "deletedItem3": "List photos",
+          "deletedItem4": "List settings",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "All other lists",
+          "keptItem3": "Other personal data",
+          "howTo": "How to delete:",
+          "step1": "Open the ZuList app",
+          "step2": "On the home screen, find the list you want to delete",
+          "step3": "Long press on the list (or tap three dots)",
+          "step4": "Select Delete List or Delete List",
+          "step5": "Confirm the deletion"
+        },
+        "items": {
+          "title": "3. Items in Lists",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "The selected item",
+          "deletedItem2": "Item photos",
+          "deletedItem3": "Notes on the item",
+          "deletedItem4": "Quantity and price (if entered)",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "The list itself",
+          "keptItem3": "All other items in the list",
+          "howTo": "How to delete:",
+          "step1": "Open the ZuList app",
+          "step2": "Open the list containing the item",
+          "step3": "Long press on the item (or swipe left)",
+          "step4": "Select Delete or Delete",
+          "step5": "Confirm the deletion"
+        },
+        "images": {
+          "title": "4. List and Item Photos",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "List photos (background/custom image)",
+          "deletedItem2": "Item photos",
+          "deletedItem3": "Category photos",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "The list/item/category itself",
+          "keptItem3": "All other data",
+          "howTo": "How to delete:",
+          "step1": "Open the list/item/category",
+          "step2": "Tap the photo",
+          "step3": "Select Remove Image or Remove Image",
+          "step4": "Confirm the deletion"
+        },
+        "purchaseHistory": {
+          "title": "5. Purchase History and Statistical Data",
+          "deleted": "What will be deleted:",
+          "deletedItem1": "Purchase history (when items marked as purchased are deleted)",
+          "deletedItem2": "Statistical data (when lists are deleted)",
+          "deletedItem3": "History-based recommendations",
+          "kept": "What will be kept:",
+          "keptItem1": "Your account",
+          "keptItem2": "Active lists",
+          "keptItem3": "Personal data",
+          "note": {
+            "title": "Note:",
+            "content": "Deleting purchase history is done automatically when items or lists are deleted. No separate action is required."
+          }
+        }
+      },
+      "info": {
+        "title": "ℹ️ Important Information:",
+        "item1": "Data deletion is immediate - data is deleted immediately from the device and cloud",
+        "item2": "Deleted data cannot be recovered",
+        "item3": "If you participate in shared lists, deleting items/lists will also affect other users",
+        "item4": "Your account will remain active even after deleting data"
+      },
+      "retention": {
+        "title": "Retention Period",
+        "content": "Deleted data will be removed from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+      },
+      "fullDelete": {
+        "title": "Want to delete the entire account?",
+        "content": "If you wish to delete the entire account and all associated data,",
+        "link": "click here for full account deletion"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have questions or issues with data deletion, please contact us:",
+        "email": "Email",
+        "privacy": "Privacy Policy",
+        "privacyLink": "Read the full privacy policy"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Instructions for account deletion"
+        },
+        "deleteData": {
+          "title": "Delete Data",
+          "description": "How to delete specific data"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "How do I share a shopping list with family members?",
+          "answer": "To share a list, open the list and tap the 'Share' or 'Members' button. You can invite members via email, SMS, WhatsApp, or by sharing a link. Once they accept the invitation, they'll have access to the list and can add or modify items in real-time."
+        },
+        "q2": {
+          "question": "How does the Premium subscription work?",
+          "answer": "Premium offers unlimited lists, unlimited items, unlimited members, ad-free experience, advanced statistics, custom themes, offline mode, and cloud backup. You can subscribe monthly or yearly through the App Store (iOS) or Google Play (Android). You can manage or cancel your subscription at any time through your device's subscription settings."
+        },
+        "q3": {
+          "question": "Can I use ZuList offline?",
+          "answer": "Yes! ZuList works offline. You can create lists, add items, and mark items as purchased even without an internet connection. All changes will automatically sync when you're back online. Note: Offline mode is a Premium feature."
+        },
+        "q4": {
+          "question": "How do I delete my account?",
+          "answer": "To delete your account, go to Profile → Settings → Delete Account. Please note that account deletion is permanent and cannot be undone. All your data, including lists, items, and photos, will be permanently deleted. For detailed instructions, visit our Delete Account page."
+        },
+        "q5": {
+          "question": "I'm having trouble with notifications. What should I do?",
+          "answer": "First, make sure notifications are enabled in your device settings for ZuList. If notifications still don't work, try: 1) Restarting the app, 2) Checking your device's notification settings, 3) Ensuring you have an active internet connection, 4) Reinstalling the app if the problem persists. If issues continue, please contact us."
+        },
+        "q6": {
+          "question": "How do I restore my data if I switch devices?",
+          "answer": "If you're using the same account (Google or Apple Sign-In), your data will automatically sync when you log in on a new device. Make sure you're connected to the internet and signed in with the same account. Premium users have cloud backup enabled, ensuring all data is safely stored and can be restored."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to use",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens from ZuList - Manage & Share Lists.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "lists",
+          "title": "Your lists",
+          "description": "Create and manage multiple shopping lists.",
+          "image": "/images/zulist/screenshot-lists.png",
+          "alt": "Your lists — zulist",
+          "category": "features"
+        },
+        {
+          "id": "shared",
+          "title": "Shared list",
+          "description": "Collaborate in real time with family or roommates.",
+          "image": "/images/zulist/screenshot-shared.png",
+          "alt": "Shared list — zulist",
+          "category": "features"
+        },
+        {
+          "id": "invite",
+          "title": "Invite & share",
+          "description": "Send an invite link — no account required for guests.",
+          "image": "/images/zulist/screenshot-invite.png",
+          "alt": "Invite & share — zulist",
+          "category": "features"
+        },
+        {
+          "id": "widget",
+          "title": "Home widget",
+          "description": "Glance items from your home screen.",
+          "image": "/images/zulist/screenshot-widget.png",
+          "alt": "Home widget — zulist",
+          "category": "features"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How to use",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Create a list",
+          "description": "Add items with quantities and categories."
+        },
+        {
+          "number": "2",
+          "title": "Share the list",
+          "description": "Send an invite link so others can edit live."
+        },
+        {
+          "number": "3",
+          "title": "Shop together",
+          "description": "Check off items — changes sync instantly."
+        },
+        {
+          "number": "4",
+          "title": "Use widgets",
+          "description": "Pin a list to your home screen for quick access."
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get more from the app.",
+      "items": [
+        {
+          "title": "Shopping faster",
+          "description": "Reorder lists on the home screen—put “Today” at the top - Search across all your lists from the home screen - Mark all bought when you finish a trip (owner/read-write)"
+        },
+        {
+          "title": "Collaboration",
+          "description": "Use read-only for kids or guests who shouldn’t edit - Due date on a list + notification = fewer “did you get milk?” texts - Share a link in the family group chat—no email required"
+        },
+        {
+          "title": "Offline",
+          "description": "Add items in airplane mode; they sync when you land - If sync is slow, pull to refresh on the list screen"
+        },
+        {
+          "title": "Widget",
+          "description": "Set primary list to your main grocery list, not one-off party lists - Widget shows unbought count only"
+        },
+        {
+          "title": "Invites",
+          "description": "Recent emails appear when inviting—tap to resend faster - Wait a few seconds between resends to the same address (anti-spam)"
+        },
+        {
+          "title": "Premium value",
+          "description": "Worth it if you run multiple households or large families on one list - Restore purchases on a new phone: Premium screen → restore link"
+        },
+        {
+          "title": "Privacy",
+          "description": "Only people you invite see a list - Delete account anytime: Settings → Account → Delete account"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers about features, privacy, and billing.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is ZuList?",
+          "answer": "A collaborative shopping list app. Create lists, share with others, and sync in real time on iOS and Android."
+        },
+        {
+          "question": "Is ZuList free?",
+          "answer": "Yes. Free tier includes up to 5 lists, 150 items per list, and sharing with one other person per list. Premium removes limits and ads."
+        },
+        {
+          "question": "Do I need an account?",
+          "answer": "You can start as a guest. Sign in to sync across devices and accept invites reliably."
+        },
+        {
+          "question": "Which languages are supported?",
+          "answer": "English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Chinese (Simplified), Japanese, and Korean."
+        },
+        {
+          "question": "How fast is sync?",
+          "answer": "Usually instant when online. Offline changes upload when connectivity returns."
+        },
+        {
+          "question": "Can two people edit at the same time?",
+          "answer": "Yes. Last write wins for the same field; the list stays consistent."
+        },
+        {
+          "question": "How do I remove someone from a list?",
+          "answer": "List owner → Members → remove. They lose access immediately."
+        },
+        {
+          "question": "Why doesn’t the widget match the list I’m viewing?",
+          "answer": "The widget always shows your **primary list** from Settings."
+        },
+        {
+          "question": "How do I add the widget?",
+          "answer": "See [How to: Home screen widget](./how-to-home-widget.md)."
+        },
+        {
+          "question": "What does Premium include?",
+          "answer": "Unlimited lists, items, and members; no ads; advanced statistics; themes; premium offline features; cloud backup."
+        },
+        {
+          "question": "How do I cancel?",
+          "answer": "Manage subscription in the App Store or Google Play—ZuList updates automatically via store webhooks."
+        },
+        {
+          "question": "Where is my data stored?",
+          "answer": "Firebase (Google Cloud). Lists are private to you and invited members."
+        }
+      ]
+    }
+  }
+}

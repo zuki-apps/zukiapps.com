@@ -38,5 +38,5 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!api|_next|_vercel|\\.well-known|app-ads\\.txt|.*\\..*).*)'],
+  matcher: ['/((?!api|_next|_vercel|\\.well-known|apple-app-site-association|app-ads\\.txt|.*\\..*).*)'],
 };

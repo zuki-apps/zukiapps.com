@@ -50,12 +50,15 @@ const routes: SitemapRouteMeta[] = [
   { path: '/track-ledger', priority: 0.9, changefreq: 'weekly' },
   { path: '/track-ledger/privacy', priority: 0.5, changefreq: 'monthly' },
   { path: '/track-ledger/terms', priority: 0.5, changefreq: 'monthly' },
+  { path: '/track-ledger/support', priority: 0.7, changefreq: 'monthly' },
   { path: '/noise-meter-shusher', priority: 0.9, changefreq: 'weekly' },
   { path: '/noise-meter-shusher/privacy', priority: 0.5, changefreq: 'monthly' },
   { path: '/noise-meter-shusher/terms', priority: 0.5, changefreq: 'monthly' },
+  { path: '/noise-meter-shusher/support', priority: 0.7, changefreq: 'monthly' },
   { path: '/paratrooper-blitz', priority: 0.9, changefreq: 'weekly' },
   { path: '/paratrooper-blitz/privacy', priority: 0.5, changefreq: 'monthly' },
   { path: '/paratrooper-blitz/terms', priority: 0.5, changefreq: 'monthly' },
+  { path: '/paratrooper-blitz/support', priority: 0.7, changefreq: 'monthly' },
   { path: '/sudoku-puzzle', priority: 0.9, changefreq: 'weekly' },
   { path: '/sudoku-puzzle/privacy', priority: 0.5, changefreq: 'monthly' },
   { path: '/sudoku-puzzle/terms', priority: 0.5, changefreq: 'monthly' },
@@ -74,20 +77,24 @@ const routes: SitemapRouteMeta[] = [
   { path: '/fun-facts-trivia/support', priority: 0.7, changefreq: 'monthly' },
   { path: '/dsa-compliance', priority: 0.6, changefreq: 'monthly' },
   ...(TOLDYA_PUBLISHED || TOLDYA_PILOT
-    ? [{ path: '/toldya', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta]
+    ? [
+        { path: '/toldya', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
+        // Store compliance URLs — indexed while pilot/published; omitted when ToldYa is fully hidden.
+        { path: '/toldya/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/toldya/child-safety', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/toldya/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/toldya/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/toldya/delete-account', priority: 0.35, changefreq: 'yearly' } satisfies SitemapRouteMeta,
+      ]
     : []),
-  { path: '/toldya/child-safety', priority: 0.55, changefreq: 'monthly' },
-  { path: '/toldya/privacy', priority: 0.5, changefreq: 'monthly' },
-  { path: '/toldya/terms', priority: 0.5, changefreq: 'monthly' },
-  { path: '/toldya/delete-account', priority: 0.35, changefreq: 'yearly' },
   ...(COLLAGIO_PUBLISHED || COLLAGIO_PILOT
     ? [
         { path: '/collagio', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
         { path: '/collagio/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/collagio/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/collagio/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
       ]
     : []),
-  { path: '/collagio/privacy', priority: 0.5, changefreq: 'monthly' },
-  { path: '/collagio/terms', priority: 0.5, changefreq: 'monthly' },
   { path: '/dreambit-legacy', priority: 0.55, changefreq: 'yearly' },
   { path: '/dreambit-legacy/privacy', priority: 0.4, changefreq: 'yearly' },
   { path: '/dreambit-legacy/terms', priority: 0.4, changefreq: 'yearly' },

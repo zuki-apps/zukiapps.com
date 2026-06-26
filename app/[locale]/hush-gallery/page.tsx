@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
@@ -11,6 +12,7 @@ import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { HUSH_GALLERY_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
+import ScreenshotLightbox from '@/components/ScreenshotLightbox';
 
 type ScreenshotItem = {
   id: string;
@@ -31,6 +33,14 @@ export default function HushGalleryPage() {
   const howToSteps =
     (t.raw('howToUse.steps') as Array<{ number: string; title: string; description: string }> | undefined) ?? [];
   const screenshotItems = (t.raw('screenshots.items') as ScreenshotItem[] | undefined) ?? [];
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+
+  const lightboxImages = screenshotItems.map((item) => ({
+    src: item.image,
+    alt: item.alt,
+    title: item.title,
+    description: item.description,
+  }));
 
   return (
     <>
@@ -271,27 +281,36 @@ export default function HushGalleryPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 items-start">
               {screenshotItems
                 .filter((item) => item.category === 'features')
-                .map((item) => (
-                  <figure
-                    key={item.id}
-                    className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 border-purple-600/30 hover:border-purple-500/50 transition-all"
-                  >
-                    <div className="w-full max-w-[220px] mx-auto">
-                      <Image
-                        src={item.image}
-                        alt={item.alt}
-                        width={0}
-                        height={0}
-                        sizes="220px"
-                        className="w-full h-auto block"
-                      />
-                    </div>
-                    <figcaption className="p-4">
-                      <h4 className="font-bold text-white mb-2">{item.title}</h4>
-                      <p className="text-sm text-gray-400">{item.description}</p>
-                    </figcaption>
-                  </figure>
-                ))}
+                .map((item) => {
+                  const idx = screenshotItems.findIndex((s) => s.id === item.id);
+                  return (
+                    <figure
+                      key={item.id}
+                      className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 border-purple-600/30 hover:border-purple-500/50 transition-all"
+                    >
+                      <button
+                        type="button"
+                        onClick={() => setLightboxIndex(idx)}
+                        className="w-full max-w-[220px] mx-auto block cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 rounded-t-xl"
+                        aria-label={`View larger: ${item.title}`}
+                      >
+                        <Image
+                          src={item.image}
+                          alt={item.alt}
+                          width={640}
+                          height={1280}
+                          unoptimized
+                          sizes="220px"
+                          className="w-full h-auto block"
+                        />
+                      </button>
+                      <figcaption className="p-4">
+                        <h4 className="font-bold text-white mb-2">{item.title}</h4>
+                        <p className="text-sm text-gray-400">{item.description}</p>
+                      </figcaption>
+                    </figure>
+                  );
+                })}
             </div>
 
             <h3 className="text-2xl font-bold text-purple-300 mb-2">
@@ -301,27 +320,36 @@ export default function HushGalleryPage() {
             <div className="grid md:grid-cols-3 gap-8 mb-16 items-start">
               {screenshotItems
                 .filter((item) => item.category === 'onboarding')
-                .map((item) => (
-                  <figure
-                    key={item.id}
-                    className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 border-purple-600/30 hover:border-purple-500/50 transition-all"
-                  >
-                    <div className="w-full max-w-[220px] mx-auto">
-                      <Image
-                        src={item.image}
-                        alt={item.alt}
-                        width={0}
-                        height={0}
-                        sizes="220px"
-                        className="w-full h-auto block"
-                      />
-                    </div>
-                    <figcaption className="p-4">
-                      <h4 className="font-bold text-white mb-2">{item.title}</h4>
-                      <p className="text-sm text-gray-400">{item.description}</p>
-                    </figcaption>
-                  </figure>
-                ))}
+                .map((item) => {
+                  const idx = screenshotItems.findIndex((s) => s.id === item.id);
+                  return (
+                    <figure
+                      key={item.id}
+                      className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 border-purple-600/30 hover:border-purple-500/50 transition-all"
+                    >
+                      <button
+                        type="button"
+                        onClick={() => setLightboxIndex(idx)}
+                        className="w-full max-w-[220px] mx-auto block cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 rounded-t-xl"
+                        aria-label={`View larger: ${item.title}`}
+                      >
+                        <Image
+                          src={item.image}
+                          alt={item.alt}
+                          width={640}
+                          height={1280}
+                          unoptimized
+                          sizes="220px"
+                          className="w-full h-auto block"
+                        />
+                      </button>
+                      <figcaption className="p-4">
+                        <h4 className="font-bold text-white mb-2">{item.title}</h4>
+                        <p className="text-sm text-gray-400">{item.description}</p>
+                      </figcaption>
+                    </figure>
+                  );
+                })}
             </div>
 
           </div>
@@ -690,7 +718,14 @@ export default function HushGalleryPage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
-        utmContent="hush-gallery"
+          utmContent="hush-gallery"
+        />
+
+        <ScreenshotLightbox
+          images={lightboxImages}
+          index={lightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+          onChange={setLightboxIndex}
         />
       </div>
     </>

@@ -1,0 +1,592 @@
+{
+  "hushGallery": {
+    "back": "Zurück zur Startseite",
+    "hero": {
+      "badge": "Jetzt verfügbar",
+      "title": "Hush Gallery - Hide Photos & Videos",
+      "subtitle": "Private Fotogalerie",
+      "description": "Eine sichere und private Fotogalerie-Anwendung, mit der Sie Ihre persönlichen Fotos sicher und organisiert aufbewahren können. Mit erweiterten Datenschutzfunktionen und intuitivem Design ist es die perfekte Lösung zum Schutz Ihrer Erinnerungen.",
+      "structuredDataDescription": "Hush Gallery — private photo and video vault for iOS and Android. Hide media from WhatsApp and Photos via Share, organize with tags, PIN/biometric App Lock (Premium), optional iCloud/Google Drive backup. Package com.zuki.apps.hushGallery by Zuki Apps."
+    },
+    "features": {
+      "title": "Hauptfunktionen",
+      "privacy": {
+        "title": "Datenschutz zuerst",
+        "description": "Ihre Fotos werden sicher mit erweiterter Verschlüsselung gespeichert",
+        "items": [
+          "Lokale Speicherung im privaten Verzeichnis der App",
+          "Optionale verschlüsselte Cloud-Sicherung",
+          "PIN/Passwort und biometrische Authentifizierung",
+          "Kein Zugriff durch andere Apps"
+        ]
+      },
+      "storage": {
+        "title": "Sichere Speicherung",
+        "description": "Alle Medien werden lokal mit optionaler Cloud-Synchronisierung gespeichert",
+        "items": [
+          "Privater App-Speicher",
+          "Clientseitige Verschlüsselung für Cloud-Backup",
+          "Import aus Systemgalerie",
+          "Export mit Metadaten-Erhaltung"
+        ]
+      },
+      "organization": {
+        "title": "Organisierte Sammlungen",
+        "description": "Verwalten Sie Ihre Fotos und Videos effizient",
+        "items": [
+          "Benutzerdefinierte Ordnerverwaltung",
+          "Medien-Organisationstools",
+          "Such- und Filterfunktionen",
+          "Metadaten-Erhaltung"
+        ]
+      },
+      "security": {
+        "title": "App-Sperre",
+        "description": "Schützen Sie Ihre Galerie mit mehreren Sicherheitsoptionen",
+        "items": [
+          "PIN/Passwort-Schutz",
+          "Biometrische Authentifizierung (Face ID/Touch ID)",
+          "Automatische Sperre nach Inaktivität",
+          "Sicherer Einstiegspunkt"
+        ]
+      },
+      "backup": {
+        "title": "Cloud-Backup",
+        "description": "Optionale verschlüsselte Cloud-Sicherung für Ihre Medien",
+        "items": [
+          "Clientseitige Verschlüsselung",
+          "Firebase oder iCloud/Google Drive Unterstützung",
+          "Selektive Sicherung",
+          "Automatische Synchronisierung"
+        ]
+      },
+      "import": {
+        "title": "Import/Export",
+        "description": "Einfache Medienverwaltung",
+        "items": [
+          "Import aus Systemgalerie",
+          "Export mit Metadaten",
+          "Stapeloperationen",
+          "Format-Erhaltung"
+        ]
+      }
+    },
+    "businessUse": {
+      "title": "💼 Perfect for Business Use",
+      "description": "Are you a business owner who uses your phone for both work and personal life? Hush Gallery is the perfect solution to keep your business photos separate from your personal ones.",
+      "benefits": {
+        "title": "Business Benefits",
+        "items": [
+          "Create dedicated tags for product photos, client documents, marketing materials, team photos, and financial documents",
+          "Never worry about accidentally showing personal photos during a business presentation",
+          "Keep work files separate from family memories",
+          "Access business photos during meetings without exposing personal content",
+          "Share business photos with colleagues without showing personal files"
+        ]
+      },
+      "example": {
+        "title": "🎯 Real-World Example",
+        "description": "You run a small business and use your phone for everything. You take photos of products, receipts, client meetings, and also personal family photos. With Hush Gallery, you can:",
+        "items": [
+          "Create a \"Business\" tag for all work-related photos",
+          "Create a \"Personal\" tag for family photos",
+          "Keep them completely separate and secure",
+          "Access business photos during meetings without exposing personal content",
+          "Share business photos with colleagues without showing personal files"
+        ]
+      }
+    },
+    "howToUse": {
+      "title": "📱 How to Use",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Select Photos",
+          "description": "Select photos from any app (Gallery, WhatsApp, etc.)"
+        },
+        {
+          "number": "2",
+          "title": "Share to Hush Gallery",
+          "description": "Tap \"Share\" and choose \"Hush Gallery\""
+        },
+        {
+          "number": "3",
+          "title": "Auto-Hide & Encrypt",
+          "description": "Your photos are automatically hidden and encrypted"
+        },
+        {
+          "number": "4",
+          "title": "Organize with Tags",
+          "description": "Create tags to organize (Business, Personal, Family, etc.)"
+        },
+        {
+          "number": "5",
+          "title": "Secure Access",
+          "description": "Access with PIN or biometric authentication"
+        }
+      ]
+    },
+    "languages": {
+      "title": "🌍 Multi-Language Support",
+      "description": "Hush Gallery supports 12+ languages including English, עברית, Русский, العربية, Français, Italiano, Español, Português, 中文（简体）, Deutsch, 日本語, 한국어, and more."
+    },
+    "privacyGuarantee": {
+      "title": "🔒 Privacy Guarantee",
+      "description": "Your privacy is our top priority. All files are stored securely in the app's private directory, we never access your files, and your data is never sold to third parties. Encryption feature coming soon."
+    },
+    "premium": {
+      "title": "Premium-Funktionen",
+      "description": "Schalten Sie erweiterte Funktionen mit einem einmaligen Kauf frei",
+      "free": {
+        "title": "Kostenlose Funktionen",
+        "items": [
+          "Grundlegende Galeriefunktionalität",
+          "Lokale Speicherung",
+          "App-Sperre (PIN)",
+          "Grundlegende Ordnerverwaltung"
+        ]
+      },
+      "premium": {
+        "title": "Premium-Funktionen",
+        "items": [
+          "Verschlüsseltes Cloud-Backup",
+          "Biometrische Authentifizierung",
+          "Erweiterte Ordnerverwaltung",
+          "Metadaten-Tools",
+          "Prioritäts-Support"
+        ]
+      },
+      "pricing": {
+        "oneTime": "Einmaliger Kauf",
+        "description": "Schalten Sie alle Premium-Funktionen für immer frei"
+      }
+    },
+    "status": {
+      "title": "✅ Jetzt verfügbar",
+      "description": "Verfügbar im App Store und bei Google Play",
+      "version": "Version",
+      "status": "Status",
+      "versionValue": "1.0.13+14",
+      "statusValue": "Verfügbar im App Store und bei Google Play"
+    },
+    "download": {
+      "title": "Jetzt herunterladen",
+      "description": "Laden Sie Hush Gallery aus den App Stores",
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "soon": "Bald verfügbar",
+      "download": "Download",
+      "appStoreUrl": "https://apps.apple.com/il/app/hush-gallery/id6756169045",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery",
+      "appIconAlt": "Hush Gallery App Icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Wichtige Links",
+      "support": {
+        "title": "Technischer Support",
+        "email": "zuki.apps@gmail.com"
+      },
+      "contact": {
+        "title": "Allgemeine Kontaktaufnahme",
+        "email": "zuki.apps@gmail.com"
+      },
+      "social": {
+        "title": "Soziale Medien"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Hush Gallery - Alle Rechte vorbehalten",
+      "tagline": "Teil von Zuki Apps • Entwickler aus Israel • Mit ❤️ gemacht"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+      "intro": "Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie Hush Gallery verwenden. Durch den Zugriff auf oder die Nutzung unseres Dienstes stimmen Sie diesen Bedingungen zu. Wenn Sie diesen Bedingungen nicht zustimmen, verwenden Sie bitte unseren Dienst nicht.",
+      "section1": {
+        "title": "1. Annahme der Bedingungen",
+        "content": "Diese Nutzungsbedingungen (\"Bedingungen\") regeln Ihren Zugriff auf und die Nutzung von Hush Gallery (\"Dienst\", \"App\", \"wir\", \"uns\" oder \"unser\"), einer privaten Fotogalerie-Anwendung, die von Zuki Apps (\"Unternehmen\") betrieben wird. Durch das Herunterladen, Installieren, Zugreifen auf oder Verwenden des Dienstes stimmen Sie diesen Bedingungen und unserer Datenschutzrichtlinie zu.",
+        "content2": "Wenn Sie den Dienst im Namen einer Organisation verwenden, erklären und garantieren Sie, dass Sie die Befugnis haben, diese Organisation an diese Bedingungen zu binden."
+      },
+      "section2": {
+        "title": "2. Beschreibung des Dienstes",
+        "content": "Hush Gallery ist eine mobile Anwendung, die es Benutzern ermöglicht, Fotos und Videos privat zu speichern, zu organisieren und zu verwalten. Der Dienst umfasst:",
+        "items": [
+          "Lokale Speicherung von Fotos und Videos",
+          "Optionale verschlüsselte Cloud-Sicherung",
+          "Ordnerverwaltung und Organisation",
+          "App-Sperre mit PIN/Passwort und biometrischer Authentifizierung",
+          "Import/Export-Funktionalität",
+          "Premium-Funktionen (wie in der App beschrieben)"
+        ]
+      },
+      "section19": {
+        "title": "19. Kontaktinformationen",
+        "content": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte:",
+        "email": "zuki.apps@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+      "section1": {
+        "title": "1. Informationen, die wir sammeln",
+        "content": "Hush Gallery ist mit Datenschutz als Kernprinzip entwickelt. Wir sammeln nur die für die Bereitstellung des Dienstes erforderlichen Informationen. Wir sammeln Informationen, die Sie uns direkt zur Verfügung stellen, z. B. wenn Sie ein Konto erstellen (bei Verwendung von Cloud-Backup), unsere Dienste nutzen oder uns für Support kontaktieren."
+      },
+      "section2": {
+        "title": "2. Wie wir Ihre Informationen verwenden",
+        "content": "Wir verwenden die von uns gesammelten Informationen, um unsere Dienste bereitzustellen, zu warten und zu verbessern. Ihre Fotos und Videos werden standardmäßig lokal auf Ihrem Gerät gespeichert. Wenn Sie sich für Cloud-Backup entscheiden, werden Ihre Medien clientseitig verschlüsselt, bevor sie gespeichert werden."
+      },
+      "section3": {
+        "title": "3. Informationsweitergabe",
+        "content": "Wir verkaufen, handeln oder übertragen Ihre persönlichen Informationen oder Medien nicht ohne Ihre Zustimmung an Dritte, außer wie in dieser Richtlinie beschrieben. Ihre Fotos und Videos bleiben privat und sind nur für Sie zugänglich."
+      },
+      "section4": {
+        "title": "4. Datensicherheit",
+        "content": "Wir implementieren angemessene Sicherheitsmaßnahmen zum Schutz Ihrer persönlichen Informationen und Medien. Alle Cloud-Backups werden clientseitig verschlüsselt, bevor sie übertragen werden. Die lokale Speicherung verwendet das private Verzeichnis der App, auf das andere Apps nicht zugreifen können."
+      },
+      "section5": {
+        "title": "5. Ihre Rechte",
+        "content": "Sie haben das Recht, jederzeit auf Ihre persönlichen Informationen und Medien zuzugreifen, sie zu aktualisieren oder zu löschen. Sie können Ihr Konto und alle zugehörigen Daten über die App-Einstellungen löschen. Sie können sich auch jederzeit von Cloud-Backup abmelden."
+      },
+      "section6": {
+        "title": "6. Zugriff auf Foto- und Videobibliothek",
+        "content": "Hush Gallery benötigt Zugriff auf die Fotobibliothek Ihres Geräts, damit Sie Fotos und Videos importieren können. Wir greifen nur auf Ihre Medien zu, wenn Sie explizit den Import wählen. Alle importierten Medien werden im privaten Verzeichnis der App gespeichert und nicht an Dritte weitergegeben."
+      },
+      "section8": {
+        "title": "8. Kontaktieren Sie uns",
+        "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:",
+        "email": "zuki.apps@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "deleteAccount": {
+      "title": "Hush Gallery Konto löschen",
+      "intro": "Wenn Sie Ihr Konto und alle zugehörigen Daten löschen möchten, befolgen Sie bitte die folgenden Schritte. Dieser Vorgang ist dauerhaft und kann nicht rückgängig gemacht werden.",
+      "warning": {
+        "title": "⚠️ Wichtige Warnung",
+        "content": "Die Kontolöschung ist eine dauerhafte Aktion und kann nicht rückgängig gemacht werden. Alle mit Ihrem Konto verbundenen Daten werden dauerhaft gelöscht, einschließlich Fotos, Videos, Ordner und Einstellungen."
+      },
+      "steps": {
+        "title": "Anleitung zur Kontolöschung",
+        "step1": "Öffnen Sie die Hush Gallery App auf Ihrem Gerät",
+        "step2": "Melden Sie sich bei Ihrem Konto an (falls noch nicht geschehen)",
+        "step3": "Navigieren Sie zu den Einstellungen (normalerweise über das Hauptmenü oder Profil erreichbar)",
+        "step4": "Scrollen Sie nach unten, bis Sie die Option \"Konto löschen\" oder \"Kontoeinstellungen\" finden",
+        "step5": "Tippen Sie auf die Schaltfläche \"Konto löschen\" und lesen Sie die Warnmeldung sorgfältig",
+        "step6": "Bestätigen Sie die Löschung - das Konto und alle Daten werden dauerhaft gelöscht"
+      },
+      "data": {
+        "title": "Daten, die gelöscht werden",
+        "intro": "Wenn Sie Ihr Konto löschen, werden die folgenden Daten dauerhaft gelöscht:",
+        "item1": "Kontoinformationen: Name, E-Mail-Adresse, Benutzer-ID (bei Verwendung von Cloud-Backup)",
+        "item2": "Fotos und Videos: alle in der App gespeicherten Medien",
+        "item3": "Ordner und Sammlungen: alle organisierten Ordner und Alben",
+        "item4": "Einstellungen und Präferenzen: App-Einstellungen, PIN/Passwort, biometrische Einstellungen",
+        "item5": "Cloud-Backup-Daten: alle verschlüsselten Backup-Daten (wenn Cloud-Backup aktiviert war)",
+        "item6": "Metadaten: alle mit Ihren Medien verbundenen Metadaten",
+        "item7": "Lokaler Speicher: alle im privaten Verzeichnis der App gespeicherten Daten"
+      },
+      "partialDelete": {
+        "title": "Löschen einiger Daten (ohne Löschen des Kontos)",
+        "intro": "Wenn Sie nur einige Daten löschen möchten, ohne das Konto zu löschen, können Sie:",
+        "item1": "Einzelne Fotos/Videos löschen: Medien öffnen → Löschen-Option",
+        "item2": "Ordner löschen: Ordner öffnen → Ordner löschen-Option",
+        "item3": "App-Daten löschen: Einstellungen → Alle Daten löschen (behält Konto)",
+        "item4": "Cloud-Backup deaktivieren: Einstellungen → Cloud-Backup deaktivieren (entfernt Cloud-Daten, behält aber lokale Daten)"
+      },
+      "retention": {
+        "title": "Aufbewahrungsfrist",
+        "content": "Nach der Kontolöschung werden die Daten innerhalb von 30 Tagen von unseren Servern gelöscht. Während dieser Zeit können Daten in Backups gespeichert bleiben, sind aber nicht über die App zugänglich. Lokale Daten auf Ihrem Gerät werden sofort gelöscht, wenn Sie das Konto über die App löschen."
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "content": "Wenn Sie Fragen oder Probleme bei der Kontolöschung haben, kontaktieren Sie uns bitte:",
+        "email": "E-Mail",
+        "privacy": "Datenschutzrichtlinie",
+        "privacyLink": "Vollständige Datenschutzrichtlinie lesen",
+        "terms": "Nutzungsbedingungen",
+        "termsLink": "Nutzungsbedingungen lesen"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers for users and search assistants about Hush Gallery features, privacy, and troubleshooting.",
+      "viewAllSupport": "Full support page",
+      "items": [
+        {
+          "question": "What is Hush Gallery?",
+          "answer": "Hush Gallery is a private photo and video gallery for iOS and Android. Media is stored in the app's private storage (separate from your public Photos app), organized with tags, protected with optional Premium app lock (PIN/biometric), and optionally backed up to iCloud (iOS) or Google Drive (Android). Package: com.zuki.apps.hushGallery."
+        },
+        {
+          "question": "How do I import photos and videos into Hush Gallery?",
+          "answer": "Open Hush Gallery and tap the + (Add) button. Choose Import from Gallery, Take Photo, or Take Video. Select one or more items from your device library. After import you can optionally delete the originals from your public gallery. You can also share directly from WhatsApp, Messages, Photos, or other apps using Share → Hush Gallery."
+        },
+        {
+          "question": "How does Share to Hush Gallery work on iPhone?",
+          "answer": "In Photos, WhatsApp, or any app: select media → Share → Hush Gallery. The iOS Share Extension copies files to secure app storage and opens Hush Gallery. On first launch after sharing, accept the privacy notice if shown, then confirm import. You may be asked whether to delete originals from the Photos library."
+        },
+        {
+          "question": "How does Share to Hush Gallery work on Android?",
+          "answer": "Select photos or videos in any app → Share → Hush Gallery. The app receives the shared files and imports them into private storage. Grant photo access when prompted. Optional: delete originals after import via the in-app dialog or Settings → Deletion → Auto-Delete Source Files."
+        },
+        {
+          "question": "Can I delete originals from my public gallery after import?",
+          "answer": "Yes. After each import, Hush Gallery can ask: Delete original files from your photo gallery? Enable Settings → Deletion → Auto-Delete Source Files to skip the prompt. Deletion uses Photos library asset IDs on iOS when available; if identification fails, you will be asked to delete manually for safety."
+        },
+        {
+          "question": "How do tags work in Hush Gallery?",
+          "answer": "Create custom tags from the tags bar (Manage Tags). Filter the grid with All, Untagged, or any tag. In selection mode, assign tags to multiple items at once. Free users: up to 5 tags. Premium: unlimited tags. Reorder tags in edit mode."
+        },
+        {
+          "question": "What is the difference between Free and Premium?",
+          "answer": "Free: local private gallery, import/export, up to 5 tags, banner ads. Premium (one-time purchase): remove all ads, unlimited tags, App Lock (PIN/biometric/auto-lock), cloud backup, and future premium features. Watch a rewarded ad for 24 hours ad-free on the free tier."
+        },
+        {
+          "question": "How do I set up App Lock?",
+          "answer": "Premium required. Go to Settings → Security → App Lock. Set a 4- or 6-digit PIN and optionally enable Face ID / Touch ID / fingerprint. Configure auto-lock timeout (immediately, 1, 5, or 15 minutes). Verified email is required for PIN recovery."
+        },
+        {
+          "question": "I forgot my PIN. How do I recover access?",
+          "answer": "On the lock screen tap Forgot PIN. Sign in with the verified email used for recovery, or restore your PIN from an encrypted cloud backup if enabled. Clearing lock settings removes the PIN but does not delete your media."
+        },
+        {
+          "question": "How does cloud backup work?",
+          "answer": "Premium feature. Settings → Backup → Backup Now or enable Auto Backup. iOS uses iCloud; Android uses Google Drive. Restore on a new device from Settings or during onboarding. Keep the app open during backup/restore."
+        },
+        {
+          "question": "Is my media encrypted?",
+          "answer": "Media is stored in the app's private directory inaccessible to other apps. Client-side encryption for local files and cloud backup is Coming Soon in Settings. Cloud backup uploads to your own iCloud/Google account when enabled."
+        },
+        {
+          "question": "Where are my photos stored? Can other apps see them?",
+          "answer": "Imported files live in Hush Gallery's private app storage on your device—not in the public camera roll unless you export them. Other apps cannot browse the vault without your unlock PIN/biometric (Premium)."
+        },
+        {
+          "question": "How do I export photos back to my device gallery?",
+          "answer": "Open a photo/video → Export to Gallery, or select multiple items in selection mode → Export. Metadata is preserved where supported. Move to Gallery exports and optionally removes the copy from Hush Gallery."
+        },
+        {
+          "question": "How does swipe-to-delete work?",
+          "answer": "Swipe a thumbnail left to delete. A snackbar appears for 5 seconds with Undo. Confirm deletes permanently from Hush Gallery (not from the public gallery unless you imported with delete-original)."
+        },
+        {
+          "question": "What languages does Hush Gallery support?",
+          "answer": "12+ languages including English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, and Chinese. Change in Settings → Language."
+        },
+        {
+          "question": "What is the first-launch privacy notice?",
+          "answer": "On first open, Hush Gallery shows a privacy notice explaining that media stays on your device and changes can be permanent. Tap Continue after accepting, or Not now to defer (shown again next launch)."
+        },
+        {
+          "question": "How do I delete my account?",
+          "answer": "Settings → Account → Delete Account. See https://zukiapps.com/hush-gallery/delete-account for step-by-step instructions."
+        },
+        {
+          "question": "What happens if I uninstall the app?",
+          "answer": "Local private storage is removed with the app unless you exported files first. If cloud backup was enabled, reinstall, sign in, and use Restore from Backup."
+        },
+        {
+          "question": "Does Hush Gallery show ads?",
+          "answer": "Free tier shows banner ads and occasional interstitials. Premium removes all ads. Free users can watch a rewarded ad for 24 hours without ads."
+        },
+        {
+          "question": "How do I contact support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/hush-gallery/support. Privacy: https://zukiapps.com/hush-gallery/privacy. Terms: https://zukiapps.com/hush-gallery/terms."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Screenshots & Guides",
+      "subtitle": "Visual overview of Hush Gallery features and step-by-step flows.",
+      "featuresTitle": "Features",
+      "howToTitle": "How-to",
+      "onboardingTitle": "First launch tour",
+      "onboardingSubtitle": "Privacy, tags, and optional cloud backup explained before you import.",
+      "items": [
+        {
+          "id": "gallery",
+          "title": "Private gallery grid",
+          "description": "Browse photos and videos in a secure grid. Filter by tags, sort by date or size, and swipe to delete with undo.",
+          "image": "/images/hush-gallery/screenshot-gallery.png",
+          "alt": "Hush Gallery main photo grid with tag filters",
+          "category": "features"
+        },
+        {
+          "id": "tags",
+          "title": "Organize with tags",
+          "description": "Create tags like Business, Personal, or Family. Filter instantly and assign tags in batch selection mode.",
+          "image": "/images/hush-gallery/screenshot-tags.png",
+          "alt": "Hush Gallery tag management and filter chips",
+          "category": "features"
+        },
+        {
+          "id": "lock",
+          "title": "App Lock (Premium)",
+          "description": "Protect your vault with PIN and Face ID / Touch ID. Auto-lock after inactivity.",
+          "image": "/images/hush-gallery/screenshot-lock.png",
+          "alt": "Hush Gallery PIN lock screen",
+          "category": "features"
+        },
+        {
+          "id": "backup",
+          "title": "Cloud backup (Premium)",
+          "description": "Backup Now, auto backup, and restore from iCloud or Google Drive.",
+          "image": "/images/hush-gallery/screenshot-backup.png",
+          "alt": "Hush Gallery backup and restore settings",
+          "category": "features"
+        },
+        {
+          "id": "settings",
+          "title": "Settings",
+          "description": "Security, backup, Premium, language, theme, and account in one place.",
+          "image": "/images/hush-gallery/screenshot-settings.png",
+          "alt": "Hush Gallery settings screen",
+          "category": "features"
+        }
+      ]
+    },
+    "manual": {
+      "title": "User Manual",
+      "subtitle": "Quick reference for common tasks.",
+      "sections": [
+        {
+          "title": "Import from gallery",
+          "steps": [
+            "Open Hush Gallery → tap + → Import from Gallery.",
+            "Select photos/videos → confirm import.",
+            "Optional: delete originals when prompted."
+          ]
+        },
+        {
+          "title": "Share from another app",
+          "steps": [
+            "Select media in Photos, WhatsApp, etc.",
+            "Tap Share → Hush Gallery.",
+            "Open Hush Gallery and complete import."
+          ]
+        },
+        {
+          "title": "Enable App Lock (Premium)",
+          "steps": [
+            "Upgrade to Premium if needed.",
+            "Settings → Security → App Lock → set PIN.",
+            "Enable biometric unlock and auto-lock timeout."
+          ]
+        },
+        {
+          "title": "Backup and restore",
+          "steps": [
+            "Settings → Backup → Backup Now (Premium).",
+            "Enable Auto Backup for scheduled sync.",
+            "On new device: Restore from Backup after sign-in."
+          ]
+        }
+      ]
+    },
+    "support": {
+      "title": "Support & Hilfe",
+      "subtitle": "Wir sind hier, um zu helfen! Finden Sie Antworten auf häufige Fragen oder kontaktieren Sie uns direkt.",
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Haben Sie eine Frage oder benötigen Sie Hilfe? Senden Sie uns eine E-Mail und wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Schnelllinks",
+        "privacy": {
+          "title": "Datenschutzrichtlinie",
+          "description": "Erfahren Sie, wie wir Ihre Daten schützen"
+        },
+        "terms": {
+          "title": "Nutzungsbedingungen",
+          "description": "Lesen Sie unsere Allgemeinen Geschäftsbedingungen"
+        },
+        "deleteAccount": {
+          "title": "Konto löschen",
+          "description": "Anleitung zur Kontolöschung"
+        }
+      },
+      "additionalHelp": {
+        "title": "Benötigen Sie weitere Hilfe?",
+        "description": "Wenn Sie die gesuchte Antwort nicht gefunden haben oder ein technisches Problem haben, zögern Sie bitte nicht, uns zu kontaktieren. Wir sind hier, um zu helfen und antworten normalerweise innerhalb von 24-48 Stunden."
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "q1": {
+          "question": "Wie importiere ich Fotos und Videos in Hush Gallery?",
+          "answer": "Um Medien zu importieren, öffnen Sie die App und tippen Sie auf die Schaltfläche '+' oder 'Importieren'. Sie können Fotos und Videos aus der Galerie Ihres Geräts auswählen. Die importierten Medien werden sicher im privaten Verzeichnis der App gespeichert und sind für andere Apps nicht zugänglich."
+        },
+        "q2": {
+          "question": "Wie funktioniert Cloud-Backup?",
+          "answer": "Cloud-Backup ist eine optionale Premium-Funktion. Wenn aktiviert, werden Ihre Fotos und Videos auf Ihrem Gerät verschlüsselt, bevor sie zu iCloud (iOS) oder Google Drive (Android) hochgeladen werden. Die Verschlüsselung erfolgt clientseitig, was bedeutet, dass wir nicht auf Ihre Medien zugreifen können. Sie können Cloud-Backup jederzeit in den Einstellungen aktivieren oder deaktivieren."
+        },
+        "q3": {
+          "question": "Wie richte ich die App-Sperre ein?",
+          "answer": "Gehen Sie zu Einstellungen → Sicherheit → App-Sperre. Sie können eine PIN, ein Passwort einrichten oder die biometrische Authentifizierung (Face ID/Touch ID) aktivieren. Die App wird automatisch nach einer Zeit der Inaktivität gesperrt, die Sie in den Einstellungen konfigurieren können."
+        },
+        "q4": {
+          "question": "Wie lösche ich mein Konto?",
+          "answer": "Um Ihr Konto zu löschen, gehen Sie zu Einstellungen → Konto → Konto löschen. Bitte beachten Sie, dass die Kontolöschung dauerhaft ist und nicht rückgängig gemacht werden kann. Alle Ihre Daten, einschließlich Fotos, Videos, Ordner und Einstellungen, werden dauerhaft gelöscht. Für detaillierte Anweisungen besuchen Sie unsere Seite zur Kontolöschung."
+        },
+        "q5": {
+          "question": "Kann ich Hush Gallery ohne Cloud-Backup verwenden?",
+          "answer": "Ja! Hush Gallery funktioniert vollständig offline. Alle Ihre Fotos und Videos werden standardmäßig lokal auf Ihrem Gerät gespeichert. Cloud-Backup ist optional und wird nur aktiviert, wenn Sie es verwenden möchten. Ihre Medien bleiben privat und sicher, auch ohne Cloud-Backup."
+        },
+        "q6": {
+          "question": "Was passiert mit meinen Fotos, wenn ich die App deinstalliere?",
+          "answer": "Wenn Sie die App deinstallieren, ohne zuvor Ihr Konto zu löschen, werden Ihre lokalen Daten gelöscht. Wenn Sie Cloud-Backup aktiviert hatten, können Sie Ihre Daten wiederherstellen, indem Sie die App neu installieren und sich mit demselben Konto anmelden. Wir empfehlen, wichtige Fotos zu exportieren, bevor Sie die App deinstallieren, wenn Sie kein Cloud-Backup aktiviert haben."
+        }
+      }
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get the most from your private gallery.",
+      "items": [
+        {
+          "title": "Hide from WhatsApp fast",
+          "description": "Long-press a photo in WhatsApp → Share → Hush Gallery. Faster than saving to Camera Roll first."
+        },
+        {
+          "title": "Use tags early",
+          "description": "Create tags when you import so filtering stays easy as your vault grows."
+        },
+        {
+          "title": "Short auto-lock",
+          "description": "Set App Lock to Immediately or 1 minute if you hand your phone to others often."
+        },
+        {
+          "title": "Backup before a new phone",
+          "description": "Run Backup Now before replacing your device; restore after signing in on the new install."
+        },
+        {
+          "title": "Export without losing vault copy",
+          "description": "Export to Gallery copies files out; originals remain in Hush Gallery until you delete them."
+        },
+        {
+          "title": "Restore purchases",
+          "description": "Reinstalled? Premium → Restore purchases with the same store account."
+        },
+        {
+          "title": "12 languages + RTL",
+          "description": "Settings → Language includes Hebrew and Arabic with full RTL layout support."
+        },
+        {
+          "title": "Send feedback in-app",
+          "description": "Settings → About → Send feedback, or email zuki.apps.dev@gmail.com before leaving a store review."
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to",
+      "manual": "Manual",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    }
+  }
+}

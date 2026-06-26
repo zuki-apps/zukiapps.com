@@ -20,8 +20,8 @@ export default async function ProductStructuredDataBlock({
   const t = await getTranslations({ locale, namespace: config.namespace });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
-  const faqItems = (t.raw('faq.items') as FaqItem[] | undefined) ?? [];
-  const howToSteps = (t.raw('howToUse.steps') as HowToStep[] | undefined) ?? [];
+  const faqItems = (t.has('faq.items') ? (t.raw('faq.items') as FaqItem[]) : undefined) ?? [];
+  const howToSteps = (t.has('howToUse.steps') ? (t.raw('howToUse.steps') as HowToStep[]) : undefined) ?? [];
   const structuredDescription = t.has('hero.structuredDataDescription')
     ? t('hero.structuredDataDescription')
     : t('hero.description');

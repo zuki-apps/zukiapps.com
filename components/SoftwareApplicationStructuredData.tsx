@@ -1,6 +1,6 @@
 import { routing } from '@/routing';
 import { ANDROID_APPLICATION_ID_BY_PATH } from '@/lib/appStructuredData';
-import { HUSH_GALLERY_ICON, WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
+import { HUSH_GALLERY_ICON, WHISTLE_CAMERA_ICON, COLLAGIO_ICON } from '@/lib/appIcons';
 
 interface SoftwareApplicationStructuredDataProps {
   locale: string;
@@ -59,6 +59,7 @@ export default function SoftwareApplicationStructuredData({
     '/noise-meter-shusher': '/images/noise-meter-shusher-icon.png',
     '/paratrooper-blitz': '/images/paratrooper-blitz-icon.png',
     '/toldya': '/images/toldya-icon.png',
+    '/collagio': COLLAGIO_ICON,
   };
 
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'

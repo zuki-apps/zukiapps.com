@@ -1,0 +1,505 @@
+{
+  "whistleCamera": {
+    "back": "Torna alla Home",
+    "hero": {
+      "badge": "Disponibile ora",
+      "title": "Whistle Camera - Selfie & More",
+      "subtitle": "App Fotocamera Intelligente",
+      "description": "Un'applicazione fotocamera innovativa che porta nuove caratteristiche e capacità alla fotografia mobile. Con rilevamento del fischio, modalità incognito e controlli avanzati, cattura i tuoi momenti come mai prima.",
+      "structuredDataDescription": "Whistle Camera — hands-free photo and video app for iOS and Android. Whistle to snap selfies, pet shots, and group photos. Practice whistle calibration, widgets, Siri shortcuts. Android com.zuki.apps.whistlecamera; iOS App Store id1037716421 by Zuki Apps.",
+      "socialProof": "Free download · 40+ languages · iOS & Android"
+    },
+    "features": {
+      "title": "Caratteristiche Principali",
+      "whistle": {
+        "title": "Rilevamento Fischio",
+        "description": "Cattura automaticamente foto o avvia/ferma video quando viene rilevato un fischio",
+        "items": [
+          "Rilevamento fischio in tempo reale",
+          "Cattura foto automatica",
+          "Avvio/arresto video automatico",
+          "Sensibilità personalizzabile"
+        ]
+      },
+      "calibration": {
+        "title": "Tuned to your whistle",
+        "description": "Practice mode teaches the app your exact whistle. Adjust sensitivity (1–5) and the 0–100 frequency band for quiet rooms or noisy parks.",
+        "items": [
+          "Practice whistle in Settings",
+          "Sensitivity presets (Quiet → Loud)",
+          "Live debug overlay",
+          "≈750–3000 Hz detection band"
+        ]
+      },
+      "photoVideo": {
+        "title": "Photo & video",
+        "description": "Whistle for a still, or switch to video and whistle-start / whistle-stop recording. Countdown 0, 3, 5, or 10 seconds works with both.",
+        "items": [
+          "Front and rear camera",
+          "Flash / torch",
+          "Pinch or slider zoom",
+          "Incognito mode for discreet capture"
+        ]
+      },
+      "gallery": {
+        "title": "Gallery & sharing",
+        "description": "Browse captures in the built-in gallery. Full-screen preview, multi-select share or delete, optional save to a Photos album.",
+        "items": [
+          "In-app media grid",
+          "Pinch-zoom preview",
+          "Bulk share and delete",
+          "Optional “Whistle Camera” album"
+        ]
+      },
+      "shortcuts": {
+        "title": "Widgets & Siri",
+        "description": "Launch photo or video capture from Home Screen widgets. Siri shortcuts and Apple Watch remote shutter when the companion is installed.",
+        "items": [
+          "Home Screen widgets (iOS)",
+          "Siri / Shortcuts intents",
+          "Apple Watch shutter",
+          "Lock Screen & Control Center (iOS)"
+        ]
+      },
+      "incognito": {
+        "title": "Modalità Incognito",
+        "description": "Registra o cattura foto con una sovrapposizione di schermo nero per la privacy",
+        "items": [
+          "Sovrapposizione schermo nero",
+          "Protezione della privacy",
+          "Funzionamento silenzioso",
+          "Cattura discreta"
+        ]
+      },
+      "locked": {
+        "title": "Cattura Fotocamera Bloccata",
+        "description": "Avvia la fotocamera dalla Schermata di Blocco, Centro di Controllo e Pulsante Azione",
+        "items": [
+          "Accesso dalla schermata di blocco",
+          "Widget Centro di Controllo",
+          "Supporto Pulsante Azione (iOS 18+)",
+          "Cattura rapida"
+        ]
+      },
+      "modern": {
+        "title": "Architettura Moderna",
+        "description": "Costruita con SwiftUI e concorrenza Swift",
+        "items": [
+          "Interfaccia SwiftUI",
+          "Concorrenza Swift moderna",
+          "Prestazioni fluide",
+          "Supporto iOS 17+"
+        ]
+      },
+      "controls": {
+        "title": "Controlli Avanzati",
+        "description": "Controllo completo sulla tua esperienza fotocamera",
+        "items": [
+          "Modalità foto e video",
+          "Impostazioni personalizzate",
+          "Galleria media",
+          "Funzionalità di condivisione"
+        ]
+      }
+    },
+    "status": {
+      "title": "✅ Disponibile ora",
+      "description": "Whistle Camera è disponibile per il download",
+      "version": "Versione",
+      "status": "Stato",
+      "versionValue": "1.3.4+10",
+      "statusValue": "Disponibile"
+    },
+    "download": {
+      "title": "Scarica ora",
+      "description": "Disponibile sull'App Store",
+      "soon": "Disponibile ora",
+      "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera",
+      "appIconAlt": "Whistle Camera app icon",
+      "appStoreAlt": "Scarica dall'App Store",
+      "googlePlayAlt": "Disponibile su Google Play"
+    },
+    "links": {
+      "title": "Link Importanti",
+      "support": {
+        "title": "Supporto Tecnico",
+        "email": "zuki.apps@gmail.com"
+      },
+      "contact": {
+        "title": "Contatto Generale",
+        "email": "zuki.apps@gmail.com"
+      },
+      "social": {
+        "title": "Social Media"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "How does whistle detection work?",
+          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+        },
+        "q2": {
+          "question": "What is incognito mode?",
+          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+        },
+        "q3": {
+          "question": "How do I access the camera from the Lock Screen?",
+          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+        },
+        "q4": {
+          "question": "Does Whistle Camera require an internet connection?",
+          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+        },
+        "q5": {
+          "question": "How do I adjust whistle detection sensitivity?",
+          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+        },
+        "q6": {
+          "question": "Can I use Whistle Camera without microphone access?",
+          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+        },
+        "q7": {
+          "question": "Can I use a timer instead of whistling?",
+          "answer": "Yes — countdown timer (3, 5, or 10 seconds) works with or without whistle detection enabled."
+        },
+        "q8": {
+          "question": "Is Whistle Camera on Android?",
+          "answer": "Yes — https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera"
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Whistle Camera - Tutti i diritti riservati",
+      "tagline": "Parte di Zuki Apps • Sviluppatore da Israele • Fatto con ❤️"
+    },
+    "terms": {
+      "title": "Termini di Utilizzo",
+      "lastUpdated": "Ultimo aggiornamento: Gennaio 2025",
+      "intro": "Si prega di leggere attentamente questi Termini di Utilizzo prima di utilizzare Whistle Camera. Accedendo o utilizzando il nostro servizio, accetti di essere vincolato da questi termini. Se non accetti questi termini, si prega di non utilizzare il nostro servizio.",
+      "section1": {
+        "title": "1. Accettazione dei Termini",
+        "content": "Questi Termini di Utilizzo (\"Termini\") disciplinano il tuo accesso e utilizzo di Whistle Camera (\"Servizio\", \"App\", \"noi\", \"nostro\"), un'applicazione fotocamera gestita da Zuki Apps (\"Azienda\"). Scaricando, installando, accedendo o utilizzando il Servizio, accetti di essere vincolato da questi Termini e dalla nostra Informativa sulla Privacy.",
+        "content2": "Se stai utilizzando il Servizio per conto di un'organizzazione, dichiari e garantisci di avere l'autorità per vincolare tale organizzazione a questi Termini."
+      },
+      "section2": {
+        "title": "2. Descrizione del Servizio",
+        "content": "Whistle Camera è un'applicazione fotocamera mobile che fornisce caratteristiche innovative per la fotografia mobile. Il Servizio include:",
+        "items": [
+          "Rilevamento fischio per cattura foto automatica e registrazione video",
+          "Modalità incognito per cattura privata",
+          "Cattura fotocamera bloccata dalla Schermata di Blocco e Centro di Controllo",
+          "Funzionalità di cattura foto e video",
+          "Galleria media e caratteristiche di condivisione"
+        ]
+      },
+      "section19": {
+        "title": "19. Informazioni di Contatto",
+        "content": "Se hai domande su questi Termini, si prega di contattarci:",
+        "email": "zuki.apps@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Informativa sulla Privacy",
+      "lastUpdated": "Ultimo aggiornamento: Gennaio 2025",
+      "section1": {
+        "title": "1. Informazioni che Raccogliamo",
+        "content": "Whistle Camera è progettata con la privacy in mente. Raccogliamo informazioni minime necessarie per fornire il servizio. Raccogliamo informazioni che ci fornisci direttamente, come quando usi i nostri servizi o ci contatti per supporto."
+      },
+      "section2": {
+        "title": "2. Come Utilizziamo le Tue Informazioni",
+        "content": "Utilizziamo le informazioni che raccogliamo per fornire, mantenere e migliorare i nostri servizi. Le tue foto e video sono archiviate localmente sul tuo dispositivo e non vengono trasmesse ai nostri server a meno che tu non scelga esplicitamente di condividerle."
+      },
+      "section3": {
+        "title": "3. Condivisione delle Informazioni",
+        "content": "Non vendiamo, scambiamo o trasferiamo le tue informazioni personali o media a terze parti senza il tuo consenso. Le tue foto e video rimangono sul tuo dispositivo e sono condivise solo quando scegli esplicitamente di condividerle."
+      },
+      "section4": {
+        "title": "4. Sicurezza dei Dati",
+        "content": "Implementiamo misure di sicurezza appropriate per proteggere le tue informazioni personali. Tutte le foto e video sono archiviati localmente sul tuo dispositivo nella directory privata dell'app, che non è accessibile da altre app."
+      },
+      "section5": {
+        "title": "5. I Tuoi Diritti",
+        "content": "Hai il diritto di accedere, aggiornare o eliminare le tue foto e video in qualsiasi momento. Puoi eliminare tutti i media tramite la galleria dell'app. Puoi anche disinstallare l'app in qualsiasi momento, il che rimuoverà tutti i dati archiviati localmente."
+      },
+      "section6": {
+        "title": "6. Accesso alla Fotocamera e al Microfono",
+        "content": "Whistle Camera richiede l'accesso alla fotocamera e al microfono del tuo dispositivo per fornire la sua funzionalità principale. La fotocamera viene utilizzata per la cattura di foto e video. Il microfono viene utilizzato per il rilevamento del fischio. Non registriamo o archiviamo dati audio: il microfono viene utilizzato solo per l'elaborazione del rilevamento fischio in tempo reale."
+      },
+      "section8": {
+        "title": "8. Contattaci",
+        "content": "Se hai domande su questa Informativa sulla Privacy, si prega di contattarci a:",
+        "email": "zuki.apps@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "useCases": {
+      "title": "Perfect for",
+      "subtitle": "Real scenarios where your hands are busy or the phone is out of reach.",
+      "items": [
+        {
+          "title": "Pet owners",
+          "description": "Whistle for eye contact — the app captures in the same moment. Sharp front-facing pet shots without a helper."
+        },
+        {
+          "title": "Selfies & groups",
+          "description": "Prop the phone, whistle from where you stand. No running to a 10-second timer."
+        },
+        {
+          "title": "Hands-busy moments",
+          "description": "Cooking, crafts, biking — whistle when the shot is ready. No accessory remote."
+        },
+        {
+          "title": "Outdoor & sports",
+          "description": "Tripod or ledge setup. Walk to your subject, whistle, capture — great for landscapes and action."
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How it works",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Set up",
+          "description": "Point the camera. Enable whistle detection. Calibrate in Settings if needed."
+        },
+        {
+          "number": "2",
+          "title": "Whistle",
+          "description": "One short, clear whistle. The ring turns green when detected."
+        },
+        {
+          "number": "3",
+          "title": "Captured",
+          "description": "Photo or video is taken — your hands never touched the phone."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens — whistle detection, capture, calibration, gallery, video, and timer.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "whistle",
+          "title": "Hands-free whistle",
+          "description": "Detection ring shows when your whistle is heard — then the shutter fires.",
+          "image": "/images/whistle-camera/screenshot-whistle.png",
+          "alt": "Whistle Camera hands-free whistle detection screen",
+          "category": "features"
+        },
+        {
+          "id": "capture",
+          "title": "Photo capture",
+          "description": "Front or rear camera with flash, zoom, and manual shutter when you want both options.",
+          "image": "/images/whistle-camera/screenshot-capture.png",
+          "alt": "Whistle Camera photo capture screen",
+          "category": "features"
+        },
+        {
+          "id": "settings",
+          "title": "Calibrate your whistle",
+          "description": "Practice mode, sensitivity, and frequency band — tuned to you, not a generic preset.",
+          "image": "/images/whistle-camera/screenshot-settings.png",
+          "alt": "Whistle Camera whistle calibration settings",
+          "category": "features"
+        },
+        {
+          "id": "gallery",
+          "title": "Whistle to your dog — they'll look at the camera",
+          "description": "How do you get your dog to look at the camera? Just whistle. Whistle Camera hears you and snaps the shot in the same moment.",
+          "image": "/images/whistle-camera/promo-whistle-your-dog.png",
+          "alt": "Dog looking at Whistle Camera — whistle to get your pet to look at the camera",
+          "category": "features"
+        },
+        {
+          "id": "video",
+          "title": "Video mode (Pro)",
+          "description": "Whistle to start and stop recording — hands-free video workflow.",
+          "image": "/images/whistle-camera/screenshot-video.png",
+          "alt": "Whistle Camera video mode",
+          "category": "features"
+        },
+        {
+          "id": "timer",
+          "title": "Timer controls",
+          "description": "3, 5, or 10 second countdown — works with whistle or manual capture.",
+          "image": "/images/whistle-camera/screenshot-timer.png",
+          "alt": "Whistle Camera countdown timer",
+          "category": "features"
+        }
+      ]
+    },
+    "manual": {
+      "title": "User manual",
+      "subtitle": "Camera controls, settings, gallery, and extensions.",
+      "sections": [
+        {
+          "title": "1. Camera screen",
+          "steps": [
+            "Shutter / record — manual capture anytime.",
+            "Whistle detector — enable hands-free trigger.",
+            "Timer — delay after trigger (0/3/5/10 s).",
+            "Flash, flip camera, zoom slider, gallery, settings."
+          ]
+        },
+        {
+          "title": "2. Whistle settings",
+          "steps": [
+            "Sensitivity 1 (easiest) to 5 (strictest).",
+            "Frequency band 0–100 in UI (~750–3000 Hz).",
+            "Practice whistle — listen, whistle, tap Set to calibrate.",
+            "Presets: Quiet, Default, Outside, Loud."
+          ]
+        },
+        {
+          "title": "3. Gallery",
+          "steps": [
+            "Tap a thumbnail for full-screen preview.",
+            "Select mode for bulk share or delete.",
+            "Optional save to Photos album “Whistle Camera”."
+          ]
+        },
+        {
+          "title": "4. Pro & extensions",
+          "steps": [
+            "Pro: whistle video start/stop, premium modes, no ads.",
+            "Widgets — quick launch photo or video.",
+            "Siri / Shortcuts and Apple Watch remote shutter.",
+            "Restore purchases from Settings after reinstall."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get reliable detection and better shots.",
+      "items": [
+        {
+          "title": "Selfies without shake",
+          "description": "Front camera + whistle — no jostling the phone tapping the shutter."
+        },
+        {
+          "title": "Pet photos",
+          "description": "Calibrate in Settings first, then whistle for eye contact and capture in one motion."
+        },
+        {
+          "title": "Group shots",
+          "description": "Set a 3 s timer, whistle — everyone settles before the shot fires."
+        },
+        {
+          "title": "Noisy environments",
+          "description": "Lower sensitivity to level 1 and widen the band; enable the debug overlay to see peaks."
+        },
+        {
+          "title": "Tripod distance",
+          "description": "Place the phone, walk into frame, whistle — great for landscapes and sports."
+        },
+        {
+          "title": "Widgets",
+          "description": "Add photo/video widgets for one-tap launch from the Home Screen."
+        },
+        {
+          "title": "Timer fallback",
+          "description": "Countdown works with or without whistle — use either trigger."
+        },
+        {
+          "title": "Restore Pro",
+          "description": "Reinstalled? Settings → restore purchases with the same store account."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Detection, privacy, storage, Pro, and troubleshooting.",
+      "viewAllSupport": "Full FAQ on Support",
+      "items": [
+        {
+          "question": "What is Whistle Camera?",
+          "answer": "Whistle Camera is a hands-free camera app for iOS and Android. Whistle to take a photo or (with Pro) start and stop video. Package on Android: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
+        },
+        {
+          "question": "It doesn’t detect my whistle well. What can I do?",
+          "answer": "Lower sensitivity (try level 1), widen the frequency range in Settings, enable the live debug overlay, and use Practice whistle to calibrate from your session peaks."
+        },
+        {
+          "question": "Do I need internet?",
+          "answer": "Core whistle capture works offline. Ads, analytics, and purchase checks may need a network connection."
+        },
+        {
+          "question": "Why does the app need the microphone?",
+          "answer": "The app listens for your whistle to trigger the camera. Audio is processed on-device for detection — it is not stored as recordings."
+        },
+        {
+          "question": "Where are photos stored?",
+          "answer": "In the in-app gallery by default. You can optionally copy captures to a Photos album named Whistle Camera in Settings."
+        },
+        {
+          "question": "What is Pro?",
+          "answer": "Pro unlocks whistle start/stop video, extra premium modes, and removes ads. One-time purchase; restore from Settings after reinstall."
+        },
+        {
+          "question": "Can I use a timer instead of whistling?",
+          "answer": "Yes — countdown timer (3, 5, or 10 seconds) works with or without whistle detection enabled."
+        },
+        {
+          "question": "Is Whistle Camera on Android?",
+          "answer": "Yes — https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera"
+        },
+        {
+          "question": "How do I get support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/whistle-camera/support. Privacy: https://zukiapps.com/whistle-camera/privacy"
+        }
+      ]
+    },
+    "premium": {
+      "title": "Whistle Camera Pro",
+      "description": "One-time upgrade: whistle video start/stop, premium capture modes, ad-free gallery experience.",
+      "items": [
+        "Whistle to start and stop video recording",
+        "Premium capture modes",
+        "No ads in gallery",
+        "Restore purchases anytime in Settings"
+      ]
+    },
+    "languages": {
+      "title": "40+ languages",
+      "description": "In-app language picker including English, Hebrew (RTL), Arabic (RTL), and 37+ more locales."
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How it works",
+      "useCases": "Use cases",
+      "manual": "Manual",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "trackLedger": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Zuki Apps",
+      "title": "Track Ledger",
+      "subtitle": "Log GPS data",
+      "description": "Offline-first engineering GPS logger for mobile. Track Ledger records raw GNSS points for your paths—no smoothing. Set time- or distance-based sampling, pause and resume, then export from a track summary or the track list (CSV; GPX and GeoJSON with Premium). Use the Map tab to overlay tracks on OpenStreetMap tiles.",
+      "structuredDataDescription": "Track Ledger — offline-first GPS/GNSS track logger for iOS and Android. Record raw points, elevation profiles, OSM map overlay, export CSV (free) or GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger by Zuki Apps."
+    },
+    "features": {
+      "title": "Key Features",
+      "gnss": {
+        "title": "Recording & tracks",
+        "description": "Log raw GNSS fixes with control over how often points are stored.",
+        "items": [
+          "Time- or distance-based sampling",
+          "Pause, resume, and track summaries",
+          "Speed, distance, and accuracy at a glance"
+        ]
+      },
+      "export": {
+        "title": "Export & share",
+        "description": "Get your data out as standard formats and share from the track flow.",
+        "items": [
+          "CSV export on all tiers",
+          "GPX and GeoJSON with Premium",
+          "Share sheet integration"
+        ]
+      },
+      "map": {
+        "title": "Map",
+        "description": "Visualize completed paths on familiar map tiles.",
+        "items": [
+          "OpenStreetMap overlays",
+          "Select one or more tracks",
+          "Share map images"
+        ]
+      }
+    },
+    "status": {
+      "title": "Availability",
+      "description": "Native app for iOS and Android (bundle / application ID: com.zuki.apps.trackledger). Store links are below.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "1.0.0+1",
+      "statusValue": "Available on the App Store & Google Play"
+    },
+    "download": {
+      "title": "Download",
+      "description": "Get Track Ledger on the App Store and Google Play.",
+      "soon": "Use the badges below to open the store pages.",
+      "appStoreUrl": "https://apps.apple.com/il/app/track-ledger-log-gps-data/id6762567364",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.trackledger",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: April 2026",
+      "intro": "Please read these Terms of Use carefully before using Track Ledger. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the app.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms of Use (\"Terms\") govern your access to and use of Track Ledger (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a GPS/GNSS track logging application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
+        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Track Ledger is a mobile application that records location-related data for paths you choose to log. The Service includes:",
+        "items": [
+          "Recording of GNSS/GPS fixes and related metadata (e.g. accuracy, speed) on your device",
+          "Configurable sampling (time- or distance-based), pause and resume, and track summaries",
+          "Export and sharing of track data (e.g. CSV; GPX and GeoJSON where enabled)",
+          "Map visualization using third-party map tiles (e.g. OpenStreetMap) for completed tracks",
+          "Optional in-app purchases or ads as described in the app"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: April 2026",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "Track Ledger processes location data (GNSS/GPS) when you start recording, along with app settings and track metadata needed to run the app. Depending on your device and configuration, the app may use analytics or crash reporting to improve stability (often via third-party SDKs). Data you export or share is sent only when you explicitly choose export or share. Map tiles may be loaded from third-party providers when you use the Map feature."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information described above to provide recording, storage on your device, export/sharing features you trigger, and optional product improvement through aggregated diagnostics where enabled. We do not sell your personal track history as a product."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell your personal information. Data leaves your device when you export, share, or when required third-party services (e.g. map tile servers, app stores, analytics if enabled) process requests as part of normal app operation. See in-app notices and platform settings for controls where available."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement reasonable measures appropriate to a mobile app. Track data is stored in app storage on your device; you should use device security (passcode, encryption) as recommended by your platform vendor."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "Depending on your region, you may have rights to access, correct, or delete personal data, or to opt out of certain processing. You can delete tracks in the app, uninstall the app to remove local data, and contact us for privacy requests."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Track Ledger - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to use",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens from Track Ledger.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "recording",
+          "title": "Recording",
+          "description": "Live distance, speed, and accuracy while logging.",
+          "image": "/images/track-ledger/screenshot-recording.png",
+          "alt": "Recording — track ledger",
+          "category": "features"
+        },
+        {
+          "id": "map",
+          "title": "Map overlay",
+          "description": "Review tracks on OpenStreetMap tiles.",
+          "image": "/images/track-ledger/screenshot-map.png",
+          "alt": "Map overlay — track ledger",
+          "category": "features"
+        },
+        {
+          "id": "summary",
+          "title": "Track summary",
+          "description": "Elevation vs distance and session stats.",
+          "image": "/images/track-ledger/screenshot-summary.png",
+          "alt": "Track summary — track ledger",
+          "category": "features"
+        },
+        {
+          "id": "settings",
+          "title": "Settings",
+          "description": "Sampling, projects, and export options.",
+          "image": "/images/track-ledger/screenshot-settings.png",
+          "alt": "Settings — track ledger",
+          "category": "features"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How to use",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Create a project",
+          "description": "Organize field work into named projects."
+        },
+        {
+          "number": "2",
+          "title": "Start recording",
+          "description": "Log raw GNSS points with your chosen sampling mode."
+        },
+        {
+          "number": "3",
+          "title": "Review on map",
+          "description": "Inspect path, elevation chart, and accuracy."
+        },
+        {
+          "number": "4",
+          "title": "Export data",
+          "description": "Share CSV free; GPX and GeoJSON with Premium."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers about features, privacy, and billing.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is Track Ledger?",
+          "answer": "A simple GPS / GNSS track logger focused on data export and field use. It records your path as raw points with optional time- or distance-based sampling."
+        },
+        {
+          "question": "Is it a fitness or social app?",
+          "answer": "No. There are no leaderboards, workouts, or social feeds. It's built for people who need reliable location logs and file exports."
+        },
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Everything is stored locally on your device."
+        },
+        {
+          "question": "Does it work offline?",
+          "answer": "Yes. Recording and viewing saved tracks work without internet. The Map tab needs network to load OpenStreetMap tiles."
+        },
+        {
+          "question": "When does the app use my location?",
+          "answer": "Only while you have an active recording (and optionally in the background if you have Premium and background recording enabled)."
+        },
+        {
+          "question": "Why did recording pause when I switched apps?",
+          "answer": "On the free plan, new GPS points are logged only while Track Ledger is in the foreground. Premium with background recording enabled continues logging when you leave the app."
+        },
+        {
+          "question": "What does \"raw GNSS, no smoothing\" mean?",
+          "answer": "Points are saved as the device reports them. We don't apply a smoothing filter — you get the honest trace for your own analysis."
+        },
+        {
+          "question": "How many tracks can I save?",
+          "answer": "Free: up to 10 completed tracks. Premium: unlimited (or a higher cap you choose in Settings)."
+        },
+        {
+          "question": "What happens when the ledger is full?",
+          "answer": "In Settings → Ledger you choose: automatically remove oldest tracks, or refuse new recordings until you delete tracks manually."
+        },
+        {
+          "question": "Which formats are free?",
+          "answer": "CSV export and share are always available."
+        },
+        {
+          "question": "Which formats need Premium?",
+          "answer": "GPX and GeoJSON."
+        },
+        {
+          "question": "Can I share a track to another app?",
+          "answer": "Yes — use Share from track summary or Ledger. The system share sheet opens (Mail, Files, AirDrop, etc.)."
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get more from the app.",
+      "items": [
+        {
+          "title": "GPS quality",
+          "description": "Wait for a good fix before tapping Start — check GPS accuracy on the recording screen. - Open sky beats urban canyons and dense tree cover. - Raw points are logged without smoothing — if accuracy is poor, you'll see it in the data (by design)."
+        },
+        {
+          "title": "Sampling strategy",
+          "description": "| Scenario | Suggested setting | |----------|-------------------| | Walking / hiking | Time: every 5–10 s | | Driving / vehicle survey | Distance: every 25–50 m | | Long battery life | Wider intervals (time or distance) | | Detailed path capture | Tighter intervals (more points, larger files) |"
+        },
+        {
+          "title": "Battery",
+          "description": "Enable Keep screen on only when you need to watch the screen continuously. - Wider sampling intervals reduce CPU and GPS wakeups. - Background recording (Premium) uses more battery — expected for continuous logging."
+        },
+        {
+          "title": "Field workflow",
+          "description": "1. Create a project per job site or client. 2. Record with a consistent sampling preset per project type. 3. Export CSV in the field for quick checks; use GPX/GeoJSON back at the office. 4. Use Map tab to compare multiple passes on the same corridor."
+        },
+        {
+          "title": "Data hygiene",
+          "description": "Rename tracks right after stop while context is fresh. - Delete test runs so you don't hit the free-tier ledger limit. - Premium users: set max completed tracks and when full policy before long field seasons."
+        },
+        {
+          "title": "Exports & GIS",
+          "description": "CSV — columns include coordinates, time, elevation (as logged). Open in Excel, Python, R. - GPX — import to QGIS, Gaia GPS, or custom pipelines. - GeoJSON — drop into web maps or `ogr2ogr` workflows."
+        },
+        {
+          "title": "Premium worth it if you…",
+          "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
+        }
+      ]
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers about Track Ledger or contact us directly.",
+      "metaTitle": "Support & Help — Track Ledger | Zuki Apps",
+      "metaDescription": "Get help with Track Ledger — GPS/GNSS recording, exports, Premium formats, location permissions, and ledger limits.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "What is Track Ledger?",
+          "answer": "A simple GPS / GNSS track logger focused on data export and field use. It records your path as raw points with optional time- or distance-based sampling."
+        },
+        "q2": {
+          "question": "Is it a fitness or social app?",
+          "answer": "No. There are no leaderboards, workouts, or social feeds. It's built for people who need reliable location logs and file exports."
+        },
+        "q3": {
+          "question": "Do I need an account?",
+          "answer": "No. Everything is stored locally on your device."
+        },
+        "q4": {
+          "question": "Does it work offline?",
+          "answer": "Yes. Recording and viewing saved tracks work without internet. The Map tab needs network to load OpenStreetMap tiles."
+        },
+        "q5": {
+          "question": "When does the app use my location?",
+          "answer": "Only while you have an active recording (and optionally in the background if you have Premium and background recording enabled)."
+        },
+        "q6": {
+          "question": "Why did recording pause when I switched apps?",
+          "answer": "On the free plan, new GPS points are logged only while Track Ledger is in the foreground. Premium with background recording enabled continues logging when you leave the app."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    }
+  }
+}

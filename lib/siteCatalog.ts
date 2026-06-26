@@ -2,8 +2,7 @@
  * Canonical list of public product URLs and labels for JSON-LD (ItemList) and docs.
  * Paths are locale-agnostic; default locale uses unprefixed URLs per routing.
  *
- * ToldYa! (`/toldya`) and Collagio (`/collagio`) are wired on the site but omitted here until
- * `TOLDYA_PUBLISHED` / `COLLAGIO_PUBLISHED` are true in `lib/appPublishState.ts` (and the home grid/carousel are updated).
+ * ToldYa! (`/toldya`) is wired on the site but omitted here until `TOLDYA_PUBLISHED` is true.
  */
 export type SiteCatalogEntry = {
   path: string;
@@ -33,6 +32,11 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     description: 'Classic arcade action: aircraft and paratroopers; Arcade and Classic DOS modes; scores, ranks, leaderboards.',
   },
   { path: '/tempo-lab-pro', name: 'TempoLab Pro', description: 'Tempo, pitch, and audio practice tools.' },
+  {
+    path: '/collagio',
+    name: 'Collagio',
+    description: 'Photo collage maker: 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device, English & Hebrew.',
+  },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];
 

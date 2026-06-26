@@ -1,0 +1,336 @@
+{
+  "paratrooperBlitz": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Zuki Apps",
+      "title": "Paratrooper Blitz",
+      "subtitle": "Classic arcade action",
+      "description": "Arcade-style mobile game: destroy aircraft and paratroopers before they land. Two control modes (Arcade and Classic DOS), scoring, career ranks, optional ads and in-app purchases, and Google Play Games / Game Center integrations on supported builds.",
+      "structuredDataDescription": "Paratrooper Blitz — retro anti-air arcade for iOS and Android. Arcade slide-and-shoot and Classic aim-and-fire modes, leaderboards, 14 achievements, 12 languages. Android com.zuki.apps.paratrooperblitz by Zuki Apps."
+    },
+    "features": {
+      "title": "Key Features",
+      "modes": {
+        "title": "Two ways to play",
+        "description": "Pick the control scheme that fits you — fast arcade movement or classic rotation aiming.",
+        "items": [
+          "Arcade mode: move the turret left and right",
+          "Classic DOS mode: rotate and aim",
+          "Keyboard hints on supported platforms"
+        ]
+      },
+      "action": {
+        "title": "Scores & career rank",
+        "description": "Chase high scores and progress through themed military-style ranks as you play.",
+        "items": [
+          "Session scoring with aircraft and paratrooper hits",
+          "Career rank progression",
+          "Game over flow with play-again"
+        ]
+      },
+      "social": {
+        "title": "Leaderboards & achievements",
+        "description": "Where signed in, use platform services for rankings and achievements as configured in the app.",
+        "items": [
+          "Global and friends-style lists where available",
+          "Native leaderboard and achievement UIs",
+          "Firebase Analytics/Crashlytics may apply for stability"
+        ]
+      }
+    },
+    "status": {
+      "title": "Availability",
+      "description": "iOS and Android. Android application ID: com.zuki.apps.paratrooperblitz. Store links are below.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "1.0.0+1",
+      "statusValue": "Available on the App Store & Google Play"
+    },
+    "download": {
+      "title": "Download",
+      "description": "Get Paratrooper Blitz on the App Store and Google Play.",
+      "soon": "Use the badges below to open the store pages.",
+      "appStoreUrl": "https://apps.apple.com/il/app/paratrooper-blitz/id6763775995",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.paratrooperblitz",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important Links",
+      "support": {
+        "title": "Technical Support",
+        "email": "support@zukiapps.com"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "lastUpdated": "Last updated: April 2026",
+      "intro": "Please read these Terms of Use carefully before using Paratrooper Blitz. By accessing or using our service, you agree to be bound by these terms. If you do not agree, please do not use the game.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your access to and use of Paratrooper Blitz (\"Service\", \"Game\"), operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
+        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian authorized to agree on their behalf where required."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Paratrooper Blitz is an arcade-style action game. The Service includes:",
+        "items": [
+          "Gameplay sessions, scoring, and progression features",
+          "Optional integration with platform game services (e.g. leaderboards, achievements) where available",
+          "Advertising and in-app purchases as described in-app",
+          "Audio and visual effects; online features depend on third-party services and connectivity"
+        ]
+      },
+      "section19": {
+        "title": "19. Contact Information",
+        "content": "Questions about these Terms:",
+        "email": "support@zukiapps.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: April 2026",
+      "section1": {
+        "title": "1. Information We Collect",
+        "content": "The game may use Firebase Analytics and Crashlytics for diagnostics, platform sign-in for game services, and advertising identifiers subject to your device settings. Gameplay data may be processed by platform providers (Apple, Google) when you use their services."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "content": "We use collected information to operate the game, show ads or offers where applicable, improve stability, and comply with law. Leaderboards and achievements rely on platform APIs when you opt in or sign in."
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell your personal information. Third parties (ad networks, analytics, platform game services) may process data under their policies when those features are active."
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "content": "We implement reasonable safeguards appropriate to a mobile game. Use strong device security and keep the app updated."
+      },
+      "section5": {
+        "title": "5. Your Rights",
+        "content": "Depending on your region, you may have rights to access, delete, or restrict certain processing. Platform account settings and OS privacy controls apply. Contact us for requests we can fulfill directly."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "content": "Questions about this Privacy Policy:",
+        "email": "support@zukiapps.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
+      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to use",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens from Paratrooper Blitz.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "menu",
+          "title": "Main menu",
+          "description": "Pick Arcade or Classic and view your best scores.",
+          "image": "/images/paratrooper-blitz/screenshot-menu.png",
+          "alt": "Main menu — paratrooper blitz",
+          "category": "features"
+        },
+        {
+          "id": "classic",
+          "title": "Classic mode",
+          "description": "Aim-and-fire paratrooper action with scoring on screen.",
+          "image": "/images/paratrooper-blitz/screenshot-classic.png",
+          "alt": "Classic mode — paratrooper blitz",
+          "category": "features"
+        },
+        {
+          "id": "arcade",
+          "title": "Arcade mode",
+          "description": "Slide-and-shoot waves of aircraft and chutes.",
+          "image": "/images/paratrooper-blitz/screenshot-arcade.png",
+          "alt": "Arcade mode — paratrooper blitz",
+          "category": "features"
+        },
+        {
+          "id": "chute",
+          "title": "Chute shots",
+          "description": "Time your shots before paratroopers land.",
+          "image": "/images/paratrooper-blitz/screenshot-chute.png",
+          "alt": "Chute shots — paratrooper blitz",
+          "category": "features"
+        },
+        {
+          "id": "wave",
+          "title": "Wave pressure",
+          "description": "Survive escalating waves for a high score.",
+          "image": "/images/paratrooper-blitz/screenshot-wave.png",
+          "alt": "Wave pressure — paratrooper blitz",
+          "category": "features"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How to use",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Pick a mode",
+          "description": "Arcade for slide-and-shoot; Classic for aim-and-fire."
+        },
+        {
+          "number": "2",
+          "title": "Destroy threats",
+          "description": "Shoot aircraft and paratroopers before they reach your turret."
+        },
+        {
+          "number": "3",
+          "title": "Chain combos",
+          "description": "Keep accuracy high to maximize score multipliers."
+        },
+        {
+          "number": "4",
+          "title": "Beat your best",
+          "description": "Submit scores to leaderboards and unlock achievements."
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get more from the app.",
+      "items": [
+        {
+          "title": "Beginner",
+          "description": "1. Learn Arcade first — fixed vertical shots are easier to aim. 2. Watch the ground — two soldiers on one side triggers a danger alert; four ends the run. 3. Pop chutes early — +150 points and they fall fast without a canopy."
+        },
+        {
+          "title": "Intermediate",
+          "description": "4. Center your turret in Arcade so you can reach both sides quickly. 5. Save fire for clusters — combo windows reward back-to-back kills. 6. Deal with bombers first — destroy the plane or the bomb before it lands."
+        },
+        {
+          "title": "Advanced",
+          "description": "7. Classic mode — sweep the sky in arcs; lead aircraft moving horizontally. 8. Wave spikes — after ~2 minutes, spawn rate increases; stay calm and prioritize landings. 9. Sign in once from home → Global Rankings so game-over scores upload."
+        },
+        {
+          "title": "Career & achievements",
+          "description": "Rank up on the home screen from lifetime stats. - Check the trophy catalog for 14 achievements (score milestones, career totals, session goals)."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers about features, privacy, and billing.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "Is Paratrooper Blitz free?",
+          "answer": "Yes. The game is free to download and play. Optional one-time Remove Ads purchase removes banner and interstitial ads."
+        },
+        {
+          "question": "What age is the game for?",
+          "answer": "Rated Teen (13+). Mild military-style arcade action—no gore, no chat, no user-generated content."
+        },
+        {
+          "question": "Does it work offline?",
+          "answer": "Core gameplay works offline. Leaderboards, achievements, ads, and purchases need network and store services."
+        },
+        {
+          "question": "Which languages are supported?",
+          "answer": "English, Arabic, German, Spanish, French, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified). Change in Settings."
+        },
+        {
+          "question": "What’s the difference between Arcade and Classic?",
+          "answer": "Arcade: slide left/right, shoot up. Classic: rotate turret 360° and aim manually."
+        },
+        {
+          "question": "How do I lose?",
+          "answer": "Four parachutists land on the **same side** of your turret, or a bomb hits the ground."
+        },
+        {
+          "question": "Why did my score go down when I fired?",
+          "answer": "Each shot costs 1 point (classic Paratrooper rule)."
+        },
+        {
+          "question": "Do paratroopers ever land off-screen?",
+          "answer": "No—drops stay within the play area."
+        },
+        {
+          "question": "Why didn’t my score appear on the leaderboard?",
+          "answer": "You must sign in to Google Play Games (Android) or Game Center (iOS). Open **Global Rankings** from the home menu once to complete sign-in, then play a full round."
+        },
+        {
+          "question": "Are Arcade and Classic scores separate?",
+          "answer": "Yes—each mode has its own leaderboard."
+        },
+        {
+          "question": "How many achievements are there?",
+          "answer": "14 trophies with an in-app catalog showing requirements."
+        },
+        {
+          "question": "What does Remove Ads include?",
+          "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
+        }
+      ]
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact Zuki Apps about Paratrooper Blitz.",
+      "metaTitle": "Support & Help — Paratrooper Blitz | Zuki Apps",
+      "metaDescription": "Get help with Paratrooper Blitz — offline play, Arcade vs Classic, scores, leaderboards, achievements, and Remove Ads.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "support@zukiapps.com"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "Learn how we protect your data"
+        },
+        "terms": {
+          "title": "Terms of Service",
+          "description": "Read our terms and conditions"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "Is Paratrooper Blitz free?",
+          "answer": "Yes. The game is free to download and play. Optional one-time Remove Ads purchase removes banner and interstitial ads."
+        },
+        "q2": {
+          "question": "What age is the game for?",
+          "answer": "Rated Teen (13+). Mild military-style arcade action—no gore, no chat, no user-generated content."
+        },
+        "q3": {
+          "question": "Does it work offline?",
+          "answer": "Core gameplay works offline. Leaderboards, achievements, ads, and purchases need network and store services."
+        },
+        "q4": {
+          "question": "Which languages are supported?",
+          "answer": "English, Arabic, German, Spanish, French, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified). Change in Settings."
+        },
+        "q5": {
+          "question": "What’s the difference between Arcade and Classic?",
+          "answer": "Arcade: slide left/right, shoot up. Classic: rotate turret 360° and aim manually."
+        },
+        "q6": {
+          "question": "How do I lose?",
+          "answer": "Four parachutists land on the **same side** of your turret, or a bomb hits the ground."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need More Help?",
+        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+      }
+    }
+  }
+}

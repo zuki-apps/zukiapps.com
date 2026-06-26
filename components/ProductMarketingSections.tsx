@@ -1,9 +1,11 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { asArray, hasMessage, safeRaw } from '@/lib/safeTranslations';
+import ScreenshotLightbox from '@/components/ScreenshotLightbox';
 
 type ScreenshotItem = {
   id: string;
@@ -176,9 +178,11 @@ export function ProductPageNav({ namespace, accent = 'purple' }: { namespace: st
     { href: '#features', labelKey: 'pageNav.features', requiredKey: 'features.title' },
     { href: '#screenshots', labelKey: 'pageNav.screenshots', requiredKey: 'screenshots.title' },
     { href: '#how-to', labelKey: 'pageNav.howTo', requiredKey: 'howToUse.title' },
+    { href: '#faq', labelKey: 'pageNav.faq', requiredKey: 'faq.title' },
+    { href: '#zuli-monsters', labelKey: 'pageNav.zuliMonsters', requiredKey: 'zuliMonsters.title' },
+    { href: '#premium', labelKey: 'pageNav.premium', requiredKey: 'premium.title' },
     { href: '#manual', labelKey: 'pageNav.manual', requiredKey: 'manual.title' },
     { href: '#tips', labelKey: 'pageNav.tips', requiredKey: 'tips.title' },
-    { href: '#faq', labelKey: 'pageNav.faq', requiredKey: 'faq.title' },
     { href: '#download', labelKey: 'pageNav.download', requiredKey: 'download.title' },
   ];
 
@@ -206,6 +210,7 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
   const t = useTranslations(namespace);
   const locale = useLocale();
   const a = ACCENT[accent] ?? ACCENT.purple;
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   const screenshotItems = asArray<ScreenshotItem>(safeRaw(t, 'screenshots.items'));
   const faqItems = asArray<{ question: string; answer: string }>(safeRaw(t, 'faq.items'));
@@ -224,8 +229,41 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
   const howToCols =
     howToSteps.length >= 5 ? 'lg:grid-cols-5' : howToSteps.length === 4 ? 'lg:grid-cols-4' : howToSteps.length === 3 ? 'lg:grid-cols-3' : 'md:grid-cols-2';
 
+  const lightboxImages = screenshotItems.map((item) => ({
+    src: item.image,
+    alt: item.alt,
+    title: item.title,
+    description: item.description,
+  }));
+
+  const renderScreenshotFigure = (item: ScreenshotItem, globalIndex: number) => (
+    <figure
+      key={item.id}
+      className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 ${a.border} ${a.borderHover} transition-all`}
+    >
+      <button
+        type="button"
+        onClick={() => setLightboxIndex(globalIndex)}
+        className="w-full max-w-[220px] mx-auto block cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 rounded-t-xl"
+        aria-label={`View larger: ${item.title}`}
+      >
+        <Image src={item.image} alt={item.alt} width={640} height={1280} unoptimized sizes="220px" className="w-full h-auto block" />
+      </button>
+      <figcaption className="p-4">
+        <h4 className="font-bold text-white mb-2">{item.title}</h4>
+        <p className="text-sm text-gray-400">{item.description}</p>
+      </figcaption>
+    </figure>
+  );
+
   return (
     <>
+      <ScreenshotLightbox
+        images={lightboxImages}
+        index={lightboxIndex}
+        onClose={() => setLightboxIndex(null)}
+        onChange={setLightboxIndex}
+      />
       {showScreenshots && (
         <section className="py-12 px-4 relative z-10" id="screenshots">
           <div className="max-w-7xl mx-auto">
@@ -234,40 +272,14 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
             {featureShots.length > 0 && (
               <>
                 <h3 className={`text-2xl font-bold ${a.heading} mb-6`}>{t('screenshots.featuresTitle')}</h3>
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 items-start">
-                  {featureShots.map((item) => (
-                    <figure
-                      key={item.id}
-                      className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 ${a.border} ${a.borderHover} transition-all`}
-                    >
-                      <div className="w-full max-w-[220px] mx-auto">
-                        <Image src={item.image} alt={item.alt} width={0} height={0} sizes="220px" className="w-full h-auto block" />
-                      </div>
-                      <figcaption className="p-4">
-                        <h4 className="font-bold text-white mb-2">{item.title}</h4>
-                        <p className="text-sm text-gray-400">{item.description}</p>
-                      </figcaption>
-                    </figure>
-                  ))}
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 items-start">
+                  {featureShots.map((item, i) => renderScreenshotFigure(item, i))}
                 </div>
               </>
             )}
             {otherShots.length > 0 && (
-              <div className="grid md:grid-cols-3 gap-8 items-start">
-                {otherShots.map((item) => (
-                  <figure
-                    key={item.id}
-                    className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden border-2 ${a.border} ${a.borderHover} transition-all`}
-                  >
-                    <div className="w-full max-w-[220px] mx-auto">
-                      <Image src={item.image} alt={item.alt} width={0} height={0} sizes="220px" className="w-full h-auto block" />
-                    </div>
-                    <figcaption className="p-4">
-                      <h4 className="font-bold text-white mb-2">{item.title}</h4>
-                      <p className="text-sm text-gray-400">{item.description}</p>
-                    </figcaption>
-                  </figure>
-                ))}
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+                {otherShots.map((item, i) => renderScreenshotFigure(item, featureShots.length + i))}
               </div>
             )}
           </div>
@@ -277,7 +289,11 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
       {showHowTo && (
         <section className="py-12 px-4 relative z-10" id="how-to">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-white">{t('howToUse.title')}</h2>
+            <h2 className="text-4xl font-bold text-center mb-4 text-white">{t('howToUse.title')}</h2>
+            {hasMessage(t, 'howToUse.subtitle') && (
+              <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">{t('howToUse.subtitle')}</p>
+            )}
+            {!hasMessage(t, 'howToUse.subtitle') && <div className="mb-8" />}
             <div className={`grid gap-6 md:grid-cols-2 ${howToCols}`}>
               {howToSteps.map((step, i) => (
                 <div
