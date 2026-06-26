@@ -1,7 +1,15 @@
 import { ReactNode } from 'react';
 import Script from 'next/script';
 import type { Metadata } from 'next';
+import { Sora } from 'next/font/google';
 import { getSiteUrl } from '@/lib/hreflang';
+
+const displayFont = Sora({
+  subsets: ['latin'],
+  weight: ['600', '700', '800'],
+  variable: '--font-display',
+  display: 'swap',
+});
 
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 const bingSiteAuth = process.env.NEXT_PUBLIC_BING_SITE_AUTH;
@@ -36,7 +44,7 @@ export default function RootLayout({
   const measurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
   return (
-    <html lang="en" dir="ltr" className="dark" suppressHydrationWarning>
+    <html lang="en" dir="ltr" className={`dark ${displayFont.variable}`} suppressHydrationWarning>
       <head>
         <link
           rel="preload"

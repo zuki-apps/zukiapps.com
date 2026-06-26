@@ -72,14 +72,14 @@ function InviteContent() {
         <h1 className="text-2xl font-bold text-gray-900 mb-4">הזמנה לרשימה</h1>
         <p className="text-gray-700 mb-2">הוזמנת להצטרף לרשימת קניות ב-ZuList!</p>
         {listName && (
-          <p className="text-gray-600 mb-6">רשימה: <strong>{listName}</strong></p>
+          <p className="text-gray-400 mb-6">רשימה: <strong>{listName}</strong></p>
         )}
-        <p className="text-gray-600 mb-8">לחץ על הכפתור למטה כדי לפתוח את האפליקציה:</p>
+        <p className="text-gray-400 mb-8">לחץ על הכפתור למטה כדי לפתוח את האפליקציה:</p>
         
         {loading && (
           <div className="mb-6">
             <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-            <p className="text-gray-600">פותח את האפליקציה...</p>
+            <p className="text-gray-400">פותח את האפליקציה...</p>
           </div>
         )}
         
@@ -90,7 +90,7 @@ function InviteContent() {
           {loading ? 'פותח...' : 'פתח את ZuList'}
         </button>
         
-        <p className="mt-8 text-sm text-gray-500">
+        <p className="mt-8 text-sm text-gray-400">
           אין לך את האפליקציה?<br />
           <a
             href="https://apps.apple.com/app/zulist"
@@ -112,7 +112,7 @@ export default function InvitePage() {
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-purple-50 flex items-center justify-center">
         <div className="text-center">
           <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-gray-600">טוען...</p>
+          <p className="text-gray-400">טוען...</p>
         </div>
       </div>
     }>

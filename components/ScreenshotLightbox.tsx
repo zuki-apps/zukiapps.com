@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -18,8 +18,11 @@ type Props = {
   onChange: (index: number) => void;
 };
 
+const SWIPE_THRESHOLD = 50;
+
 export default function ScreenshotLightbox({ images, index, onClose, onChange }: Props) {
   const isOpen = index !== null && images[index] != null;
+  const touchStartX = useRef<number | null>(null);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -45,6 +48,19 @@ export default function ScreenshotLightbox({ images, index, onClose, onChange }:
   const hasPrev = index! > 0;
   const hasNext = index! < images.length - 1;
 
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const delta = e.changedTouches[0].clientX - touchStartX.current;
+    touchStartX.current = null;
+    if (Math.abs(delta) < SWIPE_THRESHOLD) return;
+    if (delta > 0 && hasPrev) onChange(index! - 1);
+    else if (delta < 0 && hasNext) onChange(index! + 1);
+  };
+
   return (
     <div
       className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4"
@@ -52,11 +68,13 @@ export default function ScreenshotLightbox({ images, index, onClose, onChange }:
       aria-modal="true"
       aria-label={current.title ?? current.alt}
       onClick={onClose}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
     >
       <button
         type="button"
         onClick={onClose}
-        className="absolute top-4 right-4 p-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+        className="absolute top-4 right-4 p-3 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
         aria-label="Close"
       >
         <X className="w-6 h-6" />
@@ -72,7 +90,7 @@ export default function ScreenshotLightbox({ images, index, onClose, onChange }:
         <button
           type="button"
           onClick={(e) => { e.stopPropagation(); onChange(index! - 1); }}
-          className="absolute left-2 md:left-6 p-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+          className="absolute left-3 md:left-6 p-3 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
           aria-label="Previous screenshot"
         >
           <ChevronLeft className="w-8 h-8" />
@@ -83,7 +101,7 @@ export default function ScreenshotLightbox({ images, index, onClose, onChange }:
         <button
           type="button"
           onClick={(e) => { e.stopPropagation(); onChange(index! + 1); }}
-          className="absolute right-2 md:right-6 p-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+          className="absolute right-3 md:right-6 p-3 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
           aria-label="Next screenshot"
         >
           <ChevronRight className="w-8 h-8" />

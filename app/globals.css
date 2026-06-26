@@ -48,6 +48,10 @@
 
 /* Smooth animations */
 @layer base {
+  h1, h2 {
+    @apply font-display;
+  }
+
   a, button, input, select, textarea {
     @apply transition-colors duration-200;
   }

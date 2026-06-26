@@ -29,7 +29,7 @@ export default function FunFactsTriviaPage() {
         <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-0">
           <Link
             href={`/${locale}`}
-            className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-black transition-colors"
+            className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
             {t('back')}
@@ -73,7 +73,7 @@ export default function FunFactsTriviaPage() {
               >
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/fun-facts-trivia/terms`}
                 className="text-amber-400 hover:text-amber-300 underline transition-colors"
@@ -183,7 +183,7 @@ export default function FunFactsTriviaPage() {
                   aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
                 >
                   <Image
-                    src="/images/google-play-badge.png"
+                    src="/images/google-play-badge.svg"
                     alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
                     width={160}
                     height={48}
@@ -227,7 +227,7 @@ export default function FunFactsTriviaPage() {
               <Logo size="md" />
             </div>
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
-            <p className="text-sm text-gray-500">{t('footer.tagline')}</p>
+            <p className="text-sm text-gray-400">{t('footer.tagline')}</p>
             <div className="flex justify-center gap-4 mt-4 text-sm">
               <Link
                 href={`/${locale}/fun-facts-trivia/support`}
@@ -235,14 +235,14 @@ export default function FunFactsTriviaPage() {
               >
                 {tCommon('support')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/fun-facts-trivia/privacy`}
                 className="text-gray-400 hover:text-amber-400 transition-colors"
               >
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/fun-facts-trivia/terms`}
                 className="text-gray-400 hover:text-amber-400 transition-colors"

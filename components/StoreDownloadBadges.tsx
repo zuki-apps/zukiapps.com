@@ -66,7 +66,7 @@ export default function StoreDownloadBadges({
           aria-label={googlePlayAlt}
         >
           <Image
-            src="/images/google-play-badge.png"
+            src="/images/google-play-badge.svg"
             alt={googlePlayAlt}
             width={160}
             height={48}

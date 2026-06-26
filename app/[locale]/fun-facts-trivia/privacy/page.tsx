@@ -87,7 +87,7 @@ export default async function FunFactsTriviaPrivacyPage({
 
             <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
-              <p className="text-gray-600 mb-8">{t('lastUpdated')}</p>
+              <p className="text-gray-400 mb-8">{t('lastUpdated')}</p>
 
               <div className="space-y-6">
                 {(['section1', 'section2', 'section3', 'section4', 'section5', 'section6'] as const).map((key) => (

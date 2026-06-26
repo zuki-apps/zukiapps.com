@@ -30,7 +30,7 @@ export default function FootballTriviaPage() {
         <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-0">
           <Link
             href={`/${locale}`}
-            className="inline-flex items-center gap-2 text-sky-300 hover:text-slate-200 font-black transition-colors"
+            className="inline-flex items-center gap-2 text-sky-300 hover:text-slate-200 font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
             {t('back')}
@@ -78,7 +78,7 @@ export default function FootballTriviaPage() {
               <Link href={`/${locale}/football-trivia/privacy`} className="text-sky-300 hover:text-slate-200 underline transition-colors">
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/football-trivia/terms`} className="text-sky-300 hover:text-slate-200 underline transition-colors">
                 {tCommon('termsOfService')}
               </Link>
@@ -157,7 +157,7 @@ export default function FootballTriviaPage() {
                   aria-label={t('download.googlePlayAlt')}
                 >
                   <Image
-                    src="/images/google-play-badge.png"
+                    src="/images/google-play-badge.svg"
                     alt={t('download.googlePlayAlt')}
                     width={160}
                     height={48}
@@ -166,7 +166,7 @@ export default function FootballTriviaPage() {
                 </a>
               )}
             </div>
-            <p className="text-xs text-gray-500 mt-6 max-w-2xl mx-auto">{t('hero.trustLine')}</p>
+            <p className="text-xs text-gray-400 mt-6 max-w-2xl mx-auto">{t('hero.trustLine')}</p>
           </div>
         </section>
 
@@ -176,12 +176,12 @@ export default function FootballTriviaPage() {
               <Logo size="md" />
             </div>
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
-            <p className="text-sm text-gray-500">{t('footer.tagline')}</p>
+            <p className="text-sm text-gray-400">{t('footer.tagline')}</p>
             <div className="flex justify-center gap-4 mt-4 text-sm">
               <Link href={`/${locale}/football-trivia/support`} className="text-gray-400 hover:text-sky-300 transition-colors">{tCommon('support')}</Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/football-trivia/privacy`} className="text-gray-400 hover:text-sky-300 transition-colors">{tCommon('privacyPolicy')}</Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/football-trivia/terms`} className="text-gray-400 hover:text-sky-300 transition-colors">{tCommon('termsOfService')}</Link>
             </div>
             <div className="mt-4 flex justify-center">

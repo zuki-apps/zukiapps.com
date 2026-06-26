@@ -31,7 +31,7 @@ export default function PowerIntervalTimerPage() {
         <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-0">
           <Link
             href={`/${locale}`}
-            className="inline-flex items-center gap-2 text-orange-400 hover:text-orange-300 font-black transition-colors"
+            className="inline-flex items-center gap-2 text-orange-400 hover:text-orange-300 font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
             {t('back')}
@@ -77,7 +77,7 @@ export default function PowerIntervalTimerPage() {
               >
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/power-interval-timer/terms`}
                 className="text-orange-400 hover:text-orange-300 underline transition-colors"
@@ -269,7 +269,7 @@ export default function PowerIntervalTimerPage() {
                   aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
                 >
                   <Image
-                    src="/images/google-play-badge.png"
+                    src="/images/google-play-badge.svg"
                     alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
                     width={180}
                     height={60}
@@ -316,7 +316,7 @@ export default function PowerIntervalTimerPage() {
               <Logo size="md" />
             </div>
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-400">
               {t('footer.tagline')}
             </p>
             <div className="flex justify-center gap-4 mt-4 text-sm">
@@ -326,14 +326,14 @@ export default function PowerIntervalTimerPage() {
               >
                 {tCommon('support')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/power-interval-timer/privacy`}
                 className="text-gray-400 hover:text-orange-400 transition-colors"
               >
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/power-interval-timer/terms`}
                 className="text-gray-400 hover:text-orange-400 transition-colors"

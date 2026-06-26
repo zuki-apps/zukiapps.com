@@ -57,7 +57,7 @@ export default function HushGalleryPage() {
         <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-0">
           <Link
             href={`/${locale}`}
-            className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-black transition-colors"
+            className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
             {t('back')}
@@ -104,21 +104,21 @@ export default function HushGalleryPage() {
               >
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/hush-gallery/terms`}
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
                 {tCommon('termsOfService')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/hush-gallery/support`}
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
                 {tCommon('support')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/hush-gallery/delete-account`}
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
@@ -131,17 +131,17 @@ export default function HushGalleryPage() {
               aria-label="Page sections"
             >
               <a href="#features" className="hover:text-purple-300 transition-colors">{t('pageNav.features')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#screenshots" className="hover:text-purple-300 transition-colors">{t('pageNav.screenshots')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#how-to" className="hover:text-purple-300 transition-colors">{t('pageNav.howTo')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#manual" className="hover:text-purple-300 transition-colors">{t('pageNav.manual')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#tips" className="hover:text-purple-300 transition-colors">{t('pageNav.tips')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#faq" className="hover:text-purple-300 transition-colors">{t('pageNav.faq')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#download" className="hover:text-purple-300 transition-colors">{t('pageNav.download')}</a>
             </nav>
           </div>
@@ -662,7 +662,7 @@ export default function HushGalleryPage() {
               <Logo size="md" />
             </div>
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-400">
               {t('footer.tagline')}
             </p>
             <div className="flex justify-center gap-4 mt-4 text-sm">
@@ -672,21 +672,21 @@ export default function HushGalleryPage() {
               >
                 {tCommon('support')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/hush-gallery/privacy`}
                 className="text-gray-400 hover:text-purple-400 transition-colors"
               >
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/hush-gallery/terms`}
                 className="text-gray-400 hover:text-purple-400 transition-colors"
               >
                 {tCommon('termsOfService')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/hush-gallery/delete-account`}
                 className="text-gray-400 hover:text-purple-400 transition-colors"

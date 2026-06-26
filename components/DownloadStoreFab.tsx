@@ -55,7 +55,7 @@ export default function DownloadStoreFab({
           href={appHref}
           target="_blank"
           rel="noopener noreferrer"
-          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-1.5 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 overflow-hidden ${ring}`}
+          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-1.5 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 overflow-hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60 ${ring}`}
           aria-label={appStoreAlt}
         >
           <Image
@@ -72,11 +72,11 @@ export default function DownloadStoreFab({
           href={playHref}
           target="_blank"
           rel="noopener noreferrer"
-          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-1.5 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 overflow-hidden ${ring}`}
+          className={`bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 rounded-xl p-1.5 shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center group border-2 overflow-hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60 ${ring}`}
           aria-label={googlePlayAlt}
         >
           <Image
-            src="/images/google-play-badge.png"
+            src="/images/google-play-badge.svg"
             alt={googlePlayAlt}
             width={120}
             height={40}

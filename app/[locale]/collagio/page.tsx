@@ -56,7 +56,7 @@ export default function CollagioPage() {
         <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-0">
           <Link
             href={`/${locale}`}
-            className="inline-flex items-center gap-2 text-rose-400 hover:text-rose-300 font-black transition-colors"
+            className="inline-flex items-center gap-2 text-rose-400 hover:text-rose-300 font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
             {t('back')}
@@ -99,11 +99,11 @@ export default function CollagioPage() {
               <Link href={`/${locale}/collagio/privacy`} className="text-rose-400 hover:text-rose-300 underline">
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/collagio/terms`} className="text-rose-400 hover:text-rose-300 underline">
                 {tCommon('termsOfService')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/collagio/support`} className="text-rose-400 hover:text-rose-300 underline">
                 {tCommon('support')}
               </Link>
@@ -253,7 +253,7 @@ export default function CollagioPage() {
               utmContent="collagio"
             />
             {!t('download.appStoreUrl') && t('download.googlePlayUrl') && (
-              <p className="text-sm text-gray-500 mt-6">{t('download.soon')}</p>
+              <p className="text-sm text-gray-400 mt-6">{t('download.soon')}</p>
             )}
           </div>
         </section>
@@ -304,16 +304,16 @@ export default function CollagioPage() {
               <Logo size="md" />
             </div>
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
-            <p className="text-sm text-gray-500">{t('footer.tagline')}</p>
+            <p className="text-sm text-gray-400">{t('footer.tagline')}</p>
             <div className="flex justify-center gap-4 mt-4 text-sm flex-wrap">
               <Link href={`/${locale}/collagio/support`} className="text-gray-400 hover:text-rose-400 transition-colors">
                 {tCommon('support')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/collagio/privacy`} className="text-gray-400 hover:text-rose-400 transition-colors">
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/collagio/terms`} className="text-gray-400 hover:text-rose-400 transition-colors">
                 {tCommon('termsOfService')}
               </Link>

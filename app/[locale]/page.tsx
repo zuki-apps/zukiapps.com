@@ -1,12 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Mail, Sparkles, Code, Heart, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Mail, Heart, Instagram, Facebook, Youtube } from 'lucide-react';
 import lazyLoad from 'next/dynamic';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppsGrid from '@/components/AppsGrid';
-import FeaturedApps from '@/components/FeaturedApps';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import HomeFaq from '@/components/HomeFaq';
 import StarField from '@/components/StarField';
@@ -69,7 +68,7 @@ export default async function Home({
             </div>
 
             <div className="mb-8 animate-fade-in-delay">
-              <h1 className="text-3xl md:text-4xl font-black mb-4 text-white">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 text-white">
                 {t('subtitle')}
               </h1>
               <p className="text-lg md:text-xl font-semibold text-gray-300">
@@ -77,47 +76,22 @@ export default async function Home({
               </p>
             </div>
 
-            {/* Featured + full catalog */}
-            <FeaturedApps locale={locale} />
+            <div className="mb-10 max-w-2xl mx-auto text-center">
+              <p className="text-gray-400 text-sm md:text-base leading-relaxed mb-3">
+                {t('aboutTeaser.body')}
+              </p>
+              <Link
+                href={`/${locale}/about`}
+                className="inline-flex items-center gap-1 text-indigo-300 hover:text-indigo-200 font-semibold text-sm transition-colors"
+              >
+                {t('aboutTeaser.cta')}
+              </Link>
+            </div>
+
             <AppsGrid locale={locale} />
 
             {/* Apps Carousel Section */}
             <AppsCarousel />
-
-            {/* Story Section */}
-            <div className="card-twilight text-left">
-              <div className="flex items-center gap-3 mb-6">
-                <Code className="w-8 h-8 text-blue-400" aria-hidden="true" />
-                <h2 className="text-3xl font-black text-white">{t('story.title')}</h2>
-              </div>
-              <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
-                <p>{t('story.p1')}</p>
-                <p>
-                  <Link
-                    href={`/${locale}/dreambit-legacy`}
-                    className="font-semibold text-amber-300 hover:text-amber-200 underline decoration-amber-400/60 underline-offset-4 transition-colors"
-                  >
-                    {t('story.dreambitLegacyLink')}
-                  </Link>
-                </p>
-                <p>{t('story.p2')}</p>
-                <p>{t('story.p3')}</p>
-              </div>
-            </div>
-
-            {/* Zuli Monsters Section */}
-            <div className="card-twilight">
-              <div className="flex items-center justify-center mb-6">
-                <Sparkles className="w-12 h-12 text-blue-400" aria-hidden="true" />
-              </div>
-              <h2 className="text-3xl font-black mb-4 text-white">{t('zuliMonsters.title')}</h2>
-              <p className="text-lg text-gray-300 mb-4">
-                {t('zuliMonsters.description')}
-              </p>
-              <p className="text-gray-400 italic">
-                {t('zuliMonsters.more')}
-              </p>
-            </div>
 
             {/* Contact Section */}
             <div className="card-twilight !mb-0">
@@ -254,7 +228,7 @@ export default async function Home({
                 ),
               })}
             </p>
-            <p className="text-sm text-gray-500 flex items-center justify-center gap-2">
+            <p className="text-sm text-gray-400 flex items-center justify-center gap-2">
               <Heart className="w-4 h-4 text-red-500" />
               {t('footer.tagline')}
             </p>

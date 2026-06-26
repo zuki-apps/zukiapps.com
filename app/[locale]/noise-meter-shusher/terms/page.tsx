@@ -84,7 +84,7 @@ export default async function NoiseMeterShusherTermsPage({
 
             <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
-              <p className="text-gray-600 mb-6">{t('lastUpdated')}</p>
+              <p className="text-gray-400 mb-6">{t('lastUpdated')}</p>
 
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8 rounded">
                 <p className="text-gray-700 font-semibold">{t('intro')}</p>

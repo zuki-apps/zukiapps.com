@@ -82,7 +82,7 @@ export default function WhistleCameraPage() {
         <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-0">
           <Link
             href={`/${locale}`}
-            className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-black transition-colors"
+            className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
             {t('back')}
@@ -123,30 +123,30 @@ export default function WhistleCameraPage() {
               <Link href={`/${locale}/whistle-camera/privacy`} className="text-amber-400 hover:text-amber-300 underline">
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/whistle-camera/terms`} className="text-amber-400 hover:text-amber-300 underline">
                 {tCommon('termsOfService')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/whistle-camera/support`} className="text-amber-400 hover:text-amber-300 underline">
                 {tCommon('support')}
               </Link>
             </div>
             <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm text-gray-400" aria-label="Page sections">
               <a href="#features" className="hover:text-amber-300">{t('pageNav.features')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#screenshots" className="hover:text-amber-300">{t('pageNav.screenshots')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#how-to" className="hover:text-amber-300">{t('pageNav.howTo')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#use-cases" className="hover:text-amber-300">{t('pageNav.useCases')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#manual" className="hover:text-amber-300">{t('pageNav.manual')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#tips" className="hover:text-amber-300">{t('pageNav.tips')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#faq" className="hover:text-amber-300">{t('pageNav.faq')}</a>
-              <span className="text-gray-600" aria-hidden>|</span>
+              <span className="text-gray-400" aria-hidden>|</span>
               <a href="#download" className="hover:text-amber-300">{t('pageNav.download')}</a>
             </nav>
           </div>
@@ -402,16 +402,16 @@ export default function WhistleCameraPage() {
               <Logo size="md" />
             </div>
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
-            <p className="text-sm text-gray-500">{t('footer.tagline')}</p>
+            <p className="text-sm text-gray-400">{t('footer.tagline')}</p>
             <div className="flex justify-center gap-4 mt-4 text-sm">
               <Link href={`/${locale}/whistle-camera/support`} className="text-gray-400 hover:text-amber-400">
                 {tCommon('support')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/whistle-camera/privacy`} className="text-gray-400 hover:text-amber-400">
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link href={`/${locale}/whistle-camera/terms`} className="text-gray-400 hover:text-amber-400">
                 {tCommon('termsOfService')}
               </Link>

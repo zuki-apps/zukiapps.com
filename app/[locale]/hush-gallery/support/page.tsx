@@ -100,8 +100,8 @@ export default async function SupportPage({
 
             <div className={locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
-              <p className="text-gray-600 mb-2">{t('subtitle')}</p>
-              <p className="text-gray-500 text-sm mb-8">{tFaq('subtitle')}</p>
+              <p className="text-gray-400 mb-2">{t('subtitle')}</p>
+              <p className="text-gray-400 text-sm mb-8">{tFaq('subtitle')}</p>
 
               <section className="mb-8">
                 <Link
@@ -140,7 +140,7 @@ export default async function SupportPage({
                       <Shield className="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">{t('quickLinks.privacy.title')}</h3>
-                        <p className="text-sm text-gray-600">{t('quickLinks.privacy.description')}</p>
+                        <p className="text-sm text-gray-400">{t('quickLinks.privacy.description')}</p>
                       </div>
                     </div>
                   </Link>
@@ -152,7 +152,7 @@ export default async function SupportPage({
                       <FileText className="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">{t('quickLinks.terms.title')}</h3>
-                        <p className="text-sm text-gray-600">{t('quickLinks.terms.description')}</p>
+                        <p className="text-sm text-gray-400">{t('quickLinks.terms.description')}</p>
                       </div>
                     </div>
                   </Link>
@@ -164,7 +164,7 @@ export default async function SupportPage({
                       <Settings className="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">{t('quickLinks.deleteAccount.title')}</h3>
-                        <p className="text-sm text-gray-600">{t('quickLinks.deleteAccount.description')}</p>
+                        <p className="text-sm text-gray-400">{t('quickLinks.deleteAccount.description')}</p>
                       </div>
                     </div>
                   </Link>

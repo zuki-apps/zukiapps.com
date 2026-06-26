@@ -45,7 +45,7 @@ export default function TermsOfServicePage() {
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {t('title')}
             </h1>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-400 mb-6">
               {t('lastUpdated')}
             </p>
 

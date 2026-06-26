@@ -193,7 +193,7 @@ export default function DreambitLegacyPage() {
                         aria-label={t('googlePlayAlt')}
                       >
                         <Image
-                          src="/images/google-play-badge.png"
+                          src="/images/google-play-badge.svg"
                           alt={t('googlePlayAlt')}
                           width={180}
                           height={54}

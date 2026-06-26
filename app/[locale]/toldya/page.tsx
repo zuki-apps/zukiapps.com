@@ -36,7 +36,7 @@ export default function ToldyaPage() {
         <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-10">
           <Link
             href={`/${locale}`}
-            className="inline-flex items-center gap-2 text-emerald-400 hover:text-emerald-300 font-black transition-colors"
+            className="inline-flex items-center gap-2 text-emerald-400 hover:text-emerald-300 font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
             {t('back')}

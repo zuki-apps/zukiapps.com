@@ -55,7 +55,7 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
             </div>
             <div className={locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
-              <p className="text-gray-600 mb-8">{t('subtitle')}</p>
+              <p className="text-gray-400 mb-8">{t('subtitle')}</p>
               <section className="bg-white rounded-lg p-6 mb-8 border-l-4 border-blue-700">
                 <div className="flex items-start gap-4">
                   <Mail className="w-6 h-6 text-blue-700 flex-shrink-0 mt-1" />
@@ -77,7 +77,7 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
                       <Shield className="w-5 h-5 text-blue-700 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">{t('quickLinks.privacy.title')}</h3>
-                        <p className="text-sm text-gray-600">{t('quickLinks.privacy.description')}</p>
+                        <p className="text-sm text-gray-400">{t('quickLinks.privacy.description')}</p>
                       </div>
                     </div>
                   </Link>
@@ -86,7 +86,7 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
                       <FileText className="w-5 h-5 text-blue-700 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-semibold text-gray-900 mb-1">{t('quickLinks.terms.title')}</h3>
-                        <p className="text-sm text-gray-600">{t('quickLinks.terms.description')}</p>
+                        <p className="text-sm text-gray-400">{t('quickLinks.terms.description')}</p>
                       </div>
                     </div>
                   </Link>

@@ -210,7 +210,7 @@ export function ProductPageNav({ namespace, accent = 'purple' }: { namespace: st
     <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm text-gray-400 mb-8" aria-label="Page sections">
       {visible.map((link, i) => (
         <span key={link.href} className="inline-flex items-center gap-4">
-          {i > 0 && <span className="text-gray-600" aria-hidden>|</span>}
+          {i > 0 && <span className="text-gray-400" aria-hidden>|</span>}
           <a href={link.href} className={`${a.navHover} transition-colors`}>
             {t(link.labelKey)}
           </a>

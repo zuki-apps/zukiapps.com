@@ -31,7 +31,7 @@ export default function ZuListPage() {
       <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-0">
         <Link
           href={`/${locale}`}
-          className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-black transition-colors"
+          className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-medium transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
           {t('back')}
@@ -77,7 +77,7 @@ export default function ZuListPage() {
             >
               {tCommon('privacyPolicy')}
             </Link>
-            <span className="text-gray-500">|</span>
+            <span className="text-gray-400">|</span>
             <Link
               href={`/${locale}/zulist/terms`}
               className="text-blue-400 hover:text-blue-300 underline transition-colors"
@@ -450,7 +450,7 @@ export default function ZuListPage() {
             >
               <div className="w-32 h-10 mx-auto relative">
                 <Image
-                  src="/images/google-play-badge.png"
+                  src="/images/google-play-badge.svg"
                   alt={t('download.googlePlayAlt')}
                   width={128}
                   height={40}
@@ -552,10 +552,10 @@ export default function ZuListPage() {
             <Logo size="md" />
           </div>
           <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-400">
             {t('footer.tagline')}
           </p>
-          <p className="text-xs text-gray-600 mt-2">
+          <p className="text-xs text-gray-400 mt-2">
             {t('footer.bundle')}
           </p>
             <div className="flex justify-center gap-4 mt-4 text-sm">
@@ -565,14 +565,14 @@ export default function ZuListPage() {
               >
                 {tCommon('support')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/zulist/privacy`}
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/zulist/terms`}
                 className="text-gray-400 hover:text-blue-400 transition-colors"

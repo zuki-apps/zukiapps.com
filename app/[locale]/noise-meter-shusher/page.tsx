@@ -31,7 +31,7 @@ export default function NoiseMeterShusherPage() {
         <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-0">
           <Link
             href={`/${locale}`}
-            className="inline-flex items-center gap-2 text-violet-400 hover:text-violet-300 font-black transition-colors"
+            className="inline-flex items-center gap-2 text-violet-400 hover:text-violet-300 font-medium transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
             {t('back')}
@@ -75,14 +75,14 @@ export default function NoiseMeterShusherPage() {
               >
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/noise-meter-shusher/terms`}
                 className="text-violet-400 hover:text-violet-300 underline transition-colors"
               >
                 {tCommon('termsOfService')}
               </Link>
-              <span className="text-gray-500">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/noise-meter-shusher/support`}
                 className="text-violet-400 hover:text-violet-300 underline transition-colors"
@@ -205,7 +205,7 @@ export default function NoiseMeterShusherPage() {
               <Logo size="md" />
             </div>
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
-            <p className="text-sm text-gray-500">{t('footer.tagline')}</p>
+            <p className="text-sm text-gray-400">{t('footer.tagline')}</p>
             <div className="flex justify-center gap-4 mt-4 text-sm flex-wrap">
               <Link
                 href={`/${locale}/noise-meter-shusher/support`}
@@ -213,14 +213,14 @@ export default function NoiseMeterShusherPage() {
               >
                 {tCommon('support')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/noise-meter-shusher/privacy`}
                 className="text-gray-400 hover:text-violet-400 transition-colors"
               >
                 {tCommon('privacyPolicy')}
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-gray-400">|</span>
               <Link
                 href={`/${locale}/noise-meter-shusher/terms`}
                 className="text-gray-400 hover:text-violet-400 transition-colors"
