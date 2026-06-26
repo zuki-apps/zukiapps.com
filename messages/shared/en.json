@@ -2,6 +2,8 @@
   "home": {
     "title": "Zuki Apps",
     "subtitle": "Zuki Apps — Mobile Apps for iOS & Android",
+    "seoTitle": "Zuki Apps — iOS & Android Mobile Apps",
+    "metaDescription": "Privacy-first mobile apps from Israel: Hush Gallery, ZuList, Whistle Camera, HIIT timers & more. Free on iOS & Android.",
     "tagline": "Creating smart and intuitive mobile applications that make everyday life easier",
     "story": {
       "title": "My Story",
@@ -112,8 +114,8 @@
     },
     "footballTrivia": {
       "title": "Football Trivia Master",
-      "subtitle": "210+ football trivia questions",
-      "description": "Test your football knowledge with 210+ questions: World Football, National Teams, World Cups, and 2026 World Cup. On the App Store and Google Play.",
+      "subtitle": "450+ timed football quiz questions",
+      "description": "Test your football knowledge with timed questions, streaks, leaderboards, and 12 languages. Free on iOS and Android.",
       "features": {
         "categories": "Multiple Categories",
         "difficulty": "Difficulty Levels",
@@ -225,7 +227,8 @@
     "footer": {
       "copyright": "© 2025 Zuki Apps - All rights reserved. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "Developed in Israel • As a hobby • With passion",
-      "support": "Support My Work"
+      "support": "Support My Work",
+      "about": "About Zuki Apps"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -250,7 +253,7 @@
       "learnMore": "Learn more about Paratrooper Blitz →"
     }
   },
-  "common": {
+    "common": {
     "language": "Language",
     "back": "Back",
     "home": "Home",
@@ -262,7 +265,27 @@
     "contact": "Contact",
     "contactUs": "Contact Us",
     "dsaCompliance": "DSA Compliance",
-    "deleteAccount": "Delete Account"
+    "deleteAccount": "Delete Account",
+    "otherZukiApps": {
+      "title": "More from Zuki Apps",
+      "subtitle": "Explore other free iOS & Android apps from the same developer.",
+      "viewAll": "View all apps →"
+    }
+  },
+  "about": {
+    "metaTitle": "About Zuki Apps — Mobile Developer | Zuki Apps",
+    "metaDescription": "Zuki Apps builds privacy-first iOS & Android apps from Israel — ZuList, Hush Gallery, Whistle Camera & more. Learn about the developer.",
+    "title": "About Zuki Apps",
+    "subtitle": "Independent mobile developer — iOS & Android",
+    "p1": "Zuki Apps is an independent mobile software studio based in Israel. We ship practical, privacy-conscious apps for everyday life — private photo vaults, hands-free cameras, shared shopping lists, fitness timers, trivia games, and developer tools.",
+    "p2": "Every app is built with Flutter for a consistent experience on iPhone, iPad, and Android. We favor on-device processing, clear privacy policies, and no-account flows where possible.",
+    "p3": "Between 2012 and 2016, our apps shipped under DreamBit Apps. Today the Zuki Apps catalog continues that craft with new titles and long-term support for existing users.",
+    "contactTitle": "Contact",
+    "contactBody": "Questions, press, or partnership inquiries:",
+    "email": "zuki.apps.dev@gmail.com",
+    "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+    "catalogTitle": "App catalog",
+    "catalogBody": "Browse all product pages, support, and policies from the home page or our machine-readable catalog at /api/site-facts."
   },
   "dsa": {
     "title": "Digital Services Act (DSA) Compliance",

@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { asArray, hasMessage, safeRaw } from '@/lib/safeTranslations';
 import ScreenshotLightbox from '@/components/ScreenshotLightbox';
+import OtherZukiApps from '@/components/OtherZukiApps';
 
 type ScreenshotItem = {
   id: string;
@@ -160,6 +161,19 @@ const ACCENT: Record<string, AccentClasses> = {
     faqToggle: 'text-amber-400',
     cta: 'bg-amber-600',
     ctaHover: 'hover:bg-amber-500',
+  },
+  sky: {
+    navHover: 'hover:text-sky-300',
+    border: 'border-sky-600/30',
+    borderHover: 'hover:border-sky-500/50',
+    heading: 'text-sky-300',
+    stepBg: 'bg-sky-600/30',
+    stepBorder: 'border-sky-500/50',
+    stepNumber: 'text-sky-400',
+    faqBorder: 'border-sky-600/30',
+    faqToggle: 'text-sky-400',
+    cta: 'bg-sky-600',
+    ctaHover: 'hover:bg-sky-500',
   },
 };
 
@@ -379,6 +393,7 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
           </div>
         </section>
       )}
+      <OtherZukiApps currentAppId={slug} />
     </>
   );
 }

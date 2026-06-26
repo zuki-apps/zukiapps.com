@@ -10,10 +10,11 @@ import type { Metadata } from 'next';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!routing.locales.includes(locale as any)) notFound();
-  const baseUrl = getSiteUrl();
+  const t = await getTranslations({ locale, namespace: 'footballTrivia.privacy' });
+
   return {
-    title: 'Privacy Policy - Football Trivia Master | Zuki Apps',
-    description: 'Privacy Policy for Football Trivia Master. Learn how we collect, use, and protect your data.',
+    title: `${t('title')} — Football Trivia Master | Zuki Apps`,
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/football-trivia/privacy'),
@@ -51,7 +52,7 @@ export default async function FootballTriviaPrivacyPage({ params }: { params: Pr
                 {tCommon('back')}
               </Link>
             </div>
-            <div className={locale === 'he' ? 'text-right' : 'text-left'}>
+            <div className={locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-600 mb-8">{t('lastUpdated')}</p>
               <div className="space-y-6">
@@ -68,7 +69,7 @@ export default async function FootballTriviaPrivacyPage({ params }: { params: Pr
                   <p className="text-gray-700 mb-4"><strong>{tCommon('address')}:</strong> {t('section8.address')}</p>
                   <p className="text-gray-700 text-sm">
                     <Link href={`/${locale}/football-trivia/terms`} className="text-blue-700 hover:underline">
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                     </Link>
                   </p>
                 </section>

@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "噪声计 — Shusher — 分贝和噪声评分应用程序的隐私政策。如何处理麦克风音频、本地历史记录、广告和分析。"
     },
     "footer": {
       "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
@@ -294,6 +295,58 @@
           "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
         }
       ]
+    },
+    "support": {
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！查找有关噪声计 — Shusher 的答案或直接联系我们。",
+      "metaTitle": "支持与帮助 — 噪声计 — Shusher | Zuki Apps",
+      "metaDescription": "获取有关噪声计 — Shusher — 分贝读数、Shusher 警报、权限、Premium 和故障排除的帮助。",
+      "contact": {
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发送电子邮件，我们会尽快回复您。"
+      },
+      "quickLinks": {
+        "title": "快速链接",
+        "privacy": {
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
+        },
+        "terms": {
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
+        }
+      },
+      "faq": {
+        "title": "常见问题解答",
+        "q1": {
+          "question": "什么是噪音计 — Shusher？",
+          "answer": "一款移动应用程序，可使用手机的麦克风估计环境声级、运行定时测量会话、对环境进行评分、在设备上保存历史记录，并可选择在噪音超过阈值时在应用程序内向您发出警报 (Sushher)。"
+        },
+        "q2": {
+          "question": "免费吗？",
+          "answer": "是的。核心计量、会话、Shusher 和有限历史记录都是免费的。 Premium是图表的一次性升级，CSV导出，更长的会话，主题，更多的历史记录，并且没有广告。"
+        },
+        "q3": {
+          "question": "iPhone 还是Android？",
+          "answer": "两个都。捆绑包 ID：`com.zuki.apps.noisemeter`。"
+        },
+        "q4": {
+          "question": "支持哪些语言？",
+          "answer": "12 种语言环境，包括英语、希伯来语、阿拉伯语、法语、德语、意大利语、日语、韩语、中文、葡萄牙语、俄语和西班牙语。在“设置”中更改语言。"
+        },
+        "q5": {
+          "question": "分贝读数的准确度如何？",
+          "answer": "这是基于消费者手机硬件的近似水平。位置、情况、风和设备型号都会影响结果。未针对专业 SPL、OSHA 或法定噪声条例执行进行校准。"
+        },
+        "q6": {
+          "question": "为什么我的读数与真实声级计的读数不同？",
+          "answer": "专业仪表使用经过校准的麦克风和特定的测量标准。电话针对语音进行了调整，并且因制造商而异。"
+        }
+      },
+      "additionalHelp": {
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到所需的答案，或者遇到技术问题，请随时与我们联系。我们随时为您提供帮助，通常会在 24-48 小时内回复。"
+      }
     }
   }
 }

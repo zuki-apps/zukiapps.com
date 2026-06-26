@@ -17,7 +17,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
   { path: '/whistle-camera', name: 'Whistle Camera', description: 'Hands-free camera: whistle to snap photos and Pro video on iOS and Android.' },
   { path: '/power-interval-timer', name: 'Power Interval Timer', description: 'Tabata and HIIT interval workout timer.' },
   { path: '/sudoku-puzzle', name: 'Sudoku Fun Go', description: 'Classic 9×9 Sudoku puzzle game.' },
-  { path: '/football-trivia', name: 'Football Trivia Master', description: 'Football trivia quiz game.' },
+  { path: '/football-trivia', name: 'Football Trivia Master', description: '450+ timed football quiz questions with streaks and global leaderboards.' },
   { path: '/fun-facts-trivia', name: 'Fun Facts! Trivia', description: 'Timed trivia across multiple categories.' },
   { path: '/bit-scope', name: 'Bit Scope', description: 'Bit-level number inspector and base converter for developers.' },
   { path: '/track-ledger', name: 'Track Ledger', description: 'Offline-first GPS / GNSS track logger; CSV, GPX, GeoJSON export; OpenStreetMap map.' },

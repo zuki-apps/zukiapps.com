@@ -117,7 +117,8 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Track Ledger 的隐私政策 — GPS/GNSS 跟踪记录应用程序。如何处理位置数据、导出和可选分析。"
     },
     "footer": {
       "copyright": "© 2026 Track Ledger - All rights reserved",
@@ -283,6 +284,58 @@
           "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
         }
       ]
+    },
+    "support": {
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！查找有关 Track Ledger 的答案或直接联系我们。",
+      "metaTitle": "支持与帮助 — 跟踪分类账 | Zuki Apps",
+      "metaDescription": "获取有关 Track Ledger 的帮助 — GPS/GNSS 记录、导出、Premium 格式、位置权限和分类帐限制。",
+      "contact": {
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发送电子邮件，我们会尽快回复您。"
+      },
+      "quickLinks": {
+        "title": "快速链接",
+        "privacy": {
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
+        },
+        "terms": {
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
+        }
+      },
+      "faq": {
+        "title": "常见问题解答",
+        "q1": {
+          "question": "什么是追踪账本？",
+          "answer": "一个简单的 GPS / GNSS 轨迹记录器，专注于数据导出和现场使用。它通过可选的基于时间或距离的采样将您的路径记录为原始点。"
+        },
+        "q2": {
+          "question": "它是健身应用程序还是社交应用程序？",
+          "answer": "不。没有排行榜、锻炼或社交信息。它是为需要可靠的位置日志和文件导出的人们而构建的。"
+        },
+        "q3": {
+          "question": "我需要一个帐户吗？",
+          "answer": "不会。所有内容都存储在您的本地设备上。"
+        },
+        "q4": {
+          "question": "可以离线使用吗？",
+          "answer": "是的。无需互联网即可录制和查看已保存的曲目。地图选项卡需要网络来加载 OpenStreetMap 图块。"
+        },
+        "q5": {
+          "question": "该应用程序何时使用我的位置？",
+          "answer": "仅当您正在进行活动录制时（如果您启用了 Premium 并启用了后台录制，则可以选择在后台进行录制）。"
+        },
+        "q6": {
+          "question": "为什么切换应用程序时录音会暂停？",
+          "answer": "在免费计划中，仅当 Track Ledger 位于前台时才会记录新的 GPS 点。 Premium 启用后台录制后，当您离开应用程序时会继续记录。"
+        }
+      },
+      "additionalHelp": {
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到所需的答案，或者遇到技术问题，请随时与我们联系。我们随时为您提供帮助，通常会在 24-48 小时内回复。"
+      }
     }
   }
 }

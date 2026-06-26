@@ -30,7 +30,7 @@ export default function TermsOfServicePage() {
 
         <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12">
           <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-blue-600">
-            <h1 className="text-4xl font-bold text-blue-600">ZuList</h1>
+            <h1 className="text-4xl font-bold text-blue-600">{tApp('title')}</h1>
             <div className="flex gap-2">
               <Link
                 href={`/${locale}/zulist`}
@@ -41,7 +41,7 @@ export default function TermsOfServicePage() {
             </div>
           </div>
 
-          <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+          <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {t('title')}
             </h1>
@@ -78,7 +78,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {t('section2.content')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                   <li className="text-gray-700">{t('section2.items.item1')}</li>
                   <li className="text-gray-700">{t('section2.items.item2')}</li>
                   <li className="text-gray-700">{t('section2.items.item3')}</li>
@@ -99,7 +99,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section3.content1')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
                   <li className="text-gray-700">{t('section3.items1.item1')}</li>
                   <li className="text-gray-700">{t('section3.items1.item2')}</li>
                   <li className="text-gray-700">{t('section3.items1.item3')}</li>
@@ -110,7 +110,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section3.content2')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
                   <li className="text-gray-700">{t('section3.items2.item1')}</li>
                   <li className="text-gray-700">{t('section3.items2.item2')}</li>
                   <li className="text-gray-700">{t('section3.items2.item3')}</li>
@@ -135,7 +135,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section4.content1')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
                   <li className="text-gray-700">{t('section4.items1.item1')}</li>
                   <li className="text-gray-700">{t('section4.items1.item2')}</li>
                 </ul>
@@ -145,7 +145,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section4.content2')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
                   <li className="text-gray-700">{t('section4.items2.item1')}</li>
                   <li className="text-gray-700">{t('section4.items2.item2')}</li>
                   <li className="text-gray-700">{t('section4.items2.item3')}</li>
@@ -156,7 +156,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section4.content3')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-3 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-3 space-y-2`}>
                   <li className="text-gray-700">{t('section4.items3.item1')}</li>
                   <li className="text-gray-700">{t('section4.items3.item2')}</li>
                 </ul>
@@ -194,7 +194,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section5.content2')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
                   <li className="text-gray-700">{t('section5.items2.item1')}</li>
                   <li className="text-gray-700">{t('section5.items2.item2')}</li>
                   <li className="text-gray-700">{t('section5.items2.item3')}</li>
@@ -205,7 +205,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section5.content3')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} space-y-2`}>
                   <li className="text-gray-700">{t('section5.items3.item1')}</li>
                   <li className="text-gray-700">{t('section5.items3.item2')}</li>
                   <li className="text-gray-700">{t('section5.items3.item3')}</li>
@@ -236,7 +236,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section6.content2b')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-3 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-3 space-y-2`}>
                   <li className="text-gray-700">{t('section6.items2.item1')}</li>
                   <li className="text-gray-700">{t('section6.items2.item2')}</li>
                   <li className="text-gray-700">{t('section6.items2.item3')}</li>
@@ -266,7 +266,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section7.content')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                   <li className="text-gray-700">{t('section7.items.item1')}</li>
                   <li className="text-gray-700">{t('section7.items.item2')}</li>
                   <li className="text-gray-700">{t('section7.items.item3')}</li>
@@ -302,7 +302,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section9.content1')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
                   <li className="text-gray-700">{t('section9.items1.item1')}</li>
                   <li className="text-gray-700">{t('section9.items1.item2')}</li>
                   <li className="text-gray-700">{t('section9.items1.item3')}</li>
@@ -313,7 +313,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section9.content2')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} space-y-2`}>
                   <li className="text-gray-700">{t('section9.items2.item1')}</li>
                   <li className="text-gray-700">{t('section9.items2.item2')}</li>
                   <li className="text-gray-700">{t('section9.items2.item3')}</li>
@@ -331,7 +331,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section10.content1')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
                   <li className="text-gray-700">{t('section10.items1.item1')}</li>
                   <li className="text-gray-700">{t('section10.items1.item2')}</li>
                   <li className="text-gray-700">{t('section10.items1.item3')}</li>
@@ -342,7 +342,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section10.content2')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-6 space-y-2`}>
                   <li className="text-gray-700">{t('section10.items2.item1')}</li>
                   <li className="text-gray-700">{t('section10.items2.item2')}</li>
                   <li className="text-gray-700">{t('section10.items2.item3')}</li>
@@ -354,7 +354,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section10.content3')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} space-y-2`}>
                   <li className="text-gray-700">{t('section10.items3.item1')}</li>
                   <li className="text-gray-700">{t('section10.items3.item2')}</li>
                   <li className="text-gray-700">{t('section10.items3.item3')}</li>
@@ -372,7 +372,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section11.content2')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} space-y-2`}>
                   <li className="text-gray-700">{t('section11.items.item1')}</li>
                   <li className="text-gray-700">{t('section11.items.item2')}</li>
                   <li className="text-gray-700">{t('section11.items.item3')}</li>
@@ -401,7 +401,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section13.content')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} space-y-2`}>
                   <li className="text-gray-700">{t('section13.items.item1')}</li>
                   <li className="text-gray-700">{t('section13.items.item2')}</li>
                   <li className="text-gray-700">{t('section13.items.item3')}</li>
@@ -446,7 +446,7 @@ export default function TermsOfServicePage() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                   {t('section16.content')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                   <li className="text-gray-700">{t('section16.items.item1')}</li>
                   <li className="text-gray-700">{t('section16.items.item2')}</li>
                   <li className="text-gray-700">{t('section16.items.item3')}</li>
@@ -494,7 +494,7 @@ export default function TermsOfServicePage() {
                   </a>
                 </p>
                 <p className="text-gray-700 mb-2">
-                  <strong>{locale === 'he' ? 'אתר אינטרנט:' : 'Website:'}</strong>{' '}
+                  <strong>{locale === 'he' || locale === 'ar' ? 'אתר אינטרנט:' : 'Website:'}</strong>{' '}
                   <a
                     href={t('section19.website')}
                     target="_blank"
@@ -509,12 +509,12 @@ export default function TermsOfServicePage() {
                   {t('section19.address')}
                 </p>
                 <p className="text-gray-700 text-sm">
-                  {locale === 'he' ? '🔒 ' : '🔒 '}
+                  {locale === 'he' || locale === 'ar' ? '🔒 ' : '🔒 '}
                   <Link
                     href={`/${locale}/zulist/privacy`}
                     className="text-blue-600 hover:underline"
                   >
-                    {locale === 'he' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
+                    {locale === 'he' || locale === 'ar' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
                   </Link>
                 </p>
               </section>

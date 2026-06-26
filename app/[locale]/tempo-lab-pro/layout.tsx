@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
-import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import { buildProductPageMetadata } from '@/lib/productSeo';
 import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
 
 export async function generateMetadata({
@@ -15,63 +15,13 @@ export async function generateMetadata({
     return {};
   }
 
-  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'tempoLabPro' });
-  
-  const title = `${t('hero.title')} | Zuki Apps`;
-  const description = t('hero.structuredDataDescription');
-  const logoUrl = `${baseUrl}/images/tempo-lab-pro-icon.png`;
-  
-  return {
-    title,
-    description,
-    keywords: [
-      'TempoLab Pro',
-      'tempo app',
-      'BPM',
-      'tap tempo',
-      'pitch shift',
-      'audio practice',
-      'music practice',
-      'tempo trainer',
-      'metronome',
-      'audio export',
-      'music app',
-      'Zuki Apps',
-      'zuki',
-    ],
-    alternates: {
-      canonical: buildCanonical(locale, '/tempo-lab-pro'),
-      languages: buildLanguageAlternates('/tempo-lab-pro'),
-    },
-    openGraph: {
-      type: 'website',
-      locale: openGraphLocale(locale),
-      url: buildCanonical(locale, '/tempo-lab-pro'),
-      siteName: 'Zuki Apps',
-      title,
-      description,
-      images: [{ url: logoUrl, width: 387, height: 387, alt: 'TempoLab Pro app icon' }],
-    },
-    twitter: {
-      card: 'summary',
-      title,
-      description,
-      creator: '@zuki_apps',
-      site: '@zuki_apps',
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
-  };
+
+  return buildProductPageMetadata({
+    locale,
+    appPath: '/tempo-lab-pro',
+    t,
+  });
 }
 
 export default async function TempoLabProLayout({

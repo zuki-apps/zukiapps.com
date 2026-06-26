@@ -117,7 +117,8 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "מדיניות פרטיות עבור Track Ledger - אפליקציית רישום מסלולים GPS/GNSS. כיצד מטופלים נתוני מיקום, ייצוא וניתוח אופציונלי."
     },
     "footer": {
       "copyright": "© 2026 Track Ledger - All rights reserved",
@@ -283,6 +284,58 @@
           "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
         }
       ]
+    },
+    "support": {
+      "title": "תמיכה ועזרה",
+      "subtitle": "אנחנו כאן כדי לעזור! מצא תשובות על Track Ledger או פנה אלינו ישירות.",
+      "metaTitle": "תמיכה ועזרה — עקוב אחר חשבונות | Zuki Apps",
+      "metaDescription": "קבל עזרה עם Track Ledger - הקלטה של ​​GPS/GNSS, ייצוא, פורמטים של Premium, הרשאות מיקום ומגבלות ספר חשבונות.",
+      "contact": {
+        "title": "צור קשר",
+        "description": "יש לך שאלה או זקוק לסיוע? שלחו לנו מייל ונחזור אליכם בהקדם האפשרי."
+      },
+      "quickLinks": {
+        "title": "קישורים מהירים",
+        "privacy": {
+          "title": "מדיניות פרטיות",
+          "description": "למד כיצד אנו מגנים על הנתונים שלך"
+        },
+        "terms": {
+          "title": "תנאים והגבלות",
+          "description": "קרא את התנאים וההגבלות שלנו"
+        }
+      },
+      "faq": {
+        "title": "שאלות נפוצות",
+        "q1": {
+          "question": "מה זה Track Ledger?",
+          "answer": "לוגר מסלול פשוט GPS / GNSS המתמקד בייצוא נתונים ושימוש בשטח. הוא מתעד את הנתיב שלך כנקודות גולמיות עם דגימה אופציונלית מבוססת זמן או מרחק."
+        },
+        "q2": {
+          "question": "האם זו אפליקציה לכושר או חברתית?",
+          "answer": "לא. אין לוחות הישגים, אימונים או עדכונים חברתיים. זה נבנה עבור אנשים שזקוקים ליומני מיקום אמינים וייצוא קבצים."
+        },
+        "q3": {
+          "question": "האם אני צריך חשבון?",
+          "answer": "לא. הכל מאוחסן באופן מקומי במכשיר שלך."
+        },
+        "q4": {
+          "question": "זה עובד במצב לא מקוון?",
+          "answer": "כֵּן. הקלטה וצפייה ברצועות שמורות פועלות ללא אינטרנט. הכרטיסייה מפה זקוקה לרשת כדי לטעון אריחי OpenStreetMap."
+        },
+        "q5": {
+          "question": "מתי האפליקציה משתמשת במיקום שלי?",
+          "answer": "רק בזמן שיש לך הקלטה פעילה (ואופציונלי ברקע אם הפעלת Premium והקלטת רקע)."
+        },
+        "q6": {
+          "question": "מדוע ההקלטה הושהתה כאשר החלפתי אפליקציות?",
+          "answer": "בתוכנית החינמית, GPS נקודות חדשות נרשמות רק כאשר Track Ledger נמצא בחזית. Premium עם הקלטת רקע מופעלת ממשיך ברישום כשאתה עוזב את האפליקציה."
+        }
+      },
+      "additionalHelp": {
+        "title": "זקוק לעזרה נוספת?",
+        "description": "אם לא הצלחת למצוא את התשובה שאתה מחפש, או אם אתה נתקל בבעיה טכנית, אנא אל תהסס לפנות אלינו. אנחנו כאן כדי לעזור ולהגיב בדרך כלל תוך 24-48 שעות."
+      }
     }
   }
 }

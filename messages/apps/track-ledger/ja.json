@@ -117,7 +117,8 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Track Ledger のプライバシー ポリシー — GPS/GNSS 追跡ログ アプリ。位置データ、エクスポート、およびオプションの分析がどのように処理されるか。"
     },
     "footer": {
       "copyright": "© 2026 Track Ledger - All rights reserved",
@@ -283,6 +284,58 @@
           "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
         }
       ]
+    },
+    "support": {
+      "title": "サポートとヘルプ",
+      "subtitle": "私たちがお手伝いします！ Track Ledger に関する回答を見つけるか、直接お問い合わせください。",
+      "metaTitle": "サポートとヘルプ — 台帳の追跡 | Zuki Apps",
+      "metaDescription": "台帳の追跡 — GPS/GNSS の記録、エクスポート、Premium 形式、場所の許可、台帳の制限に関するヘルプを表示します。",
+      "contact": {
+        "title": "お問い合わせ",
+        "description": "ご質問がありますか、サポートが必要ですか?メールをお送りください。できるだけ早くご連絡いたします。"
+      },
+      "quickLinks": {
+        "title": "クイックリンク",
+        "privacy": {
+          "title": "プライバシーポリシー",
+          "description": "データをどのように保護するかをご覧ください"
+        },
+        "terms": {
+          "title": "利用規約",
+          "description": "利用規約をお読みください"
+        }
+      },
+      "faq": {
+        "title": "よくある質問",
+        "q1": {
+          "question": "追跡台帳とは何ですか?",
+          "answer": "データのエクスポートと現場での使用に重点を置いたシンプルな GPS / GNSS トラック ロガー。オプションの時間または距離ベースのサンプリングを使用して、パスを生のポイントとして記録します。"
+        },
+        "q2": {
+          "question": "それはフィットネス アプリですか、それともソーシャル アプリですか?",
+          "answer": "いいえ、リーダーボード、ワークアウト、ソーシャル フィードはありません。信頼できる位置ログとファイルのエクスポートを必要とするユーザー向けに構築されています。"
+        },
+        "q3": {
+          "question": "アカウントは必要ですか?",
+          "answer": "いいえ、すべてがデバイス上にローカルに保存されます。"
+        },
+        "q4": {
+          "question": "オフラインでも動作しますか?",
+          "answer": "はい。保存されたトラックの録音と表示は、インターネットがなくても機能します。 [マップ] タブには、OpenStreetMap タイルを読み込むためのネットワークが必要です。"
+        },
+        "q5": {
+          "question": "アプリはいつ私の位置情報を使用しますか?",
+          "answer": "アクティブな録音がある間のみ (および、Premium とバックグラウンド録音が有効になっている場合は、オプションでバックグラウンドでも)。"
+        },
+        "q6": {
+          "question": "アプリを切り替えると録音が一時停止するのはなぜですか?",
+          "answer": "無料プランでは、Track Ledger がフォアグラウンドにあるときにのみ、新しい GPS ポイントが記録されます。 Premium バックグラウンド記録が有効になっている場合、アプリを終了しても記録が継続されます。"
+        }
+      },
+      "additionalHelp": {
+        "title": "さらにサポートが必要ですか?",
+        "description": "探している答えが見つからない場合、または技術的な問題が発生した場合は、お気軽にお問い合わせください。通常 24 ～ 48 時間以内に対応させていただきます。"
+      }
     }
   }
 }

@@ -22,8 +22,7 @@ export async function generateMetadata({
 
   return {
     title: `${t('title')} — Noise Meter — Shusher | Zuki Apps`,
-    description:
-      'Privacy Policy for Noise Meter — Shusher — decibel and noise scoring app. How microphone audio, local history, ads, and analytics are handled.',
+    description: t('metaDescription'),
     robots: {
       index: true,
       follow: true,

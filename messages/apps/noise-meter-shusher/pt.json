@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Política de privacidade para medidor de ruído - Shusher - aplicativo de pontuação de decibéis e ruído. Como o áudio do microfone, o histórico local, os anúncios e as análises são tratados."
     },
     "footer": {
       "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
@@ -294,6 +295,58 @@
           "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
         }
       ]
+    },
+    "support": {
+      "title": "Suporte e Ajuda",
+      "subtitle": "Estamos aqui para ajudar! Encontre respostas sobre Medidor de ruído - Shusher ou entre em contato conosco diretamente.",
+      "metaTitle": "Suporte e Ajuda — Medidor de Ruído — Shusher | Zuki Apps",
+      "metaDescription": "Obtenha ajuda com Noise Meter — Shusher — leituras de decibéis, alertas Shusher, permissões, Premium e solução de problemas.",
+      "contact": {
+        "title": "Contate-nos",
+        "description": "Tem alguma dúvida ou precisa de ajuda? Envie-nos um e-mail e entraremos em contato com você o mais breve possível."
+      },
+      "quickLinks": {
+        "title": "Links rápidos",
+        "privacy": {
+          "title": "política de Privacidade",
+          "description": "Saiba como protegemos seus dados"
+        },
+        "terms": {
+          "title": "Termos de Serviço",
+          "description": "Leia nossos termos e condições"
+        }
+      },
+      "faq": {
+        "title": "Perguntas frequentes",
+        "q1": {
+          "question": "O que é medidor de ruído - Shusher?",
+          "answer": "Um aplicativo móvel que estima o nível de som ambiente usando o microfone do seu telefone, executa sessões de medição cronometradas, pontua o ambiente, salva o histórico no dispositivo e, opcionalmente, alerta você no aplicativo quando o ruído excede um limite (Shusher)."
+        },
+        "q2": {
+          "question": "É grátis?",
+          "answer": "Sim. Medição principal, sessões, Shusher e histórico limitado são gratuitos. Premium é uma atualização única para gráficos, exportação CSV, sessões mais longas, temas, mais histórico e sem anúncios."
+        },
+        "q3": {
+          "question": "iPhone ou Android?",
+          "answer": "Ambos. ID do pacote: `com.zuki.apps.noisemeter`."
+        },
+        "q4": {
+          "question": "Quais idiomas são suportados?",
+          "answer": "12 localidades, incluindo inglês, hebraico, árabe, francês, alemão, italiano, japonês, coreano, chinês, português, russo e espanhol. Altere o idioma nas configurações."
+        },
+        "q5": {
+          "question": "Quão precisa é a leitura de decibéis?",
+          "answer": "É um nível aproximado baseado no hardware telefônico do consumidor. Posição, caixa, vento e modelo do dispositivo afetam os resultados. Não calibrado para SPL profissional, OSHA ou aplicação de regulamentos legais sobre ruído."
+        },
+        "q6": {
+          "question": "Por que minha leitura difere de um medidor de som real?",
+          "answer": "Os medidores profissionais utilizam microfones calibrados e padrões de medição específicos. Os telefones são ajustados para fala e variam de acordo com o fabricante."
+        }
+      },
+      "additionalHelp": {
+        "title": "Precisa de mais ajuda?",
+        "description": "Se você não encontrou a resposta que procura ou se está enfrentando um problema técnico, não hesite em nos contatar. Estamos aqui para ajudar e normalmente respondemos dentro de 24 a 48 horas."
+      }
     }
   }
 }

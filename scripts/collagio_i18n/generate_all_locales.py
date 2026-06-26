@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate messages/collagio-locales/*.json from en.json + Hebrew hand-off + MT for other locales."""
+"""Generate messages/apps/collagio/{locale}.json from en.json + Hebrew hand-off + MT for other locales."""
 from __future__ import annotations
 
 import importlib.util
@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "messages" / "collagio-locales"
+OUT = ROOT / "messages" / "apps" / "collagio"
 CACHE = Path(__file__).resolve().parent / "maps"
 FIX = Path(__file__).resolve().parents[1] / "fix-collagio-locales.py"
 
@@ -157,7 +157,7 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     CACHE.mkdir(parents=True, exist_ok=True)
 
-    en_tree = json.loads((ROOT / "messages" / "en.json").read_text(encoding="utf-8"))["collagio"]
+    en_tree = json.loads((ROOT / "messages" / "apps" / "collagio" / "en.json").read_text(encoding="utf-8"))["collagio"]
     unique = sorted({s for s in walk_strings(en_tree) if not should_skip_translate(s)}, key=len)
 
     # Hebrew — hand-crafted

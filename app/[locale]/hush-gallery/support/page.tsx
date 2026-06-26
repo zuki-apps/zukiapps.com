@@ -22,10 +22,11 @@ export async function generateMetadata({
     notFound();
   }
 
+  const t = await getTranslations({ locale, namespace: 'hushGallery.support' });
+
   return {
-    title: 'Support & FAQ - Hush Gallery | Zuki Apps',
-    description:
-      'Hush Gallery FAQ: import, share extension, tags, App Lock, cloud backup, Premium, privacy, and troubleshooting. Contact zuki.apps.dev@gmail.com.',
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/hush-gallery/support'),
@@ -88,7 +89,7 @@ export default async function SupportPage({
 
           <div className="bg-purple-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-purple-600">
-              <h1 className="text-4xl font-bold text-purple-600">Hush Gallery</h1>
+              <h1 className="text-4xl font-bold text-purple-600">{tHero('title')}</h1>
               <Link
                 href={`/${locale}/hush-gallery`}
                 className="px-4 py-2 border-2 border-purple-600 bg-white text-purple-600 rounded-lg hover:bg-purple-600 hover:text-white transition-colors text-sm"
@@ -107,7 +108,7 @@ export default async function SupportPage({
                   href={`/${locale}/hush-gallery#manual`}
                   className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 font-semibold text-sm"
                 >
-                  {locale === 'he' ? 'מדריך משתמש מלא בעמוד האפליקציה' : 'Full user manual on the app page'}
+                  {locale === 'he' || locale === 'ar' ? 'מדריך משתמש מלא בעמוד האפליקציה' : 'Full user manual on the app page'}
                 </Link>
               </section>
 

@@ -52,7 +52,7 @@ export default async function FootballTriviaTermsPage({ params }: { params: Prom
                 {tCommon('back')}
               </Link>
             </div>
-            <div className={locale === 'he' ? 'text-right' : 'text-left'}>
+            <div className={locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-600 mb-6">{t('lastUpdated')}</p>
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8 rounded">
@@ -70,7 +70,7 @@ export default async function FootballTriviaTermsPage({ params }: { params: Prom
                   <p className="text-gray-700 mb-2"><strong>{tCommon('address')}:</strong> {t('section19.address')}</p>
                   <p className="text-gray-700 text-sm">
                     <Link href={`/${locale}/football-trivia/privacy`} className="text-blue-700 hover:underline">
-                      {locale === 'he' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
                     </Link>
                   </p>
                 </section>

@@ -7,8 +7,9 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  # Note: Add FIREBASE_SERVICE_ACCOUNT_KEY and NEXT_PUBLIC_BASE_URL in Netlify Dashboard
-  # Site settings → Environment variables
+  SITEMAP_USE_GIT = "true"
+  # Note: Add FIREBASE_SERVICE_ACCOUNT_KEY, NEXT_PUBLIC_BASE_URL,
+  # NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION, and NEXT_PUBLIC_GA_MEASUREMENT_ID in Netlify Dashboard
 
 # Next.js hashed assets — long-lived immutable cache
 [[headers]]
@@ -40,6 +41,11 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 # llms.txt and faq.md — allow crawlers to cache for 1 day
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Vary = "Accept-Language"
+
 [[headers]]
   for = "/llms.txt"
   [headers.values]

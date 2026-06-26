@@ -76,7 +76,7 @@ export default async function FunFactsTriviaTermsPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-600 mb-6">{t('lastUpdated')}</p>
 
@@ -94,7 +94,7 @@ export default async function FunFactsTriviaTermsPage({
                 <section>
                   <h2 className="text-2xl font-bold text-amber-700 mb-4">{t('section2.title')}</h2>
                   <p className="text-gray-700 leading-relaxed mb-4">{t('section2.content')}</p>
-                  <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
+                  <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                     {t.raw('section2.items').map((item: string, i: number) => (
                       <li key={i} className="text-gray-700">
                         {item}
@@ -117,7 +117,7 @@ export default async function FunFactsTriviaTermsPage({
                   </p>
                   <p className="text-gray-700 text-sm">
                     <Link href={`/${locale}/fun-facts-trivia/privacy`} className="text-amber-700 hover:underline">
-                      {locale === 'he' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
                     </Link>
                   </p>
                 </section>

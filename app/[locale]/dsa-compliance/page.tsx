@@ -22,7 +22,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'dsa' });
   
   const title = `${t('title')} - Zuki Apps`;
-  const description = locale === 'he' 
+  const description = locale === 'he' || locale === 'ar' 
     ? 'ציות לחוק שירותים דיגיטליים (DSA) - Zuki Apps. מידע על זיהוי סוחר, זכויות צרכן וציות לחוקי האיחוד האירופי.'
     : 'Digital Services Act (DSA) Compliance - Zuki Apps. Information about trader identification, consumer rights, and EU compliance.';
   
@@ -82,7 +82,7 @@ export default async function DSACompliancePage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
@@ -104,7 +104,7 @@ export default async function DSACompliancePage({
                   <h2 className="text-2xl font-bold text-blue-600 mb-4">
                     {t('businessInfo.title')}
                   </h2>
-                  <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
+                  <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                     <li className="text-gray-700">
                       <strong>{t('businessInfo.company')}:</strong> {t('businessInfo.companyValue')}
                     </li>
@@ -150,7 +150,7 @@ export default async function DSACompliancePage({
                   <p className="text-gray-700 leading-relaxed mb-4">
                     {t('consumerRights.content')}
                   </p>
-                  <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
+                  <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                     {t.raw('consumerRights.items').map((item: string, i: number) => (
                       <li key={i} className="text-gray-700">{item}</li>
                     ))}
@@ -181,7 +181,7 @@ export default async function DSACompliancePage({
 
                 <section className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
                   <p className="text-gray-700 text-sm mb-2">
-                    <strong>{locale === 'he' ? 'אפליקציות:' : 'Applications:'}</strong>
+                    <strong>{locale === 'he' || locale === 'ar' ? 'אפליקציות:' : 'Applications:'}</strong>
                   </p>
                   <p className="text-gray-700 text-sm">
                     <Link

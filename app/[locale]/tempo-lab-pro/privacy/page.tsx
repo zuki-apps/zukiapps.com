@@ -18,11 +18,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'tempoLabPro.privacy' });
+
   return {
-    title: 'Privacy Policy - TempoLab Pro | Zuki Apps',
-    description: 'Privacy Policy for TempoLab Pro - Tempo and pitch audio practice app. Learn how we collect, use, and protect your data.',
+    title: `${t('title')} — TempoLab Pro | Zuki Apps`,
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/tempo-lab-pro/privacy'),
@@ -75,7 +75,7 @@ export default async function TempoLabProPrivacyPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
@@ -154,7 +154,7 @@ export default async function TempoLabProPrivacyPage({
                       href={`/${locale}/tempo-lab-pro/terms`}
                       className="text-violet-600 hover:underline"
                     >
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                     </Link>
                   </p>
                 </section>

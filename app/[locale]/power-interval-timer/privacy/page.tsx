@@ -18,11 +18,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'powerIntervalTimer.privacy' });
+
   return {
-    title: 'Privacy Policy - Power Interval Timer | Zuki Apps',
-    description: 'Privacy Policy for Power Interval Timer - Interval workout timer application. Learn how we collect, use, and protect your data.',
+    title: `${t('title')} — Power Interval Timer | Zuki Apps`,
+    description: t('metaDescription'),
     robots: {
       index: true,
       follow: true,
@@ -85,7 +85,7 @@ export default async function PowerIntervalTimerPrivacyPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
@@ -158,7 +158,7 @@ export default async function PowerIntervalTimerPrivacyPage({
                   <p className="text-gray-700 font-semibold mb-2">
                     {t('section7.dataCollected')}
                   </p>
-                  <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
+                  <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                     {t.raw('section7.dataCollectedItems').map((item: string, i: number) => (
                       <li key={i} className="text-gray-700">{item}</li>
                     ))}
@@ -166,7 +166,7 @@ export default async function PowerIntervalTimerPrivacyPage({
                   <p className="text-gray-700 font-semibold mb-2">
                     {t('section7.purpose')}
                   </p>
-                  <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
+                  <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                     {t.raw('section7.purposeItems').map((item: string, i: number) => (
                       <li key={i} className="text-gray-700">{item}</li>
                     ))}
@@ -212,12 +212,12 @@ export default async function PowerIntervalTimerPrivacyPage({
                     {t('section8.address')}
                   </p>
                   <p className="text-gray-700 text-sm">
-                    {locale === 'he' ? '📄 ' : '📄 '}
+                    {locale === 'he' || locale === 'ar' ? '📄 ' : '📄 '}
                     <Link
                       href={`/${locale}/power-interval-timer/terms`}
                       className="text-orange-600 hover:underline"
                     >
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                     </Link>
                   </p>
                 </section>

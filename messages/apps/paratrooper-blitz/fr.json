@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "support@zukiapps.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Politique de confidentialité de Paratrooper Blitz — jeu d'arcade. Comment les données de jeu, les publicités, les Firebase et les services de jeux de plateforme sont traités."
     },
     "footer": {
       "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
@@ -278,6 +279,59 @@
           "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
         }
       ]
+    },
+    "support": {
+      "title": "Assistance et aide",
+      "subtitle": "Nous sommes là pour vous aider ! Trouvez des réponses aux questions courantes ou contactez le Zuki Apps à propos de Paratrooper Blitz.",
+      "metaTitle": "Assistance et aide — Parachutiste Blitz | Zuki Apps",
+      "metaDescription": "Obtenez de l'aide sur Paratrooper Blitz : jeu hors ligne, Arcade vs Classic, scores, classements, réalisations et suppression des publicités.",
+      "contact": {
+        "title": "Contactez-nous",
+        "description": "Vous avez une question ou besoin d'aide ? Envoyez-nous un email et nous vous répondrons dans les plus brefs délais.",
+        "email": "support@zukiapps.com"
+      },
+      "quickLinks": {
+        "title": "Liens rapides",
+        "privacy": {
+          "title": "politique de confidentialité",
+          "description": "Découvrez comment nous protégeons vos données"
+        },
+        "terms": {
+          "title": "Conditions d'utilisation",
+          "description": "Lisez nos termes et conditions"
+        }
+      },
+      "faq": {
+        "title": "Foire aux questions",
+        "q1": {
+          "question": "Le Parachutiste Blitz est-il gratuit ?",
+          "answer": "Oui. Le jeu est gratuit à télécharger et à jouer. L'achat unique facultatif de suppression des annonces supprime les bannières et les annonces interstitielles."
+        },
+        "q2": {
+          "question": "A quel âge s'adresse le jeu ?",
+          "answer": "Classé adolescent (13+). Action d'arcade légère de style militaire : pas de gore, pas de chat, pas de contenu généré par l'utilisateur."
+        },
+        "q3": {
+          "question": "Est-ce que ça marche hors ligne ?",
+          "answer": "Le gameplay de base fonctionne hors ligne. Les classements, les réalisations, les publicités et les achats nécessitent des services de réseau et de magasin."
+        },
+        "q4": {
+          "question": "Quelles langues sont prises en charge ?",
+          "answer": "Anglais, arabe, allemand, espagnol, français, hébreu, italien, japonais, coréen, portugais, russe et chinois (simplifié). Modification des paramètres."
+        },
+        "q5": {
+          "question": "Quelle est la différence entre Arcade et Classique ?",
+          "answer": "Arcade : glissez vers la gauche/droite, tirez vers le haut. Classique : faites pivoter la tourelle à 360° et visez manuellement."
+        },
+        "q6": {
+          "question": "Comment puis-je perdre ?",
+          "answer": "Quatre parachutistes atterrissent du **même côté** de votre tourelle, ou une bombe touche le sol."
+        }
+      },
+      "additionalHelp": {
+        "title": "Besoin de plus d'aide ?",
+        "description": "Si vous ne trouvez pas la réponse que vous cherchez ou si vous rencontrez un problème technique, n'hésitez pas à nous contacter. Nous sommes là pour vous aider et répondons généralement dans les 24 à 48 heures."
+      }
     }
   }
 }

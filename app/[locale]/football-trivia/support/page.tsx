@@ -11,10 +11,11 @@ import { Mail, FileText, Shield } from 'lucide-react';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!routing.locales.includes(locale as any)) notFound();
-  const baseUrl = getSiteUrl();
+  const t = await getTranslations({ locale, namespace: 'footballTrivia.support' });
+
   return {
-    title: 'Support - Football Trivia Master | Zuki Apps',
-    description: 'Get help and support for Football Trivia Master. Contact information and resources.',
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/football-trivia/support'),
@@ -52,7 +53,7 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
                 {tCommon('back')}
               </Link>
             </div>
-            <div className={locale === 'he' ? 'text-right' : 'text-left'}>
+            <div className={locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-600 mb-8">{t('subtitle')}</p>
               <section className="bg-white rounded-lg p-6 mb-8 border-l-4 border-blue-700">

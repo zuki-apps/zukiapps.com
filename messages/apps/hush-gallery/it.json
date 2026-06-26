@@ -260,7 +260,8 @@
         "content": "Se hai domande su questa Informativa sulla Privacy, si prega di contattarci a:",
         "email": "zuki.apps@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Hush Gallery informativa sulla privacy: come gestiamo i tuoi dati su iOS e Android."
     },
     "deleteAccount": {
       "title": "Elimina account Hush Gallery",
@@ -317,84 +318,132 @@
       "viewAllSupport": "Full support page",
       "items": [
         {
-          "question": "What is Hush Gallery?",
-          "answer": "Hush Gallery is a private photo and video gallery for iOS and Android. Media is stored in the app's private storage (separate from your public Photos app), organized with tags, protected with optional Premium app lock (PIN/biometric), and optionally backed up to iCloud (iOS) or Google Drive (Android). Package: com.zuki.apps.hushGallery."
+          "question": "Cos'è Hush Gallery?",
+          "answer": "Hush Gallery è una galleria privata di foto e video per iOS e Android. I contenuti multimediali vengono archiviati nella memoria privata dell'app (separata dall'app Foto pubblica), organizzati con tag, protetti con blocco app Premium opzionale (PIN/biometrico) e, facoltativamente, sottoposti a backup su iCloud (iOS) o Google Drive (Android). Pacchetto: com.zuki.apps.hushGallery."
         },
         {
-          "question": "How do I import photos and videos into Hush Gallery?",
-          "answer": "Open Hush Gallery and tap the + (Add) button. Choose Import from Gallery, Take Photo, or Take Video. Select one or more items from your device library. After import you can optionally delete the originals from your public gallery. You can also share directly from WhatsApp, Messages, Photos, or other apps using Share → Hush Gallery."
+          "question": "Come faccio a importare foto e video in Hush Gallery?",
+          "answer": "Apri Hush Gallery e tocca il pulsante + (Aggiungi). Scegli Importa dalla Galleria, Scatta foto o Acquisisci video. Seleziona uno o più elementi dalla libreria del tuo dispositivo. Dopo l'importazione puoi facoltativamente eliminare gli originali dalla tua galleria pubblica. Puoi anche condividere direttamente da WhatsApp, Messaggi, Foto o altre app utilizzando Condividi → Hush Gallery."
         },
         {
-          "question": "How does Share to Hush Gallery work on iPhone?",
-          "answer": "In Photos, WhatsApp, or any app: select media → Share → Hush Gallery. The iOS Share Extension copies files to secure app storage and opens Hush Gallery. On first launch after sharing, accept the privacy notice if shown, then confirm import. You may be asked whether to delete originals from the Photos library."
+          "question": "Come funziona Condividi su Hush Gallery su iPhone?",
+          "answer": "In Foto, WhatsApp o qualsiasi app: seleziona media → Condividi → Hush Gallery. L'estensione iOS Condividi copia i file per proteggere l'archiviazione delle app e apre Hush Gallery. Al primo avvio dopo la condivisione, accetta l'informativa sulla privacy se mostrata, quindi conferma l'importazione. Potrebbe esserti chiesto se eliminare gli originali dalla libreria Foto."
         },
         {
-          "question": "How does Share to Hush Gallery work on Android?",
-          "answer": "Select photos or videos in any app → Share → Hush Gallery. The app receives the shared files and imports them into private storage. Grant photo access when prompted. Optional: delete originals after import via the in-app dialog or Settings → Deletion → Auto-Delete Source Files."
+          "question": "Come funziona Condividi su Hush Gallery su Android?",
+          "answer": "Seleziona foto o video in qualsiasi app → Condividi → Hush Gallery. L'app riceve i file condivisi e li importa nell'archivio privato. Concedi l'accesso alle foto quando richiesto. Facoltativo: elimina gli originali dopo l'importazione tramite la finestra di dialogo in-app o Impostazioni → Eliminazione → Elimina automaticamente i file di origine."
         },
         {
-          "question": "Can I delete originals from my public gallery after import?",
-          "answer": "Yes. After each import, Hush Gallery can ask: Delete original files from your photo gallery? Enable Settings → Deletion → Auto-Delete Source Files to skip the prompt. Deletion uses Photos library asset IDs on iOS when available; if identification fails, you will be asked to delete manually for safety."
+          "question": "Posso eliminare gli originali dalla mia galleria pubblica dopo l'importazione?",
+          "answer": "SÌ. Dopo ogni importazione, Hush Gallery può chiedere: Eliminare i file originali dalla tua galleria fotografica? Abilita Impostazioni → Eliminazione → Elimina automaticamente file di origine per saltare la richiesta. L'eliminazione utilizza gli ID risorsa della libreria Foto su iOS quando disponibile; se l'identificazione fallisce, ti verrà chiesto di eliminare manualmente per sicurezza."
         },
         {
-          "question": "How do tags work in Hush Gallery?",
-          "answer": "Create custom tags from the tags bar (Manage Tags). Filter the grid with All, Untagged, or any tag. In selection mode, assign tags to multiple items at once. Free users: up to 5 tags. Premium: unlimited tags. Reorder tags in edit mode."
+          "question": "Come funzionano i tag in Hush Gallery?",
+          "answer": "Crea tag personalizzati dalla barra dei tag (Gestisci tag). Filtra la griglia con Tutti, Senza tag o qualsiasi tag. Nella modalità di selezione, assegna tag a più elementi contemporaneamente. Utenti gratuiti: fino a 5 tag. Premium: tag illimitati. Riordina i tag in modalità di modifica."
         },
         {
-          "question": "What is the difference between Free and Premium?",
-          "answer": "Free: local private gallery, import/export, up to 5 tags, banner ads. Premium (one-time purchase): remove all ads, unlimited tags, App Lock (PIN/biometric/auto-lock), cloud backup, and future premium features. Watch a rewarded ad for 24 hours ad-free on the free tier."
+          "question": "Qual è la differenza tra Gratis e Premium?",
+          "answer": "Gratuito: galleria privata locale, import/export, fino a 5 tag, banner pubblicitari. Premium (acquisto una tantum): rimuovi tutti gli annunci, tag illimitati, blocco app (PIN/biometrico/blocco automatico), backup su cloud e funzionalità premium future. Guarda un annuncio con premio per 24 ore senza annunci nel livello gratuito."
         },
         {
-          "question": "How do I set up App Lock?",
-          "answer": "Premium required. Go to Settings → Security → App Lock. Set a 4- or 6-digit PIN and optionally enable Face ID / Touch ID / fingerprint. Configure auto-lock timeout (immediately, 1, 5, or 15 minutes). Verified email is required for PIN recovery."
+          "question": "Come faccio a impostare il Blocco app?",
+          "answer": "Premium obbligatorio. Vai su Impostazioni → Sicurezza → Blocco app. Imposta un PIN di 4 o 6 cifre e opzionalmente abilita Face ID / Touch ID / impronta digitale. Configura il timeout del blocco automatico (immediatamente, 1, 5 o 15 minuti). Per il recupero del PIN è necessaria l'e-mail verificata."
         },
         {
-          "question": "I forgot my PIN. How do I recover access?",
-          "answer": "On the lock screen tap Forgot PIN. Sign in with the verified email used for recovery, or restore your PIN from an encrypted cloud backup if enabled. Clearing lock settings removes the PIN but does not delete your media."
+          "question": "Ho dimenticato il mio PIN. Come posso recuperare l'accesso?",
+          "answer": "Nella schermata di blocco tocca PIN dimenticato. Accedi con l'e-mail verificata utilizzata per il ripristino o ripristina il tuo PIN da un backup cloud crittografato, se abilitato. La cancellazione delle impostazioni di blocco rimuove il PIN ma non elimina i contenuti multimediali."
         },
         {
-          "question": "How does cloud backup work?",
-          "answer": "Premium feature. Settings → Backup → Backup Now or enable Auto Backup. iOS uses iCloud; Android uses Google Drive. Restore on a new device from Settings or during onboarding. Keep the app open during backup/restore."
+          "question": "Come funziona il backup nel cloud?",
+          "answer": "Funzione Premium. Impostazioni → Backup → Esegui backup adesso o abilita Backup automatico. iOS utilizza iCloud; Android utilizza Google Drive. Ripristina su un nuovo dispositivo da Impostazioni o durante l'onboarding. Mantieni l'app aperta durante il backup/ripristino."
         },
         {
-          "question": "Is my media encrypted?",
-          "answer": "Media is stored in the app's private directory inaccessible to other apps. Client-side encryption for local files and cloud backup is Coming Soon in Settings. Cloud backup uploads to your own iCloud/Google account when enabled."
+          "question": "I miei contenuti multimediali sono crittografati?",
+          "answer": "I contenuti multimediali vengono archiviati nella directory privata dell'app inaccessibile ad altre app. La crittografia lato client per file locali e backup su cloud sarà presto disponibile nelle Impostazioni. Il backup su cloud viene caricato sul tuo account iCloud/Google quando abilitato."
         },
         {
-          "question": "Where are my photos stored? Can other apps see them?",
-          "answer": "Imported files live in Hush Gallery's private app storage on your device—not in the public camera roll unless you export them. Other apps cannot browse the vault without your unlock PIN/biometric (Premium)."
+          "question": "Dove sono archiviate le mie foto? Le altre app possono vederli?",
+          "answer": "I file importati risiedono nella memoria privata dell'app di Hush Gallery sul tuo dispositivo, non nel rullino fotografico pubblico, a meno che non li esporti. Altre app non possono esplorare il vault senza il PIN di sblocco/biometrico (Premium)."
         },
         {
-          "question": "How do I export photos back to my device gallery?",
-          "answer": "Open a photo/video → Export to Gallery, or select multiple items in selection mode → Export. Metadata is preserved where supported. Move to Gallery exports and optionally removes the copy from Hush Gallery."
+          "question": "Come posso esportare nuovamente le foto nella galleria del mio dispositivo?",
+          "answer": "Apri una foto/video → Esporta nella Galleria o seleziona più elementi nella modalità di selezione → Esporta. I metadati vengono conservati dove supportato. Passa alle esportazioni della Galleria e facoltativamente rimuove la copia da Hush Gallery."
         },
         {
-          "question": "How does swipe-to-delete work?",
-          "answer": "Swipe a thumbnail left to delete. A snackbar appears for 5 seconds with Undo. Confirm deletes permanently from Hush Gallery (not from the public gallery unless you imported with delete-original)."
+          "question": "Come funziona lo scorrimento per eliminare?",
+          "answer": "Scorri una miniatura verso sinistra per eliminarla. Viene visualizzata una barra snack per 5 secondi con Annulla. Conferma l'eliminazione permanente da Hush Gallery (non dalla galleria pubblica a meno che tu non abbia importato con delete-original)."
         },
         {
-          "question": "What languages does Hush Gallery support?",
-          "answer": "12+ languages including English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, and Chinese. Change in Settings → Language."
+          "question": "Quali lingue supporta Hush Gallery?",
+          "answer": "Oltre 12 lingue tra cui inglese, ebraico, arabo, tedesco, spagnolo, francese, italiano, portoghese, russo, giapponese, coreano e cinese. Modifica in Impostazioni → Lingua."
         },
         {
-          "question": "What is the first-launch privacy notice?",
-          "answer": "On first open, Hush Gallery shows a privacy notice explaining that media stays on your device and changes can be permanent. Tap Continue after accepting, or Not now to defer (shown again next launch)."
+          "question": "Cos'è l'informativa privacy di primo lancio?",
+          "answer": "Alla prima apertura, Hush Gallery mostra un avviso sulla privacy che spiega che i contenuti multimediali rimangono sul tuo dispositivo e che le modifiche possono essere permanenti. Tocca Continua dopo aver accettato o Non ora per rinviare (visualizzato di nuovo al prossimo avvio)."
         },
         {
-          "question": "How do I delete my account?",
-          "answer": "Settings → Account → Delete Account. See https://zukiapps.com/hush-gallery/delete-account for step-by-step instructions."
+          "question": "Come posso eliminare il mio account?",
+          "answer": "Impostazioni → Account → Elimina account. Vedi https://zukiapps.com/hush-gallery/delete-account per istruzioni dettagliate."
         },
         {
-          "question": "What happens if I uninstall the app?",
-          "answer": "Local private storage is removed with the app unless you exported files first. If cloud backup was enabled, reinstall, sign in, and use Restore from Backup."
+          "question": "Cosa succede se disinstallo l'app?",
+          "answer": "L'archiviazione privata locale viene rimossa con l'app a meno che tu non abbia prima esportato i file. Se il backup su cloud era abilitato, reinstallalo, accedi e utilizza Ripristina da backup."
         },
         {
-          "question": "Does Hush Gallery show ads?",
-          "answer": "Free tier shows banner ads and occasional interstitials. Premium removes all ads. Free users can watch a rewarded ad for 24 hours without ads."
+          "question": "Hush Gallery mostra annunci?",
+          "answer": "Il livello gratuito mostra banner pubblicitari e annunci interstitial occasionali. Premium rimuove tutti gli annunci. Gli utenti gratuiti possono guardare un annuncio con premio per 24 ore senza pubblicità."
         },
         {
-          "question": "How do I contact support?",
+          "question": "Come posso contattare l'assistenza?",
           "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/hush-gallery/support. Privacy: https://zukiapps.com/hush-gallery/privacy. Terms: https://zukiapps.com/hush-gallery/terms."
+        },
+        {
+          "question": "Zuki Apps ha accesso alle mie foto?",
+          "answer": "No. Hush Gallery memorizza i contenuti multimediali localmente sul tuo dispositivo nell'archivio privato dell'app. Non carichiamo né accediamo ai tuoi file a meno che tu non abiliti esplicitamente il backup su cloud sul tuo account iCloud o Google Drive."
+        },
+        {
+          "question": "Posso utilizzare Hush Gallery senza effettuare l'accesso?",
+          "answer": "SÌ. La galleria, l'importazione, i tag e l'esportazione funzionano offline senza un account. L'accesso è necessario solo per il backup nel cloud e il ripristino del PIN tramite backup."
+        },
+        {
+          "question": "Cosa sono i filtri Tutti e Senza tag?",
+          "answer": "Tutto mostra ogni oggetto nel tuo caveau. Senza tag mostra solo gli elementi a cui non sono stati assegnati tag personalizzati. I chip di tag personalizzati filtrano su un'etichetta alla volta."
+        },
+        {
+          "question": "Come posso ordinare la gallery?",
+          "answer": "Tocca l'icona di ordinamento (⇅) nella barra dell'app della Galleria. Scegli la data, la dimensione del file, la data di importazione, il nome o il tipo di supporto (prima foto e video)."
+        },
+        {
+          "question": "L'importazione rimuove le foto dal rullino fotografico?",
+          "answer": "Per impostazione predefinita, l'importazione copia i file in Hush Gallery; gli originali rimangono in Foto a meno che tu non scelga Elimina-originale quando offerto o li rimuovi tu stesso."
+        },
+        {
+          "question": "È necessario il backup nel cloud?",
+          "answer": "No. Il backup è facoltativo. Il tuo deposito funziona interamente sul dispositivo senza backup o account."
+        },
+        {
+          "question": "Cosa è incluso in un backup?",
+          "answer": "Il backup include file multimediali e metadati come i tag. Il comportamento della piattaforma dipende da iCloud (iOS) o Google Drive (Android) e dal tuo account a cui hai effettuato l'accesso."
+        },
+        {
+          "question": "Come posso ripristinare un acquisto Premium?",
+          "answer": "Apri Premium → Ripristina acquisti. Utilizza lo stesso ID Apple o account Google Play utilizzato per l'acquisto originale."
+        },
+        {
+          "question": "Perché l'app mi chiede il PIN al mio ritorno?",
+          "answer": "Blocco app si blocca nuovamente quando metti l'app in background o dopo il timeout del blocco automatico scelto. Ciò impedisce l'accesso non autorizzato al tuo deposito."
+        },
+        {
+          "question": "Le miniature sembrano vuote o rotte: cosa devo fare?",
+          "answer": "Esci forzatamente e riapri Hush Gallery. Se i file sono stati spostati all'esterno dell'app, i metadati potrebbero essere obsoleti: reimporta i file multimediali se necessario."
+        },
+        {
+          "question": "Backup non riuscito: come posso risolverlo?",
+          "answer": "Controlla i dati Wi‑Fi o cellulare, conferma di aver effettuato l'accesso, verifica lo spazio di archiviazione sul cloud e assicurati l'idoneità a Premium/backup per il tuo account."
+        },
+        {
+          "question": "L'importazione dell'estensione di condivisione non è stata visualizzata",
+          "answer": "Apri Hush Gallery manualmente; le importazioni di azioni in sospeso vengono eseguite all'avvio. Riprova a condividere da Foto se il foglio di condivisione riporta un errore."
         }
       ]
     },
@@ -539,7 +588,9 @@
           "question": "Cosa succede alle mie foto se disinstallo l'app?",
           "answer": "Se disinstalli l'app senza eliminare prima il tuo account, i tuoi dati locali verranno eliminati. Se avevi abilitato il backup cloud, puoi ripristinare i tuoi dati reinstallando l'app e accedendo con lo stesso account. Ti consigliamo di esportare foto importanti prima di disinstallare se non hai abilitato il backup cloud."
         }
-      }
+      },
+      "metaTitle": "Supporto e aiuto — Hush Gallery | Zuki Apps",
+      "metaDescription": "Hush Gallery FAQ e supporto: galleria privata di foto e video. Contatto, privacy e risoluzione dei problemi."
     },
     "tips": {
       "title": "Tips & tricks",

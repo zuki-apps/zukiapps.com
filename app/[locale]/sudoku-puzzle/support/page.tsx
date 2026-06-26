@@ -20,11 +20,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'sudokuPuzzle.support' });
+
   return {
-    title: 'Support - Sudoku Fun Go | Zuki Apps',
-    description: 'Get help and support for Sudoku Fun Go. Find answers to common questions, contact information, and helpful resources.',
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/sudoku-puzzle/support'),
@@ -84,7 +84,7 @@ export default async function SudokuPuzzleSupportPage({
 
           <div className="bg-teal-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-teal-600">
-              <h1 className="text-4xl font-bold text-teal-600">Sudoku Fun Go</h1>
+              <h1 className="text-4xl font-bold text-teal-600">{tHero('title')}</h1>
               <div className="flex gap-2">
                 <Link
                   href={`/${locale}/sudoku-puzzle`}
@@ -95,7 +95,7 @@ export default async function SudokuPuzzleSupportPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>

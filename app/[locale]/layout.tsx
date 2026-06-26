@@ -34,8 +34,10 @@ export async function generateMetadata({
   // Get translations for metadata
   const t = await getTranslations({ locale, namespace: 'home' });
   
-  const title = t('subtitle');
-  const description = `${t('subtitle')}. ${t('tagline')} Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts! Trivia, Bit Scope, Track Ledger (GPS logger), Noise Meter — Shusher, Paratrooper Blitz, TempoLab Pro. iOS & Android.`;
+  const title = t.has('seoTitle') ? t('seoTitle') : t('subtitle');
+  const description = t.has('metaDescription')
+    ? t('metaDescription')
+    : `${t('subtitle')}. ${t('tagline')}`;
   return {
     title,
     description,

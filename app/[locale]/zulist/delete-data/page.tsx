@@ -31,7 +31,7 @@ export default function DeleteDataPage() {
 
         <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12">
           <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-blue-600">
-            <h1 className="text-4xl font-bold text-blue-600">ZuList</h1>
+            <h1 className="text-4xl font-bold text-blue-600">{tApp('title')}</h1>
             <Link
               href={`/${locale}/zulist`}
               className="px-4 py-2 border-2 border-blue-600 bg-white text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition-colors text-sm"
@@ -40,7 +40,7 @@ export default function DeleteDataPage() {
             </Link>
           </div>
 
-          <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+          <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
             <h1 className="text-3xl font-bold text-gray-900 mb-6">
               {t('title')}
             </h1>
@@ -60,14 +60,14 @@ export default function DeleteDataPage() {
                 <h3 className="text-xl font-bold text-blue-600 mb-4">{t('types.profilePhotos.title')}</h3>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.profilePhotos.deleted')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.profilePhotos.deletedItem1')}</li>
                     <li>{t('types.profilePhotos.deletedItem2')}</li>
                   </ul>
                 </div>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.profilePhotos.kept')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.profilePhotos.keptItem1')}</li>
                     <li>{t('types.profilePhotos.keptItem2')}</li>
                     <li>{t('types.profilePhotos.keptItem3')}</li>
@@ -75,7 +75,7 @@ export default function DeleteDataPage() {
                 </div>
                 <div className="bg-white rounded-lg p-4 border-r-3 border-blue-600">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.profilePhotos.howTo')}</p>
-                  <ol className={`space-y-2 text-gray-700 ${locale === 'he' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
+                  <ol className={`space-y-2 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
                     <li>{t('types.profilePhotos.step1')}</li>
                     <li>{t('types.profilePhotos.step2')}</li>
                     <li>{t('types.profilePhotos.step3')}</li>
@@ -90,7 +90,7 @@ export default function DeleteDataPage() {
                 <h3 className="text-xl font-bold text-blue-600 mb-4">{t('types.shoppingLists.title')}</h3>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.shoppingLists.deleted')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.shoppingLists.deletedItem1')}</li>
                     <li>{t('types.shoppingLists.deletedItem2')}</li>
                     <li>{t('types.shoppingLists.deletedItem3')}</li>
@@ -99,7 +99,7 @@ export default function DeleteDataPage() {
                 </div>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.shoppingLists.kept')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.shoppingLists.keptItem1')}</li>
                     <li>{t('types.shoppingLists.keptItem2')}</li>
                     <li>{t('types.shoppingLists.keptItem3')}</li>
@@ -107,7 +107,7 @@ export default function DeleteDataPage() {
                 </div>
                 <div className="bg-white rounded-lg p-4 border-r-3 border-blue-600">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.shoppingLists.howTo')}</p>
-                  <ol className={`space-y-2 text-gray-700 ${locale === 'he' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
+                  <ol className={`space-y-2 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
                     <li>{t('types.shoppingLists.step1')}</li>
                     <li>{t('types.shoppingLists.step2')}</li>
                     <li>{t('types.shoppingLists.step3')}</li>
@@ -122,7 +122,7 @@ export default function DeleteDataPage() {
                 <h3 className="text-xl font-bold text-blue-600 mb-4">{t('types.items.title')}</h3>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.items.deleted')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.items.deletedItem1')}</li>
                     <li>{t('types.items.deletedItem2')}</li>
                     <li>{t('types.items.deletedItem3')}</li>
@@ -131,7 +131,7 @@ export default function DeleteDataPage() {
                 </div>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.items.kept')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.items.keptItem1')}</li>
                     <li>{t('types.items.keptItem2')}</li>
                     <li>{t('types.items.keptItem3')}</li>
@@ -139,7 +139,7 @@ export default function DeleteDataPage() {
                 </div>
                 <div className="bg-white rounded-lg p-4 border-r-3 border-blue-600">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.items.howTo')}</p>
-                  <ol className={`space-y-2 text-gray-700 ${locale === 'he' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
+                  <ol className={`space-y-2 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
                     <li>{t('types.items.step1')}</li>
                     <li>{t('types.items.step2')}</li>
                     <li>{t('types.items.step3')}</li>
@@ -154,7 +154,7 @@ export default function DeleteDataPage() {
                 <h3 className="text-xl font-bold text-blue-600 mb-4">{t('types.images.title')}</h3>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.images.deleted')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.images.deletedItem1')}</li>
                     <li>{t('types.images.deletedItem2')}</li>
                     <li>{t('types.images.deletedItem3')}</li>
@@ -162,7 +162,7 @@ export default function DeleteDataPage() {
                 </div>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.images.kept')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.images.keptItem1')}</li>
                     <li>{t('types.images.keptItem2')}</li>
                     <li>{t('types.images.keptItem3')}</li>
@@ -170,7 +170,7 @@ export default function DeleteDataPage() {
                 </div>
                 <div className="bg-white rounded-lg p-4 border-r-3 border-blue-600">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.images.howTo')}</p>
-                  <ol className={`space-y-2 text-gray-700 ${locale === 'he' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
+                  <ol className={`space-y-2 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
                     <li>{t('types.images.step1')}</li>
                     <li>{t('types.images.step2')}</li>
                     <li>{t('types.images.step3')}</li>
@@ -184,7 +184,7 @@ export default function DeleteDataPage() {
                 <h3 className="text-xl font-bold text-blue-600 mb-4">{t('types.purchaseHistory.title')}</h3>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.purchaseHistory.deleted')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.purchaseHistory.deletedItem1')}</li>
                     <li>{t('types.purchaseHistory.deletedItem2')}</li>
                     <li>{t('types.purchaseHistory.deletedItem3')}</li>
@@ -192,7 +192,7 @@ export default function DeleteDataPage() {
                 </div>
                 <div className="mb-4">
                   <p className="font-semibold text-gray-900 mb-2">{t('types.purchaseHistory.kept')}</p>
-                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('types.purchaseHistory.keptItem1')}</li>
                     <li>{t('types.purchaseHistory.keptItem2')}</li>
                     <li>{t('types.purchaseHistory.keptItem3')}</li>
@@ -211,7 +211,7 @@ export default function DeleteDataPage() {
                 <Info className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div>
                   <strong className="text-blue-800 block mb-2">{t('info.title')}</strong>
-                  <ul className={`space-y-1 text-blue-800 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-1 text-blue-800 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('info.item1')}</li>
                     <li>{t('info.item2')}</li>
                     <li>{t('info.item3')}</li>

@@ -18,10 +18,11 @@ export async function generateMetadata({
     notFound();
   }
 
+  const t = await getTranslations({ locale, namespace: 'funFactsTrivia.privacy' });
   const tHero = await getTranslations({ locale, namespace: 'funFactsTrivia.hero' });
   return {
-    title: `Privacy Policy - ${tHero('title')} | Zuki Apps`,
-    description: `Privacy Policy for ${tHero('title')} — trivia game by Zuki Apps. Learn how we collect, use, and protect your data.`,
+    title: `${t('title')} — ${tHero('title')} | Zuki Apps`,
+    description: t('metaDescription'),
     robots: {
       index: true,
       follow: true,
@@ -84,7 +85,7 @@ export default async function FunFactsTriviaPrivacyPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-600 mb-8">{t('lastUpdated')}</p>
 
@@ -110,7 +111,7 @@ export default async function FunFactsTriviaPrivacyPage({
                   </p>
                   <p className="text-gray-700 text-sm">
                     <Link href={`/${locale}/fun-facts-trivia/terms`} className="text-amber-700 hover:underline">
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                     </Link>
                   </p>
                 </section>

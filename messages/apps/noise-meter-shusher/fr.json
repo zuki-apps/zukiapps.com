@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Politique de confidentialité pour Noise Meter - Shusher - application de notation des décibels et du bruit. Comment le son du microphone, l'historique local, les publicités et les analyses sont traités."
     },
     "footer": {
       "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
@@ -294,6 +295,58 @@
           "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
         }
       ]
+    },
+    "support": {
+      "title": "Assistance et aide",
+      "subtitle": "Nous sommes là pour vous aider ! Trouvez des réponses à propos de Compteur de bruit — Shusher ou contactez-nous directement.",
+      "metaTitle": "Assistance et aide — Sonomètre — Shusher | Zuki Apps",
+      "metaDescription": "Obtenez de l'aide sur Noise Meter - Shusher - lectures de décibels, alertes Shusher, autorisations, Premium et dépannage.",
+      "contact": {
+        "title": "Contactez-nous",
+        "description": "Vous avez une question ou besoin d'aide ? Envoyez-nous un email et nous vous répondrons dans les plus brefs délais."
+      },
+      "quickLinks": {
+        "title": "Liens rapides",
+        "privacy": {
+          "title": "politique de confidentialité",
+          "description": "Découvrez comment nous protégeons vos données"
+        },
+        "terms": {
+          "title": "Conditions d'utilisation",
+          "description": "Lisez nos termes et conditions"
+        }
+      },
+      "faq": {
+        "title": "Foire aux questions",
+        "q1": {
+          "question": "Qu'est-ce que le compteur de bruit — Shusher ?",
+          "answer": "Une application mobile qui estime le niveau sonore ambiant à l'aide du microphone de votre téléphone, exécute des sessions de mesure chronométrées, évalue l'environnement, enregistre l'historique sur l'appareil et vous avertit éventuellement dans l'application lorsque le bruit dépasse un seuil (Shusher)."
+        },
+        "q2": {
+          "question": "Est-ce gratuit ?",
+          "answer": "Oui. La mesure de base, les sessions, Shusher et l'historique limité sont gratuits. Premium est une mise à niveau unique pour les graphiques, l'exportation CSV, les sessions plus longues, les thèmes, plus d'historique et aucune publicité."
+        },
+        "q3": {
+          "question": "iPhone ou Android ?",
+          "answer": "Les deux. ID du paquet : `com.zuki.apps.noisemeter`."
+        },
+        "q4": {
+          "question": "Quelles langues sont prises en charge ?",
+          "answer": "12 langues, dont anglais, hébreu, arabe, français, allemand, italien, japonais, coréen, chinois, portugais, russe et espagnol. Changez la langue dans Paramètres."
+        },
+        "q5": {
+          "question": "Quelle est la précision de la lecture des décibels ?",
+          "answer": "Il s'agit d'un niveau approximatif basé sur le matériel téléphonique grand public. La position, le boîtier, le vent et le modèle de l'appareil affectent tous les résultats. Non calibré pour les normes professionnelles SPL, OSHA ou pour l'application des ordonnances légales sur le bruit."
+        },
+        "q6": {
+          "question": "Pourquoi ma lecture diffère-t-elle de celle d'un vrai sonomètre ?",
+          "answer": "Les compteurs professionnels utilisent des microphones calibrés et des étalons de mesure spécifiques. Les téléphones sont réglés pour la parole et varient selon le fabricant."
+        }
+      },
+      "additionalHelp": {
+        "title": "Besoin de plus d'aide ?",
+        "description": "Si vous ne trouvez pas la réponse que vous cherchez ou si vous rencontrez un problème technique, n'hésitez pas à nous contacter. Nous sommes là pour vous aider et répondons généralement dans les 24 à 48 heures."
+      }
     }
   }
 }

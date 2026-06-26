@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "support@zukiapps.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Paratrooper Blitz — アーケード ゲームのプライバシー ポリシー。ゲームプレイ データ、広告、Firebase、プラットフォーム ゲーム サービスの処理方法。"
     },
     "footer": {
       "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
@@ -278,6 +279,59 @@
           "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
         }
       ]
+    },
+    "support": {
+      "title": "サポートとヘルプ",
+      "subtitle": "私たちがお手伝いします！よくある質問への回答を見つけるか、パラトルーパー ブリッツについて Zuki Apps にお問い合わせください。",
+      "metaTitle": "Support & Help — Paratrooper Blitz | Zuki Apps",
+      "metaDescription": "パラトルーパー ブリッツのヘルプを入手 - オフライン プレイ、アーケード vs クラシック、スコア、リーダーボード、実績、広告の削除など。",
+      "contact": {
+        "title": "お問い合わせ",
+        "description": "ご質問がありますか、サポートが必要ですか?メールをお送りください。できるだけ早くご連絡いたします。",
+        "email": "support@zukiapps.com"
+      },
+      "quickLinks": {
+        "title": "クイックリンク",
+        "privacy": {
+          "title": "プライバシーポリシー",
+          "description": "データをどのように保護するかをご覧ください"
+        },
+        "terms": {
+          "title": "利用規約",
+          "description": "利用規約をお読みください"
+        }
+      },
+      "faq": {
+        "title": "よくある質問",
+        "q1": {
+          "question": "パラトルーパー ブリッツは無料ですか?",
+          "answer": "はい。ゲームは無料でダウンロードしてプレイできます。オプションで 1 回限りの広告削除を購入すると、バナー広告とインタースティシャル広告が削除されます。"
+        },
+        "q2": {
+          "question": "ゲームは何歳向けですか?",
+          "answer": "ティーン (13 歳以上) と評価されています。マイルドなミリタリー スタイルのアーケード アクション。ゴア表現、チャット、ユーザー作成コンテンツはありません。"
+        },
+        "q3": {
+          "question": "オフラインでも動作しますか?",
+          "answer": "コアなゲームプレイはオフラインでも動作します。リーダーボード、実績、広告、購入にはネットワーク サービスとストア サービスが必要です。"
+        },
+        "q4": {
+          "question": "どの言語がサポートされていますか?",
+          "answer": "英語、アラビア語、ドイツ語、スペイン語、フランス語、ヘブライ語、イタリア語、日本語、韓国語、ポルトガル語、ロシア語、中国語 (簡体字)。設定の変更。"
+        },
+        "q5": {
+          "question": "アーケードとクラシックの違いは何ですか?",
+          "answer": "アーケード: 左/右にスライドし、上に撃ちます。クラシック: 砲塔を 360° 回転させ、手動で照準を合わせます。"
+        },
+        "q6": {
+          "question": "どうすれば負けますか？",
+          "answer": "4 人の落下傘兵が砲塔の**同じ側**に着陸するか、爆弾が地面に着弾します。"
+        }
+      },
+      "additionalHelp": {
+        "title": "さらにサポートが必要ですか?",
+        "description": "探している答えが見つからない場合、または技術的な問題が発生した場合は、お気軽にお問い合わせください。通常 24 ～ 48 時間以内に対応させていただきます。"
+      }
     }
   }
 }

@@ -2,312 +2,375 @@
   "toldya": {
     "hero": {
       "title": "ToldYa!",
-      "subtitle": "Told you so! Prove it.",
+      "subtitle": "そう言ったじゃないですか！証明してみろ。",
       "description": "ToldYa! is an invite-only social network built around predictions — follow people, vote in the Arena, build a reputation score, and celebrate when you were right.",
       "structuredDataDescription": "ToldYa! — invite-only social network for predictions, voting, comments, and reputation. iOS and Android by Zuki Apps."
     },
-    "back": "Back to Home",
+    "back": "ホームに戻る",
     "legalNav": {
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Use",
-      "deleteAccount": "Delete Account",
-      "contact": "Contact Support",
-      "childSafety": "Child Safety Standards"
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約",
+      "deleteAccount": "アカウントの削除",
+      "contact": "サポートに連絡する",
+      "childSafety": "子供の安全基準",
+      "support": "サポートとヘルプ"
     },
     "download": {
       "appStoreUrl": "https://apps.apple.com/app/id6756342206",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.toldya",
-      "appStoreAlt": "Download on the App Store",
-      "googlePlayAlt": "Get it on Google Play"
+      "appStoreAlt": "App Store からダウンロードしてください",
+      "googlePlayAlt": "Google Play で入手"
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: May 2026",
-      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) processes personal data when you use the ToldYa! mobile application and related pages at zukiapps.com/toldya (the “Service”). ToldYa! is a social network centered on user-generated predictions, voting, comments, and messaging.",
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2026 年 5 月",
+      "intro": "このプライバシー ポリシーでは、お客様が ToldYa! を使用する際に、Zuki Apps (「当社」、「当社」) が個人データをどのように処理するかについて説明します。 zukiapps.com/toldya のモバイル アプリケーションおよび関連ページ (「サービス」)。 ToldYa!は、ユーザーが作成した予測、投票、コメント、メッセージングを中心としたソーシャル ネットワークです。",
       "section1": {
-        "title": "1. Who we are",
-        "content": "The data controller for ToldYa! is Zuki Apps. Contact details are at the end of this Policy.",
-        "content2": "This Policy applies to the ToldYa! app (iOS and Android) and the legal pages we publish for the product. It does not cover third-party websites or app stores, which have their own policies."
+        "title": "1. 私たちは何者か",
+        "content": "ToldYa のデータ管理者です!はZuki Appsです。連絡先の詳細は、このポリシーの最後に記載されています。",
+        "content2": "このポリシーは ToldYa! に適用されます。アプリ (iOS および Android) および製品に関して当社が公開する法的ページ。独自のポリシーを持つサードパーティの Web サイトや app store は対象外です。"
       },
       "section2": {
-        "title": "2. Information we collect",
-        "content": "We collect information you provide and information generated when you use the Service:",
+        "title": "2. 当社が収集する情報",
+        "content": "当社は、お客様が提供した情報と、サービスの使用時に生成された情報を収集します。",
         "items": [
-          "Account data: email address, username, display name, password (stored in hashed form by our authentication provider), optional profile bio and avatar image, language preference, and invitation-related metadata.",
-          "Social & content data: predictions (text, category, target dates, status), votes, likes, comments, retweets/shares, follower relationships, reputation or category scores, and direct messages you send or receive.",
-          "Media: photos or videos you attach to predictions, if you choose to upload them.",
-          "Device & usage data: device type, operating system, app version, push notification tokens (if you enable notifications), IP-derived region (where available), crash logs, and analytics events via Google Firebase Analytics and Crashlytics.",
-          "Support & safety: information you send when contacting support or reporting content or users.",
-          "Communications metadata: timestamps and delivery status for notifications and messages."
+          "アカウント データ: 電子メール アドレス、ユーザー名、表示名、パスワード (認証プロバイダーによってハッシュ化された形式で保存)、オプションのプロフィールのプロフィールとアバター画像、言語設定、招待関連のメタデータ。",
+          "ソーシャルおよびコンテンツ データ: 予測 (テキスト、カテゴリ、目標日、ステータス)、投票、いいね、コメント、リツイート/シェア、フォロワー関係、評判またはカテゴリのスコア、送受信するダイレクト メッセージ。",
+          "メディア: アップロードすることを選択した場合、予測に使用される写真やビデオ。",
+          "デバイスと使用状況データ: デバイスの種類、オペレーティング システム、アプリのバージョン、プッシュ通知トークン (通知を有効にした場合)、IP 由来のリージョン (利用可能な場合)、クラッシュ ログ、Google Firebase Analytics および Crashlytics による分析イベント。",
+          "サポートと安全性: サポートに連絡するとき、またはコンテンツやユーザーを報告するときに送信する情報。",
+          "通信メタデータ: 通知とメッセージのタイムスタンプと配信ステータス。"
         ]
       },
       "section3": {
-        "title": "3. How we use your information",
-        "content": "We use personal data to provide and secure the social network, including:",
+        "title": "3. お客様の情報の使用方法",
+        "content": "当社はソーシャル ネットワークを提供および保護するために次のような個人データを使用します。",
         "items": [
-          "Create and manage your account, invitation access, and profile",
-          "Display feeds, Arena views, voting results, comments, and notifications",
-          "Operate follower features, search, and reputation scoring",
-          "Send push or in-app notifications you have enabled",
-          "Detect abuse, enforce our Terms, and respond to reports",
-          "Maintain reliability, debug crashes, and improve the Service",
-          "Comply with law and respond to lawful requests"
+          "アカウント、招待アクセス、プロフィールを作成および管理する",
+          "フィード、アリーナビュー、投票結果、コメント、通知を表示します",
+          "フォロワー機能、検索、評判スコアの操作",
+          "有効にしたプッシュ通知またはアプリ内通知を送信する",
+          "不正行為を検出し、規約を施行し、報告に対応します",
+          "信頼性の維持、クラッシュのデバッグ、サービスの改善",
+          "法律を遵守し、法的要求に応じます"
         ],
-        "content2": "We do not sell your personal information. We do not use your data for third-party advertising profiles in the current version of the app."
+        "content2": "当社はあなたの個人情報を販売しません。現在のバージョンのアプリでは、サードパーティの広告プロファイルにお客様のデータは使用されません。"
       },
       "section4": {
-        "title": "4. Legal bases (where applicable)",
-        "content": "Depending on your location, we rely on: performance of a contract (providing the Service you request); legitimate interests (security, fraud prevention, product improvement, and community safety, balanced against your rights); consent (e.g. optional notifications or permissions you grant on device); and legal obligation (records we must keep)."
+        "title": "4. 法的根拠 (該当する場合)",
+        "content": "お客様の所在地に応じて、当社は以下に依存します。 契約の履行 (お客様が要求するサービスの提供)。正当な利益 (セキュリティ、詐欺防止、製品の改善、コミュニティの安全、お客様の権利とのバランス);同意 (例: デバイスに付与するオプションの通知や許可);法的義務（保存しなければならない記録）。"
       },
       "section5": {
-        "title": "5. How we share information",
-        "content": "Other members of the community can see your public profile (username, display name, avatar, bio, scores, and public predictions and interactions) according to product design. We do not display your email address to other users.",
-        "content2": "We use service providers that process data on our behalf, including Google Firebase (authentication, cloud database, file storage, analytics, crash reporting, and hosting as configured in our project). These providers act under contractual terms appropriate to their role. We may disclose information if required by law, to protect users and the public, or in connection with a merger or asset sale, with notice where required."
+        "title": "5. 情報の共有方法",
+        "content": "コミュニティの他のメンバーは、製品設計に従って、あなたの公開プロフィール (ユーザー名、表示名、アバター、プロフィール、スコア、公開予測とインタラクション) を見ることができます。あなたの電子メール アドレスが他のユーザーに表示されることはありません。",
+        "content2": "当社は、Google Firebase (プロジェクトで構成されている認証、クラウド データベース、ファイル ストレージ、分析、クラッシュ レポート、ホスティング) を含む、当社に代わってデータを処理するサービス プロバイダーを使用します。これらのプロバイダーは、その役割に応じた契約条件に基づいて活動します。当社は、ユーザーおよび公衆を保護するため、または合併や資産売却に関連して法律で要求された場合、必要に応じて通知を行って情報を開示する場合があります。"
       },
       "section6": {
-        "title": "6. User-generated content & moderation",
-        "content": "Predictions, comments, messages, and media are user-generated. We may review, remove, or restrict content and accounts that violate our Terms or applicable law. Removed content may remain in backups for a limited period before deletion."
+        "title": "6. ユーザー作成コンテンツとモデレーション",
+        "content": "予測、コメント、メッセージ、メディアはユーザーが作成したものです。当社は、利用規約または適用法に違反するコンテンツおよびアカウントを確認、削除、または制限する場合があります。削除されたコンテンツは、削除されるまでの一定期間バックアップに残る場合があります。"
       },
       "section7": {
-        "title": "7. Retention",
-        "content": "We keep personal data while your account is active and as needed to operate the Service. After account deletion, we delete or anonymize profile and content data within a reasonable period (typically within 30 days), except where we must retain limited records for legal, security, or dispute purposes."
+        "title": "7. 保持",
+        "content": "当社は、お客様のアカウントがアクティブである間、およびサービスを運営するために必要に応じて個人データを保管します。アカウント削除後、法律、セキュリティ、または紛争の目的で限られた記録を保持する必要がある場合を除き、当社は合理的な期間内 (通常は 30 日以内) にプロフィールおよびコンテンツ データを削除または匿名化します。"
       },
       "section8": {
-        "title": "8. Account deletion",
-        "content": "You can delete your account in the app (Settings → Delete account) or by following the instructions on our Delete Account page. Deletion is permanent and removes your profile, predictions, votes, comments, and messages from the live Service, subject to backup and legal retention described above.",
-        "content2": "See: https://zukiapps.com/toldya/delete-account"
+        "title": "8. アカウントの削除",
+        "content": "アカウントを削除するには、アプリ内で（「設定」→「アカウントを削除」）、または「アカウントの削除」ページの指示に従ってください。削除は永久的であり、上記のバックアップと法的保持の対象となり、ライブ サービスからプロフィール、予測、投票、コメント、メッセージが削除されます。",
+        "content2": "参照: https://zukiapps.com/toldya/delete-account"
       },
       "section9": {
-        "title": "9. Your rights",
-        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, restrict, or object to certain processing, and to data portability. You may withdraw consent where processing is consent-based. To exercise rights, contact us using the details below; we may need to verify your identity.",
-        "content2": "Users in the EU/EEA, UK, and Israel may also lodge a complaint with a supervisory authority. California residents may have additional rights under applicable state law; contact us to submit a request."
+        "title": "9. あなたの権利",
+        "content": "管轄区域によっては、特定の処理およびデータのポータビリティにアクセス、修正、削除、制限、または異議を唱える権利がある場合があります。処理が同意に基づいている場合、同意を撤回することができます。権利を行使するには、以下の詳細を使用して当社までご連絡ください。あなたの身元を確認する必要がある場合があります。",
+        "content2": "EU/EEA、英国、イスラエルのユーザーも監督当局に苦情を申し立てることができます。カリフォルニア州の居住者は、適用される州法に基づいて追加の権利を有する場合があります。リクエストを送信するにはお問い合わせください。"
       },
       "section10": {
-        "title": "10. Security",
-        "content": "We implement technical and organizational measures appropriate to a consumer social application (access controls, encrypted transport, and provider security features). No system is completely secure; use a strong password and protect your device."
+        "title": "10. セキュリティ",
+        "content": "当社は、消費者向けソーシャル アプリケーションに適した技術的および組織的な対策を実装します (アクセス制御、暗号化されたトランスポート、プロバイダーのセキュリティ機能)。完全に安全なシステムはありません。強力なパスワードを使用してデバイスを保護してください。"
       },
       "section11": {
-        "title": "11. International transfers",
-        "content": "Data may be processed in countries where we or our providers operate (including the United States and regions used by Google Cloud/Firebase). Where required, we rely on appropriate safeguards such as standard contractual clauses or equivalent mechanisms."
+        "title": "11. 国際送金",
+        "content": "データは、当社または当社のプロバイダーが事業を展開している国（米国および Google Cloud/Firebase が使用する地域を含む）で処理される場合があります。必要に応じて、当社は標準の契約条項または同等のメカニズムなどの適切な保護手段に依存します。"
       },
       "section12": {
-        "title": "12. Children",
-        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). We do not knowingly collect personal data from children. If you believe a child has provided data, contact us and we will delete it."
+        "title": "12.子供たち",
+        "content": "ToldYa! 13 歳 (またはお住まいの国で求められる最低年齢) 未満の子供を対象としたものではありません。当社は故意に子供から個人データを収集しません。お子様がデータを提供したと思われる場合は、当社にご連絡いただければ削除いたします。"
       },
       "section13": {
-        "title": "13. Changes to this Policy",
-        "content": "We may update this Policy from time to time. We will post the revised version with a new “Last updated” date. Material changes may be notified in-app or by email where appropriate. Continued use after the effective date constitutes acceptance."
+        "title": "13. 本ポリシーの変更",
+        "content": "当社は、本ポリシーを随時更新することがあります。新しい「最終更新日」を付けて改訂版を投稿します。重要な変更は、必要に応じてアプリ内または電子メールで通知される場合があります。発効日以降も継続して使用すると、承認されたものとみなされます。"
       },
       "sectionContact": {
-        "title": "Contact",
-        "content": "Questions about this Privacy Policy or your data:",
+        "title": "接触",
+        "content": "このプライバシー ポリシーまたはお客様のデータに関する質問:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
+      },
+      "metaDescription": "ToldYa のプライバシー ポリシー!ソーシャル ネットワーク — アカウント、UGC、Firebase、モデレーション、あなたの権利、アカウントの削除。"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: May 2026",
-      "intro": "These Terms of Use (“Terms”) govern your access to ToldYa! (“Service”, “app”), an invite-only social network operated by Zuki Apps. By creating an account or using the Service, you agree to these Terms and our Privacy Policy. If you do not agree, do not use the Service.",
+      "title": "利用規約",
+      "lastUpdated": "最終更新日: 2026 年 5 月",
+      "intro": "これらの利用規約 (「規約」) は、ToldYa! へのアクセスに適用されます。 (「サービス」、「アプリ」) は、Zuki Apps が運営する招待制のソーシャル ネットワークです。アカウントを作成するか、サービスを使用することにより、これらの規約および当社のプライバシー ポリシーに同意したものとみなされます。同意しない場合は、サービスを使用しないでください。",
       "section1": {
-        "title": "1. Acceptance",
-        "content": "You must be legally able to enter a binding agreement in your jurisdiction. If you use the Service on behalf of an organization, you represent that you have authority to bind that organization.",
-        "content2": "We may update these Terms. We will post the updated version with a new “Last updated” date. Material changes may be communicated in-app. Continued use after changes take effect constitutes acceptance."
+        "title": "1. 承諾",
+        "content": "管轄区域内で拘束力のある契約を法的に締結できる必要があります。組織を代表してサービスを使用する場合、その組織を拘束する権限があることを表明することになります。",
+        "content2": "当社は本規約を更新する場合があります。新しい「最終更新日」を付けて更新バージョンを投稿します。重要な変更はアプリ内で通知される場合があります。変更が有効になった後も継続して使用すると、承認されたとみなされます。"
       },
       "section2": {
-        "title": "2. The Service",
-        "content": "ToldYa! is a social network where members post time-bound predictions, vote on others’ predictions, comment, follow users, send direct messages, and build reputation scores by category. The Service is for entertainment, opinion, and community discussion only.",
-        "content2": "There is no real-money wagering, betting, prizes with monetary value, or virtual currency redeemable for money. Predictions are not financial, legal, or professional advice."
+        "title": "2. サービス",
+        "content": "ToldYa!は、メンバーが期限付きの予測を投稿し、他の人の予測に投票し、コメントし、ユーザーをフォローし、ダイレクト メッセージを送信し、カテゴリごとの評判スコアを構築するソーシャル ネットワークです。このサービスはエンターテイメント、意見、コミュニティでのディスカッションのみを目的としています。",
+        "content2": "リアルマネーの賭け、賭博、金銭的価値のある賞品、または金銭と引き換えられる仮想通貨はありません。予測は財務的、法的、または専門的なアドバイスではありません。"
       },
       "section3": {
-        "title": "3. Accounts & invitations",
-        "content": "Access currently requires a valid invitation code. You must provide accurate registration information and keep your credentials confidential. You are responsible for all activity under your account.",
-        "content2": "You may not share, sell, or publicly distribute invitation codes in a way that circumvents our access controls. We may refuse registration, reclaim usernames, or close accounts at our discretion."
+        "title": "3. アカウントと招待状",
+        "content": "現在、アクセスするには有効な招待コードが必要です。正確な登録情報を提供し、資格情報を機密に保つ必要があります。あなたは自分のアカウントでのすべての活動に対して責任を負います。",
+        "content2": "当社のアクセス制御を回避する方法で、招待コードを共有、販売、または公に配布することはできません。当社は、当社の裁量により、登録を拒否したり、ユーザー名を回収したり、アカウントを閉鎖したりする場合があります。"
       },
       "section4": {
-        "title": "4. Your responsibilities",
-        "content": "As a member of a community social network, you agree to:",
+        "title": "4. あなたの責任",
+        "content": "コミュニティ ソーシャル ネットワークのメンバーとして、あなたは次のことに同意します。",
         "items": [
-          "Treat other users with respect and comply with applicable laws",
-          "Post only content you have the right to share and that is appropriate for a general-audience social app",
-          "Use your real identity only as permitted by the product (no impersonation or deceptive profiles)",
-          "Not scrape, reverse engineer, or overload the Service without permission",
-          "Not manipulate votes, rankings, or reputation through bots, coordinated inauthentic behavior, or exploits",
-          "Report content or users you believe violate these Terms"
+          "他のユーザーを敬意を持って扱い、適用される法律を遵守します",
+          "共有する権利があり、一般向けのソーシャル アプリに適したコンテンツのみを投稿してください",
+          "製品で許可されている場合にのみ、実際のアイデンティティを使用してください (なりすましや虚偽のプロフィールは使用しないでください)",
+          "許可なくサービスをスクレイピング、リバース エンジニアリング、または過負荷にしないでください。",
+          "ボット、連携した不正な動作、またはエクスプロイトを通じて、投票、ランキング、または評判を操作しないでください。",
+          "本規約に違反していると思われるコンテンツまたはユーザーを報告する"
         ]
       },
       "section5": {
-        "title": "5. Community standards — prohibited content",
-        "content": "You may not post, upload, transmit, or link to content that includes or promotes:",
+        "title": "5. コミュニティ基準 — 禁止されているコンテンツ",
+        "content": "以下を含む、または宣伝するコンテンツを投稿、アップロード、送信、またはリンクすることはできません。",
         "items": [
-          "Nudity, pornography, sexually explicit material, or solicitation of sexual services",
-          "Sexual content involving minors or any exploitation of minors (zero tolerance; we report to authorities where required)",
-          "Graphic violence, gore, or content primarily intended to shock or glorify violence",
-          "Threats, harassment, bullying, stalking, or hate speech targeting individuals or groups",
-          "Illegal activity, fraud, or instructions to cause harm",
-          "Self-harm or suicide promotion (if you are in crisis, seek local emergency or crisis services)",
-          "Spam, malware, phishing, or deceptive schemes",
-          "Personal data of others without their consent (doxxing)",
-          "Intellectual property you do not have rights to use"
+          "ヌード、ポルノ、露骨な性的内容、または性的サービスの勧誘",
+          "未成年者を含む性的コンテンツまたは未成年者の搾取 (一切の容認はありません。必要に応じて当局に報告します)",
+          "暴力描写、ゴア表現、または暴力に衝撃を与えたり美化することを主目的としたコンテンツ",
+          "個人またはグループを対象とした脅迫、嫌がらせ、いじめ、ストーカー行為、またはヘイトスピーチ",
+          "違法行為、詐欺、危害を加える指示",
+          "自傷行為や自殺の促進（危機に陥った場合は、地域の緊急サービスや危機サービスを求めてください）",
+          "スパム、マルウェア、フィッシング、または欺瞞的なスキーム",
+          "同意のない他人の個人データ (doxxing)",
+          "使用する権利がない知的財産"
         ],
-        "content2": "We may remove content and suspend or terminate accounts without prior notice for violations."
+        "content2": "違反があった場合には、事前の通知なくコンテンツを削除し、アカウントを停止または終了する場合があります。"
       },
       "section6": {
-        "title": "6. Additional prohibited conduct",
-        "content": "You also must not:",
+        "title": "6. その他の禁止行為",
+        "content": "次のことも行ってはなりません:",
         "items": [
-          "Use the Service if you are barred under applicable law",
-          "Circumvent security, invitation, or rate limits",
-          "Create multiple accounts to evade enforcement",
-          "Use automated means to access the Service except through features we expressly provide",
-          "Collect other users’ data for marketing or harassment"
+          "適用法によりサービスの利用が禁止されている場合",
+          "セキュリティ、招待、レート制限を回避する",
+          "複数のアカウントを作成して強制を回避する",
+          "当社が明示的に提供する機能を使用する場合を除き、自動化された手段を使用してサービスにアクセスする",
+          "マーケティングや嫌がらせのために他のユーザーのデータを収集する"
         ]
       },
       "section7": {
-        "title": "7. Your content & license",
-        "content": "You retain ownership of content you submit. You grant Zuki Apps a worldwide, non-exclusive, royalty-free license to host, store, reproduce, display, distribute, and adapt your content as needed to operate, promote, and improve the Service (including showing it to other users and in feeds).",
-        "content2": "You represent that your content does not violate these Terms or third-party rights. You may delete your predictions where the product allows; deletion of your account removes associated content as described in our Privacy Policy."
+        "title": "7. コンテンツとライセンス",
+        "content": "あなたは、送信したコンテンツの所有権を保持します。お客様は、サービスの運営、宣伝、改善 (他のユーザーやフィードでの表示を含む) のために必要に応じてコンテンツをホスト、保存、複製、表示、配布、および調整するための世界的、非独占的、ロイヤリティフリーのライセンスを Zuki Apps に付与します。",
+        "content2": "あなたは、自分のコンテンツが本規約または第三者の権利を侵害していないことを表明します。製品で許可されている場合は、予測を削除することができます。アカウントを削除すると、当社のプライバシー ポリシーに記載されているように、関連するコンテンツが削除されます。"
       },
       "section8": {
-        "title": "8. Moderation & enforcement",
-        "content": "We may (but are not obligated to) monitor, filter, or review content. We may remove content, limit features, suspend, or permanently terminate accounts. Enforcement decisions are at our sole discretion to protect the community and comply with law.",
-        "content2": "If you believe content or an account violates these Terms, use in-app reporting where available or contact support."
+        "title": "8. 節度と執行",
+        "content": "当社はコンテンツを監視、フィルタリング、またはレビューする場合があります (ただし、義務ではありません)。当社は、コンテンツの削除、機能の制限、アカウントの一時停止または永久終了を行う場合があります。コミュニティを保護し、法律を遵守するために、施行の決定は当社の単独の裁量で行われます。",
+        "content2": "コンテンツまたはアカウントが本規約に違反していると思われる場合は、利用可能な場合はアプリ内レポートを使用するか、サポートにお問い合わせください。"
       },
       "section9": {
-        "title": "9. Voting & predictions disclaimer",
-        "content": "Votes and comments reflect community opinion, not facts verified by us. We do not guarantee accuracy of predictions or outcomes. You use others’ content at your own risk."
+        "title": "9. 投票と予想の免責事項",
+        "content": "投票とコメントはコミュニティの意見を反映したものであり、当社が検証した事実ではありません。予測や結果の正確性を保証するものではありません。他人のコンテンツはご自身の責任で使用してください。"
       },
       "section10": {
-        "title": "10. Privacy",
-        "content": "Our Privacy Policy explains how we collect and use personal data, including account deletion. It is incorporated into these Terms by reference."
+        "title": "10. プライバシー",
+        "content": "当社のプライバシー ポリシーでは、アカウントの削除を含む個人データの収集および使用方法について説明しています。これは参照により本規約に組み込まれます。"
       },
       "section11": {
-        "title": "11. Termination & account deletion",
-        "content": "You may stop using the Service at any time and delete your account in Settings or via our Delete Account page. We may suspend or terminate your access for any violation of these Terms or for risk to users or the Service.",
-        "content2": "Upon termination, licenses you granted survive only as needed for legal compliance and backup deletion cycles."
+        "title": "11. 終了とアカウント削除",
+        "content": "あなたはいつでもサービスの使用を停止し、設定またはアカウントの削除ページからアカウントを削除することができます。当社は、本規約への違反、またはユーザーやサービスに対するリスクがある場合、お客様のアクセスを一時停止または終了することがあります。",
+        "content2": "終了後、付与したライセンスは、法令順守およびバックアップ削除サイクルに必要な場合にのみ存続します。"
       },
       "section12": {
-        "title": "12. Disclaimers & limitation of liability",
-        "content": "THE SERVICE IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY LAW. WE DISCLAIM IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
-        "content2": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, ZUKI APPS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOSS OF PROFITS, DATA, OR GOODWILL, ARISING FROM YOUR USE OF THE SERVICE. OUR TOTAL LIABILITY FOR ANY CLAIM RELATING TO THE SERVICE IS LIMITED TO THE GREATER OF USD $50 OR THE AMOUNT YOU PAID US IN THE TWELVE MONTHS BEFORE THE CLAIM (TYPICALLY ZERO FOR THE FREE APP)."
+        "title": "12. 免責事項と責任の制限",
+        "content": "本サービスは、法律で認められる最大限の範囲で、いかなる種類の保証もなく、「現状のまま」および「利用可能な状態」で提供されます。当社は、商品性、特定目的への適合性、および非侵害についての黙示の保証を否認します。",
+        "content2": "法律で認められる最大限の範囲で、ZUKI APPS は、サービスの使用から生じる間接的、偶発的、特別、結果的、または懲罰的損害、または利益、データ、または営業権の損失に対して責任を負いません。サービスに関連する請求に対する当社の総責任は、50 米ドルまたは請求前の 12 か月間にお客様が当社に支払った金額のいずれか大きい方に限定されます (無料アプリの場合は通常はゼロ)。"
       },
       "section13": {
-        "title": "13. Governing law",
-        "content": "These Terms are governed by the laws of the State of Israel, without regard to conflict-of-law rules, except where mandatory consumer protections in your country require otherwise. Courts in Israel shall have exclusive jurisdiction where permitted, subject to mandatory local rights."
+        "title": "13. 準拠法",
+        "content": "これらの規約は、あなたの国の強制的な消費者保護により別段の定めがある場合を除き、法の抵触規則に関係なく、イスラエル国の法律に準拠します。イスラエルの裁判所は、許可されている場合には、現地の強制的権利に従って専属管轄権を有するものとします。"
       },
       "section19": {
-        "title": "Contact",
-        "content": "Questions about these Terms:",
+        "title": "接触",
+        "content": "これらの規約に関する質問:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "deleteAccount": {
-      "title": "Delete your ToldYa! account",
-      "intro": "You can permanently delete your ToldYa! account and associated personal data. This action cannot be undone.",
+      "title": "ToldYa を削除してください!アカウント",
+      "intro": "ToldYa は完全に削除できます。アカウントおよび関連する個人データ。この操作は元に戻すことができません。",
       "warning": {
-        "title": "Important",
-        "content": "Deleting your account removes your profile, predictions, votes, comments, direct messages, follower relationships, and reputation data from the live Service. Some information may remain in encrypted backups for a limited time before automatic deletion, or where we must retain records by law."
+        "title": "重要",
+        "content": "アカウントを削除すると、プロフィール、予測、投票、コメント、ダイレクト メッセージ、フォロワー関係、および評判データがライブ サービスから削除されます。一部の情報は、自動削除されるまでの限られた期間、暗号化されたバックアップに残る場合や、法律で記録を保持しなければならない場合があります。"
       },
       "steps": {
-        "title": "Delete in the app (recommended)",
-        "step1": "Open ToldYa! and sign in",
-        "step2": "Go to Settings (profile / gear menu)",
-        "step3": "Choose Delete account (or Account → Delete account)",
-        "step4": "Read the confirmation carefully and confirm deletion",
-        "step5": "You will be signed out and your account will be scheduled for removal"
+        "title": "アプリ内で削除（推奨）",
+        "step1": "ToldYa オープン!そしてサインインしてください",
+        "step2": "設定に移動します（プロフィール/ギアメニュー）",
+        "step3": "「アカウントの削除」を選択します（または「アカウント」→「アカウントの削除」）",
+        "step4": "確認をよく読んで削除を確認してください",
+        "step5": "あなたはサインアウトされ、アカウントは削除される予定です"
       },
       "stepsEmail": {
-        "title": "Cannot access the app?",
+        "title": "アプリにアクセスできませんか?",
         "content": "Email zuki.apps.dev@gmail.com from the address linked to your account with the subject “Delete my ToldYa account”. Include your username so we can verify ownership. We may ask for additional verification before processing the request."
       },
       "data": {
-        "title": "Data removed",
-        "intro": "After successful deletion, we delete or anonymize, among other things:",
-        "item1": "Account credentials and profile (email, username, display name, bio, avatar)",
-        "item2": "Predictions, votes, comments, likes, and retweets",
-        "item3": "Direct messages and notification history tied to your account",
-        "item4": "Follower / following relationships and category scores",
-        "item5": "Push notification tokens for your devices"
+        "title": "データが削除されました",
+        "intro": "削除が成功したら、特に次のことを削除または匿名化します。",
+        "item1": "アカウントの認証情報とプロフィール (電子メール、ユーザー名、表示名、プロフィール、アバター)",
+        "item2": "予想、投票、コメント、いいね、リツイート",
+        "item3": "アカウントに関連付けられたダイレクトメッセージと通知履歴",
+        "item4": "フォロワー/フォロー関係とカテゴリースコア",
+        "item5": "デバイスのプッシュ通知トークン"
       },
       "retention": {
-        "title": "Retention",
-        "content": "We aim to complete deletion from primary systems within 30 days. Limited logs or backups may persist briefly for security and disaster recovery, then expire according to our retention schedule."
+        "title": "保持",
+        "content": "プライマリ システムからの削除は 30 日以内に完了することを目指しています。限られたログまたはバックアップは、セキュリティと災害復旧のために短期間保存される場合がありますが、その後、当社の保持スケジュールに従って期限切れになります。"
       },
       "contact": {
-        "title": "Questions",
-        "content": "For help with deletion or privacy requests:",
+        "title": "質問",
+        "content": "削除またはプライバシーのリクエストに関するサポート:",
         "email": "zuki.apps.dev@gmail.com",
-        "privacyLink": "Privacy Policy",
-        "termsLink": "Terms of Use"
+        "privacyLink": "プライバシーポリシー",
+        "termsLink": "利用規約"
       }
     },
     "childSafety": {
-      "title": "Child Safety Standards",
-      "lastUpdated": "Last updated: May 2026",
-      "intro": "ToldYa! is an invite-only social network operated by Zuki Apps. We maintain zero tolerance for child sexual abuse and exploitation (CSAE). This page describes our published standards, in-app reporting, moderation practices, and how to contact us regarding child safety.",
+      "title": "子供の安全基準",
+      "lastUpdated": "最終更新日: 2026 年 5 月",
+      "intro": "ToldYa!は、Zuki Apps が運営する招待制のソーシャル ネットワークです。私たちは児童の性的虐待と搾取を一切容認しません (CSAE)。このページでは、当社の公開基準、アプリ内レポート、モデレーションの実践、および子供の安全に関する当社への連絡方法について説明します。",
       "section1": {
-        "title": "1. Zero tolerance",
-        "content": "We prohibit any content or conduct that sexually exploits, endangers, or otherwise harms children. Accounts involved in CSAE may be removed immediately and permanently. Where required by law, we report to regional and national authorities and cooperate with law enforcement."
+        "title": "1. ゼロトレランス",
+        "content": "私たちは、子どもを性的に搾取したり、危険にさらしたり、その他の損害を与えるコンテンツや行為を禁止します。 CSAE に関与したアカウントは即時かつ永久に削除される場合があります。法律で義務付けられている場合、私たちは地域および国の当局に報告し、法執行機関に協力します。"
       },
       "section2": {
-        "title": "2. Standards against CSAE",
-        "content": "The following are prohibited on ToldYa! and may result in account termination and referral to authorities:",
+        "title": "2. CSAEに対する基準",
+        "content": "ToldYaでは以下の行為を禁止します！その結果、アカウントが停止され、当局に照会される可能性があります。",
         "items": [
-          "Child sexual abuse material (CSAM) in any form, including real, synthetic, or illustrated sexual content depicting minors",
-          "Sexualization of minors, grooming, or solicitation of minors",
-          "Content that facilitates exploitation or trafficking of children",
-          "Accounts that misrepresent age to contact or exploit minors",
-          "Links or instructions to obtain CSAM or to harm children"
+          "未成年者を描いた本物、合成、またはイラスト付きの性的コンテンツを含む、あらゆる形式の児童性的虐待素材 (CSAM)",
+          "未成年者の性的指向、身だしなみ、未成年者への勧誘",
+          "児童の搾取や人身売買を助長するコンテンツ",
+          "未成年者に連絡したり搾取するために年齢を偽るアカウント",
+          "CSAM を取得するための、または子供に危害を加えるためのリンクまたは指示"
         ],
-        "content2": "These rules are also reflected in our Terms of Use. We use a combination of automated signals, user reports, and human review to enforce them."
+        "content2": "これらの規則は当社の利用規約にも反映されています。当社は、自動化されたシグナル、ユーザーレポート、人間によるレビューを組み合わせてそれらを強制します。"
       },
       "section3": {
-        "title": "3. Age requirement",
-        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). Registration requires an invitation code and is intended for adults and teens who meet the minimum age. We may suspend accounts we believe belong to underage users."
+        "title": "3. 年齢制限",
+        "content": "ToldYa! 13 歳 (またはお住まいの国で求められる最低年齢) 未満の子供を対象としたものではありません。登録には招待コードが必要で、最低年齢を満たす大人と青少年を対象としています。当社は、未成年のユーザーに属していると思われるアカウントを停止する場合があります。"
       },
       "section4": {
-        "title": "4. In-app reporting",
-        "content": "Users can report child safety concerns in the app. Reporting options are available on predictions, comments, profiles, and messages (where the product provides a report or flag control). Reports are routed to our moderation queue and prioritized when they involve potential harm to minors.",
-        "content2": "When reporting, choose the category that best describes the issue and add any helpful context. You may also block users to prevent further contact."
+        "title": "4. アプリ内レポート",
+        "content": "ユーザーはアプリで子供の安全に関する懸念を報告できます。レポート オプションは、予測、コメント、プロファイル、メッセージ (製品がレポートまたはフラグ コントロールを提供する場合) で使用できます。報告は当社の管理キューにルーティングされ、未成年者に危害を及ぼす可能性がある場合に優先されます。",
+        "content2": "報告するときは、問題を最もよく説明するカテゴリを選択し、役立つコンテキストを追加してください。さらなる接触を防ぐためにユーザーをブロックすることもできます。"
       },
       "section5": {
-        "title": "5. Moderation & response",
-        "content": "We review child-safety reports as a priority. Confirmed CSAM is removed, preserving only what is legally required for evidence or mandatory reporting. Offending accounts are banned. We may preserve logs and content hashes as needed for compliance and cooperation with authorities.",
-        "content2": "We continually improve detection, reporting flows, and reviewer guidance. No system is perfect; we rely on our community and staff to identify harm quickly."
+        "title": "5. モデレーションと応答",
+        "content": "私たちは子供の安全に関する報告書を優先的に確認します。 CSAM が削除され、証拠または義務的な報告に法的に必要なもののみが保存されることが確認されました。違反したアカウントは禁止されます。当社は、コンプライアンスと当局との協力のために、必要に応じてログとコンテンツ ハッシュを保存する場合があります。",
+        "content2": "私たちは、検出、報告フロー、レビュー担当者のガイダンスを継続的に改善します。完璧なシステムはありません。私たちはコミュニティとスタッフに頼って、被害を迅速に特定します。"
       },
       "section6": {
-        "title": "6. Legal compliance & authority reporting",
-        "content": "We comply with applicable child safety laws in the regions where we operate. Where appropriate, we report apparent CSAM to relevant organizations and authorities (for example, national hotlines or cybercrime units) in accordance with legal obligations and industry practice.",
-        "content2": "We do not use CSAE content for any purpose other than removal, mandatory reporting, and lawful cooperation with investigations."
+        "title": "6. 法令順守と権限報告",
+        "content": "当社は、事業を展開する地域に適用される児童安全法を遵守しています。必要に応じて、法的義務および業界慣行に従って、明らかな CSAM を関連組織および当局 (全国ホットラインやサイバー犯罪対策部門など) に報告します。",
+        "content2": "当社は、CSAE コンテンツを削除、報告義務、および捜査への合法的な協力以外の目的で使用することはありません。"
       },
       "section7": {
-        "title": "7. Parental & guardian contact",
-        "content": "If you are a parent, guardian, or educator and believe a minor is using ToldYa! unsafely, contact us immediately using the email below with the username and a description of your concern. We will investigate and take appropriate action."
+        "title": "7. 保護者への連絡先",
+        "content": "あなたが親、保護者、または教育者で、未成年者が ToldYa を使用していると思われる場合は、危険な場合は、ユーザー名と懸念事項の説明を添えて、以下の電子メールを使用して直ちにご連絡ください。調査し、適切な対応をさせていただきます。"
       },
       "sectionContact": {
-        "title": "8. Designated child safety contact",
-        "content": "The designated point of contact for child safety, CSAM prevention practices, and compliance with Google Play child safety standards is ready to respond to inquiries from platforms, regulators, and users:",
+        "title": "8. 指定された子供の安全連絡先",
+        "content": "子供の安全、CSAM 予防措置、Google Play 子供の安全基準への準拠に関して指定された連絡窓口は、プラットフォーム、規制当局、ユーザーからの問い合わせにいつでも対応する準備ができています。",
         "email": "liorzukman@gmail.com",
-        "content2": "For general app support (non–child-safety), you may also contact zuki.apps.dev@gmail.com. For privacy requests, see our Privacy Policy."
-      }
+        "content2": "For general app support (non–child-safety), you may also contact zuki.apps.dev@gmail.com. For privacy requests, see our Privacy Policy.",
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
+      },
+      "metaDescription": "ToldYa! CSAE に対する子供の安全基準を公開 — ゼロトレランス、アプリ内報告、節度、法令順守、指定された連絡先。"
     },
     "pilot": {
-      "badge": "Pilot — iOS & Android",
-      "title": "Now in pilot",
-      "message": "ToldYa! is live on the App Store and Google Play as an invite-only pilot. Download the app, sign up with your invitation code, and start putting your predictions on the record.",
-      "inviteNote": "Invite-only — you need a valid invitation code to register.",
+      "badge": "パイロット — iOS & Android",
+      "title": "現在パイロット中",
+      "message": "ToldYa!は、App Store と Google Play で招待制パイロットとしてライブ配信されています。アプリをダウンロードし、招待コードでサインアップし、予測を記録に残しましょう。",
+      "inviteNote": "招待のみ — 登録するには有効な招待コードが必要です。",
       "highlights": [
-        "Post predictions your followers can see; vote and comment in the Arena",
-        "Category accuracy scores and a track record others can watch",
-        "English and Hebrew with RTL · dark and light themes",
-        "Free: no ads, no in-app purchases — reputation and bragging rights only"
+        "フォロワーが見ることができる予測を投稿します。アリーナでの投票とコメント",
+        "カテゴリの精度スコアと他の人が見ることができる実績",
+        "RTL · 暗いテーマと明るいテーマの英語とヘブライ語",
+        "無料: 広告なし、アプリ内購入なし - 評判と自慢の権利のみ"
       ]
     },
     "underConstruction": {
       "badge": "Coming Soon",
       "title": "Under Construction",
       "message": "We're preparing the ToldYa! social network product page. Legal policies and account deletion instructions are available below."
+    },
+    "support": {
+      "title": "サポートとヘルプ",
+      "subtitle": "ToldYa をお手伝いします! — 予測、アカウント、プライバシー、子供の安全。",
+      "metaTitle": "サポートとヘルプ — ToldYa! | Zuki Apps",
+      "metaDescription": "ToldYa に協力してもらいましょう! — 招待のみの予測、アカウント削除、プライバシー、子供の安全に関する連絡先、およびテクニカル サポート。",
+      "contact": {
+        "title": "お問い合わせ",
+        "description": "ご質問がありますか、サポートが必要ですか?メールをお送りください。できるだけ早くご連絡いたします。"
+      },
+      "quickLinks": {
+        "title": "クイックリンク",
+        "privacy": {
+          "title": "プライバシーポリシー",
+          "description": "なんとToldYa！データを処理します"
+        },
+        "terms": {
+          "title": "利用規約",
+          "description": "ToldYaの使用ルール！"
+        },
+        "deleteAccount": {
+          "title": "アカウントの削除",
+          "description": "ToldYa を完全に削除してください!アカウント"
+        },
+        "childSafety": {
+          "title": "子供の安全基準",
+          "description": "CSAE ポリシーと指定の連絡先"
+        }
+      },
+      "faq": {
+        "title": "よくある質問",
+        "q1": {
+          "question": "ToldYaって何ですか!?",
+          "answer": "ToldYa!は、招待制の予測ソーシャル アプリです。通話が行われる前に投稿し、アリーナで投票し、評判スコアを構築して、通話したことを証明します。 iOS と Android は無料で、広告やアプリ内購入はありません。"
+        },
+        "q2": {
+          "question": "ToldYaです！招待制？",
+          "answer": "はい。パイロット期間中は、アクセスは招待のみです。アカウントを作成してソーシャル機能を使用するには、招待が必要です。"
+        },
+        "q3": {
+          "question": "アカウントを削除するにはどうすればよいですか?",
+          "answer": "zukiapps.com/toldya/delete-account で [アカウントの削除] ページを開いて詳しい手順を確認するか、利用可能な場合はアプリ内アカウント設定を使用します。削除は永久的です。"
+        },
+        "q4": {
+          "question": "ToldYa します!広告やアプリ内購入はありますか?",
+          "answer": "いいえ、ToldYa!現在のパイロット リリースでは無料で、広告もアプリ内購入もありません。"
+        },
+        "q5": {
+          "question": "どの言語がサポートされていますか?",
+          "answer": "ToldYa!ヘブライ語の完全な RTL レイアウトを含む、英語とヘブライ語をサポートします。"
+        },
+        "q6": {
+          "question": "子供の安全に関する懸念を報告するにはどうすればよいですか?"
+        }
+      },
+      "additionalHelp": {
+        "title": "さらにサポートが必要ですか?",
+        "description": "探している答えが見つからない場合は、お問い合わせください。通常、24 ～ 48 時間以内に返信いたします。"
+      }
     }
   }
 }

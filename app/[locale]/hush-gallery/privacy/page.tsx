@@ -18,11 +18,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'hushGallery.privacy' });
+
   return {
-    title: 'Privacy Policy - Hush Gallery | Zuki Apps',
-    description: 'Privacy Policy for Hush Gallery - Private photo gallery application. Learn how we collect, use, and protect your data.',
+    title: `${t('title')} — Hush Gallery | Zuki Apps`,
+    description: t('metaDescription'),
     robots: {
       index: true,
       follow: true,
@@ -85,7 +85,7 @@ export default async function HushGalleryPrivacyPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
@@ -169,12 +169,12 @@ export default async function HushGalleryPrivacyPage({
                     {t('section8.address')}
                   </p>
                   <p className="text-gray-700 text-sm">
-                    {locale === 'he' ? '📄 ' : '📄 '}
+                    {locale === 'he' || locale === 'ar' ? '📄 ' : '📄 '}
                     <Link
                       href={`/${locale}/hush-gallery/terms`}
                       className="text-purple-600 hover:underline"
                     >
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                     </Link>
                   </p>
                 </section>

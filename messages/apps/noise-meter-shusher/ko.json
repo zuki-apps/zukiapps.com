@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "소음 측정기 — Shusher — 데시벨 및 소음 점수 앱에 대한 개인 정보 보호 정책. 마이크 오디오, 지역 기록, 광고 및 분석이 처리되는 방식입니다."
     },
     "footer": {
       "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
@@ -294,6 +295,58 @@
           "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
         }
       ]
+    },
+    "support": {
+      "title": "지원 및 도움말",
+      "subtitle": "우리가 도와드리겠습니다! 소음 측정기 - Shusher에 대한 답변을 찾거나 당사에 직접 문의하세요.",
+      "metaTitle": "지원 및 도움말 — 소음 측정기 — Shusher | Zuki Apps",
+      "metaDescription": "소음 측정기(Shusher), 데시벨 판독값, Shusher 경고, 권한, Premium 및 문제 해결에 대한 도움을 받으세요.",
+      "contact": {
+        "title": "문의하기",
+        "description": "질문이 있거나 도움이 필요하신가요? 이메일을 보내주시면 최대한 빨리 연락드리겠습니다."
+      },
+      "quickLinks": {
+        "title": "빠른 링크",
+        "privacy": {
+          "title": "개인 정보 보호 정책",
+          "description": "귀하의 데이터를 보호하는 방법 알아보기"
+        },
+        "terms": {
+          "title": "서비스 약관",
+          "description": "이용 약관을 읽어보세요"
+        }
+      },
+      "faq": {
+        "title": "자주 묻는 질문",
+        "q1": {
+          "question": "소음 측정기 - Shusher란 무엇입니까?",
+          "answer": "휴대폰의 마이크를 사용하여 주변 소음 수준을 추정하고, 시간에 따른 측정 세션을 실행하고, 환경 점수를 매기고, 기기에 기록을 저장하고, 선택적으로 소음이 임계값을 초과할 때 앱 내에서 경고하는 모바일 앱입니다(Shusher)."
+        },
+        "q2": {
+          "question": "무료인가요?",
+          "answer": "예. 코어 미터링, 세션, Shusher 및 제한된 기록은 무료입니다. Premium는 차트, CSV 내보내기, 더 긴 세션, 테마, 더 많은 기록을 위한 일회성 업그레이드이며 광고가 없습니다."
+        },
+        "q3": {
+          "question": "아이폰 아니면 Android?",
+          "answer": "둘 다. 번들 ID: `com.zuki.apps.noisemeter`."
+        },
+        "q4": {
+          "question": "어떤 언어가 지원되나요?",
+          "answer": "영어, 히브리어, 아랍어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어, 중국어, 포르투갈어, 러시아어, 스페인어를 포함한 12개 로케일. 설정에서 언어를 변경하세요."
+        },
+        "q5": {
+          "question": "데시벨 수치는 얼마나 정확합니까?",
+          "answer": "소비자 휴대폰 하드웨어를 기준으로 한 대략적인 수준입니다. 위치, 케이스, 바람 및 장치 모델이 모두 결과에 영향을 미칩니다. 전문 SPL, OSHA 또는 법적 소음 규제 시행에 맞게 보정되지 않았습니다."
+        },
+        "q6": {
+          "question": "측정값이 실제 소음 측정기와 다른 이유는 무엇입니까?",
+          "answer": "전문 미터는 보정된 마이크와 특정 측정 표준을 사용합니다. 전화기는 음성에 맞게 조정되어 있으며 제조업체에 따라 다릅니다."
+        }
+      },
+      "additionalHelp": {
+        "title": "도움이 더 필요하신가요?",
+        "description": "원하는 답변을 찾을 수 없거나 기술적인 문제가 발생하는 경우, 주저하지 말고 저희에게 연락해 주세요. 우리는 도움을 드리고 일반적으로 24~48시간 이내에 응답합니다."
+      }
     }
   }
 }

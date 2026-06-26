@@ -22,8 +22,7 @@ export async function generateMetadata({
 
   return {
     title: `${t('title')} - Track Ledger | Zuki Apps`,
-    description:
-      'Privacy Policy for Track Ledger — GPS/GNSS track logging app. How location data, exports, and optional analytics are handled.',
+    description: t('metaDescription'),
     robots: {
       index: true,
       follow: true,

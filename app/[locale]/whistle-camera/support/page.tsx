@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
-import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
+import { buildCanonical, buildLanguageAlternates } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
@@ -20,12 +20,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'whistleCamera.support' });
+
   return {
-    title: 'Support & FAQ - Whistle Camera | Zuki Apps',
-    description:
-      'Whistle Camera FAQ: whistle detection, calibration, Pro, offline use, microphone privacy, storage, and troubleshooting. Contact zuki.apps.dev@gmail.com.',
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/whistle-camera/support'),
@@ -48,7 +47,6 @@ export default async function SupportPage({
   const t = await getTranslations({ locale, namespace: 'whistleCamera.support' });
   const tHero = await getTranslations({ locale, namespace: 'whistleCamera.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
-  const baseUrl = getSiteUrl();
   
   // Build FAQ Structured Data (JSON-LD)
   const faqStructuredData = {
@@ -146,7 +144,7 @@ export default async function SupportPage({
 
         <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
           <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-            <h1 className="text-4xl font-bold text-amber-600">Whistle Camera</h1>
+            <h1 className="text-4xl font-bold text-amber-600">{tHero('title')}</h1>
             <div className="flex gap-2">
               <Link
                 href={`/${locale}/whistle-camera`}
@@ -157,7 +155,7 @@ export default async function SupportPage({
             </div>
           </div>
 
-          <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+          <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {t('title')}
             </h1>
@@ -193,10 +191,10 @@ export default async function SupportPage({
                 <HelpCircle className="w-6 h-6 text-amber-700 flex-shrink-0 mt-1" />
                 <div>
                   <h2 className="text-xl font-bold text-amber-700 mb-2">
-                    {locale === 'he' ? 'קישור אנדרואיד ישן (לא רלוונטי)' : 'Old Android listing (obsolete)'}
+                    {locale === 'he' || locale === 'ar' ? 'קישור אנדרואיד ישן (לא רלוונטי)' : 'Old Android listing (obsolete)'}
                   </h2>
                   <p className="text-gray-700 mb-3">
-                    {locale === 'he'
+                    {locale === 'he' || locale === 'ar'
                       ? 'הקישור הבא הוא רישום ישן. מומלץ להשתמש בקישור ההורדה הראשי בעמוד האפליקציה.'
                       : 'This is an old listing. Use the main download links on the app page.'}
                   </p>
@@ -207,7 +205,7 @@ export default async function SupportPage({
                     className="inline-flex items-center gap-2 text-amber-700 hover:text-amber-800 font-semibold"
                   >
                     <ExternalLink className="w-5 h-5" />
-                    {locale === 'he' ? 'פתח את הרישום הישן' : 'Open old listing'}
+                    {locale === 'he' || locale === 'ar' ? 'פתח את הרישום הישן' : 'Open old listing'}
                   </a>
                 </div>
               </div>

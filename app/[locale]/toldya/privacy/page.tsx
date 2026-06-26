@@ -39,8 +39,7 @@ export async function generateMetadata({
 
   return {
     title: `${t('title')} — ToldYa! | Zuki Apps`,
-    description:
-      'Privacy Policy for ToldYa! social network — account, UGC, Firebase, moderation, your rights, and account deletion.',
+    description: t('metaDescription'),
     robots: { index: true, follow: true },
     alternates: {
       canonical: buildCanonical(locale, '/toldya/privacy'),

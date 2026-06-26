@@ -18,11 +18,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'whistleCamera.privacy' });
+
   return {
-    title: 'Privacy Policy - Whistle Camera | Zuki Apps',
-    description: 'Privacy Policy for Whistle Camera - Smart camera application. Learn how we collect, use, and protect your data.',
+    title: `${t('title')} — Whistle Camera | Zuki Apps`,
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/whistle-camera/privacy'),
@@ -76,7 +76,7 @@ export default async function WhistleCameraPrivacyPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
@@ -160,12 +160,12 @@ export default async function WhistleCameraPrivacyPage({
                     {t('section8.address')}
                   </p>
                   <p className="text-gray-700 text-sm">
-                    {locale === 'he' ? '📄 ' : '📄 '}
+                    {locale === 'he' || locale === 'ar' ? '📄 ' : '📄 '}
                     <Link
                       href={`/${locale}/whistle-camera/terms`}
                       className="text-amber-600 hover:underline"
                     >
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                     </Link>
                   </p>
                 </section>

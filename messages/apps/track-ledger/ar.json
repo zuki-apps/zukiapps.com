@@ -117,7 +117,8 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "سياسة الخصوصية لتطبيق Track Ledger — GPS/GNSS تطبيق تسجيل المسار. كيفية التعامل مع بيانات الموقع والصادرات والتحليلات الاختيارية."
     },
     "footer": {
       "copyright": "© 2026 Track Ledger - All rights reserved",
@@ -283,6 +284,58 @@
           "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
         }
       ]
+    },
+    "support": {
+      "title": "الدعم والمساعدة",
+      "subtitle": "نحن هنا للمساعدة! ابحث عن إجابات حول Track Ledger أو اتصل بنا مباشرة.",
+      "metaTitle": "الدعم والمساعدة — تتبع دفتر الأستاذ | Zuki Apps",
+      "metaDescription": "احصل على مساعدة بشأن Track Ledger — تسجيل GPS/GNSS وتصديرها وتنسيقات Premium وأذونات الموقع وحدود دفتر الأستاذ.",
+      "contact": {
+        "title": "اتصل بنا",
+        "description": "هل لديك سؤال أو بحاجة إلى المساعدة؟ أرسل لنا بريدًا إلكترونيًا وسنقوم بالرد عليك في أقرب وقت ممكن."
+      },
+      "quickLinks": {
+        "title": "روابط سريعة",
+        "privacy": {
+          "title": "سياسة الخصوصية",
+          "description": "تعلم كيف نحمي بياناتك"
+        },
+        "terms": {
+          "title": "شروط الخدمة",
+          "description": "اقرأ الشروط والأحكام الخاصة بنا"
+        }
+      },
+      "faq": {
+        "title": "الأسئلة المتداولة",
+        "q1": {
+          "question": "ما هو دفتر الأستاذ المسار؟",
+          "answer": "مسجل مسار بسيط GPS / GNSS يركز على تصدير البيانات والاستخدام الميداني. فهو يسجل مسارك كنقاط أولية مع أخذ عينات اختيارية تعتمد على الوقت أو المسافة."
+        },
+        "q2": {
+          "question": "هل هو تطبيق لياقة بدنية أم تطبيق اجتماعي؟",
+          "answer": "لا، لا توجد لوحات صدارة أو تدريبات أو خلاصات اجتماعية. لقد تم تصميمه للأشخاص الذين يحتاجون إلى سجلات مواقع موثوقة وتصدير الملفات."
+        },
+        "q3": {
+          "question": "هل أحتاج إلى حساب؟",
+          "answer": "لا، يتم تخزين كل شيء محليًا على جهازك."
+        },
+        "q4": {
+          "question": "هل يعمل حاليا؟",
+          "answer": "نعم. تسجيل وعرض المسارات المحفوظة يعمل بدون إنترنت. تحتاج علامة تبويب الخريطة إلى شبكة لتحميل مربعات OpenStreetMap."
+        },
+        "q5": {
+          "question": "متى يستخدم التطبيق موقعي؟",
+          "answer": "فقط عندما يكون لديك تسجيل نشط (واختياريًا في الخلفية إذا كان لديك Premium وتسجيل الخلفية ممكّنًا)."
+        },
+        "q6": {
+          "question": "لماذا توقف التسجيل مؤقتًا عند تبديل التطبيقات؟",
+          "answer": "في الخطة المجانية، يتم تسجيل نقاط GPS الجديدة فقط أثناء وجود Track Ledger في المقدمة. Premium مع تمكين التسجيل في الخلفية، يستمر التسجيل عند مغادرة التطبيق."
+        }
+      },
+      "additionalHelp": {
+        "title": "هل تحتاج إلى المزيد من المساعدة؟",
+        "description": "إذا لم تتمكن من العثور على الإجابة التي تبحث عنها، أو إذا كنت تواجه مشكلة فنية، فلا تتردد في الاتصال بنا. نحن هنا للمساعدة ونرد عادةً خلال 24 إلى 48 ساعة."
+      }
     }
   }
 }

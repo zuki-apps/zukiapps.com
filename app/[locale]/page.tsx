@@ -274,6 +274,13 @@ export default async function Home({
               </a>
               <span className="text-slate-600 hidden sm:inline">|</span>
               <Link
+                href={`/${locale}/about`}
+                className="text-gray-400 hover:text-indigo-300 transition-colors"
+              >
+                {t('footer.about')}
+              </Link>
+              <span className="text-slate-600 hidden sm:inline">|</span>
+              <Link
                 href={`/${locale}/dsa-compliance`}
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >

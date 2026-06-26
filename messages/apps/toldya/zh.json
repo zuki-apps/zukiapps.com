@@ -1,313 +1,376 @@
 {
   "toldya": {
     "hero": {
-      "title": "ToldYa!",
-      "subtitle": "Told you so! Prove it.",
+      "title": "ToldYa！",
+      "subtitle": "告诉过你了！证明一下。",
       "description": "ToldYa! is an invite-only social network built around predictions — follow people, vote in the Arena, build a reputation score, and celebrate when you were right.",
       "structuredDataDescription": "ToldYa! — invite-only social network for predictions, voting, comments, and reputation. iOS and Android by Zuki Apps."
     },
-    "back": "Back to Home",
+    "back": "返回首页",
     "legalNav": {
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Use",
-      "deleteAccount": "Delete Account",
-      "contact": "Contact Support",
-      "childSafety": "Child Safety Standards"
+      "privacy": "隐私政策",
+      "terms": "使用条款",
+      "deleteAccount": "删除帐户",
+      "contact": "联系支持人员",
+      "childSafety": "儿童安全标准",
+      "support": "支持与帮助"
     },
     "download": {
       "appStoreUrl": "https://apps.apple.com/app/id6756342206",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.toldya",
-      "appStoreAlt": "Download on the App Store",
-      "googlePlayAlt": "Get it on Google Play"
+      "appStoreAlt": "下载App Store",
+      "googlePlayAlt": "获取Google Play"
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: May 2026",
-      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) processes personal data when you use the ToldYa! mobile application and related pages at zukiapps.com/toldya (the “Service”). ToldYa! is a social network centered on user-generated predictions, voting, comments, and messaging.",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2026 年 5 月",
+      "intro": "本隐私政策解释了当您使用 ToldYa! 时，Zuki Apps（“我们”、“我们”）如何处理个人数据。移动应用程序和相关页面位于zukiapps.com/toldya（“服务”）。 ToldYa！是一个以用户生成的预测、投票、评论和消息传递为中心的社交网络。",
       "section1": {
-        "title": "1. Who we are",
-        "content": "The data controller for ToldYa! is Zuki Apps. Contact details are at the end of this Policy.",
-        "content2": "This Policy applies to the ToldYa! app (iOS and Android) and the legal pages we publish for the product. It does not cover third-party websites or app stores, which have their own policies."
+        "title": "1. 我们是谁",
+        "content": "ToldYa的数据控制器！是Zuki Apps。详细联系信息位于本政策末尾。",
+        "content2": "本政策适用于ToldYa！应用程序（iOS 和 Android）以及我们为该产品发布的法律页面。它不包括第三方网站或 app store，它们有自己的政策。"
       },
       "section2": {
-        "title": "2. Information we collect",
-        "content": "We collect information you provide and information generated when you use the Service:",
+        "title": "2.我们收集的信息",
+        "content": "我们收集您提供的信息以及您使用服务时生成的信息：",
         "items": [
-          "Account data: email address, username, display name, password (stored in hashed form by our authentication provider), optional profile bio and avatar image, language preference, and invitation-related metadata.",
-          "Social & content data: predictions (text, category, target dates, status), votes, likes, comments, retweets/shares, follower relationships, reputation or category scores, and direct messages you send or receive.",
-          "Media: photos or videos you attach to predictions, if you choose to upload them.",
-          "Device & usage data: device type, operating system, app version, push notification tokens (if you enable notifications), IP-derived region (where available), crash logs, and analytics events via Google Firebase Analytics and Crashlytics.",
-          "Support & safety: information you send when contacting support or reporting content or users.",
-          "Communications metadata: timestamps and delivery status for notifications and messages."
+          "帐户数据：电子邮件地址、用户名、显示名称、密码（由我们的身份验证提供商以散列形式存储）、可选的个人资料简介和头像图像、语言首选项以及与邀请相关的元数据。",
+          "社交和内容数据：预测（文本、类别、目标日期、状态）、投票、点赞、评论、转发/分享、关注者关系、声誉或类别分数以及您发送或接收的直接消息。",
+          "媒体：您att获取预测的照片或视频（如果您选择上传）。",
+          "设备和使用数据：设备类型、操作系统、应用程序版本、推送通知令牌（如果您启用通知）、IP 派生区域（如果可用）、崩溃日志以及通过 Google Firebase Analytics 和 Crashlytics 的分析事件。",
+          "支持和安全：您在联系支持或报告内容或用户时发送的信息。",
+          "通信元数据：通知和消息的时间戳和传送状态。"
         ]
       },
       "section3": {
-        "title": "3. How we use your information",
-        "content": "We use personal data to provide and secure the social network, including:",
+        "title": "3.我们如何使用您的信息",
+        "content": "我们使用个人数据来提供和保护社交网络，包括：",
         "items": [
-          "Create and manage your account, invitation access, and profile",
-          "Display feeds, Arena views, voting results, comments, and notifications",
-          "Operate follower features, search, and reputation scoring",
-          "Send push or in-app notifications you have enabled",
-          "Detect abuse, enforce our Terms, and respond to reports",
-          "Maintain reliability, debug crashes, and improve the Service",
-          "Comply with law and respond to lawful requests"
+          "创建和管理您的帐户、邀请访问权限和个人资料",
+          "显示提要、竞技场视图、投票结果、评论和通知",
+          "操作关注者功能、搜索和声誉评分",
+          "发送您已启用的推送或应用内通知",
+          "检测滥用行为、执行我们的条款并回复报告",
+          "维护可靠性、调试崩溃并改进服务",
+          "遵守法律并回应合法要求"
         ],
-        "content2": "We do not sell your personal information. We do not use your data for third-party advertising profiles in the current version of the app."
+        "content2": "我们不会出售您的个人信息。在当前版本的应用程序中，我们不会将您的数据用于第三方广告资料。"
       },
       "section4": {
-        "title": "4. Legal bases (where applicable)",
-        "content": "Depending on your location, we rely on: performance of a contract (providing the Service you request); legitimate interests (security, fraud prevention, product improvement, and community safety, balanced against your rights); consent (e.g. optional notifications or permissions you grant on device); and legal obligation (records we must keep)."
+        "title": "4. 法律依据（如适用）",
+        "content": "根据您所在的位置，我们依赖： 履行合同（提供您请求的服务）；合法利益（安全、欺诈预防、产品改进和社区安全，与您的权利相平衡）；同意（例如，您在设备上授予的可选通知或权限）；和法律义务（我们必须保存的记录）。"
       },
       "section5": {
-        "title": "5. How we share information",
-        "content": "Other members of the community can see your public profile (username, display name, avatar, bio, scores, and public predictions and interactions) according to product design. We do not display your email address to other users.",
-        "content2": "We use service providers that process data on our behalf, including Google Firebase (authentication, cloud database, file storage, analytics, crash reporting, and hosting as configured in our project). These providers act under contractual terms appropriate to their role. We may disclose information if required by law, to protect users and the public, or in connection with a merger or asset sale, with notice where required."
+        "title": "5. 我们如何共享信息",
+        "content": "社区的其他成员可以根据产品设计查看您的公开个人资料（用户名、显示名称、头像、简介、分数以及公开预测和互动）。我们不会向其他用户显示您的电子邮件地址。",
+        "content2": "我们使用代表我们处理数据的服务提供商，包括 Google Firebase（身份验证、云数据库、文件存储、分析、崩溃报告和我们项目中配置的托管）。这些提供商根据适合其角色的合同条款行事。如果法律要求，为了保护用户和公众，或者与合并或资产出售有关的信息，我们可能会披露信息，并在需要时发出通知。"
       },
       "section6": {
-        "title": "6. User-generated content & moderation",
-        "content": "Predictions, comments, messages, and media are user-generated. We may review, remove, or restrict content and accounts that violate our Terms or applicable law. Removed content may remain in backups for a limited period before deletion."
+        "title": "6. 用户生成的内容和审核",
+        "content": "预测、评论、消息和媒体都是用户生成的。我们可能会审查、删除或限制违反我们的条款或适用法律的内容和帐户。删除的内容可能会在删除前在备份中保留一段有限的时间。"
       },
       "section7": {
-        "title": "7. Retention",
-        "content": "We keep personal data while your account is active and as needed to operate the Service. After account deletion, we delete or anonymize profile and content data within a reasonable period (typically within 30 days), except where we must retain limited records for legal, security, or dispute purposes."
+        "title": "7. 保留",
+        "content": "当您的帐户处于活动状态时，我们会根据运营服务的需要保留个人数据。帐户删除后，我们会在合理的期限内（通常在 30 天内）删除或匿名化个人资料和内容数据，除非出于法律、安全或争议目的而必须保留有限的记录。"
       },
       "section8": {
-        "title": "8. Account deletion",
-        "content": "You can delete your account in the app (Settings → Delete account) or by following the instructions on our Delete Account page. Deletion is permanent and removes your profile, predictions, votes, comments, and messages from the live Service, subject to backup and legal retention described above.",
-        "content2": "See: https://zukiapps.com/toldya/delete-account"
+        "title": "8. 账户删除",
+        "content": "您可以在应用程序中删除您的帐户（设置→删除帐户）或按照我们的删除帐户页面上的说明进行操作。删除是永久性的，将从实时服务中删除您的个人资料、预测、投票、评论和消息，但须遵守上述备份和合法保留的规定。",
+        "content2": "参见：https://zukiapps.com/toldya/delete-account"
       },
       "section9": {
-        "title": "9. Your rights",
-        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, restrict, or object to certain processing, and to data portability. You may withdraw consent where processing is consent-based. To exercise rights, contact us using the details below; we may need to verify your identity.",
-        "content2": "Users in the EU/EEA, UK, and Israel may also lodge a complaint with a supervisory authority. California residents may have additional rights under applicable state law; contact us to submit a request."
+        "title": "9. 您的权利",
+        "content": "根据您所在的司法管辖区，您可能有权访问、更正、删除、限制或反对某些处理以及数据可移植性。如果处理是基于同意的，您可以撤回同意。要行使权利，请使用以下详细信息与我们联系；我们可能需要验证您的身份。",
+        "content2": "欧盟/欧洲经济区、英国和以色列的用户也可以向监管机构提出投诉。根据适用的州法律，加州居民可能享有额外权利；联系我们提交请求。"
       },
       "section10": {
-        "title": "10. Security",
-        "content": "We implement technical and organizational measures appropriate to a consumer social application (access controls, encrypted transport, and provider security features). No system is completely secure; use a strong password and protect your device."
+        "title": "10. 安全",
+        "content": "我们实施适合消费者社交应用程序的技术和组织措施（访问控制、加密传输和提供商安全功能）。没有一个系统是完全安全的；使用强密码并保护您的设备。"
       },
       "section11": {
-        "title": "11. International transfers",
-        "content": "Data may be processed in countries where we or our providers operate (including the United States and regions used by Google Cloud/Firebase). Where required, we rely on appropriate safeguards such as standard contractual clauses or equivalent mechanisms."
+        "title": "11. 国际转账",
+        "content": "数据可能会在我们或我们的提供商运营的国家/地区（包括美国和 Google Cloud/Firebase 使用的地区）进行处理。如有需要，我们会依靠适当的保障措施，例如标准合同条款或等效机制。"
       },
       "section12": {
-        "title": "12. Children",
-        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). We do not knowingly collect personal data from children. If you believe a child has provided data, contact us and we will delete it."
+        "title": "12. 儿童",
+        "content": "ToldYa！不适合 13 岁以下（或您所在国家/地区要求的最低年龄）以下的儿童。我们不会故意收集儿童的个人数据。如果您认为儿童提供了数据，请联系我们，我们将删除该数据。"
       },
       "section13": {
-        "title": "13. Changes to this Policy",
-        "content": "We may update this Policy from time to time. We will post the revised version with a new “Last updated” date. Material changes may be notified in-app or by email where appropriate. Continued use after the effective date constitutes acceptance."
+        "title": "13. 本政策的变更",
+        "content": "我们可能会不时更新本政策。我们将发布带有新的“最后更新”日期的修订版本。重大变更可能会在应用程序内或在适当的情况下通过电子邮件通知。生效日期后继续使用即表示接受。"
       },
       "sectionContact": {
-        "title": "Contact",
-        "content": "Questions about this Privacy Policy or your data:",
+        "title": "接触",
+        "content": "有关本隐私政策或您的数据的问题：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
+      },
+      "metaDescription": "ToldYa的隐私政策！社交网络 — 帐户、UGC、Firebase、审核、您的权利和帐户删除。"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: May 2026",
-      "intro": "These Terms of Use (“Terms”) govern your access to ToldYa! (“Service”, “app”), an invite-only social network operated by Zuki Apps. By creating an account or using the Service, you agree to these Terms and our Privacy Policy. If you do not agree, do not use the Service.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2026 年 5 月",
+      "intro": "这些使用条款（“条款”）管辖您对 ToldYa！ （“服务”，“应用程序”），一个由 Zuki Apps 运营的仅限邀请的社交网络。创建帐户或使用服务即表示您同意这些条款和我们的隐私政策。如果您不同意，请勿使用该服务。",
       "section1": {
-        "title": "1. Acceptance",
-        "content": "You must be legally able to enter a binding agreement in your jurisdiction. If you use the Service on behalf of an organization, you represent that you have authority to bind that organization.",
-        "content2": "We may update these Terms. We will post the updated version with a new “Last updated” date. Material changes may be communicated in-app. Continued use after changes take effect constitutes acceptance."
+        "title": "1. 验收",
+        "content": "您必须能够在您所在的司法管辖区合法地签订具有约束力的协议。如果您代表某个组织使用本服务，则您声明您有权约束该组织。",
+        "content2": "我们可能会更新这些条款。我们将发布带有新的“上次更新”日期的更新版本。重大变更可能会在应用程序内传达。变更生效后继续使用即表示接受。"
       },
       "section2": {
-        "title": "2. The Service",
-        "content": "ToldYa! is a social network where members post time-bound predictions, vote on others’ predictions, comment, follow users, send direct messages, and build reputation scores by category. The Service is for entertainment, opinion, and community discussion only.",
-        "content2": "There is no real-money wagering, betting, prizes with monetary value, or virtual currency redeemable for money. Predictions are not financial, legal, or professional advice."
+        "title": "2. 服务",
+        "content": "ToldYa！是一个社交网络，成员可以在其中发布有时限的预测、对他人的预测进行投票、发表评论、关注用户、发送直接消息以及按类别建立声誉评分。该服务仅供娱乐、发表意见和社区讨论。",
+        "content2": "不存在真钱投注、投注、具有货币价值的奖品或可兑换金钱的虚拟货币。预测不是财务、法律或专业建议。"
       },
       "section3": {
-        "title": "3. Accounts & invitations",
-        "content": "Access currently requires a valid invitation code. You must provide accurate registration information and keep your credentials confidential. You are responsible for all activity under your account.",
-        "content2": "You may not share, sell, or publicly distribute invitation codes in a way that circumvents our access controls. We may refuse registration, reclaim usernames, or close accounts at our discretion."
+        "title": "3. 账户和邀请",
+        "content": "目前访问需要有效的邀请码。您必须提供准确的注册信息并对您的凭据保密。您对您帐户下的所有活动负责。",
+        "content2": "您不得以规避我们的访问控制的方式共享、出售或公开分发邀请代码。我们可以自行决定拒绝注册、收回用户名或关闭帐户。"
       },
       "section4": {
-        "title": "4. Your responsibilities",
-        "content": "As a member of a community social network, you agree to:",
+        "title": "4. 您的责任",
+        "content": "作为社区社交网络的成员，您同意：",
         "items": [
-          "Treat other users with respect and comply with applicable laws",
-          "Post only content you have the right to share and that is appropriate for a general-audience social app",
-          "Use your real identity only as permitted by the product (no impersonation or deceptive profiles)",
-          "Not scrape, reverse engineer, or overload the Service without permission",
-          "Not manipulate votes, rankings, or reputation through bots, coordinated inauthentic behavior, or exploits",
-          "Report content or users you believe violate these Terms"
+          "尊重其他用户并遵守适用法律",
+          "仅发布您有权分享且适合普通受众社交应用的内容",
+          "仅在产品允许的情况下使用您的真实身份（不得冒充或欺骗性的个人资料）",
+          "未经许可不得抓取、逆向工程或超载服务",
+          "不通过机器人、协调的不真实行为或漏洞操纵投票、排名或声誉",
+          "举报您认为违反这些条款的内容或用户"
         ]
       },
       "section5": {
-        "title": "5. Community standards — prohibited content",
-        "content": "You may not post, upload, transmit, or link to content that includes or promotes:",
+        "title": "5. 社区标准——禁止内容",
+        "content": "您不得发布、上传、传输或链接到包含或宣传以下内容的内容：",
         "items": [
-          "Nudity, pornography, sexually explicit material, or solicitation of sexual services",
-          "Sexual content involving minors or any exploitation of minors (zero tolerance; we report to authorities where required)",
-          "Graphic violence, gore, or content primarily intended to shock or glorify violence",
-          "Threats, harassment, bullying, stalking, or hate speech targeting individuals or groups",
-          "Illegal activity, fraud, or instructions to cause harm",
-          "Self-harm or suicide promotion (if you are in crisis, seek local emergency or crisis services)",
-          "Spam, malware, phishing, or deceptive schemes",
-          "Personal data of others without their consent (doxxing)",
-          "Intellectual property you do not have rights to use"
+          "裸露、色情、露骨色情材料或招揽性服务",
+          "涉及未成年人的色情内容或任何对未成年人的剥削（零容忍；我们会根据需要向当局报告）",
+          "暴力画面、血腥内容或主要旨在震惊或美化暴力的内容",
+          "针对个人或团体的威胁、骚扰、欺凌、跟踪或仇恨言论",
+          "非法活动、欺诈或造成伤害的指示",
+          "宣传自残或自杀（如果您处于危机之中，请寻求当地紧急或危机服务）",
+          "垃圾邮件、恶意软件、网络钓鱼或欺骗性计划",
+          "未经他人同意而获取他人的个人数据（人肉搜索）",
+          "您无权使用的知识产权"
         ],
-        "content2": "We may remove content and suspend or terminate accounts without prior notice for violations."
+        "content2": "我们可能会删除内容并暂停或终止帐户，恕不另行通知违规行为。"
       },
       "section6": {
-        "title": "6. Additional prohibited conduct",
-        "content": "You also must not:",
+        "title": "6. 其他禁止行为",
+        "content": "您还不得：",
         "items": [
-          "Use the Service if you are barred under applicable law",
-          "Circumvent security, invitation, or rate limits",
-          "Create multiple accounts to evade enforcement",
-          "Use automated means to access the Service except through features we expressly provide",
-          "Collect other users’ data for marketing or harassment"
+          "如果适用法律禁止您使用该服务",
+          "规避安全、邀请或速率限制",
+          "创建多个帐户以逃避执法",
+          "使用自动化方式访问服务，除非通过我们明确提供的功能",
+          "收集其他用户的数据用于营销或骚扰"
         ]
       },
       "section7": {
-        "title": "7. Your content & license",
-        "content": "You retain ownership of content you submit. You grant Zuki Apps a worldwide, non-exclusive, royalty-free license to host, store, reproduce, display, distribute, and adapt your content as needed to operate, promote, and improve the Service (including showing it to other users and in feeds).",
-        "content2": "You represent that your content does not violate these Terms or third-party rights. You may delete your predictions where the product allows; deletion of your account removes associated content as described in our Privacy Policy."
+        "title": "7. 您的内容和许可",
+        "content": "您保留对您提交的内容的所有权。您授予Zuki Apps全球范围内的、非独占的、免版税的许可，以根据需要托管、存储、复制、展示、分发和改编您的内容，以运营、推广和改进服务（包括向其他用户和提要中展示）。",
+        "content2": "您声明您的内容不违反这些条款或第三方权利。您可以在产品允许的情况下删除您的预测；删除您的帐户会删除我们的隐私政策中所述的相关内容。"
       },
       "section8": {
-        "title": "8. Moderation & enforcement",
-        "content": "We may (but are not obligated to) monitor, filter, or review content. We may remove content, limit features, suspend, or permanently terminate accounts. Enforcement decisions are at our sole discretion to protect the community and comply with law.",
-        "content2": "If you believe content or an account violates these Terms, use in-app reporting where available or contact support."
+        "title": "8. 审核与执行",
+        "content": "我们可以（但没有义务）监控、过滤或审查内容。我们可能会删除内容、限制功能、暂停或永久终止帐户。为了保护社区并遵守法律，我们自行决定执行决定。",
+        "content2": "如果您认为内容或帐户违反了这些条款，请使用可用的应用内报告或联系支持人员。"
       },
       "section9": {
-        "title": "9. Voting & predictions disclaimer",
-        "content": "Votes and comments reflect community opinion, not facts verified by us. We do not guarantee accuracy of predictions or outcomes. You use others’ content at your own risk."
+        "title": "9. 投票和预测免责声明",
+        "content": "投票和评论反映的是社区意见，并非我们核实的事实。我们不保证预测或结果的准确性。您使用他人内容的风险由您自行承担。"
       },
       "section10": {
-        "title": "10. Privacy",
-        "content": "Our Privacy Policy explains how we collect and use personal data, including account deletion. It is incorporated into these Terms by reference."
+        "title": "10. 隐私",
+        "content": "我们的隐私政策解释了我们如何收集和使用个人数据，包括删除帐户。它通过引用并入这些条款。"
       },
       "section11": {
-        "title": "11. Termination & account deletion",
-        "content": "You may stop using the Service at any time and delete your account in Settings or via our Delete Account page. We may suspend or terminate your access for any violation of these Terms or for risk to users or the Service.",
-        "content2": "Upon termination, licenses you granted survive only as needed for legal compliance and backup deletion cycles."
+        "title": "11. 终止和帐户删除",
+        "content": "您可以随时停止使用服务并在“设置”中或通过我们的“删除帐户”页面删除您的帐户。如果您违反这些条款或给用户或服务带来风险，我们可能会暂停或终止您的访问。",
+        "content2": "终止后，您授予的许可证仅在法律合规性和备份删除周期需要时才有效。"
       },
       "section12": {
-        "title": "12. Disclaimers & limitation of liability",
-        "content": "THE SERVICE IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY LAW. WE DISCLAIM IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
-        "content2": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, ZUKI APPS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOSS OF PROFITS, DATA, OR GOODWILL, ARISING FROM YOUR USE OF THE SERVICE. OUR TOTAL LIABILITY FOR ANY CLAIM RELATING TO THE SERVICE IS LIMITED TO THE GREATER OF USD $50 OR THE AMOUNT YOU PAID US IN THE TWELVE MONTHS BEFORE THE CLAIM (TYPICALLY ZERO FOR THE FREE APP)."
+        "title": "12. 免责声明和责任限制",
+        "content": "在法律允许的最大范围内，本服务按“原样”和“可用”提供，不提供任何形式的保证。我们不提供适销性、特定用途适用性和不侵权的默示保证。",
+        "content2": "在法律允许的最大范围内，ZUKI APPS 对因您使用服务而产生的间接、偶然、特殊、后果性或惩罚性损害或利润、数据或商誉损失不承担责任。我们对与服务相关的任何索赔的全部责任仅限于 50 美元或您在索赔前 12 个月内向我们支付的金额（对于免费应用程序，通常为零），以较高者为准。"
       },
       "section13": {
-        "title": "13. Governing law",
-        "content": "These Terms are governed by the laws of the State of Israel, without regard to conflict-of-law rules, except where mandatory consumer protections in your country require otherwise. Courts in Israel shall have exclusive jurisdiction where permitted, subject to mandatory local rights."
+        "title": "13. 适用法律",
+        "content": "这些条款受以色列国法律管辖，不考虑法律冲突规则，除非您所在国家/地区的强制性消费者保护另有要求。以色列法院在允许的情况下拥有专属管辖权，但须遵守强制性当地权利。"
       },
       "section19": {
-        "title": "Contact",
-        "content": "Questions about these Terms:",
+        "title": "接触",
+        "content": "有关这些条款的问题：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "deleteAccount": {
-      "title": "Delete your ToldYa! account",
-      "intro": "You can permanently delete your ToldYa! account and associated personal data. This action cannot be undone.",
+      "title": "删除你的ToldYa！帐户",
+      "intro": "您可以永久删除您的ToldYa！帐户和相关的个人数据。此操作无法撤消。",
       "warning": {
-        "title": "Important",
-        "content": "Deleting your account removes your profile, predictions, votes, comments, direct messages, follower relationships, and reputation data from the live Service. Some information may remain in encrypted backups for a limited time before automatic deletion, or where we must retain records by law."
+        "title": "重要的",
+        "content": "删除您的帐户将从实时服务中删除您的个人资料、预测、投票、评论、私信、关注者关系和声誉数据。某些信息可能会在自动删除之前在加密备份中保留一段有限的时间，或者我们必须依法保留记录。"
       },
       "steps": {
-        "title": "Delete in the app (recommended)",
-        "step1": "Open ToldYa! and sign in",
-        "step2": "Go to Settings (profile / gear menu)",
-        "step3": "Choose Delete account (or Account → Delete account)",
-        "step4": "Read the confirmation carefully and confirm deletion",
-        "step5": "You will be signed out and your account will be scheduled for removal"
+        "title": "在应用程序中删除（推荐）",
+        "step1": "打开ToldYa！并登录",
+        "step2": "转到设置（配置文件/齿轮菜单）",
+        "step3": "选择删除帐户（或帐户→删除帐户）",
+        "step4": "仔细阅读确认信息并确认删除",
+        "step5": "您将被注销，并且您的帐户将被安排删除"
       },
       "stepsEmail": {
-        "title": "Cannot access the app?",
+        "title": "无法访问该应用程序？",
         "content": "Email zuki.apps.dev@gmail.com from the address linked to your account with the subject “Delete my ToldYa account”. Include your username so we can verify ownership. We may ask for additional verification before processing the request."
       },
       "data": {
-        "title": "Data removed",
-        "intro": "After successful deletion, we delete or anonymize, among other things:",
-        "item1": "Account credentials and profile (email, username, display name, bio, avatar)",
-        "item2": "Predictions, votes, comments, likes, and retweets",
-        "item3": "Direct messages and notification history tied to your account",
-        "item4": "Follower / following relationships and category scores",
-        "item5": "Push notification tokens for your devices"
+        "title": "数据已删除",
+        "intro": "成功删除后，我们会删除或匿名化，其中包括：",
+        "item1": "帐户凭据和个人资料（电子邮件、用户名、显示名称、个人简介、头像）",
+        "item2": "预测、投票、评论、点赞和转发",
+        "item3": "与您的帐户关联的直接消息和通知历史记录",
+        "item4": "关注者/关注关系和类别分数",
+        "item5": "为您的设备推送通知令牌"
       },
       "retention": {
-        "title": "Retention",
-        "content": "We aim to complete deletion from primary systems within 30 days. Limited logs or backups may persist briefly for security and disaster recovery, then expire according to our retention schedule."
+        "title": "保留",
+        "content": "我们的目标是在 30 天内完成从主系统的删除。为了安全和灾难恢复，有限的日志或备份可能会短暂保留，然后根据我们的保留计划到期。"
       },
       "contact": {
-        "title": "Questions",
-        "content": "For help with deletion or privacy requests:",
+        "title": "问题",
+        "content": "如需删除或隐私请求方面的帮助：",
         "email": "zuki.apps.dev@gmail.com",
-        "privacyLink": "Privacy Policy",
-        "termsLink": "Terms of Use"
+        "privacyLink": "隐私政策",
+        "termsLink": "使用条款"
       }
     },
     "childSafety": {
-      "title": "Child Safety Standards",
-      "lastUpdated": "Last updated: May 2026",
-      "intro": "ToldYa! is an invite-only social network operated by Zuki Apps. We maintain zero tolerance for child sexual abuse and exploitation (CSAE). This page describes our published standards, in-app reporting, moderation practices, and how to contact us regarding child safety.",
+      "title": "儿童安全标准",
+      "lastUpdated": "最后更新时间：2026 年 5 月",
+      "intro": "ToldYa！是一个仅限受邀人士参与的社交网络，由 Zuki Apps 运营。我们对儿童性虐待和性剥削保持零容忍 (CSAE)。本页面介绍了我们发布的标准、应用内报告、审核实践以及如何就儿童安全问题联系我们。",
       "section1": {
-        "title": "1. Zero tolerance",
-        "content": "We prohibit any content or conduct that sexually exploits, endangers, or otherwise harms children. Accounts involved in CSAE may be removed immediately and permanently. Where required by law, we report to regional and national authorities and cooperate with law enforcement."
+        "title": "1. 零容忍",
+        "content": "我们禁止任何对儿童进行性剥削、危害或以其他方式伤害儿童的内容或行为。涉及CSAE的账户可能会被立即永久删除。根据法律要求，我们向地区和国家当局报告并配合执法部门。"
       },
       "section2": {
-        "title": "2. Standards against CSAE",
-        "content": "The following are prohibited on ToldYa! and may result in account termination and referral to authorities:",
+        "title": "2. CSAE标准",
+        "content": "ToldYa禁止以下行为！并可能导致帐户被终止并移交当局：",
         "items": [
-          "Child sexual abuse material (CSAM) in any form, including real, synthetic, or illustrated sexual content depicting minors",
-          "Sexualization of minors, grooming, or solicitation of minors",
-          "Content that facilitates exploitation or trafficking of children",
-          "Accounts that misrepresent age to contact or exploit minors",
-          "Links or instructions to obtain CSAM or to harm children"
+          "任何形式的儿童性虐待材料 (CSAM)，包括描绘未成年人的真实、合成或插图性内容",
+          "未成年人性化、诱骗或引诱未成年人",
+          "促进剥削或贩卖儿童的内容",
+          "谎报年龄以联系或剥削未成年人的账户",
+          "获取 CSAM 或伤害儿童的链接或说明"
         ],
-        "content2": "These rules are also reflected in our Terms of Use. We use a combination of automated signals, user reports, and human review to enforce them."
+        "content2": "这些规则也反映在我们的使用条款中。我们结合使用自动信号、用户报告和人工审核来强制执行。"
       },
       "section3": {
-        "title": "3. Age requirement",
-        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). Registration requires an invitation code and is intended for adults and teens who meet the minimum age. We may suspend accounts we believe belong to underage users."
+        "title": "3、年龄要求",
+        "content": "ToldYa！不适合 13 岁以下（或您所在国家/地区要求的最低年龄）以下的儿童。注册需要邀请码，适用于符合最低年龄的成人和青少年。我们可能会暂停我们认为属于未成年用户的帐户。"
       },
       "section4": {
-        "title": "4. In-app reporting",
-        "content": "Users can report child safety concerns in the app. Reporting options are available on predictions, comments, profiles, and messages (where the product provides a report or flag control). Reports are routed to our moderation queue and prioritized when they involve potential harm to minors.",
-        "content2": "When reporting, choose the category that best describes the issue and add any helpful context. You may also block users to prevent further contact."
+        "title": "4. 应用内报告",
+        "content": "用户可以在应用程序中报告儿童安全问题。报告选项可用于预测、评论、配置文件和消息（产品提供报告或标记控件）。当报告涉及对未成年人的潜在伤害时，报告将被发送到我们的审核队列并进行优先排序。",
+        "content2": "报告时，选择最能描述问题的类别并添加任何有用的上下文。您还可以阻止用户以防止进一步联系。"
       },
       "section5": {
-        "title": "5. Moderation & response",
-        "content": "We review child-safety reports as a priority. Confirmed CSAM is removed, preserving only what is legally required for evidence or mandatory reporting. Offending accounts are banned. We may preserve logs and content hashes as needed for compliance and cooperation with authorities.",
-        "content2": "We continually improve detection, reporting flows, and reviewer guidance. No system is perfect; we rely on our community and staff to identify harm quickly."
+        "title": "5. 审核与回应",
+        "content": "我们优先审查儿童安全报告。已确认的 CSAM 将被删除，仅保留法律上要求的证据或强制报告内容。违规账户将被禁止。我们可能会根据需要保留日志和内容哈希，以确保合规性并与当局合作。",
+        "content2": "我们不断改进检测、报告流程和审阅者指导。没有一个系统是完美的；我们依靠社区和员工来快速识别危害。"
       },
       "section6": {
-        "title": "6. Legal compliance & authority reporting",
-        "content": "We comply with applicable child safety laws in the regions where we operate. Where appropriate, we report apparent CSAM to relevant organizations and authorities (for example, national hotlines or cybercrime units) in accordance with legal obligations and industry practice.",
-        "content2": "We do not use CSAE content for any purpose other than removal, mandatory reporting, and lawful cooperation with investigations."
+        "title": "6. 法律合规性和权威报告",
+        "content": "我们遵守我们经营所在地区适用的儿童安全法律。在适当的情况下，我们根据法律义务和行业惯例，向相关组织和当局（例如国家热线或网络犯罪单位）报告明显的 CSAM。",
+        "content2": "除了删除、强制报告和合法配合调查之外，我们不会将CSAE内容用于任何目的。"
       },
       "section7": {
-        "title": "7. Parental & guardian contact",
-        "content": "If you are a parent, guardian, or educator and believe a minor is using ToldYa! unsafely, contact us immediately using the email below with the username and a description of your concern. We will investigate and take appropriate action."
+        "title": "7. 家长及监护人联系方式",
+        "content": "如果您是家长、监护人或教育者，并且认为未成年人正在使用 ToldYa！如果不安全，请立即使用下面的电子邮件联系我们，并提供用户名和您的问题描述。我们将调查并采取适当行动。"
       },
       "sectionContact": {
-        "title": "8. Designated child safety contact",
-        "content": "The designated point of contact for child safety, CSAM prevention practices, and compliance with Google Play child safety standards is ready to respond to inquiries from platforms, regulators, and users:",
+        "title": "8. 指定儿童安全联系人",
+        "content": "儿童安全、CSAM预防实践以及Google Play儿童安全标准合规指定联系人已准备好回应平台、监管机构和用户的询问：",
         "email": "liorzukman@gmail.com",
-        "content2": "For general app support (non–child-safety), you may also contact zuki.apps.dev@gmail.com. For privacy requests, see our Privacy Policy."
-      }
+        "content2": "For general app support (non–child-safety), you may also contact zuki.apps.dev@gmail.com. For privacy requests, see our Privacy Policy.",
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
+      },
+      "metaDescription": "ToldYa！针对CSAE发布了儿童安全标准——零容忍、应用内报告、审核、法律合规和指定联系人。"
     },
     "pilot": {
-      "badge": "Pilot — iOS & Android",
-      "title": "Now in pilot",
-      "message": "ToldYa! is live on the App Store and Google Play as an invite-only pilot. Download the app, sign up with your invitation code, and start putting your predictions on the record.",
-      "inviteNote": "Invite-only — you need a valid invitation code to register.",
+      "badge": "飞行员 — iOS 和 Android",
+      "title": "现在处于试点阶段",
+      "message": "ToldYa！作为仅限邀请的飞行员在 App Store 和 Google Play 上直播。下载应用程序，使用您的邀请码注册，然后开始记录您的预测。",
+      "inviteNote": "仅限邀请 - 您需要有效的邀请码才能注册。",
       "highlights": [
-        "Post predictions your followers can see; vote and comment in the Arena",
-        "Category accuracy scores and a track record others can watch",
-        "English and Hebrew with RTL · dark and light themes",
-        "Free: no ads, no in-app purchases — reputation and bragging rights only"
+        "您的关注者可以看到的发布预测；在竞技场投票和评论",
+        "其他人可以观看的类别准确度分数和跟踪记录",
+        "英语和希伯来语，带有 RTL · 深色和浅色主题",
+        "免费：没有广告，没有应用内购买——只有声誉和吹牛的权利"
       ]
     },
     "underConstruction": {
       "badge": "Coming Soon",
       "title": "Under Construction",
       "message": "We're preparing the ToldYa! social network product page. Legal policies and account deletion instructions are available below."
+    },
+    "support": {
+      "title": "支持与帮助",
+      "subtitle": "我们随时为 ToldYa 提供帮助！ — 预测、您的帐户、隐私和儿童安全。",
+      "metaTitle": "支持与帮助 — ToldYa！ | Zuki Apps",
+      "metaDescription": "获取有关 ToldYa 的帮助！ — 仅限邀请的预测、帐户删除、隐私、儿童安全联系和技术支持。",
+      "contact": {
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发送电子邮件，我们会尽快回复您。"
+      },
+      "quickLinks": {
+        "title": "快速链接",
+        "privacy": {
+          "title": "隐私政策",
+          "description": "怎么样ToldYa！处理您的数据"
+        },
+        "terms": {
+          "title": "使用条款",
+          "description": "ToldYa使用规则！"
+        },
+        "deleteAccount": {
+          "title": "删除帐户",
+          "description": "永久删除您的ToldYa！帐户"
+        },
+        "childSafety": {
+          "title": "儿童安全标准",
+          "description": "CSAE政策及指定联系人"
+        }
+      },
+      "faq": {
+        "title": "常见问题解答",
+        "q1": {
+          "question": "ToldYa是什么！？",
+          "answer": "ToldYa！是一款仅限受邀人士参与的预测社交应用程序 - 在预测发生之前发布您的电话，在 Arena 中投票，建立声誉评分，并证明您已成功预测。 iOS 和 Android 免费，没有广告，也没有应用内购买。"
+        },
+        "q2": {
+          "question": "是ToldYa！仅限邀请？",
+          "answer": "是的。在试点期间，只有受邀者才能访问。您需要获得邀请才能创建帐户并使用社交功能。"
+        },
+        "q3": {
+          "question": "如何删除我的帐户？",
+          "answer": "打开 zukiapps.com/toldya/delete-account 上的删除帐户页面以获取分步说明，或使用可用的应用内帐户设置。删除是永久性的。"
+        },
+        "q4": {
+          "question": "ToldYa！有广告或应用内购买吗？",
+          "answer": "不，ToldYa！在当前的试点版本中是免费的，没有广告，也没有应用内购买。"
+        },
+        "q5": {
+          "question": "支持哪些语言？",
+          "answer": "ToldYa！支持英语和希伯来语，包括希伯来语的完整 RTL 布局。"
+        },
+        "q6": {
+          "question": "如何报告儿童安全问题？"
+        }
+      },
+      "additionalHelp": {
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到所需的答案，请联系我们。我们通常会在 24-48 小时内回复。"
+      }
     }
   }
 }

@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "support@zukiapps.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Política de privacidad para Paratrooper Blitz: juego de arcade. Cómo se manejan los datos de juego, los anuncios, Firebase y los servicios de juegos de plataforma."
     },
     "footer": {
       "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
@@ -278,6 +279,59 @@
           "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
         }
       ]
+    },
+    "support": {
+      "title": "Soporte y ayuda",
+      "subtitle": "¡Estamos aquí para ayudar! Encuentre respuestas a preguntas comunes o comuníquese con Zuki Apps sobre Paratrooper Blitz.",
+      "metaTitle": "Soporte y ayuda: Paracaidista Blitz | Zuki Apps",
+      "metaDescription": "Obtén ayuda con Paratrooper Blitz: juego sin conexión, Arcade vs Clásico, puntuaciones, tablas de clasificación, logros y eliminación de anuncios.",
+      "contact": {
+        "title": "Contáctenos",
+        "description": "¿Tiene alguna pregunta o necesita ayuda? Envíanos un correo electrónico y nos comunicaremos contigo lo antes posible.",
+        "email": "support@zukiapps.com"
+      },
+      "quickLinks": {
+        "title": "Enlaces rápidos",
+        "privacy": {
+          "title": "política de privacidad",
+          "description": "Descubra cómo protegemos sus datos"
+        },
+        "terms": {
+          "title": "Términos de servicio",
+          "description": "Lea nuestros términos y condiciones"
+        }
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": {
+          "question": "¿Paratrooper Blitz es gratuito?",
+          "answer": "Sí. El juego se puede descargar y jugar gratis. La compra opcional única de Eliminar anuncios elimina los anuncios intersticiales y de banner."
+        },
+        "q2": {
+          "question": "¿Para qué edad es el juego?",
+          "answer": "Adolescente clasificado (13+). Acción arcade suave de estilo militar: sin sangre, sin chat, sin contenido generado por el usuario."
+        },
+        "q3": {
+          "question": "¿Funciona sin conexión?",
+          "answer": "El juego principal funciona sin conexión. Las tablas de clasificación, los logros, los anuncios y las compras necesitan servicios de red y de tienda."
+        },
+        "q4": {
+          "question": "¿Qué idiomas son compatibles?",
+          "answer": "Inglés, árabe, alemán, español, francés, hebreo, italiano, japonés, coreano, portugués, ruso y chino (simplificado). Cambiar en Configuración."
+        },
+        "q5": {
+          "question": "¿Cuál es la diferencia entre Arcade y Clásico?",
+          "answer": "Arcade: desliza hacia la izquierda/derecha, dispara hacia arriba. Clásico: gira la torreta 360° y apunta manualmente."
+        },
+        "q6": {
+          "question": "¿Cómo pierdo?",
+          "answer": "Cuatro paracaidistas aterrizan en el **mismo lado** de tu torreta o una bomba cae al suelo."
+        }
+      },
+      "additionalHelp": {
+        "title": "¿Necesita más ayuda?",
+        "description": "Si no pudo encontrar la respuesta que busca o si tiene un problema técnico, no dude en contactarnos. Estamos aquí para ayudar y normalmente respondemos dentro de 24 a 48 horas."
+      }
     }
   }
 }

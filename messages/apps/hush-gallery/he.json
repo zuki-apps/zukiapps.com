@@ -264,7 +264,8 @@
         "content": "אם יש שאלות כלשהן לגבי מדיניות פרטיות זו, אנא צור איתנו קשר ב:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "רחוב נחשול 36, סער, מיקוד 22805, ישראל"
-      }
+      },
+      "metaDescription": "מדיניות הפרטיות של Hush Gallery - כיצד אנו מטפלים בנתונים שלך ב-iOS ו-Android."
     },
     "deleteAccount": {
       "title": "מחיקת חשבון Hush Gallery",
@@ -321,84 +322,132 @@
       "viewAllSupport": "Full support page",
       "items": [
         {
-          "question": "What is Hush Gallery?",
-          "answer": "Hush Gallery is a private photo and video gallery for iOS and Android. Media is stored in the app's private storage (separate from your public Photos app), organized with tags, protected with optional Premium app lock (PIN/biometric), and optionally backed up to iCloud (iOS) or Google Drive (Android). Package: com.zuki.apps.hushGallery."
+          "question": "מה זה Hush Gallery?",
+          "answer": "Hush Gallery היא גלריית תמונות ווידאו פרטית עבור iOS ו-Android. המדיה מאוחסנת באחסון הפרטי של האפליקציה (בנפרד מאפליקציית התמונות הציבורית שלך), מאורגנת עם תגים, מוגנת באמצעות נעילת אפליקציה אופציונלית Premium (PIN/ביומטרי), ומגובה באופן אופציונלי ל-iCloud (iOS) או ל-Google Drive (Android). חבילה: com.zuki.apps.hushGallery."
         },
         {
-          "question": "How do I import photos and videos into Hush Gallery?",
-          "answer": "Open Hush Gallery and tap the + (Add) button. Choose Import from Gallery, Take Photo, or Take Video. Select one or more items from your device library. After import you can optionally delete the originals from your public gallery. You can also share directly from WhatsApp, Messages, Photos, or other apps using Share → Hush Gallery."
+          "question": "כיצד אוכל לייבא תמונות וסרטונים אל Hush Gallery?",
+          "answer": "פתח את Hush Gallery והקש על הלחצן + (הוסף). בחר ייבא מהגלריה, צלם תמונה או צלם וידאו. בחר פריט אחד או יותר מספריית המכשיר שלך. לאחר הייבוא ​​תוכל למחוק את המסמכים המקוריים מהגלריה הציבורית שלך. אתה יכול גם לשתף ישירות מ-WhatsApp, הודעות, תמונות או אפליקציות אחרות באמצעות שיתוף Hush Gallery."
         },
         {
-          "question": "How does Share to Hush Gallery work on iPhone?",
-          "answer": "In Photos, WhatsApp, or any app: select media → Share → Hush Gallery. The iOS Share Extension copies files to secure app storage and opens Hush Gallery. On first launch after sharing, accept the privacy notice if shown, then confirm import. You may be asked whether to delete originals from the Photos library."
+          "question": "איך שיתוף ל-Hush Gallery עובד באייפון?",
+          "answer": "בתמונות, WhatsApp, או כל אפליקציה: בחר מדיה → שתף → Hush Gallery. תוסף השיתוף iOS מעתיק קבצים לאחסון אפליקציות מאובטח ופותח את Hush Gallery. בהפעלה הראשונה לאחר השיתוף, קבל את הודעת הפרטיות אם מוצגת, ולאחר מכן אשר את הייבוא. ייתכן שתישאל אם למחוק מסמכים מקוריים מספריית התמונות."
         },
         {
-          "question": "How does Share to Hush Gallery work on Android?",
-          "answer": "Select photos or videos in any app → Share → Hush Gallery. The app receives the shared files and imports them into private storage. Grant photo access when prompted. Optional: delete originals after import via the in-app dialog or Settings → Deletion → Auto-Delete Source Files."
+          "question": "איך שיתוף ל-Hush Gallery עובד על Android?",
+          "answer": "בחר תמונות או סרטונים בכל אפליקציה → שתף → Hush Gallery. האפליקציה מקבלת את הקבצים המשותפים ומייבאת אותם לאחסון פרטי. הענק גישה לתמונה כאשר תתבקש. אופציונלי: מחק מסמכי מקור לאחר הייבוא ​​באמצעות תיבת הדו-שיח בתוך האפליקציה או הגדרות ← מחיקה ← מחיקה אוטומטית של קבצי מקור."
         },
         {
-          "question": "Can I delete originals from my public gallery after import?",
-          "answer": "Yes. After each import, Hush Gallery can ask: Delete original files from your photo gallery? Enable Settings → Deletion → Auto-Delete Source Files to skip the prompt. Deletion uses Photos library asset IDs on iOS when available; if identification fails, you will be asked to delete manually for safety."
+          "question": "האם אוכל למחוק מסמכים מקוריים מהגלריה הציבורית שלי לאחר הייבוא?",
+          "answer": "כֵּן. לאחר כל ייבוא, Hush Gallery יכול לשאול: למחוק קבצים מקוריים מגלריית התמונות שלך? אפשר הגדרות ← מחיקה ← מחיקה אוטומטית של קבצי מקור כדי לדלג על ההנחיה. המחיקה משתמשת במזהי נכסי ספריית תמונות ב-iOS כאשר זמין; אם הזיהוי נכשל, תתבקש למחוק ידנית ליתר ביטחון."
         },
         {
-          "question": "How do tags work in Hush Gallery?",
-          "answer": "Create custom tags from the tags bar (Manage Tags). Filter the grid with All, Untagged, or any tag. In selection mode, assign tags to multiple items at once. Free users: up to 5 tags. Premium: unlimited tags. Reorder tags in edit mode."
+          "question": "כיצד פועלות התגים בHush Gallery?",
+          "answer": "צור תגים מותאמים אישית מסרגל התגים (ניהול תגים). סנן את הרשת באמצעות הכל, לא מתויג או כל תג. במצב בחירה, הקצה תגים למספר פריטים בו-זמנית. משתמשים בחינם: עד 5 תגים. Premium: תגיות ללא הגבלה. סדר מחדש את התגים במצב עריכה."
         },
         {
-          "question": "What is the difference between Free and Premium?",
-          "answer": "Free: local private gallery, import/export, up to 5 tags, banner ads. Premium (one-time purchase): remove all ads, unlimited tags, App Lock (PIN/biometric/auto-lock), cloud backup, and future premium features. Watch a rewarded ad for 24 hours ad-free on the free tier."
+          "question": "מה ההבדל בין חינם ל-Premium?",
+          "answer": "חינם: גלריה פרטית מקומית, ייבוא/ייצוא, עד 5 תגים, מודעות באנר. Premium (רכישה חד פעמית): הסר את כל המודעות, תגיות ללא הגבלה, נעילת אפליקציות (PIN/ביומטרי/נעילה אוטומטית), גיבוי בענן ותכונות עתידיות של premium. צפה במודעה מתוגמלת למשך 24 שעות ללא פרסומות בשכבת החינמית."
         },
         {
-          "question": "How do I set up App Lock?",
-          "answer": "Premium required. Go to Settings → Security → App Lock. Set a 4- or 6-digit PIN and optionally enable Face ID / Touch ID / fingerprint. Configure auto-lock timeout (immediately, 1, 5, or 15 minutes). Verified email is required for PIN recovery."
+          "question": "איך אני מגדיר App Lock?",
+          "answer": "Premium נדרש. עבור אל הגדרות ← אבטחה ← נעילת אפליקציה. הגדר קוד PIN בן 4 או 6 ספרות והפעל אופציונלי מזהה פנים / מזהה מגע / טביעת אצבע. הגדר פסק זמן לנעילה אוטומטית (מיידית, 1, 5 או 15 דקות). נדרש אימייל מאומת לשחזור PIN."
         },
         {
-          "question": "I forgot my PIN. How do I recover access?",
-          "answer": "On the lock screen tap Forgot PIN. Sign in with the verified email used for recovery, or restore your PIN from an encrypted cloud backup if enabled. Clearing lock settings removes the PIN but does not delete your media."
+          "question": "שכחתי את ה-PIN שלי. כיצד אוכל לשחזר גישה?",
+          "answer": "במסך הנעילה הקש על שכחתי PIN. היכנס עם האימייל המאומת המשמש לשחזור, או שחזר את ה-PIN שלך מגיבוי ענן מוצפן אם מופעל. ניקוי הגדרות הנעילה מסיר את ה-PIN אך לא מוחק את המדיה שלך."
         },
         {
-          "question": "How does cloud backup work?",
-          "answer": "Premium feature. Settings → Backup → Backup Now or enable Auto Backup. iOS uses iCloud; Android uses Google Drive. Restore on a new device from Settings or during onboarding. Keep the app open during backup/restore."
+          "question": "איך עובד גיבוי בענן?",
+          "answer": "תכונה Premium. הגדרות ← גיבוי ← גיבוי עכשיו או הפעל גיבוי אוטומטי. iOS משתמש ב-iCloud; Android משתמש ב-Google Drive. שחזר במכשיר חדש מהגדרות או במהלך ההטמעה. השאר את האפליקציה פתוחה במהלך הגיבוי/שחזור."
         },
         {
-          "question": "Is my media encrypted?",
-          "answer": "Media is stored in the app's private directory inaccessible to other apps. Client-side encryption for local files and cloud backup is Coming Soon in Settings. Cloud backup uploads to your own iCloud/Google account when enabled."
+          "question": "האם המדיה שלי מוצפנת?",
+          "answer": "המדיה מאוחסנת בספרייה הפרטית של האפליקציה שאינה נגישה לאפליקציות אחרות. הצפנה בצד הלקוח עבור קבצים מקומיים וגיבוי ענן בקרוב בהגדרות. גיבוי בענן מעלה לחשבון iCloud/Google משלך כאשר מופעל."
         },
         {
-          "question": "Where are my photos stored? Can other apps see them?",
-          "answer": "Imported files live in Hush Gallery's private app storage on your device—not in the public camera roll unless you export them. Other apps cannot browse the vault without your unlock PIN/biometric (Premium)."
+          "question": "איפה התמונות שלי מאוחסנות? האם אפליקציות אחרות יכולות לראות אותן?",
+          "answer": "קבצים מיובאים חיים באחסון האפליקציות הפרטי של Hush Gallery במכשיר שלך - לא ברשימת המצלמה הציבורית אלא אם אתה מייצא אותם. אפליקציות אחרות לא יכולות לגלוש בכספת ללא PIN/ביומטרי לביטול הנעילה שלך (Premium)."
         },
         {
-          "question": "How do I export photos back to my device gallery?",
-          "answer": "Open a photo/video → Export to Gallery, or select multiple items in selection mode → Export. Metadata is preserved where supported. Move to Gallery exports and optionally removes the copy from Hush Gallery."
+          "question": "כיצד אוכל לייצא תמונות בחזרה לגלריית המכשיר שלי?",
+          "answer": "פתח תמונה/סרטון ← ייצוא לגלריה, או בחר מספר פריטים במצב בחירה ← ייצוא. מטא נתונים נשמרים היכן שהם נתמכים. עבור לייצוא גלריה והסרה אופציונלית של העותק מ-Hush Gallery."
         },
         {
-          "question": "How does swipe-to-delete work?",
-          "answer": "Swipe a thumbnail left to delete. A snackbar appears for 5 seconds with Undo. Confirm deletes permanently from Hush Gallery (not from the public gallery unless you imported with delete-original)."
+          "question": "כיצד פועל החלקה למחיקה?",
+          "answer": "החלק תמונה ממוזערת שמאלה כדי למחוק. תפריט חטיפים מופיע למשך 5 שניות עם בטל. אשר מחיקות לצמיתות מ-Hush Gallery (לא מהגלריה הציבורית אלא אם ייבאת עם delete-original)."
         },
         {
-          "question": "What languages does Hush Gallery support?",
-          "answer": "12+ languages including English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, and Chinese. Change in Settings → Language."
+          "question": "באילו שפות תומך Hush Gallery?",
+          "answer": "12+ שפות כולל אנגלית, עברית, ערבית, גרמנית, ספרדית, צרפתית, איטלקית, פורטוגזית, רוסית, יפנית, קוריאנית וסינית. שנה בהגדרות ← שפה."
         },
         {
-          "question": "What is the first-launch privacy notice?",
-          "answer": "On first open, Hush Gallery shows a privacy notice explaining that media stays on your device and changes can be permanent. Tap Continue after accepting, or Not now to defer (shown again next launch)."
+          "question": "מהי הודעת הפרטיות של ההשקה הראשונה?",
+          "answer": "בפתיחה הראשונה, Hush Gallery מציגה הודעת פרטיות המסבירה שהמדיה נשארת במכשיר שלך ושינויים יכולים להיות קבועים. הקש על המשך לאחר האישור, או על לא עכשיו כדי לדחות (מוצג שוב בהפעלה הבאה)."
         },
         {
-          "question": "How do I delete my account?",
-          "answer": "Settings → Account → Delete Account. See https://zukiapps.com/hush-gallery/delete-account for step-by-step instructions."
+          "question": "איך אני מוחק את החשבון שלי?",
+          "answer": "הגדרות ← חשבון ← מחק חשבון. ראה https://zukiapps.com/hush-gallery/delete-account להנחיות שלב אחר שלב."
         },
         {
-          "question": "What happens if I uninstall the app?",
-          "answer": "Local private storage is removed with the app unless you exported files first. If cloud backup was enabled, reinstall, sign in, and use Restore from Backup."
+          "question": "מה קורה אם אני מסיר את ההתקנה של האפליקציה?",
+          "answer": "אחסון פרטי מקומי מוסר עם האפליקציה אלא אם כן ייצאת קבצים תחילה. אם גיבוי ענן הופעל, התקן מחדש, היכנס והשתמש בשחזור מגיבוי."
         },
         {
-          "question": "Does Hush Gallery show ads?",
-          "answer": "Free tier shows banner ads and occasional interstitials. Premium removes all ads. Free users can watch a rewarded ad for 24 hours without ads."
+          "question": "האם Hush Gallery מציג מודעות?",
+          "answer": "שכבת חינם מציגה מודעות באנר ומודעות ביניים מדי פעם. Premium מסיר את כל המודעות. משתמשים בחינם יכולים לצפות במודעה מתגמלת במשך 24 שעות ללא מודעות."
         },
         {
-          "question": "How do I contact support?",
+          "question": "איך אני יוצר קשר עם התמיכה?",
           "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/hush-gallery/support. Privacy: https://zukiapps.com/hush-gallery/privacy. Terms: https://zukiapps.com/hush-gallery/terms."
+        },
+        {
+          "question": "האם ל-Zuki Apps יש גישה לתמונות שלי?",
+          "answer": "לא. Hush Gallery מאחסן מדיה מקומית במכשיר שלך באחסון אפליקציות פרטי. אנו לא מעלים או ניגשים לקבצים שלך אלא אם אתה מפעיל באופן מפורש גיבוי בענן לחשבון iCloud או Google Drive משלך."
+        },
+        {
+          "question": "האם אוכל להשתמש ב-Hush Gallery מבלי להיכנס?",
+          "answer": "כֵּן. הגלריה, הייבוא, התגים והייצוא פועלים במצב לא מקוון ללא חשבון. הכניסה נחוצה רק עבור גיבוי בענן ושחזור PIN באמצעות גיבוי."
+        },
+        {
+          "question": "מהם מסננים הכל ובלתי מתויגים?",
+          "answer": "הכל מציג כל פריט בכספת שלך. לא מתויג מציג רק פריטים ללא תגים מותאמים אישית. שבבי תג מותאם אישית מסננים לתווית אחת בכל פעם."
+        },
+        {
+          "question": "איך אני ממיין את הגלריה?",
+          "answer": "הקש על סמל המיון (⇅) בסרגל אפליקציית הגלריה. בחר תאריך, גודל קובץ, תאריך ייבוא, שם או סוג מדיה (תחילה תמונות לעומת סרטונים)."
+        },
+        {
+          "question": "האם ייבוא ​​מסיר תמונות מגליל המצלמה שלי?",
+          "answer": "כברירת מחדל, ייבוא ​​עותקים של קבצים לתוך Hush Gallery; המקורות המקוריים נשארים בתמונות אלא אם כן תבחר למחוק-מקורי כשהם מוצעים או מסיר אותם בעצמך."
+        },
+        {
+          "question": "האם נדרש גיבוי בענן?",
+          "answer": "לא. גיבוי הוא אופציונלי. הכספת שלך פועלת כולה במכשיר ללא גיבוי או חשבון."
+        },
+        {
+          "question": "מה כלול בגיבוי?",
+          "answer": "הגיבוי כולל קבצי מדיה ומטא נתונים כגון תגים. התנהגות הפלטפורמה תלויה ב-iCloud (iOS) או ב-Google Drive (Android) ובחשבון המחובר שלך."
+        },
+        {
+          "question": "כיצד אוכל לשחזר רכישה של Premium?",
+          "answer": "פתח את Premium → שחזר רכישות. השתמש באותו Apple ID או חשבון Google Play ששימשו לרכישה המקורית."
+        },
+        {
+          "question": "מדוע האפליקציה מבקשת את ה-PIN שלי כשאני חוזר?",
+          "answer": "נעילת אפליקציה ננעלת מחדש כאשר אתה רקע את האפליקציה או לאחר פסק זמן הנעילה האוטומטית שבחרת. זה מונע גישה לא מורשית לכספת שלך."
+        },
+        {
+          "question": "תמונות ממוזערות נראות ריקות או שבורות - מה עלי לעשות?",
+          "answer": "עזוב בכוח ופתח מחדש את Hush Gallery. אם קבצים הועברו מחוץ לאפליקציה, מטא נתונים עשויים להיות מיושנים - ייבא מחדש את המדיה במידת הצורך."
+        },
+        {
+          "question": "הגיבוי נכשל - איך אני מתקן את זה?",
+          "answer": "בדוק Wi-Fi או נתונים סלולריים, אשר שאתה מחובר, אמת שטח אחסון בענן, וודא כשירות של Premium/גיבוי עבור החשבון שלך."
+        },
+        {
+          "question": "ייבוא ​​של תוסף שיתוף לא הופיע",
+          "answer": "פתח את Hush Gallery באופן ידני; יבוא מניות בהמתנה פועל עם ההשקה. נסה שוב לשתף מתמונות אם גיליון השיתוף דיווח על שגיאה."
         }
       ]
     },
@@ -543,7 +592,9 @@
           "question": "מה קורה לתמונות שלי אם אני מסיר את האפליקציה?",
           "answer": "אם תסיר את האפליקציה ללא מחיקת החשבון תחילה, הנתונים המקומיים שלך יימחקו. אם היה לך גיבוי ענן מופעל, תוכל לשחזר את הנתונים שלך על ידי התקנה מחדש של האפליקציה והתחברות עם אותו חשבון. אנו ממליצים לייצא תמונות חשובות לפני הסרה אם אין לך גיבוי ענן מופעל."
         }
-      }
+      },
+      "metaTitle": "תמיכה ועזרה — Hush Gallery | Zuki Apps",
+      "metaDescription": "Hush Gallery FAQ ותמיכה - גלריית תמונות וסרטונים פרטיים. קשר, פרטיות ופתרון בעיות."
     },
     "tips": {
       "title": "Tips & tricks",

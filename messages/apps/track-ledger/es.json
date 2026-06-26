@@ -117,7 +117,8 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Política de privacidad para Track Ledger: aplicación de registro de seguimiento GPS/GNSS. Cómo se manejan los datos de ubicación, las exportaciones y los análisis opcionales."
     },
     "footer": {
       "copyright": "© 2026 Track Ledger - All rights reserved",
@@ -283,6 +284,58 @@
           "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
         }
       ]
+    },
+    "support": {
+      "title": "Soporte y ayuda",
+      "subtitle": "¡Estamos aquí para ayudar! Encuentre respuestas sobre Track Ledger o contáctenos directamente.",
+      "metaTitle": "Soporte y ayuda: seguimiento del libro mayor | Zuki Apps",
+      "metaDescription": "Obtenga ayuda con Track Ledger: GPS/GNSS grabación, exportaciones, Premium formatos, permisos de ubicación y límites del libro mayor.",
+      "contact": {
+        "title": "Contáctenos",
+        "description": "¿Tiene alguna pregunta o necesita ayuda? Envíanos un correo electrónico y nos comunicaremos contigo lo antes posible."
+      },
+      "quickLinks": {
+        "title": "Enlaces rápidos",
+        "privacy": {
+          "title": "política de privacidad",
+          "description": "Descubra cómo protegemos sus datos"
+        },
+        "terms": {
+          "title": "Términos de servicio",
+          "description": "Lea nuestros términos y condiciones"
+        }
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": {
+          "question": "¿Qué es el libro mayor de seguimiento?",
+          "answer": "Un registrador de seguimiento simple GPS / GNSS enfocado en la exportación de datos y el uso en campo. Registra su ruta como puntos sin procesar con muestreo opcional basado en tiempo o distancia."
+        },
+        "q2": {
+          "question": "¿Es una aplicación social o de fitness?",
+          "answer": "No. No hay tablas de clasificación, entrenamientos ni redes sociales. Está diseñado para personas que necesitan registros de ubicación confiables y exportaciones de archivos."
+        },
+        "q3": {
+          "question": "¿Necesito una cuenta?",
+          "answer": "No. Todo se almacena localmente en su dispositivo."
+        },
+        "q4": {
+          "question": "¿Funciona sin conexión?",
+          "answer": "Sí. La grabación y visualización de pistas guardadas funcionan sin Internet. La pestaña Mapa necesita red para cargar mosaicos de OpenStreetMap."
+        },
+        "q5": {
+          "question": "¿Cuándo usa la aplicación mi ubicación?",
+          "answer": "Solo mientras tengas una grabación activa (y opcionalmente en segundo plano si tienes Premium y la grabación en segundo plano habilitada)."
+        },
+        "q6": {
+          "question": "¿Por qué se detuvo la grabación cuando cambié de aplicación?",
+          "answer": "En el plan gratuito, los nuevos GPS puntos se registran solo mientras Track Ledger está en primer plano. Premium con la grabación en segundo plano habilitada continúa registrando cuando sales de la aplicación."
+        }
+      },
+      "additionalHelp": {
+        "title": "¿Necesita más ayuda?",
+        "description": "Si no pudo encontrar la respuesta que busca o si tiene un problema técnico, no dude en contactarnos. Estamos aquí para ayudar y normalmente respondemos dentro de 24 a 48 horas."
+      }
     }
   }
 }

@@ -260,7 +260,8 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Hush Gallery سياسة الخصوصية - كيف نتعامل مع بياناتك على iOS وAndroid."
     },
     "deleteAccount": {
       "title": "Delete Hush Gallery Account",
@@ -317,84 +318,132 @@
       "viewAllSupport": "Full support page",
       "items": [
         {
-          "question": "What is Hush Gallery?",
-          "answer": "Hush Gallery is a private photo and video gallery for iOS and Android. Media is stored in the app's private storage (separate from your public Photos app), organized with tags, protected with optional Premium app lock (PIN/biometric), and optionally backed up to iCloud (iOS) or Google Drive (Android). Package: com.zuki.apps.hushGallery."
+          "question": "ما هو Hush Gallery؟",
+          "answer": "Hush Gallery هو معرض صور وفيديو خاص لـ iOS و Android. يتم تخزين الوسائط في وحدة التخزين الخاصة بالتطبيق (منفصلة عن تطبيق الصور العام)، ويتم تنظيمها باستخدام العلامات، ومحمية بقفل تطبيق Premium اختياري (PIN/مقياس حيوي)، ويتم نسخها احتياطيًا بشكل اختياري على iCloud (iOS) أو Google Drive (Android). الحزمة: com.zuki.apps.hushGallery."
         },
         {
-          "question": "How do I import photos and videos into Hush Gallery?",
-          "answer": "Open Hush Gallery and tap the + (Add) button. Choose Import from Gallery, Take Photo, or Take Video. Select one or more items from your device library. After import you can optionally delete the originals from your public gallery. You can also share directly from WhatsApp, Messages, Photos, or other apps using Share → Hush Gallery."
+          "question": "كيف يمكنني استيراد الصور ومقاطع الفيديو إلى Hush Gallery؟",
+          "answer": "افتح Hush Gallery واضغط على الزر + (إضافة). اختر استيراد من المعرض أو التقاط صورة أو التقاط فيديو. حدد عنصرًا واحدًا أو أكثر من مكتبة جهازك. بعد الاستيراد، يمكنك اختياريًا حذف النسخ الأصلية من معرض الصور العام الخاص بك. يمكنك أيضًا المشاركة مباشرةً من WhatsApp أو الرسائل أو الصور أو التطبيقات الأخرى باستخدام مشاركة → Hush Gallery."
         },
         {
-          "question": "How does Share to Hush Gallery work on iPhone?",
-          "answer": "In Photos, WhatsApp, or any app: select media → Share → Hush Gallery. The iOS Share Extension copies files to secure app storage and opens Hush Gallery. On first launch after sharing, accept the privacy notice if shown, then confirm import. You may be asked whether to delete originals from the Photos library."
+          "question": "كيف تعمل المشاركة في Hush Gallery على iPhone؟",
+          "answer": "في الصور، WhatsApp، أو أي تطبيق: حدد الوسائط → مشاركة → Hush Gallery. يقوم ملحق المشاركة iOS بنسخ الملفات لتأمين تخزين التطبيق ويفتح Hush Gallery. عند التشغيل لأول مرة بعد المشاركة، اقبل إشعار الخصوصية إذا كان ظاهرًا، ثم قم بتأكيد الاستيراد. قد يتم سؤالك عما إذا كنت تريد حذف النسخ الأصلية من مكتبة الصور."
         },
         {
-          "question": "How does Share to Hush Gallery work on Android?",
-          "answer": "Select photos or videos in any app → Share → Hush Gallery. The app receives the shared files and imports them into private storage. Grant photo access when prompted. Optional: delete originals after import via the in-app dialog or Settings → Deletion → Auto-Delete Source Files."
+          "question": "كيف تعمل المشاركة في Hush Gallery على Android؟",
+          "answer": "حدد الصور أو مقاطع الفيديو في أي تطبيق → مشاركة → Hush Gallery. يتلقى التطبيق الملفات المشتركة ويستوردها إلى مساحة تخزين خاصة. منح حق الوصول للصور عند المطالبة بذلك. اختياري: احذف النسخ الأصلية بعد الاستيراد عبر مربع الحوار داخل التطبيق أو الإعدادات → الحذف → الحذف التلقائي لملفات المصدر."
         },
         {
-          "question": "Can I delete originals from my public gallery after import?",
-          "answer": "Yes. After each import, Hush Gallery can ask: Delete original files from your photo gallery? Enable Settings → Deletion → Auto-Delete Source Files to skip the prompt. Deletion uses Photos library asset IDs on iOS when available; if identification fails, you will be asked to delete manually for safety."
+          "question": "هل يمكنني حذف النسخ الأصلية من المعرض العام الخاص بي بعد الاستيراد؟",
+          "answer": "نعم. بعد كل عملية استيراد، يمكن لـ Hush Gallery أن يسأل: هل تريد حذف الملفات الأصلية من معرض الصور الخاص بك؟ قم بتمكين الإعدادات → الحذف → الحذف التلقائي لملفات المصدر لتخطي المطالبة. يستخدم الحذف معرفات أصول مكتبة الصور الموجودة على iOS عندما تكون متاحة؛ إذا فشل تحديد الهوية، سيُطلب منك الحذف يدويًا من أجل السلامة."
         },
         {
-          "question": "How do tags work in Hush Gallery?",
-          "answer": "Create custom tags from the tags bar (Manage Tags). Filter the grid with All, Untagged, or any tag. In selection mode, assign tags to multiple items at once. Free users: up to 5 tags. Premium: unlimited tags. Reorder tags in edit mode."
+          "question": "كيف تعمل العلامات في Hush Gallery؟",
+          "answer": "قم بإنشاء علامات مخصصة من شريط العلامات (إدارة العلامات). قم بتصفية الشبكة باستخدام الكل أو بدون علامات أو أي علامة. في وضع التحديد، قم بتعيين العلامات لعناصر متعددة في وقت واحد. المستخدمون المجانيون: ما يصل إلى 5 علامات. Premium: علامات غير محدودة. إعادة ترتيب العلامات في وضع التحرير."
         },
         {
-          "question": "What is the difference between Free and Premium?",
-          "answer": "Free: local private gallery, import/export, up to 5 tags, banner ads. Premium (one-time purchase): remove all ads, unlimited tags, App Lock (PIN/biometric/auto-lock), cloud backup, and future premium features. Watch a rewarded ad for 24 hours ad-free on the free tier."
+          "question": "ما الفرق بين مجاني و Premium؟",
+          "answer": "مجانًا: معرض خاص محلي، استيراد/تصدير، ما يصل إلى 5 علامات، لافتة إعلانية. Premium (شراء لمرة واحدة): إزالة جميع الإعلانات، والعلامات غير المحدودة، وقفل التطبيقات (PIN/البيومترية/القفل التلقائي)، والنسخ الاحتياطي السحابي، وميزات premium المستقبلية. شاهد إعلانًا بمكافأة لمدة 24 ساعة بدون إعلانات على المستوى المجاني."
         },
         {
-          "question": "How do I set up App Lock?",
-          "answer": "Premium required. Go to Settings → Security → App Lock. Set a 4- or 6-digit PIN and optionally enable Face ID / Touch ID / fingerprint. Configure auto-lock timeout (immediately, 1, 5, or 15 minutes). Verified email is required for PIN recovery."
+          "question": "كيف أقوم بإعداد قفل التطبيق؟",
+          "answer": "Premium مطلوب. انتقل إلى الإعدادات → الأمان → قفل التطبيق. قم بتعيين رقم تعريف شخصي مكون من 4 أو 6 أرقام وقم بتمكين Face ID / Touch ID / بصمة الإصبع بشكل اختياري. قم بتكوين مهلة القفل التلقائي (على الفور، 1، 5، أو 15 دقيقة). مطلوب بريد إلكتروني تم التحقق منه لاستعادة رقم التعريف الشخصي."
         },
         {
-          "question": "I forgot my PIN. How do I recover access?",
-          "answer": "On the lock screen tap Forgot PIN. Sign in with the verified email used for recovery, or restore your PIN from an encrypted cloud backup if enabled. Clearing lock settings removes the PIN but does not delete your media."
+          "question": "لقد نسيت رقم التعريف الشخصي الخاص بي. كيف يمكنني استعادة الوصول؟",
+          "answer": "على شاشة القفل، انقر فوق نسيت رقم التعريف الشخصي. قم بتسجيل الدخول باستخدام البريد الإلكتروني الذي تم التحقق منه والمستخدم للاسترداد، أو قم باستعادة رقم التعريف الشخصي (PIN) الخاص بك من نسخة احتياطية سحابية مشفرة إذا تم تمكينه. يؤدي مسح إعدادات القفل إلى إزالة رمز PIN ولكنه لا يحذف الوسائط الخاصة بك."
         },
         {
-          "question": "How does cloud backup work?",
-          "answer": "Premium feature. Settings → Backup → Backup Now or enable Auto Backup. iOS uses iCloud; Android uses Google Drive. Restore on a new device from Settings or during onboarding. Keep the app open during backup/restore."
+          "question": "كيف يعمل النسخ الاحتياطي السحابي؟",
+          "answer": "ميزة Premium. الإعدادات → النسخ الاحتياطي → النسخ الاحتياطي الآن أو تمكين النسخ الاحتياطي التلقائي. iOS يستخدم iCloud؛ Android يستخدم جوجل درايف. قم بالاستعادة على جهاز جديد من الإعدادات أو أثناء الإعداد. أبقِ التطبيق مفتوحًا أثناء النسخ الاحتياطي/الاستعادة."
         },
         {
-          "question": "Is my media encrypted?",
-          "answer": "Media is stored in the app's private directory inaccessible to other apps. Client-side encryption for local files and cloud backup is Coming Soon in Settings. Cloud backup uploads to your own iCloud/Google account when enabled."
+          "question": "هل الوسائط الخاصة بي مشفرة؟",
+          "answer": "يتم تخزين الوسائط في الدليل الخاص بالتطبيق ولا يمكن للتطبيقات الأخرى الوصول إليها. التشفير من جانب العميل للملفات المحلية والنسخ الاحتياطي السحابي سيتوفر قريبًا في الإعدادات. يتم تحميل النسخ الاحتياطي السحابي إلى حساب iCloud/Google الخاص بك عند تمكينه."
         },
         {
-          "question": "Where are my photos stored? Can other apps see them?",
-          "answer": "Imported files live in Hush Gallery's private app storage on your device—not in the public camera roll unless you export them. Other apps cannot browse the vault without your unlock PIN/biometric (Premium)."
+          "question": "أين يتم تخزين الصور الخاصة بي؟ هل يمكن للتطبيقات الأخرى رؤيتها؟",
+          "answer": "توجد الملفات المستوردة في مساحة تخزين التطبيقات الخاصة بـ Hush Gallery على جهازك، وليس في ألبوم الكاميرا العام إلا إذا قمت بتصديرها. لا يمكن للتطبيقات الأخرى تصفح المخزن بدون رقم التعريف الشخصي/المقاييس الحيوية لإلغاء القفل (Premium)."
         },
         {
-          "question": "How do I export photos back to my device gallery?",
-          "answer": "Open a photo/video → Export to Gallery, or select multiple items in selection mode → Export. Metadata is preserved where supported. Move to Gallery exports and optionally removes the copy from Hush Gallery."
+          "question": "كيف يمكنني تصدير الصور مرة أخرى إلى معرض جهازي؟",
+          "answer": "افتح صورة/فيديو → تصدير إلى المعرض، أو حدد عناصر متعددة في وضع التحديد → تصدير. يتم الاحتفاظ بالبيانات التعريفية حيثما تكون مدعومة. انتقل إلى تصدير المعرض وقم بإزالة النسخة اختياريًا من Hush Gallery."
         },
         {
-          "question": "How does swipe-to-delete work?",
-          "answer": "Swipe a thumbnail left to delete. A snackbar appears for 5 seconds with Undo. Confirm deletes permanently from Hush Gallery (not from the public gallery unless you imported with delete-original)."
+          "question": "كيف تعمل خاصية السحب للحذف؟",
+          "answer": "اسحب الصورة المصغرة إلى اليسار لحذفها. يظهر شريط الوجبات الخفيفة لمدة 5 ثوانٍ مع التراجع. قم بتأكيد الحذف نهائيًا من Hush Gallery (ليس من المعرض العام إلا إذا قمت باستيراده باستخدام الحذف الأصلي)."
         },
         {
-          "question": "What languages does Hush Gallery support?",
-          "answer": "12+ languages including English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, and Chinese. Change in Settings → Language."
+          "question": "ما هي اللغات التي يدعمها Hush Gallery؟",
+          "answer": "أكثر من 12 لغة بما في ذلك الإنجليزية والعبرية والعربية والألمانية والإسبانية والفرنسية والإيطالية والبرتغالية والروسية واليابانية والكورية والصينية. التغيير في الإعدادات → اللغة."
         },
         {
-          "question": "What is the first-launch privacy notice?",
-          "answer": "On first open, Hush Gallery shows a privacy notice explaining that media stays on your device and changes can be permanent. Tap Continue after accepting, or Not now to defer (shown again next launch)."
+          "question": "ما هو إشعار الخصوصية عند الإطلاق الأول؟",
+          "answer": "عند الفتح لأول مرة، يعرض Hush Gallery إشعار خصوصية يوضح بقاء الوسائط على جهازك ويمكن أن تكون التغييرات دائمة. اضغط على \"متابعة\" بعد القبول، أو \"ليس الآن\" للتأجيل (يظهر مرة أخرى عند الإطلاق التالي)."
         },
         {
-          "question": "How do I delete my account?",
-          "answer": "Settings → Account → Delete Account. See https://zukiapps.com/hush-gallery/delete-account for step-by-step instructions."
+          "question": "كيف يمكنني حذف حسابي؟",
+          "answer": "الإعدادات → الحساب → حذف الحساب. راجع https://zukiapps.com/hush-gallery/delete-account للحصول على إرشادات خطوة بخطوة."
         },
         {
-          "question": "What happens if I uninstall the app?",
-          "answer": "Local private storage is removed with the app unless you exported files first. If cloud backup was enabled, reinstall, sign in, and use Restore from Backup."
+          "question": "ماذا يحدث إذا قمت بإلغاء تثبيت التطبيق؟",
+          "answer": "تتم إزالة مساحة التخزين الخاصة المحلية مع التطبيق ما لم تقم بتصدير الملفات أولاً. إذا تم تمكين النسخ الاحتياطي السحابي، فأعد التثبيت، وقم بتسجيل الدخول، واستخدم الاستعادة من النسخة الاحتياطية."
         },
         {
-          "question": "Does Hush Gallery show ads?",
-          "answer": "Free tier shows banner ads and occasional interstitials. Premium removes all ads. Free users can watch a rewarded ad for 24 hours without ads."
+          "question": "هل Hush Gallery يعرض الإعلانات؟",
+          "answer": "تعرض الطبقة المجانية إعلانات البانر والإعلانات البينية العرضية. Premium يزيل جميع الإعلانات. يمكن للمستخدمين المجانيين مشاهدة إعلان بمكافأة لمدة 24 ساعة بدون إعلانات."
         },
         {
-          "question": "How do I contact support?",
+          "question": "كيف يمكنني الاتصال بالدعم؟",
           "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/hush-gallery/support. Privacy: https://zukiapps.com/hush-gallery/privacy. Terms: https://zukiapps.com/hush-gallery/terms."
+        },
+        {
+          "question": "هل يستطيع Zuki Apps الوصول إلى صوري؟",
+          "answer": "رقم Hush Gallery يقوم بتخزين الوسائط محليًا على جهازك في مساحة تخزين خاصة للتطبيقات. نحن لا نقوم بتحميل ملفاتك أو الوصول إليها إلا إذا قمت بتمكين النسخ الاحتياطي السحابي بشكل صريح لحساب iCloud أو Google Drive الخاص بك."
+        },
+        {
+          "question": "هل يمكنني استخدام Hush Gallery دون تسجيل الدخول؟",
+          "answer": "نعم. يعمل المعرض والاستيراد والعلامات والتصدير دون اتصال بالإنترنت بدون حساب. تسجيل الدخول مطلوب فقط للنسخ الاحتياطي السحابي واستعادة رقم التعريف الشخصي عبر النسخ الاحتياطي."
+        },
+        {
+          "question": "ما هي المرشحات الكل والمرشحات غير المميزة؟",
+          "answer": "الكل يعرض كل عنصر في قبو الخاص بك. تعرض العناصر غير المميزة فقط العناصر التي لم يتم تعيين علامات مخصصة لها. يتم تصفية شرائح العلامات المخصصة لتسمية واحدة في كل مرة."
+        },
+        {
+          "question": "كيف أقوم بفرز المعرض؟",
+          "answer": "اضغط على أيقونة الفرز (⇅) في شريط تطبيقات المعرض. اختر التاريخ أو حجم الملف أو تاريخ الاستيراد أو الاسم أو نوع الوسائط (الصور مقابل مقاطع الفيديو أولاً)."
+        },
+        {
+          "question": "هل يؤدي الاستيراد إلى إزالة الصور من ألبوم الكاميرا؟",
+          "answer": "افتراضيًا، قم باستيراد ملفات النسخ إلى Hush Gallery؛ تبقى النسخ الأصلية في الصور ما لم تختر حذف النسخة الأصلية عند عرضها أو تقوم بإزالتها بنفسك."
+        },
+        {
+          "question": "هل النسخ الاحتياطي السحابي مطلوب؟",
+          "answer": "لا، النسخ الاحتياطي اختياري. يعمل مخزنك بالكامل على الجهاز بدون نسخة احتياطية أو حساب."
+        },
+        {
+          "question": "ما هو مدرج في النسخة الاحتياطية؟",
+          "answer": "يتضمن النسخ الاحتياطي ملفات الوسائط وبيانات التعريف مثل العلامات. يعتمد سلوك النظام الأساسي على iCloud (iOS) أو Google Drive (Android) وحسابك الذي قمت بتسجيل الدخول إليه."
+        },
+        {
+          "question": "كيف يمكنني استعادة عملية شراء Premium؟",
+          "answer": "افتح Premium → استعادة المشتريات. استخدم نفس معرف Apple أو حساب Google Play المستخدم في عملية الشراء الأصلية."
+        },
+        {
+          "question": "لماذا يطلب التطبيق رقم التعريف الشخصي الخاص بي عندما أعود؟",
+          "answer": "تتم إعادة قفل التطبيق عند خلفية التطبيق أو بعد انتهاء مهلة القفل التلقائي التي اخترتها. وهذا يمنع الوصول غير المصرح به إلى قبو الخاص بك."
+        },
+        {
+          "question": "الصور المصغرة تبدو فارغة أو مكسورة - ماذا علي أن أفعل؟",
+          "answer": "فرض الإنهاء وإعادة الفتح Hush Gallery. إذا تم نقل الملفات خارج التطبيق، فقد تكون البيانات التعريفية قديمة — أعد استيراد الوسائط إذا لزم الأمر."
+        },
+        {
+          "question": "فشل النسخ الاحتياطي — كيف يمكنني إصلاحه؟",
+          "answer": "تحقق من شبكة Wi‑Fi أو البيانات الخلوية، وتأكد من تسجيل الدخول، وتحقق من مساحة التخزين السحابية، وتأكد من أهلية Premium/النسخ الاحتياطي لحسابك."
+        },
+        {
+          "question": "لم يظهر استيراد ملحق المشاركة",
+          "answer": "افتح Hush Gallery يدويًا؛ يتم تشغيل واردات الأسهم المعلقة عند الإطلاق. أعد محاولة المشاركة من الصور إذا أبلغت ورقة المشاركة عن خطأ."
         }
       ]
     },
@@ -539,7 +588,9 @@
           "question": "ماذا يحدث لصوري إذا قمت بإلغاء تثبيت التطبيق؟",
           "answer": "إذا قمت بإلغاء تثبيت التطبيق دون حذف حسابك أولاً، سيتم حذف بياناتك المحلية. إذا كان لديك نسخ احتياطي سحابي مفعّل، يمكنك استعادة بياناتك عن طريق إعادة تثبيت التطبيق وتسجيل الدخول بنفس الحساب. نوصي بتصدير الصور المهمة قبل إلغاء التثبيت إذا لم يكن لديك نسخ احتياطي سحابي مفعّل."
         }
-      }
+      },
+      "metaTitle": "الدعم والمساعدة — Hush Gallery | Zuki Apps",
+      "metaDescription": "Hush Gallery FAQ والدعم — معرض خاص للصور والفيديو. الاتصال والخصوصية واستكشاف الأخطاء وإصلاحها."
     },
     "tips": {
       "title": "Tips & tricks",

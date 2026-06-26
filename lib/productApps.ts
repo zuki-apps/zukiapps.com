@@ -11,7 +11,8 @@ export type ProductAppSlug =
   | 'zulist'
   | 'hush-gallery'
   | 'whistle-camera'
-  | 'collagio';
+  | 'collagio'
+  | 'football-trivia';
 
 export type ProductAppNamespace =
   | 'bitScope'
@@ -25,7 +26,8 @@ export type ProductAppNamespace =
   | 'zulist'
   | 'hushGallery'
   | 'whistleCamera'
-  | 'collagio';
+  | 'collagio'
+  | 'footballTrivia';
 
 export type ProductAppConfig = {
   slug: ProductAppSlug;
@@ -68,6 +70,16 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'collagio-faq-ld',
     howToId: 'collagio-howto-ld',
     accent: 'rose',
+    hasSupportPage: true,
+  },
+  'football-trivia': {
+    slug: 'football-trivia',
+    namespace: 'footballTrivia',
+    appPath: '/football-trivia',
+    applicationCategory: 'GameApplication',
+    faqId: 'football-trivia-faq-ld',
+    howToId: 'football-trivia-howto-ld',
+    accent: 'sky',
     hasSupportPage: true,
   },
   'bit-scope': {

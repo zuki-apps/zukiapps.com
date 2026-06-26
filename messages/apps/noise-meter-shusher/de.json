@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Datenschutzrichtlinie für Noise Meter – Shusher – Dezibel- und Lärmbewertungs-App. Wie Mikrofon-Audio, lokaler Verlauf, Anzeigen und Analysen gehandhabt werden."
     },
     "footer": {
       "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
@@ -294,6 +295,58 @@
           "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
         }
       ]
+    },
+    "support": {
+      "title": "Support & Hilfe",
+      "subtitle": "Wir sind hier, um zu helfen! Finden Sie Antworten zum Thema Lärmmessgerät – Shusher oder kontaktieren Sie uns direkt.",
+      "metaTitle": "Support und Hilfe – Lärmmessgerät – Shusher | Zuki Apps",
+      "metaDescription": "Erhalten Sie Hilfe zum Geräuschmesser – Shusher – Dezibelwerte, Shusher-Warnungen, Berechtigungen, Premium und Fehlerbehebung.",
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Haben Sie eine Frage oder benötigen Sie Hilfe? Senden Sie uns eine E-Mail und wir werden uns so schnell wie möglich bei Ihnen melden."
+      },
+      "quickLinks": {
+        "title": "Quicklinks",
+        "privacy": {
+          "title": "Datenschutzrichtlinie",
+          "description": "Erfahren Sie, wie wir Ihre Daten schützen"
+        },
+        "terms": {
+          "title": "Nutzungsbedingungen",
+          "description": "Lesen Sie unsere Allgemeinen Geschäftsbedingungen"
+        }
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "q1": {
+          "question": "Was ist Lärmmessgerät – Shusher?",
+          "answer": "Eine mobile App, die mithilfe des Mikrofons Ihres Telefons den Umgebungsgeräuschpegel schätzt, zeitgesteuerte Messsitzungen durchführt, die Umgebung bewertet, den Verlauf auf dem Gerät speichert und Sie optional in der App benachrichtigt, wenn der Lärm einen Schwellenwert überschreitet (Shusher)."
+        },
+        "q2": {
+          "question": "Ist es kostenlos?",
+          "answer": "Ja. Kernmessung, Sitzungen, Shusher und begrenzter Verlauf sind kostenlos. Premium ist ein einmaliges Upgrade für Diagramme, CSV Export, längere Sitzungen, Themen, mehr Verlauf und keine Werbung."
+        },
+        "q3": {
+          "question": "iPhone oder Android?",
+          "answer": "Beide. Bundle-ID: „com.zuki.apps.noisemeter“."
+        },
+        "q4": {
+          "question": "Welche Sprachen werden unterstützt?",
+          "answer": "12 Sprachen, darunter Englisch, Hebräisch, Arabisch, Französisch, Deutsch, Italienisch, Japanisch, Koreanisch, Chinesisch, Portugiesisch, Russisch und Spanisch. Ändern Sie die Sprache in den Einstellungen."
+        },
+        "q5": {
+          "question": "Wie genau ist die Dezibel-Anzeige?",
+          "answer": "Dabei handelt es sich um einen ungefähren Wert, der auf der Hardware von Verbrauchertelefonen basiert. Position, Gehäuse, Wind und Gerätemodell beeinflussen alle die Ergebnisse. Nicht für professionelle Schalldruckpegel, OSHA oder die Durchsetzung gesetzlicher Lärmschutzbestimmungen kalibriert."
+        },
+        "q6": {
+          "question": "Warum unterscheidet sich mein Messwert von einem echten Schallmessgerät?",
+          "answer": "Professionelle Messgeräte verwenden kalibrierte Mikrofone und spezifische Messstandards. Telefone sind auf Sprache abgestimmt und variieren je nach Hersteller."
+        }
+      },
+      "additionalHelp": {
+        "title": "Benötigen Sie weitere Hilfe?",
+        "description": "Wenn Sie die gesuchte Antwort nicht finden konnten oder ein technisches Problem auftritt, zögern Sie bitte nicht, uns zu kontaktieren. Wir sind für Sie da und antworten in der Regel innerhalb von 24–48 Stunden."
+      }
     }
   }
 }

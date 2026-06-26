@@ -31,7 +31,7 @@ export default function DeleteAccountPage() {
 
         <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12">
           <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-blue-600">
-            <h1 className="text-4xl font-bold text-blue-600">ZuList</h1>
+            <h1 className="text-4xl font-bold text-blue-600">{tApp('title')}</h1>
             <Link
               href={`/${locale}/zulist`}
               className="px-4 py-2 border-2 border-blue-600 bg-white text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition-colors text-sm"
@@ -40,7 +40,7 @@ export default function DeleteAccountPage() {
             </Link>
           </div>
 
-          <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+          <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
             <h1 className="text-3xl font-bold text-gray-900 mb-6">
               {t('title')}
             </h1>
@@ -64,7 +64,7 @@ export default function DeleteAccountPage() {
                 {t('steps.title')}
               </h2>
               <div className="bg-gray-50 rounded-lg p-6">
-                <ol className={`space-y-4 ${locale === 'he' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
+                <ol className={`space-y-4 ${locale === 'he' || locale === 'ar' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
                   <li className="text-gray-700">{t('steps.step1')}</li>
                   <li className="text-gray-700">{t('steps.step2')}</li>
                   <li className="text-gray-700">{t('steps.step3')}</li>
@@ -81,7 +81,7 @@ export default function DeleteAccountPage() {
               </h2>
               <div className="bg-blue-50 rounded-lg p-6">
                 <p className="text-gray-700 mb-4">{t('data.intro')}</p>
-                <ul className={`space-y-2 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                <ul className={`space-y-2 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                   <li className="text-gray-700">{t('data.item1')}</li>
                   <li className="text-gray-700">{t('data.item2')}</li>
                   <li className="text-gray-700">{t('data.item3')}</li>
@@ -100,14 +100,14 @@ export default function DeleteAccountPage() {
               <div className="space-y-4">
                 <div>
                   <p className="font-semibold text-gray-900 mb-2">{t('sharedLists.owner.title')}</p>
-                  <ul className={`space-y-2 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-2 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('sharedLists.owner.item1')}</li>
                     <li>{t('sharedLists.owner.item2')}</li>
                   </ul>
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 mb-2">{t('sharedLists.member.title')}</p>
-                  <ul className={`space-y-2 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                  <ul className={`space-y-2 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                     <li>{t('sharedLists.member.item1')}</li>
                     <li>{t('sharedLists.member.item2')}</li>
                     <li>{t('sharedLists.member.item3')}</li>
@@ -121,7 +121,7 @@ export default function DeleteAccountPage() {
                 {t('partialDelete.title')}
               </h2>
               <p className="text-gray-700 mb-4">{t('partialDelete.intro')}</p>
-              <ul className={`space-y-2 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+              <ul className={`space-y-2 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                 <li>{t('partialDelete.item1')}</li>
                 <li>{t('partialDelete.item2')}</li>
                 <li>{t('partialDelete.item3')}</li>

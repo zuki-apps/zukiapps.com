@@ -117,7 +117,8 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Política de privacidade para Track Ledger — aplicativo de registro de trilhas GPS/GNSS. Como são tratados os dados de localização, exportações e análises opcionais."
     },
     "footer": {
       "copyright": "© 2026 Track Ledger - All rights reserved",
@@ -283,6 +284,58 @@
           "description": "Need background logging while using camera or notes apps - Export to GPX or GeoJSON regularly - Want auto-stop at a fixed distance or duration - Record more than 10 completed tracks One-time purchase — no subscription."
         }
       ]
+    },
+    "support": {
+      "title": "Suporte e Ajuda",
+      "subtitle": "Estamos aqui para ajudar! Encontre respostas sobre o Track Ledger ou entre em contato conosco diretamente.",
+      "metaTitle": "Suporte e Ajuda — Rastrear Ledger | Zuki Apps",
+      "metaDescription": "Obtenha ajuda com Track Ledger — gravação GPS/GNSS, exportações, formatos Premium, permissões de localização e limites de razão.",
+      "contact": {
+        "title": "Contate-nos",
+        "description": "Tem alguma dúvida ou precisa de ajuda? Envie-nos um e-mail e entraremos em contato com você o mais breve possível."
+      },
+      "quickLinks": {
+        "title": "Links rápidos",
+        "privacy": {
+          "title": "política de Privacidade",
+          "description": "Saiba como protegemos seus dados"
+        },
+        "terms": {
+          "title": "Termos de Serviço",
+          "description": "Leia nossos termos e condições"
+        }
+      },
+      "faq": {
+        "title": "Perguntas frequentes",
+        "q1": {
+          "question": "O que é o Track Ledger?",
+          "answer": "Um track logger simples GPS / GNSS focado na exportação de dados e uso em campo. Ele registra seu caminho como pontos brutos com amostragem opcional baseada em tempo ou distância."
+        },
+        "q2": {
+          "question": "É um aplicativo de fitness ou social?",
+          "answer": "Não. Não há tabelas de classificação, treinos ou feeds sociais. Ele foi desenvolvido para pessoas que precisam de registros de localização confiáveis ​​e exportações de arquivos."
+        },
+        "q3": {
+          "question": "Eu preciso de uma conta?",
+          "answer": "Não. Tudo é armazenado localmente no seu dispositivo."
+        },
+        "q4": {
+          "question": "Funciona off-line?",
+          "answer": "Sim. A gravação e visualização de faixas salvas funcionam sem internet. A guia Mapa precisa de rede para carregar blocos do OpenStreetMap."
+        },
+        "q5": {
+          "question": "Quando o aplicativo usa minha localização?",
+          "answer": "Somente enquanto você tiver uma gravação ativa (e opcionalmente em segundo plano se você tiver Premium e gravação em segundo plano ativados)."
+        },
+        "q6": {
+          "question": "Por que a gravação foi pausada quando troquei de aplicativo?",
+          "answer": "No plano gratuito, novos GPS pontos são registrados apenas enquanto o Track Ledger está em primeiro plano. Premium com a gravação em segundo plano ativada, continua registrando quando você sai do aplicativo."
+        }
+      },
+      "additionalHelp": {
+        "title": "Precisa de mais ajuda?",
+        "description": "Se você não encontrou a resposta que procura ou se está enfrentando um problema técnico, não hesite em nos contatar. Estamos aqui para ajudar e normalmente respondemos dentro de 24 a 48 horas."
+      }
     }
   }
 }

@@ -22,8 +22,7 @@ export async function generateMetadata({
 
   return {
     title: `${t('title')} — Paratrooper Blitz | Zuki Apps`,
-    description:
-      'Privacy Policy for Paratrooper Blitz — arcade game. How gameplay data, ads, Firebase, and platform game services are handled.',
+    description: t('metaDescription'),
     robots: {
       index: true,
       follow: true,

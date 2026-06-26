@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "support@zukiapps.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Datenschutzrichtlinie für Paratrooper Blitz – Arcade-Spiel. Wie mit Spieldaten, Anzeigen, Firebase und Plattformspieldiensten umgegangen wird."
     },
     "footer": {
       "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
@@ -278,6 +279,59 @@
           "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
         }
       ]
+    },
+    "support": {
+      "title": "Support & Hilfe",
+      "subtitle": "Wir sind hier, um zu helfen! Finden Sie Antworten auf häufige Fragen oder kontaktieren Sie Zuki Apps zum Thema Paratrooper Blitz.",
+      "metaTitle": "Support & Hilfe – Paratrooper Blitz | Zuki Apps",
+      "metaDescription": "Erhalten Sie Hilfe bei Paratrooper Blitz – Offline-Spiel, Arcade vs. Classic, Punktestände, Bestenlisten, Erfolge und Werbung entfernen.",
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Haben Sie eine Frage oder benötigen Sie Hilfe? Senden Sie uns eine E-Mail und wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "email": "support@zukiapps.com"
+      },
+      "quickLinks": {
+        "title": "Quicklinks",
+        "privacy": {
+          "title": "Datenschutzrichtlinie",
+          "description": "Erfahren Sie, wie wir Ihre Daten schützen"
+        },
+        "terms": {
+          "title": "Nutzungsbedingungen",
+          "description": "Lesen Sie unsere Allgemeinen Geschäftsbedingungen"
+        }
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "q1": {
+          "question": "Ist Paratrooper Blitz kostenlos?",
+          "answer": "Ja. Das Spiel kann kostenlos heruntergeladen und gespielt werden. Durch den optionalen einmaligen Kauf von „Remove Ads“ werden Banner- und Interstitial-Anzeigen entfernt."
+        },
+        "q2": {
+          "question": "Für welches Alter ist das Spiel geeignet?",
+          "answer": "Bewertet als Teenager (13+). Leichte Arcade-Action im Militärstil – kein Blut, kein Chat, keine benutzergenerierten Inhalte."
+        },
+        "q3": {
+          "question": "Funktioniert es offline?",
+          "answer": "Das Kern-Gameplay funktioniert offline. Bestenlisten, Erfolge, Anzeigen und Käufe erfordern Netzwerk- und Store-Dienste."
+        },
+        "q4": {
+          "question": "Welche Sprachen werden unterstützt?",
+          "answer": "Englisch, Arabisch, Deutsch, Spanisch, Französisch, Hebräisch, Italienisch, Japanisch, Koreanisch, Portugiesisch, Russisch und Chinesisch (vereinfacht). Änderung in den Einstellungen."
+        },
+        "q5": {
+          "question": "Was ist der Unterschied zwischen Arcade und Classic?",
+          "answer": "Arcade: nach links/rechts schieben, hochschießen. Klassisch: Turm um 360° drehen und manuell zielen."
+        },
+        "q6": {
+          "question": "Wie verliere ich?",
+          "answer": "Vier Fallschirmspringer landen auf derselben Seite Ihres Turms, oder eine Bombe schlägt auf dem Boden ein."
+        }
+      },
+      "additionalHelp": {
+        "title": "Benötigen Sie weitere Hilfe?",
+        "description": "Wenn Sie die gesuchte Antwort nicht finden konnten oder ein technisches Problem auftritt, zögern Sie bitte nicht, uns zu kontaktieren. Wir sind für Sie da und antworten in der Regel innerhalb von 24–48 Stunden."
+      }
     }
   }
 }

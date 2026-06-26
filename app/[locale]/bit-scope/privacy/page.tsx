@@ -18,11 +18,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'bitScope.privacy' });
+
   return {
-    title: 'Privacy Policy - Bit Scope | Zuki Apps',
-    description: 'Privacy Policy for Bit Scope - Bit-level calculator and number converter application. Learn how we collect, use, and protect your data.',
+    title: `${t('title')} — Bit Scope | Zuki Apps`,
+    description: t('metaDescription'),
     robots: {
       index: true,
       follow: true,
@@ -74,7 +74,7 @@ export default async function BitScopePrivacyPage({
 
           <div className="bg-cyan-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-cyan-600">
-              <h1 className="text-4xl font-bold text-cyan-600">Bit Scope</h1>
+              <h1 className="text-4xl font-bold text-cyan-600">{tApp('title')}</h1>
               <div className="flex gap-2">
                 <Link
                   href={`/${locale}/bit-scope`}
@@ -85,7 +85,7 @@ export default async function BitScopePrivacyPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
@@ -160,12 +160,12 @@ export default async function BitScopePrivacyPage({
                     {t('section8.address')}
                   </p>
                   <p className="text-gray-700 text-sm">
-                    {locale === 'he' ? '📄 ' : '📄 '}
+                    {locale === 'he' || locale === 'ar' ? '📄 ' : '📄 '}
                     <Link
                       href={`/${locale}/bit-scope/terms`}
                       className="text-cyan-600 hover:underline"
                     >
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                     </Link>
                   </p>
                 </section>

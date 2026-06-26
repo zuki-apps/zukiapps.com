@@ -33,8 +33,7 @@ export async function generateMetadata({
 
   return {
     title: `${t('title')} — ToldYa! | Zuki Apps`,
-    description:
-      'ToldYa! published child safety standards against CSAE — zero tolerance, in-app reporting, moderation, legal compliance, and designated contact.',
+    description: t('metaDescription'),
     robots: { index: true, follow: true },
     alternates: {
       canonical: buildCanonical(locale, '/toldya/child-safety'),

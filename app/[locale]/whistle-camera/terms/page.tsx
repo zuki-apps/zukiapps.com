@@ -22,7 +22,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'whistleCamera.terms' });
   
   const title = `${t('title')} - Whistle Camera | Zuki Apps`;
-  const description = locale === 'he' 
+  const description = locale === 'he' || locale === 'ar' 
     ? 'תנאי השימוש של Whistle Camera - אפליקציית מצלמה חכמה. קרא את התנאים וההגבלות לשימוש באפליקציה.'
     : 'Terms of Service for Whistle Camera - Smart camera application. Read the terms and conditions for using the app.';
   
@@ -84,7 +84,7 @@ export default async function WhistleCameraTermsPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
@@ -118,7 +118,7 @@ export default async function WhistleCameraTermsPage({
                   <p className="text-gray-700 leading-relaxed mb-4">
                     {t('section2.content')}
                   </p>
-                  <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
+                  <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 space-y-2`}>
                     {t.raw('section2.items').map((item: string, i: number) => (
                       <li key={i} className="text-gray-700">{item}</li>
                     ))}
@@ -146,12 +146,12 @@ export default async function WhistleCameraTermsPage({
                     {t('section19.address')}
                   </p>
                   <p className="text-gray-700 text-sm">
-                    {locale === 'he' ? '🔒 ' : '🔒 '}
+                    {locale === 'he' || locale === 'ar' ? '🔒 ' : '🔒 '}
                     <Link
                       href={`/${locale}/whistle-camera/privacy`}
                       className="text-amber-600 hover:underline"
                     >
-                      {locale === 'he' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את מדיניות הפרטיות' : 'Read the Privacy Policy'}
                     </Link>
                   </p>
                 </section>

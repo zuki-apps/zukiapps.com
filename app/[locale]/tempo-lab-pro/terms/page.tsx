@@ -76,7 +76,7 @@ export default async function TempoLabProTermsPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
@@ -110,7 +110,7 @@ export default async function TempoLabProTermsPage({
                   <p className="text-gray-700 leading-relaxed mb-4">
                     {t('section2.content')}
                   </p>
-                  <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} space-y-2 text-gray-700`}>
+                  <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} space-y-2 text-gray-700`}>
                     {t.raw('section2.items').map((item: string, i: number) => (
                       <li key={i}>{item}</li>
                     ))}

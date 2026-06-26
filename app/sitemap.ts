@@ -24,6 +24,7 @@ import {
  */
 const routes: SitemapRouteMeta[] = [
   { path: '', priority: 1.0, changefreq: 'weekly' },
+  { path: '/about', priority: 0.7, changefreq: 'monthly' },
   { path: '/zulist', priority: 0.9, changefreq: 'weekly' },
   { path: '/zulist/support', priority: 0.7, changefreq: 'monthly' },
   { path: '/zulist/privacy', priority: 0.5, changefreq: 'monthly' },

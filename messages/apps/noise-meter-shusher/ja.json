@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Noise Meter — Shusher — デシベルおよび騒音スコアリング アプリのプライバシー ポリシー。マイク音声、ローカル履歴、広告、分析がどのように処理されるか。"
     },
     "footer": {
       "copyright": "© 2026 Noise Meter — Shusher - All rights reserved",
@@ -294,6 +295,58 @@
           "description": "Consider Premium if you: - Export CSV for a landlord, school, or internal report - Need session charts to see spikes during a meeting - Want longer samples and no ads during repeated daily checks One-time purchase—no subscription. ---"
         }
       ]
+    },
+    "support": {
+      "title": "サポートとヘルプ",
+      "subtitle": "私たちがお手伝いします！騒音計 — Shusher に関する回答を見つけるか、直接お問い合わせください。",
+      "metaTitle": "サポートとヘルプ — 騒音計 — Shusher | Zuki Apps",
+      "metaDescription": "騒音計 — Shusher — デシベル測定値、Shusher アラート、権限、Premium、およびトラブルシューティングに関するヘルプを入手します。",
+      "contact": {
+        "title": "お問い合わせ",
+        "description": "ご質問がありますか、サポートが必要ですか?メールをお送りください。できるだけ早くご連絡いたします。"
+      },
+      "quickLinks": {
+        "title": "クイックリンク",
+        "privacy": {
+          "title": "プライバシーポリシー",
+          "description": "データをどのように保護するかをご覧ください"
+        },
+        "terms": {
+          "title": "利用規約",
+          "description": "利用規約をお読みください"
+        }
+      },
+      "faq": {
+        "title": "よくある質問",
+        "q1": {
+          "question": "騒音計Shusherとは何ですか？",
+          "answer": "携帯電話のマイクを使用して周囲の騒音レベルを推定し、時間指定の測定セッションを実行し、環境をスコア化し、デバイスに履歴を保存し、オプションで騒音がしきい値を超えたときにアプリ内で警告を発するモバイル アプリ (Shusher)。"
+        },
+        "q2": {
+          "question": "無料ですか？",
+          "answer": "はい。コアメータリング、セッション、Shusher、限定された履歴は無料です。 Premium はチャートの 1 回限りのアップグレード、CSV のエクスポート、より長いセッション、テーマ、より多くの履歴、および広告なしです。"
+        },
+        "q3": {
+          "question": "iPhone それともAndroid?",
+          "answer": "両方。バンドル ID: `com.zuki.apps.noisemeter`。"
+        },
+        "q4": {
+          "question": "どの言語がサポートされていますか?",
+          "answer": "英語、ヘブライ語、アラビア語、フランス語、ドイツ語、イタリア語、日本語、韓国語、中国語、ポルトガル語、ロシア語、スペイン語を含む 12 のロケール。設定で言語を変更します。"
+        },
+        "q5": {
+          "question": "デシベルの測定値はどのくらい正確ですか?",
+          "answer": "これは、消費者向け電話ハードウェアに基づいたおおよそのレベルです。位置、ケース、風、デバイスのモデルはすべて結果に影響します。専門的な SPL、OSHA、または法的騒音規制の執行向けに校正されていません。"
+        },
+        "q6": {
+          "question": "私の測定値が実際の騒音計と異なるのはなぜですか?",
+          "answer": "プロフェッショナル向けメーターは、校正されたマイクと特定の測定基準を使用します。電話機は音声向けに調整されており、メーカーによって異なります。"
+        }
+      },
+      "additionalHelp": {
+        "title": "さらにサポートが必要ですか?",
+        "description": "探している答えが見つからない場合、または技術的な問題が発生した場合は、お気軽にお問い合わせください。通常 24 ～ 48 時間以内に対応させていただきます。"
+      }
     }
   }
 }

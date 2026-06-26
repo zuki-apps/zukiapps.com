@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
-import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import { buildProductPageMetadata } from '@/lib/productSeo';
 import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
 
 export async function generateMetadata({
@@ -15,71 +15,13 @@ export async function generateMetadata({
     return {};
   }
 
-  const baseUrl = getSiteUrl();
   const t = await getTranslations({ locale, namespace: 'sudokuPuzzle' });
-  
-  const title = `${t('hero.title')} | Zuki Apps`;
-  const description = t('hero.structuredDataDescription');
-  const logoUrl = `${baseUrl}/images/sudoku-puzzle-icon.png`;
-  
-  return {
-    title,
-    description,
-    keywords: [
-      'Sudoku Fun Go',
-      'Sudoku Puzzle',
-      'sudoku game',
-      '9x9 sudoku',
-      'classic sudoku',
-      'sudoku app',
-      'sudoku iOS',
-      'sudoku Android',
-      'puzzle game',
-      'number puzzle',
-      'brain game',
-      'sudoku with hints',
-      'sudoku difficulty levels',
-      'sudoku timer',
-      'sudoku statistics',
-      'Game Center sudoku',
-      'Play Games sudoku',
-      'offline sudoku',
-      'free sudoku app',
-      'Zuki Apps sudoku',
-      'zuki',
-    ],
-    alternates: {
-      canonical: buildCanonical(locale, '/sudoku-puzzle'),
-      languages: buildLanguageAlternates('/sudoku-puzzle'),
-    },
-    openGraph: {
-      type: 'website',
-      locale: openGraphLocale(locale),
-      url: buildCanonical(locale, '/sudoku-puzzle'),
-      siteName: 'Zuki Apps',
-      title,
-      description,
-      images: [{ url: logoUrl, width: 535, height: 535, alt: 'Sudoku Fun Go app icon' }],
-    },
-    twitter: {
-      card: 'summary',
-      title,
-      description,
-      creator: '@zuki_apps',
-      site: '@zuki_apps',
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
-  };
+
+  return buildProductPageMetadata({
+    locale,
+    appPath: '/sudoku-puzzle',
+    t,
+  });
 }
 
 export default async function SudokuPuzzleLayout({

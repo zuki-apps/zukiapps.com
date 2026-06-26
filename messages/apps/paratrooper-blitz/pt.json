@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "support@zukiapps.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Política de privacidade do Paratrooper Blitz — jogo de arcade. Como os dados de jogo, anúncios, Firebase e serviços de jogos de plataforma são tratados."
     },
     "footer": {
       "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
@@ -278,6 +279,59 @@
           "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
         }
       ]
+    },
+    "support": {
+      "title": "Suporte e Ajuda",
+      "subtitle": "Estamos aqui para ajudar! Encontre respostas para perguntas comuns ou entre em contato com Zuki Apps sobre Paratrooper Blitz.",
+      "metaTitle": "Suporte e Ajuda — Blitz Paraquedista | Zuki Apps",
+      "metaDescription": "Obtenha ajuda com Paratrooper Blitz – jogo offline, Arcade vs Classic, pontuações, tabelas de classificação, conquistas e remoção de anúncios.",
+      "contact": {
+        "title": "Contate-nos",
+        "description": "Tem alguma dúvida ou precisa de ajuda? Envie-nos um e-mail e entraremos em contato com você o mais breve possível.",
+        "email": "support@zukiapps.com"
+      },
+      "quickLinks": {
+        "title": "Links rápidos",
+        "privacy": {
+          "title": "política de Privacidade",
+          "description": "Saiba como protegemos seus dados"
+        },
+        "terms": {
+          "title": "Termos de Serviço",
+          "description": "Leia nossos termos e condições"
+        }
+      },
+      "faq": {
+        "title": "Perguntas frequentes",
+        "q1": {
+          "question": "O Paraquedista Blitz é gratuito?",
+          "answer": "Sim. O jogo é gratuito para baixar e jogar. A compra única opcional de Remover Anúncios remove banners e anúncios intersticiais."
+        },
+        "q2": {
+          "question": "Para que idade é o jogo?",
+          "answer": "Classificado como adolescente (13+). Ação arcade moderada de estilo militar – sem sangue, sem bate-papo, sem conteúdo gerado pelo usuário."
+        },
+        "q3": {
+          "question": "Funciona off-line?",
+          "answer": "A jogabilidade principal funciona offline. Placares, conquistas, anúncios e compras precisam de serviços de rede e de loja."
+        },
+        "q4": {
+          "question": "Quais idiomas são suportados?",
+          "answer": "Inglês, árabe, alemão, espanhol, francês, hebraico, italiano, japonês, coreano, português, russo e chinês (simplificado). Mudança nas configurações."
+        },
+        "q5": {
+          "question": "Qual é a diferença entre Arcade e Clássico?",
+          "answer": "Arcade: deslize para a esquerda/direita, atire. Clássico: gire a torre 360° e mire manualmente."
+        },
+        "q6": {
+          "question": "Como posso perder?",
+          "answer": "Quatro pára-quedistas pousam no **mesmo lado** da sua torre ou uma bomba atinge o solo."
+        }
+      },
+      "additionalHelp": {
+        "title": "Precisa de mais ajuda?",
+        "description": "Se você não encontrou a resposta que procura ou se está enfrentando um problema técnico, não hesite em nos contatar. Estamos aqui para ajudar e normalmente respondemos dentro de 24 a 48 horas."
+      }
     }
   }
 }

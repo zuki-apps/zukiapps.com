@@ -3,39 +3,42 @@
     "back": "Back to Home",
     "hero": {
       "title": "Football Trivia Master",
-      "subtitle": "210+ questions • World Football, National Teams, World Cups, 2026 World Cup",
-      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps."
+      "subtitle": "450+ timed questions · 4 categories · 12 languages",
+      "description": "Know the game. Prove it. Fast-paced football quiz with streaks, timers, and global leaderboards — clubs, national teams, legendary finals, and major tournaments.",
+      "seoTitle": "Football Trivia — Soccer Quiz Game | Zuki Apps",
+      "metaDescription": "450+ timed football quiz questions, streaks & leaderboards. Free on iOS & Android — download now.",
+      "structuredDataDescription": "Football Trivia Master — soccer quiz for iOS and Android with 450+ timed questions across World Football, National Teams, Global Finals, and Tournament Spotlight. Package com.zuki.apps.footballtrivia by Zuki Apps.",
+      "badge": "Free football quiz · iOS & Android",
+      "trustLine": "Independent entertainment by Zuki Apps. Not affiliated with any league, federation, club, or tournament organizer."
     },
     "features": {
       "title": "Key Features",
-      "categories": {
-        "title": "4 Categories",
-        "description": "210+ questions across four themes",
-        "items": [
-          "World Football",
-          "National Teams",
-          "World Cups",
-          "2026 World Cup"
-        ]
-      },
-      "difficulty": {
-        "title": "Difficulty Levels",
-        "description": "Easy, Medium, and Hard questions",
-        "items": [
-          "Easy",
-          "Medium",
-          "Hard"
-        ]
-      },
-      "stats": {
-        "title": "Statistics & Score",
-        "description": "Track your progress and compete",
-        "items": [
-          "Best scores and streaks",
-          "Accuracy tracking",
-          "Points with streak bonuses"
-        ]
-      }
+      "items": [
+        {
+          "title": "Four themed categories",
+          "description": "World Football, National Teams, Global Finals, and Tournament Spotlight."
+        },
+        {
+          "title": "Race the clock",
+          "description": "Timed questions with Easy (20s), Medium (15s), or Hard (12s). Enable Hard Mode for 12s every round."
+        },
+        {
+          "title": "Streaks & scoring",
+          "description": "Chain correct answers for up to +50% streak bonus and a big perfect-round bonus for 10/10."
+        },
+        {
+          "title": "Compete globally",
+          "description": "Game Center (iOS) and Play Games (Android) for achievements and leaderboards."
+        },
+        {
+          "title": "12 languages",
+          "description": "Arabic, Chinese, English, French, German, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, Spanish."
+        },
+        {
+          "title": "Play your way",
+          "description": "Dark or light theme, detailed stats, optional one-time ad removal, GDPR consent in Settings."
+        }
+      ]
     },
     "status": {
       "title": "Available on App Store and Google Play",
@@ -43,13 +46,13 @@
       "statusValue": "iOS · Android",
       "version": "Version",
       "status": "Platform",
-      "versionValue": "1.0.4+13"
+      "versionValue": "1.0.8"
     },
     "download": {
       "title": "Download",
       "description": "Get Football Trivia Master on the App Store and Google Play.",
       "soon": "Available now",
-      "appStoreUrl": "https://apps.apple.com/il/app/football-trivia-master/id6760652362",
+      "appStoreUrl": "https://apps.apple.com/app/id6760652362",
       "appStoreAlt": "Download on the App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.footballtrivia",
       "googlePlayAlt": "Get it on Google Play"
@@ -62,7 +65,7 @@
       }
     },
     "footer": {
-      "copyright": "© 2026 Football Trivia Master - All rights reserved",
+      "copyright": "© 2026 Zuki Apps. All rights reserved.",
       "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
     },
     "terms": {
@@ -112,7 +115,8 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Football Trivia privacy policy — how we handle your data on iOS and Android."
     },
     "support": {
       "title": "Support & Help",
@@ -136,7 +140,223 @@
       "additionalHelp": {
         "title": "Need More Help?",
         "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
-      }
+      },
+      "metaTitle": "Support & Help — Football Trivia | Zuki Apps",
+      "metaDescription": "Football Trivia FAQ and support — football quiz game. Contact, privacy, and troubleshooting."
+    },
+    "howToUse": {
+      "title": "How to play",
+      "subtitle": "A full round takes about 3–5 minutes. No account required — sign in only for leaderboards.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Tap Start Game",
+          "description": "From the home screen. Optionally toggle Hard Mode for 12 seconds per question."
+        },
+        {
+          "number": "2",
+          "title": "Pick a category",
+          "description": "All Categories for a mix, or focus on one of four themed pools."
+        },
+        {
+          "number": "3",
+          "title": "Answer 10 questions",
+          "description": "Tap one of four options before the timer runs out. Correct answers build your streak."
+        },
+        {
+          "number": "4",
+          "title": "Review your results",
+          "description": "See score breakdown, accuracy, and any achievements unlocked."
+        },
+        {
+          "number": "5",
+          "title": "Climb the leaderboard",
+          "description": "Sign in via Play Games or Game Center, then open Leaderboard from home."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers before you download.",
+      "viewAllSupport": "View all support →",
+      "items": [
+        {
+          "question": "Is Football Trivia Master free?",
+          "answer": "Yes. The app is free to download and play. Optional banner and interstitial ads appear between sessions. You can remove ads permanently with a one-time in-app purchase in Settings."
+        },
+        {
+          "question": "Do I need an account?",
+          "answer": "No account is required to play trivia. Sign in with Game Center (iOS) or Google Play Games (Android) only if you want leaderboards and achievements."
+        },
+        {
+          "question": "Which devices are supported?",
+          "answer": "iPhone and iPad (iOS) and Android phones and tablets. The app is optimized for portrait play."
+        },
+        {
+          "question": "What languages are available?",
+          "answer": "Arabic, Chinese (Simplified & Traditional), English, French, German, Hebrew, Italian, Japanese, Korean, Portuguese, Russian, and Spanish. Change language in Settings → Language."
+        },
+        {
+          "question": "How many questions are in a round?",
+          "answer": "Each round has 10 multiple-choice questions unless you quit early."
+        },
+        {
+          "question": "What is Hard Mode on the home screen?",
+          "answer": "Hard Mode limits every question to 12 seconds and can unlock special achievements. It is separate from choosing Hard difficulty in a category — use it when you want maximum challenge."
+        },
+        {
+          "question": "How does scoring work?",
+          "answer": "Points come from question difficulty, a time bonus (answer with at least half the timer left), streak multipliers (up to +50% after 5 correct in a row), and a perfect-round bonus when you get 10/10. Tap the ? icon on the home screen for the in-app scoring guide."
+        },
+        {
+          "question": "Can I play offline?",
+          "answer": "Yes. Questions are stored in the app. Leaderboards, achievements, ads, and purchases need an internet connection."
+        },
+        {
+          "question": "Why can't I see the leaderboard?",
+          "answer": "On Android, sign in to Google Play Games when prompted. On iOS, enable Game Center for the app. If sign-in fails, update the app, check your Google/Apple account, and try again from Settings."
+        },
+        {
+          "question": "Are leaderboards global?",
+          "answer": "Yes. Scores are submitted to platform leaderboards (Game Center / Play Games) for your region and friends."
+        },
+        {
+          "question": "How do I remove ads?",
+          "answer": "Open Settings → Remove Ads and complete the one-time purchase. Use Retry if the store is slow to respond. Restore purchases on a new device via the same store account."
+        },
+        {
+          "question": "Why do I still see ads after purchasing?",
+          "answer": "Ensure the purchase finished (check email receipt). Tap Restore in Settings. Force-quit and reopen the app. Contact support if the issue persists with your store receipt."
+        },
+        {
+          "question": "Are there subscriptions?",
+          "answer": "No. Ad removal is a one-time purchase, not a subscription."
+        },
+        {
+          "question": "What data do you collect?",
+          "answer": "See our Privacy Policy at zukiapps.com/football-trivia/privacy. Crash reports may be sent via Firebase Crashlytics to improve stability. Ad partners may collect data per your consent choices in Settings."
+        },
+        {
+          "question": "How do I contact support?",
+          "answer": "Email zuki.apps.dev@gmail.com or use Feedback in the app (Settings → Send Feedback)."
+        },
+        {
+          "question": "Is this an official FIFA or World Cup app?",
+          "answer": "No. Football Trivia Master is independent entertainment by Zuki Apps. We are not affiliated with FIFA, any federation, league, club, or tournament organizer."
+        }
+      ]
+    },
+    "statsBar": {
+      "items": [
+        {
+          "label": "Questions",
+          "value": "450+"
+        },
+        {
+          "label": "Categories",
+          "value": "4"
+        },
+        {
+          "label": "Languages",
+          "value": "12"
+        },
+        {
+          "label": "Per round",
+          "value": "10"
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to play",
+      "faq": "FAQ",
+      "tips": "Pro tips",
+      "download": "Download"
+    },
+    "screenshots": {
+      "title": "Inside the app",
+      "subtitle": "Real device captures — home, categories, gameplay, results, leaderboard, and stats.",
+      "items": [
+        {
+          "id": "home",
+          "title": "Your hub for every round",
+          "description": "Start Game, stats bar, Hard Mode, and quick links to leaderboard and achievements.",
+          "image": "/images/football-trivia/screenshot-home.png",
+          "alt": "Football Trivia Master home screen with Start Game",
+          "category": "features"
+        },
+        {
+          "id": "category",
+          "title": "Four themes + mix all",
+          "description": "Pick World Football, National Teams, Global Finals, Tournament Spotlight, or All Categories.",
+          "image": "/images/football-trivia/screenshot-category.png",
+          "alt": "Football Trivia category picker",
+          "category": "features"
+        },
+        {
+          "id": "game",
+          "title": "Beat the clock",
+          "description": "Four options per question with a visible timer and streak indicator.",
+          "image": "/images/football-trivia/screenshot-game.png",
+          "alt": "Football Trivia question screen with timer",
+          "category": "features"
+        },
+        {
+          "id": "results",
+          "title": "See every point you earned",
+          "description": "Score breakdown, accuracy, and achievements unlocked after each round.",
+          "image": "/images/football-trivia/screenshot-results.png",
+          "alt": "Football Trivia results and score breakdown",
+          "category": "features"
+        },
+        {
+          "id": "leaderboard",
+          "title": "Compete worldwide",
+          "description": "Global ranks via Game Center or Google Play Games.",
+          "image": "/images/football-trivia/screenshot-leaderboard.png",
+          "alt": "Football Trivia global leaderboard",
+          "category": "features"
+        },
+        {
+          "id": "stats",
+          "title": "Track improvement",
+          "description": "Games played, accuracy, and performance by category.",
+          "image": "/images/football-trivia/screenshot-stats.png",
+          "alt": "Football Trivia statistics screen",
+          "category": "features"
+        }
+      ]
+    },
+    "tips": {
+      "title": "Pro tips",
+      "subtitle": "Small habits that add up on the leaderboard.",
+      "items": [
+        {
+          "title": "Protect your streak",
+          "description": "Streak multipliers cap at +50% (5 correct in a row). One wrong answer resets to zero."
+        },
+        {
+          "title": "Chase the time bonus",
+          "description": "Answer with at least half the timer left for up to +50 bonus points per question."
+        },
+        {
+          "title": "Perfect rounds pay off",
+          "description": "+150 points for 10/10 — often more than two average questions combined."
+        },
+        {
+          "title": "Warm up with All Categories",
+          "description": "Mixed rounds expose weak spots. Check Statistics and drill your lowest category."
+        },
+        {
+          "title": "Sign in before a serious run",
+          "description": "Open Leaderboard once per session to confirm Game Center / Play Games is connected."
+        },
+        {
+          "title": "Match language to your knowledge",
+          "description": "Questions are localized — switch in Settings if another language suits you better."
+        }
+      ]
     }
   }
 }

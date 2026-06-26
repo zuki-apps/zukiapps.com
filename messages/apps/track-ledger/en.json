@@ -6,7 +6,9 @@
       "title": "Track Ledger",
       "subtitle": "Log GPS data",
       "description": "Offline-first engineering GPS logger for mobile. Track Ledger records raw GNSS points for your paths—no smoothing. Set time- or distance-based sampling, pause and resume, then export from a track summary or the track list (CSV; GPX and GeoJSON with Premium). Use the Map tab to overlay tracks on OpenStreetMap tiles.",
-      "structuredDataDescription": "Track Ledger — offline-first GPS/GNSS track logger for iOS and Android. Record raw points, elevation profiles, OSM map overlay, export CSV (free) or GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger by Zuki Apps."
+      "structuredDataDescription": "Track Ledger — offline-first GPS/GNSS track logger for iOS and Android. Record raw points, elevation profiles, OSM map overlay, export CSV (free) or GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger by Zuki Apps.",
+      "seoTitle": "Track Ledger — GPS Track Logger | Zuki Apps",
+      "metaDescription": "Log GPS tracks offline, export GPX/CSV/GeoJSON. No account needed. Free on iOS & Android."
     },
     "features": {
       "title": "Key Features",
@@ -117,7 +119,8 @@
         "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "Privacy Policy for Track Ledger — GPS/GNSS track logging app. How location data, exports, and optional analytics are handled."
     },
     "footer": {
       "copyright": "© 2026 Track Ledger - All rights reserved",

@@ -18,11 +18,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'sudokuPuzzle.privacy' });
+
   return {
-    title: 'Privacy Policy - Sudoku Fun Go | Zuki Apps',
-    description: 'Privacy Policy for Sudoku Fun Go - Classic Sudoku game. Learn how we collect, use, and protect your data.',
+    title: `${t('title')} — Sudoku Fun Go | Zuki Apps`,
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/sudoku-puzzle/privacy'),
@@ -65,7 +65,7 @@ export default async function SudokuPuzzlePrivacyPage({
 
           <div className="bg-teal-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-teal-600">
-              <h1 className="text-4xl font-bold text-teal-600">Sudoku Fun Go</h1>
+              <h1 className="text-4xl font-bold text-teal-600">{tApp('title')}</h1>
               <div className="flex gap-2">
                 <Link
                   href={`/${locale}/sudoku-puzzle`}
@@ -76,7 +76,7 @@ export default async function SudokuPuzzlePrivacyPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
@@ -164,7 +164,7 @@ export default async function SudokuPuzzlePrivacyPage({
                       href={`/${locale}/sudoku-puzzle/terms`}
                       className="text-teal-600 hover:underline"
                     >
-                      {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
+                      {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                     </Link>
                   </p>
                 </section>

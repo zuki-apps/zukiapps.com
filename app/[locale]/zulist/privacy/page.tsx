@@ -18,11 +18,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'zulist.privacy' });
+
   return {
-    title: 'Privacy Policy - ZuList | Zuki Apps',
-    description: 'Privacy Policy for ZuList - Smart shopping list application. Learn how we collect, use, and protect your data.',
+    title: `${t('title')} — ZuList | Zuki Apps`,
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/zulist/privacy'),
@@ -65,7 +65,7 @@ export default async function PrivacyPolicyPage({
 
         <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12">
           <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-blue-600">
-            <h1 className="text-4xl font-bold text-blue-600">ZuList</h1>
+            <h1 className="text-4xl font-bold text-blue-600">{tApp('title')}</h1>
             <div className="flex gap-2">
               <Link
                 href={`/${locale}/zulist`}
@@ -76,7 +76,7 @@ export default async function PrivacyPolicyPage({
             </div>
           </div>
 
-          <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+          <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {t('title')}
             </h1>
@@ -149,7 +149,7 @@ export default async function PrivacyPolicyPage({
                 <p className="text-gray-700 font-semibold mb-2">
                   {t('section7.dataCollected')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 text-gray-700 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 text-gray-700 space-y-2`}>
                   {t.raw('section7.dataCollectedItems').map((item: string, index: number) => (
                     <li key={index}>{item}</li>
                   ))}
@@ -157,7 +157,7 @@ export default async function PrivacyPolicyPage({
                 <p className="text-gray-700 font-semibold mb-2">
                   {t('section7.purpose')}
                 </p>
-                <ul className={`list-disc ${locale === 'he' ? 'mr-6' : 'ml-6'} mb-4 text-gray-700 space-y-2`}>
+                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 text-gray-700 space-y-2`}>
                   {t.raw('section7.purposeItems').map((item: string, index: number) => (
                     <li key={index}>{item}</li>
                   ))}
@@ -173,7 +173,7 @@ export default async function PrivacyPolicyPage({
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"
                   >
-                    {locale === 'he' ? 'מדיניות הפרטיות של Google' : "Google's Privacy Policy"}
+                    {locale === 'he' || locale === 'ar' ? 'מדיניות הפרטיות של Google' : "Google's Privacy Policy"}
                   </a>.
                 </p>
                 <p className="text-gray-700 font-semibold mb-2">
@@ -211,12 +211,12 @@ export default async function PrivacyPolicyPage({
                   {t('section8.address')}
                 </p>
                 <p className="text-gray-700 text-sm">
-                  {locale === 'he' ? '📄 ' : '📄 '}
+                  {locale === 'he' || locale === 'ar' ? '📄 ' : '📄 '}
                   <Link
                     href={`/${locale}/zulist/terms`}
                     className="text-blue-600 hover:underline"
                   >
-                    {locale === 'he' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
+                    {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
                   </Link>
                 </p>
               </section>

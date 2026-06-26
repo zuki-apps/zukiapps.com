@@ -116,7 +116,8 @@
         "content": "Questions about this Privacy Policy:",
         "email": "support@zukiapps.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      }
+      },
+      "metaDescription": "伞兵闪电战 - 街机游戏的隐私政策。如何处理游戏数据、广告、Firebase和平台游戏服务。"
     },
     "footer": {
       "copyright": "© 2026 Paratrooper Blitz - All rights reserved",
@@ -278,6 +279,59 @@
           "answer": "Removes the home banner and post-game interstitial. One-time non-consumable purchase."
         }
       ]
+    },
+    "support": {
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！查找常见问题的答案或联系Zuki Apps了解伞兵闪电战。",
+      "metaTitle": "支持与帮助 — 伞兵闪电战 | Zuki Apps",
+      "metaDescription": "获得有关伞兵闪电战的帮助 - 离线游戏、街机与经典、分数、排行榜、成就和删除广告。",
+      "contact": {
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发送电子邮件，我们会尽快回复您。",
+        "email": "support@zukiapps.com"
+      },
+      "quickLinks": {
+        "title": "快速链接",
+        "privacy": {
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
+        },
+        "terms": {
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
+        }
+      },
+      "faq": {
+        "title": "常见问题解答",
+        "q1": {
+          "question": "伞兵闪电战是免费的吗？",
+          "answer": "是的。该游戏可免费下载和玩。可选的一次性“删除广告”购买可删除横幅广告和插页式广告。"
+        },
+        "q2": {
+          "question": "该游戏适合什么年龄段的人？",
+          "answer": "评级为青少年（13 岁以上）。温和的军事风格街机动作——没有血腥，没有聊天，没有用户生成的内容。"
+        },
+        "q3": {
+          "question": "可以离线使用吗？",
+          "answer": "核心游戏玩法可以离线运行。排行榜、成就、广告和购买都需要网络和商店服务。"
+        },
+        "q4": {
+          "question": "支持哪些语言？",
+          "answer": "英语、阿拉伯语、德语、西班牙语、法语、希伯来语、意大利语、日语、韩语、葡萄牙语、俄语和中文（简体）。更改设置。"
+        },
+        "q5": {
+          "question": "街机版和经典版有什么区别？",
+          "answer": "街机：左/右滑动，向上射击。经典：炮塔 360° 旋转并手动瞄准。"
+        },
+        "q6": {
+          "question": "我怎么会输呢？",
+          "answer": "四名伞兵降落在你的炮塔的**同一侧**，或者一枚炸弹击中地面。"
+        }
+      },
+      "additionalHelp": {
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到所需的答案，或者遇到技术问题，请随时与我们联系。我们随时为您提供帮助，通常会在 24-48 小时内回复。"
+      }
     }
   }
 }

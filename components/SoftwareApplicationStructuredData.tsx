@@ -22,6 +22,8 @@ interface SoftwareApplicationStructuredDataProps {
   googlePlayUrl?: string;
   /** Overrides lookup from appPath when needed. */
   androidApplicationId?: string;
+  /** Product screenshot URLs (absolute or site-relative). */
+  screenshotUrls?: string[];
 }
 
 export default function SoftwareApplicationStructuredData({
@@ -36,6 +38,7 @@ export default function SoftwareApplicationStructuredData({
   appStoreUrl,
   googlePlayUrl,
   androidApplicationId: androidApplicationIdProp,
+  screenshotUrls = [],
 }: SoftwareApplicationStructuredDataProps) {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   const organizationId = `${baseUrl}/#organization`;
@@ -116,8 +119,14 @@ export default function SoftwareApplicationStructuredData({
   };
 
   const iconPath = iconByPath[normalizedPath];
-  if (iconPath) {
-    softwareApplicationData.image = [`${baseUrl}${iconPath}`];
+  const images: string[] = [];
+  if (iconPath) images.push(`${baseUrl}${iconPath}`);
+  for (const shot of screenshotUrls) {
+    const url = shot.startsWith('http') ? shot : `${baseUrl}${shot.startsWith('/') ? shot : `/${shot}`}`;
+    if (!images.includes(url)) images.push(url);
+  }
+  if (images.length > 0) {
+    softwareApplicationData.image = images;
   }
 
   if (androidApplicationId && isValidListingUrl(googlePlayUrl)) {

@@ -36,11 +36,11 @@ export default function DeleteAccountPage() {
               href={`/${locale}/hush-gallery`}
               className="px-4 py-2 border-2 border-purple-600 bg-white text-purple-600 rounded-lg hover:bg-purple-600 hover:text-white transition-colors text-sm"
             >
-              {locale === 'he' ? 'חזרה' : 'Back'}
+              {locale === 'he' || locale === 'ar' ? 'חזרה' : 'Back'}
             </Link>
           </div>
 
-          <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+          <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
             <h1 className="text-3xl font-bold text-gray-900 mb-6">
               {t('title')}
             </h1>
@@ -64,7 +64,7 @@ export default function DeleteAccountPage() {
                 {t('steps.title')}
               </h2>
               <div className="bg-gray-50 rounded-lg p-6">
-                <ol className={`space-y-4 ${locale === 'he' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
+                <ol className={`space-y-4 ${locale === 'he' || locale === 'ar' ? 'list-decimal list-inside' : 'list-decimal list-inside'}`}>
                   <li className="text-gray-700">{t('steps.step1')}</li>
                   <li className="text-gray-700">{t('steps.step2')}</li>
                   <li className="text-gray-700">{t('steps.step3')}</li>
@@ -81,7 +81,7 @@ export default function DeleteAccountPage() {
               </h2>
               <div className="bg-purple-50 rounded-lg p-6">
                 <p className="text-gray-700 mb-4">{t('data.intro')}</p>
-                <ul className={`space-y-2 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+                <ul className={`space-y-2 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                   <li className="text-gray-700">{t('data.item1')}</li>
                   <li className="text-gray-700">{t('data.item2')}</li>
                   <li className="text-gray-700">{t('data.item3')}</li>
@@ -98,7 +98,7 @@ export default function DeleteAccountPage() {
                 {t('partialDelete.title')}
               </h2>
               <p className="text-gray-700 mb-4">{t('partialDelete.intro')}</p>
-              <ul className={`space-y-2 text-gray-700 ${locale === 'he' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
+              <ul className={`space-y-2 text-gray-700 ${locale === 'he' || locale === 'ar' ? 'list-disc list-inside' : 'list-disc list-inside'}`}>
                 <li>{t('partialDelete.item1')}</li>
                 <li>{t('partialDelete.item2')}</li>
                 <li>{t('partialDelete.item3')}</li>

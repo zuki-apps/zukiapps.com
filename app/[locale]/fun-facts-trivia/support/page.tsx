@@ -20,10 +20,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const tHero = await getTranslations({ locale, namespace: 'funFactsTrivia.hero' });
+  const t = await getTranslations({ locale, namespace: 'funFactsTrivia.support' });
+
   return {
-    title: `Support - ${tHero('title')} | Zuki Apps`,
-    description: `Get help and support for ${tHero('title')}. Find answers to common questions, contact information, and helpful resources.`,
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/fun-facts-trivia/support'),
@@ -94,7 +95,7 @@ export default async function FunFactsTriviaSupportPage({
               </div>
             </div>
 
-            <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+            <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-600 mb-8">{t('subtitle')}</p>
 

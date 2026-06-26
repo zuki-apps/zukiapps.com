@@ -20,11 +20,11 @@ export async function generateMetadata({
     notFound();
   }
 
-  const baseUrl = getSiteUrl();
-  
+  const t = await getTranslations({ locale, namespace: 'bitScope.support' });
+
   return {
-    title: 'Support - Bit Scope | Zuki Apps',
-    description: 'Get help and support for Bit Scope. Find answers to common questions, contact information, and helpful resources.',
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
       canonical: buildCanonical(locale, '/bit-scope/support'),
@@ -126,7 +126,7 @@ export default async function SupportPage({
 
         <div className="bg-cyan-50 rounded-2xl shadow-xl p-8 md:p-12">
           <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-cyan-600">
-            <h1 className="text-4xl font-bold text-cyan-600">Bit Scope</h1>
+            <h1 className="text-4xl font-bold text-cyan-600">{tHero('title')}</h1>
             <div className="flex gap-2">
               <Link
                 href={`/${locale}/bit-scope`}
@@ -137,7 +137,7 @@ export default async function SupportPage({
             </div>
           </div>
 
-          <div className={`${locale === 'he' ? 'text-right' : 'text-left'}`}>
+          <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {t('title')}
             </h1>

@@ -2,10 +2,13 @@ import { getTranslations } from 'next-intl/server';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 import { FaqStructuredData, HowToStructuredData } from '@/components/FaqHowToStructuredData';
+import { getAppStoreRating } from '@/lib/appStoreRatings';
 import { getProductApp, type ProductAppSlug } from '@/lib/productApps';
+import { getSiteUrl } from '@/lib/hreflang';
 
 type FaqItem = { question: string; answer: string };
 type HowToStep = { number?: string; title: string; description: string };
+type ScreenshotItem = { image: string; alt?: string };
 
 type ProductStructuredDataBlockProps = {
   locale: string;
@@ -22,9 +25,17 @@ export default async function ProductStructuredDataBlock({
 
   const faqItems = (t.has('faq.items') ? (t.raw('faq.items') as FaqItem[]) : undefined) ?? [];
   const howToSteps = (t.has('howToUse.steps') ? (t.raw('howToUse.steps') as HowToStep[]) : undefined) ?? [];
+  const screenshotItems =
+    (t.has('screenshots.items') ? (t.raw('screenshots.items') as ScreenshotItem[]) : undefined) ?? [];
   const structuredDescription = t.has('hero.structuredDataDescription')
     ? t('hero.structuredDataDescription')
     : t('hero.description');
+  const baseUrl = getSiteUrl();
+  const screenshotUrls = screenshotItems
+    .map((item) => item.image)
+    .filter((src): src is string => typeof src === 'string' && src.length > 0)
+    .map((src) => (src.startsWith('http') ? src : `${baseUrl}${src}`));
+  const storeRating = getAppStoreRating(config.appPath);
 
   return (
     <>
@@ -43,7 +54,8 @@ export default async function ProductStructuredDataBlock({
         operatingSystem="iOS,Android"
         applicationCategory={config.applicationCategory}
         offers={{ price: '0', priceCurrency: 'USD' }}
-        aggregateRating={{ ratingValue: 0, ratingCount: 0 }}
+        aggregateRating={storeRating}
+        screenshotUrls={screenshotUrls}
         appStoreUrl={t('download.appStoreUrl')}
         googlePlayUrl={t('download.googlePlayUrl')}
       />
