@@ -50,7 +50,7 @@ FORCE_SUBTREES: dict[str, list[str]] = {
     "paratrooper-blitz": ["paratrooperBlitz.support"],
     "track-ledger": ["trackLedger.support"],
     "noise-meter-shusher": ["noiseMeterShusher.support"],
-    "toldya": ["toldya.support", "toldya.childSafety"],
+    "toldya": ["toldya.hero", "toldya.support", "toldya.childSafety"],
 }
 
 # Meta keys to sync for apps with localized SEO fields
@@ -68,6 +68,7 @@ META_APPS: dict[str, str] = {
     "track-ledger": "trackLedger",
     "noise-meter-shusher": "noiseMeterShusher",
     "toldya": "toldya",
+    "collagio": "collagio",
 }
 
 
@@ -347,7 +348,7 @@ def main() -> None:
                         to_translate.append((f"{ns}.{key}", node))
 
             ns_keys = [k for k in en_app if isinstance(en_app[k], dict)]
-            if app_slug == "hush-gallery":
+            if app_slug in ("hush-gallery", "collagio", "toldya"):
                 for ns in ns_keys:
                     to_translate.extend(collect_missing_faq(en_app, overlay, ns))
             if app_slug in FULL_SYNC_APPS:
