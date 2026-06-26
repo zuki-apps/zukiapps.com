@@ -23,6 +23,7 @@ import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { COLLAGIO_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
+import OtherZukiApps from '@/components/OtherZukiApps';
 import ProductMarketingSections, { ProductPageNav } from '@/components/ProductMarketingSections';
 
 const FEATURE_ICONS = {
@@ -294,6 +295,8 @@ export default function CollagioPage() {
             </div>
           </div>
         </section>
+
+        <OtherZukiApps currentAppId="collagio" />
 
         <footer className="twilight-footer-bar text-white py-8 px-4 mt-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center">

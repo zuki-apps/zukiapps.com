@@ -28,6 +28,7 @@ import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
+import OtherZukiApps from '@/components/OtherZukiApps';
 import ScreenshotLightbox from '@/components/ScreenshotLightbox';
 
 type ScreenshotItem = {
@@ -392,6 +393,8 @@ export default function WhistleCameraPage() {
             </div>
           </div>
         </section>
+
+        <OtherZukiApps currentAppId="whistle-camera" />
 
         <footer className="twilight-footer-bar text-white py-8 px-4 mt-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center">

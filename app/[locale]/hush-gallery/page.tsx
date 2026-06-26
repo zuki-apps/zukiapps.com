@@ -13,6 +13,7 @@ import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { HUSH_GALLERY_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
 import ScreenshotLightbox from '@/components/ScreenshotLightbox';
+import OtherZukiApps from '@/components/OtherZukiApps';
 
 type ScreenshotItem = {
   id: string;
@@ -651,6 +652,8 @@ export default function HushGalleryPage() {
             </div>
           </div>
         </section>
+
+        <OtherZukiApps currentAppId="hush-gallery" />
 
         {/* Footer */}
         <footer className="twilight-footer-bar text-white py-8 px-4 mt-12 relative z-10">
