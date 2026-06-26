@@ -1,337 +1,339 @@
 {
   "sudokuPuzzle": {
-    "back": "Back to Home",
+    "back": "العودة إلى المنزل",
     "hero": {
-      "badge": "Available on App Store",
-      "title": "Sudoku Fun Go - Classic Sudoku",
-      "subtitle": "9×9 Sudoku Puzzle Game",
-      "description": "A classic 9×9 Sudoku game built with Flutter for iOS and Android. Four difficulty levels (Easy, Medium, Hard, Expert), optional notes and hints, undo/erase, running timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games leaderboards and achievements.",
-      "structuredDataDescription": "Sudoku Fun Go — classic Sudoku puzzle game for iOS and Android. Multiple difficulties, hints, statistics, clean grid UI, 12+ languages. Android com.zuki.apps.sudokupuzzle by Zuki Apps."
+      "badge": "متوفر على App Store",
+      "title": "Sudoku Fun Go - سودوكو كلاسيكي",
+      "subtitle": "لعبة ألغاز سودوكو 9 × 9",
+      "description": "لعبة سودوكو كلاسيكية 9×9 مصممة باستخدام Flutter لـ iOS وAndroid. أربعة مستويات صعوبة (سهل، متوسط، صعب، خبير)، ملاحظات وتلميحات اختيارية، تراجع/مسح، مؤقت التشغيل، وإحصائيات مستمرة. مترجمة بالكامل في 12 لغة. Game Center و Play Games المتصدرين والإنجازات.",
+      "structuredDataDescription": "Sudoku Fun Go — لعبة ألغاز سودوكو كلاسيكية لـ iOS وAndroid. صعوبات متعددة، تلميحات، إحصائيات، واجهة مستخدم شبكية نظيفة، أكثر من 12 لغة. Android com.zuki.apps.sudokupuzzle بواسطة Zuki Apps.",
+      "seoTitle": "Sudoku Fun Go — ألغاز كلاسيكية 9×9 | Zuki Apps",
+      "metaDescription": "تنظيف سودوكو مع تلميحات وإحصائيات. يعمل حاليا. مجانًا على iOS وAndroid — قم بالتنزيل اليوم."
     },
     "features": {
-      "title": "Key Features",
+      "title": "الميزات الرئيسية",
       "difficulty": {
-        "title": "Difficulty Levels",
-        "description": "Choose your challenge with four difficulty levels",
+        "title": "مستويات الصعوبة",
+        "description": "اختر التحدي الخاص بك مع أربعة مستويات صعوبة",
         "items": [
-          "Easy",
-          "Medium",
-          "Hard",
-          "Expert"
+          "سهل",
+          "واسطة",
+          "صعب",
+          "خبير"
         ]
       },
       "gameplay": {
-        "title": "Notes, Hints & Tools",
-        "description": "Full set of tools to help you solve puzzles",
+        "title": "ملاحظات وتلميحات وأدوات",
+        "description": "مجموعة كاملة من الأدوات لمساعدتك في حل الألغاز",
         "items": [
-          "Notes mode for pencil candidates",
-          "Hints for the selected cell",
-          "Undo and erase",
-          "Running timer",
-          "Mistake counter"
+          "وضع الملاحظات للمرشحين قلم رصاص",
+          "تلميحات للخلية المحددة",
+          "التراجع والمسح",
+          "تشغيل الموقت",
+          "عداد الأخطاء"
         ]
       },
       "stats": {
-        "title": "Statistics",
-        "description": "Track your progress and improve",
+        "title": "إحصائيات",
+        "description": "تتبع التقدم المحرز الخاص بك وتحسين",
         "items": [
-          "Games won and win rate",
-          "Best times per difficulty",
-          "Best scores per difficulty",
-          "Current and best streaks",
-          "Total games and play time"
+          "الألعاب التي فازت ومعدل الفوز",
+          "أفضل الأوقات لكل صعوبة",
+          "أفضل الدرجات لكل صعوبة",
+          "الشرائط الحالية وأفضل",
+          "إجمالي الألعاب ووقت اللعب"
         ]
       },
       "localization": {
-        "title": "12 Languages",
-        "description": "Fully localized with regional variants",
+        "title": "12 لغة",
+        "description": "مترجمة بالكامل مع المتغيرات الإقليمية",
         "items": [
-          "English, Hebrew (RTL), Arabic (RTL)",
-          "German, Spanish, French, Italian",
-          "Portuguese, Russian, Japanese",
-          "Korean, Chinese",
-          "17 regional variants (e.g. pt-BR, es-MX)"
+          "الإنجليزية، العبرية (RTL)، العربية (RTL)",
+          "الألمانية، الإسبانية، الفرنسية، الإيطالية",
+          "البرتغالية، الروسية، اليابانية",
+          "الكورية والصينية",
+          "17 متغيرًا إقليميًا (مثل pt-BR وes-MX)"
         ]
       },
       "leaderboards": {
-        "title": "Leaderboards & Achievements",
-        "description": "Compete and unlock achievements",
+        "title": "المتصدرين والإنجازات",
+        "description": "التنافس وفتح الإنجازات",
         "items": [
-          "Game Center (iOS) & Play Games (Android)",
-          "Friends and Global leaderboards",
-          "Best score leaderboards",
-          "First win, Streak 5, Streak 10 achievements"
+          "Game Center (iOS) و Play Games (Android)",
+          "الأصدقاء والمتصدرين العالمية",
+          "أفضل المتصدرين النتيجة",
+          "الفوز الأول، خط 5، خط 10 الإنجازات"
         ]
       }
     },
     "status": {
-      "title": "Available",
-      "description": "Sudoku Fun Go is available on the App Store and Google Play.",
-      "version": "Version",
-      "status": "Status",
+      "title": "متاح",
+      "description": "Sudoku Fun Go متاح على App Store و Google Play.",
+      "version": "إصدار",
+      "status": "حالة",
       "versionValue": "1.0.4+10",
-      "statusValue": "Available"
+      "statusValue": "متاح"
     },
     "download": {
-      "title": "Download",
-      "description": "Available on the App Store and Google Play.",
-      "soon": "Available soon",
+      "title": "تحميل",
+      "description": "متوفر على App Store وGoogle Play.",
+      "soon": "متاح قريبا",
       "appStoreUrl": "https://apps.apple.com/us/app/sudoku-fun-go/id6759739806",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "تحميل على App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "احصل عليه Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "روابط مهمة",
       "support": {
-        "title": "Technical Support",
+        "title": "الدعم الفني",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "الدعم والمساعدة",
+      "subtitle": "نحن هنا للمساعدة! ابحث عن إجابات للأسئلة الشائعة أو اتصل بنا مباشرة.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "اتصل بنا",
+        "description": "هل لديك سؤال أو بحاجة إلى المساعدة؟ أرسل لنا بريدًا إلكترونيًا وسنقوم بالرد عليك في أقرب وقت ممكن.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "روابط سريعة",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "سياسة الخصوصية",
+          "description": "تعلم كيف نحمي بياناتك"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "شروط الخدمة",
+          "description": "اقرأ الشروط والأحكام الخاصة بنا"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "الأسئلة المتداولة",
         "q1": {
-          "question": "What is Sudoku Fun Go?",
-          "answer": "Sudoku Fun Go is a classic 9×9 Sudoku game for iOS and Android. Fill every row, column, and 3×3 box with the digits 1–9 with no repeats. It offers four difficulty levels, notes mode, hints, undo, a timer, and persistent statistics including best times and scores per difficulty."
+          "question": "ما هو Sudoku Fun Go؟",
+          "answer": "Sudoku Fun Go هي لعبة سودوكو كلاسيكية 9×9 لـ iOS وAndroid. املأ كل صف وعمود ومربع 3×3 بالأرقام من 1 إلى 9 دون تكرار. إنه يوفر أربعة مستويات صعوبة، ووضع الملاحظات، والتلميحات، والتراجع، والمؤقت، والإحصائيات المستمرة بما في ذلك أفضل الأوقات والنتائج لكل صعوبة."
         },
         "q2": {
-          "question": "Does the app work offline?",
-          "answer": "Yes. Gameplay, stats, and settings are stored locally. You can play fully offline. Internet is only needed for Game Center / Play Games leaderboards and achievements, and for optional in-app purchases (e.g. remove ads)."
+          "question": "هل يعمل التطبيق دون اتصال؟",
+          "answer": "نعم. يتم تخزين طريقة اللعب والإحصائيات والإعدادات محليًا. يمكنك اللعب بشكل كامل دون اتصال بالإنترنت. هناك حاجة إلى الإنترنت فقط من أجل Game Center / Play Games المتصدرين والإنجازات، وعمليات الشراء الاختيارية داخل التطبيق (مثل إزالة الإعلانات)."
         },
         "q3": {
-          "question": "What are the difficulty levels?",
-          "answer": "There are four levels: Easy, Medium, Hard, and Expert. Each affects the number of given clues and puzzle complexity. Best times and best scores are tracked separately per difficulty."
+          "question": "ما هي مستويات الصعوبة؟",
+          "answer": "هناك أربعة مستويات: سهل ومتوسط ​​وصعب وخبير. يؤثر كل منها على عدد القرائن المعطاة وتعقيد اللغز. يتم تعقب أفضل الأوقات وأفضل الدرجات بشكل منفصل لكل صعوبة."
         },
         "q4": {
-          "question": "Does the app support leaderboards?",
-          "answer": "Yes. On iOS we use Game Center with Friends and Global leaderboards for best score, plus achievements (e.g. first win, streak 5, streak 10). On Android we use Play Games Services with the same structure. Sign-in is prompted on app start."
+          "question": "هل يدعم التطبيق المتصدرين؟",
+          "answer": "نعم. في iOS نستخدم Game Center مع الأصدقاء ولوحات المتصدرين العالمية للحصول على أفضل نتيجة، بالإضافة إلى الإنجازات (على سبيل المثال، الفوز الأول، الخط 5، الخط 10). في Android نستخدم Play Games الخدمات بنفس البنية. يُطلب تسجيل الدخول عند بدء التطبيق."
         },
         "q5": {
-          "question": "In which languages is the app available?",
-          "answer": "The app is localized in 12 base languages (English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, Chinese) with 17 regional variants. Hebrew and Arabic have full RTL support."
+          "question": "بأي اللغات يتوفر التطبيق؟",
+          "answer": "التطبيق مترجم إلى 12 لغة أساسية (الإنجليزية، العبرية، العربية، الألمانية، الإسبانية، الفرنسية، الإيطالية، البرتغالية، الروسية، اليابانية، الكورية، الصينية) مع 17 متغيرًا إقليميًا. تتمتع العبرية والعربية بدعم كامل RTL."
         },
         "q6": {
-          "question": "How can I remove ads?",
-          "answer": "Sudoku Fun Go offers an in-app purchase to remove ads. After purchasing, ads are disabled. The purchase is restored automatically when you reinstall the app or use the same account on another device."
+          "question": "كيف يمكنني إزالة الإعلانات؟",
+          "answer": "Sudoku Fun Go يقدم عملية شراء داخل التطبيق لإزالة الإعلانات. بعد الشراء، يتم تعطيل الإعلانات. تتم استعادة عملية الشراء تلقائيًا عند إعادة تثبيت التطبيق أو استخدام نفس الحساب على جهاز آخر."
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "هل تحتاج إلى المزيد من المساعدة؟",
+        "description": "إذا لم تتمكن من العثور على الإجابة التي تبحث عنها، أو إذا كنت تواجه مشكلة فنية، فلا تتردد في الاتصال بنا. نحن هنا للمساعدة ونرد عادةً خلال 24 إلى 48 ساعة."
       },
       "metaTitle": "الدعم والمساعدة — Sudoku Fun Go | Zuki Apps",
       "metaDescription": "Sudoku Fun Go FAQ والدعم — ألغاز سودوكو الكلاسيكية. الاتصال والخصوصية واستكشاف الأخطاء وإصلاحها."
     },
     "footer": {
-      "copyright": "© 2025 Sudoku Fun Go - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 Sudoku Fun Go - جميع الحقوق محفوظة",
+      "tagline": "جزء من Zuki Apps • مطور من إسرائيل • مصنوع باستخدام ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Sudoku Fun Go. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "شروط الاستخدام",
+      "lastUpdated": "آخر تحديث: يناير 2025",
+      "intro": "يرجى قراءة شروط الاستخدام هذه بعناية قبل استخدام Sudoku Fun Go. من خلال الوصول إلى خدمتنا أو استخدامها، فإنك توافق على الالتزام بهذه الشروط.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Sudoku Fun Go (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval puzzle game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. قبول الشروط",
+        "content": "تحكم شروط الاستخدام هذه (\"الشروط\") وصولك إلى واستخدام Sudoku Fun Go (\"الخدمة\" أو \"التطبيق\" أو \"نحن\" أو \"خاصتنا\")، وهي لعبة ألغاز فاصلة تديرها Zuki Apps (\"الشركة\"). من خلال تنزيل الخدمة أو تثبيتها أو الوصول إليها أو استخدامها، فإنك توافق على الالتزام بهذه الشروط وسياسة الخصوصية الخاصة بنا.",
+        "content2": "إذا كنت تستخدم الخدمة نيابة عن مؤسسة، فإنك تقر وتضمن أن لديك السلطة لإلزام تلك المؤسسة بهذه الشروط."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Sudoku Fun Go is a mobile application that provides classic 9×9 Sudoku gameplay. The Service includes: configurable difficulty levels, notes and hints, statistics and leaderboards, Game Center / Play Games integration, and in-app purchases (e.g. remove ads).",
+        "title": "2. وصف الخدمة",
+        "content": "Sudoku Fun Go هو تطبيق للهاتف المحمول يوفر طريقة لعب كلاسيكية 9×9 سودوكو. تتضمن الخدمة: مستويات صعوبة قابلة للتكوين، وملاحظات وتلميحات، وإحصائيات ولوحات الصدارة، وتكامل Game Center / Play Games، وعمليات الشراء داخل التطبيق (مثل إزالة الإعلانات).",
         "items": [
-          "Four difficulty levels (Easy, Medium, Hard, Expert)",
-          "Notes mode, hints, undo, erase, timer, mistake count",
-          "Statistics: games won, win rate, streaks, best times and scores",
-          "Game Center (iOS) and Play Games (Android) leaderboards and achievements",
-          "In-app purchase to remove ads",
-          "12 languages with regional variants"
+          "أربعة مستويات صعوبة (سهل، متوسط، صعب، خبير)",
+          "وضع الملاحظات، التلميحات، التراجع، المسح، الموقت، عدد الأخطاء",
+          "الإحصائيات: المباريات التي فازت بها، ومعدل الفوز، والخطوط، وأفضل الأوقات والنتائج",
+          "Game Center (iOS) و Play Games (Android) المتصدرين والإنجازات",
+          "الشراء داخل التطبيق لإزالة الإعلانات",
+          "12 لغة مع المتغيرات الإقليمية"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. معلومات الاتصال",
+        "content": "إذا كان لديك أي أسئلة حول هذه الشروط، يرجى الاتصال بنا:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36، سار، ص. 22805، إسرائيل"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "سياسة الخصوصية",
+      "lastUpdated": "آخر تحديث: يناير 2025",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Sudoku Fun Go collects minimal information necessary to provide the service. We collect information you provide directly (e.g. when you contact support). Game progress, statistics, and settings are stored locally on your device."
+        "title": "1. المعلومات التي نجمعها",
+        "content": "Sudoku Fun Go يجمع الحد الأدنى من المعلومات اللازمة لتقديم الخدمة. نقوم بجمع المعلومات التي تقدمها مباشرة (على سبيل المثال عند الاتصال بالدعم). يتم تخزين تقدم اللعبة والإحصائيات والإعدادات محليًا على جهازك."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide, maintain, and improve our services. Locally stored data (puzzles, stats, settings) is not transmitted to our servers except as needed for optional services (e.g. Game Center / Play Games)."
+        "title": "2. كيف نستخدم معلوماتك",
+        "content": "نحن نستخدم المعلومات لتوفير خدماتنا وصيانتها وتحسينها. لا يتم نقل البيانات المخزنة محليًا (الألغاز والإحصائيات والإعدادات) إلى خوادمنا إلا عند الحاجة للخدمات الاختيارية (مثل Game Center / Play Games)."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties. Leaderboard scores and achievements are shared with the respective platform (Apple Game Center, Google Play Games) when you use those features."
+        "title": "3. تبادل المعلومات",
+        "content": "نحن لا نبيع أو نشارك معلوماتك الشخصية مع أطراف ثالثة. تتم مشاركة نتائج وإنجازات لوحة المتصدرين مع النظام الأساسي المعني (Apple Game Center، Google Play Games) عند استخدام هذه الميزات."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device. If you use Game Center or Play Games, their policies apply to data processed by those services."
+        "title": "4. أمن البيانات",
+        "content": "نحن ننفذ التدابير الأمنية المناسبة. يتم تخزين بيانات لعبتك محليًا على جهازك. إذا كنت تستخدم Game Center أو Play Games، فإن سياساتهم تنطبق على البيانات التي تتم معالجتها بواسطة تلك الخدمات."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings (e.g. reset statistics). You may also delete the app at any time. For platform-specific data (e.g. Game Center), you can manage that in your device or account settings."
+        "title": "5. حقوقك",
+        "content": "يمكنك مسح البيانات المحلية عبر إعدادات التطبيق (مثل إعادة تعيين الإحصائيات). ويمكنك أيضًا حذف التطبيق في أي وقت. بالنسبة للبيانات الخاصة بالمنصة (مثل Game Center)، يمكنك إدارة ذلك في إعدادات جهازك أو حسابك."
       },
       "section6": {
-        "title": "6. Advertising and In-App Purchases",
-        "content": "The app may show ads (e.g. via Google Mobile Ads). We may use device identifiers and usage data for ad delivery and measurement in accordance with our ad providers' policies. In-app purchases (e.g. remove ads) are processed by Apple or Google; we do not store payment details."
+        "title": "6. الإعلان وعمليات الشراء داخل التطبيق",
+        "content": "قد يعرض التطبيق إعلانات (على سبيل المثال عبر إعلانات Google للجوال). يجوز لنا استخدام معرفات الأجهزة وبيانات الاستخدام لعرض الإعلانات وقياسها وفقًا لسياسات موفري الإعلانات لدينا. تتم معالجة عمليات الشراء داخل التطبيق (مثل إزالة الإعلانات) بواسطة Apple أو Google؛ نحن لا نقوم بتخزين تفاصيل الدفع."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. اتصل بنا",
+        "content": "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36، سار، ص. 22805، إسرائيل"
       },
       "metaDescription": "Sudoku Fun Go سياسة الخصوصية - كيف نتعامل مع بياناتك على iOS وAndroid."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "سمات",
+      "screenshots": "لقطات الشاشة",
+      "howTo": "كيفية الاستخدام",
+      "tips": "نصائح",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "تحميل"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Sudoku Fun Go - Classic Sudoku.",
-      "featuresTitle": "App screens",
+      "title": "لقطات الشاشة",
+      "subtitle": "شاشات التطبيقات الحقيقية من Sudoku Fun Go - Classic Sudoku.",
+      "featuresTitle": "شاشات التطبيقات",
       "items": [
         {
-          "id": "home",
-          "title": "New puzzle",
-          "description": "Pick difficulty and start a fresh grid.",
+          "id": "بيت",
+          "title": "لغز جديد",
+          "description": "اختر الصعوبة وابدأ شبكة جديدة.",
           "image": "/images/sudoku-puzzle/screenshot-home.png",
-          "alt": "New puzzle — sudoku puzzle",
-          "category": "features"
+          "alt": "لغز جديد – لغز سودوكو",
+          "category": "سمات"
         },
         {
-          "id": "gameplay",
-          "title": "Gameplay",
-          "description": "Fill the grid with notes and smart hints.",
+          "id": "طريقة اللعب",
+          "title": "طريقة اللعب",
+          "description": "املأ الشبكة بالملاحظات والتلميحات الذكية.",
           "image": "/images/sudoku-puzzle/screenshot-gameplay.png",
-          "alt": "Gameplay — sudoku puzzle",
-          "category": "features"
+          "alt": "طريقة اللعب - لغز سودوكو",
+          "category": "سمات"
         },
         {
-          "id": "victory",
-          "title": "Victory",
-          "description": "Celebrate completion with time and stats.",
+          "id": "انتصار",
+          "title": "انتصار",
+          "description": "احتفل بالانتهاء مع الوقت والإحصائيات.",
           "image": "/images/sudoku-puzzle/screenshot-victory.png",
-          "alt": "Victory — sudoku puzzle",
-          "category": "features"
+          "alt": "النصر - لغز سودوكو",
+          "category": "سمات"
         },
         {
-          "id": "statistics",
-          "title": "Statistics",
-          "description": "Track wins, streaks, and best times.",
+          "id": "إحصائيات",
+          "title": "إحصائيات",
+          "description": "تتبع الانتصارات والشرائط وأفضل الأوقات.",
           "image": "/images/sudoku-puzzle/screenshot-statistics.png",
-          "alt": "Statistics — sudoku puzzle",
-          "category": "features"
+          "alt": "الإحصائيات - لغز سودوكو",
+          "category": "سمات"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "كيفية الاستخدام",
       "steps": [
         {
           "number": "1",
-          "title": "Select difficulty",
-          "description": "Easy to expert — find the level that fits you."
+          "title": "اختر الصعوبة",
+          "description": "من السهل أن تكون خبيرًا - ابحث عن المستوى الذي يناسبك."
         },
         {
           "number": "2",
-          "title": "Fill the grid",
-          "description": "Tap cells, use notes, and avoid duplicate digits per row, column, and box."
+          "title": "املأ الشبكة",
+          "description": "انقر فوق الخلايا واستخدم الملاحظات وتجنب الأرقام المكررة في كل صف وعمود ومربع."
         },
         {
           "number": "3",
-          "title": "Use hints wisely",
-          "description": "Hints help when stuck without spoiling the whole puzzle."
+          "title": "استخدم التلميحات بحكمة",
+          "description": "تساعد التلميحات عندما تتعثر دون إفساد اللغز بأكمله."
         },
         {
           "number": "4",
-          "title": "Finish & improve",
-          "description": "Complete puzzles to grow your stats and streaks."
+          "title": "إنهاء وتحسين",
+          "description": "أكمل الألغاز لتنمية إحصائياتك وشرائطك."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "الأسئلة المتداولة",
+      "subtitle": "إجابات سريعة حول الميزات والخصوصية والفواتير.",
+      "viewAllSupport": "عرض الدعم الكامل & FAQ",
       "items": [
         {
-          "question": "Do I need an account?",
-          "answer": "No. Open the app and tap New Game. Game Center (iOS) or Google Play Games (Android) is optional for leaderboards and achievements."
+          "question": "هل أحتاج إلى حساب؟",
+          "answer": "لا، افتح التطبيق واضغط على لعبة جديدة. Game Center (iOS) أو Google Play الألعاب (Android) اختيارية للوحات الصدارة والإنجازات."
         },
         {
-          "question": "Is the app free?",
-          "answer": "Yes. Sudoku Fun Go is free to download and play. Ads support development. You can remove ads with a one-time in-app purchase."
+          "question": "هل التطبيق مجاني؟",
+          "answer": "نعم. Sudoku Fun Go مجاني للتنزيل واللعب. الإعلانات تدعم التطوير. يمكنك إزالة الإعلانات من خلال عملية شراء داخل التطبيق لمرة واحدة."
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "iPhone and iPad (iOS), and Android phones and tablets with Google Play services. Requires a recent OS version — see the store listing for details."
+          "question": "ما هي الأجهزة المدعومة؟",
+          "answer": "iPhone وiPad (iOS)، والهواتف والأجهزة اللوحية Android مع خدمات Google Play. يتطلب إصدارًا حديثًا من نظام التشغيل - راجع قائمة المتجر للحصول على التفاصيل."
         },
         {
-          "question": "What are the difficulty levels?",
-          "answer": "| Level | For whom | |-------|----------| | Easy | Beginners — fewer empty cells | | Medium | Balanced daily challenge | | Hard | Experienced solvers | | Expert | Maximum empty cells — bravest players only |"
+          "question": "ما هي مستويات الصعوبة؟",
+          "answer": "| المستوى | لمن | |-------|----------| | سهل | المبتدئين — عدد أقل من الخلايا الفارغة | | متوسطة | التحدي اليومي المتوازن | | صعب | ذوي الخبرة في الحلول | | خبير | الحد الأقصى للخلايا الفارغة — أشجع اللاعبين فقط |"
         },
         {
-          "question": "Can I pause mid-game?",
-          "answer": "Yes. Tap pause; the timer stops until you resume. Your puzzle is saved automatically."
+          "question": "هل يمكنني التوقف في منتصف اللعبة؟",
+          "answer": "نعم. اضغط على وقفة. يتوقف الموقت حتى تستأنف. يتم حفظ اللغز الخاص بك تلقائيًا."
         },
         {
-          "question": "What happens if I quit?",
-          "answer": "If you leave without finishing, that puzzle’s progress is lost. Use Continue Game on the home screen to return to an in-progress puzzle."
+          "question": "ماذا يحدث إذا استقلت؟",
+          "answer": "إذا غادرت دون الانتهاء، فسيتم فقدان التقدم في هذا اللغز. استخدم متابعة اللعبة على الشاشة الرئيسية للعودة إلى اللغز قيد التقدم."
         },
         {
-          "question": "How do notes work?",
-          "answer": "Turn on Notes, tap a cell, then tap digits to mark candidates. When you place a confirmed number, matching notes in the row, column, and box can auto-clear (if enabled in Settings)."
+          "question": "كيف تعمل الملاحظات؟",
+          "answer": "قم بتشغيل \"الملاحظات\"، اضغط على خلية، ثم اضغط على الأرقام لتحديد المرشحين. عندما تقوم بوضع رقم مؤكد، يمكن مسح الملاحظات المطابقة في الصف والعمود والمربع تلقائيًا (إذا تم تمكينها في الإعدادات)."
         },
         {
-          "question": "Do hints hurt my score?",
-          "answer": "Yes. Each hint costs 300 points from your final score. Use them when stuck, but fewer hints = higher rank."
+          "question": "هل التلميحات تؤذي درجاتي؟",
+          "answer": "نعم. كل تلميح يكلف 300 نقطة من نتيجتك النهائية. استخدمها عندما تتعثر، ولكن تلميحات أقل = رتبة أعلى."
         },
         {
-          "question": "How many mistakes are allowed?",
-          "answer": "Mistakes are tracked and reduce your score (−500 each). The puzzle does not end on a wrong entry — you can keep solving."
+          "question": "كم عدد الأخطاء المسموح بها؟",
+          "answer": "يتم تتبع الأخطاء وتقليل درجاتك (−500 لكل منهما). اللغز لا ينتهي عند إدخال خاطئ - يمكنك الاستمرار في حله."
         },
         {
-          "question": "How is my score calculated?",
-          "answer": "Base = 10,000 × difficulty multiplier (Easy ×1, Medium ×2, Hard ×3, Expert ×5) Minus 2 points per second, 500 per mistake, 300 per hint. Example: Expert, 10 minutes, 0 mistakes, 0 hints → up to 48,800 before time penalty details."
+          "question": "كيف يتم حساب درجاتي؟",
+          "answer": "القاعدة = 10,000 × مضاعف الصعوبة (سهل ×1، متوسط ​​×2، صعب ×3، خبير ×5) ناقص 2 نقطة في الثانية، 500 لكل خطأ، 300 لكل تلميح. مثال: خبير، 10 دقائق، 0 أخطاء، 0 تلميحات → ما يصل إلى 48800 قبل تفاصيل عقوبة الوقت."
         },
         {
-          "question": "Why is my leaderboard empty?",
-          "answer": "Sign in to Game Center or Play Games, complete a puzzle to submit a score, then open Statistics → Friends or Global. Install from the Play Store or App Store (not sideload) for full Play Games / billing support on Android."
+          "question": "لماذا لوحة المتصدرين الخاصة بي فارغة؟",
+          "answer": "قم بتسجيل الدخول إلى Game Center أو Play Games، وأكمل اللغز لإرسال النتيجة، ثم افتح الإحصائيات → الأصدقاء أو العمومي. قم بالتثبيت من متجر Play أو App Store (ليس تحميلًا جانبيًا) للحصول على دعم كامل Play Games / الفوترة على Android."
         },
         {
-          "question": "How do achievements unlock?",
-          "answer": "Automatically when you meet goals (first win, streaks, flawless solve, etc.). Open Statistics → Achievements to view progress."
+          "question": "كيف يتم فتح الإنجازات؟",
+          "answer": "تلقائيا عند تحقيق الأهداف (الفوز الأول، الخطوط، حل لا تشوبه شائبة، وما إلى ذلك). افتح الإحصائيات → الإنجازات لعرض التقدم."
         }
       ]
     }

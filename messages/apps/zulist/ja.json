@@ -3,10 +3,12 @@
     "back": "ホームに戻る",
     "hero": {
       "badge": "利用可能 - バージョン 1.0.9",
-      "title": "ZuList - Manage & Share Lists",
+      "title": "ZuList - リストの管理と共有",
       "subtitle": "家族向けスマート買い物リスト",
       "description": "一緒に買い物をする家族や友人に最適なアプリ。リアルタイムでシームレスなコラボレーションにより、買い物リストを作成、共有、管理できます。",
-      "structuredDataDescription": "ZuListは、一緒に買い物をする家族や友人向けに設計された究極の買い物リストアプリです。リアルタイムでシームレスなコラボレーションにより、買い物リストを作成、共有、管理できます。機能には、リアルタイム同期、オフラインサポート、スマートな商品提案、カテゴリ管理、購入履歴、プレミアムサブスクリプションが含まれます。"
+      "structuredDataDescription": "ZuListは、一緒に買い物をする家族や友人向けに設計された究極の買い物リストアプリです。リアルタイムでシームレスなコラボレーションにより、買い物リストを作成、共有、管理できます。機能には、リアルタイム同期、オフラインサポート、スマートな商品提案、カテゴリ管理、購入履歴、プレミアムサブスクリプションが含まれます。",
+      "seoTitle": "ZuList — スマートなショッピング リスト | Zuki Apps",
+      "metaDescription": "リアルタイム同期とオフライン モードを備えた共有食料品リスト。 iOS と Android は家族向けに無料です。ZuList をお試しください。"
     },
     "features": {
       "title": "主な機能",
@@ -60,10 +62,10 @@
         "title": "12言語対応",
         "description": "翻訳されたインターフェースによる12言語のフルサポート",
         "items": [
-          "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
-          "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
-          "🇵🇹 Portuguese, 🇷🇺 Russian, 🇫🇷 French",
-          "🇯🇵 Japanese, 🇰🇷 Korean, 🇸🇦 Arabic, 🇨🇳 Chinese"
+          "🇺🇸 英語、🇮🇱 ヘブライ語 (עברית) - フル RTL",
+          "🇩🇪ドイツ語、🇪🇸スペイン語、🇮🇹イタリア語",
+          "🇵🇹ポルトガル語、🇷🇺ロシア語、🇫🇷フランス語",
+          "🇯🇵 日本語、🇰🇷 韓国語、🇸🇦 アラビア語、🇨🇳 中国語"
         ]
       },
       "categories": {
@@ -286,7 +288,7 @@
         "title": "8. お問い合わせ",
         "content": "このプライバシーポリシーに関するご質問がございましたら、以下までお問い合わせください：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       },
       "metaDescription": "ZuList プライバシー ポリシー — iOS および Android におけるお客様のデータの取り扱い方法。"
     },
@@ -520,7 +522,7 @@
         "content": "これらの規約に関するご質問がある場合は、以下までご連絡ください：",
         "email": "zuki.apps.dev@gmail.com",
         "website": "https://zukiapps.com/zulist",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "deleteAccount": {
@@ -561,7 +563,8 @@
           "item1": "リストから削除されます",
           "item2": "リストは他のユーザーに対してアクティブのままです",
           "item3": "データとアイテムは残ります（あなただけが削除されます）"
-        }
+        },
+        "title": "共有リストはどうなるか"
       },
       "partialDelete": {
         "title": "一部のデータの削除（アカウントを削除せずに）",
@@ -697,7 +700,9 @@
         "content": "データ削除に関する質問や問題がある場合は、以下までご連絡ください：",
         "email": "メール",
         "privacy": "プライバシーポリシー",
-        "privacyLink": "完全なプライバシーポリシーを読む"
+        "privacyLink": "完全なプライバシーポリシーを読む",
+        "terms": "利用規約",
+        "termsLink": "利用規約を読む"
       }
     },
     "support": {
@@ -762,163 +767,163 @@
       "metaDescription": "ZuList FAQ とサポート — 共有リストとタスク。連絡先、プライバシー、トラブルシューティング。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特徴",
+      "screenshots": "スクリーンショット",
+      "howTo": "使用方法",
+      "tips": "ヒント",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "ダウンロード"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from ZuList - Manage & Share Lists.",
-      "featuresTitle": "App screens",
+      "title": "スクリーンショット",
+      "subtitle": "ZuList の実際のアプリ画面 - リストの管理と共有。",
+      "featuresTitle": "アプリ画面",
       "items": [
         {
-          "id": "lists",
-          "title": "Your lists",
-          "description": "Create and manage multiple shopping lists.",
+          "id": "リスト",
+          "title": "あなたのリスト",
+          "description": "複数の買い物リストを作成および管理します。",
           "image": "/images/zulist/screenshot-lists.png",
-          "alt": "Your lists — zulist",
-          "category": "features"
+          "alt": "あなたのリスト — zulist",
+          "category": "特徴"
         },
         {
-          "id": "shared",
-          "title": "Shared list",
-          "description": "Collaborate in real time with family or roommates.",
+          "id": "共有",
+          "title": "共有リスト",
+          "description": "家族やルームメイトとリアルタイムで共同作業できます。",
           "image": "/images/zulist/screenshot-shared.png",
-          "alt": "Shared list — zulist",
-          "category": "features"
+          "alt": "共有リスト — zulist",
+          "category": "特徴"
         },
         {
-          "id": "invite",
-          "title": "Invite & share",
-          "description": "Send an invite link — no account required for guests.",
+          "id": "招待する",
+          "title": "招待して共有する",
+          "description": "招待リンクを送信します。ゲストにはアカウントは必要ありません。",
           "image": "/images/zulist/screenshot-invite.png",
-          "alt": "Invite & share — zulist",
-          "category": "features"
+          "alt": "招待して共有 — zulist",
+          "category": "特徴"
         },
         {
-          "id": "widget",
-          "title": "Home widget",
-          "description": "Glance items from your home screen.",
+          "id": "ウィジェット",
+          "title": "ホームウィジェット",
+          "description": "ホーム画面からアイテムを確認します。",
           "image": "/images/zulist/screenshot-widget.png",
-          "alt": "Home widget — zulist",
-          "category": "features"
+          "alt": "ホームウィジェット — zulist",
+          "category": "特徴"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "使用方法",
       "steps": [
         {
           "number": "1",
-          "title": "Create a list",
-          "description": "Add items with quantities and categories."
+          "title": "リストを作成する",
+          "description": "数量とカテゴリを含むアイテムを追加します。"
         },
         {
           "number": "2",
-          "title": "Share the list",
-          "description": "Send an invite link so others can edit live."
+          "title": "リストを共有する",
+          "description": "招待リンクを送信すると、他の人がライブで編集できるようになります。"
         },
         {
           "number": "3",
-          "title": "Shop together",
-          "description": "Check off items — changes sync instantly."
+          "title": "一緒に買い物をする",
+          "description": "項目にチェックを入れると、変更が即座に同期されます。"
         },
         {
           "number": "4",
-          "title": "Use widgets",
-          "description": "Pin a list to your home screen for quick access."
+          "title": "ウィジェットを使用する",
+          "description": "リストをホーム画面にピン留めすると、すぐにアクセスできるようになります。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "ヒントとコツ",
+      "subtitle": "アプリをさらに活用しましょう。",
       "items": [
         {
-          "title": "Shopping faster",
-          "description": "Reorder lists on the home screen—put “Today” at the top - Search across all your lists from the home screen - Mark all bought when you finish a trip (owner/read-write)"
+          "title": "より早く買い物をする",
+          "description": "ホーム画面でリストを並べ替えます - 「今日」を一番上に置きます - ホーム画面からすべてのリストを検索します - 旅行が終了したらすべてに購入済みのマークを付けます (所有者/読み書き可能)"
         },
         {
-          "title": "Collaboration",
-          "description": "Use read-only for kids or guests who shouldn’t edit - Due date on a list + notification = fewer “did you get milk?” texts - Share a link in the family group chat—no email required"
+          "title": "コラボレーション",
+          "description": "編集すべきではない子供やゲストには読み取り専用を使用します - リストに期限日を記載 + 通知 = 「ミルクは出ましたか?」という質問が減ります。テキスト - 家族グループ チャットでリンクを共有します。メールは必要ありません"
         },
         {
-          "title": "Offline",
-          "description": "Add items in airplane mode; they sync when you land - If sync is slow, pull to refresh on the list screen"
+          "title": "オフライン",
+          "description": "機内モードでアイテムを追加します。着陸時に同期します - 同期が遅い場合は、プルしてリスト画面を更新してください"
         },
         {
-          "title": "Widget",
-          "description": "Set primary list to your main grocery list, not one-off party lists - Widget shows unbought count only"
+          "title": "ウィジェット",
+          "description": "プライマリ リストを 1 回限りのパーティー リストではなく、メインの食料品リストに設定 - ウィジェットには未購入数のみが表示されます"
         },
         {
-          "title": "Invites",
-          "description": "Recent emails appear when inviting—tap to resend faster - Wait a few seconds between resends to the same address (anti-spam)"
+          "title": "招待します",
+          "description": "招待すると最近のメールが表示されます - タップすると再送信が早くなります - 同じアドレスに再送信する場合は数秒待ってください (スパム対策)"
         },
         {
-          "title": "Premium value",
-          "description": "Worth it if you run multiple households or large families on one list - Restore purchases on a new phone: Premium screen → restore link"
+          "title": "Premium 値",
+          "description": "1 つのリストで複数の世帯または大家族を管理している場合は価値があります - 新しい携帯電話で購入内容を復元: Premium 画面 → リンクを復元"
         },
         {
-          "title": "Privacy",
-          "description": "Only people you invite see a list - Delete account anytime: Settings → Account → Delete account"
+          "title": "プライバシー",
+          "description": "招待した人のみにリストが表示されます - アカウントはいつでも削除できます: [設定] → [アカウント] → [アカウントの削除]"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "よくある質問",
+      "subtitle": "機能、プライバシー、請求に関する簡単な回答。",
+      "viewAllSupport": "フルサポートを見る & FAQ",
       "items": [
         {
-          "question": "What is ZuList?",
-          "answer": "A collaborative shopping list app. Create lists, share with others, and sync in real time on iOS and Android."
+          "question": "ZuListとは何ですか?",
+          "answer": "共同で使える買い物リストアプリ。リストを作成し、他の人と共有し、iOS と Android でリアルタイムで同期します。"
         },
         {
-          "question": "Is ZuList free?",
-          "answer": "Yes. Free tier includes up to 5 lists, 150 items per list, and sharing with one other person per list. Premium removes limits and ads."
+          "question": "ZuListは無料ですか?",
+          "answer": "はい。無料利用枠には、最大 5 つのリスト、リストあたり 150 アイテム、リストあたり 1 人の他のユーザーとの共有が含まれます。 Premium は制限と広告を削除します。"
         },
         {
-          "question": "Do I need an account?",
-          "answer": "You can start as a guest. Sign in to sync across devices and accept invites reliably."
+          "question": "アカウントは必要ですか?",
+          "answer": "ゲストとして始めることもできます。サインインしてデバイス間で同期し、招待を確実に受け入れます。"
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Chinese (Simplified), Japanese, and Korean."
+          "question": "どの言語がサポートされていますか?",
+          "answer": "英語、ヘブライ語、アラビア語、ドイツ語、スペイン語、フランス語、イタリア語、ポルトガル語、ロシア語、中国語 (簡体字)、日本語、韓国語。"
         },
         {
-          "question": "How fast is sync?",
-          "answer": "Usually instant when online. Offline changes upload when connectivity returns."
+          "question": "同期はどれくらい速いですか?",
+          "answer": "オンラインであれば通常は即時です。接続が回復すると、オフラインでの変更がアップロードされます。"
         },
         {
-          "question": "Can two people edit at the same time?",
-          "answer": "Yes. Last write wins for the same field; the list stays consistent."
+          "question": "2人で同時に編集できますか?",
+          "answer": "はい。同じフィールドでは最後の書き込みが優先されます。リストは一貫性を保ちます。"
         },
         {
-          "question": "How do I remove someone from a list?",
-          "answer": "List owner → Members → remove. They lose access immediately."
+          "question": "リストから誰かを削除するにはどうすればよいですか?",
+          "answer": "リストの所有者→メンバー→削除。すぐにアクセスできなくなります。"
         },
         {
-          "question": "Why doesn’t the widget match the list I’m viewing?",
-          "answer": "The widget always shows your **primary list** from Settings."
+          "question": "ウィジェットが表示しているリストと一致しないのはなぜですか?",
+          "answer": "ウィジェットには、[設定] の **プライマリ リスト**が常に表示されます。"
         },
         {
-          "question": "How do I add the widget?",
-          "answer": "See [How to: Home screen widget](./how-to-home-widget.md)."
+          "question": "ウィジェットを追加するにはどうすればよいですか?",
+          "answer": "[方法: ホーム画面ウィジェット](./how-to-home-widget.md) を参照してください。"
         },
         {
-          "question": "What does Premium include?",
-          "answer": "Unlimited lists, items, and members; no ads; advanced statistics; themes; premium offline features; cloud backup."
+          "question": "Premiumには何が含まれますか?",
+          "answer": "無制限のリスト、アイテム、メンバー。広告はありません。高度な統計。テーマ。 premium オフライン機能;クラウドバックアップ。"
         },
         {
-          "question": "How do I cancel?",
-          "answer": "Manage subscription in the App Store or Google Play—ZuList updates automatically via store webhooks."
+          "question": "キャンセルするにはどうすればよいですか?",
+          "answer": "App Store または Google Play—ZuList の更新でサブスクリプションをストア Webhook 経由で自動的に管理します。"
         },
         {
-          "question": "Where is my data stored?",
-          "answer": "Firebase (Google Cloud). Lists are private to you and invited members."
+          "question": "私のデータはどこに保存されますか?",
+          "answer": "Firebase (Google クラウド)。リストはあなたと招待されたメンバーにのみ公開されます。"
         }
       ]
     }

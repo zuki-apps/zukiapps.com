@@ -1,13 +1,18 @@
 {
   "footballTrivia": {
-    "back": "Back to Home",
+    "back": "Retour à la maison",
     "hero": {
-      "title": "Football Trivia Master",
+      "title": "Maître des quiz sur le football",
       "subtitle": "210+ questions • World Football, National Teams, World Cups, 2026 World Cup",
-      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps."
+      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps.",
+      "seoTitle": "Quiz sur le football — Jeu de quiz sur le football | Zuki Apps",
+      "metaDescription": "Plus de 450 questions, séquences et classements de quiz sur le football chronométrés. Gratuit sur iOS et Android — téléchargez maintenant.",
+      "structuredDataDescription": "Football Trivia Master - quiz de football pour iOS et Android avec plus de 450 questions chronométrées sur le football mondial, les équipes nationales, les finales mondiales et les projecteurs des tournois. Forfait com.zuki.apps.footballtrivia par Zuki Apps.",
+      "badge": "Quiz de football gratuit · iOS & Android",
+      "trustLine": "Divertissement indépendant par Zuki Apps. Non affilié à aucune ligue, fédération, club ou organisateur de tournoi."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Principales fonctionnalités",
       "categories": {
         "title": "4 Categories",
         "description": "210+ questions across four themes",
@@ -35,111 +40,337 @@
           "Accuracy tracking",
           "Points with streak bonuses"
         ]
-      }
+      },
+      "items": [
+        {
+          "title": "Quatre catégories thématiques",
+          "description": "Football mondial, équipes nationales, finales mondiales et projecteurs sur les tournois."
+        },
+        {
+          "title": "Faites la course contre la montre",
+          "description": "Questions chronométrées avec Facile (20 s), Moyen (15 s) ou Difficile (12 s). Activez le mode difficile pendant 12 secondes à chaque tour."
+        },
+        {
+          "title": "Séries et scores",
+          "description": "Enchaînez les réponses correctes pour un bonus de séquence allant jusqu'à +50 % et un gros bonus de ronde parfaite pour 10/10."
+        },
+        {
+          "title": "Rivaliser à l'échelle mondiale",
+          "description": "Game Center (iOS) et Play Games (Android) pour les réalisations et les classements."
+        },
+        {
+          "title": "12 langues",
+          "description": "Arabe, chinois, anglais, français, allemand, hébreu, italien, japonais, coréen, portugais, russe, espagnol."
+        },
+        {
+          "title": "Jouez à votre façon",
+          "description": "Thème sombre ou clair, statistiques détaillées, suppression ponctuelle facultative des publicités, consentement RGPD dans les paramètres."
+        }
+      ]
     },
     "status": {
-      "title": "Available on App Store and Google Play",
-      "description": "Football Trivia Master is live on iPhone, iPad, and Android.",
+      "title": "Disponible le App Store et le Google Play",
+      "description": "Football Trivia Master est en direct sur iPhone, iPad et Android.",
       "statusValue": "iOS · Android",
       "version": "Version",
-      "status": "Platform",
+      "status": "Plate-forme",
       "versionValue": "1.0.4+13"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Football Trivia Master on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "Télécharger",
+      "description": "Obtenez Football Trivia Master sur les App Store et Google Play.",
+      "soon": "Disponible maintenant",
       "appStoreUrl": "https://apps.apple.com/il/app/football-trivia-master/id6760652362",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "Téléchargez sur le App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.footballtrivia",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Obtenez-le sur Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Liens importants",
       "support": {
-        "title": "Technical Support",
+        "title": "Assistance technique",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "footer": {
       "copyright": "© 2026 Football Trivia Master - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "tagline": "Fait partie de Zuki Apps • Développeur d'Israël • Fabriqué avec ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Football Trivia Master. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "Conditions d'utilisation",
+      "lastUpdated": "Dernière mise à jour : janvier 2025",
+      "intro": "Veuillez lire attentivement ces conditions d'utilisation avant d'utiliser Football Trivia Master. En accédant ou en utilisant notre service, vous acceptez d'être lié par ces conditions.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use govern your access to and use of Football Trivia Master, a trivia game operated by Zuki Apps. By downloading, installing, or using the Service, you agree to be bound by these Terms and our Privacy Policy."
+        "title": "1. Acceptation des conditions",
+        "content": "Les présentes conditions d'utilisation régissent votre accès et votre utilisation de Football Trivia Master, un jeu-questionnaire exploité par Zuki Apps. En téléchargeant, en installant ou en utilisant le Service, vous acceptez d'être lié par ces Conditions et notre Politique de confidentialité."
       },
       "section19": {
-        "title": "Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "Coordonnées",
+        "content": "Si vous avez des questions concernant ces Conditions, veuillez nous contacter :",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAËL"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "politique de confidentialité",
+      "lastUpdated": "Dernière mise à jour : janvier 2025",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Football Trivia Master collects minimal information necessary to provide the service. Game progress and statistics are stored locally on your device. We may collect information you provide when you contact support."
+        "title": "1. Informations que nous collectons",
+        "content": "Football Trivia Master collecte le minimum d'informations nécessaires pour fournir le service. La progression du jeu et les statistiques sont stockées localement sur votre appareil. Nous pouvons collecter les informations que vous fournissez lorsque vous contactez le support."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide and improve our services. Locally stored data is not transmitted to our servers except as needed for optional features."
+        "title": "2. Comment nous utilisons vos informations",
+        "content": "Nous utilisons les informations pour fournir et améliorer nos services. Les données stockées localement ne sont pas transmises à nos serveurs, sauf si cela est nécessaire pour des fonctionnalités facultatives."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties."
+        "title": "3. Partage d'informations",
+        "content": "Nous ne vendons ni ne partageons vos informations personnelles avec des tiers."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device."
+        "title": "4. Sécurité des données",
+        "content": "Nous mettons en œuvre des mesures de sécurité appropriées. Vos données de jeu sont stockées localement sur votre appareil."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings. You may delete the app at any time."
+        "title": "5. Vos droits",
+        "content": "Vous pouvez effacer les données locales via les paramètres de l'application. Vous pouvez supprimer l'application à tout moment."
       },
       "section6": {
-        "title": "6. Changes to This Policy",
-        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app or on our website."
+        "title": "6. Modifications de cette politique",
+        "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique dans l'application ou sur notre site Web."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. Contactez-nous",
+        "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAËL"
       },
       "metaDescription": "Politique de confidentialité de Football Trivia – comment nous traitons vos données sur iOS et Android."
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Contact us directly.",
+      "title": "Assistance et aide",
+      "subtitle": "Nous sommes là pour vous aider ! Contactez-nous directement.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email.",
+        "title": "Contactez-nous",
+        "description": "Vous avez une question ou besoin d'aide ? Envoyez-nous un e-mail.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "Liens rapides",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "politique de confidentialité",
+          "description": "Découvrez comment nous protégeons vos données"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "Conditions d'utilisation",
+          "description": "Lisez nos termes et conditions"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
+        "title": "Besoin de plus d'aide ?",
+        "description": "Si vous avez une question ou rencontrez un problème technique, veuillez nous contacter. Nous répondons généralement dans les 24 à 48 heures."
       },
       "metaTitle": "Assistance et aide — Quiz sur le football | Zuki Apps",
       "metaDescription": "Football Trivia FAQ et support - jeu de quiz sur le football. Contact, confidentialité et dépannage."
+    },
+    "howToUse": {
+      "title": "Comment jouer",
+      "subtitle": "Un tour complet prend environ 3 à 5 minutes. Aucun compte requis : connectez-vous uniquement aux classements.",
+      "steps": [
+        {
+          "title": "Appuyez sur Démarrer le jeu",
+          "description": "Depuis l'écran d'accueil. Basculez éventuellement en mode difficile pendant 12 secondes par question."
+        },
+        {
+          "title": "Choisissez une catégorie",
+          "description": "Toutes les catégories pour un mélange, ou concentrez-vous sur l'une des quatre piscines thématiques."
+        },
+        {
+          "title": "Répondez à 10 questions",
+          "description": "Appuyez sur l'une des quatre options avant la fin du temps imparti. Les bonnes réponses construisent votre séquence."
+        },
+        {
+          "title": "Vérifiez vos résultats",
+          "description": "Consultez la répartition des scores, la précision et toutes les réalisations débloquées."
+        },
+        {
+          "title": "Grimpez au classement",
+          "description": "Connectez-vous via Play Games ou Game Center, puis ouvrez le classement depuis chez vous."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "subtitle": "Réponses rapides avant de télécharger.",
+      "viewAllSupport": "Voir toute l'assistance →",
+      "items": [
+        {
+          "question": "Est-ce que Football Trivia Master est gratuit ?",
+          "answer": "Oui. L'application est gratuite à télécharger et à jouer. Des bannières et des annonces interstitielles facultatives apparaissent entre les sessions. Vous pouvez supprimer définitivement les publicités avec un achat unique dans l'application dans les paramètres."
+        },
+        {
+          "question": "Ai-je besoin d'un compte ?",
+          "answer": "Aucun compte n'est requis pour jouer à des jeux-questionnaires. Connectez-vous avec Game Center (iOS) ou Google Play Games (Android) uniquement si vous souhaitez des classements et des réalisations."
+        },
+        {
+          "question": "Quels appareils sont pris en charge ?",
+          "answer": "iPhone et iPad (iOS) et Android téléphones et tablettes. L'application est optimisée pour la lecture de portraits."
+        },
+        {
+          "question": "Quelles langues sont disponibles ?",
+          "answer": "Arabe, chinois (simplifié et traditionnel), anglais, français, allemand, hébreu, italien, japonais, coréen, portugais, russe et espagnol. Changez la langue dans Paramètres → Langue."
+        },
+        {
+          "question": "Combien de questions y a-t-il dans un tour ?",
+          "answer": "Chaque tour comporte 10 questions à choix multiples, sauf si vous arrêtez tôt."
+        },
+        {
+          "question": "Qu'est-ce que le mode difficile sur l'écran d'accueil ?",
+          "answer": "Le mode difficile limite chaque question à 12 secondes et peut débloquer des réalisations spéciales. C’est différent du choix de la difficulté Difficile dans une catégorie : utilisez-le lorsque vous souhaitez un défi maximal."
+        },
+        {
+          "question": "Comment fonctionne la notation ?",
+          "answer": "Les points proviennent de la difficulté des questions, d'un bonus de temps (réponse avec au moins la moitié du temps restant), de multiplicateurs de séquences (jusqu'à +50 % après 5 bonnes réponses consécutives) et d'un bonus de tour parfait lorsque vous obtenez 10/10. Appuyez sur le ? icône sur l'écran d'accueil pour le guide de notation intégré à l'application."
+        },
+        {
+          "question": "Puis-je jouer hors ligne ?",
+          "answer": "Oui. Les questions sont stockées dans l'application. Les classements, les réalisations, les publicités et les achats nécessitent une connexion Internet."
+        },
+        {
+          "question": "Pourquoi ne puis-je pas voir le classement ?",
+          "answer": "Sur Android, connectez-vous à Google Play Games lorsque vous y êtes invité. Sur iOS, activez Game Center pour l'application. Si la connexion échoue, mettez à jour l'application, vérifiez votre compte Google/Apple et réessayez à partir des paramètres."
+        },
+        {
+          "question": "Les classements sont-ils mondiaux ?",
+          "answer": "Oui. Les scores sont soumis aux classements de plateforme (Game Center / Play Games) pour votre région et vos amis."
+        },
+        {
+          "question": "Comment supprimer les publicités ?",
+          "answer": "Ouvrez Paramètres → Supprimer les publicités et finalisez l'achat unique. Utilisez Réessayer si le magasin met du temps à répondre. Restaurez les achats sur un nouvel appareil via le même compte de magasin."
+        },
+        {
+          "question": "Pourquoi est-ce que je vois encore des publicités après l'achat ?",
+          "answer": "Assurez-vous que l'achat est terminé (vérifiez le reçu par e-mail). Appuyez sur Restaurer dans Paramètres. Forcez la fermeture et rouvrez l'application. Contactez l'assistance si le problème persiste avec le reçu de votre magasin."
+        },
+        {
+          "question": "Y a-t-il des abonnements ?",
+          "answer": "Non. La suppression des publicités est un achat unique et non un abonnement."
+        },
+        {
+          "question": "Quelles données collectez-vous ?",
+          "answer": "Consultez notre politique de confidentialité sur zukiapps.com/football-trivia/privacy. Des rapports de crash peuvent être envoyés via Firebase Crashlytics pour améliorer la stabilité. Les partenaires publicitaires peuvent collecter des données selon vos choix de consentement dans les paramètres."
+        },
+        {
+          "question": "Comment contacter l'assistance ?"
+        },
+        {
+          "question": "Est-ce une application officielle de la FIFA ou de la Coupe du Monde ?",
+          "answer": "Non. Football Trivia Master est un divertissement indépendant de Zuki Apps. Nous ne sommes affiliés à la FIFA, ni à aucune fédération, ligue, club ou organisateur de tournoi."
+        }
+      ]
+    },
+    "statsBar": {
+      "items": [
+        {
+          "label": "Questions",
+          "value": "450+"
+        },
+        {
+          "label": "Catégories"
+        },
+        {
+          "label": "Langues"
+        },
+        {
+          "label": "Par tour"
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "Caractéristiques",
+      "screenshots": "Captures d'écran",
+      "howTo": "Comment jouer",
+      "faq": "FAQ",
+      "tips": "Conseils de pro",
+      "download": "Télécharger"
+    },
+    "screenshots": {
+      "title": "Dans l'application",
+      "subtitle": "Captures d'appareils réels : accueil, catégories, gameplay, résultats, classement et statistiques.",
+      "featuresTitle": "Écrans d'application",
+      "items": [
+        {
+          "id": "maison",
+          "title": "Votre hub pour chaque tour",
+          "description": "Démarrez le jeu, barre de statistiques, mode difficile et liens rapides vers le classement et les réalisations.",
+          "alt": "Écran d'accueil de Football Trivia Master avec Démarrer le jeu",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "catégorie",
+          "title": "Quatre thèmes + tout mélanger",
+          "description": "Choisissez Football mondial, équipes nationales, finales mondiales, projecteurs sur les tournois ou toutes les catégories.",
+          "alt": "Sélecteur de catégories de quiz sur le football",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "jeu",
+          "title": "Battre l'horloge",
+          "description": "Quatre options par question avec une minuterie visible et un indicateur de séquence.",
+          "alt": "Écran de questions Football Trivia avec minuterie",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "résultats",
+          "title": "Voir chaque point que vous avez gagné",
+          "description": "Répartition des scores, précision et réalisations débloquées après chaque tour.",
+          "alt": "Résultats du quiz sur le football et répartition des scores",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "classement",
+          "title": "Rivaliser dans le monde entier",
+          "description": "Classements mondiaux via Game Center ou Google Play Games.",
+          "alt": "Classement mondial de Football Trivia",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "statistiques",
+          "title": "Suivre l'amélioration",
+          "description": "Jeux joués, précision et performances par catégorie.",
+          "alt": "Écran de statistiques de Football Trivia",
+          "category": "caractéristiques"
+        }
+      ]
+    },
+    "tips": {
+      "title": "Conseils de pro",
+      "subtitle": "Des petites habitudes qui s'additionnent au classement.",
+      "items": [
+        {
+          "title": "Protégez votre séquence",
+          "description": "Les multiplicateurs de séquence sont plafonnés à +50 % (5 corrects d'affilée). Une mauvaise réponse est remise à zéro."
+        },
+        {
+          "title": "Chassez le bonus de temps",
+          "description": "Répondez avec au moins la moitié du temps restant pour un maximum de +50 points bonus par question."
+        },
+        {
+          "title": "Les tours parfaits paient",
+          "description": "+150 points pour 10/10 – souvent plus de deux questions moyennes combinées."
+        },
+        {
+          "title": "Échauffez-vous avec toutes les catégories",
+          "description": "Les tours mixtes exposent les points faibles. Vérifiez les statistiques et explorez votre catégorie la plus basse."
+        },
+        {
+          "title": "Connectez-vous avant une course sérieuse",
+          "description": "Ouvrez le classement une fois par session pour confirmer que Game Center / Play Games est connecté."
+        },
+        {
+          "title": "Faites correspondre la langue à vos connaissances",
+          "description": "Les questions sont localisées : activez les paramètres si une autre langue vous convient mieux."
+        }
+      ]
     }
   }
 }

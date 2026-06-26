@@ -3,10 +3,12 @@
     "back": "返回首页",
     "hero": {
       "badge": "现已推出 - 版本 1.0.9",
-      "title": "ZuList - Manage & Share Lists",
+      "title": "ZuList - 管理和共享列表",
       "subtitle": "面向家庭的智能购物清单",
       "description": "适合一起购物的家庭和朋友的完美应用程序。实时创建、共享和管理购物清单，实现无缝协作。",
-      "structuredDataDescription": "ZuList is the ultimate shopping list app designed for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration. Features include real-time sync, offline support, smart product suggestions, category management, purchase history, and premium subscriptions."
+      "structuredDataDescription": "ZuList is the ultimate shopping list app designed for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration. Features include real-time sync, offline support, smart product suggestions, category management, purchase history, and premium subscriptions.",
+      "seoTitle": "ZuList — 智能购物清单 | Zuki Apps",
+      "metaDescription": "具有实时同步和离线模式的共享购物清单。 iOS 和 Android 家庭免费 - 尝试 ZuList。"
     },
     "features": {
       "title": "主要功能",
@@ -60,10 +62,10 @@
         "title": "12种语言支持",
         "description": "完整支持12种语言，界面已翻译",
         "items": [
-          "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
-          "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
-          "🇵🇹 Portuguese, 🇷🇺 Russian, 🇫🇷 French",
-          "🇯🇵 Japanese, 🇰🇷 Korean, 🇸🇦 Arabic, 🇨🇳 Chinese"
+          "🇺🇸 英语，🇮🇱 希伯来语 (עברйת) - 完整 RTL",
+          "🇩🇪德语、🇪🇸西班牙语、🇮🇹意大利语",
+          "🇵🇹葡萄牙语、🇷🇺俄语、🇫🇷法语",
+          "🇯🇵日语，🇰🇷韩语，🇸🇦阿拉伯语，🇨🇳中文"
         ]
       },
       "categories": {
@@ -186,9 +188,9 @@
       "download": "下载",
       "appStoreUrl": "https://apps.apple.com/us/app/zulist/id6753878439",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.zulist",
-      "appIconAlt": "ZuList App Icon",
-      "appStoreAlt": "Download on the App Store",
-      "googlePlayAlt": "Get it on Google Play"
+      "appIconAlt": "ZuList 应用程序图标",
+      "appStoreAlt": "下载App Store",
+      "googlePlayAlt": "获取Google Play"
     },
     "perfectFor": {
       "title": "适合",
@@ -228,476 +230,479 @@
       }
     },
     "footer": {
-      "copyright": "© 2025 ZuList - All rights reserved",
+      "copyright": "© 2025 ZuList - 保留所有权利",
       "tagline": "Zuki Apps的一部分 • 来自以色列的开发者 • 用❤️制作",
       "bundle": "包ID：com.zukiapps.zulist | 版本：1.0.4"
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support."
+        "title": "1. 我们收集的信息",
+        "content": "我们收集您直接向我们提供的信息，例如当您创建帐户、使用我们的服务或联系我们寻求支持时。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you."
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用收集的信息来提供、维护和改进我们的服务、处理交易以及与您沟通。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy."
+        "title": "3. 信息共享",
+        "content": "未经您的同意，我们不会出售、交易或以其他方式将您的个人信息转让给第三方，本政策中所述的情况除外。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+        "title": "4. 数据安全",
+        "content": "我们实施适当的安全措施来保护您的个人信息免遭未经授权的访问、更改、披露或破坏。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your personal information. You may also opt out of certain communications from us."
+        "title": "5. 您的权利",
+        "content": "您有权访问、更新或删除您的个人信息。您也可以选择不接收我们的某些通信。"
       },
       "section6": {
-        "title": "6. Camera and Photo Library Access",
-        "content": "ZuList requires access to your device's camera and photo library to allow you to take and upload photos of shopping list items. We only access these features when you explicitly choose to add a photo to a list or item. Photos are stored securely in our cloud storage and are only accessible to you and users you share your lists with."
+        "title": "6. 相机和照片库访问",
+        "content": "ZuList 需要访问您设备的相机和照片库，以便您拍摄和上传购物清单项目的照片。仅当您明确选择将照片添加到列表或项目时，我们才会访问这些功能。照片安全地存储在我们的云存储中，只有您和您与之共享列表的用户才能访问。"
       },
       "section7": {
-        "title": "7. Crash Reporting and Error Analytics",
-        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
-        "dataCollected": "Data Collected:",
+        "title": "7. 崩溃报告和错误分析",
+        "content": "我们使用Firebase Crashlytics（Google 提供的一项服务）来收集有关应用程序崩溃和错误的信息。这有助于我们识别并解决问题以改善您的体验。",
+        "dataCollected": "收集的数据：",
         "dataCollectedItems": [
-          "Technical information about crashes and errors (stack traces, error messages)",
-          "Device information (operating system, device model, app version)",
-          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
-          "Custom diagnostic information related to errors (error codes, operation types)"
+          "有关崩溃和错误的技术信息（堆栈跟踪、错误消息）",
+          "设备信息（操作系统、设备型号、应用版本）",
+          "安装 ID（您的应用安装的唯一标识符，与您的个人身份无关）",
+          "与错误相关的自定义诊断信息（错误代码、操作类型）"
         ],
-        "purpose": "Purpose:",
+        "purpose": "目的：",
         "purposeItems": [
-          "Identify and fix bugs and crashes",
-          "Improve app stability and performance",
-          "Analyze error patterns"
+          "识别并修复错误和崩溃",
+          "提高应用稳定性和性能",
+          "分析错误 pattern"
         ],
-        "dataSharing": "Data Sharing:",
-        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
-        "dataRetention": "Data Retention:",
-        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
-        "yourRights": "Your Rights:",
-        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+        "dataSharing": "数据共享：",
+        "dataSharingContent": "该数据由 Google Firebase 处理，并受 Google 隐私政策的约束。",
+        "dataRetention": "数据保留：",
+        "dataRetentionContent": "崩溃报告会被 Firebase 保留最多 90 天，然后自动删除。",
+        "yourRights": "您的权利：",
+        "yourRightsContent": "您可以通过在设备设置中禁用崩溃报告来选择退出，但这可能会阻止我们修复影响您的问题。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 联系我们",
+        "content": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
         "email": "zuki.apps@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       },
       "metaDescription": "ZuList 隐私政策 — 我们如何处理您在 iOS 和 Android 上的数据。"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using ZuList. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
+      "intro": "使用ZuList前请仔细阅读本使用条款。通过访问或使用我们的服务，您同意受这些条款的约束。如果您不同意这些条款，请不要使用我们的服务。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of ZuList (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a shopping list application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 接受条款",
+        "content": "这些使用条款（“条款”）管辖您对ZuList（“服务”、“应用程序”、“我们”、“我们”或“我们的”）的访问和使用，Zuki Apps（“公司”）运营的购物清单应用程序。通过下载、安装、访问或使用服务，您同意受这些条款和我们的隐私政策的约束。",
+        "content2": "如果您代表某个组织使用服务，则您声明并保证您有权约束该组织遵守这些条款。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "ZuList is a mobile application that allows users to create, manage, and share shopping lists with family and friends. The Service includes:",
+        "title": "2. 服务说明",
+        "content": "ZuList是一款移动应用程序，允许用户创建、管理和与家人和朋友分享购物清单。该服务包括：",
         "items": {
-          "item1": "Creating and managing shopping lists",
-          "item2": "Sharing lists with other users",
-          "item3": "Real-time synchronization across devices",
-          "item4": "Product suggestions and categorization",
-          "item5": "Purchase history tracking",
-          "item6": "Premium subscription features (as described in Section 4)"
+          "item1": "创建和管理购物清单",
+          "item2": "与其他用户共享列表",
+          "item3": "跨设备实时同步",
+          "item4": "产品建议和分类",
+          "item5": "购买历史追踪",
+          "item6": "Premium 订阅功能（如第 4 节所述）"
         }
       },
       "section3": {
-        "title": "3. User Accounts and Registration",
-        "subtitle1": "3.1. Account Creation",
-        "content1": "To use certain features of the Service, you must create an account. You can create an account using:",
+        "title": "3. 用户帐户和注册",
+        "subtitle1": "3.1.创建账户",
+        "content1": "要使用服务的某些功能，您必须创建一个帐户。您可以使用以下方式创建帐户：",
         "items1": {
-          "item1": "Google Sign-In",
-          "item2": "Apple Sign-In",
-          "item3": "Email and password (if available)"
+          "item1": "谷歌登录",
+          "item2": "苹果登录",
+          "item3": "电子邮件和密码（如果有）"
         },
-        "subtitle2": "3.2. Account Responsibilities",
-        "content2": "You are responsible for:",
+        "subtitle2": "3.2.账户责任",
+        "content2": "您负责：",
         "items2": {
-          "item1": "Maintaining the confidentiality of your account credentials",
-          "item2": "All activities that occur under your account",
-          "item3": "Ensuring that your account information is accurate and up-to-date",
-          "item4": "Notifying us immediately of any unauthorized use of your account"
+          "item1": "维护您帐户凭据的机密性",
+          "item2": "您帐户下发生的所有活动",
+          "item3": "确保您的帐户信息准确且最新",
+          "item4": "如果您的帐户出现任何未经授权的使用，请立即通知我们"
         },
-        "subtitle3": "3.3. Age Requirements",
-        "content3": "You must be at least 13 years old to use the Service. If you are under 18, you represent that you have obtained parental or guardian consent to use the Service. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately."
+        "subtitle3": "3.3.年龄要求",
+        "content3": "您必须年满 13 岁才能使用该服务。如果您未满 18 岁，则您声明您已获得父母或监护人的同意才能使用本服务。如果您是父母或监护人并认为您的孩子已向我们提供了个人信息，请立即与我们联系。"
       },
       "section4": {
-        "title": "4. Premium Subscriptions and Payments",
-        "subtitle1": "4.1. Subscription Plans",
-        "content1": "ZuList offers premium subscription plans that provide access to additional features:",
+        "title": "4. Premium 订阅与支付",
+        "subtitle1": "4.1.订阅计划",
+        "content1": "ZuList 提供 premium 订阅计划，可提供对附加功能的访问：",
         "items1": {
-          "item1": "Monthly Subscription: Billed monthly, automatically renews unless cancelled",
-          "item2": "Yearly Subscription: Billed annually, automatically renews unless cancelled"
+          "item1": "每月订阅：按月计费，自动续订，除非取消",
+          "item2": "按年订阅：按年计费，自动续订，除非取消"
         },
-        "subtitle2": "4.2. Payment Terms",
-        "content2": "By purchasing a subscription, you agree to:",
+        "subtitle2": "4.2.付款条件",
+        "content2": "购买订阅即表示您同意：",
         "items2": {
-          "item1": "Pay the subscription fee at the time of purchase",
-          "item2": "Automatic renewal of your subscription at the end of each billing period",
-          "item3": "Prices may vary by region and are subject to change with notice"
+          "item1": "购买时支付订阅费",
+          "item2": "在每个计费周期结束时自动续订您的订阅",
+          "item3": "价格可能因地区而异，如有变更，恕不另行通知"
         },
-        "subtitle3": "4.3. Subscription Management",
-        "content3": "You can manage your subscription, including cancellation, through:",
+        "subtitle3": "4.3.订阅管理",
+        "content3": "您可以通过以下方式管理您的订阅，包括取消：",
         "items3": {
-          "item1": "iOS: Settings → [Your Name] → Subscriptions → ZuList",
-          "item2": "Android: Google Play Store → Subscriptions → ZuList"
+          "item1": "iOS：设置 → [您的名字] → 订阅 → ZuList",
+          "item2": "Android: Google Play 商店 → 订阅 → ZuList"
         },
-        "content3b": "If you cancel your subscription, you will continue to have access to premium features until the end of your current billing period. After that, your account will revert to the free tier.",
-        "subtitle4": "4.4. Refunds",
-        "content4": "Refund requests are handled by Apple (for iOS) or Google (for Android) according to their respective refund policies. We do not process refunds directly. For subscription refunds, please contact Apple Support or Google Play Support.",
-        "subtitle5": "4.5. Free Trial",
-        "content5": "If we offer a free trial, it will be clearly indicated at the time of sign-up. At the end of the trial period, your subscription will automatically convert to a paid subscription unless you cancel before the trial ends."
+        "content3b": "如果您取消订阅，您将继续可以使用 premium 功能，直到当前计费周期结束。之后，您的帐户将恢复为免费套餐。",
+        "subtitle4": "4.4.退款",
+        "content4": "退款请求由 Apple（针对 iOS）或 Google（针对 Android）根据各自的退款政策处理。我们不直接处理退款。如需订阅退款，请联系 Apple 支持或Google Play 支持。",
+        "subtitle5": "4.5.免费试用",
+        "content5": "如果我们提供免费试用，则会在注册时明确注明。试用期结束时，除非您在试用期结束前取消，否则您的订阅将自动转换为付费订阅。"
       },
       "section5": {
-        "title": "5. User Content and Conduct",
-        "subtitle1": "5.1. User-Generated Content",
-        "content1": "You retain ownership of all content you create, upload, or share through the Service (\"User Content\"), including shopping lists, items, notes, and photos.",
-        "subtitle2": "5.2. License to Use Your Content",
-        "content2": "By using the Service, you grant us a worldwide, non-exclusive, royalty-free license to:",
+        "title": "5. 用户内容和行为",
+        "subtitle1": "5.1.用户生成的内容",
+        "content1": "您保留通过服务创建、上传或共享的所有内容（“用户内容”）的所有权，包括购物清单、物品、注释和照片。",
+        "subtitle2": "5.2.使用您的内容的许可",
+        "content2": "通过使用本服务，您授予我们全球范围内的、非独家的、免版税的许可：",
         "items2": {
-          "item1": "Store, process, and display your User Content",
-          "item2": "Share your User Content with other users you explicitly invite to your lists",
-          "item3": "Use your User Content to provide and improve the Service"
+          "item1": "存储、处理和显示您的用户内容",
+          "item2": "与您明确邀请加入列表的其他用户共享您的用户内容",
+          "item3": "使用您的用户内容来提供和改进服务"
         },
-        "subtitle3": "5.3. Prohibited Content and Activities",
-        "content3": "You agree not to use the Service to:",
+        "subtitle3": "5.3.禁止的内容和活动",
+        "content3": "您同意不使用本服务来：",
         "items3": {
-          "item1": "Upload, post, or share any content that is illegal, harmful, threatening, abusive, harassing, defamatory, or otherwise objectionable",
-          "item2": "Impersonate any person or entity or falsely state or misrepresent your affiliation with any person or entity",
-          "item3": "Violate any applicable laws or regulations",
-          "item4": "Interfere with or disrupt the Service or servers connected to the Service",
-          "item5": "Attempt to gain unauthorized access to any portion of the Service",
-          "item6": "Use automated systems (bots, scrapers) to access the Service without permission",
-          "item7": "Reverse engineer, decompile, or disassemble any portion of the Service"
+          "item1": "上传、发布或分享任何非法、有害、威胁、辱骂、骚扰、诽谤或其他令人反感的内容",
+          "item2": "冒充任何人或实体或虚假陈述或歪曲您与任何人或实体的关系",
+          "item3": "违反任何适用的法律或法规",
+          "item4": "干扰或破坏服务或连接到服务的服务器",
+          "item5": "Att未经授权访问服务的任何部分",
+          "item6": "使用自动化系统（机器人、抓取工具）未经许可访问服务",
+          "item7": "对服务的任何部分进行逆向工程、反编译或反汇编"
         }
       },
       "section6": {
-        "title": "6. Intellectual Property Rights",
-        "subtitle1": "6.1. Our Intellectual Property",
-        "content1": "The Service, including its original content, features, functionality, design, logos, and trademarks, is owned by Zuki Apps and is protected by international copyright, trademark, and other intellectual property laws.",
-        "subtitle2": "6.2. Zuli Monsters Characters and Images",
-        "content2": "All Zuli Monsters characters, images, icons, artwork, and related visual content displayed in the ZuList application are the exclusive property of Zuki Apps. These are original creations protected by copyright law and international intellectual property rights.",
-        "content2b": "Prohibited Uses: You may NOT, without explicit written permission from Zuki Apps:",
+        "title": "6. 知识产权",
+        "subtitle1": "6.1.我们的知识产权",
+        "content1": "本服务，包括其原创内容、特性、功能、设计、徽标和商标，均归Zuki Apps所有，并受国际版权、商标和其他知识产权法的保护。",
+        "subtitle2": "6.2. Zuli Monsters 人物和图像",
+        "content2": "ZuList应用程序中显示的所有Zuli Monsters字符、图像、图标、艺术品和相关视觉内容均为Zuki Apps的专有财产。这些是受版权法和国际知识产权保护的原创作品。",
+        "content2b": "禁止用途：未经 Zuki Apps 明确书面许可，您不得：",
         "items2": {
-          "item1": "Copy, reproduce, or duplicate any Zuli Monsters images or characters",
-          "item2": "Use Zuli Monsters images or characters in any other application, website, or product",
-          "item3": "Modify, alter, or create derivative works based on Zuli Monsters images or characters",
-          "item4": "Distribute, sell, or license Zuli Monsters images or characters to third parties",
-          "item5": "Use Zuli Monsters images or characters for commercial purposes",
-          "item6": "Remove copyright notices or attribution from Zuli Monsters images or characters"
+          "item1": "复制、复制或复制任何 Zuli Monsters 图像或字符",
+          "item2": "在任何其他应用程序、网站或产品中使用 Zuli Monsters 图像或字符",
+          "item3": "基于Zuli Monsters图像或字符修改、改变或创作衍生作品",
+          "item4": "向第三方分发、出售或许可 Zuli Monsters 图像或字符",
+          "item5": "将Zuli Monsters图片或文字用于商业用途",
+          "item6": "从 Zuli Monsters 图像或字符中删除版权声明或att贡献"
         },
-        "content2c": "All rights reserved. Any unauthorized use, reproduction, distribution, or commercial exploitation of Zuli Monsters images or characters constitutes copyright infringement and may result in legal action.",
+        "content2c": "版权所有。任何未经授权使用、复制、分发或商业利用Zuli Monsters图像或字符的行为均构成版权侵权，并可能导致法律诉讼。",
         "content2d": "For licensing inquiries or permission to use Zuli Monsters images or characters, please contact us at zuki.apps.dev@gmail.com.",
-        "subtitle3": "6.3. Limited License",
-        "content3": "We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Service for personal, non-commercial purposes in accordance with these Terms."
+        "subtitle3": "6.3.有限许可",
+        "content3": "我们授予您有限的、非排他的、不可转让的、可撤销的许可，以根据这些条款为个人、非商业目的访问和使用服务。"
       },
       "section7": {
-        "title": "7. Third-Party Services",
-        "content": "The Service integrates with third-party services, including:",
+        "title": "7. 第三方服务",
+        "content": "该服务与第三方服务集成，包括：",
         "items": {
-          "item1": "Firebase (Google): For authentication, data storage, and cloud services",
-          "item2": "Google Sign-In: For account authentication",
-          "item3": "Apple Sign-In: For account authentication",
-          "item4": "Google AdMob: For displaying advertisements",
-          "item5": "Apple App Store / Google Play: For in-app purchases and subscriptions"
+          "item1": "Firebase (Google)：用于身份验证、数据存储和云服务",
+          "item2": "Google登录：用于帐户身份验证",
+          "item3": "Apple 登录：用于帐户身份验证",
+          "item4": "Google AdMob：用于显示广告",
+          "item5": "Apple App Store / Google Play：用于应用内购买和订阅"
         },
-        "content2": "Your use of these third-party services is subject to their respective terms of service and privacy policies. We are not responsible for the practices of these third-party services."
+        "content2": "您对这些第三方服务的使用须遵守其各自的服务条款和隐私政策。我们对这些第三方服务的做法不承担任何责任。"
       },
       "section8": {
-        "title": "8. Advertising",
-        "content": "Free tier users may see advertisements displayed within the Service. These advertisements are provided by Google AdMob and are subject to Google's advertising policies. Premium subscribers receive an ad-free experience.",
-        "content2": "We do not use your personal information to personalize advertisements shown to you, except as permitted by applicable privacy laws and with your consent."
+        "title": "8. 广告",
+        "content": "免费套餐用户可能会看到服务中显示的广告。这些广告由 Google AdMob 提供，并受 Google 广告政策的约束。 Premium 订阅者可以获得无广告的体验。",
+        "content2": "除非适用的隐私法允许并征得您的同意，否则我们不会使用您的个人信息来个性化向您展示的广告。"
       },
       "section9": {
-        "title": "9. Service Availability and Modifications",
-        "subtitle1": "9.1. Service Availability",
-        "content1": "We strive to provide reliable service but do not guarantee that the Service will be available at all times. The Service may be unavailable due to:",
+        "title": "9. 服务可用性和修改",
+        "subtitle1": "9.1.服务可用性",
+        "content1": "我们努力提供可靠的服务，但不保证服务始终可用。该服务可能因以下原因而无法使用：",
         "items1": {
-          "item1": "Scheduled maintenance",
-          "item2": "Technical issues or failures",
-          "item3": "Force majeure events"
+          "item1": "定期维护",
+          "item2": "技术问题或故障",
+          "item3": "不可抗力事件"
         },
-        "subtitle2": "9.2. Service Modifications",
-        "content2": "We reserve the right to:",
+        "subtitle2": "9.2.服务修改",
+        "content2": "我们保留以下权利：",
         "items2": {
-          "item1": "Modify, suspend, or discontinue any part of the Service at any time",
-          "item2": "Change features, functionality, or pricing with reasonable notice",
-          "item3": "Impose limits on certain features or restrict access to parts of the Service"
+          "item1": "随时修改、暂停或终止服务的任何部分",
+          "item2": "在合理通知的情况下更改特性、功能或定价",
+          "item3": "对某些功能施加限制或限制对部分服务的访问"
         }
       },
       "section10": {
-        "title": "10. Termination",
-        "subtitle1": "10.1. Termination by You",
-        "content1": "You may stop using the Service at any time by:",
+        "title": "10. 终止",
+        "subtitle1": "10.1.由您终止",
+        "content1": "您可以随时通过以下方式停止使用服务：",
         "items1": {
-          "item1": "Deleting your account through the app settings",
-          "item2": "Uninstalling the app from your device",
-          "item3": "Contacting us to request account deletion"
+          "item1": "通过应用程序设置删除您的帐户",
+          "item2": "从您的设备卸载应用程序",
+          "item3": "联系我们请求删除帐户"
         },
-        "subtitle2": "10.2. Termination by Us",
-        "content2": "We may suspend or terminate your access to the Service immediately, without prior notice, if you:",
+        "subtitle2": "10.2.我们终止",
+        "content2": "如果您出现以下情况，我们可能会立即暂停或终止您对服务的访问，恕不另行通知：",
         "items2": {
-          "item1": "Violate these Terms",
-          "item2": "Engage in fraudulent, abusive, or illegal activity",
-          "item3": "Fail to pay subscription fees (for premium users)",
-          "item4": "Otherwise misuse the Service"
+          "item1": "违反这些条款",
+          "item2": "参与欺诈、滥用或非法活动",
+          "item3": "未能缴纳订阅费（premium用户）",
+          "item4": "否则滥用服务"
         },
-        "subtitle3": "10.3. Effect of Termination",
-        "content3": "Upon termination:",
+        "subtitle3": "10.3.终止的效力",
+        "content3": "终止时：",
         "items3": {
-          "item1": "Your right to use the Service will immediately cease",
-          "item2": "We may delete your account and User Content",
-          "item3": "You will not be entitled to any refund for unused subscription periods (subject to applicable law)"
+          "item1": "您使用服务的权利将立即终止",
+          "item2": "我们可能会删除您的帐户和用户内容",
+          "item3": "对于未使用的订阅期，您无权获得任何退款（根据适用法律）"
         }
       },
       "section11": {
-        "title": "11. Disclaimers",
-        "content": "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
-        "content2": "We do not warrant that:",
+        "title": "11. 免责声明",
+        "content": "本服务按“原样”和“可用”提供，不附有任何形式的明示或默示保证，包括但不限于对适销性、特定用途适用性和不侵权的默示保证。",
+        "content2": "我们不保证：",
         "items": {
-          "item1": "The Service will meet your requirements",
-          "item2": "The Service will be uninterrupted, timely, secure, or error-free",
-          "item3": "The results obtained from using the Service will be accurate or reliable",
-          "item4": "Any errors in the Service will be corrected"
+          "item1": "服务将满足您的要求",
+          "item2": "服务将不间断、及时、安全或无错误",
+          "item3": "使用本服务获得的结果将是准确或可靠的",
+          "item4": "服务中的任何错误都将得到纠正"
         }
       },
       "section12": {
-        "title": "12. Limitation of Liability",
-        "content": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ZUKI APPS, ITS AFFILIATES, OR THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, USE, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR USE OR INABILITY TO USE THE SERVICE.",
-        "content2": "Our total liability to you for all claims arising from or related to the Service shall not exceed the amount you paid us in the twelve (12) months preceding the claim, or $100, whichever is greater."
+        "title": "12. 责任限制",
+        "content": "在适用法律允许的最大范围内，在任何情况下，ZUKI APPS、其附属公司或其各自的管理人员、董事、员工或代理人均不对任何间接、偶然、特殊、后果性或惩罚性损害承担责任，包括但不限于因您使用或无法使用本服务而导致的利润、数据、使用损失或其他无形损失。",
+        "content2": "对于因服务引起或与服务相关的所有索赔，我们对您承担的总责任不得超过您在索赔前十二 (12) 个月内向我们支付的金额或 100 美元，以较高者为准。"
       },
       "section13": {
-        "title": "13. Indemnification",
-        "content": "You agree to indemnify, defend, and hold harmless Zuki Apps, its affiliates, and their respective officers, directors, employees, and agents from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including attorney's fees) arising from:",
+        "title": "13. 赔偿",
+        "content": "您同意对Zuki Apps、其关联公司及其各自的管理人员、董事、员工和代理人进行赔偿、为其辩护并使其免受以下原因引起的任何及所有索赔、损害、义务、损失、责任、成本或债务以及开支（包括attorney 的费用）：",
         "items": {
-          "item1": "Your use of the Service",
-          "item2": "Your violation of these Terms",
-          "item3": "Your violation of any third-party rights",
-          "item4": "Any User Content you submit, post, or transmit through the Service"
+          "item1": "您对服务的使用",
+          "item2": "您违反这些条款",
+          "item3": "您侵犯任何第三方权利",
+          "item4": "您通过服务提交、发布或传输的任何用户内容"
         }
       },
       "section14": {
-        "title": "14. Privacy",
-        "content": "Your privacy is important to us. Our collection and use of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference."
+        "title": "14. 隐私",
+        "content": "您的隐私对我们很重要。我们对您个人信息的收集和使用受我们的隐私政策的约束，该政策通过引用并入这些条款中。"
       },
       "section15": {
-        "title": "15. Dispute Resolution",
-        "subtitle1": "15.1. Governing Law",
-        "content1": "These Terms shall be governed by and construed in accordance with the laws of Israel, without regard to its conflict of law provisions.",
-        "subtitle2": "15.2. Dispute Resolution Process",
+        "title": "15. 争议解决",
+        "subtitle1": "15.1.适用法律",
+        "content1": "这些条款应受以色列法律管辖并根据以色列法律解释，不考虑其法律冲突条款。",
+        "subtitle2": "15.2.争议解决流程",
         "content2": "If you have any concerns or disputes regarding the Service, please contact us first at zuki.apps.dev@gmail.com. We will attempt to resolve any disputes in good faith."
       },
       "section16": {
-        "title": "16. Changes to Terms",
-        "content": "We reserve the right to modify these Terms at any time. We will notify you of any material changes by:",
+        "title": "16. 条款变更",
+        "content": "我们保留随时修改这些条款的权利。如有任何重大变更，我们将通过以下方式通知您：",
         "items": {
-          "item1": "Posting the updated Terms on this page",
-          "item2": "Updating the \"Last updated\" date",
-          "item3": "Sending a notification through the Service (if significant changes are made)"
+          "item1": "在此页面上发布更新后的条款",
+          "item2": "更新“上次更新”日期",
+          "item3": "通过服务发送通知（如果发生重大更改）"
         },
-        "content2": "Your continued use of the Service after such changes constitutes your acceptance of the modified Terms."
+        "content2": "您在此类更改后继续使用服务即表示您接受修改后的条款。"
       },
       "section17": {
-        "title": "17. Severability",
-        "content": "If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect."
+        "title": "17. 可分割性",
+        "content": "如果发现这些条款的任何规定无法执行或无效，则该规定应在必要的最小范围内受到限制或消除，其余规定仍具有完全效力。"
       },
       "section18": {
-        "title": "18. Entire Agreement",
-        "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
+        "title": "18. 完整协议",
+        "content": "这些条款与我们的隐私政策一起构成您与Zuki Apps之间关于服务的完整协议，并取代所有先前的协议和谅解。"
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 联系方式",
+        "content": "如果您对这些条款有任何疑问，请联系我们：",
         "email": "zuki.apps@gmail.com",
         "website": "https://zukiapps.com/zulist",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "deleteAccount": {
-      "title": "Delete ZuList Account",
-      "intro": "If you wish to delete your account and all associated data, please follow the steps below:",
+      "title": "删除ZuList账户",
+      "intro": "如果您想删除您的帐户和所有相关数据，请按照以下步骤操作：",
       "warning": {
-        "title": "⚠️ Important Warning",
-        "content": "Account deletion is a permanent action and cannot be undone. All data associated with your account will be permanently deleted."
+        "title": "⚠️重要警告",
+        "content": "帐户删除是永久性操作，无法撤消。与您的帐户关联的所有数据都将被永久删除。"
       },
       "steps": {
-        "title": "Account Deletion Instructions",
-        "step1": "Open the ZuList app on your device",
-        "step2": "Log in to your account (if you haven't already)",
-        "step3": "Tap the Profile button (or Settings) in the bottom menu",
-        "step4": "Scroll down until you find the Delete account button (or Delete account)",
-        "step5": "Tap the button and read the message",
-        "step6": "Confirm the deletion - the account and all data will be permanently deleted"
+        "title": "帐户删除说明",
+        "step1": "打开您设备上的ZuList应用程序",
+        "step2": "登录您的帐户（如果您尚未登录）",
+        "step3": "点击底部菜单中的“个人资料”按钮（或“设置”）",
+        "step4": "向下滚动，直到找到删除帐户按钮（或删除帐户）",
+        "step5": "点击按钮并阅读消息",
+        "step6": "确认删除-账户及所有数据将被永久删除"
       },
       "data": {
-        "title": "Data That Will Be Deleted",
-        "intro": "When you delete your account, the following data will be permanently deleted:",
-        "item1": "Personal information: name, email address, user ID",
-        "item2": "Shopping lists: all shopping lists you created",
-        "item3": "Items: all items in your lists",
-        "item4": "Photos: profile photos, list photos, item photos",
-        "item5": "Preferences: personal settings and user preferences",
-        "item6": "Purchase history: all statistical data and history",
-        "item7": "Sync data: all cloud-synced data"
+        "title": "将被删除的数据",
+        "intro": "当您删除帐户时，以下数据将被永久删除：",
+        "item1": "个人信息：姓名、电子邮件地址、用户 ID",
+        "item2": "购物清单：您创建的所有购物清单",
+        "item3": "项目：列表中的所有项目",
+        "item4": "照片：个人资料照片、列表照片、项目照片",
+        "item5": "首选项：个人设置和用户首选项",
+        "item6": "购买历史：所有统计数据和历史记录",
+        "item7": "同步数据：所有云端同步数据"
       },
       "sharedLists": {
         "owner": {
-          "title": "Lists you created (Owner):",
-          "item1": "If there are other users in the list → Ownership will be transferred to another user (automatically)",
-          "item2": "If you are the only one in the list → The list will be completely deleted"
+          "title": "您创建的列表（所有者）：",
+          "item1": "如果列表中有其他用户→所有权将转移给另一个用户（自动）",
+          "item2": "如果列表中只有您 → 该列表将被完全删除"
         },
         "member": {
-          "title": "Lists you participate in (Member):",
-          "item1": "You will be removed from the list",
-          "item2": "The list will remain active for other users",
-          "item3": "Data and items will remain (only you will be removed)"
-        }
+          "title": "您参与的列表（会员）：",
+          "item1": "您将从列表中删除",
+          "item2": "该列表将对其他用户保持活动状态",
+          "item3": "数据和项目将保留（只有您会被删除）"
+        },
+        "title": "共享列表会发生什么情况"
       },
       "partialDelete": {
-        "title": "Deleting Some Data (Without Deleting the Account)",
-        "intro": "If you wish to delete only some data without deleting the account, you can:",
-        "item1": "Delete profile photos: Profile screen → Remove photo",
-        "item2": "Delete lists: Home screen → Delete list",
-        "item3": "Delete items: Inside a list → Delete item"
+        "title": "删除部分数据（不删除账户）",
+        "intro": "如果您只想删除部分数据而不删除帐户，您可以：",
+        "item1": "删除个人资料照片：个人资料屏幕 → 删除照片",
+        "item2": "删除列表：主屏幕→删除列表",
+        "item3": "删除项目：在列表内 → 删除项目"
       },
       "retention": {
-        "title": "Retention Period",
-        "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+        "title": "保留期限",
+        "content": "帐户删除后，数据将在 30 天内从我们的服务器中删除。在此期间，数据可能会保留在备份中，但无法通过应用程序访问。"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with account deletion, please contact us:",
-        "email": "Email",
-        "privacy": "Privacy Policy",
-        "privacyLink": "Read the full privacy policy",
-        "terms": "Terms of Service",
-        "termsLink": "Read the terms of service"
+        "title": "联系我们",
+        "content": "如果您对帐户删除有任何疑问或问题，请联系我们：",
+        "email": "电子邮件",
+        "privacy": "隐私政策",
+        "privacyLink": "阅读完整的隐私政策",
+        "terms": "服务条款",
+        "termsLink": "阅读服务条款"
       }
     },
     "deleteData": {
-      "title": "Delete Data - ZuList",
+      "title": "删除数据 - ZuList",
       "intro": {
-        "title": "Deleting Data Without Deleting the Account",
-        "content": "You can delete some of your data without deleting the account. This way you can keep the account and delete only the data you want to remove."
+        "title": "删除数据而不删除帐户",
+        "content": "您可以在不删除帐户的情况下删除部分数据。这样您就可以保留该帐户并仅删除您想要删除的数据。"
       },
       "types": {
-        "title": "Types of Data You Can Delete",
+        "title": "您可以删除的数据类型",
         "profilePhotos": {
-          "title": "1. Profile Photos",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "Your profile photo",
-          "deletedItem2": "Custom photos uploaded manually",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "Username",
-          "keptItem3": "All other data",
-          "howTo": "How to delete:",
-          "step1": "Open the ZuList app",
-          "step2": "Tap the Profile button in the bottom menu",
-          "step3": "Tap your profile photo",
-          "step4": "Select Remove Image or Remove Image",
-          "step5": "Confirm the deletion"
+          "title": "1. 个人资料照片",
+          "deleted": "将删除的内容：",
+          "deletedItem1": "您的个人资料照片",
+          "deletedItem2": "手动上传的自定义照片",
+          "kept": "将保留什么：",
+          "keptItem1": "您的帐户",
+          "keptItem2": "用户名",
+          "keptItem3": "所有其他数据",
+          "howTo": "如何删除：",
+          "step1": "打开ZuList应用程序",
+          "step2": "点击底部菜单中的个人资料按钮",
+          "step3": "点按您的个人资料照片",
+          "step4": "选择删除图像或删除图像",
+          "step5": "确认删除"
         },
         "shoppingLists": {
-          "title": "2. Shopping Lists",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "The selected shopping list",
-          "deletedItem2": "All items in the list",
-          "deletedItem3": "List photos",
-          "deletedItem4": "List settings",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "All other lists",
-          "keptItem3": "Other personal data",
-          "howTo": "How to delete:",
-          "step1": "Open the ZuList app",
-          "step2": "On the home screen, find the list you want to delete",
-          "step3": "Long press on the list (or tap three dots)",
-          "step4": "Select Delete List or Delete List",
-          "step5": "Confirm the deletion"
+          "title": "2. 购物清单",
+          "deleted": "将删除的内容：",
+          "deletedItem1": "选定的购物清单",
+          "deletedItem2": "列表中的所有项目",
+          "deletedItem3": "列出照片",
+          "deletedItem4": "列表设置",
+          "kept": "将保留什么：",
+          "keptItem1": "您的帐户",
+          "keptItem2": "所有其他列表",
+          "keptItem3": "其他个人数据",
+          "howTo": "如何删除：",
+          "step1": "打开ZuList应用程序",
+          "step2": "在主屏幕上找到您要删除的列表",
+          "step3": "长按列表（或点击三个点）",
+          "step4": "选择删除列表或删除列表",
+          "step5": "确认删除"
         },
         "items": {
-          "title": "3. Items in Lists",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "The selected item",
-          "deletedItem2": "Item photos",
-          "deletedItem3": "Notes on the item",
-          "deletedItem4": "Quantity and price (if entered)",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "The list itself",
-          "keptItem3": "All other items in the list",
-          "howTo": "How to delete:",
-          "step1": "Open the ZuList app",
-          "step2": "Open the list containing the item",
-          "step3": "Long press on the item (or swipe left)",
-          "step4": "Select Delete or Delete",
-          "step5": "Confirm the deletion"
+          "title": "3. 列表中的项目",
+          "deleted": "将删除的内容：",
+          "deletedItem1": "所选项目",
+          "deletedItem2": "物品照片",
+          "deletedItem3": "关于该项目的注释",
+          "deletedItem4": "数量和价格（如果输入）",
+          "kept": "将保留什么：",
+          "keptItem1": "您的帐户",
+          "keptItem2": "列表本身",
+          "keptItem3": "列表中的所有其他项目",
+          "howTo": "如何删除：",
+          "step1": "打开ZuList应用程序",
+          "step2": "打开包含该项目的列表",
+          "step3": "长按该项目（或向左滑动）",
+          "step4": "选择删除或删除",
+          "step5": "确认删除"
         },
         "images": {
-          "title": "4. List and Item Photos",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "List photos (background/custom image)",
-          "deletedItem2": "Item photos",
-          "deletedItem3": "Category photos",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "The list/item/category itself",
-          "keptItem3": "All other data",
-          "howTo": "How to delete:",
-          "step1": "Open the list/item/category",
-          "step2": "Tap the photo",
-          "step3": "Select Remove Image or Remove Image",
-          "step4": "Confirm the deletion"
+          "title": "4. 清单和物品照片",
+          "deleted": "将删除的内容：",
+          "deletedItem1": "列出照片（背景/自定义图像）",
+          "deletedItem2": "物品照片",
+          "deletedItem3": "分类照片",
+          "kept": "将保留什么：",
+          "keptItem1": "您的帐户",
+          "keptItem2": "列表/项目/类别本身",
+          "keptItem3": "所有其他数据",
+          "howTo": "如何删除：",
+          "step1": "打开列表/项目/类别",
+          "step2": "点按照片",
+          "step3": "选择删除图像或删除图像",
+          "step4": "确认删除"
         },
         "purchaseHistory": {
-          "title": "5. Purchase History and Statistical Data",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "Purchase history (when items marked as purchased are deleted)",
-          "deletedItem2": "Statistical data (when lists are deleted)",
-          "deletedItem3": "History-based recommendations",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "Active lists",
-          "keptItem3": "Personal data",
+          "title": "5. 购买历史及统计数据",
+          "deleted": "将删除的内容：",
+          "deletedItem1": "购买历史记录（当标记为已购买的商品被删除时）",
+          "deletedItem2": "统计数据（删除列表时）",
+          "deletedItem3": "基于历史的建议",
+          "kept": "将保留什么：",
+          "keptItem1": "您的帐户",
+          "keptItem2": "活跃列表",
+          "keptItem3": "个人资料",
           "note": {
-            "title": "Note:",
-            "content": "Deleting purchase history is done automatically when items or lists are deleted. No separate action is required."
+            "title": "笔记：",
+            "content": "删除商品或列表时，会自动删除购买历史记录。不需要单独采取行动。"
           }
         }
       },
       "info": {
-        "title": "ℹ️ Important Information:",
-        "item1": "Data deletion is immediate - data is deleted immediately from the device and cloud",
-        "item2": "Deleted data cannot be recovered",
-        "item3": "If you participate in shared lists, deleting items/lists will also affect other users",
-        "item4": "Your account will remain active even after deleting data"
+        "title": "ℹ️重要信息：",
+        "item1": "数据立即删除 - 数据立即从设备和云端删除",
+        "item2": "删除的数据无法恢复",
+        "item3": "如果您参与共享列表，删除项目/列表也会影响其他用户",
+        "item4": "即使删除数据后，您的帐户仍将保持活动状态"
       },
       "retention": {
-        "title": "Retention Period",
-        "content": "Deleted data will be removed from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+        "title": "保留期限",
+        "content": "删除的数据将在 30 天内从我们的服务器中删除。在此期间，数据可能会保留在备份中，但无法通过应用程序访问。"
       },
       "fullDelete": {
-        "title": "Want to delete the entire account?",
-        "content": "If you wish to delete the entire account and all associated data,",
-        "link": "click here for full account deletion"
+        "title": "想要删除整个帐户吗？",
+        "content": "如果您想删除整个帐户和所有相关数据，",
+        "link": "单击此处进行完整帐户删除"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with data deletion, please contact us:",
-        "email": "Email",
-        "privacy": "Privacy Policy",
-        "privacyLink": "Read the full privacy policy"
+        "title": "联系我们",
+        "content": "如果您对数据删除有疑问或问题，请联系我们：",
+        "email": "电子邮件",
+        "privacy": "隐私政策",
+        "privacyLink": "阅读完整的隐私政策",
+        "terms": "服务条款",
+        "termsLink": "阅读服务条款"
       }
     },
     "support": {
@@ -730,28 +735,28 @@
       "faq": {
         "title": "常见问题",
         "q1": {
-          "question": "How do I share a shopping list with family members?",
-          "answer": "To share a list, open the list and tap the 'Share' or 'Members' button. You can invite members via email, SMS, WhatsApp, or by sharing a link. Once they accept the invitation, they'll have access to the list and can add or modify items in real-time."
+          "question": "如何与家人分享购物清单？",
+          "answer": "要共享列表，请打开列表并点击“共享”或“成员”按钮。您可以通过电子邮件、短信、WhatsApp或分享链接来邀请成员。一旦他们接受邀请，他们将可以访问该列表并可以实时添加或修改项目。"
         },
         "q2": {
-          "question": "How does the Premium subscription work?",
-          "answer": "Premium offers unlimited lists, unlimited items, unlimited members, ad-free experience, advanced statistics, custom themes, offline mode, and cloud backup. You can subscribe monthly or yearly through the App Store (iOS) or Google Play (Android). You can manage or cancel your subscription at any time through your device's subscription settings."
+          "question": "Premium订阅如何运作？",
+          "answer": "Premium提供无限列表、无限项目、无限会员、无广告体验、高级统计、自定义主题、离线模式和云备份。您可以通过App Store（iOS）或Google Play（Android）按月或按年订阅。您可以随时通过设备的订阅设置管理或取消订阅。"
         },
         "q3": {
-          "question": "Can I use ZuList offline?",
-          "answer": "Yes! ZuList works offline. You can create lists, add items, and mark items as purchased even without an internet connection. All changes will automatically sync when you're back online. Note: Offline mode is a Premium feature."
+          "question": "我可以离线使用ZuList吗？",
+          "answer": "是的！ ZuList 离线工作。即使没有互联网连接，您也可以创建列表、添加商品以及将商品标记为已购买。当您重新上线时，所有更改都会自动同步。注意：离线模式是Premium 功能。"
         },
         "q4": {
-          "question": "How do I delete my account?",
-          "answer": "To delete your account, go to Profile → Settings → Delete Account. Please note that account deletion is permanent and cannot be undone. All your data, including lists, items, and photos, will be permanently deleted. For detailed instructions, visit our Delete Account page."
+          "question": "如何删除我的帐户？",
+          "answer": "要删除您的帐户，请转至个人资料 → 设置 → 删除帐户。请注意，帐户删除是永久性的且无法撤消。您的所有数据，包括列表、项目和照片，都将被永久删除。有关详细说明，请访问我们的删除帐户页面。"
         },
         "q5": {
-          "question": "I'm having trouble with notifications. What should I do?",
-          "answer": "First, make sure notifications are enabled in your device settings for ZuList. If notifications still don't work, try: 1) Restarting the app, 2) Checking your device's notification settings, 3) Ensuring you have an active internet connection, 4) Reinstalling the app if the problem persists. If issues continue, please contact us."
+          "question": "我在通知方面遇到问题。我应该怎么办？",
+          "answer": "首先，确保在您的设备设置中启用了 ZuList 的通知。如果通知仍然不起作用，请尝试：1) 重新启动应用程序，2) 检查设备的通知设置，3) 确保您有有效的互联网连接，4) 如果问题仍然存在，请重新安装应用程序。如果问题仍然存在，请联系我们。"
         },
         "q6": {
-          "question": "How do I restore my data if I switch devices?",
-          "answer": "If you're using the same account (Google or Apple Sign-In), your data will automatically sync when you log in on a new device. Make sure you're connected to the internet and signed in with the same account. Premium users have cloud backup enabled, ensuring all data is safely stored and can be restored."
+          "question": "如果我切换设备，如何恢复数据？",
+          "answer": "如果您使用同一帐户（Google 或 Apple 登录），当您在新设备上登录时，您的数据将自动同步。确保您已连接到互联网并使用同一帐户登录。 Premium 用户启用云备份，确保所有数据安全存储并可恢复。"
         }
       },
       "additionalHelp": {
@@ -762,163 +767,163 @@
       "metaDescription": "ZuList FAQ 和支持 — 共享列表和任务。联系方式、隐私和故障排除。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "如何使用",
+      "tips": "尖端",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "下载"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from ZuList - Manage & Share Lists.",
-      "featuresTitle": "App screens",
+      "title": "截图",
+      "subtitle": "来自 ZuList 的真实应用程序屏幕 - 管理和共享列表。",
+      "featuresTitle": "应用程序屏幕",
       "items": [
         {
-          "id": "lists",
-          "title": "Your lists",
-          "description": "Create and manage multiple shopping lists.",
+          "id": "列表",
+          "title": "您的清单",
+          "description": "创建和管理多个购物清单。",
           "image": "/images/zulist/screenshot-lists.png",
-          "alt": "Your lists — zulist",
-          "category": "features"
+          "alt": "您的清单 — zulist",
+          "category": "特征"
         },
         {
-          "id": "shared",
-          "title": "Shared list",
-          "description": "Collaborate in real time with family or roommates.",
+          "id": "共享",
+          "title": "共享列表",
+          "description": "与家人或室友实时协作。",
           "image": "/images/zulist/screenshot-shared.png",
-          "alt": "Shared list — zulist",
-          "category": "features"
+          "alt": "共享列表 — zulist",
+          "category": "特征"
         },
         {
-          "id": "invite",
-          "title": "Invite & share",
-          "description": "Send an invite link — no account required for guests.",
+          "id": "邀请",
+          "title": "邀请并分享",
+          "description": "发送邀请链接 — 客人无需帐户。",
           "image": "/images/zulist/screenshot-invite.png",
-          "alt": "Invite & share — zulist",
-          "category": "features"
+          "alt": "邀请并分享 — zulist",
+          "category": "特征"
         },
         {
-          "id": "widget",
-          "title": "Home widget",
-          "description": "Glance items from your home screen.",
+          "id": "小部件",
+          "title": "主页小部件",
+          "description": "查看主屏幕上的项目。",
           "image": "/images/zulist/screenshot-widget.png",
-          "alt": "Home widget — zulist",
-          "category": "features"
+          "alt": "主页小部件 — zulist",
+          "category": "特征"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "如何使用",
       "steps": [
         {
           "number": "1",
-          "title": "Create a list",
-          "description": "Add items with quantities and categories."
+          "title": "创建一个列表",
+          "description": "添加具有数量和类别的项目。"
         },
         {
           "number": "2",
-          "title": "Share the list",
-          "description": "Send an invite link so others can edit live."
+          "title": "分享清单",
+          "description": "发送邀请链接，以便其他人可以实时编辑。"
         },
         {
           "number": "3",
-          "title": "Shop together",
-          "description": "Check off items — changes sync instantly."
+          "title": "一起购物",
+          "description": "核对项目——更改立即同步。"
         },
         {
           "number": "4",
-          "title": "Use widgets",
-          "description": "Pin a list to your home screen for quick access."
+          "title": "使用小部件",
+          "description": "将列表固定到主屏幕以便快速访问。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "提示和技巧",
+      "subtitle": "从应用程序中获取更多信息。",
       "items": [
         {
-          "title": "Shopping faster",
-          "description": "Reorder lists on the home screen—put “Today” at the top - Search across all your lists from the home screen - Mark all bought when you finish a trip (owner/read-write)"
+          "title": "购物速度更快",
+          "description": "在主屏幕上重新排序列表 - 将“今天”放在顶部 - 从主屏幕搜索所有列表 - 完成旅行后标记所有已购买的内容（所有者/读写）"
         },
         {
-          "title": "Collaboration",
-          "description": "Use read-only for kids or guests who shouldn’t edit - Due date on a list + notification = fewer “did you get milk?” texts - Share a link in the family group chat—no email required"
+          "title": "合作",
+          "description": "对不应编辑的儿童或客人使用只读 - 列表上的截止日期 + 通知 = 减少“你喝牛奶了吗？”文本 - 在家庭群聊中分享链接 - 无需电子邮件"
         },
         {
-          "title": "Offline",
-          "description": "Add items in airplane mode; they sync when you land - If sync is slow, pull to refresh on the list screen"
+          "title": "离线",
+          "description": "在飞行模式下添加项目；当您着陆时它们会同步 - 如果同步很慢，请拉动以在列表屏幕上刷新"
         },
         {
-          "title": "Widget",
-          "description": "Set primary list to your main grocery list, not one-off party lists - Widget shows unbought count only"
+          "title": "小工具",
+          "description": "将主要列表设置为您的主要杂货列表，而不是一次性派对列表 - 小部件仅显示未购买的数量"
         },
         {
-          "title": "Invites",
-          "description": "Recent emails appear when inviting—tap to resend faster - Wait a few seconds between resends to the same address (anti-spam)"
+          "title": "邀请",
+          "description": "邀请时会显示最近的电子邮件 - 点击即可更快地重新发送 - 在重新发送到同一地址之间等待几秒钟（反垃圾邮件）"
         },
         {
-          "title": "Premium value",
-          "description": "Worth it if you run multiple households or large families on one list - Restore purchases on a new phone: Premium screen → restore link"
+          "title": "Premium值",
+          "description": "如果您在一个列表上经营多个家庭或大家庭，那么这是值得的 - 在新手机上恢复购买：Premium 屏幕 → 恢复链接"
         },
         {
-          "title": "Privacy",
-          "description": "Only people you invite see a list - Delete account anytime: Settings → Account → Delete account"
+          "title": "隐私",
+          "description": "只有您邀请的人才能看到列表 - 随时删除帐户：设置 → 帐户 → 删除帐户"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "常见问题",
+      "subtitle": "有关功能、隐私和计费的快速解答。",
+      "viewAllSupport": "查看完整支持 & FAQ",
       "items": [
         {
-          "question": "What is ZuList?",
-          "answer": "A collaborative shopping list app. Create lists, share with others, and sync in real time on iOS and Android."
+          "question": "ZuList是什么？",
+          "answer": "协作购物清单应用程序。创建列表、与他人分享并在iOS和Android上实时同步。"
         },
         {
-          "question": "Is ZuList free?",
-          "answer": "Yes. Free tier includes up to 5 lists, 150 items per list, and sharing with one other person per list. Premium removes limits and ads."
+          "question": "ZuList免费吗？",
+          "answer": "是的。免费套餐包括最多 5 个列表，每个列表 150 个项目，并且每个列表与其他人共享。 Premium 删除限制和广告。"
         },
         {
-          "question": "Do I need an account?",
-          "answer": "You can start as a guest. Sign in to sync across devices and accept invites reliably."
+          "question": "我需要一个帐户吗？",
+          "answer": "您可以以访客身份开始。登录以跨设备同步并可靠地接受邀请。"
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Chinese (Simplified), Japanese, and Korean."
+          "question": "支持哪些语言？",
+          "answer": "英语、希伯来语、阿拉伯语、德语、西班牙语、法语、意大利语、葡萄牙语、俄语、中文（简体）、日语和韩语。"
         },
         {
-          "question": "How fast is sync?",
-          "answer": "Usually instant when online. Offline changes upload when connectivity returns."
+          "question": "同步有多快？",
+          "answer": "通常在线时即时。当连接恢复时，离线更改会上传。"
         },
         {
-          "question": "Can two people edit at the same time?",
-          "answer": "Yes. Last write wins for the same field; the list stays consistent."
+          "question": "可以两个人同时编辑吗？",
+          "answer": "是的。同一字段的最后一次写入获胜；该列表保持一致。"
         },
         {
-          "question": "How do I remove someone from a list?",
-          "answer": "List owner → Members → remove. They lose access immediately."
+          "question": "如何从列表中删除某人？",
+          "answer": "列表所有者→成员→删除。他们立即失去访问权限。"
         },
         {
-          "question": "Why doesn’t the widget match the list I’m viewing?",
-          "answer": "The widget always shows your **primary list** from Settings."
+          "question": "为什么小部件与我正在查看的列表不匹配？",
+          "answer": "该小部件始终显示“设置”中的**主要列表**。"
         },
         {
-          "question": "How do I add the widget?",
-          "answer": "See [How to: Home screen widget](./how-to-home-widget.md)."
+          "question": "如何添加小部件？",
+          "answer": "请参阅[如何：主屏幕小部件](./how-to-home-widget.md)。"
         },
         {
-          "question": "What does Premium include?",
-          "answer": "Unlimited lists, items, and members; no ads; advanced statistics; themes; premium offline features; cloud backup."
+          "question": "Premium包括什么？",
+          "answer": "无限的列表、项目和成员；没有广告；高级统计；主题； premium 离线功能；云备份。"
         },
         {
-          "question": "How do I cancel?",
-          "answer": "Manage subscription in the App Store or Google Play—ZuList updates automatically via store webhooks."
+          "question": "我该如何取消？",
+          "answer": "管理App Store或Google Play—ZuList中的订阅通过商店网络钩子自动更新。"
         },
         {
-          "question": "Where is my data stored?",
-          "answer": "Firebase (Google Cloud). Lists are private to you and invited members."
+          "question": "我的数据存储在哪里？",
+          "answer": "Firebase（谷歌云）。列表对您和受邀成员不公开。"
         }
       ]
     }

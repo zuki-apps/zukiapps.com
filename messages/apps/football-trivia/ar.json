@@ -1,13 +1,18 @@
 {
   "footballTrivia": {
-    "back": "Back to Home",
+    "back": "العودة إلى المنزل",
     "hero": {
-      "title": "Football Trivia Master",
+      "title": "كرة القدم التوافه ماستر",
       "subtitle": "210+ questions • World Football, National Teams, World Cups, 2026 World Cup",
-      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps."
+      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps.",
+      "seoTitle": "كرة القدم التوافه - لعبة مسابقة كرة القدم | Zuki Apps",
+      "metaDescription": "أكثر من 450 سؤالًا وتسلسلًا ولوحات متصدرين محددة بوقت محدد لكرة القدم. مجانًا على iOS وAndroid — قم بالتنزيل الآن.",
+      "structuredDataDescription": "Football Trivia Master - اختبار كرة قدم لـ iOS وAndroid مع أكثر من 450 سؤالًا محدد التوقيت عبر كرة القدم العالمية، والفرق الوطنية، والنهائيات العالمية، وأضواء البطولة. الحزمة com.zuki.apps.footballtrivia بواسطة Zuki Apps.",
+      "badge": "اختبار مجاني لكرة القدم · iOS و Android",
+      "trustLine": "الترفيه المستقل بواسطة Zuki Apps. لا ينتمي إلى أي دوري أو اتحاد أو نادي أو منظم البطولة."
     },
     "features": {
-      "title": "Key Features",
+      "title": "الميزات الرئيسية",
       "categories": {
         "title": "4 Categories",
         "description": "210+ questions across four themes",
@@ -35,111 +40,337 @@
           "Accuracy tracking",
           "Points with streak bonuses"
         ]
-      }
+      },
+      "items": [
+        {
+          "title": "أربع فئات تحت عنوان",
+          "description": "كرة القدم العالمية، والفرق الوطنية، والنهائيات العالمية، وأضواء البطولة."
+        },
+        {
+          "title": "سباق على مدار الساعة",
+          "description": "أسئلة محددة بتوقيت سهل (20 ثانية)، أو متوسط ​​(15 ثانية)، أو صعب (12 ثانية). قم بتمكين الوضع الصعب لمدة 12 ثانية في كل جولة."
+        },
+        {
+          "title": "الشرائط والتهديف",
+          "description": "سلسلة من الإجابات الصحيحة للحصول على مكافأة متتالية تصل إلى +50% ومكافأة كبيرة كاملة الجولة بنسبة 10/10."
+        },
+        {
+          "title": "المنافسة على مستوى العالم",
+          "description": "Game Center (iOS) و Play Games (Android) للإنجازات والمتصدرين."
+        },
+        {
+          "title": "12 لغة",
+          "description": "العربية، الصينية، الإنجليزية، الفرنسية، الألمانية، العبرية، الإيطالية، اليابانية، الكورية، البرتغالية، الروسية، الإسبانية."
+        },
+        {
+          "title": "العب بطريقتك",
+          "description": "مظهر داكن أو فاتح، إحصائيات تفصيلية، إزالة إعلانية اختيارية لمرة واحدة، موافقة القانون العام لحماية البيانات (GDPR) في الإعدادات."
+        }
+      ]
     },
     "status": {
-      "title": "Available on App Store and Google Play",
-      "description": "Football Trivia Master is live on iPhone, iPad, and Android.",
+      "title": "متوفر على App Store و Google Play",
+      "description": "يتوفر تطبيق Football Trivia Master مباشرة على iPhone وiPad وAndroid.",
       "statusValue": "iOS · Android",
-      "version": "Version",
-      "status": "Platform",
+      "version": "إصدار",
+      "status": "منصة",
       "versionValue": "1.0.4+13"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Football Trivia Master on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "تحميل",
+      "description": "احصل على Football Trivia Master على App Store وGoogle Play.",
+      "soon": "متوفر الآن",
       "appStoreUrl": "https://apps.apple.com/il/app/football-trivia-master/id6760652362",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "تحميل على App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.footballtrivia",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "احصل عليه Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "روابط مهمة",
       "support": {
-        "title": "Technical Support",
+        "title": "الدعم الفني",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "footer": {
       "copyright": "© 2026 Football Trivia Master - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "tagline": "جزء من Zuki Apps • مطور من إسرائيل • مصنوع باستخدام ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Football Trivia Master. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "شروط الاستخدام",
+      "lastUpdated": "آخر تحديث: يناير 2025",
+      "intro": "يرجى قراءة شروط الاستخدام هذه بعناية قبل استخدام Football Trivia Master. من خلال الوصول إلى خدمتنا أو استخدامها، فإنك توافق على الالتزام بهذه الشروط.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use govern your access to and use of Football Trivia Master, a trivia game operated by Zuki Apps. By downloading, installing, or using the Service, you agree to be bound by these Terms and our Privacy Policy."
+        "title": "1. قبول الشروط",
+        "content": "تحكم شروط الاستخدام هذه وصولك إلى لعبة Football Trivia Master واستخدامها، وهي لعبة معلومات عامة يديرها Zuki Apps. عن طريق تنزيل الخدمة أو تثبيتها أو استخدامها، فإنك توافق على الالتزام بهذه الشروط وسياسة الخصوصية الخاصة بنا."
       },
       "section19": {
-        "title": "Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "معلومات الاتصال",
+        "content": "إذا كان لديك أي أسئلة حول هذه الشروط، يرجى الاتصال بنا:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36، سار، ص. 22805، إسرائيل"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "سياسة الخصوصية",
+      "lastUpdated": "آخر تحديث: يناير 2025",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Football Trivia Master collects minimal information necessary to provide the service. Game progress and statistics are stored locally on your device. We may collect information you provide when you contact support."
+        "title": "1. المعلومات التي نجمعها",
+        "content": "يقوم Football Trivia Master بجمع الحد الأدنى من المعلومات اللازمة لتقديم الخدمة. يتم تخزين تقدم اللعبة وإحصائياتها محليًا على جهازك. قد نقوم بجمع المعلومات التي تقدمها عند الاتصال بالدعم."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide and improve our services. Locally stored data is not transmitted to our servers except as needed for optional features."
+        "title": "2. كيف نستخدم معلوماتك",
+        "content": "نحن نستخدم المعلومات لتقديم خدماتنا وتحسينها. لا يتم نقل البيانات المخزنة محليًا إلى خوادمنا إلا عند الحاجة للميزات الاختيارية."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties."
+        "title": "3. تبادل المعلومات",
+        "content": "نحن لا نبيع أو نشارك معلوماتك الشخصية مع أطراف ثالثة."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device."
+        "title": "4. أمن البيانات",
+        "content": "نحن ننفذ التدابير الأمنية المناسبة. يتم تخزين بيانات لعبتك محليًا على جهازك."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings. You may delete the app at any time."
+        "title": "5. حقوقك",
+        "content": "يمكنك مسح البيانات المحلية عبر إعدادات التطبيق. يمكنك حذف التطبيق في أي وقت."
       },
       "section6": {
-        "title": "6. Changes to This Policy",
-        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app or on our website."
+        "title": "6. التغييرات على هذه السياسة",
+        "content": "قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. وسنقوم بإعلامك بأي تغييرات عن طريق نشر السياسة الجديدة في التطبيق أو على موقعنا الإلكتروني."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. اتصل بنا",
+        "content": "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36، سار، ص. 22805، إسرائيل"
       },
       "metaDescription": "سياسة خصوصية Football Trivia — كيف نتعامل مع بياناتك على iOS وAndroid."
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Contact us directly.",
+      "title": "الدعم والمساعدة",
+      "subtitle": "نحن هنا للمساعدة! اتصل بنا مباشرة.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email.",
+        "title": "اتصل بنا",
+        "description": "هل لديك سؤال أو بحاجة إلى المساعدة؟ أرسل لنا رسالة بالبريد الإلكتروني.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "روابط سريعة",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "سياسة الخصوصية",
+          "description": "تعلم كيف نحمي بياناتك"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "شروط الخدمة",
+          "description": "اقرأ الشروط والأحكام الخاصة بنا"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
+        "title": "هل تحتاج إلى المزيد من المساعدة؟",
+        "description": "إذا كان لديك سؤال أو تواجه مشكلة فنية، يرجى الاتصال بنا. نرد عادةً خلال 24-48 ساعة."
       },
       "metaTitle": "الدعم والمساعدة — معلومات كرة القدم | Zuki Apps",
       "metaDescription": "كرة القدم التوافه FAQ والدعم — لعبة مسابقة كرة القدم. الاتصال والخصوصية واستكشاف الأخطاء وإصلاحها."
+    },
+    "howToUse": {
+      "title": "كيف تلعب",
+      "subtitle": "تستغرق الجولة الكاملة حوالي 3-5 دقائق. لا يوجد حساب مطلوب - قم بتسجيل الدخول فقط للحصول على لوحات الصدارة.",
+      "steps": [
+        {
+          "title": "اضغط على ابدأ اللعبة",
+          "description": "من الشاشة الرئيسية. اختياريًا، قم بتبديل الوضع الصعب لمدة 12 ثانية لكل سؤال."
+        },
+        {
+          "title": "اختر فئة",
+          "description": "جميع الفئات للمزيج، أو التركيز على واحدة من المسابح الأربعة ذات الطابع الخاص."
+        },
+        {
+          "title": "الإجابة على 10 أسئلة",
+          "description": "اضغط على أحد الخيارات الأربعة قبل نفاد المؤقت. الإجابات الصحيحة تبني خطك."
+        },
+        {
+          "title": "قم بمراجعة نتائجك",
+          "description": "اطلع على تفاصيل النتائج والدقة وأي إنجازات تم فتحها."
+        },
+        {
+          "title": "تسلق المتصدرين",
+          "description": "قم بتسجيل الدخول عبر Play Games أو Game Center، ثم افتح لوحة المتصدرين من المنزل."
+        }
+      ]
+    },
+    "faq": {
+      "title": "الأسئلة المتداولة",
+      "subtitle": "إجابات سريعة قبل التنزيل.",
+      "viewAllSupport": "عرض كل الدعم →",
+      "items": [
+        {
+          "question": "هل كرة القدم التوافه ماستر مجانية؟",
+          "answer": "نعم. التطبيق مجاني للتنزيل واللعب. تظهر إعلانات البانر والإعلانات البينية الاختيارية بين الجلسات. يمكنك إزالة الإعلانات نهائيًا من خلال عملية شراء داخل التطبيق لمرة واحدة في الإعدادات."
+        },
+        {
+          "question": "هل أحتاج إلى حساب؟",
+          "answer": "لا يوجد حساب مطلوب للعب التوافه. قم بتسجيل الدخول باستخدام Game Center (iOS) أو Google Play الألعاب (Android) فقط إذا كنت تريد لوحات الصدارة والإنجازات."
+        },
+        {
+          "question": "ما هي الأجهزة المدعومة؟",
+          "answer": "هواتف iPhone وiPad (iOS) وAndroid والهواتف والأجهزة اللوحية. تم تحسين التطبيق للعب عمودي."
+        },
+        {
+          "question": "ما هي اللغات المتوفرة؟",
+          "answer": "العربية والصينية (المبسطة والتقليدية)، والإنجليزية، والفرنسية، والألمانية، والعبرية، والإيطالية، واليابانية، والكورية، والبرتغالية، والروسية، والإسبانية. قم بتغيير اللغة في الإعدادات → اللغة."
+        },
+        {
+          "question": "كم عدد الأسئلة في الجولة؟",
+          "answer": "تحتوي كل جولة على 10 أسئلة متعددة الاختيارات إلا إذا قمت بالانسحاب مبكرًا."
+        },
+        {
+          "question": "ما هو الوضع الصعب على الشاشة الرئيسية؟",
+          "answer": "يحدد الوضع الصعب مدة كل سؤال بـ 12 ثانية ويمكنه فتح إنجازات خاصة. إنه منفصل عن اختيار الصعوبة الصعبة في فئة ما - استخدمه عندما تريد أقصى قدر من التحدي."
+        },
+        {
+          "question": "كيف يعمل التهديف؟",
+          "answer": "تأتي النقاط من صعوبة السؤال، ومكافأة الوقت (الإجابة قبل نصف الوقت المتبقي على الأقل)، ومضاعفات السلسلة (ما يصل إلى +50% بعد 5 نقاط صحيحة على التوالي)، ومكافأة الجولة المثالية عندما تحصل على 10/10. اضغط على ؟ أيقونة على الشاشة الرئيسية لدليل التسجيل داخل التطبيق."
+        },
+        {
+          "question": "هل يمكنني اللعب دون اتصال؟",
+          "answer": "نعم. يتم تخزين الأسئلة في التطبيق. تحتاج لوحات المتصدرين والإنجازات والإعلانات والمشتريات إلى اتصال بالإنترنت."
+        },
+        {
+          "question": "لماذا لا أستطيع رؤية المتصدرين؟",
+          "answer": "على Android، قم بتسجيل الدخول إلى Google Play الألعاب عندما يُطلب منك ذلك. على iOS، قم بتمكين Game Center للتطبيق. إذا فشل تسجيل الدخول، فقم بتحديث التطبيق، وتحقق من حساب Google/Apple الخاص بك، ثم حاول مرة أخرى من الإعدادات."
+        },
+        {
+          "question": "هل المتصدرين عالمية؟",
+          "answer": "نعم. يتم إرسال النتائج إلى لوحات المتصدرين في النظام الأساسي (Game Center / Play Games) لمنطقتك وأصدقائك."
+        },
+        {
+          "question": "كيف أقوم بإزالة الإعلانات؟",
+          "answer": "افتح الإعدادات → إزالة الإعلانات وأكمل عملية الشراء لمرة واحدة. استخدم \"إعادة المحاولة\" إذا كان المتجر بطيئًا في الاستجابة. استعادة المشتريات على جهاز جديد عبر نفس حساب المتجر."
+        },
+        {
+          "question": "لماذا لا أزال أرى الإعلانات بعد الشراء؟",
+          "answer": "تأكد من انتهاء عملية الشراء (التحقق من إيصال البريد الإلكتروني). اضغط على استعادة في الإعدادات. فرض الإنهاء وإعادة فتح التطبيق. اتصل بالدعم إذا استمرت المشكلة مع إيصال المتجر الخاص بك."
+        },
+        {
+          "question": "هل هناك اشتراكات؟",
+          "answer": "لا. إن عملية إزالة الإعلان هي عملية شراء لمرة واحدة، وليست اشتراكًا."
+        },
+        {
+          "question": "ما هي البيانات التي تقوم بجمعها؟",
+          "answer": "راجع سياسة الخصوصية الخاصة بنا على zukiapps.com/football-trivia/privacy. يمكن إرسال تقارير الأعطال عبر Firebase Crashlytics لتحسين الاستقرار. يجوز لشركاء الإعلانات جمع البيانات وفقًا لاختيارات موافقتك في الإعدادات."
+        },
+        {
+          "question": "كيف يمكنني الاتصال بالدعم؟"
+        },
+        {
+          "question": "هل هذا تطبيق رسمي للفيفا أو كأس العالم؟",
+          "answer": "لا، Football Trivia Master هو ترفيه مستقل بواسطة Zuki Apps. نحن لا ننتمي إلى FIFA أو أي اتحاد أو دوري أو نادي أو منظم للبطولة."
+        }
+      ]
+    },
+    "statsBar": {
+      "items": [
+        {
+          "label": "أسئلة",
+          "value": "450+"
+        },
+        {
+          "label": "فئات"
+        },
+        {
+          "label": "اللغات"
+        },
+        {
+          "label": "لكل جولة"
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "سمات",
+      "screenshots": "لقطات الشاشة",
+      "howTo": "كيف تلعب",
+      "faq": "FAQ",
+      "tips": "نصائح للمحترفين",
+      "download": "تحميل"
+    },
+    "screenshots": {
+      "title": "داخل التطبيق",
+      "subtitle": "يلتقط الجهاز الحقيقي - المنزل، والفئات، واللعب، والنتائج، والمتصدرين، والإحصائيات.",
+      "featuresTitle": "شاشات التطبيقات",
+      "items": [
+        {
+          "id": "بيت",
+          "title": "مركزك لكل جولة",
+          "description": "ابدأ اللعبة، وشريط الإحصائيات، والوضع الصعب، والروابط السريعة للوحة المتصدرين والإنجازات.",
+          "alt": "الشاشة الرئيسية لـ Football Trivia Master مع لعبة Start",
+          "category": "سمات"
+        },
+        {
+          "id": "فئة",
+          "title": "أربعة مواضيع + مزيج الكل",
+          "description": "اختر كرة القدم العالمية، أو الفرق الوطنية، أو النهائيات العالمية، أو أضواء البطولة، أو جميع الفئات.",
+          "alt": "منتقي فئة التوافه لكرة القدم",
+          "category": "سمات"
+        },
+        {
+          "id": "لعبة",
+          "title": "تغلب على الساعة",
+          "description": "أربعة خيارات لكل سؤال مع مؤقت مرئي ومؤشر خطي.",
+          "alt": "شاشة أسئلة كرة القدم التوافه مع جهاز ضبط الوقت",
+          "category": "سمات"
+        },
+        {
+          "id": "نتائج",
+          "title": "شاهد كل نقطة حصلت عليها",
+          "description": "يتم فتح توزيع النتائج والدقة والإنجازات بعد كل جولة.",
+          "alt": "نتائج التوافه لكرة القدم وانهيار النتيجة",
+          "category": "سمات"
+        },
+        {
+          "id": "المتصدرين",
+          "title": "تنافس في جميع أنحاء العالم",
+          "description": "التصنيف العالمي عبر Game Center أو Google Play الألعاب.",
+          "alt": "كرة القدم التوافه المتصدرين العالمية",
+          "category": "سمات"
+        },
+        {
+          "id": "احصائيات",
+          "title": "تحسين المسار",
+          "description": "الألعاب التي تم لعبها والدقة والأداء حسب الفئة.",
+          "alt": "شاشة إحصائيات التوافه لكرة القدم",
+          "category": "سمات"
+        }
+      ]
+    },
+    "tips": {
+      "title": "نصائح للمحترفين",
+      "subtitle": "العادات الصغيرة التي تضيف إلى المتصدرين.",
+      "items": [
+        {
+          "title": "حماية خطك",
+          "description": "الحد الأقصى لمضاعفات الخط هو +50% (5 نقاط صحيحة على التوالي). إجابة واحدة خاطئة تعيد تعيينها إلى الصفر."
+        },
+        {
+          "title": "مطاردة مكافأة الوقت",
+          "description": "قم بالإجابة قبل نصف الوقت المتبقي على الأقل للحصول على ما يصل إلى +50 نقطة إضافية لكل سؤال."
+        },
+        {
+          "title": "جولات مثالية تؤتي ثمارها",
+          "description": "+150 نقطة لـ 10/10 - غالبًا ما يكون أكثر من سؤالين متوسطين مجتمعين."
+        },
+        {
+          "title": "الاحماء مع جميع الفئات",
+          "description": "الجولات المختلطة تكشف نقاط الضعف. تحقق من الإحصائيات وحفر أدنى فئة لديك."
+        },
+        {
+          "title": "تسجيل الدخول قبل جولة خطيرة",
+          "description": "افتح لوحة المتصدرين مرة واحدة في كل جلسة للتأكد من أن Game Center / Play Games متصل."
+        },
+        {
+          "title": "تطابق اللغة مع معرفتك",
+          "description": "الأسئلة مترجمة - قم بالتبديل إلى الإعدادات إذا كانت اللغة الأخرى تناسبك بشكل أفضل."
+        }
+      ]
     }
   }
 }

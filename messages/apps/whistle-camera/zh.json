@@ -1,13 +1,15 @@
 {
   "whistleCamera": {
-    "back": "Back to Home",
+    "back": "返回首页",
     "hero": {
       "badge": "现已推出",
       "title": "Whistle Camera - Selfie & More",
       "subtitle": "Smart Camera App",
       "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before.",
-      "structuredDataDescription": "Whistle Camera — hands-free photo and video app for iOS and Android. Whistle to snap selfies, pet shots, and group photos. Practice whistle calibration, widgets, Siri shortcuts. Android com.zuki.apps.whistlecamera; iOS App Store id1037716421 by Zuki Apps.",
-      "socialProof": "Free download · 40+ languages · iOS & Android"
+      "structuredDataDescription": "Whistle Camera — 适用于 iOS 和 Android 的免提照片和视频应用程序。吹口哨即可拍摄自拍照、宠物照和集体照。练习口哨校准、小部件、Siri 快捷方式。 Androidcom.zuki.apps.whistlecamera； iOS App Store id1037716421，作者：Zuki Apps。",
+      "socialProof": "免费下载 · 40 多种语言 · iOS 和 Android",
+      "seoTitle": "Whistle Camera — 免提自拍 | Zuki Apps",
+      "metaDescription": "吹口哨即可拍摄照片和视频 - 无需计时器冲刺。离线工作。免费下载iOS和Android。"
     },
     "features": {
       "title": "Key Features",
@@ -22,43 +24,43 @@
         ]
       },
       "calibration": {
-        "title": "Tuned to your whistle",
-        "description": "Practice mode teaches the app your exact whistle. Adjust sensitivity (1–5) and the 0–100 frequency band for quiet rooms or noisy parks.",
+        "title": "调整到你的口哨",
+        "description": "练习模式会教应用程序您准确的口哨声。为安静的房间或嘈杂的公园调整灵敏度 (1–5) 和 0–100 频段。",
         "items": [
-          "Practice whistle in Settings",
-          "Sensitivity presets (Quiet → Loud)",
-          "Live debug overlay",
-          "≈750–3000 Hz detection band"
+          "在“设置”中练习吹口哨",
+          "灵敏度预设（安静 → 大声）",
+          "实时调试覆盖",
+          "约 750–3000 Hz 检测频带"
         ]
       },
       "photoVideo": {
-        "title": "Photo & video",
-        "description": "Whistle for a still, or switch to video and whistle-start / whistle-stop recording. Countdown 0, 3, 5, or 10 seconds works with both.",
+        "title": "照片和视频",
+        "description": "吹口哨拍摄静止图像，或切换到视频和哨声开始/哨声停止录制。倒计时 0、3、5 或 10 秒适用于两者。",
         "items": [
-          "Front and rear camera",
-          "Flash / torch",
-          "Pinch or slider zoom",
-          "Incognito mode for discreet capture"
+          "前置和后置摄像头",
+          "闪光灯/手电筒",
+          "捏合或滑块缩放",
+          "用于谨慎捕捉的隐身模式"
         ]
       },
       "gallery": {
-        "title": "Gallery & sharing",
-        "description": "Browse captures in the built-in gallery. Full-screen preview, multi-select share or delete, optional save to a Photos album.",
+        "title": "画廊与分享",
+        "description": "浏览内置图库中的捕获内容。全屏预览、多选共享或删除、可选保存到相册。",
         "items": [
-          "In-app media grid",
-          "Pinch-zoom preview",
-          "Bulk share and delete",
-          "Optional “Whistle Camera” album"
+          "应用内媒体网格",
+          "双指缩放预览",
+          "批量分享和删除",
+          "可选“Whistle Camera”专辑"
         ]
       },
       "shortcuts": {
-        "title": "Widgets & Siri",
-        "description": "Launch photo or video capture from Home Screen widgets. Siri shortcuts and Apple Watch remote shutter when the companion is installed.",
+        "title": "小部件和 Siri",
+        "description": "从主屏幕小部件启动照片或视频捕获。安装伴侣后，可使用 Siri 快捷方式和 Apple Watch 遥控快门。",
         "items": [
-          "Home Screen widgets (iOS)",
-          "Siri / Shortcuts intents",
-          "Apple Watch shutter",
-          "Lock Screen & Control Center (iOS)"
+          "主屏幕小部件 (iOS)",
+          "Siri/快捷方式意图",
+          "苹果手表快门",
+          "锁屏和控制中心 (iOS)"
         ]
       },
       "incognito": {
@@ -116,14 +118,14 @@
       "soon": "现已推出",
       "appStoreUrl": "https://apps.apple.com/il/app/whistle-camera-selfie-more/id1037716421",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera",
-      "appIconAlt": "Whistle Camera app icon",
+      "appIconAlt": "Whistle Camera 应用程序图标",
       "appStoreAlt": "从 App Store 下载",
       "googlePlayAlt": "可在 Google Play 下载"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要链接",
       "support": {
-        "title": "Technical Support",
+        "title": "技术支援",
         "email": "zuki.apps@gmail.com"
       },
       "contact": {
@@ -135,26 +137,26 @@
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！查找常见问题的答案或直接联系我们。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发送电子邮件，我们会尽快回复您。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "快速链接",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "常见问题解答",
         "q1": {
           "question": "How does whistle detection work?",
           "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
@@ -180,329 +182,329 @@
           "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
         },
         "q7": {
-          "question": "Can I use a timer instead of whistling?",
-          "answer": "Yes — countdown timer (3, 5, or 10 seconds) works with or without whistle detection enabled."
+          "question": "我可以使用计时器代替吹口哨吗？",
+          "answer": "是 - 无论是否启用口哨检测，倒计时器（3、5 或 10 秒）均可工作。"
         },
         "q8": {
-          "question": "Is Whistle Camera on Android?",
-          "answer": "Yes — https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera"
+          "question": "Whistle Camera 在 Android 上吗？",
+          "answer": "是的 - https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到所需的答案，或者遇到技术问题，请随时与我们联系。我们随时为您提供帮助，通常会在 24-48 小时内回复。"
       },
       "metaTitle": "支持与帮助 — Whistle Camera | Zuki Apps",
       "metaDescription": "Whistle Camera FAQ 和支持 — 免提哨子触发相机。联系方式、隐私和故障排除。"
     },
     "footer": {
-      "copyright": "© 2025 Whistle Camera - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 Whistle Camera - 保留所有权利",
+      "tagline": "Zuki Apps 的一部分 • 来自以色列的开发商 • 由 ❤️ 制作"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Whistle Camera. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
+      "intro": "使用Whistle Camera前请仔细阅读本使用条款。通过访问或使用我们的服务，您同意受这些条款的约束。如果您不同意这些条款，请不要使用我们的服务。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Whistle Camera (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a camera application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 接受条款",
+        "content": "这些使用条款（“条款”）管辖您对 Zuki Apps（“公司”）运营的相机应用程序 Whistle Camera（“服务”、“应用程序”、“我们”、“我们”或“我们的”）的访问和使用。通过下载、安装、访问或使用服务，您同意受这些条款和我们的隐私政策的约束。",
+        "content2": "如果您代表某个组织使用服务，则您声明并保证您有权约束该组织遵守这些条款。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Whistle Camera is a mobile camera application that provides innovative features for mobile photography. The Service includes:",
+        "title": "2. 服务说明",
+        "content": "Whistle Camera是一款手机相机应用程序，为手机摄影提供创新功能。该服务包括：",
         "items": [
-          "Whistle detection for automatic photo capture and video recording",
-          "Incognito mode for private capture",
-          "Locked camera capture from Lock Screen and Control Center",
-          "Photo and video capture functionality",
-          "Media gallery and sharing features"
+          "用于自动照片捕捉和视频录制的口哨检测",
+          "用于私人拍摄的隐身模式",
+          "从锁定屏幕和控制中心锁定相机捕获",
+          "照片和视频捕捉功能",
+          "媒体库和共享功能"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 联系方式",
+        "content": "如果您对这些条款有任何疑问，请联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Whistle Camera is designed with privacy in mind. We collect minimal information necessary to provide the service. We collect information you provide directly to us, such as when you use our services or contact us for support."
+        "title": "1. 我们收集的信息",
+        "content": "Whistle Camera 的设计考虑到了隐私。我们收集提供服务所需的最少信息。我们收集您直接向我们提供的信息，例如当您使用我们的服务或联系我们寻求支持时。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services. Your photos and videos are stored locally on your device and are not transmitted to our servers unless you explicitly choose to share them."
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用收集的信息来提供、维护和改进我们的服务。您的照片和视频存储在您的本地设备上，除非您明确选择共享，否则不会传输到我们的服务器。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information or media to third parties without your consent. Your photos and videos remain on your device and are only shared when you explicitly choose to share them."
+        "title": "3. 信息共享",
+        "content": "未经您的同意，我们不会向第三方出售、交易或以其他方式转让您的个人信息或媒体。您的照片和视频保留在您的设备上，并且仅在您明确选择共享时才会共享。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your personal information. All photos and videos are stored locally on your device in the app's private directory, which is not accessible by other apps."
+        "title": "4. 数据安全",
+        "content": "我们实施适当的安全措施来保护您的个人信息。所有照片和视频都存储在您设备本地应用程序的私有目录中，其他应用程序无法访问该目录。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your photos and videos at any time. You can delete all media through the app's gallery. You may also uninstall the app at any time, which will remove all locally stored data."
+        "title": "5. 您的权利",
+        "content": "您有权随时访问、更新或删除您的照片和视频。您可以通过应用程序的图库删除所有媒体。您还可以随时卸载该应用程序，这将删除所有本地存储的数据。"
       },
       "section6": {
-        "title": "6. Camera and Microphone Access",
-        "content": "Whistle Camera requires access to your device's camera and microphone to provide its core functionality. The camera is used for photo and video capture. The microphone is used for whistle detection. We do not record or store audio data - the microphone is only used for real-time whistle detection processing."
+        "title": "6. 摄像头和麦克风访问",
+        "content": "Whistle Camera 需要访问您设备的摄像头和麦克风才能提供其核心功能。相机用于拍摄照片和视频。麦克风用于哨声检测。我们不记录或存储音频数据 - 麦克风仅用于实时口哨检测处理。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 联系我们",
+        "content": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       },
       "metaDescription": "Whistle Camera 隐私政策 — 我们如何处理您在 iOS 和 Android 上的数据。"
     },
     "useCases": {
-      "title": "Perfect for",
-      "subtitle": "Real scenarios where your hands are busy or the phone is out of reach.",
+      "title": "非常适合",
+      "subtitle": "真实场景ios，你的双手忙碌或手机够不着。",
       "items": [
         {
-          "title": "Pet owners",
-          "description": "Whistle for eye contact — the app captures in the same moment. Sharp front-facing pet shots without a helper."
+          "title": "宠物主人",
+          "description": "吹口哨进行目光接触——应用程序会捕捉同一时刻。在没有帮助的情况下拍摄清晰的正面宠物照片。"
         },
         {
-          "title": "Selfies & groups",
-          "description": "Prop the phone, whistle from where you stand. No running to a 10-second timer."
+          "title": "自拍照和团体",
+          "description": "拿起电话，从你站的地方吹口哨。没有跑到 10 秒计时器。"
         },
         {
-          "title": "Hands-busy moments",
-          "description": "Cooking, crafts, biking — whistle when the shot is ready. No accessory remote."
+          "title": "双手忙碌的时刻",
+          "description": "烹饪、手工、骑自行车——镜头准备好时吹口哨。没有配件遥控器。"
         },
         {
-          "title": "Outdoor & sports",
-          "description": "Tripod or ledge setup. Walk to your subject, whistle, capture — great for landscapes and action."
+          "title": "户外及运动",
+          "description": "三脚架或壁架设置。走到你的拍摄对象，吹口哨，捕捉——非常适合风景和动作。"
         }
       ]
     },
     "howToUse": {
-      "title": "How it works",
+      "title": "它是如何运作的",
       "steps": [
         {
           "number": "1",
-          "title": "Set up",
-          "description": "Point the camera. Enable whistle detection. Calibrate in Settings if needed."
+          "title": "设置",
+          "description": "将相机对准。启用哨声检测。如果需要，请在“设置”中进行校准。"
         },
         {
           "number": "2",
-          "title": "Whistle",
-          "description": "One short, clear whistle. The ring turns green when detected."
+          "title": "哨",
+          "description": "一声短促而清晰的口哨声。检测到时，环会变成绿色。"
         },
         {
           "number": "3",
-          "title": "Captured",
-          "description": "Photo or video is taken — your hands never touched the phone."
+          "title": "被捕获",
+          "description": "拍摄照片或视频 - 您的手从未接触过手机。"
         }
       ]
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens — whistle detection, capture, calibration, gallery, video, and timer.",
-      "featuresTitle": "App screens",
+      "title": "截图",
+      "subtitle": "真实的应用程序屏幕 - 口哨检测、捕获、校准、图库、视频和计时器。",
+      "featuresTitle": "应用程序屏幕",
       "items": [
         {
-          "id": "whistle",
-          "title": "Hands-free whistle",
-          "description": "Detection ring shows when your whistle is heard — then the shutter fires.",
+          "id": "哨",
+          "title": "免提口哨",
+          "description": "当您听到口哨时，检测环会显示，然后快门就会启动。",
           "image": "/images/whistle-camera/screenshot-whistle.png",
-          "alt": "Whistle Camera hands-free whistle detection screen",
-          "category": "features"
+          "alt": "Whistle Camera 免提哨子检测屏幕",
+          "category": "特征"
         },
         {
-          "id": "capture",
-          "title": "Photo capture",
-          "description": "Front or rear camera with flash, zoom, and manual shutter when you want both options.",
+          "id": "捕获",
+          "title": "照片捕捉",
+          "description": "前置或后置摄像头配备闪光灯、变焦和手动快门（当您需要这两种选项时）。",
           "image": "/images/whistle-camera/screenshot-capture.png",
-          "alt": "Whistle Camera photo capture screen",
-          "category": "features"
+          "alt": "Whistle Camera 照片拍摄画面",
+          "category": "特征"
         },
         {
-          "id": "settings",
-          "title": "Calibrate your whistle",
-          "description": "Practice mode, sensitivity, and frequency band — tuned to you, not a generic preset.",
+          "id": "设置",
+          "title": "校准你的口哨",
+          "description": "练习模式、灵敏度和频段 — 为您量身定制，而不是通用预设。",
           "image": "/images/whistle-camera/screenshot-settings.png",
-          "alt": "Whistle Camera whistle calibration settings",
-          "category": "features"
+          "alt": "Whistle Camera 口哨校准设置",
+          "category": "特征"
         },
         {
-          "id": "gallery",
-          "title": "Whistle to your dog — they'll look at the camera",
-          "description": "How do you get your dog to look at the camera? Just whistle. Whistle Camera hears you and snaps the shot in the same moment.",
+          "id": "画廊",
+          "title": "对你的狗吹口哨——它们会看着镜头",
+          "description": "如何让你的狗看向镜头？只是吹口哨。 Whistle Camera 听到你的声音并在同一时刻拍下照片。",
           "image": "/images/whistle-camera/promo-whistle-your-dog.png",
-          "alt": "Dog looking at Whistle Camera — whistle to get your pet to look at the camera",
-          "category": "features"
+          "alt": "狗看着 Whistle Camera — 吹口哨让你的宠物看镜头",
+          "category": "特征"
         },
         {
-          "id": "video",
-          "title": "Video mode (Pro)",
-          "description": "Whistle to start and stop recording — hands-free video workflow.",
+          "id": "视频",
+          "title": "视频模式（专业版）",
+          "description": "通过口哨开始和停止录制 — 免提视频工作流程。",
           "image": "/images/whistle-camera/screenshot-video.png",
-          "alt": "Whistle Camera video mode",
-          "category": "features"
+          "alt": "Whistle Camera 视频模式",
+          "category": "特征"
         },
         {
-          "id": "timer",
-          "title": "Timer controls",
-          "description": "3, 5, or 10 second countdown — works with whistle or manual capture.",
+          "id": "计时器",
+          "title": "定时器控制",
+          "description": "3、5 或 10 秒倒计时 - 适用于口哨或手动捕捉。",
           "image": "/images/whistle-camera/screenshot-timer.png",
-          "alt": "Whistle Camera countdown timer",
-          "category": "features"
+          "alt": "Whistle Camera倒计时器",
+          "category": "特征"
         }
       ]
     },
     "manual": {
-      "title": "User manual",
-      "subtitle": "Camera controls, settings, gallery, and extensions.",
+      "title": "用户手册",
+      "subtitle": "相机控制、设置、图库和扩展。",
       "sections": [
         {
-          "title": "1. Camera screen",
+          "title": "1. 相机屏幕",
           "steps": [
-            "Shutter / record — manual capture anytime.",
-            "Whistle detector — enable hands-free trigger.",
-            "Timer — delay after trigger (0/3/5/10 s).",
-            "Flash, flip camera, zoom slider, gallery, settings."
+            "快门/录像——随时手动捕捉。",
+            "口哨探测器 — 启用免提触发。",
+            "计时器 — 触发后延迟（0/3/5/10 秒）。",
+            "闪光灯、翻转相机、变焦滑块、图库、设置。"
           ]
         },
         {
-          "title": "2. Whistle settings",
+          "title": "2. 口哨设置",
           "steps": [
-            "Sensitivity 1 (easiest) to 5 (strictest).",
-            "Frequency band 0–100 in UI (~750–3000 Hz).",
-            "Practice whistle — listen, whistle, tap Set to calibrate.",
-            "Presets: Quiet, Default, Outside, Loud."
+            "灵敏度 1（最简单）到 5（最严格）。",
+            "UI 中的频段 0–100 (~750–3000 Hz)。",
+            "练习吹口哨 — 听、吹口哨、点击“设置”进行校准。",
+            "预设：安静、默认、室外、大声。"
           ]
         },
         {
-          "title": "3. Gallery",
+          "title": "3. 画廊",
           "steps": [
-            "Tap a thumbnail for full-screen preview.",
-            "Select mode for bulk share or delete.",
-            "Optional save to Photos album “Whistle Camera”."
+            "点击缩略图进行全屏预览。",
+            "选择批量共享或删除的模式。",
+            "可选保存到相册“Whistle Camera”。"
           ]
         },
         {
-          "title": "4. Pro & extensions",
+          "title": "4. 专业版和扩展",
           "steps": [
-            "Pro: whistle video start/stop, premium modes, no ads.",
-            "Widgets — quick launch photo or video.",
-            "Siri / Shortcuts and Apple Watch remote shutter.",
-            "Restore purchases from Settings after reinstall."
+            "优点：哨子视频开始/停止，premium模式，无广告。",
+            "小部件 — 快速启动照片或视频。",
+            "Siri / 快捷方式和 Apple Watch 遥控快门。",
+            "重新安装后从“设置”恢复购买。"
           ]
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get reliable detection and better shots.",
+      "title": "提示和技巧",
+      "subtitle": "获得可靠的检测和更好的拍摄。",
       "items": [
         {
-          "title": "Selfies without shake",
-          "description": "Front camera + whistle — no jostling the phone tapping the shutter."
+          "title": "自拍无抖动",
+          "description": "前置摄像头 + 口哨 — 无需用力敲击手机即可按下快门。"
         },
         {
-          "title": "Pet photos",
-          "description": "Calibrate in Settings first, then whistle for eye contact and capture in one motion."
+          "title": "宠物照片",
+          "description": "首先在“设置”中进行校准，然后吹口哨以进行眼神交流并通过一个动作进行捕捉。"
         },
         {
-          "title": "Group shots",
-          "description": "Set a 3 s timer, whistle — everyone settles before the shot fires."
+          "title": "集体照",
+          "description": "设置 3 秒计时器，鸣哨——所有人在开枪前就座。"
         },
         {
-          "title": "Noisy environments",
-          "description": "Lower sensitivity to level 1 and widen the band; enable the debug overlay to see peaks."
+          "title": "嘈杂的环境",
+          "description": "降低灵敏度至1级并加宽频带；启用调试覆盖层以查看峰值。"
         },
         {
-          "title": "Tripod distance",
-          "description": "Place the phone, walk into frame, whistle — great for landscapes and sports."
+          "title": "三脚架距离",
+          "description": "放置手机，走进画面，吹口哨——非常适合风景和运动。"
         },
         {
-          "title": "Widgets",
-          "description": "Add photo/video widgets for one-tap launch from the Home Screen."
+          "title": "小部件",
+          "description": "添加照片/视频小部件，以便从主屏幕一键启动。"
         },
         {
-          "title": "Timer fallback",
-          "description": "Countdown works with or without whistle — use either trigger."
+          "title": "定时器回退",
+          "description": "无论有或没有口哨，倒计时都可以使用 - 使用任一触发器。"
         },
         {
-          "title": "Restore Pro",
-          "description": "Reinstalled? Settings → restore purchases with the same store account."
+          "title": "恢复专业版",
+          "description": "重新安装了？设置 → 使用同一商店帐户恢复购买。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Detection, privacy, storage, Pro, and troubleshooting.",
-      "viewAllSupport": "Full FAQ on Support",
+      "title": "常见问题",
+      "subtitle": "检测、隐私、存储、Pro 和故障排除。",
+      "viewAllSupport": "支持满 FAQ",
       "items": [
         {
-          "question": "What is Whistle Camera?",
-          "answer": "Whistle Camera is a hands-free camera app for iOS and Android. Whistle to take a photo or (with Pro) start and stop video. Package on Android: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
+          "question": "Whistle Camera是什么？",
+          "answer": "Whistle Camera 是一款适用于 iOS 和 Android 的免提相机应用程序。吹口哨拍照或（使用 Pro）开始和停止视频。 Android 上的软件包：com.zuki.apps.whistlecamera。 iOSApp Store ID：1037716421。"
         },
         {
-          "question": "It doesn’t detect my whistle well. What can I do?",
-          "answer": "Lower sensitivity (try level 1), widen the frequency range in Settings, enable the live debug overlay, and use Practice whistle to calibrate from your session peaks."
+          "question": "它不能很好地检测到我的口哨。我能做些什么？",
+          "answer": "降低灵敏度（尝试级别 1），扩大“设置”中的频率范围，启用实时调试叠加，并使用练习口哨从会话峰值进行校准。"
         },
         {
-          "question": "Do I need internet?",
-          "answer": "Core whistle capture works offline. Ads, analytics, and purchase checks may need a network connection."
+          "question": "我需要互联网吗？",
+          "answer": "核心口哨捕捉可以离线工作。广告、分析和购买检查可能需要网络连接。"
         },
         {
-          "question": "Why does the app need the microphone?",
-          "answer": "The app listens for your whistle to trigger the camera. Audio is processed on-device for detection — it is not stored as recordings."
+          "question": "为什么应用程序需要麦克风？",
+          "answer": "该应用程序会监听您的口哨来触发相机。音频在设备上进行处理以进行检测 - 它不会存储为录音。"
         },
         {
-          "question": "Where are photos stored?",
-          "answer": "In the in-app gallery by default. You can optionally copy captures to a Photos album named Whistle Camera in Settings."
+          "question": "照片存储在哪里？",
+          "answer": "默认在应用程序内图库中。您可以选择将捕获的照片复制到“设置”中名为 Whistle Camera 的照片相册中。"
         },
         {
-          "question": "What is Pro?",
-          "answer": "Pro unlocks whistle start/stop video, extra premium modes, and removes ads. One-time purchase; restore from Settings after reinstall."
+          "question": "什么是专业版？",
+          "answer": "Pro 解锁哨子开始/停止视频、额外的 premium 模式，并删除广告。一次性购买；重新安装后从设置中恢复。"
         },
         {
-          "question": "Can I use a timer instead of whistling?",
-          "answer": "Yes — countdown timer (3, 5, or 10 seconds) works with or without whistle detection enabled."
+          "question": "我可以使用计时器代替吹口哨吗？",
+          "answer": "是 - 无论是否启用口哨检测，倒计时器（3、5 或 10 秒）均可工作。"
         },
         {
-          "question": "Is Whistle Camera on Android?",
-          "answer": "Yes — https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera"
+          "question": "Whistle Camera 在 Android 上吗？",
+          "answer": "是的 - https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera"
         },
         {
-          "question": "How do I get support?",
+          "question": "我如何获得支持？",
           "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/whistle-camera/support. Privacy: https://zukiapps.com/whistle-camera/privacy"
         }
       ]
     },
     "premium": {
-      "title": "Whistle Camera Pro",
-      "description": "One-time upgrade: whistle video start/stop, premium capture modes, ad-free gallery experience.",
+      "title": "Whistle Camera 专业版",
+      "description": "一次性升级：哨声视频开始/停止、premium拍摄模式、无广告图库体验。",
       "items": [
-        "Whistle to start and stop video recording",
-        "Premium capture modes",
-        "No ads in gallery",
-        "Restore purchases anytime in Settings"
+        "通过哨子开始和停止视频录制",
+        "Premium 拍摄模式",
+        "图库中没有广告",
+        "随时在“设置”中恢复购买"
       ]
     },
     "languages": {
-      "title": "40+ languages",
-      "description": "In-app language picker including English, Hebrew (RTL), Arabic (RTL), and 37+ more locales."
+      "title": "40多种语言",
+      "description": "应用内语言选择器包括英语、希伯来语 (RTL)、阿拉伯语 (RTL) 和 37 种以上语言环境。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How it works",
-      "useCases": "Use cases",
-      "manual": "Manual",
-      "tips": "Tips",
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "它是如何运作的",
+      "useCases": "使用案例",
+      "manual": "手动的",
+      "tips": "尖端",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "下载"
     }
   }
 }

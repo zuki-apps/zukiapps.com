@@ -217,7 +217,8 @@
     "footer": {
       "copyright": "© 2025 Zuki Apps - כל הזכויות שמורות. Zuki Apps הוא מותג של <pulse>Pulse Studio</pulse>.",
       "tagline": "מפתח מישראל • כתחביב • עם אהבה",
-      "support": "תמוך בעבודה שלי"
+      "support": "תמוך בעבודה שלי",
+      "about": "בערך Zuki Apps"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -251,6 +252,12 @@
         "filters": "פילטרים ומדבקות",
         "private": "ללא התחברות"
       }
+    },
+    "seoTitle": "Zuki Apps — iOS וAndroid אפליקציות לנייד",
+    "metaDescription": "אפליקציות מובייל ראשונות לפרטיות מישראל: Hush Gallery, ZuList, Whistle Camera, טיימרים HIIT ועוד. חינם בiOS וAndroid.",
+    "aboutTeaser": {
+      "body": "מפתח עצמאי בישראל — מאפליקציות DreamBit ועד אפליקציות Flutter ראשונות לפרטיות, עם איורים מקוריים של Zuli Monster בכל אפליקציה.",
+      "cta": "הסיפור שלנו & Zuli Monsters →"
     }
   },
   "common": {
@@ -303,5 +310,19 @@
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
+  },
+  "about": {
+    "metaTitle": "אודות Zuki Apps — מפתח נייד | Zuki Apps",
+    "metaDescription": "Zuki Apps בונה אפליקציות iOS ו-Android מישראל – ZuList, Hush Gallery, Whistle Camera ועוד. למד על המפתח.",
+    "title": "בערך Zuki Apps",
+    "subtitle": "מפתח עצמאי לנייד - iOS & Android",
+    "p1": "Zuki Apps הוא אולפן תוכנה עצמאי לנייד שבסיסו בישראל. אנו שולחים אפליקציות מעשיות ומודעות לפרטיות לחיי היומיום - כספות תמונות פרטיות, מצלמות דיבוריות, רשימות קניות משותפות, טיימרים לכושר, משחקי טריוויה וכלי מפתחים.",
+    "p2": "כל אפליקציה בנויה עם Flutter לחוויה עקבית באייפון, אייפד ו-Android. אנו מעדיפים עיבוד במכשיר, מדיניות פרטיות ברורה וזרימות ללא חשבון במידת האפשר.",
+    "p3": "בין 2012 ל-2016, האפליקציות שלנו נשלחו תחת אפליקציות DreamBit. היום הקטלוג Zuki Apps ממשיך את המלאכה הזו עם כותרים חדשים ותמיכה ארוכת טווח עבור משתמשים קיימים.",
+    "contactTitle": "מַגָע",
+    "contactBody": "שאלות, עיתונות או פניות לשותפות:",
+    "address": "Nachshol 36, SAAR, p.o. 22805, ישראל",
+    "catalogTitle": "קטלוג אפליקציות",
+    "catalogBody": "עיין בכל דפי המוצר, התמיכה והמדיניות מדף הבית או מהקטלוג הנקרא במכונה שלנו בכתובת /api/site-facts."
   }
 }

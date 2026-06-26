@@ -1,13 +1,18 @@
 {
   "footballTrivia": {
-    "back": "Back to Home",
+    "back": "חזרה לבית",
     "hero": {
-      "title": "Football Trivia Master",
+      "title": "מאסטר טריווית כדורגל",
       "subtitle": "210+ questions • World Football, National Teams, World Cups, 2026 World Cup",
-      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps."
+      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps.",
+      "seoTitle": "טריוויה כדורגל — משחק חידון כדורגל | Zuki Apps",
+      "metaDescription": "יותר מ-450 שאלות חידון כדורגל, פסים ולוחות הישגים. חינם ב-iOS & Android - הורד עכשיו.",
+      "structuredDataDescription": "פוטבול טריוויה מאסטר - חידון כדורגל עבור iOS ו-Android עם 450+ שאלות מתוזמנות ברחבי הכדורגל העולמי, הנבחרות הלאומיות, הגמר העולמי וזרקור הטורנירים. חבילה com.zuki.apps.footballtrivia מאת Zuki Apps.",
+      "badge": "חידון כדורגל בחינם · iOS & Android",
+      "trustLine": "בידור עצמאי מאת Zuki Apps. לא קשור לאף ליגה, פדרציה, מועדון או מארגן טורניר."
     },
     "features": {
-      "title": "Key Features",
+      "title": "תכונות עיקריות",
       "categories": {
         "title": "4 Categories",
         "description": "210+ questions across four themes",
@@ -35,111 +40,337 @@
           "Accuracy tracking",
           "Points with streak bonuses"
         ]
-      }
+      },
+      "items": [
+        {
+          "title": "ארבע קטגוריות נושא",
+          "description": "כדורגל עולמי, נבחרות לאומיות, גמר עולמי וזרקור הטורנירים."
+        },
+        {
+          "title": "מרוץ על השעון",
+          "description": "שאלות מתוזמנות עם קל (20 שניות), בינוני (15 שניות) או קשה (12 שניות). אפשר מצב קשיח למשך 12 שניות בכל סיבוב."
+        },
+        {
+          "title": "פסים וניקוד",
+          "description": "שרשרת תשובות נכונות עבור בונוס רצף של עד +50% ובונוס גדול של סיבוב מושלם עבור 10/10."
+        },
+        {
+          "title": "להתחרות בעולם",
+          "description": "Game Center (iOS) וPlay Games (Android) להישגים ולוחות הישגים."
+        },
+        {
+          "title": "12 שפות",
+          "description": "ערבית, סינית, אנגלית, צרפתית, גרמנית, עברית, איטלקית, יפנית, קוריאנית, פורטוגזית, רוסית, ספרדית."
+        },
+        {
+          "title": "שחק בדרך שלך",
+          "description": "נושא כהה או בהיר, נתונים סטטיסטיים מפורטים, הסרת מודעה חד פעמית אופציונלית, הסכמת GDPR בהגדרות."
+        }
+      ]
     },
     "status": {
-      "title": "Available on App Store and Google Play",
-      "description": "Football Trivia Master is live on iPhone, iPad, and Android.",
+      "title": "זמין בApp Store וGoogle Play",
+      "description": "Football Trivia Master נמצא בשידור חי באייפון, אייפד ו-Android.",
       "statusValue": "iOS · Android",
-      "version": "Version",
-      "status": "Platform",
+      "version": "גִרְסָה",
+      "status": "פּלַטפוֹרמָה",
       "versionValue": "1.0.4+13"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Football Trivia Master on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "הורד",
+      "description": "קבל את Football Trivia Master ב-App Store וGoogle Play.",
+      "soon": "זמין כעת",
       "appStoreUrl": "https://apps.apple.com/il/app/football-trivia-master/id6760652362",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "הורד ב-App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.footballtrivia",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "קבל את זה בGoogle Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "קישורים חשובים",
       "support": {
-        "title": "Technical Support",
+        "title": "תמיכה טכנית",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "footer": {
       "copyright": "© 2026 Football Trivia Master - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "tagline": "חלק מZuki Apps • מפתח מישראל • תוצרת ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Football Trivia Master. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "תנאי שימוש",
+      "lastUpdated": "עדכון אחרון: ינואר 2025",
+      "intro": "אנא קרא את תנאי השימוש הללו בעיון לפני השימוש ב- Football Trivia Master. על ידי גישה או שימוש בשירות שלנו, אתה מסכים להיות מחויב לתנאים אלה.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use govern your access to and use of Football Trivia Master, a trivia game operated by Zuki Apps. By downloading, installing, or using the Service, you agree to be bound by these Terms and our Privacy Policy."
+        "title": "1. הסכמה לתנאים",
+        "content": "תנאי שימוש אלה מסדירים את הגישה והשימוש שלך ב-Football Trivia Master, משחק טריוויה המופעל על ידי Zuki Apps. בהורדה, התקנה או שימוש בשירות, אתה מסכים להיות כפוף לתנאים אלה ולמדיניות הפרטיות שלנו."
       },
       "section19": {
-        "title": "Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "מידע ליצירת קשר",
+        "content": "אם יש לך שאלות כלשהן לגבי תנאים אלה, אנא צור איתנו קשר:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "מדיניות פרטיות",
+      "lastUpdated": "עדכון אחרון: ינואר 2025",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Football Trivia Master collects minimal information necessary to provide the service. Game progress and statistics are stored locally on your device. We may collect information you provide when you contact support."
+        "title": "1. מידע שאנו אוספים",
+        "content": "Football Trivia Master אוסף מידע מינימלי הדרוש כדי לספק את השירות. התקדמות המשחק והסטטיסטיקה מאוחסנים באופן מקומי במכשיר שלך. אנו עשויים לאסוף מידע שאתה מספק כאשר אתה יוצר קשר עם התמיכה."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide and improve our services. Locally stored data is not transmitted to our servers except as needed for optional features."
+        "title": "2. כיצד אנו משתמשים במידע שלך",
+        "content": "אנו משתמשים במידע כדי לספק ולשפר את השירותים שלנו. נתונים המאוחסנים מקומית אינם מועברים לשרתים שלנו אלא לפי הצורך עבור תכונות אופציונליות."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties."
+        "title": "3. שיתוף מידע",
+        "content": "איננו מוכרים או משתפים את המידע האישי שלך עם צדדים שלישיים."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device."
+        "title": "4. אבטחת מידע",
+        "content": "אנו מיישמים אמצעי אבטחה מתאימים. נתוני המשחק שלך מאוחסנים באופן מקומי במכשיר שלך."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings. You may delete the app at any time."
+        "title": "5. הזכויות שלך",
+        "content": "אתה יכול לנקות נתונים מקומיים דרך ההגדרות של האפליקציה. אתה יכול למחוק את האפליקציה בכל עת."
       },
       "section6": {
-        "title": "6. Changes to This Policy",
-        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app or on our website."
+        "title": "6. שינויים במדיניות זו",
+        "content": "אנו עשויים לעדכן את מדיניות הפרטיות הזו מעת לעת. אנו נודיע לך על כל שינוי על ידי פרסום המדיניות החדשה באפליקציה או באתר האינטרנט שלנו."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. צור קשר",
+        "content": "אם יש לך שאלות כלשהן לגבי מדיניות פרטיות זו, אנא צור איתנו קשר בכתובת:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
       },
       "metaDescription": "מדיניות הפרטיות של Football Trivia - כיצד אנו מטפלים בנתונים שלך ב-iOS ו-Android."
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Contact us directly.",
+      "title": "תמיכה ועזרה",
+      "subtitle": "אנחנו כאן כדי לעזור! פנה אלינו ישירות.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email.",
+        "title": "צור קשר",
+        "description": "יש לך שאלה או זקוק לסיוע? שלחו לנו מייל.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "קישורים מהירים",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "מדיניות פרטיות",
+          "description": "למד כיצד אנו מגנים על הנתונים שלך"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "תנאים והגבלות",
+          "description": "קרא את התנאים וההגבלות שלנו"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
+        "title": "זקוק לעזרה נוספת?",
+        "description": "אם יש לך שאלה או נתקלת בבעיה טכנית, אנא צור איתנו קשר. בדרך כלל אנו מגיבים תוך 24-48 שעות."
       },
       "metaTitle": "תמיכה ועזרה — טריוויה כדורגל | Zuki Apps",
       "metaDescription": "כדורגל טריוויה FAQ ותמיכה - משחק חידון כדורגל. קשר, פרטיות ופתרון בעיות."
+    },
+    "howToUse": {
+      "title": "איך לשחק",
+      "subtitle": "סיבוב שלם לוקח בערך 3-5 דקות. אין צורך בחשבון - היכנס רק עבור Leaderboards.",
+      "steps": [
+        {
+          "title": "הקש על התחל משחק",
+          "description": "ממסך הבית. אפשר להחליף מצב קשה למשך 12 שניות לכל שאלה."
+        },
+        {
+          "title": "בחר קטגוריה",
+          "description": "כל הקטגוריות לשילוב, או התמקד באחת מארבע בריכות נושא."
+        },
+        {
+          "title": "ענה על 10 שאלות",
+          "description": "הקש על אחת מארבע האפשרויות לפני שהטיימר יגמר. תשובות נכונות בונות את הרצף שלך."
+        },
+        {
+          "title": "סקור את התוצאות שלך",
+          "description": "ראה פירוט ניקוד, דיוק וכל ההישגים שנפתחו."
+        },
+        {
+          "title": "טפס על לוח התוצאות",
+          "description": "היכנס דרך Play Games או Game Center, ואז פתח את Leaderboard מהבית."
+        }
+      ]
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "subtitle": "תשובות מהירות לפני ההורדה.",
+      "viewAllSupport": "הצג את כל התמיכה →",
+      "items": [
+        {
+          "question": "האם Football Trivia Master בחינם?",
+          "answer": "כֵּן. האפליקציה ניתנת להורדה ולהפעלה בחינם. מודעות באנר ומודעות ביניים אופציונליות מופיעות בין הפעלות. אתה יכול להסיר מודעות לצמיתות עם רכישה חד פעמית בתוך האפליקציה בהגדרות."
+        },
+        {
+          "question": "האם אני צריך חשבון?",
+          "answer": "אין צורך בחשבון כדי לשחק טריוויה. היכנס עם Game Center (iOS) או Google Play משחקים (Android) רק אם אתה רוצה מובילים והישגים."
+        },
+        {
+          "question": "אילו מכשירים נתמכים?",
+          "answer": "iPhone ו-iPad (iOS) ו-Android טלפונים וטאבלטים. האפליקציה מותאמת למשחק דיוקן."
+        },
+        {
+          "question": "אילו שפות זמינות?",
+          "answer": "ערבית, סינית (פשוטה ומסורתית), אנגלית, צרפתית, גרמנית, עברית, איטלקית, יפנית, קוריאנית, פורטוגזית, רוסית וספרדית. שנה שפה בהגדרות ← שפה."
+        },
+        {
+          "question": "כמה שאלות יש בסיבוב?",
+          "answer": "בכל סבב יש 10 שאלות מרובות, אלא אם כן עזבת מוקדם."
+        },
+        {
+          "question": "מהו מצב קשה במסך הבית?",
+          "answer": "מצב קשה מגביל כל שאלה ל-12 שניות ויכול לפתוח הישגים מיוחדים. זה נפרד מבחירת קושי קשה בקטגוריה - השתמש בו כשאתה רוצה אתגר מקסימלי."
+        },
+        {
+          "question": "איך עובד הניקוד?",
+          "answer": "הנקודות מגיעות מקושי השאלה, בונוס זמן (תשובה עם לפחות חצי מהטיימר), מכפילי רצף (עד +50% אחרי 5 נכונים ברציפות), ובונוס סיבוב מושלם כשאתה מקבל 10/10. הקש על ? סמל במסך הבית עבור מדריך הניקוד בתוך האפליקציה."
+        },
+        {
+          "question": "האם אני יכול לשחק במצב לא מקוון?",
+          "answer": "כֵּן. השאלות נשמרות באפליקציה. לוחות תוצאות, הישגים, מודעות ורכישות זקוקים לחיבור לאינטרנט."
+        },
+        {
+          "question": "למה אני לא יכול לראות את ה-Leaderboard?",
+          "answer": "ב-Android, היכנס ל-Google Play משחקים כאשר תתבקש. ב-iOS, הפעל את Game Center עבור האפליקציה. אם הכניסה נכשלת, עדכן את האפליקציה, בדוק את חשבון Google/Apple שלך ​​ונסה שוב מההגדרות."
+        },
+        {
+          "question": "האם לוחות המובילים הם גלובליים?",
+          "answer": "כֵּן. הציונים נשלחים ללוחות המובילים של הפלטפורמה (Game Center / Play Games) עבור האזור והחברים שלך."
+        },
+        {
+          "question": "כיצד אוכל להסיר מודעות?",
+          "answer": "פתח את הגדרות ← הסר מודעות והשלם את הרכישה החד-פעמית. השתמש בנסה שוב אם החנות איטית להגיב. שחזר רכישות במכשיר חדש באמצעות אותו חשבון חנות."
+        },
+        {
+          "question": "מדוע אני עדיין רואה מודעות לאחר הרכישה?",
+          "answer": "ודא שהרכישה הסתיימה (בדוק קבלה באימייל). הקש על שחזור בהגדרות. עזוב בכוח ופתח מחדש את האפליקציה. צור קשר עם התמיכה אם הבעיה נמשכת עם הקבלה בחנות שלך."
+        },
+        {
+          "question": "יש מנויים?",
+          "answer": "לא. הסרת מודעות היא רכישה חד פעמית, לא מנוי."
+        },
+        {
+          "question": "אילו נתונים אתה אוסף?",
+          "answer": "עיין במדיניות הפרטיות שלנו בכתובת zukiapps.com/football-trivia/privacy. דוחות קריסה עשויים להישלח באמצעות Firebase Crashlytics כדי לשפר את היציבות. שותפי מודעות עשויים לאסוף נתונים בהתאם לאפשרויות ההסכמה שלך בהגדרות."
+        },
+        {
+          "question": "איך אני יוצר קשר עם התמיכה?"
+        },
+        {
+          "question": "האם זו אפליקציית פיפ\"א או מונדיאל רשמית?",
+          "answer": "לא. Football Trivia Master הוא בידור עצמאי של Zuki Apps. אנחנו לא קשורים לפיפ\"א, לאף פדרציה, ליגה, מועדון או מארגן טורנירים."
+        }
+      ]
+    },
+    "statsBar": {
+      "items": [
+        {
+          "label": "שאלות",
+          "value": "450+"
+        },
+        {
+          "label": "קטגוריות"
+        },
+        {
+          "label": "שפות"
+        },
+        {
+          "label": "לכל סיבוב"
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "תכונות",
+      "screenshots": "צילומי מסך",
+      "howTo": "איך לשחק",
+      "faq": "FAQ",
+      "tips": "טיפים למקצוענים",
+      "download": "הורד"
+    },
+    "screenshots": {
+      "title": "בתוך האפליקציה",
+      "subtitle": "לכידת מכשירים אמיתיים - בית, קטגוריות, משחק, תוצאות, לוח הישגים וסטטיסטיקות.",
+      "featuresTitle": "מסכי אפליקציה",
+      "items": [
+        {
+          "id": "בַּיִת",
+          "title": "הרכז שלך לכל סיבוב",
+          "description": "התחל משחק, סרגל נתונים סטטיסטיים, מצב קשה וקישורים מהירים ל-Leaderboard והישגים.",
+          "alt": "מסך הבית של Football Trivia Master עם התחל משחק",
+          "category": "תכונות"
+        },
+        {
+          "id": "קָטֵגוֹרִיָה",
+          "title": "ארבעה ערכות נושא + לערבב הכל",
+          "description": "בחר כדורגל עולמי, נבחרות לאומיות, גמר גלובלי, זרקור הטורניר או כל הקטגוריות.",
+          "alt": "בוחר קטגוריות טריוויה של כדורגל",
+          "category": "תכונות"
+        },
+        {
+          "id": "מִשְׂחָק",
+          "title": "דופק את השעון",
+          "description": "ארבע אפשרויות לכל שאלה עם טיימר גלוי ומחוון פסים.",
+          "alt": "מסך שאלות טריוויה בכדורגל עם טיימר",
+          "category": "תכונות"
+        },
+        {
+          "id": "תוצאות",
+          "title": "ראה כל נקודה שהרווחת",
+          "description": "פירוט ניקוד, דיוק והישגים שנפתחו לאחר כל סיבוב.",
+          "alt": "תוצאות טריוויה של כדורגל ופירוט ציונים",
+          "category": "תכונות"
+        },
+        {
+          "id": "Leaderboard",
+          "title": "להתחרות ברחבי העולם",
+          "description": "דרגות גלובליות באמצעות Game Center או Google Play משחקים.",
+          "alt": "כדורגל טריוויה עולמי",
+          "category": "תכונות"
+        },
+        {
+          "id": "סטטיסטיקות",
+          "title": "עקוב אחר שיפור",
+          "description": "משחקים ששיחקו, דיוק וביצועים לפי קטגוריה.",
+          "alt": "מסך סטטיסטיקות טריוויה של כדורגל",
+          "category": "תכונות"
+        }
+      ]
+    },
+    "tips": {
+      "title": "טיפים למקצוענים",
+      "subtitle": "הרגלים קטנים שמצטברים בלוח המובילים.",
+      "items": [
+        {
+          "title": "הגן על הרצף שלך",
+          "description": "מכפילי פסים מכפילים ב-50%+ (5 נכונים ברציפות). תשובה שגויה אחת מתאפסת לאפס."
+        },
+        {
+          "title": "תרדוף אחרי בונוס הזמן",
+          "description": "ענה עם חצי מהטיימר לפחות עבור עד +50 נקודות בונוס לכל שאלה."
+        },
+        {
+          "title": "סיבובים מושלמים משתלמים",
+          "description": "+150 נקודות עבור 10/10 - לרוב יותר משתי שאלות ממוצעות ביחד."
+        },
+        {
+          "title": "התחמם עם כל הקטגוריות",
+          "description": "סיבובים מעורבים חושפים נקודות תורפה. בדוק סטטיסטיקה ובדוק את הקטגוריה הנמוכה ביותר שלך."
+        },
+        {
+          "title": "היכנס לפני ריצה רצינית",
+          "description": "פתח את Leaderboard פעם אחת בכל הפעלה כדי לאשר ש-Game Center / Play Games מחובר."
+        },
+        {
+          "title": "התאם את השפה לידע שלך",
+          "description": "השאלות הן מקומיות - עבור בהגדרות אם שפה אחרת מתאימה לך יותר."
+        }
+      ]
     }
   }
 }

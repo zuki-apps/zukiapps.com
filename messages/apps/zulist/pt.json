@@ -3,10 +3,12 @@
     "back": "Voltar ao Início",
     "hero": {
       "badge": "Disponível Agora - Versão 1.0.9",
-      "title": "ZuList - Manage & Share Lists",
+      "title": "ZuList - Gerenciar e compartilhar listas",
       "subtitle": "Listas de Compras Inteligentes para Famílias",
       "description": "O aplicativo perfeito para famílias e amigos que fazem compras juntos. Crie, compartilhe e gerencie listas de compras em tempo real com colaboração perfeita.",
-      "structuredDataDescription": "ZuList é o aplicativo definitivo de listas de compras projetado para famílias e amigos que fazem compras juntos. Crie, compartilhe e gerencie listas de compras em tempo real com colaboração perfeita. Os recursos incluem sincronização em tempo real, suporte offline, sugestões inteligentes de produtos, gerenciamento de categorias, histórico de compras e assinaturas premium."
+      "structuredDataDescription": "ZuList é o aplicativo definitivo de listas de compras projetado para famílias e amigos que fazem compras juntos. Crie, compartilhe e gerencie listas de compras em tempo real com colaboração perfeita. Os recursos incluem sincronização em tempo real, suporte offline, sugestões inteligentes de produtos, gerenciamento de categorias, histórico de compras e assinaturas premium.",
+      "seoTitle": "ZuList — Listas de compras inteligentes | Zuki Apps",
+      "metaDescription": "Listas de compras compartilhadas com sincronização em tempo real e modo offline. Gratuito para famílias em iOS e Android — experimente ZuList."
     },
     "features": {
       "title": "Recursos Principais",
@@ -561,7 +563,8 @@
           "item1": "Você será removido da lista",
           "item2": "A lista permanecerá ativa para outros usuários",
           "item3": "Dados e itens permanecerão (apenas você será removido)"
-        }
+        },
+        "title": "O que acontece com listas compartilhadas"
       },
       "partialDelete": {
         "title": "Excluir Alguns Dados (Sem Excluir a Conta)",
@@ -577,7 +580,7 @@
       "contact": {
         "title": "Entre em Contato",
         "content": "Se você tiver dúvidas ou problemas com a exclusão da conta, entre em contato conosco:",
-        "email": "Email",
+        "email": "E-mail",
         "privacy": "Política de Privacidade",
         "privacyLink": "Leia a política de privacidade completa",
         "terms": "Termos de Serviço",
@@ -695,9 +698,11 @@
       "contact": {
         "title": "Entre em Contato",
         "content": "Se você tiver dúvidas ou problemas com a exclusão de dados, entre em contato conosco:",
-        "email": "Email",
+        "email": "E-mail",
         "privacy": "Política de Privacidade",
-        "privacyLink": "Leia a política de privacidade completa"
+        "privacyLink": "Leia a política de privacidade completa",
+        "terms": "Termos de Serviço",
+        "termsLink": "Leia os termos de serviço"
       }
     },
     "support": {
@@ -762,163 +767,163 @@
       "metaDescription": "ZuList FAQ e suporte — listas e tarefas compartilhadas. Contato, privacidade e solução de problemas."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "Características",
+      "screenshots": "Capturas de tela",
+      "howTo": "Como usar",
+      "tips": "Pontas",
       "faq": "FAQ",
       "download": "Download"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from ZuList - Manage & Share Lists.",
-      "featuresTitle": "App screens",
+      "title": "Capturas de tela",
+      "subtitle": "Telas reais de aplicativos de ZuList - Gerenciar e compartilhar listas.",
+      "featuresTitle": "Telas de aplicativos",
       "items": [
         {
-          "id": "lists",
-          "title": "Your lists",
-          "description": "Create and manage multiple shopping lists.",
+          "id": "listas",
+          "title": "Suas listas",
+          "description": "Crie e gerencie várias listas de compras.",
           "image": "/images/zulist/screenshot-lists.png",
-          "alt": "Your lists — zulist",
-          "category": "features"
+          "alt": "Suas listas — zulist",
+          "category": "características"
         },
         {
-          "id": "shared",
-          "title": "Shared list",
-          "description": "Collaborate in real time with family or roommates.",
+          "id": "compartilhado",
+          "title": "Lista compartilhada",
+          "description": "Colabore em tempo real com familiares ou colegas de quarto.",
           "image": "/images/zulist/screenshot-shared.png",
-          "alt": "Shared list — zulist",
-          "category": "features"
+          "alt": "Lista compartilhada — zulist",
+          "category": "características"
         },
         {
-          "id": "invite",
-          "title": "Invite & share",
-          "description": "Send an invite link — no account required for guests.",
+          "id": "convidar",
+          "title": "Convide e compartilhe",
+          "description": "Envie um link de convite – nenhuma conta é necessária para convidados.",
           "image": "/images/zulist/screenshot-invite.png",
-          "alt": "Invite & share — zulist",
-          "category": "features"
+          "alt": "Convide e compartilhe — zulist",
+          "category": "características"
         },
         {
           "id": "widget",
-          "title": "Home widget",
-          "description": "Glance items from your home screen.",
+          "title": "Widget inicial",
+          "description": "Dê uma olhada nos itens da tela inicial.",
           "image": "/images/zulist/screenshot-widget.png",
-          "alt": "Home widget — zulist",
-          "category": "features"
+          "alt": "Widget inicial — zulist",
+          "category": "características"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Como usar",
       "steps": [
         {
           "number": "1",
-          "title": "Create a list",
-          "description": "Add items with quantities and categories."
+          "title": "Crie uma lista",
+          "description": "Adicione itens com quantidades e categorias."
         },
         {
           "number": "2",
-          "title": "Share the list",
-          "description": "Send an invite link so others can edit live."
+          "title": "Compartilhe a lista",
+          "description": "Envie um link de convite para que outras pessoas possam editar ao vivo."
         },
         {
           "number": "3",
-          "title": "Shop together",
-          "description": "Check off items — changes sync instantly."
+          "title": "Compre juntos",
+          "description": "Marque os itens – as alterações são sincronizadas instantaneamente."
         },
         {
           "number": "4",
-          "title": "Use widgets",
-          "description": "Pin a list to your home screen for quick access."
+          "title": "Usar widgets",
+          "description": "Fixe uma lista na tela inicial para acesso rápido."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "Dicas e truques",
+      "subtitle": "Obtenha mais do aplicativo.",
       "items": [
         {
-          "title": "Shopping faster",
-          "description": "Reorder lists on the home screen—put “Today” at the top - Search across all your lists from the home screen - Mark all bought when you finish a trip (owner/read-write)"
+          "title": "Comprando mais rápido",
+          "description": "Reordene as listas na tela inicial - coloque “Hoje” no topo - Pesquise todas as suas listas na tela inicial - Marque todas as compras quando terminar uma viagem (proprietário/leitura-gravação)"
         },
         {
-          "title": "Collaboration",
-          "description": "Use read-only for kids or guests who shouldn’t edit - Due date on a list + notification = fewer “did you get milk?” texts - Share a link in the family group chat—no email required"
+          "title": "Colaboração",
+          "description": "Use somente leitura para crianças ou convidados que não deveriam editar - Data de entrega em uma lista + notificação = menos “você pegou leite?” textos - Compartilhe um link no bate-papo do grupo familiar - não é necessário e-mail"
         },
         {
-          "title": "Offline",
-          "description": "Add items in airplane mode; they sync when you land - If sync is slow, pull to refresh on the list screen"
+          "title": "Off-line",
+          "description": "Adicione itens no modo avião; eles sincronizam quando você pousa - Se a sincronização for lenta, puxe para atualizar na tela da lista"
         },
         {
           "title": "Widget",
-          "description": "Set primary list to your main grocery list, not one-off party lists - Widget shows unbought count only"
+          "description": "Defina a lista principal como sua lista de compras principal, não como listas de festas únicas - o widget mostra apenas a contagem de itens não comprados"
         },
         {
-          "title": "Invites",
-          "description": "Recent emails appear when inviting—tap to resend faster - Wait a few seconds between resends to the same address (anti-spam)"
+          "title": "Convites",
+          "description": "E-mails recentes aparecem ao convidar – toque para reenviar mais rápido - Aguarde alguns segundos entre reenvios para o mesmo endereço (anti-spam)"
         },
         {
-          "title": "Premium value",
-          "description": "Worth it if you run multiple households or large families on one list - Restore purchases on a new phone: Premium screen → restore link"
+          "title": "Premium valor",
+          "description": "Vale a pena se você administra vários domicílios ou famílias numerosas em uma lista - Restaurar compras em um novo telefone: Premium tela → restaurar link"
         },
         {
-          "title": "Privacy",
-          "description": "Only people you invite see a list - Delete account anytime: Settings → Account → Delete account"
+          "title": "Privacidade",
+          "description": "Somente as pessoas que você convida veem uma lista - Exclua a conta a qualquer momento: Configurações → Conta → Excluir conta"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Perguntas frequentes",
+      "subtitle": "Respostas rápidas sobre recursos, privacidade e cobrança.",
+      "viewAllSupport": "Ver suporte completo e FAQ",
       "items": [
         {
-          "question": "What is ZuList?",
-          "answer": "A collaborative shopping list app. Create lists, share with others, and sync in real time on iOS and Android."
+          "question": "O que é ZuList?",
+          "answer": "Um aplicativo colaborativo de lista de compras. Crie listas, compartilhe com outras pessoas e sincronize em tempo real em iOS e Android."
         },
         {
-          "question": "Is ZuList free?",
-          "answer": "Yes. Free tier includes up to 5 lists, 150 items per list, and sharing with one other person per list. Premium removes limits and ads."
+          "question": "ZuList é grátis?",
+          "answer": "Sim. O nível gratuito inclui até 5 listas, 150 itens por lista e compartilhamento com outra pessoa por lista. Premium remove limites e anúncios."
         },
         {
-          "question": "Do I need an account?",
-          "answer": "You can start as a guest. Sign in to sync across devices and accept invites reliably."
+          "question": "Eu preciso de uma conta?",
+          "answer": "Você pode começar como convidado. Faça login para sincronizar entre dispositivos e aceitar convites de maneira confiável."
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Chinese (Simplified), Japanese, and Korean."
+          "question": "Quais idiomas são suportados?",
+          "answer": "Inglês, hebraico, árabe, alemão, espanhol, francês, italiano, português, russo, chinês (simplificado), japonês e coreano."
         },
         {
-          "question": "How fast is sync?",
-          "answer": "Usually instant when online. Offline changes upload when connectivity returns."
+          "question": "Quão rápida é a sincronização?",
+          "answer": "Geralmente instantâneo quando online. As alterações off-line são carregadas quando a conectividade retorna."
         },
         {
-          "question": "Can two people edit at the same time?",
-          "answer": "Yes. Last write wins for the same field; the list stays consistent."
+          "question": "Duas pessoas podem editar ao mesmo tempo?",
+          "answer": "Sim. A última gravação vence para o mesmo campo; a lista permanece consistente."
         },
         {
-          "question": "How do I remove someone from a list?",
-          "answer": "List owner → Members → remove. They lose access immediately."
+          "question": "Como faço para remover alguém de uma lista?",
+          "answer": "Proprietário da lista → Membros → remover. Eles perdem o acesso imediatamente."
         },
         {
-          "question": "Why doesn’t the widget match the list I’m viewing?",
-          "answer": "The widget always shows your **primary list** from Settings."
+          "question": "Por que o widget não corresponde à lista que estou visualizando?",
+          "answer": "O widget sempre mostra sua **lista principal** em Configurações."
         },
         {
-          "question": "How do I add the widget?",
-          "answer": "See [How to: Home screen widget](./how-to-home-widget.md)."
+          "question": "Como adiciono o widget?",
+          "answer": "Consulte [Como fazer: widget da tela inicial](./how-to-home-widget.md)."
         },
         {
-          "question": "What does Premium include?",
-          "answer": "Unlimited lists, items, and members; no ads; advanced statistics; themes; premium offline features; cloud backup."
+          "question": "O que Premium inclui?",
+          "answer": "Listas, itens e membros ilimitados; sem anúncios; estatísticas avançadas; temas; premium recursos off-line; backup na nuvem."
         },
         {
-          "question": "How do I cancel?",
-          "answer": "Manage subscription in the App Store or Google Play—ZuList updates automatically via store webhooks."
+          "question": "Como faço para cancelar?",
+          "answer": "Gerencie atualizações de assinatura nas atualizações App Store ou Google Play—ZuList automaticamente por meio de webhooks da loja."
         },
         {
-          "question": "Where is my data stored?",
-          "answer": "Firebase (Google Cloud). Lists are private to you and invited members."
+          "question": "Onde meus dados são armazenados?",
+          "answer": "Firebase (Google Nuvem). As listas são privadas para você e para os membros convidados."
         }
       ]
     }

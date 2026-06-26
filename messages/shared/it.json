@@ -217,7 +217,8 @@
     "footer": {
       "copyright": "© 2025 Zuki Apps - Tutti i diritti riservati. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "Sviluppato in Israele • Come hobby • Con passione",
-      "support": "Supporta Il Mio Lavoro"
+      "support": "Supporta Il Mio Lavoro",
+      "about": "Circa Zuki Apps"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -251,6 +252,12 @@
         "filters": "Filtri e adesivi",
         "private": "Nessun accesso"
       }
+    },
+    "seoTitle": "Zuki Apps — iOS e Android App mobili",
+    "metaDescription": "App mobili che mettono al primo posto la privacy da Israele: Hush Gallery, ZuList, Whistle Camera, timer HIIT e altro. Gratis su iOS e Android.",
+    "aboutTeaser": {
+      "body": "Sviluppatore indipendente in Israele: dalle app DreamBit alle app Flutter che mettono al primo posto la privacy, con illustrazioni originali di Zuli Monster in ogni app.",
+      "cta": "La nostra storia & Zuli Monsters →"
     }
   },
   "common": {
@@ -303,5 +310,19 @@
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
+  },
+  "about": {
+    "metaTitle": "Informazioni su Zuki Apps — Sviluppatore mobile | Zuki Apps",
+    "metaDescription": "Zuki Apps crea app iOS e Android incentrate sulla privacy da Israele: ZuList, Hush Gallery, Whistle Camera e altre. Ulteriori informazioni sullo sviluppatore.",
+    "title": "Circa Zuki Apps",
+    "subtitle": "Sviluppatore mobile indipendente — iOS e Android",
+    "p1": "Zuki Apps è uno studio di software mobile indipendente con sede in Israele. Forniamo app pratiche e attente alla privacy per la vita di tutti i giorni: archivi fotografici privati, fotocamere a mani libere, liste della spesa condivise, timer per il fitness, giochi a quiz e strumenti per sviluppatori.",
+    "p2": "Ogni app è realizzata con Flutter per un'esperienza coerente su iPhone, iPad e Android. Privilegiamo l'elaborazione sul dispositivo, politiche sulla privacy chiare e flussi senza account ove possibile.",
+    "p3": "Tra il 2012 e il 2016, le nostre app sono state distribuite con DreamBit Apps. Oggi il catalogo Zuki Apps continua questa attività con nuovi titoli e supporto a lungo termine per gli utenti esistenti.",
+    "contactTitle": "Contatto",
+    "contactBody": "Domande, richieste della stampa o di partnership:",
+    "address": "Nachshol 36, SAAR, p.o. 22805, ISRAELE",
+    "catalogTitle": "Catalogo delle app",
+    "catalogBody": "Sfoglia tutte le pagine dei prodotti, il supporto e le politiche dalla home page o dal nostro catalogo leggibile dalla macchina all'indirizzo /api/site-facts."
   }
 }

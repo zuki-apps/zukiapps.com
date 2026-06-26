@@ -1,337 +1,339 @@
 {
   "sudokuPuzzle": {
-    "back": "Back to Home",
+    "back": "返回首页",
     "hero": {
-      "badge": "Available on App Store",
-      "title": "Sudoku Fun Go - Classic Sudoku",
-      "subtitle": "9×9 Sudoku Puzzle Game",
-      "description": "A classic 9×9 Sudoku game built with Flutter for iOS and Android. Four difficulty levels (Easy, Medium, Hard, Expert), optional notes and hints, undo/erase, running timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games leaderboards and achievements.",
-      "structuredDataDescription": "Sudoku Fun Go — classic Sudoku puzzle game for iOS and Android. Multiple difficulties, hints, statistics, clean grid UI, 12+ languages. Android com.zuki.apps.sudokupuzzle by Zuki Apps."
+      "badge": "App Store 可用",
+      "title": "Sudoku Fun Go - 经典数独",
+      "subtitle": "9×9 数独益智游戏",
+      "description": "使用 Flutter 为 iOS 和 Android 构建的经典 9×9 数独游戏。四个难度级别（简单、中等、困难、专家）、可选注释和提示、撤消/擦除、运行计时器和持久统计数据。完全本地化为 12 种语言。 Game Center 和 Play Games 排行榜和成就。",
+      "structuredDataDescription": "Sudoku Fun Go — iOS 和 Android 的经典数独益智游戏。多种难度、提示、统计、干净的网格 UI、12 种以上语言。 Android com.zuki.apps.sudokupuzzle，作者：Zuki Apps。",
+      "seoTitle": "Sudoku Fun Go — 经典 9×9 拼图 | Zuki Apps",
+      "metaDescription": "带有提示和统计数据的干净数独。离线工作。 iOS 和 Android 免费 — 立即下载。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主要特点",
       "difficulty": {
-        "title": "Difficulty Levels",
-        "description": "Choose your challenge with four difficulty levels",
+        "title": "难度级别",
+        "description": "选择四个难度级别的挑战",
         "items": [
-          "Easy",
-          "Medium",
-          "Hard",
-          "Expert"
+          "简单的",
+          "中等的",
+          "难的",
+          "专家"
         ]
       },
       "gameplay": {
-        "title": "Notes, Hints & Tools",
-        "description": "Full set of tools to help you solve puzzles",
+        "title": "注释、提示和工具",
+        "description": "全套工具帮助你解决难题",
         "items": [
-          "Notes mode for pencil candidates",
-          "Hints for the selected cell",
-          "Undo and erase",
-          "Running timer",
-          "Mistake counter"
+          "铅笔考生的笔记模式",
+          "所选单元格的提示",
+          "撤消和删除",
+          "运行定时器",
+          "错误计数器"
         ]
       },
       "stats": {
-        "title": "Statistics",
-        "description": "Track your progress and improve",
+        "title": "统计数据",
+        "description": "跟踪您的进度并改进",
         "items": [
-          "Games won and win rate",
-          "Best times per difficulty",
-          "Best scores per difficulty",
-          "Current and best streaks",
-          "Total games and play time"
+          "赢得的比赛和胜率",
+          "每个难度的最佳时间",
+          "每个难度的最佳分数",
+          "当前和最佳连胜纪录",
+          "总游戏次数和游戏时间"
         ]
       },
       "localization": {
-        "title": "12 Languages",
-        "description": "Fully localized with regional variants",
+        "title": "12 种语言",
+        "description": "完全本地化，具有区域变体",
         "items": [
-          "English, Hebrew (RTL), Arabic (RTL)",
-          "German, Spanish, French, Italian",
-          "Portuguese, Russian, Japanese",
-          "Korean, Chinese",
-          "17 regional variants (e.g. pt-BR, es-MX)"
+          "英语、希伯来语 (RTL)、阿拉伯语 (RTL)",
+          "德语、西班牙语、法语、意大利语",
+          "葡萄牙语、俄语、日语",
+          "韩语、中文",
+          "17 个区域变体（例如 pt-BR、es-MX）"
         ]
       },
       "leaderboards": {
-        "title": "Leaderboards & Achievements",
-        "description": "Compete and unlock achievements",
+        "title": "排行榜和成就",
+        "description": "竞争并解锁成就",
         "items": [
           "Game Center (iOS) & Play Games (Android)",
-          "Friends and Global leaderboards",
-          "Best score leaderboards",
-          "First win, Streak 5, Streak 10 achievements"
+          "朋友和全球排行榜",
+          "最佳成绩排行榜",
+          "首胜、连胜 5 场、连胜 10 场"
         ]
       }
     },
     "status": {
-      "title": "Available",
-      "description": "Sudoku Fun Go is available on the App Store and Google Play.",
-      "version": "Version",
-      "status": "Status",
+      "title": "可用的",
+      "description": "Sudoku Fun Go 适用于 App Store 和 Google Play。",
+      "version": "版本",
+      "status": "地位",
       "versionValue": "1.0.4+10",
-      "statusValue": "Available"
+      "statusValue": "可用的"
     },
     "download": {
-      "title": "Download",
-      "description": "Available on the App Store and Google Play.",
-      "soon": "Available soon",
+      "title": "下载",
+      "description": "适用于 App Store 和 Google Play。",
+      "soon": "即将上市",
       "appStoreUrl": "https://apps.apple.com/us/app/sudoku-fun-go/id6759739806",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "下载App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "获取Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要链接",
       "support": {
-        "title": "Technical Support",
+        "title": "技术支援",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！查找常见问题的答案或直接联系我们。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发送电子邮件，我们会尽快回复您。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "快速链接",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "常见问题解答",
         "q1": {
-          "question": "What is Sudoku Fun Go?",
-          "answer": "Sudoku Fun Go is a classic 9×9 Sudoku game for iOS and Android. Fill every row, column, and 3×3 box with the digits 1–9 with no repeats. It offers four difficulty levels, notes mode, hints, undo, a timer, and persistent statistics including best times and scores per difficulty."
+          "question": "Sudoku Fun Go是什么？",
+          "answer": "Sudoku Fun Go 是iOS 和Android 的经典 9×9 数独游戏。在每行、每列和 3×3 方框中填写数字 1-9，不得重复。它提供四个难度级别、笔记模式、提示、撤消、计时器和持久统计数据，包括每个难度的最佳时间和分数。"
         },
         "q2": {
-          "question": "Does the app work offline?",
-          "answer": "Yes. Gameplay, stats, and settings are stored locally. You can play fully offline. Internet is only needed for Game Center / Play Games leaderboards and achievements, and for optional in-app purchases (e.g. remove ads)."
+          "question": "该应用程序可以离线使用吗？",
+          "answer": "是的。游戏玩法、统计数据和设置都存储在本地。您可以完全离线玩。仅Game Center / Play Games 排行榜和成就以及可选的应用内购买（例如删除广告）需要互联网。"
         },
         "q3": {
-          "question": "What are the difficulty levels?",
-          "answer": "There are four levels: Easy, Medium, Hard, and Expert. Each affects the number of given clues and puzzle complexity. Best times and best scores are tracked separately per difficulty."
+          "question": "难度是多少？",
+          "answer": "有四个级别：简单、中等、困难和专家。每个因素都会影响给定线索的数量和谜题的复杂性。每个难度单独跟踪最佳时间和最佳分数。"
         },
         "q4": {
-          "question": "Does the app support leaderboards?",
-          "answer": "Yes. On iOS we use Game Center with Friends and Global leaderboards for best score, plus achievements (e.g. first win, streak 5, streak 10). On Android we use Play Games Services with the same structure. Sign-in is prompted on app start."
+          "question": "该应用程序支持排行榜吗？",
+          "answer": "是的。在 iOS 上，我们将 Game Center 与朋友和全球排行榜一起使用以获得最佳成绩以及成就（例如首次获胜、连胜 5 场、连胜 10 场）。在Android上，我们使用具有相同结构的Play Games服务。应用程序启动时会提示登录。"
         },
         "q5": {
-          "question": "In which languages is the app available?",
-          "answer": "The app is localized in 12 base languages (English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, Chinese) with 17 regional variants. Hebrew and Arabic have full RTL support."
+          "question": "该应用程序有哪些语言版本？",
+          "answer": "该应用程序已本地化为 12 种基本语言（英语、希伯来语、阿拉伯语、德语、西班牙语、法语、意大利语、葡萄牙语、俄语、日语、韩语、中文），并有 17 种区域变体。希伯来语和阿拉伯语有完整的RTL支持。"
         },
         "q6": {
-          "question": "How can I remove ads?",
-          "answer": "Sudoku Fun Go offers an in-app purchase to remove ads. After purchasing, ads are disabled. The purchase is restored automatically when you reinstall the app or use the same account on another device."
+          "question": "如何删除广告？",
+          "answer": "Sudoku Fun Go 提供应用内购买来删除广告。购买后，广告将被禁用。当您重新安装应用程序或在其他设备上使用同一帐户时，购买会自动恢复。"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到所需的答案，或者遇到技术问题，请随时与我们联系。我们随时为您提供帮助，通常会在 24-48 小时内回复。"
       },
       "metaTitle": "支持与帮助 — Sudoku Fun Go | Zuki Apps",
       "metaDescription": "Sudoku Fun Go FAQ 和支持 — 经典数独谜题。联系方式、隐私和故障排除。"
     },
     "footer": {
-      "copyright": "© 2025 Sudoku Fun Go - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 Sudoku Fun Go - 保留所有权利",
+      "tagline": "Zuki Apps 的一部分 • 来自以色列的开发商 • 由 ❤️ 制作"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Sudoku Fun Go. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
+      "intro": "使用Sudoku Fun Go前请仔细阅读本使用条款。通过访问或使用我们的服务，您同意受这些条款的约束。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Sudoku Fun Go (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval puzzle game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 接受条款",
+        "content": "这些使用条款（“条款”）管辖您对Zuki Apps（“公司”）运营的间隔益智游戏Sudoku Fun Go（“服务”、“应用程序”、“我们”、“我们”或“我们的”）的访问和使用。通过下载、安装、访问或使用服务，您同意受这些条款和我们的隐私政策的约束。",
+        "content2": "如果您代表某个组织使用服务，则您声明并保证您有权约束该组织遵守这些条款。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Sudoku Fun Go is a mobile application that provides classic 9×9 Sudoku gameplay. The Service includes: configurable difficulty levels, notes and hints, statistics and leaderboards, Game Center / Play Games integration, and in-app purchases (e.g. remove ads).",
+        "title": "2. 服务说明",
+        "content": "Sudoku Fun Go是一款提供经典9×9数独游戏的移动应用程序。该服务包括：可配置的难度级别、注释和提示、统计数据和排行榜、Game Center/Play Games集成以及应用内购买（例如删除广告）。",
         "items": [
-          "Four difficulty levels (Easy, Medium, Hard, Expert)",
-          "Notes mode, hints, undo, erase, timer, mistake count",
-          "Statistics: games won, win rate, streaks, best times and scores",
-          "Game Center (iOS) and Play Games (Android) leaderboards and achievements",
-          "In-app purchase to remove ads",
-          "12 languages with regional variants"
+          "四个难度级别（简单、中等、困难、专家）",
+          "笔记模式、提示、撤消、擦除、计时器、错误计数",
+          "统计数据：获胜场次、胜率、连胜次数、最佳时间和得分",
+          "Game Center (iOS) 和 Play Games (Android) 排行榜和成就",
+          "应用内购买以删除广告",
+          "12 种不同地区的语言"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 联系方式",
+        "content": "如果您对这些条款有任何疑问，请联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Sudoku Fun Go collects minimal information necessary to provide the service. We collect information you provide directly (e.g. when you contact support). Game progress, statistics, and settings are stored locally on your device."
+        "title": "1. 我们收集的信息",
+        "content": "Sudoku Fun Go 收集提供服务所需的最少信息。我们收集您直接提供的信息（例如，当您联系支持人员时）。游戏进度、统计数据和设置都存储在您的设备本地。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide, maintain, and improve our services. Locally stored data (puzzles, stats, settings) is not transmitted to our servers except as needed for optional services (e.g. Game Center / Play Games)."
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用这些信息来提供、维护和改进我们的服务。本地存储的数据（谜题、统计数据、设置）不会传输到我们的服务器，除非可选服务需要（例如Game Center / Play Games）。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties. Leaderboard scores and achievements are shared with the respective platform (Apple Game Center, Google Play Games) when you use those features."
+        "title": "3. 信息共享",
+        "content": "我们不会向第三方出售或分享您的个人信息。当您使用这些功能时，排行榜分数和成就将与相应平台（Apple Game Center、Google Play 游戏）共享。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device. If you use Game Center or Play Games, their policies apply to data processed by those services."
+        "title": "4. 数据安全",
+        "content": "我们实施适当的安全措施。您的游戏数据存储在您的设备本地。如果您使用 Game Center 或 Play Games，则它们的政策适用于这些服务处理的数据。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings (e.g. reset statistics). You may also delete the app at any time. For platform-specific data (e.g. Game Center), you can manage that in your device or account settings."
+        "title": "5. 您的权利",
+        "content": "您可以通过应用程序的设置清除本地数据（例如重置统计数据）。您也可以随时删除该应用程序。对于特定于平台的数据（例如Game Center），您可以在设备或帐户设置中对其进行管理。"
       },
       "section6": {
-        "title": "6. Advertising and In-App Purchases",
-        "content": "The app may show ads (e.g. via Google Mobile Ads). We may use device identifiers and usage data for ad delivery and measurement in accordance with our ad providers' policies. In-app purchases (e.g. remove ads) are processed by Apple or Google; we do not store payment details."
+        "title": "6. 广告和应用内购买",
+        "content": "该应用程序可能会显示广告（例如通过 Google 移动广告）。我们可能会根据我们的广告提供商的政策，使用设备标识符和使用数据进行广告投放和衡量。应用内购买（例如删除广告）由 Apple 或 Google 处理；我们不存储付款详细信息。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 联系我们",
+        "content": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       },
       "metaDescription": "Sudoku Fun Go 隐私政策 — 我们如何处理您在 iOS 和 Android 上的数据。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "如何使用",
+      "tips": "尖端",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "下载"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Sudoku Fun Go - Classic Sudoku.",
-      "featuresTitle": "App screens",
+      "title": "截图",
+      "subtitle": "来自Sudoku Fun Go的真实应用程序屏幕 - 经典数独。",
+      "featuresTitle": "应用程序屏幕",
       "items": [
         {
-          "id": "home",
-          "title": "New puzzle",
-          "description": "Pick difficulty and start a fresh grid.",
+          "id": "家",
+          "title": "新谜题",
+          "description": "选择难度并开始新的网格。",
           "image": "/images/sudoku-puzzle/screenshot-home.png",
-          "alt": "New puzzle — sudoku puzzle",
-          "category": "features"
+          "alt": "新谜题——数独谜题",
+          "category": "特征"
         },
         {
-          "id": "gameplay",
-          "title": "Gameplay",
-          "description": "Fill the grid with notes and smart hints.",
+          "id": "游戏玩法",
+          "title": "游戏玩法",
+          "description": "用注释和智能提示填充网格。",
           "image": "/images/sudoku-puzzle/screenshot-gameplay.png",
-          "alt": "Gameplay — sudoku puzzle",
-          "category": "features"
+          "alt": "游戏玩法——数独谜题",
+          "category": "特征"
         },
         {
-          "id": "victory",
-          "title": "Victory",
-          "description": "Celebrate completion with time and stats.",
+          "id": "胜利",
+          "title": "胜利",
+          "description": "用时间和统计数据来庆祝完成。",
           "image": "/images/sudoku-puzzle/screenshot-victory.png",
-          "alt": "Victory — sudoku puzzle",
-          "category": "features"
+          "alt": "胜利 — 数独谜题",
+          "category": "特征"
         },
         {
-          "id": "statistics",
-          "title": "Statistics",
-          "description": "Track wins, streaks, and best times.",
+          "id": "统计数据",
+          "title": "统计数据",
+          "description": "追踪胜利、连胜和最佳成绩。",
           "image": "/images/sudoku-puzzle/screenshot-statistics.png",
-          "alt": "Statistics — sudoku puzzle",
-          "category": "features"
+          "alt": "统计 — 数独谜题",
+          "category": "特征"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "如何使用",
       "steps": [
         {
           "number": "1",
-          "title": "Select difficulty",
-          "description": "Easy to expert — find the level that fits you."
+          "title": "选择难度",
+          "description": "轻松成为专家——找到适合您的级别。"
         },
         {
           "number": "2",
-          "title": "Fill the grid",
-          "description": "Tap cells, use notes, and avoid duplicate digits per row, column, and box."
+          "title": "填充网格",
+          "description": "点击单元格，使用注释，并避免每行、每列和每框中出现重复的数字。"
         },
         {
           "number": "3",
-          "title": "Use hints wisely",
-          "description": "Hints help when stuck without spoiling the whole puzzle."
+          "title": "明智地使用提示",
+          "description": "当卡住时，提示会有所帮助，而不会破坏整个谜题。"
         },
         {
           "number": "4",
-          "title": "Finish & improve",
-          "description": "Complete puzzles to grow your stats and streaks."
+          "title": "完成并改进",
+          "description": "完成谜题以增加你的统计数据和连胜次数。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "常见问题",
+      "subtitle": "有关功能、隐私和计费的快速解答。",
+      "viewAllSupport": "查看完整支持 & FAQ",
       "items": [
         {
-          "question": "Do I need an account?",
-          "answer": "No. Open the app and tap New Game. Game Center (iOS) or Google Play Games (Android) is optional for leaderboards and achievements."
+          "question": "我需要一个帐户吗？",
+          "answer": "不需要。打开应用程序并点击“新游戏”。 Game Center (iOS) 或Google Play 游戏 (Android) 对于排行榜和成就是可选的。"
         },
         {
-          "question": "Is the app free?",
-          "answer": "Yes. Sudoku Fun Go is free to download and play. Ads support development. You can remove ads with a one-time in-app purchase."
+          "question": "该应用程序是免费的吗？",
+          "answer": "是的。 Sudoku Fun Go可以免费下载和玩。广告支持发展。您可以通过一次性应用内购买来删除广告。"
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "iPhone and iPad (iOS), and Android phones and tablets with Google Play services. Requires a recent OS version — see the store listing for details."
+          "question": "支持哪些设备？",
+          "answer": "iPhone 和 iPad (iOS)，以及具有 Google Play 服务的 Android 手机和平板电脑。需要最新的操作系统版本 - 有关详细信息，请参阅商店列表。"
         },
         {
-          "question": "What are the difficulty levels?",
-          "answer": "| Level | For whom | |-------|----------| | Easy | Beginners — fewer empty cells | | Medium | Balanced daily challenge | | Hard | Experienced solvers | | Expert | Maximum empty cells — bravest players only |"
+          "question": "难度是多少？",
+          "answer": "|水平|为了谁| |--------|----------| |简单|初学者——更少的空单元| |中等|平衡的每日挑战| |硬|经验丰富的求解者 | |专家|最大空格——仅限最勇敢的玩家 |"
         },
         {
-          "question": "Can I pause mid-game?",
-          "answer": "Yes. Tap pause; the timer stops until you resume. Your puzzle is saved automatically."
+          "question": "我可以在游戏中暂停吗？",
+          "answer": "是的。点击暂停；计时器会停止，直到您恢复为止。您的拼图会自动保存。"
         },
         {
-          "question": "What happens if I quit?",
-          "answer": "If you leave without finishing, that puzzle’s progress is lost. Use Continue Game on the home screen to return to an in-progress puzzle."
+          "question": "如果我退出会怎样？",
+          "answer": "如果你没有完成就离开，该谜题的进度就会丢失。使用主屏幕上的“继续游戏”返回到正在进行的谜题。"
         },
         {
-          "question": "How do notes work?",
-          "answer": "Turn on Notes, tap a cell, then tap digits to mark candidates. When you place a confirmed number, matching notes in the row, column, and box can auto-clear (if enabled in Settings)."
+          "question": "笔记如何发挥作用？",
+          "answer": "打开“笔记”，点击一个单元格，然后点击数字来标记候选者。当您输入确认的号码时，行、列和框中的匹配注释可以自动清除（如果在“设置”中启用）。"
         },
         {
-          "question": "Do hints hurt my score?",
-          "answer": "Yes. Each hint costs 300 points from your final score. Use them when stuck, but fewer hints = higher rank."
+          "question": "提示会影响我的分数吗？",
+          "answer": "是的。每个提示都会从您的最终得分中扣除 300 分。当卡住时使用它们，但更少的提示=更高的排名。"
         },
         {
-          "question": "How many mistakes are allowed?",
-          "answer": "Mistakes are tracked and reduce your score (−500 each). The puzzle does not end on a wrong entry — you can keep solving."
+          "question": "允许有多少错误？",
+          "answer": "错误会被跟踪并降低你的分数（每个错误 -500）。谜题不会因输入错误而结束——你可以继续解决。"
         },
         {
-          "question": "How is my score calculated?",
-          "answer": "Base = 10,000 × difficulty multiplier (Easy ×1, Medium ×2, Hard ×3, Expert ×5) Minus 2 points per second, 500 per mistake, 300 per hint. Example: Expert, 10 minutes, 0 mistakes, 0 hints → up to 48,800 before time penalty details."
+          "question": "我的分数是如何计算的？",
+          "answer": "基础 = 10,000 × 难度系数（简单 ×1、中 ×2、困难 ×3、专家 ×5）每秒减去 2 分，每次错误 500 点，每次提示 300 点。示例：专家，10 分钟，0 次错误，0 次提示 → 处罚前最多 48,800 条详细信息。"
         },
         {
-          "question": "Why is my leaderboard empty?",
-          "answer": "Sign in to Game Center or Play Games, complete a puzzle to submit a score, then open Statistics → Friends or Global. Install from the Play Store or App Store (not sideload) for full Play Games / billing support on Android."
+          "question": "为什么我的排行榜是空的？",
+          "answer": "登录Game Center或Play Games，完成拼图并提交分数，然后打开统计→好友或全局。从 Play 商店或 App Store（非旁载）安装以获得完整的 Play Games/Android 上的计费支持。"
         },
         {
-          "question": "How do achievements unlock?",
-          "answer": "Automatically when you meet goals (first win, streaks, flawless solve, etc.). Open Statistics → Achievements to view progress."
+          "question": "成就如何解锁？",
+          "answer": "当您实现目标（首胜、连胜、完美解决等）时自动进行。打开统计→成就查看进度。"
         }
       ]
     }

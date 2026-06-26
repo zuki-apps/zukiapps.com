@@ -1,337 +1,339 @@
 {
   "sudokuPuzzle": {
-    "back": "Back to Home",
+    "back": "Zurück nach Hause",
     "hero": {
-      "badge": "Available on App Store",
-      "title": "Sudoku Fun Go - Classic Sudoku",
-      "subtitle": "9×9 Sudoku Puzzle Game",
-      "description": "A classic 9×9 Sudoku game built with Flutter for iOS and Android. Four difficulty levels (Easy, Medium, Hard, Expert), optional notes and hints, undo/erase, running timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games leaderboards and achievements.",
-      "structuredDataDescription": "Sudoku Fun Go — classic Sudoku puzzle game for iOS and Android. Multiple difficulties, hints, statistics, clean grid UI, 12+ languages. Android com.zuki.apps.sudokupuzzle by Zuki Apps."
+      "badge": "Verfügbar am App Store",
+      "title": "Sudoku Fun Go – Klassisches Sudoku",
+      "subtitle": "9×9 Sudoku-Puzzlespiel",
+      "description": "Ein klassisches 9×9-Sudoku-Spiel, das mit Flutter für iOS und Android erstellt wurde. Vier Schwierigkeitsstufen (Einfach, Mittel, Schwer, Experte), optionale Notizen und Hinweise, Rückgängigmachen/Löschen, laufender Timer und dauerhafte Statistiken. Vollständig in 12 Sprachen lokalisiert. Game Center und Play Games Bestenlisten und Erfolge.",
+      "structuredDataDescription": "Sudoku Fun Go – klassisches Sudoku-Puzzlespiel für iOS und Android. Mehrere Schwierigkeiten, Hinweise, Statistiken, übersichtliche Benutzeroberfläche, 12+ Sprachen. Android com.zuki.apps.sudokupuzzle von Zuki Apps.",
+      "seoTitle": "Sudoku Fun Go — Klassische 9×9-Rätsel | Zuki Apps",
+      "metaDescription": "Sauberes Sudoku mit Hinweisen und Statistiken. Funktioniert offline. Kostenlos für iOS und Android – noch heute herunterladen."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Hauptmerkmale",
       "difficulty": {
-        "title": "Difficulty Levels",
-        "description": "Choose your challenge with four difficulty levels",
+        "title": "Schwierigkeitsgrade",
+        "description": "Wählen Sie Ihre Herausforderung mit vier Schwierigkeitsstufen",
         "items": [
-          "Easy",
+          "Einfach",
           "Medium",
-          "Hard",
-          "Expert"
+          "Hart",
+          "Experte"
         ]
       },
       "gameplay": {
-        "title": "Notes, Hints & Tools",
-        "description": "Full set of tools to help you solve puzzles",
+        "title": "Notizen, Tipps und Tools",
+        "description": "Vollständiger Satz an Werkzeugen, die Ihnen beim Lösen von Rätseln helfen",
         "items": [
-          "Notes mode for pencil candidates",
-          "Hints for the selected cell",
-          "Undo and erase",
-          "Running timer",
-          "Mistake counter"
+          "Notizenmodus für Bleistiftkandidaten",
+          "Hinweise für die ausgewählte Zelle",
+          "Rückgängig machen und löschen",
+          "Laufender Timer",
+          "Fehlerzähler"
         ]
       },
       "stats": {
-        "title": "Statistics",
-        "description": "Track your progress and improve",
+        "title": "Statistiken",
+        "description": "Verfolgen Sie Ihre Fortschritte und verbessern Sie sich",
         "items": [
-          "Games won and win rate",
-          "Best times per difficulty",
-          "Best scores per difficulty",
-          "Current and best streaks",
-          "Total games and play time"
+          "Gewonnene Spiele und Gewinnquote",
+          "Beste Zeiten pro Schwierigkeitsgrad",
+          "Beste Punktzahl pro Schwierigkeitsgrad",
+          "Aktuelle und beste Serien",
+          "Gesamtspiele und Spielzeit"
         ]
       },
       "localization": {
-        "title": "12 Languages",
-        "description": "Fully localized with regional variants",
+        "title": "12 Sprachen",
+        "description": "Vollständig lokalisiert mit regionalen Varianten",
         "items": [
-          "English, Hebrew (RTL), Arabic (RTL)",
-          "German, Spanish, French, Italian",
-          "Portuguese, Russian, Japanese",
-          "Korean, Chinese",
-          "17 regional variants (e.g. pt-BR, es-MX)"
+          "Englisch, Hebräisch (RTL), Arabisch (RTL)",
+          "Deutsch, Spanisch, Französisch, Italienisch",
+          "Portugiesisch, Russisch, Japanisch",
+          "Koreanisch, Chinesisch",
+          "17 regionale Varianten (z. B. pt-BR, es-MX)"
         ]
       },
       "leaderboards": {
-        "title": "Leaderboards & Achievements",
-        "description": "Compete and unlock achievements",
+        "title": "Bestenlisten und Erfolge",
+        "description": "Treten Sie gegeneinander an und schalten Sie Erfolge frei",
         "items": [
           "Game Center (iOS) & Play Games (Android)",
-          "Friends and Global leaderboards",
-          "Best score leaderboards",
-          "First win, Streak 5, Streak 10 achievements"
+          "Freunde und globale Bestenlisten",
+          "Bestenlisten mit den besten Ergebnissen",
+          "Erster Sieg, Serie 5, Serie 10 Erfolge"
         ]
       }
     },
     "status": {
-      "title": "Available",
-      "description": "Sudoku Fun Go is available on the App Store and Google Play.",
+      "title": "Verfügbar",
+      "description": "Sudoku Fun Go ist auf App Store und Google Play verfügbar.",
       "version": "Version",
       "status": "Status",
       "versionValue": "1.0.4+10",
-      "statusValue": "Available"
+      "statusValue": "Verfügbar"
     },
     "download": {
-      "title": "Download",
-      "description": "Available on the App Store and Google Play.",
-      "soon": "Available soon",
+      "title": "Herunterladen",
+      "description": "Verfügbar für App Store und Google Play.",
+      "soon": "Bald verfügbar",
       "appStoreUrl": "https://apps.apple.com/us/app/sudoku-fun-go/id6759739806",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "Download auf der App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Schalten Sie es ein Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Wichtige Links",
       "support": {
-        "title": "Technical Support",
+        "title": "Technische Unterstützung",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "Support & Hilfe",
+      "subtitle": "Wir sind hier, um zu helfen! Finden Sie Antworten auf häufig gestellte Fragen oder kontaktieren Sie uns direkt.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "Kontaktieren Sie uns",
+        "description": "Haben Sie eine Frage oder benötigen Sie Hilfe? Senden Sie uns eine E-Mail und wir werden uns so schnell wie möglich bei Ihnen melden.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "Quicklinks",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "Datenschutzrichtlinie",
+          "description": "Erfahren Sie, wie wir Ihre Daten schützen"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "Nutzungsbedingungen",
+          "description": "Lesen Sie unsere Allgemeinen Geschäftsbedingungen"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "Häufig gestellte Fragen",
         "q1": {
-          "question": "What is Sudoku Fun Go?",
-          "answer": "Sudoku Fun Go is a classic 9×9 Sudoku game for iOS and Android. Fill every row, column, and 3×3 box with the digits 1–9 with no repeats. It offers four difficulty levels, notes mode, hints, undo, a timer, and persistent statistics including best times and scores per difficulty."
+          "question": "Was ist Sudoku Fun Go?",
+          "answer": "Sudoku Fun Go ist ein klassisches 9×9-Sudoku-Spiel für iOS und Android. Füllen Sie jede Zeile, jede Spalte und jedes 3×3-Feld mit den Ziffern 1–9 ohne Wiederholungen. Es bietet vier Schwierigkeitsstufen, einen Notizenmodus, Hinweise, Rückgängigmachen, einen Timer und dauerhafte Statistiken, einschließlich Bestzeiten und Punktzahlen pro Schwierigkeitsgrad."
         },
         "q2": {
-          "question": "Does the app work offline?",
-          "answer": "Yes. Gameplay, stats, and settings are stored locally. You can play fully offline. Internet is only needed for Game Center / Play Games leaderboards and achievements, and for optional in-app purchases (e.g. remove ads)."
+          "question": "Funktioniert die App offline?",
+          "answer": "Ja. Gameplay, Statistiken und Einstellungen werden lokal gespeichert. Sie können vollständig offline spielen. Internet wird nur für Game Center / Play Games Bestenlisten und Erfolge sowie für optionale In-App-Käufe (z. B. Entfernen von Werbung) benötigt."
         },
         "q3": {
-          "question": "What are the difficulty levels?",
-          "answer": "There are four levels: Easy, Medium, Hard, and Expert. Each affects the number of given clues and puzzle complexity. Best times and best scores are tracked separately per difficulty."
+          "question": "Welche Schwierigkeitsgrade gibt es?",
+          "answer": "Es gibt vier Stufen: Einfach, Mittel, Schwer und Experte. Jedes wirkt sich auf die Anzahl der gegebenen Hinweise und die Komplexität des Rätsels aus. Bestzeiten und beste Ergebnisse werden getrennt nach Schwierigkeitsgrad aufgezeichnet."
         },
         "q4": {
-          "question": "Does the app support leaderboards?",
-          "answer": "Yes. On iOS we use Game Center with Friends and Global leaderboards for best score, plus achievements (e.g. first win, streak 5, streak 10). On Android we use Play Games Services with the same structure. Sign-in is prompted on app start."
+          "question": "Unterstützt die App Bestenlisten?",
+          "answer": "Ja. Auf iOS verwenden wir Game Center mit Freunden und globalen Bestenlisten für die beste Punktzahl sowie Erfolge (z. B. erster Sieg, Serie 5, Serie 10). Auf Android verwenden wir Play Games Dienste mit der gleichen Struktur. Beim Start der App wird zur Anmeldung aufgefordert."
         },
         "q5": {
-          "question": "In which languages is the app available?",
-          "answer": "The app is localized in 12 base languages (English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, Chinese) with 17 regional variants. Hebrew and Arabic have full RTL support."
+          "question": "In welchen Sprachen ist die App verfügbar?",
+          "answer": "Die App ist in 12 Basissprachen (Englisch, Hebräisch, Arabisch, Deutsch, Spanisch, Französisch, Italienisch, Portugiesisch, Russisch, Japanisch, Koreanisch, Chinesisch) mit 17 regionalen Varianten lokalisiert. Hebräisch und Arabisch bieten volle RTL-Unterstützung."
         },
         "q6": {
-          "question": "How can I remove ads?",
-          "answer": "Sudoku Fun Go offers an in-app purchase to remove ads. After purchasing, ads are disabled. The purchase is restored automatically when you reinstall the app or use the same account on another device."
+          "question": "Wie kann ich Werbung entfernen?",
+          "answer": "Sudoku Fun Go bietet einen In-App-Kauf zum Entfernen von Werbung. Nach dem Kauf werden Anzeigen deaktiviert. Der Kauf wird automatisch wiederhergestellt, wenn Sie die App neu installieren oder dasselbe Konto auf einem anderen Gerät verwenden."
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "Benötigen Sie weitere Hilfe?",
+        "description": "Wenn Sie die gesuchte Antwort nicht finden konnten oder ein technisches Problem auftritt, zögern Sie bitte nicht, uns zu kontaktieren. Wir sind für Sie da und antworten in der Regel innerhalb von 24–48 Stunden."
       },
       "metaTitle": "Support & Hilfe – Sudoku Fun Go | Zuki Apps",
       "metaDescription": "Sudoku Fun Go FAQ und Unterstützung – klassische Sudoku-Rätsel. Kontakt, Datenschutz und Fehlerbehebung."
     },
     "footer": {
-      "copyright": "© 2025 Sudoku Fun Go - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 Sudoku Fun Go – Alle Rechte vorbehalten",
+      "tagline": "Teil von Zuki Apps • Entwickler aus Israel • Hergestellt mit ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Sudoku Fun Go. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "Nutzungsbedingungen",
+      "lastUpdated": "Letzte Aktualisierung: Januar 2025",
+      "intro": "Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie Sudoku Fun Go verwenden. Durch den Zugriff auf oder die Nutzung unseres Dienstes erklären Sie sich mit diesen Bedingungen einverstanden.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Sudoku Fun Go (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval puzzle game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. Annahme der Bedingungen",
+        "content": "Diese Nutzungsbedingungen („Bedingungen“) regeln Ihren Zugriff auf und Ihre Nutzung von Sudoku Fun Go („Dienst“, „App“, „wir“, „uns“ oder „unser“), einem Intervall-Puzzlespiel, das von Zuki Apps („Unternehmen“) betrieben wird. Durch das Herunterladen, die Installation, den Zugriff oder die Nutzung des Dienstes erklären Sie sich mit diesen Bedingungen und unserer Datenschutzrichtlinie einverstanden.",
+        "content2": "Wenn Sie den Dienst im Namen einer Organisation nutzen, erklären und garantieren Sie, dass Sie befugt sind, diese Organisation an diese Bedingungen zu binden."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Sudoku Fun Go is a mobile application that provides classic 9×9 Sudoku gameplay. The Service includes: configurable difficulty levels, notes and hints, statistics and leaderboards, Game Center / Play Games integration, and in-app purchases (e.g. remove ads).",
+        "title": "2. Beschreibung des Dienstes",
+        "content": "Sudoku Fun Go ist eine mobile Anwendung, die klassisches 9×9-Sudoku-Gameplay bietet. Der Service umfasst: konfigurierbare Schwierigkeitsgrade, Notizen und Hinweise, Statistiken und Bestenlisten, Game Center / Play Games-Integration und In-App-Käufe (z. B. Entfernen von Anzeigen).",
         "items": [
-          "Four difficulty levels (Easy, Medium, Hard, Expert)",
-          "Notes mode, hints, undo, erase, timer, mistake count",
-          "Statistics: games won, win rate, streaks, best times and scores",
-          "Game Center (iOS) and Play Games (Android) leaderboards and achievements",
-          "In-app purchase to remove ads",
-          "12 languages with regional variants"
+          "Vier Schwierigkeitsstufen (Leicht, Mittel, Schwer, Experte)",
+          "Notizenmodus, Hinweise, Rückgängig machen, Löschen, Timer, Fehlerzählung",
+          "Statistiken: gewonnene Spiele, Siegesquote, Streaks, Bestzeiten und Punktestände",
+          "Game Center (iOS) und Play Games (Android) Bestenlisten und Erfolge",
+          "In-App-Kauf zum Entfernen von Werbung",
+          "12 Sprachen mit regionalen Varianten"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. Kontaktinformationen",
+        "content": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "Datenschutzrichtlinie",
+      "lastUpdated": "Letzte Aktualisierung: Januar 2025",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Sudoku Fun Go collects minimal information necessary to provide the service. We collect information you provide directly (e.g. when you contact support). Game progress, statistics, and settings are stored locally on your device."
+        "title": "1. Informationen, die wir sammeln",
+        "content": "Sudoku Fun Go sammelt nur minimale Informationen, die für die Bereitstellung des Dienstes erforderlich sind. Wir erfassen Informationen, die Sie direkt angeben (z. B. wenn Sie den Support kontaktieren). Spielfortschritt, Statistiken und Einstellungen werden lokal auf Ihrem Gerät gespeichert."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide, maintain, and improve our services. Locally stored data (puzzles, stats, settings) is not transmitted to our servers except as needed for optional services (e.g. Game Center / Play Games)."
+        "title": "2. Wie wir Ihre Daten verwenden",
+        "content": "Wir nutzen die Informationen, um unsere Dienste bereitzustellen, aufrechtzuerhalten und zu verbessern. Lokal gespeicherte Daten (Rätsel, Statistiken, Einstellungen) werden nicht an unsere Server übertragen, außer wenn dies für optionale Dienste erforderlich ist (z. B. Game Center / Play Games)."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties. Leaderboard scores and achievements are shared with the respective platform (Apple Game Center, Google Play Games) when you use those features."
+        "title": "3. Informationsaustausch",
+        "content": "Wir verkaufen oder geben Ihre persönlichen Daten nicht an Dritte weiter. Ranglistenergebnisse und Erfolge werden mit der jeweiligen Plattform (Apple Game Center, Google Play Spiele) geteilt, wenn Sie diese Funktionen nutzen."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device. If you use Game Center or Play Games, their policies apply to data processed by those services."
+        "title": "4. Datensicherheit",
+        "content": "Wir setzen entsprechende Sicherheitsmaßnahmen um. Ihre Spieldaten werden lokal auf Ihrem Gerät gespeichert. Wenn Sie Game Center oder Play Games verwenden, gelten deren Richtlinien für die von diesen Diensten verarbeiteten Daten."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings (e.g. reset statistics). You may also delete the app at any time. For platform-specific data (e.g. Game Center), you can manage that in your device or account settings."
+        "title": "5. Ihre Rechte",
+        "content": "Sie können lokale Daten über die Einstellungen der App löschen (z. B. Statistiken zurücksetzen). Sie können die App auch jederzeit löschen. Für plattformspezifische Daten (z. B. Game Center) können Sie dies in Ihren Geräte- oder Kontoeinstellungen verwalten."
       },
       "section6": {
-        "title": "6. Advertising and In-App Purchases",
-        "content": "The app may show ads (e.g. via Google Mobile Ads). We may use device identifiers and usage data for ad delivery and measurement in accordance with our ad providers' policies. In-app purchases (e.g. remove ads) are processed by Apple or Google; we do not store payment details."
+        "title": "6. Werbung und In-App-Käufe",
+        "content": "Die App kann Werbung anzeigen (z. B. über Google Mobile Ads). Wir können Gerätekennungen und Nutzungsdaten für die Anzeigenbereitstellung und -messung gemäß den Richtlinien unserer Anzeigenanbieter verwenden. In-App-Käufe (z. B. Werbung entfernen) werden von Apple oder Google abgewickelt; Wir speichern keine Zahlungsdaten."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. Kontaktieren Sie uns",
+        "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       },
       "metaDescription": "Sudoku Fun Go Datenschutzrichtlinie – wie wir mit Ihren Daten zu iOS und Android umgehen."
     },
     "pageNav": {
-      "features": "Features",
+      "features": "Merkmale",
       "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "howTo": "Wie zu verwenden",
+      "tips": "Tipps",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Herunterladen"
     },
     "screenshots": {
       "title": "Screenshots",
-      "subtitle": "Real app screens from Sudoku Fun Go - Classic Sudoku.",
-      "featuresTitle": "App screens",
+      "subtitle": "Echte App-Bildschirme von Sudoku Fun Go – Klassisches Sudoku.",
+      "featuresTitle": "App-Bildschirme",
       "items": [
         {
-          "id": "home",
-          "title": "New puzzle",
-          "description": "Pick difficulty and start a fresh grid.",
+          "id": "heim",
+          "title": "Neues Rätsel",
+          "description": "Wählen Sie den Schwierigkeitsgrad und starten Sie ein neues Raster.",
           "image": "/images/sudoku-puzzle/screenshot-home.png",
-          "alt": "New puzzle — sudoku puzzle",
-          "category": "features"
+          "alt": "Neues Rätsel – Sudoku-Rätsel",
+          "category": "Merkmale"
         },
         {
-          "id": "gameplay",
+          "id": "Gameplay",
           "title": "Gameplay",
-          "description": "Fill the grid with notes and smart hints.",
+          "description": "Füllen Sie das Raster mit Notizen und intelligenten Hinweisen.",
           "image": "/images/sudoku-puzzle/screenshot-gameplay.png",
-          "alt": "Gameplay — sudoku puzzle",
-          "category": "features"
+          "alt": "Gameplay – Sudoku-Rätsel",
+          "category": "Merkmale"
         },
         {
-          "id": "victory",
-          "title": "Victory",
-          "description": "Celebrate completion with time and stats.",
+          "id": "Sieg",
+          "title": "Sieg",
+          "description": "Feiern Sie den Abschluss mit Zeit und Statistiken.",
           "image": "/images/sudoku-puzzle/screenshot-victory.png",
-          "alt": "Victory — sudoku puzzle",
-          "category": "features"
+          "alt": "Sieg – Sudoku-Rätsel",
+          "category": "Merkmale"
         },
         {
-          "id": "statistics",
-          "title": "Statistics",
-          "description": "Track wins, streaks, and best times.",
+          "id": "Statistiken",
+          "title": "Statistiken",
+          "description": "Verfolgen Sie Siege, Serien und Bestzeiten.",
           "image": "/images/sudoku-puzzle/screenshot-statistics.png",
-          "alt": "Statistics — sudoku puzzle",
-          "category": "features"
+          "alt": "Statistik – Sudoku-Rätsel",
+          "category": "Merkmale"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Wie zu verwenden",
       "steps": [
         {
           "number": "1",
-          "title": "Select difficulty",
-          "description": "Easy to expert — find the level that fits you."
+          "title": "Wählen Sie den Schwierigkeitsgrad",
+          "description": "Einfach zum Experten – finden Sie das Niveau, das zu Ihnen passt."
         },
         {
           "number": "2",
-          "title": "Fill the grid",
-          "description": "Tap cells, use notes, and avoid duplicate digits per row, column, and box."
+          "title": "Füllen Sie das Raster",
+          "description": "Tippen Sie auf Zellen, verwenden Sie Notizen und vermeiden Sie doppelte Ziffern pro Zeile, Spalte und Feld."
         },
         {
           "number": "3",
-          "title": "Use hints wisely",
-          "description": "Hints help when stuck without spoiling the whole puzzle."
+          "title": "Setzen Sie Hinweise mit Bedacht ein",
+          "description": "Hinweise helfen, wenn man nicht weiterkommt, ohne das ganze Rätsel zu verderben."
         },
         {
           "number": "4",
-          "title": "Finish & improve",
-          "description": "Complete puzzles to grow your stats and streaks."
+          "title": "Beenden und verbessern",
+          "description": "Lösen Sie Rätsel, um Ihre Statistiken und Streaks zu verbessern."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Schnelle Antworten zu Funktionen, Datenschutz und Abrechnung.",
+      "viewAllSupport": "Vollständigen Support anzeigen & FAQ",
       "items": [
         {
-          "question": "Do I need an account?",
-          "answer": "No. Open the app and tap New Game. Game Center (iOS) or Google Play Games (Android) is optional for leaderboards and achievements."
+          "question": "Brauche ich ein Konto?",
+          "answer": "Nein. Öffnen Sie die App und tippen Sie auf „Neues Spiel“. Game Center (iOS) oder Google Play Spiele (Android) ist für Bestenlisten und Erfolge optional."
         },
         {
-          "question": "Is the app free?",
-          "answer": "Yes. Sudoku Fun Go is free to download and play. Ads support development. You can remove ads with a one-time in-app purchase."
+          "question": "Ist die App kostenlos?",
+          "answer": "Ja. Sudoku Fun Go kann kostenlos heruntergeladen und gespielt werden. Anzeigen unterstützen die Entwicklung. Sie können Werbung mit einem einmaligen In-App-Kauf entfernen."
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "iPhone and iPad (iOS), and Android phones and tablets with Google Play services. Requires a recent OS version — see the store listing for details."
+          "question": "Welche Geräte werden unterstützt?",
+          "answer": "iPhone und iPad (iOS) sowie Android Telefone und Tablets mit Google Play Diensten. Erfordert eine aktuelle Betriebssystemversion – Einzelheiten finden Sie im Store-Eintrag."
         },
         {
-          "question": "What are the difficulty levels?",
-          "answer": "| Level | For whom | |-------|----------| | Easy | Beginners — fewer empty cells | | Medium | Balanced daily challenge | | Hard | Experienced solvers | | Expert | Maximum empty cells — bravest players only |"
+          "question": "Welche Schwierigkeitsgrade gibt es?",
+          "answer": "| Ebene | Für wen | |-------|----------| | Einfach | Anfänger – weniger leere Zellen | | Mittel | Ausgewogene tägliche Herausforderung | | Hart | Erfahrene Löser | | Experte | Maximal leere Zellen – nur die mutigsten Spieler |"
         },
         {
-          "question": "Can I pause mid-game?",
-          "answer": "Yes. Tap pause; the timer stops until you resume. Your puzzle is saved automatically."
+          "question": "Kann ich mitten im Spiel pausieren?",
+          "answer": "Ja. Tippen Sie auf Pause; Der Timer stoppt, bis Sie fortfahren. Ihr Puzzle wird automatisch gespeichert."
         },
         {
-          "question": "What happens if I quit?",
-          "answer": "If you leave without finishing, that puzzle’s progress is lost. Use Continue Game on the home screen to return to an in-progress puzzle."
+          "question": "Was passiert, wenn ich kündige?",
+          "answer": "Wenn Sie das Rätsel verlassen, ohne es zu beenden, geht der Fortschritt des Rätsels verloren. Verwenden Sie „Spiel fortsetzen“ auf dem Startbildschirm, um zu einem laufenden Puzzle zurückzukehren."
         },
         {
-          "question": "How do notes work?",
-          "answer": "Turn on Notes, tap a cell, then tap digits to mark candidates. When you place a confirmed number, matching notes in the row, column, and box can auto-clear (if enabled in Settings)."
+          "question": "Wie funktionieren Notizen?",
+          "answer": "Aktivieren Sie „Notizen“, tippen Sie auf eine Zelle und dann auf Ziffern, um Kandidaten zu markieren. Wenn Sie eine bestätigte Zahl eingeben, können übereinstimmende Notizen in der Zeile, Spalte und im Feld automatisch gelöscht werden (sofern in den Einstellungen aktiviert)."
         },
         {
-          "question": "Do hints hurt my score?",
-          "answer": "Yes. Each hint costs 300 points from your final score. Use them when stuck, but fewer hints = higher rank."
+          "question": "Beeinträchtigen Hinweise meine Punktzahl?",
+          "answer": "Ja. Jeder Hinweis kostet 300 Punkte von Ihrem Endergebnis. Benutzen Sie sie, wenn Sie nicht weiterkommen, aber weniger Hinweise = höherer Rang."
         },
         {
-          "question": "How many mistakes are allowed?",
-          "answer": "Mistakes are tracked and reduce your score (−500 each). The puzzle does not end on a wrong entry — you can keep solving."
+          "question": "Wie viele Fehler sind erlaubt?",
+          "answer": "Fehler werden nachverfolgt und verringern Ihre Punktzahl (jeweils −500). Das Rätsel endet nicht mit einem falschen Eintrag – Sie können weiter lösen."
         },
         {
-          "question": "How is my score calculated?",
-          "answer": "Base = 10,000 × difficulty multiplier (Easy ×1, Medium ×2, Hard ×3, Expert ×5) Minus 2 points per second, 500 per mistake, 300 per hint. Example: Expert, 10 minutes, 0 mistakes, 0 hints → up to 48,800 before time penalty details."
+          "question": "Wie wird meine Punktzahl berechnet?",
+          "answer": "Basis = 10.000 × Schwierigkeitsmultiplikator (Einfach ×1, Mittel ×2, Schwer ×3, Experte ×5) Minus 2 Punkte pro Sekunde, 500 pro Fehler, 300 pro Hinweis. Beispiel: Experte, 10 Minuten, 0 Fehler, 0 Hinweise → bis zu 48.800 vor Zeitstrafendetails."
         },
         {
-          "question": "Why is my leaderboard empty?",
-          "answer": "Sign in to Game Center or Play Games, complete a puzzle to submit a score, then open Statistics → Friends or Global. Install from the Play Store or App Store (not sideload) for full Play Games / billing support on Android."
+          "question": "Warum ist meine Bestenliste leer?",
+          "answer": "Melden Sie sich bei Game Center oder Play Games an, lösen Sie ein Rätsel, um eine Punktzahl einzureichen, und öffnen Sie dann Statistik → Freunde oder Global. Installieren Sie es aus dem Play Store oder App Store (nicht seitlich laden), um volle Play Games / Abrechnungsunterstützung auf Android zu erhalten."
         },
         {
-          "question": "How do achievements unlock?",
-          "answer": "Automatically when you meet goals (first win, streaks, flawless solve, etc.). Open Statistics → Achievements to view progress."
+          "question": "Wie werden Erfolge freigeschaltet?",
+          "answer": "Automatisch, wenn Sie Ziele erreichen (erster Sieg, Streaks, fehlerfreies Lösen usw.). Öffnen Sie Statistiken → Erfolge, um den Fortschritt anzuzeigen."
         }
       ]
     }

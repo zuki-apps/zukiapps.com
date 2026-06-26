@@ -217,7 +217,8 @@
     "footer": {
       "copyright": "© 2025 Zuki Apps - All rights reserved. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "在以色列开发 • 作为爱好 • 充满热情",
-      "support": "支持我的工作"
+      "support": "支持我的工作",
+      "about": "约Zuki Apps"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -251,6 +252,12 @@
         "filters": "滤镜和贴纸",
         "private": "无需登录"
       }
+    },
+    "seoTitle": "Zuki Apps — iOS 和 Android 移动应用",
+    "metaDescription": "来自以色列的隐私第一移动应用程序：Hush Gallery、ZuList、Whistle Camera、HIIT 计时器等。 iOS 和 Android 免费。",
+    "aboutTeaser": {
+      "body": "以色列的独立开发者 - 从 DreamBit Apps 到隐私第一的 Flutter 应用程序，每个应用程序中都有原创的 Zuli Monster 插图。",
+      "cta": "我们的故事 & Zuli Monsters →"
     }
   },
   "common": {
@@ -303,5 +310,19 @@
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
+  },
+  "about": {
+    "metaTitle": "关于 Zuki Apps — 移动开发者 | Zuki Apps",
+    "metaDescription": "Zuki Apps 构建来自以色列的隐私优先 iOS 和 Android 应用程序 — ZuList、Hush Gallery、Whistle Camera 等。了解开发商。",
+    "title": "约Zuki Apps",
+    "subtitle": "独立移动开发者 — iOS & Android",
+    "p1": "Zuki Apps 是一家位于以色列的独立移动软件工作室。我们为日常生活提供实用、注重隐私的应用程序——私人照片库、免提相机、共享购物清单、健身计时器、问答游戏和开发人员工具。",
+    "p2": "每个应用程序都是使用 Flutter 构建的，以便在 iPhone、iPad 和 Android 上获得一致的体验。我们支持设备上的处理、明确的隐私政策以及尽可能的无账户流程。",
+    "p3": "2012 年至 2016 年间，我们的应用程序在 DreamBit Apps 下发布。如今，Zuki Apps 目录延续了这一工艺，推出了新游戏并为现有用户提供长期支持。",
+    "contactTitle": "接触",
+    "contactBody": "问题、新闻或合作询问：",
+    "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列",
+    "catalogTitle": "应用目录",
+    "catalogBody": "从主页或位于 /api/site-facts 的机器可读目录浏览所有产品页面、支持和政策。"
   }
 }

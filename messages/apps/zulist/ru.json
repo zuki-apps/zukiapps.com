@@ -3,10 +3,12 @@
     "back": "Вернуться на главную",
     "hero": {
       "badge": "Доступно Сейчас - Версия 1.0.9",
-      "title": "ZuList - Manage & Share Lists",
+      "title": "ZuList — Управление списками и обмен ими",
       "subtitle": "Умные списки покупок для семей",
       "description": "Идеальное приложение для семей и друзей, которые делают покупки вместе. Создавайте, делитесь и управляйте списками покупок в реальном времени с бесшовным сотрудничеством.",
-      "structuredDataDescription": "ZuList is the ultimate shopping list app designed for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration. Features include real-time sync, offline support, smart product suggestions, category management, purchase history, and premium subscriptions."
+      "structuredDataDescription": "ZuList is the ultimate shopping list app designed for families and friends who shop together. Create, share, and manage shopping lists in real-time with seamless collaboration. Features include real-time sync, offline support, smart product suggestions, category management, purchase history, and premium subscriptions.",
+      "seoTitle": "ZuList — Умные списки покупок | Zuki Apps",
+      "metaDescription": "Общие списки покупок с синхронизацией в реальном времени и автономным режимом. Бесплатно для семей на iOS и Android — попробуйте ZuList."
     },
     "features": {
       "title": "Основные функции",
@@ -60,10 +62,10 @@
         "title": "Поддержка 12 языков",
         "description": "Полная поддержка 12 языков с переведенным интерфейсом",
         "items": [
-          "🇺🇸 English, 🇮🇱 Hebrew (עברית) - Full RTL",
-          "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
-          "🇵🇹 Portuguese, 🇷🇺 Russian, 🇫🇷 French",
-          "🇯🇵 Japanese, 🇰🇷 Korean, 🇸🇦 Arabic, 🇨🇳 Chinese"
+          "🇺🇸 Английский, 🇮🇱 Иврит (עברית) - Полный RTL",
+          "🇩🇪 немецкий, 🇪🇸 испанский, 🇮🇹 итальянский",
+          "🇵🇹 португальский, 🇷🇺 русский, 🇫🇷 французский",
+          "🇯🇵 японский, 🇰🇷 корейский, 🇸🇦 арабский, 🇨🇳 китайский"
         ]
       },
       "categories": {
@@ -186,9 +188,9 @@
       "download": "Скачать",
       "appStoreUrl": "https://apps.apple.com/us/app/zulist/id6753878439",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.zulist",
-      "appIconAlt": "ZuList App Icon",
-      "appStoreAlt": "Download on the App Store",
-      "googlePlayAlt": "Get it on Google Play"
+      "appIconAlt": "ZuList Значок приложения",
+      "appStoreAlt": "Скачать на App Store",
+      "googlePlayAlt": "Получите это на Google Play"
     },
     "perfectFor": {
       "title": "Идеально для",
@@ -217,7 +219,7 @@
       },
       "website": {
         "title": "Официальный сайт",
-        "url": "zulist.app"
+        "url": "zulist.приложение"
       },
       "social": {
         "title": "Социальные сети"
@@ -228,476 +230,479 @@
       }
     },
     "footer": {
-      "copyright": "© 2025 ZuList - All rights reserved",
+      "copyright": "© 2025 ZuList - Все права защищены.",
       "tagline": "Часть Zuki Apps • Разработчик из Израиля • Сделано с ❤️",
       "bundle": "ID пакета: com.zukiapps.zulist | Версия: 1.0.4"
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "политика конфиденциальности",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support."
+        "title": "1. Информация, которую мы собираем",
+        "content": "Мы собираем информацию, которую вы предоставляете непосредственно нам, например, когда вы создаете учетную запись, используете наши услуги или обращаетесь к нам за поддержкой."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you."
+        "title": "2. Как мы используем вашу информацию",
+        "content": "Мы используем информацию, которую собираем, для предоставления, обслуживания и улучшения наших услуг, обработки транзакций и общения с вами."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy."
+        "title": "3. Обмен информацией",
+        "content": "Мы не продаем, не обмениваем и не передаем иным образом вашу личную информацию третьим лицам без вашего согласия, за исключением случаев, описанных в настоящей политике."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+        "title": "4. Безопасность данных",
+        "content": "Мы реализуем соответствующие меры безопасности для защиты вашей личной информации от несанкционированного доступа, изменения, раскрытия или уничтожения."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your personal information. You may also opt out of certain communications from us."
+        "title": "5. Ваши права",
+        "content": "Вы имеете право на доступ, обновление или удаление вашей личной информации. Вы также можете отказаться от получения от нас определенных сообщений."
       },
       "section6": {
-        "title": "6. Camera and Photo Library Access",
-        "content": "ZuList requires access to your device's camera and photo library to allow you to take and upload photos of shopping list items. We only access these features when you explicitly choose to add a photo to a list or item. Photos are stored securely in our cloud storage and are only accessible to you and users you share your lists with."
+        "title": "6. Доступ к камере и фотобиблиотеке",
+        "content": "ZuList требует доступа к камере вашего устройства и библиотеке фотографий, чтобы вы могли делать и загружать фотографии элементов списка покупок. Мы получаем доступ к этим функциям только в том случае, если вы явно решите добавить фотографию в список или элемент. Фотографии надежно хранятся в нашем облачном хранилище и доступны только вам и пользователям, с которыми вы делитесь своими списками."
       },
       "section7": {
-        "title": "7. Crash Reporting and Error Analytics",
-        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
-        "dataCollected": "Data Collected:",
+        "title": "7. Отчеты о сбоях и анализ ошибок",
+        "content": "Мы используем Firebase Crashlytics, сервис Google для сбора информации о сбоях и ошибках приложений. Это помогает нам выявлять и устранять проблемы, чтобы улучшить ваш опыт.",
+        "dataCollected": "Собранные данные:",
         "dataCollectedItems": [
-          "Technical information about crashes and errors (stack traces, error messages)",
-          "Device information (operating system, device model, app version)",
-          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
-          "Custom diagnostic information related to errors (error codes, operation types)"
+          "Техническая информация о сбоях и ошибках (трассировки стека, сообщения об ошибках)",
+          "Информация об устройстве (операционная система, модель устройства, версия приложения)",
+          "Идентификатор установки (уникальный идентификатор установки вашего приложения, не связанный с вашей личной личностью)",
+          "Пользовательская диагностическая информация, связанная с ошибками (коды ошибок, типы операций)"
         ],
-        "purpose": "Purpose:",
+        "purpose": "Цель:",
         "purposeItems": [
-          "Identify and fix bugs and crashes",
-          "Improve app stability and performance",
-          "Analyze error patterns"
+          "Выявлять и исправлять ошибки и сбои",
+          "Улучшение стабильности и производительности приложения",
+          "Анализ ошибок patterns"
         ],
-        "dataSharing": "Data Sharing:",
-        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
-        "dataRetention": "Data Retention:",
-        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
-        "yourRights": "Your Rights:",
-        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+        "dataSharing": "Обмен данными:",
+        "dataSharingContent": "Эти данные обрабатываются Google Firebase и регулируются Политикой конфиденциальности Google.",
+        "dataRetention": "Хранение данных:",
+        "dataRetentionContent": "Отчеты о сбоях сохраняются Firebase до 90 дней, а затем автоматически удаляются.",
+        "yourRights": "Ваши права:",
+        "yourRightsContent": "Вы можете отказаться от отчетов о сбоях, отключив их в настройках вашего устройства, однако это может помешать нам исправить проблемы, которые вас затрагивают."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. Свяжитесь с нами",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящей Политики конфиденциальности, свяжитесь с нами по адресу:",
         "email": "zuki.apps@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       },
       "metaDescription": "ZuList политика конфиденциальности — как мы обрабатываем ваши данные на iOS и Android."
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using ZuList. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "Условия эксплуатации",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
+      "intro": "Пожалуйста, внимательно прочтите настоящие Условия использования перед использованием ZuList. Получая доступ к нашему сервису или используя его, вы соглашаетесь соблюдать эти условия. Если вы не согласны с этими условиями, пожалуйста, не используйте наш сервис.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of ZuList (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a shopping list application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. Принятие Условий",
+        "content": "Настоящие Условия использования («Условия») регулируют ваш доступ и использование ZuList («Сервис», «Приложение», «мы», «нас» или «наш»), приложения со списком покупок, которым управляет Zuki Apps («Компания»). Загружая, устанавливая, получая доступ к Сервису или используя его, вы соглашаетесь соблюдать настоящие Условия и нашу Политику конфиденциальности.",
+        "content2": "Если вы используете Сервис от имени организации, вы заявляете и гарантируете, что у вас есть полномочия обязать эту организацию соблюдать настоящие Условия."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "ZuList is a mobile application that allows users to create, manage, and share shopping lists with family and friends. The Service includes:",
+        "title": "2. Описание услуги",
+        "content": "ZuList — это мобильное приложение, которое позволяет пользователям создавать списки покупок, управлять ими и делиться ими с семьей и друзьями. Услуга включает в себя:",
         "items": {
-          "item1": "Creating and managing shopping lists",
-          "item2": "Sharing lists with other users",
-          "item3": "Real-time synchronization across devices",
-          "item4": "Product suggestions and categorization",
-          "item5": "Purchase history tracking",
-          "item6": "Premium subscription features (as described in Section 4)"
+          "item1": "Создание и управление списками покупок",
+          "item2": "Совместное использование списков с другими пользователями",
+          "item3": "Синхронизация в реальном времени между устройствами",
+          "item4": "Предложения продуктов и категоризация",
+          "item5": "Отслеживание истории покупок",
+          "item6": "Premium функции подписки (как описано в разделе 4)"
         }
       },
       "section3": {
-        "title": "3. User Accounts and Registration",
-        "subtitle1": "3.1. Account Creation",
-        "content1": "To use certain features of the Service, you must create an account. You can create an account using:",
+        "title": "3. Учетные записи пользователей и регистрация",
+        "subtitle1": "3.1. Создание учетной записи",
+        "content1": "Чтобы использовать определенные функции Сервиса, вам необходимо создать учетную запись. Вы можете создать учетную запись, используя:",
         "items1": {
-          "item1": "Google Sign-In",
-          "item2": "Apple Sign-In",
-          "item3": "Email and password (if available)"
+          "item1": "Вход в Google",
+          "item2": "Вход в Apple",
+          "item3": "Электронная почта и пароль (если есть)"
         },
-        "subtitle2": "3.2. Account Responsibilities",
-        "content2": "You are responsible for:",
+        "subtitle2": "3.2. Обязанности по работе с аккаунтом",
+        "content2": "Вы несете ответственность за:",
         "items2": {
-          "item1": "Maintaining the confidentiality of your account credentials",
-          "item2": "All activities that occur under your account",
-          "item3": "Ensuring that your account information is accurate and up-to-date",
-          "item4": "Notifying us immediately of any unauthorized use of your account"
+          "item1": "Сохранение конфиденциальности учетных данных вашей учетной записи",
+          "item2": "Все действия, которые происходят под вашей учетной записью",
+          "item3": "Обеспечение точности и актуальности информации вашей учетной записи.",
+          "item4": "Немедленное уведомление нас о любом несанкционированном использовании вашей учетной записи."
         },
-        "subtitle3": "3.3. Age Requirements",
-        "content3": "You must be at least 13 years old to use the Service. If you are under 18, you represent that you have obtained parental or guardian consent to use the Service. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately."
+        "subtitle3": "3.3. Возрастные требования",
+        "content3": "Для использования Сервиса вам должно быть не менее 13 лет. Если вам меньше 18 лет, вы подтверждаете, что получили согласие родителей или опекунов на использование Сервиса. Если вы являетесь родителем или опекуном и считаете, что ваш ребенок предоставил нам личную информацию, немедленно свяжитесь с нами."
       },
       "section4": {
-        "title": "4. Premium Subscriptions and Payments",
-        "subtitle1": "4.1. Subscription Plans",
-        "content1": "ZuList offers premium subscription plans that provide access to additional features:",
+        "title": "4. Premium Подписки и платежи",
+        "subtitle1": "4.1. Планы подписки",
+        "content1": "ZuList предлагает планы подписки premium, которые предоставляют доступ к дополнительным функциям:",
         "items1": {
-          "item1": "Monthly Subscription: Billed monthly, automatically renews unless cancelled",
-          "item2": "Yearly Subscription: Billed annually, automatically renews unless cancelled"
+          "item1": "Ежемесячная подписка: оплачивается ежемесячно, автоматически продлевается, если не отменена.",
+          "item2": "Годовая подписка: оплачивается ежегодно, автоматически продлевается, если не отменена."
         },
-        "subtitle2": "4.2. Payment Terms",
-        "content2": "By purchasing a subscription, you agree to:",
+        "subtitle2": "4.2. Условия оплаты",
+        "content2": "Приобретая подписку, вы соглашаетесь:",
         "items2": {
-          "item1": "Pay the subscription fee at the time of purchase",
-          "item2": "Automatic renewal of your subscription at the end of each billing period",
-          "item3": "Prices may vary by region and are subject to change with notice"
+          "item1": "Оплатите абонентскую плату во время покупки",
+          "item2": "Автоматическое продление подписки в конце каждого расчетного периода.",
+          "item3": "Цены могут различаться в зависимости от региона и могут быть изменены с уведомлением."
         },
-        "subtitle3": "4.3. Subscription Management",
-        "content3": "You can manage your subscription, including cancellation, through:",
+        "subtitle3": "4.3. Управление подпиской",
+        "content3": "Вы можете управлять своей подпиской, включая ее отмену, с помощью:",
         "items3": {
-          "item1": "iOS: Settings → [Your Name] → Subscriptions → ZuList",
-          "item2": "Android: Google Play Store → Subscriptions → ZuList"
+          "item1": "iOS: Настройки → [Ваше имя] → Подписки → ZuList",
+          "item2": "Android: Google Play Магазин → Подписки → ZuList"
         },
-        "content3b": "If you cancel your subscription, you will continue to have access to premium features until the end of your current billing period. After that, your account will revert to the free tier.",
-        "subtitle4": "4.4. Refunds",
-        "content4": "Refund requests are handled by Apple (for iOS) or Google (for Android) according to their respective refund policies. We do not process refunds directly. For subscription refunds, please contact Apple Support or Google Play Support.",
-        "subtitle5": "4.5. Free Trial",
-        "content5": "If we offer a free trial, it will be clearly indicated at the time of sign-up. At the end of the trial period, your subscription will automatically convert to a paid subscription unless you cancel before the trial ends."
+        "content3b": "Если вы отмените подписку, вы продолжите иметь доступ к функциям premium до конца текущего расчетного периода. После этого ваша учетная запись вернется на бесплатный уровень.",
+        "subtitle4": "4.4. Возвраты",
+        "content4": "Запросы на возврат средств обрабатываются Apple (для iOS) или Google (для Android) в соответствии с их соответствующими политиками возврата. Мы не осуществляем возврат средств напрямую. По вопросам возврата средств за подписку обратитесь в службу поддержки Apple или в службу поддержки Google Play.",
+        "subtitle5": "4.5. Бесплатная пробная версия",
+        "content5": "Если мы предлагаем бесплатную пробную версию, это будет четко указано во время регистрации. По окончании пробного периода ваша подписка автоматически преобразуется в платную, если вы не отмените ее до окончания пробного периода."
       },
       "section5": {
-        "title": "5. User Content and Conduct",
-        "subtitle1": "5.1. User-Generated Content",
-        "content1": "You retain ownership of all content you create, upload, or share through the Service (\"User Content\"), including shopping lists, items, notes, and photos.",
-        "subtitle2": "5.2. License to Use Your Content",
-        "content2": "By using the Service, you grant us a worldwide, non-exclusive, royalty-free license to:",
+        "title": "5. Пользовательский контент и поведение",
+        "subtitle1": "5.1. Пользовательский контент",
+        "content1": "Вы сохраняете право собственности на весь контент, который вы создаете, загружаете или публикуете через Сервис («Пользовательский контент»), включая списки покупок, элементы, заметки и фотографии.",
+        "subtitle2": "5.2. Лицензия на использование вашего контента",
+        "content2": "Используя Сервис, вы предоставляете нам международную неисключительную безвозмездную лицензию на:",
         "items2": {
-          "item1": "Store, process, and display your User Content",
-          "item2": "Share your User Content with other users you explicitly invite to your lists",
-          "item3": "Use your User Content to provide and improve the Service"
+          "item1": "Храните, обрабатывайте и отображайте ваш Пользовательский контент.",
+          "item2": "Поделитесь своим пользовательским контентом с другими пользователями, которых вы явно пригласили в свои списки.",
+          "item3": "Используйте свой Пользовательский контент для предоставления и улучшения Сервиса."
         },
-        "subtitle3": "5.3. Prohibited Content and Activities",
-        "content3": "You agree not to use the Service to:",
+        "subtitle3": "5.3. Запрещенный контент и действия",
+        "content3": "Вы соглашаетесь не использовать Сервис для:",
         "items3": {
-          "item1": "Upload, post, or share any content that is illegal, harmful, threatening, abusive, harassing, defamatory, or otherwise objectionable",
-          "item2": "Impersonate any person or entity or falsely state or misrepresent your affiliation with any person or entity",
-          "item3": "Violate any applicable laws or regulations",
-          "item4": "Interfere with or disrupt the Service or servers connected to the Service",
-          "item5": "Attempt to gain unauthorized access to any portion of the Service",
-          "item6": "Use automated systems (bots, scrapers) to access the Service without permission",
-          "item7": "Reverse engineer, decompile, or disassemble any portion of the Service"
+          "item1": "Загружать, публиковать или делиться любым контентом, который является незаконным, вредным, угрожающим, оскорбительным, оскорбительным, клеветническим или иным образом нежелательным.",
+          "item2": "Выдавать себя за любое физическое или юридическое лицо или ложно заявлять или искажать свою принадлежность к какому-либо физическому или юридическому лицу.",
+          "item3": "Нарушать любые применимые законы и правила.",
+          "item4": "Вмешиваться или нарушать работу Сервиса или серверов, подключенных к Сервису.",
+          "item5": "Attневозможность получить несанкционированный доступ к любой части Сервиса.",
+          "item6": "Использовать автоматизированные системы (боты, скраперы) для доступа к Сервису без разрешения.",
+          "item7": "Реконструировать, декомпилировать или дизассемблировать любую часть Сервиса."
         }
       },
       "section6": {
-        "title": "6. Intellectual Property Rights",
-        "subtitle1": "6.1. Our Intellectual Property",
-        "content1": "The Service, including its original content, features, functionality, design, logos, and trademarks, is owned by Zuki Apps and is protected by international copyright, trademark, and other intellectual property laws.",
-        "subtitle2": "6.2. Zuli Monsters Characters and Images",
-        "content2": "All Zuli Monsters characters, images, icons, artwork, and related visual content displayed in the ZuList application are the exclusive property of Zuki Apps. These are original creations protected by copyright law and international intellectual property rights.",
-        "content2b": "Prohibited Uses: You may NOT, without explicit written permission from Zuki Apps:",
+        "title": "6. Права интеллектуальной собственности",
+        "subtitle1": "6.1. Наша интеллектуальная собственность",
+        "content1": "Сервис, включая его исходное содержимое, функции, функциональность, дизайн, логотипы и товарные знаки, принадлежит Zuki Apps и защищен международными законами об авторском праве, товарных знаках и другими законами об интеллектуальной собственности.",
+        "subtitle2": "6.2. Zuli Monsters Персонажи и изображения",
+        "content2": "Все символы, изображения, значки, иллюстрации и связанный с ними визуальный контент Zuli Monsters, отображаемые в приложении ZuList, являются исключительной собственностью Zuki Apps. Это оригинальные творения, защищенные законом об авторском праве и международными правами интеллектуальной собственности.",
+        "content2b": "Запрещенное использование: Вы НЕ имеете права без явного письменного разрешения от Zuki Apps:",
         "items2": {
-          "item1": "Copy, reproduce, or duplicate any Zuli Monsters images or characters",
-          "item2": "Use Zuli Monsters images or characters in any other application, website, or product",
-          "item3": "Modify, alter, or create derivative works based on Zuli Monsters images or characters",
-          "item4": "Distribute, sell, or license Zuli Monsters images or characters to third parties",
-          "item5": "Use Zuli Monsters images or characters for commercial purposes",
-          "item6": "Remove copyright notices or attribution from Zuli Monsters images or characters"
+          "item1": "Копируйте, воспроизводите или дублируйте любые изображения или символы Zuli Monsters.",
+          "item2": "Используйте изображения или символы Zuli Monsters в любом другом приложении, веб-сайте или продукте.",
+          "item3": "Модифицировать, изменять или создавать производные работы на основе Zuli Monsters изображений или персонажей.",
+          "item4": "Распространять, продавать или лицензировать Zuli Monsters изображения или персонажей третьим лицам.",
+          "item5": "Используйте изображения или символы Zuli Monsters в коммерческих целях.",
+          "item6": "Удалите уведомления об авторских правах или attнарушения с Zuli Monsters изображений или персонажей."
         },
-        "content2c": "All rights reserved. Any unauthorized use, reproduction, distribution, or commercial exploitation of Zuli Monsters images or characters constitutes copyright infringement and may result in legal action.",
+        "content2c": "Все права защищены. Любое несанкционированное использование, воспроизведение, распространение или коммерческое использование изображений или персонажей Zuli Monsters представляет собой нарушение авторских прав и может привести к судебному иску.",
         "content2d": "For licensing inquiries or permission to use Zuli Monsters images or characters, please contact us at zuki.apps.dev@gmail.com.",
-        "subtitle3": "6.3. Limited License",
-        "content3": "We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Service for personal, non-commercial purposes in accordance with these Terms."
+        "subtitle3": "6.3. Ограниченная лицензия",
+        "content3": "Мы предоставляем вам ограниченную, неисключительную, непередаваемую, отзывную лицензию на доступ к Сервису и его использование в личных некоммерческих целях в соответствии с настоящими Условиями."
       },
       "section7": {
-        "title": "7. Third-Party Services",
-        "content": "The Service integrates with third-party services, including:",
+        "title": "7. Сторонние сервисы",
+        "content": "Сервис интегрируется со сторонними сервисами, в том числе:",
         "items": {
-          "item1": "Firebase (Google): For authentication, data storage, and cloud services",
-          "item2": "Google Sign-In: For account authentication",
-          "item3": "Apple Sign-In: For account authentication",
-          "item4": "Google AdMob: For displaying advertisements",
-          "item5": "Apple App Store / Google Play: For in-app purchases and subscriptions"
+          "item1": "Firebase (Google): для аутентификации, хранения данных и облачных сервисов.",
+          "item2": "Вход в Google: для аутентификации учетной записи.",
+          "item3": "Apple Sign-In: для аутентификации учетной записи.",
+          "item4": "Google AdMob: для показа рекламы.",
+          "item5": "Apple App Store / Google Play: для покупок и подписок в приложении."
         },
-        "content2": "Your use of these third-party services is subject to their respective terms of service and privacy policies. We are not responsible for the practices of these third-party services."
+        "content2": "Использование вами этих сторонних сервисов регулируется их соответствующими условиями обслуживания и политикой конфиденциальности. Мы не несем ответственности за действия этих сторонних сервисов."
       },
       "section8": {
-        "title": "8. Advertising",
-        "content": "Free tier users may see advertisements displayed within the Service. These advertisements are provided by Google AdMob and are subject to Google's advertising policies. Premium subscribers receive an ad-free experience.",
-        "content2": "We do not use your personal information to personalize advertisements shown to you, except as permitted by applicable privacy laws and with your consent."
+        "title": "8. Реклама",
+        "content": "Пользователи бесплатного уровня могут видеть рекламу, отображаемую в Сервисе. Эти рекламные объявления предоставляются Google AdMob и регулируются рекламной политикой Google. Premium подписчики получают возможность без рекламы.",
+        "content2": "Мы не используем вашу личную информацию для персонализации показываемой вам рекламы, за исключением случаев, разрешенных применимыми законами о конфиденциальности и с вашего согласия."
       },
       "section9": {
-        "title": "9. Service Availability and Modifications",
-        "subtitle1": "9.1. Service Availability",
-        "content1": "We strive to provide reliable service but do not guarantee that the Service will be available at all times. The Service may be unavailable due to:",
+        "title": "9. Доступность услуг и изменения",
+        "subtitle1": "9.1. Доступность услуги",
+        "content1": "Мы стремимся обеспечить надежный сервис, но не гарантируем, что Сервис будет доступен в любое время. Сервис может быть недоступен по следующим причинам:",
         "items1": {
-          "item1": "Scheduled maintenance",
-          "item2": "Technical issues or failures",
-          "item3": "Force majeure events"
+          "item1": "Плановое обслуживание",
+          "item2": "Технические проблемы или сбои",
+          "item3": "Форс-мажорные обстоятельства"
         },
-        "subtitle2": "9.2. Service Modifications",
-        "content2": "We reserve the right to:",
+        "subtitle2": "9.2. Модификации сервиса",
+        "content2": "Мы оставляем за собой право:",
         "items2": {
-          "item1": "Modify, suspend, or discontinue any part of the Service at any time",
-          "item2": "Change features, functionality, or pricing with reasonable notice",
-          "item3": "Impose limits on certain features or restrict access to parts of the Service"
+          "item1": "Изменить, приостановить или прекратить работу любой части Сервиса в любое время.",
+          "item2": "Изменение функций, функциональности или цен с заблаговременным уведомлением.",
+          "item3": "Наложить ограничения на определенные функции или ограничить доступ к частям Сервиса."
         }
       },
       "section10": {
-        "title": "10. Termination",
-        "subtitle1": "10.1. Termination by You",
-        "content1": "You may stop using the Service at any time by:",
+        "title": "10. Прекращение действия",
+        "subtitle1": "10.1. Прекращение действия вами",
+        "content1": "Вы можете прекратить использование Сервиса в любое время следующим образом:",
         "items1": {
-          "item1": "Deleting your account through the app settings",
-          "item2": "Uninstalling the app from your device",
-          "item3": "Contacting us to request account deletion"
+          "item1": "Удаление аккаунта через настройки приложения",
+          "item2": "Удаление приложения с вашего устройства",
+          "item3": "Обращение к нам с просьбой об удалении учетной записи"
         },
-        "subtitle2": "10.2. Termination by Us",
-        "content2": "We may suspend or terminate your access to the Service immediately, without prior notice, if you:",
+        "subtitle2": "10.2. Прекращение действия нами",
+        "content2": "Мы можем приостановить или прекратить ваш доступ к Сервису немедленно, без предварительного уведомления, если вы:",
         "items2": {
-          "item1": "Violate these Terms",
-          "item2": "Engage in fraudulent, abusive, or illegal activity",
-          "item3": "Fail to pay subscription fees (for premium users)",
-          "item4": "Otherwise misuse the Service"
+          "item1": "Нарушать настоящие Условия",
+          "item2": "Участие в мошеннической, оскорбительной или незаконной деятельности",
+          "item3": "Не удалось оплатить абонентскую плату (для premium пользователей)",
+          "item4": "В противном случае злоупотребляйте Сервисом."
         },
-        "subtitle3": "10.3. Effect of Termination",
-        "content3": "Upon termination:",
+        "subtitle3": "10.3. Эффект прекращения",
+        "content3": "По завершении:",
         "items3": {
-          "item1": "Your right to use the Service will immediately cease",
-          "item2": "We may delete your account and User Content",
-          "item3": "You will not be entitled to any refund for unused subscription periods (subject to applicable law)"
+          "item1": "Ваше право на использование Сервиса будет немедленно прекращено.",
+          "item2": "Мы можем удалить вашу учетную запись и Пользовательский контент.",
+          "item3": "Вы не будете иметь право на возмещение средств за неиспользованные периоды подписки (в соответствии с применимым законодательством)."
         }
       },
       "section11": {
-        "title": "11. Disclaimers",
-        "content": "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
-        "content2": "We do not warrant that:",
+        "title": "11. Отказ от ответственности",
+        "content": "СЕРВИС ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ» И «КАК ДОСТУПНО» БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ПОДРАЗУМЕВАЕМЫМИ ГАРАНТИЯМИ ТОВАРНОЙ ЦЕННОСТИ, ПРИГОДНОСТИ ДЛЯ ОПРЕДЕЛЕННОЙ ЦЕЛИ И НЕНАРУШЕНИЯ ПРАВ.",
+        "content2": "Мы не гарантируем, что:",
         "items": {
-          "item1": "The Service will meet your requirements",
-          "item2": "The Service will be uninterrupted, timely, secure, or error-free",
-          "item3": "The results obtained from using the Service will be accurate or reliable",
-          "item4": "Any errors in the Service will be corrected"
+          "item1": "Сервис будет соответствовать вашим требованиям",
+          "item2": "Услуга будет бесперебойной, своевременной, безопасной и безошибочной.",
+          "item3": "Результаты, полученные от использования Сервиса, будут точными и надежными.",
+          "item4": "Любые ошибки в Сервисе будут исправлены."
         }
       },
       "section12": {
-        "title": "12. Limitation of Liability",
-        "content": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ZUKI APPS, ITS AFFILIATES, OR THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, USE, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR USE OR INABILITY TO USE THE SERVICE.",
-        "content2": "Our total liability to you for all claims arising from or related to the Service shall not exceed the amount you paid us in the twelve (12) months preceding the claim, or $100, whichever is greater."
+        "title": "12. Ограничение ответственности",
+        "content": "В МАКСИМАЛЬНОЙ СТЕПЕНИ, РАЗРЕШЕННОЙ ПРИМЕНИМЫМ ЗАКОНОДАТЕЛЬСТВОМ, ZUKI APPS, ЕГО ФИЛИАЛЫ ИЛИ ИХ СООТВЕТСТВУЮЩИЕ ДОЛЖНОСТНЫЕ ЛИЦА, ДИРЕКТОРА, СОТРУДНИКИ ИЛИ АГЕНТЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА ЛЮБЫЕ КОСВЕННЫЕ, СЛУЧАЙНЫЕ, СПЕЦИАЛЬНЫЕ, ПОСЛЕДНИЕ ИЛИ НАКАЗАТЕЛЬНЫЕ МЕРЫ УБЫТКИ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ПОТЕРЮ ПРИБЫЛИ, ДАННЫХ, ИСПОЛЬЗОВАНИЯ ИЛИ ДРУГИЕ НЕМАТЕРИАЛЬНЫЕ ПОТЕРИ, ЯВЛЯЮЩИЕСЯ РЕЗУЛЬТАТОМ ВАШЕГО ИСПОЛЬЗОВАНИЯ ИЛИ НЕВОЗМОЖНОСТИ ИСПОЛЬЗОВАТЬ СЕРВИС.",
+        "content2": "Наша общая ответственность перед вами по всем претензиям, возникающим в связи с Услугой или связанным с ней, не должна превышать сумму, которую вы заплатили нам за двенадцать (12) месяцев, предшествующих претензии, или 100 долларов США, в зависимости от того, что больше."
       },
       "section13": {
-        "title": "13. Indemnification",
-        "content": "You agree to indemnify, defend, and hold harmless Zuki Apps, its affiliates, and their respective officers, directors, employees, and agents from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including attorney's fees) arising from:",
+        "title": "13. Возмещение ущерба",
+        "content": "Вы соглашаетесь возмещать, защищать и ограждать Zuki Apps, ее аффилированные лица и их соответствующих должностных лиц, директоров, сотрудников и агентов от любых и всех претензий, убытков, обязательств, убытков, ответственности, издержек или долгов, а также расходов (включая attорни), возникающих в результате:",
         "items": {
-          "item1": "Your use of the Service",
-          "item2": "Your violation of these Terms",
-          "item3": "Your violation of any third-party rights",
-          "item4": "Any User Content you submit, post, or transmit through the Service"
+          "item1": "Использование вами Сервиса",
+          "item2": "Нарушение вами настоящих Условий",
+          "item3": "Нарушение вами каких-либо прав третьих лиц",
+          "item4": "Любой Пользовательский контент, который вы отправляете, публикуете или передаете через Сервис."
         }
       },
       "section14": {
-        "title": "14. Privacy",
-        "content": "Your privacy is important to us. Our collection and use of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference."
+        "title": "14. Конфиденциальность",
+        "content": "Ваша конфиденциальность важна для нас. Наш сбор и использование вашей личной информации регулируется нашей Политикой конфиденциальности, которая включена в настоящие Условия посредством ссылки."
       },
       "section15": {
-        "title": "15. Dispute Resolution",
-        "subtitle1": "15.1. Governing Law",
-        "content1": "These Terms shall be governed by and construed in accordance with the laws of Israel, without regard to its conflict of law provisions.",
-        "subtitle2": "15.2. Dispute Resolution Process",
+        "title": "15. Разрешение споров",
+        "subtitle1": "15.1. Применимое право",
+        "content1": "Настоящие Условия регулируются и толкуются в соответствии с законодательством Израиля, без учета положений коллизионного права.",
+        "subtitle2": "15.2. Процесс разрешения споров",
         "content2": "If you have any concerns or disputes regarding the Service, please contact us first at zuki.apps.dev@gmail.com. We will attempt to resolve any disputes in good faith."
       },
       "section16": {
-        "title": "16. Changes to Terms",
-        "content": "We reserve the right to modify these Terms at any time. We will notify you of any material changes by:",
+        "title": "16. Изменения в Условиях",
+        "content": "Мы оставляем за собой право изменять настоящие Условия в любое время. Мы уведомим вас о любых существенных изменениях следующим образом:",
         "items": {
-          "item1": "Posting the updated Terms on this page",
-          "item2": "Updating the \"Last updated\" date",
-          "item3": "Sending a notification through the Service (if significant changes are made)"
+          "item1": "Публикация обновленных Условий на этой странице",
+          "item2": "Обновление даты «Последнего обновления»",
+          "item3": "Отправка уведомления через Сервис (в случае внесения существенных изменений)"
         },
-        "content2": "Your continued use of the Service after such changes constitutes your acceptance of the modified Terms."
+        "content2": "Ваше дальнейшее использование Сервиса после таких изменений означает ваше согласие с измененными Условиями."
       },
       "section17": {
-        "title": "17. Severability",
-        "content": "If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect."
+        "title": "17. Делимость",
+        "content": "Если какое-либо положение настоящих Условий будет признано не имеющим исковой силы или недействительным, это положение будет ограничено или исключено в минимально необходимой степени, а остальные положения останутся в полной силе и действии."
       },
       "section18": {
-        "title": "18. Entire Agreement",
-        "content": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Zuki Apps regarding the Service and supersede all prior agreements and understandings."
+        "title": "18. Полное соглашение",
+        "content": "Настоящие Условия вместе с нашей Политикой конфиденциальности представляют собой полное соглашение между вами и Zuki Apps относительно Сервиса и заменяют собой все предыдущие соглашения и договоренности."
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. Контактная информация",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящих Условий, свяжитесь с нами:",
         "email": "zuki.apps@gmail.com",
         "website": "https://zukiapps.com/zulist",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       }
     },
     "deleteAccount": {
-      "title": "Delete ZuList Account",
-      "intro": "If you wish to delete your account and all associated data, please follow the steps below:",
+      "title": "Удалить учетную запись ZuList",
+      "intro": "Если вы хотите удалить свою учетную запись и все связанные с ней данные, выполните следующие действия:",
       "warning": {
-        "title": "⚠️ Important Warning",
-        "content": "Account deletion is a permanent action and cannot be undone. All data associated with your account will be permanently deleted."
+        "title": "⚠️ Важное предупреждение.",
+        "content": "Удаление учетной записи является необратимым действием и не может быть отменено. Все данные, связанные с вашей учетной записью, будут удалены без возможности восстановления."
       },
       "steps": {
-        "title": "Account Deletion Instructions",
-        "step1": "Open the ZuList app on your device",
-        "step2": "Log in to your account (if you haven't already)",
-        "step3": "Tap the Profile button (or Settings) in the bottom menu",
-        "step4": "Scroll down until you find the Delete account button (or Delete account)",
-        "step5": "Tap the button and read the message",
-        "step6": "Confirm the deletion - the account and all data will be permanently deleted"
+        "title": "Инструкции по удалению учетной записи",
+        "step1": "Откройте приложение ZuList на своем устройстве.",
+        "step2": "Войдите в свою учетную запись (если вы еще этого не сделали)",
+        "step3": "Нажмите кнопку «Профиль» (или «Настройки») в нижнем меню.",
+        "step4": "Прокрутите вниз, пока не найдете кнопку «Удалить учетную запись» (или «Удалить учетную запись»).",
+        "step5": "Нажмите кнопку и прочитайте сообщение",
+        "step6": "Подтвердите удаление — аккаунт и все данные будут удалены безвозвратно."
       },
       "data": {
-        "title": "Data That Will Be Deleted",
-        "intro": "When you delete your account, the following data will be permanently deleted:",
-        "item1": "Personal information: name, email address, user ID",
-        "item2": "Shopping lists: all shopping lists you created",
-        "item3": "Items: all items in your lists",
-        "item4": "Photos: profile photos, list photos, item photos",
-        "item5": "Preferences: personal settings and user preferences",
-        "item6": "Purchase history: all statistical data and history",
-        "item7": "Sync data: all cloud-synced data"
+        "title": "Данные, которые будут удалены",
+        "intro": "Когда вы удалите свою учетную запись, следующие данные будут удалены навсегда:",
+        "item1": "Личная информация: имя, адрес электронной почты, идентификатор пользователя.",
+        "item2": "Списки покупок: все созданные вами списки покупок.",
+        "item3": "Предметы: все предметы в ваших списках.",
+        "item4": "Фотографии: фотографии профиля, фотографии списка, фотографии товаров.",
+        "item5": "Предпочтения: персональные настройки и предпочтения пользователя.",
+        "item6": "История покупок: все статистические данные и история",
+        "item7": "Синхронизация данных: все данные, синхронизированные с облаком."
       },
       "sharedLists": {
         "owner": {
-          "title": "Lists you created (Owner):",
-          "item1": "If there are other users in the list → Ownership will be transferred to another user (automatically)",
-          "item2": "If you are the only one in the list → The list will be completely deleted"
+          "title": "Списки, созданные вами (владелец):",
+          "item1": "Если в списке есть другие пользователи → Право собственности будет передано другому пользователю (автоматически)",
+          "item2": "Если вы единственный в списке → Список будет полностью удален"
         },
         "member": {
-          "title": "Lists you participate in (Member):",
-          "item1": "You will be removed from the list",
-          "item2": "The list will remain active for other users",
-          "item3": "Data and items will remain (only you will be removed)"
-        }
+          "title": "Списки, в которых вы участвуете (Участник):",
+          "item1": "Вы будете удалены из списка",
+          "item2": "Список останется активным для других пользователей.",
+          "item3": "Данные и предметы останутся (будут удалены только вы)"
+        },
+        "title": "Что происходит с общими списками"
       },
       "partialDelete": {
-        "title": "Deleting Some Data (Without Deleting the Account)",
-        "intro": "If you wish to delete only some data without deleting the account, you can:",
-        "item1": "Delete profile photos: Profile screen → Remove photo",
-        "item2": "Delete lists: Home screen → Delete list",
-        "item3": "Delete items: Inside a list → Delete item"
+        "title": "Удаление некоторых данных (без удаления учетной записи)",
+        "intro": "Если вы хотите удалить только некоторые данные, не удаляя учетную запись, вы можете:",
+        "item1": "Удаление фотографий профиля: Экран профиля → Удалить фото.",
+        "item2": "Удаление списков: Главный экран → Удалить список.",
+        "item3": "Удаление элементов: Внутри списка → Удалить элемент."
       },
       "retention": {
-        "title": "Retention Period",
-        "content": "After account deletion, data will be deleted from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+        "title": "Срок хранения",
+        "content": "После удаления учетной записи данные будут удалены с наших серверов в течение 30 дней. В течение этого периода данные могут храниться в резервных копиях, но не будут доступны через приложение."
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with account deletion, please contact us:",
-        "email": "Email",
-        "privacy": "Privacy Policy",
-        "privacyLink": "Read the full privacy policy",
-        "terms": "Terms of Service",
-        "termsLink": "Read the terms of service"
+        "title": "Связаться с нами",
+        "content": "Если у вас есть вопросы или проблемы с удалением учетной записи, свяжитесь с нами:",
+        "email": "Электронная почта",
+        "privacy": "политика конфиденциальности",
+        "privacyLink": "Прочтите полную политику конфиденциальности",
+        "terms": "Условия использования",
+        "termsLink": "Прочтите условия обслуживания"
       }
     },
     "deleteData": {
-      "title": "Delete Data - ZuList",
+      "title": "Удалить данные - ZuList",
       "intro": {
-        "title": "Deleting Data Without Deleting the Account",
-        "content": "You can delete some of your data without deleting the account. This way you can keep the account and delete only the data you want to remove."
+        "title": "Удаление данных без удаления учетной записи",
+        "content": "Вы можете удалить некоторые свои данные, не удаляя аккаунт. Таким образом, вы сможете сохранить учетную запись и удалить только те данные, которые хотите удалить."
       },
       "types": {
-        "title": "Types of Data You Can Delete",
+        "title": "Типы данных, которые можно удалить",
         "profilePhotos": {
-          "title": "1. Profile Photos",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "Your profile photo",
-          "deletedItem2": "Custom photos uploaded manually",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "Username",
-          "keptItem3": "All other data",
-          "howTo": "How to delete:",
-          "step1": "Open the ZuList app",
-          "step2": "Tap the Profile button in the bottom menu",
-          "step3": "Tap your profile photo",
-          "step4": "Select Remove Image or Remove Image",
-          "step5": "Confirm the deletion"
+          "title": "1. Фотографии профиля",
+          "deleted": "Что будет удалено:",
+          "deletedItem1": "Ваше фото профиля",
+          "deletedItem2": "Пользовательские фотографии, загруженные вручную",
+          "kept": "Что будет сохранено:",
+          "keptItem1": "Ваш аккаунт",
+          "keptItem2": "Имя пользователя",
+          "keptItem3": "Все остальные данные",
+          "howTo": "Как удалить:",
+          "step1": "Откройте приложение ZuList",
+          "step2": "Нажмите кнопку «Профиль» в нижнем меню.",
+          "step3": "Нажмите на фотографию профиля",
+          "step4": "Выберите «Удалить изображение» или «Удалить изображение».",
+          "step5": "Подтвердите удаление"
         },
         "shoppingLists": {
-          "title": "2. Shopping Lists",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "The selected shopping list",
-          "deletedItem2": "All items in the list",
-          "deletedItem3": "List photos",
-          "deletedItem4": "List settings",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "All other lists",
-          "keptItem3": "Other personal data",
-          "howTo": "How to delete:",
-          "step1": "Open the ZuList app",
-          "step2": "On the home screen, find the list you want to delete",
-          "step3": "Long press on the list (or tap three dots)",
-          "step4": "Select Delete List or Delete List",
-          "step5": "Confirm the deletion"
+          "title": "2. Списки покупок",
+          "deleted": "Что будет удалено:",
+          "deletedItem1": "Выбранный список покупок",
+          "deletedItem2": "Все элементы в списке",
+          "deletedItem3": "Список фотографий",
+          "deletedItem4": "Список настроек",
+          "kept": "Что будет сохранено:",
+          "keptItem1": "Ваш аккаунт",
+          "keptItem2": "Все остальные списки",
+          "keptItem3": "Другие персональные данные",
+          "howTo": "Как удалить:",
+          "step1": "Откройте приложение ZuList",
+          "step2": "На главном экране найдите список, который хотите удалить.",
+          "step3": "Длительное нажатие на список (или нажмите три точки)",
+          "step4": "Выберите «Удалить список» или «Удалить список».",
+          "step5": "Подтвердите удаление"
         },
         "items": {
-          "title": "3. Items in Lists",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "The selected item",
-          "deletedItem2": "Item photos",
-          "deletedItem3": "Notes on the item",
-          "deletedItem4": "Quantity and price (if entered)",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "The list itself",
-          "keptItem3": "All other items in the list",
-          "howTo": "How to delete:",
-          "step1": "Open the ZuList app",
-          "step2": "Open the list containing the item",
-          "step3": "Long press on the item (or swipe left)",
-          "step4": "Select Delete or Delete",
-          "step5": "Confirm the deletion"
+          "title": "3. Элементы в списках",
+          "deleted": "Что будет удалено:",
+          "deletedItem1": "Выбранный элемент",
+          "deletedItem2": "Фотографии товара",
+          "deletedItem3": "Примечания к товару",
+          "deletedItem4": "Количество и цена (если указано)",
+          "kept": "Что будет сохранено:",
+          "keptItem1": "Ваш аккаунт",
+          "keptItem2": "Сам список",
+          "keptItem3": "Все остальные позиции в списке",
+          "howTo": "Как удалить:",
+          "step1": "Откройте приложение ZuList",
+          "step2": "Открыть список, содержащий элемент",
+          "step3": "Длительное нажатие на элемент (или смахивание влево)",
+          "step4": "Выберите «Удалить» или «Удалить».",
+          "step5": "Подтвердите удаление"
         },
         "images": {
-          "title": "4. List and Item Photos",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "List photos (background/custom image)",
-          "deletedItem2": "Item photos",
-          "deletedItem3": "Category photos",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "The list/item/category itself",
-          "keptItem3": "All other data",
-          "howTo": "How to delete:",
-          "step1": "Open the list/item/category",
-          "step2": "Tap the photo",
-          "step3": "Select Remove Image or Remove Image",
-          "step4": "Confirm the deletion"
+          "title": "4. Список и фотографии товаров",
+          "deleted": "Что будет удалено:",
+          "deletedItem1": "Список фотографий (фоновое/собственное изображение)",
+          "deletedItem2": "Фотографии товара",
+          "deletedItem3": "Фотографии категорий",
+          "kept": "Что будет сохранено:",
+          "keptItem1": "Ваш аккаунт",
+          "keptItem2": "Сам список/пункт/категория",
+          "keptItem3": "Все остальные данные",
+          "howTo": "Как удалить:",
+          "step1": "Открыть список/элемент/категорию",
+          "step2": "Нажмите на фотографию",
+          "step3": "Выберите «Удалить изображение» или «Удалить изображение».",
+          "step4": "Подтвердите удаление"
         },
         "purchaseHistory": {
-          "title": "5. Purchase History and Statistical Data",
-          "deleted": "What will be deleted:",
-          "deletedItem1": "Purchase history (when items marked as purchased are deleted)",
-          "deletedItem2": "Statistical data (when lists are deleted)",
-          "deletedItem3": "History-based recommendations",
-          "kept": "What will be kept:",
-          "keptItem1": "Your account",
-          "keptItem2": "Active lists",
-          "keptItem3": "Personal data",
+          "title": "5. История покупок и статистические данные",
+          "deleted": "Что будет удалено:",
+          "deletedItem1": "История покупок (когда товары, отмеченные как купленные, удаляются)",
+          "deletedItem2": "Статистические данные (при удалении списков)",
+          "deletedItem3": "Рекомендации на основе истории",
+          "kept": "Что будет сохранено:",
+          "keptItem1": "Ваш аккаунт",
+          "keptItem2": "Активные списки",
+          "keptItem3": "Персональные данные",
           "note": {
-            "title": "Note:",
-            "content": "Deleting purchase history is done automatically when items or lists are deleted. No separate action is required."
+            "title": "Примечание:",
+            "content": "Удаление истории покупок происходит автоматически при удалении товаров или списков. Никаких отдельных действий не требуется."
           }
         }
       },
       "info": {
-        "title": "ℹ️ Important Information:",
-        "item1": "Data deletion is immediate - data is deleted immediately from the device and cloud",
-        "item2": "Deleted data cannot be recovered",
-        "item3": "If you participate in shared lists, deleting items/lists will also affect other users",
-        "item4": "Your account will remain active even after deleting data"
+        "title": "ℹ️Важная информация:",
+        "item1": "Удаление данных происходит немедленно — данные удаляются немедленно с устройства и облака.",
+        "item2": "Удаленные данные невозможно восстановить",
+        "item3": "Если вы участвуете в общих списках, удаление элементов/списков также повлияет на других пользователей.",
+        "item4": "Ваша учетная запись останется активной даже после удаления данных."
       },
       "retention": {
-        "title": "Retention Period",
-        "content": "Deleted data will be removed from our servers within 30 days. During this period, data may be retained in backups, but will not be accessible through the app."
+        "title": "Срок хранения",
+        "content": "Удаленные данные будут удалены с наших серверов в течение 30 дней. В течение этого периода данные могут храниться в резервных копиях, но не будут доступны через приложение."
       },
       "fullDelete": {
-        "title": "Want to delete the entire account?",
-        "content": "If you wish to delete the entire account and all associated data,",
-        "link": "click here for full account deletion"
+        "title": "Хотите удалить всю учетную запись?",
+        "content": "Если вы хотите удалить всю учетную запись и все связанные с ней данные,",
+        "link": "нажмите здесь для полного удаления учетной записи"
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have questions or issues with data deletion, please contact us:",
-        "email": "Email",
-        "privacy": "Privacy Policy",
-        "privacyLink": "Read the full privacy policy"
+        "title": "Связаться с нами",
+        "content": "Если у вас есть вопросы или проблемы с удалением данных, свяжитесь с нами:",
+        "email": "Электронная почта",
+        "privacy": "политика конфиденциальности",
+        "privacyLink": "Прочтите полную политику конфиденциальности",
+        "terms": "Условия использования",
+        "termsLink": "Прочтите условия обслуживания"
       }
     },
     "support": {
@@ -730,28 +735,28 @@
       "faq": {
         "title": "Часто задаваемые вопросы",
         "q1": {
-          "question": "How do I share a shopping list with family members?",
-          "answer": "To share a list, open the list and tap the 'Share' or 'Members' button. You can invite members via email, SMS, WhatsApp, or by sharing a link. Once they accept the invitation, they'll have access to the list and can add or modify items in real-time."
+          "question": "Как поделиться списком покупок с членами семьи?",
+          "answer": "Чтобы поделиться списком, откройте список и нажмите кнопку «Поделиться» или «Участники». Вы можете пригласить участников по электронной почте, SMS, WhatsApp или поделившись ссылкой. Как только они примут приглашение, они получат доступ к списку и смогут добавлять или изменять элементы в режиме реального времени."
         },
         "q2": {
-          "question": "How does the Premium subscription work?",
-          "answer": "Premium offers unlimited lists, unlimited items, unlimited members, ad-free experience, advanced statistics, custom themes, offline mode, and cloud backup. You can subscribe monthly or yearly through the App Store (iOS) or Google Play (Android). You can manage or cancel your subscription at any time through your device's subscription settings."
+          "question": "Как работает подписка Premium?",
+          "answer": "Premium предлагает неограниченные списки, неограниченное количество элементов, неограниченное количество участников, работу без рекламы, расширенную статистику, пользовательские темы, автономный режим и резервное копирование в облаке. Вы можете подписаться ежемесячно или ежегодно через App Store (iOS) или Google Play (Android). Вы можете управлять своей подпиской или отменить ее в любое время через настройки подписки вашего устройства."
         },
         "q3": {
-          "question": "Can I use ZuList offline?",
-          "answer": "Yes! ZuList works offline. You can create lists, add items, and mark items as purchased even without an internet connection. All changes will automatically sync when you're back online. Note: Offline mode is a Premium feature."
+          "question": "Могу ли я использовать ZuList в автономном режиме?",
+          "answer": "Да! ZuList работает в автономном режиме. Вы можете создавать списки, добавлять элементы и отмечать их как купленные даже без подключения к Интернету. Все изменения будут автоматически синхронизированы, когда вы вернетесь в Интернет. Примечание. Автономный режим — это функция Premium."
         },
         "q4": {
-          "question": "How do I delete my account?",
-          "answer": "To delete your account, go to Profile → Settings → Delete Account. Please note that account deletion is permanent and cannot be undone. All your data, including lists, items, and photos, will be permanently deleted. For detailed instructions, visit our Delete Account page."
+          "question": "Как мне удалить свою учетную запись?",
+          "answer": "Чтобы удалить свою учетную запись, перейдите в «Профиль» → «Настройки» → «Удалить учетную запись». Обратите внимание, что удаление учетной записи является окончательным и не может быть отменено. Все ваши данные, включая списки, элементы и фотографии, будут безвозвратно удалены. Подробные инструкции можно найти на нашей странице удаления учетной записи."
         },
         "q5": {
-          "question": "I'm having trouble with notifications. What should I do?",
-          "answer": "First, make sure notifications are enabled in your device settings for ZuList. If notifications still don't work, try: 1) Restarting the app, 2) Checking your device's notification settings, 3) Ensuring you have an active internet connection, 4) Reinstalling the app if the problem persists. If issues continue, please contact us."
+          "question": "У меня проблемы с уведомлениями. Что я должен делать?",
+          "answer": "Сначала убедитесь, что уведомления включены в настройках вашего устройства для ZuList. Если уведомления по-прежнему не работают, попробуйте: 1) перезапустить приложение, 2) проверить настройки уведомлений вашего устройства, 3) убедиться, что у вас есть активное подключение к Интернету, 4) переустановить приложение, если проблема не устранена. Если проблемы не исчезнут, свяжитесь с нами."
         },
         "q6": {
-          "question": "How do I restore my data if I switch devices?",
-          "answer": "If you're using the same account (Google or Apple Sign-In), your data will automatically sync when you log in on a new device. Make sure you're connected to the internet and signed in with the same account. Premium users have cloud backup enabled, ensuring all data is safely stored and can be restored."
+          "question": "Как мне восстановить данные, если я поменяю устройства?",
+          "answer": "Если вы используете одну и ту же учетную запись (вход в Google или Apple), ваши данные будут автоматически синхронизироваться при входе в систему на новом устройстве. Убедитесь, что вы подключены к Интернету и вошли в систему под той же учетной записью. Premium у пользователей включено резервное копирование в облако, что гарантирует безопасное хранение всех данных и возможность их восстановления."
         }
       },
       "additionalHelp": {
@@ -762,163 +767,163 @@
       "metaDescription": "ZuList FAQ и поддержка — общие списки и задачи. Контакты, конфиденциальность и устранение неполадок."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "Функции",
+      "screenshots": "Скриншоты",
+      "howTo": "Как использовать",
+      "tips": "Советы",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Скачать"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from ZuList - Manage & Share Lists.",
-      "featuresTitle": "App screens",
+      "title": "Скриншоты",
+      "subtitle": "Реальные экраны приложений из ZuList — Управление списками и обмен ими.",
+      "featuresTitle": "Экраны приложений",
       "items": [
         {
-          "id": "lists",
-          "title": "Your lists",
-          "description": "Create and manage multiple shopping lists.",
+          "id": "списки",
+          "title": "Ваши списки",
+          "description": "Создавайте и управляйте несколькими списками покупок.",
           "image": "/images/zulist/screenshot-lists.png",
-          "alt": "Your lists — zulist",
-          "category": "features"
+          "alt": "Ваши списки — zulist",
+          "category": "функции"
         },
         {
-          "id": "shared",
-          "title": "Shared list",
-          "description": "Collaborate in real time with family or roommates.",
+          "id": "общий",
+          "title": "Общий список",
+          "description": "Сотрудничайте в режиме реального времени с семьей или соседями по комнате.",
           "image": "/images/zulist/screenshot-shared.png",
-          "alt": "Shared list — zulist",
-          "category": "features"
+          "alt": "Общий список — zulist",
+          "category": "функции"
         },
         {
-          "id": "invite",
-          "title": "Invite & share",
-          "description": "Send an invite link — no account required for guests.",
+          "id": "приглашать",
+          "title": "Пригласить и поделиться",
+          "description": "Отправьте ссылку для приглашения — для гостей учетная запись не требуется.",
           "image": "/images/zulist/screenshot-invite.png",
-          "alt": "Invite & share — zulist",
-          "category": "features"
+          "alt": "Пригласить и поделиться — zulist",
+          "category": "функции"
         },
         {
-          "id": "widget",
-          "title": "Home widget",
-          "description": "Glance items from your home screen.",
+          "id": "виджет",
+          "title": "Домашний виджет",
+          "description": "Просматривайте элементы с главного экрана.",
           "image": "/images/zulist/screenshot-widget.png",
-          "alt": "Home widget — zulist",
-          "category": "features"
+          "alt": "Домашний виджет — zulist",
+          "category": "функции"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Как использовать",
       "steps": [
         {
           "number": "1",
-          "title": "Create a list",
-          "description": "Add items with quantities and categories."
+          "title": "Создать список",
+          "description": "Добавляйте товары с указанием количества и категорий."
         },
         {
           "number": "2",
-          "title": "Share the list",
-          "description": "Send an invite link so others can edit live."
+          "title": "Поделиться списком",
+          "description": "Отправьте ссылку-приглашение, чтобы другие могли редактировать в реальном времени."
         },
         {
           "number": "3",
-          "title": "Shop together",
-          "description": "Check off items — changes sync instantly."
+          "title": "Делайте покупки вместе",
+          "description": "Отметьте элементы — изменения синхронизируются мгновенно."
         },
         {
           "number": "4",
-          "title": "Use widgets",
-          "description": "Pin a list to your home screen for quick access."
+          "title": "Используйте виджеты",
+          "description": "Закрепите список на главном экране для быстрого доступа."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "Советы и рекомендации",
+      "subtitle": "Получите больше от приложения.",
       "items": [
         {
-          "title": "Shopping faster",
-          "description": "Reorder lists on the home screen—put “Today” at the top - Search across all your lists from the home screen - Mark all bought when you finish a trip (owner/read-write)"
+          "title": "Делайте покупки быстрее",
+          "description": "Изменение порядка списков на главном экране: поместите «Сегодня» вверху. Выполняйте поиск по всем спискам на главном экране. Отметьте все покупки, когда закончите поездку (владелец/прочитать-записать)."
         },
         {
-          "title": "Collaboration",
-          "description": "Use read-only for kids or guests who shouldn’t edit - Due date on a list + notification = fewer “did you get milk?” texts - Share a link in the family group chat—no email required"
+          "title": "Сотрудничество",
+          "description": "Используйте режим «только для чтения» для детей или гостей, которым не следует редактировать — срок сдачи в списке + уведомление = меньше вопросов «Вы получили молоко?» текстовые сообщения — поделитесь ссылкой в ​​семейном групповом чате — электронная почта не требуется."
         },
         {
-          "title": "Offline",
-          "description": "Add items in airplane mode; they sync when you land - If sync is slow, pull to refresh on the list screen"
+          "title": "Оффлайн",
+          "description": "Добавляйте предметы в режиме полета; они синхронизируются, когда вы приземляетесь. Если синхронизация идет медленно, потяните, чтобы обновить экран списка."
         },
         {
-          "title": "Widget",
-          "description": "Set primary list to your main grocery list, not one-off party lists - Widget shows unbought count only"
+          "title": "Виджет",
+          "description": "Установите основной список для основного списка покупок, а не для разовых списков для вечеринок — виджет показывает только количество некупленных товаров."
         },
         {
-          "title": "Invites",
-          "description": "Recent emails appear when inviting—tap to resend faster - Wait a few seconds between resends to the same address (anti-spam)"
+          "title": "Приглашает",
+          "description": "При приглашении отображаются последние электронные письма — коснитесь, чтобы отправить повторно быстрее. Подождите несколько секунд между повторными отправками на один и тот же адрес (защита от спама)."
         },
         {
-          "title": "Premium value",
-          "description": "Worth it if you run multiple households or large families on one list - Restore purchases on a new phone: Premium screen → restore link"
+          "title": "значение Premium",
+          "description": "Стоит, если вы ведете несколько домохозяйств или больших семей в одном списке - Восстановление покупок на новом телефоне: экран Premium → восстановить ссылку."
         },
         {
-          "title": "Privacy",
-          "description": "Only people you invite see a list - Delete account anytime: Settings → Account → Delete account"
+          "title": "Конфиденциальность",
+          "description": "Список видят только люди, которых вы пригласили. Удалить учетную запись в любое время: Настройки → Учетная запись → Удалить учетную запись."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Часто задаваемые вопросы",
+      "subtitle": "Быстрые ответы о функциях, конфиденциальности и выставлении счетов.",
+      "viewAllSupport": "Посмотреть полную поддержку и FAQ",
       "items": [
         {
-          "question": "What is ZuList?",
-          "answer": "A collaborative shopping list app. Create lists, share with others, and sync in real time on iOS and Android."
+          "question": "Что такое ZuList?",
+          "answer": "Приложение для совместного составления списка покупок. Создавайте списки, делитесь ими с другими и синхронизируйте их в реальном времени на iOS и Android."
         },
         {
-          "question": "Is ZuList free?",
-          "answer": "Yes. Free tier includes up to 5 lists, 150 items per list, and sharing with one other person per list. Premium removes limits and ads."
+          "question": "ZuList бесплатно?",
+          "answer": "Да. Уровень бесплатного пользования включает до 5 списков, 150 элементов в каждом списке и возможность совместного использования с одним человеком в каждом списке. Premium убирает ограничения и рекламу."
         },
         {
-          "question": "Do I need an account?",
-          "answer": "You can start as a guest. Sign in to sync across devices and accept invites reliably."
+          "question": "Нужен ли мне аккаунт?",
+          "answer": "Вы можете начать как гость. Войдите в систему, чтобы синхронизировать данные между устройствами и надежно принимать приглашения."
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Chinese (Simplified), Japanese, and Korean."
+          "question": "Какие языки поддерживаются?",
+          "answer": "Английский, иврит, арабский, немецкий, испанский, французский, итальянский, португальский, русский, китайский (упрощенный), японский и корейский."
         },
         {
-          "question": "How fast is sync?",
-          "answer": "Usually instant when online. Offline changes upload when connectivity returns."
+          "question": "Насколько быстрая синхронизация?",
+          "answer": "Обычно мгновенно, когда онлайн. Автономные изменения загружаются, когда восстанавливается соединение."
         },
         {
-          "question": "Can two people edit at the same time?",
-          "answer": "Yes. Last write wins for the same field; the list stays consistent."
+          "question": "Могут ли два человека редактировать одновременно?",
+          "answer": "Да. Последняя запись выигрывает для того же поля; список остается неизменным."
         },
         {
-          "question": "How do I remove someone from a list?",
-          "answer": "List owner → Members → remove. They lose access immediately."
+          "question": "Как удалить кого-то из списка?",
+          "answer": "Владелец списка → Участники → удалить. Они сразу теряют доступ."
         },
         {
-          "question": "Why doesn’t the widget match the list I’m viewing?",
-          "answer": "The widget always shows your **primary list** from Settings."
+          "question": "Почему виджет не соответствует списку, который я просматриваю?",
+          "answer": "Виджет всегда показывает ваш **основной список** из настроек."
         },
         {
-          "question": "How do I add the widget?",
-          "answer": "See [How to: Home screen widget](./how-to-home-widget.md)."
+          "question": "Как добавить виджет?",
+          "answer": "См. [Как: виджет главного экрана](./how-to-home-widget.md)."
         },
         {
-          "question": "What does Premium include?",
-          "answer": "Unlimited lists, items, and members; no ads; advanced statistics; themes; premium offline features; cloud backup."
+          "question": "Что включает в себя Premium?",
+          "answer": "Неограниченные списки, элементы и участники; нет рекламы; расширенная статистика; темы; premium офлайн-функции; облачное резервное копирование."
         },
         {
-          "question": "How do I cancel?",
-          "answer": "Manage subscription in the App Store or Google Play—ZuList updates automatically via store webhooks."
+          "question": "Как мне отменить?",
+          "answer": "Управляйте подпиской на обновления App Store или Google Play—ZuList автоматически через веб-хуки магазина."
         },
         {
-          "question": "Where is my data stored?",
-          "answer": "Firebase (Google Cloud). Lists are private to you and invited members."
+          "question": "Где хранятся мои данные?",
+          "answer": "Firebase (Облако Google). Списки доступны только вам и приглашенным участникам."
         }
       ]
     }

@@ -1,337 +1,339 @@
 {
   "sudokuPuzzle": {
-    "back": "Back to Home",
+    "back": "홈으로 돌아가기",
     "hero": {
-      "badge": "Available on App Store",
-      "title": "Sudoku Fun Go - Classic Sudoku",
-      "subtitle": "9×9 Sudoku Puzzle Game",
-      "description": "A classic 9×9 Sudoku game built with Flutter for iOS and Android. Four difficulty levels (Easy, Medium, Hard, Expert), optional notes and hints, undo/erase, running timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games leaderboards and achievements.",
-      "structuredDataDescription": "Sudoku Fun Go — classic Sudoku puzzle game for iOS and Android. Multiple difficulties, hints, statistics, clean grid UI, 12+ languages. Android com.zuki.apps.sudokupuzzle by Zuki Apps."
+      "badge": "App Store에 이용 가능",
+      "title": "Sudoku Fun Go - 클래식 스도쿠",
+      "subtitle": "9×9 스도쿠 퍼즐 게임",
+      "description": "iOS 및 Android용 Flutter를 사용하여 제작된 클래식 9×9 스도쿠 게임입니다. 4가지 난이도(쉬움, 중간, 어려움, 전문가), 선택적 메모 및 힌트, 실행 취소/삭제, 실행 타이머 및 지속적인 통계. 12개 언어로 완전히 현지화되었습니다. Game Center 및 Play Games 리더보드 및 업적.",
+      "structuredDataDescription": "Sudoku Fun Go — iOS 및 Android를 위한 클래식 스도쿠 퍼즐 게임. 다양한 난이도, 힌트, 통계, 깔끔한 그리드 UI, 12개 이상의 언어. Android com.zuki.apps.sudokupuzzle by Zuki Apps.",
+      "seoTitle": "Sudoku Fun Go — 클래식 9×9 퍼즐 | Zuki Apps",
+      "metaDescription": "힌트와 통계로 스도쿠를 정리하세요. 오프라인으로 작동합니다. iOS 및 Android에서 무료 — 지금 다운로드하세요."
     },
     "features": {
-      "title": "Key Features",
+      "title": "주요 특징",
       "difficulty": {
-        "title": "Difficulty Levels",
-        "description": "Choose your challenge with four difficulty levels",
+        "title": "난이도",
+        "description": "4가지 난이도로 도전과제를 선택하세요",
         "items": [
-          "Easy",
-          "Medium",
-          "Hard",
-          "Expert"
+          "쉬운",
+          "중간",
+          "딱딱한",
+          "전문가"
         ]
       },
       "gameplay": {
-        "title": "Notes, Hints & Tools",
-        "description": "Full set of tools to help you solve puzzles",
+        "title": "참고, 힌트 및 도구",
+        "description": "퍼즐을 해결하는 데 도움이 되는 전체 도구 세트",
         "items": [
-          "Notes mode for pencil candidates",
-          "Hints for the selected cell",
-          "Undo and erase",
-          "Running timer",
-          "Mistake counter"
+          "연필 응시자를 위한 메모 모드",
+          "선택한 셀에 대한 힌트",
+          "실행 취소 및 지우기",
+          "타이머 실행",
+          "실수 카운터"
         ]
       },
       "stats": {
-        "title": "Statistics",
-        "description": "Track your progress and improve",
+        "title": "통계",
+        "description": "진행 상황을 추적하고 개선하세요",
         "items": [
-          "Games won and win rate",
-          "Best times per difficulty",
-          "Best scores per difficulty",
-          "Current and best streaks",
-          "Total games and play time"
+          "승리한 게임 및 승률",
+          "난이도별 가장 좋은 시간",
+          "난이도별 최고 점수",
+          "현재 및 최고 연속 기록",
+          "총 게임수 및 플레이 시간"
         ]
       },
       "localization": {
-        "title": "12 Languages",
-        "description": "Fully localized with regional variants",
+        "title": "12개 언어",
+        "description": "지역별 변형으로 완전히 현지화됨",
         "items": [
-          "English, Hebrew (RTL), Arabic (RTL)",
-          "German, Spanish, French, Italian",
-          "Portuguese, Russian, Japanese",
-          "Korean, Chinese",
-          "17 regional variants (e.g. pt-BR, es-MX)"
+          "영어, 히브리어(RTL), 아랍어(RTL)",
+          "독일어, 스페인어, 프랑스어, 이탈리아어",
+          "포르투갈어, 러시아어, 일본어",
+          "한국어, 중국어",
+          "17개 지역 변형(예: pt-BR, es-MX)"
         ]
       },
       "leaderboards": {
-        "title": "Leaderboards & Achievements",
-        "description": "Compete and unlock achievements",
+        "title": "리더보드 및 성과",
+        "description": "경쟁하고 성과를 달성하세요",
         "items": [
-          "Game Center (iOS) & Play Games (Android)",
-          "Friends and Global leaderboards",
-          "Best score leaderboards",
-          "First win, Streak 5, Streak 10 achievements"
+          "Game Center(iOS) 및 Play Games(Android)",
+          "친구 및 글로벌 리더보드",
+          "최고 점수 리더보드",
+          "첫승, 5연승, 10연승 달성"
         ]
       }
     },
     "status": {
-      "title": "Available",
-      "description": "Sudoku Fun Go is available on the App Store and Google Play.",
-      "version": "Version",
-      "status": "Status",
+      "title": "사용 가능",
+      "description": "Sudoku Fun Go는 App Store 및 Google Play에서 사용할 수 있습니다.",
+      "version": "버전",
+      "status": "상태",
       "versionValue": "1.0.4+10",
-      "statusValue": "Available"
+      "statusValue": "사용 가능"
     },
     "download": {
-      "title": "Download",
-      "description": "Available on the App Store and Google Play.",
-      "soon": "Available soon",
+      "title": "다운로드",
+      "description": "App Store 및 Google Play에서 사용할 수 있습니다.",
+      "soon": "곧 이용 가능",
       "appStoreUrl": "https://apps.apple.com/us/app/sudoku-fun-go/id6759739806",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "App Store에서 다운로드하세요.",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "시작해 보세요 Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "중요한 링크",
       "support": {
-        "title": "Technical Support",
+        "title": "기술지원",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "지원 및 도움말",
+      "subtitle": "우리가 도와드리겠습니다! 일반적인 질문에 대한 답변을 찾거나 당사에 직접 문의하세요.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "문의하기",
+        "description": "질문이 있거나 도움이 필요하신가요? 이메일을 보내주시면 최대한 빨리 연락드리겠습니다.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "빠른 링크",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "개인 정보 보호 정책",
+          "description": "귀하의 데이터를 보호하는 방법 알아보기"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "서비스 약관",
+          "description": "이용 약관을 읽어보세요"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "자주 묻는 질문",
         "q1": {
-          "question": "What is Sudoku Fun Go?",
-          "answer": "Sudoku Fun Go is a classic 9×9 Sudoku game for iOS and Android. Fill every row, column, and 3×3 box with the digits 1–9 with no repeats. It offers four difficulty levels, notes mode, hints, undo, a timer, and persistent statistics including best times and scores per difficulty."
+          "question": "Sudoku Fun Go란 무엇인가요?",
+          "answer": "Sudoku Fun Go는 iOS 및 Android를 위한 고전적인 9×9 스도쿠 게임입니다. 모든 행, 열 및 3×3 상자를 반복 없이 숫자 1~9로 채웁니다. 4가지 난이도, 노트 모드, 힌트, 실행 취소, 타이머, 그리고 난이도별 최고 시간과 점수를 포함한 지속적인 통계를 제공합니다."
         },
         "q2": {
-          "question": "Does the app work offline?",
-          "answer": "Yes. Gameplay, stats, and settings are stored locally. You can play fully offline. Internet is only needed for Game Center / Play Games leaderboards and achievements, and for optional in-app purchases (e.g. remove ads)."
+          "question": "앱이 오프라인에서 작동하나요?",
+          "answer": "예. 게임플레이, 통계, 설정은 로컬에 저장됩니다. 완전히 오프라인으로 플레이할 수 있습니다. 인터넷은 Game Center / Play Games 리더보드 및 목표 달성, 선택적 인앱 구매(예: 광고 제거)에만 필요합니다."
         },
         "q3": {
-          "question": "What are the difficulty levels?",
-          "answer": "There are four levels: Easy, Medium, Hard, and Expert. Each affects the number of given clues and puzzle complexity. Best times and best scores are tracked separately per difficulty."
+          "question": "난이도는 어떻게 되나요?",
+          "answer": "쉬움, 중간, 어려움, 전문가의 네 가지 레벨이 있습니다. 각각은 주어진 단서의 수와 퍼즐의 복잡성에 영향을 미칩니다. 최고 시간과 최고 점수는 난이도별로 별도로 추적됩니다."
         },
         "q4": {
-          "question": "Does the app support leaderboards?",
-          "answer": "Yes. On iOS we use Game Center with Friends and Global leaderboards for best score, plus achievements (e.g. first win, streak 5, streak 10). On Android we use Play Games Services with the same structure. Sign-in is prompted on app start."
+          "question": "앱이 리더보드를 지원하나요?",
+          "answer": "예. iOS에서는 친구 및 글로벌 리더보드와 함께 Game Center를 사용하여 최고 점수와 성과(예: 첫 승리, 5연속, 10연속)를 달성합니다. Android에서는 동일한 구조의 Play Games 서비스를 사용합니다. 앱 시작 시 로그인 메시지가 표시됩니다."
         },
         "q5": {
-          "question": "In which languages is the app available?",
-          "answer": "The app is localized in 12 base languages (English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, Chinese) with 17 regional variants. Hebrew and Arabic have full RTL support."
+          "question": "앱은 어떤 언어로 제공되나요?",
+          "answer": "이 앱은 12개 기본 언어(영어, 히브리어, 아랍어, 독일어, 스페인어, 프랑스어, 이탈리아어, 포르투갈어, 러시아어, 일본어, 한국어, 중국어)로 현지화되었으며 17개 지역 변형이 있습니다. 히브리어와 아랍어는 RTL를 완벽하게 지원합니다."
         },
         "q6": {
-          "question": "How can I remove ads?",
-          "answer": "Sudoku Fun Go offers an in-app purchase to remove ads. After purchasing, ads are disabled. The purchase is restored automatically when you reinstall the app or use the same account on another device."
+          "question": "광고를 어떻게 제거할 수 있나요?",
+          "answer": "Sudoku Fun Go 광고를 제거하기 위한 인앱 구매를 제공합니다. 구매 후 광고가 비활성화됩니다. 앱을 재설치하거나 다른 기기에서 동일한 계정을 사용하면 구매 내역이 자동으로 복원됩니다."
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "도움이 더 필요하신가요?",
+        "description": "원하는 답변을 찾을 수 없거나 기술적인 문제가 발생하는 경우, 주저하지 말고 저희에게 연락해 주세요. 우리는 도움을 드리고 일반적으로 24~48시간 이내에 응답합니다."
       },
       "metaTitle": "지원 및 도움말 — Sudoku Fun Go | Zuki Apps",
       "metaDescription": "Sudoku Fun Go FAQ 및 지원 — 클래식 스도쿠 퍼즐. 연락처, 개인 정보 보호 및 문제 해결."
     },
     "footer": {
-      "copyright": "© 2025 Sudoku Fun Go - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 Sudoku Fun Go - 판권 소유",
+      "tagline": "Zuki Apps의 일부 • 이스라엘의 개발자 • ❤️로 제작됨"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Sudoku Fun Go. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "이용약관",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
+      "intro": "Sudoku Fun Go를 사용하기 전에 본 이용약관을 주의 깊게 읽어보시기 바랍니다. 당사 서비스에 액세스하거나 이를 사용함으로써 귀하는 본 약관을 준수할 것에 동의하게 됩니다.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Sudoku Fun Go (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval puzzle game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 약관 동의",
+        "content": "본 이용약관(\"약관\")은 Zuki Apps(\"회사\")가 운영하는 간격 퍼즐 게임인 Sudoku Fun Go(\"서비스\", \"앱\", \"당사\", \"당사\" 또는 \"당사의\")에 대한 액세스 및 사용에 적용됩니다. 서비스를 다운로드, 설치, 액세스 또는 사용함으로써 귀하는 본 약관 및 당사의 개인정보 보호정책을 준수할 것에 동의하게 됩니다.",
+        "content2": "귀하가 조직을 대신하여 서비스를 사용하는 경우 귀하는 해당 조직을 본 약관에 구속할 권한이 있음을 진술하고 보증합니다."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Sudoku Fun Go is a mobile application that provides classic 9×9 Sudoku gameplay. The Service includes: configurable difficulty levels, notes and hints, statistics and leaderboards, Game Center / Play Games integration, and in-app purchases (e.g. remove ads).",
+        "title": "2. 서비스 설명",
+        "content": "Sudoku Fun Go는 클래식 9×9 스도쿠 게임플레이를 제공하는 모바일 애플리케이션입니다. 서비스에는 구성 가능한 난이도, 메모 및 힌트, 통계 및 순위표, Game Center / Play Games 통합, 인앱 구매(예: 광고 제거)가 포함됩니다.",
         "items": [
-          "Four difficulty levels (Easy, Medium, Hard, Expert)",
-          "Notes mode, hints, undo, erase, timer, mistake count",
-          "Statistics: games won, win rate, streaks, best times and scores",
-          "Game Center (iOS) and Play Games (Android) leaderboards and achievements",
-          "In-app purchase to remove ads",
-          "12 languages with regional variants"
+          "4가지 난이도(쉬움, 중간, 어려움, 전문가)",
+          "메모 모드, 힌트, 실행 취소, 지우기, 타이머, 실수 횟수 계산",
+          "통계: 승리한 게임, 승률, 연속 기록, 최고 기록 및 점수",
+          "Game Center(iOS) 및 Play Games(Android) 리더보드 및 업적",
+          "광고 제거를 위한 인앱 구매",
+          "지역별 변형이 있는 12개 언어"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. 연락처 정보",
+        "content": "본 약관에 대해 질문이 있는 경우 다음 연락처로 문의해 주세요.",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "개인 정보 보호 정책",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Sudoku Fun Go collects minimal information necessary to provide the service. We collect information you provide directly (e.g. when you contact support). Game progress, statistics, and settings are stored locally on your device."
+        "title": "1. 당사가 수집하는 정보",
+        "content": "Sudoku Fun Go 서비스 제공에 필요한 최소한의 정보를 수집합니다. 당사는 귀하가 직접 제공하는 정보(예: 지원팀에 문의할 때)를 수집합니다. 게임 진행 상황, 통계, 설정은 장치에 로컬로 저장됩니다."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide, maintain, and improve our services. Locally stored data (puzzles, stats, settings) is not transmitted to our servers except as needed for optional services (e.g. Game Center / Play Games)."
+        "title": "2. 당사가 귀하의 정보를 사용하는 방법",
+        "content": "당사는 서비스를 제공, 유지 및 개선하기 위해 정보를 사용합니다. 로컬에 저장된 데이터(퍼즐, 통계, 설정)는 선택적 서비스(예: Game Center / Play Games)에 필요한 경우를 제외하고 당사 서버로 전송되지 않습니다."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties. Leaderboard scores and achievements are shared with the respective platform (Apple Game Center, Google Play Games) when you use those features."
+        "title": "3. 정보 공유",
+        "content": "당사는 귀하의 개인정보를 제3자에게 판매하거나 공유하지 않습니다. 해당 기능을 사용하면 리더보드 점수와 성과가 해당 플랫폼(Apple Game Center, Google Play Games)과 공유됩니다."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device. If you use Game Center or Play Games, their policies apply to data processed by those services."
+        "title": "4. 데이터 보안",
+        "content": "우리는 적절한 보안 조치를 시행합니다. 귀하의 게임 데이터는 귀하의 장치에 로컬로 저장됩니다. Game Center 또는 Play Games를 사용하는 경우 해당 서비스에서 처리되는 데이터에 해당 정책이 적용됩니다."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings (e.g. reset statistics). You may also delete the app at any time. For platform-specific data (e.g. Game Center), you can manage that in your device or account settings."
+        "title": "5. 귀하의 권리",
+        "content": "앱 설정을 통해 로컬 데이터를 지울 수 있습니다(예: 통계 재설정). 언제든지 앱을 삭제할 수도 있습니다. 플랫폼별 데이터(예: Game Center)의 경우 기기 또는 계정 설정에서 관리할 수 있습니다."
       },
       "section6": {
-        "title": "6. Advertising and In-App Purchases",
-        "content": "The app may show ads (e.g. via Google Mobile Ads). We may use device identifiers and usage data for ad delivery and measurement in accordance with our ad providers' policies. In-app purchases (e.g. remove ads) are processed by Apple or Google; we do not store payment details."
+        "title": "6. 광고 및 인앱 구매",
+        "content": "앱에 광고가 표시될 수 있습니다(예: Google 모바일 광고를 통해). 당사는 광고 제공업체의 정책에 따라 광고 전달 및 측정을 위해 장치 식별자 및 사용 데이터를 사용할 수 있습니다. 인앱 구매(예: 광고 제거)는 Apple 또는 Google에서 처리됩니다. 우리는 지불 세부 사항을 저장하지 않습니다."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 문의하기",
+        "content": "본 개인정보 보호정책에 대해 질문이 있는 경우 다음 주소로 문의하시기 바랍니다.",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       },
       "metaDescription": "Sudoku Fun Go 개인정보 보호정책 — 당사가 iOS 및 Android에서 귀하의 데이터를 처리하는 방법."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "특징",
+      "screenshots": "스크린샷",
+      "howTo": "사용방법",
+      "tips": "팁",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "다운로드"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Sudoku Fun Go - Classic Sudoku.",
-      "featuresTitle": "App screens",
+      "title": "스크린샷",
+      "subtitle": "Sudoku Fun Go의 실제 앱 화면 - 클래식 스도쿠.",
+      "featuresTitle": "앱 화면",
       "items": [
         {
-          "id": "home",
-          "title": "New puzzle",
-          "description": "Pick difficulty and start a fresh grid.",
+          "id": "집",
+          "title": "새로운 퍼즐",
+          "description": "난이도를 선택하고 새로운 그리드를 시작하세요.",
           "image": "/images/sudoku-puzzle/screenshot-home.png",
-          "alt": "New puzzle — sudoku puzzle",
-          "category": "features"
+          "alt": "새로운 퍼즐 - 스도쿠 퍼즐",
+          "category": "특징"
         },
         {
-          "id": "gameplay",
-          "title": "Gameplay",
-          "description": "Fill the grid with notes and smart hints.",
+          "id": "게임플레이",
+          "title": "게임플레이",
+          "description": "메모와 스마트 힌트로 그리드를 채워보세요.",
           "image": "/images/sudoku-puzzle/screenshot-gameplay.png",
-          "alt": "Gameplay — sudoku puzzle",
-          "category": "features"
+          "alt": "게임플레이 — 스도쿠 퍼즐",
+          "category": "특징"
         },
         {
-          "id": "victory",
-          "title": "Victory",
-          "description": "Celebrate completion with time and stats.",
+          "id": "승리",
+          "title": "승리",
+          "description": "시간과 통계로 완료를 축하하세요.",
           "image": "/images/sudoku-puzzle/screenshot-victory.png",
-          "alt": "Victory — sudoku puzzle",
-          "category": "features"
+          "alt": "승리 — 스도쿠 퍼즐",
+          "category": "특징"
         },
         {
-          "id": "statistics",
-          "title": "Statistics",
-          "description": "Track wins, streaks, and best times.",
+          "id": "통계",
+          "title": "통계",
+          "description": "승리, 연속 기록, 최고 기록을 추적하세요.",
           "image": "/images/sudoku-puzzle/screenshot-statistics.png",
-          "alt": "Statistics — sudoku puzzle",
-          "category": "features"
+          "alt": "통계 — 스도쿠 퍼즐",
+          "category": "특징"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "사용방법",
       "steps": [
         {
           "number": "1",
-          "title": "Select difficulty",
-          "description": "Easy to expert — find the level that fits you."
+          "title": "난이도 선택",
+          "description": "전문가도 쉽게 — 자신에게 맞는 레벨을 찾아보세요."
         },
         {
           "number": "2",
-          "title": "Fill the grid",
-          "description": "Tap cells, use notes, and avoid duplicate digits per row, column, and box."
+          "title": "그리드 채우기",
+          "description": "셀을 탭하고, 메모를 사용하고, 행, 열, 상자별로 숫자가 중복되지 않도록 하세요."
         },
         {
           "number": "3",
-          "title": "Use hints wisely",
-          "description": "Hints help when stuck without spoiling the whole puzzle."
+          "title": "힌트를 현명하게 사용하세요",
+          "description": "힌트는 전체 퍼즐을 망치지 않고 막혔을 때 도움이 됩니다."
         },
         {
           "number": "4",
-          "title": "Finish & improve",
-          "description": "Complete puzzles to grow your stats and streaks."
+          "title": "마무리 및 개선",
+          "description": "퍼즐을 완성하여 통계와 연속 기록을 높이세요."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "자주 묻는 질문",
+      "subtitle": "기능, 개인정보 보호, 청구에 대한 빠른 답변.",
+      "viewAllSupport": "전체 지원 보기 & FAQ",
       "items": [
         {
-          "question": "Do I need an account?",
-          "answer": "No. Open the app and tap New Game. Game Center (iOS) or Google Play Games (Android) is optional for leaderboards and achievements."
+          "question": "계정이 필요합니까?",
+          "answer": "아니요. 앱을 열고 새 게임을 탭하세요. Game Center(iOS) 또는 Google Play 게임(Android)은 리더보드 및 업적에 대한 선택사항입니다."
         },
         {
-          "question": "Is the app free?",
-          "answer": "Yes. Sudoku Fun Go is free to download and play. Ads support development. You can remove ads with a one-time in-app purchase."
+          "question": "앱은 무료인가요?",
+          "answer": "예. Sudoku Fun Go는 무료로 다운로드하고 플레이할 수 있습니다. 광고는 개발을 지원합니다. 일회성 인앱 구매로 광고를 제거할 수 있습니다."
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "iPhone and iPad (iOS), and Android phones and tablets with Google Play services. Requires a recent OS version — see the store listing for details."
+          "question": "어떤 장치가 지원되나요?",
+          "answer": "iPhone 및 iPad(iOS), 그리고 Google Play 서비스가 제공되는 Android 휴대폰 및 태블릿. 최신 OS 버전이 필요합니다. 자세한 내용은 스토어 목록을 참조하세요."
         },
         {
-          "question": "What are the difficulty levels?",
-          "answer": "| Level | For whom | |-------|----------| | Easy | Beginners — fewer empty cells | | Medium | Balanced daily challenge | | Hard | Experienced solvers | | Expert | Maximum empty cells — bravest players only |"
+          "question": "난이도는 어떻게 되나요?",
+          "answer": "| 레벨 | 누구를 위한 | |-------|----------| | 쉬움 | 초보자 - 빈 셀 수가 적음 | | 중간 | 균형 잡힌 일일 도전 | | 하드 | 숙련된 해결사 | | 전문가 | 최대 빈 셀 — 가장 용감한 플레이어만 |"
         },
         {
-          "question": "Can I pause mid-game?",
-          "answer": "Yes. Tap pause; the timer stops until you resume. Your puzzle is saved automatically."
+          "question": "게임 도중에 일시 정지할 수 있나요?",
+          "answer": "예. 일시 정지를 탭하세요. 재개할 때까지 타이머가 정지됩니다. 퍼즐은 자동으로 저장됩니다."
         },
         {
-          "question": "What happens if I quit?",
-          "answer": "If you leave without finishing, that puzzle’s progress is lost. Use Continue Game on the home screen to return to an in-progress puzzle."
+          "question": "그만두면 어떻게 되나요?",
+          "answer": "완료하지 않고 떠나면 해당 퍼즐의 진행 상황이 손실됩니다. 진행 중인 퍼즐로 돌아가려면 홈 화면에서 게임 계속하기를 사용하세요."
         },
         {
-          "question": "How do notes work?",
-          "answer": "Turn on Notes, tap a cell, then tap digits to mark candidates. When you place a confirmed number, matching notes in the row, column, and box can auto-clear (if enabled in Settings)."
+          "question": "메모는 어떻게 작동하나요?",
+          "answer": "메모를 켜고 셀을 탭한 다음 숫자를 탭하여 후보를 표시하세요. 확인된 번호를 입력하면 행, 열 및 상자에서 일치하는 메모가 자동으로 지워질 수 있습니다(설정에서 활성화된 경우)."
         },
         {
-          "question": "Do hints hurt my score?",
-          "answer": "Yes. Each hint costs 300 points from your final score. Use them when stuck, but fewer hints = higher rank."
+          "question": "힌트가 점수에 영향을 미치나요?",
+          "answer": "예. 각 힌트의 비용은 최종 점수에서 300점입니다. 막혔을 때 사용하세요. 힌트가 적을수록 순위가 높아집니다."
         },
         {
-          "question": "How many mistakes are allowed?",
-          "answer": "Mistakes are tracked and reduce your score (−500 each). The puzzle does not end on a wrong entry — you can keep solving."
+          "question": "실수는 몇 번까지 허용되나요?",
+          "answer": "실수가 추적되어 점수가 감소합니다(각각 -500). 퍼즐은 잘못된 입력으로 끝나지 않습니다. 계속해서 풀 수 있습니다."
         },
         {
-          "question": "How is my score calculated?",
-          "answer": "Base = 10,000 × difficulty multiplier (Easy ×1, Medium ×2, Hard ×3, Expert ×5) Minus 2 points per second, 500 per mistake, 300 per hint. Example: Expert, 10 minutes, 0 mistakes, 0 hints → up to 48,800 before time penalty details."
+          "question": "내 점수는 어떻게 계산되나요?",
+          "answer": "기본 = 10,000 × 난이도 승수(쉬움 ×1, 중간 ×2, 어려움 ×3, 전문가 ×5) - 초당 2포인트, 실수당 500, 힌트당 300. 예: 전문가, 10분, 실수 0, 힌트 0 → 타임 페널티 세부 사항 전 최대 48,800개."
         },
         {
-          "question": "Why is my leaderboard empty?",
-          "answer": "Sign in to Game Center or Play Games, complete a puzzle to submit a score, then open Statistics → Friends or Global. Install from the Play Store or App Store (not sideload) for full Play Games / billing support on Android."
+          "question": "내 리더보드가 비어 있는 이유는 무엇인가요?",
+          "answer": "Game Center 또는 Play Games에 로그인하고 퍼즐을 완성하여 점수를 제출한 다음 통계 → 친구 또는 글로벌을 엽니다. Android에서 전체 Play Games/결제 지원을 받으려면 Play 스토어에서 설치하거나 App Store(사이드로드 아님)를 설치하세요."
         },
         {
-          "question": "How do achievements unlock?",
-          "answer": "Automatically when you meet goals (first win, streaks, flawless solve, etc.). Open Statistics → Achievements to view progress."
+          "question": "업적은 어떻게 잠금 해제되나요?",
+          "answer": "목표(첫 승리, 연승, 완벽한 해결 등)를 달성하면 자동으로 수행됩니다. 통계 → 성과를 열어 진행 상황을 확인하세요."
         }
       ]
     }

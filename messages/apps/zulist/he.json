@@ -3,10 +3,12 @@
     "back": "חזרה לדף הבית",
     "hero": {
       "badge": "זמינה כעת - גרסה 1.0.9",
-      "title": "ZuList - Manage & Share Lists",
+      "title": "ZuList - נהל ושתף רשימות",
       "subtitle": "רשימות קניות חכמות למשפחות",
       "description": "האפליקציה המושלמת למשפחות וחברים שקונים יחד. צרו, שתפו ונהלו רשימות קניות בזמן אמת עם שיתוף פעולה חלק.",
-      "structuredDataDescription": "ZuList היא אפליקציית רשימת קניות מתקדמת שנועדה למשפחות וחברים שקונים יחד. צרו, שתפו ונהלו רשימות קניות בזמן אמת עם שיתוף פעולה חלק. התכונות כוללות סנכרון בזמן אמת, תמיכה במצב לא מקוון, הצעות מוצרים חכמות, ניהול קטגוריות, היסטוריית קניות ומנויי Premium."
+      "structuredDataDescription": "ZuList היא אפליקציית רשימת קניות מתקדמת שנועדה למשפחות וחברים שקונים יחד. צרו, שתפו ונהלו רשימות קניות בזמן אמת עם שיתוף פעולה חלק. התכונות כוללות סנכרון בזמן אמת, תמיכה במצב לא מקוון, הצעות מוצרים חכמות, ניהול קטגוריות, היסטוריית קניות ומנויי Premium.",
+      "seoTitle": "ZuList — רשימות קניות חכמות | Zuki Apps",
+      "metaDescription": "רשימות מכולת משותפות עם סנכרון בזמן אמת ומצב לא מקוון. חינם למשפחות בiOS וAndroid - נסה את ZuList."
     },
     "features": {
       "title": "תכונות עיקריות",
@@ -61,9 +63,9 @@
         "description": "תמיכה מלאה ב-12 שפות עם ממשק מתורגם",
         "items": [
           "🇺🇸 English, 🇮🇱 Hebrew (עברית) - RTL מלא",
-          "🇩🇪 German, 🇪🇸 Spanish, 🇮🇹 Italian",
-          "🇵🇹 Portuguese, 🇷🇺 Russian, 🇫🇷 French",
-          "🇯🇵 Japanese, 🇰🇷 Korean, 🇸🇦 Arabic, 🇨🇳 Chinese"
+          "🇩🇪 גרמנית, 🇪🇸 ספרדית, 🇮🇹 איטלקית",
+          "🇵🇹 פורטוגזית, 🇷🇺 רוסית, 🇫🇷 צרפתית",
+          "🇯🇵 יפנית, 🇰🇷 קוריאנית, 🇸🇦 ערבית, 🇨🇳 סינית"
         ]
       },
       "categories": {
@@ -561,7 +563,8 @@
           "item1": "אתה תוסר מהרשימה",
           "item2": "הרשימה תישאר פעילה עבור שאר המשתמשים",
           "item3": "הנתונים והפריטים יישארו (רק אתה תוסר)"
-        }
+        },
+        "title": "מה קורה לרשימות משותפות"
       },
       "partialDelete": {
         "title": "מחיקת חלק מהנתונים (בלי למחוק את החשבון)",
@@ -764,163 +767,163 @@
       "metaDescription": "ZuList FAQ ותמיכה - רשימות ומשימות משותפות. קשר, פרטיות ופתרון בעיות."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "תכונות",
+      "screenshots": "צילומי מסך",
+      "howTo": "כיצד להשתמש",
+      "tips": "טיפים",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "הורד"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from ZuList - Manage & Share Lists.",
-      "featuresTitle": "App screens",
+      "title": "צילומי מסך",
+      "subtitle": "מסכי אפליקציות אמיתיים מ-ZuList - נהל ושתף רשימות.",
+      "featuresTitle": "מסכי אפליקציה",
       "items": [
         {
-          "id": "lists",
-          "title": "Your lists",
-          "description": "Create and manage multiple shopping lists.",
+          "id": "רשימות",
+          "title": "הרשימות שלך",
+          "description": "צור ונהל רשימות קניות מרובות.",
           "image": "/images/zulist/screenshot-lists.png",
-          "alt": "Your lists — zulist",
-          "category": "features"
+          "alt": "הרשימות שלך - zulist",
+          "category": "תכונות"
         },
         {
-          "id": "shared",
-          "title": "Shared list",
-          "description": "Collaborate in real time with family or roommates.",
+          "id": "מְשׁוּתָף",
+          "title": "רשימה משותפת",
+          "description": "שיתוף פעולה בזמן אמת עם בני משפחה או שותפים לדירה.",
           "image": "/images/zulist/screenshot-shared.png",
-          "alt": "Shared list — zulist",
-          "category": "features"
+          "alt": "רשימה משותפת - zulist",
+          "category": "תכונות"
         },
         {
-          "id": "invite",
-          "title": "Invite & share",
-          "description": "Send an invite link — no account required for guests.",
+          "id": "לְהַזמִין",
+          "title": "הזמן ושתף",
+          "description": "שלח קישור להזמנה - אין צורך בחשבון לאורחים.",
           "image": "/images/zulist/screenshot-invite.png",
-          "alt": "Invite & share — zulist",
-          "category": "features"
+          "alt": "הזמן ושתף - zulist",
+          "category": "תכונות"
         },
         {
-          "id": "widget",
-          "title": "Home widget",
-          "description": "Glance items from your home screen.",
+          "id": "יישומון",
+          "title": "יישומון ביתי",
+          "description": "הציץ בפריטים ממסך הבית שלך.",
           "image": "/images/zulist/screenshot-widget.png",
-          "alt": "Home widget — zulist",
-          "category": "features"
+          "alt": "ווידג'ט ביתי - zulist",
+          "category": "תכונות"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "כיצד להשתמש",
       "steps": [
         {
           "number": "1",
-          "title": "Create a list",
-          "description": "Add items with quantities and categories."
+          "title": "צור רשימה",
+          "description": "הוסף פריטים עם כמויות וקטגוריות."
         },
         {
           "number": "2",
-          "title": "Share the list",
-          "description": "Send an invite link so others can edit live."
+          "title": "שתף את הרשימה",
+          "description": "שלח קישור להזמנה כדי שאחרים יוכלו לערוך בשידור חי."
         },
         {
           "number": "3",
-          "title": "Shop together",
-          "description": "Check off items — changes sync instantly."
+          "title": "קניות ביחד",
+          "description": "סמן פריטים - שינויים מסתנכרנים באופן מיידי."
         },
         {
           "number": "4",
-          "title": "Use widgets",
-          "description": "Pin a list to your home screen for quick access."
+          "title": "השתמש בווידג'טים",
+          "description": "הצמד רשימה למסך הבית שלך לגישה מהירה."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "טיפים וטריקים",
+      "subtitle": "קבל יותר מהאפליקציה.",
       "items": [
         {
-          "title": "Shopping faster",
-          "description": "Reorder lists on the home screen—put “Today” at the top - Search across all your lists from the home screen - Mark all bought when you finish a trip (owner/read-write)"
+          "title": "קניות מהר יותר",
+          "description": "סדר מחדש את הרשימות במסך הבית - שים את \"היום\" בחלק העליון - חפש בכל הרשימות שלך ממסך הבית - סמן את כל הרכישות כשתסיים טיול (בעלים/קריאה-כתיבה)"
         },
         {
-          "title": "Collaboration",
-          "description": "Use read-only for kids or guests who shouldn’t edit - Due date on a list + notification = fewer “did you get milk?” texts - Share a link in the family group chat—no email required"
+          "title": "שיתוף פעולה",
+          "description": "השתמש לקריאה בלבד לילדים או לאורחים שאסור לערוך - תאריך יעד ברשימה + התראה = פחות \"האם קיבלת חלב?\" טקסטים - שתף קישור בצ'אט הקבוצתי המשפחתי - אין צורך באימייל"
         },
         {
-          "title": "Offline",
-          "description": "Add items in airplane mode; they sync when you land - If sync is slow, pull to refresh on the list screen"
+          "title": "לא מקוון",
+          "description": "הוסף פריטים במצב מטוס; הם מסתנכרנים כשאתה נוחת - אם הסנכרון איטי, משוך לרענון במסך הרשימה"
         },
         {
-          "title": "Widget",
-          "description": "Set primary list to your main grocery list, not one-off party lists - Widget shows unbought count only"
+          "title": "יישומון",
+          "description": "הגדר את הרשימה הראשית לרשימת המכולת הראשית שלך, לא לרשימות מפלגות חד פעמיות - ווידג'ט מראה רק ספירה שלא נרכשה"
         },
         {
-          "title": "Invites",
-          "description": "Recent emails appear when inviting—tap to resend faster - Wait a few seconds between resends to the same address (anti-spam)"
+          "title": "מזמין",
+          "description": "הודעות דוא\"ל אחרונות מופיעות בעת הזמנה - הקש כדי לשלוח שוב מהר יותר - המתן מספר שניות בין שליחה חוזרת לאותה כתובת (אנטי ספאם)"
         },
         {
-          "title": "Premium value",
-          "description": "Worth it if you run multiple households or large families on one list - Restore purchases on a new phone: Premium screen → restore link"
+          "title": "ערך Premium",
+          "description": "שווה את זה אם אתה מנהל מספר משקי בית או משפחות גדולות ברשימה אחת - שחזור רכישות בטלפון חדש: מסך Premium → קישור שחזור"
         },
         {
-          "title": "Privacy",
-          "description": "Only people you invite see a list - Delete account anytime: Settings → Account → Delete account"
+          "title": "פְּרָטִיוּת",
+          "description": "רק אנשים שאתה מזמין רואים רשימה - מחק חשבון בכל עת: הגדרות ← חשבון ← מחק חשבון"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "שאלות נפוצות",
+      "subtitle": "תשובות מהירות לגבי תכונות, פרטיות וחיובים.",
+      "viewAllSupport": "צפה בתמיכה מלאה & FAQ",
       "items": [
         {
-          "question": "What is ZuList?",
-          "answer": "A collaborative shopping list app. Create lists, share with others, and sync in real time on iOS and Android."
+          "question": "מה זה ZuList?",
+          "answer": "אפליקציית רשימת קניות שיתופית. צור רשימות, שתף עם אחרים וסנכרן בזמן אמת בiOS וAndroid."
         },
         {
-          "question": "Is ZuList free?",
-          "answer": "Yes. Free tier includes up to 5 lists, 150 items per list, and sharing with one other person per list. Premium removes limits and ads."
+          "question": "האם ZuList בחינם?",
+          "answer": "כֵּן. שכבת חינם כוללת עד 5 רשימות, 150 פריטים לרשימה ושיתוף עם אדם אחד אחר בכל רשימה. Premium מסיר מגבלות ופרסומות."
         },
         {
-          "question": "Do I need an account?",
-          "answer": "You can start as a guest. Sign in to sync across devices and accept invites reliably."
+          "question": "האם אני צריך חשבון?",
+          "answer": "אתה יכול להתחיל כאורח. היכנס כדי לסנכרן בין מכשירים וקבל הזמנות בצורה מהימנה."
         },
         {
-          "question": "Which languages are supported?",
-          "answer": "English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Chinese (Simplified), Japanese, and Korean."
+          "question": "אילו שפות נתמכות?",
+          "answer": "אנגלית, עברית, ערבית, גרמנית, ספרדית, צרפתית, איטלקית, פורטוגזית, רוסית, סינית (פשוטה), יפנית וקוריאנית."
         },
         {
-          "question": "How fast is sync?",
-          "answer": "Usually instant when online. Offline changes upload when connectivity returns."
+          "question": "כמה מהיר הסנכרון?",
+          "answer": "בדרך כלל מיידי כשהוא מקוון. Offline changes upload when connectivity returns."
         },
         {
-          "question": "Can two people edit at the same time?",
-          "answer": "Yes. Last write wins for the same field; the list stays consistent."
+          "question": "האם שני אנשים יכולים לערוך בו זמנית?",
+          "answer": "כֵּן. כתיבה אחרונה מנצחת עבור אותו שדה; הרשימה נשארת עקבית."
         },
         {
-          "question": "How do I remove someone from a list?",
-          "answer": "List owner → Members → remove. They lose access immediately."
+          "question": "כיצד אוכל להסיר מישהו מרשימה?",
+          "answer": "בעל הרשימה ← חברים ← הסר. הם מאבדים גישה מיד."
         },
         {
-          "question": "Why doesn’t the widget match the list I’m viewing?",
-          "answer": "The widget always shows your **primary list** from Settings."
+          "question": "מדוע הווידג'ט לא תואם לרשימה שאני צופה בה?",
+          "answer": "הווידג'ט תמיד מציג את **הרשימה הראשית** שלך מהגדרות."
         },
         {
-          "question": "How do I add the widget?",
-          "answer": "See [How to: Home screen widget](./how-to-home-widget.md)."
+          "question": "כיצד אוכל להוסיף את הווידג'ט?",
+          "answer": "ראה [כיצד: ווידג'ט מסך הבית](./how-to-home-widget.md)."
         },
         {
-          "question": "What does Premium include?",
-          "answer": "Unlimited lists, items, and members; no ads; advanced statistics; themes; premium offline features; cloud backup."
+          "question": "מה כולל Premium?",
+          "answer": "רשימות, פריטים וחברים ללא הגבלה; ללא מודעות; סטטיסטיקה מתקדמת; נושאים; premium תכונות לא מקוונות; גיבוי בענן."
         },
         {
-          "question": "How do I cancel?",
-          "answer": "Manage subscription in the App Store or Google Play—ZuList updates automatically via store webhooks."
+          "question": "איך אני מבטל?",
+          "answer": "נהל את המנוי בעדכוני App Store או Google Play—ZuList באופן אוטומטי באמצעות ה-webhooks של החנות."
         },
         {
-          "question": "Where is my data stored?",
-          "answer": "Firebase (Google Cloud). Lists are private to you and invited members."
+          "question": "איפה הנתונים שלי מאוחסנים?",
+          "answer": "Firebase (Google Cloud). הרשימות הן פרטיות לך ולחברים המוזמנים."
         }
       ]
     }

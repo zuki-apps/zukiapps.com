@@ -1,13 +1,18 @@
 {
   "footballTrivia": {
-    "back": "Back to Home",
+    "back": "ホームに戻る",
     "hero": {
-      "title": "Football Trivia Master",
+      "title": "サッカートリビアマスター",
       "subtitle": "210+ questions • World Football, National Teams, World Cups, 2026 World Cup",
-      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps."
+      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps.",
+      "seoTitle": "サッカートリビア - サッカークイズゲーム | Zuki Apps",
+      "metaDescription": "450 以上の時間制限付きサッカー クイズの質問、ストリーク、リーダーボード。 iOS と Android で無料 — 今すぐダウンロード。",
+      "structuredDataDescription": "Football Trivia Master — 世界のサッカー、代表チーム、グローバル ファイナル、トーナメント スポットライトに関する 450 以上の時間制限付き質問を含む、iOS と Android のサッカー クイズです。 Zuki Apps によるパッケージ com.zuki.apps.footballtrivia。",
+      "badge": "無料のサッカークイズ · iOS & Android",
+      "trustLine": "Zuki Apps による独立系エンターテインメント。リーグ、連盟、クラブ、トーナメント主催者とは一切関係がありません。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主な特長",
       "categories": {
         "title": "4 Categories",
         "description": "210+ questions across four themes",
@@ -35,111 +40,337 @@
           "Accuracy tracking",
           "Points with streak bonuses"
         ]
-      }
+      },
+      "items": [
+        {
+          "title": "4つのテーマカテゴリー",
+          "description": "世界のサッカー、代表チーム、グローバル決勝、トーナメントのスポットライト。"
+        },
+        {
+          "title": "時計を競う",
+          "description": "簡単 (20 秒)、中 (15 秒)、または難しい (12 秒) の時間制限付きの質問。ラウンドごとに 12 秒間のハード モードを有効にします。"
+        },
+        {
+          "title": "連続記録と得点",
+          "description": "正解を連鎖させると、最大 +50% の連続ボーナスと、10/10 の大きな完全ラウンド ボーナスが得られます。"
+        },
+        {
+          "title": "グローバルに競争する",
+          "description": "Game Center (iOS) および Play Games (Android) の実績とリーダーボード。"
+        },
+        {
+          "title": "12の言語",
+          "description": "アラビア語、中国語、英語、フランス語、ドイツ語、ヘブライ語、イタリア語、日本語、韓国語、ポルトガル語、ロシア語、スペイン語。"
+        },
+        {
+          "title": "思い通りにプレイしましょう",
+          "description": "ダークテーマまたはライトテーマ、詳細な統計情報、オプションで 1 回限りの広告削除、設定での GDPR への同意。"
+        }
+      ]
     },
     "status": {
-      "title": "Available on App Store and Google Play",
-      "description": "Football Trivia Master is live on iPhone, iPad, and Android.",
+      "title": "App Store と Google Play で利用可能",
+      "description": "Football Trivia Master は iPhone、iPad、および Android で配信されています。",
       "statusValue": "iOS · Android",
-      "version": "Version",
-      "status": "Platform",
+      "version": "バージョン",
+      "status": "プラットフォーム",
       "versionValue": "1.0.4+13"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Football Trivia Master on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "ダウンロード",
+      "description": "App Store と Google Play でフットボール トリビア マスターを入手してください。",
+      "soon": "今すぐ利用可能",
       "appStoreUrl": "https://apps.apple.com/il/app/football-trivia-master/id6760652362",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "App Store からダウンロードしてください",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.footballtrivia",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Google Play で入手"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要なリンク",
       "support": {
-        "title": "Technical Support",
+        "title": "テクニカルサポート",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "footer": {
       "copyright": "© 2026 Football Trivia Master - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "tagline": "Zuki Apps の一部 • イスラエル出身の開発者 • ❤️ で作られました"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Football Trivia Master. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "利用規約",
+      "lastUpdated": "最終更新日: 2025 年 1 月",
+      "intro": "Football Trivia Master を使用する前に、これらの利用規約をよくお読みください。当社のサービスにアクセスまたは使用すると、これらの規約に拘束されることに同意したものとみなされます。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use govern your access to and use of Football Trivia Master, a trivia game operated by Zuki Apps. By downloading, installing, or using the Service, you agree to be bound by these Terms and our Privacy Policy."
+        "title": "1. 規約への同意",
+        "content": "これらの利用規約は、Zuki Apps が運営するトリビア ゲーム、Football Trivia Master へのアクセスと使用に適用されます。サービスをダウンロード、インストール、または使用することにより、お客様は本規約および当社のプライバシー ポリシーに拘束されることに同意したものとみなされます。"
       },
       "section19": {
-        "title": "Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "連絡先",
+        "content": "これらの規約についてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Football Trivia Master collects minimal information necessary to provide the service. Game progress and statistics are stored locally on your device. We may collect information you provide when you contact support."
+        "title": "1. 当社が収集する情報",
+        "content": "Football Trivia Masterでは、サービスを提供するために必要な最小限の情報を収集します。ゲームの進行状況と統計情報はデバイスにローカルに保存されます。当社は、サポートへのお問い合わせ時に提供された情報を収集する場合があります。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide and improve our services. Locally stored data is not transmitted to our servers except as needed for optional features."
+        "title": "2. お客様の情報の使用方法",
+        "content": "当社は、サービスの提供および改善のために情報を使用します。ローカルに保存されたデータは、オプション機能に必要な場合を除き、当社のサーバーに送信されません。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties."
+        "title": "3. 情報共有",
+        "content": "当社はお客様の個人情報を第三者に販売したり共有したりすることはありません。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device."
+        "title": "4. データセキュリティ",
+        "content": "私たちは適切なセキュリティ対策を実施します。ゲームデータはデバイス上にローカルに保存されます。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings. You may delete the app at any time."
+        "title": "5. お客様の権利",
+        "content": "アプリの設定からローカルデータをクリアできます。アプリはいつでも削除できます。"
       },
       "section6": {
-        "title": "6. Changes to This Policy",
-        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app or on our website."
+        "title": "6. 本ポリシーの変更",
+        "content": "当社は、このプライバシー ポリシーを随時更新することがあります。変更があった場合は、新しいポリシーをアプリまたはウェブサイトに掲載することでお知らせします。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. お問い合わせ",
+        "content": "このプライバシー ポリシーについてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       },
       "metaDescription": "Football Trivia プライバシー ポリシー — iOS と Android でのお客様のデータの取り扱い方法。"
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Contact us directly.",
+      "title": "サポートとヘルプ",
+      "subtitle": "私たちがお手伝いします！直接お問い合わせください。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email.",
+        "title": "お問い合わせ",
+        "description": "ご質問がありますか、サポートが必要ですか?メールをお送りください。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "クイックリンク",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "プライバシーポリシー",
+          "description": "データをどのように保護するかをご覧ください"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "利用規約",
+          "description": "利用規約をお読みください"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
+        "title": "さらにサポートが必要ですか?",
+        "description": "ご質問がある場合、または技術的な問題が発生した場合は、お問い合わせください。通常、24 ～ 48 時間以内に返信いたします。"
       },
       "metaTitle": "サポートとヘルプ — フットボール トリビア | Zuki Apps",
       "metaDescription": "サッカー トリビア FAQ とサポート — サッカー クイズ ゲーム。連絡先、プライバシー、トラブルシューティング。"
+    },
+    "howToUse": {
+      "title": "遊び方",
+      "subtitle": "1 ラウンドにかかる時間は約 3 ～ 5 分です。アカウントは必要ありません。リーダーボードにのみサインインします。",
+      "steps": [
+        {
+          "title": "「ゲーム開始」をタップします",
+          "description": "ホーム画面から。オプションで、質問ごとに 12 秒間ハード モードを切り替えます。"
+        },
+        {
+          "title": "カテゴリを選択してください",
+          "description": "すべてのカテゴリーを組み合わせたり、4 つのテーマ別プールの 1 つに焦点を当てたりできます。"
+        },
+        {
+          "title": "10 個の質問に答えてください",
+          "description": "タイマーが切れる前に、4 つのオプションのいずれかをタップします。正解すると連勝記録が伸びます。"
+        },
+        {
+          "title": "結果を確認する",
+          "description": "スコアの内訳、精度、ロック解除された実績を確認します。"
+        },
+        {
+          "title": "リーダーボードを駆け上がる",
+          "description": "Play Games または Game Center 経由でサインインし、自宅からリーダーボードを開きます。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "subtitle": "ダウンロードする前に簡単な回答をご覧ください。",
+      "viewAllSupport": "すべてのサポートを見る→",
+      "items": [
+        {
+          "question": "Football Trivia Master は無料ですか?",
+          "answer": "はい。アプリは無料でダウンロードしてプレイできます。オプションのバナー広告とインタースティシャル広告がセッション間に表示されます。 [設定] で 1 回限りのアプリ内購入を行うと、広告を完全に削除できます。"
+        },
+        {
+          "question": "アカウントは必要ですか?",
+          "answer": "トリビアをプレイするのにアカウントは必要ありません。リーダーボードと実績が必要な場合のみ、Game Center (iOS) または Google Play ゲーム (Android) でサインインしてください。"
+        },
+        {
+          "question": "どのデバイスがサポートされていますか?",
+          "answer": "iPhone および iPad (iOS) および Android の携帯電話およびタブレット。このアプリは縦向きでのプレイに最適化されています。"
+        },
+        {
+          "question": "どのような言語が利用可能ですか?",
+          "answer": "アラビア語、中国語 (簡体字および繁体字)、英語、フランス語、ドイツ語、ヘブライ語、イタリア語、日本語、韓国語、ポルトガル語、ロシア語、スペイン語。 「設定」→「言語」で言語を変更します。"
+        },
+        {
+          "question": "1 ラウンドに何問ありますか?",
+          "answer": "早期に終了しない限り、各ラウンドには 10 個の多肢選択問題があります。"
+        },
+        {
+          "question": "ホーム画面のハードモードとは何ですか?",
+          "answer": "ハード モードでは、すべての質問が 12 秒に制限され、特別な実績のロックが解除されます。これは、カテゴリーで難易度「ハード」を選択することとは別のものです。最大限の挑戦が必要な場合に使用してください。"
+        },
+        {
+          "question": "スコアリングはどのように機能しますか?",
+          "answer": "ポイントは、問題の難易度、タイム ボーナス (タイマーが少なくとも半分残っている状態で回答)、ストリーク マルチプライヤー (5 回連続で正解すると最大 +50%)、および 10/10 を獲得した場合の完全ラウンド ボーナスによって決まります。 「？」をタップします。アプリ内スコアリングガイドのホーム画面のアイコン。"
+        },
+        {
+          "question": "オフラインでもプレイできますか?",
+          "answer": "はい。質問はアプリに保存されます。リーダーボード、実績、広告、購入にはインターネット接続が必要です。"
+        },
+        {
+          "question": "リーダーボードが表示されないのはなぜですか?",
+          "answer": "Android で、プロンプトが表示されたら、Google Play ゲームにサインインします。 iOS で、アプリの Game Center を有効にします。サインインに失敗した場合は、アプリを更新し、Google/Apple アカウントを確認して、設定から再試行してください。"
+        },
+        {
+          "question": "リーダーボードはグローバルですか?",
+          "answer": "はい。スコアは、お住まいの地域および友達のプラットフォームのリーダーボード (Game Center / Play Games) に送信されます。"
+        },
+        {
+          "question": "広告を削除するにはどうすればよいですか?",
+          "answer": "[設定] → [広告を削除] を開き、1 回限りの購入を完了します。ストアの応答が遅い場合は、「再試行」を使用してください。同じストア アカウントを介して新しいデバイスで購入を復元します。"
+        },
+        {
+          "question": "購入後も広告が表示されるのはなぜですか?",
+          "answer": "購入が完了したことを確認します (電子メールの受信を確認してください)。 「設定」で「復元」をタップします。アプリを強制終了して再度開きます。店舗のレシートで問題が解決しない場合は、サポートにお問い合わせください。"
+        },
+        {
+          "question": "サブスクリプションはありますか?",
+          "answer": "いいえ。広告の削除は定期購入ではなく、1 回限りの購入です。"
+        },
+        {
+          "question": "どのようなデータを収集しますか?",
+          "answer": "zukiapps.com/football-trivia/privacy で当社のプライバシー ポリシーをご覧ください。安定性を向上させるために、クラッシュ レポートが Firebase Crashlytics 経由で送信される場合があります。広告パートナーは、設定での同意の選択に従ってデータを収集する場合があります。"
+        },
+        {
+          "question": "サポートに連絡するにはどうすればよいですか?"
+        },
+        {
+          "question": "これは FIFA またはワールドカップの公式アプリですか?",
+          "answer": "いいえ、Football Trivia Master は Zuki Apps による独立系エンターテイメントです。当社はFIFA、いかなる連盟、リーグ、クラブ、トーナメント主催者とも提携していません。"
+        }
+      ]
+    },
+    "statsBar": {
+      "items": [
+        {
+          "label": "質問",
+          "value": "450+"
+        },
+        {
+          "label": "カテゴリー"
+        },
+        {
+          "label": "言語"
+        },
+        {
+          "label": "ラウンドごと"
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "特徴",
+      "screenshots": "スクリーンショット",
+      "howTo": "遊び方",
+      "faq": "FAQ",
+      "tips": "プロのヒント",
+      "download": "ダウンロード"
+    },
+    "screenshots": {
+      "title": "アプリ内",
+      "subtitle": "実際のデバイスのキャプチャ - ホーム、カテゴリ、ゲームプレイ、結果、リーダーボード、統計。",
+      "featuresTitle": "アプリ画面",
+      "items": [
+        {
+          "id": "家",
+          "title": "あらゆるラウンドのハブとなる",
+          "description": "ゲームの開始、統計バー、ハード モード、リーダーボードと実績へのクイック リンク。",
+          "alt": "サッカー トリビア マスターのホーム画面とゲームの開始",
+          "category": "特徴"
+        },
+        {
+          "id": "カテゴリ",
+          "title": "4 つのテーマ + すべてを組み合わせる",
+          "description": "ワールド フットボール、ナショナル チーム、グローバル ファイナル、トーナメント スポットライト、またはすべてのカテゴリを選択します。",
+          "alt": "サッカートリビアカテゴリピッカー",
+          "category": "特徴"
+        },
+        {
+          "id": "ゲーム",
+          "title": "時計を打ち破る",
+          "description": "質問ごとに 4 つのオプションがあり、タイマーと連続インジケーターが表示されます。",
+          "alt": "タイマー付きサッカートリビア質問画面",
+          "category": "特徴"
+        },
+        {
+          "id": "結果",
+          "title": "獲得したすべてのポイントを確認する",
+          "description": "スコアの内訳、精度、実績は各ラウンド後にロック解除されます。",
+          "alt": "サッカートリビアの結果とスコアの内訳",
+          "category": "特徴"
+        },
+        {
+          "id": "リーダーボード",
+          "title": "世界中で競争する",
+          "description": "Game Center または Google Play ゲームによるグローバル ランク。",
+          "alt": "サッカートリビアのグローバルリーダーボード",
+          "category": "特徴"
+        },
+        {
+          "id": "統計",
+          "title": "トラックの改善",
+          "description": "カテゴリ別のプレイされたゲーム、精度、パフォーマンス。",
+          "alt": "サッカートリビア統計画面",
+          "category": "特徴"
+        }
+      ]
+    },
+    "tips": {
+      "title": "プロのヒント",
+      "subtitle": "小さな習慣の積み重ねがリーダーボードに反映されます。",
+      "items": [
+        {
+          "title": "連続記録を守る",
+          "description": "ストリーク乗数の上限は +50% (5 回連続正解)。 1 つ間違えるとゼロにリセットされます。"
+        },
+        {
+          "title": "タイムボーナスを追いかけよう",
+          "description": "タイマーの半分以上を残して回答すると、質問ごとに最大 +50 ボーナス ポイントが獲得できます。"
+        },
+        {
+          "title": "完璧なラウンドが功を奏する",
+          "description": "10/10 で +150 ポイント — 多くの場合、平均的な質問を 2 つ以上組み合わせます。"
+        },
+        {
+          "title": "すべてのカテゴリーでウォーミングアップ",
+          "description": "混合ラウンドでは弱点が露呈します。統計を確認し、最も低いカテゴリをドリルします。"
+        },
+        {
+          "title": "本格的に実行する前にサインインする",
+          "description": "セッションごとに 1 回リーダーボードを開いて、Game Center / Play Games が接続されていることを確認します。"
+        },
+        {
+          "title": "言語を自分の知識に合わせる",
+          "description": "質問はローカライズされています。別の言語が適している場合は、設定に切り替えてください。"
+        }
+      ]
     }
   }
 }

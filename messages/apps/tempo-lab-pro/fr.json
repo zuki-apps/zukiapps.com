@@ -1,67 +1,69 @@
 {
   "tempoLabPro": {
-    "back": "Back to Home",
+    "back": "Retour à la maison",
     "hero": {
-      "badge": "Available Now",
-      "title": "TempoLab Pro - Tempo & Pitch",
-      "subtitle": "Tempo and pitch audio practice",
-      "description": "Production-ready Flutter app for tempo and pitch audio practice. Tap tempo, BPM detection, pitch shift, loop, markers, 5-band EQ, and export to MP3/WAV/M4A.",
-      "structuredDataDescription": "TempoLab Pro — tempo, pitch, and audio practice lab for iOS and Android. Metronome, loop markers, tap tempo, import/export, EQ and effects for musicians. Android com.zuki.apps.tempolabpro by Zuki Apps."
+      "badge": "Disponible maintenant",
+      "title": "TempoLab Pro - Tempo et pitch",
+      "subtitle": "Pratique audio du tempo et du pitch",
+      "description": "Application Flutter prête pour la production pour la pratique du tempo et de la hauteur audio. Tap tempo, détection BPM, pitch shift, boucle, marqueurs, égaliseur 5 bandes et exportation vers MP3/WAV/M4A.",
+      "structuredDataDescription": "TempoLab Pro – laboratoire de pratique du tempo, de la hauteur et de l'audio pour iOS et Android. Métronome, marqueurs de boucle, tap tempo, import/export, EQ et effets pour musiciens. Android com.zuki.apps.tempolabpro par Zuki Apps.",
+      "seoTitle": "TempoLab Pro — Métronome et pitch | Zuki Apps",
+      "metaDescription": "Pratiquez les outils de tempo, de hauteur et de rythme pour les musiciens. Gratuit les iOS et Android."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Principales fonctionnalités",
       "tempoPitch": {
-        "title": "Tempo & Pitch",
-        "description": "Control playback and practice with precision",
+        "title": "Tempo et hauteur",
+        "description": "Contrôlez la lecture et entraînez-vous avec précision",
         "items": [
-          "Playback speed control",
-          "Pitch shift with formant correction",
-          "Vinyl mode (tempo and pitch linked)",
-          "Loop playback",
-          "Markers (Set A / Set B)"
+          "Contrôle de la vitesse de lecture",
+          "Pitch Shift avec correction des formants",
+          "Mode vinyle (tempo et pitch liés)",
+          "Lecture en boucle",
+          "Marqueurs (ensemble A / ensemble B)"
         ]
       },
       "tapTempo": {
-        "title": "Tap Tempo",
-        "description": "Detect BPM by tapping",
+        "title": "Appuyez sur le tempo",
+        "description": "Détecter le BPM en appuyant sur",
         "items": [
-          "Tap repeatedly to detect tempo",
-          "BPM display",
-          "Use detected tempo for practice"
+          "Appuyez à plusieurs reprises pour détecter le tempo",
+          "Affichage des BPM",
+          "Utiliser le tempo détecté pour la pratique"
         ]
       },
       "export": {
-        "title": "Export & Loop",
-        "description": "Export and organize your audio",
+        "title": "Exportation et boucle",
+        "description": "Exportez et organisez votre audio",
         "items": [
-          "Export to MP3, WAV, M4A",
-          "5-band EQ",
-          "Import audio files",
-          "Local file management"
+          "Exporter vers MP3, WAV, M4A",
+          "Égaliseur 5 bandes",
+          "Importer des fichiers audio",
+          "Gestion de fichiers locaux"
         ]
       }
     },
     "status": {
-      "title": "Available",
-      "description": "Download Tempo Lab Pro on the App Store and Google Play.",
+      "title": "Disponible",
+      "description": "Téléchargez Tempo Lab Pro sur les App Store et Google Play.",
       "version": "Version",
-      "status": "Status",
+      "status": "Statut",
       "versionValue": "1.0.1+13",
-      "statusValue": "Live"
+      "statusValue": "En direct"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Tempo Lab Pro on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "Télécharger",
+      "description": "Obtenez Tempo Lab Pro sur les App Store et Google Play.",
+      "soon": "Disponible maintenant",
       "appStoreUrl": "https://apps.apple.com/il/app/tempo-lab-pro/id6760204327",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "Téléchargez sur le App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.tempolabpro",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Obtenez-le sur Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Liens importants",
       "support": {
-        "title": "Technical Support",
+        "title": "Assistance technique",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
@@ -69,285 +71,285 @@
       "hero": {
         "title": "TempoLab Pro"
       },
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "Assistance et aide",
+      "subtitle": "Nous sommes là pour vous aider ! Trouvez des réponses aux questions courantes ou contactez-nous directement.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "Contactez-nous",
+        "description": "Vous avez une question ou besoin d'aide ? Envoyez-nous un email et nous vous répondrons dans les plus brefs délais.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "Liens rapides",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "politique de confidentialité",
+          "description": "Découvrez comment nous protégeons vos données"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "Conditions d'utilisation",
+          "description": "Lisez nos termes et conditions"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "Foire aux questions",
         "q1": {
-          "question": "What is TempoLab Pro?",
-          "answer": "TempoLab Pro is a tempo and pitch audio practice app for musicians. You can import audio, change playback speed and pitch, use tap tempo to detect BPM, add markers, apply a 5-band EQ, and export to MP3, WAV, or M4A."
+          "question": "Qu'est-ce que TempoLab Pro ?",
+          "answer": "TempoLab Pro est une application de pratique audio du tempo et de la hauteur pour les musiciens. Vous pouvez importer de l'audio, modifier la vitesse et la hauteur de lecture, utiliser le tap tempo pour détecter le BPM, ajouter des marqueurs, appliquer un égaliseur à 5 bandes et exporter au format MP3, WAV ou M4A."
         },
         "q2": {
-          "question": "Can I use TempoLab Pro offline?",
-          "answer": "Yes. The app works offline. Audio files are stored locally and you can practice and export without an internet connection."
+          "question": "Puis-je utiliser TempoLab Pro hors ligne ?",
+          "answer": "Oui. L'application fonctionne hors ligne. Les fichiers audio sont stockés localement et vous pouvez pratiquer et exporter sans connexion Internet."
         },
         "q3": {
-          "question": "What audio formats are supported?",
-          "answer": "You can import common audio formats and export to MP3, WAV, or M4A. The app supports local file management and export to your device."
+          "question": "Quels formats audio sont pris en charge ?",
+          "answer": "Vous pouvez importer des formats audio courants et exporter au format MP3, WAV ou M4A. L'application prend en charge la gestion locale des fichiers et l'exportation vers votre appareil."
         },
         "q4": {
-          "question": "How does tap tempo work?",
-          "answer": "Tap the Tap Tempo button repeatedly in time with a beat. The app detects the BPM and you can use it for practice or reference."
+          "question": "Comment fonctionne le tap tempo ?",
+          "answer": "Appuyez sur le bouton Tap Tempo à plusieurs reprises au rythme d'un rythme. L'application détecte le BPM et vous pouvez l'utiliser à des fins de pratique ou de référence."
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "Besoin de plus d'aide ?",
+        "description": "Si vous ne trouvez pas la réponse que vous cherchez ou si vous rencontrez un problème technique, n'hésitez pas à nous contacter. Nous sommes là pour vous aider et répondons généralement dans les 24 à 48 heures."
       },
       "metaTitle": "Assistance et aide — Tempo Lab Pro | Zuki Apps",
       "metaDescription": "Tempo Lab Pro FAQ et support — pratique du métronome et du rythme. Contact, confidentialité et dépannage."
     },
     "footer": {
-      "copyright": "© 2025 TempoLab Pro - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 TempoLab Pro - Tous droits réservés",
+      "tagline": "Fait partie de Zuki Apps • Développeur d'Israël • Fabriqué avec ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using TempoLab Pro. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "Conditions d'utilisation",
+      "lastUpdated": "Dernière mise à jour : janvier 2025",
+      "intro": "Veuillez lire attentivement ces conditions d'utilisation avant d'utiliser TempoLab Pro. En accédant ou en utilisant notre service, vous acceptez d'être lié par ces conditions. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre service.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of TempoLab Pro (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a tempo and pitch audio practice application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. Acceptation des conditions",
+        "content": "Ces conditions d'utilisation (« Conditions ») régissent votre accès et votre utilisation de TempoLab Pro (« Service », « Application », « nous », « notre » ou « notre »), une application de pratique audio de tempo et de hauteur exploitée par Zuki Apps (« Société »). En téléchargeant, en installant, en accédant ou en utilisant le Service, vous acceptez d'être lié par ces Conditions et notre Politique de confidentialité.",
+        "content2": "Si vous utilisez le Service au nom d'une organisation, vous déclarez et garantissez que vous avez le pouvoir de lier cette organisation aux présentes Conditions."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "TempoLab Pro is a mobile application that provides tempo and pitch audio practice functionality. The Service includes:",
+        "title": "2. Description du service",
+        "content": "TempoLab Pro est une application mobile qui fournit des fonctionnalités de pratique audio du tempo et de la hauteur. La Prestation comprend :",
         "items": [
-          "Import and playback of audio files",
-          "Tempo control (playback speed)",
-          "Pitch shift with optional formant correction",
-          "Tap tempo (BPM detection)",
-          "Loop playback and markers",
-          "5-band EQ and effects",
-          "Export to MP3, WAV, M4A",
-          "Local storage and offline use"
+          "Importation et lecture de fichiers audio",
+          "Contrôle du tempo (vitesse de lecture)",
+          "Pitch Shift avec correction des formants en option",
+          "Tap tempo (détection BPM)",
+          "Lecture en boucle et marqueurs",
+          "EQ et effets 5 bandes",
+          "Exporter vers MP3, WAV, M4A",
+          "Stockage local et utilisation hors ligne"
         ]
       },
       "section19": {
-        "title": "3. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "3. Coordonnées",
+        "content": "Si vous avez des questions concernant ces Conditions, veuillez nous contacter :",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAËL"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "politique de confidentialité",
+      "lastUpdated": "Dernière mise à jour : janvier 2025",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "TempoLab Pro is designed with privacy in mind. The app works with audio files you import and stores data locally on your device. We do not collect personal information for the core practice features."
+        "title": "1. Informations que nous collectons",
+        "content": "TempoLab Pro est conçu dans un souci de confidentialité. L'application fonctionne avec les fichiers audio que vous importez et stocke les données localement sur votre appareil. Nous ne collectons pas d’informations personnelles pour les fonctionnalités de base du cabinet."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use minimal information to provide and improve the service. Audio files and app data remain on your device. If crash reporting is enabled, we may receive anonymous crash data to fix issues."
+        "title": "2. Comment nous utilisons vos informations",
+        "content": "Nous utilisons un minimum d'informations pour fournir et améliorer le service. Les fichiers audio et les données d'application restent sur votre appareil. Si le rapport d'erreur est activé, nous pouvons recevoir des données d'erreur anonymes pour résoudre les problèmes."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties. Your audio and project data stay on your device unless you explicitly export or share them."
+        "title": "3. Partage d'informations",
+        "content": "Nous ne vendons ni ne partageons vos informations personnelles avec des tiers. Vos données audio et de projet restent sur votre appareil, sauf si vous les exportez ou les partagez explicitement."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your files and data are stored in the app's local storage, which is not accessible by other apps without your permission."
+        "title": "4. Sécurité des données",
+        "content": "Nous mettons en œuvre des mesures de sécurité appropriées. Vos fichiers et données sont stockés dans le stockage local de l'application, qui n'est pas accessible par d'autres applications sans votre autorisation."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can delete your data at any time by removing the app or clearing app data. You may contact us to request information or deletion of any data we might hold (e.g. crash reports)."
+        "title": "5. Vos droits",
+        "content": "Vous pouvez supprimer vos données à tout moment en supprimant l'application ou en effaçant les données de l'application. Vous pouvez nous contacter pour demander des informations ou la suppression de toutes les données que nous pourrions détenir (par exemple, des rapports d'erreur)."
       },
       "section8": {
-        "title": "6. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "6. Contactez-nous",
+        "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAËL"
       },
       "metaDescription": "Politique de confidentialité de Tempo Lab Pro — comment nous traitons vos données sur iOS et Android."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "Caractéristiques",
+      "screenshots": "Captures d'écran",
+      "howTo": "Comment utiliser",
+      "tips": "Conseils",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Télécharger"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from TempoLab Pro - Tempo & Pitch.",
-      "featuresTitle": "App screens",
+      "title": "Captures d'écran",
+      "subtitle": "Écrans d'application réels de TempoLab Pro - Tempo & Pitch.",
+      "featuresTitle": "Écrans d'application",
       "items": [
         {
-          "id": "practice",
-          "title": "Practice view",
-          "description": "Tempo, time signature, and visual beat in one screen.",
+          "id": "pratique",
+          "title": "Vue d'entraînement",
+          "description": "Tempo, signature rythmique et rythme visuel sur un seul écran.",
           "image": "/images/tempo-lab-pro/screenshot-practice.png",
-          "alt": "Practice view — tempo lab pro",
-          "category": "features"
+          "alt": "Vue d'entraînement — tempo lab pro",
+          "category": "caractéristiques"
         },
         {
-          "id": "loops",
-          "title": "Loop markers",
-          "description": "Mark sections and loop difficult passages.",
+          "id": "boucles",
+          "title": "Marqueurs de boucle",
+          "description": "Marquez les sections et bouclez les passages difficiles.",
           "image": "/images/tempo-lab-pro/screenshot-loops.png",
-          "alt": "Loop markers — tempo lab pro",
-          "category": "features"
+          "alt": "Marqueurs de boucle — tempo lab pro",
+          "category": "caractéristiques"
         },
         {
-          "id": "effects",
-          "title": "Effects & EQ",
-          "description": "Shape tone while you practice along.",
+          "id": "effets",
+          "title": "Effets et égaliseur",
+          "description": "Façonnez le ton pendant que vous vous entraînez.",
           "image": "/images/tempo-lab-pro/screenshot-effects.png",
-          "alt": "Effects & EQ — tempo lab pro",
-          "category": "features"
+          "alt": "Effets et égaliseur — tempo lab pro",
+          "category": "caractéristiques"
         },
         {
           "id": "tap-tempo",
-          "title": "Tap tempo",
-          "description": "Set BPM by tapping the beat.",
+          "title": "Tapez le tempo",
+          "description": "Réglez le BPM en appuyant sur le rythme.",
           "image": "/images/tempo-lab-pro/screenshot-tap-tempo.png",
           "alt": "Tap tempo — tempo lab pro",
-          "category": "features"
+          "category": "caractéristiques"
         },
         {
-          "id": "import",
-          "title": "Import & export",
-          "description": "Bring backing tracks and save your presets.",
+          "id": "importer",
+          "title": "Importer et exporter",
+          "description": "Apportez des pistes d'accompagnement et enregistrez vos préréglages.",
           "image": "/images/tempo-lab-pro/screenshot-import.png",
-          "alt": "Import & export — tempo lab pro",
-          "category": "features"
+          "alt": "Importer et exporter — tempo lab pro",
+          "category": "caractéristiques"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Comment utiliser",
       "steps": [
         {
           "number": "1",
-          "title": "Set tempo",
-          "description": "Enter BPM or tap tempo; pick time signature."
+          "title": "Définir le tempo",
+          "description": "Entrez le BPM ou appuyez sur le tempo ; choisissez la signature rythmique."
         },
         {
           "number": "2",
-          "title": "Load audio",
-          "description": "Import a track or use the built-in click."
+          "title": "Charger l'audio",
+          "description": "Importez une piste ou utilisez le clic intégré."
         },
         {
           "number": "3",
-          "title": "Mark loops",
-          "description": "Place markers around the section you are drilling."
+          "title": "Marquer les boucles",
+          "description": "Placez des marqueurs autour de la section que vous percez."
         },
         {
           "number": "4",
-          "title": "Practice & adjust",
-          "description": "Tweak EQ, pitch, and effects as you rehearse."
+          "title": "Pratiquez et ajustez",
+          "description": "Ajustez l'égalisation, la hauteur et les effets pendant que vous répétez."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Questions fréquemment posées",
+      "subtitle": "Réponses rapides sur les fonctionnalités, la confidentialité et la facturation.",
+      "viewAllSupport": "Voir le support complet & FAQ",
       "items": [
         {
-          "question": "What is TempoLab Pro?",
-          "answer": "A mobile app for practicing with your own audio files: change tempo and pitch, loop sections, add markers, use EQ/reverb/metronome, and export results. Built for musicians, singers, and anyone who learns by listening."
+          "question": "Qu'est-ce que TempoLab Pro ?",
+          "answer": "Une application mobile pour vous entraîner avec vos propres fichiers audio : modifiez le tempo et la hauteur, bouclez des sections, ajoutez des marqueurs, utilisez l'égaliseur/réverbération/métronome et exportez les résultats. Conçu pour les musiciens, les chanteurs et tous ceux qui apprennent en écoutant."
         },
         {
-          "question": "Which platforms are supported?",
-          "answer": "iOS and Android. iPad and large Android tablets get an enhanced layout with side navigation."
+          "question": "Quelles plateformes sont prises en charge ?",
+          "answer": "iOS et Android. L'iPad et les grandes tablettes Android bénéficient d'une mise en page améliorée avec une navigation latérale."
         },
         {
-          "question": "Is it free?",
-          "answer": "Yes to download and practice. Ads appear in the free tier. A one-time Remove Ads purchase unlocks Premium features."
+          "question": "Est-ce gratuit ?",
+          "answer": "Oui pour télécharger et pratiquer. Les annonces apparaissent dans le niveau gratuit. Un achat unique de suppression des annonces débloque Premium fonctionnalités."
         },
         {
-          "question": "What languages are supported?",
-          "answer": "17 locales including English, Hebrew, Arabic, Chinese (Simplified & Traditional), French, German, Italian, Japanese, Korean, Portuguese (BR & PT), Russian, and Spanish."
+          "question": "Quelles langues sont prises en charge ?",
+          "answer": "17 langues, dont anglais, hébreu, arabe, chinois (simplifié et traditionnel), français, allemand, italien, japonais, coréen, portugais (BR et PT), russe et espagnol."
         },
         {
-          "question": "What file formats can I import?",
-          "answer": "Common formats such as MP3, M4A, WAV, and FLAC (device-dependent). If import fails, try another format or a non-DRM copy."
+          "question": "Quels formats de fichiers puis-je importer ?",
+          "answer": "Formats courants tels que MP3, M4A, WAV et FLAC (en fonction de l'appareil). Si l'importation échoue, essayez un autre format ou une copie non DRM."
         },
         {
-          "question": "Why can’t I import my Apple Music / Spotify song?",
-          "answer": "Streaming downloads are often DRM-protected. TempoLab Pro only works with files you have rights to use locally — recordings you made, purchased downloads without DRM, or stems shared with you."
+          "question": "Pourquoi ne puis-je pas importer ma chanson Apple Music / Spotify ?",
+          "answer": "Les téléchargements en streaming sont souvent protégés par DRM. TempoLab Pro ne fonctionne qu'avec les fichiers que vous avez le droit d'utiliser localement : les enregistrements que vous avez effectués, les téléchargements achetés sans DRM ou les stems partagés avec vous."
         },
         {
-          "question": "Does changing tempo change pitch?",
-          "answer": "Not by default. Tempo and pitch are independent. Vinyl mode links them intentionally for creative/record-style playback."
+          "question": "Le changement de tempo change-t-il la hauteur ?",
+          "answer": "Pas par défaut. Le tempo et la hauteur sont indépendants. Le mode Vinyle les relie intentionnellement pour une lecture de style créatif/enregistrement."
         },
         {
-          "question": "How precise is looping?",
-          "answer": "You can nudge loop points by ±10 milliseconds — enough to align by ear to transients and grid."
+          "question": "Quelle est la précision du bouclage ?",
+          "answer": "Vous pouvez décaler les points de boucle de ±10 millisecondes – suffisamment pour vous aligner à l’oreille sur les transitoires et la grille."
         },
         {
-          "question": "What is formant correction?",
-          "answer": "When shifting pitch on vocals, formant processing helps the voice keep a more natural character instead of sounding overly thin or heavy."
+          "question": "Qu’est-ce que la correction des formants ?",
+          "answer": "Lors du changement de hauteur du chant, le traitement des formants aide la voix à conserver un caractère plus naturel au lieu de paraître trop fine ou trop lourde."
         },
         {
-          "question": "What’s the difference between waveform and spectrogram?",
-          "answer": "Waveform shows amplitude over time; spectrogram shows frequency content. Both help you navigate — use whichever reads faster for your material."
+          "question": "Quelle est la différence entre la forme d’onde et le spectrogramme ?",
+          "answer": "La forme d'onde montre l'amplitude au fil du temps ; le spectrogramme montre le contenu fréquentiel. Les deux vous aident à naviguer : utilisez celui qui lit le plus rapidement votre matériel."
         },
         {
-          "question": "Does Practice mode increase tempo automatically?",
-          "answer": "Yes. You set start speed, end speed, and step size; the app ramps speed during the session."
+          "question": "Le mode Entraînement augmente-t-il automatiquement le tempo ?",
+          "answer": "Oui. Vous définissez la vitesse de début, la vitesse de fin et la taille des pas ; l'application augmente la vitesse pendant la session."
         },
         {
-          "question": "Is there a metronome?",
-          "answer": "Yes — use it alongside your track or with tap tempo to match BPM."
+          "question": "Y a-t-il un métronome ?",
+          "answer": "Oui : utilisez-le avec votre morceau ou avec un tap tempo pour correspondre au BPM."
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "Trucs et astuces",
+      "subtitle": "Obtenez plus de l'application.",
       "items": [
         {
-          "title": "The 70% rule",
-          "description": "If you can’t play it cleanly at 70% tempo, you’re not ready to speed up. Drop to 60%. Loop four bars, not the whole tune. TempoLab exists so you don’t waste reps on vanity speed. ---"
+          "title": "La règle des 70%",
+          "description": "Si vous ne parvenez pas à le jouer proprement à un tempo de 70 %, vous n’êtes pas prêt à accélérer. Baisse à 60 %. Bouclez quatre mesures, pas la mélodie entière. TempoLab existe pour que vous ne perdiez pas de répétitions en vitesse vaniteuse. ---"
         },
         {
-          "title": "Mark the money beats",
-          "description": "Before you touch EQ or reverb, mark where the kick lands, where the vocal breathes, where the guitar slides. Your future self will jump there in one tap instead of scrubbing blind. ---"
+          "title": "Marquez les battements de l'argent",
+          "description": "Avant de toucher à l'égalisation ou à la réverbération, marquez l'endroit où le kick atterrit, où la voix respire, où la guitare glisse. Votre futur moi y sautera en un seul clic au lieu de frotter à l'aveugle. ---"
         },
         {
-          "title": "Loop small, win small",
-          "description": "A two-bar loop beats a thirty-two-bar loop for muscle memory. Set A just before the downbeat, B on the last sixteenth you keep rushing. ±10 ms matters — your ear feels phase before your brain names it. ---"
+          "title": "Bouclez petit, gagnez petit",
+          "description": "Une boucle de deux mesures bat une boucle de trente-deux mesures pour la mémoire musculaire. Réglez A juste avant le temps fort, B sur le dernier seizième, vous continuez à vous précipiter. ±10 ms matters — votre oreille ressent la phase avant que votre cerveau ne la nomme. ---"
         },
         {
-          "title": "Pitch is for comfort, not cheating",
-          "description": "Transpose down for morning warmups, up to test if a part still speaks when you’re tired. If you’re learning a cover, practice in the original key at least every third session so you don’t surprise yourself at the gig. ---"
+          "title": "Le pitch est pour le confort, pas pour la triche",
+          "description": "Transposez-le pour les échauffements matinaux, jusqu'à tester si une partie parle encore lorsque vous êtes fatigué. Si vous apprenez une reprise, entraînez-vous dans la tonalité originale au moins toutes les trois séances afin de ne pas vous surprendre lors du concert. ---"
         },
         {
-          "title": "Vinyl mode has a vibe",
-          "description": "When you link tempo and pitch, you get that sampler/record feel — useful for creative practice, not just transcription. Try it on a soul sample: slow down and hear the harmonics move together. ---"
+          "title": "Le mode vinyle a une ambiance",
+          "description": "Lorsque vous associez le tempo et la hauteur, vous obtenez cette sensation d’échantillonneur/d’enregistrement – ​​utile pour la pratique créative, pas seulement pour la transcription. Essayez-le sur un échantillon de soul : ralentissez et entendez les harmoniques bouger ensemble. ---"
         },
         {
-          "title": "EQ while you practice, not after",
-          "description": "Cut 200–400 Hz if the guitar mask is hiding the kick. Boost 3–5 kHz lightly to hear pick attack on acoustic parts. You’re not mastering — you’re making the part audible at low tempo. ---"
+          "title": "EQ pendant que vous pratiquez, pas après",
+          "description": "Coupez 200 à 400 Hz si le masque de guitare cache le coup de pied. Boostez légèrement 3 à 5 kHz pour entendre le pick attack sur les parties acoustiques. Vous ne maîtrisez pas – vous rendez la partie audible à un rythme lent. ---"
         },
         {
-          "title": "Practice mode = honest reps",
-          "description": "Set start 65%, end 95%, small steps. The day you fail is data: note the % and loop that bar again tomorrow. Speed is a side effect of accuracy. ---"
+          "title": "Mode entraînement = représentants honnêtes",
+          "description": "Réglez le début à 65 %, la fin à 95 %, par petits pas. Le jour où vous échouez, ce sont les données : notez le % et bouclez à nouveau cette barre demain. La vitesse est un effet secondaire de la précision. ---"
         },
         {
-          "title": "Tap tempo before you argue BPM",
-          "description": "Two producers, two numbers. Tap the groove — swing lies to the grid. Use metronome after you agree on feel. ---"
+          "title": "Appuyez sur le tempo avant de discuter du BPM",
+          "description": "Deux producteurs, deux numéros. Appuyez sur le groove - balancez-vous vers la grille. Utilisez le métronome après vous être mis d'accord sur la sensation. ---"
         }
       ]
     }

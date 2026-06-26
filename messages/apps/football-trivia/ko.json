@@ -1,13 +1,18 @@
 {
   "footballTrivia": {
-    "back": "Back to Home",
+    "back": "홈으로 돌아가기",
     "hero": {
-      "title": "Football Trivia Master",
+      "title": "축구 퀴즈 마스터",
       "subtitle": "210+ questions • World Football, National Teams, World Cups, 2026 World Cup",
-      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps."
+      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps.",
+      "seoTitle": "축구 퀴즈 — 축구 퀴즈 게임 | Zuki Apps",
+      "metaDescription": "450개 이상의 시간 제한 축구 퀴즈 질문, 연속 기록 및 순위표. iOS 및 Android에서 무료 — 지금 다운로드하세요.",
+      "structuredDataDescription": "축구 퀴즈 마스터 — 세계 축구, 국가대표팀, 글로벌 결승전, 토너먼트 스포트라이트 전반에 걸쳐 450개 이상의 시간 제한 질문이 포함된 iOS 및 Android 축구 퀴즈입니다. Zuki Apps의 com.zuki.apps.footballtrivia 패키지.",
+      "badge": "무료 축구 퀴즈 · iOS & Android",
+      "trustLine": "Zuki Apps의 독립 엔터테인먼트. 리그, 연맹, 클럽 또는 토너먼트 주최자와 제휴하지 않습니다."
     },
     "features": {
-      "title": "Key Features",
+      "title": "주요 특징",
       "categories": {
         "title": "4 Categories",
         "description": "210+ questions across four themes",
@@ -35,111 +40,337 @@
           "Accuracy tracking",
           "Points with streak bonuses"
         ]
-      }
+      },
+      "items": [
+        {
+          "title": "4가지 테마 카테고리",
+          "description": "세계 축구, 국가대표팀, 글로벌 결승전, 토너먼트 스포트라이트."
+        },
+        {
+          "title": "시계 경주",
+          "description": "쉬움(20초), 중간(15초), 어려움(12초)으로 구성된 시간 제한 질문입니다. 매 라운드마다 12초 동안 하드 모드를 활성화합니다."
+        },
+        {
+          "title": "연속 득점 및 득점",
+          "description": "최대 +50% 연속 보너스와 10/10에 대한 큰 완벽한 라운드 보너스를 위해 정답을 연결하세요."
+        },
+        {
+          "title": "전 세계적으로 경쟁하세요",
+          "description": "업적 및 리더보드의 경우 Game Center(iOS) 및 Play Games(Android)입니다."
+        },
+        {
+          "title": "12개 언어",
+          "description": "아랍어, 중국어, 영어, 프랑스어, 독일어, 히브리어, 이탈리아어, 일본어, 한국어, 포르투갈어, 러시아어, 스페인어."
+        },
+        {
+          "title": "원하는 대로 플레이하세요",
+          "description": "어둡거나 밝은 테마, 세부 통계, 일회성 광고 제거 옵션, 설정에서 GDPR 동의."
+        }
+      ]
     },
     "status": {
-      "title": "Available on App Store and Google Play",
-      "description": "Football Trivia Master is live on iPhone, iPad, and Android.",
+      "title": "App Store 및 Google Play에서 사용 가능",
+      "description": "Football Trivia Master는 iPhone, iPad 및 Android에서 실시간으로 제공됩니다.",
       "statusValue": "iOS · Android",
-      "version": "Version",
-      "status": "Platform",
+      "version": "버전",
+      "status": "플랫폼",
       "versionValue": "1.0.4+13"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Football Trivia Master on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "다운로드",
+      "description": "App Store 및 Google Play에서 축구 상식 마스터를 받으세요.",
+      "soon": "지금 이용 가능",
       "appStoreUrl": "https://apps.apple.com/il/app/football-trivia-master/id6760652362",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "App Store에서 다운로드하세요.",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.footballtrivia",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "시작해 보세요 Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "중요한 링크",
       "support": {
-        "title": "Technical Support",
+        "title": "기술지원",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "footer": {
       "copyright": "© 2026 Football Trivia Master - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "tagline": "Zuki Apps의 일부 • 이스라엘의 개발자 • ❤️로 제작됨"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Football Trivia Master. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "이용약관",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
+      "intro": "Football Trivia Master를 사용하기 전에 본 이용 약관을 주의 깊게 읽으십시오. 당사 서비스에 액세스하거나 이를 사용함으로써 귀하는 본 약관을 준수할 것에 동의하게 됩니다.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use govern your access to and use of Football Trivia Master, a trivia game operated by Zuki Apps. By downloading, installing, or using the Service, you agree to be bound by these Terms and our Privacy Policy."
+        "title": "1. 약관 동의",
+        "content": "본 이용약관은 Zuki Apps에서 운영하는 퀴즈 게임인 Football Trivia Master에 대한 액세스 및 사용에 적용됩니다. 서비스를 다운로드, 설치 또는 사용함으로써 귀하는 본 약관 및 개인정보 보호정책을 준수할 것에 동의하게 됩니다."
       },
       "section19": {
-        "title": "Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "연락처 정보",
+        "content": "본 약관에 대해 질문이 있는 경우 다음 연락처로 문의해 주세요.",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "개인 정보 보호 정책",
+      "lastUpdated": "최종 업데이트: 2025년 1월",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Football Trivia Master collects minimal information necessary to provide the service. Game progress and statistics are stored locally on your device. We may collect information you provide when you contact support."
+        "title": "1. 당사가 수집하는 정보",
+        "content": "Football Trivia Master는 서비스 제공에 필요한 최소한의 정보를 수집합니다. 게임 진행 상황과 통계는 귀하의 장치에 로컬로 저장됩니다. 당사는 귀하가 지원팀에 문의할 때 귀하가 제공하는 정보를 수집할 수 있습니다."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide and improve our services. Locally stored data is not transmitted to our servers except as needed for optional features."
+        "title": "2. 당사가 귀하의 정보를 사용하는 방법",
+        "content": "우리는 서비스를 제공하고 개선하기 위해 정보를 사용합니다. 로컬에 저장된 데이터는 선택적 기능에 필요한 경우를 제외하고 당사 서버로 전송되지 않습니다."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties."
+        "title": "3. 정보 공유",
+        "content": "당사는 귀하의 개인정보를 제3자에게 판매하거나 공유하지 않습니다."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device."
+        "title": "4. 데이터 보안",
+        "content": "우리는 적절한 보안 조치를 시행합니다. 귀하의 게임 데이터는 귀하의 장치에 로컬로 저장됩니다."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings. You may delete the app at any time."
+        "title": "5. 귀하의 권리",
+        "content": "앱의 설정을 통해 로컬 데이터를 지울 수 있습니다. 언제든지 앱을 삭제할 수 있습니다."
       },
       "section6": {
-        "title": "6. Changes to This Policy",
-        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app or on our website."
+        "title": "6. 본 정책의 변경 사항",
+        "content": "당사는 수시로 본 개인정보 보호정책을 업데이트할 수 있습니다. 변경 사항이 있으면 앱이나 웹사이트에 새로운 정책을 게시하여 알려드리겠습니다."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 문의하기",
+        "content": "본 개인정보 보호정책에 대해 질문이 있는 경우 다음 주소로 문의하시기 바랍니다.",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       },
       "metaDescription": "축구 퀴즈 개인 정보 보호 정책 — iOS 및 Android에서 귀하의 데이터를 처리하는 방법."
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Contact us directly.",
+      "title": "지원 및 도움말",
+      "subtitle": "우리가 도와드리겠습니다! 저희에게 직접 문의하세요.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email.",
+        "title": "문의하기",
+        "description": "질문이 있거나 도움이 필요하신가요? 이메일을 보내주세요.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "빠른 링크",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "개인 정보 보호 정책",
+          "description": "귀하의 데이터를 보호하는 방법 알아보기"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "서비스 약관",
+          "description": "이용 약관을 읽어보세요"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
+        "title": "도움이 더 필요하신가요?",
+        "description": "질문이 있거나 기술적인 문제가 있는 경우 당사에 문의해 주세요. 일반적으로 24~48시간 이내에 응답해 드립니다."
       },
       "metaTitle": "지원 및 도움말 — 축구 퀴즈 | Zuki Apps",
       "metaDescription": "축구 퀴즈 FAQ 및 지원 — 축구 퀴즈 게임. 연락처, 개인 정보 보호 및 문제 해결."
+    },
+    "howToUse": {
+      "title": "플레이 방법",
+      "subtitle": "전체 라운드에는 약 3~5분이 소요됩니다. 계정이 필요하지 않습니다. 리더보드에만 로그인하세요.",
+      "steps": [
+        {
+          "title": "게임 시작을 탭하세요",
+          "description": "홈 화면에서. 선택적으로 질문당 12초 동안 하드 모드를 전환할 수 있습니다."
+        },
+        {
+          "title": "카테고리를 선택하세요",
+          "description": "모든 카테고리를 혼합하거나 4가지 테마 풀 중 하나에 집중하세요."
+        },
+        {
+          "title": "10개의 질문에 답하세요",
+          "description": "타이머가 끝나기 전에 네 가지 옵션 중 하나를 탭하세요. 정답을 맞추면 연속 기록이 쌓입니다."
+        },
+        {
+          "title": "결과 검토",
+          "description": "점수 분석, 정확성 및 잠금 해제된 업적을 확인하세요."
+        },
+        {
+          "title": "리더보드에 오르세요",
+          "description": "Play Games 또는 Game Center를 통해 로그인한 다음 집에서 리더보드를 엽니다."
+        }
+      ]
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "subtitle": "다운로드하기 전에 빠른 답변을 받으세요.",
+      "viewAllSupport": "모든 지원 보기 →",
+      "items": [
+        {
+          "question": "Football Trivia Master는 무료인가요?",
+          "answer": "예. 이 앱은 무료로 다운로드하고 플레이할 수 있습니다. 세션 사이에 선택적 배너 및 전면 광고가 표시됩니다. 설정에서 일회성 인앱 구매를 통해 광고를 영구적으로 제거할 수 있습니다."
+        },
+        {
+          "question": "계정이 필요합니까?",
+          "answer": "퀴즈를 플레이하는 데는 계정이 필요하지 않습니다. 리더보드와 업적을 원하는 경우에만 Game Center(iOS) 또는 Google Play 게임(Android)으로 로그인하세요."
+        },
+        {
+          "question": "어떤 장치가 지원되나요?",
+          "answer": "iPhone 및 iPad(iOS) 및 Android 휴대폰 및 태블릿. 이 앱은 세로 플레이에 최적화되어 있습니다."
+        },
+        {
+          "question": "어떤 언어를 사용할 수 있나요?",
+          "answer": "아랍어, 중국어(간체 및 번체), 영어, 프랑스어, 독일어, 히브리어, 이탈리아어, 일본어, 한국어, 포르투갈어, 러시아어, 스페인어. 설정 → 언어에서 언어를 변경하세요."
+        },
+        {
+          "question": "한 라운드에는 몇 개의 질문이 있습니까?",
+          "answer": "일찍 종료하지 않는 한 각 라운드에는 10개의 객관식 문제가 있습니다."
+        },
+        {
+          "question": "홈 화면의 하드 모드는 무엇인가요?",
+          "answer": "하드 모드는 모든 질문을 12초로 제한하고 특별 업적을 잠금 해제할 수 있습니다. 카테고리에서 어려움 난이도를 선택하는 것과는 별개입니다. 최대한의 도전을 원할 때 사용하세요."
+        },
+        {
+          "question": "채점은 어떻게 이루어지나요?",
+          "answer": "포인트는 질문 난이도, 시간 보너스(타이머가 절반 이상 남은 상태에서 답변), 연속 승수(연속 5회 정답 후 최대 +50%) 및 10/10을 받으면 완벽한 라운드 보너스에서 나옵니다. ? 인앱 채점 가이드는 홈 화면의 아이콘을 참조하세요."
+        },
+        {
+          "question": "오프라인으로 플레이할 수 있나요?",
+          "answer": "예. 질문은 앱에 저장됩니다. 리더보드, 업적, 광고, 구매를 위해서는 인터넷 연결이 필요합니다."
+        },
+        {
+          "question": "왜 리더보드를 볼 수 없나요?",
+          "answer": "Android에서 메시지가 표시되면 Google Play Games에 로그인합니다. iOS에서 앱에 대해 Game Center를 활성화합니다. 로그인에 실패하면 앱을 업데이트하고 Google/Apple 계정을 확인한 후 설정에서 다시 시도하세요."
+        },
+        {
+          "question": "리더보드는 글로벌인가요?",
+          "answer": "예. 점수는 해당 지역 및 친구의 플랫폼 리더보드(Game Center / Play Games)에 제출됩니다."
+        },
+        {
+          "question": "광고를 제거하려면 어떻게 해야 하나요?",
+          "answer": "설정 → 광고 ​​제거를 열고 일회성 구매를 완료하세요. 저장소의 응답 속도가 느린 경우 재시도를 사용하세요. 동일한 스토어 계정을 통해 새 기기에서 구매를 복원하세요."
+        },
+        {
+          "question": "구매 후에도 광고가 계속 표시되는 이유는 무엇입니까?",
+          "answer": "구매가 완료되었는지 확인하세요(이메일 영수증 확인). 설정에서 복원을 탭하세요. 앱을 강제 종료했다가 다시 엽니다. 매장 영수증에 문제가 지속되면 지원팀에 문의하세요."
+        },
+        {
+          "question": "구독이 있나요?",
+          "answer": "아니요. 광고 제거는 구독이 아닌 일회성 구매입니다."
+        },
+        {
+          "question": "어떤 데이터를 수집하나요?",
+          "answer": "zukiapps.com/football-trivia/privacy에서 개인정보 보호정책을 확인하세요. 안정성 향상을 위해 충돌 보고서가 Firebase Crashlytics를 통해 전송될 수 있습니다. 광고 파트너는 설정에서 귀하의 동의 선택에 따라 데이터를 수집할 수 있습니다."
+        },
+        {
+          "question": "지원팀에 어떻게 문의하나요?"
+        },
+        {
+          "question": "이것은 공식 FIFA 또는 월드컵 앱인가요?",
+          "answer": "아니요. Football Trivia Master는 Zuki Apps의 독립 엔터테인먼트입니다. 우리는 FIFA, 연맹, 리그, 클럽 또는 토너먼트 주최자와 제휴하지 않습니다."
+        }
+      ]
+    },
+    "statsBar": {
+      "items": [
+        {
+          "label": "질문",
+          "value": "450+"
+        },
+        {
+          "label": "카테고리"
+        },
+        {
+          "label": "언어"
+        },
+        {
+          "label": "라운드당"
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "특징",
+      "screenshots": "스크린샷",
+      "howTo": "플레이 방법",
+      "faq": "FAQ",
+      "tips": "전문가의 팁",
+      "download": "다운로드"
+    },
+    "screenshots": {
+      "title": "앱 내부",
+      "subtitle": "실제 장치 캡처 — 홈, 카테고리, 게임 플레이, 결과, 순위표 및 통계.",
+      "featuresTitle": "앱 화면",
+      "items": [
+        {
+          "id": "집",
+          "title": "모든 라운드를 위한 허브",
+          "description": "게임 시작, 통계 표시줄, 하드 모드, 리더보드 및 목표 달성에 대한 빠른 링크를 제공합니다.",
+          "alt": "게임 시작이 포함된 축구 퀴즈 마스터 홈 화면",
+          "category": "특징"
+        },
+        {
+          "id": "범주",
+          "title": "4가지 테마 + 모두 혼합",
+          "description": "세계 축구, 국가대표팀, 글로벌 결승전, 토너먼트 스포트라이트 또는 모든 카테고리를 선택하세요.",
+          "alt": "축구 상식 카테고리 선택기",
+          "category": "특징"
+        },
+        {
+          "id": "게임",
+          "title": "시계를 이길",
+          "description": "눈에 보이는 타이머와 연속 표시가 있는 질문당 4가지 옵션입니다.",
+          "alt": "타이머가 포함된 축구 퀴즈 질문 화면",
+          "category": "특징"
+        },
+        {
+          "id": "결과",
+          "title": "획득한 모든 포인트를 확인하세요",
+          "description": "각 라운드 후에 점수 분석, 정확성 및 성과가 잠금 해제됩니다.",
+          "alt": "축구 퀴즈 결과 및 점수 분석",
+          "category": "특징"
+        },
+        {
+          "id": "리더보드",
+          "title": "전 세계적으로 경쟁하세요",
+          "description": "Game Center 또는 Google Play 게임을 통해 글로벌 순위를 매길 수 있습니다.",
+          "alt": "축구 퀴즈 글로벌 리더보드",
+          "category": "특징"
+        },
+        {
+          "id": "통계",
+          "title": "개선 추적",
+          "description": "카테고리별 플레이한 게임, 정확도, 성능입니다.",
+          "alt": "축구 퀴즈 통계 화면",
+          "category": "특징"
+        }
+      ]
+    },
+    "tips": {
+      "title": "전문가의 팁",
+      "subtitle": "리더보드에 쌓이는 작은 습관.",
+      "items": [
+        {
+          "title": "연속 기록을 보호하세요",
+          "description": "연속 승수는 +50%로 제한됩니다(연속 5개 정확). 하나의 오답은 0으로 재설정됩니다."
+        },
+        {
+          "title": "시간 보너스를 쫓아라",
+          "description": "질문당 최대 +50 보너스 포인트를 얻으려면 타이머의 절반 이상을 남겨두고 답하세요."
+        },
+        {
+          "title": "완벽한 라운드가 성과를 낸다",
+          "description": "10/10에 +150점 — 종종 두 개의 평균 질문을 합친 것보다 더 많습니다."
+        },
+        {
+          "title": "모든 카테고리로 워밍업",
+          "description": "혼합 라운드는 약점을 노출시킵니다. 통계를 확인하고 가장 낮은 카테고리를 드릴링하세요."
+        },
+        {
+          "title": "본격적인 달리기 전에 로그인하세요",
+          "description": "세션당 한 번씩 리더보드를 열어 Game Center / Play Games가 연결되었는지 확인하세요."
+        },
+        {
+          "title": "당신의 지식에 언어를 맞추세요",
+          "description": "질문은 현지화되어 있습니다. 다른 언어가 더 적합하다면 설정에서 전환하세요."
+        }
+      ]
     }
   }
 }

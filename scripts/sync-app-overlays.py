@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 import time
 from copy import deepcopy
 from pathlib import Path
@@ -11,6 +12,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 APPS_DIR = ROOT / "messages" / "apps"
+SHARED_DIR = ROOT / "messages" / "shared"
 CACHE = Path(__file__).resolve().parent / "overlay_maps"
 LOCALES = ["he", "de", "ar", "fr", "es", "it", "pt", "ru", "ja", "ko", "zh"]
 LANG = {"he": "iw", "de": "de", "ar": "ar", "fr": "fr", "es": "es", "it": "it", "pt": "pt", "ru": "ru", "ja": "ja", "ko": "ko", "zh": "zh-CN"}
@@ -23,6 +25,17 @@ KEEP = re.compile(
     r"iOS|Android|RTL|PNG|CSV|GPX|GeoJSON|GPS|GNSS|CSAE|ATT|FAQ)",
     re.I,
 )
+
+# Apps: full overlay gap sync (missing or same-as-English → re-translate)
+FULL_SYNC_APPS = frozenset({
+    "toldya",
+    "dreambit-legacy",
+    "football-trivia",
+    "sudoku-puzzle",
+    "tempo-lab-pro",
+    "whistle-camera",
+    "zulist",
+})
 
 # Apps / subtrees to force-sync (full subtree from en → overlay)
 FORCE_SUBTREES: dict[str, list[str]] = {
@@ -237,13 +250,67 @@ def apply_translations_to_overlay(overlay: dict, paths: list[tuple[str, str]], s
     return out
 
 
+def sync_shared_messages() -> None:
+    """Translate missing keys in messages/shared/{locale}.json from shared/en.json."""
+    en_path = SHARED_DIR / "en.json"
+    en_shared = json.loads(en_path.read_text(encoding="utf-8"))
+    en_leaves = {p: v for p, v in walk_leaves(en_shared) if isinstance(v, str) and not should_skip(v)}
+
+    shared_keys = [
+        p
+        for p in en_leaves
+        if p.startswith(("home.aboutTeaser.", "home.seoTitle", "home.metaDescription", "home.footer.about", "about."))
+    ]
+
+    for loc in LOCALES:
+        loc_path = SHARED_DIR / f"{loc}.json"
+        overlay = json.loads(loc_path.read_text(encoding="utf-8")) if loc_path.exists() else {}
+        ov_leaves = {p: v for p, v in walk_leaves(overlay) if isinstance(v, str)}
+
+        to_translate: list[tuple[str, str]] = []
+        for path in shared_keys:
+            src = en_leaves[path]
+            ov_val = ov_leaves.get(path)
+            if ov_val is None or ov_val == src:
+                to_translate.append((path, src))
+
+        if not to_translate:
+            continue
+
+        cache_file = CACHE / f"shared_{loc}.json"
+        strings = sorted({v for _, v in to_translate})
+        if cache_file.exists():
+            smap = json.loads(cache_file.read_text(encoding="utf-8"))
+            missing_strings = [s for s in strings if s not in smap]
+            if missing_strings:
+                print(f"Translating shared/{loc}: {len(missing_strings)} new strings...", flush=True)
+                smap.update(translate_batch(missing_strings, LANG[loc]))
+                cache_file.write_text(json.dumps(smap, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        else:
+            print(f"Translating shared/{loc}: {len(strings)} strings...", flush=True)
+            smap = translate_batch(strings, LANG[loc])
+            cache_file.write_text(json.dumps(smap, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+        overlay = apply_translations_to_overlay(overlay, to_translate, smap)
+        loc_path.write_text(json.dumps(overlay, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"Updated shared/{loc}.json ({len(to_translate)} paths)", flush=True)
+
+
 def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
+    targets = set(sys.argv[1:]) if len(sys.argv) > 1 else None
+
+    if targets is None or "shared" in targets:
+        sync_shared_messages()
+        if targets == {"shared"}:
+            return
 
     for app_dir in sorted(APPS_DIR.iterdir()):
         if not app_dir.is_dir():
             continue
         app_slug = app_dir.name
+        if targets and app_slug not in targets:
+            continue
         en_path = app_dir / "en.json"
         if not en_path.exists():
             continue
@@ -275,9 +342,7 @@ def main() -> None:
             if app_slug == "hush-gallery":
                 for ns in ns_keys:
                     to_translate.extend(collect_missing_faq(en_app, overlay, ns))
-            if app_slug == "toldya":
-                to_translate.extend(collect_all_missing(en_app, overlay))
-            if app_slug == "dreambit-legacy":
+            if app_slug in FULL_SYNC_APPS:
                 to_translate.extend(collect_all_missing(en_app, overlay))
 
             # dedupe by english source string

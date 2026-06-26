@@ -1,353 +1,355 @@
 {
   "tempoLabPro": {
-    "back": "Back to Home",
+    "back": "ホームに戻る",
     "hero": {
-      "badge": "Available Now",
-      "title": "TempoLab Pro - Tempo & Pitch",
-      "subtitle": "Tempo and pitch audio practice",
-      "description": "Production-ready Flutter app for tempo and pitch audio practice. Tap tempo, BPM detection, pitch shift, loop, markers, 5-band EQ, and export to MP3/WAV/M4A.",
-      "structuredDataDescription": "TempoLab Pro — tempo, pitch, and audio practice lab for iOS and Android. Metronome, loop markers, tap tempo, import/export, EQ and effects for musicians. Android com.zuki.apps.tempolabpro by Zuki Apps."
+      "badge": "今すぐ利用可能",
+      "title": "TempoLab Pro - テンポとピッチ",
+      "subtitle": "テンポとピッチの音声練習",
+      "description": "テンポとピッチのオーディオ練習用のプロダクション対応の Flutter アプリ。タップテンポ、BPM検出、ピッチシフト、ループ、マーカー、5バンドEQ、MP3/WAV/M4Aへのエクスポートが可能。",
+      "structuredDataDescription": "TempoLab Pro — iOS と Android のテンポ、ピッチ、オーディオ練習ラボ。ミュージシャン向けのメトロノーム、ループマーカー、タップテンポ、インポート/エクスポート、EQ、エフェクト。 Android com.zuki.apps.tempolabpro 作成者: Zuki Apps。",
+      "seoTitle": "TempoLab Pro — メトロノームとピッチ | Zuki Apps",
+      "metaDescription": "ミュージシャン向けのテンポ、ピッチ、リズムの練習ツール。 iOS と Android は無料です。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主な特長",
       "tempoPitch": {
-        "title": "Tempo & Pitch",
-        "description": "Control playback and practice with precision",
+        "title": "テンポとピッチ",
+        "description": "再生と練習を正確にコントロール",
         "items": [
-          "Playback speed control",
-          "Pitch shift with formant correction",
-          "Vinyl mode (tempo and pitch linked)",
-          "Loop playback",
-          "Markers (Set A / Set B)"
+          "再生速度の制御",
+          "フォルマント補正によるピッチシフト",
+          "Vinylモード（テンポとピッチに連動）",
+          "ループ再生",
+          "マーカー（セットA / セットB）"
         ]
       },
       "tapTempo": {
-        "title": "Tap Tempo",
-        "description": "Detect BPM by tapping",
+        "title": "タップテンポ",
+        "description": "タップでBPMを検出",
         "items": [
-          "Tap repeatedly to detect tempo",
-          "BPM display",
-          "Use detected tempo for practice"
+          "繰り返しタップしてテンポを検出します",
+          "BPM表示",
+          "検出されたテンポを練習に使用する"
         ]
       },
       "export": {
-        "title": "Export & Loop",
-        "description": "Export and organize your audio",
+        "title": "エクスポートとループ",
+        "description": "オーディオをエクスポートして整理する",
         "items": [
-          "Export to MP3, WAV, M4A",
-          "5-band EQ",
-          "Import audio files",
-          "Local file management"
+          "MP3、WAV、M4A にエクスポート",
+          "5バンドEQ",
+          "オーディオファイルをインポートする",
+          "ローカルファイル管理"
         ]
       }
     },
     "status": {
-      "title": "Available",
-      "description": "Download Tempo Lab Pro on the App Store and Google Play.",
-      "version": "Version",
-      "status": "Status",
+      "title": "利用可能",
+      "description": "Tempo Lab Pro を App Store と Google Play にダウンロードします。",
+      "version": "バージョン",
+      "status": "状態",
       "versionValue": "1.0.1+13",
-      "statusValue": "Live"
+      "statusValue": "ライブ"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Tempo Lab Pro on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "ダウンロード",
+      "description": "App Store と Google Play で Tempo Lab Pro を入手してください。",
+      "soon": "今すぐ利用可能",
       "appStoreUrl": "https://apps.apple.com/il/app/tempo-lab-pro/id6760204327",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "App Store からダウンロードしてください",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.tempolabpro",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Google Play で入手"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要なリンク",
       "support": {
-        "title": "Technical Support",
+        "title": "テクニカルサポート",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "support": {
       "hero": {
-        "title": "TempoLab Pro"
+        "title": "テンポラボ プロ"
       },
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "サポートとヘルプ",
+      "subtitle": "私たちがお手伝いします!よくある質問への回答を見つけるか、直接お問い合わせください。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "お問い合わせ",
+        "description": "ご質問がありますか、サポートが必要ですか?メールをお送りください。できるだけ早くご連絡いたします。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "クイックリンク",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "プライバシーポリシー",
+          "description": "データをどのように保護するかをご覧ください"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "利用規約",
+          "description": "利用規約をお読みください"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "よくある質問",
         "q1": {
-          "question": "What is TempoLab Pro?",
-          "answer": "TempoLab Pro is a tempo and pitch audio practice app for musicians. You can import audio, change playback speed and pitch, use tap tempo to detect BPM, add markers, apply a 5-band EQ, and export to MP3, WAV, or M4A."
+          "question": "テンポラボプロとは何ですか?",
+          "answer": "TempoLab Pro は、ミュージシャン向けのテンポとピッチのオーディオ練習アプリです。オーディオのインポート、再生速度とピッチの変更、タップテンポを使用した BPM の検出、マーカーの追加、5 バンド EQ の適用、MP3、WAV、または M4A へのエクスポートが可能です。"
         },
         "q2": {
-          "question": "Can I use TempoLab Pro offline?",
-          "answer": "Yes. The app works offline. Audio files are stored locally and you can practice and export without an internet connection."
+          "question": "TempoLab Proをオフラインでも使用できますか?",
+          "answer": "はい。アプリはオフラインでも動作します。オーディオ ファイルはローカルに保存されるため、インターネットに接続していなくても練習したりエクスポートしたりできます。"
         },
         "q3": {
-          "question": "What audio formats are supported?",
-          "answer": "You can import common audio formats and export to MP3, WAV, or M4A. The app supports local file management and export to your device."
+          "question": "どのような音声形式がサポートされていますか?",
+          "answer": "一般的なオーディオ形式をインポートし、MP3、WAV、または M4A にエクスポートできます。このアプリは、ローカル ファイル管理とデバイスへのエクスポートをサポートしています。"
         },
         "q4": {
-          "question": "How does tap tempo work?",
-          "answer": "Tap the Tap Tempo button repeatedly in time with a beat. The app detects the BPM and you can use it for practice or reference."
+          "question": "タップテンポはどのように機能しますか?",
+          "answer": "ビートに合わせてタップテンポボタンを繰り返しタップします。 BPMを検出して練習や参考にできます。"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "さらにサポートが必要ですか?",
+        "description": "探している答えが見つからない場合、または技術的な問題が発生した場合は、お気軽にお問い合わせください。通常 24 ～ 48 時間以内に対応させていただきます。"
       },
       "metaTitle": "サポートとヘルプ — Tempo Lab Pro | Zuki Apps",
       "metaDescription": "Tempo Lab Pro FAQ とメトロノームとリズム練習のサポート。連絡先、プライバシー、トラブルシューティング。"
     },
     "footer": {
-      "copyright": "© 2025 TempoLab Pro - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 TempoLab Pro - 無断複写・転載を禁じます",
+      "tagline": "Zuki Apps の一部 • イスラエル出身の開発者 • ❤️ で作られました"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using TempoLab Pro. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "利用規約",
+      "lastUpdated": "最終更新日: 2025 年 1 月",
+      "intro": "TempoLab Pro を使用する前に、これらの利用規約をよくお読みください。当社のサービスにアクセスまたは使用すると、これらの規約に拘束されることに同意したものとみなされます。これらの条件に同意できない場合は、当社のサービスを使用しないでください。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of TempoLab Pro (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a tempo and pitch audio practice application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 規約への同意",
+        "content": "これらの利用規約 (「規約」) は、Zuki Apps (「会社」) が運営するテンポとピッチの音声練習アプリケーションである TempoLab Pro (「サービス」、「アプリ」、「当社」) へのアクセスおよび使用に適用されます。サービスをダウンロード、インストール、アクセス、または使用することにより、お客様は本規約および当社のプライバシー ポリシーに拘束されることに同意したものとみなされます。",
+        "content2": "あなたが組織を代表して本サービスを使用している場合、あなたはその組織を本規約に拘束する権限を持っていることを表明し、保証するものとします。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "TempoLab Pro is a mobile application that provides tempo and pitch audio practice functionality. The Service includes:",
+        "title": "2. サービスの説明",
+        "content": "TempoLab Pro は、テンポとピッチのオーディオ練習機能を提供するモバイル アプリケーションです。サービスには以下が含まれます:",
         "items": [
-          "Import and playback of audio files",
-          "Tempo control (playback speed)",
-          "Pitch shift with optional formant correction",
-          "Tap tempo (BPM detection)",
-          "Loop playback and markers",
-          "5-band EQ and effects",
-          "Export to MP3, WAV, M4A",
-          "Local storage and offline use"
+          "オーディオファイルのインポートと再生",
+          "テンポコントロール（再生速度）",
+          "オプションのフォルマント補正によるピッチシフト",
+          "タップテンポ（BPM検出）",
+          "ループ再生とマーカー",
+          "5バンドEQとエフェクト",
+          "MP3、WAV、M4A にエクスポート",
+          "ローカルストレージとオフラインでの使用"
         ]
       },
       "section19": {
-        "title": "3. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "3. 連絡先情報",
+        "content": "これらの規約についてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "TempoLab Pro is designed with privacy in mind. The app works with audio files you import and stores data locally on your device. We do not collect personal information for the core practice features."
+        "title": "1. 当社が収集する情報",
+        "content": "TempoLab Pro はプライバシーを考慮して設計されています。このアプリはインポートしたオーディオ ファイルを操作し、データをデバイス上にローカルに保存します。当社は、中核的な診療機能のために個人情報を収集しません。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use minimal information to provide and improve the service. Audio files and app data remain on your device. If crash reporting is enabled, we may receive anonymous crash data to fix issues."
+        "title": "2. お客様の情報の使用方法",
+        "content": "当社はサービスの提供と改善のために最小限の情報を使用します。オーディオ ファイルとアプリ データはデバイスに残ります。クラッシュレポートが有効になっている場合、問題を修正するために匿名のクラッシュデータを受け取ることがあります。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties. Your audio and project data stay on your device unless you explicitly export or share them."
+        "title": "3. 情報共有",
+        "content": "当社はお客様の個人情報を第三者に販売したり共有したりすることはありません。オーディオとプロジェクトのデータは、明示的にエクスポートまたは共有しない限り、デバイス上に残ります。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your files and data are stored in the app's local storage, which is not accessible by other apps without your permission."
+        "title": "4. データセキュリティ",
+        "content": "私たちは適切なセキュリティ対策を実施します。ファイルとデータはアプリのローカル ストレージに保存され、許可なしに他のアプリがアクセスすることはできません。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can delete your data at any time by removing the app or clearing app data. You may contact us to request information or deletion of any data we might hold (e.g. crash reports)."
+        "title": "5. お客様の権利",
+        "content": "アプリを削除するか、アプリのデータを消去することで、いつでもデータを削除できます。当社に連絡して、当社が保持する可能性のあるデータ (クラッシュ レポートなど) の情報または削除をリクエストすることができます。"
       },
       "section8": {
-        "title": "6. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "6. お問い合わせ",
+        "content": "このプライバシー ポリシーについてご質問がある場合は、以下までお問い合わせください。",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36、SAAR、郵便局22805、イスラエル"
       },
       "metaDescription": "Tempo Lab Pro プライバシー ポリシー — iOS と Android でのお客様のデータの取り扱い方法。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特徴",
+      "screenshots": "スクリーンショット",
+      "howTo": "使用方法",
+      "tips": "ヒント",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "ダウンロード"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from TempoLab Pro - Tempo & Pitch.",
-      "featuresTitle": "App screens",
+      "title": "スクリーンショット",
+      "subtitle": "TempoLab Pro - テンポとピッチの実際のアプリ画面。",
+      "featuresTitle": "アプリ画面",
       "items": [
         {
-          "id": "practice",
-          "title": "Practice view",
-          "description": "Tempo, time signature, and visual beat in one screen.",
+          "id": "練習する",
+          "title": "練習ビュー",
+          "description": "テンポ、拍子、視覚的なビートを 1 つの画面に表示します。",
           "image": "/images/tempo-lab-pro/screenshot-practice.png",
-          "alt": "Practice view — tempo lab pro",
-          "category": "features"
+          "alt": "練習ビュー — テンポラボプロ",
+          "category": "特徴"
         },
         {
-          "id": "loops",
-          "title": "Loop markers",
-          "description": "Mark sections and loop difficult passages.",
+          "id": "ループ",
+          "title": "ループマーカー",
+          "description": "セクションにマークを付けて、難しいパッセージをループします。",
           "image": "/images/tempo-lab-pro/screenshot-loops.png",
-          "alt": "Loop markers — tempo lab pro",
-          "category": "features"
+          "alt": "ループマーカー — テンポラボプロ",
+          "category": "特徴"
         },
         {
-          "id": "effects",
-          "title": "Effects & EQ",
-          "description": "Shape tone while you practice along.",
+          "id": "効果",
+          "title": "エフェクトとEQ",
+          "description": "一緒に練習しながらトーンをシェイプします。",
           "image": "/images/tempo-lab-pro/screenshot-effects.png",
-          "alt": "Effects & EQ — tempo lab pro",
-          "category": "features"
+          "alt": "エフェクトとEQ — テンポラボプロ",
+          "category": "特徴"
         },
         {
-          "id": "tap-tempo",
-          "title": "Tap tempo",
-          "description": "Set BPM by tapping the beat.",
+          "id": "タップテンポ",
+          "title": "タップテンポ",
+          "description": "ビートをタップしてBPMを設定します。",
           "image": "/images/tempo-lab-pro/screenshot-tap-tempo.png",
-          "alt": "Tap tempo — tempo lab pro",
-          "category": "features"
+          "alt": "タップテンポ — テンポラボプロ",
+          "category": "特徴"
         },
         {
-          "id": "import",
-          "title": "Import & export",
-          "description": "Bring backing tracks and save your presets.",
+          "id": "輸入",
+          "title": "インポートとエクスポート",
+          "description": "バッキングトラックを取り込み、プリセットを保存します。",
           "image": "/images/tempo-lab-pro/screenshot-import.png",
-          "alt": "Import & export — tempo lab pro",
-          "category": "features"
+          "alt": "インポートとエクスポート — テンポラボプロ",
+          "category": "特徴"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "使用方法",
       "steps": [
         {
           "number": "1",
-          "title": "Set tempo",
-          "description": "Enter BPM or tap tempo; pick time signature."
+          "title": "テンポを設定する",
+          "description": "BPM またはタップテンポを入力します。拍子記号を選択します。"
         },
         {
           "number": "2",
-          "title": "Load audio",
-          "description": "Import a track or use the built-in click."
+          "title": "オーディオをロードする",
+          "description": "トラックをインポートするか、内蔵のクリックを使用します。"
         },
         {
           "number": "3",
-          "title": "Mark loops",
-          "description": "Place markers around the section you are drilling."
+          "title": "ループをマークする",
+          "description": "ドリルするセクションの周囲にマーカーを配置します。"
         },
         {
           "number": "4",
-          "title": "Practice & adjust",
-          "description": "Tweak EQ, pitch, and effects as you rehearse."
+          "title": "練習して調整する",
+          "description": "リハーサル中に EQ、ピッチ、エフェクトを微調整します。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "よくある質問",
+      "subtitle": "機能、プライバシー、請求に関する簡単な回答。",
+      "viewAllSupport": "フルサポートを見る & FAQ",
       "items": [
         {
-          "question": "What is TempoLab Pro?",
-          "answer": "A mobile app for practicing with your own audio files: change tempo and pitch, loop sections, add markers, use EQ/reverb/metronome, and export results. Built for musicians, singers, and anyone who learns by listening."
+          "question": "テンポラボプロとは何ですか?",
+          "answer": "独自のオーディオ ファイルを使用して練習するためのモバイル アプリ: テンポとピッチの変更、セクションのループ、マーカーの追加、EQ/リバーブ/メトロノームの使用、結果のエクスポート。ミュージシャン、歌手、そして聞いて学ぶ人のために作られています。"
         },
         {
-          "question": "Which platforms are supported?",
-          "answer": "iOS and Android. iPad and large Android tablets get an enhanced layout with side navigation."
+          "question": "どのプラットフォームがサポートされていますか?",
+          "answer": "iOS と Android。 iPad と大型の Android タブレットでは、サイド ナビゲーションを備えた強化されたレイアウトが得られます。"
         },
         {
-          "question": "Is it free?",
-          "answer": "Yes to download and practice. Ads appear in the free tier. A one-time Remove Ads purchase unlocks Premium features."
+          "question": "無料ですか？",
+          "answer": "はい、ダウンロードして練習してください。無料枠には広告が表示されます。広告の削除を 1 回購入すると、Premium の機能のロックが解除されます。"
         },
         {
-          "question": "What languages are supported?",
-          "answer": "17 locales including English, Hebrew, Arabic, Chinese (Simplified & Traditional), French, German, Italian, Japanese, Korean, Portuguese (BR & PT), Russian, and Spanish."
+          "question": "どの言語がサポートされていますか?",
+          "answer": "英語、ヘブライ語、アラビア語、中国語 (簡体字および繁体字)、フランス語、ドイツ語、イタリア語、日本語、韓国語、ポルトガル語 (BR および PT)、ロシア語、スペイン語を含む 17 のロケール。"
         },
         {
-          "question": "What file formats can I import?",
-          "answer": "Common formats such as MP3, M4A, WAV, and FLAC (device-dependent). If import fails, try another format or a non-DRM copy."
+          "question": "どのようなファイル形式をインポートできますか?",
+          "answer": "MP3、M4A、WAV、FLAC などの一般的な形式 (デバイスに依存します)。インポートが失敗した場合は、別の形式または非 DRM コピーを試してください。"
         },
         {
-          "question": "Why can’t I import my Apple Music / Spotify song?",
-          "answer": "Streaming downloads are often DRM-protected. TempoLab Pro only works with files you have rights to use locally — recordings you made, purchased downloads without DRM, or stems shared with you."
+          "question": "Apple Music / Spotify の曲をインポートできないのはなぜですか?",
+          "answer": "多くの場合、ストリーミング ダウンロードは DRM で保護されています。 TempoLab Pro は、ユーザーがローカルで使用する権利を持つファイル、つまりユーザーが作成した録音、DRM なしでダウンロード購入したファイル、またはユーザーと共有したステムのみを処理します。"
         },
         {
-          "question": "Does changing tempo change pitch?",
-          "answer": "Not by default. Tempo and pitch are independent. Vinyl mode links them intentionally for creative/record-style playback."
+          "question": "テンポを変えるとピッチも変わりますか?",
+          "answer": "デフォルトではありません。テンポとピッチは独立しています。 Vinyl モードでは、クリエイティブ/レコード スタイルの再生のために意図的にそれらをリンクします。"
         },
         {
-          "question": "How precise is looping?",
-          "answer": "You can nudge loop points by ±10 milliseconds — enough to align by ear to transients and grid."
+          "question": "ループの精度はどの程度ですか?",
+          "answer": "ループ ポイントを ±10 ミリ秒単位で調整できます。これは耳でトランジェントとグリッドを調整するには十分です。"
         },
         {
-          "question": "What is formant correction?",
-          "answer": "When shifting pitch on vocals, formant processing helps the voice keep a more natural character instead of sounding overly thin or heavy."
+          "question": "フォルマント補正とは何ですか?",
+          "answer": "ボーカルのピッチを変更する場合、フォルマント処理により、声が過度に薄くなったり重く聞こえるのではなく、より自然なキャラクターを保つことができます。"
         },
         {
-          "question": "What’s the difference between waveform and spectrogram?",
-          "answer": "Waveform shows amplitude over time; spectrogram shows frequency content. Both help you navigate — use whichever reads faster for your material."
+          "question": "波形とスペクトログラムの違いは何ですか?",
+          "answer": "波形は時間の経過に伴う振幅を示します。スペクトログラムは周波数成分を示します。どちらもナビゲートに役立ちます。資料に合わせて、より速く読み取れる方を使用してください。"
         },
         {
-          "question": "Does Practice mode increase tempo automatically?",
-          "answer": "Yes. You set start speed, end speed, and step size; the app ramps speed during the session."
+          "question": "練習モードでは自動的にテンポが上がりますか?",
+          "answer": "はい。開始速度、終了速度、ステップ サイズを設定します。セッション中にアプリの速度が上がります。"
         },
         {
-          "question": "Is there a metronome?",
-          "answer": "Yes — use it alongside your track or with tap tempo to match BPM."
+          "question": "メトロノームはありますか？",
+          "answer": "はい - トラックと一緒に使用するか、BPM に合わせてタップテンポと一緒に使用します。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "ヒントとコツ",
+      "subtitle": "アプリをさらに活用しましょう。",
       "items": [
         {
-          "title": "The 70% rule",
-          "description": "If you can’t play it cleanly at 70% tempo, you’re not ready to speed up. Drop to 60%. Loop four bars, not the whole tune. TempoLab exists so you don’t waste reps on vanity speed. ---"
+          "title": "70% ルール",
+          "description": "70% のテンポできれいに演奏できない場合は、スピードを上げる準備ができていません。 60%まで下がります。曲全体ではなく、4 小節をループします。 TempoLab は、無駄なスピードで担当者を無駄にしないために存在します。 ---"
         },
         {
-          "title": "Mark the money beats",
-          "description": "Before you touch EQ or reverb, mark where the kick lands, where the vocal breathes, where the guitar slides. Your future self will jump there in one tap instead of scrubbing blind. ---"
+          "title": "お金の勝利をマークする",
+          "description": "EQ やリバーブに触れる前に、キックが着地する場所、ボーカルが呼吸する場所、ギターがスライドする場所をマークします。未来のあなたは、盲目的にこするのではなく、ワンタップでそこにジャンプします。 ---"
         },
         {
-          "title": "Loop small, win small",
-          "description": "A two-bar loop beats a thirty-two-bar loop for muscle memory. Set A just before the downbeat, B on the last sixteenth you keep rushing. ±10 ms matters — your ear feels phase before your brain names it. ---"
+          "title": "ループは小さく、勝利は小さく",
+          "description": "筋肉の記憶では、2 小節のループは 32 小節のループよりも優れています。ダウンビートの直前に A を設定し、最後の 16 拍目に B を設定してラッシュを続けます。 ±10 ms matters — 脳が位相を認識する前に、耳が位相を感じます。 ---"
         },
         {
-          "title": "Pitch is for comfort, not cheating",
-          "description": "Transpose down for morning warmups, up to test if a part still speaks when you’re tired. If you’re learning a cover, practice in the original key at least every third session so you don’t surprise yourself at the gig. ---"
+          "title": "ピッチは快適さのためのものであり、不正行為ではありません",
+          "description": "朝のウォームアップのために下に移調し、疲れているときでもパートがまだ発音しているかどうかをテストするために上に移調します。カバーを習っている場合は、ライブで驚かないように、少なくとも 3 セッションごとにオリジナルのキーで練習してください。 ---"
         },
         {
-          "title": "Vinyl mode has a vibe",
-          "description": "When you link tempo and pitch, you get that sampler/record feel — useful for creative practice, not just transcription. Try it on a soul sample: slow down and hear the harmonics move together. ---"
+          "title": "ヴァイナルモードには雰囲気がある",
+          "description": "テンポとピッチをリンクすると、サンプラー/レコードのような感覚が得られ、文字起こしだけでなくクリエイティブな練習にも役立ちます。ソウルのサンプルで試してみてください。速度を落として、ハーモニクスが一緒に動くのを聞いてください。 ---"
         },
         {
-          "title": "EQ while you practice, not after",
-          "description": "Cut 200–400 Hz if the guitar mask is hiding the kick. Boost 3–5 kHz lightly to hear pick attack on acoustic parts. You’re not mastering — you’re making the part audible at low tempo. ---"
+          "title": "EQは練習後ではなく練習中に行う",
+          "description": "ギターマスクがキックを隠している場合は、200 ～ 400 Hz をカットします。 3 ～ 5 kHz を軽くブーストすると、アコースティック パートのピッキング attack が聞こえます。マスタリングしているのではなく、そのパートを低いテンポで聞こえるようにしているのです。 ---"
         },
         {
-          "title": "Practice mode = honest reps",
-          "description": "Set start 65%, end 95%, small steps. The day you fail is data: note the % and loop that bar again tomorrow. Speed is a side effect of accuracy. ---"
+          "title": "練習モード = 正直な担当者",
+          "description": "開始 65%、終了 95%、小さなステップで設定します。失敗した日はデータです。% に注目して、明日もう一度そのバーをループしてください。速度は精度の副作用です。 ---"
         },
         {
-          "title": "Tap tempo before you argue BPM",
-          "description": "Two producers, two numbers. Tap the groove — swing lies to the grid. Use metronome after you agree on feel. ---"
+          "title": "BPMを議論する前にタップテンポ",
+          "description": "2 人のプロデューサー、2 つの番号。溝をタップして、グリッドに合わせてライをスイングします。メトロノームは感触を確かめてからご使用ください。 ---"
         }
       ]
     }

@@ -217,7 +217,8 @@
     "footer": {
       "copyright": "© 2025 Zuki Apps - جميع الحقوق محفوظة. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "مطور في إسرائيل • كهواية • بشغف",
-      "support": "دعم عملي"
+      "support": "دعم عملي",
+      "about": "حول Zuki Apps"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -251,6 +252,12 @@
         "filters": "فلاتر وملصقات",
         "private": "بدون تسجيل دخول"
       }
+    },
+    "seoTitle": "Zuki Apps — iOS و Android تطبيقات الهاتف المحمول",
+    "metaDescription": "تطبيقات الهاتف المحمول ذات الخصوصية الأولى من إسرائيل: Hush Gallery، ZuList، Whistle Camera، مؤقتات HIIT والمزيد. مجانًا على iOS وAndroid.",
+    "aboutTeaser": {
+      "body": "مطور مستقل في إسرائيل - بدءًا من تطبيقات DreamBit وحتى تطبيقات Flutter التي تهتم بالخصوصية أولاً، مع الرسوم التوضيحية الأصلية لـ Zuli Monster في كل تطبيق.",
+      "cta": "قصتنا & Zuli Monsters →"
     }
   },
   "common": {
@@ -303,5 +310,19 @@
       "email": "zuki.apps.dev@gmail.com",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
+  },
+  "about": {
+    "metaTitle": "حول Zuki Apps — مطور هواتف محمولة | Zuki Apps",
+    "metaDescription": "Zuki Apps يبني تطبيقات الخصوصية أولاً iOS وAndroid من إسرائيل - ZuList، Hush Gallery، Whistle Camera والمزيد. تعرف على المطور.",
+    "title": "حول Zuki Apps",
+    "subtitle": "مطور هواتف محمولة مستقل — iOS & Android",
+    "p1": "Zuki Apps هو استوديو مستقل لبرامج الهاتف المحمول ومقره في إسرائيل. نحن نشحن تطبيقات عملية تراعي الخصوصية للحياة اليومية - خزائن صور خاصة، وكاميرات بدون استخدام اليدين، وقوائم التسوق المشتركة، ومؤقتات اللياقة البدنية، وألعاب المعلومات العامة، وأدوات المطورين.",
+    "p2": "تم تصميم كل تطبيق باستخدام Flutter للحصول على تجربة متسقة على iPhone وiPad وAndroid. نحن نفضل المعالجة على الجهاز، وسياسات الخصوصية الواضحة، والتدفقات بدون حساب حيثما أمكن ذلك.",
+    "p3": "بين عامي 2012 و2016، تم شحن تطبيقاتنا ضمن تطبيقات DreamBit. واليوم يواصل كتالوج Zuki Apps هذه الحرفة بعناوين جديدة ودعم طويل الأمد للمستخدمين الحاليين.",
+    "contactTitle": "اتصال",
+    "contactBody": "الأسئلة أو الاستفسارات الصحفية أو الشراكة:",
+    "address": "Nachshol 36، سار، ص. 22805، إسرائيل",
+    "catalogTitle": "كتالوج التطبيقات",
+    "catalogBody": "تصفح جميع صفحات المنتج والدعم والسياسات من الصفحة الرئيسية أو من الكتالوج القابل للقراءة آليًا على /api/site-facts."
   }
 }

@@ -283,7 +283,7 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-4 text-white">{t('screenshots.title')}</h2>
             <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">{t('screenshots.subtitle')}</p>
-            {featureShots.length > 0 && (
+            {featureShots.length > 0 && hasMessage(t, 'screenshots.featuresTitle') && (
               <>
                 <h3 className={`text-2xl font-bold ${a.heading} mb-6`}>{t('screenshots.featuresTitle')}</h3>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 items-start">

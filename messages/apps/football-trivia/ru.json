@@ -1,13 +1,18 @@
 {
   "footballTrivia": {
-    "back": "Back to Home",
+    "back": "Вернуться домой",
     "hero": {
-      "title": "Football Trivia Master",
+      "title": "Мастер футбольных мелочей",
       "subtitle": "210+ questions • World Football, National Teams, World Cups, 2026 World Cup",
-      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps."
+      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps.",
+      "seoTitle": "Футбольная викторина — футбольная викторина | Zuki Apps",
+      "metaDescription": "Более 450 вопросов футбольной викторины на время, серии и таблицы лидеров. Бесплатно на iOS и Android — скачайте прямо сейчас.",
+      "structuredDataDescription": "Football Trivia Master — футбольная викторина для iOS и Android с более чем 450 временными вопросами по мировому футболу, национальным сборным, глобальным финалам и обзору турниров. Пакет com.zuki.apps.footballtrivia от Zuki Apps.",
+      "badge": "Бесплатная футбольная викторина · iOS и Android",
+      "trustLine": "Независимое развлечение от Zuki Apps. Не связан ни с какой лигой, федерацией, клубом или организатором турниров."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Ключевые особенности",
       "categories": {
         "title": "4 Categories",
         "description": "210+ questions across four themes",
@@ -35,111 +40,337 @@
           "Accuracy tracking",
           "Points with streak bonuses"
         ]
-      }
+      },
+      "items": [
+        {
+          "title": "Четыре тематические категории",
+          "description": "Мировой футбол, национальные сборные, глобальные финалы и турниры."
+        },
+        {
+          "title": "Гонка на время",
+          "description": "Вопросы на время: легкий (20 секунд), средний (15 секунд) или сложный (12 секунд). Включайте жесткий режим на 12 секунд каждый раунд."
+        },
+        {
+          "title": "Полосы и результативность",
+          "description": "Правильные ответы по цепочке дают до +50% бонуса за серию и большой бонус за идеальный раунд на 10/10."
+        },
+        {
+          "title": "Конкурируйте по всему миру",
+          "description": "Game Center (iOS) и Play Games (Android) для достижений и таблиц лидеров."
+        },
+        {
+          "title": "12 языков",
+          "description": "Арабский, китайский, английский, французский, немецкий, иврит, итальянский, японский, корейский, португальский, русский, испанский."
+        },
+        {
+          "title": "Играй по-своему",
+          "description": "Темная или светлая тема, подробная статистика, возможность однократного удаления рекламы, согласие GDPR в настройках."
+        }
+      ]
     },
     "status": {
-      "title": "Available on App Store and Google Play",
-      "description": "Football Trivia Master is live on iPhone, iPad, and Android.",
+      "title": "Доступно на App Store и Google Play.",
+      "description": "Football Trivia Master доступен на iPhone, iPad и Android.",
       "statusValue": "iOS · Android",
-      "version": "Version",
-      "status": "Platform",
+      "version": "Версия",
+      "status": "Платформа",
       "versionValue": "1.0.4+13"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Football Trivia Master on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "Скачать",
+      "description": "Получите Football Trivia Master на App Store и Google Play.",
+      "soon": "Доступно сейчас",
       "appStoreUrl": "https://apps.apple.com/il/app/football-trivia-master/id6760652362",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "Скачать на App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.footballtrivia",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Получите это на Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Важные ссылки",
       "support": {
-        "title": "Technical Support",
+        "title": "Техническая поддержка",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "footer": {
       "copyright": "© 2026 Football Trivia Master - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "tagline": "Часть Zuki Apps • Разработчик из Израиля • Сделано с ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Football Trivia Master. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "Условия эксплуатации",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
+      "intro": "Пожалуйста, внимательно прочтите настоящие Условия использования перед использованием Football Trivia Master. Получая доступ к нашему сервису или используя его, вы соглашаетесь соблюдать эти условия.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use govern your access to and use of Football Trivia Master, a trivia game operated by Zuki Apps. By downloading, installing, or using the Service, you agree to be bound by these Terms and our Privacy Policy."
+        "title": "1. Принятие Условий",
+        "content": "Настоящие Условия использования регулируют ваш доступ и использование Football Trivia Master, викторины, управляемой Zuki Apps. Загружая, устанавливая или используя Сервис, вы соглашаетесь соблюдать настоящие Условия и нашу Политику конфиденциальности."
       },
       "section19": {
-        "title": "Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "Контактная информация",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящих Условий, свяжитесь с нами:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "политика конфиденциальности",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Football Trivia Master collects minimal information necessary to provide the service. Game progress and statistics are stored locally on your device. We may collect information you provide when you contact support."
+        "title": "1. Информация, которую мы собираем",
+        "content": "Football Trivia Master собирает минимальную информацию, необходимую для предоставления услуги. Ход игры и статистика хранятся локально на вашем устройстве. Мы можем собирать информацию, которую вы предоставляете при обращении в службу поддержки."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide and improve our services. Locally stored data is not transmitted to our servers except as needed for optional features."
+        "title": "2. Как мы используем вашу информацию",
+        "content": "Мы используем эту информацию для предоставления и улучшения наших услуг. Локально хранящиеся данные не передаются на наши серверы, за исключением случаев, когда это необходимо для дополнительных функций."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties."
+        "title": "3. Обмен информацией",
+        "content": "Мы не продаем и не передаем вашу личную информацию третьим лицам."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device."
+        "title": "4. Безопасность данных",
+        "content": "Мы реализуем соответствующие меры безопасности. Ваши игровые данные хранятся локально на вашем устройстве."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings. You may delete the app at any time."
+        "title": "5. Ваши права",
+        "content": "Вы можете очистить локальные данные через настройки приложения. Вы можете удалить приложение в любое время."
       },
       "section6": {
-        "title": "6. Changes to This Policy",
-        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app or on our website."
+        "title": "6. Изменения в настоящей Политике",
+        "content": "Мы можем время от времени обновлять настоящую Политику конфиденциальности. Мы сообщим вам о любых изменениях, опубликовав новую политику в приложении или на нашем сайте."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. Свяжитесь с нами",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящей Политики конфиденциальности, свяжитесь с нами по адресу:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       },
       "metaDescription": "Политика конфиденциальности Football Trivia — как мы обрабатываем ваши данные на iOS и Android."
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Contact us directly.",
+      "title": "Поддержка и помощь",
+      "subtitle": "Мы здесь, чтобы помочь! Свяжитесь с нами напрямую.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email.",
+        "title": "Связаться с нами",
+        "description": "Есть вопросы или нужна помощь? Отправьте нам электронное письмо.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "Быстрые ссылки",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "политика конфиденциальности",
+          "description": "Узнайте, как мы защищаем ваши данные"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "Условия использования",
+          "description": "Прочтите наши условия"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
+        "title": "Нужна дополнительная помощь?",
+        "description": "Если у вас есть вопросы или возникли технические проблемы, пожалуйста, свяжитесь с нами. Обычно мы отвечаем в течение 24–48 часов."
       },
       "metaTitle": "Поддержка и помощь — Футбольная мелочь | Zuki Apps",
       "metaDescription": "Футбольная викторина FAQ и поддержка — футбольная викторина. Контакты, конфиденциальность и устранение неполадок."
+    },
+    "howToUse": {
+      "title": "Как играть",
+      "subtitle": "Полный раунд занимает около 3–5 минут. Учетная запись не требуется — войдите только для просмотра таблиц лидеров.",
+      "steps": [
+        {
+          "title": "Нажмите «Начать игру».",
+          "description": "С главного экрана. При желании переключите жесткий режим на 12 секунд на каждый вопрос."
+        },
+        {
+          "title": "Выберите категорию",
+          "description": "Все категории для микса или сосредоточьтесь на одном из четырех тематических бассейнов."
+        },
+        {
+          "title": "Ответьте на 10 вопросов",
+          "description": "Нажмите один из четырех вариантов, прежде чем истечет таймер. Правильные ответы улучшат вашу результативность."
+        },
+        {
+          "title": "Просмотрите свои результаты",
+          "description": "Посмотрите разбивку очков, точность и любые разблокированные достижения."
+        },
+        {
+          "title": "Поднимитесь в таблице лидеров",
+          "description": "Войдите в систему с помощью Play Games или Game Center, затем откройте таблицу лидеров из дома."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Часто задаваемые вопросы",
+      "subtitle": "Быстрые ответы перед загрузкой.",
+      "viewAllSupport": "Посмотреть всю поддержку →",
+      "items": [
+        {
+          "question": "Является ли Football Trivia Master бесплатным?",
+          "answer": "Да. Приложение можно бесплатно скачать и играть. Между сеансами появляются дополнительные баннеры и промежуточные объявления. Вы можете навсегда удалить рекламу, совершив единоразовую покупку в приложении в настройках."
+        },
+        {
+          "question": "Нужен ли мне аккаунт?",
+          "answer": "Для игры в викторину не требуется учетная запись. Войдите в систему с помощью Game Center (iOS) или Google Play Игры (Android), только если вам нужны списки лидеров и достижения."
+        },
+        {
+          "question": "Какие устройства поддерживаются?",
+          "answer": "iPhone и iPad (iOS) и Android телефоны и планшеты. Приложение оптимизировано для портретной игры."
+        },
+        {
+          "question": "Какие языки доступны?",
+          "answer": "арабский, китайский (упрощенный и традиционный), английский, французский, немецкий, иврит, итальянский, японский, корейский, португальский, русский и испанский. Измените язык в «Настройки» → «Язык»."
+        },
+        {
+          "question": "Сколько вопросов в раунде?",
+          "answer": "В каждом раунде есть 10 вопросов с несколькими вариантами ответов, если вы не выйдете раньше."
+        },
+        {
+          "question": "Что такое жесткий режим на главном экране?",
+          "answer": "Сложный режим ограничивает продолжительность каждого вопроса 12 секундами и позволяет разблокировать особые достижения. Он не связан с выбором уровня сложности «Сложно» в категории — используйте его, если хотите максимальной сложности."
+        },
+        {
+          "question": "Как работает скоринг?",
+          "answer": "Очки начисляются за сложность вопроса, бонус времени (ответ, когда осталось как минимум половина таймера), множители серий (до + 50% после 5 правильных ответов подряд) и бонус за идеальный раунд, когда вы набираете 10/10. Нажмите ? значок на главном экране для руководства по подсчету очков в приложении."
+        },
+        {
+          "question": "Могу ли я играть в автономном режиме?",
+          "answer": "Да. Вопросы хранятся в приложении. Таблицы лидеров, достижения, реклама и покупки требуют подключения к Интернету."
+        },
+        {
+          "question": "Почему я не вижу таблицу лидеров?",
+          "answer": "На Android войдите в Google Play Games, когда появится соответствующий запрос. На iOS включите Game Center для приложения. Если вход не удался, обновите приложение, проверьте свою учетную запись Google/Apple и повторите попытку в настройках."
+        },
+        {
+          "question": "Являются ли списки лидеров глобальными?",
+          "answer": "Да. Результаты отправляются в таблицы лидеров платформы (Game Center / Play Games) для вашего региона и друзей."
+        },
+        {
+          "question": "Как удалить рекламу?",
+          "answer": "Откройте «Настройки» → «Удалить рекламу» и завершите единоразовую покупку. Используйте «Повторить», если магазин отвечает медленно. Восстановление покупок на новом устройстве через ту же учетную запись магазина."
+        },
+        {
+          "question": "Почему я все еще вижу рекламу после покупки?",
+          "answer": "Убедитесь, что покупка завершена (проверьте квитанцию ​​по электронной почте). Нажмите «Восстановить» в настройках. Принудительно закройте и снова откройте приложение. Свяжитесь со службой поддержки, если проблема с квитанцией магазина не исчезнет."
+        },
+        {
+          "question": "Есть ли подписки?",
+          "answer": "Нет. Удаление рекламы – это единоразовая покупка, а не подписка."
+        },
+        {
+          "question": "Какие данные вы собираете?",
+          "answer": "Ознакомьтесь с нашей Политикой конфиденциальности по адресу zukiapps.com/football-trivia/privacy. Отчеты о сбоях можно отправлять через Firebase Crashlytics для повышения стабильности. Рекламные партнеры могут собирать данные в соответствии с вашим выбором согласия в настройках."
+        },
+        {
+          "question": "Как мне связаться со службой поддержки?"
+        },
+        {
+          "question": "Это официальное приложение FIFA или World Cup?",
+          "answer": "Нет. Football Trivia Master — это независимое развлечение от Zuki Apps. Мы не связаны с ФИФА, какой-либо федерацией, лигой, клубом или организатором турниров."
+        }
+      ]
+    },
+    "statsBar": {
+      "items": [
+        {
+          "label": "Вопросы",
+          "value": "450+"
+        },
+        {
+          "label": "Категории"
+        },
+        {
+          "label": "Языки"
+        },
+        {
+          "label": "За раунд"
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "Функции",
+      "screenshots": "Скриншоты",
+      "howTo": "Как играть",
+      "faq": "FAQ",
+      "tips": "Советы профессионалов",
+      "download": "Скачать"
+    },
+    "screenshots": {
+      "title": "Внутри приложения",
+      "subtitle": "Снимки с реальных устройств — домашняя страница, категории, игровой процесс, результаты, таблица лидеров и статистика.",
+      "featuresTitle": "Экраны приложений",
+      "items": [
+        {
+          "id": "дом",
+          "title": "Ваш центр для каждого раунда",
+          "description": "Запуск игры, панель статистики, сложный режим и быстрые ссылки на таблицу лидеров и достижения.",
+          "alt": "Главный экран Football Trivia Master с функцией «Начать игру»",
+          "category": "функции"
+        },
+        {
+          "id": "категория",
+          "title": "Четыре темы + смешать все",
+          "description": "Выберите «Мировой футбол», «Национальные сборные», «Глобальные финалы», «В центре внимания турнира» или «Все категории».",
+          "alt": "Выбор категории «Футбольные викторины»",
+          "category": "функции"
+        },
+        {
+          "id": "игра",
+          "title": "Ударить часы",
+          "description": "Четыре варианта каждого вопроса с видимым таймером и индикатором серии.",
+          "alt": "Экран вопросов о футболе с таймером",
+          "category": "функции"
+        },
+        {
+          "id": "результаты",
+          "title": "Просматривайте каждое заработанное вами очко",
+          "description": "Разбивка очков, точность и достижения открываются после каждого раунда.",
+          "alt": "Результаты Football Trivia и разбивка очков",
+          "category": "функции"
+        },
+        {
+          "id": "таблица лидеров",
+          "title": "Соревнуйтесь по всему миру",
+          "description": "Глобальный рейтинг по играм Game Center или Google Play.",
+          "alt": "Глобальная таблица лидеров Football Trivia",
+          "category": "функции"
+        },
+        {
+          "id": "статистика",
+          "title": "Отслеживать улучшения",
+          "description": "Сыгранные игры, точность и производительность по категориям.",
+          "alt": "Экран статистики Football Trivia",
+          "category": "функции"
+        }
+      ]
+    },
+    "tips": {
+      "title": "Советы профессионалов",
+      "subtitle": "Маленькие привычки, которые попадают в таблицу лидеров.",
+      "items": [
+        {
+          "title": "Защитите свою серию",
+          "description": "Максимальный коэффициент множителей серий составляет +50% (5 правильных результатов подряд). Один неправильный ответ обнуляется."
+        },
+        {
+          "title": "Гоняйтесь за бонусом времени",
+          "description": "Ответьте, пока осталось не менее половины таймера, и получите до +50 бонусных баллов за вопрос."
+        },
+        {
+          "title": "Идеальные раунды окупаются",
+          "description": "+150 баллов за 10/10 — часто более двух средних вопросов вместе взятых."
+        },
+        {
+          "title": "Разминка со всеми категориями",
+          "description": "Смешанные раунды обнажают слабые места. Проверьте статистику и определите самую низкую категорию."
+        },
+        {
+          "title": "Войдите в систему перед серьезной пробежкой",
+          "description": "Откройте таблицу лидеров один раз за сеанс, чтобы убедиться, что Game Center / Play Games подключено."
+        },
+        {
+          "title": "Соотнесите язык со своими знаниями",
+          "description": "Вопросы локализованы — переключите их в настройках, если вам больше подходит другой язык."
+        }
+      ]
     }
   }
 }

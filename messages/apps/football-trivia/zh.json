@@ -1,13 +1,18 @@
 {
   "footballTrivia": {
-    "back": "Back to Home",
+    "back": "返回首页",
     "hero": {
-      "title": "Football Trivia Master",
+      "title": "足球问答大师",
       "subtitle": "210+ questions • World Football, National Teams, World Cups, 2026 World Cup",
-      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps."
+      "description": "A Flutter trivia game to test your football knowledge. 210+ questions in 4 categories: World Football, National Teams, World Cups, and 2026 World Cup. Difficulty levels (Easy, Medium, Hard), score system with streak bonuses, and statistics. Part of Zuki Apps.",
+      "seoTitle": "足球问答——足球问答游戏| Zuki Apps",
+      "metaDescription": "450 多个定时足球测验问题、连胜和排行榜。 iOS 和 Android 免费 — 立即下载。",
+      "structuredDataDescription": "Football Trivia Master — iOS 和 Android 的足球测验，包含 450 多个计时问题，涉及世界足球、国家队、全球总决赛和锦标赛焦点。由 Zuki Apps 提供的包 com.zuki.apps.footballtrivia。",
+      "badge": "免费足球测验 · iOS & Android",
+      "trustLine": "Zuki Apps的独立娱乐。不隶属于任何联盟、联合会、俱乐部或锦标赛组织者。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主要特点",
       "categories": {
         "title": "4 Categories",
         "description": "210+ questions across four themes",
@@ -35,111 +40,337 @@
           "Accuracy tracking",
           "Points with streak bonuses"
         ]
-      }
+      },
+      "items": [
+        {
+          "title": "四大主题类别",
+          "description": "世界足球、国家队、全球总决赛和锦标赛焦点。"
+        },
+        {
+          "title": "与时间赛跑",
+          "description": "限时问题有“简单”（20 秒）、“中等”（15 秒）或“困难”（12 秒）。每轮启用困难模式 12 秒。"
+        },
+        {
+          "title": "连胜和得分",
+          "description": "连续正确答案可获得高达 +50% 的连胜奖金和 10/10 的巨额完美回合奖金。"
+        },
+        {
+          "title": "全球竞争",
+          "description": "Game Center (iOS) 和Play Games (Android) 用于成就和排行榜。"
+        },
+        {
+          "title": "12种语言",
+          "description": "阿拉伯语、中文、英语、法语、德语、希伯来语、意大利语、日语、韩语、葡萄牙语、俄语、西班牙语。"
+        },
+        {
+          "title": "按你的方式玩",
+          "description": "深色或浅色主题、详细统计数据、可选的一次性广告删除、设置中的 GDPR 同意。"
+        }
+      ]
     },
     "status": {
-      "title": "Available on App Store and Google Play",
-      "description": "Football Trivia Master is live on iPhone, iPad, and Android.",
-      "statusValue": "iOS · Android",
-      "version": "Version",
-      "status": "Platform",
+      "title": "适用于 App Store 和 Google Play",
+      "description": "Football Trivia Master 已在 iPhone、iPad 和 Android 上上线。",
+      "statusValue": "iOS·Android",
+      "version": "版本",
+      "status": "平台",
       "versionValue": "1.0.4+13"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Football Trivia Master on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "下载",
+      "description": "在 App Store 和 Google Play 上获取足球问答大师。",
+      "soon": "现已上市",
       "appStoreUrl": "https://apps.apple.com/il/app/football-trivia-master/id6760652362",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "下载App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.footballtrivia",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "获取Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要链接",
       "support": {
-        "title": "Technical Support",
+        "title": "技术支援",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "footer": {
       "copyright": "© 2026 Football Trivia Master - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "tagline": "Zuki Apps 的一部分 • 来自以色列的开发商 • 由 ❤️ 制作"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Football Trivia Master. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
+      "intro": "在使用足球问答大师之前，请仔细阅读这些使用条款。通过访问或使用我们的服务，您同意受这些条款的约束。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use govern your access to and use of Football Trivia Master, a trivia game operated by Zuki Apps. By downloading, installing, or using the Service, you agree to be bound by these Terms and our Privacy Policy."
+        "title": "1. 接受条款",
+        "content": "这些使用条款管辖您对 Football Trivia Master 的访问和使用，这是一款由 Zuki Apps 运营的问答游戏。下载、安装或使用服务，即表示您同意受这些条款和我们的隐私政策的约束。"
       },
       "section19": {
-        "title": "Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "联系信息",
+        "content": "如果您对这些条款有任何疑问，请联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Football Trivia Master collects minimal information necessary to provide the service. Game progress and statistics are stored locally on your device. We may collect information you provide when you contact support."
+        "title": "1. 我们收集的信息",
+        "content": "Football Trivia Master 收集提供服务所需的最少信息。游戏进度和统计数据存储在您的设备本地。当您联系支持人员时，我们可能会收集您提供的信息。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide and improve our services. Locally stored data is not transmitted to our servers except as needed for optional features."
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用这些信息来提供和改进我们的服务。除非可选功能需要，否则本地存储的数据不会传输到我们的服务器。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties."
+        "title": "3. 信息共享",
+        "content": "我们不会向第三方出售或分享您的个人信息。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device."
+        "title": "4. 数据安全",
+        "content": "我们实施适当的安全措施。您的游戏数据存储在您的设备本地。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings. You may delete the app at any time."
+        "title": "5. 您的权利",
+        "content": "您可以通过应用程序的设置清除本地数据。您可以随时删除该应用程序。"
       },
       "section6": {
-        "title": "6. Changes to This Policy",
-        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app or on our website."
+        "title": "6. 本政策的变更",
+        "content": "我们可能会不时更新本隐私政策。我们将通过在应用程序或我们的网站上发布新政策来通知您任何更改。"
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. 联系我们",
+        "content": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       },
       "metaDescription": "足球问答隐私政策 — 我们如何处理您在 iOS 和 Android 上的数据。"
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Contact us directly.",
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！直接联系我们。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email.",
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发电子邮件。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "快速链接",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you have a question or are experiencing a technical issue, please contact us. We typically respond within 24-48 hours."
+        "title": "需要更多帮助吗？",
+        "description": "如果您有疑问或遇到技术问题，请联系我们。我们通常会在 24-48 小时内回复。"
       },
       "metaTitle": "支持与帮助 — 足球问答 | Zuki Apps",
       "metaDescription": "足球问答 FAQ 和支持 — 足球问答游戏。联系方式、隐私和故障排除。"
+    },
+    "howToUse": {
+      "title": "怎么玩",
+      "subtitle": "完整一轮大约需要 3-5 分钟。无需帐户 - 仅登录排行榜。",
+      "steps": [
+        {
+          "title": "点击开始游戏",
+          "description": "从主屏幕。可以选择将每个问题切换 12 秒的困难模式。"
+        },
+        {
+          "title": "选择一个类别",
+          "description": "混合所有类别，或专注于四个主题池之一。"
+        },
+        {
+          "title": "回答 10 个问题",
+          "description": "在计时器耗尽之前点击四个选项之一。正确的答案会增强你的连胜。"
+        },
+        {
+          "title": "查看您的结果",
+          "description": "查看分数明细、准确性以及已解锁的任何成就。"
+        },
+        {
+          "title": "登上排行榜",
+          "description": "通过Play Games或Game Center登录，然后从家里打开排行榜。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "下载前快速解答。",
+      "viewAllSupport": "查看所有支持 →",
+      "items": [
+        {
+          "question": "足球问答大师是免费的吗？",
+          "answer": "是的。该应用程序可免费下载和播放。会话之间会出现可选的横幅广告和插页式广告。您可以通过“设置”中的一次性应用内购买永久删除广告。"
+        },
+        {
+          "question": "我需要一个帐户吗？",
+          "answer": "玩问答游戏不需要帐户。仅当您想要排行榜和成就时，才使用 Game Center (iOS) 或 Google Play 游戏 (Android) 登录。"
+        },
+        {
+          "question": "支持哪些设备？",
+          "answer": "iPhone 和 iPad (iOS) 以及 Android 手机和平板电脑。该应用程序针对纵向游戏进行了优化。"
+        },
+        {
+          "question": "有哪些语言可用？",
+          "answer": "阿拉伯语、中文（简体和繁体）、英语、法语、德语、希伯来语、意大利语、日语、韩语、葡萄牙语、俄语和西班牙语。在“设置”→“语言”中更改语言。"
+        },
+        {
+          "question": "每轮有多少个问题？",
+          "answer": "每轮有 10 道多项选择题，除非您提前退出。"
+        },
+        {
+          "question": "主屏幕上的困难模式是什么？",
+          "answer": "困难模式将每个问题限制为 12 秒，并且可以解锁特殊成就。它与在类别中选择“困难”难度是分开的——当您想要最大的挑战时使用它。"
+        },
+        {
+          "question": "评分如何运作？",
+          "answer": "Points come from question difficulty, a time bonus (answer with at least half the timer left), streak multipliers (up to +50% after 5 correct in a row), and a perfect-round bonus when you get 10/10.点击 ?主屏幕上的图标可获取应用内评分指南。"
+        },
+        {
+          "question": "我可以离线玩吗？",
+          "answer": "是的。问题存储在应用程序中。排行榜、成就、广告和购买都需要互联网连接。"
+        },
+        {
+          "question": "为什么我看不到排行榜？",
+          "answer": "在 Android 上，出现提示时登录Google Play 游戏。在 iOS 上，为应用程序启用 Game Center。如果登录失败，请更新应用程序，检查您的 Google/Apple 帐户，然后从“设置”中重试。"
+        },
+        {
+          "question": "排行榜是全球性的吗？",
+          "answer": "是的。分数将提交至您所在地区和好友的平台排行榜 (Game Center / Play Games)。"
+        },
+        {
+          "question": "如何删除广告？",
+          "answer": "打开设置→去除广告并完成一次性购买。如果商店响应缓慢，请使用重试。通过同一商店帐户在新设备上恢复购买。"
+        },
+        {
+          "question": "为什么我购买后仍然看到广告？",
+          "answer": "确保购买完成（检查电子邮件收据）。点击“设置”中的“恢复”。强制退出并重新打开应用程序。如果您的商店收据问题仍然存在，请联系支持人员。"
+        },
+        {
+          "question": "有订阅吗？",
+          "answer": "不。广告删除是一次性购买，而不是订阅。"
+        },
+        {
+          "question": "您收集什么数据？",
+          "answer": "请参阅我们的隐私政策：zukiapps.com/football-trivia/privacy。崩溃报告可以通过 Firebase Crashlytics 发送，以提高稳定性。广告合作伙伴可能会根据您在“设置”中的同意选择收集数据。"
+        },
+        {
+          "question": "如何联系支持人员？"
+        },
+        {
+          "question": "这是 FIFA 或世界杯的官方应用程序吗？",
+          "answer": "不，足球问答大师是Zuki Apps的独立娱乐。我们不隶属于国际足联、任何联合会、联赛、俱乐部或锦标赛组织者。"
+        }
+      ]
+    },
+    "statsBar": {
+      "items": [
+        {
+          "label": "问题",
+          "value": "450+"
+        },
+        {
+          "label": "类别"
+        },
+        {
+          "label": "语言"
+        },
+        {
+          "label": "每轮"
+        }
+      ]
+    },
+    "pageNav": {
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "怎么玩",
+      "faq": "FAQ",
+      "tips": "专业提示",
+      "download": "下载"
+    },
+    "screenshots": {
+      "title": "应用程序内部",
+      "subtitle": "真实设备捕获 - 主页、类别、游戏玩法、结果、排行榜和统计数据。",
+      "featuresTitle": "应用程序屏幕",
+      "items": [
+        {
+          "id": "家",
+          "title": "您每一轮的枢纽",
+          "description": "开始游戏、统计栏、困难模式以及排行榜和成就的快速链接。",
+          "alt": "足球问答大师主屏幕与开始游戏",
+          "category": "特征"
+        },
+        {
+          "id": "类别",
+          "title": "四个主题+混合所有",
+          "description": "选择世界足球、国家队、全球总决赛、锦标赛焦点或所有类别。",
+          "alt": "足球问答类别选择器",
+          "category": "特征"
+        },
+        {
+          "id": "游戏",
+          "title": "打败时钟",
+          "description": "每个问题有四个选项，带有可见的计时器和条纹指示器。",
+          "alt": "带计时器的足球问答题屏幕",
+          "category": "特征"
+        },
+        {
+          "id": "结果",
+          "title": "查看您获得的每一分",
+          "description": "每轮结束后解锁分数明细、准确性和成就。",
+          "alt": "足球问答比赛结果和得分明细",
+          "category": "特征"
+        },
+        {
+          "id": "排行榜",
+          "title": "参与全球竞争",
+          "description": "通过Game Center或Google Play游戏进行全球排名。",
+          "alt": "足球问答全球排行榜",
+          "category": "特征"
+        },
+        {
+          "id": "统计数据",
+          "title": "跟踪改进",
+          "description": "按类别划分的玩过的游戏、准确性和表现。",
+          "alt": "足球问答统计屏幕",
+          "category": "特征"
+        }
+      ]
+    },
+    "tips": {
+      "title": "专业提示",
+      "subtitle": "累积在排行榜上的小习惯。",
+      "items": [
+        {
+          "title": "保护你的连胜",
+          "description": "连胜乘数上限为 +50%（连续 5 次正确）。一个错误的答案将重置为零。"
+        },
+        {
+          "title": "追逐时间红利",
+          "description": "在至少剩余一半的时间内回答，每个问题最多可获得 +50 奖励积分。"
+        },
+        {
+          "title": "完美的回合回报",
+          "description": "10/10 + 150 分——通常超过两个平均问题的总和。"
+        },
+        {
+          "title": "所有类别的热身",
+          "description": "混合回合暴露了弱点。检查统计数据并钻取最低类别。"
+        },
+        {
+          "title": "在认真跑步之前登录",
+          "description": "每个会话打开一次排行榜以确认 Game Center / Play Games 已连接。"
+        },
+        {
+          "title": "将语言与您的知识相匹配",
+          "description": "问题已本地化 - 如果另一种语言更适合您，请在“设置”中切换。"
+        }
+      ]
     }
   }
 }

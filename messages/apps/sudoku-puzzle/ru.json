@@ -1,337 +1,339 @@
 {
   "sudokuPuzzle": {
-    "back": "Back to Home",
+    "back": "Вернуться домой",
     "hero": {
-      "badge": "Available on App Store",
-      "title": "Sudoku Fun Go - Classic Sudoku",
-      "subtitle": "9×9 Sudoku Puzzle Game",
-      "description": "A classic 9×9 Sudoku game built with Flutter for iOS and Android. Four difficulty levels (Easy, Medium, Hard, Expert), optional notes and hints, undo/erase, running timer, and persistent statistics. Fully localized in 12 languages. Game Center and Play Games leaderboards and achievements.",
-      "structuredDataDescription": "Sudoku Fun Go — classic Sudoku puzzle game for iOS and Android. Multiple difficulties, hints, statistics, clean grid UI, 12+ languages. Android com.zuki.apps.sudokupuzzle by Zuki Apps."
+      "badge": "Доступно App Store",
+      "title": "Sudoku Fun Go — Классическое судоку",
+      "subtitle": "Игра-головоломка-судоку 9×9",
+      "description": "Классическая игра-судоку 9×9, созданная с помощью Flutter для iOS и Android. Четыре уровня сложности (легкий, средний, сложный, эксперт), дополнительные примечания и подсказки, отмена/стирание, работающий таймер и постоянная статистика. Полностью локализовано на 12 языках. Game Center и Play Games таблицы лидеров и достижений.",
+      "structuredDataDescription": "Sudoku Fun Go — классическая игра-головоломка судоку для iOS и Android. Множественные трудности, подсказки, статистика, чистый пользовательский интерфейс сетки, более 12 языков. Android com.zuki.apps.sudokupголоволомка от Zuki Apps.",
+      "seoTitle": "Sudoku Fun Go — Классические головоломки 9×9 | Zuki Apps",
+      "metaDescription": "Чистое судоку с подсказками и статистикой. Работает в автономном режиме. Бесплатно на iOS и Android — скачайте сегодня."
     },
     "features": {
-      "title": "Key Features",
+      "title": "Ключевые особенности",
       "difficulty": {
-        "title": "Difficulty Levels",
-        "description": "Choose your challenge with four difficulty levels",
+        "title": "Уровни сложности",
+        "description": "Выберите задачу с четырьмя уровнями сложности.",
         "items": [
-          "Easy",
-          "Medium",
-          "Hard",
-          "Expert"
+          "Легкий",
+          "Середина",
+          "Жесткий",
+          "Эксперт"
         ]
       },
       "gameplay": {
-        "title": "Notes, Hints & Tools",
-        "description": "Full set of tools to help you solve puzzles",
+        "title": "Примечания, подсказки и инструменты",
+        "description": "Полный набор инструментов, которые помогут вам решать головоломки.",
         "items": [
-          "Notes mode for pencil candidates",
-          "Hints for the selected cell",
-          "Undo and erase",
-          "Running timer",
-          "Mistake counter"
+          "Режим заметок для кандидатов с карандашом",
+          "Подсказки для выбранной ячейки",
+          "Отменить и стереть",
+          "Таймер запуска",
+          "Счетчик ошибок"
         ]
       },
       "stats": {
-        "title": "Statistics",
-        "description": "Track your progress and improve",
+        "title": "Статистика",
+        "description": "Отслеживайте свой прогресс и совершенствуйтесь",
         "items": [
-          "Games won and win rate",
-          "Best times per difficulty",
-          "Best scores per difficulty",
-          "Current and best streaks",
-          "Total games and play time"
+          "Выигранные игры и процент побед",
+          "Лучшее время на сложности",
+          "Лучшие результаты по сложности",
+          "Текущие и лучшие серии",
+          "Общее количество игр и игровое время"
         ]
       },
       "localization": {
-        "title": "12 Languages",
-        "description": "Fully localized with regional variants",
+        "title": "12 языков",
+        "description": "Полностью локализован с региональными вариантами",
         "items": [
-          "English, Hebrew (RTL), Arabic (RTL)",
-          "German, Spanish, French, Italian",
-          "Portuguese, Russian, Japanese",
-          "Korean, Chinese",
-          "17 regional variants (e.g. pt-BR, es-MX)"
+          "Английский, иврит (RTL), арабский (RTL)",
+          "немецкий, испанский, французский, итальянский",
+          "португальский, русский, японский",
+          "корейский, китайский",
+          "17 региональных вариантов (например, pt-BR, es-MX)"
         ]
       },
       "leaderboards": {
-        "title": "Leaderboards & Achievements",
-        "description": "Compete and unlock achievements",
+        "title": "Таблицы лидеров и достижения",
+        "description": "Соревнуйтесь и открывайте достижения",
         "items": [
-          "Game Center (iOS) & Play Games (Android)",
-          "Friends and Global leaderboards",
-          "Best score leaderboards",
-          "First win, Streak 5, Streak 10 achievements"
+          "Game Center (iOS) и Play Games (Android)",
+          "Друзья и глобальные таблицы лидеров",
+          "Таблицы лидеров по лучшим результатам",
+          "Первая победа, достижения 5-й серии, 10-й серии"
         ]
       }
     },
     "status": {
-      "title": "Available",
-      "description": "Sudoku Fun Go is available on the App Store and Google Play.",
-      "version": "Version",
-      "status": "Status",
+      "title": "Доступный",
+      "description": "Sudoku Fun Go доступен на App Store и Google Play.",
+      "version": "Версия",
+      "status": "Статус",
       "versionValue": "1.0.4+10",
-      "statusValue": "Available"
+      "statusValue": "Доступный"
     },
     "download": {
-      "title": "Download",
-      "description": "Available on the App Store and Google Play.",
-      "soon": "Available soon",
+      "title": "Скачать",
+      "description": "Доступно на App Store и Google Play.",
+      "soon": "Скоро будет доступно",
       "appStoreUrl": "https://apps.apple.com/us/app/sudoku-fun-go/id6759739806",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "Скачать на App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "Получите это на Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "Важные ссылки",
       "support": {
-        "title": "Technical Support",
+        "title": "Техническая поддержка",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
     "support": {
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "Поддержка и помощь",
+      "subtitle": "Мы здесь, чтобы помочь! Найдите ответы на распространенные вопросы или свяжитесь с нами напрямую.",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "Связаться с нами",
+        "description": "Есть вопросы или нужна помощь? Отправьте нам электронное письмо, и мы свяжемся с вами как можно скорее.",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "Быстрые ссылки",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "политика конфиденциальности",
+          "description": "Узнайте, как мы защищаем ваши данные"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "Условия использования",
+          "description": "Прочтите наши условия"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "Часто задаваемые вопросы",
         "q1": {
-          "question": "What is Sudoku Fun Go?",
-          "answer": "Sudoku Fun Go is a classic 9×9 Sudoku game for iOS and Android. Fill every row, column, and 3×3 box with the digits 1–9 with no repeats. It offers four difficulty levels, notes mode, hints, undo, a timer, and persistent statistics including best times and scores per difficulty."
+          "question": "Что такое Sudoku Fun Go?",
+          "answer": "Sudoku Fun Go — это классическая игра-судоку 9×9 для iOS и Android. Заполните каждую строку, столбец и поле 3×3 цифрами 1–9 без повторов. Он предлагает четыре уровня сложности, режим заметок, подсказки, отмену действий, таймер и постоянную статистику, включая лучшее время и очки за каждую сложность."
         },
         "q2": {
-          "question": "Does the app work offline?",
-          "answer": "Yes. Gameplay, stats, and settings are stored locally. You can play fully offline. Internet is only needed for Game Center / Play Games leaderboards and achievements, and for optional in-app purchases (e.g. remove ads)."
+          "question": "Приложение работает оффлайн?",
+          "answer": "Да. Геймплей, статистика и настройки хранятся локально. Вы можете играть полностью в автономном режиме. Интернет необходим только для Game Center / Play Games таблиц лидеров и достижений, а также для дополнительных покупок в приложении (например, для удаления рекламы)."
         },
         "q3": {
-          "question": "What are the difficulty levels?",
-          "answer": "There are four levels: Easy, Medium, Hard, and Expert. Each affects the number of given clues and puzzle complexity. Best times and best scores are tracked separately per difficulty."
+          "question": "Каковы уровни сложности?",
+          "answer": "Всего есть четыре уровня: легкий, средний, сложный и экспертный. Каждый влияет на количество данных подсказок и сложность головоломки. Лучшее время и лучшие результаты отслеживаются отдельно для каждой сложности."
         },
         "q4": {
-          "question": "Does the app support leaderboards?",
-          "answer": "Yes. On iOS we use Game Center with Friends and Global leaderboards for best score, plus achievements (e.g. first win, streak 5, streak 10). On Android we use Play Games Services with the same structure. Sign-in is prompted on app start."
+          "question": "Поддерживает ли приложение таблицы лидеров?",
+          "answer": "Да. На iOS мы используем Game Center с списками друзей и глобальных лидеров для получения лучшего результата, а также достижений (например, первая победа, серия 5, серия 10). На Android мы используем Play Games Сервисы с такой же структурой. Вход в систему запрашивается при запуске приложения."
         },
         "q5": {
-          "question": "In which languages is the app available?",
-          "answer": "The app is localized in 12 base languages (English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean, Chinese) with 17 regional variants. Hebrew and Arabic have full RTL support."
+          "question": "На каких языках доступно приложение?",
+          "answer": "Приложение локализовано на 12 базовых языках (английский, иврит, арабский, немецкий, испанский, французский, итальянский, португальский, русский, японский, корейский, китайский) с 17 региональными вариантами. Иврит и арабский язык имеют полную поддержку RTL."
         },
         "q6": {
-          "question": "How can I remove ads?",
-          "answer": "Sudoku Fun Go offers an in-app purchase to remove ads. After purchasing, ads are disabled. The purchase is restored automatically when you reinstall the app or use the same account on another device."
+          "question": "Как я могу удалить рекламу?",
+          "answer": "Sudoku Fun Go предлагает покупку в приложении для удаления рекламы. После покупки реклама отключается. Покупка восстанавливается автоматически при переустановке приложения или использовании той же учетной записи на другом устройстве."
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "Нужна дополнительная помощь?",
+        "description": "Если вы не смогли найти ответ, который искали, или у вас возникла техническая проблема, пожалуйста, не стесняйтесь обращаться к нам. Мы здесь, чтобы помочь и обычно отвечаем в течение 24–48 часов."
       },
       "metaTitle": "Поддержка и помощь — Sudoku Fun Go | Zuki Apps",
       "metaDescription": "Sudoku Fun Go FAQ и поддержка — классические головоломки судоку. Контакты, конфиденциальность и устранение неполадок."
     },
     "footer": {
-      "copyright": "© 2025 Sudoku Fun Go - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 Sudoku Fun Go - Все права защищены.",
+      "tagline": "Часть Zuki Apps • Разработчик из Израиля • Сделано с ❤️"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using Sudoku Fun Go. By accessing or using our service, you agree to be bound by these terms.",
+      "title": "Условия эксплуатации",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
+      "intro": "Пожалуйста, внимательно прочтите настоящие Условия использования перед использованием Sudoku Fun Go. Получая доступ к нашему сервису или используя его, вы соглашаетесь соблюдать эти условия.",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of Sudoku Fun Go (\"Service\", \"App\", \"we\", \"us\", or \"our\"), an interval puzzle game operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. Принятие Условий",
+        "content": "Настоящие Условия использования («Условия») регулируют ваш доступ и использование Sudoku Fun Go («Сервис», «Приложение», «мы», «нас» или «наш»), интервальной игры-головоломки, управляемой Zuki Apps («Компания»). Загружая, устанавливая, получая доступ к Сервису или используя его, вы соглашаетесь соблюдать настоящие Условия и нашу Политику конфиденциальности.",
+        "content2": "Если вы используете Сервис от имени организации, вы заявляете и гарантируете, что у вас есть полномочия обязать эту организацию соблюдать настоящие Условия."
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "Sudoku Fun Go is a mobile application that provides classic 9×9 Sudoku gameplay. The Service includes: configurable difficulty levels, notes and hints, statistics and leaderboards, Game Center / Play Games integration, and in-app purchases (e.g. remove ads).",
+        "title": "2. Описание услуги",
+        "content": "Sudoku Fun Go — это мобильное приложение, обеспечивающее классический игровой процесс судоку 9×9. Услуга включает в себя: настраиваемые уровни сложности, заметки и подсказки, статистику и таблицы лидеров, интеграцию Game Center / Play Games и покупки в приложении (например, удаление рекламы).",
         "items": [
-          "Four difficulty levels (Easy, Medium, Hard, Expert)",
-          "Notes mode, hints, undo, erase, timer, mistake count",
-          "Statistics: games won, win rate, streaks, best times and scores",
-          "Game Center (iOS) and Play Games (Android) leaderboards and achievements",
-          "In-app purchase to remove ads",
-          "12 languages with regional variants"
+          "Четыре уровня сложности (Легкий, Средний, Сложный, Эксперт)",
+          "Режим заметок, подсказки, отмена, стирание, таймер, подсчет ошибок",
+          "Статистика: выигранные игры, процент побед, серии, лучшие времена и результаты.",
+          "Game Center (iOS) и Play Games (Android) списки лидеров и достижений",
+          "Покупка в приложении для удаления рекламы",
+          "12 языков с региональными вариантами"
         ]
       },
       "section19": {
-        "title": "19. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "19. Контактная информация",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящих Условий, свяжитесь с нами:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "политика конфиденциальности",
+      "lastUpdated": "Последнее обновление: январь 2025 г.",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "Sudoku Fun Go collects minimal information necessary to provide the service. We collect information you provide directly (e.g. when you contact support). Game progress, statistics, and settings are stored locally on your device."
+        "title": "1. Информация, которую мы собираем",
+        "content": "Sudoku Fun Go собирает минимальную информацию, необходимую для предоставления услуги. Мы собираем информацию, которую вы предоставляете напрямую (например, когда вы обращаетесь в службу поддержки). Ход игры, статистика и настройки хранятся локально на вашем устройстве."
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information to provide, maintain, and improve our services. Locally stored data (puzzles, stats, settings) is not transmitted to our servers except as needed for optional services (e.g. Game Center / Play Games)."
+        "title": "2. Как мы используем вашу информацию",
+        "content": "Мы используем эту информацию для предоставления, обслуживания и улучшения наших услуг. Локально хранящиеся данные (головоломки, статистика, настройки) не передаются на наши серверы, за исключением случаев, когда это необходимо для дополнительных услуг (например, Game Center / Play Games)."
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties. Leaderboard scores and achievements are shared with the respective platform (Apple Game Center, Google Play Games) when you use those features."
+        "title": "3. Обмен информацией",
+        "content": "Мы не продаем и не передаем вашу личную информацию третьим лицам. Очки и достижения таблицы лидеров передаются на соответствующую платформу (Apple Game Center, Google Play Games), когда вы используете эти функции."
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your game data is stored locally on your device. If you use Game Center or Play Games, their policies apply to data processed by those services."
+        "title": "4. Безопасность данных",
+        "content": "Мы реализуем соответствующие меры безопасности. Ваши игровые данные хранятся локально на вашем устройстве. Если вы используете Game Center или Play Games, их политика применяется к данным, обрабатываемым этими службами."
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can clear local data via the app's Settings (e.g. reset statistics). You may also delete the app at any time. For platform-specific data (e.g. Game Center), you can manage that in your device or account settings."
+        "title": "5. Ваши права",
+        "content": "Вы можете очистить локальные данные через настройки приложения (например, сбросить статистику). Вы также можете удалить приложение в любое время. Что касается данных, специфичных для платформы (например, Game Center), вы можете управлять ими в настройках своего устройства или учетной записи."
       },
       "section6": {
-        "title": "6. Advertising and In-App Purchases",
-        "content": "The app may show ads (e.g. via Google Mobile Ads). We may use device identifiers and usage data for ad delivery and measurement in accordance with our ad providers' policies. In-app purchases (e.g. remove ads) are processed by Apple or Google; we do not store payment details."
+        "title": "6. Реклама и покупки в приложении",
+        "content": "Приложение может показывать рекламу (например, через Google Mobile Ads). Мы можем использовать идентификаторы устройств и данные об использовании для показа и измерения рекламы в соответствии с политикой наших поставщиков рекламы. Покупки в приложении (например, удаление рекламы) обрабатываются Apple или Google; мы не храним платежные реквизиты."
       },
       "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "8. Свяжитесь с нами",
+        "content": "Если у вас есть какие-либо вопросы по поводу настоящей Политики конфиденциальности, свяжитесь с нами по адресу:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, СААР, п.о. 22805, ИЗРАИЛЬ"
       },
       "metaDescription": "Sudoku Fun Go политика конфиденциальности — как мы обрабатываем ваши данные на iOS и Android."
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "Функции",
+      "screenshots": "Скриншоты",
+      "howTo": "Как использовать",
+      "tips": "Советы",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Скачать"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from Sudoku Fun Go - Classic Sudoku.",
-      "featuresTitle": "App screens",
+      "title": "Скриншоты",
+      "subtitle": "Реальные экраны приложений из Sudoku Fun Go — классического судоку.",
+      "featuresTitle": "Экраны приложений",
       "items": [
         {
-          "id": "home",
-          "title": "New puzzle",
-          "description": "Pick difficulty and start a fresh grid.",
+          "id": "дом",
+          "title": "Новая головоломка",
+          "description": "Выберите сложность и начните новую сетку.",
           "image": "/images/sudoku-puzzle/screenshot-home.png",
-          "alt": "New puzzle — sudoku puzzle",
-          "category": "features"
+          "alt": "Новая головоломка — судоку.",
+          "category": "функции"
         },
         {
-          "id": "gameplay",
-          "title": "Gameplay",
-          "description": "Fill the grid with notes and smart hints.",
+          "id": "геймплей",
+          "title": "Геймплей",
+          "description": "Заполните сетку заметками и умными подсказками.",
           "image": "/images/sudoku-puzzle/screenshot-gameplay.png",
-          "alt": "Gameplay — sudoku puzzle",
-          "category": "features"
+          "alt": "Геймплей — судоку",
+          "category": "функции"
         },
         {
-          "id": "victory",
-          "title": "Victory",
-          "description": "Celebrate completion with time and stats.",
+          "id": "победа",
+          "title": "Победа",
+          "description": "Отпразднуйте завершение со временем и статистикой.",
           "image": "/images/sudoku-puzzle/screenshot-victory.png",
-          "alt": "Victory — sudoku puzzle",
-          "category": "features"
+          "alt": "Победа — судоку",
+          "category": "функции"
         },
         {
-          "id": "statistics",
-          "title": "Statistics",
-          "description": "Track wins, streaks, and best times.",
+          "id": "статистика",
+          "title": "Статистика",
+          "description": "Отслеживайте победы, серии и лучшие результаты.",
           "image": "/images/sudoku-puzzle/screenshot-statistics.png",
-          "alt": "Statistics — sudoku puzzle",
-          "category": "features"
+          "alt": "Статистика — судоку",
+          "category": "функции"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "Как использовать",
       "steps": [
         {
           "number": "1",
-          "title": "Select difficulty",
-          "description": "Easy to expert — find the level that fits you."
+          "title": "Выберите сложность",
+          "description": "Легко стать экспертом — найдите уровень, который подходит именно вам."
         },
         {
           "number": "2",
-          "title": "Fill the grid",
-          "description": "Tap cells, use notes, and avoid duplicate digits per row, column, and box."
+          "title": "Заполните сетку",
+          "description": "Нажимайте на ячейки, используйте заметки и избегайте повторяющихся цифр в строке, столбце и поле."
         },
         {
           "number": "3",
-          "title": "Use hints wisely",
-          "description": "Hints help when stuck without spoiling the whole puzzle."
+          "title": "Используйте подсказки с умом",
+          "description": "Подсказки помогают, когда вы застреваете, не портя при этом всю головоломку."
         },
         {
           "number": "4",
-          "title": "Finish & improve",
-          "description": "Complete puzzles to grow your stats and streaks."
+          "title": "Завершить и улучшить",
+          "description": "Решайте головоломки, чтобы увеличить свою статистику и количество серий."
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "Часто задаваемые вопросы",
+      "subtitle": "Быстрые ответы о функциях, конфиденциальности и выставлении счетов.",
+      "viewAllSupport": "Посмотреть полную поддержку и FAQ",
       "items": [
         {
-          "question": "Do I need an account?",
-          "answer": "No. Open the app and tap New Game. Game Center (iOS) or Google Play Games (Android) is optional for leaderboards and achievements."
+          "question": "Нужен ли мне аккаунт?",
+          "answer": "Нет. Откройте приложение и нажмите «Новая игра». Game Center (iOS) или Google Play Игры (Android) необязательно для таблиц лидеров и достижений."
         },
         {
-          "question": "Is the app free?",
-          "answer": "Yes. Sudoku Fun Go is free to download and play. Ads support development. You can remove ads with a one-time in-app purchase."
+          "question": "Приложение бесплатное?",
+          "answer": "Да. Sudoku Fun Go можно загрузить и играть бесплатно. Реклама поддерживает развитие. Вы можете удалить рекламу, совершив единоразовую покупку в приложении."
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "iPhone and iPad (iOS), and Android phones and tablets with Google Play services. Requires a recent OS version — see the store listing for details."
+          "question": "Какие устройства поддерживаются?",
+          "answer": "iPhone и iPad (iOS), а также Android телефоны и планшеты с услугами Google Play. Требуется последняя версия ОС — подробности см. в описании магазина."
         },
         {
-          "question": "What are the difficulty levels?",
-          "answer": "| Level | For whom | |-------|----------| | Easy | Beginners — fewer empty cells | | Medium | Balanced daily challenge | | Hard | Experienced solvers | | Expert | Maximum empty cells — bravest players only |"
+          "question": "Каковы уровни сложности?",
+          "answer": "| Уровень | Для кого | |-------|----------| | Легко | Новичкам — меньше пустых ячеек | | Средний | Сбалансированный ежедневный вызов | | Жесткий | Опытные решатели | | Эксперт | Максимум пустых ячеек — только самые смелые игроки |"
         },
         {
-          "question": "Can I pause mid-game?",
-          "answer": "Yes. Tap pause; the timer stops until you resume. Your puzzle is saved automatically."
+          "question": "Могу ли я сделать паузу в середине игры?",
+          "answer": "Да. Нажмите пауза; таймер останавливается, пока вы не возобновите работу. Ваша головоломка сохраняется автоматически."
         },
         {
-          "question": "What happens if I quit?",
-          "answer": "If you leave without finishing, that puzzle’s progress is lost. Use Continue Game on the home screen to return to an in-progress puzzle."
+          "question": "Что произойдет, если я уйду?",
+          "answer": "Если вы уйдете, не закончив, прогресс этой головоломки будет потерян. Используйте «Продолжить игру» на главном экране, чтобы вернуться к незавершенной головоломке."
         },
         {
-          "question": "How do notes work?",
-          "answer": "Turn on Notes, tap a cell, then tap digits to mark candidates. When you place a confirmed number, matching notes in the row, column, and box can auto-clear (if enabled in Settings)."
+          "question": "Как работают заметки?",
+          "answer": "Включите «Заметки», коснитесь ячейки, затем коснитесь цифр, чтобы отметить кандидатов. Когда вы размещаете подтвержденный номер, соответствующие примечания в строке, столбце и поле могут автоматически очищаться (если это разрешено в настройках)."
         },
         {
-          "question": "Do hints hurt my score?",
-          "answer": "Yes. Each hint costs 300 points from your final score. Use them when stuck, but fewer hints = higher rank."
+          "question": "Влияют ли подсказки на мой счет?",
+          "answer": "Да. Каждая подсказка стоит 300 очков от вашего окончательного результата. Используйте их, когда застряли, но меньше подсказок = более высокий ранг."
         },
         {
-          "question": "How many mistakes are allowed?",
-          "answer": "Mistakes are tracked and reduce your score (−500 each). The puzzle does not end on a wrong entry — you can keep solving."
+          "question": "Сколько ошибок допускается?",
+          "answer": "Ошибки отслеживаются и снижают ваш счет (по −500 каждая). Головоломка не заканчивается неправильной записью — вы можете продолжать ее решение."
         },
         {
-          "question": "How is my score calculated?",
-          "answer": "Base = 10,000 × difficulty multiplier (Easy ×1, Medium ×2, Hard ×3, Expert ×5) Minus 2 points per second, 500 per mistake, 300 per hint. Example: Expert, 10 minutes, 0 mistakes, 0 hints → up to 48,800 before time penalty details."
+          "question": "Как рассчитывается мой балл?",
+          "answer": "Базовый = 10 000 × множитель сложности (Легкий × 1, Средний × 2, Сложный × 3, Эксперт × 5) Минус 2 очка в секунду, 500 за ошибку, 300 за подсказку. Пример: Эксперт, 10 минут, 0 ошибок, 0 подсказок → до 48 800 деталей штрафа до времени."
         },
         {
-          "question": "Why is my leaderboard empty?",
-          "answer": "Sign in to Game Center or Play Games, complete a puzzle to submit a score, then open Statistics → Friends or Global. Install from the Play Store or App Store (not sideload) for full Play Games / billing support on Android."
+          "question": "Почему моя таблица лидеров пуста?",
+          "answer": "Войдите в систему с помощью Game Center или Play Games, решите головоломку, чтобы отправить результат, затем откройте «Статистика» → «Друзья» или «Глобальный». Установите из Play Store или App Store (не загружайте неопубликованные версии) для полной поддержки Play Games/биллинга на Android."
         },
         {
-          "question": "How do achievements unlock?",
-          "answer": "Automatically when you meet goals (first win, streaks, flawless solve, etc.). Open Statistics → Achievements to view progress."
+          "question": "Как открываются достижения?",
+          "answer": "Автоматически при достижении целей (первая победа, серии, безупречное решение и т. д.). Откройте «Статистика» → «Достижения», чтобы просмотреть прогресс."
         }
       ]
     }

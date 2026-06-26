@@ -1,67 +1,69 @@
 {
   "tempoLabPro": {
-    "back": "Back to Home",
+    "back": "返回首页",
     "hero": {
-      "badge": "Available Now",
-      "title": "TempoLab Pro - Tempo & Pitch",
-      "subtitle": "Tempo and pitch audio practice",
-      "description": "Production-ready Flutter app for tempo and pitch audio practice. Tap tempo, BPM detection, pitch shift, loop, markers, 5-band EQ, and export to MP3/WAV/M4A.",
-      "structuredDataDescription": "TempoLab Pro — tempo, pitch, and audio practice lab for iOS and Android. Metronome, loop markers, tap tempo, import/export, EQ and effects for musicians. Android com.zuki.apps.tempolabpro by Zuki Apps."
+      "badge": "现已上市",
+      "title": "TempoLab Pro - 节奏和音调",
+      "subtitle": "音频节奏和音调练习",
+      "description": "可用于生产的 Flutter 应用程序，用于节奏和音调音频练习。点击速度、BPM 检测、音调变换、循环、标记、5 频段均衡器，并导出为 MP3/WAV/M4A。",
+      "structuredDataDescription": "TempoLab Pro — iOS 和 Android 的速度、音调和音频练习实验室。音乐家的节拍器、循环标记、敲击速度、导入/导出、EQ 和效果。 Android com.zuki.apps.tempolabpro，作者：Zuki Apps。",
+      "seoTitle": "TempoLab Pro — 节拍器和音高 | Zuki Apps",
+      "metaDescription": "为音乐家练习速度、音高和节奏工具。 iOS 和 Android 免费。"
     },
     "features": {
-      "title": "Key Features",
+      "title": "主要特点",
       "tempoPitch": {
-        "title": "Tempo & Pitch",
-        "description": "Control playback and practice with precision",
+        "title": "节奏和音高",
+        "description": "精确控制播放和练习",
         "items": [
-          "Playback speed control",
-          "Pitch shift with formant correction",
-          "Vinyl mode (tempo and pitch linked)",
-          "Loop playback",
-          "Markers (Set A / Set B)"
+          "播放速度控制",
+          "带有共振峰校正的音调偏移",
+          "黑胶唱片模式（速度和音高关联）",
+          "循环播放",
+          "标记（A 组/B 组）"
         ]
       },
       "tapTempo": {
-        "title": "Tap Tempo",
-        "description": "Detect BPM by tapping",
+        "title": "敲击节奏",
+        "description": "通过点击检测 BPM",
         "items": [
-          "Tap repeatedly to detect tempo",
-          "BPM display",
-          "Use detected tempo for practice"
+          "反复点击以检测节奏",
+          "BPM显示",
+          "使用检测到的节奏进行练习"
         ]
       },
       "export": {
-        "title": "Export & Loop",
-        "description": "Export and organize your audio",
+        "title": "导出和循环",
+        "description": "导出和组织您的音频",
         "items": [
-          "Export to MP3, WAV, M4A",
-          "5-band EQ",
-          "Import audio files",
-          "Local file management"
+          "导出为 MP3、WAV、M4A",
+          "5段均衡器",
+          "导入音频文件",
+          "本地文件管理"
         ]
       }
     },
     "status": {
-      "title": "Available",
-      "description": "Download Tempo Lab Pro on the App Store and Google Play.",
-      "version": "Version",
-      "status": "Status",
+      "title": "可用的",
+      "description": "在 App Store 和 Google Play 下载 Tempo Lab Pro。",
+      "version": "版本",
+      "status": "地位",
       "versionValue": "1.0.1+13",
-      "statusValue": "Live"
+      "statusValue": "居住"
     },
     "download": {
-      "title": "Download",
-      "description": "Get Tempo Lab Pro on the App Store and Google Play.",
-      "soon": "Available now",
+      "title": "下载",
+      "description": "在 App Store 和 Google Play 上获取 Tempo Lab Pro。",
+      "soon": "现已上市",
       "appStoreUrl": "https://apps.apple.com/il/app/tempo-lab-pro/id6760204327",
-      "appStoreAlt": "Download on the App Store",
+      "appStoreAlt": "下载App Store",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.tempolabpro",
-      "googlePlayAlt": "Get it on Google Play"
+      "googlePlayAlt": "获取Google Play"
     },
     "links": {
-      "title": "Important Links",
+      "title": "重要链接",
       "support": {
-        "title": "Technical Support",
+        "title": "技术支援",
         "email": "zuki.apps.dev@gmail.com"
       }
     },
@@ -69,285 +71,285 @@
       "hero": {
         "title": "TempoLab Pro"
       },
-      "title": "Support & Help",
-      "subtitle": "We're here to help! Find answers to common questions or contact us directly.",
+      "title": "支持与帮助",
+      "subtitle": "我们随时为您提供帮助！查找常见问题的答案或直接联系我们。",
       "contact": {
-        "title": "Contact Us",
-        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "title": "联系我们",
+        "description": "有疑问或需要帮助吗？给我们发送电子邮件，我们会尽快回复您。",
         "email": "zuki.apps.dev@gmail.com"
       },
       "quickLinks": {
-        "title": "Quick Links",
+        "title": "快速链接",
         "privacy": {
-          "title": "Privacy Policy",
-          "description": "Learn how we protect your data"
+          "title": "隐私政策",
+          "description": "了解我们如何保护您的数据"
         },
         "terms": {
-          "title": "Terms of Service",
-          "description": "Read our terms and conditions"
+          "title": "服务条款",
+          "description": "阅读我们的条款和条件"
         }
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "常见问题解答",
         "q1": {
-          "question": "What is TempoLab Pro?",
-          "answer": "TempoLab Pro is a tempo and pitch audio practice app for musicians. You can import audio, change playback speed and pitch, use tap tempo to detect BPM, add markers, apply a 5-band EQ, and export to MP3, WAV, or M4A."
+          "question": "什么是 TempoLab Pro？",
+          "answer": "TempoLab Pro 是一款适合音乐家的节奏和音高音频练习应用程序。您可以导入音频、更改播放速度和音高、使用节拍速度检测 BPM、添加标记、应用 5 频段均衡器以及导出为 MP3、WAV 或 M4A。"
         },
         "q2": {
-          "question": "Can I use TempoLab Pro offline?",
-          "answer": "Yes. The app works offline. Audio files are stored locally and you can practice and export without an internet connection."
+          "question": "我可以离线使用 TempoLab Pro 吗？",
+          "answer": "是的。该应用程序可以离线工作。音频文件存储在本地，您可以在没有互联网连接的情况下练习和导出。"
         },
         "q3": {
-          "question": "What audio formats are supported?",
-          "answer": "You can import common audio formats and export to MP3, WAV, or M4A. The app supports local file management and export to your device."
+          "question": "支持哪些音频格式？",
+          "answer": "您可以导入常见的音频格式并导出为 MP3、WAV 或 M4A。该应用程序支持本地文件管理并导出到您的设备。"
         },
         "q4": {
-          "question": "How does tap tempo work?",
-          "answer": "Tap the Tap Tempo button repeatedly in time with a beat. The app detects the BPM and you can use it for practice or reference."
+          "question": "敲击节奏如何运作？",
+          "answer": "随着节拍及时重复点击 Tap Tempo 按钮。该应用程序会检测 BPM，您可以将其用于练习或参考。"
         }
       },
       "additionalHelp": {
-        "title": "Need More Help?",
-        "description": "If you couldn't find the answer you're looking for, or if you're experiencing a technical issue, please don't hesitate to contact us. We're here to help and typically respond within 24-48 hours."
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到所需的答案，或者遇到技术问题，请随时与我们联系。我们随时为您提供帮助，通常会在 24-48 小时内回复。"
       },
       "metaTitle": "支持与帮助 — Tempo Lab Pro | Zuki Apps",
       "metaDescription": "Tempo Lab Pro FAQ 和支持 — 节拍器和节奏练习。联系方式、隐私和故障排除。"
     },
     "footer": {
-      "copyright": "© 2025 TempoLab Pro - All rights reserved",
-      "tagline": "Part of Zuki Apps • Developer from Israel • Made with ❤️"
+      "copyright": "© 2025 TempoLab Pro - 保留所有权利",
+      "tagline": "Zuki Apps 的一部分 • 来自以色列的开发商 • 由 ❤️ 制作"
     },
     "terms": {
-      "title": "Terms of Use",
-      "lastUpdated": "Last updated: January 2025",
-      "intro": "Please read these Terms of Use carefully before using TempoLab Pro. By accessing or using our service, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service.",
+      "title": "使用条款",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
+      "intro": "在使用 TempoLab Pro 之前，请仔细阅读这些使用条款。通过访问或使用我们的服务，您同意受这些条款的约束。如果您不同意这些条款，请不要使用我们的服务。",
       "section1": {
-        "title": "1. Acceptance of Terms",
-        "content": "These Terms of Use (\"Terms\") govern your access to and use of TempoLab Pro (\"Service\", \"App\", \"we\", \"us\", or \"our\"), a tempo and pitch audio practice application operated by Zuki Apps (\"Company\"). By downloading, installing, accessing, or using the Service, you agree to be bound by these Terms and our Privacy Policy.",
-        "content2": "If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms."
+        "title": "1. 接受条款",
+        "content": "这些使用条款（“条款”）管辖您对 TempoLab Pro（“服务”、“应用程序”、“我们”、“我们”或“我们的”）的访问和使用，TempoLab Pro 是由Zuki Apps（“公司”）运营的节奏和音调音频练习应用程序。通过下载、安装、访问或使用服务，您同意受这些条款和我们的隐私政策的约束。",
+        "content2": "如果您代表某个组织使用服务，则您声明并保证您有权约束该组织遵守这些条款。"
       },
       "section2": {
-        "title": "2. Description of Service",
-        "content": "TempoLab Pro is a mobile application that provides tempo and pitch audio practice functionality. The Service includes:",
+        "title": "2. 服务说明",
+        "content": "TempoLab Pro 是一款提供节奏和音高音频练习功能的移动应用程序。该服务包括：",
         "items": [
-          "Import and playback of audio files",
-          "Tempo control (playback speed)",
-          "Pitch shift with optional formant correction",
-          "Tap tempo (BPM detection)",
-          "Loop playback and markers",
-          "5-band EQ and effects",
-          "Export to MP3, WAV, M4A",
-          "Local storage and offline use"
+          "音频文件的导入和播放",
+          "速度控制（播放速度）",
+          "具有可选共振峰校正的音高变换",
+          "敲击速度（BPM 检测）",
+          "循环播放和标记",
+          "5 频段均衡器和效果器",
+          "导出为 MP3、WAV、M4A",
+          "本地存储和离线使用"
         ]
       },
       "section19": {
-        "title": "3. Contact Information",
-        "content": "If you have any questions about these Terms, please contact us:",
+        "title": "3. 联系方式",
+        "content": "如果您对这些条款有任何疑问，请联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
+      "title": "隐私政策",
+      "lastUpdated": "最后更新时间：2025 年 1 月",
       "section1": {
-        "title": "1. Information We Collect",
-        "content": "TempoLab Pro is designed with privacy in mind. The app works with audio files you import and stores data locally on your device. We do not collect personal information for the core practice features."
+        "title": "1. 我们收集的信息",
+        "content": "TempoLab Pro 的设计充分考虑了隐私。该应用程序可处理您导入的音频文件，并将数据本地存储在您的设备上。我们不会为核心实践功能收集个人信息。"
       },
       "section2": {
-        "title": "2. How We Use Your Information",
-        "content": "We use minimal information to provide and improve the service. Audio files and app data remain on your device. If crash reporting is enabled, we may receive anonymous crash data to fix issues."
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用最少的信息来提供和改进服务。音频文件和应用程序数据保留在您的设备上。如果启用了崩溃报告，我们可能会收到匿名崩溃数据来修复问题。"
       },
       "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell or share your personal information with third parties. Your audio and project data stay on your device unless you explicitly export or share them."
+        "title": "3. 信息共享",
+        "content": "我们不会向第三方出售或分享您的个人信息。除非您明确导出或共享，否则您的音频和项目数据将保留在您的设备上。"
       },
       "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures. Your files and data are stored in the app's local storage, which is not accessible by other apps without your permission."
+        "title": "4. 数据安全",
+        "content": "我们实施适当的安全措施。您的文件和数据存储在应用程序的本地存储中，未经您的许可，其他应用程序无法访问该存储空间。"
       },
       "section5": {
-        "title": "5. Your Rights",
-        "content": "You can delete your data at any time by removing the app or clearing app data. You may contact us to request information or deletion of any data we might hold (e.g. crash reports)."
+        "title": "5. 您的权利",
+        "content": "您可以随时通过删除应用程序或清除应用程序数据来删除数据。您可以联系我们，请求提供信息或删除我们可能持有的任何数据（例如崩溃报告）。"
       },
       "section8": {
-        "title": "6. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "6. 联系我们",
+        "content": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列"
       },
       "metaDescription": "Tempo Lab Pro 隐私政策 — 我们如何处理您在 iOS 和 Android 上的数据。"
     },
     "pageNav": {
-      "features": "Features",
-      "screenshots": "Screenshots",
-      "howTo": "How to use",
-      "tips": "Tips",
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "如何使用",
+      "tips": "尖端",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "下载"
     },
     "screenshots": {
-      "title": "Screenshots",
-      "subtitle": "Real app screens from TempoLab Pro - Tempo & Pitch.",
-      "featuresTitle": "App screens",
+      "title": "截图",
+      "subtitle": "TempoLab Pro - Tempo & Pitch 的真实应用程序屏幕。",
+      "featuresTitle": "应用程序屏幕",
       "items": [
         {
-          "id": "practice",
-          "title": "Practice view",
-          "description": "Tempo, time signature, and visual beat in one screen.",
+          "id": "实践",
+          "title": "实践观",
+          "description": "速度、拍号和视觉节拍集中在一个屏幕上。",
           "image": "/images/tempo-lab-pro/screenshot-practice.png",
-          "alt": "Practice view — tempo lab pro",
-          "category": "features"
+          "alt": "练习视图 — tempo lab pro",
+          "category": "特征"
         },
         {
-          "id": "loops",
-          "title": "Loop markers",
-          "description": "Mark sections and loop difficult passages.",
+          "id": "循环",
+          "title": "循环标记",
+          "description": "标记部分并循环困难的段落。",
           "image": "/images/tempo-lab-pro/screenshot-loops.png",
-          "alt": "Loop markers — tempo lab pro",
-          "category": "features"
+          "alt": "循环标记 — tempo lab pro",
+          "category": "特征"
         },
         {
-          "id": "effects",
-          "title": "Effects & EQ",
-          "description": "Shape tone while you practice along.",
+          "id": "效果",
+          "title": "效果和均衡器",
+          "description": "在练习时塑造音调。",
           "image": "/images/tempo-lab-pro/screenshot-effects.png",
-          "alt": "Effects & EQ — tempo lab pro",
-          "category": "features"
+          "alt": "效果和均衡器 — tempo lab pro",
+          "category": "特征"
         },
         {
-          "id": "tap-tempo",
-          "title": "Tap tempo",
-          "description": "Set BPM by tapping the beat.",
+          "id": "敲击节奏",
+          "title": "敲击节奏",
+          "description": "通过点击节拍来设置 BPM。",
           "image": "/images/tempo-lab-pro/screenshot-tap-tempo.png",
           "alt": "Tap tempo — tempo lab pro",
-          "category": "features"
+          "category": "特征"
         },
         {
-          "id": "import",
-          "title": "Import & export",
-          "description": "Bring backing tracks and save your presets.",
+          "id": "进口",
+          "title": "进出口",
+          "description": "带背景音乐并保存您的预设。",
           "image": "/images/tempo-lab-pro/screenshot-import.png",
-          "alt": "Import & export — tempo lab pro",
-          "category": "features"
+          "alt": "导入和导出 — tempo lab pro",
+          "category": "特征"
         }
       ]
     },
     "howToUse": {
-      "title": "How to use",
+      "title": "如何使用",
       "steps": [
         {
           "number": "1",
-          "title": "Set tempo",
-          "description": "Enter BPM or tap tempo; pick time signature."
+          "title": "设置节奏",
+          "description": "输入 BPM 或敲击节奏；选择拍号。"
         },
         {
           "number": "2",
-          "title": "Load audio",
-          "description": "Import a track or use the built-in click."
+          "title": "加载音频",
+          "description": "导入曲目或使用内置的节拍器。"
         },
         {
           "number": "3",
-          "title": "Mark loops",
-          "description": "Place markers around the section you are drilling."
+          "title": "标记循环",
+          "description": "在您正在钻孔的部分周围放置标记。"
         },
         {
           "number": "4",
-          "title": "Practice & adjust",
-          "description": "Tweak EQ, pitch, and effects as you rehearse."
+          "title": "练习与调整",
+          "description": "排练时调整 EQ、音高和效果。"
         }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Quick answers about features, privacy, and billing.",
-      "viewAllSupport": "View full support & FAQ",
+      "title": "常见问题",
+      "subtitle": "有关功能、隐私和计费的快速解答。",
+      "viewAllSupport": "查看完整支持 & FAQ",
       "items": [
         {
-          "question": "What is TempoLab Pro?",
-          "answer": "A mobile app for practicing with your own audio files: change tempo and pitch, loop sections, add markers, use EQ/reverb/metronome, and export results. Built for musicians, singers, and anyone who learns by listening."
+          "question": "什么是 TempoLab Pro？",
+          "answer": "一款用于练习您自己的音频文件的移动应用程序：更改速度和音高、循环部分、添加标记、使用 EQ/混响/节拍器以及导出结果。专为音乐家、歌手和任何通过聆听学习的人而设计。"
         },
         {
-          "question": "Which platforms are supported?",
-          "answer": "iOS and Android. iPad and large Android tablets get an enhanced layout with side navigation."
+          "question": "支持哪些平台？",
+          "answer": "iOS 和 Android。 iPad 和大型 Android 平板电脑通过侧面导航获得增强的布局。"
         },
         {
-          "question": "Is it free?",
-          "answer": "Yes to download and practice. Ads appear in the free tier. A one-time Remove Ads purchase unlocks Premium features."
+          "question": "免费吗？",
+          "answer": "是的，下载并练习。广告出现在免费套餐中。一次性购买“删除广告”可解锁 Premium 功能。"
         },
         {
-          "question": "What languages are supported?",
-          "answer": "17 locales including English, Hebrew, Arabic, Chinese (Simplified & Traditional), French, German, Italian, Japanese, Korean, Portuguese (BR & PT), Russian, and Spanish."
+          "question": "支持哪些语言？",
+          "answer": "17 种语言环境，包括英语、希伯来语、阿拉伯语、中文（简体和繁体）、法语、德语、意大利语、日语、韩语、葡萄牙语（巴西和葡萄牙）、俄语和西班牙语。"
         },
         {
-          "question": "What file formats can I import?",
-          "answer": "Common formats such as MP3, M4A, WAV, and FLAC (device-dependent). If import fails, try another format or a non-DRM copy."
+          "question": "我可以导入哪些文件格式？",
+          "answer": "常见格式，例如 MP3、M4A、WAV 和 FLAC（取决于设备）。如果导入失败，请尝试其他格式或非 DRM 副本。"
         },
         {
-          "question": "Why can’t I import my Apple Music / Spotify song?",
-          "answer": "Streaming downloads are often DRM-protected. TempoLab Pro only works with files you have rights to use locally — recordings you made, purchased downloads without DRM, or stems shared with you."
+          "question": "为什么我无法导入 Apple Music / Spotify 歌曲？",
+          "answer": "流式下载通常受 DRM 保护。 TempoLab Pro 仅适用于您有权在本地使用的文件 - 您制作的录音、购买的无 DRM 的下载或与您共享的文件。"
         },
         {
-          "question": "Does changing tempo change pitch?",
-          "answer": "Not by default. Tempo and pitch are independent. Vinyl mode links them intentionally for creative/record-style playback."
+          "question": "改变节奏会改变音高吗？",
+          "answer": "默认情况下不是。速度和音高是独立的。黑胶模式有意将它们链接起来以进行创意/唱片风格的播放。"
         },
         {
-          "question": "How precise is looping?",
-          "answer": "You can nudge loop points by ±10 milliseconds — enough to align by ear to transients and grid."
+          "question": "循环的精确度如何？",
+          "answer": "您可以将循环点微移±10毫秒——足以使耳朵与瞬态和网格对齐。"
         },
         {
-          "question": "What is formant correction?",
-          "answer": "When shifting pitch on vocals, formant processing helps the voice keep a more natural character instead of sounding overly thin or heavy."
+          "question": "什么是共振峰校正？",
+          "answer": "当改变人声的音高时，共振峰处理有助于声音保持更自然的特征，而不是听起来过于细弱或沉重。"
         },
         {
-          "question": "What’s the difference between waveform and spectrogram?",
-          "answer": "Waveform shows amplitude over time; spectrogram shows frequency content. Both help you navigate — use whichever reads faster for your material."
+          "question": "波形图和频谱图有什么区别？",
+          "answer": "波形显示随时间变化的幅度；频谱图显示频率内容。两者都可以帮助您导航 - 使用您的材料阅读速度更快的那个。"
         },
         {
-          "question": "Does Practice mode increase tempo automatically?",
-          "answer": "Yes. You set start speed, end speed, and step size; the app ramps speed during the session."
+          "question": "练习模式会自动加快节奏吗？",
+          "answer": "是的。您可以设置起始速度、结束速度和步长；应用程序在会话期间提高速度。"
         },
         {
-          "question": "Is there a metronome?",
-          "answer": "Yes — use it alongside your track or with tap tempo to match BPM."
+          "question": "有节拍器吗？",
+          "answer": "是的 - 将其与您的曲目一起使用或与节拍节奏一起使用以匹配 BPM。"
         }
       ]
     },
     "tips": {
-      "title": "Tips & tricks",
-      "subtitle": "Get more from the app.",
+      "title": "提示和技巧",
+      "subtitle": "从应用程序中获取更多信息。",
       "items": [
         {
-          "title": "The 70% rule",
-          "description": "If you can’t play it cleanly at 70% tempo, you’re not ready to speed up. Drop to 60%. Loop four bars, not the whole tune. TempoLab exists so you don’t waste reps on vanity speed. ---"
+          "title": "70%规则",
+          "description": "如果你不能以 70% 的速度干净地演奏，那么你还没有准备好加速。下降到 60%。循环四个小节，而不是整个曲调。 TempoLab 的存在是为了让您不会在虚荣速度上浪费次数。 ---"
         },
         {
-          "title": "Mark the money beats",
-          "description": "Before you touch EQ or reverb, mark where the kick lands, where the vocal breathes, where the guitar slides. Your future self will jump there in one tap instead of scrubbing blind. ---"
+          "title": "标记金钱节拍",
+          "description": "在触摸 EQ 或混响之前，标记底鼓落地的位置、人声呼吸的位置以及吉他滑动的位置。未来的你将一键跳到那里，而不是盲目地擦洗。 ---"
         },
         {
-          "title": "Loop small, win small",
-          "description": "A two-bar loop beats a thirty-two-bar loop for muscle memory. Set A just before the downbeat, B on the last sixteenth you keep rushing. ±10 ms matters — your ear feels phase before your brain names it. ---"
+          "title": "小循环，小获胜",
+          "description": "在肌肉记忆方面，两小节循环胜过三十二小节循环。将A设置在悲观之前，将B设置在最后十六分之一，你继续冲。 ±10 ms matters — 在你的大脑命名之前，你的耳朵就感受到了相位。 ---"
         },
         {
-          "title": "Pitch is for comfort, not cheating",
-          "description": "Transpose down for morning warmups, up to test if a part still speaks when you’re tired. If you’re learning a cover, practice in the original key at least every third session so you don’t surprise yourself at the gig. ---"
+          "title": "推销是为了安慰，而不是作弊",
+          "description": "向下移调以进行早晨热身，向上移调以测试当您疲倦时某个部分是否仍然会说话。如果你正在学习翻唱，至少每第三次练习一次原调，这样你就不会在演出中感到惊讶。 ---"
         },
         {
-          "title": "Vinyl mode has a vibe",
-          "description": "When you link tempo and pitch, you get that sampler/record feel — useful for creative practice, not just transcription. Try it on a soul sample: slow down and hear the harmonics move together. ---"
+          "title": "黑胶唱片模式有一种氛围",
+          "description": "当您将速度和音调联系起来时，您会得到采样器/录音的感觉 - 对于创意实践很有用，而不仅仅是转录。在灵魂样本上尝试一下：放慢速度并听到和声一起移动。 ---"
         },
         {
-          "title": "EQ while you practice, not after",
-          "description": "Cut 200–400 Hz if the guitar mask is hiding the kick. Boost 3–5 kHz lightly to hear pick attack on acoustic parts. You’re not mastering — you’re making the part audible at low tempo. ---"
+          "title": "练习时而不是练习后的情商",
+          "description": "如果吉他面罩隐藏了底鼓，则削减 200–400 Hz。轻轻增强 3–5 kHz，以听到原声部件上的拾音器attack。你并不是在掌握——你只是在低速地让这部分听起来清晰。 ---"
         },
         {
-          "title": "Practice mode = honest reps",
-          "description": "Set start 65%, end 95%, small steps. The day you fail is data: note the % and loop that bar again tomorrow. Speed is a side effect of accuracy. ---"
+          "title": "练习模式=诚实的代表",
+          "description": "设置开始 65%，结束 95%，小步长。你失败的那一天就是数据：记下％并明天再次循环该条。速度是准确性的副作用。 ---"
         },
         {
-          "title": "Tap tempo before you argue BPM",
-          "description": "Two producers, two numbers. Tap the groove — swing lies to the grid. Use metronome after you agree on feel. ---"
+          "title": "在争论 BPM 之前先点击节奏",
+          "description": "两个制片人，两个号码。敲击凹槽——挥杆位于网格上。在您同意感觉后使用节拍器。 ---"
         }
       ]
     }
