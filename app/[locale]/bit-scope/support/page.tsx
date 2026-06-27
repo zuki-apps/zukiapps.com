@@ -8,6 +8,7 @@ import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Mail, HelpCircle, MessageCircle, FileText, Shield } from 'lucide-react';
+import { buildFaqPageJsonLd, collectNumberedSupportFaq } from '@/lib/supportFaq';
 
 export async function generateMetadata({
   params
@@ -48,60 +49,9 @@ export default async function SupportPage({
   const tHero = await getTranslations({ locale, namespace: 'bitScope.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   
-  const faqStructuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: t('faq.q1.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q1.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q2.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q2.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q3.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q3.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q4.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q4.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q5.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q5.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q6.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q6.answer')
-        }
-      }
-    ]
-  };
+  const faqItems = collectNumberedSupportFaq(t);
+
+  const faqStructuredData = buildFaqPageJsonLd(faqItems);
 
   return (
     <>
@@ -211,16 +161,16 @@ export default async function SupportPage({
                 {t('faq.title')}
               </h2>
               <div className="space-y-6">
-                {[1, 2, 3, 4, 5, 6].map((num) => (
-                  <div key={num} className="bg-white rounded-lg p-6 border border-gray-200">
+                {faqItems.map((item, index) => (
+                  <div key={index} className="bg-white rounded-lg p-6 border border-gray-200">
                     <div className="flex items-start gap-3">
-                      <HelpCircle className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-1" />
+                      <HelpCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                          {t(`faq.q${num}.question`)}
+                          {item.question}
                         </h3>
                         <p className="text-gray-700 leading-relaxed">
-                          {t(`faq.q${num}.answer`)}
+                          {item.answer}
                         </p>
                       </div>
                     </div>

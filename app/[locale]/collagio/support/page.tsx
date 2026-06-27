@@ -8,6 +8,7 @@ import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Mail, HelpCircle, MessageCircle, FileText, Shield } from 'lucide-react';
+import { buildFaqPageJsonLd, collectNumberedSupportFaq } from '@/lib/supportFaq';
 import { collagioBrandName } from '@/lib/collagioBrand';
 
 export async function generateMetadata({
@@ -49,18 +50,9 @@ export default async function CollagioSupportPage({
   const tHero = await getTranslations({ locale, namespace: 'collagio.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
-  const faqStructuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [1, 2, 3, 4, 5, 6].map((num) => ({
-      '@type': 'Question',
-      name: t(`faq.q${num}.question`),
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: t(`faq.q${num}.answer`),
-      },
-    })),
-  };
+  const faqItems = collectNumberedSupportFaq(t);
+
+  const faqStructuredData = buildFaqPageJsonLd(faqItems);
 
   const rtl = locale === 'he' || locale === 'ar';
   const brandName = collagioBrandName(tHero);
@@ -151,19 +143,21 @@ export default async function CollagioSupportPage({
               <section>
                 <h3 className="text-2xl font-bold text-rose-600 mb-6">{t('faq.title')}</h3>
                 <div className="space-y-6">
-                  {[1, 2, 3, 4, 5, 6].map((num) => (
-                    <div key={num} className="bg-white rounded-lg p-6 border border-gray-200">
-                      <div className="flex items-start gap-3">
-                        <HelpCircle className="w-5 h-5 text-rose-600 flex-shrink-0 mt-1" />
-                        <div>
-                          <h4 className="text-xl font-semibold text-gray-900 mb-2">
-                            {t(`faq.q${num}.question`)}
-                          </h4>
-                          <p className="text-gray-700 leading-relaxed">{t(`faq.q${num}.answer`)}</p>
-                        </div>
+                  {faqItems.map((item, index) => (
+                  <div key={index} className="bg-white rounded-lg p-6 border border-gray-200">
+                    <div className="flex items-start gap-3">
+                      <HelpCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
+                      <div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                          {item.question}
+                        </h3>
+                        <p className="text-gray-700 leading-relaxed">
+                          {item.answer}
+                        </p>
                       </div>
                     </div>
-                  ))}
+                  </div>
+                ))}
                 </div>
               </section>
 

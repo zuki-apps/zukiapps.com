@@ -6,7 +6,11 @@ import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
-import { Mail, FileText, Shield } from 'lucide-react';
+import { Mail, FileText, Shield, HelpCircle } from 'lucide-react';
+import Script from 'next/script';
+import { buildFaqPageJsonLd } from '@/lib/supportFaq';
+
+type FaqItem = { question: string; answer: string };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -30,9 +34,17 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
   const t = await getTranslations({ locale, namespace: 'footballTrivia.support' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const tApp = await getTranslations({ locale, namespace: 'footballTrivia' });
+  const tFaq = await getTranslations({ locale, namespace: 'footballTrivia.faq' });
+  const faqItems = (tFaq.raw('items') as FaqItem[]) ?? [];
+  const faqStructuredData = buildFaqPageJsonLd(faqItems);
 
   return (
     <>
+      <Script
+        id="faq-structured-data-football-trivia"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+      />
       <BreadcrumbsStructuredData
         locale={locale}
         items={[
@@ -92,7 +104,23 @@ export default async function FootballTriviaSupportPage({ params }: { params: Pr
                   </Link>
                 </div>
               </section>
-              <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-blue-700">
+              <section>
+                <h2 className="text-2xl font-bold text-blue-700 mb-6">{tFaq('title')}</h2>
+                <div className="space-y-6">
+                  {faqItems.map((item, index) => (
+                    <div key={index} className="bg-white rounded-lg p-6 border border-gray-200">
+                      <div className="flex items-start gap-3">
+                        <HelpCircle className="w-5 h-5 text-blue-700 flex-shrink-0 mt-1" />
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.question}</h3>
+                          <p className="text-gray-700 leading-relaxed">{item.answer}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+              <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-blue-700 mt-8">
                 <div className="flex items-start gap-3">
                   <Mail className="w-6 h-6 text-blue-700 flex-shrink-0 mt-1" />
                   <div>

@@ -2,27 +2,44 @@
 
 > Canonical page: https://zukiapps.com/toldya/support  
 > Product page: https://zukiapps.com/toldya  
-> App: iOS & Android · Package `com.zuki.apps.toldya` · Support: zuki.apps.dev@gmail.com
+> App: iOS & Android · Android `com.zuki.apps.toldya` · iOS App Store `6756342206`  
+> Icon: https://zukiapps.com/images/toldya-icon.png
 
 ## What is ToldYa!?
 
-Social predictions app — make calls with friends, track results, and build streaks. Free on iOS and Android.
+Invite-only social app for predictions — post your call before it happens, vote in the Arena, build a reputation score, and prove you called it. Free on iOS and Android with no ads and no in-app purchases.
 
-## Account & safety
+## Is ToldYa! invite-only?
 
-**Q: Is an account required?**  
-A: Sign-in may be required for social features. See in-app onboarding.
+Yes. During the pilot, access is invite-only. You need an invitation to create an account.
 
-**Q: Child safety**  
-A: Published child safety standards at https://zukiapps.com/toldya/child-safety
+## How does Arena voting work?
 
-## Privacy & support
+Post a prediction, then the community votes in the Arena on whether your call will happen. Results update your reputation score by category.
 
-**Q: Where is the privacy policy?**  
-A: https://zukiapps.com/toldya/privacy
+## How do I delete my account?
 
-**Q: Delete account**  
-A: https://zukiapps.com/toldya/delete-account
+https://zukiapps.com/toldya/delete-account — or use in-app Settings → Delete account. Deletion is permanent.
 
-**Q: Contact**  
-A: zuki.apps.dev@gmail.com or /toldya/support
+## Ads or in-app purchases?
+
+No ads and no in-app purchases in the current pilot release.
+
+## Languages
+
+English and Hebrew with full RTL layout for Hebrew.
+
+## Child safety
+
+Published CSAE standards and designated contact: https://zukiapps.com/toldya/child-safety
+
+## Download
+
+- iOS: https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206  
+- Android: https://play.google.com/store/apps/details?id=com.zuki.apps.toldya
+
+## Legal
+
+Privacy: https://zukiapps.com/toldya/privacy  
+Terms: https://zukiapps.com/toldya/terms  
+Support: zuki.apps.dev@gmail.com

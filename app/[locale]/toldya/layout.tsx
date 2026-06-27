@@ -3,6 +3,8 @@ import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import { TOLDYA_PILOT, TOLDYA_PUBLISHED } from '@/lib/appPublishState';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import { FaqStructuredData } from '@/components/FaqHowToStructuredData';
+import { collectNumberedSupportFaq } from '@/lib/supportFaq';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
 
 const TOLDYA_INDEXABLE = TOLDYA_PUBLISHED || TOLDYA_PILOT;
@@ -92,6 +94,8 @@ export default async function ToldyaLayout({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'toldya' });
+  const tSupport = await getTranslations({ locale, namespace: 'toldya.support' });
+  const faqItems = collectNumberedSupportFaq(tSupport);
 
   return (
     <>
@@ -106,6 +110,7 @@ export default async function ToldyaLayout({
         appStoreUrl={t('download.appStoreUrl')}
         googlePlayUrl={t('download.googlePlayUrl')}
       />
+      {faqItems.length > 0 && <FaqStructuredData id="toldya-faq-ld" items={faqItems} />}
       {children}
     </>
   );

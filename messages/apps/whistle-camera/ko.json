@@ -2,14 +2,14 @@
   "whistleCamera": {
     "back": "홈으로 돌아가기",
     "hero": {
-      "badge": "지금 사용 가능",
-      "title": "Whistle Camera - Selfie & More",
-      "subtitle": "Smart Camera App",
-      "description": "An innovative camera application that brings new features and capabilities to mobile photography. With whistle detection, incognito mode, and advanced controls, capture your moments like never before.",
-      "structuredDataDescription": "Whistle Camera — iOS 및 Android용 핸즈프리 사진 및 동영상 앱. 셀카, 애완동물 사진, 단체 사진을 찍으려면 휘파람을 불세요. 휘파람 보정, 위젯, Siri 단축키를 연습하세요. Android com.zuki.apps.whistlecamera; iOS App Store id1037716421 by Zuki Apps.",
+      "badge": "iOS 및 Android에서는 무료입니다.",
+      "title": "Whistle Camera",
+      "subtitle": "휘파람을 불면 휴대폰이 사진을 찍습니다.",
+      "description": "셀카, 애완동물, 양손이 꽉 찬 순간을 핸즈프리로 촬영하세요. 실시간 휘파람 감지, 연습 모드 보정, 인앱 갤러리, 카운트다운 타이머, 프로 비디오 시작/중지.",
+      "structuredDataDescription": "Whistle Camera — iOS 및 Android용 무료 핸즈프리 카메라 앱입니다. 휘파람을 불면 휴대폰을 만지지 않고도 셀카, 개 및 애완동물 사진, 단체 사진을 찍을 수 있습니다. 연습 모드 보정, 위젯, Siri 단축키, 오프라인 캡처. Android com.zuki.apps.whistlecamera; iOS App Store id1037716421 by Zuki Apps.",
       "socialProof": "무료 다운로드 · 40개 이상의 언어 · iOS & Android",
-      "seoTitle": "Whistle Camera — 핸즈프리 셀카 | Zuki Apps",
-      "metaDescription": "휘파람을 불면 사진과 동영상을 찍을 수 있습니다. 타이머가 달려 있지 않습니다. 오프라인으로 작동합니다. iOS 및 Android에서 무료로 다운로드하세요."
+      "seoTitle": "Whistle Camera — 핸즈프리 셀카 앱 | Zuki Apps",
+      "metaDescription": "핸즈프리 셀카, 애완동물 사진, 단체 사진을 찍을 때 휘파람을 불세요. 타이머가 필요하지 않습니다. 휘파람을 보정하고 오프라인으로 작동합니다. iOS 및 Android에서는 무료입니다."
     },
     "features": {
       "title": "Key Features",
@@ -188,6 +188,18 @@
         "q8": {
           "question": "Whistle Camera가 Android에 있나요?",
           "answer": "예 — https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera"
+        },
+        "q9": {
+          "question": "핸즈프리 셀카는 어떻게 찍나요?",
+          "answer": "휴대폰을 받치거나 잡고, 휘파람 감지를 활성화하고, 프레임 안에 있을 때 휘파람을 불세요. Whistle Camera 셔터가 즉시 작동합니다. 타이머가 작동하지 않습니다. 먼저 설정에서 연습 모드를 사용하여 교정하세요."
+        },
+        "q10": {
+          "question": "Whistle Camera는 애완동물 및 개 사진에 사용할 수 있나요?",
+          "answer": "예. 많은 애완동물 주인들은 눈을 마주치기 위해 휘파람을 불다가 Whistle Camera 같은 순간에 사진을 찍습니다. 안정적인 감지를 위해 설정에서 연습용 휘파람으로 보정하세요."
+        },
+        "q11": {
+          "question": "Whistle Camera는 무료인가요?",
+          "answer": "예. iOS 및 Android에서 무료로 다운로드할 수 있습니다. 선택 사항 Whistle Camera Pro(일회성 구매)에는 휘파람 동영상 시작/중지, premium 모드가 추가되고 광고가 제거됩니다. 언제든지 설정에서 구매를 복원하세요."
         }
       },
       "additionalHelp": {
@@ -195,7 +207,7 @@
         "description": "원하는 답변을 찾을 수 없거나 기술적인 문제가 발생하는 경우, 주저하지 말고 저희에게 연락해 주세요. 우리는 도움을 드리고 일반적으로 24~48시간 이내에 응답합니다."
       },
       "metaTitle": "지원 및 도움말 — Whistle Camera | Zuki Apps",
-      "metaDescription": "Whistle Camera FAQ 및 지원 — 핸즈프리 호루라기 작동 카메라. 연락처, 개인 정보 보호 및 문제 해결."
+      "metaDescription": "Whistle Camera FAQ — 핸즈프리 셀카, 애완동물 사진, 휘파람 감지, Pro, 개인 정보 보호 및 문제 해결. iOS & Android."
     },
     "footer": {
       "copyright": "© 2025 Whistle Camera - 판권 소유",
@@ -479,6 +491,18 @@
         {
           "question": "지원을 받으려면 어떻게 해야 하나요?",
           "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/whistle-camera/support. Privacy: https://zukiapps.com/whistle-camera/privacy"
+        },
+        {
+          "question": "핸즈프리 셀카는 어떻게 찍나요?",
+          "answer": "휴대폰을 받치거나 잡고, 휘파람 감지를 활성화하고, 프레임 안에 있을 때 휘파람을 불세요. Whistle Camera 셔터가 즉시 작동합니다. 타이머가 작동하지 않습니다. 먼저 설정에서 연습 모드를 사용하여 교정하세요."
+        },
+        {
+          "question": "Whistle Camera는 애완동물 및 개 사진에 사용할 수 있나요?",
+          "answer": "예. 많은 애완동물 주인들은 눈을 마주치기 위해 휘파람을 불다가 Whistle Camera 같은 순간에 사진을 찍습니다. 안정적인 감지를 위해 설정에서 연습용 휘파람으로 보정하세요."
+        },
+        {
+          "question": "Whistle Camera는 무료인가요?",
+          "answer": "예. iOS 및 Android에서 무료로 다운로드할 수 있습니다. 선택 사항 Whistle Camera Pro(일회성 구매)에는 휘파람 동영상 시작/중지, premium 모드가 추가되고 광고가 제거됩니다. 언제든지 설정에서 구매를 복원하세요."
         }
       ]
     },

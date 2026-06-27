@@ -7,7 +7,8 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { Mail, HelpCircle, MessageCircle, FileText, Shield, ExternalLink } from 'lucide-react';
+import { Mail, HelpCircle, MessageCircle, FileText, Shield } from 'lucide-react';
+import { buildFaqPageJsonLd, collectNumberedSupportFaq } from '@/lib/supportFaq';
 
 export async function generateMetadata({
   params
@@ -47,78 +48,9 @@ export default async function SupportPage({
   const t = await getTranslations({ locale, namespace: 'whistleCamera.support' });
   const tHero = await getTranslations({ locale, namespace: 'whistleCamera.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
-  
-  // Build FAQ Structured Data (JSON-LD)
-  const faqStructuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: t('faq.q1.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q1.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q2.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q2.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q3.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q3.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q4.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q4.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q5.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q5.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q6.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q6.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q7.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q7.answer')
-        }
-      },
-      {
-        '@type': 'Question',
-        name: t('faq.q8.question'),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: t('faq.q8.answer')
-        }
-      }
-    ]
-  };
+  const faqItems = collectNumberedSupportFaq(t);
+
+  const faqStructuredData = buildFaqPageJsonLd(faqItems);
 
   return (
     <>
@@ -137,7 +69,6 @@ export default async function SupportPage({
       />
       <div className="min-h-screen bg-gradient-to-br from-amber-50 via-amber-50 to-amber-100">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        {/* Language Switcher */}
         <div className="mb-6 flex justify-end">
           <LanguageSwitcher />
         </div>
@@ -156,14 +87,13 @@ export default async function SupportPage({
           </div>
 
           <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               {t('title')}
-            </h1>
+            </h2>
             <p className="text-gray-400 mb-8">
               {t('subtitle')}
             </p>
 
-            {/* Contact Section */}
             <section className="bg-white rounded-lg p-6 mb-8 border-l-4 border-amber-600">
               <div className="flex items-start gap-4">
                 <Mail className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
@@ -185,33 +115,6 @@ export default async function SupportPage({
               </div>
             </section>
 
-            {/* Legacy listing (obsolete) */}
-            <section className="bg-amber-50 rounded-lg p-6 mb-8 border border-amber-200">
-              <div className="flex items-start gap-4">
-                <HelpCircle className="w-6 h-6 text-amber-700 flex-shrink-0 mt-1" />
-                <div>
-                  <h2 className="text-xl font-bold text-amber-700 mb-2">
-                    {locale === 'he' || locale === 'ar' ? 'קישור אנדרואיד ישן (לא רלוונטי)' : 'Old Android listing (obsolete)'}
-                  </h2>
-                  <p className="text-gray-700 mb-3">
-                    {locale === 'he' || locale === 'ar'
-                      ? 'הקישור הבא הוא רישום ישן. מומלץ להשתמש בקישור ההורדה הראשי בעמוד האפליקציה.'
-                      : 'This is an old listing. Use the main download links on the app page.'}
-                  </p>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.dreambit.whistlecamera&hl=en_GB&utm_source=zukiapps&utm_medium=website&utm_campaign=store-fab&utm_content=whistle-camera"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-amber-700 hover:text-amber-800 font-semibold"
-                  >
-                    <ExternalLink className="w-5 h-5" />
-                    {locale === 'he' || locale === 'ar' ? 'פתח את הרישום הישן' : 'Open old listing'}
-                  </a>
-                </div>
-              </div>
-            </section>
-
-            {/* Quick Links */}
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-amber-600 mb-4">
                 {t('quickLinks.title')}
@@ -252,22 +155,21 @@ export default async function SupportPage({
               </div>
             </section>
 
-            {/* FAQ Section */}
             <section>
               <h2 className="text-2xl font-bold text-amber-600 mb-6">
                 {t('faq.title')}
               </h2>
               <div className="space-y-6">
-                {[1, 2, 3, 4, 5, 6].map((num) => (
-                  <div key={num} className="bg-white rounded-lg p-6 border border-gray-200">
+                {faqItems.map((item, index) => (
+                  <div key={index} className="bg-white rounded-lg p-6 border border-gray-200">
                     <div className="flex items-start gap-3">
                       <HelpCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                          {t(`faq.q${num}.question`)}
+                          {item.question}
                         </h3>
                         <p className="text-gray-700 leading-relaxed">
-                          {t(`faq.q${num}.answer`)}
+                          {item.answer}
                         </p>
                       </div>
                     </div>
@@ -276,7 +178,6 @@ export default async function SupportPage({
               </div>
             </section>
 
-            {/* Additional Help */}
             <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-amber-600 mt-8">
               <div className="flex items-start gap-3">
                 <MessageCircle className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />

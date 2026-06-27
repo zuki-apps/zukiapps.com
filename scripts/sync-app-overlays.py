@@ -48,6 +48,7 @@ FULL_SYNC_APPS = frozenset({
 FORCE_SUBTREES: dict[str, list[str]] = {
     "collagio": ["collagio.hero", "collagio.download", "collagio.status"],
     "whistle-camera": [
+        "whistleCamera.hero",
         "whistleCamera.features.calibration",
         "whistleCamera.manual",
         "whistleCamera.screenshots",

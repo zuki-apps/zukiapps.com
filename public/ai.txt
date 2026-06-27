@@ -12,8 +12,15 @@ Sitemap: https://zukiapps.com/sitemap.xml
 Robots: https://zukiapps.com/robots.txt
 DSA / legal hub: https://zukiapps.com/dsa-compliance
 
-Structured data: HTML includes schema.org JSON-LD @graph (Organization, WebSite, ItemList).
+Structured data: HTML includes schema.org JSON-LD — Organization, WebSite, ItemList on home; SoftwareApplication + FAQPage + HowTo on rich product pages; FAQPage on support pages.
 
 Policy: Public marketing pages only; per-app privacy and terms under each app path (e.g. /zulist/privacy). No documented public API.
 
-Product examples: /hush-gallery (private gallery + FAQ at /hush-gallery/support and /hush-gallery/faq.md), /noise-meter-shusher (decibel / noise meter), /paratrooper-blitz (arcade game).
+Product examples (each has /support and /faq.md where noted):
+- /whistle-camera — hands-free whistle camera; /whistle-camera/faq.md
+- /hush-gallery — private photo vault; /hush-gallery/faq.md
+- /toldya — social predictions (pilot); /toldya/faq.md
+- /zulist — shared shopping lists; /zulist/faq.md
+- /football-trivia — soccer quiz; /football-trivia/faq.md
+- /noise-meter-shusher — decibel meter
+- /paratrooper-blitz — arcade game

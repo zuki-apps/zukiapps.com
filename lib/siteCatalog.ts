@@ -2,7 +2,7 @@
  * Canonical list of public product URLs and labels for JSON-LD (ItemList) and docs.
  * Paths are locale-agnostic; default locale uses unprefixed URLs per routing.
  *
- * ToldYa! (`/toldya`) is wired on the site but omitted here until `TOLDYA_PUBLISHED` is true.
+ * ToldYa! (`/toldya`) is indexed as a pilot page when `TOLDYA_PILOT` is true; omitted from the home grid until `TOLDYA_PUBLISHED`.
  */
 export type SiteCatalogEntry = {
   path: string;
@@ -14,7 +14,7 @@ export type SiteCatalogEntry = {
 export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
   { path: '/zulist', name: 'ZuList', description: 'Shopping and shared lists — Flutter, iOS and Android.' },
   { path: '/hush-gallery', name: 'Hush Gallery', description: 'Private photo and video gallery with secure storage.' },
-  { path: '/whistle-camera', name: 'Whistle Camera', description: 'Hands-free camera: whistle to snap photos and Pro video on iOS and Android.' },
+  { path: '/whistle-camera', name: 'Whistle Camera', description: 'Hands-free camera app: whistle for selfies, pet photos, and group shots. Practice calibration, offline capture, Pro video. iOS & Android.' },
   { path: '/power-interval-timer', name: 'Power Interval Timer', description: 'Tabata and HIIT interval workout timer.' },
   { path: '/sudoku-puzzle', name: 'Sudoku Fun Go', description: 'Classic 9×9 Sudoku puzzle game.' },
   { path: '/football-trivia', name: 'Football Trivia Master', description: '450+ timed football quiz questions with streaks and global leaderboards.' },
@@ -36,6 +36,11 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/collagio',
     name: 'Collagio',
     description: 'Photo collage maker: 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device, English & Hebrew. Coming soon on iOS and Android.',
+  },
+  {
+    path: '/toldya',
+    name: 'ToldYa!',
+    description: 'Invite-only social predictions app: Arena voting, reputation scores, comments, DMs. Free, no ads. English & Hebrew. iOS & Android pilot.',
   },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];

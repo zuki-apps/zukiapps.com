@@ -21,6 +21,15 @@ export async function generateMetadata({
     locale,
     appPath: '/whistle-camera',
     t,
+    keywords: [
+      'whistle camera',
+      'hands-free camera',
+      'hands-free selfie',
+      'whistle to take photo',
+      'pet photo app',
+      'dog camera whistle',
+      'selfie without timer',
+    ],
   });
 }
 
