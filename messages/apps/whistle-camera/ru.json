@@ -30,7 +30,7 @@
           "Потренируйтесь в свистке в настройках",
           "Предустановки чувствительности (Тихо → Громко)",
           "Наложение интерактивной отладки",
-          "Полоса обнаружения ≈750–3000 Гц"
+          "Диапазон частот 0–100 в настройках."
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "Часто задаваемые вопросы",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "Что такое Whistle Camera?",
+          "answer": "Whistle Camera — это приложение для камеры без помощи рук для iOS и Android. Свистните, чтобы сделать снимок или (в Pro) запустить и остановить видео. Пакет на Android: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "Он плохо распознает мой свист. Что я могу сделать?",
+          "answer": "Уменьшите чувствительность (попробуйте уровень 1), расширьте полосу частот 0–100 в настройках, включите наложение отладки в реальном времени и используйте тренировочный свисток для калибровки по пиковым значениям сеанса."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "Нужен ли мне Интернет?",
+          "answer": "Перехват основных свистков работает в автономном режиме. Для рекламы, аналитики и проверок покупок может потребоваться подключение к сети."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "Зачем приложению микрофон?",
+          "answer": "Приложение слушает ваш свист, чтобы активировать камеру. Звук обрабатывается на устройстве для обнаружения, а не сохраняется в виде записей."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "Где хранятся фотографии?",
+          "answer": "По умолчанию в галерее приложения. При желании вы можете скопировать снимки в альбом «Фото» с именем Whistle Camera в настройках."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "Что такое Про?",
+          "answer": "Pro открывает свисток запуска/остановки видео, дополнительные режимы premium и удаляет рекламу. Разовая покупка; восстановить из настроек после переустановки."
         },
         "q7": {
           "question": "Могу ли я использовать таймер вместо свиста?",
@@ -329,7 +329,7 @@
         {
           "id": "настройки",
           "title": "Откалибруйте свой свисток",
-          "description": "Режим тренировки, чувствительность и диапазон частот — настраиваются под вас, а не являются стандартными настройками.",
+          "description": "Режим тренировки, чувствительность и полоса частот 0–100 — настроенные под вас, а не стандартные настройки.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera настройки калибровки свистка",
           "category": "функции"
@@ -377,7 +377,7 @@
           "title": "2. Настройки свистка",
           "steps": [
             "Чувствительность от 1 (самая простая) до 5 (самая строгая).",
-            "Диапазон частот 0–100 в пользовательском интерфейсе (~750–3000 Гц).",
+            "Диапазон частот 0–100 в пользовательском интерфейсе.",
             "Попрактикуйтесь в свистке — слушайте, свистите, нажмите «Установить», чтобы выполнить калибровку.",
             "Предустановки: Тихо, По умолчанию, Снаружи, Громко."
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "Шумная среда",
-          "description": "Понизьте чувствительность до уровня 1 и расширите полосу; включите наложение отладки, чтобы увидеть пики."
+          "description": "Понизить чувствительность до уровня 1 и расширить полосу частот; включите наложение отладки, чтобы увидеть пики."
         },
         {
           "title": "Расстояние от штатива",
@@ -450,7 +450,7 @@
         },
         {
           "question": "Он плохо распознает мой свист. Что я могу сделать?",
-          "answer": "Уменьшите чувствительность (попробуйте уровень 1), расширьте диапазон частот в настройках, включите наложение отладки в реальном времени и используйте тренировочный свисток для калибровки по пиковым значениям сеанса."
+          "answer": "Уменьшите чувствительность (попробуйте уровень 1), расширьте полосу частот 0–100 в настройках, включите наложение отладки в реальном времени и используйте тренировочный свисток для калибровки по пиковым значениям сеанса."
         },
         {
           "question": "Нужен ли мне Интернет?",

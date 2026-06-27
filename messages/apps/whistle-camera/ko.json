@@ -30,7 +30,7 @@
           "설정에서 휘파람 연습하기",
           "감도 사전 설정(조용함 → 크게)",
           "라이브 디버그 오버레이",
-          "≒750~3000Hz 감지 대역"
+          "설정에서 0~100 주파수 대역"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "자주 묻는 질문",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "Whistle Camera란 무엇인가요?",
+          "answer": "Whistle Camera는 iOS 및 Android용 핸즈프리 카메라 앱입니다. 휘파람을 불면 사진을 찍거나 (Pro 사용 시) 비디오를 시작하고 중지할 수 있습니다. Android 패키지: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "내 휘파람 소리를 잘 감지하지 못해요. 어떻게 해야 하나요?",
+          "answer": "감도를 낮추고(레벨 1로 시도), 설정에서 0~100 주파수 대역을 넓히고, 라이브 디버그 오버레이를 활성화하고, 연습 휘파람을 사용하여 세션 최고점에서 보정하세요."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "인터넷이 필요합니까?",
+          "answer": "핵심 휘슬 캡처는 오프라인에서 작동합니다. 광고, 분석, 구매 확인에는 네트워크 연결이 필요할 수 있습니다."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "앱에 마이크가 필요한 이유는 무엇입니까?",
+          "answer": "앱은 휘파람 소리를 듣고 카메라를 작동시킵니다. 오디오는 감지를 위해 장치 내에서 처리되며 녹음으로 저장되지 않습니다."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "사진은 어디에 저장되나요?",
+          "answer": "기본적으로 인앱 갤러리에 있습니다. 선택적으로 설정에서 Whistle Camera라는 이름의 사진 앨범에 캡처를 복사할 수 있습니다."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "프로란 무엇인가요?",
+          "answer": "Pro는 휘파람 시작/중지 비디오, 추가 premium 모드를 잠금 해제하고 광고를 제거합니다. 일회성 구매 재설치 후 설정에서 복원하세요."
         },
         "q7": {
           "question": "휘파람 대신 타이머를 사용할 수 있나요?",
@@ -329,7 +329,7 @@
         {
           "id": "설정",
           "title": "휘파람을 보정하세요",
-          "description": "연습 모드, 감도 및 주파수 대역 - 일반적인 사전 설정이 아닌 사용자에게 맞춰 조정됩니다.",
+          "description": "연습 모드, 감도 및 0~100 주파수 대역 — 일반적인 사전 설정이 아닌 사용자에게 맞춰 조정되었습니다.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera 호루라기 보정 설정",
           "category": "특징"
@@ -377,7 +377,7 @@
           "title": "2. 휘슬 설정",
           "steps": [
             "민감도는 1(가장 쉬움) ~ 5(가장 엄격함)입니다.",
-            "UI의 주파수 대역 0~100(~750~3000Hz)",
+            "UI의 주파수 대역 0~100.",
             "휘파람 연습 - 듣고 휘파람을 불고 설정을 눌러 보정하세요.",
             "사전 설정: 조용함, 기본, 외부, 시끄러움."
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "시끄러운 환경",
-          "description": "감도를 레벨 1로 낮추고 대역을 넓힙니다. 최고점을 보려면 디버그 오버레이를 활성화하세요."
+          "description": "감도를 레벨 1로 낮추고 주파수 대역을 넓힙니다. 최고점을 보려면 디버그 오버레이를 활성화하세요."
         },
         {
           "title": "삼각대 거리",
@@ -450,7 +450,7 @@
         },
         {
           "question": "내 휘파람 소리를 잘 감지하지 못해요. 어떻게 해야 하나요?",
-          "answer": "감도를 낮추고(레벨 1로 시도), 설정에서 주파수 범위를 넓히고, 라이브 디버그 오버레이를 활성화하고, 연습 휘파람을 사용하여 세션 최고점에서 보정하세요."
+          "answer": "감도를 낮추고(레벨 1로 시도), 설정에서 0~100 주파수 대역을 넓히고, 라이브 디버그 오버레이를 활성화하고, 연습 휘파람을 사용하여 세션 최고점에서 보정하세요."
         },
         {
           "question": "인터넷이 필요합니까?",

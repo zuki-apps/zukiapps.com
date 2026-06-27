@@ -30,7 +30,7 @@
           "Practica el silbido en Configuración",
           "Preajustes de sensibilidad (Silencioso → Alto)",
           "Superposición de depuración en vivo",
-          "≈750–3000 Hz banda de detección"
+          "Banda de frecuencia 0–100 en Configuración"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "Preguntas frecuentes",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "¿Qué es Whistle Camera?",
+          "answer": "Whistle Camera es una aplicación de cámara manos libres para iOS y Android. Silbato para tomar una foto o (con Pro) iniciar y detener un video. Paquete en Android: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "No detecta bien mi silbido. ¿Qué puedo hacer?",
+          "answer": "Reduzca la sensibilidad (pruebe el nivel 1), amplíe la banda de frecuencia de 0 a 100 en Configuración, habilite la superposición de depuración en vivo y use el silbido de práctica para calibrar desde los picos de su sesión."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "¿Necesito internet?",
+          "answer": "La captura de silbidos centrales funciona sin conexión. Es posible que los anuncios, análisis y comprobaciones de compras necesiten una conexión de red."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "¿Por qué la aplicación necesita el micrófono?",
+          "answer": "La aplicación escucha tu silbato para activar la cámara. El audio se procesa en el dispositivo para su detección; no se almacena como grabaciones."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "¿Dónde se almacenan las fotos?",
+          "answer": "En la galería de la aplicación de forma predeterminada. Opcionalmente, puedes copiar capturas a un álbum de fotos llamado Whistle Camera en Configuración."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "¿Qué es Pro?",
+          "answer": "Pro desbloquea videos de inicio/parada con silbido, modos premium adicionales y elimina anuncios. Compra única; restaurar desde Configuración después de la reinstalación."
         },
         "q7": {
           "question": "¿Puedo usar un cronómetro en lugar de silbar?",
@@ -329,7 +329,7 @@
         {
           "id": "ajustes",
           "title": "Calibra tu silbato",
-          "description": "Modo de práctica, sensibilidad y banda de frecuencia: adaptados a usted, no a un ajuste preestablecido genérico.",
+          "description": "Modo de práctica, sensibilidad y banda de frecuencia de 0 a 100: adaptados a usted, no a un ajuste preestablecido genérico.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera configuración de calibración del silbido",
           "category": "características"
@@ -377,7 +377,7 @@
           "title": "2. Configuración del silbato",
           "steps": [
             "Sensibilidad 1 (más fácil) a 5 (más estricta).",
-            "Banda de frecuencia 0–100 en UI (~750–3000 Hz).",
+            "Banda de frecuencia 0–100 en la interfaz de usuario.",
             "Practica el silbido: escucha, silba, toca Establecer para calibrar.",
             "Presets: Silencioso, Predeterminado, Exterior, Ruidoso."
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "Ambientes ruidosos",
-          "description": "Bajar la sensibilidad al nivel 1 y ampliar la banda; habilite la superposición de depuración para ver los picos."
+          "description": "Bajar la sensibilidad al nivel 1 y ampliar la banda de frecuencia; habilite la superposición de depuración para ver los picos."
         },
         {
           "title": "Distancia del trípode",
@@ -450,7 +450,7 @@
         },
         {
           "question": "No detecta bien mi silbido. ¿Qué puedo hacer?",
-          "answer": "Reduzca la sensibilidad (pruebe el nivel 1), amplíe el rango de frecuencia en Configuración, habilite la superposición de depuración en vivo y use el silbido de práctica para calibrar desde los picos de su sesión."
+          "answer": "Reduzca la sensibilidad (pruebe el nivel 1), amplíe la banda de frecuencia de 0 a 100 en Configuración, habilite la superposición de depuración en vivo y use el silbido de práctica para calibrar desde los picos de su sesión."
         },
         {
           "question": "¿Necesito internet?",

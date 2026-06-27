@@ -30,7 +30,7 @@
           "Entraînez-vous à siffler dans les paramètres",
           "Préréglages de sensibilité (Silencieux → Fort)",
           "Superposition de débogage en direct",
-          "Bande de détection ≈750–3 000 Hz"
+          "Bande de fréquence 0 à 100 dans Paramètres"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "Foire aux questions",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "Qu'est-ce que Whistle Camera ?",
+          "answer": "Whistle Camera est une application de caméra mains libres pour iOS et Android. Sifflez pour prendre une photo ou (avec Pro) démarrer et arrêter une vidéo. Forfait sur Android : com.zuki.apps.whistlecamera. iOS App Store ID : 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "Il ne détecte pas bien mon sifflet. Que puis-je faire ?",
+          "answer": "Réduisez la sensibilité (essayez le niveau 1), élargissez la bande de fréquences de 0 à 100 dans Paramètres, activez la superposition de débogage en direct et utilisez le sifflet d'entraînement pour calibrer à partir des pics de votre session."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "Ai-je besoin d'Internet ?",
+          "answer": "La capture du sifflet principal fonctionne hors ligne. Les publicités, les analyses et les contrôles d'achat peuvent nécessiter une connexion réseau."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "Pourquoi l'application a-t-elle besoin du microphone ?",
+          "answer": "L'application écoute votre sifflet pour déclencher la caméra. L'audio est traité sur l'appareil pour la détection ; il n'est pas stocké sous forme d'enregistrements."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "Où sont stockées les photos ?",
+          "answer": "Dans la galerie intégrée à l'application par défaut. Vous pouvez éventuellement copier les captures dans un album Photos nommé Whistle Camera dans Paramètres."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "Qu’est-ce que Pro ?",
+          "answer": "Pro déverrouille la vidéo de démarrage/arrêt du sifflet, les modes premium supplémentaires et supprime les publicités. Achat unique ; restaurer à partir des paramètres après la réinstallation."
         },
         "q7": {
           "question": "Puis-je utiliser une minuterie au lieu de siffler ?",
@@ -329,7 +329,7 @@
         {
           "id": "paramètres",
           "title": "Calibrez votre sifflet",
-          "description": "Mode d'entraînement, sensibilité et bande de fréquence : adaptés à vous et non à un préréglage générique.",
+          "description": "Mode d'entraînement, sensibilité et bande de fréquences de 0 à 100 : adaptés à vous et non à un préréglage générique.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera paramètres d'étalonnage du sifflet",
           "category": "caractéristiques"
@@ -377,7 +377,7 @@
           "title": "2. Paramètres du sifflet",
           "steps": [
             "Sensibilité 1 (la plus simple) à 5 (la plus stricte).",
-            "Bande de fréquence 0 à 100 dans l'interface utilisateur (~ 750 à 3 000 Hz).",
+            "Bande de fréquence 0 à 100 dans l'interface utilisateur.",
             "Entraînez-vous à siffler : écoutez, sifflez, appuyez sur Régler pour calibrer.",
             "Préréglages : Silencieux, Par défaut, Extérieur, Fort."
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "Environnements bruyants",
-          "description": "Réduire la sensibilité au niveau 1 et élargir la bande ; activez la superposition de débogage pour voir les pics."
+          "description": "Réduire la sensibilité au niveau 1 et élargir la bande de fréquence ; activez la superposition de débogage pour voir les pics."
         },
         {
           "title": "Distance du trépied",
@@ -450,7 +450,7 @@
         },
         {
           "question": "Il ne détecte pas bien mon sifflet. Que puis-je faire ?",
-          "answer": "Réduisez la sensibilité (essayez le niveau 1), élargissez la plage de fréquences dans Paramètres, activez la superposition de débogage en direct et utilisez le sifflet d'entraînement pour calibrer à partir des pics de votre session."
+          "answer": "Réduisez la sensibilité (essayez le niveau 1), élargissez la bande de fréquences de 0 à 100 dans Paramètres, activez la superposition de débogage en direct et utilisez le sifflet d'entraînement pour calibrer à partir des pics de votre session."
         },
         {
           "question": "Ai-je besoin d'Internet ?",

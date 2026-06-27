@@ -30,7 +30,7 @@
           "Üben Sie das Pfeifen in den Einstellungen",
           "Empfindlichkeitsvoreinstellungen (Leise → Laut)",
           "Live-Debug-Overlay",
-          "≈750–3000 Hz Erkennungsband"
+          "0–100 Frequenzband in den Einstellungen"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "Häufig gestellte Fragen",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "Was ist Whistle Camera?",
+          "answer": "Whistle Camera ist eine Freisprech-Kamera-App für iOS und Android. Pfeifen Sie, um ein Foto aufzunehmen oder (mit Pro) ein Video zu starten und zu stoppen. Paket auf Android: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "Meine Pfeife wird nicht richtig erkannt. Was kann ich tun?",
+          "answer": "Verringern Sie die Empfindlichkeit (versuchen Sie es mit Stufe 1), erweitern Sie das Frequenzband von 0–100 in den Einstellungen, aktivieren Sie das Live-Debug-Overlay und verwenden Sie die Übungspfeife, um anhand Ihrer Sitzungsspitzen zu kalibrieren."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "Brauche ich Internet?",
+          "answer": "Die Kernpfeifenerfassung funktioniert offline. Für Anzeigen, Analysen und Kaufschecks ist möglicherweise eine Netzwerkverbindung erforderlich."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "Warum benötigt die App das Mikrofon?",
+          "answer": "Die App wartet auf Ihren Pfiff, um die Kamera auszulösen. Audio wird zur Erkennung auf dem Gerät verarbeitet – es wird nicht als Aufzeichnung gespeichert."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "Wo werden Fotos gespeichert?",
+          "answer": "Standardmäßig in der In-App-Galerie. Sie können Aufnahmen optional in ein Fotoalbum mit dem Namen Whistle Camera in den Einstellungen kopieren."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "Was ist Pro?",
+          "answer": "Pro schaltet das Start-/Stopp-Video mit Pfeife, zusätzliche premium-Modi frei und entfernt Werbung. Einmaliger Kauf; Nach der Neuinstallation über die Einstellungen wiederherstellen."
         },
         "q7": {
           "question": "Kann ich anstelle des Pfeifens einen Timer verwenden?",
@@ -329,7 +329,7 @@
         {
           "id": "Einstellungen",
           "title": "Kalibrieren Sie Ihre Pfeife",
-          "description": "Übungsmodus, Empfindlichkeit und Frequenzband – auf Sie abgestimmt, keine allgemeine Voreinstellung.",
+          "description": "Übungsmodus, Empfindlichkeit und Frequenzband 0–100 – auf Sie abgestimmt, keine allgemeine Voreinstellung.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera Pfeifenkalibrierungseinstellungen",
           "category": "Merkmale"
@@ -377,7 +377,7 @@
           "title": "2. Pfeifeneinstellungen",
           "steps": [
             "Empfindlichkeit 1 (am einfachsten) bis 5 (am strengsten).",
-            "Frequenzband 0–100 in UI (~750–3000 Hz).",
+            "Frequenzband 0–100 in der Benutzeroberfläche.",
             "Üben Sie das Pfeifen – hören Sie zu, pfeifen Sie und tippen Sie auf „Einstellen“, um es zu kalibrieren.",
             "Voreinstellungen: Leise, Standard, Draußen, Laut."
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "Laute Umgebungen",
-          "description": "Reduzieren Sie die Empfindlichkeit auf Stufe 1 und erweitern Sie das Band. Aktivieren Sie das Debug-Overlay, um Spitzenwerte anzuzeigen."
+          "description": "Reduzieren Sie die Empfindlichkeit auf Stufe 1 und erweitern Sie das Frequenzband. Aktivieren Sie das Debug-Overlay, um Spitzenwerte anzuzeigen."
         },
         {
           "title": "Stativabstand",
@@ -450,7 +450,7 @@
         },
         {
           "question": "Meine Pfeife wird nicht richtig erkannt. Was kann ich tun?",
-          "answer": "Verringern Sie die Empfindlichkeit (versuchen Sie es mit Stufe 1), erweitern Sie den Frequenzbereich in den Einstellungen, aktivieren Sie das Live-Debug-Overlay und verwenden Sie die Übungspfeife, um anhand Ihrer Sitzungsspitzen zu kalibrieren."
+          "answer": "Verringern Sie die Empfindlichkeit (versuchen Sie es mit Stufe 1), erweitern Sie das Frequenzband von 0–100 in den Einstellungen, aktivieren Sie das Live-Debug-Overlay und verwenden Sie die Übungspfeife, um anhand Ihrer Sitzungsspitzen zu kalibrieren."
         },
         {
           "question": "Brauche ich Internet?",

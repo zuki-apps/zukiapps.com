@@ -30,7 +30,7 @@
           "صافرة التدريب في الإعدادات",
           "إعدادات الحساسية المسبقة (هادئ → عالٍ)",
           "تراكب التصحيح المباشر",
-          "نطاق الكشف ≈750–3000 هرتز"
+          "نطاق التردد 0–100 في الإعدادات"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "الأسئلة المتداولة",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "ما هو Whistle Camera؟",
+          "answer": "Whistle Camera هو تطبيق كاميرا بدون استخدام اليدين لـ iOS وAndroid. قم بالصافرة لالتقاط صورة أو (باستخدام Pro) لبدء الفيديو وإيقافه. الحزمة على Android: com.zuki.apps.whistlecamera. iOS App Store الرقم : 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "لا يكتشف صافرتي جيدًا. ماذا يمكنني أن أفعل؟",
+          "answer": "حساسية أقل (تجربة المستوى 1)، وتوسيع نطاق التردد من 0 إلى 100 في الإعدادات، وتمكين تراكب التصحيح المباشر، واستخدام صافرة التدريب للمعايرة من قمم الجلسة."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "هل أحتاج إلى الإنترنت؟",
+          "answer": "يعمل التقاط الصافرة الأساسية دون اتصال بالإنترنت. قد تحتاج الإعلانات والتحليلات وفحوصات الشراء إلى اتصال بالشبكة."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "لماذا يحتاج التطبيق إلى الميكروفون؟",
+          "answer": "يستمع التطبيق إلى صافرتك لتشغيل الكاميرا. تتم معالجة الصوت على الجهاز لاكتشافه، ولا يتم تخزينه كتسجيلات."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "أين يتم تخزين الصور؟",
+          "answer": "في المعرض داخل التطبيق بشكل افتراضي. يمكنك اختياريًا نسخ اللقطات إلى ألبوم الصور المسمى Whistle Camera في الإعدادات."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "ما هو برو؟",
+          "answer": "يفتح Pro صافرة بدء/إيقاف الفيديو، وأوضاع premium إضافية، ويزيل الإعلانات. الشراء لمرة واحدة؛ استعادة من الإعدادات بعد إعادة التثبيت."
         },
         "q7": {
           "question": "هل يمكنني استخدام مؤقت بدلاً من التصفير؟",
@@ -329,7 +329,7 @@
         {
           "id": "إعدادات",
           "title": "معايرة صافرة الخاص بك",
-          "description": "وضع التدريب والحساسية ونطاق التردد - تم ضبطه لك، وليس إعدادًا مسبقًا عامًا.",
+          "description": "وضع التدريب والحساسية ونطاق التردد 0-100 - تم ضبطه لك، وليس إعدادًا مسبقًا عامًا.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera إعدادات معايرة الصافرة",
           "category": "سمات"
@@ -377,7 +377,7 @@
           "title": "2. إعدادات الصافرة",
           "steps": [
             "الحساسية 1 (الأسهل) إلى 5 (الأكثر صرامة).",
-            "نطاق التردد 0-100 في واجهة المستخدم (~ 750-3000 هرتز).",
+            "نطاق التردد 0-100 في واجهة المستخدم.",
             "صافرة التدريب - استمع، قم بالصافرة، انقر فوق \"ضبط\" للمعايرة.",
             "الإعدادات المسبقة: هادئ، افتراضي، خارجي، عالي."
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "البيئات الصاخبة",
-          "description": "تقليل الحساسية إلى المستوى 1 وتوسيع النطاق؛ تمكين تراكب التصحيح لرؤية القمم."
+          "description": "تقليل الحساسية للمستوى 1 وتوسيع نطاق التردد؛ تمكين تراكب التصحيح لرؤية القمم."
         },
         {
           "title": "مسافة ترايبود",
@@ -450,7 +450,7 @@
         },
         {
           "question": "لا يكتشف صافرتي جيدًا. ماذا يمكنني أن أفعل؟",
-          "answer": "حساسية أقل (تجربة المستوى 1)، وتوسيع نطاق التردد في الإعدادات، وتمكين تراكب التصحيح المباشر، واستخدام صافرة التدريب للمعايرة من قمم الجلسة."
+          "answer": "حساسية أقل (تجربة المستوى 1)، وتوسيع نطاق التردد من 0 إلى 100 في الإعدادات، وتمكين تراكب التصحيح المباشر، واستخدام صافرة التدريب للمعايرة من قمم الجلسة."
         },
         {
           "question": "هل أحتاج إلى الإنترنت؟",

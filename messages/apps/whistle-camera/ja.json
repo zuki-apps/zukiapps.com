@@ -30,7 +30,7 @@
           "設定でホイッスルを練習する",
           "感度プリセット（静か→大音量）",
           "ライブデバッグオーバーレイ",
-          "≈750 ～ 3000 Hz 検出帯域"
+          "設定の 0 ～ 100 の周波数帯域"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "よくある質問",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "Whistle Cameraとは何ですか?",
+          "answer": "Whistle Cameraは、iOSとAndroidのためのハンズフリーカメラアプリです。ホイッスルを鳴らして写真を撮ったり、（プロの場合）ビデオを開始および停止したりできます。 Android のパッケージ: com.zuki.apps.whistlecamera。 iOS App Store ID: 1037716421。"
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "私の笛がうまく検出されません。私に何ができる？",
+          "answer": "感度を低くし（レベル 1 を試してください）、設定で 0 ～ 100 の周波数帯域を広げ、ライブ デバッグ オーバーレイを有効にし、練習ホイッスルを使用してセッションのピークから調整します。"
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "インターネットは必要ですか?",
+          "answer": "コアホイッスルキャプチャはオフラインでも機能します。広告、分析、購入チェックにはネットワーク接続が必要な場合があります。"
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "なぜアプリにマイクが必要なのでしょうか?",
+          "answer": "アプリは、カメラを起動するホイッスルを聞きます。音声は検出のためにデバイス上で処理され、録音として保存されません。"
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "写真はどこに保存されますか?",
+          "answer": "デフォルトではアプリ内ギャラリーにあります。必要に応じて、設定でキャプチャを Whistle Camera という名前の写真アルバムにコピーできます。"
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "プロとは何ですか？",
+          "answer": "Pro は、ホイッスルによるビデオの開始/停止、追加の premium モードのロックを解除し、広告を削除します。 1 回限りの購入。再インストール後に設定から復元してください。"
         },
         "q7": {
           "question": "口笛の代わりにタイマーを使ってもいいですか？",
@@ -329,7 +329,7 @@
         {
           "id": "設定",
           "title": "ホイッスルを調整する",
-          "description": "練習モード、感度、周波数帯域 - 一般的なプリセットではなく、あなたに合わせて調整されます。",
+          "description": "練習モード、感度、0 ～ 100 の周波数帯域 — 一般的なプリセットではなく、ユーザーに合わせて調整されます。",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera ホイッスル調整設定",
           "category": "特徴"
@@ -377,7 +377,7 @@
           "title": "2.ホイッスルの設定",
           "steps": [
             "感度 1 (最も簡単) ～ 5 (最も厳密)。",
-            "UI の周波数帯域 0 ～ 100 (~750 ～ 3000 Hz)。",
+            "UI の周波数帯域 0 ～ 100。",
             "口笛を吹く練習 — 聞いて、口笛を吹き、「設定」をタップして調整します。",
             "プリセット: 静か、デフォルト、屋外、大音量。"
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "騒がしい環境",
-          "description": "感度をレベル 1 に下げ、帯域を広げます。デバッグ オーバーレイを有効にしてピークを表示します。"
+          "description": "感度をレベル 1 に下げ、周波数帯域を広げます。デバッグ オーバーレイを有効にしてピークを表示します。"
         },
         {
           "title": "三脚の距離",
@@ -450,7 +450,7 @@
         },
         {
           "question": "私の笛がうまく検出されません。私に何ができる？",
-          "answer": "感度を低くし（レベル 1 を試してください）、設定で周波数範囲を広げ、ライブ デバッグ オーバーレイを有効にし、練習ホイッスルを使用してセッションのピークから調整します。"
+          "answer": "感度を低くし（レベル 1 を試してください）、設定で 0 ～ 100 の周波数帯域を広げ、ライブ デバッグ オーバーレイを有効にし、練習ホイッスルを使用してセッションのピークから調整します。"
         },
         {
           "question": "インターネットは必要ですか?",

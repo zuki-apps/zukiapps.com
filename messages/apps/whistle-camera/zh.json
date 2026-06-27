@@ -30,7 +30,7 @@
           "在“设置”中练习吹口哨",
           "灵敏度预设（安静 → 大声）",
           "实时调试覆盖",
-          "约 750–3000 Hz 检测频带"
+          "设置中的 0–100 频段"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "常见问题解答",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "Whistle Camera是什么？",
+          "answer": "Whistle Camera 是一款适用于 iOS 和 Android 的免提相机应用程序。吹口哨拍照或（使用 Pro）开始和停止视频。 Android 上的软件包：com.zuki.apps.whistlecamera。 iOSApp Store ID：1037716421。"
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "它不能很好地检测到我的口哨。我能做些什么？",
+          "answer": "降低灵敏度（尝试级别 1），在“设置”中加宽 0-100 频段，启用实时调试覆盖，并使用练习口哨从会话峰值进行校准。"
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "我需要互联网吗？",
+          "answer": "核心口哨捕捉可以离线工作。广告、分析和购买检查可能需要网络连接。"
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "为什么应用程序需要麦克风？",
+          "answer": "该应用程序会监听您的口哨来触发相机。音频在设备上进行处理以进行检测 - 它不会存储为录音。"
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "照片存储在哪里？",
+          "answer": "默认在应用程序内图库中。您可以选择将捕获的照片复制到“设置”中名为 Whistle Camera 的照片相册中。"
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "什么是专业版？",
+          "answer": "Pro 解锁哨子开始/停止视频、额外的 premium 模式，并删除广告。一次性购买；重新安装后从设置中恢复。"
         },
         "q7": {
           "question": "我可以使用计时器代替吹口哨吗？",
@@ -329,7 +329,7 @@
         {
           "id": "设置",
           "title": "校准你的口哨",
-          "description": "练习模式、灵敏度和频段 — 为您量身定制，而不是通用预设。",
+          "description": "练习模式、灵敏度和 0-100 频段 — 为您量身定制，而不是通用预设。",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera 口哨校准设置",
           "category": "特征"
@@ -377,7 +377,7 @@
           "title": "2. 口哨设置",
           "steps": [
             "灵敏度 1（最简单）到 5（最严格）。",
-            "UI 中的频段 0–100 (~750–3000 Hz)。",
+            "UI 中的频段 0–100。",
             "练习吹口哨 — 听、吹口哨、点击“设置”进行校准。",
             "预设：安静、默认、室外、大声。"
           ]
@@ -450,7 +450,7 @@
         },
         {
           "question": "它不能很好地检测到我的口哨。我能做些什么？",
-          "answer": "降低灵敏度（尝试级别 1），扩大“设置”中的频率范围，启用实时调试叠加，并使用练习口哨从会话峰值进行校准。"
+          "answer": "降低灵敏度（尝试级别 1），在“设置”中加宽 0-100 频段，启用实时调试覆盖，并使用练习口哨从会话峰值进行校准。"
         },
         {
           "question": "我需要互联网吗？",

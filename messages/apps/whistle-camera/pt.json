@@ -30,7 +30,7 @@
           "Pratique o apito nas configurações",
           "Predefinições de sensibilidade (Silencioso → Alto)",
           "Sobreposição de depuração ao vivo",
-          "≈750–3000 Hz banda de detecção"
+          "Banda de frequência 0–100 em Configurações"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "Perguntas frequentes",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "O que é Whistle Camera?",
+          "answer": "Whistle Camera é um aplicativo de câmera viva-voz para iOS e Android. Apito para tirar uma foto ou (com Pro) iniciar e parar o vídeo. Pacote em Android: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "Ele não detecta bem meu apito. O que posso fazer?",
+          "answer": "Reduza a sensibilidade (tente o nível 1), amplie a banda de frequência de 0 a 100 em Configurações, ative a sobreposição de depuração ao vivo e use o apito de prática para calibrar a partir dos picos de sua sessão."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "Eu preciso de internet?",
+          "answer": "A captura de apito central funciona offline. Anúncios, análises e verificações de compra podem precisar de uma conexão de rede."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "Por que o aplicativo precisa do microfone?",
+          "answer": "O aplicativo escuta seu apito para acionar a câmera. O áudio é processado no dispositivo para detecção – não é armazenado como gravações."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "Onde as fotos são armazenadas?",
+          "answer": "Na galeria do aplicativo por padrão. Opcionalmente, você pode copiar as capturas para um álbum de fotos chamado Whistle Camera em Configurações."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "O que é Pró?",
+          "answer": "Pro desbloqueia vídeo de início/parada com apito, modos premium extras e remove anúncios. Compra única; restaurar em Configurações após reinstalar."
         },
         "q7": {
           "question": "Posso usar um cronômetro em vez de assobiar?",
@@ -329,7 +329,7 @@
         {
           "id": "configurações",
           "title": "Calibre seu apito",
-          "description": "Modo de prática, sensibilidade e banda de frequência — sintonizados para você, não uma predefinição genérica.",
+          "description": "Modo de prática, sensibilidade e banda de frequência de 0 a 100 – sintonizados para você, não uma predefinição genérica.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera configurações de calibração de apito",
           "category": "características"
@@ -377,7 +377,7 @@
           "title": "2. Configurações de apito",
           "steps": [
             "Sensibilidade 1 (mais fácil) a 5 (mais estrita).",
-            "Banda de frequência 0–100 em UI (~750–3000 Hz).",
+            "Banda de frequência 0–100 na IU.",
             "Pratique apito — ouça, assobie e toque em Definir para calibrar.",
             "Predefinições: Silencioso, Padrão, Externo, Alto."
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "Ambientes barulhentos",
-          "description": "Reduza a sensibilidade para o nível 1 e amplie a banda; habilite a sobreposição de depuração para ver os picos."
+          "description": "Reduza a sensibilidade para o nível 1 e amplie a banda de frequência; habilite a sobreposição de depuração para ver os picos."
         },
         {
           "title": "Distância do tripé",
@@ -450,7 +450,7 @@
         },
         {
           "question": "Ele não detecta bem meu apito. O que posso fazer?",
-          "answer": "Reduza a sensibilidade (tente o nível 1), amplie a faixa de frequência em Configurações, habilite a sobreposição de depuração ao vivo e use o apito de prática para calibrar a partir dos picos de sua sessão."
+          "answer": "Reduza a sensibilidade (tente o nível 1), amplie a banda de frequência de 0 a 100 em Configurações, ative a sobreposição de depuração ao vivo e use o apito de prática para calibrar a partir dos picos de sua sessão."
         },
         {
           "question": "Eu preciso de internet?",

@@ -30,7 +30,7 @@
           "תרגל שריקה בהגדרות",
           "הגדרות קבועות מראש של רגישות (שקט ← רועש)",
           "שכבת-על של ניפוי באגים בזמן אמת",
-          "פס זיהוי ≈750–3000 הרץ"
+          "פס תדרים 0–100 בהגדרות"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "שאלות נפוצות",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "מה זה Whistle Camera?",
+          "answer": "Whistle Camera היא אפליקציית מצלמה דיבורית עבור iOS ו-Android. לשרוק לצלם תמונה או (עם Pro) להתחיל ולהפסיק וידאו. חבילה ב-Android: com.zuki.apps.whistlecamera. iOS App Store מזהה: 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "זה לא מזהה את השריקה שלי טוב. מה אני יכול לעשות?",
+          "answer": "הורד את הרגישות (נסה רמה 1), הרחב את רצועת התדרים 0-100 בהגדרות, הפעל את שכבת העל של ניפוי באגים חי, והשתמש בשריקת תרגול כדי לכייל מפסגות ההפעלה שלך."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "האם אני צריך אינטרנט?",
+          "answer": "לכידת משרוקית הליבה פועלת במצב לא מקוון. מודעות, ניתוחים ובדיקות רכישה עשויות להזדקק לחיבור רשת."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "למה האפליקציה צריכה את המיקרופון?",
+          "answer": "האפליקציה מקשיבה לשריקה שלך כדי להפעיל את המצלמה. השמע מעובד במכשיר לצורך זיהוי - הוא לא נשמר כהקלטות."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "היכן מאוחסנות תמונות?",
+          "answer": "בגלריה בתוך האפליקציה כברירת מחדל. באפשרותך להעתיק צילומים לאלבום תמונות בשם Whistle Camera בהגדרות."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "מה זה פרו?",
+          "answer": "מקצוען פותח סרטון הפעלה/עצירה של משרוקית, מצבים נוספים של premium ומסיר מודעות. רכישה חד פעמית; שחזר מהגדרות לאחר התקנה מחדש."
         },
         "q7": {
           "question": "האם אני יכול להשתמש בטיימר במקום לשרוק?",
@@ -329,7 +329,7 @@
         {
           "id": "הגדרות",
           "title": "כייל את המשרוקית שלך",
-          "description": "תרגול מצב, רגישות ורצועת תדרים - מכוון אליך, לא הגדרה גנרית מראש.",
+          "description": "תרגול מצב, רגישות ורצועת תדרים 0-100 - מכוון אליך, לא הגדרה גנרית מראש.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera הגדרות כיול משרוקית",
           "category": "תכונות"
@@ -377,7 +377,7 @@
           "title": "2. הגדרות משרוקית",
           "steps": [
             "רגישות 1 (הקלה ביותר) עד 5 (המחמירה ביותר).",
-            "פס תדרים 0-100 בממשק המשתמש (~750-3000 הרץ).",
+            "פס תדרים 0-100 בממשק המשתמש.",
             "תרגל שריקה - הקשב, שרוק, הקש על הגדר כדי לכייל.",
             "הגדרות קבועות מראש: שקט, ברירת מחדל, בחוץ, חזק."
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "סביבות רועשות",
-          "description": "הורד רגישות לרמה 1 והרחבת הרצועה; אפשר לשכבת ניפוי הבאגים לראות שיאים."
+          "description": "הורד רגישות לרמה 1 והרחבת רצועת התדרים; אפשר לשכבת ניפוי הבאגים לראות שיאים."
         },
         {
           "title": "מרחק חצובה",
@@ -450,7 +450,7 @@
         },
         {
           "question": "זה לא מזהה את השריקה שלי טוב. מה אני יכול לעשות?",
-          "answer": "הורד רגישות (נסה רמה 1), הרחב את טווח התדרים בהגדרות, הפעל את שכבת העל של ניפוי באגים חי, והשתמש בשריקה לתרגול כדי לכייל מפסגות ההפעלה שלך."
+          "answer": "הורד את הרגישות (נסה רמה 1), הרחב את רצועת התדרים 0-100 בהגדרות, הפעל את שכבת העל של ניפוי באגים חי, והשתמש בשריקת תרגול כדי לכייל מפסגות ההפעלה שלך."
         },
         {
           "question": "האם אני צריך אינטרנט?",

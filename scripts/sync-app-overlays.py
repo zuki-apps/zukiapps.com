@@ -47,6 +47,14 @@ FULL_SYNC_APPS = frozenset({
 # Apps / subtrees to force-sync (full subtree from en → overlay)
 FORCE_SUBTREES: dict[str, list[str]] = {
     "collagio": ["collagio.hero", "collagio.download", "collagio.status"],
+    "whistle-camera": [
+        "whistleCamera.features.calibration",
+        "whistleCamera.manual",
+        "whistleCamera.screenshots",
+        "whistleCamera.support.faq",
+        "whistleCamera.faq",
+        "whistleCamera.tips",
+    ],
     "paratrooper-blitz": ["paratrooperBlitz.support"],
     "track-ledger": ["trackLedger.support"],
     "noise-meter-shusher": ["noiseMeterShusher.support"],

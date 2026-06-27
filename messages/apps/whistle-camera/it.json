@@ -30,7 +30,7 @@
           "Esercitati a fischiare nelle Impostazioni",
           "Preimpostazioni di sensibilità (Silenzioso → Alto)",
           "Sovrapposizione di debug in tempo reale",
-          "Banda di rilevamento ≈750–3000 Hz"
+          "Banda di frequenza 0–100 in Impostazioni"
         ]
       },
       "photoVideo": {
@@ -158,28 +158,28 @@
       "faq": {
         "title": "Domande frequenti",
         "q1": {
-          "question": "How does whistle detection work?",
-          "answer": "Whistle Camera uses advanced audio processing to detect whistle sounds in real-time. When a whistle is detected, the app can automatically capture a photo or start/stop video recording. You can adjust the sensitivity in the app settings to match your environment."
+          "question": "Cos'è Whistle Camera?",
+          "answer": "Whistle Camera è un'app per fotocamera a mani libere per iOS e Android. Fischia per scattare una foto o (con Pro) avvia e interrompi il video. Pacchetto su Android: com.zuki.apps.whistlecamera. iOS App Store ID: 1037716421."
         },
         "q2": {
-          "question": "What is incognito mode?",
-          "answer": "Incognito mode displays a black screen overlay while recording or capturing photos, providing privacy protection. This allows you to capture media discreetly without the screen showing what's being captured."
+          "question": "Non rileva bene il mio fischio. Cosa posso fare?",
+          "answer": "Abbassa la sensibilità (prova il livello 1), allarga la banda di frequenza 0–100 in Impostazioni, abilita l'overlay di debug live e usa il fischio di pratica per calibrare dai picchi della sessione."
         },
         "q3": {
-          "question": "How do I access the camera from the Lock Screen?",
-          "answer": "Whistle Camera supports quick access from the Lock Screen, Control Center, and Action Button (iOS 18+). Simply add the camera widget to your Control Center or use the Action Button if your device supports it. The app will launch directly into camera mode."
+          "question": "Ho bisogno di Internet?",
+          "answer": "L'acquisizione del fischio principale funziona offline. Annunci, analisi e controlli degli acquisti potrebbero richiedere una connessione di rete."
         },
         "q4": {
-          "question": "Does Whistle Camera require an internet connection?",
-          "answer": "No, Whistle Camera works completely offline. All photos and videos are stored locally on your device. The app only requires internet access if you choose to share media or if you contact support."
+          "question": "Perché l'app ha bisogno del microfono?",
+          "answer": "L'app ascolta il tuo fischio per attivare la fotocamera. L'audio viene elaborato sul dispositivo per il rilevamento e non viene archiviato come registrazioni."
         },
         "q5": {
-          "question": "How do I adjust whistle detection sensitivity?",
-          "answer": "Go to Settings → Whistle Detection → Sensitivity. You can adjust the sensitivity slider to make detection more or less sensitive. Higher sensitivity will detect quieter whistles, while lower sensitivity requires louder whistles."
+          "question": "Dove vengono archiviate le foto?",
+          "answer": "Nella galleria in-app per impostazione predefinita. Facoltativamente, puoi copiare le acquisizioni in un album di foto denominato Whistle Camera in Impostazioni."
         },
         "q6": {
-          "question": "Can I use Whistle Camera without microphone access?",
-          "answer": "Whistle detection requires microphone access. However, you can still use the app for regular photo and video capture without whistle detection. The microphone is only used for real-time whistle detection processing and no audio is recorded or stored."
+          "question": "Cos'è Pro?",
+          "answer": "Pro sblocca il video di avvio/arresto con fischio, modalità premium extra e rimuove gli annunci. Acquisto una tantum; ripristinare dalle Impostazioni dopo la reinstallazione."
         },
         "q7": {
           "question": "Posso usare un timer invece di fischiare?",
@@ -329,7 +329,7 @@
         {
           "id": "impostazioni",
           "title": "Calibra il tuo fischietto",
-          "description": "Modalità pratica, sensibilità e banda di frequenza: sintonizzati su di te, non su una preimpostazione generica.",
+          "description": "Modalità pratica, sensibilità e banda di frequenza 0–100: sintonizzati su di te, non su una preimpostazione generica.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera impostazioni di calibrazione del fischio",
           "category": "caratteristiche"
@@ -377,7 +377,7 @@
           "title": "2. Impostazioni del fischio",
           "steps": [
             "Sensibilità da 1 (più semplice) a 5 (più severa).",
-            "Banda di frequenza 0–100 nell'UI (~750–3000 Hz).",
+            "Banda di frequenza 0–100 nell'interfaccia utente.",
             "Esercitati con il fischio: ascolta, fischia, tocca Imposta per calibrare.",
             "Preimpostazioni: Silenzioso, Predefinito, Esterno, Alto."
           ]
@@ -419,7 +419,7 @@
         },
         {
           "title": "Ambienti rumorosi",
-          "description": "Abbassare la sensibilità al livello 1 ed allargare la banda; abilitare l'overlay di debug per vedere i picchi."
+          "description": "Ridurre la sensibilità al livello 1 e ampliare la banda di frequenza; abilitare l'overlay di debug per vedere i picchi."
         },
         {
           "title": "Distanza del treppiede",
@@ -450,7 +450,7 @@
         },
         {
           "question": "Non rileva bene il mio fischio. Cosa posso fare?",
-          "answer": "Abbassa la sensibilità (prova il livello 1), amplia la gamma di frequenza in Impostazioni, abilita l'overlay di debug dal vivo e utilizza il fischio di pratica per calibrare dai picchi della sessione."
+          "answer": "Abbassa la sensibilità (prova il livello 1), allarga la banda di frequenza 0–100 in Impostazioni, abilita l'overlay di debug live e usa il fischio di pratica per calibrare dai picchi della sessione."
         },
         {
           "question": "Ho bisogno di Internet?",

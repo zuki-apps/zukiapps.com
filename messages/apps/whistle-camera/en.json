@@ -30,7 +30,7 @@
           "Practice whistle in Settings",
           "Sensitivity presets (Quiet → Loud)",
           "Live debug overlay",
-          "≈750–3000 Hz detection band"
+          "0–100 frequency band in Settings"
         ]
       },
       "photoVideo": {
@@ -116,7 +116,7 @@
         },
         "q2": {
           "question": "It doesn’t detect my whistle well. What can I do?",
-          "answer": "Lower sensitivity (try level 1), widen the frequency range in Settings, enable the live debug overlay, and use Practice whistle to calibrate from your session peaks."
+          "answer": "Lower sensitivity (try level 1), widen the 0–100 frequency band in Settings, enable the live debug overlay, and use Practice whistle to calibrate from your session peaks."
         },
         "q3": {
           "question": "Do I need internet?",
@@ -282,7 +282,7 @@
         {
           "id": "settings",
           "title": "Calibrate your whistle",
-          "description": "Practice mode, sensitivity, and frequency band — tuned to you, not a generic preset.",
+          "description": "Practice mode, sensitivity, and 0–100 frequency band — tuned to you, not a generic preset.",
           "image": "/images/whistle-camera/screenshot-settings.png",
           "alt": "Whistle Camera whistle calibration settings",
           "category": "features"
@@ -330,7 +330,7 @@
           "title": "2. Whistle settings",
           "steps": [
             "Sensitivity 1 (easiest) to 5 (strictest).",
-            "Frequency band 0–100 in UI (~750–3000 Hz).",
+            "Frequency band 0–100 in the UI.",
             "Practice whistle — listen, whistle, tap Set to calibrate.",
             "Presets: Quiet, Default, Outside, Loud."
           ]
@@ -372,7 +372,7 @@
         },
         {
           "title": "Noisy environments",
-          "description": "Lower sensitivity to level 1 and widen the band; enable the debug overlay to see peaks."
+          "description": "Lower sensitivity to level 1 and widen the frequency band; enable the debug overlay to see peaks."
         },
         {
           "title": "Tripod distance",
@@ -403,7 +403,7 @@
         },
         {
           "question": "It doesn’t detect my whistle well. What can I do?",
-          "answer": "Lower sensitivity (try level 1), widen the frequency range in Settings, enable the live debug overlay, and use Practice whistle to calibrate from your session peaks."
+          "answer": "Lower sensitivity (try level 1), widen the 0–100 frequency band in Settings, enable the live debug overlay, and use Practice whistle to calibrate from your session peaks."
         },
         {
           "question": "Do I need internet?",
