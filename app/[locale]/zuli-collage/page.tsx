@@ -21,7 +21,7 @@ import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
 import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
-import { COLLAGIO_ICON } from '@/lib/appIcons';
+import { ZULI_COLLAGE_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
 import OtherZukiApps from '@/components/OtherZukiApps';
 import ProductMarketingSections, { ProductPageNav } from '@/components/ProductMarketingSections';
@@ -35,8 +35,8 @@ const FEATURE_ICONS = {
   privacy: Shield,
 } as const;
 
-export default function CollagioPage() {
-  const t = useTranslations('collagio');
+export default function ZuliCollagePage() {
+  const t = useTranslations('zuliCollage');
   const tCommon = useTranslations('common');
   const locale = useLocale();
   const rtl = locale === 'he' || locale === 'ar';
@@ -70,7 +70,7 @@ export default function CollagioPage() {
           <div className={`max-w-7xl mx-auto ${rtl ? '' : 'text-center'}`}>
             <div className="mb-8">
               <AppIconFrame
-                src={COLLAGIO_ICON}
+                src={ZULI_COLLAGE_ICON}
                 alt={t('download.appIconAlt')}
                 sizes="(max-width: 768px) 96px, 128px"
                 priority
@@ -96,19 +96,19 @@ export default function CollagioPage() {
             <p className={`text-lg text-gray-400 mb-4 max-w-3xl ${rtl ? 'mr-0 ml-auto' : 'mx-auto'}`}>{t('hero.description')}</p>
             <p className={`text-sm text-rose-300/90 mb-8 max-w-3xl ${rtl ? 'mr-0 ml-auto' : 'mx-auto'}`}>{t('hero.socialProof')}</p>
             <div className={`flex gap-4 text-sm flex-wrap mb-6 ${rtl ? 'justify-end' : 'justify-center'}`}>
-              <Link href={`/${locale}/collagio/privacy`} className="text-rose-400 hover:text-rose-300 underline">
+              <Link href={`/${locale}/zuli-collage/privacy`} className="text-rose-400 hover:text-rose-300 underline">
                 {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-400">|</span>
-              <Link href={`/${locale}/collagio/terms`} className="text-rose-400 hover:text-rose-300 underline">
+              <Link href={`/${locale}/zuli-collage/terms`} className="text-rose-400 hover:text-rose-300 underline">
                 {tCommon('termsOfService')}
               </Link>
               <span className="text-gray-400">|</span>
-              <Link href={`/${locale}/collagio/support`} className="text-rose-400 hover:text-rose-300 underline">
+              <Link href={`/${locale}/zuli-collage/support`} className="text-rose-400 hover:text-rose-300 underline">
                 {tCommon('support')}
               </Link>
             </div>
-            <ProductPageNav namespace="collagio" accent="rose" />
+            <ProductPageNav namespace="zuliCollage" accent="rose" />
             <div className="mb-8">
               <StoreDownloadBadges
                 appStoreUrl={t('download.appStoreUrl')}
@@ -117,12 +117,12 @@ export default function CollagioPage() {
                 googlePlayAlt={t('download.googlePlayAlt')}
                 soonLabel={t('download.soon')}
                 fallbackBorderClass="border-rose-600/30"
-                utmContent="collagio"
+                utmContent="zuli-collage"
               />
             </div>
             <div className={`flex justify-center ${rtl ? '' : ''}`}>
               <Image
-                src="/images/collagio/hero-phone.png"
+                src="/images/zuli-collage/hero-phone.png?v=3"
                 alt={t('hero.phoneAlt')}
                 width={900}
                 height={1800}
@@ -163,7 +163,7 @@ export default function CollagioPage() {
           </div>
         </section>
 
-        <ProductMarketingSections namespace="collagio" slug="collagio" accent="rose" hasSupportPage />
+        <ProductMarketingSections namespace="zuliCollage" slug="zuli-collage" accent="rose" hasSupportPage />
 
         <section className="py-12 px-4 relative z-10" id="zuli-monsters">
           <div className="max-w-4xl mx-auto">
@@ -254,7 +254,7 @@ export default function CollagioPage() {
               googlePlayAlt={t('download.googlePlayAlt')}
               soonLabel={t('download.soon')}
               fallbackBorderClass="border-rose-600/30"
-              utmContent="collagio"
+              utmContent="zuli-collage"
             />
             {!t('download.appStoreUrl') && !t('download.googlePlayUrl') && (
               <p className="text-sm text-gray-400 mt-6">{t('download.soon')}</p>
@@ -267,7 +267,7 @@ export default function CollagioPage() {
             <h2 className="text-4xl font-bold text-center mb-12 text-white">{t('links.title')}</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <Link
-                href={`/${locale}/collagio/support`}
+                href={`/${locale}/zuli-collage/support`}
                 className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-rose-500/50 transition-all flex items-center gap-4 group border-2 border-rose-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' || locale === 'ar' ? 'flex-row-reverse' : ''}`}
               >
                 <div className="bg-rose-600/30 p-3 rounded-lg group-hover:bg-rose-600/50 border border-rose-500/50 transition-colors">
@@ -300,7 +300,7 @@ export default function CollagioPage() {
           </div>
         </section>
 
-        <OtherZukiApps currentAppId="collagio" />
+        <OtherZukiApps currentAppId="zuli-collage" />
 
         <footer className="twilight-footer-bar text-white py-8 px-4 mt-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
@@ -310,15 +310,15 @@ export default function CollagioPage() {
             <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
             <p className="text-sm text-gray-400">{t('footer.tagline')}</p>
             <div className="flex justify-center gap-4 mt-4 text-sm flex-wrap">
-              <Link href={`/${locale}/collagio/support`} className="text-gray-400 hover:text-rose-400 transition-colors">
+              <Link href={`/${locale}/zuli-collage/support`} className="text-gray-400 hover:text-rose-400 transition-colors">
                 {tCommon('support')}
               </Link>
               <span className="text-gray-400">|</span>
-              <Link href={`/${locale}/collagio/privacy`} className="text-gray-400 hover:text-rose-400 transition-colors">
+              <Link href={`/${locale}/zuli-collage/privacy`} className="text-gray-400 hover:text-rose-400 transition-colors">
                 {tCommon('privacyPolicy')}
               </Link>
               <span className="text-gray-400">|</span>
-              <Link href={`/${locale}/collagio/terms`} className="text-gray-400 hover:text-rose-400 transition-colors">
+              <Link href={`/${locale}/zuli-collage/terms`} className="text-gray-400 hover:text-rose-400 transition-colors">
                 {tCommon('termsOfService')}
               </Link>
             </div>
@@ -331,7 +331,7 @@ export default function CollagioPage() {
           googlePlayUrl={t('download.googlePlayUrl')}
           appStoreAlt={t('download.appStoreAlt')}
           googlePlayAlt={t('download.googlePlayAlt')}
-          utmContent="collagio"
+          utmContent="zuli-collage"
         />
       </div>
     </>

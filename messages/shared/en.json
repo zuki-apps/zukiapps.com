@@ -141,17 +141,6 @@
       },
       "learnMore": "Learn more about Fun Facts! Trivia →"
     },
-    "collagio": {
-      "title": "Collagio - Photo Collage Maker",
-      "subtitle": "Turn 2–10 photos into a collage in seconds",
-      "description": "Pick photos, choose a layout, add filters and Zuli Monsters stickers, then save or share. No account needed.",
-      "learnMore": "Learn more about Collagio →",
-      "features": {
-        "layouts": "Smart Layouts",
-        "filters": "Filters & Stickers",
-        "private": "No Sign-In"
-      }
-    },
     "trackLedger": {
       "title": "Track Ledger",
       "subtitle": "Log GPS data",
@@ -182,9 +171,6 @@
     "dreambitLegacy": {
       "gridTitle": "Legacy Dreambit (Android)",
       "gridBadge": "Archive"
-    },
-    "appsGrid": {
-      "title": "Our Apps"
     },
     "faq": {
       "title": "Common questions",
@@ -258,9 +244,20 @@
         "social": "Leaderboards & achievements"
       },
       "learnMore": "Learn more about Paratrooper Blitz →"
+    },
+    "zuliCollage": {
+      "title": "Zuli Collage - Photo Collage Maker",
+      "subtitle": "Turn 2–10 photos into a collage in seconds",
+      "description": "Pick photos, choose a layout, add filters and Zuli Monsters stickers, then save or share. No account needed.",
+      "learnMore": "Learn more about Zuli Collage →",
+      "features": {
+        "layouts": "Smart Layouts",
+        "filters": "Filters & Stickers",
+        "private": "No Sign-In"
+      }
     }
   },
-    "common": {
+  "common": {
     "language": "Language",
     "back": "Back",
     "home": "Home",

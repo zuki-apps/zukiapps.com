@@ -11,7 +11,7 @@ export type ProductAppSlug =
   | 'zulist'
   | 'hush-gallery'
   | 'whistle-camera'
-  | 'collagio'
+  | 'zuli-collage'
   | 'football-trivia';
 
 export type ProductAppNamespace =
@@ -26,7 +26,7 @@ export type ProductAppNamespace =
   | 'zulist'
   | 'hushGallery'
   | 'whistleCamera'
-  | 'collagio'
+  | 'zuliCollage'
   | 'footballTrivia';
 
 export type ProductAppConfig = {
@@ -62,13 +62,13 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     accent: 'amber',
     hasSupportPage: true,
   },
-  collagio: {
-    slug: 'collagio',
-    namespace: 'collagio',
-    appPath: '/collagio',
+  'zuli-collage': {
+    slug: 'zuli-collage',
+    namespace: 'zuliCollage',
+    appPath: '/zuli-collage',
     applicationCategory: 'PhotographyApplication',
-    faqId: 'collagio-faq-ld',
-    howToId: 'collagio-howto-ld',
+    faqId: 'zuli-collage-faq-ld',
+    howToId: 'zuli-collage-howto-ld',
     accent: 'rose',
     hasSupportPage: true,
   },

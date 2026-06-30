@@ -1,14 +1,14 @@
-# FAQ — Collagio — Photo Collage Maker
+# FAQ — Zuli Collage — Photo Collage Maker
 
-Canonical page: https://zukiapps.com/collagio
+Canonical page: https://zukiapps.com/zuli-collage
 
-## What is Collagio?
+## What is Zuli Collage?
 
-Collagio is a photo collage maker for iOS and Android. Pick 2–10 photos, choose a layout, style your collage, and save or share — usually in under 30 seconds.
+Zuli Collage is a photo collage maker for iOS and Android. Pick 2–10 photos, choose a layout, style your collage, and save or share — usually in under 30 seconds.
 
 ## Do I need an account?
 
-No. Collagio works entirely on your device. There is no sign-up, login, or cloud storage of your photos.
+No. Zuli Collage works entirely on your device. There is no sign-up, login, or cloud storage of your photos.
 
 ## How many photos can I use?
 
@@ -18,9 +18,9 @@ Between 2 and 10 photos per collage. Layouts automatically match your photo coun
 
 English and Hebrew, including full right-to-left (RTL) layout for Hebrew.
 
-## Is Collagio free?
+## Is Zuli Collage free?
 
-Yes, the full editor is free. Optional Collagio Premium (one-time purchase) removes ads and the export watermark, enables higher-resolution export, transparent PNG export, and batch save from history.
+Yes, the full editor is free. Optional Zuli Collage Premium (one-time purchase) removes ads and the export watermark, enables higher-resolution export, transparent PNG export, and batch save from history.
 
 ## How do I reorder photos?
 
@@ -48,19 +48,19 @@ A tool to design custom collage layouts: numbered slots you drag, resize, and sh
 
 ## Where are collages saved?
 
-Exported collages go to your device photo gallery (with your permission). Collagio also keeps a local My Collages history (up to 30 items).
+Exported collages go to your device photo gallery (with your permission). Zuli Collage also keeps a local My Collages history (up to 30 items).
 
 ## Why is there a watermark?
 
-The free tier adds a small Collagio watermark. Premium removes it.
+The free tier adds a small Zuli Collage watermark. Premium removes it.
 
 ## Are my photos uploaded to your servers?
 
 No. Photos stay on your device unless you explicitly save or share them.
 
-## What data does Collagio collect?
+## What data does Zuli Collage collect?
 
-Anonymous crash reports and analytics (Firebase Crashlytics + Analytics) to improve stability. See [Privacy Policy](https://zukiapps.com/collagio/privacy).
+Anonymous crash reports and analytics (Firebase Crashlytics + Analytics) to improve stability. See [Privacy Policy](https://zukiapps.com/zuli-collage/privacy).
 
 ## Premium didn't activate after purchase
 
@@ -68,4 +68,4 @@ Tap Restore purchases in Settings. Use the same Apple ID or Google account as yo
 
 ## Contact
 
-Support: zuki.apps.dev@gmail.com · Website: https://zukiapps.com/collagio
+Support: zuki.apps.dev@gmail.com · Website: https://zukiapps.com/zuli-collage

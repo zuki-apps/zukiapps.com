@@ -1,5 +1,5 @@
 /** Short app brand for legal/support headers (not the marketing headline). */
-export function collagioBrandName(
+export function zuliCollageBrandName(
   tHero: { has: (key: string) => boolean; (key: string): string }
 ): string {
   if (tHero.has('productName')) {

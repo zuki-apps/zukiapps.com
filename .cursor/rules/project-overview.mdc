@@ -10,7 +10,7 @@ Next.js 14 + TypeScript + Tailwind + **next-intl**. All product pages live under
 ## Must-know
 
 - **English source:** `messages/en.json` — add full namespaces here first
-- **Publish flags:** `lib/appPublishState.ts` — hidden apps (ToldYa, Collagio) omit home grid until `*_PUBLISHED = true`
+- **Publish flags:** `lib/appPublishState.ts` — hidden apps (ToldYa, Zuli Collage) omit home grid until `*_PUBLISHED = true`
 - **Store URLs:** `messages/en.json` → `{namespace}.download.*` and `lib/appStructuredData.ts`
 - **Deep context:** `.cursor/context/project_context.md`
 

@@ -45,7 +45,7 @@ const APPS = [
   'noise-meter-shusher',
   'paratrooper-blitz',
   'toldya',
-  'collagio',
+  'zuli-collage',
   'dreambit-legacy',
 ] as const;
 

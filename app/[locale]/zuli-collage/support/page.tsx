@@ -9,7 +9,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Mail, HelpCircle, MessageCircle, FileText, Shield } from 'lucide-react';
 import { buildFaqPageJsonLd, collectNumberedSupportFaq } from '@/lib/supportFaq';
-import { collagioBrandName } from '@/lib/collagioBrand';
+import { zuliCollageBrandName } from '@/lib/zuliCollageBrand';
 
 export async function generateMetadata({
   params,
@@ -22,20 +22,20 @@ export async function generateMetadata({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'collagio.support' });
+  const t = await getTranslations({ locale, namespace: 'zuliCollage.support' });
 
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
-      canonical: buildCanonical(locale, '/collagio/support'),
-      languages: buildLanguageAlternates('/collagio/support'),
+      canonical: buildCanonical(locale, '/zuli-collage/support'),
+      languages: buildLanguageAlternates('/zuli-collage/support'),
     },
   };
 }
 
-export default async function CollagioSupportPage({
+export default async function ZuliCollageSupportPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -46,8 +46,8 @@ export default async function CollagioSupportPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'collagio.support' });
-  const tHero = await getTranslations({ locale, namespace: 'collagio.hero' });
+  const t = await getTranslations({ locale, namespace: 'zuliCollage.support' });
+  const tHero = await getTranslations({ locale, namespace: 'zuliCollage.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   const faqItems = collectNumberedSupportFaq(t);
@@ -55,12 +55,12 @@ export default async function CollagioSupportPage({
   const faqStructuredData = buildFaqPageJsonLd(faqItems);
 
   const rtl = locale === 'he' || locale === 'ar';
-  const brandName = collagioBrandName(tHero);
+  const brandName = zuliCollageBrandName(tHero);
 
   return (
     <>
       <Script
-        id="collagio-support-faq-ld"
+        id="zuli-collage-support-faq-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
@@ -68,8 +68,8 @@ export default async function CollagioSupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: brandName, path: '/collagio' },
-          { name: tCommon('support'), path: '/collagio/support' },
+          { name: brandName, path: '/zuli-collage' },
+          { name: tCommon('support'), path: '/zuli-collage/support' },
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-rose-50 via-rose-50 to-gray-50">
@@ -82,7 +82,7 @@ export default async function CollagioSupportPage({
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-rose-600">
               <h1 className="text-4xl font-bold text-rose-600">{brandName}</h1>
               <Link
-                href={`/${locale}/collagio`}
+                href={`/${locale}/zuli-collage`}
                 className="px-4 py-2 border-2 border-rose-600 bg-white text-rose-600 rounded-lg hover:bg-rose-600 hover:text-white transition-colors text-sm"
               >
                 {tCommon('back')}
@@ -114,7 +114,7 @@ export default async function CollagioSupportPage({
                 <h3 className="text-2xl font-bold text-rose-600 mb-4">{t('quickLinks.title')}</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <Link
-                    href={`/${locale}/collagio/privacy`}
+                    href={`/${locale}/zuli-collage/privacy`}
                     className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200"
                   >
                     <div className="flex items-start gap-3">
@@ -126,7 +126,7 @@ export default async function CollagioSupportPage({
                     </div>
                   </Link>
                   <Link
-                    href={`/${locale}/collagio/terms`}
+                    href={`/${locale}/zuli-collage/terms`}
                     className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200"
                   >
                     <div className="flex items-start gap-3">

@@ -19,7 +19,7 @@ const TITLE_KEY: Record<HomeAppId, string> = {
   'tempo-lab-pro': 'tempoLabPro.title',
   'football-trivia': 'footballTrivia.title',
   'fun-facts-trivia': 'funFactsTrivia.title',
-  collagio: 'collagio.title',
+  'zuli-collage': 'zuliCollage.title',
 };
 
 type OtherZukiAppsProps = {
@@ -55,7 +55,7 @@ export default function OtherZukiApps({ currentAppId, limit = 4 }: OtherZukiApps
                 src={HOME_APP_ICON_WEBP[id]}
                 alt={tHome(TITLE_KEY[id])}
                 sizes="64px"
-                edgeToEdge={id === 'hush-gallery' || id === 'whistle-camera' || id === 'collagio'}
+                edgeToEdge={id === 'hush-gallery' || id === 'whistle-camera' || id === 'zuli-collage'}
                 boxClassName="w-16 h-16"
                 frameClassName="rounded-xl overflow-hidden"
               />

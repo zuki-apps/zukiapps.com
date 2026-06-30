@@ -1,16 +1,16 @@
 {
-  "collagio": {
+  "zuliCollage": {
     "back": "ホームに戻る",
     "hero": {
       "badge": "近日公開 · iOS & Android",
       "title": "2 ～ 10 枚の写真を数秒でコラージュに変換します",
-      "productName": "Collagio — 写真コラージュメーカー",
-      "subtitle": "Collagio — 写真コラージュメーカー",
+      "productName": "Zuli Collage — 写真コラージュメーカー",
+      "subtitle": "Zuli Collage — 写真コラージュメーカー",
       "description": "写真を選択し、レイアウトを選択し、フィルターとZuli Monsters ステッカーを追加して、保存または共有します。アカウントは必要ありません。すべてがデバイス上に残ります。",
       "socialProof": "写真 2 ～ 10 枚 · スマート レイアウト · フィルター · 48 Zuli Monsters · 英語とヘブライ語",
       "structuredDataDescription": "2 ～ 10 枚の写真から美しい写真コラージュを数秒で作成します。レイアウト、フィルター、テキスト、および 48 個の Zuli Monsters ステッカー。 iOS と Android も近日公開予定です。アカウントは必要ありません。",
-      "phoneAlt": "iPhoneのCollagioホーム画面",
-      "seoTitle": "Collagio — 写真コラージュ メーカー | Zuki Apps",
+      "phoneAlt": "iPhoneのZuli Collageホーム画面",
+      "seoTitle": "Zuli Collage — 写真コラージュ メーカー | Zuki Apps",
       "metaDescription": "2 ～ 10 枚の写真をレイアウト、フィルター、ステッカーと組み合わせます。オンデバイス編集。 iOS と Android に近日公開予定です。"
     },
     "legalNav": {
@@ -28,7 +28,7 @@
       "download": "ダウンロード"
     },
     "screenshots": {
-      "title": "Collagio の動作を確認してください",
+      "title": "Zuli Collage の動作を確認してください",
       "subtitle": "実際のデバイスのキャプチャ — ホーム、ピッカー、エディタ、ステッカー、エクスポート、および Layout Studio。",
       "featuresTitle": "アプリ画面",
       "items": [
@@ -36,56 +36,56 @@
           "id": "home",
           "title": "美しいコラージュが数秒で完成",
           "description": "コラージュ、最近の履歴、Layout Studio、Zuli Monsters をすべて 1 つのホーム画面から作成します。",
-          "image": "/images/collagio/screenshot-home.png?v=2",
-          "alt": "Collagio コラージュの作成と最近のコラージュを含むホーム画面",
+          "image": "/images/zuli-collage/screenshot-home.png?v=3",
+          "alt": "Zuli Collage コラージュの作成と最近のコラージュを含むホーム画面",
           "category": "features"
         },
         {
           "id": "picker",
           "title": "写真を選んでレイアウトを選択",
           "description": "2 ～ 10 枚の写真を選択し、長押ししてドラッグして並べ替え、数に合わせてレイアウトをスワイプします。",
-          "image": "/images/collagio/screenshot-picker.png?v=2",
-          "alt": "Collagio レイアウトストリップ付きの写真ピッカー",
+          "image": "/images/zuli-collage/screenshot-picker.png?v=2",
+          "alt": "Zuli Collage レイアウトストリップ付きの写真ピッカー",
           "category": "features"
         },
         {
           "id": "stickers",
           "title": "コラージュのスタイルを設定し、Zuli Monsters を追加します",
           "description": "フィルター、境界線、間隔、および 48 個のオリジナル ステッカー キャラクター - キャンバス上の任意の場所に拡大縮小して配置します。",
-          "image": "/images/collagio/screenshot-stickers.png?v=2",
-          "alt": "Collagio フィルターとコラージュ上の Zuli Monsters ステッカーを備えたエディター",
+          "image": "/images/zuli-collage/screenshot-stickers.png?v=2",
+          "alt": "Zuli Collage フィルターとコラージュ上の Zuli Monsters ステッカーを備えたエディター",
           "category": "features"
         },
         {
           "id": "stickersShare",
           "title": "オリジナルステッカー48キャラクター",
           "description": "WhatsApp ステッカー パックをインストールするか、iMessage 拡張子 (エディターと同じ文字) を使用します。",
-          "image": "/images/collagio/screenshot-stickers-share.png?v=2",
-          "alt": "Collagio Zuli Monsters ステッカーハブ、WhatsApp および iMessage を取り付けます",
+          "image": "/images/zuli-collage/screenshot-stickers-share.png?v=2",
+          "alt": "Zuli Collage Zuli Monsters ステッカーハブ、WhatsApp および iMessage を取り付けます",
           "category": "features"
         },
         {
           "id": "export",
           "title": "保存、共有、またはステッカーとして送信",
           "description": "写真、Instagram、WhatsApp、または透明なPNG ステッカーとしてエクスポートします。",
-          "image": "/images/collagio/screenshot-export.png?v=2",
-          "alt": "Collagio 保存および共有オプションを備えたエクスポート画面",
+          "image": "/images/zuli-collage/screenshot-export.png?v=2",
+          "alt": "Zuli Collage 保存および共有オプションを備えたエクスポート画面",
           "category": "features"
         },
         {
           "id": "layoutStudio",
           "title": "独自のレイアウトをデザインする",
           "description": "番号付きスロットをドラッグ、サイズ変更、整形し、次のコラージュ用にカスタム レイアウトを保存します。",
-          "image": "/images/collagio/screenshot-layout-studio.png?v=2",
-          "alt": "Collagio Layout Studio カスタムスロット配置",
+          "image": "/images/zuli-collage/screenshot-layout-studio.png?v=2",
+          "alt": "Zuli Collage Layout Studio カスタムスロット配置",
           "category": "features"
         },
         {
           "id": "collageResult",
           "title": "完成したコラージュ出力",
-          "description": "Collagio が生み出すもの — すぐに共有できる正方形のグリッド、ストーリー形式、フィルター、フレーム。",
-          "image": "/images/collagio/screenshot-collage-result.png?v=2",
-          "alt": "Collagio からエクスポートされた正方形の写真コラージュの例",
+          "description": "Zuli Collage が生み出すもの — すぐに共有できる正方形のグリッド、ストーリー形式、フィルター、フレーム。",
+          "image": "/images/zuli-collage/screenshot-collage-result.png?v=2",
+          "alt": "Zuli Collage からエクスポートされた正方形の写真コラージュの例",
           "category": "features"
         }
       ]
@@ -129,7 +129,7 @@
           "内蔵ステッカートレイ",
           "WhatsApp ワンタップインストール",
           "iMessage拡張子",
-          "Collagio内での個人使用のみ"
+          "Zuli Collage内での個人使用のみ"
         ]
       },
       "layoutStudio": {
@@ -158,10 +158,10 @@
       "subtitle": "オリジナルキャラクター by Zuki Apps",
       "description": "48 個のステッカー キャラクターが同梱されており、コラージュに配置したり、WhatsApp と iMessage にインストールしたりできます。",
       "rightsNotice": "すべてのキャラクターデザイン、名前、肖像、ステッカーアートワーク、アイコン、および関連資産を含むZuli Monsters™ は、Zuki Apps の独占的な知的財産です。無断転載を禁じます。",
-      "usageNotice": "Zuli Monsters は、Collagio を通じて提供されるもののみ、個人的なコラージュやメッセージングに使用できます。 Zuki Apps からの事前の書面による許可がない限り、アプリ外でこれらのキャラクターのコピー、再配布、販売、サブライセンス、または派生作品を作成することはできません。"
+      "usageNotice": "Zuli Monsters は、Zuli Collage を通じて提供されるもののみ、個人的なコラージュやメッセージングに使用できます。 Zuki Apps からの事前の書面による許可がない限り、アプリ外でこれらのキャラクターのコピー、再配布、販売、サブライセンス、または派生作品を作成することはできません。"
     },
     "premium": {
-      "title": "Collagio Premium",
+      "title": "Zuli Collage Premium",
       "subtitle": "1 回限りの購入 — サブスクリプションなし",
       "freeTitle": "無料",
       "premiumTitle": "Premium",
@@ -180,18 +180,18 @@
       ]
     },
     "download": {
-      "title": "ダウンロード Collagio",
-      "description": "Collagio はまだ店頭にありません。電子メールで待機リストに参加してください。ダウンロードが開始されたら、iOS と Android をお知らせします。",
+      "title": "ダウンロード Zuli Collage",
+      "description": "Zuli Collage はまだ店頭にありません。電子メールで待機リストに参加してください。ダウンロードが開始されたら、iOS と Android をお知らせします。",
       "appStoreUrl": "",
       "googlePlayUrl": "",
       "appStoreAlt": "App Store からダウンロードしてください",
       "googlePlayAlt": "Google Play で入手",
-      "appIconAlt": "Collagio アプリアイコン",
+      "appIconAlt": "Zuli Collage アプリアイコン",
       "soon": "App Store と Google Play も近日公開予定です。"
     },
     "status": {
       "title": "開発中",
-      "description": "Collagio は最終テスト中です。ダウンロードの準備ができると、ストアのリンクがここに表示されます。",
+      "description": "Zuli Collage は最終テスト中です。ダウンロードの準備ができると、ストアのリンクがここに表示されます。",
       "version": "リリース",
       "status": "店舗",
       "versionValue": "プレリリース",
@@ -205,11 +205,11 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "Collagio を Android でダウンロード"
+        "description": "Zuli Collage を Android でダウンロード"
       }
     },
     "footer": {
-      "copyright": "© 2026 Zuki Apps. Collagio および Zuli Monsters はZuki Apps の著作物および商標です。無断転載を禁じます。",
+      "copyright": "© 2026 Zuki Apps. Zuli Collage および Zuli Monsters はZuki Apps の著作物および商標です。無断転載を禁じます。",
       "tagline": "数秒で美しいコラージュ · イスラエルの❤️で作られました"
     },
     "howToUse": {
@@ -235,16 +235,16 @@
     },
     "faq": {
       "title": "よくある質問",
-      "subtitle": "Collagio 機能、プライバシー、および Premium に関する簡単な回答。",
+      "subtitle": "Zuli Collage 機能、プライバシー、および Premium に関する簡単な回答。",
       "viewAllSupport": "完全なサポートと FAQ を表示",
       "items": [
         {
-          "question": "Collagioとは何ですか?",
-          "answer": "Collagio は、iOS と Android のための写真コラージュメーカーです。 2 ～ 10 枚の写真を選択し、レイアウトを選択し、フィルターやステッカーでスタイルを設定して、保存または共有します。通常は 30 秒以内に完了します。"
+          "question": "Zuli Collageとは何ですか?",
+          "answer": "Zuli Collage は、iOS と Android のための写真コラージュメーカーです。 2 ～ 10 枚の写真を選択し、レイアウトを選択し、フィルターやステッカーでスタイルを設定して、保存または共有します。通常は 30 秒以内に完了します。"
         },
         {
           "question": "アカウントは必要ですか?",
-          "answer": "いいえ、Collagio はあなたのデバイス上で完全に動作します。サインアップ、ログイン、または写真のクラウド ストレージは必要ありません。"
+          "answer": "いいえ、Zuli Collage はあなたのデバイス上で完全に動作します。サインアップ、ログイン、または写真のクラウド ストレージは必要ありません。"
         },
         {
           "question": "写真は何枚まで使用できますか?",
@@ -263,7 +263,7 @@
           "answer": "いいえ。すべての画像処理はデバイス上で行われます。写真がZuki Appsサーバーにアップロードされることはありません。"
         },
         {
-          "question": "Collagio Premium には何が含まれますか?",
+          "question": "Zuli Collage Premium には何が含まれますか?",
           "answer": "Premium は 1 回限りの購入です。広告なし、エクスポートに透かしなし、高解像度エクスポート、透明な PNG ステッカー エクスポート、履歴からのバッチ保存が可能です。"
         },
         {
@@ -276,7 +276,7 @@
         },
         {
           "question": "エクスポートにウォーターマークが入るのはなぜですか?",
-          "answer": "無料利用枠には、小さな Collagio のウォーターマークが追加されます。 Collagio Premium は一度の購入で削除されます。"
+          "answer": "無料利用枠には、小さな Zuli Collage のウォーターマークが追加されます。 Zuli Collage Premium は一度の購入で削除されます。"
         },
         {
           "question": "Zuli Monsters を WhatsApp に追加するにはどうすればよいですか?",
@@ -286,9 +286,9 @@
     },
     "support": {
       "title": "サポートとヘルプ",
-      "subtitle": "Collagio について答えを見つけるか、Zuki Apps にお問い合わせください。",
-      "metaTitle": "サポートとヘルプ - Collagio | Zuki Apps",
-      "metaDescription": "Collagio 写真コラージュ メーカーのヘルプを参照してください。 FAQ、連絡先、プライバシー、規約。",
+      "subtitle": "Zuli Collage について答えを見つけるか、Zuki Apps にお問い合わせください。",
+      "metaTitle": "サポートとヘルプ - Zuli Collage | Zuki Apps",
+      "metaDescription": "Zuli Collage 写真コラージュ メーカーのヘルプを参照してください。 FAQ、連絡先、プライバシー、規約。",
       "contact": {
         "title": "お問い合わせ",
         "description": "メールでご連絡いただければ、できるだけ早くご連絡させていただきます。",
@@ -298,11 +298,11 @@
         "title": "クイックリンク",
         "privacy": {
           "title": "プライバシーポリシー",
-          "description": "Collagio によるデータの処理方法"
+          "description": "Zuli Collage によるデータの処理方法"
         },
         "terms": {
           "title": "利用規約",
-          "description": "Collagioの利用規約"
+          "description": "Zuli Collageの利用規約"
         }
       },
       "faq": {
@@ -317,7 +317,7 @@
         },
         "q3": {
           "question": "エクスポートにウォーターマークが入るのはなぜですか?",
-          "answer": "無料利用枠には、小さな Collagio のウォーターマークが追加されます。 Collagio Premium は一度の購入で削除されます。"
+          "answer": "無料利用枠には、小さな Zuli Collage のウォーターマークが追加されます。 Zuli Collage Premium は一度の購入で削除されます。"
         },
         "q4": {
           "question": "Premium は購入後にアクティベートされませんでした",
@@ -329,7 +329,7 @@
         },
         "q6": {
           "question": "よくある質問全文はどこで読めますか?",
-          "answer": "Collagio 製品ページの FAQ を参照するか、zukiapps.com の public/collagio/faq.md を読んで、アンサーエンジンにわかりやすいコピーをご覧ください。"
+          "answer": "Zuli Collage 製品ページの FAQ を参照するか、zukiapps.com の public/zuli-collage/faq.md を読んで、アンサーエンジンにわかりやすいコピーをご覧ください。"
         }
       },
       "additionalHelp": {
@@ -339,17 +339,17 @@
     },
     "privacy": {
       "title": "プライバシーポリシー",
-      "metaDescription": "Collagio — デバイス上の写真コラージュ アプリのプライバシー ポリシー。ローカル処理、写真のクラウドアップロードなし、オプションのPremium購入。",
+      "metaDescription": "Zuli Collage — デバイス上の写真コラージュ アプリのプライバシー ポリシー。ローカル処理、写真のクラウドアップロードなし、オプションのPremium購入。",
       "lastUpdated": "最終更新日: 2026 年 5 月",
-      "intro": "このプライバシーポリシーでは、お客様がCollagioモバイルアプリケーションおよびzukiapps.com/collagioの関連ページ（「サービス」）を使用する際に、Zuki Apps（「当社」）が情報をどのように取り扱うかについて説明します。 Collagio は、デバイス上の画像を処理する写真コラージュ アプリです。コアアプリを使用するためにアカウントは必要ありません。",
+      "intro": "このプライバシーポリシーでは、お客様が Zuli Collage モバイルアプリケーションおよびzukiapps.com/zuli-collageの関連ページ（「サービス」）を使用する際に、Zuki Apps（「当社」）が情報をどのように取り扱うかについて説明します。 Zuli Collage は、デバイス上の画像を処理する写真コラージュ アプリです。コアアプリを使用するためにアカウントは必要ありません。",
       "section1": {
         "title": "1. 私たちは何者か",
-        "content": "Collagio のデータコントローラーは Zuki Apps です。連絡先の詳細は、このポリシーの最後に記載されています。",
-        "content2": "このポリシーは、Collagio アプリ (iOS および Android) および製品に関して当社が公開する法的ページに適用されます。サードパーティ app store には独自のポリシーがあります。"
+        "content": "Zuli Collage のデータコントローラーは Zuki Apps です。連絡先の詳細は、このポリシーの最後に記載されています。",
+        "content2": "このポリシーは、Zuli Collage アプリ (iOS および Android) および製品に関して当社が公開する法的ページに適用されます。サードパーティ app store には独自のポリシーがあります。"
       },
       "section2": {
         "title": "2. 当社が収集する情報",
-        "content": "Collagio はデータ収集を最小限に抑えるように設計されています。アプリの使用方法に応じて、以下の処理を行う場合があります。",
+        "content": "Zuli Collage はデータ収集を最小限に抑えるように設計されています。アプリの使用方法に応じて、以下の処理を行う場合があります。",
         "items": [
           "コラージュを作成するためにデバイスから選択した写真とビデオは、デバイス上でローカルに処理され、コア編集のためにサーバーにアップロードされません。",
           "プロジェクトをコラージュし、デバイス上にローカルに保存された履歴をエクスポートします (たとえば、アプリ履歴に保存されている最近のコラージュ)。",
@@ -368,15 +368,15 @@
           "サポートリクエストに応答する",
           "診断ツールが有効になっている場合の安定性の向上とバグの修正"
         ],
-        "content2": "当社はあなたの個人情報を販売しません。 Collagio のバージョン 1.0.0 にはサードパーティの広告が含まれていません。"
+        "content2": "当社はあなたの個人情報を販売しません。 Zuli Collage のバージョン 1.0.0 にはサードパーティの広告が含まれていません。"
       },
       "section4": {
         "title": "4. 権限",
-        "content": "アプリは、コラージュ用の画像を選択できるようにするためだけに、写真ライブラリまたはカメラ (写真をキャプチャすることを選択した場合) へのアクセスを要求する場合があります。デバイスの設定で権限を取り消すことができます。これらの機能を使用していない場合、Collagio は写真にアクセスしません。"
+        "content": "アプリは、コラージュ用の画像を選択できるようにするためだけに、写真ライブラリまたはカメラ (写真をキャプチャすることを選択した場合) へのアクセスを要求する場合があります。デバイスの設定で権限を取り消すことができます。これらの機能を使用していない場合、Zuli Collage は写真にアクセスしません。"
       },
       "section5": {
         "title": "5. 保管と保持",
-        "content": "コラージュと編集はデバイスに保存されます。履歴から個々のアイテムを削除したり、アプリをアンインストールしてローカル データを削除したりできます。バージョン1.0.0ではCollagioのクラウドアカウントは運用しておりません。",
+        "content": "コラージュと編集はデバイスに保存されます。履歴から個々のアイテムを削除したり、アプリをアンインストールしてローカル データを削除したりできます。バージョン1.0.0ではZuli Collageのクラウドアカウントは運用しておりません。",
         "content2": "お客様がサポートにご連絡いただいた場合、当社はお客様のリクエストを解決するために必要な限り、および適切な業務記録のために通信を保持します。"
       },
       "section6": {
@@ -392,7 +392,7 @@
       "section8": {
         "title": "8. あなたの権利と子供たち",
         "content": "管轄区域によっては、特定の処理にアクセス、修正、削除、または異議を唱える権利がある場合があります。権利を行使するには、当社までご連絡ください。あなたの身元を確認する必要がある場合があります。",
-        "content2": "Collagio は 13 歳 (またはお住まいの国の最低年齢) 未満のお子様を対象としていません。当社は故意に子供から個人データを収集しません。"
+        "content2": "Zuli Collage は 13 歳 (またはお住まいの国の最低年齢) 未満のお子様を対象としていません。当社は故意に子供から個人データを収集しません。"
       },
       "section9": {
         "title": "9. 変更点",
@@ -407,17 +407,17 @@
     },
     "terms": {
       "title": "利用規約",
-      "metaDescription": "Collagio — 写真コラージュ アプリ、Zuli Monsters 知的財産、Premium の購入、および許容される使用に関する利用規約。",
+      "metaDescription": "Zuli Collage — 写真コラージュ アプリ、Zuli Monsters 知的財産、Premium の購入、および許容される使用に関する利用規約。",
       "lastUpdated": "最終更新日: 2026 年 5 月",
-      "intro": "Collagio を使用する前に、これらの利用規約をよくお読みください。アプリをダウンロード、インストール、または使用すると、これらの規約と当社のプライバシー ポリシーに同意したものとみなされます。",
+      "intro": "Zuli Collage を使用する前に、これらの利用規約をよくお読みください。アプリをダウンロード、インストール、または使用すると、これらの規約と当社のプライバシー ポリシーに同意したものとみなされます。",
       "section1": {
         "title": "1. 規約への同意",
-        "content": "本規約は、Zuki Apps (「当社」、「当社」) が運営する Collagio — Photo Collage Maker (「サービス」、「アプリ」) の使用に適用されます。同意しない場合は、サービスを使用しないでください。",
+        "content": "本規約は、Zuki Apps (「当社」、「当社」) が運営する Zuli Collage — Photo Collage Maker (「サービス」、「アプリ」) の使用に適用されます。同意しない場合は、サービスを使用しないでください。",
         "content2": "組織を代表してサービスを使用する場合、その組織を拘束する権限があることを表明することになります。"
       },
       "section2": {
         "title": "2. サービスの説明",
-        "content": "Collagio を使用すると、デバイス上で写真のコラージュを作成できます。サービスには以下が含まれます:",
+        "content": "Zuli Collage を使用すると、デバイス上で写真のコラージュを作成できます。サービスには以下が含まれます:",
         "items": [
           "ライブラリから 2 ～ 10 枚の写真を選択してください",
           "自動レイアウトと手動スタイル (境界線、フィルター)",
@@ -430,11 +430,11 @@
       "section3": {
         "title": "3.あなたの写真とコンテンツ",
         "content": "インポートした写真やその他のコンテンツの所有権はお客様が保持します。あなたは、作成して共有するコラージュでそのコンテンツを使用する権利を持つ責任があります。",
-        "content2": "Collagio を使用して、違法、侵害、嫌がらせ、または有害なコンテンツを作成または配布しないでください。"
+        "content2": "Zuli Collage を使用して、違法、侵害、嫌がらせ、または有害なコンテンツを作成または配布しないでください。"
       },
       "section4": {
         "title": "4. 知的財産",
-        "content": "Collagio および Zuli Monsters のキャラクター、名前、ステッカー アートワーク、アイコン、および関連資産は Zuki Apps が所有し、著作権および該当する商標法によって保護されています。",
+        "content": "Zuli Collage および Zuli Monsters のキャラクター、名前、ステッカー アートワーク、アイコン、および関連資産は Zuki Apps が所有し、著作権および該当する商標法によって保護されています。",
         "content2": "ステッカーやキャラクターは、アプリを通じて提供される個人的な非営利メッセージやコラージュにのみ使用できます。 Zuki Apps からの書面による許可がない限り、アプリの外部でこれらのアセットをコピー、再配布、販売、または派生作品を作成することはできません。"
       },
       "section5": {

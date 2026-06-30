@@ -18,7 +18,7 @@ LOCALES = ["he", "de", "ar", "fr", "es", "it", "pt", "ru", "ja", "ko", "zh"]
 LANG = {"he": "iw", "de": "de", "ar": "ar", "fr": "fr", "es": "es", "it": "it", "pt": "pt", "ru": "ru", "ja": "ja", "ko": "ko", "zh": "zh-CN"}
 
 KEEP = re.compile(
-    r"(Zuki Apps|ZuList|Collagio|ToldYa|Hush Gallery|Whistle Camera|Bit Scope|"
+    r"(Zuki Apps|ZuList|Zuli Collage|Collagio|ToldYa|Hush Gallery|Whistle Camera|Bit Scope|"
     r"Sudoku Fun Go|Google Play|App Store|Firebase|Game Center|Play Games|"
     r"WhatsApp|iMessage|Instagram|Layout Studio|Zuli Monsters|Premium|"
     r"com\.zuki\.|zuki\.apps\.|zukiapps\.com|Nachshol 36|support@zukiapps\.com|"
@@ -46,7 +46,7 @@ FULL_SYNC_APPS = frozenset({
 
 # Apps / subtrees to force-sync (full subtree from en → overlay)
 FORCE_SUBTREES: dict[str, list[str]] = {
-    "collagio": ["collagio.hero", "collagio.download", "collagio.status"],
+    "zuli-collage": ["zuliCollage.hero", "zuliCollage.download", "zuliCollage.status", "zuliCollage.premium", "zuliCollage.faq", "zuliCollage.support", "zuliCollage.privacy", "zuliCollage.terms", "zuliCollage.screenshots", "zuliCollage.features"],
     "whistle-camera": [
         "whistleCamera.hero",
         "whistleCamera.features.calibration",
@@ -77,7 +77,7 @@ META_APPS: dict[str, str] = {
     "track-ledger": "trackLedger",
     "noise-meter-shusher": "noiseMeterShusher",
     "toldya": "toldya",
-    "collagio": "collagio",
+    "zuli-collage": "zuli-collage",
 }
 
 
@@ -357,7 +357,7 @@ def main() -> None:
                         to_translate.append((f"{ns}.{key}", node))
 
             ns_keys = [k for k in en_app if isinstance(en_app[k], dict)]
-            if app_slug in ("hush-gallery", "collagio", "toldya"):
+            if app_slug in ("hush-gallery", "zuli-collage", "toldya"):
                 for ns in ns_keys:
                     to_translate.extend(collect_missing_faq(en_app, overlay, ns))
             if app_slug in FULL_SYNC_APPS:

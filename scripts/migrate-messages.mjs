@@ -30,7 +30,7 @@ const APP_MAP = {
   noiseMeterShusher: 'noise-meter-shusher',
   paratrooperBlitz: 'paratrooper-blitz',
   toldya: 'toldya',
-  collagio: 'collagio',       // source: collagio-locales/ overlay
+  'zuli-collage': 'zuli-collage',       // source: collagio-locales/ overlay
   dreambitLegacy: 'dreambit-legacy', // source: dreambitLegacy.json + dreambit-legacy/
 };
 
@@ -169,7 +169,7 @@ for (const loc of LOCALES) {
   for (const [nsKey, dir] of Object.entries(APP_MAP)) {
     let content;
 
-    if (nsKey === 'collagio') {
+    if (nsKey === 'zuli-collage') {
       // Source: collagio-locales/{loc}.json (no wrapper in source)
       const overlayPath = path.join(MSG, 'collagio-locales', `${loc}.json`);
       if (!fs.existsSync(overlayPath)) continue;

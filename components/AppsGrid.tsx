@@ -118,13 +118,13 @@ export default async function AppsGrid({ locale }: { locale: string }) {
       titleKey: 'funFactsTrivia.title',
       link: `/${locale}/fun-facts-trivia`,
     },
-    collagio: {
-      id: 'collagio',
+    'zuli-collage': {
+      id: 'zuli-collage',
       icon: <Layers className="w-12 h-12 text-pink-400" aria-hidden="true" />,
-      iconImage: HOME_APP_ICON_WEBP['collagio'],
+      iconImage: HOME_APP_ICON_WEBP['zuli-collage'],
       iconEdgeToEdge: true,
-      titleKey: 'collagio.title',
-      link: `/${locale}/collagio`,
+      titleKey: 'zuliCollage.title',
+      link: `/${locale}/zuli-collage`,
     },
   };
 

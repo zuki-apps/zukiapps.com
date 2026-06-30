@@ -21,7 +21,7 @@ Next.js 14 App Router · TypeScript · Tailwind · next-intl · Netlify
 - `BreadcrumbsStructuredData`, `SoftwareApplicationStructuredData`
 - Rich pages: `FaqStructuredData`, `HowToStructuredData` from `@/components/FaqHowToStructuredData`
 - `StoreDownloadBadges` + `DownloadStoreFab` (prefer over inline badge markup)
-- Per-app accent: amber (Whistle), violet (Hush), sky (Collagio), etc.
+- Per-app accent: amber (Whistle), violet (Hush), sky (Zuli Collage), etc.
 
 ### Legal pages
 

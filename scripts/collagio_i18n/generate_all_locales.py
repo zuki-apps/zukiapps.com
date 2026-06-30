@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate messages/apps/collagio/{locale}.json from en.json + Hebrew hand-off + MT for other locales."""
+"""Generate messages/apps/zuli-collage/{locale}.json from en.json + Hebrew hand-off + MT for other locales."""
 from __future__ import annotations
 
 import importlib.util
@@ -34,7 +34,7 @@ KEEP_LITERAL = re.compile(
     r"(Collagio|Zuli Monsters|Zuki Apps|WhatsApp|iMessage|Instagram|Layout Studio|"
     r"Google Play|App Store|Premium|Firebase|Crashlytics|iOS|Android|RTL|PNG|"
     r"com\.zuki\.apps\.collagio|collagio\.remove_watermark|zuki\.apps\.dev@gmail\.com|"
-    r"Nachshol 36|zukiapps\.com|public/collagio/faq\.md|/images/collagio/)",
+    r"Nachshol 36|zukiapps\.com|public/zuli-collage/faq\.md|/images/zuli-collage/)",
     re.I,
 )
 

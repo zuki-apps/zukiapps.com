@@ -1,11 +1,11 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
-import { COLLAGIO_PILOT, COLLAGIO_PUBLISHED } from '@/lib/appPublishState';
+import { ZULI_COLLAGE_PILOT, ZULI_COLLAGE_PUBLISHED } from '@/lib/appPublishState';
 import { buildProductPageMetadata } from '@/lib/productSeo';
 import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
 
-const COLLAGIO_INDEXABLE = COLLAGIO_PUBLISHED || COLLAGIO_PILOT;
+const ZULI_COLLAGE_INDEXABLE = ZULI_COLLAGE_PUBLISHED || ZULI_COLLAGE_PILOT;
 
 export async function generateMetadata({
   params,
@@ -18,14 +18,14 @@ export async function generateMetadata({
     return {};
   }
 
-  const t = await getTranslations({ locale, namespace: 'collagio' });
+  const t = await getTranslations({ locale, namespace: 'zuliCollage' });
 
   const meta = buildProductPageMetadata({
     locale,
-    appPath: '/collagio',
+    appPath: '/zuli-collage',
     t,
     keywords: [
-      'Collagio',
+      'Zuli Collage',
       'photo collage maker',
       'collage app',
       'photo grid',
@@ -40,7 +40,7 @@ export async function generateMetadata({
 
   return {
     ...meta,
-    robots: COLLAGIO_INDEXABLE
+    robots: ZULI_COLLAGE_INDEXABLE
       ? meta.robots
       : {
           index: false,
@@ -49,7 +49,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function CollagioLayout({
+export default async function ZuliCollageLayout({
   children,
   params,
 }: {
@@ -60,7 +60,7 @@ export default async function CollagioLayout({
 
   return (
     <>
-      <ProductStructuredDataBlock locale={locale} slug="collagio" />
+      <ProductStructuredDataBlock locale={locale} slug="zuli-collage" />
       {children}
     </>
   );

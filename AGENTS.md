@@ -57,7 +57,7 @@ Next.js 14 · TypeScript · Tailwind · next-intl · Netlify
 | Task | Where to look |
 |------|----------------|
 | Enrich product page | `hush-gallery`, `whistle-camera` + `marketing-content.mdc` |
-| Add app page | `new-app-playbook.mdc`, copy `collagio/` or `bit-scope/` |
+| Add app page | `new-app-playbook.mdc`, copy `zuli-collage/` or `bit-scope/` |
 | Update copy | `messages/en.json` → `{appNamespace}` |
 | SEO / AEO | `seo-aeo.mdc`, `senior-marketing-seo` agent |
 | Hide until launch | `lib/appPublishState.ts`, skip home grid |

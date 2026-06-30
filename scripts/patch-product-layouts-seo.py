@@ -18,7 +18,7 @@ LAYOUTS: dict[str, tuple[str, str]] = {
     "sudoku-puzzle": ("/sudoku-puzzle", "sudokuPuzzle"),
     "tempo-lab-pro": ("/tempo-lab-pro", "tempoLabPro"),
     "fun-facts-trivia": ("/fun-facts-trivia", "funFactsTrivia"),
-    "collagio": ("/collagio", "collagio"),
+    "zuli-collage": ("/zuli-collage", "zuliCollage"),
     "football-trivia": ("/football-trivia", "footballTrivia"),
     "toldya": ("/toldya", "toldya"),
 }

@@ -18,7 +18,7 @@ app/
   robots.ts
 components/                # Shared UI (Logo, LegalSections, store badges, SEO)
 lib/
-  appPublishState.ts       # TOLDYA_PUBLISHED, COLLAGIO_PUBLISHED, etc.
+  appPublishState.ts       # TOLDYA_PUBLISHED, ZULI_COLLAGE_PUBLISHED, etc.
   appStructuredData.ts     # Android package IDs for JSON-LD
   siteCatalog.ts           # Home JSON-LD ItemList (published apps only)
   hreflang.ts              # Canonical + language alternates
@@ -50,7 +50,7 @@ public/
 | `/paratrooper-blitz` | `paratrooperBlitz` | |
 | `/tempo-lab-pro` | `tempoLabPro` | |
 | `/toldya` | `toldya` | **Hidden** until `TOLDYA_PUBLISHED` |
-| `/collagio` | `collagio` | **Hidden** until `COLLAGIO_PUBLISHED` |
+| `/zuli-collage` | `zuliCollage` | **Hidden** until `ZULI_COLLAGE_PUBLISHED` |
 | `/dreambit-legacy` | `dreambitLegacy` | Archive; Google Play only |
 
 ## Page patterns
@@ -62,7 +62,7 @@ public/
 - `DownloadStoreFab` + often `StoreDownloadBadges` with `t('download.*')`
 - Sub-routes: `privacy/`, `terms/`, sometimes `support/`, `delete-account/`
 
-**Under construction** (e.g. `toldya/`, `collagio/`):
+**Under construction** (e.g. `toldya/`, `zuli-collage/`):
 - Coming-soon landing, `robots: noindex` until publish flag true
 - Legal pages indexed (`privacy`, `terms`; ToldYa also `child-safety`, `delete-account`)
 - Copy from sibling Flutter repo `docs/` + `AppConfig` legal URLs

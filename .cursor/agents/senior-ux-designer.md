@@ -33,7 +33,7 @@ Read `.claude/context.md`, `.cursor/context/project_context.md`, and `.cursor/ru
 Each app picks a **accent family** on dark pages (links, rings, borders):
 
 - Emerald/teal — ToldYa
-- Sky/blue — Collagio, ZuList-adjacent blues
+- Sky/blue — Zuli Collage, ZuList-adjacent blues
 - Amber — Whistle Camera, Power Interval Timer
 - Cyan — Bit Scope
 - Violet — Hush Gallery

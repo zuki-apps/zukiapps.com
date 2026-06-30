@@ -1,16 +1,16 @@
 {
-  "collagio": {
+  "zuliCollage": {
     "back": "Back to Home",
     "hero": {
       "badge": "Coming soon · iOS & Android",
       "title": "Turn 2–10 photos into a collage in seconds",
-      "productName": "Collagio — Photo Collage Maker",
-      "subtitle": "Collagio — Photo Collage Maker",
+      "productName": "Zuli Collage — Photo Collage Maker",
+      "subtitle": "Zuli Collage — Photo Collage Maker",
       "description": "Pick photos, choose a layout, add filters and Zuli Monsters stickers, then save or share. No account required — everything stays on your device.",
       "socialProof": "2–10 photos · Smart layouts · Filters · 48 Zuli Monsters · English & Hebrew",
-      "structuredDataDescription": "Create beautiful photo collages from 2–10 pictures in seconds. Layouts, filters, text, and 48 Zuli Monsters stickers. Coming soon for iOS and Android. No account required.",
-      "phoneAlt": "Collagio home screen on iPhone",
-      "seoTitle": "Collagio — Photo Collage Maker | Zuki Apps",
+      "structuredDataDescription": "Zuli Collage — photo collage maker for iOS and Android. Create beautiful collages from 2–10 pictures in seconds. Layouts, filters, text, and 48 Zuli Monsters stickers. Coming soon. No account required. Android com.zuki.apps.collagio.",
+      "phoneAlt": "Zuli Collage home screen on iPhone",
+      "seoTitle": "Zuli Collage — Photo Collage Maker | Zuki Apps",
       "metaDescription": "Combine 2–10 photos with layouts, filters & stickers. On-device editing. Coming soon on iOS & Android."
     },
     "legalNav": {
@@ -28,64 +28,64 @@
       "download": "Download"
     },
     "screenshots": {
-      "title": "See Collagio in action",
+      "title": "See Zuli Collage in action",
       "subtitle": "Real device captures — home, picker, editor, stickers, export, and Layout Studio.",
       "featuresTitle": "App screens",
       "items": [
         {
           "id": "home",
           "title": "Beautiful collages in seconds",
-          "description": "Create Collage, recent history, Layout Studio, and Zuli Monsters — all from one home screen.",
-          "image": "/images/collagio/screenshot-home.png?v=2",
-          "alt": "Collagio home screen with Create Collage and recent collages",
+          "description": "Create Collage, My gallery, Layout Studio, and Zuli Monsters — all from one home screen.",
+          "image": "/images/zuli-collage/screenshot-home.png?v=3",
+          "alt": "Zuli Collage home screen with Create Collage, My gallery, and Layout studio",
           "category": "features"
         },
         {
           "id": "picker",
           "title": "Pick photos & choose a layout",
           "description": "Select 2–10 photos, reorder with long-press drag, and swipe through layouts matched to your count.",
-          "image": "/images/collagio/screenshot-picker.png?v=2",
-          "alt": "Collagio photo picker with layout strip",
+          "image": "/images/zuli-collage/screenshot-picker.png?v=2",
+          "alt": "Zuli Collage photo picker with layout strip",
           "category": "features"
         },
         {
           "id": "stickers",
           "title": "Style your collage & add Zuli Monsters",
           "description": "Filters, borders, spacing, and 48 original sticker characters — scale and place them anywhere on the canvas.",
-          "image": "/images/collagio/screenshot-stickers.png?v=2",
-          "alt": "Collagio editor with filters and Zuli Monsters stickers on a collage",
+          "image": "/images/zuli-collage/screenshot-stickers.png?v=2",
+          "alt": "Zuli Collage editor with filters and Zuli Monsters stickers on a collage",
           "category": "features"
         },
         {
           "id": "stickersShare",
           "title": "48 original sticker characters",
           "description": "Install WhatsApp sticker packs or use the iMessage extension — same characters as in the editor.",
-          "image": "/images/collagio/screenshot-stickers-share.png?v=2",
-          "alt": "Collagio Zuli Monsters sticker hub with WhatsApp and iMessage install",
+          "image": "/images/zuli-collage/screenshot-stickers-share.png?v=2",
+          "alt": "Zuli Collage Zuli Monsters sticker hub with WhatsApp and iMessage install",
           "category": "features"
         },
         {
           "id": "export",
           "title": "Save, share, or send as sticker",
           "description": "Export to Photos, Instagram, WhatsApp, or as a transparent PNG sticker.",
-          "image": "/images/collagio/screenshot-export.png?v=2",
-          "alt": "Collagio export screen with save and share options",
+          "image": "/images/zuli-collage/screenshot-export.png?v=2",
+          "alt": "Zuli Collage export screen with save and share options",
           "category": "features"
         },
         {
           "id": "layoutStudio",
           "title": "Design your own layouts",
           "description": "Drag, resize, and shape numbered slots — save custom layouts for your next collage.",
-          "image": "/images/collagio/screenshot-layout-studio.png?v=2",
-          "alt": "Collagio Layout Studio with custom slot arrangement",
+          "image": "/images/zuli-collage/screenshot-layout-studio.png?v=2",
+          "alt": "Zuli Collage Layout Studio with custom slot arrangement",
           "category": "features"
         },
         {
           "id": "collageResult",
           "title": "Finished collage output",
-          "description": "What Collagio produces — square grids, story formats, filters, and frames ready to share.",
-          "image": "/images/collagio/screenshot-collage-result.png?v=2",
-          "alt": "Example square photo collage exported from Collagio",
+          "description": "What Zuli Collage produces — square grids, story formats, filters, and frames ready to share.",
+          "image": "/images/zuli-collage/screenshot-collage-result.png?v=2",
+          "alt": "Example square photo collage exported from Zuli Collage",
           "category": "features"
         }
       ]
@@ -129,7 +129,7 @@
           "Built-in sticker tray",
           "WhatsApp one-tap install",
           "iMessage extension",
-          "Personal use inside Collagio only"
+          "Personal use inside Zuli Collage only"
         ]
       },
       "layoutStudio": {
@@ -158,10 +158,10 @@
       "subtitle": "Original characters by Zuki Apps",
       "description": "48 bundled sticker characters you can place on collages or install for WhatsApp and iMessage.",
       "rightsNotice": "Zuli Monsters™, including all character designs, names, likenesses, sticker artwork, icons, and related assets, are the exclusive intellectual property of Zuki Apps. All rights reserved.",
-      "usageNotice": "You may use Zuli Monsters only as provided through Collagio for personal collages and messaging. You may not copy, redistribute, sell, sublicense, or create derivative works from these characters outside the app without prior written permission from Zuki Apps."
+      "usageNotice": "You may use Zuli Monsters only as provided through Zuli Collage for personal collages and messaging. You may not copy, redistribute, sell, sublicense, or create derivative works from these characters outside the app without prior written permission from Zuki Apps."
     },
     "premium": {
-      "title": "Collagio Premium",
+      "title": "Zuli Collage Premium",
       "subtitle": "One-time purchase — no subscription",
       "freeTitle": "Free",
       "premiumTitle": "Premium",
@@ -180,18 +180,18 @@
       ]
     },
     "download": {
-      "title": "Download Collagio",
-      "description": "Collagio is not on the stores yet. Join the waitlist by email — we will announce iOS and Android when downloads open.",
+      "title": "Download Zuli Collage",
+      "description": "Zuli Collage is not on the stores yet. Join the waitlist by email — we will announce iOS and Android when downloads open.",
       "appStoreUrl": "",
       "googlePlayUrl": "",
       "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play",
-      "appIconAlt": "Collagio app icon",
+      "appIconAlt": "Zuli Collage app icon",
       "soon": "Coming soon to the App Store and Google Play."
     },
     "status": {
       "title": "In development",
-      "description": "Collagio is in final testing. Store links will appear here when downloads are ready.",
+      "description": "Zuli Collage is in final testing. Store links will appear here when downloads are ready.",
       "version": "Release",
       "status": "Stores",
       "versionValue": "Pre-release",
@@ -205,11 +205,11 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "Download Collagio for Android"
+        "description": "Download Zuli Collage for Android"
       }
     },
     "footer": {
-      "copyright": "© 2026 Zuki Apps. Collagio and Zuli Monsters are copyrighted works and trademarks of Zuki Apps. All rights reserved.",
+      "copyright": "© 2026 Zuki Apps. Zuli Collage and Zuli Monsters are copyrighted works and trademarks of Zuki Apps. All rights reserved.",
       "tagline": "Beautiful collages in seconds · Made with ❤️ in Israel"
     },
     "howToUse": {
@@ -235,16 +235,16 @@
     },
     "faq": {
       "title": "Frequently asked questions",
-      "subtitle": "Quick answers about Collagio features, privacy, and Premium.",
+      "subtitle": "Quick answers about Zuli Collage features, privacy, and Premium.",
       "viewAllSupport": "View full support & FAQ",
       "items": [
         {
-          "question": "What is Collagio?",
-          "answer": "Collagio is a photo collage maker for iOS and Android. Select 2–10 photos, pick a layout, style with filters and stickers, then save or share — usually in under 30 seconds."
+          "question": "What is Zuli Collage?",
+          "answer": "Zuli Collage is a photo collage maker for iOS and Android. Select 2–10 photos, pick a layout, style with filters and stickers, then save or share — usually in under 30 seconds."
         },
         {
           "question": "Do I need an account?",
-          "answer": "No. Collagio works entirely on your device. There is no sign-up, login, or cloud storage of your photos."
+          "answer": "No. Zuli Collage works entirely on your device. There is no sign-up, login, or cloud storage of your photos."
         },
         {
           "question": "How many photos can I use?",
@@ -263,7 +263,7 @@
           "answer": "No. All image processing happens on your device. Photos are never uploaded to Zuki Apps servers."
         },
         {
-          "question": "What does Collagio Premium include?",
+          "question": "What does Zuli Collage Premium include?",
           "answer": "Premium is a one-time purchase: no ads, no watermark on exports, high-resolution export, transparent PNG sticker export, and batch save from history."
         },
         {
@@ -276,7 +276,7 @@
         },
         {
           "question": "Why is there a watermark on exports?",
-          "answer": "The free tier adds a small Collagio watermark. Collagio Premium removes it with a one-time purchase."
+          "answer": "The free tier adds a small Zuli Collage watermark. Zuli Collage Premium removes it with a one-time purchase."
         },
         {
           "question": "How do I add Zuli Monsters to WhatsApp?",
@@ -286,9 +286,9 @@
     },
     "support": {
       "title": "Support & Help",
-      "subtitle": "Find answers or contact Zuki Apps about Collagio.",
-      "metaTitle": "Support & Help - Collagio | Zuki Apps",
-      "metaDescription": "Get help with Collagio photo collage maker. FAQ, contact, privacy, and terms.",
+      "subtitle": "Find answers or contact Zuki Apps about Zuli Collage.",
+      "metaTitle": "Support & Help - Zuli Collage | Zuki Apps",
+      "metaDescription": "Get help with Zuli Collage photo collage maker. FAQ, contact, privacy, and terms.",
       "contact": {
         "title": "Contact us",
         "description": "Email us and we will get back to you as soon as possible.",
@@ -298,11 +298,11 @@
         "title": "Quick links",
         "privacy": {
           "title": "Privacy Policy",
-          "description": "How Collagio handles your data"
+          "description": "How Zuli Collage handles your data"
         },
         "terms": {
           "title": "Terms of Use",
-          "description": "Terms for using Collagio"
+          "description": "Terms for using Zuli Collage"
         }
       },
       "faq": {
@@ -317,7 +317,7 @@
         },
         "q3": {
           "question": "Why is there a watermark on exports?",
-          "answer": "The free tier adds a small Collagio watermark. Collagio Premium removes it with a one-time purchase."
+          "answer": "The free tier adds a small Zuli Collage watermark. Zuli Collage Premium removes it with a one-time purchase."
         },
         "q4": {
           "question": "Premium didn't activate after purchase",
@@ -329,7 +329,7 @@
         },
         "q6": {
           "question": "Where can I read the full FAQ?",
-          "answer": "See the FAQ on the Collagio product page or read public/collagio/faq.md on zukiapps.com for answer-engine friendly copy."
+          "answer": "See the FAQ on the Zuli Collage product page or read public/zuli-collage/faq.md on zukiapps.com for answer-engine friendly copy."
         }
       },
       "additionalHelp": {
@@ -339,17 +339,17 @@
     },
     "privacy": {
       "title": "Privacy Policy",
-      "metaDescription": "Privacy Policy for Collagio — on-device photo collage app; local processing, no cloud upload of your photos, optional Premium purchase.",
+      "metaDescription": "Privacy Policy for Zuli Collage — on-device photo collage app; local processing, no cloud upload of your photos, optional Premium purchase.",
       "lastUpdated": "Last updated: May 2026",
-      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) handles information when you use the Collagio mobile application and related pages at zukiapps.com/collagio (the “Service”). Collagio is a photo collage app that processes your images on your device. We do not require an account to use the core app.",
+      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) handles information when you use the Zuli Collage mobile application and related pages at zukiapps.com/zuli-collage (the “Service”). Zuli Collage is a photo collage app that processes your images on your device. We do not require an account to use the core app.",
       "section1": {
         "title": "1. Who we are",
-        "content": "The data controller for Collagio is Zuki Apps. Contact details are at the end of this Policy.",
-        "content2": "This Policy applies to the Collagio app (iOS and Android) and the legal pages we publish for the product. Third-party app stores have their own policies."
+        "content": "The data controller for Zuli Collage is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the Zuli Collage app (iOS and Android) and the legal pages we publish for the product. Third-party app stores have their own policies."
       },
       "section2": {
         "title": "2. Information we collect",
-        "content": "Collagio is designed to minimize data collection. Depending on how you use the app, we may process:",
+        "content": "Zuli Collage is designed to minimize data collection. Depending on how you use the app, we may process:",
         "items": [
           "Photos and videos you select from your device to create collages — processed locally on your device and not uploaded to our servers for core editing.",
           "Collage projects and export history stored locally on your device (for example, recent collages kept in app history).",
@@ -368,15 +368,15 @@
           "Respond to support requests",
           "Improve stability and fix bugs when diagnostic tools are enabled"
         ],
-        "content2": "We do not sell your personal information. Collagio does not include third-party advertising in version 1.0.0."
+        "content2": "We do not sell your personal information. Zuli Collage does not include third-party advertising in version 1.0.0."
       },
       "section4": {
         "title": "4. Permissions",
-        "content": "The app may request access to your photo library or camera (if you choose to capture photos) solely to let you select images for collages. You can revoke permissions in your device settings. Collagio does not access your photos when you are not using those features."
+        "content": "The app may request access to your photo library or camera (if you choose to capture photos) solely to let you select images for collages. You can revoke permissions in your device settings. Zuli Collage does not access your photos when you are not using those features."
       },
       "section5": {
         "title": "5. Storage and retention",
-        "content": "Collages and edits are stored on your device. You can delete individual items from history or uninstall the app to remove local data. We do not operate a cloud account for Collagio in version 1.0.0.",
+        "content": "Collages and edits are stored on your device. You can delete individual items from history or uninstall the app to remove local data. We do not operate a cloud account for Zuli Collage in version 1.0.0.",
         "content2": "If you contact support, we retain correspondence as long as needed to resolve your request and for reasonable business records."
       },
       "section6": {
@@ -392,7 +392,7 @@
       "section8": {
         "title": "8. Your rights and children",
         "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights. We may need to verify your identity.",
-        "content2": "Collagio is not directed to children under 13 (or the minimum age in your country). We do not knowingly collect personal data from children."
+        "content2": "Zuli Collage is not directed to children under 13 (or the minimum age in your country). We do not knowingly collect personal data from children."
       },
       "section9": {
         "title": "9. Changes",
@@ -407,17 +407,17 @@
     },
     "terms": {
       "title": "Terms of Use",
-      "metaDescription": "Terms of Use for Collagio — photo collage app, Zuli Monsters intellectual property, Premium purchase, and acceptable use.",
+      "metaDescription": "Terms of Use for Zuli Collage — photo collage app, Zuli Monsters intellectual property, Premium purchase, and acceptable use.",
       "lastUpdated": "Last updated: May 2026",
-      "intro": "Please read these Terms of Use carefully before using Collagio. By downloading, installing, or using the app, you agree to these Terms and our Privacy Policy.",
+      "intro": "Please read these Terms of Use carefully before using Zuli Collage. By downloading, installing, or using the app, you agree to these Terms and our Privacy Policy.",
       "section1": {
         "title": "1. Acceptance of Terms",
-        "content": "These Terms govern your use of Collagio — Photo Collage Maker (“Service”, “App”) operated by Zuki Apps (“we”, “us”). If you do not agree, do not use the Service.",
+        "content": "These Terms govern your use of Zuli Collage — Photo Collage Maker (“Service”, “App”) operated by Zuki Apps (“we”, “us”). If you do not agree, do not use the Service.",
         "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
       },
       "section2": {
         "title": "2. Description of Service",
-        "content": "Collagio lets you create photo collages on your device. The Service includes:",
+        "content": "Zuli Collage lets you create photo collages on your device. The Service includes:",
         "items": [
           "Select 2–10 photos from your library",
           "Automatic layouts and manual styling (borders, filters)",
@@ -430,11 +430,11 @@
       "section3": {
         "title": "3. Your photos and content",
         "content": "You retain ownership of photos and other content you import. You are responsible for having the rights to use that content in collages you create and share.",
-        "content2": "Do not use Collagio to create or distribute unlawful, infringing, harassing, or harmful content."
+        "content2": "Do not use Zuli Collage to create or distribute unlawful, infringing, harassing, or harmful content."
       },
       "section4": {
         "title": "4. Intellectual property",
-        "content": "Collagio and the Zuli Monsters characters, names, sticker artwork, icons, and related assets are owned by Zuki Apps and protected by copyright and applicable trademark laws.",
+        "content": "Zuli Collage and the Zuli Monsters characters, names, sticker artwork, icons, and related assets are owned by Zuki Apps and protected by copyright and applicable trademark laws.",
         "content2": "You may use stickers and characters only as provided through the app for personal, non-commercial messaging and collages. You may not copy, redistribute, sell, or create derivative works from these assets outside the app without written permission from Zuki Apps."
       },
       "section5": {

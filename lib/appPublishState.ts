@@ -14,11 +14,11 @@ export const TOLDYA_APP_PATH = '/toldya' as const;
 export const TOLDYA_CHILD_SAFETY_PATH = '/toldya/child-safety' as const;
 
 /**
- * Collagio is on the home grid when `COLLAGIO_PUBLISHED` is true.
- * `COLLAGIO_PILOT` — indexed landing page without home grid when not published.
+ * Zuli Collage is on the home grid when `ZULI_COLLAGE_PUBLISHED` is true.
+ * `ZULI_COLLAGE_PILOT` — indexed landing page without home grid when not published.
  * Privacy/terms/support sitemap entries follow the same pilot/published gate in `app/sitemap.ts`.
  */
-export const COLLAGIO_PILOT = true;
-export const COLLAGIO_PUBLISHED = false;
+export const ZULI_COLLAGE_PILOT = true;
+export const ZULI_COLLAGE_PUBLISHED = false;
 
-export const COLLAGIO_APP_PATH = '/collagio' as const;
+export const ZULI_COLLAGE_APP_PATH = '/zuli-collage' as const;

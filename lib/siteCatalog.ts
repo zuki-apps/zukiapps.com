@@ -33,9 +33,9 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
   },
   { path: '/tempo-lab-pro', name: 'TempoLab Pro', description: 'Tempo, pitch, and audio practice tools.' },
   {
-    path: '/collagio',
-    name: 'Collagio',
-    description: 'Photo collage maker: 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device, English & Hebrew. Coming soon on iOS and Android.',
+    path: '/zuli-collage',
+    name: 'Zuli Collage',
+    description: 'Photo collage maker (Zuli Collage): 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device, English & Hebrew. Coming soon on iOS and Android.',
   },
   {
     path: '/toldya',

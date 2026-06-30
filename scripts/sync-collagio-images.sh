@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Copy Collagio marketing screenshots → public/images/collagio/
+# Copy Zuli Collage marketing screenshots → public/images/zuli-collage/
 # Prefer raw/device captures (unique real screens); resize to 640w for the web gallery.
 set -euo pipefail
-COLLAGIO="${COLLAGIO_REPO:-/Users/zukman/GIT/Collagio}"
-SRC="$COLLAGIO/marketing/screenshots"
+ZULI_COLLAGE_REPO="${ZULI_COLLAGE_REPO:-/Users/zukman/GIT/Collagio}"
+SRC="$ZULI_COLLAGE_REPO/marketing/screenshots"
 DEVICE="$SRC/raw/device"
-DST="$(cd "$(dirname "$0")/.." && pwd)/public/images/collagio"
+DST="$(cd "$(dirname "$0")/.." && pwd)/public/images/zuli-collage"
 
 mkdir -p "$DST"
 

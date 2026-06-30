@@ -35,7 +35,7 @@ You are a **Content Sync Specialist** for **ZukiApps-WEB**.
 | TempoLabPro | `marketing/` | `/tempo-lab-pro` | `tempoLabPro` |
 | TrackLedger | `marketing/` | `/track-ledger` | `trackLedger` |
 | ZuList | `Marketing/` | `/zulist` | `zulist` |
-| Collagio | `marketing/` | `/collagio` | `collagio` |
+| Zuli Collage | `marketing/` | `/zuli-collage` | `zuliCollage` |
 
 ## Skip / exclude
 
