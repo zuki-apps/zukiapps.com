@@ -7,9 +7,8 @@ import { ArrowLeft, Grid3X3, BarChart3, Globe, Trophy, Settings, Mail, ExternalL
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StarBackground from '@/components/StarBackground';
-import ProductMarketingSections, { ProductPageNav } from '@/components/ProductMarketingSections';
+import { ProductMarketingSections, ProductPageNav, DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 export default function SudokuPuzzlePage() {
   const t = useTranslations('sudokuPuzzle');

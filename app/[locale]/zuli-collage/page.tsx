@@ -19,12 +19,11 @@ import {
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { ZULI_COLLAGE_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
 import OtherZukiApps from '@/components/OtherZukiApps';
-import ProductMarketingSections, { ProductPageNav } from '@/components/ProductMarketingSections';
+import { ProductMarketingSections, ProductPageNav, DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 const FEATURE_ICONS = {
   layouts: LayoutGrid,

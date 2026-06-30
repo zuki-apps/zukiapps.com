@@ -24,12 +24,12 @@ import {
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
 import OtherZukiApps from '@/components/OtherZukiApps';
 import ScreenshotLightbox from '@/components/ScreenshotLightbox';
+import { DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 type ScreenshotItem = {
   id: string;

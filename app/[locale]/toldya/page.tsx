@@ -7,9 +7,9 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
-import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import StarBackground from '@/components/StarBackground';
+import { DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 export default function ToldyaPage() {
   const t = useTranslations('toldya');

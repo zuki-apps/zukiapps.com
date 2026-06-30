@@ -8,12 +8,12 @@ import { ArrowLeft, Lock, FolderTree, Cloud, Shield, Image as ImageIcon, Downloa
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { HUSH_GALLERY_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
 import ScreenshotLightbox from '@/components/ScreenshotLightbox';
 import OtherZukiApps from '@/components/OtherZukiApps';
+import { DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 type ScreenshotItem = {
   id: string;

@@ -477,7 +477,7 @@ export default function AppsCarousel() {
       {/* Navigation Arrows */}
       <button
         onClick={goToPrevious}
-        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 z-10 bg-indigo-950/90 hover:bg-violet-950/80 border-2 border-indigo-400/45 hover:border-amber-400/50 rounded-full p-3 transition-all shadow-lg hover:shadow-xl"
+        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 z-10 bg-indigo-950/90 hover:bg-violet-950/80 border-2 border-indigo-400/45 hover:border-amber-400/50 rounded-full min-h-[44px] min-w-[44px] p-3 transition-all shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
         aria-label="Previous app"
         type="button"
       >
@@ -485,7 +485,7 @@ export default function AppsCarousel() {
       </button>
       <button
         onClick={goToNext}
-        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 z-10 bg-indigo-950/90 hover:bg-violet-950/80 border-2 border-indigo-400/45 hover:border-amber-400/50 rounded-full p-3 transition-all shadow-lg hover:shadow-xl"
+        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 z-10 bg-indigo-950/90 hover:bg-violet-950/80 border-2 border-indigo-400/45 hover:border-amber-400/50 rounded-full min-h-[44px] min-w-[44px] p-3 transition-all shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
         aria-label="Next app"
         type="button"
       >

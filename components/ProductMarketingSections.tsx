@@ -1,12 +1,16 @@
 'use client';
 
 import { useState } from 'react';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { asArray, hasMessage, safeRaw } from '@/lib/safeTranslations';
-import ScreenshotLightbox from '@/components/ScreenshotLightbox';
 import OtherZukiApps from '@/components/OtherZukiApps';
+
+const ScreenshotLightbox = dynamic(() => import('@/components/ScreenshotLightbox'), {
+  ssr: false,
+});
 
 type ScreenshotItem = {
   id: string;
@@ -261,7 +265,15 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
         className="w-full max-w-[220px] mx-auto block cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 rounded-t-xl"
         aria-label={`View larger: ${item.title}`}
       >
-        <Image src={item.image} alt={item.alt} width={640} height={1280} unoptimized sizes="220px" className="w-full h-auto block" />
+        <Image
+          src={item.image}
+          alt={item.alt}
+          width={640}
+          height={1280}
+          sizes="220px"
+          loading="lazy"
+          className="w-full h-auto block"
+        />
       </button>
       <figcaption className="p-4">
         <h4 className="font-bold text-white mb-2">{item.title}</h4>
@@ -372,11 +384,11 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
             <div className="space-y-4">
               {faqItems.map((item, i) => (
                 <details key={i} className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl border ${a.faqBorder} group`}>
-                  <summary className="cursor-pointer p-5 font-semibold text-white list-none flex justify-between items-center">
+                  <summary className="cursor-pointer p-5 min-h-[44px] font-semibold text-white list-none flex justify-between items-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40 rounded-xl">
                     {item.question}
                     <span className={`${a.faqToggle} ml-2 group-open:rotate-45 transition-transform`}>+</span>
                   </summary>
-                  <p className="px-5 pb-5 text-gray-400 text-sm leading-relaxed">{item.answer}</p>
+                  <p className="px-5 pb-5 text-gray-300 text-sm leading-relaxed">{item.answer}</p>
                 </details>
               ))}
             </div>

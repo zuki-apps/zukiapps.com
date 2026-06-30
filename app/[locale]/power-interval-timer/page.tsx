@@ -7,9 +7,8 @@ import { ArrowLeft, Timer, Settings, Tv, Cast, Palette, Mail, ExternalLink, Chec
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import DownloadStoreFab from '@/components/DownloadStoreFab';
 import StarBackground from '@/components/StarBackground';
-import ProductMarketingSections, { ProductPageNav } from '@/components/ProductMarketingSections';
+import { ProductMarketingSections, ProductPageNav, DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 export default function PowerIntervalTimerPage() {
   const t = useTranslations('powerIntervalTimer');
