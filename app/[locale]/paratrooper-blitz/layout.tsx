@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import { buildProductPageMetadata } from '@/lib/productSeo';
 import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
+import AppClientMessages from '@/components/AppClientMessages';
 
 export async function generateMetadata({
   params,
@@ -36,7 +37,7 @@ export default async function ParatrooperBlitzLayout({
   return (
     <>
       <ProductStructuredDataBlock locale={locale} slug="paratrooper-blitz" />
-      {children}
+      <AppClientMessages locale={locale} appFolder="paratrooper-blitz">{children}</AppClientMessages>
     </>
   );
 }

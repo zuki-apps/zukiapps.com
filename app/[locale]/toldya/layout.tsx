@@ -6,6 +6,7 @@ import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } 
 import { FaqStructuredData } from '@/components/FaqHowToStructuredData';
 import { collectNumberedSupportFaq } from '@/lib/supportFaq';
 import SoftwareApplicationStructuredData from '@/components/SoftwareApplicationStructuredData';
+import AppClientMessages from '@/components/AppClientMessages';
 
 const TOLDYA_INDEXABLE = TOLDYA_PUBLISHED || TOLDYA_PILOT;
 
@@ -111,7 +112,7 @@ export default async function ToldyaLayout({
         googlePlayUrl={t('download.googlePlayUrl')}
       />
       {faqItems.length > 0 && <FaqStructuredData id="toldya-faq-ld" items={faqItems} />}
-      {children}
+      <AppClientMessages locale={locale} appFolder="toldya">{children}</AppClientMessages>
     </>
   );
 }

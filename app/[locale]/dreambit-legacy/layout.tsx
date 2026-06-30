@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
+import AppClientMessages from '@/components/AppClientMessages';
 
 export async function generateMetadata({
   params
@@ -39,6 +40,17 @@ export async function generateMetadata({
   };
 }
 
-export default function DreambitLegacyLayout({ children }: { children: React.ReactNode }) {
-  return children;
+export default async function DreambitLegacyLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return (
+    <AppClientMessages locale={locale} appFolder="dreambit-legacy">
+      {children}
+    </AppClientMessages>
+  );
 }

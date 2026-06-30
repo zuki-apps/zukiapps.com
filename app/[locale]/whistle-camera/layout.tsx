@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import { buildProductPageMetadata } from '@/lib/productSeo';
 import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
+import AppClientMessages from '@/components/AppClientMessages';
 
 export async function generateMetadata({
   params
@@ -45,8 +46,7 @@ export default async function WhistleCameraLayout({
   return (
     <>
       <ProductStructuredDataBlock locale={locale} slug="whistle-camera" />
-      {children}
+      <AppClientMessages locale={locale} appFolder="whistle-camera">{children}</AppClientMessages>
     </>
   );
 }
-

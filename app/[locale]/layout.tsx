@@ -3,6 +3,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
 import LocaleHtmlSync from '@/components/LocaleHtmlSync';
+import { pickSharedClientMessages } from '@/lib/loadAppMessages';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
 import { buildSoftwareCatalogItemList } from '@/lib/siteCatalog';
 import { Metadata, Viewport } from 'next';
@@ -157,7 +158,8 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
   const dir = locale === 'he' || locale === 'ar' ? 'rtl' : 'ltr';
-  const messages = await getMessages({ locale });
+  const allMessages = await getMessages({ locale });
+  const messages = pickSharedClientMessages(allMessages as Record<string, unknown>);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://zukiapps.com';
   const logoUrl = `${baseUrl}/logo.png`;
 

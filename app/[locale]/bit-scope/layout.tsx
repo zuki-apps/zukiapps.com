@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import { buildProductPageMetadata } from '@/lib/productSeo';
 import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
+import AppClientMessages from '@/components/AppClientMessages';
 
 export async function generateMetadata({
   params
@@ -35,7 +36,7 @@ export default async function BitScopeLayout({
   return (
     <>
       <ProductStructuredDataBlock locale={locale} slug="bit-scope" />
-      {children}
+      <AppClientMessages locale={locale} appFolder="bit-scope">{children}</AppClientMessages>
     </>
   );
 }

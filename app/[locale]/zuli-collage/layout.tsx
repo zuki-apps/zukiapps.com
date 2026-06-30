@@ -4,6 +4,7 @@ import { routing } from '@/routing';
 import { ZULI_COLLAGE_PILOT, ZULI_COLLAGE_PUBLISHED } from '@/lib/appPublishState';
 import { buildProductPageMetadata } from '@/lib/productSeo';
 import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
+import AppClientMessages from '@/components/AppClientMessages';
 
 const ZULI_COLLAGE_INDEXABLE = ZULI_COLLAGE_PUBLISHED || ZULI_COLLAGE_PILOT;
 
@@ -61,7 +62,7 @@ export default async function ZuliCollageLayout({
   return (
     <>
       <ProductStructuredDataBlock locale={locale} slug="zuli-collage" />
-      {children}
+      <AppClientMessages locale={locale} appFolder="zuli-collage">{children}</AppClientMessages>
     </>
   );
 }

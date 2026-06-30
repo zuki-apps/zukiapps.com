@@ -7,7 +7,7 @@ const nextConfig = {
   // Next 14.2: externalize OTEL + Google auth so dev webpack does not reference a missing `vendor-chunks/@opentelemetry.js`.
   // (firebase-admin is already in Next's default server external list.)
   experimental: {
-    serverComponentsExternalPackages: ['@opentelemetry/api', 'google-auth-library'],
+    serverComponentsExternalPackages: ['@opentelemetry/api', 'google-auth-library', 'firebase-admin'],
   },
   images: {
     formats: ['image/avif', 'image/webp'],

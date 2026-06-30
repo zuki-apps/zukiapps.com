@@ -6,5 +6,11 @@ export function zuliCollageBrandName(
     const parts = tHero('productName').split('—');
     return parts[0]?.trim() || tHero('productName');
   }
-  return tHero('title');
+  if (tHero.has('hero.productName')) {
+    const parts = tHero('hero.productName').split('—');
+    return parts[0]?.trim() || tHero('hero.productName');
+  }
+  if (tHero.has('hero.title')) return tHero('hero.title');
+  if (tHero.has('title')) return tHero('title');
+  return 'Zuli Collage';
 }
