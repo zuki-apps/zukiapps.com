@@ -11,6 +11,12 @@ updates:
         patterns:
           - next
           - eslint-config-next
+    ignore:
+      # Stay on Next 14 until a deliberate App Router / OpenNext migration (Next 16 needs ESLint 9+).
+      - dependency-name: next
+        versions: [">=15.0.0"]
+      - dependency-name: eslint-config-next
+        versions: [">=15.0.0"]
       types:
         patterns:
           - "@types/*"
