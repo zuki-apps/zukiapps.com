@@ -93,9 +93,28 @@ jobs:
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
           SITEMAP_USE_GIT: "true"
 
-      - name: Deploy to Cloudflare Pages
-        run: node scripts/pages-deploy.mjs
+      - name: Hide Worker wrangler config (Pages deploy only)
+        run: test -f wrangler.jsonc && mv wrangler.jsonc wrangler.jsonc.worker.disabled || true
+
+      - name: Ensure Cloudflare Pages project
+        run: npx wrangler pages project create zukiapps-site --production-branch=main --config wrangler.pages.jsonc || true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          GITHUB_SHA: ${{ github.sha }}
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy out --project-name=zukiapps-site --branch=main --config wrangler.pages.jsonc --commit-dirty=true
+
+      - name: Attach custom domains
+        run: node scripts/pages-deploy.mjs --domains-only
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Restore Worker wrangler config
+        if: always()
+        run: test -f wrangler.jsonc.worker.disabled && mv wrangler.jsonc.worker.disabled wrangler.jsonc || true

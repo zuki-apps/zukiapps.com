@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 /**
  * Deploy static export to Cloudflare Pages (creates project on first run).
+ * Usage: node scripts/pages-deploy.mjs [--domains-only]
  */
 import { spawnSync } from 'node:child_process';
+import { existsSync, renameSync } from 'node:fs';
 
+const domainsOnly = process.argv.includes('--domains-only');
 const projectName = process.env.CF_PAGES_PROJECT_NAME ?? 'zukiapps-site';
 const branch = process.env.CF_PAGES_BRANCH ?? 'main';
 const customDomains = (process.env.CF_PAGES_CUSTOM_DOMAINS ?? 'zukiapps.com,www.zukiapps.com')
@@ -80,45 +83,67 @@ async function attachCustomDomains() {
   }
 }
 
+function hideWorkerConfig() {
+  if (existsSync('wrangler.jsonc') && !existsSync('wrangler.jsonc.worker.disabled')) {
+    renameSync('wrangler.jsonc', 'wrangler.jsonc.worker.disabled');
+  }
+}
+
+function restoreWorkerConfig() {
+  if (existsSync('wrangler.jsonc.worker.disabled') && !existsSync('wrangler.jsonc')) {
+    renameSync('wrangler.jsonc.worker.disabled', 'wrangler.jsonc');
+  }
+}
+
 await verifyToken();
 
-run(['wrangler', 'pages', 'project', 'list', '--config', 'wrangler.pages.jsonc'], { allowFail: true });
+if (domainsOnly) {
+  await attachCustomDomains();
+  process.exit(0);
+}
 
-run(
-  [
+hideWorkerConfig();
+
+try {
+  run(['wrangler', 'pages', 'project', 'list', '--config', 'wrangler.pages.jsonc'], { allowFail: true });
+
+  run(
+    [
+      'wrangler',
+      'pages',
+      'project',
+      'create',
+      projectName,
+      '--production-branch',
+      branch,
+      '--config',
+      'wrangler.pages.jsonc',
+    ],
+    { allowFail: true }
+  );
+
+  const deployArgs = [
     'wrangler',
     'pages',
-    'project',
-    'create',
+    'deploy',
+    'out',
+    '--project-name',
     projectName,
-    '--production-branch',
+    '--branch',
     branch,
     '--config',
     'wrangler.pages.jsonc',
-  ],
-  { allowFail: true }
-);
+  ];
 
-const deployArgs = [
-  'wrangler',
-  'pages',
-  'deploy',
-  'out',
-  '--project-name',
-  projectName,
-  '--branch',
-  branch,
-  '--config',
-  'wrangler.pages.jsonc',
-];
+  if (process.env.GITHUB_SHA) {
+    deployArgs.push('--commit-hash', process.env.GITHUB_SHA);
+  } else {
+    deployArgs.push('--commit-dirty=true');
+  }
 
-if (process.env.GITHUB_SHA) {
-  deployArgs.push('--commit-hash', process.env.GITHUB_SHA);
-} else {
-  deployArgs.push('--commit-dirty=true');
+  run(deployArgs);
+  await attachCustomDomains();
+  console.log(`\nPages preview: https://${projectName}.pages.dev`);
+} finally {
+  restoreWorkerConfig();
 }
-
-run(deployArgs);
-await attachCustomDomains();
-
-console.log(`\nPages preview: https://${projectName}.pages.dev`);
