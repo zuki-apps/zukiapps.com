@@ -13,13 +13,23 @@ import { createRequire } from 'node:module';
 import {
   verifyLegacyRedirectRules,
   verifyLocaleHomes,
+  verifyLocaleContentMarkers,
+  verifyLocaleSampleExports,
   verifySitemapOnDisk,
   verifySourceAppExports,
   verifyLocalHttp,
+  verifyLocaleHttp,
+  localePublicPath,
+  startStaticServer,
 } from './verify-export-routes.mjs';
 
 const require = createRequire(import.meta.url);
-const { LOCALES } = require('../lib/legacySlugRedirects.js');
+const {
+  LOCALES,
+  DEFAULT_LOCALE,
+  RTL_LOCALES,
+  LOCALE_SAMPLE_PAGES,
+} = require('../lib/legacySlugRedirects.js');
 
 const OUT = 'out';
 const args = process.argv.slice(2);
@@ -113,6 +123,44 @@ function checkSitemapAndApps() {
   return paths;
 }
 
+function checkLocales() {
+  const sampleMissing = verifyLocaleSampleExports(OUT, LOCALES, LOCALE_SAMPLE_PAGES, DEFAULT_LOCALE);
+  if (sampleMissing.length) {
+    const sample = sampleMissing
+      .slice(0, 12)
+      .map((m) => `  ${m.locale} ${m.pathname} → ${m.expected}`)
+      .join('\n');
+    fail(`${sampleMissing.length} locale sample pages missing:\n${sample}`);
+  }
+
+  const htmlErrors = verifyLocaleContentMarkers(OUT, LOCALES, RTL_LOCALES, DEFAULT_LOCALE);
+  if (htmlErrors.length) {
+    fail(`locale HTML markers:\n  ${htmlErrors.join('\n  ')}`);
+  }
+
+  console.log(
+    `smoke: langs OK (${LOCALES.length} locales × ${LOCALE_SAMPLE_PAGES.length} pages, RTL: ${RTL_LOCALES.join(', ')})`,
+  );
+}
+
+async function checkLocaleHttp(base) {
+  console.log(`smoke: locale HTTP probe (${LOCALES.length} langs)…`);
+  const { ok, errors, total } = await verifyLocaleHttp(
+    base,
+    LOCALES,
+    LOCALE_SAMPLE_PAGES,
+    DEFAULT_LOCALE,
+  );
+  if (errors.length) {
+    const sample = errors
+      .slice(0, 12)
+      .map((e) => `  ${e.pathname} → ${e.status}`)
+      .join('\n');
+    fail(`${errors.length}/${total} locale HTTP failures:\n${sample}`);
+  }
+  console.log(`smoke: locale HTTP OK (${ok}/${total})`);
+}
+
 async function checkLocalHttp(paths) {
   console.log(`smoke: local HTTP probe (${paths.length} sitemap URLs)…`);
   const { ok, errors, total } = await verifyLocalHttp(OUT, paths);
@@ -125,6 +173,13 @@ async function checkLocalHttp(paths) {
     fail(`${errors.length}/${total} local HTTP failures (ok=${ok}):\n${sample}`);
   }
   console.log(`smoke: local HTTP OK (${ok}/${total})`);
+
+  const { server, port } = await startStaticServer(OUT);
+  try {
+    await checkLocaleHttp(`http://127.0.0.1:${port}`);
+  } finally {
+    server.close();
+  }
 }
 
 async function checkLiveHttp(sitemapPaths) {
@@ -142,10 +197,14 @@ async function checkLiveHttp(sitemapPaths) {
   }
   console.log(`smoke: live sitemap OK (${ok}/${total})`);
 
+  await checkLocaleHttp(base);
+
   const redirectChecks = [
     { path: '/collagio', mustInclude: 'zuli-collage' },
     { path: '/hushgallery', mustInclude: 'hush-gallery' },
     { path: '/zulist/invite/smoke-test-id', mustInclude: 'zulist' },
+    { path: '/he/collagio', mustInclude: 'zuli-collage' },
+    { path: '/ja/hushgallery', mustInclude: 'hush-gallery' },
   ];
 
   for (const { path, mustInclude } of redirectChecks) {
@@ -160,6 +219,7 @@ async function checkLiveHttp(sitemapPaths) {
 async function main() {
   checkBasics();
   const sitemapPaths = checkSitemapAndApps();
+  checkLocales();
 
   if (urlFlag) {
     await checkLiveHttp(sitemapPaths);

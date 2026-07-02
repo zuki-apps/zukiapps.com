@@ -10,10 +10,9 @@
 4. `npm run smoke:static` — routing verification:
    - ≥800 HTML files in `out/`
    - **All sitemap URLs** resolve on disk (`*/index.html`)
-   - Every app slug from `app/[locale]/` exports for default locale
-   - All 12 locale home pages exist
-   - `_redirects` contains legacy slug + invite rules
-   - **Local HTTP**: all sitemap paths return 200 via in-process static server
+   - **12 locales** — home + 3 sample pages each (`hush-gallery`, `zulist/support`, `about`)
+   - RTL content checks for **he** and **ar**
+   - Local HTTP: all sitemap paths + **48 locale probe URLs**
 
 Emergency bypass (not recommended):
 

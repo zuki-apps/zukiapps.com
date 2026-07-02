@@ -182,3 +182,88 @@ export async function verifyLocalHttp(outDir, paths) {
     server.close();
   }
 }
+
+/** Public URL path for a locale + page segment (matches localePrefix as-needed). */
+export function localePublicPath(locale, pageSegment, defaultLocale = 'en') {
+  const seg = pageSegment.replace(/^\/+|\/+$/g, '');
+  if (locale === defaultLocale) {
+    return seg ? `/${seg}` : '/';
+  }
+  return seg ? `/${locale}/${seg}` : `/${locale}`;
+}
+
+/** Probe paths: home + sample apps for every locale. */
+export function buildLocaleProbePaths(
+  locales,
+  samplePages,
+  defaultLocale = 'en',
+) {
+  const paths = [];
+  for (const locale of locales) {
+    for (const page of samplePages) {
+      paths.push(localePublicPath(locale, page, defaultLocale));
+    }
+  }
+  return paths;
+}
+
+export function verifyLocaleSampleExports(outDir, locales, samplePages, defaultLocale = 'en') {
+  const missing = [];
+  for (const locale of locales) {
+    for (const page of samplePages) {
+      const pathname = localePublicPath(locale, page, defaultLocale);
+      const rel = resolveExportRel(pathname);
+      if (!existsSync(join(outDir, rel))) {
+        missing.push({ locale, page, pathname, expected: rel });
+      }
+    }
+  }
+  return missing;
+}
+
+/** Ensure exported pages are locale-specific (routing + RTL content where applicable). */
+export function verifyLocaleContentMarkers(outDir, locales, rtlLocales, defaultLocale = 'en') {
+  const errors = [];
+  const samplePage = 'hush-gallery';
+  const hebrew = /[\u0590-\u05FF]/;
+  const arabic = /[\u0600-\u06FF]/;
+
+  for (const locale of locales) {
+    const pathname = localePublicPath(locale, samplePage, defaultLocale);
+    const filePath = join(outDir, resolveExportRel(pathname));
+    if (!existsSync(filePath)) {
+      errors.push(`${locale}: missing ${samplePage} export`);
+      continue;
+    }
+    const html = readFileSync(filePath, 'utf8');
+
+    if (locale === defaultLocale) {
+      continue;
+    }
+
+    if (!html.includes(`/${locale}/`)) {
+      errors.push(`${locale}: missing /${locale}/ paths in ${samplePage} HTML`);
+    }
+
+    if (locale === 'he' && !hebrew.test(html)) {
+      errors.push(`${locale}: expected Hebrew script in ${samplePage}`);
+    }
+    if (locale === 'ar' && !arabic.test(html)) {
+      errors.push(`${locale}: expected Arabic script in ${samplePage}`);
+    }
+
+    if (rtlLocales.includes(locale) && !/\bdir=["']rtl["']/i.test(html)) {
+      // LocaleHtmlSync or inline markup should set rtl somewhere in the tree
+      if (!html.includes('"rtl"') && !html.includes("'rtl'")) {
+        errors.push(`${locale}: missing rtl marker in ${samplePage}`);
+      }
+    }
+  }
+
+  return errors;
+}
+
+export async function verifyLocaleHttp(base, locales, samplePages, defaultLocale = 'en') {
+  const paths = buildLocaleProbePaths(locales, samplePages, defaultLocale);
+  return probeAllHttp(base, paths);
+}
