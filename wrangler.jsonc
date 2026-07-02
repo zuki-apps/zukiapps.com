@@ -17,9 +17,10 @@
       "service": "zukiapps-com"
     }
   ],
-  "routes": [
-    { "pattern": "zukiapps.com", "custom_domain": true },
-    { "pattern": "www.zukiapps.com", "custom_domain": true }
-  ],
+  // Attach after zukiapps.com zone is active on Cloudflare (Dashboard → Workers → Triggers → Custom domain).
+  // "routes": [
+  //   { "pattern": "zukiapps.com", "custom_domain": true },
+  //   { "pattern": "www.zukiapps.com", "custom_domain": true }
+  // ],
   "observability": { "enabled": true }
 }

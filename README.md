@@ -2,7 +2,8 @@
 
 Marketing and legal website for **[Zuki Apps](https://zukiapps.com)** — product pages, store links, privacy/terms, SEO/AEO assets, and support info for iOS and Android apps.
 
-**Live site:** [https://zukiapps.com](https://zukiapps.com)  
+**Live site:** [https://zukiapps.com](https://zukiapps.com) *(currently 503 on Netlify — see recovery guide)*  
+**Site down?** → [`documents/SITE_RECOVERY.md`](documents/SITE_RECOVERY.md)  
 **Host:** [Cloudflare Workers](https://developers.cloudflare.com/workers/) + [OpenNext](https://opennext.js.org/cloudflare)  
 **CI/CD:** GitHub Actions → deploy on push to `main`  
 **Stack:** Next.js 14 · TypeScript · Tailwind · next-intl (12 locales)
