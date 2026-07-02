@@ -59,7 +59,9 @@ Wait for:
 
 Build command: `npm run deploy` → static export to `out/` → `wrangler pages deploy`.
 
-**Verify:** Cloudflare → **Workers & Pages** → **zukiapps-com** → `*.pages.dev` URL loads.
+**Verify:** Cloudflare → **Workers & Pages** → **zukiapps-site** → open `https://zukiapps-site.pages.dev`
+
+> Project name is **zukiapps-site** (not zukiapps-com — that name was used by the failed Worker deploy).
 
 > **Note:** Static hosting serves all marketing pages. `/api/*` routes are disabled until you add a small Worker later (optional). ZuList invite pages use a client shell + `_redirects` rewrite.
 
@@ -94,11 +96,13 @@ In **Cloudflare** → **DNS** for `zukiapps.com`:
 
 ## Step 7 — Attach domain to Pages
 
-**Cloudflare** → **Workers & Pages** → **zukiapps-com** → **Custom domains** → **Set up a custom domain**
+**Cloudflare** → **Workers & Pages** → **zukiapps-site** → **Custom domains** → **Set up a custom domain**
 
 Add:
 - `zukiapps.com`
 - `www.zukiapps.com`
+
+Then **DNS** → confirm `@` and `www` point to **Pages** (not Netlify). If you still see `x-nf-request-id` on responses, delete old Netlify CNAME/A records and let Pages own the zone records.
 
 SSL is automatic. Test `https://zukiapps.com`.
 
