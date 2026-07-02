@@ -1,39 +1,6 @@
+# Source of truth for redirect rules: lib/legacySlugRedirects.js
+# Build overwrites out/_redirects via scripts/post-static-export.mjs
+
 https://www.zukiapps.com/* https://zukiapps.com/:splat 301
 
-# Default locale home (static export has no middleware)
 / /index.html 200
-
-# Legacy app slug redirects (from next.config.js)
-/:locale/collagio /:locale/zuli-collage 301
-/:locale/collagio/* /:locale/zuli-collage/:splat 301
-/:locale/tempoLabPro /:locale/tempo-lab-pro 301
-/:locale/tempoLabPro/* /:locale/tempo-lab-pro/:splat 301
-/:locale/tempo-lab /:locale/tempo-lab-pro 301
-/:locale/tempo-lab/* /:locale/tempo-lab-pro/:splat 301
-/:locale/dreambit /:locale/dreambit-legacy 301
-/:locale/dreambit/* /:locale/dreambit-legacy/:splat 301
-/:locale/noise-meter /:locale/noise-meter-shusher 301
-/:locale/noise-meter/* /:locale/noise-meter-shusher/:splat 301
-/:locale/shusher /:locale/noise-meter-shusher 301
-/:locale/shusher/* /:locale/noise-meter-shusher/:splat 301
-/:locale/football-trivia-quiz /:locale/football-trivia 301
-/:locale/football-trivia-quiz/* /:locale/football-trivia/:splat 301
-/:locale/fun-facts /:locale/fun-facts-trivia 301
-/:locale/fun-facts/* /:locale/fun-facts-trivia/:splat 301
-/:locale/sudoku /:locale/sudoku-puzzle 301
-/:locale/sudoku/* /:locale/sudoku-puzzle/:splat 301
-/:locale/paratrooper /:locale/paratrooper-blitz 301
-/:locale/paratrooper/* /:locale/paratrooper-blitz/:splat 301
-/:locale/power-interval /:locale/power-interval-timer 301
-/:locale/power-interval/* /:locale/power-interval-timer/:splat 301
-/:locale/trackledger /:locale/track-ledger 301
-/:locale/trackledger/* /:locale/track-ledger/:splat 301
-/:locale/bitscope /:locale/bit-scope 301
-/:locale/bitscope/* /:locale/bit-scope/:splat 301
-/:locale/hushgallery /:locale/hush-gallery 301
-/:locale/hushgallery/* /:locale/hush-gallery/:splat 301
-/:locale/whistlecamera /:locale/whistle-camera 301
-/:locale/whistlecamera/* /:locale/whistle-camera/:splat 301
-
-# ZuList invite deep links — serve static shell for any invite id
-/:locale/zulist/invite/* /:locale/zulist/invite/_/index.html 200

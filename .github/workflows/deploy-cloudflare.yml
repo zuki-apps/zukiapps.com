@@ -40,6 +40,18 @@ jobs:
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
           SITEMAP_USE_GIT: "true"
 
+      - name: Verify export artifact size
+        run: |
+          set -euo pipefail
+          FILE_COUNT=$(find out -type f | wc -l | tr -d ' ')
+          HTML_COUNT=$(find out -name '*.html' | wc -l | tr -d ' ')
+          echo "Export: ${FILE_COUNT} files, ${HTML_COUNT} HTML"
+          test "$FILE_COUNT" -gt 2000
+          test "$HTML_COUNT" -gt 800
+
+      - name: Static export smoke (pre-deploy)
+        run: npm run smoke:static
+
       - name: Verify Cloudflare secrets
         run: |
           set -euo pipefail
@@ -74,6 +86,11 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Post-deploy smoke (pages.dev)
+        run: |
+          sleep 15
+          npm run smoke:live
 
       - name: Restore Worker wrangler config
         if: always()

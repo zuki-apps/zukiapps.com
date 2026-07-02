@@ -4,7 +4,8 @@
  * Disables middleware and API routes during build (no server on static hosting).
  */
 import { spawnSync } from 'node:child_process';
-import { copyFileSync, existsSync, mkdirSync, renameSync } from 'node:fs';
+import { existsSync, mkdirSync, renameSync } from 'node:fs';
+import { runPostStaticExport } from './post-static-export.mjs';
 
 const stashRoot = '.static-export-stash';
 mkdirSync(stashRoot, { recursive: true });
@@ -40,9 +41,7 @@ for (const [from, to] of disabledPaths) {
 }
 
 if ((result.status ?? 1) === 0) {
-  if (existsSync('out/en.html')) {
-    copyFileSync('out/en.html', 'out/index.html');
-  }
+  runPostStaticExport();
 }
 
 process.exit(result.status ?? 1);
