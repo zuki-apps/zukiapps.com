@@ -6,11 +6,15 @@ import { spawn } from 'child_process';
 import http from 'http';
 
 const port = process.env.SMOKE_PORT || '4310';
+const isCi = process.env.CI === 'true';
+const maxAttempts = isCi ? 50 : 35;
+const firstWaitMs = isCi ? 5000 : 3000;
+const retryWaitMs = isCi ? 3000 : 2000;
 
 const child = spawn('npx', ['next', 'start', '-p', port], {
   stdio: 'inherit',
   env: { ...process.env, PORT: port },
-  shell: process.platform === 'win32',
+  shell: true,
 });
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -58,8 +62,8 @@ function fetchSitemap() {
 
 async function main() {
   try {
-    for (let i = 0; i < 35; i++) {
-      await sleep(i === 0 ? 3000 : 2000);
+    for (let i = 0; i < maxAttempts; i++) {
+      await sleep(i === 0 ? firstWaitMs : retryWaitMs);
       try {
         await fetchSitemap();
         console.log('smoke-sitemap: OK');
