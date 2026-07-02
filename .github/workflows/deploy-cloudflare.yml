@@ -15,10 +15,9 @@ jobs:
     env:
       HUSKY: "0"
       CI: "true"
-      NODE_ENV: development
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -32,7 +31,7 @@ jobs:
           node --version
           npm --version
           test -s package-lock.json
-          npm install --no-audit --no-fund
+          npm install --include=dev --no-audit --no-fund
 
       - name: Deploy
         shell: bash

@@ -14,7 +14,6 @@ concurrency:
 env:
   HUSKY: "0"
   CI: "true"
-  NODE_ENV: development
   NEXT_PUBLIC_SITE_URL: https://zukiapps.com
   NEXT_PUBLIC_BASE_URL: https://zukiapps.com
 
@@ -25,7 +24,7 @@ jobs:
     timeout-minutes: 25
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -41,7 +40,7 @@ jobs:
           node --version
           npm --version
           test -s package-lock.json
-          npm install --no-audit --no-fund
+          npm install --include=dev --no-audit --no-fund
 
       - name: Prepare TypeScript
         run: |
@@ -72,7 +71,7 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -84,7 +83,7 @@ jobs:
         run: |
           set -euxo pipefail
           test -s package-lock.json
-          npm install --no-audit --no-fund
+          npm install --include=dev --no-audit --no-fund
 
       - name: Deploy
         shell: bash
