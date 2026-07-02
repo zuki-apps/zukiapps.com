@@ -121,7 +121,7 @@ npm run lint
 
 ## Git / deploy
 
-- Host: Netlify (`netlify.toml`), also Bitbucket Pipelines
+- Host: Cloudflare Workers (`wrangler.jsonc`, OpenNext), GitHub Actions deploy; Bitbucket Pipelines backup CI
 - **Do not commit** unless user asks
 - **Do not commit** `.env*`, secrets
 

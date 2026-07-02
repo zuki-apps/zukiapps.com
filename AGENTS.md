@@ -50,7 +50,7 @@ Project skill: `.cursor/skills/product-page-enrichment/SKILL.md`
 
 ## Stack
 
-Next.js 14 · TypeScript · Tailwind · next-intl · Netlify
+Next.js 14 · TypeScript · Tailwind · next-intl · Cloudflare Workers
 
 ## Common tasks
 

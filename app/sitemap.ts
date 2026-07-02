@@ -20,7 +20,7 @@ import {
  * 3. Else: SITE_LASTMOD env (ISO) or new Date()
  *
  * Git/spawnSync runs only when Next generates this module at build time; set
- * SITEMAP_USE_GIT=true on Netlify/CI where .git exists. Omit on hosts without git.
+ * SITEMAP_USE_GIT=true on Cloudflare/CI where .git exists. Omit on hosts without git.
  */
 const routes: SitemapRouteMeta[] = [
   { path: '', priority: 1.0, changefreq: 'weekly' },

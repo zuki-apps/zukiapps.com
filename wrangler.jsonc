@@ -17,11 +17,9 @@
       "service": "zukiapps-com"
     }
   ],
-  // Uncomment after creating an R2 bucket (see README → Cloudflare deploy).
-  // "r2_buckets": [
-  //   { "binding": "NEXT_INC_CACHE_R2_BUCKET", "bucket_name": "zukiapps-next-cache" }
-  // ],
-  // Custom domain — enable after zukiapps.com is on Cloudflare DNS.
-  // "routes": [{ "pattern": "zukiapps.com/*", "zone_name": "zukiapps.com" }],
+  "routes": [
+    { "pattern": "zukiapps.com", "custom_domain": true },
+    { "pattern": "www.zukiapps.com", "custom_domain": true }
+  ],
   "observability": { "enabled": true }
 }

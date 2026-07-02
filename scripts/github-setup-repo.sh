@@ -5,13 +5,13 @@ set -euo pipefail
 REPO="${1:-zuki-apps/zukiapps.com}"
 
 gh repo edit "$REPO" \
-  --description "Marketing site for Zuki Apps — Next.js, i18n, SEO/AEO, Netlify deploy (zukiapps.com)" \
+  --description "Marketing site for Zuki Apps — Next.js, i18n, SEO/AEO, Cloudflare Workers (zukiapps.com)" \
   --homepage "https://zukiapps.com" \
   --add-topic nextjs \
   --add-topic typescript \
   --add-topic tailwindcss \
   --add-topic next-intl \
-  --add-topic netlify \
+  --add-topic cloudflare-workers \
   --add-topic seo \
   --add-topic marketing-site \
   --add-topic zuki-apps
