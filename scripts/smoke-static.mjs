@@ -1,18 +1,32 @@
 #!/usr/bin/env node
 /**
- * Static export smoke: filesystem checks + optional HTTP probe (local or live URL).
+ * Static export smoke: filesystem + full sitemap routing (+ optional live HTTP).
  *
  * Usage:
- *   node scripts/smoke-static.mjs
- *   node scripts/smoke-static.mjs --url https://zukiapps-site.pages.dev
+ *   node scripts/smoke-static.mjs              # disk + local HTTP (all sitemap URLs)
+ *   node scripts/smoke-static.mjs --url URL    # live HTTP probe (Pages / production)
+ *   node scripts/smoke-static.mjs --disk-only  # skip local HTTP (fast)
  */
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { spawnSync } from 'node:child_process';
+import { createRequire } from 'node:module';
+import {
+  verifyLegacyRedirectRules,
+  verifyLocaleHomes,
+  verifySitemapOnDisk,
+  verifySourceAppExports,
+  verifyLocalHttp,
+} from './verify-export-routes.mjs';
+
+const require = createRequire(import.meta.url);
+const { LOCALES } = require('../lib/legacySlugRedirects.js');
 
 const OUT = 'out';
 const args = process.argv.slice(2);
-const urlFlag = args.find((a) => a.startsWith('--url='))?.slice(6) ?? (args.includes('--url') ? args[args.indexOf('--url') + 1] : null);
+const diskOnly = args.includes('--disk-only');
+const urlFlag =
+  args.find((a) => a.startsWith('--url='))?.slice(6) ??
+  (args.includes('--url') ? args[args.indexOf('--url') + 1] : null);
 
 const REQUIRED_FILES = [
   'index.html',
@@ -33,25 +47,11 @@ const REQUIRED_FILES = [
   'zuli-collage/index.html',
 ];
 
-const HTTP_PATHS = [
-  '/',
-  '/about',
-  '/hush-gallery',
-  '/hush-gallery/privacy',
-  '/he',
-  '/he/hush-gallery',
-  '/en/hush-gallery',
-  '/zulist',
-  '/sitemap.xml',
-  '/robots.txt',
-  '/llms.txt',
+const LIVE_EXTRA_PATHS = [
   '/collagio',
   '/hushgallery',
   '/zulist/invite/smoke-test-id',
 ];
-
-/** Paths that need Cloudflare/_redirects — skipped on local static server probe */
-const REDIRECT_ONLY_PATHS = new Set(['/collagio', '/hushgallery', '/zulist/invite/smoke-test-id']);
 
 function fail(msg) {
   console.error(`smoke: FAIL — ${msg}`);
@@ -59,12 +59,15 @@ function fail(msg) {
 }
 
 function countHtmlFiles(dir) {
+  let count = 0;
+  const { spawnSync } = require('node:child_process');
   const result = spawnSync('find', [dir, '-name', '*.html'], { encoding: 'utf8' });
-  return result.stdout.trim().split('\n').filter(Boolean).length;
+  if (result.stdout) count = result.stdout.trim().split('\n').filter(Boolean).length;
+  return count;
 }
 
-function checkFilesystem() {
-  if (!existsSync(OUT)) fail(`missing ${OUT}/ directory`);
+function checkBasics() {
+  if (!existsSync(OUT)) fail(`missing ${OUT}/ — run npm run build:static first`);
 
   const htmlCount = countHtmlFiles(OUT);
   if (htmlCount < 800) {
@@ -72,67 +75,102 @@ function checkFilesystem() {
   }
 
   for (const rel of REQUIRED_FILES) {
-    const path = join(OUT, rel);
-    if (!existsSync(path)) fail(`missing ${rel}`);
+    if (!existsSync(join(OUT, rel))) fail(`missing required export: ${rel}`);
   }
 
-  const redirects = readFileSync(join(OUT, '_redirects'), 'utf8');
-  if (!redirects.includes('/hushgallery /hush-gallery 301')) {
-    fail('_redirects missing unprefixed legacy slug rule');
-  }
-  if (!redirects.includes('/zulist/invite/*')) {
-    fail('_redirects missing ZuList invite rewrite');
-  }
-
-  console.log(`smoke: filesystem OK (${htmlCount} HTML files, ${REQUIRED_FILES.length} required paths)`);
+  console.log(`smoke: basics OK (${htmlCount} HTML files)`);
 }
 
-async function curlStatus(base, path, follow = true) {
-  const args = ['-sI', '--max-time', '10', `${base}${path}`];
-  if (follow) args.splice(1, 0, '-L');
-  const out = spawnSync('curl', args, { encoding: 'utf8', timeout: 15000 });
-  if (out.status !== 0) return { status: 'ERR', path };
-  const lines = out.stdout.trim().split('\n');
-  const statuses = lines.filter((l) => l.startsWith('HTTP/')).map((l) => l.split(' ')[1]);
-  const locs = lines.filter((l) => l.toLowerCase().startsWith('location:')).map((l) => l.slice(9).trim());
-  return {
-    status: statuses.at(-1) ?? 'ERR',
-    path,
-    chain: statuses,
-    location: locs.at(-1),
-  };
+function checkSitemapAndApps() {
+  const sitemapPath = join(OUT, 'sitemap.xml');
+  const { paths, missing } = verifySitemapOnDisk(OUT, sitemapPath);
+
+  if (missing.length) {
+    const sample = missing
+      .slice(0, 15)
+      .map((m) => `  ${m.pathname} → ${m.expected}`)
+      .join('\n');
+    fail(`${missing.length}/${paths.length} sitemap URLs missing on disk:\n${sample}`);
+  }
+
+  const localeMissing = verifyLocaleHomes(OUT, LOCALES);
+  if (localeMissing.length) {
+    fail(`missing locale home pages: ${localeMissing.join(', ')}`);
+  }
+
+  const appMissing = verifySourceAppExports(OUT);
+  if (appMissing.length) {
+    const sample = appMissing.map((m) => m.expected).join(', ');
+    fail(`app routes missing default-locale export: ${sample}`);
+  }
+
+  const redirectErrors = verifyLegacyRedirectRules(join(OUT, '_redirects'));
+  if (redirectErrors.length) {
+    fail(`_redirects errors:\n  ${redirectErrors.join('\n  ')}`);
+  }
+
+  console.log(`smoke: routing OK (${paths.length} sitemap URLs, ${LOCALES.length} locales)`);
+  return paths;
 }
 
-async function checkHttp(base) {
-  console.log(`smoke: HTTP probe ${base}`);
-  const errors = [];
-
-  for (const path of HTTP_PATHS) {
-    if (!urlFlag && REDIRECT_ONLY_PATHS.has(path)) continue;
-    const r = await curlStatus(base, path);
-    const ok =
-      r.status === '200' ||
-      (path === '/collagio' && r.status === '301' && r.location?.includes('zuli-collage')) ||
-      (path === '/hushgallery' && r.status === '301' && r.location?.includes('hush-gallery'));
-    if (!ok) errors.push(`${path} → ${r.status}${r.location ? ` (${r.location})` : ''}`);
-    else console.log(`  OK ${path} → ${r.status}${r.chain?.length > 1 ? ` [${r.chain.join('→')}]` : ''}`);
-  }
+async function checkLocalHttp(paths) {
+  console.log(`smoke: local HTTP probe (${paths.length} sitemap URLs)…`);
+  const { ok, errors, total } = await verifyLocalHttp(OUT, paths);
 
   if (errors.length) {
-    fail(`HTTP errors:\n  ${errors.join('\n  ')}`);
+    const sample = errors
+      .slice(0, 15)
+      .map((e) => `  ${e.pathname} → ${e.status}${e.error ? ` (${e.error})` : ''}`)
+      .join('\n');
+    fail(`${errors.length}/${total} local HTTP failures (ok=${ok}):\n${sample}`);
   }
-  console.log('smoke: HTTP OK');
+  console.log(`smoke: local HTTP OK (${ok}/${total})`);
+}
+
+async function checkLiveHttp(sitemapPaths) {
+  const { probeAllHttp } = await import('./verify-export-routes.mjs');
+  const base = urlFlag.replace(/\/+$/, '');
+  console.log(`smoke: live HTTP probe ${base} (${sitemapPaths.length} sitemap URLs)`);
+
+  const { ok, errors, total } = await probeAllHttp(base, sitemapPaths, { concurrency: 16 });
+  if (errors.length) {
+    const sample = errors
+      .slice(0, 15)
+      .map((e) => `  ${e.pathname} → ${e.status}${e.error ? ` (${e.error})` : ''}`)
+      .join('\n');
+    fail(`${errors.length}/${total} sitemap URLs failed on live host:\n${sample}`);
+  }
+  console.log(`smoke: live sitemap OK (${ok}/${total})`);
+
+  const redirectChecks = [
+    { path: '/collagio', mustInclude: 'zuli-collage' },
+    { path: '/hushgallery', mustInclude: 'hush-gallery' },
+    { path: '/zulist/invite/smoke-test-id', mustInclude: 'zulist' },
+  ];
+
+  for (const { path, mustInclude } of redirectChecks) {
+    const res = await fetch(`${base}${path}`, { redirect: 'follow' });
+    if (res.status !== 200 || !res.url.includes(mustInclude)) {
+      fail(`live redirect check failed: ${path} → ${res.status} ${res.url}`);
+    }
+    console.log(`  OK ${path} → 200 (${mustInclude})`);
+  }
 }
 
 async function main() {
-  checkFilesystem();
+  checkBasics();
+  const sitemapPaths = checkSitemapAndApps();
 
-  if (!urlFlag) {
-    console.log('smoke: local filesystem checks passed (use --url for HTTP probe)');
+  if (urlFlag) {
+    await checkLiveHttp(sitemapPaths);
     return;
   }
 
-  await checkHttp(urlFlag.replace(/\/+$/, ''));
+  if (!diskOnly) {
+    await checkLocalHttp(sitemapPaths);
+  } else {
+    console.log('smoke: --disk-only (skipped local HTTP)');
+  }
 }
 
 main().catch((err) => fail(err.message));

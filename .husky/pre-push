@@ -1,1 +1,10 @@
+#!/usr/bin/env sh
+# Block push when typecheck, lint, static build, or routing smoke fails.
+# Emergency bypass: SKIP_CI=1 git push
+
+if [ "${SKIP_CI:-}" = "1" ]; then
+  echo "pre-push: SKIP_CI=1 — skipping ci:check"
+  exit 0
+fi
+
 npm run ci:check

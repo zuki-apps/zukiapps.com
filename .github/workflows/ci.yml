@@ -70,8 +70,18 @@ jobs:
           test "$FILE_COUNT" -gt 2000
           test "$HTML_COUNT" -gt 800
 
-      - name: Static export smoke
+      - name: Static export smoke (all sitemap routes)
         run: npm run smoke:static
+
+      - name: Routing summary
+        if: success()
+        run: |
+          SITEMAP_COUNT=$(grep -c '<loc>' out/sitemap.xml)
+          HTML_COUNT=$(find out -name '*.html' | wc -l | tr -d ' ')
+          echo "### Static export routing" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Sitemap URLs verified: **${SITEMAP_COUNT}**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- HTML files: **${HTML_COUNT}**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Local HTTP: all sitemap paths returned 200" >> "$GITHUB_STEP_SUMMARY"
 
   deploy:
     name: Deploy to Cloudflare Pages
@@ -168,7 +178,7 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
-      - name: Post-deploy smoke (pages.dev)
+      - name: Post-deploy smoke (all routes on pages.dev)
         run: |
           sleep 15
           npm run smoke:live
