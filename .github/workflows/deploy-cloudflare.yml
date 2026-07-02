@@ -1,47 +1,19 @@
-name: CI
+name: Deploy Cloudflare
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
 concurrency:
-  group: ci-${{ github.workflow }}-${{ github.ref }}
+  group: deploy-cloudflare
   cancel-in-progress: true
 
-env:
-  HUSKY: "0"
-
 jobs:
-  check:
-    name: Typecheck, lint, build, sitemap smoke
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          cache: npm
-          cache-dependency-path: package-lock.json
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run CI checks
-        run: npm run ci:full
-
   deploy:
     name: Deploy to Cloudflare Workers
-    needs: check
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    env:
+      HUSKY: "0"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
