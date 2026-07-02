@@ -1,0 +1,97 @@
+#!/usr/bin/env node
+/**
+ * Deploy static export to Cloudflare Pages (creates project on first run).
+ */
+import { spawnSync } from 'node:child_process';
+
+const projectName = process.env.CF_PAGES_PROJECT_NAME ?? 'zukiapps-com';
+const branch = process.env.CF_PAGES_BRANCH ?? 'main';
+const customDomains = (process.env.CF_PAGES_CUSTOM_DOMAINS ?? 'zukiapps.com,www.zukiapps.com')
+  .split(',')
+  .map((d) => d.trim())
+  .filter(Boolean);
+
+function run(args, { allowFail = false } = {}) {
+  const result = spawnSync('npx', args, {
+    stdio: 'inherit',
+    env: process.env,
+    shell: process.platform === 'win32',
+  });
+  if (result.status !== 0 && !allowFail) {
+    process.exit(result.status ?? 1);
+  }
+  return result.status ?? 0;
+}
+
+async function attachCustomDomains() {
+  const token = process.env.CLOUDFLARE_API_TOKEN;
+  const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+  if (!token || !accountId || customDomains.length === 0) {
+    return;
+  }
+
+  for (const name of customDomains) {
+    const response = await fetch(
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/pages/projects/${projectName}/domains`,
+      {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${token}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name }),
+      }
+    );
+    const body = await response.json().catch(() => ({}));
+    if (response.ok) {
+      console.log(`Attached custom domain: ${name}`);
+      continue;
+    }
+    const errors = body.errors?.map((e) => e.message).join('; ') ?? response.statusText;
+    if (/already exists|duplicate|already been added/i.test(errors)) {
+      console.log(`Custom domain already attached: ${name}`);
+      continue;
+    }
+    console.warn(`Could not attach ${name}: ${errors}`);
+  }
+}
+
+// CI is non-interactive — project must exist before `pages deploy` (error 8000007 otherwise).
+run(
+  [
+    'wrangler',
+    'pages',
+    'project',
+    'create',
+    projectName,
+    '--production-branch',
+    branch,
+    '--config',
+    'wrangler.pages.jsonc',
+  ],
+  { allowFail: true }
+);
+
+const deployArgs = [
+  'wrangler',
+  'pages',
+  'deploy',
+  'out',
+  '--project-name',
+  projectName,
+  '--branch',
+  branch,
+  '--config',
+  'wrangler.pages.jsonc',
+];
+
+if (process.env.GITHUB_SHA) {
+  deployArgs.push('--commit-hash', process.env.GITHUB_SHA);
+} else {
+  deployArgs.push('--commit-dirty=true');
+}
+
+run(deployArgs);
+await attachCustomDomains();
+
+console.log(`\nPages preview: https://${projectName}.pages.dev`);
