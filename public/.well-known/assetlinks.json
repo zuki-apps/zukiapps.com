@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zuki.apps.zulist",
+      "sha256_cert_fingerprints": [
+        "E8:58:CB:F8:52:BB:FB:A0:61:C5:DB:91:0E:80:11:F7:7F:D1:15:27:E8:41:A2:35:25:12:C9:6B:8A:85:82:30"
+      ]
+    }
+  }
+]

@@ -49,26 +49,27 @@ DNS still uses Netlify nameservers (`*.nsone.net`). Netlify cannot serve the sit
 
 ---
 
-## Step 4 — Deploy the Worker
+## Step 4 — Deploy to Cloudflare Pages (static, free)
 
-**GitHub** → **Actions** → **CI** → **Run workflow** → Run on `main`.
+**GitHub** → **Actions** → **Deploy Cloudflare** → **Run workflow** (or push to `main`).
 
-Wait for both jobs:
-- ✅ Typecheck, lint, build, sitemap smoke
-- ✅ Deploy to Cloudflare Workers
+Wait for:
+- ✅ Typecheck, lint, static export smoke (CI)
+- ✅ Deploy to Cloudflare Pages
 
-If deploy fails, open the log and fix (usually missing secrets).
+Build command: `npm run deploy` → static export to `out/` → `wrangler pages deploy`.
 
-**Verify:** Cloudflare → **Workers & Pages** → you should see **zukiapps-com**.  
-Open the `*.workers.dev` URL Cloudflare shows — the site should load there.
+**Verify:** Cloudflare → **Workers & Pages** → **zukiapps-com** → `*.pages.dev` URL loads.
+
+> **Note:** Static hosting serves all marketing pages. `/api/*` routes are disabled until you add a small Worker later (optional). ZuList invite pages use a client shell + `_redirects` rewrite.
 
 ---
 
-## Step 5 — Worker secrets (APIs)
+## Step 5 — Worker secrets (optional — APIs only)
 
-**Cloudflare** → **Workers & Pages** → **zukiapps-com** → **Settings** → **Variables and Secrets**
+Skip for initial recovery. Only needed if you restore `/api/zulist/invite`, Play Integrity, etc. on a Worker.
 
-Copy from **Netlify → Environment variables → Production**:
+**Cloudflare** → **Workers & Pages** → (future Worker) → **Settings** → **Variables and Secrets**
 
 | Name | Type | Value |
 |------|------|-------|
@@ -91,9 +92,9 @@ In **Cloudflare** → **DNS** for `zukiapps.com`:
 
 ---
 
-## Step 7 — Attach domain to Worker
+## Step 7 — Attach domain to Pages
 
-**Cloudflare** → **Workers & Pages** → **zukiapps-com** → **Settings** → **Domains & Routes** → **Add**
+**Cloudflare** → **Workers & Pages** → **zukiapps-com** → **Custom domains** → **Set up a custom domain**
 
 Add:
 - `zukiapps.com`
@@ -117,7 +118,7 @@ If GitHub Actions isn’t ready:
 ```bash
 export CLOUDFLARE_API_TOKEN="your-token"
 export CLOUDFLARE_ACCOUNT_ID="your-account-id"
-./scripts/cloudflare-deploy.sh
+npm run deploy
 ```
 
 ---
@@ -128,8 +129,8 @@ export CLOUDFLARE_ACCOUNT_ID="your-account-id"
 |---------|-----|
 | Still 503 + `server: Netlify` | DNS not switched yet; wait for NS propagation or flush local DNS |
 | Deploy fails “authentication” | Check `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` in GitHub |
-| Worker URL works, domain doesn’t | Complete Steps 6–7 |
-| Zulist invites fail | Add `FIREBASE_SERVICE_ACCOUNT_KEY` in Step 5 |
+| Worker URL works, domain doesn’t | Complete Steps 6–7; confirm Pages custom domain (not old Netlify origin) |
+| Zulist invites fail | Expected on static-only — invite page shell loads; API needs a Worker later |
 | GA missing | Add `NEXT_PUBLIC_GA_MEASUREMENT_ID` GitHub secret, redeploy |
 
 ---

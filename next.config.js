@@ -1,58 +1,188 @@
-const withNextIntl = require('next-intl/plugin')('./i18n.ts');
-
 /** @type {import('next').NextConfig} */
+const createNextIntlPlugin = require('next-intl/plugin');
+
+const withNextIntl = createNextIntlPlugin('./i18n.ts');
+
+const isStaticExport = process.env.STATIC_EXPORT === '1';
+
 const nextConfig = {
-  compress: true,
+  ...(isStaticExport
+    ? {
+        output: 'export',
+        images: { unoptimized: true },
+      }
+    : {}),
+  reactStrictMode: true,
   poweredByHeader: false,
-  // Next 14.2: externalize OTEL + Google auth so dev webpack does not reference a missing `vendor-chunks/@opentelemetry.js`.
-  // (firebase-admin is already in Next's default server external list.)
-  experimental: {
-    serverComponentsExternalPackages: [
-      '@opentelemetry/api',
-      'google-auth-library',
-      'firebase-admin',
-      'jose',
-      'jwks-rsa',
-    ],
-  },
-  images: {
-    formats: ['image/avif', 'image/webp'],
-    minimumCacheTTL: 31536000,
-    deviceSizes: [640, 750, 828, 1080, 1200],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256],
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
   async redirects() {
-    const canonicalHost = 'https://zukiapps.com';
+    if (isStaticExport) return [];
     return [
-      { source: '/tempoLabPro', destination: '/tempo-lab-pro', permanent: true },
-      { source: '/tempoLabPro/:path*', destination: '/tempo-lab-pro/:path*', permanent: true },
-      { source: '/:locale/tempoLabPro', destination: '/:locale/tempo-lab-pro', permanent: true },
-      { source: '/:locale/tempoLabPro/:path*', destination: '/:locale/tempo-lab-pro/:path*', permanent: true },
-      { source: '/images/collagio-icon.webp', destination: '/images/zuli-collage-icon.webp', permanent: true },
-      { source: '/images/collagio-icon.png', destination: '/images/zuli-collage-icon.png', permanent: true },
-      { source: '/collagio', destination: '/zuli-collage', permanent: true },
-      { source: '/collagio/:path*', destination: '/zuli-collage/:path*', permanent: true },
-      { source: '/:locale/collagio', destination: '/:locale/zuli-collage', permanent: true },
-      { source: '/:locale/collagio/:path*', destination: '/:locale/zuli-collage/:path*', permanent: true },
-      { source: '/Collagio', destination: '/zuli-collage', permanent: true },
-      { source: '/Collagio/:path*', destination: '/zuli-collage/:path*', permanent: true },
-      { source: '/ZuliCollage', destination: '/zuli-collage', permanent: true },
-      { source: '/ZuliCollage/:path*', destination: '/zuli-collage/:path*', permanent: true },
-      { source: '/:locale/ZuliCollage', destination: '/:locale/zuli-collage', permanent: true },
-      { source: '/:locale/ZuliCollage/:path*', destination: '/:locale/zuli-collage/:path*', permanent: true },
-      { source: '/:path*', has: [{ type: 'host', value: 'www.zukiapps.com' }], destination: `${canonicalHost}/:path*`, permanent: true },
-      { source: '/:path*', has: [{ type: 'host', value: 'zukiapps.com' }, { type: 'header', key: 'x-forwarded-proto', value: 'http' }], destination: `${canonicalHost}/:path*`, permanent: true },
+      {
+        source: '/:locale/collagio',
+        destination: '/:locale/zuli-collage',
+        permanent: true,
+      },
+      {
+        source: '/:locale/collagio/:path*',
+        destination: '/:locale/zuli-collage/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/tempoLabPro',
+        destination: '/:locale/tempo-lab-pro',
+        permanent: true,
+      },
+      {
+        source: '/:locale/tempoLabPro/:path*',
+        destination: '/:locale/tempo-lab-pro/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/tempo-lab',
+        destination: '/:locale/tempo-lab-pro',
+        permanent: true,
+      },
+      {
+        source: '/:locale/tempo-lab/:path*',
+        destination: '/:locale/tempo-lab-pro/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/dreambit',
+        destination: '/:locale/dreambit-legacy',
+        permanent: true,
+      },
+      {
+        source: '/:locale/dreambit/:path*',
+        destination: '/:locale/dreambit-legacy/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/noise-meter',
+        destination: '/:locale/noise-meter-shusher',
+        permanent: true,
+      },
+      {
+        source: '/:locale/noise-meter/:path*',
+        destination: '/:locale/noise-meter-shusher/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/shusher',
+        destination: '/:locale/noise-meter-shusher',
+        permanent: true,
+      },
+      {
+        source: '/:locale/shusher/:path*',
+        destination: '/:locale/noise-meter-shusher/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/football-trivia-quiz',
+        destination: '/:locale/football-trivia',
+        permanent: true,
+      },
+      {
+        source: '/:locale/football-trivia-quiz/:path*',
+        destination: '/:locale/football-trivia/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/fun-facts',
+        destination: '/:locale/fun-facts-trivia',
+        permanent: true,
+      },
+      {
+        source: '/:locale/fun-facts/:path*',
+        destination: '/:locale/fun-facts-trivia/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/sudoku',
+        destination: '/:locale/sudoku-puzzle',
+        permanent: true,
+      },
+      {
+        source: '/:locale/sudoku/:path*',
+        destination: '/:locale/sudoku-puzzle/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/paratrooper',
+        destination: '/:locale/paratrooper-blitz',
+        permanent: true,
+      },
+      {
+        source: '/:locale/paratrooper/:path*',
+        destination: '/:locale/paratrooper-blitz/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/power-interval',
+        destination: '/:locale/power-interval-timer',
+        permanent: true,
+      },
+      {
+        source: '/:locale/power-interval/:path*',
+        destination: '/:locale/power-interval-timer/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/trackledger',
+        destination: '/:locale/track-ledger',
+        permanent: true,
+      },
+      {
+        source: '/:locale/trackledger/:path*',
+        destination: '/:locale/track-ledger/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/bitscope',
+        destination: '/:locale/bit-scope',
+        permanent: true,
+      },
+      {
+        source: '/:locale/bitscope/:path*',
+        destination: '/:locale/bit-scope/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/hushgallery',
+        destination: '/:locale/hush-gallery',
+        permanent: true,
+      },
+      {
+        source: '/:locale/hushgallery/:path*',
+        destination: '/:locale/hush-gallery/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/whistlecamera',
+        destination: '/:locale/whistle-camera',
+        permanent: true,
+      },
+      {
+        source: '/:locale/whistlecamera/:path*',
+        destination: '/:locale/whistle-camera/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:locale/zulist',
+        destination: '/:locale/zulist',
+        permanent: false,
+      },
     ];
   },
 };
 
-module.exports = withNextIntl(nextConfig);
+if (!isStaticExport) {
+  try {
+    const { initOpenNextCloudflareForDev } = require('@opennextjs/cloudflare');
+    initOpenNextCloudflareForDev();
+  } catch {
+    // OpenNext optional for local dev without Cloudflare bindings
+  }
+}
 
-const { initOpenNextCloudflareForDev } = require('@opennextjs/cloudflare');
-initOpenNextCloudflareForDev();
+module.exports = withNextIntl(nextConfig);

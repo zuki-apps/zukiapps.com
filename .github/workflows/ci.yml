@@ -19,7 +19,7 @@ env:
 
 jobs:
   check:
-    name: Typecheck, lint, build, sitemap smoke
+    name: Typecheck, lint, static export smoke
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -55,17 +55,17 @@ jobs:
         run: npm run lint
 
       - name: Build
-        run: npm run build
+        run: npm run build:static
         env:
           NODE_OPTIONS: --max-old-space-size=6144
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
+          SITEMAP_USE_GIT: "true"
 
-      - name: Sitemap smoke
-        run: npm run smoke:sitemap
-        env:
-          NODE_OPTIONS: --max-old-space-size=6144
+      - name: Static export smoke
+        run: npm run smoke:static
 
   deploy:
-    name: Deploy to Cloudflare Workers
+    name: Deploy to Cloudflare Pages
     if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -92,8 +92,6 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=6144
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          WRANGLER_BUILD_PLATFORM: node
-          WRANGLER_BUILD_CONDITIONS: ""
           NEXT_PUBLIC_SITE_URL: https://zukiapps.com
           NEXT_PUBLIC_BASE_URL: https://zukiapps.com
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}

@@ -1,6 +1,9 @@
 import { ImageResponse } from 'next/og';
+import path from 'node:path';
+import { readFileSync } from 'node:fs';
 import { getTranslations } from 'next-intl/server';
 import { getSiteUrl } from '@/lib/hreflang';
+import { ogTextLocale } from '@/lib/locale-static-params';
 
 export const OG_SIZE = { width: 1200, height: 630 } as const;
 export const OG_CONTENT_TYPE = 'image/png';
@@ -14,9 +17,11 @@ export async function renderAppOgBanner(options: {
   mode?: OgNamespaceMode;
 }) {
   const mode = options.mode ?? 'hero';
-  const t = await getTranslations({ locale: options.locale, namespace: options.namespace });
-  const baseUrl = getSiteUrl();
-  const iconUrl = `${baseUrl}${options.iconPath.startsWith('/') ? options.iconPath : `/${options.iconPath}`}`;
+  const t = await getTranslations({
+    locale: ogTextLocale(options.locale),
+    namespace: options.namespace,
+  });
+  const iconUrl = resolveOgIconUrl(options.iconPath);
 
   let title: string;
   let subtitle: string;
@@ -35,13 +40,29 @@ export async function renderAppOgBanner(options: {
 }
 
 export async function renderLegalOgBanner(options: { title: string; subtitle: string; iconPath: string }) {
-  const baseUrl = getSiteUrl();
-  const iconUrl = `${baseUrl}${options.iconPath.startsWith('/') ? options.iconPath : `/${options.iconPath}`}`;
+  const iconUrl = resolveOgIconUrl(options.iconPath);
   return renderBrandedLayoutImage({
     title: options.title,
     subtitle: options.subtitle,
     iconUrl,
   });
+}
+
+function resolveOgIconUrl(iconPath: string): string {
+  const normalized = iconPath.startsWith('/') ? iconPath : `/${iconPath}`;
+  let assetPath = normalized.split('?')[0]!;
+  if (process.env.STATIC_EXPORT === '1' && assetPath.endsWith('.webp')) {
+    assetPath = assetPath.replace(/\.webp$/i, '.png');
+  }
+  if (process.env.STATIC_EXPORT === '1') {
+    const publicPath = path.join(process.cwd(), 'public', assetPath);
+    const buffer = readFileSync(publicPath);
+    const ext = path.extname(publicPath).slice(1).toLowerCase();
+    const mime =
+      ext === 'webp' ? 'image/webp' : ext === 'png' ? 'image/png' : ext === 'jpg' || ext === 'jpeg' ? 'image/jpeg' : `image/${ext}`;
+    return `data:${mime};base64,${buffer.toString('base64')}`;
+  }
+  return `${getSiteUrl()}${normalized}`;
 }
 
 function renderBrandedLayoutImage(options: { title: string; subtitle: string; iconUrl: string }) {
