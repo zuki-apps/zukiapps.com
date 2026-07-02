@@ -2,6 +2,15 @@
   "name": "zuki-apps-website",
   "version": "1.0.0",
   "private": true,
+  "description": "Marketing and legal website for Zuki Apps (zukiapps.com)",
+  "homepage": "https://zukiapps.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuki-apps/zukiapps.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zuki-apps/zukiapps.com/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "dev:clean": "rm -rf .next && next dev",

@@ -1,5 +1,5 @@
-# Runs only if this repo is mirrored to GitHub. Primary remote is Bitbucket —
-# use bitbucket-pipelines.yml for CI and sitemap ping on main.
+# Runs on push to main when SITE_URL is set in repository secrets.
+# CI runs in .github/workflows/ci.yml (mirrors bitbucket-pipelines.yml ci:full).
 
 name: Ping sitemap on push
 
@@ -24,4 +24,5 @@ jobs:
           fi
           SITEMAP_URL="$SITE_URL/sitemap.xml"
           echo "Pinging sitemap: $SITEMAP_URL"
-          curl -m 10 "https://www.google.com/ping?sitemap=$SITEMAP_URL" || true
+          curl -m 15 -sS "https://www.google.com/ping?sitemap=$SITEMAP_URL" || true
+          curl -m 15 -sS "https://www.bing.com/webmaster/ping.aspx?siteMap=$SITEMAP_URL" || true
