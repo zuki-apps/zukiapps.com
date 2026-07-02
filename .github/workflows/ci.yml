@@ -60,4 +60,5 @@ jobs:
           WRANGLER_BUILD_CONDITIONS: ""
           NEXT_PUBLIC_SITE_URL: https://zukiapps.com
           NEXT_PUBLIC_BASE_URL: https://zukiapps.com
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
           SITEMAP_USE_GIT: "true"
