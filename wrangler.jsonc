@@ -1,0 +1,27 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zukiapps-com",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-05-05",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "zukiapps-com"
+    }
+  ],
+  // Uncomment after creating an R2 bucket (see README → Cloudflare deploy).
+  // "r2_buckets": [
+  //   { "binding": "NEXT_INC_CACHE_R2_BUCKET", "bucket_name": "zukiapps-next-cache" }
+  // ],
+  // Custom domain — enable after zukiapps.com is on Cloudflare DNS.
+  // "routes": [{ "pattern": "zukiapps.com/*", "zone_name": "zukiapps.com" }],
+  "observability": { "enabled": true }
+}

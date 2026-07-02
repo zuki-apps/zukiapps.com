@@ -1,3 +1,6 @@
+# Legacy Netlify config (migrated to Cloudflare Workers — see wrangler.jsonc + README).
+# Kept for reference during DNS/hosting cutover.
+
 [build]
   command = "npm run build"
   publish = ".next"

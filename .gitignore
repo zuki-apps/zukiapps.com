@@ -32,13 +32,17 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 
-# Vercel / Netlify
+# Vercel / Netlify / Cloudflare
 .vercel
 .netlify/
+.open-next/
+.wrangler/
+.dev.vars
 
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+cloudflare-env.d.ts
 
 # Cursor — commit shared rules, agents, skills, context; ignore local IDE state
 .cursor/settings.json

@@ -3,9 +3,9 @@
 Marketing and legal website for **[Zuki Apps](https://zukiapps.com)** — product pages, store links, privacy/terms, SEO/AEO assets, and support info for iOS and Android apps.
 
 **Live site:** [https://zukiapps.com](https://zukiapps.com)  
-**Deploy:** [Netlify](https://www.netlify.com/) (Next.js plugin) — production builds from `main` on push
-**Stack:** Next.js 14 · TypeScript · Tailwind CSS · [next-intl](https://next-intl-docs.vercel.app/) (12 locales)
-**Primary remote:** [github.com/zuki-apps/zukiapps.com](https://github.com/zuki-apps/zukiapps.com)
+**Deploy:** [Cloudflare Workers](https://developers.cloudflare.com/workers/) via [OpenNext](https://opennext.js.org/cloudflare) — GitHub Actions on push to `main`  
+**Stack:** Next.js 14 · TypeScript · Tailwind CSS · [next-intl](https://next-intl-docs.vercel.app/) (12 locales)  
+**Repo:** [github.com/zuki-apps/zukiapps.com](https://github.com/zuki-apps/zukiapps.com)
 
 ## Quick start
 
@@ -20,12 +20,64 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Command | Purpose |
 |---------|---------|
-| `npm run build` | Production build |
+| `npm run build` | Next.js production build (CI) |
+| `npm run preview` | OpenNext build + local Workers preview |
+| `npm run deploy` | OpenNext build + deploy to Cloudflare |
 | `npm run lint` | ESLint (Next.js config) |
 | `npm run ci:check` | Typecheck + lint + build |
 | `npm run ci:full` | `ci:check` + sitemap smoke test |
 | `npm run messages:sync` | Propagate `messages/en.json` keys to other locales |
 | `npm run images:compress` | Compress assets under `public/images/` |
+
+## Cloudflare deploy
+
+Config files:
+
+| File | Purpose |
+|------|---------|
+| `wrangler.jsonc` | Worker name, assets, routes, compatibility flags |
+| `open-next.config.ts` | OpenNext adapter config |
+| `public/_headers` | Cache-Control / MIME for static assets |
+| `.dev.vars.example` | Local env template (copy to `.dev.vars`) |
+
+### One-time setup
+
+1. **Cloudflare account** — add `zukiapps.com` zone (DNS).
+2. **Create Worker** — first deploy creates `zukiapps-com` from `wrangler.jsonc`.
+3. **Custom domain** — Workers → `zukiapps-com` → Triggers → add `zukiapps.com` (or uncomment `routes` in `wrangler.jsonc`).
+4. **GitHub secrets** (Settings → Secrets → Actions):
+
+   | Secret | Value |
+   |--------|-------|
+   | `CLOUDFLARE_API_TOKEN` | API token with *Workers Scripts Edit* |
+   | `CLOUDFLARE_ACCOUNT_ID` | Account ID from Cloudflare dashboard |
+   | `SITE_URL` | `https://zukiapps.com` (sitemap ping workflow) |
+
+5. **Worker secrets** (dashboard or `wrangler secret put`):
+
+   - `FIREBASE_SERVICE_ACCOUNT_KEY` — Zulist invite API
+   - `GOOGLE_CLOUD_PROJECT_ID` — Play Integrity API
+   - `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`, `NEXT_PUBLIC_GA_MEASUREMENT_ID` — optional analytics/SEO
+
+6. **GitHub environment** — create `production` environment (optional approval gate for deploy job).
+
+Local Cloudflare preview:
+
+```bash
+cp .dev.vars.example .dev.vars
+npm run preview
+```
+
+Legacy Netlify config remains in `netlify.toml` for reference during migration.
+
+## CI
+
+`.github/workflows/ci.yml` — on push/PR to `main`:
+
+1. `npm run ci:full` (typecheck, lint, build, sitemap smoke)
+2. On push to `main` only: `npm run deploy` to Cloudflare (after checks pass)
+
+`.github/workflows/ping-sitemap.yml` — pings Google/Bing when `SITE_URL` secret is set.
 
 ## Project layout
 
@@ -34,23 +86,9 @@ app/[locale]/     # Routes (home, product pages, legal)
 components/       # Shared UI
 lib/              # Publish flags, structured data, i18n helpers
 messages/         # Copy — en.json is source of truth
-public/           # Static assets, llms.txt, per-app FAQ markdown
+public/           # Static assets, llms.txt, _headers
 ```
 
 See [AGENTS.md](./AGENTS.md) and [`.cursor/context/project_context.md`](./.cursor/context/project_context.md) for maintainer docs.
-
-## CI
-
-GitHub Actions runs on every push/PR to `main`: typecheck, lint, production build, and sitemap smoke test (`.github/workflows/ci.yml`).
-
-On push to `main`, a separate workflow pings search engines when the `SITE_URL` repository secret is set (`.github/workflows/ping-sitemap.yml`).
-
-**Netlify:** Link this repo in site settings → Build & deploy. Build command: `npm run build`. Node **20**. Set env vars in the Netlify dashboard (`NEXT_PUBLIC_BASE_URL`, Firebase keys, analytics — see `netlify.toml` comments.
-
-## Contributing
-
-1. Branch from `main`
-2. Run `npm run ci:check` locally (or rely on GitHub Actions)
-3. Open a PR — English copy changes go in `messages/en.json` first
 
 Private repo — Zuki Apps internal. Support: zuki.apps.dev@gmail.com
