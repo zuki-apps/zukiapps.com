@@ -40,6 +40,12 @@ GitHub → **Settings → Branches → Add rule** for `main`:
 | Required check | **Typecheck, lint, static export smoke** |
 | Require branches up to date | ✅ (optional) |
 
+Or from CLI (requires `gh auth login` + admin):
+
+```bash
+npm run setup:branch-protection
+```
+
 Direct pushes to `main` still run CI; branch protection blocks merge when CI fails.
 
 ## Commands

@@ -30,6 +30,7 @@
     "smoke:static": "node scripts/smoke-static.mjs",
     "smoke:static:disk": "node scripts/smoke-static.mjs --disk-only",
     "smoke:live": "node scripts/smoke-static.mjs --url https://zukiapps-site.pages.dev",
+    "setup:branch-protection": "bash scripts/setup-branch-protection.sh",
     "messages:sync": "node scripts/sync-messages-from-en.mjs",
     "messages:report": "node scripts/sync-messages-report.mjs",
     "messages:apply-fun-facts": "node scripts/apply-fun-facts-translations.mjs",

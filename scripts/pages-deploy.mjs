@@ -133,6 +133,7 @@ try {
     branch,
     '--config',
     'wrangler.pages.jsonc',
+    '--skip-caching',
   ];
 
   if (process.env.GITHUB_SHA) {
