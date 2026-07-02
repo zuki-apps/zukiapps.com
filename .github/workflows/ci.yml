@@ -13,6 +13,8 @@ concurrency:
 
 env:
   HUSKY: "0"
+  CI: "true"
+  NODE_ENV: development
 
 jobs:
   check:
@@ -27,9 +29,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
-        run: npm ci --ignore-scripts
+        shell: bash
+        run: |
+          set -euxo pipefail
+          node --version
+          npm --version
+          test -s package-lock.json
+          npm install --ignore-scripts --no-audit --no-fund
 
       - name: Run CI checks
         run: npm run ci:full
@@ -48,11 +57,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          check-latest: true
 
       - name: Install dependencies
-        run: npm ci --ignore-scripts
+        shell: bash
+        run: |
+          set -euxo pipefail
+          test -s package-lock.json
+          npm install --ignore-scripts --no-audit --no-fund
 
       - name: Deploy
+        shell: bash
         run: npm run deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
