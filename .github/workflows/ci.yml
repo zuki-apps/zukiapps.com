@@ -40,8 +40,19 @@ jobs:
           test -s package-lock.json
           npm install --no-audit --no-fund
 
-      - name: Run CI checks
-        run: npm run ci:full
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+
+      - name: Sitemap smoke
+        run: npm run smoke:sitemap
 
   deploy:
     name: Deploy to Cloudflare Workers
@@ -69,6 +80,8 @@ jobs:
       - name: Deploy
         shell: bash
         run: npm run deploy
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

@@ -39,6 +39,7 @@ jobs:
         shell: bash
         run: npm run deploy
         env:
+          NODE_OPTIONS: --max-old-space-size=4096
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           WRANGLER_BUILD_PLATFORM: node
