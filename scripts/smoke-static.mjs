@@ -22,6 +22,7 @@ import {
   localePublicPath,
   startStaticServer,
 } from './verify-export-routes.mjs';
+import { runQualityChecks, verifyLiveAssetHeaders } from './verify-export-quality.mjs';
 
 const require = createRequire(import.meta.url);
 const {
@@ -143,6 +144,14 @@ function checkLocales() {
   );
 }
 
+function checkQuality() {
+  const { errors, sitemapCount } = runQualityChecks(OUT, LOCALES);
+  if (errors.length) {
+    fail(`quality checks (${errors.length}):\n  ${errors.join('\n  ')}`);
+  }
+  console.log(`smoke: quality OK (SEO, assets, JSON-LD, links, ${sitemapCount} sitemap URLs)`);
+}
+
 async function checkLocaleHttp(base) {
   console.log(`smoke: locale HTTP probe (${LOCALES.length} langs)…`);
   const { ok, errors, total } = await verifyLocaleHttp(
@@ -214,12 +223,25 @@ async function checkLiveHttp(sitemapPaths) {
     }
     console.log(`  OK ${path} → 200 (${mustInclude})`);
   }
+
+  const assetErrors = await verifyLiveAssetHeaders(base);
+  if (assetErrors.length) {
+    fail(`live asset headers:\n  ${assetErrors.join('\n  ')}`);
+  }
+  console.log('smoke: live asset headers OK');
+
+  const bogus = await fetch(`${base}/__smoke-missing-page-${Date.now()}`);
+  if (bogus.status !== 404) {
+    fail(`live 404 check: expected 404 for bogus path, got ${bogus.status}`);
+  }
+  console.log('smoke: live 404 OK');
 }
 
 async function main() {
   checkBasics();
   const sitemapPaths = checkSitemapAndApps();
   checkLocales();
+  checkQuality();
 
   if (urlFlag) {
     await checkLiveHttp(sitemapPaths);
