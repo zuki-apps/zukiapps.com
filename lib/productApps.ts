@@ -12,7 +12,8 @@ export type ProductAppSlug =
   | 'hush-gallery'
   | 'whistle-camera'
   | 'zuli-collage'
-  | 'football-trivia';
+  | 'football-trivia'
+  | 'timesince';
 
 export type ProductAppNamespace =
   | 'bitScope'
@@ -27,7 +28,8 @@ export type ProductAppNamespace =
   | 'hushGallery'
   | 'whistleCamera'
   | 'zuliCollage'
-  | 'footballTrivia';
+  | 'footballTrivia'
+  | 'timeSince';
 
 export type ProductAppConfig = {
   slug: ProductAppSlug;
@@ -80,6 +82,16 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'football-trivia-faq-ld',
     howToId: 'football-trivia-howto-ld',
     accent: 'sky',
+    hasSupportPage: true,
+  },
+  timesince: {
+    slug: 'timesince',
+    namespace: 'timeSince',
+    appPath: '/timesince',
+    applicationCategory: 'HealthApplication',
+    faqId: 'timesince-faq-ld',
+    howToId: 'timesince-howto-ld',
+    accent: 'orange',
     hasSupportPage: true,
   },
   'bit-scope': {

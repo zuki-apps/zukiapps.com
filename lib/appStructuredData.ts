@@ -16,4 +16,5 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/paratrooper-blitz': 'com.zuki.apps.paratrooperblitz',
   '/zuli-collage': 'com.zuki.apps.collagio',
   '/toldya': 'com.zuki.apps.toldya',
+  '/timesince': 'com.zuki.apps.timesince',
 };

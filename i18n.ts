@@ -23,6 +23,7 @@ const APPS = [
   'toldya',
   'zuli-collage',
   'dreambit-legacy',
+  'timesince',
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

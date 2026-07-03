@@ -1,0 +1,580 @@
+{
+  "timeSince": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Under construction · Coming soon",
+      "title": "Don't break the chain.",
+      "productName": "Time Since — Streak Tracker",
+      "subtitle": "Time Since — Streak Tracker",
+      "description": "A streak tracker for habits you're building and days since you quit — with goal rings, widgets, and shareable streak cards. The app is still in development.",
+      "socialProof": "Coming soon on iOS & Android · No account required",
+      "structuredDataDescription": "Time Since — streak tracker for iOS and Android (under construction). Live day counters, goal rings, widgets, and share cards. Android com.zuki.apps.timesince. Streak data stays on your device.",
+      "phoneAlt": "Time Since app preview",
+      "seoTitle": "Time Since — Streak Tracker (Coming Soon) | Zuki Apps",
+      "metaDescription": "Time Since streak tracker is under construction. Privacy, terms, and support are available now. Coming soon to iOS and Android."
+    },
+    "legalNav": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "support": "Support & FAQ",
+      "contact": "Contact"
+    },
+    "underConstruction": {
+      "title": "We're building Time Since",
+      "message": "The app isn't on the stores yet. This page is a preview for store compliance — full marketing content will go live at launch.",
+      "note": "Privacy Policy, Terms of Use, and Support are available below.",
+      "highlights": [
+        "Quit & build streak modes with live day counters",
+        "Goal rings, personal records, and share cards",
+        "Home screen widgets on iOS and Android",
+        "Streak data stored on your device — no account"
+      ]
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to use",
+      "useCases": "Use cases",
+      "manual": "Manual",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "premium": "Premium",
+      "download": "Download"
+    },
+    "features": {
+      "title": "Progress you can see",
+      "counters": {
+        "title": "Live day counters",
+        "description": "Your streak updates every day — quit mode counts time since you stepped away; build mode stacks consecutive days.",
+        "items": [
+          "Automatic daily tick",
+          "Quit and build modes",
+          "Clear big-number display",
+          "Honest reset without losing records"
+        ]
+      },
+      "goals": {
+        "title": "Goals that fit",
+        "description": "Pick 7, 30, 90 days or more. Watch the progress ring fill as you get closer to your milestone.",
+        "items": [
+          "Custom goal lengths",
+          "Visual progress rings",
+          "Milestone celebrations",
+          "Per-streak targets"
+        ]
+      },
+      "records": {
+        "title": "Your records",
+        "description": "All-time best, total days tracked, goals reached — a personal hall of fame for everything you're working on.",
+        "items": [
+          "Longest active streak",
+          "All-time personal best",
+          "Total days tracked",
+          "In-app leaderboard"
+        ]
+      },
+      "share": {
+        "title": "Share your wins",
+        "description": "Generate a beautiful streak card and post it anywhere you celebrate progress.",
+        "items": [
+          "Export as image",
+          "Multiple share themes",
+          "Premium styles available",
+          "Perfect for accountability"
+        ]
+      },
+      "widgets": {
+        "title": "Home screen widgets",
+        "description": "Pin your streak on iPhone, iPad, and Android. Widgets update daily — even when the app is closed.",
+        "items": [
+          "iOS & Android widgets",
+          "Classic, minimal, bold styles",
+          "Ring style (Premium)",
+          "Up to 5 widget slots (Premium)"
+        ]
+      },
+      "privacy": {
+        "title": "On your device",
+        "description": "No account. Your streak titles, dates, and counts stay on your phone — not on our servers.",
+        "items": [
+          "No sign-up required",
+          "Local storage only for streaks",
+          "Open app and add a streak",
+          "Uninstall removes local data"
+        ]
+      }
+    },
+    "modes": {
+      "title": "Quitting or building? Both count.",
+      "subtitle": "Two tracking modes with language that fits your journey.",
+      "quit": {
+        "title": "Quit / avoiding",
+        "description": "Count time since you stepped away — smoking, drinking, social media, junk food, or anything you're leaving behind."
+      },
+      "build": {
+        "title": "Building a habit",
+        "description": "Stack consecutive days for workouts, reading, meditation, sleep routines, or any daily practice."
+      }
+    },
+    "screenshots": {
+      "title": "See Time Since in action",
+      "subtitle": "Home, widgets, streak detail, records, share cards, and quick setup.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "home",
+          "title": "All your streaks, one glance",
+          "description": "Multiple streaks on the home screen — quit and build modes side by side.",
+          "image": "/images/timesince/screenshot-home.png",
+          "alt": "Time Since home screen with multiple streak cards",
+          "category": "features"
+        },
+        {
+          "id": "widget",
+          "title": "Your streak, always visible",
+          "description": "Home screen widgets on iOS and Android update every day.",
+          "image": "/images/timesince/screenshot-widget.png",
+          "alt": "Time Since home screen widget preview",
+          "category": "features"
+        },
+        {
+          "id": "detail",
+          "title": "Big numbers. Clear progress.",
+          "description": "Streak detail with live day count and goal ring.",
+          "image": "/images/timesince/screenshot-detail.png",
+          "alt": "Time Since streak detail with day counter and goal ring",
+          "category": "features"
+        },
+        {
+          "id": "records",
+          "title": "Your hall of fame",
+          "description": "Personal bests, totals, and a leaderboard of your streaks.",
+          "image": "/images/timesince/screenshot-records.png",
+          "alt": "Time Since records and personal bests screen",
+          "category": "features"
+        },
+        {
+          "id": "share",
+          "title": "Celebrate milestones",
+          "description": "Shareable streak cards worth posting to friends and social.",
+          "image": "/images/timesince/screenshot-share.png",
+          "alt": "Time Since shareable streak card",
+          "category": "features"
+        },
+        {
+          "id": "editor",
+          "title": "Set up in seconds",
+          "description": "Name your streak, pick mode, set a goal — no account needed.",
+          "image": "/images/timesince/screenshot-editor.png",
+          "alt": "Time Since new streak editor",
+          "category": "features"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How to use Time Since",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Add a streak",
+          "description": "Open the app, tap Add a streak, name it, and choose quit or build mode."
+        },
+        {
+          "number": "2",
+          "title": "Set a goal",
+          "description": "Pick a target like 7, 30, or 90 days and watch the progress ring fill."
+        },
+        {
+          "number": "3",
+          "title": "Stay visible",
+          "description": "Pin a widget, check records, and share a card when you hit a milestone."
+        }
+      ]
+    },
+    "useCases": {
+      "title": "Perfect for",
+      "subtitle": "Real journeys where seeing the day count matters.",
+      "items": [
+        {
+          "title": "Quitting smoking or drinking",
+          "description": "See days add up live. Resist \"just once\" with momentum you can glance at anytime."
+        },
+        {
+          "title": "Daily habits",
+          "description": "Exercise, reading, meditation, or sleep — stack consecutive days toward 30/90/365 milestones."
+        },
+        {
+          "title": "Social media breaks",
+          "description": "Track time since you stepped away from feeds that eat your attention."
+        },
+        {
+          "title": "Milestone curiosity",
+          "description": "Days since a new job, last argument, or personal reset — simple counters without clutter."
+        }
+      ]
+    },
+    "manual": {
+      "title": "User manual",
+      "subtitle": "Streaks, goals, records, widgets, and Premium.",
+      "sections": [
+        {
+          "title": "1. Home & streaks",
+          "steps": [
+            "Tap + to add a streak — name, emoji, quit or build mode.",
+            "Tap a streak card for detail view and progress ring.",
+            "Swipe or use menu to edit, reset, or delete a streak.",
+            "Reset keeps your all-time best record."
+          ]
+        },
+        {
+          "title": "2. Goals & records",
+          "steps": [
+            "Set a goal when creating or editing a streak.",
+            "Records tab shows totals, bests, and goals reached.",
+            "Compare streaks on the in-app leaderboard."
+          ]
+        },
+        {
+          "title": "3. Widgets & share",
+          "steps": [
+            "Long-press home screen → add Time Since widget.",
+            "Choose streak and style (classic, minimal, bold; ring on Premium).",
+            "Share tab generates a streak card image for social or messages."
+          ]
+        },
+        {
+          "title": "4. Premium & settings",
+          "steps": [
+            "Free: up to 3 streaks, 1 widget, ad-supported.",
+            "Premium: unlimited streaks, 5 widgets, extra styles, no ads — one-time purchase.",
+            "Settings → Go Premium or Restore purchases.",
+            "Language picker: 12 locales including Hebrew and Arabic (RTL)."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get the most from your streak tracker.",
+      "items": [
+        {
+          "title": "One focus at a time",
+          "description": "Time Since is a day counter, not a planner — track the one thing that matters most right now."
+        },
+        {
+          "title": "If you slip",
+          "description": "Reset in one tap. Your all-time best is preserved so you can be honest and start again."
+        },
+        {
+          "title": "Widget glance",
+          "description": "Pin your primary streak on the home screen — daily visibility beats opening the app."
+        },
+        {
+          "title": "Share milestones",
+          "description": "Post a streak card at 7, 30, or 90 days for accountability from friends."
+        },
+        {
+          "title": "Multiple goals",
+          "description": "Need more than 3 streaks? Premium unlocks unlimited tracking — one fair payment, no subscription."
+        },
+        {
+          "title": "No account needed",
+          "description": "Back up by sharing cards or note your start dates — streak data stays local on your device."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Accounts, data, Premium, platforms, and health disclaimers.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is Time Since?",
+          "answer": "Time Since is a streak tracker for iOS and Android. Count days since you quit something or consecutive days you're building a habit — with goal rings, records, widgets, and share cards. Android package: com.zuki.apps.timesince."
+        },
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Open the app and add a streak. There is no sign-up or login."
+        },
+        {
+          "question": "Where is my data stored?",
+          "answer": "Streak titles, dates, and counts stay on your device. Uninstalling the app removes your streaks. We do not operate a cloud account for streak content."
+        },
+        {
+          "question": "Is Time Since a medical or sobriety treatment app?",
+          "answer": "No. It is a personal tracking tool. For substance use support, consult a qualified professional."
+        },
+        {
+          "question": "How does Premium work?",
+          "answer": "One-time in-app purchase (com.zuki.apps.timesince.premium): unlimited streaks, up to 5 home screen widgets, premium widget and share styles, and no ads. Restore from Settings with your Apple ID or Google account."
+        },
+        {
+          "question": "Why are there ads in the free version?",
+          "answer": "The free tier supports up to 3 streaks with optional banner and interstitial ads. Premium removes all ads forever — no subscription."
+        },
+        {
+          "question": "What if I relapse or miss a day?",
+          "answer": "Reset the streak in one tap. Your all-time best record is kept so you can start fresh without losing history."
+        },
+        {
+          "question": "Do widgets work on iOS and Android?",
+          "answer": "Yes. Pin a streak on your home screen; widgets update daily. Premium unlocks up to 5 widgets and the ring style."
+        },
+        {
+          "question": "Which languages are supported?",
+          "answer": "12 languages: English, Hebrew, Arabic, German, Spanish, French, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified)."
+        },
+        {
+          "question": "Is there an iPad version?",
+          "answer": "Yes. Time Since supports iPhone, iPad, and Android phones and tablets in portrait and landscape."
+        },
+        {
+          "question": "How do I get support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/timesince/support. Privacy: https://zukiapps.com/timesince/privacy"
+        },
+        {
+          "question": "Where can I download Time Since?",
+          "answer": "Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS App Store link will appear on this page when the listing is live."
+        }
+      ]
+    },
+    "premium": {
+      "title": "Go Premium. Stay focused.",
+      "subtitle": "One-time purchase — no subscription.",
+      "freeTitle": "Free",
+      "premiumTitle": "Premium",
+      "description": "Track up to 3 streaks free with optional ads. Premium unlocks unlimited streaks, up to 5 widgets, extra styles, and removes all ads — forever.",
+      "freeItems": [
+        "Up to 3 streaks",
+        "1 home screen widget",
+        "Classic widget & share styles",
+        "Records & share cards",
+        "Ad-supported"
+      ],
+      "premiumItems": [
+        "Unlimited streaks",
+        "Up to 5 home screen widgets",
+        "Ring widget style + extra share themes",
+        "No banner or full-screen ads",
+        "One-time purchase — restore anytime"
+      ]
+    },
+    "languages": {
+      "title": "12 languages",
+      "description": "English, Hebrew (RTL), Arabic (RTL), German, Spanish, French, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified)."
+    },
+    "status": {
+      "title": "Under construction",
+      "description": "Time Since is in active development. Store links will appear here when iOS and Android builds are ready.",
+      "version": "Target version",
+      "status": "Availability",
+      "versionValue": "0.9.0 (in development)",
+      "statusValue": "Coming soon · iOS & Android"
+    },
+    "download": {
+      "title": "Coming soon",
+      "description": "Time Since will be available on the App Store and Google Play when launch is ready.",
+      "soon": "Coming soon to the App Store and Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Time Since app icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "links": {
+      "title": "Important links",
+      "support": {
+        "title": "Support & FAQ",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Google Play",
+        "description": "Download Time Since for Android"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Time Since — All rights reserved",
+      "tagline": "Part of Zuki Apps · by Zuki.Apps"
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "Find answers about Time Since streaks, widgets, Premium, and privacy.",
+      "metaTitle": "Support & Help — Time Since | Zuki Apps",
+      "metaDescription": "Time Since FAQ — streak tracking, quit & build modes, widgets, Premium, local data, and troubleshooting. iOS & Android.",
+      "contact": {
+        "title": "Contact us",
+        "description": "Email us and we will get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "How Time Since handles your data"
+        },
+        "terms": {
+          "title": "Terms of Use",
+          "description": "Terms for using Time Since"
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "q1": {
+          "question": "How do I add my first streak?",
+          "answer": "Open Time Since and tap Add a streak. Name it, pick quit or build mode, optionally set a goal, and save. No account required."
+        },
+        "q2": {
+          "question": "What happens if I reset a streak?",
+          "answer": "The active counter restarts from zero. Your all-time best day count is preserved in Records."
+        },
+        "q3": {
+          "question": "How do I add a home screen widget?",
+          "answer": "On iOS or Android, long-press the home screen → Widgets → Time Since → choose your streak and style. Premium unlocks up to 5 widgets."
+        },
+        "q4": {
+          "question": "Premium didn't activate after purchase",
+          "answer": "Open Settings → Restore purchases. Use the same Apple ID or Google account you used to buy."
+        },
+        "q5": {
+          "question": "Are my streaks backed up to the cloud?",
+          "answer": "No. Streak data is stored locally on your device. Export share cards or note start dates if you need a manual backup."
+        },
+        "q6": {
+          "question": "Where is the full FAQ?",
+          "answer": "See the FAQ on the Time Since product page or read public/timesince/faq.md on zukiapps.com for answer-engine friendly copy."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need more help?",
+        "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Privacy Policy for Time Since — local streak storage, optional ads and analytics SDKs, Premium purchase, no account required.",
+      "lastUpdated": "Last updated: July 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) handles information when you use the Time Since mobile application and related pages at zukiapps.com/timesince (the “Service”). Time Since stores your streak content on your device. We do not require an account.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller for Time Since is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the Time Since app (iOS and Android) and the legal pages we publish for the product."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "Streak titles, start dates, counts, and related app settings are stored locally on your device and are not transmitted to our servers.",
+        "items": [
+          "Streak content: local only — not collected on our servers",
+          "Device or advertising IDs (AdMob): may be used for ads in the free version",
+          "App interaction and crash data (Firebase Analytics / Crashlytics): aggregated diagnostics",
+          "Purchase status: confirmed via Apple App Store or Google Play billing",
+          "Support email: if you contact us directly"
+        ]
+      },
+      "section3": {
+        "title": "3. How we use information",
+        "content": "We use information to:",
+        "items": [
+          "Provide streak tracking, widgets, records, and share features",
+          "Show ads in the free tier (Google AdMob)",
+          "Measure app stability and usage via analytics SDKs",
+          "Process optional Premium purchases through the app stores",
+          "Respond to support requests"
+        ],
+        "content2": "We do not sell your personal information. We do not upload your streak content to our servers."
+      },
+      "section4": {
+        "title": "4. Advertising and analytics",
+        "content": "The free version may show banner and interstitial ads via Google AdMob. Firebase Analytics and Crashlytics may collect limited device and usage data as described in Google’s policies.",
+        "content2": "Premium removes ads. On iOS, the app may request App Tracking Transparency permission for personalized ads."
+      },
+      "section5": {
+        "title": "5. Storage and retention",
+        "content": "Streak data remains on your device until you delete streaks or uninstall the app. We do not operate a user account or cloud backup for streak content in v0.9.0.",
+        "content2": "Support emails are retained as long as needed to resolve your request."
+      },
+      "section6": {
+        "title": "6. Purchases",
+        "content": "Premium (com.zuki.apps.timesince.premium) is a one-time non-consumable purchase billed by Apple or Google. Payment is handled by the store; we receive only entitlement confirmation.",
+        "content2": "Restore purchases from Settings with the same store account."
+      },
+      "section7": {
+        "title": "7. Your rights and children",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights.",
+        "content2": "Time Since is not directed to children under 13 (or the minimum age in your country). We do not knowingly collect personal data from children."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new “Last updated” date."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "metaDescription": "Terms of Use for Time Since — streak tracker app, Premium purchase, acceptable use, and disclaimers.",
+      "lastUpdated": "Last updated: July 2026",
+      "intro": "Please read these Terms of Use carefully before using Time Since. By downloading, installing, or using the app, you agree to these Terms and our Privacy Policy.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your use of Time Since (“Service”, “App”) operated by Zuki Apps (“we”, “us”). If you do not agree, do not use the Service.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Time Since is a personal streak and day-counter app. The Service includes:",
+        "items": [
+          "Quit and build mode streak tracking",
+          "Goal rings and milestone progress",
+          "Records and in-app leaderboard",
+          "Shareable streak cards",
+          "Home screen widgets (iOS and Android)",
+          "Optional one-time Premium purchase",
+          "12 language interfaces"
+        ]
+      },
+      "section3": {
+        "title": "3. Not medical advice",
+        "content": "Time Since is a personal tracking tool only. It is not a medical device, sobriety treatment program, or substitute for professional health advice.",
+        "content2": "For substance use or mental health support, consult a qualified professional."
+      },
+      "section4": {
+        "title": "4. Premium and purchases",
+        "content": "Optional Premium is a one-time in-app purchase billed by Apple or Google. Refunds follow the store’s policies. Product ID: com.zuki.apps.timesince.premium.",
+        "content2": "Features and pricing may change with notice where required by law."
+      },
+      "section5": {
+        "title": "5. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Reverse engineer the app except as permitted by law",
+          "Use the Service for unlawful purposes",
+          "Interfere with ads, analytics, or security features",
+          "Misrepresent affiliation with Zuki Apps"
+        ]
+      },
+      "section6": {
+        "title": "6. Disclaimer",
+        "content": "The Service is provided “as is” without warranties of any kind. We do not guarantee uninterrupted or error-free operation.",
+        "content2": "Your streak data is stored locally; you are responsible for backing up information you care about."
+      },
+      "section7": {
+        "title": "7. Limitation of liability",
+        "content": "To the maximum extent permitted by law, Zuki Apps shall not be liable for indirect, incidental, or consequential damages arising from use of the Service."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may modify these Terms. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}

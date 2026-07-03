@@ -22,3 +22,14 @@ export const ZULI_COLLAGE_PILOT = true;
 export const ZULI_COLLAGE_PUBLISHED = false;
 
 export const ZULI_COLLAGE_APP_PATH = '/zuli-collage' as const;
+
+/**
+ * Time Since is on the home grid when `TIMESINCE_PUBLISHED` is true.
+ * `TIMESINCE_PILOT` — indexed full landing when live on stores (not on home grid until published).
+ * `TIMESINCE_UNDER_CONSTRUCTION` — minimal landing + privacy/terms/support in sitemap only.
+ */
+export const TIMESINCE_UNDER_CONSTRUCTION = true;
+export const TIMESINCE_PILOT = false;
+export const TIMESINCE_PUBLISHED = false;
+
+export const TIMESINCE_APP_PATH = '/timesince' as const;

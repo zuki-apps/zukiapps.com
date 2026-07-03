@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED } from '@/lib/appPublishState';
+import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED, TIMESINCE_PILOT, TIMESINCE_PUBLISHED, TIMESINCE_UNDER_CONSTRUCTION } from '@/lib/appPublishState';
 import { routing } from '@/routing';
 import { getSiteUrl } from '@/lib/hreflang';
 import {
@@ -96,6 +96,21 @@ const routes: SitemapRouteMeta[] = [
         { path: '/zuli-collage/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
       ]
     : []),
+  ...(TIMESINCE_PUBLISHED || TIMESINCE_PILOT
+    ? [
+        { path: '/timesince', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
+        { path: '/timesince/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/timesince/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/timesince/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+      ]
+    : TIMESINCE_UNDER_CONSTRUCTION
+      ? [
+          { path: '/timesince', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/timesince/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/timesince/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/timesince/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        ]
+      : []),
   { path: '/dreambit-legacy', priority: 0.55, changefreq: 'yearly' },
   { path: '/dreambit-legacy/privacy', priority: 0.4, changefreq: 'yearly' },
   { path: '/dreambit-legacy/terms', priority: 0.4, changefreq: 'yearly' },

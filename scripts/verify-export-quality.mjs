@@ -24,6 +24,7 @@ export const COMPLIANCE_APPS = [
   'fun-facts-trivia',
   'toldya',
   'zuli-collage',
+  'timesince',
 ];
 
 export const STATIC_ASSET_PATHS = [
