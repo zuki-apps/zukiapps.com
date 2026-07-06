@@ -1,0 +1,526 @@
+{
+  "geoCalc": {
+    "back": "返回首页",
+    "hero": {
+      "badge": "正在建设中 · 即将推出",
+      "title": "WGS84 坐标工具 — 离线。",
+      "productName": "GEO Calc — 坐标",
+      "subtitle": "GEO Calc — 坐标",
+      "description": "转换 DD、DMS、UTM 和 MGRS。计算 Vincenty 测地距离和方位，在地图上测量，并导出 GPX — 为测量员和现场工程师构建。该应用程序仍在开发中。",
+      "socialProof": "即将在 iOS 和 Android 推出 · 离线优先 · 无帐户",
+      "structuredDataDescription": "GEO Calc — 用于 iOS 和 Android 的离线 WGS84 坐标工具（正在建设中）。转换 DD、DMS、UTM、MGRS； Vincenty 距离和方位；地图测量；航点和 GPX 导出。 Android com.zuki.apps.geocalc。航点保留在您的设备上。",
+      "phoneAlt": "iPhone 上的 GEO Calc 坐标转换器",
+      "seoTitle": "GEO Calc — WGS84 离线坐标工具（即将推出）| Zuki Apps",
+      "metaDescription": "GEO Calc 正在建设中。为现场专业人员提供离线 WGS84 转换器、Vincenty 距离、地图测量和 GPX 导出。隐私、条款和支持现已提供。"
+    },
+    "legalNav": {
+      "privacy": "隐私政策",
+      "terms": "使用条款",
+      "support": "支持与常见问题解答",
+      "contact": "接触"
+    },
+    "underConstruction": {
+      "title": "我们正在构建 GEO Calc",
+      "message": "该应用程序尚未在商店上架。此页面是商店合规性的预览 - 完整的营销内容将在发布时上线。",
+      "note": "下面提供了隐私政策、使用条款和支持。",
+      "highlights": [
+        "在 WGS84 上转换 DD、DMS、UTM 和 MGRS",
+        "Vincenty 测地距离、方位角和直达",
+        "离线地图测量——路径长度和多边形面积",
+        "具有 GPX 1.1 导出功能的航点 — 无需帐户"
+      ]
+    },
+    "pageNav": {
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "如何使用",
+      "useCases": "使用案例",
+      "manual": "手动的",
+      "tips": "尖端",
+      "faq": "常问问题",
+      "download": "下载"
+    },
+    "features": {
+      "title": "无信号时的精度",
+      "converter": {
+        "title": "多格式转换器",
+        "description": "在 WGS84 椭球上的十进制度、DMS、UTM 和 MGRS 之间进行转换。自动检测格式或选择小数顺序。",
+        "items": [
+          "DD、DMS、UTM 和 MGRS",
+          "自动检测坐标格式",
+          "纬度/经度顺序偏好",
+          "一键复制结果"
+        ]
+      },
+      "distance": {
+        "title": "测地距离和方位角",
+        "description": "使用 Vincenty 反函数计算两点之间的椭球距离和正向方位角 - 而不是平面地图快捷方式。",
+        "items": [
+          "Vincenty 逆测地线",
+          "前进方位角/方位角",
+          "测地线直接（点+距离+方位角）",
+          "公制、英制或航海单位"
+        ]
+      },
+      "map": {
+        "title": "地图测量",
+        "description": "在离线地图画布上绘制路径和多边形。测量 WGS84 椭球上的路径长度和多边形面积。",
+        "items": [
+          "点击以添加顶点",
+          "椭球上的路径距离",
+          "多边形面积 (GeographicLib)",
+          "可选配 GPS 定心"
+        ]
+      },
+      "waypoints": {
+        "title": "航点 & GPX",
+        "description": "在本地保存命名航点。对于 GIS 和 GPS 设备，将航路点或轨迹顶点导出为 GPX 1.1。",
+        "items": [
+          "本地航点库",
+          "GPX 1.1 导出",
+          "带有坐标的命名点",
+          "通过系统表共享"
+        ]
+      },
+      "offline": {
+        "title": "离线设计",
+        "description": "核心转换、距离和地图测量无需网络即可工作。无需注册——航点保留在您的设备上。",
+        "items": [
+          "无需帐户",
+          "无需手机服务即可工作",
+          "本地航点存储",
+          "适合户外使用的深色主题"
+        ]
+      },
+      "languages": {
+        "title": "12种语言",
+        "description": "世界各地的现场团队 - 包括希伯来语和阿拉伯语，并提供 RTL UI 支持。",
+        "items": [
+          "英语、希伯来语、阿拉伯语",
+          "德语、西班牙语、法语、意大利语",
+          "日语、韩语、葡萄牙语、俄语、中文（简体）"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "查看 GEO Calc 的实际应用",
+      "subtitle": "转换器、距离、地图测量和航点 - 真实的应用程序屏幕。",
+      "featuresTitle": "应用程序屏幕",
+      "items": [
+        {
+          "id": "家",
+          "title": "三个工具，一个应用程序",
+          "description": "从一个主屏幕即可进行坐标转换器、距离和方位以及地图测量。",
+          "image": "/images/geo-calc/screenshot-home.png",
+          "alt": "GEO Calc 主屏幕，带有转换器、距离和地图工具",
+          "category": "特征"
+        },
+        {
+          "id": "转换器",
+          "title": "各坐标格式",
+          "description": "DD、DMS、UTM 和 MGRS 在 WGS84 上并排结果。",
+          "image": "/images/geo-calc/screenshot-converter.png",
+          "alt": "GEO Calc 坐标转换器显示 UTM 和十进制",
+          "category": "特征"
+        },
+        {
+          "id": "距离",
+          "title": "测地距离和方位角",
+          "description": "Vincenty 具有方位读数的两点之间的倒数。",
+          "image": "/images/geo-calc/screenshot-distance.png",
+          "alt": "GEO Calc 距离和方位计算器",
+          "category": "特征"
+        },
+        {
+          "id": "地图",
+          "title": "测量路径和区域",
+          "description": "离线在地图上绘制 — 椭圆体上的路径长度和多边形面积。",
+          "image": "/images/geo-calc/screenshot-map.png",
+          "alt": "GEO Calc 离线地图测量多边形面积",
+          "category": "特征"
+        },
+        {
+          "id": "航路点",
+          "title": "导出GPX",
+          "description": "在本地保存航路点并导出 GPX 以进行 GIS 或 GPS 切换。",
+          "image": "/images/geo-calc/screenshot-waypoints.png",
+          "alt": "带有 GPX 导出的 GEO Calc 航点列表",
+          "category": "特征"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "如何使用GEO Calc",
+      "steps": [
+        {
+          "number": "1",
+          "title": "转换坐标",
+          "description": "打开转换器，粘贴或键入坐标，然后在一个视图中读取 DD、DMS、UTM 和 MGRS。"
+        },
+        {
+          "number": "2",
+          "title": "检查距离",
+          "description": "在距离和方位角中输入两个点作为 Vincenty 测地线长度和方位角。"
+        },
+        {
+          "number": "3",
+          "title": "测量和导出",
+          "description": "对路径和区域使用地图测量，保存航路点，并在准备好时导出 GPX。"
+        }
+      ]
+    },
+    "useCases": {
+      "title": "专为专业现场工作而打造",
+      "subtitle": "快速 WGS84 检查完整的 GIS 项目是否过度。",
+      "items": [
+        {
+          "title": "测量员和地籍人员",
+          "description": "现场转换 UTM ↔ DD 并验证控制点之间的间距。"
+        },
+        {
+          "title": "土木和岩土工程师",
+          "description": "无需打开笔记本电脑即可检查移动距离和方位。"
+        },
+        {
+          "title": "地理信息系统技术人员",
+          "description": "离线验证坐标并导出 GPX 以用于桌面 GIS 工作流程。"
+        },
+        {
+          "title": "搜救和户外团队",
+          "description": "当没有小区信号时测量地图上的区域和路径。"
+        }
+      ]
+    },
+    "manual": {
+      "title": "用户手册",
+      "subtitle": "转换器、距离、地图、航点和设置。",
+      "sections": [
+        {
+          "title": "1.坐标转换器",
+          "steps": [
+            "粘贴或键入坐标字符串 — DD、DMS、UTM 或 MGRS。",
+            "切换自动检测或手动选择输入格式。",
+            "如果需要，请在“设置”中设置坐标顺序（纬度/经度或经度/纬度）。",
+            "点击复制图标将结果发送到另一个应用程序。"
+          ]
+        },
+        {
+          "title": "2. 距离和方位",
+          "steps": [
+            "在 DD 或 DMS 中输入 A 点和 B 点。",
+            "读取测地距离和前进方位角。",
+            "在“设置”中切换公制、英制或航海单位。",
+            "使用直接模式在给定起点、距离和方位的情况下查找点。"
+          ]
+        },
+        {
+          "title": "3. 地图测量",
+          "steps": [
+            "打开地图测量 — 离线工作。",
+            "点击可沿路径或多边形添加顶点。",
+            "读取 WGS84 上的路径长度或多边形面积。",
+            "仅当您需要 GPS 地图居中时才允许定位。"
+          ]
+        },
+        {
+          "title": "4. 航点 & GPX",
+          "steps": [
+            "使用名称保存转换器或地图中的点。",
+            "浏览本地航点列表 - 无云同步。",
+            "将选定的航路点或航迹导出为 GPX 1.1。",
+            "通过文件、电子邮件或 GIS 应用程序共享 GPX。"
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "提示和技巧",
+      "subtitle": "在现场获得可靠的结果。",
+      "items": [
+        {
+          "title": "验证关键工作",
+          "description": "GEO Calc 使用标准 WGS84 大地测量学 — 不能替代经过认证的测量仪器或法定边界。"
+        },
+        {
+          "title": "无需网络",
+          "description": "如果您的构建包含地图缓存，请在前往远程站点之前下载离线地图图块。"
+        },
+        {
+          "title": "坐标顺序",
+          "description": "在“设置”中设置 lat/lng 与 lng/lat 一次，以避免在国际项目上交换结果。"
+        },
+        {
+          "title": "GPX 切换",
+          "description": "将航路点导出为 GPX 并在 QGIS、Google Earth 或手持式 GPS 设备中打开。"
+        },
+        {
+          "title": "单位制",
+          "description": "切换公制、英制或航海距离和面积 — 对于海洋和航空交叉检查非常有用。"
+        },
+        {
+          "title": "可选GPS",
+          "description": "转换器和距离工具根据输入的坐标进行工作 - GPS 仅用于地图居中。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "离线使用、准确性、广告和平台。",
+      "viewAllSupport": "查看完整的支持和常见问题解答",
+      "items": [
+        {
+          "question": "什么是 GEO Calc？",
+          "answer": "GEO Calc 是 iOS 和 Android 的离线 WGS84 坐标计算器。转换 DD、DMS、UTM 和 MGRS；计算 Vincenty 距离和方位；在地图上测量；导出GPX。 Android 封装：com.zuki.apps.geocalc。"
+        },
+        {
+          "question": "GEO Calc 需要互联网吗？",
+          "answer": "核心转换、距离和地图测量可离线工作。广告和分析可能会在可用时使用网络。"
+        },
+        {
+          "question": "是调查级别的吗？",
+          "answer": "计算使用标准 WGS84 大地测量（Vincenty，椭圆体面积）。使用经过认证的测量设备验证关键测量结果 - GEO Calc 是现场参考工具，而不是法定边界当局。"
+        },
+        {
+          "question": "我需要一个帐户吗？",
+          "answer": "不会。航点和偏好设置仅存储在您的设备上。"
+        },
+        {
+          "question": "有订阅吗？",
+          "answer": "不会。GEO Calc v1.0 是免费的，带有可选的横幅和插页式广告。发布时没有应用内购买。"
+        },
+        {
+          "question": "它使用我的 GPS 位置吗？",
+          "answer": "位置是可选的 - 当您打开地图或 GPS 功能时使用。转换器和距离工具仅根据输入的坐标工作。"
+        },
+        {
+          "question": "支持哪些坐标格式？",
+          "answer": "十进制度 (DD)、度分秒 (DMS)、UTM 和 WGS84 上的 MGRS。"
+        },
+        {
+          "question": "我可以导出到 GIS 吗？",
+          "answer": "是 — 保存航路点并导出 GPX 1.1 至 QGIS、ArcGIS、Google Earth 和 GPS 设备。"
+        },
+        {
+          "question": "支持哪些语言？",
+          "answer": "12 种语言：英语、希伯来语、阿拉伯语、德语、西班牙语、法语、意大利语、日语、韩语、葡萄牙语、俄语和中文（简体）。"
+        },
+        {
+          "question": "我如何获得支持？",
+          "answer": "发送电子邮件至 zuki.apps.dev@gmail.com 或访问 https://zukiapps.com/geo-calc/support. 隐私权：https://zukiapps.com/geo-calc/privacy"
+        }
+      ]
+    },
+    "languages": {
+      "title": "12种语言",
+      "description": "英语、希伯来语 (RTL)、阿拉伯语 (RTL)、德语、西班牙语、法语、意大利语、日语、韩语、葡萄牙语、俄语和中文（简体）。"
+    },
+    "status": {
+      "title": "建设中",
+      "description": "GEO Calc v1.0 正在积极开发中。当 iOS 和 Android 版本准备就绪时，商店链接将出现在此处。",
+      "version": "目标版本",
+      "status": "可用性",
+      "versionValue": "1.0.0（开发中）",
+      "statusValue": "即将推出 · iOS、iPad 和 Android"
+    },
+    "download": {
+      "title": "即将推出",
+      "description": "发布准备就绪后，GEO Calc 将在 App Store 和 Google Play 上提供。",
+      "soon": "即将登陆 App Store 和 Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "GEO Calc 应用程序图标",
+      "appStoreAlt": "在应用商店下载",
+      "googlePlayAlt": "在 Google Play 上获取"
+    },
+    "links": {
+      "title": "重要链接",
+      "support": {
+        "title": "支持与常见问题解答",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 GEO Calc — 版权所有",
+      "tagline": "Zuki Apps · 的一部分，作者：Zuki.Apps"
+    },
+    "support": {
+      "title": "支持与帮助",
+      "subtitle": "查找有关 GEO Calc 坐标、离线使用、地图测量和 GPX 导出的答案。",
+      "metaTitle": "支持与帮助 — GEO Calc | Zuki Apps",
+      "metaDescription": "GEO Calc 常见问题解答 — WGS84 转换、Vincenty 距离、离线地图测量、航点、GPX 和故障排除。 iOS 和 Android。",
+      "contact": {
+        "title": "联系我们",
+        "description": "给我们发电子邮件，我们会尽快回复您。",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "快速链接",
+        "privacy": {
+          "title": "隐私政策",
+          "description": "GEO Calc 如何处理您的数据"
+        },
+        "terms": {
+          "title": "使用条款",
+          "description": "使用条款 GEO Calc"
+        }
+      },
+      "faq": {
+        "title": "常见问题",
+        "q1": {
+          "question": "如何将 UTM 转换为十进制？",
+          "answer": "打开坐标转换器，粘贴 UTM 字符串，然后在结果面板中读取 DD （和 DMS/MGRS）。离线工作。"
+        },
+        "q2": {
+          "question": "为什么我的距离与平面地图不同？",
+          "answer": "GEO Calc 在 WGS84 椭球上使用 Vincenty 测地距离。平直或网状墨卡托标尺低估了长跨度，尤其是高纬度地区的东西向跨度。"
+        },
+        "q3": {
+          "question": "我可以在没有 GPS 的情况下使用 GEO Calc 吗？",
+          "answer": "是的。转换器和距离工具只需要输入坐标。 GPS 是可选的，用于使地图居中。"
+        },
+        "q4": {
+          "question": "如何导出 GPX？",
+          "answer": "从应用程序保存航点，打开航点屏幕，选择项目，然后点击导出 GPX。通过系统表共享文件。"
+        },
+        "q5": {
+          "question": "航点是否备份到云端？",
+          "answer": "不会。航路点和偏好设置存储在本地。如果需要备份，请导出 GPX。"
+        },
+        "q6": {
+          "question": "完整的常见问题解答在哪里？",
+          "answer": "请参阅 GEO Calc 产品页面上的常见问题解答或阅读 zukiapps.com 上的 public/geo-calc/faq.md 以获得答案引擎友好的副本。"
+        }
+      },
+      "additionalHelp": {
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到答案，请发送电子邮件至 zuki.apps.dev@gmail.com。我们通常会在 24-48 小时内回复。"
+      }
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "metaDescription": "GEO Calc 的隐私政策 — 本地航点存储、可选位置、广告和分析 SDK，无需帐户。",
+      "lastUpdated": "最后更新时间：2026 年 7 月",
+      "intro": "本隐私政策解释了当您使用 GEO Calc 移动应用程序和 zukiapps.com/geo-calc 上的相关页面（“服务”）时 Zuki Apps（“我们”）如何处理信息。 GEO Calc 在您的设备上存储航点和偏好设置。我们不需要帐户。",
+      "section1": {
+        "title": "1. 我们是谁",
+        "content": "GEO Calc 的数据控制器是 Zuki Apps。详细联系信息位于本政策末尾。",
+        "content2": "本政策适用于 GEO Calc 应用程序（iOS 和 Android）以及我们为该产品发布的法律页面。"
+      },
+      "section2": {
+        "title": "2.我们收集的信息",
+        "content": "航点名称、您输入的坐标以及应用程序设置均存储在您的设备本地，不会传输到我们的服务器。",
+        "items": [
+          "航点和坐标内容：仅限本地 - 不收集在我们的服务器上",
+          "粗略/精确位置（可选）：当您授予权限时用于地图/GPS功能",
+          "设备或广告 ID (AdMob)：可用于免费版本中的广告",
+          "应用程序交互和崩溃数据 (Firebase Analytics / Crashlytics)：聚合诊断",
+          "支持电子邮件：如果您直接联系我们"
+        ]
+      },
+      "section3": {
+        "title": "3. 我们如何使用信息",
+        "content": "我们使用信息来：",
+        "items": [
+          "提供坐标转换、距离、地图测量和GPX导出",
+          "如果允许，可以选择将地图置于您所在位置的中心",
+          "在免费套餐中展示广告 (Google AdMob)",
+          "通过分析 SDK 衡量应用程序稳定性和使用情况",
+          "响应支持请求"
+        ],
+        "content2": "我们不会出售您的个人信息。我们不会将您的航点或输入的坐标上传到我们的服务器。"
+      },
+      "section4": {
+        "title": "4. 地点",
+        "content": "GEO Calc 可能会请求地图居中和可选 GPS 功能的位置许可。转换器和距离工具无需位置访问即可工作。",
+        "content2": "您可以随时在设备设置中撤销位置权限。"
+      },
+      "section5": {
+        "title": "5. 储存和保留",
+        "content": "航点数据保留在您的设备上，直到您将其删除或卸载应用程序。在 v1.0 中，我们不运营用于航点同步的云帐户。",
+        "content2": "只要需要解决您的请求，支持电子邮件就会被保留。"
+      },
+      "section6": {
+        "title": "6. 广告和分析",
+        "content": "免费版本可能会通过 Google AdMob 显示横幅和插页式广告。 Firebase Analytics 和 Crashlytics 可能会收集 Google 政策中所述的有限设备和使用数据。",
+        "content2": "在 iOS 上，应用程序可能会请求个性化广告的应用程序跟踪透明度权限。"
+      },
+      "section7": {
+        "title": "7. 您的权利和孩子",
+        "content": "根据您所在的司法管辖区，您可能有权访问、更正、删除或反对某些处理。联系我们以行使权利。",
+        "content2": "GEO Calc 不适用于 13 岁（或您所在国家/地区的最低年龄）以下的儿童。我们不会故意收集儿童的个人数据。"
+      },
+      "section8": {
+        "title": "8. 变化",
+        "content": "我们可能会不时更新本政策。我们将发布带有新的“最后更新”日期的修订版本。"
+      },
+      "sectionContact": {
+        "title": "接触",
+        "content": "有关本隐私政策的问题：",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "使用条款",
+      "metaDescription": "GEO Calc 使用条款 — 坐标计算器、现场参考工具免责声明和可接受的使用。",
+      "lastUpdated": "最后更新时间：2026 年 7 月",
+      "intro": "在使用 GEO Calc 之前，请仔细阅读这些使用条款。下载、安装或使用该应用程序，即表示您同意这些条款和我们的隐私政策。",
+      "section1": {
+        "title": "1. 接受条款",
+        "content": "这些条款管辖您对 Zuki Apps（“我们”）运营的 GEO Calc（“服务”、“应用程序”）的使用。如果您不同意，请勿使用该服务。",
+        "content2": "如果您代表某个组织使用本服务，则您声明您有权约束该组织。"
+      },
+      "section2": {
+        "title": "2. 服务说明",
+        "content": "GEO Calc 是 WGS84 坐标和大地测量参考应用程序。该服务包括：",
+        "items": [
+          "坐标转换（DD、DMS、UTM、MGRS）",
+          "Vincenty 测地距离、方位角和直达",
+          "离线地图测量 — 路径和多边形面积",
+          "本地航点和 GPX 导出",
+          "公制、英制和航海单位",
+          "12种语言界面"
+        ]
+      },
+      "section3": {
+        "title": "3. 不专业的测量建议",
+        "content": "GEO Calc 只是一个现场参考工具。它不是经过认证的测量仪器，也不能确定合法财产边界。",
+        "content2": "与合格的专业人员和适当的认证设备一起验证关键测量和边界工作。"
+      },
+      "section4": {
+        "title": "4.免费服务和广告",
+        "content": "GEO Calc v1.0 免费，带有可选的横幅和插页式广告。发布时没有订阅。",
+        "content2": "根据法律要求，功能和广告投放可能会发生变化，并发出通知。"
+      },
+      "section5": {
+        "title": "5. 可接受的使用",
+        "content": "您同意不会：",
+        "items": [
+          "除非法律允许，否则对应用程序进行逆向工程",
+          "将服务用于非法目的",
+          "依靠应用程序作为法律边界或安全关键决策的唯一权威",
+          "干扰广告、分析或安全功能"
+        ]
+      },
+      "section6": {
+        "title": "6. 免责声明",
+        "content": "服务按“原样”提供，不提供任何形式的保证。我们不保证不间断或无错误的操作或适合特定测量目的。",
+        "content2": "您负责备份您关心的航点（例如通过 GPX 导出）。"
+      },
+      "section7": {
+        "title": "7. 责任限制",
+        "content": "在法律允许的最大范围内，Zuki Apps 不对因使用本服务（包括依赖坐标或面积计算）而产生的间接、偶然或后果性损害承担责任。"
+      },
+      "section8": {
+        "title": "8. 变化",
+        "content": "我们可能会修改这些条款。生效日期后继续使用即表示接受。"
+      },
+      "sectionContact": {
+        "title": "接触",
+        "content": "有关这些条款的问题：",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}
