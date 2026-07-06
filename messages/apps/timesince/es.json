@@ -1,0 +1,580 @@
+{
+  "timeSince": {
+    "back": "Volver a Inicio",
+    "hero": {
+      "badge": "En construcción · Próximamente",
+      "title": "No rompas la cadena.",
+      "productName": "Time Since — Rastreador de rachas",
+      "subtitle": "Time Since — Rastreador de rachas",
+      "description": "Un rastreador de rachas para los hábitos que estás desarrollando y los días transcurridos desde que dejaste de fumar, con anillos de objetivos, widgets y tarjetas de rachas para compartir. La aplicación aún está en desarrollo.",
+      "socialProof": "Próximamente en iOS y Android · No se requiere cuenta",
+      "structuredDataDescription": "Time Since — rastreador de rachas para iOS y Android (en construcción). Contadores de días en vivo, anillos de objetivos, widgets y tarjetas para compartir. Android com.zuki.apps.timesince. Los datos de racha permanecen en su dispositivo.",
+      "phoneAlt": "Vista previa de la aplicación Time Since",
+      "seoTitle": "Time Since — Rastreador de rachas (próximamente) | Zuki Apps",
+      "metaDescription": "El rastreador de rachas Time Since está en construcción. La privacidad, los términos y el soporte están disponibles ahora. Próximamente en iOS y Android."
+    },
+    "legalNav": {
+      "privacy": "política de privacidad",
+      "terms": "Condiciones de uso",
+      "support": "Soporte y preguntas frecuentes",
+      "contact": "Contacto"
+    },
+    "underConstruction": {
+      "title": "Estamos construyendo Time Since",
+      "message": "La aplicación aún no está en las tiendas. Esta página es una vista previa del cumplimiento de la tienda: el contenido de marketing completo se publicará en el momento del lanzamiento.",
+      "note": "La política de privacidad, los términos de uso y el soporte están disponibles a continuación.",
+      "highlights": [
+        "Salir y crear modos de racha con contadores de días en vivo",
+        "Anillos de portería, récords personales y tarjetas compartidas.",
+        "Widgets de la pantalla de inicio en iOS y Android",
+        "Racha de datos almacenados en su dispositivo: sin cuenta"
+      ]
+    },
+    "pageNav": {
+      "features": "Características",
+      "screenshots": "Capturas de pantalla",
+      "howTo": "como usar",
+      "useCases": "Casos de uso",
+      "manual": "Manual",
+      "tips": "Consejos",
+      "faq": "Preguntas frecuentes",
+      "premium": "Premium",
+      "download": "Descargar"
+    },
+    "features": {
+      "title": "Progreso que puedes ver.",
+      "counters": {
+        "title": "Contadores de días en vivo",
+        "description": "Tu racha se actualiza todos los días: el modo para salir cuenta el tiempo transcurrido desde que te alejaste; El modo de construcción se acumula en días consecutivos.",
+        "items": [
+          "Tick ​​diario automático",
+          "Salir y construir modos",
+          "Pantalla clara de números grandes",
+          "Restablecimiento honesto sin perder registros"
+        ]
+      },
+      "goals": {
+        "title": "Metas que encajan",
+        "description": "Elija 7, 30, 90 días o más. Observe cómo se llena el anillo de progreso a medida que se acerca a su hito.",
+        "items": [
+          "Longitudes de objetivos personalizados",
+          "Anillos de progreso visual",
+          "Celebraciones de hitos",
+          "Objetivos por racha"
+        ]
+      },
+      "records": {
+        "title": "Tus registros",
+        "description": "Lo mejor de todos los tiempos, total de días registrados, objetivos alcanzados: un salón de la fama personal para todo en lo que estás trabajando.",
+        "items": [
+          "Racha activa más larga",
+          "Mejor marca personal de todos los tiempos",
+          "Total de días seguidos",
+          "Tabla de clasificación en la aplicación"
+        ]
+      },
+      "share": {
+        "title": "Comparte tus victorias",
+        "description": "Genera una hermosa tarjeta de racha y publícala en cualquier lugar donde celebres el progreso.",
+        "items": [
+          "Exportar como imagen",
+          "Múltiples temas para compartir",
+          "Premium estilos disponibles",
+          "Perfecto para la rendición de cuentas"
+        ]
+      },
+      "widgets": {
+        "title": "Widgets de la pantalla de inicio",
+        "description": "Fija tu racha en iPhone, iPad y Android. Los widgets se actualizan diariamente, incluso cuando la aplicación está cerrada.",
+        "items": [
+          "iOS y Android widgets",
+          "Estilos clásicos, minimalistas y atrevidos.",
+          "Estilo de timbre (Premium)",
+          "Hasta 5 espacios para widgets (Premium)"
+        ]
+      },
+      "privacy": {
+        "title": "En tu dispositivo",
+        "description": "Sin cuenta. Los títulos, fechas y recuentos de tus rachas permanecen en tu teléfono, no en nuestros servidores.",
+        "items": [
+          "No es necesario registrarse",
+          "Almacenamiento local solo para rachas",
+          "Abra la aplicación y agregue una racha",
+          "La desinstalación elimina los datos locales"
+        ]
+      }
+    },
+    "modes": {
+      "title": "¿Dejar o construir? Ambos cuentan.",
+      "subtitle": "Dos modos de seguimiento con un idioma que se adapta a tu viaje.",
+      "quit": {
+        "title": "Dejar / evitar",
+        "description": "Cuente el tiempo desde que dejó de fumar, beber, usar las redes sociales, comer comida chatarra o cualquier cosa que esté dejando atrás."
+      },
+      "build": {
+        "title": "Construyendo un hábito",
+        "description": "Acumule días consecutivos para hacer ejercicio, leer, meditar, rutinas de sueño o cualquier práctica diaria."
+      }
+    },
+    "screenshots": {
+      "title": "Vea Time Since en acción",
+      "subtitle": "Inicio, widgets, detalles de rachas, registros, tarjetas para compartir y configuración rápida.",
+      "featuresTitle": "Pantallas de aplicaciones",
+      "items": [
+        {
+          "id": "hogar",
+          "title": "Todas tus rachas, una mirada",
+          "description": "Múltiples rayas en la pantalla de inicio: salir y crear modos uno al lado del otro.",
+          "image": "/images/timesince/screenshot-home.png",
+          "alt": "Time Since pantalla de inicio con múltiples tarjetas de racha",
+          "category": "características"
+        },
+        {
+          "id": "widget",
+          "title": "Tu racha, siempre visible",
+          "description": "Los widgets de la pantalla de inicio en iOS y Android se actualizan todos los días.",
+          "image": "/images/timesince/screenshot-widget.png",
+          "alt": "Time Since vista previa del widget de la pantalla de inicio",
+          "category": "características"
+        },
+        {
+          "id": "detalle",
+          "title": "Grandes números. Progreso claro.",
+          "description": "Detalle de racha con recuento de días en vivo y anillo de gol.",
+          "image": "/images/timesince/screenshot-detail.png",
+          "alt": "Detalle de racha Time Since con contador de días y anillo de portería",
+          "category": "características"
+        },
+        {
+          "id": "archivos",
+          "title": "Tu salón de la fama",
+          "description": "Récords personales, totales y una tabla de clasificación de tus rachas.",
+          "image": "/images/timesince/screenshot-records.png",
+          "alt": "Time Since registros y pantalla de mejores marcas personales",
+          "category": "características"
+        },
+        {
+          "id": "compartir",
+          "title": "Celebrar hitos",
+          "description": "Tarjetas de racha para compartir que vale la pena publicar en amigos y redes sociales.",
+          "image": "/images/timesince/screenshot-share.png",
+          "alt": "Time Since tarjeta de racha compartible",
+          "category": "características"
+        },
+        {
+          "id": "editor",
+          "title": "Configurar en segundos",
+          "description": "Nombra tu racha, elige el modo, establece un objetivo, no se necesita una cuenta.",
+          "image": "/images/timesince/screenshot-editor.png",
+          "alt": "Time Since nuevo editor de rachas",
+          "category": "características"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "Cómo utilizar Time Since",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Añadir una racha",
+          "description": "Abra la aplicación, toque Agregar una racha, asígnele un nombre y elija el modo salir o construir."
+        },
+        {
+          "number": "2",
+          "title": "Establecer una meta",
+          "description": "Elija un objetivo como 7, 30 o 90 días y observe cómo se llena el anillo de progreso."
+        },
+        {
+          "number": "3",
+          "title": "Mantente visible",
+          "description": "Fije un widget, verifique registros y comparta una tarjeta cuando alcance un hito."
+        }
+      ]
+    },
+    "useCases": {
+      "title": "Perfecto para",
+      "subtitle": "Viajes reales donde importa ver el día contar.",
+      "items": [
+        {
+          "title": "Dejar de fumar o beber",
+          "description": "Ver días sumar en vivo. Resiste \"sólo una vez\" con un impulso que puedes observar en cualquier momento."
+        },
+        {
+          "title": "Hábitos diarios",
+          "description": "Haga ejercicio, lea, medite o duerma: acumule días consecutivos para alcanzar los hitos 30/90/365."
+        },
+        {
+          "title": "Descansos en las redes sociales",
+          "description": "Realice un seguimiento del tiempo transcurrido desde que se alejó de los feeds que consumen su atención."
+        },
+        {
+          "title": "Curiosidad histórica",
+          "description": "Días desde un nuevo trabajo, última discusión o reinicio personal: contadores simples y ordenados."
+        }
+      ]
+    },
+    "manual": {
+      "title": "manual de usuario",
+      "subtitle": "Rachas, goles, récords, widgets y Premium.",
+      "sections": [
+        {
+          "title": "1. Hogar y rachas",
+          "steps": [
+            "Toca + para agregar una racha: nombre, emoji, salir o modo de construcción.",
+            "Toca una tarjeta de racha para ver los detalles y ver el anillo de progreso.",
+            "Desliza o usa el menú para editar, restablecer o eliminar una racha.",
+            "Reset mantiene su mejor récord de todos los tiempos."
+          ]
+        },
+        {
+          "title": "2. Goles y récords",
+          "steps": [
+            "Establece un objetivo al crear o editar una racha.",
+            "La pestaña Registros muestra totales, mejores marcas y objetivos alcanzados.",
+            "Compara rachas en la clasificación de la aplicación."
+          ]
+        },
+        {
+          "title": "3. Widgets y compartir",
+          "steps": [
+            "Mantenga presionada la pantalla de inicio → agregue el widget Time Since.",
+            "Elija la racha y el estilo (clásico, minimalista, atrevido; suena en Premium).",
+            "La pestaña Compartir genera una imagen de tarjeta de racha para redes sociales o mensajes."
+          ]
+        },
+        {
+          "title": "4. Premium y configuración",
+          "steps": [
+            "Gratis: hasta 3 rachas, 1 widget, con publicidad.",
+            "Premium: rachas ilimitadas, 5 widgets, estilos adicionales, sin anuncios: compra única.",
+            "Configuración → Ir Premium o Restaurar compras.",
+            "Selector de idioma: 12 configuraciones regionales, incluidos hebreo y árabe (RTL)."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Consejos y trucos",
+      "subtitle": "Aprovecha al máximo tu rastreador de rachas.",
+      "items": [
+        {
+          "title": "Un enfoque a la vez",
+          "description": "Time Since es un contador de días, no un planificador: realiza un seguimiento de lo que más importa en este momento."
+        },
+        {
+          "title": "si te resbalas",
+          "description": "Restablecer con un solo toque. Se preserva lo mejor de todos los tiempos para que pueda ser honesto y comenzar de nuevo."
+        },
+        {
+          "title": "Vistazo del widget",
+          "description": "Fija tu racha principal en la pantalla de inicio: la visibilidad diaria es mejor que abrir la aplicación."
+        },
+        {
+          "title": "Compartir hitos",
+          "description": "Publique una tarjeta de racha a los 7, 30 o 90 días para que sus amigos rindan cuentas."
+        },
+        {
+          "title": "Múltiples objetivos",
+          "description": "¿Necesitas más de 3 rachas? Premium desbloquea el seguimiento ilimitado: un pago justo, sin suscripción."
+        },
+        {
+          "title": "No se necesita cuenta",
+          "description": "Haz una copia de seguridad compartiendo tarjetas o anota tus fechas de inicio: los datos de la racha permanecen locales en tu dispositivo."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Cuentas, datos, Premium, plataformas y avisos legales de salud.",
+      "viewAllSupport": "Ver soporte completo y preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Qué es Time Since?",
+          "answer": "Time Since es un rastreador de rachas para iOS y Android. Cuente los días desde que dejó algo o los días consecutivos en los que está desarrollando un hábito, con anillos de objetivos, registros, widgets y tarjetas para compartir. Paquete Android: com.zuki.apps.timesince."
+        },
+        {
+          "question": "¿Necesito una cuenta?",
+          "answer": "No. Abre la aplicación y agrega una racha. No es necesario registrarse ni iniciar sesión."
+        },
+        {
+          "question": "¿Dónde se almacenan mis datos?",
+          "answer": "Los títulos, las fechas y los recuentos de las rachas permanecen en su dispositivo. Desinstalar la aplicación elimina tus rachas. No operamos una cuenta en la nube para contenido de racha."
+        },
+        {
+          "question": "¿Es Time Since una aplicación médica o de tratamiento de sobriedad?",
+          "answer": "No. Es una herramienta de seguimiento personal. Para obtener ayuda sobre el uso de sustancias, consulte a un profesional calificado."
+        },
+        {
+          "question": "¿Cómo funciona Premium?",
+          "answer": "Compra única desde la aplicación (com.zuki.apps.timesince.premium): rachas ilimitadas, hasta 5 widgets de pantalla de inicio, widgets premium y estilos para compartir, y sin anuncios. Restaura desde Configuración con tu Apple ID o cuenta de Google."
+        },
+        {
+          "question": "¿Por qué hay anuncios en la versión gratuita?",
+          "answer": "El nivel gratuito admite hasta 3 rachas con anuncios intersticiales y de banner opcionales. Premium elimina todos los anuncios para siempre, sin suscripción."
+        },
+        {
+          "question": "¿Qué pasa si recaigo o me pierdo un día?",
+          "answer": "Restablece la racha con un solo toque. Tu mejor récord de todos los tiempos se guarda para que puedas empezar de nuevo sin perder el historial."
+        },
+        {
+          "question": "¿Los widgets funcionan en iOS y Android?",
+          "answer": "Sí. Fija una racha en tu pantalla de inicio; Los widgets se actualizan diariamente. Premium desbloquea hasta 5 widgets y el estilo de timbre."
+        },
+        {
+          "question": "¿Qué idiomas son compatibles?",
+          "answer": "12 idiomas: inglés, hebreo, árabe, alemán, español, francés, italiano, japonés, coreano, portugués, ruso y chino (simplificado)."
+        },
+        {
+          "question": "¿Existe una versión iPad?",
+          "answer": "Sí. Time Since admite teléfonos y tabletas iPhone, iPad y Android en vertical y horizontal."
+        },
+        {
+          "question": "¿Cómo obtengo soporte?",
+          "answer": "Envíe un correo electrónico a zuki.apps.dev@gmail.com o visite https://zukiapps.com/timesince/support. Privacidad: https://zukiapps.com/timesince/privacy"
+        },
+        {
+          "question": "¿Dónde puedo descargar Time Since?",
+          "answer": "Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS El enlace de la App Store aparecerá en esta página cuando el listado esté activo."
+        }
+      ]
+    },
+    "premium": {
+      "title": "Vaya Premium. Manténgase concentrado.",
+      "subtitle": "Compra única, sin suscripción.",
+      "freeTitle": "Gratis",
+      "premiumTitle": "Premium",
+      "description": "Realice un seguimiento de hasta 3 rachas gratis con anuncios opcionales. Premium desbloquea rachas ilimitadas, hasta 5 widgets, estilos adicionales y elimina todos los anuncios, para siempre.",
+      "freeItems": [
+        "Hasta 3 rachas",
+        "1 widget de pantalla de inicio",
+        "Widget clásico y estilos para compartir",
+        "Registros y tarjetas compartidas",
+        "Con publicidad"
+      ],
+      "premiumItems": [
+        "Rachas ilimitadas",
+        "Hasta 5 widgets de pantalla de inicio",
+        "Estilo de widget de anillo + temas adicionales para compartir",
+        "Sin banners ni anuncios de pantalla completa",
+        "Compra única: restaurar en cualquier momento"
+      ]
+    },
+    "languages": {
+      "title": "12 idiomas",
+      "description": "Inglés, hebreo (RTL), árabe (RTL), alemán, español, francés, italiano, japonés, coreano, portugués, ruso y chino (simplificado)."
+    },
+    "status": {
+      "title": "Bajo construcción",
+      "description": "Time Since está en desarrollo activo. Los enlaces de la tienda aparecerán aquí cuando las compilaciones iOS y Android estén listas.",
+      "version": "Versión de destino",
+      "status": "Disponibilidad",
+      "versionValue": "0.9.0 (en desarrollo)",
+      "statusValue": "Próximamente · iOS y Android"
+    },
+    "download": {
+      "title": "Muy pronto",
+      "description": "Time Since estará disponible en la App Store y Google Play cuando el lanzamiento esté listo.",
+      "soon": "Próximamente en App Store y Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Time Since icono de la aplicación",
+      "appStoreAlt": "Descargar en la tienda de aplicaciones",
+      "googlePlayAlt": "Consíguelo en Google Play"
+    },
+    "links": {
+      "title": "Enlaces importantes",
+      "support": {
+        "title": "Soporte y preguntas frecuentes",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Google Play",
+        "description": "Descargar Time Since para Android"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Time Since — Todos los derechos reservados",
+      "tagline": "Parte de Zuki Apps · por Zuki.Apps"
+    },
+    "support": {
+      "title": "Soporte y ayuda",
+      "subtitle": "Encuentre respuestas sobre Time Since rachas, widgets, Premium y privacidad.",
+      "metaTitle": "Soporte y ayuda: Time Since | Zuki Apps",
+      "metaDescription": "Preguntas frecuentes sobre Time Since: seguimiento de rachas, modos de salida y compilación, widgets, Premium, datos locales y solución de problemas. iOS y Android.",
+      "contact": {
+        "title": "Contáctenos",
+        "description": "Envíenos un correo electrónico y nos comunicaremos con usted lo antes posible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Enlaces rápidos",
+        "privacy": {
+          "title": "política de privacidad",
+          "description": "Cómo Time Since maneja tus datos"
+        },
+        "terms": {
+          "title": "Condiciones de uso",
+          "description": "Términos de uso Time Since"
+        }
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": {
+          "question": "¿Cómo agrego mi primera racha?",
+          "answer": "Abre Time Since y toca Agregar una racha. Nómbralo, elige el modo salir o construir, opcionalmente establece un objetivo y guarda. No se requiere cuenta."
+        },
+        "q2": {
+          "question": "¿Qué pasa si reinicio una racha?",
+          "answer": "El contador activo se reinicia desde cero. Su mejor recuento de días de todos los tiempos se conserva en Registros."
+        },
+        "q3": {
+          "question": "¿Cómo agrego un widget de pantalla de inicio?",
+          "answer": "En iOS o Android, mantenga presionada la pantalla de inicio → Widgets → Time Since → elija su racha y estilo. Premium desbloquea hasta 5 widgets."
+        },
+        "q4": {
+          "question": "Premium no se activó después de la compra",
+          "answer": "Abra Configuración → Restaurar compras. Utilice la misma Apple ID o cuenta de Google que utilizó para comprar."
+        },
+        "q5": {
+          "question": "¿Mis rachas están respaldadas en la nube?",
+          "answer": "No. Los datos de Streak se almacenan localmente en su dispositivo. Exporte tarjetas compartidas o anote las fechas de inicio si necesita una copia de seguridad manual."
+        },
+        "q6": {
+          "question": "¿Dónde están las preguntas frecuentes completas?",
+          "answer": "Consulte las preguntas frecuentes en la página del producto Time Since o lea public/timesince/faq.md en zukiapps.com para obtener una copia compatible con el motor de respuestas."
+        }
+      },
+      "additionalHelp": {
+        "title": "¿Necesitas más ayuda?",
+        "description": "Si no pudo encontrar una respuesta, envíe un correo electrónico a zuki.apps.dev@gmail.com. Normalmente respondemos dentro de 24 a 48 horas."
+      }
+    },
+    "privacy": {
+      "title": "política de privacidad",
+      "metaDescription": "Política de privacidad para Time Since: almacenamiento de racha local, SDK de análisis y anuncios opcionales, compra de Premium, no se requiere cuenta.",
+      "lastUpdated": "Última actualización: julio de 2026",
+      "intro": "Esta Política de Privacidad explica cómo Zuki Apps (“nosotros”, “nos”) maneja la información cuando usted utiliza la aplicación móvil Time Since y las páginas relacionadas en zukiapps.com/timesince (el “Servicio”). Time Since almacena el contenido de tu racha en tu dispositivo. No requerimos una cuenta.",
+      "section1": {
+        "title": "1. Quiénes somos",
+        "content": "El responsable del tratamiento de datos de Time Since es Zuki Apps. Los datos de contacto se encuentran al final de esta Política.",
+        "content2": "Esta Política se aplica a la aplicación Time Since (iOS y Android) y a las páginas legales que publicamos para el producto."
+      },
+      "section2": {
+        "title": "2. Información que recopilamos",
+        "content": "Los títulos de las rachas, las fechas de inicio, los recuentos y las configuraciones de aplicaciones relacionadas se almacenan localmente en su dispositivo y no se transmiten a nuestros servidores.",
+        "items": [
+          "Contenido de racha: solo local, no recopilado en nuestros servidores",
+          "ID de dispositivo o publicidad (AdMob): se pueden usar para anuncios en la versión gratuita",
+          "Datos de interacción y fallas de la aplicación (Firebase Analytics / Crashlytics): diagnóstico agregado",
+          "Estado de la compra: confirmado mediante facturación Apple App Store o Google Play",
+          "Correo electrónico de soporte: si nos contacta directamente"
+        ]
+      },
+      "section3": {
+        "title": "3. Cómo utilizamos la información",
+        "content": "Usamos información para:",
+        "items": [
+          "Proporciona seguimiento de rachas, widgets, registros y funciones para compartir",
+          "Mostrar anuncios en el nivel gratuito (Google AdMob)",
+          "Mida la estabilidad y el uso de las aplicaciones mediante SDK de análisis",
+          "Procesar compras opcionales de Premium a través de las tiendas de aplicaciones",
+          "Responder a las solicitudes de soporte"
+        ],
+        "content2": "No vendemos su información personal. No subimos el contenido de tu racha a nuestros servidores."
+      },
+      "section4": {
+        "title": "4. Publicidad y análisis",
+        "content": "La versión gratuita puede mostrar anuncios intersticiales y de banner a través de Google AdMob. Firebase Analytics y Crashlytics pueden recopilar datos limitados de uso y dispositivo como se describe en las políticas de Google.",
+        "content2": "Premium elimina anuncios. El iOS, la aplicación puede solicitar permiso App Tracking Transparency para anuncios personalizados."
+      },
+      "section5": {
+        "title": "5. Almacenamiento y retención",
+        "content": "Los datos de las rachas permanecen en su dispositivo hasta que las elimine o desinstale la aplicación. No operamos una cuenta de usuario ni una copia de seguridad en la nube para el contenido de racha en v0.9.0.",
+        "content2": "Los correos electrónicos de soporte se conservan durante el tiempo necesario para resolver su solicitud."
+      },
+      "section6": {
+        "title": "6. Compras",
+        "content": "Premium (com.zuki.apps.timesince.premium) es una compra única de no consumibles facturada por Apple o Google. El pago lo realiza la tienda; solo recibimos confirmación de derechos.",
+        "content2": "Restaura compras desde Configuración con la misma cuenta de tienda."
+      },
+      "section7": {
+        "title": "7. Tus derechos y los niños",
+        "content": "Dependiendo de su jurisdicción, puede tener derechos para acceder, corregir, eliminar u oponerse a cierto procesamiento. Contáctenos para ejercer derechos.",
+        "content2": "Time Since no está dirigido a niños menores de 13 años (o la edad mínima en su país). No recopilamos conscientemente datos personales de niños."
+      },
+      "section8": {
+        "title": "8. Cambios",
+        "content": "Podemos actualizar esta Política de vez en cuando. Publicaremos la versión revisada con una nueva fecha de \"Última actualización\"."
+      },
+      "sectionContact": {
+        "title": "Contacto",
+        "content": "Preguntas sobre esta Política de Privacidad:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Condiciones de uso",
+      "metaDescription": "Términos de uso para Time Since: aplicación de seguimiento de rachas, compra de Premium, uso aceptable y exenciones de responsabilidad.",
+      "lastUpdated": "Última actualización: julio de 2026",
+      "intro": "Lea atentamente estos Términos de uso antes de usar Time Since. Al descargar, instalar o utilizar la aplicación, acepta estos Términos y nuestra Política de privacidad.",
+      "section1": {
+        "title": "1. Aceptación de Términos",
+        "content": "Estos Términos rigen su uso de Time Since (\"Servicio\", \"Aplicación\") operado por Zuki Apps (\"nosotros\", \"nos\"). Si no está de acuerdo, no utilice el Servicio.",
+        "content2": "Si utiliza el Servicio en nombre de una organización, declara que tiene autoridad para vincular a esa organización."
+      },
+      "section2": {
+        "title": "2. Descripción del Servicio",
+        "content": "Time Since es una aplicación de contador de días y rachas personales. El Servicio incluye:",
+        "items": [
+          "Seguimiento de racha en modo Salir y construir",
+          "Anillos de objetivos y progreso de hitos",
+          "Registros y tabla de clasificación en la aplicación",
+          "Tarjetas de racha compartibles",
+          "Widgets de la pantalla de inicio (iOS y Android)",
+          "Compra opcional única de Premium",
+          "12 interfaces de idiomas"
+        ]
+      },
+      "section3": {
+        "title": "3. No consejo médico",
+        "content": "Time Since es únicamente una herramienta de seguimiento personal. No es un dispositivo médico, un programa de tratamiento de sobriedad ni un sustituto del consejo de salud profesional.",
+        "content2": "Para uso de sustancias o apoyo de salud mental, consulte a un profesional calificado."
+      },
+      "section4": {
+        "title": "4. Premium y compras",
+        "content": "Opcional Premium es una compra única dentro de la aplicación facturada por Apple o Google. Los reembolsos siguen las políticas de la tienda. Identificación del producto: com.zuki.apps.timesince.premium.",
+        "content2": "Las características y los precios pueden cambiar con previo aviso cuando lo exija la ley."
+      },
+      "section5": {
+        "title": "5. Uso aceptable",
+        "content": "Usted acepta no:",
+        "items": [
+          "Realizar ingeniería inversa en la aplicación, excepto en los casos permitidos por la ley.",
+          "Utilizar el Servicio con fines ilegales",
+          "Interferir con anuncios, análisis o funciones de seguridad.",
+          "Tergiversar la afiliación con Zuki Apps"
+        ]
+      },
+      "section6": {
+        "title": "6. Descargo de responsabilidad",
+        "content": "El Servicio se proporciona \"tal cual\" sin garantías de ningún tipo. No garantizamos un funcionamiento ininterrumpido o libre de errores.",
+        "content2": "Los datos de tu racha se almacenan localmente; usted es responsable de hacer una copia de seguridad de la información que le interesa."
+      },
+      "section7": {
+        "title": "7. Limitación de responsabilidad",
+        "content": "En la medida máxima permitida por la ley, Zuki Apps no será responsable de los daños indirectos, incidentales o consecuentes que surjan del uso del Servicio."
+      },
+      "section8": {
+        "title": "8. Cambios",
+        "content": "Podemos modificar estos Términos. El uso continuado después de la fecha de vigencia constituye aceptación."
+      },
+      "sectionContact": {
+        "title": "Contacto",
+        "content": "Preguntas sobre estos Términos:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}

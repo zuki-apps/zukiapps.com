@@ -1,0 +1,580 @@
+{
+  "timeSince": {
+    "back": "返回首页",
+    "hero": {
+      "badge": "正在建设中 · 即将推出",
+      "title": "不要破坏链条。",
+      "productName": "Time Since — 连续追踪器",
+      "subtitle": "Time Since — 连续追踪器",
+      "description": "连续追踪器，用于记录您正在养成的习惯以及戒烟后的天数 - 带有目标环、小部件和可共享的连续记录卡。该应用程序仍在开发中。",
+      "socialProof": "即将于 iOS 和 Android 推出 · 无需帐户",
+      "structuredDataDescription": "Time Since — iOS 和 Android 的条纹跟踪器（正在建设中）。实时计数器、目标环、小部件和共享卡。 Android com.zuki.apps.timesince. 条纹数据保留在您的设备上。",
+      "phoneAlt": "Time Since 应用程序预览",
+      "seoTitle": "Time Since — 连胜追踪器（即将推出）| Zuki Apps",
+      "metaDescription": "Time Since 条纹跟踪器正在建设中。隐私、条款和支持现已提供。即将推出 iOS 和 Android。"
+    },
+    "legalNav": {
+      "privacy": "隐私政策",
+      "terms": "使用条款",
+      "support": "支持与常见问题解答",
+      "contact": "接触"
+    },
+    "underConstruction": {
+      "title": "我们正在构建 Time Since",
+      "message": "该应用程序尚未在商店上架。此页面是商店合规性的预览 - 完整的营销内容将在发布时上线。",
+      "note": "下面提供了隐私政策、使用条款和支持。",
+      "highlights": [
+        "使用实时计数器退出并建立连续模式",
+        "球门环、个人记录和分享卡",
+        "iOS 和 Android 上的主屏幕小部件",
+        "连续数据存储在您的设备上 - 无需帐户"
+      ]
+    },
+    "pageNav": {
+      "features": "特征",
+      "screenshots": "截图",
+      "howTo": "如何使用",
+      "useCases": "使用案例",
+      "manual": "手动的",
+      "tips": "尖端",
+      "faq": "常问问题",
+      "premium": "Premium",
+      "download": "下载"
+    },
+    "features": {
+      "title": "进步看得见",
+      "counters": {
+        "title": "实时计数器",
+        "description": "您的连胜记录每天都会更新——退出模式会计算您离开后的时间；构建模式连续几天堆叠。",
+        "items": [
+          "自动每日刻度",
+          "退出和构建模式",
+          "清晰的大数字显示",
+          "诚实重置不丢失记录"
+        ]
+      },
+      "goals": {
+        "title": "适合的目标",
+        "description": "选择 7 天、30 天、90 天或更长时间。当您接近里程碑时，请注意进度环的填充。",
+        "items": [
+          "定制目标长度",
+          "视觉进度环",
+          "里程碑庆典",
+          "每连胜目标"
+        ]
+      },
+      "records": {
+        "title": "您的记录",
+        "description": "历史最佳成绩、追踪的总天数、达成的目标——您所做的一切的个人名人堂。",
+        "items": [
+          "最长连续活跃时间",
+          "个人历史最佳成绩",
+          "跟踪总天数",
+          "应用内排行榜"
+        ]
+      },
+      "share": {
+        "title": "分享你的胜利",
+        "description": "生成一张漂亮的连胜卡并将其张贴在任何庆祝进步的地方。",
+        "items": [
+          "导出为图像",
+          "多种分享主题",
+          "Premium 可用款式",
+          "完美的问责制"
+        ]
+      },
+      "widgets": {
+        "title": "主屏幕小部件",
+        "description": "将您的连胜记录固定在 iPhone、iPad 和 Android 上。小部件每天更新​​ - 即使应用程序关闭。",
+        "items": [
+          "iOS 和 Android 小部件",
+          "经典、简约、大胆的风格",
+          "戒指款式 (Premium)",
+          "最多 5 个小部件插槽 (Premium)"
+        ]
+      },
+      "privacy": {
+        "title": "在您的设备上",
+        "description": "没有帐户。您的连胜标题、日期和计数保留在您的手机上，而不是我们的服务器上。",
+        "items": [
+          "无需注册",
+          "本地存储仅用于条纹",
+          "打开应用程序并添加条纹",
+          "卸载会删除本地数据"
+        ]
+      }
+    },
+    "modes": {
+      "title": "退出还是建设？两者都算。",
+      "subtitle": "两种跟踪模式以及适合您旅程的语言。",
+      "quit": {
+        "title": "退出/回避",
+        "description": "计算一下你离开后的时间——吸烟、喝酒、社交媒体、垃圾食品或任何你留下的东西。"
+      },
+      "build": {
+        "title": "养成习惯",
+        "description": "连续几天进行锻炼、阅读、冥想、睡眠习惯或任何日常练习。"
+      }
+    },
+    "screenshots": {
+      "title": "查看 Time Since 的实际应用",
+      "subtitle": "主页、小部件、条纹详细信息、记录、共享卡和快速设置。",
+      "featuresTitle": "应用程序屏幕",
+      "items": [
+        {
+          "id": "家",
+          "title": "你所有的条纹，一目了然",
+          "description": "主屏幕上有多个条纹 - 并排退出和构建模式。",
+          "image": "/images/timesince/screenshot-home.png",
+          "alt": "Time Since 主屏幕有多个条纹卡",
+          "category": "特征"
+        },
+        {
+          "id": "小部件",
+          "title": "你的踪迹，始终可见",
+          "description": "iOS 和 Android 上的主屏幕小部件每天都会更新。",
+          "image": "/images/timesince/screenshot-widget.png",
+          "alt": "Time Since 主屏幕小部件预览",
+          "category": "特征"
+        },
+        {
+          "id": "细节",
+          "title": "大数字。明显的进展。",
+          "description": "带有实时天数和进球环的条纹细节。",
+          "image": "/images/timesince/screenshot-detail.png",
+          "alt": "Time Since 条纹细节，带日计数器和球门环",
+          "category": "特征"
+        },
+        {
+          "id": "记录",
+          "title": "你的名人堂",
+          "description": "个人最好成绩、总成绩以及连胜排行榜。",
+          "image": "/images/timesince/screenshot-records.png",
+          "alt": "Time Since 记录和个人最好成绩屏幕",
+          "category": "特征"
+        },
+        {
+          "id": "分享",
+          "title": "庆祝里程碑",
+          "description": "可分享的连胜卡值得发布给朋友和社交媒体。",
+          "image": "/images/timesince/screenshot-share.png",
+          "alt": "Time Since 可共享条纹卡",
+          "category": "特征"
+        },
+        {
+          "id": "编辑",
+          "title": "几秒钟内即可完成设置",
+          "description": "为您的连胜命名、选择模式、设定目标 — 无需帐户。",
+          "image": "/images/timesince/screenshot-editor.png",
+          "alt": "Time Since 新连胜编辑器",
+          "category": "特征"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "如何使用Time Since",
+      "steps": [
+        {
+          "number": "1",
+          "title": "添加条纹",
+          "description": "打开应用程序，点击添加条纹，为其命名，然后选择退出或构建模式。"
+        },
+        {
+          "number": "2",
+          "title": "设定目标",
+          "description": "选择 7 天、30 天或 90 天等目标，然后观察进度环的填充情况。"
+        },
+        {
+          "number": "3",
+          "title": "保持可见",
+          "description": "当您达到里程碑时，固定小部件、检查记录并分享卡片。"
+        }
+      ]
+    },
+    "useCases": {
+      "title": "非常适合",
+      "subtitle": "真实的旅程中，看清日子很重要。",
+      "items": [
+        {
+          "title": "戒烟或戒酒",
+          "description": "实时查看天数加起来。以随时都能看一眼的气势抵抗“一次”。"
+        },
+        {
+          "title": "日常习惯",
+          "description": "锻炼、阅读、冥想或睡眠——连续几天累积 30/90/365 个里程碑。"
+        },
+        {
+          "title": "社交媒体中断",
+          "description": "记录自从您离开那些消耗您注意力的信息流以来的时间。"
+        },
+        {
+          "title": "里程碑式的好奇心",
+          "description": "自从新工作、上次争论或个人重置以来的天数——简单的计数器，没有混乱。"
+        }
+      ]
+    },
+    "manual": {
+      "title": "用户手册",
+      "subtitle": "连胜、进球、记录、小部件和 Premium。",
+      "sections": [
+        {
+          "title": "1. 主场与连胜",
+          "steps": [
+            "点击 + 添加连胜 — 名称、表情符号、退出或构建模式。",
+            "点击条纹卡可查看详细信息和进度环。",
+            "滑动或使用菜单来编辑、重置或删除条纹。",
+            "重置可保留您的历史最佳记录。"
+          ]
+        },
+        {
+          "title": "2. 目标和记录",
+          "steps": [
+            "创建或编辑连胜时设定目标。",
+            "记录选项卡显示总计、最佳成绩和达到的目标。",
+            "比较应用内排行榜上的连胜记录。"
+          ]
+        },
+        {
+          "title": "3. 小工具和分享",
+          "steps": [
+            "长按主屏幕→添加Time Since小部件。",
+            "选择条纹和风格（经典、简约、大胆；戒指上 Premium）。",
+            "“共享”选项卡会生成用于社交或消息的条纹卡图像。"
+          ]
+        },
+        {
+          "title": "4. Premium 及设置",
+          "steps": [
+            "免费：最多 3 次条纹，1 个小部件，支持广告。",
+            "Premium：无限条纹、5 个小部件、额外样式、无广告 — 一次性购买。",
+            "设置 → 前往 Premium 或恢复购买。",
+            "语言选择器：12 种语言环境，包括希伯来语和阿拉伯语 (RTL)。"
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "提示和技巧",
+      "subtitle": "充分利用您的连胜追踪器。",
+      "items": [
+        {
+          "title": "一次一个焦点",
+          "description": "Time Since 是一个日计数器，而不是一个计划器——跟踪现在最重要的一件事。"
+        },
+        {
+          "title": "如果你滑倒了",
+          "description": "一键重置。您的历史最佳成绩将得到保留，以便您可以诚实地重新开始。"
+        },
+        {
+          "title": "小部件一目了然",
+          "description": "将您的主要连续记录固定在主屏幕上 - 日常可见性胜过打开应用程序。"
+        },
+        {
+          "title": "分享里程碑",
+          "description": "在第 7 天、30 天或 90 天时张贴连胜卡，以便朋友们承担责任。"
+        },
+        {
+          "title": "多个目标",
+          "description": "需要 3 条以上的条纹吗？ Premium 解锁无限跟踪——一次公平付款，无需订阅。"
+        },
+        {
+          "title": "无需帐户",
+          "description": "通过共享卡片进行备份或记下您的开始日期 - 连胜数据保留在您的设备本地。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "账户、数据、Premium、平台和健康免责声明。",
+      "viewAllSupport": "查看完整的支持和常见问题解答",
+      "items": [
+        {
+          "question": "什么是 Time Since？",
+          "answer": "Time Since 是 iOS 和 Android 的连续跟踪器。使用目标环、记录、小部件和分享卡来计算您戒掉某件事的天数或连续几天您养成习惯的时间。 Android 封装：com.zuki.apps.timesince."
+        },
+        {
+          "question": "我需要一个帐户吗？",
+          "answer": "不。打开应用程序并添加一个条纹。无需注册或登录。"
+        },
+        {
+          "question": "我的数据存储在哪里？",
+          "answer": "连胜标题、日期和计数保留在您的设备上。卸载该应用程序会删除您的条纹。我们不运营连续内容的云帐户。"
+        },
+        {
+          "question": "Time Since 是医疗或清醒治疗应用程序吗？",
+          "answer": "不，它是一个个人跟踪工具。如需物质使用支持，请咨询合格的专业人士。"
+        },
+        {
+          "question": "Premium 如何工作？",
+          "answer": "一次性应用内购买 (com.zuki.apps.timesince.premium)：无限次使用、最多 5 个主屏幕小部件、高级小部件和共享样式，并且无广告。使用您的 Apple ID 或 Google 帐户从设置中恢复。"
+        },
+        {
+          "question": "为什么免费版本有广告？",
+          "answer": "免费套餐最多支持 3 条带有可选横幅和插页式广告的条纹。 Premium 永久删除所有广告 - 无需订阅。"
+        },
+        {
+          "question": "如果我复发或错过一天怎么办？",
+          "answer": "一键重置连胜。您的历史最佳记录将被保留，以便您可以重新开始而不会丢失历史记录。"
+        },
+        {
+          "question": "小部件可以在 iOS 和 Android 上运行吗？",
+          "answer": "是的。在主屏幕上固定一条条纹；小部件每天更新​​。 Premium 解锁最多 5 个小部件和戒指样式。"
+        },
+        {
+          "question": "支持哪些语言？",
+          "answer": "12 种语言：英语、希伯来语、阿拉伯语、德语、西班牙语、法语、意大利语、日语、韩语、葡萄牙语、俄语和中文（简体）。"
+        },
+        {
+          "question": "有 iPad 版本吗？",
+          "answer": "是的。 Time Since 支持 iPhone、iPad 和 Android 手机和平板电脑的纵向和横向。"
+        },
+        {
+          "question": "我如何获得支持？",
+          "answer": "发送电子邮件至 zuki.apps.dev@gmail.com 或访问 https://zukiapps.com/timesince/support. 隐私权：https://zukiapps.com/timesince/privacy"
+        },
+        {
+          "question": "哪里可以下载Time Since？",
+          "answer": "Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS 当列表上线时，App Store 链接将出现在此页面上。"
+        }
+      ]
+    },
+    "premium": {
+      "title": "去Premium。保持专注。",
+      "subtitle": "一次性购买——无需订阅。",
+      "freeTitle": "自由的",
+      "premiumTitle": "Premium",
+      "description": "通过可选广告免费跟踪最多 3 条记录。 Premium 解锁无限的条纹、最多 5 个小部件、额外的样式，并永久删除所有广告。",
+      "freeItems": [
+        "最多 3 条",
+        "1 个主屏幕小部件",
+        "经典小部件和共享样式",
+        "记录和共享卡",
+        "广告支持"
+      ],
+      "premiumItems": [
+        "无限连击",
+        "最多 5 个主屏幕小部件",
+        "戒指小部件风格+额外的分享主题",
+        "没有横幅或全屏广告",
+        "一次性购买——随时恢复"
+      ]
+    },
+    "languages": {
+      "title": "12种语言",
+      "description": "英语、希伯来语 (RTL)、阿拉伯语 (RTL)、德语、西班牙语、法语、意大利语、日语、韩语、葡萄牙语、俄语和中文（简体）。"
+    },
+    "status": {
+      "title": "建设中",
+      "description": "Time Since 正在积极开发中。当 iOS 和 Android 版本准备就绪时，商店链接将出现在此处。",
+      "version": "目标版本",
+      "status": "可用性",
+      "versionValue": "0.9.0（开发中）",
+      "statusValue": "即将推出 · iOS 和 Android"
+    },
+    "download": {
+      "title": "即将推出",
+      "description": "Time Since 将在 App Store 上提供，Google Play 则在发布准备就绪后提供。",
+      "soon": "即将登陆 App Store 和 Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Time Since 应用程序图标",
+      "appStoreAlt": "在应用商店下载",
+      "googlePlayAlt": "获取 Google Play"
+    },
+    "links": {
+      "title": "重要链接",
+      "support": {
+        "title": "支持与常见问题解答",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Google Play",
+        "description": "下载 Android 的 Time Since"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Time Since — 版权所有",
+      "tagline": "Zuki Apps · 的一部分，作者：Zuki.Apps"
+    },
+    "support": {
+      "title": "支持与帮助",
+      "subtitle": "查找有关 Time Since 条纹、小部件、Premium 和隐私的答案。",
+      "metaTitle": "支持与帮助 — Time Since | Zuki Apps",
+      "metaDescription": "Time Since 常见问题解答 — 连续跟踪、退出和构建模式、小部件、Premium、本地数据和故障排除。 iOS 和 Android。",
+      "contact": {
+        "title": "联系我们",
+        "description": "给我们发电子邮件，我们会尽快回复您。",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "快速链接",
+        "privacy": {
+          "title": "隐私政策",
+          "description": "Time Since 如何处理您的数据"
+        },
+        "terms": {
+          "title": "使用条款",
+          "description": "使用条款 Time Since"
+        }
+      },
+      "faq": {
+        "title": "常见问题",
+        "q1": {
+          "question": "如何添加我的第一个连胜？",
+          "answer": "打开 Time Since 并点击添加条纹。命名它，选择退出或构建模式，可选择设置目标，然后保存。无需帐户。"
+        },
+        "q2": {
+          "question": "如果我重置连胜会发生什么？",
+          "answer": "活动计数器从零重新开始。您的历史最佳天数会保存在记录中。"
+        },
+        "q3": {
+          "question": "如何添加主屏幕小部件？",
+          "answer": "在iOS或Android上，长按主屏幕→小部件→Time Since→选择您的连胜和风格。 Premium 最多可解锁 5 个小部件。"
+        },
+        "q4": {
+          "question": "Premium 购买后未激活",
+          "answer": "打开设置 → 恢复购买。使用您购买时使用的相同 Apple ID 或 Google 帐户。"
+        },
+        "q5": {
+          "question": "我的连续记录是否已备份到云端？",
+          "answer": "不会。Streak 数据存储在您的设备本地。如果您需要手动备份，请导出共享卡或记下开始日期。"
+        },
+        "q6": {
+          "question": "完整的常见问题解答在哪里？",
+          "answer": "请参阅 Time Since 产品页面上的常见问题解答，或阅读 zukiapps.com 上的 public/timesince/faq.md 以获取答案引擎友好的副本。"
+        }
+      },
+      "additionalHelp": {
+        "title": "需要更多帮助吗？",
+        "description": "如果您找不到答案，请发送电子邮件至 zuki.apps.dev@gmail.com。我们通常会在 24-48 小时内回复。"
+      }
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "metaDescription": "Time Since 的隐私政策 — 本地连续存储、可选广告和分析 SDK、Premium 购买，无需帐户。",
+      "lastUpdated": "最后更新时间：2026 年 7 月",
+      "intro": "本隐私政策解释了当您使用 Time Since 移动应用程序和 zukiapps.com/timesince 的相关页面（“服务”）时 Zuki Apps（“我们”）如何处理信息。 Time Since 将您的连胜内容存储在您的设备上。我们不需要帐户。",
+      "section1": {
+        "title": "1. 我们是谁",
+        "content": "Time Since 的数据控制器是 Zuki Apps。详细联系信息位于本政策末尾。",
+        "content2": "本政策适用于 Time Since 应用程序（iOS 和 Android）以及我们为该产品发布的法律页面。"
+      },
+      "section2": {
+        "title": "2.我们收集的信息",
+        "content": "连胜标题、开始日期、计数和相关应用程序设置均存储在您的设备本地，不会传输到我们的服务器。",
+        "items": [
+          "条纹内容：仅限本地 - 不收集在我们的服务器上",
+          "设备或广告 ID (AdMob)：可用于免费版本中的广告",
+          "应用程序交互和崩溃数据 (Firebase Analytics / Crashlytics)：聚合诊断",
+          "购买状态：通过 Apple App Store 或 Google Play 账单确认",
+          "支持电子邮件：如果您直接联系我们"
+        ]
+      },
+      "section3": {
+        "title": "3. 我们如何使用信息",
+        "content": "我们使用信息来：",
+        "items": [
+          "提供连续追踪、小部件、记录和共享功能",
+          "在免费套餐中展示广告 (Google AdMob)",
+          "通过分析 SDK 衡量应用程序稳定性和使用情况",
+          "通过应用商店处理可选的 Premium 购买",
+          "响应支持请求"
+        ],
+        "content2": "我们不会出售您的个人信息。我们不会将您的连胜内容上传到我们的服务器。"
+      },
+      "section4": {
+        "title": "4. 广告和分析",
+        "content": "免费版本可能会通过 Google AdMob 显示横幅和插页式广告。 Firebase Analytics 和 Crashlytics 可能会收集 Google 政策中所述的有限设备和使用数据。",
+        "content2": "Premium 删除广告。在 iOS 上，应用可能会请求 App Tracking Transparency 权限来投放个性化广告。"
+      },
+      "section5": {
+        "title": "5. 储存和保留",
+        "content": "条纹数据会保留在您的设备上，直到您删除条纹或卸载应用程序。在 v0.9.0 中，我们不会为 streak 内容操作用户帐户或云备份。",
+        "content2": "只要需要解决您的请求，支持电子邮件就会被保留。"
+      },
+      "section6": {
+        "title": "6. 采购",
+        "content": "Premium (com.zuki.apps.timesince.premium) 是由 Apple 或 Google 计费的一次性非消耗性购买。付款由商店处理；我们仅收到权利确认。",
+        "content2": "使用同一商店帐户从“设置”恢复购买。"
+      },
+      "section7": {
+        "title": "7. 您的权利和孩子",
+        "content": "根据您所在的司法管辖区，您可能有权访问、更正、删除或反对某些处理。联系我们以行使权利。",
+        "content2": "Time Since 不适用于 13 岁（或您所在国家/地区的最低年龄）以下的儿童。我们不会故意收集儿童的个人数据。"
+      },
+      "section8": {
+        "title": "8. 变化",
+        "content": "我们可能会不时更新本政策。我们将发布带有新的“最后更新”日期的修订版本。"
+      },
+      "sectionContact": {
+        "title": "接触",
+        "content": "有关本隐私政策的问题：",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "使用条款",
+      "metaDescription": "Time Since 使用条款 — 条纹跟踪器应用程序、Premium 购买、可接受的使用和免责声明。",
+      "lastUpdated": "最后更新时间：2026 年 7 月",
+      "intro": "在使用 Time Since 之前，请仔细阅读这些使用条款。下载、安装或使用该应用程序，即表示您同意这些条款和我们的隐私政策。",
+      "section1": {
+        "title": "1. 接受条款",
+        "content": "这些条款管辖您对 Zuki Apps（“我们”）运营的 Time Since（“服务”、“应用程序”）的使用。如果您不同意，请勿使用该服务。",
+        "content2": "如果您代表某个组织使用本服务，则您声明您有权约束该组织。"
+      },
+      "section2": {
+        "title": "2. 服务说明",
+        "content": "Time Since 是一款个人记录和日计数器应用程序。该服务包括：",
+        "items": [
+          "退出并构建模式连续跟踪",
+          "目标环和里程碑进展",
+          "记录和应用内排行榜",
+          "可共享的连胜卡",
+          "主屏幕小部件（iOS 和 Android）",
+          "可选的一次性 Premium 购买",
+          "12种语言界面"
+        ]
+      },
+      "section3": {
+        "title": "3. 并非医疗建议",
+        "content": "Time Since 只是个人跟踪工具。它不是医疗设备、清醒治疗计划，也不是专业健康建议的替代品。",
+        "content2": "如需药物使用或心理健康支持，请咨询合格的专业人士。"
+      },
+      "section4": {
+        "title": "4. Premium 和购买",
+        "content": "可选 Premium 是由 Apple 或 Google 计费的一次性应用内购买。退款遵循商店的政策。产品 ID：com.zuki.apps.timesince.premium.",
+        "content2": "根据法律要求，功能和定价可能会发生变化，并发出通知。"
+      },
+      "section5": {
+        "title": "5. 可接受的使用",
+        "content": "您同意不会：",
+        "items": [
+          "除非法律允许，否则对应用程序进行逆向工程",
+          "将服务用于非法目的",
+          "干扰广告、分析或安全功能",
+          "歪曲与 Zuki Apps 的关系"
+        ]
+      },
+      "section6": {
+        "title": "6. 免责声明",
+        "content": "服务按“原样”提供，不提供任何形式的保证。我们不保证不间断或无错误的操作。",
+        "content2": "您的连胜数据存储在本地；您有责任备份您关心的信息。"
+      },
+      "section7": {
+        "title": "7. 责任限制",
+        "content": "在法律允许的最大范围内，Zuki Apps 不对因使用服务而产生的间接、偶然或后果性损害承担责任。"
+      },
+      "section8": {
+        "title": "8. 变化",
+        "content": "我们可能会修改这些条款。生效日期后继续使用即表示接受。"
+      },
+      "sectionContact": {
+        "title": "接触",
+        "content": "有关这些条款的问题：",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}

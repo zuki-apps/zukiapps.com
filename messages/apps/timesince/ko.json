@@ -1,0 +1,580 @@
+{
+  "timeSince": {
+    "back": "홈으로 돌아가기",
+    "hero": {
+      "badge": "공사중 · 곧 출시 예정",
+      "title": "사슬을 끊지 마십시오.",
+      "productName": "Time Since — 연속 추적기",
+      "subtitle": "Time Since — 연속 추적기",
+      "description": "목표 링, 위젯, 공유 가능한 연속 카드를 통해 쌓고 있는 습관과 금연한 이후의 일수를 추적하는 연속 추적기입니다. 앱은 아직 개발 중입니다.",
+      "socialProof": "iOS 및 Android에 출시 예정 · 계정이 필요하지 않습니다",
+      "structuredDataDescription": "Time Since — iOS 및 Android에 대한 연속 추적기(제작 중). 라이브 데이 카운터, 골 링, 위젯 및 공유 카드. Android com.zuki.apps.timesince. 연속 데이터는 기기에 유지됩니다.",
+      "phoneAlt": "Time Since 앱 미리보기",
+      "seoTitle": "Time Since — 연속 추적기(출시 예정) | Zuki Apps",
+      "metaDescription": "Time Since 연속 추적기는 제작 중입니다. 개인 정보 보호, 약관 및 지원이 지금 제공됩니다. iOS 및 Android에 곧 출시됩니다."
+    },
+    "legalNav": {
+      "privacy": "개인 정보 보호 정책",
+      "terms": "이용약관",
+      "support": "지원 및 FAQ",
+      "contact": "연락하다"
+    },
+    "underConstruction": {
+      "title": "우리는 Time Since을(를) 짓고 있습니다",
+      "message": "해당 앱은 아직 매장에 없습니다. 이 페이지는 매장 규정 준수에 대한 미리보기입니다. 전체 마케팅 콘텐츠는 출시 시 게시됩니다.",
+      "note": "개인 정보 보호 정책, 이용 약관 및 지원은 아래에서 확인할 수 있습니다.",
+      "highlights": [
+        "실시간 일일 카운터를 사용하여 종료 및 연속 모드 구축",
+        "골링, 개인 기록, 공유 카드",
+        "iOS 및 Android의 홈 화면 위젯",
+        "귀하의 장치에 저장된 연속 데이터 — 계정 없음"
+      ]
+    },
+    "pageNav": {
+      "features": "특징",
+      "screenshots": "스크린샷",
+      "howTo": "사용방법",
+      "useCases": "사용 사례",
+      "manual": "수동",
+      "tips": "팁",
+      "faq": "FAQ",
+      "premium": "Premium",
+      "download": "다운로드"
+    },
+    "features": {
+      "title": "당신이 볼 수있는 진행 상황",
+      "counters": {
+        "title": "라이브 데이 카운터",
+        "description": "연속 기록은 매일 업데이트됩니다. 종료 모드에서는 자리를 떠난 이후의 시간을 계산합니다. 빌드 모드는 연속적으로 며칠 동안 쌓입니다.",
+        "items": [
+          "자동 일일 틱",
+          "종료 및 빌드 모드",
+          "큰 숫자 표시 지우기",
+          "기록을 잃지 않고 정직하게 재설정"
+        ]
+      },
+      "goals": {
+        "title": "적합한 목표",
+        "description": "7일, 30일, 90일 이상을 선택하세요. 목표에 가까워짐에 따라 진행률 링이 채워지는 것을 지켜보세요.",
+        "items": [
+          "맞춤 목표 길이",
+          "시각적 진행률 링",
+          "마일스톤 축하",
+          "연속 목표"
+        ]
+      },
+      "records": {
+        "title": "귀하의 기록",
+        "description": "역대 최고 기록, 추적된 총 일수, 목표 달성 — 귀하가 진행 중인 모든 작업에 대한 개인 명예의 전당입니다.",
+        "items": [
+          "가장 긴 활성 연속 기록",
+          "역대 개인 최고 기록",
+          "추적된 총 일수",
+          "인앱 리더보드"
+        ]
+      },
+      "share": {
+        "title": "당신의 승리를 공유하세요",
+        "description": "아름다운 연속 카드를 생성하고 진행 상황을 축하하는 곳에 게시하세요.",
+        "items": [
+          "이미지로 내보내기",
+          "다양한 공유 테마",
+          "Premium 스타일 사용 가능",
+          "책임에 딱 맞습니다"
+        ]
+      },
+      "widgets": {
+        "title": "홈 화면 위젯",
+        "description": "iPhone, iPad, Android에서 연속 기록을 고정하세요. 위젯은 매일 업데이트됩니다. 앱이 종료된 경우에도 마찬가지입니다.",
+        "items": [
+          "iOS 및 Android 위젯",
+          "클래식하고 미니멀하며 대담한 스타일",
+          "링 스타일(Premium)",
+          "위젯 슬롯 최대 5개(Premium)"
+        ]
+      },
+      "privacy": {
+        "title": "귀하의 기기에서",
+        "description": "계정이 없습니다. 연속 기록 제목, 날짜, 횟수는 당사 서버가 아닌 휴대폰에 보관됩니다.",
+        "items": [
+          "가입이 필요하지 않습니다",
+          "줄무늬 전용 로컬 저장소",
+          "앱을 열고 줄무늬를 추가하세요",
+          "제거하면 로컬 데이터가 제거됩니다."
+        ]
+      }
+    },
+    "modes": {
+      "title": "그만두거나 건물을 짓고 있습니까? 둘 다 중요합니다.",
+      "subtitle": "여행에 맞는 언어를 사용하는 두 가지 추적 모드.",
+      "quit": {
+        "title": "그만두다 / 피하다",
+        "description": "흡연, 음주, 소셜 미디어, 정크 푸드 또는 두고 온 모든 것 등 떠나온 이후의 시간을 세어보세요."
+      },
+      "build": {
+        "title": "습관 만들기",
+        "description": "운동, 독서, 명상, 수면 루틴 또는 일상적인 연습을 위해 연속적으로 며칠을 쌓으세요."
+      }
+    },
+    "screenshots": {
+      "title": "Time Since의 실제 작동 모습을 확인하세요.",
+      "subtitle": "홈, 위젯, 연속 세부 정보, 기록, 카드 공유 및 빠른 설정.",
+      "featuresTitle": "앱 화면",
+      "items": [
+        {
+          "id": "집",
+          "title": "당신의 모든 줄무늬를 한 눈에",
+          "description": "홈 화면에 여러 줄이 표시됩니다. 종료 모드와 빌드 모드가 나란히 표시됩니다.",
+          "image": "/images/timesince/screenshot-home.png",
+          "alt": "Time Since 여러 개의 연속 카드가 있는 홈 화면",
+          "category": "특징"
+        },
+        {
+          "id": "위젯",
+          "title": "당신의 행진은 항상 눈에 띕니다",
+          "description": "iOS 및 Android의 홈 화면 위젯은 매일 업데이트됩니다.",
+          "image": "/images/timesince/screenshot-widget.png",
+          "alt": "Time Since 홈 화면 위젯 미리보기",
+          "category": "특징"
+        },
+        {
+          "id": "세부 사항",
+          "title": "큰 숫자. 명확한 진행 상황.",
+          "description": "실시간 일수 및 골 링을 통한 연속 세부 정보.",
+          "image": "/images/timesince/screenshot-detail.png",
+          "alt": "Time Since 일일 카운터 및 골 링이 포함된 연속 세부 정보",
+          "category": "특징"
+        },
+        {
+          "id": "기록",
+          "title": "당신의 명예의 전당",
+          "description": "개인 최고 기록, 총계, 연속 기록 순위표.",
+          "image": "/images/timesince/screenshot-records.png",
+          "alt": "Time Since 기록 및 개인 최고 기록 화면",
+          "category": "특징"
+        },
+        {
+          "id": "공유하다",
+          "title": "이정표를 축하하세요",
+          "description": "친구와 소셜 미디어에 게시할 가치가 있는 공유 가능한 연속 카드입니다.",
+          "image": "/images/timesince/screenshot-share.png",
+          "alt": "Time Since 공유 가능한 연속 카드",
+          "category": "특징"
+        },
+        {
+          "id": "편집자",
+          "title": "몇 초 만에 설정",
+          "description": "연속 기록의 이름을 지정하고, 모드를 선택하고, 목표를 설정하세요. 계정이 필요하지 않습니다.",
+          "image": "/images/timesince/screenshot-editor.png",
+          "alt": "Time Since 새로운 연속 편집자",
+          "category": "특징"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "Time Since 사용 방법",
+      "steps": [
+        {
+          "number": "1",
+          "title": "줄무늬 추가",
+          "description": "앱을 열고 줄무늬 추가를 탭한 후 이름을 지정하고 종료 또는 빌드 모드를 선택합니다."
+        },
+        {
+          "number": "2",
+          "title": "목표를 설정하세요",
+          "description": "7일, 30일, 90일 등의 목표를 선택하고 진행률 링이 채워지는 것을 지켜보세요."
+        },
+        {
+          "number": "3",
+          "title": "눈에 띄게 유지",
+          "description": "목표를 달성하면 위젯을 고정하고, 기록을 확인하고, 카드를 공유하세요."
+        }
+      ]
+    },
+    "useCases": {
+      "title": "완벽한 대상",
+      "subtitle": "날짜 계산이 중요한 실제 여행.",
+      "items": [
+        {
+          "title": "담배나 술을 끊는다",
+          "description": "실시간으로 추가되는 날짜를 확인하세요. 언제든지 한눈에 볼 수 있는 추진력으로 \"한 번만\" 저항하세요."
+        },
+        {
+          "title": "일상 습관",
+          "description": "운동, 독서, 명상, 수면 등을 연속으로 쌓아 30/90/365 마일스톤을 달성하세요."
+        },
+        {
+          "title": "소셜 미디어 휴식",
+          "description": "주의를 집중시키는 피드에서 벗어난 이후의 시간을 추적하세요."
+        },
+        {
+          "title": "마일스톤 호기심",
+          "description": "새 직장, 마지막 논쟁 또는 개인 재설정 이후의 일 수 — 복잡하지 않은 간단한 카운터입니다."
+        }
+      ]
+    },
+    "manual": {
+      "title": "사용설명서",
+      "subtitle": "연속 기록, 목표, 기록, 위젯 및 Premium.",
+      "sections": [
+        {
+          "title": "1. 홈 & 연승",
+          "steps": [
+            "이름, 이모티콘, 종료 또는 빌드 모드 등의 연속 항목을 추가하려면 +를 탭하세요.",
+            "세부 정보 보기 및 진행 상황 알림을 보려면 연속 카드를 탭하세요.",
+            "연속 항목을 편집, 재설정 또는 삭제하려면 스와이프하거나 메뉴를 사용하세요.",
+            "재설정은 역대 최고 기록을 유지합니다."
+          ]
+        },
+        {
+          "title": "2. 목표 및 기록",
+          "steps": [
+            "연속 기록을 만들거나 편집할 때 목표를 설정하세요.",
+            "기록 탭에는 총계, 최고 기록, 도달한 목표가 표시됩니다.",
+            "인앱 리더보드에서 연속 기록을 비교해 보세요."
+          ]
+        },
+        {
+          "title": "3. 위젯 및 공유",
+          "steps": [
+            "홈 화면을 길게 누르기 → Time Since 위젯을 추가합니다.",
+            "줄무늬와 스타일을 선택하세요(클래식, 미니멀, 굵게, Premium에 울림).",
+            "공유 탭은 소셜 또는 메시지에 대한 연속 카드 이미지를 생성합니다."
+          ]
+        },
+        {
+          "title": "4. Premium 및 설정",
+          "steps": [
+            "무료: 최대 3줄, 위젯 1개, 광고 지원.",
+            "Premium: 무제한 연속, 5개 위젯, 추가 스타일, 광고 없음 — 일회성 구매.",
+            "설정 → Premium로 이동하거나 구매를 복원하세요.",
+            "언어 선택기: 히브리어 및 아랍어(RTL)를 포함한 12개 로케일."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "팁과 요령",
+      "subtitle": "연속 추적기를 최대한 활용하세요.",
+      "items": [
+        {
+          "title": "한 번에 하나의 초점",
+          "description": "Time Since은 플래너가 아닌 일일 카운터입니다. 지금 가장 중요한 일을 추적하세요."
+        },
+        {
+          "title": "미끄러지면",
+          "description": "한 번의 탭으로 재설정하세요. 역대 최고 기록이 보존되므로 솔직하게 다시 시작할 수 있습니다."
+        },
+        {
+          "title": "위젯 한눈에 보기",
+          "description": "기본 연속 기록을 홈 화면에 고정하세요. 앱을 여는 것보다 매일 확인이 가능합니다."
+        },
+        {
+          "title": "이정표 공유",
+          "description": "친구의 책임에 대해 7일, 30일 또는 90일에 연속 카드를 게시하세요."
+        },
+        {
+          "title": "여러 목표",
+          "description": "3줄 이상이 필요합니까? Premium은 무제한 추적을 잠금 해제합니다. 단 한 번의 공정한 결제로 구독이 필요하지 않습니다."
+        },
+        {
+          "title": "계정이 필요하지 않습니다",
+          "description": "카드를 공유하여 백업하거나 시작 날짜를 기록해 두십시오. 연속 데이터는 장치에 로컬로 유지됩니다."
+        }
+      ]
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "subtitle": "계정, 데이터, Premium, 플랫폼 및 건강 고지 사항.",
+      "viewAllSupport": "전체 지원 및 FAQ 보기",
+      "items": [
+        {
+          "question": "Time Since은(는) 무엇인가요?",
+          "answer": "Time Since은 iOS 및 Android의 연속 추적기입니다. 목표 링, 기록, 위젯 및 공유 카드를 사용하여 무언가를 그만둔 후 일수 또는 연속적으로 습관을 들이고 있는 일수를 계산하세요. Android 패키지: com.zuki.apps.timesince."
+        },
+        {
+          "question": "계정이 필요합니까?",
+          "answer": "아니요. 앱을 열고 줄무늬를 추가하세요. 회원가입이나 로그인이 없습니다."
+        },
+        {
+          "question": "내 데이터는 어디에 저장되나요?",
+          "answer": "연속 제목, 날짜, 개수는 기기에 그대로 남아 있습니다. 앱을 제거하면 줄무늬가 제거됩니다. 연속 콘텐츠에 대해서는 클라우드 계정을 운영하지 않습니다."
+        },
+        {
+          "question": "Time Since은(는) 의료 또는 음주 치료 앱인가요?",
+          "answer": "아니요. 개인 추적 도구입니다. 약물 사용 지원에 대해서는 자격을 갖춘 전문가에게 문의하십시오."
+        },
+        {
+          "question": "Premium은(는) 어떻게 작동하나요?",
+          "answer": "일회성 인앱 구매(com.zuki.apps.timesince.premium): 무제한 연속, 최대 5개의 홈 화면 위젯, 프리미엄 위젯 및 공유 스타일, 광고 없음. Apple ID 또는 Google 계정을 사용하여 설정에서 복원하세요."
+        },
+        {
+          "question": "무료 버전에 왜 광고가 있나요?",
+          "answer": "무료 등급은 선택적 배너 및 전면 광고를 통해 최대 3줄까지 지원합니다. Premium은 모든 광고를 영구적으로 제거합니다. 구독이 필요하지 않습니다."
+        },
+        {
+          "question": "재발하거나 하루를 놓치면 어떻게 되나요?",
+          "answer": "한 번의 탭으로 연속 기록을 재설정하세요. 역대 최고 기록이 유지되므로 기록을 잃지 않고 새롭게 시작할 수 있습니다."
+        },
+        {
+          "question": "위젯은 iOS 및 Android에서 작동하나요?",
+          "answer": "예. 홈 화면에 연속 기록을 고정하세요. 위젯은 매일 업데이트됩니다. Premium은 최대 5개의 위젯과 벨소리 스타일을 잠금 해제합니다."
+        },
+        {
+          "question": "어떤 언어가 지원되나요?",
+          "answer": "12개 언어: 영어, 히브리어, 아랍어, 독일어, 스페인어, 프랑스어, 이탈리아어, 일본어, 한국어, 포르투갈어, 러시아어, 중국어(간체)."
+        },
+        {
+          "question": "iPad 버전이 있나요?",
+          "answer": "예. Time Since은(는) iPhone, iPad, Android 휴대폰과 태블릿을 세로 및 가로 모드로 지원합니다."
+        },
+        {
+          "question": "지원을 받으려면 어떻게 해야 하나요?",
+          "answer": "zuki.apps.dev@gmail.com로 이메일을 보내거나 https://zukiapps.com/timesince/support.을(를) 방문하세요. 개인정보 보호: https://zukiapps.com/timesince/privacy"
+        },
+        {
+          "question": "Time Since은(는) 어디서 다운로드할 수 있나요?",
+          "answer": "Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS 목록이 활성화되면 이 페이지에 App Store 링크가 표시됩니다."
+        }
+      ]
+    },
+    "premium": {
+      "title": "Premium로 가세요. 집중하세요.",
+      "subtitle": "일회성 구매 — 구독이 필요하지 않습니다.",
+      "freeTitle": "무료",
+      "premiumTitle": "Premium",
+      "description": "선택적 광고를 사용하면 최대 3줄까지 무료로 추적할 수 있습니다. Premium은 무제한 줄무늬, 최대 5개의 위젯, 추가 스타일을 잠금 해제하고 모든 광고를 영구적으로 제거합니다.",
+      "freeItems": [
+        "최대 3줄",
+        "홈 화면 위젯 1개",
+        "클래식 위젯 및 스타일 공유",
+        "기록 및 공유 카드",
+        "광고 지원"
+      ],
+      "premiumItems": [
+        "무제한 줄무늬",
+        "최대 5개의 홈 화면 위젯",
+        "링 위젯 스타일 + 추가 공유 테마",
+        "배너 또는 전체 화면 광고 없음",
+        "일회성 구매 — 언제든지 복원"
+      ]
+    },
+    "languages": {
+      "title": "12개 언어",
+      "description": "영어, 히브리어(RTL), 아랍어(RTL), 독일어, 스페인어, 프랑스어, 이탈리아어, 일본어, 한국어, 포르투갈어, 러시아어 및 중국어(간체)."
+    },
+    "status": {
+      "title": "공사중",
+      "description": "Time Since은(는) 활발하게 개발 중입니다. iOS 및 Android 빌드가 준비되면 여기에 스토어 링크가 표시됩니다.",
+      "version": "대상 버전",
+      "status": "유효성",
+      "versionValue": "0.9.0 (개발 중)",
+      "statusValue": "출시 예정 · iOS 및 Android"
+    },
+    "download": {
+      "title": "곧 출시 예정",
+      "description": "Time Since은(는) App Store에서 사용할 수 있으며, Google Play은(는) 출시가 준비되면 사용할 수 있습니다.",
+      "soon": "App Store 및 Google Play에 곧 출시됩니다.",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Time Since 앱 아이콘",
+      "appStoreAlt": "앱 스토어에서 다운로드",
+      "googlePlayAlt": "Google Play에서 받으세요"
+    },
+    "links": {
+      "title": "중요한 링크",
+      "support": {
+        "title": "지원 및 FAQ",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Google Play",
+        "description": "Android용 Time Since 다운로드"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Time Since — 판권 소유",
+      "tagline": "Zuki Apps의 일부 · 작성자: Zuki.Apps"
+    },
+    "support": {
+      "title": "지원 및 도움말",
+      "subtitle": "Time Since 줄무늬, 위젯, Premium 및 개인정보 보호에 대한 답변을 찾아보세요.",
+      "metaTitle": "지원 및 도움말 — Time Since | Zuki Apps",
+      "metaDescription": "Time Since FAQ — 연속 추적, 종료 및 빌드 모드, 위젯, Premium, 로컬 데이터 및 문제 해결. iOS 및 Android.",
+      "contact": {
+        "title": "문의하기",
+        "description": "이메일을 보내주시면 최대한 빨리 연락드리겠습니다.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "빠른 링크",
+        "privacy": {
+          "title": "개인 정보 보호 정책",
+          "description": "Time Since이(가) 데이터를 처리하는 방법"
+        },
+        "terms": {
+          "title": "이용약관",
+          "description": "Time Since 사용 조건"
+        }
+      },
+      "faq": {
+        "title": "자주 묻는 질문",
+        "q1": {
+          "question": "첫 번째 연속 기록을 어떻게 추가하나요?",
+          "answer": "Time Since을 열고 줄무늬 추가를 탭하세요. 이름을 지정하고 종료 또는 빌드 모드를 선택하고 선택적으로 목표를 설정한 후 저장하세요. 계정이 필요하지 않습니다."
+        },
+        "q2": {
+          "question": "연속 기록을 재설정하면 어떻게 되나요?",
+          "answer": "활성 카운터는 0부터 다시 시작됩니다. 귀하의 역대 최고 일수는 기록에 보존됩니다."
+        },
+        "q3": {
+          "question": "홈 화면 위젯을 어떻게 추가하나요?",
+          "answer": "iOS 또는 Android에서는 홈 화면을 길게 누르고 → 위젯 → Time Since → 연속 패턴과 스타일을 선택하세요. Premium은 최대 5개의 위젯을 잠금 해제합니다."
+        },
+        "q4": {
+          "question": "Premium이(가) 구매 후 활성화되지 않았습니다",
+          "answer": "설정 → 구매 복원을 엽니다. 구매 시 사용한 것과 동일한 Apple ID 또는 Google 계정을 사용하세요."
+        },
+        "q5": {
+          "question": "내 연속 기록이 클라우드에 백업되나요?",
+          "answer": "아니요. 연속 데이터는 귀하의 장치에 로컬로 저장됩니다. 수동 백업이 필요한 경우 공유 카드를 내보내거나 시작 날짜를 기록하세요."
+        },
+        "q6": {
+          "question": "전체 FAQ는 어디에 있나요?",
+          "answer": "Time Since 제품 페이지의 FAQ를 참조하거나 zukiapps.com의 public/timesince/faq.md을 읽어 응답 엔진 친화적인 사본을 확인하세요."
+        }
+      },
+      "additionalHelp": {
+        "title": "도움이 더 필요하신가요?",
+        "description": "답변을 찾을 수 없다면 zuki.apps.dev@gmail.com로 이메일을 보내주세요. 일반적으로 24~48시간 이내에 응답합니다."
+      }
+    },
+    "privacy": {
+      "title": "개인 정보 보호 정책",
+      "metaDescription": "Time Since 개인정보 보호정책 — 로컬 연속 저장, 선택적 광고 및 분석 SDK, Premium 구매, 계정이 필요하지 않습니다.",
+      "lastUpdated": "최종 업데이트 날짜: 2026년 7월",
+      "intro": "본 개인정보 보호정책은 귀하가 Time Since 모바일 애플리케이션 및 zukiapps.com/timesince(\"서비스\")의 관련 페이지를 사용할 때 Zuki Apps(\"당사\")가 정보를 처리하는 방법을 설명합니다. Time Since는 연속 콘텐츠를 기기에 저장합니다. 우리는 계정을 요구하지 않습니다.",
+      "section1": {
+        "title": "1. 우리는 누구인가",
+        "content": "Time Since의 데이터 컨트롤러는 Zuki Apps입니다. 연락처 정보는 본 정책의 끝부분에 나와 있습니다.",
+        "content2": "이 정책은 Time Since 앱(iOS 및 Android)과 당사가 제품에 대해 게시하는 법적 페이지에 적용됩니다."
+      },
+      "section2": {
+        "title": "2. 당사가 수집하는 정보",
+        "content": "연속 타이틀, 시작 날짜, 횟수 및 관련 앱 설정은 귀하의 장치에 로컬로 저장되며 당사 서버로 전송되지 않습니다.",
+        "items": [
+          "연속 콘텐츠: 로컬 전용 — 당사 서버에 수집되지 않음",
+          "기기 또는 광고 ID(AdMob): 무료 버전의 광고에 사용될 수 있습니다.",
+          "앱 상호작용 및 충돌 데이터(Firebase Analytics / Crashlytics): 집계된 진단",
+          "구매 상태: Apple App Store 또는 Google Play 청구를 통해 확인됨",
+          "지원 이메일: 직접 문의하는 경우"
+        ]
+      },
+      "section3": {
+        "title": "3. 당사가 정보를 사용하는 방법",
+        "content": "우리는 다음과 같은 목적으로 정보를 사용합니다.",
+        "items": [
+          "연속 추적, 위젯, 기록, 공유 기능 제공",
+          "무료 등급(Google AdMob)에 광고 표시",
+          "분석 SDK를 통해 앱 안정성 및 사용량 측정",
+          "앱 스토어를 통해 선택적인 Premium 구매를 처리하세요.",
+          "지원 요청에 응답"
+        ],
+        "content2": "우리는 귀하의 개인 정보를 판매하지 않습니다. 우리는 귀하의 연속 콘텐츠를 서버에 업로드하지 않습니다."
+      },
+      "section4": {
+        "title": "4. 광고 및 분석",
+        "content": "무료 버전은 Google AdMob을 통해 배너 및 전면 광고를 표시할 수 있습니다. Firebase Analytics 및 Crashlytics은(는) Google 정책에 설명된 대로 제한된 기기 및 사용 데이터를 수집할 수 있습니다.",
+        "content2": "Premium은 광고를 제거합니다. iOS에 앱이 개인 맞춤 광고에 대한 App Tracking Transparency 권한을 요청할 수 있습니다."
+      },
+      "section5": {
+        "title": "5. 보관 및 보관",
+        "content": "연속 데이터는 줄무늬를 삭제하거나 앱을 제거할 때까지 장치에 남아 있습니다. v0.9.0에서는 연속 콘텐츠에 대한 사용자 계정이나 클라우드 백업을 운영하지 않습니다.",
+        "content2": "지원 이메일은 귀하의 요청을 해결하는 데 필요한 기간 동안 보관됩니다."
+      },
+      "section6": {
+        "title": "6. 구매",
+        "content": "Premium(com.zuki.apps.timesince.premium)은 Apple 또는 Google에서 청구하는 일회성 비소모성 구매입니다. 결제는 매장에서 처리됩니다. 우리는 자격 확인만 받습니다.",
+        "content2": "동일한 스토어 계정으로 설정에서 구매를 복원하세요."
+      },
+      "section7": {
+        "title": "7. 귀하의 권리와 자녀",
+        "content": "귀하의 관할권에 따라 귀하는 특정 처리에 접근, 수정, 삭제 또는 반대할 권리가 있을 수 있습니다. 권리를 행사하려면 당사에 문의하세요.",
+        "content2": "Time Since은(는) 13세(또는 해당 국가의 최소 연령) 미만 어린이를 대상으로 하지 않습니다. 우리는 어린이로부터 의도적으로 개인 데이터를 수집하지 않습니다."
+      },
+      "section8": {
+        "title": "8. 변경 사항",
+        "content": "당사는 수시로 본 정책을 업데이트할 수 있습니다. 새로운 \"최종 업데이트\" 날짜와 함께 개정된 버전을 게시할 예정입니다."
+      },
+      "sectionContact": {
+        "title": "연락하다",
+        "content": "본 개인정보 보호정책에 관한 질문:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "이용약관",
+      "metaDescription": "Time Since 이용 약관 — 연속 추적기 앱, Premium 구매, 허용되는 사용 및 면책 조항.",
+      "lastUpdated": "최종 업데이트 날짜: 2026년 7월",
+      "intro": "Time Since을(를) 사용하기 전에 본 이용약관을 주의 깊게 읽어보시기 바랍니다. 앱을 다운로드, 설치 또는 사용함으로써 귀하는 본 약관 및 개인정보 보호정책에 동의하게 됩니다.",
+      "section1": {
+        "title": "1. 약관 동의",
+        "content": "본 약관은 Zuki Apps(“당사”, “당사”)이 운영하는 Time Since(“서비스”, “앱”) 사용에 적용됩니다. 동의하지 않는 경우 서비스를 이용하지 마십시오.",
+        "content2": "귀하가 조직을 대신하여 서비스를 사용하는 경우 귀하는 해당 조직을 구속할 권한이 있음을 진술합니다."
+      },
+      "section2": {
+        "title": "2. 서비스 설명",
+        "content": "Time Since은 개인 연속 기록 및 일일 카운터 앱입니다. 서비스에는 다음이 포함됩니다.",
+        "items": [
+          "종료 및 빌드 모드 연속 추적",
+          "목표 링 및 마일스톤 진행",
+          "기록 및 인앱 리더보드",
+          "공유 가능한 연속 카드",
+          "홈 화면 위젯(iOS 및 Android)",
+          "선택적 일회성 Premium 구매",
+          "12개 언어 인터페이스"
+        ]
+      },
+      "section3": {
+        "title": "3. 의학적 조언이 아님",
+        "content": "Time Since은 개인 추적 도구일 뿐입니다. 이는 의료 기기나 금주 치료 프로그램이 아니며 전문적인 건강 조언을 대체할 수 없습니다.",
+        "content2": "약물 남용이나 정신 건강 지원에 대해서는 자격을 갖춘 전문가에게 문의하세요."
+      },
+      "section4": {
+        "title": "4. Premium 및 구매",
+        "content": "선택사항인 Premium은 Apple 또는 Google에서 청구하는 일회성 인앱 구매입니다. 환불은 매장 정책을 따릅니다. 제품 ID: com.zuki.apps.timesince.premium.",
+        "content2": "기능과 가격은 법률에 따라 요구되는 경우 통지를 통해 변경될 수 있습니다."
+      },
+      "section5": {
+        "title": "5. 허용되는 사용",
+        "content": "귀하는 다음과 같은 행위를 하지 않을 것에 동의합니다.",
+        "items": [
+          "법에서 허용하는 경우를 제외하고 앱을 리버스 엔지니어링합니다.",
+          "불법적인 목적으로 서비스를 사용하는 행위",
+          "광고, 분석 또는 보안 기능을 방해합니다.",
+          "Zuki Apps와의 제휴 관계를 허위로 표현함"
+        ]
+      },
+      "section6": {
+        "title": "6. 면책조항",
+        "content": "서비스는 어떠한 종류의 보증도 없이 \"있는 그대로\" 제공됩니다. 우리는 중단이나 오류 없는 작동을 보장하지 않습니다.",
+        "content2": "귀하의 연속 데이터는 로컬에 저장됩니다. 귀하는 귀하가 관심 있는 정보를 백업할 책임이 있습니다."
+      },
+      "section7": {
+        "title": "7. 책임의 제한",
+        "content": "법률이 허용하는 최대 한도 내에서 Zuki Apps은(는) 서비스 사용으로 인해 발생하는 간접적, 우발적 또는 결과적 손해에 대해 책임을 지지 않습니다."
+      },
+      "section8": {
+        "title": "8. 변경 사항",
+        "content": "당사는 본 약관을 수정할 수 있습니다. 유효일 이후에도 계속 사용하면 승인으로 간주됩니다."
+      },
+      "sectionContact": {
+        "title": "연락하다",
+        "content": "본 약관에 관한 질문:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}

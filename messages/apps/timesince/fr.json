@@ -1,0 +1,580 @@
+{
+  "timeSince": {
+    "back": "Retour à la maison",
+    "hero": {
+      "badge": "En construction · À venir",
+      "title": "Ne brisez pas la chaîne.",
+      "productName": "Time Since — Suivi des séquences",
+      "subtitle": "Time Since — Suivi des séquences",
+      "description": "Un outil de suivi des séquences pour les habitudes que vous développez et les jours écoulés depuis que vous avez arrêté — avec des anneaux d'objectifs, des widgets et des cartes de séquences partageables. L'application est encore en développement.",
+      "socialProof": "Bientôt disponible le iOS et le Android · Aucun compte requis",
+      "structuredDataDescription": "Time Since — suivi des séquences pour iOS et Android (en construction). Compteurs journaliers en direct, anneaux d'objectifs, widgets et cartes de partage. Android com.zuki.apps.timesince. Les données de séquence restent sur votre appareil.",
+      "phoneAlt": "Aperçu de l'application Time Since",
+      "seoTitle": "Time Since — Suivi des séquences (à venir) | Zuki Apps",
+      "metaDescription": "Le suivi des séquences Time Since est en cours de construction. La confidentialité, les conditions et l'assistance sont disponibles dès maintenant. Bientôt disponible sur iOS et Android."
+    },
+    "legalNav": {
+      "privacy": "politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "support": "Assistance et FAQ",
+      "contact": "Contact"
+    },
+    "underConstruction": {
+      "title": "Nous construisons Time Since",
+      "message": "L'application n'est pas encore disponible dans les stores. Cette page est un aperçu de la conformité du magasin : le contenu marketing complet sera mis en ligne au lancement.",
+      "note": "La politique de confidentialité, les conditions d'utilisation et l'assistance sont disponibles ci-dessous.",
+      "highlights": [
+        "Quittez et créez des modes de séquence avec des compteurs de jours en direct",
+        "Anneaux de but, records personnels et cartes de partage",
+        "Widgets de l'écran d'accueil sur iOS et Android",
+        "Données de séquence stockées sur votre appareil – pas de compte"
+      ]
+    },
+    "pageNav": {
+      "features": "Caractéristiques",
+      "screenshots": "Captures d'écran",
+      "howTo": "Comment utiliser",
+      "useCases": "Cas d'utilisation",
+      "manual": "Manuel",
+      "tips": "Conseils",
+      "faq": "FAQ",
+      "premium": "Premium",
+      "download": "Télécharger"
+    },
+    "features": {
+      "title": "Des progrès visibles",
+      "counters": {
+        "title": "Compteurs journaliers en direct",
+        "description": "Votre séquence est mise à jour quotidiennement : le mode Quitter compte le temps écoulé depuis votre départ ; le mode construction empile des jours consécutifs.",
+        "items": [
+          "Coche quotidienne automatique",
+          "Modes quitter et construire",
+          "Affichage clair des grands chiffres",
+          "Réinitialisation honnête sans perdre d'enregistrements"
+        ]
+      },
+      "goals": {
+        "title": "Des objectifs qui correspondent",
+        "description": "Choisissez 7, 30, 90 jours ou plus. Regardez l’anneau de progression se remplir à mesure que vous vous rapprochez de votre jalon.",
+        "items": [
+          "Longueurs de but personnalisées",
+          "Anneaux de progression visuels",
+          "Célébrations marquantes",
+          "Objectifs par séquence"
+        ]
+      },
+      "records": {
+        "title": "Vos dossiers",
+        "description": "Meilleur de tous les temps, nombre total de jours suivis, objectifs atteints : un temple de la renommée personnel pour tout ce sur quoi vous travaillez.",
+        "items": [
+          "La plus longue séquence active",
+          "Record personnel de tous les temps",
+          "Nombre total de jours suivis",
+          "Classement intégré à l'application"
+        ]
+      },
+      "share": {
+        "title": "Partagez vos gains",
+        "description": "Générez une belle carte de séquence et affichez-la partout où vous célébrez les progrès.",
+        "items": [
+          "Exporter sous forme d'image",
+          "Thèmes de partage multiples",
+          "Styles Premium disponibles",
+          "Parfait pour la responsabilité"
+        ]
+      },
+      "widgets": {
+        "title": "Widgets de l'écran d'accueil",
+        "description": "Épinglez votre séquence sur iPhone, iPad et Android. Les widgets sont mis à jour quotidiennement, même lorsque l'application est fermée.",
+        "items": [
+          "Widgets iOS et Android",
+          "Styles classiques, minimaux et audacieux",
+          "Style de bague (Premium)",
+          "Jusqu'à 5 emplacements de widgets (Premium)"
+        ]
+      },
+      "privacy": {
+        "title": "Sur votre appareil",
+        "description": "Aucun compte. Les titres, dates et décomptes de vos séries restent sur votre téléphone, pas sur nos serveurs.",
+        "items": [
+          "Aucune inscription requise",
+          "Stockage local uniquement pour les séquences",
+          "Ouvrez l'application et ajoutez une séquence",
+          "La désinstallation supprime les données locales"
+        ]
+      }
+    },
+    "modes": {
+      "title": "Arrêter ou construire ? Les deux comptent.",
+      "subtitle": "Deux modes de suivi avec un langage adapté à votre voyage.",
+      "quit": {
+        "title": "Arrêter / éviter",
+        "description": "Comptez le temps écoulé depuis que vous vous êtes éloigné : fumer, boire, utiliser les réseaux sociaux, la malbouffe ou tout ce que vous laissez derrière vous."
+      },
+      "build": {
+        "title": "Construire une habitude",
+        "description": "Empilez des jours consécutifs pour les entraînements, la lecture, la méditation, les routines de sommeil ou toute autre pratique quotidienne."
+      }
+    },
+    "screenshots": {
+      "title": "Voir Time Since en action",
+      "subtitle": "Accueil, widgets, détails des séquences, enregistrements, cartes de partage et configuration rapide.",
+      "featuresTitle": "Écrans d'application",
+      "items": [
+        {
+          "id": "maison",
+          "title": "Toutes tes séquences, un seul regard",
+          "description": "Plusieurs séquences sur l'écran d'accueil : quitter et créer des modes côte à côte.",
+          "image": "/images/timesince/screenshot-home.png",
+          "alt": "Écran d'accueil Time Since avec plusieurs cartes de séquence",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "widget",
+          "title": "Votre séquence, toujours visible",
+          "description": "Les widgets de l'écran d'accueil sur iOS et Android sont mis à jour quotidiennement.",
+          "image": "/images/timesince/screenshot-widget.png",
+          "alt": "Aperçu du widget de l'écran d'accueil Time Since",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "détail",
+          "title": "De gros chiffres. Des progrès évidents.",
+          "description": "Détails des séquences avec décompte des jours en direct et anneau de but.",
+          "image": "/images/timesince/screenshot-detail.png",
+          "alt": "Détail de la séquence Time Since avec compteur de jours et anneau de but",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "enregistrements",
+          "title": "Votre Temple de la renommée",
+          "description": "Records personnels, totaux et classement de vos séquences.",
+          "image": "/images/timesince/screenshot-records.png",
+          "alt": "Écran des records Time Since et des records personnels",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "partager",
+          "title": "Célébrez les jalons",
+          "description": "Cartes de séquence partageables qui valent la peine d'être publiées avec vos amis et sur les réseaux sociaux.",
+          "image": "/images/timesince/screenshot-share.png",
+          "alt": "Carte de série partageable Time Since",
+          "category": "caractéristiques"
+        },
+        {
+          "id": "éditeur",
+          "title": "Configuration en quelques secondes",
+          "description": "Nommez votre séquence, choisissez le mode, fixez-vous un objectif – aucun compte n'est nécessaire.",
+          "image": "/images/timesince/screenshot-editor.png",
+          "alt": "Time Since nouvel éditeur de séquences",
+          "category": "caractéristiques"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "Comment utiliser Time Since",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Ajouter une séquence",
+          "description": "Ouvrez l'application, appuyez sur Ajouter une séquence, nommez-la et choisissez le mode Quitter ou Création."
+        },
+        {
+          "number": "2",
+          "title": "Fixez-vous un objectif",
+          "description": "Choisissez un objectif comme 7, 30 ou 90 jours et regardez l'anneau de progression se remplir."
+        },
+        {
+          "number": "3",
+          "title": "Restez visible",
+          "description": "Épinglez un widget, vérifiez les enregistrements et partagez une carte lorsque vous franchissez une étape."
+        }
+      ]
+    },
+    "useCases": {
+      "title": "Parfait pour",
+      "subtitle": "De vrais voyages où voir le jour compte compte.",
+      "items": [
+        {
+          "title": "Arrêter de fumer ou de boire",
+          "description": "Voir les jours s'additionner en direct. Résistez « juste une fois » avec un élan auquel vous pouvez jeter un coup d’œil à tout moment."
+        },
+        {
+          "title": "Habitudes quotidiennes",
+          "description": "Exercice, lecture, méditation ou sommeil : cumulez les jours consécutifs jusqu'aux jalons 30/90/365."
+        },
+        {
+          "title": "Pauses sur les réseaux sociaux",
+          "description": "Suivez le temps écoulé depuis que vous vous êtes éloigné des flux qui retiennent votre attention."
+        },
+        {
+          "title": "Curiosité marquante",
+          "description": "Jours depuis un nouvel emploi, une dernière dispute ou une réinitialisation personnelle : des compteurs simples et sans encombrement."
+        }
+      ]
+    },
+    "manual": {
+      "title": "Manuel d'utilisation",
+      "subtitle": "Séries, buts, records, widgets et Premium.",
+      "sections": [
+        {
+          "title": "1. Domicile et séquences",
+          "steps": [
+            "Appuyez sur + pour ajouter une séquence : nom, emoji, quitter ou mode construction.",
+            "Appuyez sur une carte de séquence pour une vue détaillée et un anneau de progression.",
+            "Faites glisser ou utilisez le menu pour modifier, réinitialiser ou supprimer une séquence.",
+            "La réinitialisation conserve votre meilleur record de tous les temps."
+          ]
+        },
+        {
+          "title": "2. Objectifs et records",
+          "steps": [
+            "Fixez-vous un objectif lors de la création ou de la modification d'une séquence.",
+            "L'onglet Records affiche les totaux, les meilleurs et les objectifs atteints.",
+            "Comparez les séries dans le classement intégré à l'application."
+          ]
+        },
+        {
+          "title": "3. Widgets et partage",
+          "steps": [
+            "Appuyez longuement sur l'écran d'accueil → ajoutez le widget Time Since.",
+            "Choisissez une touche et un style (classique, minimal, audacieux ; sonnez sur Premium).",
+            "L'onglet Partager génère une image de carte de séquence pour les réseaux sociaux ou les messages."
+          ]
+        },
+        {
+          "title": "4. Premium et paramètres",
+          "steps": [
+            "Gratuit : jusqu'à 3 séries, 1 widget, financé par la publicité.",
+            "Premium : séquences illimitées, 5 widgets, styles supplémentaires, pas de publicité – achat unique.",
+            "Paramètres → Allez Premium ou Restaurer les achats.",
+            "Sélecteur de langue : 12 paramètres régionaux, dont l'hébreu et l'arabe (RTL)."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Trucs et astuces",
+      "subtitle": "Tirez le meilleur parti de votre suivi de séquences.",
+      "items": [
+        {
+          "title": "Un objectif à la fois",
+          "description": "Time Since est un compteur journalier, pas un planificateur : suivez ce qui compte le plus en ce moment."
+        },
+        {
+          "title": "Si tu glisses",
+          "description": "Réinitialisez en un seul clic. Votre meilleur de tous les temps est préservé afin que vous puissiez être honnête et recommencer."
+        },
+        {
+          "title": "Aperçu du widget",
+          "description": "Épinglez votre séquence principale sur l’écran d’accueil – la visibilité quotidienne bat l’ouverture de l’application."
+        },
+        {
+          "title": "Partager les jalons",
+          "description": "Publiez une carte de séquence à 7, 30 ou 90 jours pour demander la responsabilité de vos amis."
+        },
+        {
+          "title": "Objectifs multiples",
+          "description": "Besoin de plus de 3 séries ? Premium débloque un suivi illimité : un paiement équitable, pas d'abonnement."
+        },
+        {
+          "title": "Aucun compte requis",
+          "description": "Sauvegardez en partageant des cartes ou notez vos dates de début : les données de séquence restent locales sur votre appareil."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "subtitle": "Comptes, données, Premium, plateformes et clauses de non-responsabilité en matière de santé.",
+      "viewAllSupport": "Voir l'assistance complète et la FAQ",
+      "items": [
+        {
+          "question": "Qu'est-ce que Time Since ?",
+          "answer": "Time Since est un outil de suivi des séquences pour iOS et Android. Comptez les jours depuis que vous avez arrêté quelque chose ou les jours consécutifs où vous développez une habitude – avec des anneaux d'objectifs, des records, des widgets et des cartes de partage. Forfait Android : com.zuki.apps.timesince."
+        },
+        {
+          "question": "Ai-je besoin d'un compte ?",
+          "answer": "Non. Ouvrez l’application et ajoutez une séquence. Il n'y a pas d'inscription ni de connexion."
+        },
+        {
+          "question": "Où sont stockées mes données ?",
+          "answer": "Les titres, les dates et les décomptes des séquences restent sur votre appareil. La désinstallation de l'application supprime vos séquences. Nous n'exploitons pas de compte cloud pour le contenu en série."
+        },
+        {
+          "question": "Time Since est-elle une application de traitement médical ou de sobriété ?",
+          "answer": "Non, il s’agit d’un outil de suivi personnel. Pour obtenir de l’aide en matière de consommation de substances, consultez un professionnel qualifié."
+        },
+        {
+          "question": "Comment fonctionne Premium ?",
+          "answer": "Achat unique dans l'application (com.zuki.apps.timesince.premium) : séquences illimitées, jusqu'à 5 widgets d'écran d'accueil, widgets et styles de partage premium, et aucune publicité. Restaurez à partir des paramètres avec votre compte Apple ID ou Google."
+        },
+        {
+          "question": "Pourquoi y a-t-il des publicités dans la version gratuite ?",
+          "answer": "Le niveau gratuit prend en charge jusqu'à 3 séries avec des bannières et des publicités interstitielles en option. Premium supprime définitivement toutes les publicités – sans abonnement."
+        },
+        {
+          "question": "Que se passe-t-il si je rechute ou si je manque une journée ?",
+          "answer": "Réinitialisez la séquence en un seul clic. Votre meilleur record de tous les temps est conservé afin que vous puissiez repartir à zéro sans perdre l'historique."
+        },
+        {
+          "question": "Les widgets fonctionnent-ils sur iOS et Android ?",
+          "answer": "Oui. Épinglez une séquence sur votre écran d’accueil ; les widgets sont mis à jour quotidiennement. Premium déverrouille jusqu'à 5 widgets et le style de sonnerie."
+        },
+        {
+          "question": "Quelles langues sont prises en charge ?",
+          "answer": "12 langues : anglais, hébreu, arabe, allemand, espagnol, français, italien, japonais, coréen, portugais, russe et chinois (simplifié)."
+        },
+        {
+          "question": "Existe-t-il une version iPad ?",
+          "answer": "Oui. Time Since prend en charge les téléphones et tablettes iPhone, iPad et Android en mode portrait et paysage."
+        },
+        {
+          "question": "Comment puis-je obtenir de l'aide ?",
+          "answer": "Envoyez un e-mail à zuki.apps.dev@gmail.com ou visitez https://zukiapps.com/timesince/support. Confidentialité : https://zukiapps.com/timesince/privacy"
+        },
+        {
+          "question": "Où puis-je télécharger Time Since ?",
+          "answer": "Google Play : https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS Le lien App Store apparaîtra sur cette page lorsque la liste sera en ligne."
+        }
+      ]
+    },
+    "premium": {
+      "title": "Allez Premium. Restez concentré.",
+      "subtitle": "Achat unique – pas d'abonnement.",
+      "freeTitle": "Gratuit",
+      "premiumTitle": "Premium",
+      "description": "Suivez jusqu'à 3 séries gratuites avec des publicités facultatives. Premium débloque des séquences illimitées, jusqu'à 5 widgets, des styles supplémentaires et supprime toutes les publicités – pour toujours.",
+      "freeItems": [
+        "Jusqu'à 3 séquences",
+        "1 widget écran d'accueil",
+        "Widget classique et styles de partage",
+        "Enregistrements et partage de cartes",
+        "Financé par la publicité"
+      ],
+      "premiumItems": [
+        "Séries illimitées",
+        "Jusqu'à 5 widgets d'écran d'accueil",
+        "Style de widget Ring + thèmes de partage supplémentaires",
+        "Pas de bannière ni de publicité en plein écran",
+        "Achat unique – restauration à tout moment"
+      ]
+    },
+    "languages": {
+      "title": "12 langues",
+      "description": "Anglais, hébreu (RTL), arabe (RTL), allemand, espagnol, français, italien, japonais, coréen, portugais, russe et chinois (simplifié)."
+    },
+    "status": {
+      "title": "En cours de construction",
+      "description": "Time Since est en développement actif. Les liens du magasin apparaîtront ici lorsque les versions iOS et Android seront prêtes.",
+      "version": "Version cible",
+      "status": "Disponibilité",
+      "versionValue": "0.9.0 (en développement)",
+      "statusValue": "À venir · iOS et Android"
+    },
+    "download": {
+      "title": "À venir",
+      "description": "Time Since sera disponible sur l'App Store et Google Play lorsque le lancement sera prêt.",
+      "soon": "Bientôt disponible sur l'App Store et Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Icône de l'application Time Since",
+      "appStoreAlt": "Télécharger sur l'App Store",
+      "googlePlayAlt": "Obtenez-le sur Google Play"
+    },
+    "links": {
+      "title": "Liens importants",
+      "support": {
+        "title": "Assistance et FAQ",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "googlePlay": {
+        "title": "Google Play",
+        "description": "Téléchargez Time Since pour Android"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Time Since — Tous droits réservés",
+      "tagline": "Une partie de Zuki Apps · par Zuki.Apps"
+    },
+    "support": {
+      "title": "Assistance et aide",
+      "subtitle": "Trouvez des réponses sur les séquences Time Since, les widgets, Premium et la confidentialité.",
+      "metaTitle": "Assistance et aide — Time Since | Zuki Apps",
+      "metaDescription": "FAQ Time Since — suivi des séquences, modes de sortie et de construction, widgets, Premium, données locales et dépannage. iOS et Android.",
+      "contact": {
+        "title": "Contactez-nous",
+        "description": "Envoyez-nous un email et nous vous répondrons dans les plus brefs délais.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Liens rapides",
+        "privacy": {
+          "title": "politique de confidentialité",
+          "description": "Comment Time Since gère vos données"
+        },
+        "terms": {
+          "title": "Conditions d'utilisation",
+          "description": "Conditions d'utilisation de Time Since"
+        }
+      },
+      "faq": {
+        "title": "Questions fréquemment posées",
+        "q1": {
+          "question": "Comment ajouter ma première série ?",
+          "answer": "Ouvrez Time Since et appuyez sur Ajouter une séquence. Nommez-le, choisissez le mode Quitter ou Construction, définissez éventuellement un objectif et enregistrez. Aucun compte requis."
+        },
+        "q2": {
+          "question": "Que se passe-t-il si je réinitialise une séquence ?",
+          "answer": "Le compteur actif repart à zéro. Votre meilleur nombre de jours de tous les temps est conservé dans les enregistrements."
+        },
+        "q3": {
+          "question": "Comment ajouter un widget sur l'écran d'accueil ?",
+          "answer": "Sur iOS ou Android, appuyez longuement sur l'écran d'accueil → Widgets → Time Since → choisissez votre séquence et votre style. Premium déverrouille jusqu'à 5 widgets."
+        },
+        "q4": {
+          "question": "Premium n'a pas été activé après l'achat",
+          "answer": "Ouvrez Paramètres → Restaurer les achats. Utilisez le même compte Apple ID ou Google que vous avez acheté."
+        },
+        "q5": {
+          "question": "Mes séquences sont-elles sauvegardées dans le cloud ?",
+          "answer": "Non. Les données de séquence sont stockées localement sur votre appareil. Exportez les cartes de partage ou notez les dates de début si vous avez besoin d’une sauvegarde manuelle."
+        },
+        "q6": {
+          "question": "Où est la FAQ complète ?",
+          "answer": "Consultez la FAQ sur la page produit Time Since ou lisez public/timesince/faq.md sur zukiapps.com pour une copie conviviale pour le moteur de réponse."
+        }
+      },
+      "additionalHelp": {
+        "title": "Besoin d'aide supplémentaire ?",
+        "description": "Si vous ne trouvez pas de réponse, envoyez un e-mail à zuki.apps.dev@gmail.com. Nous répondons généralement dans les 24 à 48 heures."
+      }
+    },
+    "privacy": {
+      "title": "politique de confidentialité",
+      "metaDescription": "Politique de confidentialité pour Time Since — stockage local, publicités et SDK d'analyse facultatifs, achat Premium, aucun compte requis.",
+      "lastUpdated": "Dernière mise à jour : juillet 2026",
+      "intro": "Cette politique de confidentialité explique comment Zuki Apps (« nous », « notre ») traite les informations lorsque vous utilisez l'application mobile Time Since et les pages associées sur zukiapps.com/timesince (le « Service »). Time Since stocke le contenu de votre série sur votre appareil. Nous n'avons pas besoin de compte.",
+      "section1": {
+        "title": "1. Qui nous sommes",
+        "content": "Le responsable du traitement de Time Since est Zuki Apps. Les coordonnées se trouvent à la fin de cette politique.",
+        "content2": "Cette politique s'applique à l'application Time Since (iOS et Android) et aux pages juridiques que nous publions pour le produit."
+      },
+      "section2": {
+        "title": "2. Informations que nous collectons",
+        "content": "Les titres des séries, les dates de début, les décomptes et les paramètres d'application associés sont stockés localement sur votre appareil et ne sont pas transmis à nos serveurs.",
+        "items": [
+          "Contenu en séquence : local uniquement – non collecté sur nos serveurs",
+          "Identifiants d'appareil ou publicitaires (AdMob) : peuvent être utilisés pour les publicités dans la version gratuite",
+          "Données d'interaction et de crash des applications (Firebase Analytics / Crashlytics) : diagnostics agrégés",
+          "Statut d'achat : confirmé via la facturation Apple App Store ou Google Play",
+          "Email d'assistance : si vous nous contactez directement"
+        ]
+      },
+      "section3": {
+        "title": "3. Comment nous utilisons les informations",
+        "content": "Nous utilisons les informations pour :",
+        "items": [
+          "Fournir un suivi des séquences, des widgets, des enregistrements et des fonctionnalités de partage",
+          "Afficher des annonces dans l'offre gratuite (Google AdMob)",
+          "Mesurez la stabilité et l'utilisation des applications via des SDK d'analyse",
+          "Traitez les achats Premium facultatifs via les magasins d'applications",
+          "Répondre aux demandes d'assistance"
+        ],
+        "content2": "Nous ne vendons pas vos informations personnelles. Nous ne téléchargeons pas le contenu de votre séquence sur nos serveurs."
+      },
+      "section4": {
+        "title": "4. Publicité et analyses",
+        "content": "La version gratuite peut afficher des bannières et des annonces interstitielles via Google AdMob. Firebase Analytics et Crashlytics peuvent collecter des données limitées sur l'appareil et l'utilisation, comme décrit dans les politiques de Google.",
+        "content2": "Premium supprime les publicités. Le iOS, l'application peut demander l'autorisation à App Tracking Transparency pour les annonces personnalisées."
+      },
+      "section5": {
+        "title": "5. Stockage et conservation",
+        "content": "Les données des séquences restent sur votre appareil jusqu'à ce que vous supprimiez les séquences ou désinstalliez l'application. Nous n'exploitons pas de compte utilisateur ni de sauvegarde cloud pour le contenu en séquence dans la v0.9.0.",
+        "content2": "Les e-mails d'assistance sont conservés aussi longtemps que nécessaire pour résoudre votre demande."
+      },
+      "section6": {
+        "title": "6. Achats",
+        "content": "Premium (com.zuki.apps.timesince.premium) est un achat unique non consommable facturé par Apple ou Google. Le paiement est géré par le magasin ; nous recevons uniquement la confirmation du droit.",
+        "content2": "Restaurez les achats à partir des paramètres avec le même compte de magasin."
+      },
+      "section7": {
+        "title": "7. Vos droits et vos enfants",
+        "content": "En fonction de votre juridiction, vous pouvez disposer de droits d'accès, de rectification, de suppression ou d'opposition à certains traitements. Contactez-nous pour exercer vos droits.",
+        "content2": "Time Since ne s'adresse pas aux enfants de moins de 13 ans (ou l'âge minimum dans votre pays). Nous ne collectons pas sciemment de données personnelles auprès des enfants."
+      },
+      "section8": {
+        "title": "8. Modifications",
+        "content": "Nous pouvons mettre à jour cette politique de temps à autre. Nous publierons la version révisée avec une nouvelle date de « Dernière mise à jour »."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions concernant cette politique de confidentialité :",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "metaDescription": "Conditions d'utilisation de Time Since — application de suivi de séquences, achat de Premium, utilisation acceptable et clauses de non-responsabilité.",
+      "lastUpdated": "Dernière mise à jour : juillet 2026",
+      "intro": "Veuillez lire attentivement ces conditions d'utilisation avant d'utiliser Time Since. En téléchargeant, en installant ou en utilisant l'application, vous acceptez ces conditions et notre politique de confidentialité.",
+      "section1": {
+        "title": "1. Acceptation des conditions",
+        "content": "Les présentes Conditions régissent votre utilisation de Time Since (« Service », « Application ») exploité par Zuki Apps (« nous », « notre »). Si vous n'êtes pas d'accord, n'utilisez pas le Service.",
+        "content2": "Si vous utilisez le Service au nom d'une organisation, vous déclarez que vous avez le pouvoir de lier cette organisation."
+      },
+      "section2": {
+        "title": "2. Description du service",
+        "content": "Time Since est une application personnelle de compteur de séquences et de jours. La Prestation comprend :",
+        "items": [
+          "Suivi des séquences en mode Quitter et Créer",
+          "Anneaux d’objectif et progrès des jalons",
+          "Records et classement dans l'application",
+          "Cartes de série partageables",
+          "Widgets de l'écran d'accueil (iOS et Android)",
+          "Achat unique Premium en option",
+          "12 interfaces linguistiques"
+        ]
+      },
+      "section3": {
+        "title": "3. Pas de conseil médical",
+        "content": "Time Since est uniquement un outil de suivi personnel. Il ne s'agit pas d'un dispositif médical, d'un programme de traitement de sobriété ou d'un substitut aux conseils d'un professionnel de la santé.",
+        "content2": "Pour la consommation de substances ou le soutien en santé mentale, consultez un professionnel qualifié."
+      },
+      "section4": {
+        "title": "4. Premium et achats",
+        "content": "Premium facultatif est un achat intégré unique facturé par Apple ou Google. Les remboursements suivent les politiques du magasin. Identifiant du produit : com.zuki.apps.timesince.premium.",
+        "content2": "Les fonctionnalités et les prix peuvent changer avec préavis lorsque la loi l'exige."
+      },
+      "section5": {
+        "title": "5. Utilisation acceptable",
+        "content": "Vous vous engagez à ne pas :",
+        "items": [
+          "Effectuer une ingénierie inverse de l'application, sauf dans la mesure permise par la loi",
+          "Utiliser le Service à des fins illégales",
+          "Interférer avec les publicités, les analyses ou les fonctionnalités de sécurité",
+          "Déformer votre affiliation avec Zuki Apps"
+        ]
+      },
+      "section6": {
+        "title": "6. Avis de non-responsabilité",
+        "content": "Le Service est fourni « tel quel » sans garantie d’aucune sorte. Nous ne garantissons pas un fonctionnement ininterrompu ou sans erreur.",
+        "content2": "Vos données de séquence sont stockées localement ; vous êtes responsable de la sauvegarde des informations qui vous intéressent."
+      },
+      "section7": {
+        "title": "7. Limitation de responsabilité",
+        "content": "Dans toute la mesure permise par la loi, Zuki Apps ne sera pas responsable des dommages indirects, accessoires ou consécutifs découlant de l'utilisation du Service."
+      },
+      "section8": {
+        "title": "8. Modifications",
+        "content": "Nous pouvons modifier ces Conditions. La poursuite de l’utilisation après la date d’entrée en vigueur constitue une acceptation."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions concernant ces Conditions :",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}
