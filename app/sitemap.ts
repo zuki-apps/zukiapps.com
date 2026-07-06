@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED, TIMESINCE_PILOT, TIMESINCE_PUBLISHED, TIMESINCE_UNDER_CONSTRUCTION } from '@/lib/appPublishState';
+import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED, TIMESINCE_PILOT, TIMESINCE_PUBLISHED, TIMESINCE_UNDER_CONSTRUCTION, GEO_CALC_PILOT, GEO_CALC_PUBLISHED, GEO_CALC_UNDER_CONSTRUCTION } from '@/lib/appPublishState';
 import { routing } from '@/routing';
 import { getSiteUrl } from '@/lib/hreflang';
 import {
@@ -109,6 +109,21 @@ const routes: SitemapRouteMeta[] = [
           { path: '/timesince/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/timesince/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/timesince/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        ]
+      : []),
+  ...(GEO_CALC_PUBLISHED || GEO_CALC_PILOT
+    ? [
+        { path: '/geo-calc', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
+        { path: '/geo-calc/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/geo-calc/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/geo-calc/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+      ]
+    : GEO_CALC_UNDER_CONSTRUCTION
+      ? [
+          { path: '/geo-calc', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/geo-calc/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/geo-calc/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/geo-calc/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         ]
       : []),
   { path: '/dreambit-legacy', priority: 0.55, changefreq: 'yearly' },

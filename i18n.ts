@@ -24,6 +24,7 @@ const APPS = [
   'zuli-collage',
   'dreambit-legacy',
   'timesince',
+  'geo-calc',
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

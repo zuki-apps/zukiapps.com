@@ -25,6 +25,7 @@ export const COMPLIANCE_APPS = [
   'toldya',
   'zuli-collage',
   'timesince',
+  'geo-calc',
 ];
 
 export const STATIC_ASSET_PATHS = [

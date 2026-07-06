@@ -13,7 +13,8 @@ export type ProductAppSlug =
   | 'whistle-camera'
   | 'zuli-collage'
   | 'football-trivia'
-  | 'timesince';
+  | 'timesince'
+  | 'geo-calc';
 
 export type ProductAppNamespace =
   | 'bitScope'
@@ -29,7 +30,8 @@ export type ProductAppNamespace =
   | 'whistleCamera'
   | 'zuliCollage'
   | 'footballTrivia'
-  | 'timeSince';
+  | 'timeSince'
+  | 'geoCalc';
 
 export type ProductAppConfig = {
   slug: ProductAppSlug;
@@ -92,6 +94,16 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'timesince-faq-ld',
     howToId: 'timesince-howto-ld',
     accent: 'orange',
+    hasSupportPage: true,
+  },
+  'geo-calc': {
+    slug: 'geo-calc',
+    namespace: 'geoCalc',
+    appPath: '/geo-calc',
+    applicationCategory: 'NavigationApplication',
+    faqId: 'geo-calc-faq-ld',
+    howToId: 'geo-calc-howto-ld',
+    accent: 'amber',
     hasSupportPage: true,
   },
   'bit-scope': {

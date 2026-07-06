@@ -1,0 +1,526 @@
+{
+  "geoCalc": {
+    "back": "Zurück nach Hause",
+    "hero": {
+      "badge": "Im Aufbau · Demnächst verfügbar",
+      "title": "WGS84 Koordinatenwerkzeuge – offline.",
+      "productName": "GEO Calc – Koordinaten",
+      "subtitle": "GEO Calc – Koordinaten",
+      "description": "Konvertieren Sie DD, DMS, UTM und MGRS. Berechnen Sie die geodätische Entfernung und Peilung von Vincenty, messen Sie auf einer Karte und exportieren Sie GPX – entwickelt für Vermesser und Außendiensttechniker. Die App befindet sich noch in der Entwicklung.",
+      "socialProof": "Demnächst erhältlich am iOS und Android · Offline-zuerst · Kein Konto",
+      "structuredDataDescription": "GEO Calc – Offline-Koordinatenwerkzeuge für WGS84 für iOS und Android (im Aufbau). Konvertieren Sie DD, DMS, UTM, MGRS; Vincenty Entfernung und Peilung; Kartenmaß; Wegpunkte und GPX-Export. Android com.zuki.apps.geocalc. Wegpunkte bleiben auf Ihrem Gerät.",
+      "phoneAlt": "GEO Calc-Koordinatenkonverter auf dem iPhone",
+      "seoTitle": "GEO Calc — WGS84 Offline-Koordinatentools (in Kürze verfügbar) | Zuki Apps",
+      "metaDescription": "GEO Calc ist im Aufbau. Offline-WGS84-Konverter, Vincenty-Entfernung, Kartenmaß und GPX-Export für Außendienstmitarbeiter. Datenschutz, Bedingungen und Support jetzt verfügbar."
+    },
+    "legalNav": {
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen",
+      "support": "Support & FAQ",
+      "contact": "Kontakt"
+    },
+    "underConstruction": {
+      "title": "Wir bauen GEO Calc",
+      "message": "Die App ist noch nicht in den Stores erhältlich. Diese Seite ist eine Vorschau auf die Store-Compliance – der vollständige Marketinginhalt wird zum Start live geschaltet.",
+      "note": "Datenschutzrichtlinien, Nutzungsbedingungen und Support finden Sie unten.",
+      "highlights": [
+        "Konvertieren Sie DD, DMS, UTM und MGRS auf WGS84",
+        "Vincenty geodätische Entfernung, Peilung und Direktion",
+        "Offline-Kartenmaß – Pfadlänge und Polygonfläche",
+        "Wegpunkte mit GPX 1.1-Export – kein Konto erforderlich"
+      ]
+    },
+    "pageNav": {
+      "features": "Merkmale",
+      "screenshots": "Screenshots",
+      "howTo": "Wie zu verwenden",
+      "useCases": "Anwendungsfälle",
+      "manual": "Handbuch",
+      "tips": "Tipps",
+      "faq": "FAQ",
+      "download": "Herunterladen"
+    },
+    "features": {
+      "title": "Präzision, wo kein Signal ist",
+      "converter": {
+        "title": "Multiformat-Konverter",
+        "description": "Konvertieren Sie zwischen Dezimalgraden, DMS, UTM und MGRS auf dem Ellipsoid WGS84. Format automatisch erkennen oder Dezimalreihenfolge auswählen.",
+        "items": [
+          "DD, DMS, UTM und MGRS",
+          "Koordinatenformat automatisch erkennen",
+          "Bevorzugte Lat/Long-Reihenfolge",
+          "Kopierergebnisse mit nur einem Fingertipp"
+        ]
+      },
+      "distance": {
+        "title": "Geodätische Entfernung und Peilung",
+        "description": "Ellipsoidabstand und Vorwärtsazimut zwischen zwei Punkten unter Verwendung von Vincenty invers – keine Abkürzungen für flache Karten.",
+        "items": [
+          "Vincenty inverse Geodäte",
+          "Vorwärtsazimut/Peilung",
+          "Geodätische Direkte (Punkt + Entfernung + Peilung)",
+          "Metrische, imperiale oder nautische Einheiten"
+        ]
+      },
+      "map": {
+        "title": "Kartenmaß",
+        "description": "Zeichnen Sie Pfade und Polygone auf einer Offline-Kartenfläche. Messen Sie die Pfadlänge und die Polygonfläche auf dem Ellipsoid WGS84.",
+        "items": [
+          "Tippen Sie, um Eckpunkte hinzuzufügen",
+          "Wegentfernung auf Ellipsoid",
+          "Polygonfläche (GeographicLib)",
+          "Optionale GPS-Zentrierung"
+        ]
+      },
+      "waypoints": {
+        "title": "Wegpunkte und GPX",
+        "description": "Benannte Wegpunkte lokal speichern. Exportieren Sie Wegpunkte oder verfolgen Sie Scheitelpunkte als GPX 1.1 für GIS- und GPS-Geräte.",
+        "items": [
+          "Lokale Wegpunktbibliothek",
+          "GPX 1.1-Export",
+          "Benannte Punkte mit Koordinaten",
+          "Über Systemblatt teilen"
+        ]
+      },
+      "offline": {
+        "title": "Von Natur aus offline",
+        "description": "Kernumrechnung, Entfernung und Kartenmessung funktionieren ohne Netzwerk. Keine Anmeldung – Wegpunkte bleiben auf Ihrem Gerät.",
+        "items": [
+          "Kein Konto erforderlich",
+          "Funktioniert ohne Mobilfunk",
+          "Lokale Wegpunktspeicherung",
+          "Dunkles Thema für den Außenbereich"
+        ]
+      },
+      "languages": {
+        "title": "12 Sprachen",
+        "description": "Außendienstteams weltweit – einschließlich Hebräisch und Arabisch mit RTL-UI-Unterstützung.",
+        "items": [
+          "Englisch, Hebräisch, Arabisch",
+          "Deutsch, Spanisch, Französisch, Italienisch",
+          "Japanisch, Koreanisch, Portugiesisch, Russisch, Chinesisch (vereinfacht)"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "Sehen Sie GEO Calc in Aktion",
+      "subtitle": "Konverter, Entfernung, Kartenmaß und Wegpunkte – echte App-Bildschirme.",
+      "featuresTitle": "App-Bildschirme",
+      "items": [
+        {
+          "id": "heim",
+          "title": "Drei Tools, eine App",
+          "description": "Koordinatenkonverter, Entfernung und Peilung sowie Kartenmessung auf einem Startbildschirm.",
+          "image": "/images/geo-calc/screenshot-home.png",
+          "alt": "GEO Calc-Startbildschirm mit Konverter-, Entfernungs- und Kartentools",
+          "category": "Merkmale"
+        },
+        {
+          "id": "Konverter",
+          "title": "Jedes Koordinatenformat",
+          "description": "DD, DMS, UTM und MGRS Ergebnisse nebeneinander auf WGS84.",
+          "image": "/images/geo-calc/screenshot-converter.png",
+          "alt": "GEO Calc-Koordinatenkonverter, der UTM und Dezimalgrade anzeigt",
+          "category": "Merkmale"
+        },
+        {
+          "id": "Distanz",
+          "title": "Geodätische Entfernung und Azimut",
+          "description": "Vincenty Umkehrung zwischen zwei Punkten mit Peilungsanzeige.",
+          "image": "/images/geo-calc/screenshot-distance.png",
+          "alt": "GEO Calc Entfernungs- und Peilungsrechner",
+          "category": "Merkmale"
+        },
+        {
+          "id": "Karte",
+          "title": "Wege und Flächen vermessen",
+          "description": "Zeichnen Sie offline auf der Karte – Pfadlänge und Polygonfläche auf dem Ellipsoid.",
+          "image": "/images/geo-calc/screenshot-map.png",
+          "alt": "GEO Calc Offline-Kartenmaß mit Polygonfläche",
+          "category": "Merkmale"
+        },
+        {
+          "id": "Wegpunkte",
+          "title": "GPX exportieren",
+          "description": "Speichern Sie Wegpunkte lokal und exportieren Sie GPX für die GIS- oder GPS-Übergabe.",
+          "image": "/images/geo-calc/screenshot-waypoints.png",
+          "alt": "GEO Calc Wegpunktliste mit GPX-Export",
+          "category": "Merkmale"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "So verwenden Sie GEO Calc",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Koordinaten umrechnen",
+          "description": "Öffnen Sie den Konverter, fügen Sie Koordinaten ein oder geben Sie sie ein und lesen Sie DD, DMS, UTM und MGRS in einer Ansicht."
+        },
+        {
+          "number": "2",
+          "title": "Abstand prüfen",
+          "description": "Geben Sie unter „Entfernung und Peilung“ zwei Punkte für die geodätische Länge und den Azimut Vincenty ein."
+        },
+        {
+          "number": "3",
+          "title": "Messen und exportieren",
+          "description": "Verwenden Sie Map Measure für Pfade und Gebiete, speichern Sie Wegpunkte und exportieren Sie GPX, wenn Sie bereit sind."
+        }
+      ]
+    },
+    "useCases": {
+      "title": "Gebaut für den professionellen Einsatz vor Ort",
+      "subtitle": "Schnelle WGS84-Prüfungen, wenn ein vollständiges GIS-Projekt übertrieben ist.",
+      "items": [
+        {
+          "title": "Vermesser und Katasterpersonal",
+          "description": "Konvertieren Sie UTM ↔ DD vor Ort und überprüfen Sie den Abstand zwischen den Kontrollpunkten."
+        },
+        {
+          "title": "Bau- und Geotechnikingenieure",
+          "description": "Überprüfen Sie Verfahrwege und Peilungen, ohne einen Laptop öffnen zu müssen."
+        },
+        {
+          "title": "GIS-Techniker",
+          "description": "Validieren Sie Koordinaten offline und exportieren Sie GPX für Desktop-GIS-Workflows."
+        },
+        {
+          "title": "SAR- und Outdoor-Teams",
+          "description": "Messen Sie Zonen und Wege auf einer Karte, wenn kein Mobilfunksignal vorhanden ist."
+        }
+      ]
+    },
+    "manual": {
+      "title": "Benutzerhandbuch",
+      "subtitle": "Konverter, Entfernung, Karte, Wegpunkte und Einstellungen.",
+      "sections": [
+        {
+          "title": "1. Koordinatenkonverter",
+          "steps": [
+            "Fügen Sie eine Koordinatenzeichenfolge ein oder geben Sie sie ein – DD, DMS, UTM oder MGRS.",
+            "Schalten Sie die automatische Erkennung ein oder wählen Sie das Eingabeformat manuell aus.",
+            "Legen Sie bei Bedarf in den Einstellungen die Koordinatenreihenfolge (Breitengrad/Längengrad oder Längengrad/Breitengrad) fest.",
+            "Tippen Sie auf die Kopiersymbole, um Ergebnisse an eine andere App zu senden."
+          ]
+        },
+        {
+          "title": "2. Entfernung und Peilung",
+          "steps": [
+            "Geben Sie Punkt A und Punkt B in DD oder DMS ein.",
+            "Lesen Sie die geodätische Entfernung und den Vorwärtsazimut ab.",
+            "Wechseln Sie in den Einstellungen zwischen metrischen, imperialen oder nautischen Einheiten.",
+            "Verwenden Sie den Direktmodus, um einen Punkt anhand von Start, Entfernung und Peilung zu finden."
+          ]
+        },
+        {
+          "title": "3. Kartenmaß",
+          "steps": [
+            "Open Map Measure – funktioniert offline.",
+            "Tippen Sie, um Eckpunkte entlang eines Pfads oder Polygons hinzuzufügen.",
+            "Pfadlänge oder Polygonfläche auf WGS84 lesen.",
+            "Erlauben Sie die Standortbestimmung nur, wenn Sie eine GPS-Kartenzentrierung wünschen."
+          ]
+        },
+        {
+          "title": "4. Wegpunkte & GPX",
+          "steps": [
+            "Speichern Sie Punkte aus dem Konverter oder der Karte unter einem Namen.",
+            "Durchsuchen Sie die lokale Wegpunktliste – keine Cloud-Synchronisierung.",
+            "Exportieren Sie ausgewählte Wegpunkte oder Tracks als GPX 1.1.",
+            "Teilen Sie GPX über Dateien, E-Mail oder GIS-Apps."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tipps & Tricks",
+      "subtitle": "Erhalten Sie zuverlässige Ergebnisse vor Ort.",
+      "items": [
+        {
+          "title": "Überprüfen Sie kritische Arbeiten",
+          "description": "GEO Calc verwendet die standardmäßige WGS84-Geodäsie – kein Ersatz für zertifizierte Vermessungsinstrumente oder gesetzliche Grenzen."
+        },
+        {
+          "title": "Kein Netzwerk erforderlich",
+          "description": "Laden Sie Offline-Kartenkacheln herunter, bevor Sie zu entfernten Standorten gehen, wenn Ihr Build Karten-Caching umfasst."
+        },
+        {
+          "title": "Koordinatenordnung",
+          "description": "Stellen Sie Lat/Lng vs. LNG/Lat einmal in den Einstellungen ein, um vertauschte Ergebnisse bei internationalen Projekten zu vermeiden."
+        },
+        {
+          "title": "GPX Übergabe",
+          "description": "Exportieren Sie Wegpunkte als GPX und öffnen Sie sie in QGIS, Google Earth oder einem tragbaren GPS-Gerät."
+        },
+        {
+          "title": "Einheitensysteme",
+          "description": "Wechseln Sie für Entfernungen und Flächen zwischen metrischem, imperialem oder nautischem Maß – nützlich für Gegenprüfungen in der See- und Luftfahrt."
+        },
+        {
+          "title": "Optionales GPS",
+          "description": "Konverter- und Entfernungstools arbeiten mit eingegebenen Koordinaten – GPS dient nur der Kartenzentrierung."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Offline-Nutzung, Genauigkeit, Anzeigen und Plattformen.",
+      "viewAllSupport": "Vollständigen Support und FAQ anzeigen",
+      "items": [
+        {
+          "question": "Was ist GEO Calc?",
+          "answer": "GEO Calc ist ein Offline-Koordinatenrechner für WGS84 für iOS und Android. Konvertieren Sie DD, DMS, UTM und MGRS; Berechnen Sie Vincenty Entfernung und Peilung; auf einer Karte messen; GPX exportieren. Android Paket: com.zuki.apps.geocalc."
+        },
+        {
+          "question": "Braucht GEO Calc Internet?",
+          "answer": "Kernumrechnung, Entfernung und Kartenmaß funktionieren offline. Anzeigen und Analysen können das Netzwerk nutzen, sofern verfügbar."
+        },
+        {
+          "question": "Ist es Umfragequalität?",
+          "answer": "Für die Berechnungen wird die standardmäßige WGS84-Geodäsie (Vincenty, Ellipsoidfläche) verwendet. Überprüfen Sie kritische Messungen mit zertifizierten Vermessungsgeräten – GEO Calc ist ein Feldreferenzinstrument, keine gesetzliche Grenzbehörde."
+        },
+        {
+          "question": "Brauche ich ein Konto?",
+          "answer": "Nein. Wegpunkte und Präferenzen werden nur auf Ihrem Gerät gespeichert."
+        },
+        {
+          "question": "Gibt es ein Abonnement?",
+          "answer": "Nein. GEO Calc v1.0 ist kostenlos mit optionalen Banner- und Interstitial-Anzeigen. Keine In-App-Käufe beim Start."
+        },
+        {
+          "question": "Wird mein GPS-Standort verwendet?",
+          "answer": "Der Standort ist optional – wird verwendet, wenn Sie Karten- oder GPS-Funktionen öffnen. Konverter- und Entfernungswerkzeuge funktionieren ausschließlich mit eingegebenen Koordinaten."
+        },
+        {
+          "question": "Welche Koordinatenformate werden unterstützt?",
+          "answer": "Dezimalgrade (DD), Grad-Minuten-Sekunden (DMS), UTM und MGRS auf WGS84."
+        },
+        {
+          "question": "Kann ich in GIS exportieren?",
+          "answer": "Ja – Wegpunkte speichern und GPX 1.1 für QGIS, ArcGIS, Google Earth und GPS-Geräte exportieren."
+        },
+        {
+          "question": "Welche Sprachen werden unterstützt?",
+          "answer": "12 Sprachen: Englisch, Hebräisch, Arabisch, Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, Portugiesisch, Russisch und Chinesisch (vereinfacht)."
+        },
+        {
+          "question": "Wie erhalte ich Unterstützung?",
+          "answer": "E-Mail an zuki.apps.dev@gmail.com oder besuchen Sie https://zukiapps.com/geo-calc/support. Datenschutz: https://zukiapps.com/geo-calc/privacy"
+        }
+      ]
+    },
+    "languages": {
+      "title": "12 Sprachen",
+      "description": "Englisch, Hebräisch (RTL), Arabisch (RTL), Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, Portugiesisch, Russisch und Chinesisch (vereinfacht)."
+    },
+    "status": {
+      "title": "Im Bau",
+      "description": "GEO Calc v1.0 befindet sich in der aktiven Entwicklung. Store-Links werden hier angezeigt, wenn die Builds iOS und Android fertig sind.",
+      "version": "Zielversion",
+      "status": "Verfügbarkeit",
+      "versionValue": "1.0.0 (in Entwicklung)",
+      "statusValue": "Demnächst erhältlich · iOS, iPad & Android"
+    },
+    "download": {
+      "title": "Kommt bald",
+      "description": "GEO Calc wird im App Store und bei Google Play verfügbar sein, sobald der Start bereit ist.",
+      "soon": "Bald im App Store und bei Google Play erhältlich",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "GEO Calc App-Symbol",
+      "appStoreAlt": "Im App Store herunterladen",
+      "googlePlayAlt": "Holen Sie es sich bei Google Play"
+    },
+    "links": {
+      "title": "Wichtige Links",
+      "support": {
+        "title": "Support & FAQ",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 GEO Calc — Alle Rechte vorbehalten",
+      "tagline": "Teil von Zuki Apps · von Zuki.Apps"
+    },
+    "support": {
+      "title": "Support & Hilfe",
+      "subtitle": "Finden Sie Antworten zu GEO Calc-Koordinaten, Offline-Nutzung, Kartenmaß und GPX-Export.",
+      "metaTitle": "Support und Hilfe – GEO Calc | Zuki Apps",
+      "metaDescription": "GEO Calc FAQ – WGS84-Umrechnung, Vincenty-Entfernung, Offline-Kartenmessung, Wegpunkte, GPX und Fehlerbehebung. iOS & Android.",
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Schicken Sie uns eine E-Mail und wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Schnelle Links",
+        "privacy": {
+          "title": "Datenschutzrichtlinie",
+          "description": "Wie GEO Calc mit Ihren Daten umgeht"
+        },
+        "terms": {
+          "title": "Nutzungsbedingungen",
+          "description": "Bedingungen für die Verwendung von GEO Calc"
+        }
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "q1": {
+          "question": "Wie konvertiere ich UTM in Dezimalgrad?",
+          "answer": "Öffnen Sie den Koordinatenkonverter, fügen Sie Ihre Zeichenfolge UTM ein und lesen Sie DD (und DMS/MGRS) im Ergebnisbereich. Funktioniert offline."
+        },
+        "q2": {
+          "question": "Warum unterscheidet sich meine Entfernung von einer flachen Karte?",
+          "answer": "GEO Calc verwendet den geodätischen Abstand Vincenty auf dem Ellipsoid WGS84. Flache oder Web-Mercator-Lineale unterschätzen große Spannweiten – insbesondere Ost-West auf hohen Breitengraden."
+        },
+        "q3": {
+          "question": "Kann ich GEO Calc ohne GPS verwenden?",
+          "answer": "Ja. Konverter- und Entfernungswerkzeuge benötigen nur eingegebene Koordinaten. Zur Zentrierung der Karte ist GPS optional."
+        },
+        "q4": {
+          "question": "Wie exportiere ich GPX?",
+          "answer": "Speichern Sie Wegpunkte aus der App, öffnen Sie den Bildschirm „Wegpunkte“, wählen Sie Elemente aus und tippen Sie auf GPX exportieren. Geben Sie die Datei über das Systemblatt frei."
+        },
+        "q5": {
+          "question": "Werden Wegpunkte in der Cloud gesichert?",
+          "answer": "Nein. Wegpunkte und Präferenzen werden lokal gespeichert. Exportieren Sie GPX, wenn Sie ein Backup benötigen."
+        },
+        "q6": {
+          "question": "Wo ist die vollständige FAQ?",
+          "answer": "Sehen Sie sich die FAQ auf der GEO Calc-Produktseite an oder lesen Sie public/geo-calc/faq.md auf zukiapps.com für eine Antwort-Engine-freundliche Kopie."
+        }
+      },
+      "additionalHelp": {
+        "title": "Benötigen Sie weitere Hilfe?",
+        "description": "Wenn Sie keine Antwort finden konnten, senden Sie eine E-Mail an zuki.apps.dev@gmail.com. Wir antworten in der Regel innerhalb von 24–48 Stunden."
+      }
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "metaDescription": "Datenschutzrichtlinie für GEO Calc – lokale Wegpunktspeicherung, optionaler Standort, Anzeigen und Analyse-SDKs, kein Konto erforderlich.",
+      "lastUpdated": "Letzte Aktualisierung: Juli 2026",
+      "intro": "In dieser Datenschutzrichtlinie wird erläutert, wie Zuki Apps („wir“, „uns“) mit Informationen umgeht, wenn Sie die mobile Anwendung GEO Calc und verwandte Seiten unter zukiapps.com/geo-calc (der „Dienst“) nutzen. GEO Calc speichert Wegpunkte und Präferenzen auf Ihrem Gerät. Wir benötigen kein Konto.",
+      "section1": {
+        "title": "1. Wer wir sind",
+        "content": "Der Datenverantwortliche für GEO Calc ist Zuki Apps. Die Kontaktdaten finden Sie am Ende dieser Richtlinie.",
+        "content2": "Diese Richtlinie gilt für die GEO Calc-App (iOS und Android) und die rechtlichen Seiten, die wir für das Produkt veröffentlichen."
+      },
+      "section2": {
+        "title": "2. Informationen, die wir sammeln",
+        "content": "Wegpunktnamen, von Ihnen eingegebene Koordinaten und App-Einstellungen werden lokal auf Ihrem Gerät gespeichert und nicht an unsere Server übertragen.",
+        "items": [
+          "Wegpunkt- und Koordinateninhalte: Nur lokal – werden nicht auf unseren Servern gesammelt",
+          "Grober/genauer Standort (optional): Wird für Karten-/GPS-Funktionen verwendet, wenn Sie die Erlaubnis erteilen",
+          "Geräte- oder Werbe-IDs (AdMob): können in der kostenlosen Version für Anzeigen verwendet werden",
+          "App-Interaktions- und Absturzdaten (Firebase Analytics / Crashlytics): aggregierte Diagnose",
+          "Support-E-Mail: wenn Sie uns direkt kontaktieren"
+        ]
+      },
+      "section3": {
+        "title": "3. Wie wir Informationen nutzen",
+        "content": "Wir verwenden Informationen, um:",
+        "items": [
+          "Bietet Koordinatenkonvertierung, Entfernung, Kartenmaß und GPX-Export",
+          "Wenn dies zulässig ist, können Sie die Karte optional auf Ihren Standort zentrieren",
+          "Anzeigen im kostenlosen Kontingent schalten (Google AdMob)",
+          "Messen Sie die App-Stabilität und -Nutzung mithilfe von Analyse-SDKs",
+          "Reagieren Sie auf Supportanfragen"
+        ],
+        "content2": "Wir verkaufen Ihre persönlichen Daten nicht. Wir laden Ihre Wegpunkte oder eingegebenen Koordinaten nicht auf unsere Server hoch."
+      },
+      "section4": {
+        "title": "4. Standort",
+        "content": "GEO Calc kann eine Standortgenehmigung für die Kartenzentrierung und optionale GPS-Funktionen anfordern. Konverter- und Entfernungstools funktionieren ohne Standortzugriff.",
+        "content2": "Sie können die Standortberechtigung jederzeit in Ihren Geräteeinstellungen widerrufen."
+      },
+      "section5": {
+        "title": "5. Speicherung und Aufbewahrung",
+        "content": "Wegpunktdaten bleiben auf Ihrem Gerät, bis Sie sie löschen oder die App deinstallieren. In Version 1.0 betreiben wir kein Cloud-Konto für die Wegpunktsynchronisierung.",
+        "content2": "Support-E-Mails werden so lange aufbewahrt, wie es zur Lösung Ihrer Anfrage erforderlich ist."
+      },
+      "section6": {
+        "title": "6. Werbung und Analysen",
+        "content": "Die kostenlose Version kann Banner- und Interstitial-Anzeigen über Google AdMob anzeigen. Firebase Analytics und Crashlytics erfassen möglicherweise begrenzte Geräte- und Nutzungsdaten, wie in den Richtlinien von Google beschrieben.",
+        "content2": "Am iOS kann die App die Erlaubnis zur App-Tracking-Transparenz für personalisierte Anzeigen anfordern."
+      },
+      "section7": {
+        "title": "7. Ihre Rechte und Kinder",
+        "content": "Abhängig von Ihrer Gerichtsbarkeit haben Sie möglicherweise Rechte auf Zugriff, Berichtigung, Löschung oder Widerspruch gegen bestimmte Verarbeitungen. Kontaktieren Sie uns, um Ihre Rechte auszuüben.",
+        "content2": "GEO Calc richtet sich nicht an Kinder unter 13 Jahren (oder dem Mindestalter in Ihrem Land). Wir erfassen wissentlich keine personenbezogenen Daten von Kindern."
+      },
+      "section8": {
+        "title": "8. Änderungen",
+        "content": "Wir können diese Richtlinie von Zeit zu Zeit aktualisieren. Wir werden die überarbeitete Version mit einem neuen „Letzte Aktualisierung“-Datum veröffentlichen."
+      },
+      "sectionContact": {
+        "title": "Kontakt",
+        "content": "Fragen zu dieser Datenschutzerklärung:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "metaDescription": "Nutzungsbedingungen für GEO Calc – Koordinatenrechner, Haftungsausschluss für das Feldreferenztool und akzeptable Nutzung.",
+      "lastUpdated": "Letzte Aktualisierung: Juli 2026",
+      "intro": "Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie GEO Calc verwenden. Durch das Herunterladen, Installieren oder Verwenden der App stimmen Sie diesen Bedingungen und unserer Datenschutzrichtlinie zu.",
+      "section1": {
+        "title": "1. Annahme der Bedingungen",
+        "content": "Diese Bedingungen regeln Ihre Nutzung von GEO Calc („Dienst“, „App“), das von Zuki Apps („wir“, „uns“) betrieben wird. Wenn Sie damit nicht einverstanden sind, nutzen Sie den Dienst nicht.",
+        "content2": "Wenn Sie den Dienst im Namen einer Organisation nutzen, erklären Sie, dass Sie befugt sind, diese Organisation zu verpflichten."
+      },
+      "section2": {
+        "title": "2. Beschreibung des Dienstes",
+        "content": "GEO Calc ist eine WGS84-Koordinaten- und Geodäsie-Referenz-App. Der Service umfasst:",
+        "items": [
+          "Koordinatenkonvertierung (DD, DMS, UTM, MGRS)",
+          "Vincenty geodätische Entfernung, Peilung und Direktion",
+          "Offline-Kartenmaß – Pfad und Polygonfläche",
+          "Lokale Wegpunkte und GPX-Export",
+          "Metrische, imperiale und nautische Einheiten",
+          "12 Sprachschnittstellen"
+        ]
+      },
+      "section3": {
+        "title": "3. Keine professionelle Vermessungsberatung",
+        "content": "GEO Calc ist nur ein Feldreferenztool. Es handelt sich nicht um ein zertifiziertes Vermessungsinstrument und es werden keine rechtlichen Grundstücksgrenzen festgelegt.",
+        "content2": "Überprüfen Sie kritische Messungen und Grenzarbeiten mit qualifizierten Fachkräften und geeigneter zertifizierter Ausrüstung."
+      },
+      "section4": {
+        "title": "4. Kostenloser Service und Werbung",
+        "content": "GEO Calc v1.0 ist kostenlos mit optionalen Banner- und Interstitial-Anzeigen. Zum Start gibt es kein Abonnement.",
+        "content2": "Funktionen und Anzeigenplatzierung können sich mit vorheriger Ankündigung ändern, sofern dies gesetzlich vorgeschrieben ist."
+      },
+      "section5": {
+        "title": "5. Akzeptable Verwendung",
+        "content": "Sie stimmen zu, Folgendes nicht zu tun:",
+        "items": [
+          "Reverse Engineering der App, sofern dies nicht gesetzlich zulässig ist",
+          "Nutzen Sie den Dienst für rechtswidrige Zwecke",
+          "Verlassen Sie sich auf die App als alleinige Autorität für rechtliche Grenz- oder sicherheitskritische Entscheidungen",
+          "Beeinträchtigen Sie Anzeigen, Analysen oder Sicherheitsfunktionen"
+        ]
+      },
+      "section6": {
+        "title": "6. Haftungsausschluss",
+        "content": "Der Dienst wird „wie besehen“ ohne Gewährleistungen jeglicher Art bereitgestellt. Wir garantieren keinen unterbrechungs- oder fehlerfreien Betrieb oder die Eignung für einen bestimmten Vermessungszweck.",
+        "content2": "Sie sind dafür verantwortlich, Wegpunkte zu sichern, die Ihnen wichtig sind (z. B. über den GPX-Export)."
+      },
+      "section7": {
+        "title": "7. Haftungsbeschränkung",
+        "content": "Soweit gesetzlich zulässig, haftet Zuki Apps nicht für indirekte, zufällige oder Folgeschäden, die sich aus der Nutzung des Dienstes ergeben, einschließlich des Vertrauens auf Koordinaten- oder Flächenberechnungen."
+      },
+      "section8": {
+        "title": "8. Änderungen",
+        "content": "Wir können diese Bedingungen ändern. Die weitere Nutzung nach dem Wirksamkeitsdatum gilt als Annahme."
+      },
+      "sectionContact": {
+        "title": "Kontakt",
+        "content": "Fragen zu diesen Bedingungen:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}

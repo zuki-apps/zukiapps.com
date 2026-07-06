@@ -64,6 +64,7 @@ export default function SoftwareApplicationStructuredData({
     '/toldya': '/images/toldya-icon.png',
     '/zuli-collage': ZULI_COLLAGE_ICON,
     '/timesince': '/images/timesince-icon.png?v=1',
+    '/geo-calc': '/images/geo-calc-icon.png?v=1',
   };
 
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'

@@ -1,0 +1,526 @@
+{
+  "geoCalc": {
+    "back": "홈으로 돌아가기",
+    "hero": {
+      "badge": "공사중 · 곧 출시 예정",
+      "title": "WGS84 좌표 도구 — 오프라인.",
+      "productName": "GEO Calc — 좌표",
+      "subtitle": "GEO Calc — 좌표",
+      "description": "DD, DMS, UTM 및 MGRS을 변환합니다. Vincenty 측지선 거리 및 방위를 계산하고, 지도에서 측정하고, GPX을 내보냅니다. 측량사와 현장 엔지니어를 위해 제작되었습니다. 앱은 아직 개발 중입니다.",
+      "socialProof": "iOS 및 Android 출시 예정 · 오프라인 우선 · 계정 없음",
+      "structuredDataDescription": "GEO Calc — iOS 및 Android용 오프라인 WGS84 좌표 도구(공사 중). DD, DMS, UTM, MGRS을 변환합니다. Vincenty 거리 및 방위; 지도 측정; 경유지 및 GPX 내보내기. Android com.zuki.apps.geocalc. 웨이포인트는 기기에 남아 있습니다.",
+      "phoneAlt": "GEO Calc iPhone의 좌표 변환기",
+      "seoTitle": "GEO Calc — WGS84 좌표 도구 오프라인(출시 예정) | Zuki Apps",
+      "metaDescription": "GEO Calc은(는) 공사 중입니다. 현장 전문가를 위한 오프라인 WGS84 변환기, Vincenty 거리, 지도 측정 및 GPX 내보내기. 개인 정보 보호, 약관 및 지원이 지금 제공됩니다."
+    },
+    "legalNav": {
+      "privacy": "개인 정보 보호 정책",
+      "terms": "이용약관",
+      "support": "지원 및 FAQ",
+      "contact": "연락하다"
+    },
+    "underConstruction": {
+      "title": "우리는 GEO Calc을(를) 짓고 있습니다",
+      "message": "해당 앱은 아직 매장에 없습니다. 이 페이지는 매장 규정 준수에 대한 미리보기입니다. 전체 마케팅 콘텐츠는 출시 시 게시됩니다.",
+      "note": "개인 정보 보호 정책, 이용 약관 및 지원은 아래에서 확인할 수 있습니다.",
+      "highlights": [
+        "WGS84에서 DD, DMS, UTM 및 MGRS을 변환합니다.",
+        "Vincenty 측지선 거리, 방향각 및 직접",
+        "오프라인 지도 측정 — 경로 길이 및 다각형 영역",
+        "GPX 1.1 내보내기를 통한 웨이포인트 — 계정이 필요하지 않습니다"
+      ]
+    },
+    "pageNav": {
+      "features": "특징",
+      "screenshots": "스크린샷",
+      "howTo": "사용방법",
+      "useCases": "사용 사례",
+      "manual": "수동",
+      "tips": "팁",
+      "faq": "FAQ",
+      "download": "다운로드"
+    },
+    "features": {
+      "title": "신호가 없는 곳에서도 정밀함",
+      "converter": {
+        "title": "다중 형식 변환기",
+        "description": "WGS84 타원체의 십진수 각도, DMS, UTM 및 MGRS 간을 변환합니다. 형식을 자동 감지하거나 소수점 순서를 선택합니다.",
+        "items": [
+          "DD, DMS, UTM 및 MGRS",
+          "좌표 형식 자동 감지",
+          "위도/경도 순서 기본 설정",
+          "원탭 복사 결과"
+        ]
+      },
+      "distance": {
+        "title": "측지 거리 및 방위",
+        "description": "평면 지도 단축키가 아닌 Vincenty 역을 사용하여 두 점 사이의 타원체 거리 및 전방 방위각.",
+        "items": [
+          "Vincenty 역 측지선",
+          "전방 방위각/방위",
+          "측지선 직접(점 + 거리 + 방향각)",
+          "미터법, 영국식 또는 해상 단위"
+        ]
+      },
+      "map": {
+        "title": "지도 측정",
+        "description": "오프라인 지도 캔버스에 경로와 다각형을 그립니다. WGS84 타원체에서 경로 길이와 다각형 영역을 측정합니다.",
+        "items": [
+          "꼭지점을 추가하려면 탭하세요.",
+          "타원체의 경로 거리",
+          "다각형 영역(GeographicLib)",
+          "옵션 GPS 센터링"
+        ]
+      },
+      "waypoints": {
+        "title": "웨이포인트 & GPX",
+        "description": "명명된 웨이포인트를 로컬에 저장합니다. GIS 및 GPS 장치에 대해 중간점 또는 정점을 GPX 1.1로 내보냅니다.",
+        "items": [
+          "로컬 웨이포인트 라이브러리",
+          "GPX 1.1 내보내기",
+          "좌표가 있는 명명된 점",
+          "시스템 시트를 통해 공유"
+        ]
+      },
+      "offline": {
+        "title": "설계상 오프라인",
+        "description": "코어 변환, 거리 및 지도 측정은 네트워크 없이 작동합니다. 가입이 필요하지 않습니다. 웨이포인트는 기기에 남아 있습니다.",
+        "items": [
+          "계정이 필요하지 않습니다",
+          "셀 서비스 없이 작동",
+          "로컬 웨이포인트 저장",
+          "실외 사용을 위한 어두운 테마"
+        ]
+      },
+      "languages": {
+        "title": "12개 언어",
+        "description": "RTL UI를 지원하는 히브리어 및 아랍어를 포함한 전 세계 현장 팀.",
+        "items": [
+          "영어, 히브리어, 아랍어",
+          "독일어, 스페인어, 프랑스어, 이탈리아어",
+          "일본어, 한국어, 포르투갈어, 러시아어, 중국어(간체)"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "GEO Calc의 실제 작동 모습을 확인하세요.",
+      "subtitle": "변환기, 거리, 지도 측정 및 웨이포인트 - 실제 앱 화면.",
+      "featuresTitle": "앱 화면",
+      "items": [
+        {
+          "id": "집",
+          "title": "세 가지 도구, 하나의 앱",
+          "description": "하나의 홈 화면에서 변환기, 거리 및 방위, 지도 측정을 조정하세요.",
+          "image": "/images/geo-calc/screenshot-home.png",
+          "alt": "GEO Calc 변환기, 거리 및 지도 도구가 포함된 홈 화면",
+          "category": "특징"
+        },
+        {
+          "id": "변환기",
+          "title": "모든 좌표 형식",
+          "description": "DD, DMS, UTM 및 MGRS 결과가 WGS84에 나란히 표시됩니다.",
+          "image": "/images/geo-calc/screenshot-converter.png",
+          "alt": "UTM 및 소수점 각도를 표시하는 GEO Calc 좌표 변환기",
+          "category": "특징"
+        },
+        {
+          "id": "거리",
+          "title": "측지 거리 및 방위각",
+          "description": "Vincenty 베어링 판독값이 있는 두 점 사이의 역수입니다.",
+          "image": "/images/geo-calc/screenshot-distance.png",
+          "alt": "GEO Calc 거리 및 방위 계산기",
+          "category": "특징"
+        },
+        {
+          "id": "지도",
+          "title": "경로 및 면적 측정",
+          "description": "오프라인으로 지도에 그립니다. 타원체의 경로 길이와 다각형 영역입니다.",
+          "image": "/images/geo-calc/screenshot-map.png",
+          "alt": "GEO Calc 폴리곤 영역을 사용한 오프라인 지도 측정",
+          "category": "특징"
+        },
+        {
+          "id": "웨이포인트",
+          "title": "GPX 내보내기",
+          "description": "경유지를 로컬에 저장하고 GIS 또는 GPS 핸드오프를 위해 GPX을 내보냅니다.",
+          "image": "/images/geo-calc/screenshot-waypoints.png",
+          "alt": "GPX 내보내기를 통한 GEO Calc 경유지 목록",
+          "category": "특징"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "GEO Calc 사용 방법",
+      "steps": [
+        {
+          "number": "1",
+          "title": "좌표 변환",
+          "description": "변환기를 열고 좌표를 붙여넣거나 입력한 다음 하나의 보기에서 DD, DMS, UTM 및 MGRS을 읽습니다."
+        },
+        {
+          "number": "2",
+          "title": "거리 확인",
+          "description": "Vincenty 측지선 길이와 방위각에 대해 거리 및 방위에 두 점을 입력합니다."
+        },
+        {
+          "number": "3",
+          "title": "측정 및 내보내기",
+          "description": "경로와 영역에 대해 지도 측정을 사용하고, 중간점을 저장하고, 준비되면 GPX을 내보냅니다."
+        }
+      ]
+    },
+    "useCases": {
+      "title": "전문적인 현장 작업을 위해 제작됨",
+      "subtitle": "빠른 WGS84은 전체 GIS 프로젝트가 과잉인지 확인합니다.",
+      "items": [
+        {
+          "title": "측량사 및 지적 직원",
+          "description": "UTM ⇔ DD을 현장에서 변환하고 제어점 간 간격을 확인합니다."
+        },
+        {
+          "title": "토목 및 지질 공학 엔지니어",
+          "description": "노트북을 열지 않고도 횡단 거리와 베어링을 확인할 수 있습니다."
+        },
+        {
+          "title": "GIS 기술자",
+          "description": "오프라인으로 좌표를 검증하고 데스크탑 GIS 워크플로우를 위해 GPX을 내보냅니다."
+        },
+        {
+          "title": "SAR 및 야외 팀",
+          "description": "셀 신호가 없을 때 지도에서 구역과 경로를 측정합니다."
+        }
+      ]
+    },
+    "manual": {
+      "title": "사용설명서",
+      "subtitle": "변환기, 거리, 지도, 웨이포인트 및 설정.",
+      "sections": [
+        {
+          "title": "1. 좌표변환기",
+          "steps": [
+            "좌표 문자열(DD, DMS, UTM 또는 MGRS)을 붙여넣거나 입력합니다.",
+            "자동 감지를 전환하거나 입력 형식을 수동으로 선택합니다.",
+            "필요한 경우 설정에서 좌표 순서(위도/경도 또는 경도/위도)를 설정하세요.",
+            "결과를 다른 앱으로 보내려면 복사 아이콘을 탭하세요."
+          ]
+        },
+        {
+          "title": "2. 거리 및 방위",
+          "steps": [
+            "DD 또는 DMS에 지점 A와 지점 B를 입력합니다.",
+            "측지선 거리와 전방 방위각을 읽습니다.",
+            "설정에서 미터법, 영국식, 해상 단위를 전환하세요.",
+            "시작, 거리, 방향이 지정된 지점을 찾으려면 직접 모드를 사용하세요."
+          ]
+        },
+        {
+          "title": "3. 지도 측정",
+          "steps": [
+            "Open Map Measure — 오프라인으로 작동합니다.",
+            "경로나 다각형을 따라 정점을 추가하려면 탭하세요.",
+            "WGS84에서 경로 길이 또는 다각형 영역을 읽습니다.",
+            "GPS 지도 중심을 원하는 경우에만 위치를 허용하세요."
+          ]
+        },
+        {
+          "title": "4. 웨이포인트 & GPX",
+          "steps": [
+            "변환기나 지도에서 포인트를 이름으로 저장하세요.",
+            "로컬 웨이포인트 목록을 찾아보세요. 클라우드 동기화가 없습니다.",
+            "선택한 웨이포인트 또는 트랙을 GPX 1.1로 내보냅니다.",
+            "파일, 이메일 또는 GIS 앱을 통해 GPX을(를) 공유하세요."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "팁과 요령",
+      "subtitle": "현장에서 신뢰할 수 있는 결과를 얻으세요.",
+      "items": [
+        {
+          "title": "중요한 작업 확인",
+          "description": "GEO Calc은 표준 WGS84 측지학을 사용합니다. 이는 인증된 측량 도구나 법적 경계를 대체하지 않습니다."
+        },
+        {
+          "title": "네트워크가 필요하지 않습니다",
+          "description": "빌드에 지도 캐싱이 포함된 경우 원격 사이트로 향하기 전에 오프라인 지도 타일을 다운로드하세요."
+        },
+        {
+          "title": "좌표 순서",
+          "description": "국제 프로젝트에서 결과가 바뀌는 것을 방지하려면 설정에서 위도/경도와 경도/위도를 한 번 설정하세요."
+        },
+        {
+          "title": "GPX 핸드오프",
+          "description": "웨이포인트를 GPX로 내보내고 QGIS, Google Earth 또는 휴대용 GPS 장치에서 엽니다."
+        },
+        {
+          "title": "단위계",
+          "description": "거리와 면적에 대해 미터법, 영국법, 항해법을 전환하세요. 해양 및 항공 교차 점검에 유용합니다."
+        },
+        {
+          "title": "옵션 GPS",
+          "description": "변환기 및 거리 도구는 입력된 좌표에서 작동합니다. GPS는 지도 중심 맞추기에만 사용됩니다."
+        }
+      ]
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "subtitle": "오프라인 사용, 정확성, 광고 및 플랫폼.",
+      "viewAllSupport": "전체 지원 및 FAQ 보기",
+      "items": [
+        {
+          "question": "GEO Calc은(는) 무엇인가요?",
+          "answer": "GEO Calc은 iOS 및 Android에 대한 오프라인 WGS84 좌표 계산기입니다. DD, DMS, UTM 및 MGRS을 변환합니다. Vincenty 거리와 방위를 계산합니다. 지도에서 측정하세요. GPX을 내보냅니다. Android 패키지: com.zuki.apps.geocalc."
+        },
+        {
+          "question": "GEO Calc에 인터넷이 필요합니까?",
+          "answer": "코어 변환, 거리 및 지도 측정은 오프라인으로 작동합니다. 광고 및 분석은 가능한 경우 네트워크를 사용할 수 있습니다."
+        },
+        {
+          "question": "설문조사 등급인가요?",
+          "answer": "계산에는 표준 WGS84 측지학(Vincenty, 타원체 영역)이 사용됩니다. 인증된 측량 장비로 중요한 측정값을 확인하십시오. — GEO Calc는 법적 경계 권한이 아닌 현장 참조 도구입니다."
+        },
+        {
+          "question": "계정이 필요합니까?",
+          "answer": "아니요. 웨이포인트와 기본 설정은 귀하의 장치에만 저장됩니다."
+        },
+        {
+          "question": "구독이 있나요?",
+          "answer": "아니요. GEO Calc v1.0에는 선택적 배너 및 전면 광고가 포함되어 무료입니다. 출시 시 인앱 구매가 없습니다."
+        },
+        {
+          "question": "내 GPS 위치를 사용하나요?",
+          "answer": "위치는 선택 사항입니다. 지도나 GPS 기능을 열 때 사용됩니다. 변환기 및 거리 도구는 입력된 좌표에서만 작동합니다."
+        },
+        {
+          "question": "어떤 좌표 형식이 지원되나요?",
+          "answer": "WGS84의 십진수 도(DD), 도-분-초(DMS), UTM 및 MGRS."
+        },
+        {
+          "question": "GIS로 내보낼 수 있나요?",
+          "answer": "예. 경유지를 저장하고 QGIS, ArcGIS, Google Earth 및 GPS 장치에 대해 GPX 1.1을 내보냅니다."
+        },
+        {
+          "question": "어떤 언어가 지원되나요?",
+          "answer": "12개 언어: 영어, 히브리어, 아랍어, 독일어, 스페인어, 프랑스어, 이탈리아어, 일본어, 한국어, 포르투갈어, 러시아어, 중국어(간체)."
+        },
+        {
+          "question": "지원을 받으려면 어떻게 해야 하나요?",
+          "answer": "zuki.apps.dev@gmail.com로 이메일을 보내거나 https://zukiapps.com/geo-calc/support.을(를) 방문하세요. 개인정보 보호: https://zukiapps.com/geo-calc/privacy"
+        }
+      ]
+    },
+    "languages": {
+      "title": "12개 언어",
+      "description": "영어, 히브리어(RTL), 아랍어(RTL), 독일어, 스페인어, 프랑스어, 이탈리아어, 일본어, 한국어, 포르투갈어, 러시아어 및 중국어(간체)."
+    },
+    "status": {
+      "title": "공사중",
+      "description": "GEO Calc v1.0은 현재 개발 중입니다. iOS 및 Android 빌드가 준비되면 여기에 스토어 링크가 표시됩니다.",
+      "version": "대상 버전",
+      "status": "유효성",
+      "versionValue": "1.0.0 (개발 중)",
+      "statusValue": "출시 예정 · iOS, iPad 및 Android"
+    },
+    "download": {
+      "title": "곧 출시 예정",
+      "description": "GEO Calc은(는) 출시가 준비되면 App Store 및 Google Play에서 사용할 수 있습니다.",
+      "soon": "App Store 및 Google Play에 곧 출시 예정",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "GEO Calc 앱 아이콘",
+      "appStoreAlt": "앱 스토어에서 다운로드",
+      "googlePlayAlt": "Google Play에서 구매하세요"
+    },
+    "links": {
+      "title": "중요한 링크",
+      "support": {
+        "title": "지원 및 FAQ",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 GEO Calc — 판권 소유",
+      "tagline": "Zuki Apps의 일부 · 작성자: Zuki.Apps"
+    },
+    "support": {
+      "title": "지원 및 도움말",
+      "subtitle": "GEO Calc 좌표, 오프라인 사용, 지도 측정 및 GPX 내보내기에 대한 답변을 찾아보세요.",
+      "metaTitle": "지원 및 도움말 — GEO Calc | Zuki Apps",
+      "metaDescription": "GEO Calc FAQ — WGS84 변환, Vincenty 거리, 오프라인 지도 측정, 경유지, GPX 및 문제 해결. iOS 및 Android.",
+      "contact": {
+        "title": "문의하기",
+        "description": "이메일을 보내주시면 최대한 빨리 연락드리겠습니다.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "빠른 링크",
+        "privacy": {
+          "title": "개인 정보 보호 정책",
+          "description": "GEO Calc이(가) 데이터를 처리하는 방법"
+        },
+        "terms": {
+          "title": "이용약관",
+          "description": "GEO Calc 사용 조건"
+        }
+      },
+      "faq": {
+        "title": "자주 묻는 질문",
+        "q1": {
+          "question": "UTM을 십진수로 어떻게 변환합니까?",
+          "answer": "좌표 변환기를 열고 UTM 문자열을 붙여넣은 다음 결과 패널에서 DD(및 DMS/MGRS)을 읽습니다. 오프라인으로 작동합니다."
+        },
+        "q2": {
+          "question": "왜 내 거리가 평면 지도와 다른가요?",
+          "answer": "GEO Calc은 WGS84 타원체에서 Vincenty 측지선 거리를 사용합니다. 플랫 또는 웹 메르카토르 눈금자는 긴 범위, 특히 고위도에서 동서 방향을 과소평가합니다."
+        },
+        "q3": {
+          "question": "GPS 없이 GEO Calc을(를) 사용할 수 있나요?",
+          "answer": "예. 변환기 및 거리 도구에는 입력된 좌표만 필요합니다. 지도 중심을 맞추기 위한 GPS는 선택 사항입니다."
+        },
+        "q4": {
+          "question": "GPX을 어떻게 내보내나요?",
+          "answer": "앱에서 웨이포인트를 저장하고 웨이포인트 화면을 열고 항목을 선택한 다음 GPX 내보내기를 탭하세요. 시스템 시트를 통해 파일을 공유하세요."
+        },
+        "q5": {
+          "question": "웨이포인트는 클라우드에 백업되나요?",
+          "answer": "아니요. 웨이포인트와 기본 설정은 로컬에 저장됩니다. 백업이 필요한 경우 GPX을(를) 내보내세요."
+        },
+        "q6": {
+          "question": "전체 FAQ는 어디에 있나요?",
+          "answer": "GEO Calc 제품 페이지의 FAQ를 참조하거나 zukiapps.com의 public/geo-calc/faq.md에서 응답 엔진 친화적인 사본을 읽어보세요."
+        }
+      },
+      "additionalHelp": {
+        "title": "도움이 더 필요하신가요?",
+        "description": "답변을 찾을 수 없다면 zuki.apps.dev@gmail.com로 이메일을 보내주세요. 일반적으로 24~48시간 이내에 응답합니다."
+      }
+    },
+    "privacy": {
+      "title": "개인 정보 보호 정책",
+      "metaDescription": "GEO Calc에 대한 개인정보 보호정책 — 로컬 경유지 저장, 선택적 위치, 광고 및 분석 SDK, 계정이 필요하지 않습니다.",
+      "lastUpdated": "최종 업데이트 날짜: 2026년 7월",
+      "intro": "본 개인정보 보호정책은 귀하가 GEO Calc 모바일 애플리케이션 및 zukiapps.com/geo-calc(“서비스”)의 관련 페이지를 사용할 때 Zuki Apps(“당사”)가 정보를 처리하는 방법을 설명합니다. GEO Calc는 장치에 경유지와 기본 설정을 저장합니다. 우리는 계정을 요구하지 않습니다.",
+      "section1": {
+        "title": "1. 우리는 누구인가",
+        "content": "GEO Calc의 데이터 컨트롤러는 Zuki Apps입니다. 연락처 정보는 본 정책의 끝부분에 나와 있습니다.",
+        "content2": "이 정책은 GEO Calc 앱(iOS 및 Android)과 당사가 제품에 대해 게시하는 법적 페이지에 적용됩니다."
+      },
+      "section2": {
+        "title": "2. 당사가 수집하는 정보",
+        "content": "귀하가 입력한 웨이포인트 이름, 좌표 및 앱 설정은 귀하의 장치에 로컬로 저장되며 당사 서버로 전송되지 않습니다.",
+        "items": [
+          "웨이포인트 및 좌표 콘텐츠: 로컬 전용 — 당사 서버에 수집되지 않음",
+          "대략적/정확한 위치(선택사항): 권한 부여 시 지도/GPS 기능에 사용됩니다.",
+          "기기 또는 광고 ID(AdMob): 무료 버전의 광고에 사용될 수 있습니다.",
+          "앱 상호작용 및 충돌 데이터(Firebase Analytics / Crashlytics): 집계된 진단",
+          "지원 이메일: 직접 문의하는 경우"
+        ]
+      },
+      "section3": {
+        "title": "3. 당사가 정보를 사용하는 방법",
+        "content": "우리는 다음과 같은 목적으로 정보를 사용합니다.",
+        "items": [
+          "좌표 변환, 거리, 지도 측정 및 GPX 내보내기 제공",
+          "허용되는 경우 선택적으로 지도를 현재 위치의 중앙에 배치합니다.",
+          "무료 등급(Google AdMob)에 광고 표시",
+          "분석 SDK를 통해 앱 안정성 및 사용량 측정",
+          "지원 요청에 응답"
+        ],
+        "content2": "우리는 귀하의 개인 정보를 판매하지 않습니다. 우리는 귀하의 경유지나 입력된 좌표를 서버에 업로드하지 않습니다."
+      },
+      "section4": {
+        "title": "4. 위치",
+        "content": "GEO Calc은(는) 지도 센터링 및 선택적 GPS 기능에 대한 위치 권한을 요청할 수 있습니다. 변환기 및 거리 도구는 위치 액세스 없이 작동합니다.",
+        "content2": "언제든지 기기 설정에서 위치 권한을 취소할 수 있습니다."
+      },
+      "section5": {
+        "title": "5. 보관 및 보관",
+        "content": "웨이포인트 데이터는 삭제하거나 앱을 제거할 때까지 기기에 남아 있습니다. v1.0에서는 웨이포인트 동기화를 위한 클라우드 계정을 운영하지 않습니다.",
+        "content2": "지원 이메일은 귀하의 요청을 해결하는 데 필요한 기간 동안 보관됩니다."
+      },
+      "section6": {
+        "title": "6. 광고 및 분석",
+        "content": "무료 버전은 Google AdMob을 통해 배너 및 전면 광고를 표시할 수 있습니다. Firebase Analytics 및 Crashlytics은(는) Google 정책에 설명된 대로 제한된 기기 및 사용 데이터를 수집할 수 있습니다.",
+        "content2": "iOS에 앱이 개인 맞춤 광고에 대한 앱 추적 투명성 권한을 요청할 수 있습니다."
+      },
+      "section7": {
+        "title": "7. 귀하의 권리와 자녀",
+        "content": "귀하의 관할권에 따라 귀하는 특정 처리에 접근, 수정, 삭제 또는 반대할 권리가 있을 수 있습니다. 권리를 행사하려면 당사에 문의하세요.",
+        "content2": "GEO Calc은(는) 13세(또는 해당 국가의 최소 연령) 미만 어린이를 대상으로 하지 않습니다. 우리는 어린이로부터 의도적으로 개인 데이터를 수집하지 않습니다."
+      },
+      "section8": {
+        "title": "8. 변경 사항",
+        "content": "당사는 수시로 본 정책을 업데이트할 수 있습니다. 새로운 \"최종 업데이트\" 날짜와 함께 개정된 버전을 게시할 예정입니다."
+      },
+      "sectionContact": {
+        "title": "연락하다",
+        "content": "본 개인정보 보호정책에 관한 질문:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "이용약관",
+      "metaDescription": "GEO Calc 이용 약관 — 좌표 계산기, 필드 참조 도구 면책 조항 및 허용되는 사용.",
+      "lastUpdated": "최종 업데이트 날짜: 2026년 7월",
+      "intro": "GEO Calc을(를) 사용하기 전에 본 이용약관을 주의 깊게 읽어보시기 바랍니다. 앱을 다운로드, 설치 또는 사용함으로써 귀하는 본 약관 및 개인정보 보호정책에 동의하게 됩니다.",
+      "section1": {
+        "title": "1. 약관 동의",
+        "content": "본 약관은 Zuki Apps(“당사”, “당사”)이 운영하는 GEO Calc(“서비스”, “앱”) 사용에 적용됩니다. 동의하지 않는 경우 서비스를 이용하지 마십시오.",
+        "content2": "귀하가 조직을 대신하여 서비스를 사용하는 경우 귀하는 해당 조직을 구속할 권한이 있음을 진술합니다."
+      },
+      "section2": {
+        "title": "2. 서비스 설명",
+        "content": "GEO Calc은 WGS84 좌표 및 측지 참조 앱입니다. 서비스에는 다음이 포함됩니다.",
+        "items": [
+          "좌표 변환(DD, DMS, UTM, MGRS)",
+          "Vincenty 측지선 거리, 방향각 및 직접",
+          "오프라인 지도 측정 — 경로 및 다각형 영역",
+          "지역 경유지 및 GPX 내보내기",
+          "미터법, 영국식, 해상 단위",
+          "12개 언어 인터페이스"
+        ]
+      },
+      "section3": {
+        "title": "3. 전문적인 측량 조언이 아닙니다.",
+        "content": "GEO Calc은 필드 참조 도구일 뿐입니다. 이는 인증된 측량 장비가 아니며 법적 재산 경계를 결정하지 않습니다.",
+        "content2": "자격을 갖춘 전문가와 적절하게 인증된 장비를 사용하여 중요한 측정 및 경계 작업을 확인하십시오."
+      },
+      "section4": {
+        "title": "4. 무료 서비스 및 광고",
+        "content": "GEO Calc v1.0에는 선택적 배너 및 전면 광고가 포함되어 무료입니다. 출시 시에는 구독이 없습니다.",
+        "content2": "기능 및 광고 배치는 법률에 따라 요구되는 경우 통지를 통해 변경될 수 있습니다."
+      },
+      "section5": {
+        "title": "5. 허용되는 사용",
+        "content": "귀하는 다음과 같은 행위를 하지 않을 것에 동의합니다.",
+        "items": [
+          "법에서 허용하는 경우를 제외하고 앱을 리버스 엔지니어링합니다.",
+          "불법적인 목적으로 서비스를 사용하는 행위",
+          "법적 경계 또는 안전에 중요한 결정을 내릴 때 앱을 유일한 권한으로 활용하세요.",
+          "광고, 분석 또는 보안 기능을 방해합니다."
+        ]
+      },
+      "section6": {
+        "title": "6. 면책조항",
+        "content": "서비스는 어떠한 종류의 보증도 없이 \"있는 그대로\" 제공됩니다. 우리는 특정 측량 목적에 대한 중단 없는 작동이나 오류 없는 작동 또는 적합성을 보장하지 않습니다.",
+        "content2": "귀하는 관심 있는 경유지를 백업할 책임이 있습니다(예: GPX 내보내기를 통해)."
+      },
+      "section7": {
+        "title": "7. 책임의 제한",
+        "content": "법률이 허용하는 최대 한도 내에서 Zuki Apps은(는) 좌표 또는 면적 계산에 대한 의존을 포함하여 서비스 사용으로 인해 발생하는 간접적, 우발적 또는 결과적 손해에 대해 책임을 지지 않습니다."
+      },
+      "section8": {
+        "title": "8. 변경 사항",
+        "content": "당사는 본 약관을 수정할 수 있습니다. 유효일 이후에도 계속 사용하면 승인으로 간주됩니다."
+      },
+      "sectionContact": {
+        "title": "연락하다",
+        "content": "본 약관에 관한 질문:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}

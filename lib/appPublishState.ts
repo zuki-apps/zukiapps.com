@@ -33,3 +33,14 @@ export const TIMESINCE_PILOT = false;
 export const TIMESINCE_PUBLISHED = false;
 
 export const TIMESINCE_APP_PATH = '/timesince' as const;
+
+/**
+ * GEO Calc is on the home grid when `GEO_CALC_PUBLISHED` is true.
+ * `GEO_CALC_PILOT` — indexed full landing when live on stores.
+ * `GEO_CALC_UNDER_CONSTRUCTION` — minimal landing + privacy/terms/support in sitemap only.
+ */
+export const GEO_CALC_UNDER_CONSTRUCTION = true;
+export const GEO_CALC_PILOT = false;
+export const GEO_CALC_PUBLISHED = false;
+
+export const GEO_CALC_APP_PATH = '/geo-calc' as const;

@@ -1,0 +1,526 @@
+{
+  "geoCalc": {
+    "back": "Volver a Inicio",
+    "hero": {
+      "badge": "En construcción · Próximamente",
+      "title": "WGS84 herramientas de coordenadas: sin conexión.",
+      "productName": "GEO Calc — Coordenadas",
+      "subtitle": "GEO Calc — Coordenadas",
+      "description": "Convierta DD, DMS, UTM y MGRS. Calcule Vincenty distancia y rumbo geodésico, mida en un mapa y exporte GPX: diseñado para topógrafos e ingenieros de campo. La aplicación aún está en desarrollo.",
+      "socialProof": "Próximamente en iOS y Android · Primero sin conexión · Sin cuenta",
+      "structuredDataDescription": "GEO Calc: herramientas de coordenadas WGS84 fuera de línea para iOS y Android (en construcción). Convertir DD, DMS, UTM, MGRS; Vincenty distancia y rumbo; medida del mapa; waypoints y exportación GPX. Android com.zuki.apps.geocalc. Los waypoints permanecen en su dispositivo.",
+      "phoneAlt": "GEO Calc convertidor de coordenadas en iPhone",
+      "seoTitle": "GEO Calc — WGS84 Herramientas de coordenadas sin conexión (próximamente) | Zuki Apps",
+      "metaDescription": "GEO Calc está en construcción. Convertidor WGS84 sin conexión, distancia Vincenty, medida de mapa y exportación GPX para profesionales de campo. Privacidad, términos y soporte disponibles ahora."
+    },
+    "legalNav": {
+      "privacy": "política de privacidad",
+      "terms": "Condiciones de uso",
+      "support": "Soporte y preguntas frecuentes",
+      "contact": "Contacto"
+    },
+    "underConstruction": {
+      "title": "Estamos construyendo GEO Calc",
+      "message": "La aplicación aún no está en las tiendas. Esta página es una vista previa del cumplimiento de la tienda: el contenido de marketing completo se publicará en el momento del lanzamiento.",
+      "note": "La política de privacidad, los términos de uso y el soporte están disponibles a continuación.",
+      "highlights": [
+        "Convierta DD, DMS, UTM y MGRS en WGS84",
+        "Vincenty distancia geodésica, rumbo y directo",
+        "Medida del mapa sin conexión: longitud de la ruta y área del polígono",
+        "Waypoints con exportación GPX 1.1: no se requiere cuenta"
+      ]
+    },
+    "pageNav": {
+      "features": "Características",
+      "screenshots": "Capturas de pantalla",
+      "howTo": "como usar",
+      "useCases": "Casos de uso",
+      "manual": "Manual",
+      "tips": "Consejos",
+      "faq": "Preguntas frecuentes",
+      "download": "Descargar"
+    },
+    "features": {
+      "title": "Precisión donde no hay señal",
+      "converter": {
+        "title": "Convertidor multiformato",
+        "description": "Convierta entre grados decimales, DMS, UTM y MGRS en el elipsoide WGS84. Detecta automáticamente el formato o elige el orden decimal.",
+        "items": [
+          "DD, DMS, UTM y MGRS",
+          "Formato de coordenadas de detección automática",
+          "Preferencia de orden Lat/Lng",
+          "Resultados de copia con un solo toque"
+        ]
+      },
+      "distance": {
+        "title": "Distancia geodésica y rumbo",
+        "description": "Distancia elipsoidal y azimut directo entre dos puntos usando Vincenty inverso, no atajos de mapas planos.",
+        "items": [
+          "Vincenty geodésica inversa",
+          "Azimut/rumbo hacia adelante",
+          "Geodésica directa (punto + distancia + rumbo)",
+          "Unidades métricas, imperiales o náuticas"
+        ]
+      },
+      "map": {
+        "title": "Medida del mapa",
+        "description": "Dibuja caminos y polígonos en un lienzo de mapa sin conexión. Mida la longitud del camino y el área del polígono en el elipsoide WGS84.",
+        "items": [
+          "Toque para agregar vértices",
+          "Distancia de trayectoria en elipsoide",
+          "Área de polígono (GeographicLib)",
+          "Centrado GPS opcional"
+        ]
+      },
+      "waypoints": {
+        "title": "Puntos de ruta y GPX",
+        "description": "Guarde los puntos de ruta con nombre localmente. Exporte waypoints o siga vértices como GPX 1.1 para dispositivos GIS y GPS.",
+        "items": [
+          "Biblioteca de puntos de ruta locales",
+          "Exportación GPX 1.1",
+          "Puntos nombrados con coordenadas.",
+          "Compartir a través de la hoja del sistema"
+        ]
+      },
+      "offline": {
+        "title": "Desconectado por diseño",
+        "description": "La conversión central, la distancia y la medición de mapas funcionan sin una red. Sin registro: los puntos de referencia permanecen en su dispositivo.",
+        "items": [
+          "No se requiere cuenta",
+          "Funciona sin servicio celular",
+          "Almacenamiento de puntos de ruta locales",
+          "Tema oscuro para uso en exteriores."
+        ]
+      },
+      "languages": {
+        "title": "12 idiomas",
+        "description": "Equipos de campo en todo el mundo, incluidos hebreo y árabe, con compatibilidad con RTL UI.",
+        "items": [
+          "Inglés, Hebreo, Árabe",
+          "Alemán, Español, Francés, Italiano",
+          "Japonés, coreano, portugués, ruso, chino (simplificado)"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "Vea GEO Calc en acción",
+      "subtitle": "Convertidor, distancia, medida de mapa y puntos de ruta: pantallas de aplicaciones reales.",
+      "featuresTitle": "Pantallas de aplicaciones",
+      "items": [
+        {
+          "id": "hogar",
+          "title": "Tres herramientas, una aplicación",
+          "description": "Convertidor de coordenadas, distancia y rumbo, y medición de mapas desde una pantalla de inicio.",
+          "image": "/images/geo-calc/screenshot-home.png",
+          "alt": "GEO Calc pantalla de inicio con herramientas de conversor, distancia y mapas",
+          "category": "características"
+        },
+        {
+          "id": "convertidor",
+          "title": "Cada formato de coordenadas",
+          "description": "Resultados DD, DMS, UTM y MGRS uno al lado del otro en WGS84.",
+          "image": "/images/geo-calc/screenshot-converter.png",
+          "alt": "GEO Calc convertidor de coordenadas que muestra UTM y grados decimales",
+          "category": "características"
+        },
+        {
+          "id": "distancia",
+          "title": "Distancia geodésica y azimut",
+          "description": "Vincenty inversa entre dos puntos con lectura de rumbo.",
+          "image": "/images/geo-calc/screenshot-distance.png",
+          "alt": "GEO Calc calculadora de distancia y rumbo",
+          "category": "características"
+        },
+        {
+          "id": "mapa",
+          "title": "Medir caminos y áreas",
+          "description": "Dibuje en el mapa sin conexión: longitud del camino y área del polígono en el elipsoide.",
+          "image": "/images/geo-calc/screenshot-map.png",
+          "alt": "GEO Calc medida de mapa fuera de línea con área de polígono",
+          "category": "características"
+        },
+        {
+          "id": "puntos de referencia",
+          "title": "Exportar GPX",
+          "description": "Guarde waypoints localmente y exporte GPX para transferencia GIS o GPS.",
+          "image": "/images/geo-calc/screenshot-waypoints.png",
+          "alt": "Lista de waypoints GEO Calc con exportación GPX",
+          "category": "características"
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "Cómo utilizar GEO Calc",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Convertir coordenadas",
+          "description": "Abra Convertidor, pegue o escriba coordenadas y lea DD, DMS, UTM y MGRS en una sola vista."
+        },
+        {
+          "number": "2",
+          "title": "Comprobar distancia",
+          "description": "Ingrese dos puntos en Distancia y rumbo para Vincenty longitud geodésica y acimut."
+        },
+        {
+          "number": "3",
+          "title": "Medir y exportar",
+          "description": "Utilice Map Measure para rutas y áreas, guarde waypoints y exporte GPX cuando esté listo."
+        }
+      ]
+    },
+    "useCases": {
+      "title": "Diseñado para trabajo de campo profesional",
+      "subtitle": "Quick WGS84 comprueba cuando un proyecto SIG completo es excesivo.",
+      "items": [
+        {
+          "title": "Agrimensores y personal catastral",
+          "description": "Convierta UTM ↔ DD en el sitio y verifique el espacio entre los puntos de control."
+        },
+        {
+          "title": "Ingenieros civiles y geotécnicos",
+          "description": "Verifique las distancias transversales y los rumbos sin abrir una computadora portátil."
+        },
+        {
+          "title": "Técnicos SIG",
+          "description": "Valide las coordenadas sin conexión y exporte GPX para flujos de trabajo SIG de escritorio."
+        },
+        {
+          "title": "SAR y equipos al aire libre",
+          "description": "Mide zonas y caminos en un mapa cuando no hay señal de celular."
+        }
+      ]
+    },
+    "manual": {
+      "title": "manual de usuario",
+      "subtitle": "Convertidor, distancia, mapa, waypoints y configuraciones.",
+      "sections": [
+        {
+          "title": "1. Convertidor de coordenadas",
+          "steps": [
+            "Pegue o escriba una cadena de coordenadas: DD, DMS, UTM o MGRS.",
+            "Alterna la detección automática o elige el formato de entrada manualmente.",
+            "Establezca el orden de las coordenadas (lat/lng o lng/lat) en Configuración si es necesario.",
+            "Toque los íconos de copiar para enviar los resultados a otra aplicación."
+          ]
+        },
+        {
+          "title": "2. Distancia y rumbo",
+          "steps": [
+            "Ingrese el punto A y el punto B en DD o DMS.",
+            "Lea la distancia geodésica y el azimut directo.",
+            "Cambie unidades métricas, imperiales o náuticas en Configuración.",
+            "Utilice el modo Directo para encontrar un punto dado el inicio, la distancia y el rumbo."
+          ]
+        },
+        {
+          "title": "3. Medida del mapa",
+          "steps": [
+            "Open Map Measure: funciona sin conexión.",
+            "Toque para agregar vértices a lo largo de un camino o polígono.",
+            "Lea la longitud de la ruta o el área del polígono en WGS84.",
+            "Permita la ubicación solo si desea centrar el mapa GPS."
+          ]
+        },
+        {
+          "title": "4. Puntos de referencia y GPX",
+          "steps": [
+            "Guarde puntos del convertidor o mapa con un nombre.",
+            "Explora la lista de waypoints locales, sin sincronización en la nube.",
+            "Exporte los waypoints seleccionados o realice un seguimiento como GPX 1.1.",
+            "Comparta GPX a través de archivos, correo electrónico o aplicaciones GIS."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Consejos y trucos",
+      "subtitle": "Obtenga resultados confiables en el campo.",
+      "items": [
+        {
+          "title": "Verificar el trabajo crítico",
+          "description": "GEO Calc utiliza geodesia estándar WGS84, no sustituye los instrumentos topográficos certificados ni los límites legales."
+        },
+        {
+          "title": "No se necesita red",
+          "description": "Descargue mosaicos de mapas sin conexión antes de dirigirse a sitios remotos si su compilación incluye almacenamiento en caché de mapas."
+        },
+        {
+          "title": "orden de coordenadas",
+          "description": "Configure lat/lng vs lng/lat una vez en Configuración para evitar resultados intercambiados en proyectos internacionales."
+        },
+        {
+          "title": "GPX traspaso",
+          "description": "Exporte waypoints como GPX y ábralos en QGIS, Google Earth o una unidad GPS portátil."
+        },
+        {
+          "title": "Sistemas unitarios",
+          "description": "Cambie el sistema métrico, imperial o náutico para distancias y áreas, lo que resulta útil para verificaciones cruzadas marítimas y de aviación."
+        },
+        {
+          "title": "GPS opcional",
+          "description": "Las herramientas de conversión y distancia funcionan a partir de coordenadas escritas: el GPS solo sirve para centrar el mapa."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Uso sin conexión, precisión, anuncios y plataformas.",
+      "viewAllSupport": "Ver soporte completo y preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Qué es GEO Calc?",
+          "answer": "GEO Calc es una calculadora de coordenadas WGS84 fuera de línea para iOS y Android. Convierta DD, DMS, UTM y MGRS; calcular Vincenty distancia y rumbo; medir en un mapa; exportar GPX. Paquete Android: com.zuki.apps.geocalc."
+        },
+        {
+          "question": "¿GEO Calc necesita internet?",
+          "answer": "La conversión principal, la distancia y la medición de mapas funcionan sin conexión. Los anuncios y análisis pueden utilizar la red cuando estén disponibles."
+        },
+        {
+          "question": "¿Es apto para encuestas?",
+          "answer": "Los cálculos utilizan geodesia estándar WGS84 (Vincenty, área elipsoidal). Verifique las mediciones críticas con equipos topográficos certificados: GEO Calc es una herramienta de referencia de campo, no una autoridad de límites legales."
+        },
+        {
+          "question": "¿Necesito una cuenta?",
+          "answer": "No. Los waypoints y las preferencias se almacenan únicamente en su dispositivo."
+        },
+        {
+          "question": "¿Existe una suscripción?",
+          "answer": "No. GEO Calc v1.0 es gratuito con banners y anuncios intersticiales opcionales. No hay compras dentro de la aplicación en el momento del lanzamiento."
+        },
+        {
+          "question": "¿Utiliza mi ubicación GPS?",
+          "answer": "La ubicación es opcional y se utiliza al abrir el mapa o las funciones de GPS. Las herramientas de conversión y distancia funcionan únicamente a partir de coordenadas escritas."
+        },
+        {
+          "question": "¿Qué formatos de coordenadas se admiten?",
+          "answer": "Grados decimales (DD), grados-minutos-segundos (DMS), UTM y MGRS en WGS84."
+        },
+        {
+          "question": "¿Puedo exportar a SIG?",
+          "answer": "Sí: guarde waypoints y exporte GPX 1.1 para QGIS, ArcGIS, Google Earth y dispositivos GPS."
+        },
+        {
+          "question": "¿Qué idiomas son compatibles?",
+          "answer": "12 idiomas: inglés, hebreo, árabe, alemán, español, francés, italiano, japonés, coreano, portugués, ruso y chino (simplificado)."
+        },
+        {
+          "question": "¿Cómo obtengo soporte?",
+          "answer": "Envíe un correo electrónico a zuki.apps.dev@gmail.com o visite https://zukiapps.com/geo-calc/support. Privacidad: https://zukiapps.com/geo-calc/privacy"
+        }
+      ]
+    },
+    "languages": {
+      "title": "12 idiomas",
+      "description": "Inglés, hebreo (RTL), árabe (RTL), alemán, español, francés, italiano, japonés, coreano, portugués, ruso y chino (simplificado)."
+    },
+    "status": {
+      "title": "Bajo construcción",
+      "description": "GEO Calc v1.0 está en desarrollo activo. Los enlaces de la tienda aparecerán aquí cuando las compilaciones iOS y Android estén listas.",
+      "version": "Versión de destino",
+      "status": "Disponibilidad",
+      "versionValue": "1.0.0 (en desarrollo)",
+      "statusValue": "Próximamente · iOS, iPad y Android"
+    },
+    "download": {
+      "title": "Muy pronto",
+      "description": "GEO Calc estará disponible en App Store y Google Play cuando el lanzamiento esté listo.",
+      "soon": "Próximamente en App Store y Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "GEO Calc icono de la aplicación",
+      "appStoreAlt": "Descargar en la tienda de aplicaciones",
+      "googlePlayAlt": "Consíguelo en Google Play"
+    },
+    "links": {
+      "title": "Enlaces importantes",
+      "support": {
+        "title": "Soporte y preguntas frecuentes",
+        "email": "zuki.apps.dev@gmail.com"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 GEO Calc — Todos los derechos reservados",
+      "tagline": "Parte de Zuki Apps · por Zuki.Apps"
+    },
+    "support": {
+      "title": "Soporte y ayuda",
+      "subtitle": "Encuentre respuestas sobre las coordenadas GEO Calc, el uso fuera de línea, la medida del mapa y la exportación GPX.",
+      "metaTitle": "Soporte y ayuda: GEO Calc | Zuki Apps",
+      "metaDescription": "Preguntas frecuentes sobre GEO Calc: conversión de WGS84, distancia Vincenty, medida del mapa sin conexión, puntos de referencia, GPX y solución de problemas. iOS y Android.",
+      "contact": {
+        "title": "Contáctenos",
+        "description": "Envíenos un correo electrónico y nos comunicaremos con usted lo antes posible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Enlaces rápidos",
+        "privacy": {
+          "title": "política de privacidad",
+          "description": "Cómo GEO Calc maneja tus datos"
+        },
+        "terms": {
+          "title": "Condiciones de uso",
+          "description": "Términos de uso GEO Calc"
+        }
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": {
+          "question": "¿Cómo convierto UTM a grados decimales?",
+          "answer": "Abra Coordinate Converter, pegue su cadena UTM y lea DD (y DMS/MGRS) en el panel de resultados. Funciona sin conexión."
+        },
+        "q2": {
+          "question": "¿Por qué mi distancia es diferente a la de un mapa plano?",
+          "answer": "GEO Calc usa Vincenty distancia geodésica en el elipsoide WGS84. Los gobernantes planos o de red de Mercator subestiman los tramos largos, especialmente de este a oeste en latitudes altas."
+        },
+        "q3": {
+          "question": "¿Puedo usar GEO Calc sin GPS?",
+          "answer": "Sí. Las herramientas de conversión y distancia solo necesitan coordenadas escritas. El GPS es opcional para centrar el mapa."
+        },
+        "q4": {
+          "question": "¿Cómo exporto GPX?",
+          "answer": "Guarde waypoints desde la aplicación, abra la pantalla Waypoints, seleccione elementos y toque Exportar GPX. Comparta el archivo a través de la hoja del sistema."
+        },
+        "q5": {
+          "question": "¿Los puntos de referencia están respaldados en la nube?",
+          "answer": "No. Los waypoints y las preferencias se almacenan localmente. Exporte GPX si necesita una copia de seguridad."
+        },
+        "q6": {
+          "question": "¿Dónde están las preguntas frecuentes completas?",
+          "answer": "Consulte las preguntas frecuentes en la página del producto GEO Calc o lea public/geo-calc/faq.md en zukiapps.com para obtener una copia compatible con el motor de respuestas."
+        }
+      },
+      "additionalHelp": {
+        "title": "¿Necesitas más ayuda?",
+        "description": "Si no pudo encontrar una respuesta, envíe un correo electrónico a zuki.apps.dev@gmail.com. Normalmente respondemos dentro de 24 a 48 horas."
+      }
+    },
+    "privacy": {
+      "title": "política de privacidad",
+      "metaDescription": "Política de privacidad para GEO Calc: almacenamiento de waypoints locales, ubicación opcional, SDK de anuncios y análisis, no se requiere cuenta.",
+      "lastUpdated": "Última actualización: julio de 2026",
+      "intro": "Esta Política de Privacidad explica cómo Zuki Apps (“nosotros”, “nos”) maneja la información cuando usted utiliza la aplicación móvil GEO Calc y las páginas relacionadas en zukiapps.com/geo-calc (el “Servicio”). GEO Calc almacena waypoints y preferencias en su dispositivo. No requerimos una cuenta.",
+      "section1": {
+        "title": "1. Quiénes somos",
+        "content": "El responsable del tratamiento de datos de GEO Calc es Zuki Apps. Los datos de contacto se encuentran al final de esta Política.",
+        "content2": "Esta Política se aplica a la aplicación GEO Calc (iOS y Android) y a las páginas legales que publicamos para el producto."
+      },
+      "section2": {
+        "title": "2. Información que recopilamos",
+        "content": "Los nombres de los puntos de ruta, las coordenadas que ingresa y la configuración de la aplicación se almacenan localmente en su dispositivo y no se transmiten a nuestros servidores.",
+        "items": [
+          "Contenido de waypoints y coordenadas: solo local, no recopilado en nuestros servidores",
+          "Ubicación aproximada/precisa (opcional): se utiliza para funciones de mapa/GPS cuando otorga permiso",
+          "ID de dispositivo o publicidad (AdMob): se pueden usar para anuncios en la versión gratuita",
+          "Datos de interacción y fallas de la aplicación (Firebase Analytics / Crashlytics): diagnóstico agregado",
+          "Correo electrónico de soporte: si nos contacta directamente"
+        ]
+      },
+      "section3": {
+        "title": "3. Cómo utilizamos la información",
+        "content": "Usamos información para:",
+        "items": [
+          "Proporciona conversión de coordenadas, distancia, medida de mapa y exportación GPX",
+          "Opcionalmente, centre el mapa en su ubicación cuando esté permitido.",
+          "Mostrar anuncios en el nivel gratuito (Google AdMob)",
+          "Mida la estabilidad y el uso de las aplicaciones mediante SDK de análisis",
+          "Responder a las solicitudes de soporte"
+        ],
+        "content2": "No vendemos su información personal. No cargamos sus puntos de referencia ni sus coordenadas escritas en nuestros servidores."
+      },
+      "section4": {
+        "title": "4. Ubicación",
+        "content": "GEO Calc puede solicitar permiso de ubicación para centrar mapas y funciones GPS opcionales. Las herramientas de conversión y de distancia funcionan sin acceso a la ubicación.",
+        "content2": "Puede revocar el permiso de ubicación en la configuración de su dispositivo en cualquier momento."
+      },
+      "section5": {
+        "title": "5. Almacenamiento y retención",
+        "content": "Los datos de Waypoint permanecen en su dispositivo hasta que los elimine o desinstale la aplicación. No operamos una cuenta en la nube para la sincronización de waypoints en la versión 1.0.",
+        "content2": "Los correos electrónicos de soporte se conservan durante el tiempo necesario para resolver su solicitud."
+      },
+      "section6": {
+        "title": "6. Publicidad y análisis",
+        "content": "La versión gratuita puede mostrar anuncios intersticiales y de banner a través de Google AdMob. Firebase Analytics y Crashlytics pueden recopilar datos limitados de uso y dispositivo como se describe en las políticas de Google.",
+        "content2": "El iOS, la aplicación puede solicitar permiso de Transparencia de seguimiento de aplicaciones para anuncios personalizados."
+      },
+      "section7": {
+        "title": "7. Tus derechos y los niños",
+        "content": "Dependiendo de su jurisdicción, puede tener derechos para acceder, corregir, eliminar u oponerse a cierto procesamiento. Contáctenos para ejercer derechos.",
+        "content2": "GEO Calc no está dirigido a niños menores de 13 años (o la edad mínima en su país). No recopilamos conscientemente datos personales de niños."
+      },
+      "section8": {
+        "title": "8. Cambios",
+        "content": "Podemos actualizar esta Política de vez en cuando. Publicaremos la versión revisada con una nueva fecha de \"Última actualización\"."
+      },
+      "sectionContact": {
+        "title": "Contacto",
+        "content": "Preguntas sobre esta Política de Privacidad:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Condiciones de uso",
+      "metaDescription": "Términos de uso para GEO Calc: calculadora de coordenadas, exenciones de responsabilidad de la herramienta de referencia de campo y uso aceptable.",
+      "lastUpdated": "Última actualización: julio de 2026",
+      "intro": "Lea atentamente estos Términos de uso antes de usar GEO Calc. Al descargar, instalar o utilizar la aplicación, acepta estos Términos y nuestra Política de privacidad.",
+      "section1": {
+        "title": "1. Aceptación de Términos",
+        "content": "Estos Términos rigen su uso de GEO Calc (\"Servicio\", \"Aplicación\") operado por Zuki Apps (\"nosotros\", \"nos\"). Si no está de acuerdo, no utilice el Servicio.",
+        "content2": "Si utiliza el Servicio en nombre de una organización, declara que tiene autoridad para vincular a esa organización."
+      },
+      "section2": {
+        "title": "2. Descripción del Servicio",
+        "content": "GEO Calc es una aplicación de referencia de geodesia y coordenadas WGS84. El Servicio incluye:",
+        "items": [
+          "Conversión de coordenadas (DD, DMS, UTM, MGRS)",
+          "Vincenty distancia geodésica, rumbo y directo",
+          "Medida del mapa sin conexión: ruta y área del polígono",
+          "Puntos de ruta locales y exportación GPX",
+          "Unidades métricas, imperiales y náuticas.",
+          "12 interfaces de idiomas"
+        ]
+      },
+      "section3": {
+        "title": "3. Asesoramiento topográfico no profesional",
+        "content": "GEO Calc es únicamente una herramienta de referencia de campo. No es un instrumento topográfico certificado y no determina los límites legales de la propiedad.",
+        "content2": "Verifique las mediciones críticas y el trabajo de límites con profesionales calificados y el equipo certificado adecuado."
+      },
+      "section4": {
+        "title": "4. Servicio y anuncios gratuitos.",
+        "content": "GEO Calc v1.0 es gratuito con banners opcionales y anuncios intersticiales. No hay suscripción en el momento del lanzamiento.",
+        "content2": "Las características y la ubicación de los anuncios pueden cambiar con previo aviso cuando lo exija la ley."
+      },
+      "section5": {
+        "title": "5. Uso aceptable",
+        "content": "Usted acepta no:",
+        "items": [
+          "Realizar ingeniería inversa en la aplicación, excepto en los casos permitidos por la ley.",
+          "Utilizar el Servicio con fines ilegales",
+          "Confíe en la aplicación como única autoridad para tomar decisiones sobre límites legales o críticas para la seguridad",
+          "Interferir con anuncios, análisis o funciones de seguridad."
+        ]
+      },
+      "section6": {
+        "title": "6. Descargo de responsabilidad",
+        "content": "El Servicio se proporciona \"tal cual\" sin garantías de ningún tipo. No garantizamos un funcionamiento ininterrumpido o libre de errores ni la idoneidad para un propósito topográfico particular.",
+        "content2": "Usted es responsable de realizar una copia de seguridad de los puntos de referencia que le interesan (por ejemplo, mediante la exportación GPX)."
+      },
+      "section7": {
+        "title": "7. Limitación de responsabilidad",
+        "content": "En la medida máxima permitida por la ley, Zuki Apps no será responsable de los daños indirectos, incidentales o consecuentes que surjan del uso del Servicio, incluida la dependencia de cálculos de coordenadas o áreas."
+      },
+      "section8": {
+        "title": "8. Cambios",
+        "content": "Podemos modificar estos Términos. El uso continuado después de la fecha de vigencia constituye aceptación."
+      },
+      "sectionContact": {
+        "title": "Contacto",
+        "content": "Preguntas sobre estos Términos:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}
