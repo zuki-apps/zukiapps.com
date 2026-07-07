@@ -17,6 +17,8 @@ import {
   Volume2,
   Gamepad2,
   Layers,
+  Compass,
+  CalendarClock,
 } from 'lucide-react';
 
 interface AppInfo {
@@ -54,6 +56,14 @@ export default async function AppsGrid({ locale }: { locale: string }) {
       iconEdgeToEdge: true,
       titleKey: 'whistleCamera.title',
       link: `/${locale}/whistle-camera`,
+    },
+    'geo-calc': {
+      id: 'geo-calc',
+      icon: <Compass className="w-12 h-12 text-amber-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP['geo-calc'],
+      iconEdgeToEdge: true,
+      titleKey: 'geoCalc.title',
+      link: `/${locale}/geo-calc`,
     },
     'power-interval-timer': {
       id: 'power-interval-timer',
@@ -125,6 +135,14 @@ export default async function AppsGrid({ locale }: { locale: string }) {
       iconEdgeToEdge: true,
       titleKey: 'zuliCollage.title',
       link: `/${locale}/zuli-collage`,
+    },
+    timesince: {
+      id: 'timesince',
+      icon: <CalendarClock className="w-12 h-12 text-orange-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP.timesince,
+      iconEdgeToEdge: true,
+      titleKey: 'timeSince.title',
+      link: `/${locale}/timesince`,
     },
   };
 

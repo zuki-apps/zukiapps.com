@@ -10,6 +10,7 @@ const TITLE_KEY: Record<HomeAppId, string> = {
   zulist: 'zulist.title',
   'hush-gallery': 'hushGallery.title',
   'whistle-camera': 'whistleCamera.title',
+  'geo-calc': 'geoCalc.title',
   'power-interval-timer': 'powerIntervalTimer.title',
   'bit-scope': 'bitScope.title',
   'track-ledger': 'trackLedger.title',
@@ -20,6 +21,7 @@ const TITLE_KEY: Record<HomeAppId, string> = {
   'football-trivia': 'footballTrivia.title',
   'fun-facts-trivia': 'funFactsTrivia.title',
   'zuli-collage': 'zuliCollage.title',
+  timesince: 'timeSince.title',
 };
 
 type OtherZukiAppsProps = {
@@ -55,7 +57,13 @@ export default function OtherZukiApps({ currentAppId, limit = 4 }: OtherZukiApps
                 src={HOME_APP_ICON_WEBP[id]}
                 alt={tHome(TITLE_KEY[id])}
                 sizes="64px"
-                edgeToEdge={id === 'hush-gallery' || id === 'whistle-camera' || id === 'zuli-collage'}
+                edgeToEdge={
+                  id === 'hush-gallery' ||
+                  id === 'whistle-camera' ||
+                  id === 'zuli-collage' ||
+                  id === 'geo-calc' ||
+                  id === 'timesince'
+                }
                 boxClassName="w-16 h-16"
                 frameClassName="rounded-xl overflow-hidden"
               />

@@ -7,6 +7,7 @@ export const HOME_APP_ICON_WEBP: Record<HomeAppId, string> = {
   zulist: `/images/zulist-icon.webp?v=${v}`,
   'hush-gallery': `/images/hush-gallery-icon.webp?v=${v}`,
   'whistle-camera': `/images/whistle-camera-icon.webp?v=${v}`,
+  'geo-calc': `/images/geo-calc-icon.webp?v=${v}`,
   'power-interval-timer': `/images/power-interval-timer-icon.webp?v=${v}`,
   'bit-scope': `/images/bit-scope-icon.webp?v=${v}`,
   'track-ledger': `/images/track-ledger-icon.webp?v=${v}`,
@@ -17,4 +18,5 @@ export const HOME_APP_ICON_WEBP: Record<HomeAppId, string> = {
   'football-trivia': `/images/football-trivia-icon.webp?v=${v}`,
   'fun-facts-trivia': `/images/fun-facts-trivia-icon.webp?v=${v}`,
   'zuli-collage': `/images/zuli-collage-icon.webp?v=${v}`,
+  timesince: `/images/timesince-icon.webp?v=${v}`,
 };

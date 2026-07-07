@@ -1,11 +1,14 @@
 import type { LucideIcon } from 'lucide-react';
 import {
   Binary,
+  Compass,
   FolderTree,
+  Flame,
   Gamepad2,
   Grid3X3,
   History,
   Layers,
+  LayoutGrid,
   Lightbulb,
   LineChart,
   Lock,
@@ -344,6 +347,54 @@ export function getCarouselFeatureCells(appId: string): CarouselFeatureCell[] | 
           cellClass:
             'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-pink-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-pink-400/45 transition-all duration-300',
           iconClassName: 'w-8 h-8 text-pink-300 mb-2',
+        },
+      ];
+    case 'geo-calc':
+      return [
+        {
+          Icon: Compass,
+          labelKey: 'geoCalc.features.converter',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-amber-300 mb-2',
+        },
+        {
+          Icon: MapPinned,
+          labelKey: 'geoCalc.features.distance',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/40 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-amber-200 mb-2',
+        },
+        {
+          Icon: Wifi,
+          labelKey: 'geoCalc.features.offline',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-amber-300 mb-2',
+        },
+      ];
+    case 'timesince':
+      return [
+        {
+          Icon: Flame,
+          labelKey: 'timeSince.features.streaks',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-orange-300 mb-2',
+        },
+        {
+          Icon: Target,
+          labelKey: 'timeSince.features.goals',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-400/40 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-amber-200 mb-2',
+        },
+        {
+          Icon: LayoutGrid,
+          labelKey: 'timeSince.features.widgets',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-orange-300 mb-2',
         },
       ];
     default:

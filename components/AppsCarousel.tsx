@@ -27,6 +27,8 @@ import {
   Volume2,
   Gamepad2,
   Layers,
+  Compass,
+  CalendarClock,
 } from 'lucide-react';
 
 interface AppData {
@@ -98,6 +100,19 @@ export default function AppsCarousel() {
       featuresKey: 'whistleCamera.features',
       learnMoreKey: 'whistleCamera.learnMore',
       link: `/${locale}/whistle-camera`,
+      isComingSoon: false,
+    },
+    'geo-calc': {
+      id: 'geo-calc',
+      icon: <Compass className="w-16 h-16 text-amber-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP['geo-calc'],
+      iconEdgeToEdge: true,
+      titleKey: 'geoCalc.title',
+      subtitleKey: 'geoCalc.subtitle',
+      descriptionKey: 'geoCalc.description',
+      featuresKey: 'geoCalc.features',
+      learnMoreKey: 'geoCalc.learnMore',
+      link: `/${locale}/geo-calc`,
       isComingSoon: false,
     },
     'power-interval-timer': {
@@ -219,6 +234,19 @@ export default function AppsCarousel() {
       learnMoreKey: 'zuliCollage.learnMore',
       link: `/${locale}/zuli-collage`,
       isComingSoon: false,
+    },
+    timesince: {
+      id: 'timesince',
+      icon: <CalendarClock className="w-16 h-16 text-orange-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP.timesince,
+      iconEdgeToEdge: true,
+      titleKey: 'timeSince.title',
+      subtitleKey: 'timeSince.subtitle',
+      descriptionKey: 'timeSince.description',
+      featuresKey: 'timeSince.features',
+      learnMoreKey: 'timeSince.learnMore',
+      link: `/${locale}/timesince`,
+      isComingSoon: true,
     },
     }),
     [locale]
