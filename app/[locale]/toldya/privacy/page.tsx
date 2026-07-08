@@ -22,6 +22,9 @@ const BODY_SECTIONS = [
   'section11',
   'section12',
   'section13',
+  'section14',
+  'section15',
+  'section16',
 ] as const;
 
 export async function generateMetadata({
@@ -109,8 +112,12 @@ export default async function ToldyaPrivacyPage({
                   'section1',
                   'section3',
                   'section5',
+                  'section6',
                   'section8',
                   'section9',
+                  'section14',
+                  'section15',
+                  'section16',
                 ]}
                 t={t}
                 tRaw={t.raw}

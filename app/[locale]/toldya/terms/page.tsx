@@ -22,6 +22,11 @@ const BODY_SECTIONS = [
   'section11',
   'section12',
   'section13',
+  'section14',
+  'section15',
+  'section16',
+  'section17',
+  'section18',
 ] as const;
 
 export async function generateMetadata({
@@ -40,7 +45,7 @@ export async function generateMetadata({
   return {
     title: `${t('title')} — ToldYa! | Zuki Apps`,
     description:
-      'Terms of Use for ToldYa! — social network rules, community standards, prohibited content, moderation, and account deletion.',
+      'Terms of Use for ToldYa! — social network rules, resolution & disputes, private rooms, community standards, UGC safety tools, and account deletion.',
     robots: { index: true, follow: true },
     alternates: {
       canonical: buildCanonical(locale, '/toldya/terms'),
@@ -103,7 +108,7 @@ export default async function ToldyaTermsPage({
 
               <LegalSections
                 sections={BODY_SECTIONS}
-                listSectionKeys={['section4', 'section5', 'section6']}
+                listSectionKeys={['section4', 'section5', 'section6', 'section18']}
                 withContent2={[
                   'section1',
                   'section2',
@@ -111,8 +116,14 @@ export default async function ToldyaTermsPage({
                   'section5',
                   'section7',
                   'section8',
+                  'section9',
                   'section11',
                   'section12',
+                  'section14',
+                  'section15',
+                  'section16',
+                  'section17',
+                  'section18',
                 ]}
                 t={t}
                 tRaw={t.raw}

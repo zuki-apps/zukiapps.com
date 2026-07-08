@@ -25,8 +25,8 @@
     },
     "privacy": {
       "title": "Privacy Policy",
-      "lastUpdated": "Last updated: May 2026",
-      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) processes personal data when you use the ToldYa! mobile application and related pages at zukiapps.com/toldya (the “Service”). ToldYa! is a social network centered on user-generated predictions, voting, comments, and messaging.",
+      "lastUpdated": "Last updated: July 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) processes personal data when you use the ToldYa! mobile application and related pages at zukiapps.com/toldya (the “Service”). ToldYa! is an invite-only social network for user-generated predictions, Arena voting, mandatory author resolution, outcome disputes, optional private rooms with friends, comments, direct messages, and reputation scoring.",
       "section1": {
         "title": "1. Who we are",
         "content": "The data controller for ToldYa! is Zuki Apps. Contact details are at the end of this Policy.",
@@ -37,7 +37,10 @@
         "content": "We collect information you provide and information generated when you use the Service:",
         "items": [
           "Account data: email address, username, display name, password (stored in hashed form by our authentication provider), optional profile bio and avatar image, language preference, and invitation-related metadata.",
-          "Social & content data: predictions (text, category, target dates, status), votes, likes, comments, retweets/shares, follower relationships, reputation or category scores, and direct messages you send or receive.",
+          "Social & content data: predictions (text, category, target dates, status, visibility), votes, likes, comments, retweets/shares, follower relationships, reputation or category scores, and direct messages you send or receive.",
+          "Resolution & dispute data: outcomes submitted by prediction authors (including optional notes and evidence links), resolution timestamps, dispute reports filed by other members, and moderation-queue records related to outcomes.",
+          "Private room data: room names, membership lists, invitations, and predictions scoped to a room (visible only to room members, excluded from public feeds and global leaderboards).",
+          "Safety & moderation data: content reports, block lists, automated content-filter signals, and enforcement actions taken on your account or content.",
           "Media: photos or videos you attach to predictions, if you choose to upload them.",
           "Device & usage data: device type, operating system, app version, push notification tokens (if you enable notifications), IP-derived region (where available), crash logs, and analytics events via Google Firebase Analytics and Crashlytics.",
           "Support & safety: information you send when contacting support or reporting content or users.",
@@ -50,9 +53,11 @@
         "items": [
           "Create and manage your account, invitation access, and profile",
           "Display feeds, Arena views, voting results, comments, and notifications",
-          "Operate follower features, search, and reputation scoring",
-          "Send push or in-app notifications you have enabled",
-          "Detect abuse, enforce our Terms, and respond to reports",
+          "Operate mandatory prediction resolution, overdue reminders, and dispute review",
+          "Operate private rooms, membership, and room-scoped feeds",
+          "Operate follower features, search, and reputation scoring (excluding room-only predictions from global stats)",
+          "Send push or in-app notifications you have enabled (including resolution reminders)",
+          "Detect abuse, enforce our Terms, and respond to reports and blocks",
           "Maintain reliability, debug crashes, and improve the Service",
           "Comply with law and respond to lawful requests"
         ],
@@ -64,12 +69,13 @@
       },
       "section5": {
         "title": "5. How we share information",
-        "content": "Other members of the community can see your public profile (username, display name, avatar, bio, scores, and public predictions and interactions) according to product design. We do not display your email address to other users.",
-        "content2": "We use service providers that process data on our behalf, including Google Firebase (authentication, cloud database, file storage, analytics, crash reporting, and hosting as configured in our project). These providers act under contractual terms appropriate to their role. We may disclose information if required by law, to protect users and the public, or in connection with a merger or asset sale, with notice where required."
+        "content": "Other members can see your public profile (username, display name, avatar, bio, scores, and public predictions and interactions) according to product design. Predictions marked as private-room are visible only to members of that room and are not shown in public home or following feeds or global leaderboards. We do not display your email address to other users.",
+        "content2": "When you use the in-app “Share result” feature, an image or link is generated on your device and sent through your chosen third-party app (for example Messages, WhatsApp, or social networks). We do not receive that exported image unless you separately send it to us. Those third-party services have their own privacy policies. We use service providers that process data on our behalf, including Google Firebase (authentication, cloud database, file storage, analytics, crash reporting, and hosting as configured in our project). These providers act under contractual terms appropriate to their role. We may disclose information if required by law, to protect users and the public, or in connection with a merger or asset sale, with notice where required."
       },
       "section6": {
         "title": "6. User-generated content & moderation",
-        "content": "Predictions, comments, messages, and media are user-generated. We may review, remove, or restrict content and accounts that violate our Terms or applicable law. Removed content may remain in backups for a limited period before deletion."
+        "content": "Predictions, comments, messages, room content, and media are user-generated. We provide in-app tools to report content or users and to block other users, as required by Apple App Store and Google Play policies for apps with user-generated content. Reports and blocks are reviewed by our team; safety-related reports are prioritized. We also use automated content filtering on create flows where configured.",
+        "content2": "We may review, remove, restrict, or correct content and accounts that violate our Terms or applicable law, including after an outcome dispute is filed. Removed content may remain in backups for a limited period before deletion. For child safety, see our Child Safety Standards page."
       },
       "section7": {
         "title": "7. Retention",
@@ -101,17 +107,32 @@
         "title": "13. Changes to this Policy",
         "content": "We may update this Policy from time to time. We will post the revised version with a new “Last updated” date. Material changes may be notified in-app or by email where appropriate. Continued use after the effective date constitutes acceptance."
       },
+      "section14": {
+        "title": "14. Prediction resolution & disputes",
+        "content": "After a prediction’s voting deadline passes, the author must submit the outcome (fulfilled, failed, or void/cancelled) with any required note. Other members may dispute a submitted outcome if they believe it is incorrect. Disputes are stored with your account identifier, the prediction reference, optional reason text, and timestamp, and are routed to our moderation queue for human review.",
+        "content2": "Submitting a dispute does not instantly change the displayed outcome. We aim to review non–child-safety disputes within a reasonable period (typically within 14 business days). We may correct an outcome, request additional information from the author, or decline a dispute if insufficient evidence is provided. Overdue unresolved public predictions may trigger reminders and, in some cases, limit your ability to post new public predictions until resolved."
+      },
+      "section15": {
+        "title": "15. Private rooms",
+        "content": "Private rooms let invited members make predictions visible only within that room. We process room names, creator and member user IDs, invitation activity, and room-scoped predictions, votes, and comments. This data is not included in public home or following feeds or global reputation leaderboards.",
+        "content2": "Room membership is visible to other members of the same room. The same community standards, reporting, blocking, and moderation processes apply inside private rooms. Room data is deleted or anonymized when you delete your account or when a room is removed, subject to backup and legal retention described above."
+      },
+      "section16": {
+        "title": "16. Sharing outside the Service",
+        "content": "The Service may let you generate a shareable image card (for example after a resolved prediction) containing your username, prediction text, outcome, vote summary, and branding. That export is created on your device and shared through third-party apps you choose (via the system share sheet). We do not automatically post shared cards on your behalf.",
+        "content2": "Once you share content outside ToldYa!, the receiving platform’s terms and privacy policy govern that copy. You are responsible for what you share and with whom. Deep links included in shares may require sign-in or an invitation to view the full Arena."
+      },
       "sectionContact": {
         "title": "Contact",
         "content": "Questions about this Privacy Policy or your data:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       },
-      "metaDescription": "Privacy Policy for ToldYa! social network — account, UGC, Firebase, moderation, your rights, and account deletion."
+      "metaDescription": "Privacy Policy for ToldYa! — account, UGC, resolution disputes, private rooms, Firebase, moderation, your rights, and account deletion."
     },
     "terms": {
       "title": "Terms of Use",
-      "lastUpdated": "Last updated: May 2026",
+      "lastUpdated": "Last updated: July 2026",
       "intro": "These Terms of Use (“Terms”) govern your access to ToldYa! (“Service”, “app”), an invite-only social network operated by Zuki Apps. By creating an account or using the Service, you agree to these Terms and our Privacy Policy. If you do not agree, do not use the Service.",
       "section1": {
         "title": "1. Acceptance",
@@ -120,8 +141,8 @@
       },
       "section2": {
         "title": "2. The Service",
-        "content": "ToldYa! is a social network where members post time-bound predictions, vote on others’ predictions, comment, follow users, send direct messages, and build reputation scores by category. The Service is for entertainment, opinion, and community discussion only.",
-        "content2": "There is no real-money wagering, betting, prizes with monetary value, or virtual currency redeemable for money. Predictions are not financial, legal, or professional advice."
+        "content": "ToldYa! is a social network where members post time-bound predictions, vote on others’ predictions in the Arena, comment, follow users, send direct messages, resolve outcomes after deadlines, optionally dispute outcomes, join private rooms with invited friends, share result cards, and build reputation scores by category. The Service is for entertainment, opinion, and community discussion only.",
+        "content2": "There is no real-money wagering, betting, prizes with monetary value, or virtual currency redeemable for money. Private rooms are for friendly predictions among invited members only—not gambling or financial contracts. Predictions are not financial, legal, or professional advice."
       },
       "section3": {
         "title": "3. Accounts & invitations",
@@ -137,6 +158,8 @@
           "Use your real identity only as permitted by the product (no impersonation or deceptive profiles)",
           "Not scrape, reverse engineer, or overload the Service without permission",
           "Not manipulate votes, rankings, or reputation through bots, coordinated inauthentic behavior, or exploits",
+          "Resolve your own predictions honestly after the deadline when you are the author",
+          "Not submit false or misleading resolution outcomes",
           "Report content or users you believe violate these Terms"
         ]
       },
@@ -175,11 +198,12 @@
       "section8": {
         "title": "8. Moderation & enforcement",
         "content": "We may (but are not obligated to) monitor, filter, or review content. We may remove content, limit features, suspend, or permanently terminate accounts. Enforcement decisions are at our sole discretion to protect the community and comply with law.",
-        "content2": "If you believe content or an account violates these Terms, use in-app reporting where available or contact support."
+        "content2": "If you believe content or an account violates these Terms, use in-app reporting where available or contact support. We aim to review user reports and block actions within 24 hours for standard community issues, and sooner for child-safety or imminent-harm reports. Outcome disputes are reviewed separately and do not guarantee an immediate change to the displayed result."
       },
       "section9": {
-        "title": "9. Voting & predictions disclaimer",
-        "content": "Votes and comments reflect community opinion, not facts verified by us. We do not guarantee accuracy of predictions or outcomes. You use others’ content at your own risk."
+        "title": "9. Voting, resolution & predictions disclaimer",
+        "content": "Votes and comments reflect community opinion, not facts verified by us. After the deadline, the prediction author must submit the outcome. We do not guarantee accuracy of predictions, votes, or author-submitted outcomes. Members may dispute an outcome through the in-app process; disputes are reviewed by us but do not instantly overturn the author’s submission.",
+        "content2": "You use others’ content and community-reported outcomes at your own risk. Reputation scores and leaderboards exclude unresolved predictions and room-only content as described in the product."
       },
       "section10": {
         "title": "10. Privacy",
@@ -199,6 +223,38 @@
         "title": "13. Governing law",
         "content": "These Terms are governed by the laws of the State of Israel, without regard to conflict-of-law rules, except where mandatory consumer protections in your country require otherwise. Courts in Israel shall have exclusive jurisdiction where permitted, subject to mandatory local rights."
       },
+      "section14": {
+        "title": "14. Author resolution obligations",
+        "content": "If you create a prediction, you are responsible for submitting the correct outcome after the voting deadline passes (fulfilled, failed, or void/cancelled). You must not deliberately misstate results. Overdue predictions may display an “awaiting resolution” state, trigger reminders, and may restrict your ability to create new public predictions until resolved.",
+        "content2": "Optional notes or evidence links you provide at resolution are stored with the prediction and may be visible to members who can view that prediction. We may void or correct outcomes that violate these Terms or after a upheld dispute."
+      },
+      "section15": {
+        "title": "15. Outcome disputes",
+        "content": "Members who are not the author may dispute a submitted outcome if they believe it is incorrect. Disputes must be submitted in good faith through the in-app flow. Filing a dispute does not immediately change the outcome, vote history, or reputation score.",
+        "content2": "We review disputes through our moderation process and may uphold, decline, or correct an outcome. Repeated frivolous or abusive disputes may result in account restrictions. Our decision on disputes is made in our reasonable discretion to protect community integrity."
+      },
+      "section16": {
+        "title": "16. Private rooms",
+        "content": "Private rooms allow invited members to post predictions visible only within that room. Room creators and members must comply with these Terms and community standards. Room predictions are not wagers, bets, or contracts for money or prizes.",
+        "content2": "Room membership is limited as shown in the app. Do not use private rooms to harass others, share illegal content, or circumvent enforcement. We may remove rooms, predictions, or members that violate these Terms. Global leaderboards and public reputation exclude room-only predictions."
+      },
+      "section17": {
+        "title": "17. Sharing result cards",
+        "content": "The Service may let you export an image card summarizing a resolved prediction (including your username, question, outcome, and branding) and share it through third-party apps. You are responsible for ensuring your shares comply with these Terms and the policies of the platform where you post.",
+        "content2": "Do not use shared cards to misrepresent outcomes, impersonate others, or promote prohibited content. Shared deep links may require an account or invitation to view the underlying Arena."
+      },
+      "section18": {
+        "title": "18. Safety tools (Apple & Google requirements)",
+        "content": "Because ToldYa! includes user-generated content, we provide:",
+        "items": [
+          "In-app reporting on predictions, comments, profiles, and messages (where available)",
+          "The ability to block users so their content is hidden from your feed",
+          "Published community standards (these Terms) and a Child Safety Standards page",
+          "A published contact for support and a designated child-safety contact",
+          "Moderation and enforcement, including removal of violating content and account suspension or termination"
+        ],
+        "content2": "You must use these tools responsibly. False or malicious reports may lead to enforcement action against your account."
+      },
       "section19": {
         "title": "Contact",
         "content": "Questions about these Terms:",
@@ -211,7 +267,7 @@
       "intro": "You can permanently delete your ToldYa! account and associated personal data. This action cannot be undone.",
       "warning": {
         "title": "Important",
-        "content": "Deleting your account removes your profile, predictions, votes, comments, direct messages, follower relationships, and reputation data from the live Service. Some information may remain in encrypted backups for a limited time before automatic deletion, or where we must retain records by law."
+        "content": "Deleting your account removes your profile, predictions, votes, comments, direct messages, follower relationships, private room memberships, dispute reports, and reputation data from the live Service. Some information may remain in encrypted backups for a limited time before automatic deletion, or where we must retain records by law."
       },
       "steps": {
         "title": "Delete in the app (recommended)",
@@ -231,8 +287,8 @@
         "item1": "Account credentials and profile (email, username, display name, bio, avatar)",
         "item2": "Predictions, votes, comments, likes, and retweets",
         "item3": "Direct messages and notification history tied to your account",
-        "item4": "Follower / following relationships and category scores",
-        "item5": "Push notification tokens for your devices"
+        "item4": "Follower / following relationships, private room memberships, and category scores",
+        "item5": "Resolution notes, dispute reports tied to your account, and push notification tokens for your devices"
       },
       "retention": {
         "title": "Retention",
@@ -372,6 +428,14 @@
         "q8": {
           "question": "Where can I download ToldYa?",
           "answer": "iOS: https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206 · Android: https://play.google.com/store/apps/details?id=com.zuki.apps.toldya · Product page: https://zukiapps.com/toldya"
+        },
+        "q9": {
+          "question": "How do prediction resolution and disputes work?",
+          "answer": "After the voting deadline, the prediction author must submit the outcome. Other members can dispute an outcome they believe is wrong through the in-app flow. Disputes are reviewed by our team and do not instantly change the result. See our Terms of Use for details."
+        },
+        "q10": {
+          "question": "What are private rooms?",
+          "answer": "Private rooms let invited friends make predictions visible only within that room—not in public feeds or global leaderboards. The same community rules, reporting, and blocking apply inside rooms."
         }
       },
       "additionalHelp": {
