@@ -3,10 +3,10 @@
     "hero": {
       "title": "ToldYa!",
       "subtitle": "Told you so! Prove it.",
-      "description": "Invite-only social predictions — post your call before it happens, vote in the Arena, build a reputation score, and prove you called it. Free on iOS and Android; no ads, no in-app purchases.",
-      "structuredDataDescription": "ToldYa! — invite-only social network for predictions, Arena voting, comments, and reputation. Android com.zuki.apps.toldya; iOS App Store id6756342206 by Zuki Apps.",
+      "description": "Invite-only social predictions — post your call before it happens, let the Arena vote, resolve when you're right, and prove you called it. Free on iOS and Android; no ads, no in-app purchases; reputation only, no real money.",
+      "structuredDataDescription": "ToldYa! — invite-only social network for predictions, Arena voting, mandatory author resolution, private rooms, shareable result cards, and reputation. Android com.zuki.apps.toldya; iOS App Store id6756342206 by Zuki Apps.",
       "seoTitle": "ToldYa! — Social Predictions | Zuki Apps",
-      "metaDescription": "Make predictions with friends, track results & streaks. Free on iOS & Android."
+      "metaDescription": "Told you so! Prove it. Invite-only social predictions with Arena voting, mandatory resolution, private rooms, and shareable result cards. Free on iOS & Android."
     },
     "back": "Back to Home",
     "legalNav": {
@@ -16,6 +16,24 @@
       "contact": "Contact Support",
       "childSafety": "Child Safety Standards",
       "support": "Support & Help"
+    },
+    "links": {
+      "navTitle": "Official ToldYa! pages (App Store & Google Play)",
+      "productPage": "Product page",
+      "website": "https://zukiapps.com/toldya",
+      "privacy": "https://zukiapps.com/toldya/privacy",
+      "terms": "https://zukiapps.com/toldya/terms",
+      "support": "https://zukiapps.com/toldya/support",
+      "deleteAccount": "https://zukiapps.com/toldya/delete-account",
+      "childSafety": "https://zukiapps.com/toldya/child-safety",
+      "websiteLabel": "Website / support",
+      "privacyLabel": "Privacy policy",
+      "termsLabel": "Terms of use",
+      "supportLabel": "Support & help",
+      "deleteAccountLabel": "Delete account",
+      "childSafetyLabel": "Child safety standards",
+      "supportEmail": "zuki.apps.dev@gmail.com",
+      "childSafetyEmail": "liorzukman@gmail.com"
     },
     "download": {
       "appStoreUrl": "https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206",
@@ -75,7 +93,7 @@
       "section6": {
         "title": "6. User-generated content & moderation",
         "content": "Predictions, comments, messages, room content, and media are user-generated. We provide in-app tools to report content or users and to block other users, as required by Apple App Store and Google Play policies for apps with user-generated content. Reports and blocks are reviewed by our team; safety-related reports are prioritized. We also use automated content filtering on create flows where configured.",
-        "content2": "We may review, remove, restrict, or correct content and accounts that violate our Terms or applicable law, including after an outcome dispute is filed. Removed content may remain in backups for a limited period before deletion. For child safety, see our Child Safety Standards page."
+        "content2": "We may review, remove, restrict, or correct content and accounts that violate our Terms or applicable law, including after an outcome dispute is filed. Removed content may remain in backups for a limited period before deletion. For child safety, see https://zukiapps.com/toldya/child-safety"
       },
       "section7": {
         "title": "7. Retention",
@@ -84,7 +102,7 @@
       "section8": {
         "title": "8. Account deletion",
         "content": "You can delete your account in the app (Settings → Delete account) or by following the instructions on our Delete Account page. Deletion is permanent and removes your profile, predictions, votes, comments, and messages from the live Service, subject to backup and legal retention described above.",
-        "content2": "See: https://zukiapps.com/toldya/delete-account"
+        "content2": "Delete account: https://zukiapps.com/toldya/delete-account · Terms: https://zukiapps.com/toldya/terms · Support: https://zukiapps.com/toldya/support"
       },
       "section9": {
         "title": "9. Your rights",
@@ -126,7 +144,8 @@
         "title": "Contact",
         "content": "Questions about this Privacy Policy or your data:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+        "content2": "Terms: https://zukiapps.com/toldya/terms · Support: https://zukiapps.com/toldya/support · Child safety: https://zukiapps.com/toldya/child-safety"
       },
       "metaDescription": "Privacy Policy for ToldYa! — account, UGC, resolution disputes, private rooms, Firebase, moderation, your rights, and account deletion."
     },
@@ -207,7 +226,7 @@
       },
       "section10": {
         "title": "10. Privacy",
-        "content": "Our Privacy Policy explains how we collect and use personal data, including account deletion. It is incorporated into these Terms by reference."
+        "content": "Our Privacy Policy at https://zukiapps.com/toldya/privacy explains how we collect and use personal data, including account deletion, private rooms, resolution disputes, and sharing. It is incorporated into these Terms by reference."
       },
       "section11": {
         "title": "11. Termination & account deletion",
@@ -259,7 +278,8 @@
         "title": "Contact",
         "content": "Questions about these Terms:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+        "content2": "Privacy: https://zukiapps.com/toldya/privacy · Support: https://zukiapps.com/toldya/support · Child safety: https://zukiapps.com/toldya/child-safety · Delete account: https://zukiapps.com/toldya/delete-account"
       }
     },
     "deleteAccount": {
@@ -357,12 +377,15 @@
     "pilot": {
       "badge": "Pilot — iOS & Android",
       "title": "Now in pilot",
-      "message": "ToldYa! is live on the App Store and Google Play as an invite-only pilot. Download the app, sign up with your invitation code, and start putting your predictions on the record.",
-      "inviteNote": "Invite-only — you need a valid invitation code to register.",
+      "message": "ToldYa! v0.2 is live on the App Store and Google Play as an invite-only pilot. Post predictions on the record, vote in the Arena, resolve when you're right, share result cards, and use private rooms with friends.",
+      "inviteNote": "Invite-only — you need a valid invitation code to register. Free app: no ads, no in-app purchases, no real-money gambling (12+ UGC).",
       "highlights": [
-        "Post predictions your followers can see; vote and comment in the Arena",
-        "Category accuracy scores and a track record others can watch",
-        "English and Hebrew with RTL · dark and light themes",
+        "Post predictions your followers see; Arena voting with comments and reactions",
+        "Authors must resolve after the deadline — accountability built in",
+        "Category accuracy scores (0–100) and leaderboard — prove your expertise",
+        "Private rooms for predictions with friends (up to 8 members, not in public feeds)",
+        "Share branded result cards when you called it",
+        "English and Hebrew with RTL · report, block, and safety tools",
         "Free: no ads, no in-app purchases — reputation and bragging rights only"
       ]
     },

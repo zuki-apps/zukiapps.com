@@ -6,6 +6,7 @@ import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import LegalSections from '@/components/LegalSections';
+import ToldyaLegalNav from '@/components/ToldyaLegalNav';
 import type { Metadata } from 'next';
 
 const BODY_SECTIONS = [
@@ -102,9 +103,11 @@ export default async function ToldyaTermsPage({
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-400 mb-6">{t('lastUpdated')}</p>
 
-              <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8 rounded">
+              <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6 rounded">
                 <p className="text-gray-700 font-semibold">{t('intro')}</p>
               </div>
+
+              <ToldyaLegalNav locale={locale} current="terms" />
 
               <LegalSections
                 sections={BODY_SECTIONS}
@@ -124,6 +127,7 @@ export default async function ToldyaTermsPage({
                   'section16',
                   'section17',
                   'section18',
+                  'section19',
                 ]}
                 t={t}
                 tRaw={t.raw}

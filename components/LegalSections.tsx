@@ -69,6 +69,11 @@ export default function LegalSections({
         <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-emerald-600">
           <h3 className={`text-2xl font-bold mb-4 ${headingClassName}`}>{t(`${contactSectionKey}.title`)}</h3>
           <p className="text-gray-700 mb-4">{t(`${contactSectionKey}.content`)}</p>
+          {optionalMessage(`${contactSectionKey}.content2`) && (
+            <p className="text-gray-700 text-sm mb-4 break-words">
+              {optionalMessage(`${contactSectionKey}.content2`)}
+            </p>
+          )}
           {optionalMessage(`${contactSectionKey}.email`) && (
             <p className="text-gray-700 mb-2">
               <strong>{emailLabel}:</strong>{' '}
