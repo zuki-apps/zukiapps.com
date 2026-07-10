@@ -21,6 +21,19 @@ type ScreenshotItem = {
   category?: string;
 };
 
+type FeatureBlock = {
+  title: string;
+  description: string;
+  items?: string[];
+};
+
+function getFeatureBlocks(raw: unknown): FeatureBlock[] {
+  if (!raw || typeof raw !== 'object') return [];
+  return Object.entries(raw as Record<string, unknown>)
+    .filter(([key, val]) => key !== 'title' && val && typeof val === 'object' && 'title' in (val as object))
+    .map(([, val]) => val as FeatureBlock);
+}
+
 type AccentClasses = {
   navHover: string;
   border: string;
@@ -194,8 +207,10 @@ export function ProductPageNav({ namespace, accent = 'purple' }: { namespace: st
 
   const links: Array<{ href: string; labelKey: string; requiredKey: string }> = [
     { href: '#features', labelKey: 'pageNav.features', requiredKey: 'features.title' },
+    { href: '#modes', labelKey: 'pageNav.modes', requiredKey: 'modes.title' },
     { href: '#screenshots', labelKey: 'pageNav.screenshots', requiredKey: 'screenshots.title' },
     { href: '#how-to', labelKey: 'pageNav.howTo', requiredKey: 'howToUse.title' },
+    { href: '#use-cases', labelKey: 'pageNav.useCases', requiredKey: 'useCases.title' },
     { href: '#faq', labelKey: 'pageNav.faq', requiredKey: 'faq.title' },
     { href: '#zuli-monsters', labelKey: 'pageNav.zuliMonsters', requiredKey: 'zuliMonsters.title' },
     { href: '#premium', labelKey: 'pageNav.premium', requiredKey: 'premium.title' },
@@ -235,7 +250,20 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
   const howToSteps = asArray<{ number: string; title: string; description: string }>(safeRaw(t, 'howToUse.steps'));
   const manualSections = asArray<{ title: string; steps: string[] }>(safeRaw(t, 'manual.sections'));
   const tipItems = asArray<{ title: string; description: string }>(safeRaw(t, 'tips.items'));
+  const featureBlocks = getFeatureBlocks(safeRaw(t, 'features'));
+  const useCaseItems = asArray<{ title: string; description: string }>(safeRaw(t, 'useCases.items'));
+  const premiumFreeItems = asArray<string>(safeRaw(t, 'premium.freeItems'));
+  const premiumPaidItems = asArray<string>(safeRaw(t, 'premium.premiumItems'));
 
+  const showFeatures = hasMessage(t, 'features.title') && featureBlocks.length > 0;
+  const showModes =
+    hasMessage(t, 'modes.title') &&
+    hasMessage(t, 'modes.quit.title') &&
+    hasMessage(t, 'modes.build.title');
+  const showUseCases = hasMessage(t, 'useCases.title') && useCaseItems.length > 0;
+  const showPremium =
+    hasMessage(t, 'premium.title') &&
+    (premiumFreeItems.length > 0 || premiumPaidItems.length > 0);
   const showManual = hasMessage(t, 'manual.title') && manualSections.length > 0;
   const showTips = hasMessage(t, 'tips.title') && tipItems.length > 0;
   const showScreenshots = hasMessage(t, 'screenshots.title') && screenshotItems.length > 0;
@@ -290,6 +318,55 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
         onClose={() => setLightboxIndex(null)}
         onChange={setLightboxIndex}
       />
+
+      {showFeatures && (
+        <section className="py-12 px-4 relative z-10" id="features">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-12 text-white">{t('features.title')}</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {featureBlocks.map((block, i) => (
+                <div
+                  key={i}
+                  className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 shadow-lg ${a.borderHover} border-2 ${a.border} transition-all`}
+                >
+                  <h3 className="text-2xl font-bold mb-4 text-white">{block.title}</h3>
+                  <p className="text-gray-300 mb-4">{block.description}</p>
+                  {block.items && block.items.length > 0 && (
+                    <ul className="text-sm text-gray-400 space-y-2">
+                      {block.items.map((item, j) => (
+                        <li key={j}>• {item}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {showModes && (
+        <section className="py-12 px-4 relative z-10" id="modes">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-4 text-white">{t('modes.title')}</h2>
+            {hasMessage(t, 'modes.subtitle') && (
+              <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">{t('modes.subtitle')}</p>
+            )}
+            {!hasMessage(t, 'modes.subtitle') && <div className="mb-8" />}
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 border-2 ${a.border} ${a.borderHover} transition-all`}>
+                <h3 className={`text-2xl font-bold mb-4 ${a.heading}`}>{t('modes.quit.title')}</h3>
+                <p className="text-gray-300">{t('modes.quit.description')}</p>
+              </div>
+              <div className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 border-2 ${a.border} ${a.borderHover} transition-all`}>
+                <h3 className={`text-2xl font-bold mb-4 ${a.heading}`}>{t('modes.build.title')}</h3>
+                <p className="text-gray-300">{t('modes.build.description')}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {showScreenshots && (
         <section className="py-12 px-4 relative z-10" id="screenshots">
           <div className="max-w-7xl mx-auto">
@@ -371,6 +448,61 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
                   <p className="text-sm text-gray-400 leading-relaxed">{tip.description}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {showUseCases && (
+        <section className="py-12 px-4 relative z-10" id="use-cases">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-4 text-white">{t('useCases.title')}</h2>
+            {hasMessage(t, 'useCases.subtitle') && (
+              <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">{t('useCases.subtitle')}</p>
+            )}
+            {!hasMessage(t, 'useCases.subtitle') && <div className="mb-8" />}
+            <div className="grid md:grid-cols-2 gap-6">
+              {useCaseItems.map((item, i) => (
+                <div key={i} className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 border-2 ${a.border} ${a.borderHover} transition-all`}>
+                  <h3 className={`text-lg font-bold ${a.heading} mb-2`}>{item.title}</h3>
+                  <p className="text-sm text-gray-400 leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+            {hasMessage(t, 'useCases.disclaimer') && (
+              <p className="text-center text-sm text-gray-500 mt-8 max-w-2xl mx-auto italic">{t('useCases.disclaimer')}</p>
+            )}
+          </div>
+        </section>
+      )}
+
+      {showPremium && (
+        <section className="py-12 px-4 relative z-10" id="premium">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-4 text-white">{t('premium.title')}</h2>
+            {hasMessage(t, 'premium.subtitle') && (
+              <p className="text-center text-gray-400 mb-4">{t('premium.subtitle')}</p>
+            )}
+            {hasMessage(t, 'premium.description') && (
+              <p className="text-center text-gray-300 mb-10 max-w-2xl mx-auto">{t('premium.description')}</p>
+            )}
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 border-2 ${a.border}`}>
+                <h3 className="text-xl font-bold text-white mb-6">{t('premium.freeTitle')}</h3>
+                <ul className="space-y-3 text-sm text-gray-300">
+                  {premiumFreeItems.map((item, i) => (
+                    <li key={i}>• {item}</li>
+                  ))}
+                </ul>
+              </div>
+              <div className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 border-2 ${a.stepBorder} ring-1 ring-white/10`}>
+                <h3 className={`text-xl font-bold mb-6 ${a.heading}`}>{t('premium.premiumTitle')}</h3>
+                <ul className="space-y-3 text-sm text-gray-300">
+                  {premiumPaidItems.map((item, i) => (
+                    <li key={i}>• {item}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </section>

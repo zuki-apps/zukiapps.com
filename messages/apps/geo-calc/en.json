@@ -2,16 +2,16 @@
   "geoCalc": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Under construction · Coming soon",
+      "badge": "Live on App Store · iOS & Android",
       "title": "WGS84 coordinate tools — offline.",
       "productName": "GEO Calc — Coordinates",
-      "subtitle": "GEO Calc — Coordinates",
-      "description": "Convert DD, DMS, UTM and MGRS. Compute Vincenty geodesic distance and bearing, measure on a map, and export GPX — built for surveyors and field engineers. The app is still in development.",
-      "socialProof": "Coming soon on iOS & Android · Offline-first · No account",
-      "structuredDataDescription": "GEO Calc — offline WGS84 coordinate tools for iOS and Android (under construction). Convert DD, DMS, UTM, MGRS; Vincenty distance and bearing; map measure; waypoints and GPX export. Android com.zuki.apps.geocalc. Waypoints stay on your device.",
+      "subtitle": "GEO Calc : Coordinates",
+      "description": "Convert DD, DMS, UTM and MGRS. Compute Vincenty geodesic distance and bearing, measure on a map, and export GPX — built for surveyors and field engineers. Free on iOS and Android; offline-first; no account.",
+      "socialProof": "Available on the App Store and Google Play · Offline-first · No account",
+      "structuredDataDescription": "GEO Calc : Coordinates — offline WGS84 coordinate tools for iOS and Android. Convert DD, DMS, UTM, MGRS; Vincenty distance and bearing; map measure; waypoints and GPX export. Android com.zuki.apps.geocalc; iOS App Store id6787519144 by Zuki Apps. Waypoints stay on your device.",
       "phoneAlt": "GEO Calc coordinate converter on iPhone",
-      "seoTitle": "GEO Calc — WGS84 Coordinate Tools Offline (Coming Soon) | Zuki Apps",
-      "metaDescription": "GEO Calc is under construction. Offline WGS84 converter, Vincenty distance, map measure, and GPX export for field professionals. Privacy, terms, and support available now."
+      "seoTitle": "GEO Calc — WGS84 Coordinate Tools Offline | Zuki Apps",
+      "metaDescription": "Offline WGS84 converter, Vincenty distance, map measure, and GPX export for field professionals. Free on iOS & Android. No account required."
     },
     "legalNav": {
       "privacy": "Privacy Policy",
@@ -104,47 +104,71 @@
     },
     "screenshots": {
       "title": "See GEO Calc in action",
-      "subtitle": "Converter, distance, map measure, and waypoints — real app screens.",
+      "subtitle": "Eight store-ready frames — converter, distance, map, navigation, live GPS, and satellite.",
       "featuresTitle": "App screens",
       "items": [
         {
           "id": "home",
-          "title": "Three tools, one app",
-          "description": "Coordinate converter, distance & bearing, and map measure from one home screen.",
+          "title": "Your field coordinate kit",
+          "description": "Convert, measure, and navigate — offline ready on one home screen.",
           "image": "/images/geo-calc/screenshot-home.png",
-          "alt": "GEO Calc home screen with converter, distance, and map tools",
+          "alt": "GEO Calc home screen — WGS84 coordinate tools offline",
           "category": "features"
         },
         {
           "id": "converter",
-          "title": "Every coordinate format",
-          "description": "DD, DMS, UTM, and MGRS results side by side on WGS84.",
+          "title": "Paste any coordinate",
+          "description": "Instant DD, DMS, UTM, and MGRS results with auto-detect.",
           "image": "/images/geo-calc/screenshot-converter.png",
           "alt": "GEO Calc coordinate converter showing UTM and decimal degrees",
           "category": "features"
         },
         {
           "id": "distance",
-          "title": "Geodesic distance & azimuth",
-          "description": "Vincenty inverse between two points with bearing readout.",
+          "title": "True ground distance",
+          "description": "Vincenty geodesic on WGS84 — not flat-map shortcuts.",
           "image": "/images/geo-calc/screenshot-distance.png",
           "alt": "GEO Calc distance and bearing calculator",
           "category": "features"
         },
         {
           "id": "map",
-          "title": "Measure paths and areas",
-          "description": "Draw on the map offline — path length and polygon area on the ellipsoid.",
+          "title": "Measure on the map",
+          "description": "Path length, polygon area, and GPX export — tap to measure.",
           "image": "/images/geo-calc/screenshot-map.png",
           "alt": "GEO Calc offline map measure with polygon area",
           "category": "features"
         },
         {
-          "id": "waypoints",
-          "title": "Export GPX",
-          "description": "Save waypoints locally and export GPX for GIS or GPS handoff.",
-          "image": "/images/geo-calc/screenshot-waypoints.png",
-          "alt": "GEO Calc waypoints list with GPX export",
+          "id": "navigate",
+          "title": "Walk to any point",
+          "description": "Live compass arrow and arrival alert for field navigation.",
+          "image": "/images/geo-calc/screenshot-navigate.png",
+          "alt": "GEO Calc navigator with compass arrow to waypoint",
+          "category": "features"
+        },
+        {
+          "id": "live-gps",
+          "title": "Know where you stand",
+          "description": "Live GPS coordinates in DD, DMS, UTM, and MGRS.",
+          "image": "/images/geo-calc/screenshot-live-gps.png",
+          "alt": "GEO Calc live GPS coordinate readout",
+          "category": "features"
+        },
+        {
+          "id": "direct",
+          "title": "Find the destination",
+          "description": "Bearing plus distance to a precise coordinate using Vincenty direct.",
+          "image": "/images/geo-calc/screenshot-direct.png",
+          "alt": "GEO Calc geodesic direct coordinate calculator",
+          "category": "features"
+        },
+        {
+          "id": "satellite",
+          "title": "See the terrain",
+          "description": "Satellite imagery for map context in the field.",
+          "image": "/images/geo-calc/screenshot-satellite.png",
+          "alt": "GEO Calc map with satellite imagery",
           "category": "features"
         }
       ]
@@ -189,7 +213,8 @@
           "title": "SAR & outdoor teams",
           "description": "Measure zones and paths on a map when there is no cell signal."
         }
-      ]
+      ],
+      "disclaimer": "Not a substitute for certified survey instruments or legal boundary work. Verify critical measurements with appropriate professional methods."
     },
     "manual": {
       "title": "User manual",
@@ -286,7 +311,7 @@
         },
         {
           "question": "Is there a subscription?",
-          "answer": "No. GEO Calc v1.0 is free with optional banner and interstitial ads. No in-app purchases at launch."
+          "answer": "No. GEO Calc v0.9.0 is free with optional banner and interstitial ads. No in-app purchases at launch."
         },
         {
           "question": "Does it use my GPS location?",
@@ -306,7 +331,11 @@
         },
         {
           "question": "How do I get support?",
-          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/geo-calc/support. Privacy: https://zukiapps.com/geo-calc/privacy"
+          "answer": "Email zuki.apps@gmail.com or visit https://zukiapps.com/geo-calc/support. Privacy: https://zukiapps.com/geo-calc/privacy"
+        },
+        {
+          "question": "Where can I download GEO Calc?",
+          "answer": "iOS: https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144 · Android: https://play.google.com/store/apps/details?id=com.zuki.apps.geocalc · Product page: https://zukiapps.com/geo-calc"
         }
       ]
     },
@@ -315,19 +344,19 @@
       "description": "English, Hebrew (RTL), Arabic (RTL), German, Spanish, French, Italian, Japanese, Korean, Portuguese, Russian, and Chinese (Simplified)."
     },
     "status": {
-      "title": "Under construction",
-      "description": "GEO Calc v1.0 is in active development. Store links will appear here when iOS and Android builds are ready.",
-      "version": "Target version",
-      "status": "Availability",
-      "versionValue": "1.0.0 (in development)",
-      "statusValue": "Coming soon · iOS, iPad & Android"
+      "title": "Availability",
+      "description": "GEO Calc : Coordinates is live on the App Store and Google Play.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "0.9.0",
+      "statusValue": "Available on the App Store & Google Play"
     },
     "download": {
-      "title": "Coming soon",
-      "description": "GEO Calc will be available on the App Store and Google Play when launch is ready.",
+      "title": "Download GEO Calc",
+      "description": "Offline WGS84 coordinate converter, Vincenty distance, map measure, and GPX export for field work. Free on iOS and Android.",
       "soon": "Coming soon to the App Store and Google Play",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.geocalc",
       "appIconAlt": "GEO Calc app icon",
       "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play"
@@ -336,7 +365,7 @@
       "title": "Important links",
       "support": {
         "title": "Support & FAQ",
-        "email": "zuki.apps.dev@gmail.com"
+        "email": "zuki.apps@gmail.com"
       }
     },
     "footer": {
@@ -351,7 +380,7 @@
       "contact": {
         "title": "Contact us",
         "description": "Email us and we will get back to you as soon as possible.",
-        "email": "zuki.apps.dev@gmail.com"
+        "email": "zuki.apps@gmail.com"
       },
       "quickLinks": {
         "title": "Quick links",
@@ -393,7 +422,7 @@
       },
       "additionalHelp": {
         "title": "Need more help?",
-        "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+        "description": "If you could not find an answer, email zuki.apps@gmail.com. We typically respond within 24–48 hours."
       }
     },
     "privacy": {
@@ -436,7 +465,7 @@
       },
       "section5": {
         "title": "5. Storage and retention",
-        "content": "Waypoint data remains on your device until you delete it or uninstall the app. We do not operate a cloud account for waypoint sync in v1.0.",
+        "content": "Waypoint data remains on your device until you delete it or uninstall the app. We do not operate a cloud account for waypoint sync in v0.9.0.",
         "content2": "Support emails are retained as long as needed to resolve your request."
       },
       "section6": {
@@ -456,7 +485,7 @@
       "sectionContact": {
         "title": "Contact",
         "content": "Questions about this Privacy Policy:",
-        "email": "zuki.apps.dev@gmail.com",
+        "email": "zuki.apps@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     },
@@ -489,7 +518,7 @@
       },
       "section4": {
         "title": "4. Free service and ads",
-        "content": "GEO Calc v1.0 is free with optional banner and interstitial ads. There is no subscription at launch.",
+        "content": "GEO Calc v0.9.0 is free with optional banner and interstitial ads. There is no subscription at launch.",
         "content2": "Features and ad placement may change with notice where required by law."
       },
       "section5": {
@@ -518,7 +547,7 @@
       "sectionContact": {
         "title": "Contact",
         "content": "Questions about these Terms:",
-        "email": "zuki.apps.dev@gmail.com",
+        "email": "zuki.apps@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       }
     }

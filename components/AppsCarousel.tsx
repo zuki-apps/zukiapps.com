@@ -246,7 +246,7 @@ export default function AppsCarousel() {
       featuresKey: 'timeSince.features',
       learnMoreKey: 'timeSince.learnMore',
       link: `/${locale}/timesince`,
-      isComingSoon: true,
+      isComingSoon: false,
     },
     }),
     [locale]

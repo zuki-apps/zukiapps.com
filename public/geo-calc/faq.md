@@ -43,7 +43,10 @@ https://zukiapps.com/images/geo-calc/screenshot-home.png
 https://zukiapps.com/images/geo-calc/screenshot-converter.png  
 https://zukiapps.com/images/geo-calc/screenshot-distance.png  
 https://zukiapps.com/images/geo-calc/screenshot-map.png  
-https://zukiapps.com/images/geo-calc/screenshot-waypoints.png
+https://zukiapps.com/images/geo-calc/screenshot-navigate.png  
+https://zukiapps.com/images/geo-calc/screenshot-live-gps.png  
+https://zukiapps.com/images/geo-calc/screenshot-direct.png  
+https://zukiapps.com/images/geo-calc/screenshot-satellite.png
 
 ## Legal
 

@@ -28,8 +28,8 @@ export const ZULI_COLLAGE_APP_PATH = '/zuli-collage' as const;
  * `TIMESINCE_PILOT` — indexed full landing when live on stores (not on home grid until published).
  * `TIMESINCE_UNDER_CONSTRUCTION` — minimal landing + privacy/terms/support in sitemap only.
  */
-export const TIMESINCE_UNDER_CONSTRUCTION = true;
-export const TIMESINCE_PILOT = false;
+export const TIMESINCE_UNDER_CONSTRUCTION = false;
+export const TIMESINCE_PILOT = true;
 export const TIMESINCE_PUBLISHED = false;
 
 export const TIMESINCE_APP_PATH = '/timesince' as const;
@@ -39,8 +39,8 @@ export const TIMESINCE_APP_PATH = '/timesince' as const;
  * `GEO_CALC_PILOT` — indexed full landing when live on stores.
  * `GEO_CALC_UNDER_CONSTRUCTION` — minimal landing + privacy/terms/support in sitemap only.
  */
-export const GEO_CALC_UNDER_CONSTRUCTION = true;
-export const GEO_CALC_PILOT = false;
+export const GEO_CALC_UNDER_CONSTRUCTION = false;
+export const GEO_CALC_PILOT = true;
 export const GEO_CALC_PUBLISHED = false;
 
 export const GEO_CALC_APP_PATH = '/geo-calc' as const;
