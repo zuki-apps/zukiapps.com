@@ -71,7 +71,7 @@ export default function TimeSincePage() {
               googlePlayUrl={t('download.googlePlayUrl')}
               appStoreAlt={t('download.appStoreAlt')}
               googlePlayAlt={t('download.googlePlayAlt')}
-              soonLabel={t('download.soon')}
+              googlePlaySoonLabel={t('download.googlePlaySoon')}
               fallbackBorderClass="border-orange-600/30"
               utmContent="timesince"
             />
@@ -123,7 +123,7 @@ export default function TimeSincePage() {
             googlePlayUrl={t('download.googlePlayUrl')}
             appStoreAlt={t('download.appStoreAlt')}
             googlePlayAlt={t('download.googlePlayAlt')}
-            soonLabel={t('download.soon')}
+            googlePlaySoonLabel={t('download.googlePlaySoon')}
             fallbackBorderClass="border-orange-600/30"
             utmContent="timesince"
           />

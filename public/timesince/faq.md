@@ -2,7 +2,7 @@
 
 > Canonical page: https://zukiapps.com/timesince/support  
 > Product page: https://zukiapps.com/timesince  
-> App: iOS, iPad & Android · Package `com.zuki.apps.timesince` · Support: zuki.apps.dev@gmail.com
+> App: iOS live on App Store · Android coming soon · Package `com.zuki.apps.timesince` · Support: zuki.apps@gmail.com
 
 > App icon: https://zukiapps.com/images/timesince-icon.png
 

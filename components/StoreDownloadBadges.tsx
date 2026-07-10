@@ -9,6 +9,8 @@ type Props = {
   appStoreAlt?: string;
   googlePlayAlt?: string;
   soonLabel?: string;
+  /** Shown when `googlePlayUrl` is empty but Android is planned (e.g. iOS live, Play pending). */
+  googlePlaySoonLabel?: string;
   /** Tailwind border class for the empty-state box (e.g. border-cyan-600/30) */
   fallbackBorderClass?: string;
   utmContent?: string;
@@ -20,6 +22,7 @@ export default function StoreDownloadBadges({
   appStoreAlt = 'Download on the App Store',
   googlePlayAlt = 'Get it on Google Play',
   soonLabel = '',
+  googlePlaySoonLabel = '',
   fallbackBorderClass = 'border-amber-600/30',
   utmContent,
 }: Props) {
@@ -73,6 +76,19 @@ export default function StoreDownloadBadges({
             className="object-contain hover:opacity-90 transition-opacity"
           />
         </a>
+      )}
+      {!hasPlay && googlePlaySoonLabel && (
+        <div className="flex flex-col items-center gap-2 opacity-60" aria-label={googlePlaySoonLabel}>
+          <Image
+            src="/images/google-play-badge.svg"
+            alt=""
+            width={160}
+            height={48}
+            className="object-contain grayscale"
+            aria-hidden
+          />
+          <p className="text-xs text-gray-400 text-center max-w-[10rem]">{googlePlaySoonLabel}</p>
+        </div>
       )}
     </div>
   );

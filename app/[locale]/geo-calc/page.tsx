@@ -71,7 +71,7 @@ export default function GeoCalcPage() {
               googlePlayUrl={t('download.googlePlayUrl')}
               appStoreAlt={t('download.appStoreAlt')}
               googlePlayAlt={t('download.googlePlayAlt')}
-              soonLabel={t('download.soon')}
+              googlePlaySoonLabel={t('download.googlePlaySoon')}
               fallbackBorderClass="border-amber-600/30"
               utmContent="geo-calc"
             />
@@ -123,7 +123,7 @@ export default function GeoCalcPage() {
             googlePlayUrl={t('download.googlePlayUrl')}
             appStoreAlt={t('download.appStoreAlt')}
             googlePlayAlt={t('download.googlePlayAlt')}
-            soonLabel={t('download.soon')}
+            googlePlaySoonLabel={t('download.googlePlaySoon')}
             fallbackBorderClass="border-amber-600/30"
             utmContent="geo-calc"
           />

@@ -2,13 +2,13 @@
 
 > Canonical page: https://zukiapps.com/geo-calc/support  
 > Product page: https://zukiapps.com/geo-calc  
-> App: iOS, iPad & Android · Package `com.zuki.apps.geocalc` · Support: zuki.apps.dev@gmail.com
+> App: iOS live on App Store · Android coming soon · Package `com.zuki.apps.geocalc` · Support: zuki.apps@gmail.com
 
 > App icon: https://zukiapps.com/images/geo-calc-icon.png
 
 ## What is GEO Calc?
 
-Offline WGS84 coordinate tools for field professionals (**under construction**). Convert DD, DMS, UTM, and MGRS; Vincenty geodesic distance and bearing; map measure; waypoints and GPX export.
+Offline WGS84 coordinate tools for field professionals. Live on the App Store; Google Play coming soon. Convert DD, DMS, UTM, and MGRS; Vincenty geodesic distance and bearing; map measure; waypoints and GPX export.
 
 ## Offline & accuracy
 
