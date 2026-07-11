@@ -26,6 +26,9 @@ export const COMPLIANCE_APPS = [
   'zuli-collage',
   'timesince',
   'geo-calc',
+  'roamguard',
+  'questivo',
+  'coloring-my-photo',
 ];
 
 export const STATIC_ASSET_PATHS = [
@@ -163,7 +166,7 @@ export function verifyComplianceExports(outDir, apps = COMPLIANCE_APPS) {
   const errors = [];
   for (const app of apps) {
     if (!existsSync(join(outDir, `${app}/index.html`))) continue;
-    for (const sub of ['privacy', 'terms']) {
+    for (const sub of ['privacy', 'terms', 'support']) {
       const rel = `${app}/${sub}/index.html`;
       if (!existsSync(join(outDir, rel))) {
         errors.push(`missing compliance page: /${app}/${sub}`);

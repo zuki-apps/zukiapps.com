@@ -56,6 +56,10 @@ const REQUIRED_FILES = [
   'he/index.html',
   'toldya/child-safety/index.html',
   'zuli-collage/index.html',
+  'roamguard/index.html',
+  'roamguard/privacy/index.html',
+  'questivo/index.html',
+  'coloring-my-photo/index.html',
 ];
 
 const LIVE_EXTRA_PATHS = [

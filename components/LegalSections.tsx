@@ -1,4 +1,10 @@
 import Link from 'next/link';
+import { hasMessage } from '@/lib/safeTranslations';
+
+type LegalTranslator = ((key: string) => string) & {
+  raw: (key: string) => unknown;
+  has?: (key: string) => boolean;
+};
 
 type LegalSectionsProps = {
   sections: readonly string[];
@@ -6,7 +12,7 @@ type LegalSectionsProps = {
   listSectionKeys?: readonly string[];
   /** Section keys that include `.content2` paragraph after `.content` */
   withContent2?: readonly string[];
-  t: (key: string) => string;
+  t: LegalTranslator;
   tRaw: (key: string) => unknown;
   rtl: boolean;
   headingClassName?: string;
@@ -33,12 +39,9 @@ export default function LegalSections({
   const content2Keys = new Set(withContent2);
 
   const optionalMessage = (key: string): string | null => {
-    try {
-      const value = t(key);
-      return value || null;
-    } catch {
-      return null;
-    }
+    if (!hasMessage(t, key)) return null;
+    const value = t(key);
+    return value || null;
   };
 
   return (
@@ -65,29 +68,33 @@ export default function LegalSections({
       );
       })}
 
-      {contactSectionKey && (
+      {contactSectionKey && (() => {
+        const contactContent2 = optionalMessage(`${contactSectionKey}.content2`);
+        const contactEmail = optionalMessage(`${contactSectionKey}.email`);
+        const contactAddress = optionalMessage(`${contactSectionKey}.address`);
+        return (
         <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-emerald-600">
           <h3 className={`text-2xl font-bold mb-4 ${headingClassName}`}>{t(`${contactSectionKey}.title`)}</h3>
           <p className="text-gray-700 mb-4">{t(`${contactSectionKey}.content`)}</p>
-          {optionalMessage(`${contactSectionKey}.content2`) && (
+          {contactContent2 && (
             <p className="text-gray-700 text-sm mb-4 break-words">
-              {optionalMessage(`${contactSectionKey}.content2`)}
+              {contactContent2}
             </p>
           )}
-          {optionalMessage(`${contactSectionKey}.email`) && (
+          {contactEmail && (
             <p className="text-gray-700 mb-2">
               <strong>{emailLabel}:</strong>{' '}
               <a
-                href={`mailto:${optionalMessage(`${contactSectionKey}.email`)}`}
+                href={`mailto:${contactEmail}`}
                 className="text-emerald-600 hover:underline"
               >
-                {optionalMessage(`${contactSectionKey}.email`)}
+                {contactEmail}
               </a>
             </p>
           )}
-          {optionalMessage(`${contactSectionKey}.address`) && (
+          {contactAddress && (
             <p className="text-gray-700 mb-4">
-              <strong>{addressLabel}:</strong> {optionalMessage(`${contactSectionKey}.address`)}
+              <strong>{addressLabel}:</strong> {contactAddress}
             </p>
           )}
           {contactExtraLinks.length > 0 && (
@@ -100,7 +107,8 @@ export default function LegalSections({
             </p>
           )}
         </section>
-      )}
+        );
+      })()}
     </div>
   );
 }
