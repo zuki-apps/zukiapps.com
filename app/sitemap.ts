@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED, TIMESINCE_PILOT, TIMESINCE_PUBLISHED, TIMESINCE_UNDER_CONSTRUCTION, GEO_CALC_PILOT, GEO_CALC_PUBLISHED, GEO_CALC_UNDER_CONSTRUCTION } from '@/lib/appPublishState';
+import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED, TIMESINCE_PILOT, TIMESINCE_PUBLISHED, TIMESINCE_UNDER_CONSTRUCTION, GEO_CALC_PILOT, GEO_CALC_PUBLISHED, GEO_CALC_UNDER_CONSTRUCTION, ROAMGUARD_UNDER_CONSTRUCTION, ROAMGUARD_PILOT, ROAMGUARD_PUBLISHED, QUESTIVO_UNDER_CONSTRUCTION, QUESTIVO_PILOT, QUESTIVO_PUBLISHED, COLORING_MY_PHOTO_UNDER_CONSTRUCTION, COLORING_MY_PHOTO_PILOT, COLORING_MY_PHOTO_PUBLISHED } from '@/lib/appPublishState';
 import { routing } from '@/routing';
 import { getSiteUrl } from '@/lib/hreflang';
 import {
@@ -124,6 +124,51 @@ const routes: SitemapRouteMeta[] = [
           { path: '/geo-calc/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/geo-calc/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/geo-calc/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        ]
+      : []),
+  ...(ROAMGUARD_PUBLISHED || ROAMGUARD_PILOT
+    ? [
+        { path: '/roamguard', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
+        { path: '/roamguard/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/roamguard/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/roamguard/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+      ]
+    : ROAMGUARD_UNDER_CONSTRUCTION
+      ? [
+          { path: '/roamguard', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/roamguard/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/roamguard/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/roamguard/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        ]
+      : []),
+  ...(QUESTIVO_PUBLISHED || QUESTIVO_PILOT
+    ? [
+        { path: '/questivo', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
+        { path: '/questivo/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/questivo/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/questivo/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+      ]
+    : QUESTIVO_UNDER_CONSTRUCTION
+      ? [
+          { path: '/questivo', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/questivo/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/questivo/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/questivo/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        ]
+      : []),
+  ...(COLORING_MY_PHOTO_PUBLISHED || COLORING_MY_PHOTO_PILOT
+    ? [
+        { path: '/coloring-my-photo', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
+        { path: '/coloring-my-photo/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/coloring-my-photo/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/coloring-my-photo/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+      ]
+    : COLORING_MY_PHOTO_UNDER_CONSTRUCTION
+      ? [
+          { path: '/coloring-my-photo', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/coloring-my-photo/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/coloring-my-photo/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/coloring-my-photo/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         ]
       : []),
   { path: '/dreambit-legacy', priority: 0.55, changefreq: 'yearly' },

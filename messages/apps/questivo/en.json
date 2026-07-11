@@ -1,0 +1,295 @@
+{
+  "questivo": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming soon · iOS & Android",
+      "title": "Questivo",
+      "productName": "Questivo — Quizzes, Missions & Real-World Challenges",
+      "subtitle": "Turn any place into a quest",
+      "description": "Create scavenger hunts, quiz trails, and real-world missions. Share a simple game code — players join instantly and progress mission by mission.",
+      "socialProof": "Game codes · Photo & GPS missions · Indoor & outdoor · 12 languages · No account required to play",
+      "structuredDataDescription": "Questivo is a scavenger hunt and mission app for iOS and Android. Create quests with riddles, photos, GPS checkpoints, and QR scans. Coming soon. com.zuki.apps.questivo.",
+      "seoTitle": "Questivo — Scavenger Hunts & Missions | Zuki Apps",
+      "metaDescription": "Build and play real-world quests with codes, photo tasks, and GPS checkpoints. Coming soon on iOS and Android."
+    },
+    "pageNav": {
+      "features": "Features",
+      "howTo": "How to play",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "features": {
+      "title": "Quests for home, parties, and the city",
+      "play": {
+        "title": "Play with a code",
+        "description": "Enter a game code or scan a QR — no complicated setup for guests.",
+        "items": [
+          "Join instantly after install",
+          "Hints and skip options",
+          "Score and journey recap"
+        ]
+      },
+      "create": {
+        "title": "Create in minutes",
+        "description": "Guided wizard for story, missions, visibility, and optional pricing.",
+        "items": [
+          "Riddles, codes, photos, GPS, QR missions",
+          "Indoor, outdoor, or hybrid modes",
+          "AI templates and Family Home Quest"
+        ]
+      },
+      "host": {
+        "title": "Host live",
+        "description": "Optional live lobby while players join — great for events and classrooms.",
+        "items": [
+          "Share a unique code",
+          "Optional paid premium quests",
+          "Surprise ending messages"
+        ]
+      },
+      "privacy": {
+        "title": "Permissions on your control",
+        "description": "Camera, photos, and location are used only for mission types that need them.",
+        "items": [
+          "Quest content stored on device",
+          "Optional cloud when configured",
+          "Crash diagnostics in release builds"
+        ]
+      }
+    },
+    "howTo": {
+      "title": "How to play",
+      "subtitle": "From code to finale in three steps.",
+      "steps": [
+        {
+          "title": "Get the code",
+          "description": "Open Questivo, tap Play, and enter the host's game code or scan a QR."
+        },
+        {
+          "title": "Complete missions",
+          "description": "Solve riddles, take photos, confirm GPS arrivals, or scan checkpoints in order."
+        },
+        {
+          "title": "Share results",
+          "description": "See your score, journey recap, and optional surprise ending when you finish."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Playing, creating, and privacy.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is Questivo?",
+          "answer": "A mobile app for scavenger hunts, quiz trails, and real-world missions. Hosts build quests and share a game code. Package: com.zuki.apps.questivo."
+        },
+        {
+          "question": "Do players need an account?",
+          "answer": "No account is required to play. Optional cloud features may require sign-in when offered."
+        },
+        {
+          "question": "What permissions does Questivo use?",
+          "answer": "Camera for photo missions, photos for image selection, and location for GPS checkpoint missions only. Deny permissions and related mission types will not work."
+        },
+        {
+          "question": "Is Questivo free?",
+          "answer": "Core play and creation are free. Hosts may publish optional paid premium quests with in-app unlock."
+        },
+        {
+          "question": "How do I get support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/questivo/support."
+        }
+      ]
+    },
+    "status": {
+      "title": "Availability",
+      "description": "Questivo is in development. App Store and Google Play listings coming soon.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "Pre-release",
+      "statusValue": "iOS & Android · Coming soon"
+    },
+    "download": {
+      "title": "Download Questivo",
+      "description": "Scavenger hunts and real-world missions for families, teams, and events. Coming soon.",
+      "soon": "Coming soon to the App Store and Google Play",
+      "googlePlaySoon": "Coming soon on Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Questivo app icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "footer": {
+      "copyright": "© 2026 Questivo — All rights reserved",
+      "tagline": "Part of Zuki Apps · by Zuki.Apps"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Privacy Policy for Questivo.",
+      "lastUpdated": "Last updated: July 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps handles information when you use Questivo and related pages at zukiapps.com/questivo.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the Questivo app and the legal pages we publish for the product."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "Questivo collects limited data to run the app. Quest content you create stays primarily on your device unless you use cloud features.",
+        "items": [
+          "Feedback and support messages you send",
+          "Quest titles, clues, and media you add when creating quests (stored on device)",
+          "Crash diagnostics (Firebase Crashlytics) in release builds",
+          "Purchase records handled by Apple or Google — tokens only, not full card data"
+        ]
+      },
+      "section3": {
+        "title": "3. How we use information",
+        "content": "We use information to:",
+        "items": [
+          "Operate and improve Questivo",
+          "Diagnose crashes and stability issues",
+          "Respond to support requests",
+          "Validate in-app purchases"
+        ],
+        "content2": "We do not sell your personal information."
+      },
+      "section4": {
+        "title": "4. Device permissions",
+        "content": "Questivo may request camera, photo library, and location permissions for mission types that need them.",
+        "content2": "You can deny permissions; related mission types will not work. Location is used for GPS checkpoint missions only, not continuous tracking."
+      },
+      "section5": {
+        "title": "5. Storage and retention",
+        "content": "Quest progress and created quests remain on device until you uninstall.",
+        "content2": "Crash reports are retained per Firebase and Google policies."
+      },
+      "section6": {
+        "title": "6. Third-party services",
+        "content": "Optional cloud session data may be stored when live hosting or sync is enabled by the host environment.",
+        "content2": "Firebase, Apple, and Google may process data under their own policies."
+      },
+      "section7": {
+        "title": "7. Your rights and children",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights.",
+        "content2": "Questivo is not directed to children under 13 without parental supervision for real-world play."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new Last updated date."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "metaDescription": "Terms of Use for Questivo.",
+      "lastUpdated": "Last updated: July 2026",
+      "intro": "Please read these Terms carefully before using Questivo. By downloading or using the app, you agree to these Terms and our Privacy Policy.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your use of Questivo operated by Zuki Apps. If you do not agree, do not use the Service.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Questivo includes:",
+        "items": [
+          "Create and play location-based quests, quizzes, and missions",
+          "Share game codes and optional live hosting",
+          "Optional paid quest unlocks via app stores"
+        ]
+      },
+      "section3": {
+        "title": "3. Safety and real-world play",
+        "content": "Questivo is entertainment. You are responsible for your safety while playing GPS or outdoor missions.",
+        "content2": "Obey local laws, traffic rules, and property rights. Do not play while driving. Supervise children."
+      },
+      "section4": {
+        "title": "4. Purchases",
+        "content": "Paid quests and unlocks are processed by Apple or Google. Their terms and refund policies apply.",
+        "content2": "Use Restore purchases after reinstall when applicable."
+      },
+      "section5": {
+        "title": "5. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Use the Service for unlawful purposes",
+          "Reverse engineer the app except as permitted by law",
+          "Interfere with security or stability features",
+          "Create content that infringes others' rights"
+        ]
+      },
+      "section6": {
+        "title": "6. Disclaimer",
+        "content": "THE APP IS PROVIDED AS IS WITHOUT WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.",
+        "content2": "We do not guarantee uninterrupted or error-free service."
+      },
+      "section7": {
+        "title": "7. Limitation of liability",
+        "content": "To the maximum extent permitted by law, Zuki Apps shall not be liable for indirect, incidental, or consequential damages arising from use of the Service."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may modify these Terms. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "Find answers about Questivo.",
+      "metaTitle": "Support & Help — Questivo | Zuki Apps",
+      "metaDescription": "Questivo FAQ — playing, hosting, purchases, and permissions.",
+      "contact": {
+        "title": "Contact us",
+        "description": "Email us and we will get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "How Questivo handles your data"
+        },
+        "terms": {
+          "title": "Terms of Use",
+          "description": "Terms for using Questivo"
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "q1": {
+          "question": "How do players join?",
+          "answer": "Open Questivo, tap Play, and enter the host's game code or scan a QR on a poster or screen."
+        },
+        "q2": {
+          "question": "Can I run an indoor quest?",
+          "answer": "Yes. Choose indoor mode — GPS missions are hidden automatically."
+        },
+        "q3": {
+          "question": "How do paid quests work?",
+          "answer": "Prices are shown before purchase. Payments are processed by Apple or Google. Use Restore purchases after reinstall."
+        },
+        "q4": {
+          "question": "What if a mission needs the camera?",
+          "answer": "Grant camera permission when prompted. Deny it and photo missions will not work."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need more help?",
+        "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+      }
+    }
+  }
+}

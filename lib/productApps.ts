@@ -14,7 +14,10 @@ export type ProductAppSlug =
   | 'zuli-collage'
   | 'football-trivia'
   | 'timesince'
-  | 'geo-calc';
+  | 'geo-calc'
+  | 'roamguard'
+  | 'questivo'
+  | 'coloring-my-photo';
 
 export type ProductAppNamespace =
   | 'bitScope'
@@ -31,7 +34,10 @@ export type ProductAppNamespace =
   | 'zuliCollage'
   | 'footballTrivia'
   | 'timeSince'
-  | 'geoCalc';
+  | 'geoCalc'
+  | 'roamGuard'
+  | 'questivo'
+  | 'coloringMyPhoto';
 
 export type ProductAppConfig = {
   slug: ProductAppSlug;
@@ -104,6 +110,36 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'geo-calc-faq-ld',
     howToId: 'geo-calc-howto-ld',
     accent: 'amber',
+    hasSupportPage: true,
+  },
+  roamguard: {
+    slug: 'roamguard',
+    namespace: 'roamGuard',
+    appPath: '/roamguard',
+    applicationCategory: 'UtilitiesApplication',
+    faqId: 'roamguard-faq-ld',
+    howToId: 'roamguard-howto-ld',
+    accent: 'cyan',
+    hasSupportPage: true,
+  },
+  questivo: {
+    slug: 'questivo',
+    namespace: 'questivo',
+    appPath: '/questivo',
+    applicationCategory: 'GameApplication',
+    faqId: 'questivo-faq-ld',
+    howToId: 'questivo-howto-ld',
+    accent: 'violet',
+    hasSupportPage: true,
+  },
+  'coloring-my-photo': {
+    slug: 'coloring-my-photo',
+    namespace: 'coloringMyPhoto',
+    appPath: '/coloring-my-photo',
+    applicationCategory: 'DesignApplication',
+    faqId: 'coloring-my-photo-faq-ld',
+    howToId: 'coloring-my-photo-howto-ld',
+    accent: 'rose',
     hasSupportPage: true,
   },
   'bit-scope': {

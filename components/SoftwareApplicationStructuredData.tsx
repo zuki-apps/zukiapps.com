@@ -65,6 +65,9 @@ export default function SoftwareApplicationStructuredData({
     '/zuli-collage': ZULI_COLLAGE_ICON,
     '/timesince': '/images/timesince-icon.png?v=1',
     '/geo-calc': '/images/geo-calc-icon.png?v=1',
+    '/roamguard': '/images/roamguard-icon.png?v=1',
+    '/questivo': '/images/questivo-icon.png?v=1',
+    '/coloring-my-photo': '/images/coloring-my-photo-icon.png?v=1',
   };
 
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'

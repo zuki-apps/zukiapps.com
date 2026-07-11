@@ -25,6 +25,9 @@ const APPS = [
   'dreambit-legacy',
   'timesince',
   'geo-calc',
+  'roamguard',
+  'questivo',
+  'coloring-my-photo',
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

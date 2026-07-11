@@ -1,0 +1,312 @@
+{
+  "roamGuard": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming soon · Android",
+      "title": "Roam Guard",
+      "productName": "Roam Guard — Travel Data Monitor",
+      "subtitle": "Protect your travel data plan in real time",
+      "description": "Roam Guard monitors per-app mobile usage and warns you before video, backups, or updates drain your eSIM or roaming package.",
+      "socialProof": "Per-app live speeds · Smart alerts · Travel profiles · Ultra Saver VPN · Privacy-first",
+      "structuredDataDescription": "Roam Guard monitors per-app mobile data for travelers on Android. Live dashboard, smart alerts, travel profiles, optional local VPN blocking. Coming soon on Google Play. com.zuki.apps.roamguard.",
+      "seoTitle": "Roam Guard — Travel Data Monitor | Zuki Apps",
+      "metaDescription": "Monitor per-app mobile data on the road. Smart alerts before your eSIM runs out. Coming soon on Google Play for Android."
+    },
+    "pageNav": {
+      "features": "Features",
+      "howTo": "How it works",
+      "faq": "FAQ",
+      "premium": "Pro",
+      "download": "Download"
+    },
+    "features": {
+      "title": "Built for travelers with limited data",
+      "dashboard": {
+        "title": "Live dashboard",
+        "description": "Today's usage, package remaining, speed, and ETA in one screen.",
+        "items": [
+          "Real-time mobile data totals",
+          "Time until package runs out",
+          "Current download/upload speed"
+        ]
+      },
+      "monitor": {
+        "title": "Per-app monitor",
+        "description": "See exactly which app is using mobile data right now.",
+        "items": [
+          "Per-app usage stats",
+          "Smart detections for streaming and backups",
+          "Whitelist essential apps"
+        ]
+      },
+      "alerts": {
+        "title": "Smart alerts",
+        "description": "Get warned on spikes, backups, streaming, and low package.",
+        "items": [
+          "Custom thresholds",
+          "Travel mode profiles",
+          "Foreground monitoring notification"
+        ]
+      },
+      "privacy": {
+        "title": "Privacy-first",
+        "description": "Usage processed on your phone. No browsing history collected.",
+        "items": [
+          "On-device Room database",
+          "Optional CSV export (Pro)",
+          "Local VPN only — no remote server"
+        ]
+      }
+    },
+    "howTo": {
+      "title": "How it works",
+      "subtitle": "Three steps to travel with confidence.",
+      "steps": [
+        {
+          "title": "Grant usage access",
+          "description": "Android lets Roam Guard read per-app mobile data usage."
+        },
+        {
+          "title": "Set your package",
+          "description": "Tell us your eSIM or roaming data size and switch travel profiles."
+        },
+        {
+          "title": "Travel protected",
+          "description": "Watch the dashboard and get alerts before you run out."
+        }
+      ]
+    },
+    "premium": {
+      "title": "Roam Guard Pro",
+      "subtitle": "One-time purchase — no subscription.",
+      "items": [
+        "Unlimited travel profiles",
+        "Unlimited app ignore rules",
+        "Full usage history + CSV export",
+        "Home screen widget & Quick Settings tile",
+        "Premium themes & full smart insights"
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Data monitoring, privacy, and Android requirements.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is Roam Guard?",
+          "answer": "An Android app for travelers that monitors per-app mobile data in real time and warns you before your eSIM or roaming package runs out. Package: com.zuki.apps.roamguard."
+        },
+        {
+          "question": "Does Roam Guard upload my usage to the cloud?",
+          "answer": "No. Usage statistics are processed and stored on your device. You may manually export CSV (Pro) and share it yourself."
+        },
+        {
+          "question": "What is the VPN for?",
+          "answer": "Ultra Saver mode uses a local VPN on your phone to block mobile data for apps you have not approved. Traffic is not sent to Roam Guard servers."
+        },
+        {
+          "question": "Is Roam Guard free?",
+          "answer": "Yes. Core monitoring, alerts, travel modes, and one travel profile are free. Roam Guard Pro is an optional one-time upgrade."
+        },
+        {
+          "question": "Does it work on iPhone?",
+          "answer": "Roam Guard v1.0.0 is Android only (Android 10+)."
+        },
+        {
+          "question": "How do I get support?",
+          "answer": "Email zuki.apps@gmail.com or visit https://zukiapps.com/roamguard/support."
+        }
+      ]
+    },
+    "status": {
+      "title": "Availability",
+      "description": "Roam Guard is in development. Google Play listing coming soon.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "1.0.0",
+      "statusValue": "Google Play (Android) · Coming soon"
+    },
+    "download": {
+      "title": "Download Roam Guard",
+      "description": "Protect your travel data plan with per-app monitoring and smart alerts. Coming soon on Google Play.",
+      "soon": "Coming soon on Google Play",
+      "googlePlaySoon": "Coming soon on Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Roam Guard app icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "footer": {
+      "copyright": "© 2026 Roam Guard — All rights reserved",
+      "tagline": "Part of Zuki Apps · by Zuki.Apps"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Privacy Policy for Roam Guard.",
+      "lastUpdated": "Last updated: July 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps handles information when you use Roam Guard and related pages at zukiapps.com/roamguard.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the Roam Guard app and the legal pages we publish for the product."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "Roam Guard reads per-app mobile data via Android usage access. This data is stored locally and is not uploaded by the app.",
+        "items": [
+          "Per-app mobile data usage — processed and stored on device only",
+          "Crash logs / diagnostics (Firebase Crashlytics) — if the app crashes",
+          "Purchase history — via Google Play Billing for Pro unlock",
+          "Support email — if you contact us directly"
+        ]
+      },
+      "section3": {
+        "title": "3. How we use information",
+        "content": "We use information to:",
+        "items": [
+          "Monitor per-app mobile data and show alerts",
+          "Operate optional Ultra Saver local VPN when you enable it",
+          "Validate Pro purchases via Google Play",
+          "Diagnose crashes and respond to support"
+        ],
+        "content2": "We do not sell your personal information."
+      },
+      "section4": {
+        "title": "4. Permissions and local VPN",
+        "content": "Roam Guard may request usage access, notifications, and optional VPN permission for Ultra Saver mode.",
+        "content2": "Ultra Saver uses a local VPN on your device only. Traffic is not sent to Roam Guard servers. You approve VPN via the standard Android dialog."
+      },
+      "section5": {
+        "title": "5. Storage and retention",
+        "content": "Usage data remains on your device until you delete the app or clear app data.",
+        "content2": "Support emails are retained as long as needed to resolve your request."
+      },
+      "section6": {
+        "title": "6. Third-party services",
+        "content": "Crash diagnostics may use Firebase Crashlytics. Purchases are handled by Google Play.",
+        "content2": "Those providers process data under their own policies."
+      },
+      "section7": {
+        "title": "7. Your rights and children",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights.",
+        "content2": "Roam Guard is not directed to children under 13 (or the minimum age in your country). We do not knowingly collect personal data from children."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new Last updated date."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "metaDescription": "Terms of Use for Roam Guard.",
+      "lastUpdated": "Last updated: July 2026",
+      "intro": "Please read these Terms carefully before using Roam Guard. By downloading or using the app, you agree to these Terms and our Privacy Policy.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your use of Roam Guard operated by Zuki Apps. If you do not agree, do not use the Service.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Roam Guard includes:",
+        "items": [
+          "Live per-app mobile data dashboard",
+          "Smart usage alerts and travel profiles",
+          "Optional Ultra Saver local VPN blocking",
+          "Optional Roam Guard Pro one-time upgrade"
+        ]
+      },
+      "section3": {
+        "title": "3. Monitoring disclaimer",
+        "content": "Roam Guard is a data monitoring utility. It does not guarantee exact carrier billing totals.",
+        "content2": "Verify critical limits with your carrier when needed."
+      },
+      "section4": {
+        "title": "4. Purchases",
+        "content": "Roam Guard Pro, if purchased, is a one-time Google Play purchase. Google's terms and refund policies apply.",
+        "content2": "Use Restore purchases after reinstall on the same Google account."
+      },
+      "section5": {
+        "title": "5. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Use the Service for unlawful purposes",
+          "Reverse engineer the app except as permitted by law",
+          "Interfere with security or stability features",
+          "Create content that infringes others' rights"
+        ]
+      },
+      "section6": {
+        "title": "6. Disclaimer",
+        "content": "The Service is provided as is without warranties of any kind.",
+        "content2": "You are responsible for backing up any CSV exports you create."
+      },
+      "section7": {
+        "title": "7. Limitation of liability",
+        "content": "To the maximum extent permitted by law, Zuki Apps shall not be liable for indirect, incidental, or consequential damages arising from use of the Service."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may modify these Terms. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "Find answers about Roam Guard.",
+      "metaTitle": "Support & Help — Roam Guard | Zuki Apps",
+      "metaDescription": "Roam Guard FAQ — per-app data monitoring, VPN, Pro, and troubleshooting.",
+      "contact": {
+        "title": "Contact us",
+        "description": "Email us and we will get back to you as soon as possible.",
+        "email": "zuki.apps@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "How Roam Guard handles your data"
+        },
+        "terms": {
+          "title": "Terms of Use",
+          "description": "Terms for using Roam Guard"
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "q1": {
+          "question": "Why does Roam Guard need usage access?",
+          "answer": "Android requires this permission for apps to read per-app mobile data usage. Without it, Roam Guard cannot monitor."
+        },
+        "q2": {
+          "question": "What data leaves my device?",
+          "answer": "Optional crash reports via Firebase Crashlytics if the app crashes. Usage stats are not uploaded."
+        },
+        "q3": {
+          "question": "Is Pro a subscription?",
+          "answer": "No. Roam Guard Pro is a one-time purchase via Google Play."
+        },
+        "q4": {
+          "question": "Monitoring stopped after restart?",
+          "answer": "Open Roam Guard once — monitoring resumes if it was enabled."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need more help?",
+        "description": "If you could not find an answer, email zuki.apps@gmail.com. We typically respond within 24–48 hours."
+      }
+    }
+  }
+}

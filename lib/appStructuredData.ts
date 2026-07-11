@@ -18,4 +18,7 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/toldya': 'com.zuki.apps.toldya',
   '/timesince': 'com.zuki.apps.timesince',
   '/geo-calc': 'com.zuki.apps.geocalc',
+  '/roamguard': 'com.zuki.apps.roamguard',
+  '/questivo': 'com.zuki.apps.questivo',
+  '/coloring-my-photo': 'com.zuki.apps.coloringmyphoto',
 };

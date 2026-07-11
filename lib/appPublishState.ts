@@ -44,3 +44,21 @@ export const GEO_CALC_PILOT = true;
 export const GEO_CALC_PUBLISHED = false;
 
 export const GEO_CALC_APP_PATH = '/geo-calc' as const;
+
+/** Roam Guard — hidden until published; legal pages for Play Store compliance. */
+export const ROAMGUARD_UNDER_CONSTRUCTION = true;
+export const ROAMGUARD_PILOT = false;
+export const ROAMGUARD_PUBLISHED = false;
+export const ROAMGUARD_APP_PATH = '/roamguard' as const;
+
+/** Questivo — hidden until published; legal pages for store compliance. */
+export const QUESTIVO_UNDER_CONSTRUCTION = true;
+export const QUESTIVO_PILOT = false;
+export const QUESTIVO_PUBLISHED = false;
+export const QUESTIVO_APP_PATH = '/questivo' as const;
+
+/** Coloring My Photo — hidden until published; legal pages for store compliance. */
+export const COLORING_MY_PHOTO_UNDER_CONSTRUCTION = true;
+export const COLORING_MY_PHOTO_PILOT = false;
+export const COLORING_MY_PHOTO_PUBLISHED = false;
+export const COLORING_MY_PHOTO_APP_PATH = '/coloring-my-photo' as const;
