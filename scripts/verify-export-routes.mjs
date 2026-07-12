@@ -60,6 +60,22 @@ export function verifyLegacyRedirectRules(redirectsPath) {
   return errors;
 }
 
+/** Every exported compliance page must have a 200 rewrite (no trailing-slash redirect). */
+export function verifyComplianceRedirectRules(redirectsPath, outDir) {
+  const text = readFileSync(redirectsPath, 'utf8');
+  const errors = [];
+  const { findCompliancePaths } = require('./post-static-export.mjs');
+
+  for (const rel of findCompliancePaths(outDir)) {
+    const line = `/${rel} /${rel}/index.html 200`;
+    if (!text.includes(line)) {
+      errors.push(`missing compliance rewrite: ${line}`);
+    }
+  }
+
+  return errors;
+}
+
 export function verifyLocaleHomes(outDir, locales) {
   const missing = [];
   for (const locale of locales) {

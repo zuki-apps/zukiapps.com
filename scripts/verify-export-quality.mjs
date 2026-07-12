@@ -1,7 +1,7 @@
 /**
  * Extra export quality checks: SEO, assets, JSON-LD, internal links, compliance.
  */
-import { existsSync, readFileSync, statSync } from 'node:fs';
+import { existsSync, readFileSync, statSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { resolveExportRel } from './verify-export-routes.mjs';
 
@@ -162,6 +162,35 @@ export function verifyHreflangAlternates(outDir) {
   return errors;
 }
 
+export function verifyNoRscTxtArtifacts(outDir) {
+  const errors = [];
+  const artifacts = new Set([
+    'privacy.txt',
+    'terms.txt',
+    'support.txt',
+    'child-safety.txt',
+    'delete-account.txt',
+    'delete-data.txt',
+  ]);
+
+  function walk(dir, prefix = '') {
+    for (const ent of readdirSync(dir, { withFileTypes: true })) {
+      const rel = prefix ? `${prefix}/${ent.name}` : ent.name;
+      const full = join(dir, ent.name);
+      if (ent.isDirectory()) {
+        walk(full, rel);
+        continue;
+      }
+      if (artifacts.has(ent.name)) {
+        errors.push(`stale RSC artifact: ${rel}`);
+      }
+    }
+  }
+
+  walk(outDir);
+  return errors;
+}
+
 export function verifyComplianceExports(outDir, apps = COMPLIANCE_APPS) {
   const errors = [];
   for (const app of apps) {
@@ -295,6 +324,7 @@ export function runQualityChecks(outDir, locales) {
   allErrors.push(...verifyStructuredData(outDir));
   allErrors.push(...verifyHreflangAlternates(outDir));
   allErrors.push(...verifyComplianceExports(outDir));
+  allErrors.push(...verifyNoRscTxtArtifacts(outDir));
   allErrors.push(...verifyInviteShellsAllLocales(outDir, locales));
   allErrors.push(
     ...verifyInternalLinks(outDir, [

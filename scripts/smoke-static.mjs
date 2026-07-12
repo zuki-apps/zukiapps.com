@@ -12,6 +12,7 @@ import { join } from 'node:path';
 import { createRequire } from 'node:module';
 import {
   verifyLegacyRedirectRules,
+  verifyComplianceRedirectRules,
   verifyLocaleHomes,
   verifyLocaleContentMarkers,
   verifyLocaleSampleExports,
@@ -60,6 +61,8 @@ const REQUIRED_FILES = [
   'roamguard/privacy/index.html',
   'questivo/index.html',
   'coloring-my-photo/index.html',
+  'dreambit-legacy/privacy/index.html',
+  'dreambit-legacy/terms/index.html',
 ];
 
 const LIVE_EXTRA_PATHS = [
@@ -122,6 +125,11 @@ function checkSitemapAndApps() {
   const redirectErrors = verifyLegacyRedirectRules(join(OUT, '_redirects'));
   if (redirectErrors.length) {
     fail(`_redirects errors:\n  ${redirectErrors.join('\n  ')}`);
+  }
+
+  const complianceRedirectErrors = verifyComplianceRedirectRules(join(OUT, '_redirects'), OUT);
+  if (complianceRedirectErrors.length) {
+    fail(`_redirects compliance rewrites:\n  ${complianceRedirectErrors.join('\n  ')}`);
   }
 
   console.log(`smoke: routing OK (${paths.length} sitemap URLs, ${LOCALES.length} locales)`);
@@ -239,6 +247,20 @@ async function checkLiveHttp(sitemapPaths) {
     fail(`live 404 check: expected 404 for bogus path, got ${bogus.status}`);
   }
   console.log('smoke: live 404 OK');
+
+  const storeCompliancePaths = [
+    '/dreambit-legacy/privacy',
+    '/dreambit-legacy/terms',
+    '/hush-gallery/privacy',
+    '/zulist/privacy',
+  ];
+  for (const path of storeCompliancePaths) {
+    const res = await fetch(`${base}${path}`, { redirect: 'manual' });
+    if (res.status !== 200) {
+      fail(`store compliance URL must return 200 without redirect: ${path} → ${res.status}`);
+    }
+    console.log(`  OK ${path} → 200 (no redirect)`);
+  }
 }
 
 async function main() {
