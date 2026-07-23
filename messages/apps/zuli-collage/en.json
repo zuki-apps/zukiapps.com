@@ -2,16 +2,16 @@
   "zuliCollage": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming soon · iOS & Android",
+      "badge": "Free on the App Store · Android coming soon",
       "title": "Turn 2–10 photos into a collage in seconds",
       "productName": "Zuli Collage — Photo Collage Maker",
       "subtitle": "Zuli Collage — Photo Collage Maker",
       "description": "Pick photos, choose a layout, add filters and Zuli Monsters stickers, then save or share. No account required — everything stays on your device.",
       "socialProof": "2–10 photos · Smart layouts · Filters · 48 Zuli Monsters · English & Hebrew",
-      "structuredDataDescription": "Zuli Collage — photo collage maker for iOS and Android. Create beautiful collages from 2–10 pictures in seconds. Layouts, filters, text, and 48 Zuli Monsters stickers. Coming soon. No account required. Android com.zuki.apps.collagio.",
+      "structuredDataDescription": "Zuli Collage — photo collage maker for iOS. Create beautiful collages from 2–10 pictures in seconds. Layouts, filters, text, and 48 Zuli Monsters stickers. Free on the App Store; Android coming soon. No account required. Package com.zuki.apps.collagio.",
       "phoneAlt": "Zuli Collage home screen on iPhone",
       "seoTitle": "Zuli Collage — Photo Collage Maker | Zuki Apps",
-      "metaDescription": "Combine 2–10 photos with layouts, filters & stickers. On-device editing. Coming soon on iOS & Android."
+      "metaDescription": "Combine 2–10 photos with layouts, filters & stickers. On-device editing. Free on the App Store; Android coming soon."
     },
     "legalNav": {
       "privacy": "Privacy Policy",
@@ -181,21 +181,22 @@
     },
     "download": {
       "title": "Download Zuli Collage",
-      "description": "Zuli Collage is not on the stores yet. Join the waitlist by email — we will announce iOS and Android when downloads open.",
-      "appStoreUrl": "",
+      "description": "Create beautiful collages with layouts, filters, and Zuli Monsters stickers. Free on iOS today; Android coming soon.",
+      "appStoreUrl": "https://apps.apple.com/il/app/zuli-collage/id6774583525",
       "googlePlayUrl": "",
       "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play",
       "appIconAlt": "Zuli Collage app icon",
-      "soon": "Coming soon to the App Store and Google Play."
+      "soon": "Coming soon to the App Store and Google Play.",
+      "googlePlaySoon": "Coming soon on Google Play"
     },
     "status": {
-      "title": "In development",
-      "description": "Zuli Collage is in final testing. Store links will appear here when downloads are ready.",
+      "title": "Available now",
+      "description": "Zuli Collage is live on the App Store. Google Play is coming soon.",
       "version": "Release",
       "status": "Stores",
-      "versionValue": "Pre-release",
-      "statusValue": "Coming soon · iOS & Android"
+      "versionValue": "1.0",
+      "statusValue": "App Store (iOS) · Google Play coming soon"
     },
     "links": {
       "title": "Help & legal",
@@ -205,7 +206,7 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "Download Zuli Collage for Android"
+        "description": "Coming soon on Google Play for Android"
       }
     },
     "footer": {
@@ -240,7 +241,11 @@
       "items": [
         {
           "question": "What is Zuli Collage?",
-          "answer": "Zuli Collage is a photo collage maker for iOS and Android. Select 2–10 photos, pick a layout, style with filters and stickers, then save or share — usually in under 30 seconds."
+          "answer": "Zuli Collage is a photo collage maker for iOS (Android coming soon). Select 2–10 photos, pick a layout, style with filters and stickers, then save or share — usually in under 30 seconds."
+        },
+        {
+          "question": "Where can I download Zuli Collage?",
+          "answer": "Zuli Collage is free on the App Store for iPhone and iPad. Google Play for Android is coming soon."
         },
         {
           "question": "Do I need an account?",

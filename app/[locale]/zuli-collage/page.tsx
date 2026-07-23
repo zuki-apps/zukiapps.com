@@ -115,6 +115,7 @@ export default function ZuliCollagePage() {
                 appStoreAlt={t('download.appStoreAlt')}
                 googlePlayAlt={t('download.googlePlayAlt')}
                 soonLabel={t('download.soon')}
+                googlePlaySoonLabel={t('download.googlePlaySoon')}
                 fallbackBorderClass="border-rose-600/30"
                 utmContent="zuli-collage"
               />
@@ -252,6 +253,7 @@ export default function ZuliCollagePage() {
               appStoreAlt={t('download.appStoreAlt')}
               googlePlayAlt={t('download.googlePlayAlt')}
               soonLabel={t('download.soon')}
+              googlePlaySoonLabel={t('download.googlePlaySoon')}
               fallbackBorderClass="border-rose-600/30"
               utmContent="zuli-collage"
             />
