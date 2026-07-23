@@ -62,11 +62,18 @@ export function verifyLegacyRedirectRules(redirectsPath) {
 
 /**
  * Cloudflare Pages serves /path as 200 only when path.html exists (index.html alone → 308).
- * Verify every compliance route has the sibling .html file.
+ * Verify locale homes + compliance routes have the sibling .html file.
  */
 export function verifyComplianceHtmlSiblings(outDir) {
   const errors = [];
   const { findCompliancePaths } = require('./post-static-export.mjs');
+  const { LOCALES } = require('../lib/legacySlugRedirects.js');
+
+  for (const locale of LOCALES) {
+    if (!existsSync(join(outDir, `${locale}.html`))) {
+      errors.push(`missing locale home sibling: ${locale}.html`);
+    }
+  }
 
   for (const rel of findCompliancePaths(outDir)) {
     if (!existsSync(join(outDir, `${rel}.html`))) {

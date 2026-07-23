@@ -253,11 +253,15 @@ async function checkLiveHttp(sitemapPaths) {
     '/dreambit-legacy/terms',
     '/hush-gallery/privacy',
     '/zulist/privacy',
+    '/it',
+    '/he',
+    '/it/hush-gallery',
+    '/he/zuli-collage',
   ];
   for (const path of storeCompliancePaths) {
     const res = await fetch(`${base}${path}`, { redirect: 'manual' });
     if (res.status !== 200) {
-      fail(`store compliance URL must return 200 without redirect: ${path} → ${res.status}`);
+      fail(`extensionless URL must return 200 without redirect: ${path} → ${res.status}`);
     }
     console.log(`  OK ${path} → 200 (no redirect)`);
   }

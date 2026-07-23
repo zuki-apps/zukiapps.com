@@ -140,20 +140,45 @@ export function findCompliancePaths(outDir = OUT) {
   return paths.sort();
 }
 
+/** Every directory with index.html (locale homes, apps, nested pages). */
+export function findIndexHtmlDirs(outDir = OUT) {
+  const paths = [];
+
+  function walk(dir, prefix = '') {
+    for (const ent of readdirSync(dir, { withFileTypes: true })) {
+      if (!ent.isDirectory()) continue;
+      const rel = prefix ? `${prefix}/${ent.name}` : ent.name;
+      const full = join(dir, ent.name);
+      if (existsSync(join(full, 'index.html'))) {
+        paths.push(rel);
+      }
+      walk(full, rel);
+    }
+  }
+
+  walk(outDir);
+  return paths.sort();
+}
+
 /**
  * Cloudflare Pages 308s /path → /path/ when only path/index.html exists.
- * A sibling path.html makes /path return 200 (required by Google Play URL checks).
+ * A sibling path.html makes /path return 200 (locale switcher, Play URLs, SEO).
  * Keep path/index.html so /path/ still works.
  */
-export function emitComplianceHtmlFiles(outDir = OUT) {
-  const paths = findCompliancePaths(outDir);
+export function emitExtensionlessHtmlFiles(outDir = OUT) {
+  const paths = findIndexHtmlDirs(outDir);
   for (const rel of paths) {
     const indexPath = join(outDir, rel, 'index.html');
     const htmlPath = join(outDir, `${rel}.html`);
     copyFileSync(indexPath, htmlPath);
   }
-  console.log(`post-static-export: emitted ${paths.length} compliance .html siblings`);
+  console.log(`post-static-export: emitted ${paths.length} extensionless .html siblings`);
   return paths;
+}
+
+/** @deprecated use emitExtensionlessHtmlFiles */
+export function emitComplianceHtmlFiles(outDir = OUT) {
+  return emitExtensionlessHtmlFiles(outDir);
 }
 
 export function removeRscTxtArtifacts(outDir = OUT) {
@@ -206,7 +231,7 @@ export function runPostStaticExport(outDir = OUT) {
   mirrorDefaultLocaleToRoot(outDir);
   promoteLocaleHomePages(outDir);
   convertHtmlFilesToIndexDirs(outDir);
-  emitComplianceHtmlFiles(outDir);
+  emitExtensionlessHtmlFiles(outDir);
   removeRscTxtArtifacts(outDir);
   writeRedirectsFile(outDir);
 }
