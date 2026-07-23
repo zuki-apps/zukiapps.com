@@ -196,9 +196,13 @@ export function verifyComplianceExports(outDir, apps = COMPLIANCE_APPS) {
   for (const app of apps) {
     if (!existsSync(join(outDir, `${app}/index.html`))) continue;
     for (const sub of ['privacy', 'terms', 'support']) {
-      const rel = `${app}/${sub}/index.html`;
-      if (!existsSync(join(outDir, rel))) {
+      const indexRel = `${app}/${sub}/index.html`;
+      const htmlRel = `${app}/${sub}.html`;
+      if (!existsSync(join(outDir, indexRel))) {
         errors.push(`missing compliance page: /${app}/${sub}`);
+      }
+      if (!existsSync(join(outDir, htmlRel))) {
+        errors.push(`missing compliance sibling: /${app}/${sub}.html`);
       }
     }
   }

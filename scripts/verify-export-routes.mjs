@@ -60,16 +60,17 @@ export function verifyLegacyRedirectRules(redirectsPath) {
   return errors;
 }
 
-/** Every exported compliance page must have a 200 rewrite (no trailing-slash redirect). */
-export function verifyComplianceRedirectRules(redirectsPath, outDir) {
-  const text = readFileSync(redirectsPath, 'utf8');
+/**
+ * Cloudflare Pages serves /path as 200 only when path.html exists (index.html alone → 308).
+ * Verify every compliance route has the sibling .html file.
+ */
+export function verifyComplianceHtmlSiblings(outDir) {
   const errors = [];
   const { findCompliancePaths } = require('./post-static-export.mjs');
 
   for (const rel of findCompliancePaths(outDir)) {
-    const line = `/${rel} /${rel}/index.html 200`;
-    if (!text.includes(line)) {
-      errors.push(`missing compliance rewrite: ${line}`);
+    if (!existsSync(join(outDir, `${rel}.html`))) {
+      errors.push(`missing compliance sibling: ${rel}.html`);
     }
   }
 

@@ -12,7 +12,7 @@ import { join } from 'node:path';
 import { createRequire } from 'node:module';
 import {
   verifyLegacyRedirectRules,
-  verifyComplianceRedirectRules,
+  verifyComplianceHtmlSiblings,
   verifyLocaleHomes,
   verifyLocaleContentMarkers,
   verifyLocaleSampleExports,
@@ -127,9 +127,9 @@ function checkSitemapAndApps() {
     fail(`_redirects errors:\n  ${redirectErrors.join('\n  ')}`);
   }
 
-  const complianceRedirectErrors = verifyComplianceRedirectRules(join(OUT, '_redirects'), OUT);
-  if (complianceRedirectErrors.length) {
-    fail(`_redirects compliance rewrites:\n  ${complianceRedirectErrors.join('\n  ')}`);
+  const complianceHtmlErrors = verifyComplianceHtmlSiblings(OUT);
+  if (complianceHtmlErrors.length) {
+    fail(`compliance .html siblings:\n  ${complianceHtmlErrors.join('\n  ')}`);
   }
 
   console.log(`smoke: routing OK (${paths.length} sitemap URLs, ${LOCALES.length} locales)`);
