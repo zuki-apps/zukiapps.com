@@ -2,7 +2,7 @@
   "geoCalc": {
     "back": "Retour à la maison",
     "hero": {
-      "badge": "En construction · À venir",
+      "badge": "Sur l’App Store · Android bientôt",
       "title": "Outils de coordonnées WGS84 — hors ligne.",
       "productName": "GEO Calc — Coordonnées",
       "subtitle": "GEO Calc — Coordonnées",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "GEO Calc — outils de coordonnées WGS84 hors ligne pour iOS et Android (en construction). Convertissez DD, DMS, UTM, MGRS ; Vincenty distance et relèvement ; mesure cartographique ; waypoints et exportation GPX. Android com.zuki.apps.geocalc. Les waypoints restent sur votre appareil.",
       "phoneAlt": "Convertisseur de coordonnées GEO Calc sur iPhone",
       "seoTitle": "GEO Calc — WGS84 Outils de coordonnées hors ligne (à venir) | Zuki Apps",
-      "metaDescription": "GEO Calc est en construction. Convertisseur WGS84 hors ligne, distance Vincenty, mesure cartographique et exportation GPX pour les professionnels de terrain. Confidentialité, conditions et assistance disponibles dès maintenant."
+      "metaDescription": "Convertisseur WGS84 hors ligne, distance Vincenty, mesure sur la carte et export GPX. Gratuit sur iOS ; Android bientôt."
     },
     "legalNav": {
       "privacy": "politique de confidentialité",
@@ -146,6 +146,30 @@
           "image": "/images/geo-calc/screenshot-waypoints.png",
           "alt": "Liste de waypoints GEO Calc avec exportation GPX",
           "category": "caractéristiques"
+        },
+        {
+          "id": "live-gps",
+          "title": "Know where you stand",
+          "description": "Live GPS coordinates in DD, DMS, UTM, and MGRS.",
+          "image": "/images/geo-calc/screenshot-live-gps.png",
+          "alt": "GEO Calc live GPS coordinate readout",
+          "category": "features"
+        },
+        {
+          "id": "direct",
+          "title": "Find the destination",
+          "description": "Bearing plus distance to a precise coordinate using Vincenty direct.",
+          "image": "/images/geo-calc/screenshot-direct.png",
+          "alt": "GEO Calc geodesic direct coordinate calculator",
+          "category": "features"
+        },
+        {
+          "id": "satellite",
+          "title": "See the terrain",
+          "description": "Satellite imagery for map context in the field.",
+          "image": "/images/geo-calc/screenshot-satellite.png",
+          "alt": "GEO Calc map with satellite imagery",
+          "category": "features"
         }
       ]
     },
@@ -315,22 +339,22 @@
       "description": "Anglais, hébreu (RTL), arabe (RTL), allemand, espagnol, français, italien, japonais, coréen, portugais, russe et chinois (simplifié)."
     },
     "status": {
-      "title": "En cours de construction",
-      "description": "GEO Calc v1.0 est en développement actif. Les liens du magasin apparaîtront ici lorsque les versions iOS et Android seront prêtes.",
+      "title": "Disponibilité",
+      "description": "GEO Calc : Coordinates est disponible sur l’App Store. Google Play pour Android arrive bientôt.",
       "version": "Version cible",
       "status": "Disponibilité",
-      "versionValue": "1.0.0 (en développement)",
-      "statusValue": "À venir · iOS, iPad et Android"
+      "versionValue": "0.9.0",
+      "statusValue": "App Store (iOS) · Google Play bientôt"
     },
     "download": {
       "title": "À venir",
-      "description": "GEO Calc sera disponible sur l'App Store et Google Play lorsque le lancement sera prêt.",
+      "description": "Convertisseur de coordonnées WGS84 hors ligne, distance Vincenty, mesure sur la carte et GPX pour le terrain. Gratuit sur iOS dès aujourd’hui ; Android bientôt.",
       "soon": "Bientôt disponible sur l'App Store et Google Play",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "Icône de l'application GEO Calc",
       "appStoreAlt": "Télécharger sur l'App Store",
-      "googlePlayAlt": "Obtenez-le sur Google Play"
+      "googlePlayAlt": "Obtenez-le sur Google Play",
+      "googlePlaySoon": "Bientôt sur Google Play"
     },
     "links": {
       "title": "Liens importants",

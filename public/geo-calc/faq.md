@@ -8,7 +8,11 @@
 
 ## What is GEO Calc?
 
-Offline WGS84 coordinate tools for field professionals. Live on the App Store; Google Play coming soon. Convert DD, DMS, UTM, and MGRS; Vincenty geodesic distance and bearing; map measure; waypoints and GPX export.
+Offline WGS84 coordinate tools for field professionals. Live on the [App Store](https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144); Google Play coming soon. Convert DD, DMS, UTM, and MGRS; Vincenty geodesic distance and bearing; map measure; waypoints and GPX export.
+
+## Where can I download GEO Calc?
+
+Free on the [App Store](https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144) for iPhone and iPad. Google Play for Android is coming soon.
 
 ## Offline & accuracy
 
@@ -52,4 +56,5 @@ https://zukiapps.com/images/geo-calc/screenshot-satellite.png
 
 Privacy: https://zukiapps.com/geo-calc/privacy  
 Terms: https://zukiapps.com/geo-calc/terms  
+App Store: https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144  
 Google Play: coming soon (com.zuki.apps.geocalc)

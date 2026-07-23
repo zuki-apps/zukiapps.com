@@ -35,7 +35,20 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
   {
     path: '/zuli-collage',
     name: 'Zuli Collage',
-    description: 'Photo collage maker (Zuli Collage): 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device, English & Hebrew. Coming soon on iOS and Android.',
+    description:
+      'Photo collage maker: 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device. Free on the App Store; Google Play coming soon (com.zuki.apps.collagio).',
+  },
+  {
+    path: '/timesince',
+    name: 'Time Since',
+    description:
+      'Streak tracker (quit & build modes, goal rings, widgets, share cards). Free on the App Store; Google Play coming soon (com.zuki.apps.timesince).',
+  },
+  {
+    path: '/geo-calc',
+    name: 'GEO Calc',
+    description:
+      'Offline WGS84 coordinate tools: DD/DMS/UTM/MGRS, Vincenty distance, map measure, GPX. Free on the App Store; Google Play coming soon (com.zuki.apps.geocalc).',
   },
   {
     path: '/toldya',

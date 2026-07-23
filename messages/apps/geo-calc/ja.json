@@ -2,7 +2,7 @@
   "geoCalc": {
     "back": "ホームに戻る",
     "hero": {
-      "badge": "準備中・近日公開予定",
+      "badge": "App Store配信中 · Androidはまもなく",
       "title": "WGS84 座標ツール — オフライン。",
       "productName": "GEO Calc — 座標",
       "subtitle": "GEO Calc — 座標",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "GEO Calc — iOS および Android 用のオフライン WGS84 座標ツール (作成中)。 DD、DMS、UTM、MGRS を変換します。 Vincenty 距離と方位;地図の尺度。ウェイポイントと GPX エクスポート。 Android com.zuki.apps.geocalc。ウェイポイントはデバイス上に残ります。",
       "phoneAlt": "iPhone の GEO Calc 座標コンバータ",
       "seoTitle": "GEO Calc — WGS84 オフライン調整ツール (近日公開予定) | Zuki Apps",
-      "metaDescription": "GEO Calc は建設中です。現場専門家向けのオフライン WGS84 コンバーター、Vincenty 距離、地図測定、および GPX エクスポート。プライバシー、利用規約、サポートをすぐにご利用いただけます。"
+      "metaDescription": "オフラインWGS84変換、Vincenty距離、地図計測、GPX書き出し。iOS無料、Androidはまもなく。"
     },
     "legalNav": {
       "privacy": "プライバシーポリシー",
@@ -146,6 +146,30 @@
           "image": "/images/geo-calc/screenshot-waypoints.png",
           "alt": "GPX エクスポートによる GEO Calc ウェイポイント リスト",
           "category": "特徴"
+        },
+        {
+          "id": "live-gps",
+          "title": "Know where you stand",
+          "description": "Live GPS coordinates in DD, DMS, UTM, and MGRS.",
+          "image": "/images/geo-calc/screenshot-live-gps.png",
+          "alt": "GEO Calc live GPS coordinate readout",
+          "category": "features"
+        },
+        {
+          "id": "direct",
+          "title": "Find the destination",
+          "description": "Bearing plus distance to a precise coordinate using Vincenty direct.",
+          "image": "/images/geo-calc/screenshot-direct.png",
+          "alt": "GEO Calc geodesic direct coordinate calculator",
+          "category": "features"
+        },
+        {
+          "id": "satellite",
+          "title": "See the terrain",
+          "description": "Satellite imagery for map context in the field.",
+          "image": "/images/geo-calc/screenshot-satellite.png",
+          "alt": "GEO Calc map with satellite imagery",
+          "category": "features"
         }
       ]
     },
@@ -315,22 +339,22 @@
       "description": "英語、ヘブライ語 (RTL)、アラビア語 (RTL)、ドイツ語、スペイン語、フランス語、イタリア語、日本語、韓国語、ポルトガル語、ロシア語、中国語 (簡体字)。"
     },
     "status": {
-      "title": "工事中",
-      "description": "GEO Calc v1.0 は現在開発中です。 iOS および Android ビルドの準備ができると、ストア リンクがここに表示されます。",
+      "title": "提供状況",
+      "description": "GEO Calc : CoordinatesはApp Storeで配信中です。Android向けGoogle Playはまもなく公開予定です。",
       "version": "対象バージョン",
       "status": "可用性",
-      "versionValue": "1.0.0 (開発中)",
-      "statusValue": "近日公開予定 · iOS、iPad、Android"
+      "versionValue": "0.9.0",
+      "statusValue": "App Store（iOS）· Google Playまもなく"
     },
     "download": {
       "title": "近日公開",
-      "description": "GEO Calc は、発売の準備が整い次第、App Store および Google Play で利用できるようになります。",
+      "description": "オフラインWGS84座標変換、Vincenty距離、地図計測、現場向けGPX書き出し。今日からiOSで無料、Androidはまもなく。",
       "soon": "App Store と Google Play で近日公開予定",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "GEO Calc アプリのアイコン",
       "appStoreAlt": "App Storeでダウンロード",
-      "googlePlayAlt": "Google Play で入手"
+      "googlePlayAlt": "Google Play で入手",
+      "googlePlaySoon": "Google Playまもなく公開"
     },
     "links": {
       "title": "重要なリンク",

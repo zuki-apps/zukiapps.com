@@ -2,7 +2,7 @@
   "geoCalc": {
     "back": "Zurück nach Hause",
     "hero": {
-      "badge": "Im Aufbau · Demnächst verfügbar",
+      "badge": "Im App Store · Android folgt",
       "title": "WGS84 Koordinatenwerkzeuge – offline.",
       "productName": "GEO Calc – Koordinaten",
       "subtitle": "GEO Calc – Koordinaten",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "GEO Calc – Offline-Koordinatenwerkzeuge für WGS84 für iOS und Android (im Aufbau). Konvertieren Sie DD, DMS, UTM, MGRS; Vincenty Entfernung und Peilung; Kartenmaß; Wegpunkte und GPX-Export. Android com.zuki.apps.geocalc. Wegpunkte bleiben auf Ihrem Gerät.",
       "phoneAlt": "GEO Calc-Koordinatenkonverter auf dem iPhone",
       "seoTitle": "GEO Calc — WGS84 Offline-Koordinatentools (in Kürze verfügbar) | Zuki Apps",
-      "metaDescription": "GEO Calc ist im Aufbau. Offline-WGS84-Konverter, Vincenty-Entfernung, Kartenmaß und GPX-Export für Außendienstmitarbeiter. Datenschutz, Bedingungen und Support jetzt verfügbar."
+      "metaDescription": "Offline-WGS84-Konverter, Vincenty-Distanz, Kartenmessung und GPX-Export für Profis. Kostenlos auf iOS; Android folgt."
     },
     "legalNav": {
       "privacy": "Datenschutzrichtlinie",
@@ -146,6 +146,30 @@
           "image": "/images/geo-calc/screenshot-waypoints.png",
           "alt": "GEO Calc Wegpunktliste mit GPX-Export",
           "category": "Merkmale"
+        },
+        {
+          "id": "live-gps",
+          "title": "Know where you stand",
+          "description": "Live GPS coordinates in DD, DMS, UTM, and MGRS.",
+          "image": "/images/geo-calc/screenshot-live-gps.png",
+          "alt": "GEO Calc live GPS coordinate readout",
+          "category": "features"
+        },
+        {
+          "id": "direct",
+          "title": "Find the destination",
+          "description": "Bearing plus distance to a precise coordinate using Vincenty direct.",
+          "image": "/images/geo-calc/screenshot-direct.png",
+          "alt": "GEO Calc geodesic direct coordinate calculator",
+          "category": "features"
+        },
+        {
+          "id": "satellite",
+          "title": "See the terrain",
+          "description": "Satellite imagery for map context in the field.",
+          "image": "/images/geo-calc/screenshot-satellite.png",
+          "alt": "GEO Calc map with satellite imagery",
+          "category": "features"
         }
       ]
     },
@@ -315,22 +339,22 @@
       "description": "Englisch, Hebräisch (RTL), Arabisch (RTL), Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, Portugiesisch, Russisch und Chinesisch (vereinfacht)."
     },
     "status": {
-      "title": "Im Bau",
-      "description": "GEO Calc v1.0 befindet sich in der aktiven Entwicklung. Store-Links werden hier angezeigt, wenn die Builds iOS und Android fertig sind.",
+      "title": "Verfügbarkeit",
+      "description": "GEO Calc : Coordinates ist im App Store erhältlich. Google Play für Android folgt in Kürze.",
       "version": "Zielversion",
       "status": "Verfügbarkeit",
-      "versionValue": "1.0.0 (in Entwicklung)",
-      "statusValue": "Demnächst erhältlich · iOS, iPad & Android"
+      "versionValue": "0.9.0",
+      "statusValue": "App Store (iOS) · Google Play folgt"
     },
     "download": {
       "title": "Kommt bald",
-      "description": "GEO Calc wird im App Store und bei Google Play verfügbar sein, sobald der Start bereit ist.",
+      "description": "Offline-WGS84-Koordinatenkonverter, Vincenty-Distanz, Kartenmessung und GPX-Export fürs Feld. Heute kostenlos auf iOS; Android folgt.",
       "soon": "Bald im App Store und bei Google Play erhältlich",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "GEO Calc App-Symbol",
       "appStoreAlt": "Im App Store herunterladen",
-      "googlePlayAlt": "Holen Sie es sich bei Google Play"
+      "googlePlayAlt": "Holen Sie es sich bei Google Play",
+      "googlePlaySoon": "Demnächst bei Google Play"
     },
     "links": {
       "title": "Wichtige Links",

@@ -11,10 +11,15 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const messagesDir = path.join(__dirname, '..', 'messages');
 
-/** Locale wins on leaf keys; missing branches filled from en (clone). */
+/** Locale wins on leaf keys; missing branches filled from en (clone).
+ * Empty / whitespace strings fall back to English (same as runtime deepMergeMessages).
+ */
 function mergeLocaleWithEn(locale, en) {
   if (en === null || en === undefined) return locale;
   if (locale === null || locale === undefined) return structuredClone(en);
+  if (typeof locale === 'string' && locale.trim() === '' && typeof en === 'string' && en.trim() !== '') {
+    return en;
+  }
   if (typeof locale === 'string' || typeof locale === 'number' || typeof locale === 'boolean') return locale;
   if (typeof en === 'string' || typeof en === 'number' || typeof en === 'boolean') return locale;
   if (Array.isArray(locale)) return locale;

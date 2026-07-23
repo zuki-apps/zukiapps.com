@@ -51,7 +51,7 @@ export default async function ProductStructuredDataBlock({
         appPath={config.appPath}
         appName={t('hero.title')}
         appDescription={structuredDescription}
-        operatingSystem="iOS,Android"
+        operatingSystem={config.operatingSystem ?? 'iOS,Android'}
         applicationCategory={config.applicationCategory}
         offers={{ price: '0', priceCurrency: 'USD' }}
         aggregateRating={storeRating}

@@ -2,7 +2,7 @@
   "timeSince": {
     "back": "العودة إلى المنزل",
     "hero": {
-      "badge": "تحت الإنشاء · قريباً",
+      "badge": "متوفر على App Store · Android قريباً",
       "title": "لا تكسر السلسلة.",
       "productName": "Time Since — متتبع الخط",
       "subtitle": "Time Since — متتبع الخط",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "Time Since — متتبع الخط لـ iOS وAndroid (قيد الإنشاء). عدادات اليوم المباشر، وخواتم الأهداف، والأدوات، وبطاقات المشاركة. Android com.zuki.apps.timesince. تبقى البيانات المتسلسلة على جهازك.",
       "phoneAlt": "Time Since معاينة التطبيق",
       "seoTitle": "Time Since — متتبع الخط (قريبًا) | Zuki Apps",
-      "metaDescription": "Time Since جهاز تعقب الخط قيد الإنشاء. الخصوصية والشروط والدعم متاحة الآن. قريبًا إلى iOS وAndroid."
+      "metaDescription": "تتبّع سلاسل الإقلاع والبناء بعدّادات أيام مباشرة وحلقات أهداف وأدوات ومشاركة. مجاني على iOS؛ Android قريباً."
     },
     "legalNav": {
       "privacy": "سياسة الخصوصية",
@@ -39,7 +39,8 @@
       "tips": "نصائح",
       "faq": "التعليمات",
       "premium": "Premium",
-      "download": "تحميل"
+      "download": "تحميل",
+      "modes": "Modes"
     },
     "features": {
       "title": "التقدم الذي يمكنك رؤيته",
@@ -168,6 +169,22 @@
           "image": "/images/timesince/screenshot-editor.png",
           "alt": "Time Since محرر خط جديد",
           "category": "سمات"
+        },
+        {
+          "id": "modes",
+          "title": "Quit or build — your way",
+          "description": "Two tracking modes with language that fits quitting or building habits.",
+          "image": "/images/timesince/screenshot-modes.png",
+          "alt": "Time Since quit and build mode selection",
+          "category": "features"
+        },
+        {
+          "id": "trust",
+          "title": "Yours alone",
+          "description": "Streak data stays on your device. Premium removes ads — one-time purchase.",
+          "image": "/images/timesince/screenshot-trust.png",
+          "alt": "Time Since privacy and Premium settings",
+          "category": "features"
         }
       ]
     },
@@ -364,22 +381,22 @@
       "description": "الإنجليزية، العبرية (RTL)، العربية (RTL)، الألمانية، الإسبانية، الفرنسية، الإيطالية، اليابانية، الكورية، البرتغالية، الروسية، والصينية (المبسطة)."
     },
     "status": {
-      "title": "قيد الإنشاء",
-      "description": "Time Since قيد التطوير النشط. ستظهر روابط المتجر هنا عندما يصبح الإصداران iOS وAndroid جاهزين.",
+      "title": "التوفّر",
+      "description": "Time Since: Streak Tracker متوفر على App Store. Google Play لأندرويد قريباً.",
       "version": "النسخة المستهدفة",
       "status": "التوفر",
-      "versionValue": "0.9.0 (قيد التطوير)",
-      "statusValue": "قريبًا · iOS و Android"
+      "versionValue": "1.0.0",
+      "statusValue": "App Store (iOS) · Google Play قريباً"
     },
     "download": {
       "title": "قريباً",
-      "description": "سيكون Time Since متاحًا على App Store وGoogle Play عندما يكون الإطلاق جاهزًا.",
+      "description": "تتبّع سلاسل الإقلاع والبناء مع حلقات الأهداف والأدوات وبطاقات المشاركة. مجاني على iOS اليوم؛ Android قريباً.",
       "soon": "يتوفر قريبًا في متجر التطبيقات وGoogle Play",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Time Since أيقونة التطبيق",
       "appStoreAlt": "قم بالتنزيل على متجر التطبيقات",
-      "googlePlayAlt": "احصل عليه على Google Play"
+      "googlePlayAlt": "احصل عليه على Google Play",
+      "googlePlaySoon": "قريباً على Google Play"
     },
     "links": {
       "title": "روابط مهمة",
@@ -389,7 +406,7 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "تنزيل Time Since لـ Android"
+        "description": "قريباً على Google Play لأجهزة Android"
       }
     },
     "footer": {

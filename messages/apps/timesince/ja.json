@@ -2,7 +2,7 @@
   "timeSince": {
     "back": "ホームに戻る",
     "hero": {
-      "badge": "準備中・近日公開予定",
+      "badge": "App Store配信中 · Androidはまもなく",
       "title": "連鎖を断ち切らないでください。",
       "productName": "Time Since — ストリークトラッカー",
       "subtitle": "Time Since — ストリークトラッカー",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "Time Since — iOS および Android 用のストリーク トラッカー (準備中)。ライブデーカウンター、ゴールリング、ウィジェット、共有カード。 Android com.zuki.apps.timesince. ストリーク データはデバイスに残ります。",
       "phoneAlt": "Time Since アプリのプレビュー",
       "seoTitle": "Time Since — ストリーク トラッカー (近日公開) | Zuki Apps",
-      "metaDescription": "Time Since ストリーク トラッカーは作成中です。プライバシー、利用規約、サポートは現在利用可能です。 iOS と Android にも近日公開予定です。"
+      "metaDescription": "やめる／続けるストリークをライブ日数・目標リング・ウィジェット・共有カードで記録。iOS無料、Androidはまもなく。"
     },
     "legalNav": {
       "privacy": "プライバシーポリシー",
@@ -39,7 +39,8 @@
       "tips": "ヒント",
       "faq": "よくある質問",
       "premium": "Premium",
-      "download": "ダウンロード"
+      "download": "ダウンロード",
+      "modes": "Modes"
     },
     "features": {
       "title": "目に見える進歩",
@@ -168,6 +169,22 @@
           "image": "/images/timesince/screenshot-editor.png",
           "alt": "Time Since 新しいストリークエディター",
           "category": "特徴"
+        },
+        {
+          "id": "modes",
+          "title": "Quit or build — your way",
+          "description": "Two tracking modes with language that fits quitting or building habits.",
+          "image": "/images/timesince/screenshot-modes.png",
+          "alt": "Time Since quit and build mode selection",
+          "category": "features"
+        },
+        {
+          "id": "trust",
+          "title": "Yours alone",
+          "description": "Streak data stays on your device. Premium removes ads — one-time purchase.",
+          "image": "/images/timesince/screenshot-trust.png",
+          "alt": "Time Since privacy and Premium settings",
+          "category": "features"
         }
       ]
     },
@@ -364,22 +381,22 @@
       "description": "英語、ヘブライ語 (RTL)、アラビア語 (RTL)、ドイツ語、スペイン語、フランス語、イタリア語、日本語、韓国語、ポルトガル語、ロシア語、中国語 (簡体字)。"
     },
     "status": {
-      "title": "工事中",
-      "description": "Time Since は現在開発中です。 iOS および Android ビルドの準備ができると、ストア リンクがここに表示されます。",
+      "title": "提供状況",
+      "description": "Time Since: Streak TrackerはApp Storeで配信中です。Android向けGoogle Playはまもなく公開予定です。",
       "version": "対象バージョン",
       "status": "可用性",
-      "versionValue": "0.9.0 (開発中)",
-      "statusValue": "近日公開 · iOS & Android"
+      "versionValue": "1.0.0",
+      "statusValue": "App Store（iOS）· Google Playまもなく"
     },
     "download": {
       "title": "近日公開",
-      "description": "Time Since は App Store で入手可能になり、発売の準備が整うと Google Play が入手可能になります。",
+      "description": "目標リング、ウィジェット、共有カードでストリークを記録。今日からiOSで無料、Androidはまもなく。",
       "soon": "App Store と Google Play で近日公開予定",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Time Since アプリのアイコン",
       "appStoreAlt": "App Storeでダウンロード",
-      "googlePlayAlt": "Google Play で入手"
+      "googlePlayAlt": "Google Play で入手",
+      "googlePlaySoon": "Google Playまもなく公開"
     },
     "links": {
       "title": "重要なリンク",
@@ -389,7 +406,7 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "Android 用の Time Since をダウンロード"
+        "description": "Android向けGoogle Playはまもなく公開"
       }
     },
     "footer": {

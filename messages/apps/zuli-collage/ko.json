@@ -2,16 +2,16 @@
   "zuliCollage": {
     "back": "홈으로 돌아가기",
     "hero": {
-      "badge": "출시 예정 · iOS & Android",
+      "badge": "App Store에서 무료 · Android 곧 출시",
       "title": "2~10장의 사진을 단 몇 초 만에 콜라주로 만들 수 있습니다.",
       "productName": "Zuli Collage — 사진 콜라주 메이커",
       "subtitle": "Zuli Collage — 사진 콜라주 메이커",
       "description": "사진을 선택하고, 레이아웃을 선택하고, 필터와 Zuli Monsters 스티커를 추가한 다음 저장하거나 공유하세요. 계정이 필요하지 않습니다. 모든 것이 기기에 유지됩니다.",
       "socialProof": "사진 2~10장 · 스마트 레이아웃 · 필터 · 48 Zuli Monsters · 영어 및 히브리어",
-      "structuredDataDescription": "단 몇 초 안에 2~10장의 사진으로 아름다운 사진 콜라주를 만들어보세요. 레이아웃, 필터, 텍스트 및 48개의 Zuli Monsters 스티커. iOS 및 Android에 곧 출시될 예정입니다. 계정이 필요하지 않습니다.",
+      "structuredDataDescription": "Zuli Collage — iOS용 포토 콜라주 메이커. 2~10장 사진으로 몇 초 만에 멋진 콜라주 제작. 레이아웃, 필터, 텍스트, Zuli Monsters 스티커 48종. App Store에서 무료, Android 곧 출시. 계정 불필요. 패키지 com.zuki.apps.collagio.",
       "phoneAlt": "Zuli Collage iPhone의 홈 화면",
       "seoTitle": "Zuli Collage — 사진 콜라주 메이커 | Zuki Apps",
-      "metaDescription": "2~10장의 사진을 레이아웃, 필터, 스티커와 결합하세요. 기기 내 편집. iOS 및 Android에 곧 출시됩니다."
+      "metaDescription": "2~10장의 사진을 레이아웃, 필터, 스티커로 조합하세요. 기기 내 편집. App Store에서 무료, Android 곧 출시."
     },
     "legalNav": {
       "privacy": "개인 정보 보호 정책",
@@ -181,21 +181,21 @@
     },
     "download": {
       "title": "다운로드 Zuli Collage",
-      "description": "Zuli Collage은 아직 매장에 없습니다. 이메일로 대기자 명단에 등록하세요. 다운로드가 시작되면 iOS 및 Android를 알려드리겠습니다.",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "description": "레이아웃, 필터, Zuli Monsters 스티커로 멋진 콜라주를 만드세요. 오늘 iOS에서 무료, Android 곧 출시.",
+      "appStoreUrl": "https://apps.apple.com/il/app/zuli-collage/id6774583525",
       "appStoreAlt": "App Store에서 다운로드하세요.",
       "googlePlayAlt": "시작해 보세요 Google Play",
       "appIconAlt": "Zuli Collage 앱 아이콘",
-      "soon": "App Store 및 Google Play에도 곧 출시될 예정입니다."
+      "soon": "App Store 및 Google Play에도 곧 출시될 예정입니다.",
+      "googlePlaySoon": "곧 Google Play 출시"
     },
     "status": {
-      "title": "개발 중",
-      "description": "Zuli Collage는 최종 테스트 중입니다. 다운로드가 준비되면 여기에 스토어 링크가 표시됩니다.",
+      "title": "지금 이용 가능",
+      "description": "Zuli Collage는 App Store에서 이용할 수 있습니다. Google Play는 곧 출시됩니다.",
       "version": "풀어 주다",
       "status": "백화점",
-      "versionValue": "시험판",
-      "statusValue": "출시 예정 · iOS & Android"
+      "versionValue": "1.0",
+      "statusValue": "App Store (iOS) · Google Play 곧 출시"
     },
     "links": {
       "title": "도움말 및 법률",
@@ -205,7 +205,7 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "Android용 Zuli Collage 다운로드"
+        "description": "Android용 Google Play 곧 출시"
       }
     },
     "footer": {
@@ -240,7 +240,11 @@
       "items": [
         {
           "question": "Zuli Collage란 무엇인가요?",
-          "answer": "Zuli Collage는 iOS 및 Android를 위한 사진 콜라주 메이커입니다. 2~10장의 사진을 선택하고 레이아웃을 선택한 다음 필터와 스티커로 스타일을 지정한 다음 저장하거나 공유하세요. 일반적으로 30초 이내에 완료됩니다."
+          "answer": "Zuli Collage는 iOS용 포토 콜라주 메이커입니다(Android 곧 출시). 사진 2~10장을 고르고 레이아웃·필터·스티커를 적용한 뒤 저장 또는 공유 — 보통 30초 이내."
+        },
+        {
+          "question": "Zuli Collage는 어디서 다운로드하나요?",
+          "answer": "Zuli Collage는 iPhone 및 iPad용 App Store에서 무료입니다. Android용 Google Play는 곧 출시됩니다."
         },
         {
           "question": "계정이 필요합니까?",

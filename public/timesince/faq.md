@@ -8,7 +8,11 @@
 
 ## What is Time Since?
 
-Streak tracker for iOS and Android (**under construction**). Quit & build modes, goal rings, widgets, share cards.
+Streak tracker for iOS (live on the [App Store](https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926); Android coming soon). Quit & build modes, goal rings, widgets, share cards.
+
+## Where can I download Time Since?
+
+Free on the [App Store](https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926) for iPhone and iPad. Google Play for Android is coming soon.
 
 ## Getting started
 
@@ -64,4 +68,5 @@ https://zukiapps.com/images/timesince/screenshot-editor.png
 
 Privacy: https://zukiapps.com/timesince/privacy  
 Terms: https://zukiapps.com/timesince/terms  
+App Store: https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926  
 Google Play: coming soon (com.zuki.apps.timesince)

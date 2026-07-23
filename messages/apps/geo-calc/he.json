@@ -2,7 +2,7 @@
   "geoCalc": {
     "back": "חזרה לבית",
     "hero": {
-      "badge": "בבנייה · בקרוב",
+      "badge": "ב‑App Store · Android בקרוב",
       "title": "WGS84 כלי תיאום - לא מקוון.",
       "productName": "GEO Calc - קואורדינטות",
       "subtitle": "GEO Calc - קואורדינטות",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "GEO Calc — כלי תיאום WGS84 לא מקוונים עבור iOS וAndroid (בבנייה). המר DD, DMS, UTM, MGRS; Vincenty מרחק וסיבה; מדידת מפה; נקודות ציון וייצוא GPX. Android com.zuki.apps.geocalc. נקודות ציון נשארות במכשיר שלך.",
       "phoneAlt": "GEO Calc ממיר קואורדינטות באייפון",
       "seoTitle": "GEO Calc — WGS84 כלי תיאום במצב לא מקוון (בקרוב) | Zuki Apps",
-      "metaDescription": "GEO Calc נמצא בבנייה. ממיר WGS84 לא מקוון, מרחק Vincenty, מדידת מפה ויצוא GPX לאנשי מקצוע בשטח. פרטיות, תנאים ותמיכה זמינים כעת."
+      "metaDescription": "ממיר WGS84 אופליין, מרחק Vincenty, מדידה במפה וייצוא GPX למקצוענים. בחינם ב‑iOS; Android בקרוב."
     },
     "legalNav": {
       "privacy": "מדיניות פרטיות",
@@ -146,6 +146,30 @@
           "image": "/images/geo-calc/screenshot-waypoints.png",
           "alt": "רשימת נקודות ציון GEO Calc עם ייצוא GPX",
           "category": "תכונות"
+        },
+        {
+          "id": "live-gps",
+          "title": "Know where you stand",
+          "description": "Live GPS coordinates in DD, DMS, UTM, and MGRS.",
+          "image": "/images/geo-calc/screenshot-live-gps.png",
+          "alt": "GEO Calc live GPS coordinate readout",
+          "category": "features"
+        },
+        {
+          "id": "direct",
+          "title": "Find the destination",
+          "description": "Bearing plus distance to a precise coordinate using Vincenty direct.",
+          "image": "/images/geo-calc/screenshot-direct.png",
+          "alt": "GEO Calc geodesic direct coordinate calculator",
+          "category": "features"
+        },
+        {
+          "id": "satellite",
+          "title": "See the terrain",
+          "description": "Satellite imagery for map context in the field.",
+          "image": "/images/geo-calc/screenshot-satellite.png",
+          "alt": "GEO Calc map with satellite imagery",
+          "category": "features"
         }
       ]
     },
@@ -315,22 +339,22 @@
       "description": "אנגלית, עברית (RTL), ערבית (RTL), גרמנית, ספרדית, צרפתית, איטלקית, יפנית, קוריאנית, פורטוגזית, רוסית וסינית (פשוטה)."
     },
     "status": {
-      "title": "בבנייה",
-      "description": "GEO Calc v1.0 נמצא בפיתוח פעיל. קישורי חנות יופיעו כאן כאשר iOS ו-Android יהיו מוכנים.",
+      "title": "זמינות",
+      "description": "GEO Calc : Coordinates זמין ב‑App Store. Google Play לאנדרואיד בקרוב.",
       "version": "גרסת היעד",
       "status": "זְמִינוּת",
-      "versionValue": "1.0.0 (בפיתוח)",
-      "statusValue": "בקרוב · iOS, iPad וAndroid"
+      "versionValue": "0.9.0",
+      "statusValue": "App Store (iOS) · Google Play בקרוב"
     },
     "download": {
       "title": "בקרוב",
-      "description": "GEO Calc יהיה זמין ב-App Store וב-Google Play כאשר ההשקה תהיה מוכנה.",
+      "description": "ממיר קואורדינטות WGS84 אופליין, מרחק Vincenty, מדידה במפה וייצוא GPX לעבודת שטח. בחינם ב‑iOS היום; Android בקרוב.",
       "soon": "בקרוב ב-App Store וב-Google Play",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "סמל האפליקציה GEO Calc",
       "appStoreAlt": "הורד ב-App Store",
-      "googlePlayAlt": "קבל אותו ב-Google Play"
+      "googlePlayAlt": "קבל אותו ב-Google Play",
+      "googlePlaySoon": "בקרוב ב‑Google Play"
     },
     "links": {
       "title": "קישורים חשובים",

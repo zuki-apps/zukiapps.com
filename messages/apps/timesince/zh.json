@@ -2,7 +2,7 @@
   "timeSince": {
     "back": "返回首页",
     "hero": {
-      "badge": "正在建设中 · 即将推出",
+      "badge": "已上架 App Store · Android 即将推出",
       "title": "不要破坏链条。",
       "productName": "Time Since — 连续追踪器",
       "subtitle": "Time Since — 连续追踪器",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "Time Since — iOS 和 Android 的条纹跟踪器（正在建设中）。实时计数器、目标环、小部件和共享卡。 Android com.zuki.apps.timesince. 条纹数据保留在您的设备上。",
       "phoneAlt": "Time Since 应用程序预览",
       "seoTitle": "Time Since — 连胜追踪器（即将推出）| Zuki Apps",
-      "metaDescription": "Time Since 条纹跟踪器正在建设中。隐私、条款和支持现已提供。即将推出 iOS 和 Android。"
+      "metaDescription": "用实时天数、目标环、小组件和分享卡片追踪戒断与养成连续记录。iOS 免费；Android 即将推出。"
     },
     "legalNav": {
       "privacy": "隐私政策",
@@ -39,7 +39,8 @@
       "tips": "尖端",
       "faq": "常问问题",
       "premium": "Premium",
-      "download": "下载"
+      "download": "下载",
+      "modes": "Modes"
     },
     "features": {
       "title": "进步看得见",
@@ -168,6 +169,22 @@
           "image": "/images/timesince/screenshot-editor.png",
           "alt": "Time Since 新连胜编辑器",
           "category": "特征"
+        },
+        {
+          "id": "modes",
+          "title": "Quit or build — your way",
+          "description": "Two tracking modes with language that fits quitting or building habits.",
+          "image": "/images/timesince/screenshot-modes.png",
+          "alt": "Time Since quit and build mode selection",
+          "category": "features"
+        },
+        {
+          "id": "trust",
+          "title": "Yours alone",
+          "description": "Streak data stays on your device. Premium removes ads — one-time purchase.",
+          "image": "/images/timesince/screenshot-trust.png",
+          "alt": "Time Since privacy and Premium settings",
+          "category": "features"
         }
       ]
     },
@@ -364,22 +381,22 @@
       "description": "英语、希伯来语 (RTL)、阿拉伯语 (RTL)、德语、西班牙语、法语、意大利语、日语、韩语、葡萄牙语、俄语和中文（简体）。"
     },
     "status": {
-      "title": "建设中",
-      "description": "Time Since 正在积极开发中。当 iOS 和 Android 版本准备就绪时，商店链接将出现在此处。",
+      "title": "上架情况",
+      "description": "Time Since: Streak Tracker 已在 App Store 上线。Android 的 Google Play 即将推出。",
       "version": "目标版本",
       "status": "可用性",
-      "versionValue": "0.9.0（开发中）",
-      "statusValue": "即将推出 · iOS 和 Android"
+      "versionValue": "1.0.0",
+      "statusValue": "App Store (iOS) · Google Play 即将推出"
     },
     "download": {
       "title": "即将推出",
-      "description": "Time Since 将在 App Store 上提供，Google Play 则在发布准备就绪后提供。",
+      "description": "用目标环、小组件和分享卡片追踪连续记录。即日起 iOS 免费；Android 即将推出。",
       "soon": "即将登陆 App Store 和 Google Play",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Time Since 应用程序图标",
       "appStoreAlt": "在应用商店下载",
-      "googlePlayAlt": "获取 Google Play"
+      "googlePlayAlt": "获取 Google Play",
+      "googlePlaySoon": "即将登陆 Google Play"
     },
     "links": {
       "title": "重要链接",
@@ -389,7 +406,7 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "下载 Android 的 Time Since"
+        "description": "Android 版 Google Play 即将推出"
       }
     },
     "footer": {

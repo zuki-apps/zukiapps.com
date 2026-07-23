@@ -2,7 +2,7 @@
   "timeSince": {
     "back": "Ritorno a casa",
     "hero": {
-      "badge": "In costruzione · Prossimamente",
+      "badge": "Su App Store · Android in arrivo",
       "title": "Non spezzare la catena.",
       "productName": "Time Since: tracciatore di serie",
       "subtitle": "Time Since: tracciatore di serie",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "Time Since: tracciatore di strisce per iOS e Android (in costruzione). Contatori dei giorni in tempo reale, anelli dei goal, widget e carte condivise. Android com.zuki.apps.timesince. I dati sulle sequenze rimangono sul tuo dispositivo.",
       "phoneAlt": "Time Since anteprima dell'app",
       "seoTitle": "Time Since — Tracker delle serie (disponibile a breve) | Zuki Apps",
-      "metaDescription": "Il tracciatore di serie Time Since è in costruzione. Privacy, termini e supporto sono ora disponibili. Prossimamente su iOS e Android."
+      "metaDescription": "Monitora streak di smettere e costruire con contatori live, anelli obiettivo, widget e card. Gratis su iOS; Android in arrivo."
     },
     "legalNav": {
       "privacy": "politica sulla riservatezza",
@@ -39,7 +39,8 @@
       "tips": "Suggerimenti",
       "faq": "Domande frequenti",
       "premium": "Premium",
-      "download": "Scaricamento"
+      "download": "Scaricamento",
+      "modes": "Modes"
     },
     "features": {
       "title": "I progressi si vedono",
@@ -168,6 +169,22 @@
           "image": "/images/timesince/screenshot-editor.png",
           "alt": "Time Since nuovo editor di serie",
           "category": "caratteristiche"
+        },
+        {
+          "id": "modes",
+          "title": "Quit or build — your way",
+          "description": "Two tracking modes with language that fits quitting or building habits.",
+          "image": "/images/timesince/screenshot-modes.png",
+          "alt": "Time Since quit and build mode selection",
+          "category": "features"
+        },
+        {
+          "id": "trust",
+          "title": "Yours alone",
+          "description": "Streak data stays on your device. Premium removes ads — one-time purchase.",
+          "image": "/images/timesince/screenshot-trust.png",
+          "alt": "Time Since privacy and Premium settings",
+          "category": "features"
         }
       ]
     },
@@ -364,22 +381,22 @@
       "description": "inglese, ebraico (RTL), arabo (RTL), tedesco, spagnolo, francese, italiano, giapponese, coreano, portoghese, russo e cinese (semplificato)."
     },
     "status": {
-      "title": "In costruzione",
-      "description": "Time Since è in fase di sviluppo attivo. I collegamenti al negozio verranno visualizzati qui quando le build iOS e Android saranno pronte.",
+      "title": "Disponibilità",
+      "description": "Time Since: Streak Tracker è disponibile sull’App Store. Google Play per Android arriverà presto.",
       "version": "Versione di destinazione",
       "status": "Disponibilità",
-      "versionValue": "0.9.0 (in sviluppo)",
-      "statusValue": "Prossimamente · iOS e Android"
+      "versionValue": "1.0.0",
+      "statusValue": "App Store (iOS) · Google Play in arrivo"
     },
     "download": {
       "title": "Prossimamente",
-      "description": "Time Since sarà disponibile sull'App Store e Google Play quando il lancio sarà pronto.",
+      "description": "Monitora streak con anelli obiettivo, widget e card da condividere. Gratis su iOS oggi; Android in arrivo.",
       "soon": "Presto disponibile su App Store e Google Play",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Time Since icona dell'app",
       "appStoreAlt": "Scarica sull'App Store",
-      "googlePlayAlt": "Ricevilo su Google Play"
+      "googlePlayAlt": "Ricevilo su Google Play",
+      "googlePlaySoon": "Presto su Google Play"
     },
     "links": {
       "title": "Collegamenti importanti",
@@ -389,7 +406,7 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "Scarica Time Since per Android"
+        "description": "Presto su Google Play per Android"
       }
     },
     "footer": {

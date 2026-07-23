@@ -2,7 +2,7 @@
   "geoCalc": {
     "back": "Вернуться домой",
     "hero": {
-      "badge": "В разработке · Скоро будет",
+      "badge": "В App Store · Android скоро",
       "title": "WGS84 инструменты координат — офлайн.",
       "productName": "GEO Calc — Координаты",
       "subtitle": "GEO Calc — Координаты",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "GEO Calc — автономные инструменты координат WGS84 для iOS и Android (в разработке). Преобразовать DD, DMS, UTM, MGRS; Vincenty расстояние и пеленг; мера карты; путевые точки и экспорт GPX. Android com.zuki.apps.geocalc. Маршрутные точки остаются на вашем устройстве.",
       "phoneAlt": "Конвертер координат GEO Calc на iPhone",
       "seoTitle": "GEO Calc — WGS84 Инструменты координат в автономном режиме (скоро) | Zuki Apps",
-      "metaDescription": "GEO Calc находится в стадии разработки. Автономный конвертер WGS84, расстояние Vincenty, измерение карты и экспорт GPX для полевых специалистов. Конфиденциальность, условия и поддержка доступны уже сейчас."
+      "metaDescription": "Офлайн-конвертер WGS84, расстояние Vincenty, измерение на карте и экспорт GPX. Бесплатно на iOS; Android скоро."
     },
     "legalNav": {
       "privacy": "политика конфиденциальности",
@@ -146,6 +146,30 @@
           "image": "/images/geo-calc/screenshot-waypoints.png",
           "alt": "Список путевых точек GEO Calc с экспортом GPX",
           "category": "функции"
+        },
+        {
+          "id": "live-gps",
+          "title": "Know where you stand",
+          "description": "Live GPS coordinates in DD, DMS, UTM, and MGRS.",
+          "image": "/images/geo-calc/screenshot-live-gps.png",
+          "alt": "GEO Calc live GPS coordinate readout",
+          "category": "features"
+        },
+        {
+          "id": "direct",
+          "title": "Find the destination",
+          "description": "Bearing plus distance to a precise coordinate using Vincenty direct.",
+          "image": "/images/geo-calc/screenshot-direct.png",
+          "alt": "GEO Calc geodesic direct coordinate calculator",
+          "category": "features"
+        },
+        {
+          "id": "satellite",
+          "title": "See the terrain",
+          "description": "Satellite imagery for map context in the field.",
+          "image": "/images/geo-calc/screenshot-satellite.png",
+          "alt": "GEO Calc map with satellite imagery",
+          "category": "features"
         }
       ]
     },
@@ -315,22 +339,22 @@
       "description": "Английский, иврит (RTL), арабский (RTL), немецкий, испанский, французский, итальянский, японский, корейский, португальский, русский и китайский (упрощенный)."
     },
     "status": {
-      "title": "В разработке",
-      "description": "GEO Calc v1.0 находится в активной разработке. Ссылки на магазины появятся здесь, когда сборки iOS и Android будут готовы.",
+      "title": "Доступность",
+      "description": "GEO Calc : Coordinates уже в App Store. Google Play для Android скоро.",
       "version": "Целевая версия",
       "status": "Доступность",
-      "versionValue": "1.0.0 (в разработке)",
-      "statusValue": "Скоро · iOS, iPad и Android"
+      "versionValue": "0.9.0",
+      "statusValue": "App Store (iOS) · Google Play скоро"
     },
     "download": {
       "title": "Вскоре",
-      "description": "GEO Calc будет доступен в App Store и Google Play, когда будет готово к запуску.",
+      "description": "Офлайн-конвертер координат WGS84, расстояние Vincenty, измерение на карте и GPX для полевых работ. Бесплатно на iOS сегодня; Android скоро.",
       "soon": "Скоро появится в App Store и Google Play.",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "Значок приложения GEO Calc",
       "appStoreAlt": "Загрузите в App Store",
-      "googlePlayAlt": "Загрузите его в Google Play"
+      "googlePlayAlt": "Загрузите его в Google Play",
+      "googlePlaySoon": "Скоро в Google Play"
     },
     "links": {
       "title": "Важные ссылки",

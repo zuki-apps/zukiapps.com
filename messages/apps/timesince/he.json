@@ -2,7 +2,7 @@
   "timeSince": {
     "back": "חזרה לבית",
     "hero": {
-      "badge": "בבנייה · בקרוב",
+      "badge": "ב‑App Store · Android בקרוב",
       "title": "אל תשבור את השרשרת.",
       "productName": "Time Since — מעקב אחר פסים",
       "subtitle": "Time Since — מעקב אחר פסים",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "Time Since — מעקב אחר פסים עבור iOS וAndroid (בבנייה). מוני יום חיים, צלצולים של מטרות, ווידג'טים וכרטיסי שיתוף. Android com.zuki.apps.timesince. נתוני הרצף נשארים במכשיר שלך.",
       "phoneAlt": "Time Since תצוגה מקדימה של האפליקציה",
       "seoTitle": "Time Since — מעקב אחר פסים (בקרוב) | Zuki Apps",
-      "metaDescription": "Time Since מעקב רצף נמצא בבנייה. פרטיות, תנאים ותמיכה זמינים כעת. בקרוב ב-iOS וב-Android."
+      "metaDescription": "עקבו אחרי רצפי הפסקה ובנייה עם מונים חיים, טבעות יעד, ווידג׳טים וכרטיסי שיתוף. בחינם ב‑iOS; Android בקרוב."
     },
     "legalNav": {
       "privacy": "מדיניות פרטיות",
@@ -39,7 +39,8 @@
       "tips": "טיפים",
       "faq": "שאלות נפוצות",
       "premium": "Premium",
-      "download": "הורד"
+      "download": "הורד",
+      "modes": "Modes"
     },
     "features": {
       "title": "התקדמות אתה יכול לראות",
@@ -168,6 +169,22 @@
           "image": "/images/timesince/screenshot-editor.png",
           "alt": "Time Since עורך רצף חדש",
           "category": "תכונות"
+        },
+        {
+          "id": "modes",
+          "title": "Quit or build — your way",
+          "description": "Two tracking modes with language that fits quitting or building habits.",
+          "image": "/images/timesince/screenshot-modes.png",
+          "alt": "Time Since quit and build mode selection",
+          "category": "features"
+        },
+        {
+          "id": "trust",
+          "title": "Yours alone",
+          "description": "Streak data stays on your device. Premium removes ads — one-time purchase.",
+          "image": "/images/timesince/screenshot-trust.png",
+          "alt": "Time Since privacy and Premium settings",
+          "category": "features"
         }
       ]
     },
@@ -364,22 +381,22 @@
       "description": "אנגלית, עברית (RTL), ערבית (RTL), גרמנית, ספרדית, צרפתית, איטלקית, יפנית, קוריאנית, פורטוגזית, רוסית וסינית (פשוטה)."
     },
     "status": {
-      "title": "בבנייה",
-      "description": "Time Since נמצא בפיתוח פעיל. קישורי חנות יופיעו כאן כאשר iOS ו-Android יהיו מוכנים.",
+      "title": "זמינות",
+      "description": "Time Since: Streak Tracker זמין ב‑App Store. Google Play לאנדרואיד בקרוב.",
       "version": "גרסת היעד",
       "status": "זְמִינוּת",
-      "versionValue": "0.9.0 (בפיתוח)",
-      "statusValue": "בקרוב · iOS וAndroid"
+      "versionValue": "1.0.0",
+      "statusValue": "App Store (iOS) · Google Play בקרוב"
     },
     "download": {
       "title": "בקרוב",
-      "description": "Time Since יהיה זמין ב-App Store וGoogle Play כאשר ההשקה תהיה מוכנה.",
+      "description": "עקבו אחרי רצפי הפסקה ובנייה עם טבעות יעד, ווידג׳טים וכרטיסי שיתוף. בחינם ב‑iOS היום; Android בקרוב.",
       "soon": "בקרוב ל-App Store ול-Google Play",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "סמל האפליקציה Time Since",
       "appStoreAlt": "הורד ב-App Store",
-      "googlePlayAlt": "קבל את זה ב-Google Play"
+      "googlePlayAlt": "קבל את זה ב-Google Play",
+      "googlePlaySoon": "בקרוב ב‑Google Play"
     },
     "links": {
       "title": "קישורים חשובים",
@@ -389,7 +406,7 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "הורד את Time Since עבור Android"
+        "description": "בקרוב ב‑Google Play לאנדרואיד"
       }
     },
     "footer": {

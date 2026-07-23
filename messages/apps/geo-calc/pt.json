@@ -2,7 +2,7 @@
   "geoCalc": {
     "back": "De volta para casa",
     "hero": {
-      "badge": "Em construção · Em breve",
+      "badge": "Na App Store · Android em breve",
       "title": "Ferramentas de coordenadas WGS84 - offline.",
       "productName": "GEO Calc — Coordenadas",
       "subtitle": "GEO Calc — Coordenadas",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "GEO Calc — ferramentas de coordenadas WGS84 offline para iOS e Android (em construção). Converter DD, DMS, UTM, MGRS; Vincenty distância e rumo; medida do mapa; waypoints e exportação GPX. Android com.zuki.apps.geocalc. Os pontos de referência permanecem no seu dispositivo.",
       "phoneAlt": "GEO Calc conversor de coordenadas no iPhone",
       "seoTitle": "GEO Calc — WGS84 Ferramentas de coordenadas off-line (em breve) | Zuki Apps",
-      "metaDescription": "GEO Calc está em construção. Conversor offline WGS84, distância Vincenty, medida de mapa e exportação GPX para profissionais de campo. Privacidade, termos e suporte disponíveis agora."
+      "metaDescription": "Conversor WGS84 offline, distância Vincenty, medição no mapa e exportação GPX. Grátis no iOS; Android em breve."
     },
     "legalNav": {
       "privacy": "política de Privacidade",
@@ -146,6 +146,30 @@
           "image": "/images/geo-calc/screenshot-waypoints.png",
           "alt": "Lista de waypoints GEO Calc com exportação GPX",
           "category": "características"
+        },
+        {
+          "id": "live-gps",
+          "title": "Know where you stand",
+          "description": "Live GPS coordinates in DD, DMS, UTM, and MGRS.",
+          "image": "/images/geo-calc/screenshot-live-gps.png",
+          "alt": "GEO Calc live GPS coordinate readout",
+          "category": "features"
+        },
+        {
+          "id": "direct",
+          "title": "Find the destination",
+          "description": "Bearing plus distance to a precise coordinate using Vincenty direct.",
+          "image": "/images/geo-calc/screenshot-direct.png",
+          "alt": "GEO Calc geodesic direct coordinate calculator",
+          "category": "features"
+        },
+        {
+          "id": "satellite",
+          "title": "See the terrain",
+          "description": "Satellite imagery for map context in the field.",
+          "image": "/images/geo-calc/screenshot-satellite.png",
+          "alt": "GEO Calc map with satellite imagery",
+          "category": "features"
         }
       ]
     },
@@ -315,22 +339,22 @@
       "description": "Inglês, hebraico (RTL), árabe (RTL), alemão, espanhol, francês, italiano, japonês, coreano, português, russo e chinês (simplificado)."
     },
     "status": {
-      "title": "Em construção",
-      "description": "GEO Calc v1.0 está em desenvolvimento ativo. Os links da loja aparecerão aqui quando as compilações iOS e Android estiverem prontas.",
+      "title": "Disponibilidade",
+      "description": "GEO Calc : Coordinates já está na App Store. O Google Play para Android chega em breve.",
       "version": "Versão de destino",
       "status": "Disponibilidade",
-      "versionValue": "1.0.0 (em desenvolvimento)",
-      "statusValue": "Em breve · iOS, iPad e Android"
+      "versionValue": "0.9.0",
+      "statusValue": "App Store (iOS) · Google Play em breve"
     },
     "download": {
       "title": "Em breve",
-      "description": "GEO Calc estará disponível na App Store e no Google Play quando o lançamento estiver pronto.",
+      "description": "Conversor de coordenadas WGS84 offline, distância Vincenty, medição no mapa e GPX para campo. Grátis no iOS hoje; Android em breve.",
       "soon": "Em breve na App Store e no Google Play",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "GEO Calc ícone do aplicativo",
       "appStoreAlt": "Baixe na App Store",
-      "googlePlayAlt": "Obtenha no Google Play"
+      "googlePlayAlt": "Obtenha no Google Play",
+      "googlePlaySoon": "Em breve no Google Play"
     },
     "links": {
       "title": "Links importantes",

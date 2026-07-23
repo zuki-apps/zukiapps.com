@@ -2,7 +2,7 @@
   "geoCalc": {
     "back": "返回首页",
     "hero": {
-      "badge": "正在建设中 · 即将推出",
+      "badge": "已上架 App Store · Android 即将推出",
       "title": "WGS84 坐标工具 — 离线。",
       "productName": "GEO Calc — 坐标",
       "subtitle": "GEO Calc — 坐标",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "GEO Calc — 用于 iOS 和 Android 的离线 WGS84 坐标工具（正在建设中）。转换 DD、DMS、UTM、MGRS； Vincenty 距离和方位；地图测量；航点和 GPX 导出。 Android com.zuki.apps.geocalc。航点保留在您的设备上。",
       "phoneAlt": "iPhone 上的 GEO Calc 坐标转换器",
       "seoTitle": "GEO Calc — WGS84 离线坐标工具（即将推出）| Zuki Apps",
-      "metaDescription": "GEO Calc 正在建设中。为现场专业人员提供离线 WGS84 转换器、Vincenty 距离、地图测量和 GPX 导出。隐私、条款和支持现已提供。"
+      "metaDescription": "离线 WGS84 转换、Vincenty 距离、地图测量与 GPX 导出。iOS 免费；Android 即将推出。"
     },
     "legalNav": {
       "privacy": "隐私政策",
@@ -146,6 +146,30 @@
           "image": "/images/geo-calc/screenshot-waypoints.png",
           "alt": "带有 GPX 导出的 GEO Calc 航点列表",
           "category": "特征"
+        },
+        {
+          "id": "live-gps",
+          "title": "Know where you stand",
+          "description": "Live GPS coordinates in DD, DMS, UTM, and MGRS.",
+          "image": "/images/geo-calc/screenshot-live-gps.png",
+          "alt": "GEO Calc live GPS coordinate readout",
+          "category": "features"
+        },
+        {
+          "id": "direct",
+          "title": "Find the destination",
+          "description": "Bearing plus distance to a precise coordinate using Vincenty direct.",
+          "image": "/images/geo-calc/screenshot-direct.png",
+          "alt": "GEO Calc geodesic direct coordinate calculator",
+          "category": "features"
+        },
+        {
+          "id": "satellite",
+          "title": "See the terrain",
+          "description": "Satellite imagery for map context in the field.",
+          "image": "/images/geo-calc/screenshot-satellite.png",
+          "alt": "GEO Calc map with satellite imagery",
+          "category": "features"
         }
       ]
     },
@@ -315,22 +339,22 @@
       "description": "英语、希伯来语 (RTL)、阿拉伯语 (RTL)、德语、西班牙语、法语、意大利语、日语、韩语、葡萄牙语、俄语和中文（简体）。"
     },
     "status": {
-      "title": "建设中",
-      "description": "GEO Calc v1.0 正在积极开发中。当 iOS 和 Android 版本准备就绪时，商店链接将出现在此处。",
+      "title": "上架情况",
+      "description": "GEO Calc : Coordinates 已在 App Store 上线。Android 的 Google Play 即将推出。",
       "version": "目标版本",
       "status": "可用性",
-      "versionValue": "1.0.0（开发中）",
-      "statusValue": "即将推出 · iOS、iPad 和 Android"
+      "versionValue": "0.9.0",
+      "statusValue": "App Store (iOS) · Google Play 即将推出"
     },
     "download": {
       "title": "即将推出",
-      "description": "发布准备就绪后，GEO Calc 将在 App Store 和 Google Play 上提供。",
+      "description": "离线 WGS84 坐标转换、Vincenty 距离、地图测量与野外 GPX 导出。即日起 iOS 免费；Android 即将推出。",
       "soon": "即将登陆 App Store 和 Google Play",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "GEO Calc 应用程序图标",
       "appStoreAlt": "在应用商店下载",
-      "googlePlayAlt": "在 Google Play 上获取"
+      "googlePlayAlt": "在 Google Play 上获取",
+      "googlePlaySoon": "即将登陆 Google Play"
     },
     "links": {
       "title": "重要链接",

@@ -49,6 +49,8 @@ export type ProductAppConfig = {
   /** Tailwind accent token for marketing sections (e.g. violet, cyan) */
   accent: string;
   hasSupportPage?: boolean;
+  /** schema.org operatingSystem; default iOS,Android */
+  operatingSystem?: 'iOS' | 'Android' | 'iOS,Android';
 };
 
 export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
@@ -81,6 +83,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'zuli-collage-howto-ld',
     accent: 'rose',
     hasSupportPage: true,
+    operatingSystem: 'iOS',
   },
   'football-trivia': {
     slug: 'football-trivia',
@@ -101,6 +104,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'timesince-howto-ld',
     accent: 'orange',
     hasSupportPage: true,
+    operatingSystem: 'iOS',
   },
   'geo-calc': {
     slug: 'geo-calc',
@@ -111,6 +115,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'geo-calc-howto-ld',
     accent: 'amber',
     hasSupportPage: true,
+    operatingSystem: 'iOS',
   },
   roamguard: {
     slug: 'roamguard',

@@ -2,7 +2,7 @@
   "timeSince": {
     "back": "Вернуться домой",
     "hero": {
-      "badge": "В разработке · Скоро будет",
+      "badge": "В App Store · Android скоро",
       "title": "Не разрывайте цепочку.",
       "productName": "Time Since — Трекер полос",
       "subtitle": "Time Since — Трекер полос",
@@ -11,7 +11,7 @@
       "structuredDataDescription": "Time Since — трекер полос для iOS и Android (в разработке). Счетчики дней в реальном времени, кольца ворот, виджеты и карточки обмена. Android com.zuki.apps.timesince. Данные серии остаются на вашем устройстве.",
       "phoneAlt": "Time Since предварительный просмотр приложения",
       "seoTitle": "Time Since — Трекер полос (скоро) | Zuki Apps",
-      "metaDescription": "Time Since трекер полос находится в стадии разработки. Конфиденциальность, условия и поддержка доступны уже сейчас. Скоро появится на iOS и Android."
+      "metaDescription": "Отслеживайте серии отказа и роста с живыми счётчиками дней, кольцами целей, виджетами и карточками. Бесплатно на iOS; Android скоро."
     },
     "legalNav": {
       "privacy": "политика конфиденциальности",
@@ -39,7 +39,8 @@
       "tips": "Советы",
       "faq": "Часто задаваемые вопросы",
       "premium": "Premium",
-      "download": "Скачать"
+      "download": "Скачать",
+      "modes": "Modes"
     },
     "features": {
       "title": "Прогресс, который вы можете видеть",
@@ -168,6 +169,22 @@
           "image": "/images/timesince/screenshot-editor.png",
           "alt": "Time Since новый редактор серий",
           "category": "функции"
+        },
+        {
+          "id": "modes",
+          "title": "Quit or build — your way",
+          "description": "Two tracking modes with language that fits quitting or building habits.",
+          "image": "/images/timesince/screenshot-modes.png",
+          "alt": "Time Since quit and build mode selection",
+          "category": "features"
+        },
+        {
+          "id": "trust",
+          "title": "Yours alone",
+          "description": "Streak data stays on your device. Premium removes ads — one-time purchase.",
+          "image": "/images/timesince/screenshot-trust.png",
+          "alt": "Time Since privacy and Premium settings",
+          "category": "features"
         }
       ]
     },
@@ -364,22 +381,22 @@
       "description": "Английский, иврит (RTL), арабский (RTL), немецкий, испанский, французский, итальянский, японский, корейский, португальский, русский и китайский (упрощенный)."
     },
     "status": {
-      "title": "В разработке",
-      "description": "Time Since находится в активной разработке. Ссылки на магазины появятся здесь, когда сборки iOS и Android будут готовы.",
+      "title": "Доступность",
+      "description": "Time Since: Streak Tracker уже в App Store. Google Play для Android скоро.",
       "version": "Целевая версия",
       "status": "Доступность",
-      "versionValue": "0.9.0 (в разработке)",
-      "statusValue": "Скоро · iOS и Android"
+      "versionValue": "1.0.0",
+      "statusValue": "App Store (iOS) · Google Play скоро"
     },
     "download": {
       "title": "Вскоре",
-      "description": "Time Since будет доступен в App Store, а Google Play — когда будет готово к запуску.",
+      "description": "Отслеживайте серии с кольцами целей, виджетами и карточками. Бесплатно на iOS сегодня; Android скоро.",
       "soon": "Скоро появится в App Store и Google Play.",
-      "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Значок приложения Time Since",
       "appStoreAlt": "Загрузите в App Store",
-      "googlePlayAlt": "Получите это на Google Play"
+      "googlePlayAlt": "Получите это на Google Play",
+      "googlePlaySoon": "Скоро в Google Play"
     },
     "links": {
       "title": "Важные ссылки",
@@ -389,7 +406,7 @@
       },
       "googlePlay": {
         "title": "Google Play",
-        "description": "Загрузите Time Since для Android"
+        "description": "Скоро в Google Play для Android"
       }
     },
     "footer": {
