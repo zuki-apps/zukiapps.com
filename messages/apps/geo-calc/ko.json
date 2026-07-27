@@ -2,16 +2,16 @@
   "geoCalc": {
     "back": "홈으로 돌아가기",
     "hero": {
-      "badge": "App Store 출시 · Android 곧 출시",
+      "badge": "App Store & Google Play 출시",
       "title": "WGS84 좌표 도구 — 오프라인.",
       "productName": "GEO Calc — 좌표",
       "subtitle": "GEO Calc — 좌표",
       "description": "DD, DMS, UTM 및 MGRS을 변환합니다. Vincenty 측지선 거리 및 방위를 계산하고, 지도에서 측정하고, GPX을 내보냅니다. 측량사와 현장 엔지니어를 위해 제작되었습니다. 앱은 아직 개발 중입니다.",
-      "socialProof": "iOS 및 Android 출시 예정 · 오프라인 우선 · 계정 없음",
-      "structuredDataDescription": "GEO Calc — iOS 및 Android용 오프라인 WGS84 좌표 도구(공사 중). DD, DMS, UTM, MGRS을 변환합니다. Vincenty 거리 및 방위; 지도 측정; 경유지 및 GPX 내보내기. Android com.zuki.apps.geocalc. 웨이포인트는 기기에 남아 있습니다.",
+      "socialProof": "App Store 및 Google Play에서 이용 가능 · 오프라인 우선 · 계정 없음",
+      "structuredDataDescription": "GEO Calc : Coordinates — iOS 및 Android용 오프라인 WGS84 좌표 도구(App Store id6787519144; Google Play com.zuki.apps.geocalc). DD/DMS/UTM/MGRS 변환, Vincenty 거리·방위, 지도 측정, 웨이포인트와 GPX. 데이터는 기기에 저장.",
       "phoneAlt": "GEO Calc iPhone의 좌표 변환기",
       "seoTitle": "GEO Calc — 오프라인 WGS84 좌표 도구 | Zuki Apps",
-      "metaDescription": "오프라인 WGS84 변환, Vincenty 거리, 지도 측정, GPX 내보내기. iOS 무료, Android 곧 출시."
+      "metaDescription": "오프라인 WGS84 변환, Vincenty 거리, 지도 측정, GPX 내보내기. iOS 및 Android 무료."
     },
     "legalNav": {
       "privacy": "개인 정보 보호 정책",
@@ -340,21 +340,22 @@
     },
     "status": {
       "title": "제공 현황",
-      "description": "GEO Calc : Coordinates는 App Store에서 이용할 수 있습니다. Android용 Google Play는 곧 출시됩니다.",
+      "description": "GEO Calc : Coordinates는 App Store와 Google Play에서 이용할 수 있습니다.",
       "version": "대상 버전",
       "status": "유효성",
       "versionValue": "0.9.0",
-      "statusValue": "App Store (iOS) · Google Play 곧 출시"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
-      "title": "곧 출시 예정",
-      "description": "오프라인 WGS84 좌표 변환, Vincenty 거리, 지도 측정, 현장용 GPX 내보내기. 오늘 iOS에서 무료, Android 곧 출시.",
+      "title": "GEO Calc 다운로드",
+      "description": "오프라인 WGS84 좌표 변환, Vincenty 거리, 지도 측정, 현장용 GPX 내보내기. iOS 및 Android 무료.",
       "soon": "App Store 및 Google Play에 곧 출시 예정",
       "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "GEO Calc 앱 아이콘",
       "appStoreAlt": "앱 스토어에서 다운로드",
       "googlePlayAlt": "Google Play에서 구매하세요",
-      "googlePlaySoon": "곧 Google Play 출시"
+      "googlePlaySoon": "곧 Google Play 출시",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.geocalc"
     },
     "links": {
       "title": "중요한 링크",

@@ -48,7 +48,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/geo-calc',
     name: 'GEO Calc',
     description:
-      'Offline WGS84 coordinate tools: DD/DMS/UTM/MGRS, Vincenty distance, map measure, GPX. Free on the App Store; Google Play coming soon (com.zuki.apps.geocalc).',
+      'Offline WGS84 coordinate tools: DD/DMS/UTM/MGRS, Vincenty distance, map measure, GPX. Free on the App Store and Google Play (com.zuki.apps.geocalc).',
   },
   {
     path: '/toldya',

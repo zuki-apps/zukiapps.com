@@ -2,16 +2,16 @@
   "geoCalc": {
     "back": "Ritorno a casa",
     "hero": {
-      "badge": "Su App Store · Android in arrivo",
+      "badge": "Su App Store e Google Play",
       "title": "WGS84 strumenti di coordinazione: offline.",
       "productName": "GEO Calc: coordinate",
       "subtitle": "GEO Calc: coordinate",
       "description": "Converti DD, DMS, UTM e MGRS. Calcola Vincenty distanza geodetica e rilevamento, misura su una mappa ed esporta GPX: realizzato per geometri e ingegneri sul campo. L'app è ancora in fase di sviluppo.",
-      "socialProof": "Presto disponibile su iOS e Android · Prima offline · Nessun account",
-      "structuredDataDescription": "GEO Calc: strumenti di coordinate offline WGS84 per iOS e Android (in costruzione). Converti DD, DMS, UTM, MGRS; Vincenty distanza e rilevamento; misura della mappa; waypoint ed esportazione GPX. Android com.zuki.apps.geocalc. I waypoint rimangono sul tuo dispositivo.",
+      "socialProof": "Disponibile su App Store e Google Play · Offline-first · Nessun account",
+      "structuredDataDescription": "GEO Calc : Coordinates — strumenti coordinate WGS84 offline per iOS e Android (App Store id6787519144; Google Play com.zuki.apps.geocalc). Conversione DD, DMS, UTM, MGRS; distanza e bearing Vincenty; misura mappa; waypoint ed export GPX. I waypoint restano sul dispositivo.",
       "phoneAlt": "Convertitore di coordinate GEO Calc su iPhone",
       "seoTitle": "GEO Calc — Strumenti coordinate WGS84 offline | Zuki Apps",
-      "metaDescription": "Convertitore WGS84 offline, distanza Vincenty, misura mappa ed export GPX. Gratis su iOS; Android in arrivo."
+      "metaDescription": "Convertitore WGS84 offline, distanza Vincenty, misura sulla mappa ed export GPX. Gratis su iOS e Android."
     },
     "legalNav": {
       "privacy": "politica sulla riservatezza",
@@ -340,21 +340,22 @@
     },
     "status": {
       "title": "Disponibilità",
-      "description": "GEO Calc : Coordinates è disponibile sull’App Store. Google Play per Android arriverà presto.",
+      "description": "GEO Calc : Coordinates è disponibile su App Store e Google Play.",
       "version": "Versione di destinazione",
       "status": "Disponibilità",
       "versionValue": "0.9.0",
-      "statusValue": "App Store (iOS) · Google Play in arrivo"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
-      "title": "Prossimamente",
-      "description": "Convertitore coordinate WGS84 offline, distanza Vincenty, misura mappa e GPX per il campo. Gratis su iOS oggi; Android in arrivo.",
+      "title": "Scarica GEO Calc",
+      "description": "Convertitore coordinate WGS84 offline, distanza Vincenty, misura sulla mappa e GPX per il campo. Gratis su iOS e Android.",
       "soon": "Presto disponibile su App Store e Google Play",
       "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "GEO Calc icona dell'app",
       "appStoreAlt": "Scarica sull'App Store",
       "googlePlayAlt": "Scaricalo su Google Play",
-      "googlePlaySoon": "Presto su Google Play"
+      "googlePlaySoon": "Presto su Google Play",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.geocalc"
     },
     "links": {
       "title": "Collegamenti importanti",

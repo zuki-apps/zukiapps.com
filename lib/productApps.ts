@@ -115,7 +115,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'geo-calc-howto-ld',
     accent: 'amber',
     hasSupportPage: true,
-    operatingSystem: 'iOS',
+    operatingSystem: 'iOS,Android',
   },
   roamguard: {
     slug: 'roamguard',

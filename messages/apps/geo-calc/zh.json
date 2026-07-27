@@ -2,16 +2,16 @@
   "geoCalc": {
     "back": "返回首页",
     "hero": {
-      "badge": "已上架 App Store · Android 即将推出",
+      "badge": "已上架 App Store 与 Google Play",
       "title": "WGS84 坐标工具 — 离线。",
       "productName": "GEO Calc — 坐标",
       "subtitle": "GEO Calc — 坐标",
       "description": "转换 DD、DMS、UTM 和 MGRS。计算 Vincenty 测地距离和方位，在地图上测量，并导出 GPX — 为测量员和现场工程师构建。该应用程序仍在开发中。",
-      "socialProof": "即将在 iOS 和 Android 推出 · 离线优先 · 无帐户",
-      "structuredDataDescription": "GEO Calc — 用于 iOS 和 Android 的离线 WGS84 坐标工具（正在建设中）。转换 DD、DMS、UTM、MGRS； Vincenty 距离和方位；地图测量；航点和 GPX 导出。 Android com.zuki.apps.geocalc。航点保留在您的设备上。",
+      "socialProof": "已在 App Store 与 Google Play 上线 · 离线优先 · 无帐户",
+      "structuredDataDescription": "GEO Calc : Coordinates — 面向 iOS 与 Android 的离线 WGS84 坐标工具（App Store id6787519144；Google Play com.zuki.apps.geocalc）。DD/DMS/UTM/MGRS 转换、Vincenty 距离与方位、地图测量、航点与 GPX。数据留在设备上。",
       "phoneAlt": "iPhone 上的 GEO Calc 坐标转换器",
       "seoTitle": "GEO Calc — 离线 WGS84 坐标工具 | Zuki Apps",
-      "metaDescription": "离线 WGS84 转换、Vincenty 距离、地图测量与 GPX 导出。iOS 免费；Android 即将推出。"
+      "metaDescription": "离线 WGS84 转换、Vincenty 距离、地图测量与 GPX 导出。iOS 与 Android 免费。"
     },
     "legalNav": {
       "privacy": "隐私政策",
@@ -340,21 +340,22 @@
     },
     "status": {
       "title": "上架情况",
-      "description": "GEO Calc : Coordinates 已在 App Store 上线。Android 的 Google Play 即将推出。",
+      "description": "GEO Calc : Coordinates 已在 App Store 与 Google Play 上线。",
       "version": "目标版本",
       "status": "可用性",
       "versionValue": "0.9.0",
-      "statusValue": "App Store (iOS) · Google Play 即将推出"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
-      "title": "即将推出",
-      "description": "离线 WGS84 坐标转换、Vincenty 距离、地图测量与野外 GPX 导出。即日起 iOS 免费；Android 即将推出。",
+      "title": "下载 GEO Calc",
+      "description": "离线 WGS84 坐标转换、Vincenty 距离、地图测量与野外 GPX 导出。iOS 与 Android 免费。",
       "soon": "即将登陆 App Store 和 Google Play",
       "appStoreUrl": "https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144",
       "appIconAlt": "GEO Calc 应用程序图标",
       "appStoreAlt": "在应用商店下载",
       "googlePlayAlt": "在 Google Play 上获取",
-      "googlePlaySoon": "即将登陆 Google Play"
+      "googlePlaySoon": "即将登陆 Google Play",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.geocalc"
     },
     "links": {
       "title": "重要链接",

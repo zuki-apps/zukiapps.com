@@ -2,17 +2,17 @@
 
 > Canonical page: https://zukiapps.com/geo-calc/support  
 > Product page: https://zukiapps.com/geo-calc  
-> App: iOS live on App Store · Android coming soon · Package `com.zuki.apps.geocalc` · Support: zuki.apps@gmail.com
+> App: iOS App Store + Android Google Play · Package `com.zuki.apps.geocalc` · Support: zuki.apps@gmail.com
 
 > App icon: https://zukiapps.com/images/geo-calc-icon.png
 
 ## What is GEO Calc?
 
-Offline WGS84 coordinate tools for field professionals. Live on the [App Store](https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144); Google Play coming soon. Convert DD, DMS, UTM, and MGRS; Vincenty geodesic distance and bearing; map measure; waypoints and GPX export.
+Offline WGS84 coordinate tools for field professionals. Live on the [App Store](https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144) and [Google Play](https://play.google.com/store/apps/details?id=com.zuki.apps.geocalc). Convert DD, DMS, UTM, and MGRS; Vincenty geodesic distance and bearing; map measure; waypoints and GPX export.
 
 ## Where can I download GEO Calc?
 
-Free on the [App Store](https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144) for iPhone and iPad. Google Play for Android is coming soon.
+Free on the [App Store](https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144) for iPhone and iPad, and on [Google Play](https://play.google.com/store/apps/details?id=com.zuki.apps.geocalc) for Android.
 
 ## Offline & accuracy
 
@@ -57,4 +57,4 @@ https://zukiapps.com/images/geo-calc/screenshot-satellite.png
 Privacy: https://zukiapps.com/geo-calc/privacy  
 Terms: https://zukiapps.com/geo-calc/terms  
 App Store: https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144  
-Google Play: coming soon (com.zuki.apps.geocalc)
+Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.geocalc
