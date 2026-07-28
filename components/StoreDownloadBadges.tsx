@@ -78,7 +78,7 @@ export default function StoreDownloadBadges({
         </a>
       )}
       {!hasPlay && googlePlaySoonLabel && (
-        <div className="flex flex-col items-center gap-2 opacity-60" aria-label={googlePlaySoonLabel}>
+        <div className="flex flex-col items-center gap-2 opacity-60" role="status" aria-label={googlePlaySoonLabel}>
           <Image
             src="/images/google-play-badge.svg"
             alt=""

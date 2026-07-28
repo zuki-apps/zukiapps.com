@@ -23,6 +23,7 @@ import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { ZULI_COLLAGE_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
 import OtherZukiApps from '@/components/OtherZukiApps';
+import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import { ProductMarketingSections, ProductPageNav, DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 const FEATURE_ICONS = {
@@ -45,6 +46,13 @@ export default function ZuliCollagePage() {
 
   return (
     <>
+      <BreadcrumbsStructuredData
+        locale={locale}
+        items={[
+          { name: tCommon('home'), path: '/' },
+          { name: t('hero.productName'), path: '/zuli-collage' },
+        ]}
+      />
       <div className="min-h-screen relative overflow-hidden">
         <StarBackground />
 

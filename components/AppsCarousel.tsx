@@ -307,22 +307,36 @@ export default function AppsCarousel() {
     });
   }, [apps.length, scrollToIndex]);
 
-  // Handle keyboard navigation
+  // Handle keyboard navigation (only when focus is inside the carousel)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      if (!containerRef.current?.contains(document.activeElement)) return;
       const index = currentIndexRef.current;
+      const rtl = locale === 'he' || locale === 'ar';
       if (e.key === 'ArrowLeft') {
-        const newIndex = index === 0 ? apps.length - 1 : index - 1;
+        const newIndex = rtl
+          ? index === apps.length - 1
+            ? 0
+            : index + 1
+          : index === 0
+            ? apps.length - 1
+            : index - 1;
         goToSlide(newIndex);
       }
       if (e.key === 'ArrowRight') {
-        const newIndex = index === apps.length - 1 ? 0 : index + 1;
+        const newIndex = rtl
+          ? index === 0
+            ? apps.length - 1
+            : index - 1
+          : index === apps.length - 1
+            ? 0
+            : index + 1;
         goToSlide(newIndex);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [apps.length, goToSlide]);
+  }, [apps.length, goToSlide, locale]);
 
   // Handle window resize
   useEffect(() => {
@@ -365,9 +379,14 @@ export default function AppsCarousel() {
   }, [currentIndex, apps.length]);
 
   return (
-    <div className="relative w-full mb-12 max-w-4xl mx-auto">
+    <div
+      className="relative w-full mb-12 max-w-4xl mx-auto"
+      role="region"
+      aria-roledescription="carousel"
+      aria-label={t('carouselAriaLabel')}
+    >
       {/* Carousel Container */}
-      <div ref={containerRef} className="relative overflow-hidden rounded-2xl w-full">
+      <div ref={containerRef} className="relative overflow-hidden rounded-2xl w-full" tabIndex={0}>
         <div
           ref={carouselRef}
           className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide scroll-smooth"
@@ -410,7 +429,7 @@ export default function AppsCarousel() {
                 
                 {app.isComingSoon && (
                   <div className="text-center mb-4">
-                    <span className="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-4 py-2 rounded-full text-sm font-black animate-pulse">
+                    <span className="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-4 py-2 rounded-full text-sm font-black animate-pulse motion-reduce:animate-none">
                       {t('comingSoon')}
                     </span>
                   </div>
@@ -421,14 +440,10 @@ export default function AppsCarousel() {
                 {/* Zuli Monsters Images (only for ZuList) */}
                 {app.monsters && (
                   <div className="flex justify-center items-center gap-6 mb-6 flex-wrap min-h-32 md:min-h-40">
-                    {app.monsters.map((monster, i) => (
+                    {app.monsters.map((monster) => (
                       <div
                         key={monster}
-                        className="relative w-32 h-32 md:w-40 md:h-40 animate-bounce rounded-2xl overflow-hidden bg-slate-950/70 ring-1 ring-white/10 shadow-lg"
-                        style={{
-                          animationDuration: `${2 + i * 0.5}s`,
-                          animationDelay: `${i * 0.5}s`,
-                        }}
+                        className="relative w-32 h-32 md:w-40 md:h-40 animate-bounce motion-reduce:animate-none rounded-2xl overflow-hidden bg-slate-950/70 ring-1 ring-white/10 shadow-lg"
                       >
                         <Image
                           src={`/images/monsters/${monster}`}
@@ -503,22 +518,45 @@ export default function AppsCarousel() {
       </div>
 
       {/* Navigation Arrows */}
-      <button
-        onClick={goToPrevious}
-        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 z-10 bg-indigo-950/90 hover:bg-violet-950/80 border-2 border-indigo-400/45 hover:border-amber-400/50 rounded-full min-h-[44px] min-w-[44px] p-3 transition-all shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
-        aria-label="Previous app"
-        type="button"
-      >
-        <ChevronLeft className="w-6 h-6 text-blue-400" />
-      </button>
-      <button
-        onClick={goToNext}
-        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 z-10 bg-indigo-950/90 hover:bg-violet-950/80 border-2 border-indigo-400/45 hover:border-amber-400/50 rounded-full min-h-[44px] min-w-[44px] p-3 transition-all shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
-        aria-label="Next app"
-        type="button"
-      >
-        <ChevronRight className="w-6 h-6 text-blue-400" />
-      </button>
+      {(() => {
+        const rtl = locale === 'he' || locale === 'ar';
+        const prevClass = rtl
+          ? 'absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12'
+          : 'absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12';
+        const nextClass = rtl
+          ? 'absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12'
+          : 'absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12';
+        const btnClass =
+          'z-10 bg-indigo-950/90 hover:bg-violet-950/80 border-2 border-indigo-400/45 hover:border-amber-400/50 rounded-full min-h-[44px] min-w-[44px] p-3 transition-all shadow-lg hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400';
+        return (
+          <>
+            <button
+              onClick={goToPrevious}
+              className={`${prevClass} ${btnClass}`}
+              aria-label="Previous app"
+              type="button"
+            >
+              {rtl ? (
+                <ChevronRight className="w-6 h-6 text-blue-400" aria-hidden="true" />
+              ) : (
+                <ChevronLeft className="w-6 h-6 text-blue-400" aria-hidden="true" />
+              )}
+            </button>
+            <button
+              onClick={goToNext}
+              className={`${nextClass} ${btnClass}`}
+              aria-label="Next app"
+              type="button"
+            >
+              {rtl ? (
+                <ChevronLeft className="w-6 h-6 text-blue-400" aria-hidden="true" />
+              ) : (
+                <ChevronRight className="w-6 h-6 text-blue-400" aria-hidden="true" />
+              )}
+            </button>
+          </>
+        );
+      })()}
 
       {/* Indicators */}
       <div className="flex justify-center gap-3 mt-6">

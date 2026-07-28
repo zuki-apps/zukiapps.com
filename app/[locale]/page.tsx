@@ -229,7 +229,7 @@ export default async function Home({
               })}
             </p>
             <p className="text-sm text-gray-400 flex items-center justify-center gap-2">
-              <Heart className="w-4 h-4 text-red-500" />
+              <Heart className="w-4 h-4 text-red-500" aria-hidden="true" />
               {t('footer.tagline')}
             </p>
             <div className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm">
@@ -237,7 +237,7 @@ export default async function Home({
                 href={`/${locale}/dreambit-legacy`}
                 className="text-gray-400 hover:text-amber-300 transition-colors"
               >
-                Legacy Dreambit apps (Android)
+                {t('footer.dreambitLegacy')}
               </Link>
               <span className="text-slate-600 hidden sm:inline">|</span>
               <a

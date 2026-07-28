@@ -13,6 +13,7 @@ import { HUSH_GALLERY_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
 import ScreenshotLightbox from '@/components/ScreenshotLightbox';
 import OtherZukiApps from '@/components/OtherZukiApps';
+import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import { DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 type ScreenshotItem = {
@@ -29,6 +30,7 @@ export default function HushGalleryPage() {
   const tCommon = useTranslations('common');
   const tHome = useTranslations('home');
   const locale = useLocale();
+  const rtl = locale === 'he' || locale === 'ar';
 
   const faqItems = (t.raw('faq.items') as Array<{ question: string; answer: string }> | undefined) ?? [];
   const howToSteps =
@@ -45,6 +47,13 @@ export default function HushGalleryPage() {
 
   return (
     <>
+      <BreadcrumbsStructuredData
+        locale={locale}
+        items={[
+          { name: tCommon('home'), path: '/' },
+          { name: t('hero.subtitle'), path: '/hush-gallery' },
+        ]}
+      />
       <div className="min-h-screen relative overflow-hidden">
         <StarBackground />
 
@@ -123,7 +132,7 @@ export default function HushGalleryPage() {
                 href={`/${locale}/hush-gallery/delete-account`}
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
-                {locale === 'he' ? 'מחיקת חשבון' : 'Delete Account'}
+                {tCommon('deleteAccount')}
               </Link>
             </div>
             <nav
@@ -549,7 +558,7 @@ export default function HushGalleryPage() {
                 {t('premium.description')}
               </p>
               
-              <div className={`grid md:grid-cols-2 gap-6 mb-8 ${locale === 'he' ? 'text-right' : 'text-left'}`}>
+              <div className={`grid md:grid-cols-2 gap-6 mb-8 ${rtl ? 'text-right' : 'text-left'}`}>
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border-2 border-purple-600/30">
                   <h3 className="text-xl font-bold mb-4 text-white">{t('premium.free.title')}</h3>
                   <ul className="space-y-2 text-gray-300">
@@ -634,12 +643,12 @@ export default function HushGalleryPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <Link
                 href={`/${locale}/hush-gallery/support`}
-                className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-purple-500/50 transition-all flex items-center gap-4 group border-2 border-purple-600/30 backdrop-blur-sm bg-opacity-90 ${locale === 'he' ? 'flex-row-reverse' : ''}`}
+                className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl hover:border-purple-500/50 transition-all flex items-center gap-4 group border-2 border-purple-600/30 backdrop-blur-sm bg-opacity-90 ${rtl ? 'flex-row-reverse' : ''}`}
               >
                 <div className="bg-purple-600/30 p-3 rounded-lg group-hover:bg-purple-600/50 border border-purple-500/50 transition-colors">
                   <Mail className="w-6 h-6 text-purple-400" />
                 </div>
-                <div className={`flex-grow ${locale === 'he' ? 'text-right' : 'text-left'}`}>
+                <div className={`flex-grow ${rtl ? 'text-right' : 'text-left'}`}>
                   <h3 className="text-xl font-semibold text-white mb-1">
                     {t('links.support.title')}
                   </h3>
@@ -691,7 +700,7 @@ export default function HushGalleryPage() {
                 href={`/${locale}/hush-gallery/delete-account`}
                 className="text-gray-400 hover:text-purple-400 transition-colors"
               >
-                {locale === 'he' ? 'מחיקת חשבון' : 'Delete Account'}
+                {tCommon('deleteAccount')}
               </Link>
             </div>
             <div className="mt-4 flex justify-center">

@@ -29,6 +29,7 @@ import { WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
 import OtherZukiApps from '@/components/OtherZukiApps';
 import ScreenshotLightbox from '@/components/ScreenshotLightbox';
+import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import { DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 type ScreenshotItem = {
@@ -72,6 +73,13 @@ export default function WhistleCameraPage() {
 
   return (
     <>
+      <BreadcrumbsStructuredData
+        locale={locale}
+        items={[
+          { name: tCommon('home'), path: '/' },
+          { name: t('hero.title'), path: '/whistle-camera' },
+        ]}
+      />
       <div className="min-h-screen relative overflow-hidden">
         <StarBackground />
 
