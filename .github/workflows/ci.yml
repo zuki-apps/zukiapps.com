@@ -57,12 +57,21 @@ jobs:
       - name: Verify i18n legal keys
         run: npm run verify:i18n
 
+      - name: Verify store copy consistency
+        run: npm run verify:store-copy
+
+      - name: Verify deepMerge empty-string guard
+        run: npm run verify:deep-merge
+
       - name: Build
         run: npm run build:static
         env:
           NODE_OPTIONS: --max-old-space-size=6144
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
           SITEMAP_USE_GIT: "true"
+
+      - name: Verify build log patterns
+        run: npm run verify:build-output -- .next-build.log
 
       - name: Verify export artifact size
         run: |
@@ -111,12 +120,21 @@ jobs:
       - name: Verify i18n legal keys
         run: npm run verify:i18n
 
+      - name: Verify store copy consistency
+        run: npm run verify:store-copy
+
+      - name: Verify deepMerge empty-string guard
+        run: npm run verify:deep-merge
+
       - name: Build static export
         run: npm run build:static
         env:
           NODE_OPTIONS: --max-old-space-size=6144
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
           SITEMAP_USE_GIT: "true"
+
+      - name: Verify build log patterns
+        run: npm run verify:build-output -- .next-build.log
 
       - name: Verify export artifact size
         run: |
