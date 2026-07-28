@@ -104,7 +104,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'timesince-howto-ld',
     accent: 'orange',
     hasSupportPage: true,
-    operatingSystem: 'iOS',
+    operatingSystem: 'iOS,Android',
   },
   'geo-calc': {
     slug: 'geo-calc',

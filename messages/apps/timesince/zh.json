@@ -2,16 +2,16 @@
   "timeSince": {
     "back": "返回首页",
     "hero": {
-      "badge": "已上架 App Store · Android 即将推出",
+      "badge": "已上架 App Store 与 Google Play",
       "title": "不要破坏链条。",
       "productName": "Time Since — 连续追踪器",
       "subtitle": "Time Since — 连续追踪器",
       "description": "连续追踪器，用于记录您正在养成的习惯以及戒烟后的天数 - 带有目标环、小部件和可共享的连续记录卡。该应用程序仍在开发中。",
-      "socialProof": "即将于 iOS 和 Android 推出 · 无需帐户",
-      "structuredDataDescription": "Time Since — iOS 和 Android 的条纹跟踪器（正在建设中）。实时计数器、目标环、小部件和共享卡。 Android com.zuki.apps.timesince. 条纹数据保留在您的设备上。",
+      "socialProof": "已在 App Store 与 Google Play 上线 · 无帐户",
+      "structuredDataDescription": "Time Since: Streak Tracker — 面向 iOS 与 Android 的戒除/养成连续打卡（App Store id6787023926；Google Play com.zuki.apps.timesince）。天数计数、目标环、小组件与分享卡片。数据留在设备上。",
       "phoneAlt": "Time Since 应用程序预览",
       "seoTitle": "Time Since — 连续记录追踪 | Zuki Apps",
-      "metaDescription": "用实时天数、目标环、小组件和分享卡片追踪戒断与养成连续记录。iOS 免费；Android 即将推出。"
+      "metaDescription": "用实时天数计数、目标环和分享卡片追踪养成习惯与戒除天数。iOS 与 Android 免费。无需帐户。"
     },
     "legalNav": {
       "privacy": "隐私政策",
@@ -351,7 +351,7 @@
         },
         {
           "question": "哪里可以下载Time Since？",
-          "answer": "Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS 当列表上线时，App Store 链接将出现在此页面上。"
+          "answer": "iOS: https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926 · Android: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince · Product page: https://zukiapps.com/timesince"
         }
       ]
     },
@@ -382,21 +382,22 @@
     },
     "status": {
       "title": "上架情况",
-      "description": "Time Since: Streak Tracker 已在 App Store 上线。Android 的 Google Play 即将推出。",
+      "description": "Time Since: Streak Tracker 已在 App Store 与 Google Play 上线。",
       "version": "目标版本",
       "status": "可用性",
       "versionValue": "1.0.0",
-      "statusValue": "App Store (iOS) · Google Play 即将推出"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
-      "title": "即将推出",
-      "description": "用目标环、小组件和分享卡片追踪连续记录。即日起 iOS 免费；Android 即将推出。",
+      "title": "下载 Time Since",
+      "description": "用目标环、小组件和分享卡片追踪戒除与养成连续打卡。iOS 与 Android 免费。",
       "soon": "即将登陆 App Store 和 Google Play",
       "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Time Since 应用程序图标",
       "appStoreAlt": "在应用商店下载",
       "googlePlayAlt": "获取 Google Play",
-      "googlePlaySoon": "即将登陆 Google Play"
+      "googlePlaySoon": "即将登陆 Google Play",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.timesince"
     },
     "links": {
       "title": "重要链接",

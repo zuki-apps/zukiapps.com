@@ -42,7 +42,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/timesince',
     name: 'Time Since',
     description:
-      'Streak tracker (quit & build modes, goal rings, widgets, share cards). Free on the App Store; Google Play coming soon (com.zuki.apps.timesince).',
+      'Streak tracker (quit & build modes, goal rings, widgets, share cards). Free on the App Store and Google Play (com.zuki.apps.timesince).',
   },
   {
     path: '/geo-calc',

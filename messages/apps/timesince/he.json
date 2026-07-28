@@ -2,16 +2,16 @@
   "timeSince": {
     "back": "חזרה לבית",
     "hero": {
-      "badge": "ב‑App Store · Android בקרוב",
+      "badge": "ב‑App Store וב‑Google Play",
       "title": "אל תשבור את השרשרת.",
       "productName": "Time Since — מעקב אחר פסים",
       "subtitle": "Time Since — מעקב אחר פסים",
       "description": "מעקב אחר רצפים להרגלים שאתה בונה וימים מאז שהפסקת - עם טבעות מטרות, ווידג'טים וכרטיסי רצף שניתנים לשיתוף. האפליקציה עדיין בפיתוח.",
-      "socialProof": "בקרוב ב-iOS וAndroid · אין צורך בחשבון",
-      "structuredDataDescription": "Time Since — מעקב אחר פסים עבור iOS וAndroid (בבנייה). מוני יום חיים, צלצולים של מטרות, ווידג'טים וכרטיסי שיתוף. Android com.zuki.apps.timesince. נתוני הרצף נשארים במכשיר שלך.",
+      "socialProof": "זמין ב‑App Store וב‑Google Play · אין חשבון",
+      "structuredDataDescription": "Time Since: Streak Tracker — רצפי הפסקה ובנייה עם מוני ימים, טבעות יעד, ווידג׳טים וכרטיסי שיתוף ל‑iOS ו‑Android (App Store id6787023926; Google Play com.zuki.apps.timesince). הנתונים נשארים במכשיר.",
       "phoneAlt": "Time Since תצוגה מקדימה של האפליקציה",
       "seoTitle": "Time Since — מעקב רצפים | Zuki Apps",
-      "metaDescription": "עקבו אחרי רצפי הפסקה ובנייה עם מונים חיים, טבעות יעד, ווידג׳טים וכרטיסי שיתוף. בחינם ב‑iOS; Android בקרוב."
+      "metaDescription": "עקבו אחרי רצפים של הרגלים וימים מאז שהפסקתם — עם מונים, טבעות יעד וכרטיסי שיתוף. בחינם ב‑iOS וב‑Android. בלי חשבון."
     },
     "legalNav": {
       "privacy": "מדיניות פרטיות",
@@ -351,7 +351,7 @@
         },
         {
           "question": "איפה אני יכול להוריד את Time Since?",
-          "answer": "Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS קישור לחנות האפליקציות יופיע בדף זה כשהרישום פעיל."
+          "answer": "iOS: https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926 · Android: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince · Product page: https://zukiapps.com/timesince"
         }
       ]
     },
@@ -382,21 +382,22 @@
     },
     "status": {
       "title": "זמינות",
-      "description": "Time Since: Streak Tracker זמין ב‑App Store. Google Play לאנדרואיד בקרוב.",
+      "description": "Time Since: Streak Tracker זמין ב‑App Store וב‑Google Play.",
       "version": "גרסת היעד",
       "status": "זְמִינוּת",
       "versionValue": "1.0.0",
-      "statusValue": "App Store (iOS) · Google Play בקרוב"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
-      "title": "בקרוב",
-      "description": "עקבו אחרי רצפי הפסקה ובנייה עם טבעות יעד, ווידג׳טים וכרטיסי שיתוף. בחינם ב‑iOS היום; Android בקרוב.",
+      "title": "הורידו את Time Since",
+      "description": "עקבו אחרי רצפי הפסקה ובנייה עם טבעות יעד, ווידג׳טים וכרטיסי שיתוף. בחינם ב‑iOS וב‑Android.",
       "soon": "בקרוב ל-App Store ול-Google Play",
       "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "סמל האפליקציה Time Since",
       "appStoreAlt": "הורד ב-App Store",
       "googlePlayAlt": "קבל את זה ב-Google Play",
-      "googlePlaySoon": "בקרוב ב‑Google Play"
+      "googlePlaySoon": "בקרוב ב‑Google Play",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.timesince"
     },
     "links": {
       "title": "קישורים חשובים",

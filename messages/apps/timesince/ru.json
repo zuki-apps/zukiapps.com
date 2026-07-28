@@ -2,16 +2,16 @@
   "timeSince": {
     "back": "Вернуться домой",
     "hero": {
-      "badge": "В App Store · Android скоро",
+      "badge": "В App Store и Google Play",
       "title": "Не разрывайте цепочку.",
       "productName": "Time Since — Трекер полос",
       "subtitle": "Time Since — Трекер полос",
       "description": "Трекер серий, которые вы приобрели, и количество дней, прошедших с тех пор, как вы бросили курить, с кольцами ворот, виджетами и карточками серий, которыми можно поделиться. Приложение все еще находится в разработке.",
-      "socialProof": "Скоро iOS и Android · Учетная запись не требуется.",
-      "structuredDataDescription": "Time Since — трекер полос для iOS и Android (в разработке). Счетчики дней в реальном времени, кольца ворот, виджеты и карточки обмена. Android com.zuki.apps.timesince. Данные серии остаются на вашем устройстве.",
+      "socialProof": "Доступно в App Store и Google Play · Без аккаунта",
+      "structuredDataDescription": "Time Since: Streak Tracker — серии quit & build со счётчиками дней, кольцами целей, виджетами и карточками для iOS и Android (App Store id6787023926; Google Play com.zuki.apps.timesince). Данные остаются на устройстве.",
       "phoneAlt": "Time Since предварительный просмотр приложения",
       "seoTitle": "Time Since — Трекер серий | Zuki Apps",
-      "metaDescription": "Отслеживайте серии отказа и роста с живыми счётчиками дней, кольцами целей, виджетами и карточками. Бесплатно на iOS; Android скоро."
+      "metaDescription": "Отслеживайте серии привычек и дни с момента отказа — счётчики, кольца целей и карточки для шаринга. Бесплатно на iOS и Android. Без аккаунта."
     },
     "legalNav": {
       "privacy": "политика конфиденциальности",
@@ -351,7 +351,7 @@
         },
         {
           "question": "Где я могу скачать Time Since?",
-          "answer": "Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS Ссылка на App Store появится на этой странице, когда список будет опубликован."
+          "answer": "iOS: https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926 · Android: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince · Product page: https://zukiapps.com/timesince"
         }
       ]
     },
@@ -382,21 +382,22 @@
     },
     "status": {
       "title": "Доступность",
-      "description": "Time Since: Streak Tracker уже в App Store. Google Play для Android скоро.",
+      "description": "Time Since: Streak Tracker доступен в App Store и Google Play.",
       "version": "Целевая версия",
       "status": "Доступность",
       "versionValue": "1.0.0",
-      "statusValue": "App Store (iOS) · Google Play скоро"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
-      "title": "Вскоре",
-      "description": "Отслеживайте серии с кольцами целей, виджетами и карточками. Бесплатно на iOS сегодня; Android скоро.",
+      "title": "Скачать Time Since",
+      "description": "Отслеживайте серии quit & build с кольцами целей, виджетами и карточками. Бесплатно на iOS и Android.",
       "soon": "Скоро появится в App Store и Google Play.",
       "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Значок приложения Time Since",
       "appStoreAlt": "Загрузите в App Store",
       "googlePlayAlt": "Получите это на Google Play",
-      "googlePlaySoon": "Скоро в Google Play"
+      "googlePlaySoon": "Скоро в Google Play",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.timesince"
     },
     "links": {
       "title": "Важные ссылки",

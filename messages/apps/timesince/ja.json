@@ -2,16 +2,16 @@
   "timeSince": {
     "back": "ホームに戻る",
     "hero": {
-      "badge": "App Store配信中 · Androidはまもなく",
+      "badge": "App Store & Google Play配信中",
       "title": "連鎖を断ち切らないでください。",
       "productName": "Time Since — ストリークトラッカー",
       "subtitle": "Time Since — ストリークトラッカー",
       "description": "目標リング、ウィジェット、共有可能なストリーク カードを備えた、構築中の習慣ややめてからの日数を記録するストリーク トラッカー。アプリはまだ開発中です。",
-      "socialProof": "iOS および Android に近日公開予定 · アカウントは必要ありません",
-      "structuredDataDescription": "Time Since — iOS および Android 用のストリーク トラッカー (準備中)。ライブデーカウンター、ゴールリング、ウィジェット、共有カード。 Android com.zuki.apps.timesince. ストリーク データはデバイスに残ります。",
+      "socialProof": "App StoreとGoogle Playで配信中 · アカウント不要",
+      "structuredDataDescription": "Time Since: Streak Tracker — iOSとAndroid向けのquit/buildストリーク（App Store id6787023926; Google Play com.zuki.apps.timesince）。日数カウンター、目標リング、ウィジェット、共有カード。データは端末に保存。",
       "phoneAlt": "Time Since アプリのプレビュー",
       "seoTitle": "Time Since — ストリークトラッカー | Zuki Apps",
-      "metaDescription": "やめる／続けるストリークをライブ日数・目標リング・ウィジェット・共有カードで記録。iOS無料、Androidはまもなく。"
+      "metaDescription": "習慣づくりと禁煙などの経過日数をライブカウンター・目標リング・共有カードで追跡。iOSとAndroidで無料。アカウント不要。"
     },
     "legalNav": {
       "privacy": "プライバシーポリシー",
@@ -351,7 +351,7 @@
         },
         {
           "question": "Time Since はどこでダウンロードできますか?",
-          "answer": "Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS リストが公開されると、App Store リンクがこのページに表示されます。"
+          "answer": "iOS: https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926 · Android: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince · Product page: https://zukiapps.com/timesince"
         }
       ]
     },
@@ -382,21 +382,22 @@
     },
     "status": {
       "title": "提供状況",
-      "description": "Time Since: Streak TrackerはApp Storeで配信中です。Android向けGoogle Playはまもなく公開予定です。",
+      "description": "Time Since: Streak TrackerはApp StoreとGoogle Playで配信中です。",
       "version": "対象バージョン",
       "status": "可用性",
       "versionValue": "1.0.0",
-      "statusValue": "App Store（iOS）· Google Playまもなく"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
-      "title": "近日公開",
-      "description": "目標リング、ウィジェット、共有カードでストリークを記録。今日からiOSで無料、Androidはまもなく。",
+      "title": "Time Sinceをダウンロード",
+      "description": "目標リング、ウィジェット、共有カードでquit/buildストリークを追跡。iOSとAndroidで無料。",
       "soon": "App Store と Google Play で近日公開予定",
       "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Time Since アプリのアイコン",
       "appStoreAlt": "App Storeでダウンロード",
       "googlePlayAlt": "Google Play で入手",
-      "googlePlaySoon": "Google Playまもなく公開"
+      "googlePlaySoon": "Google Playまもなく公開",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.timesince"
     },
     "links": {
       "title": "重要なリンク",

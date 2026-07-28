@@ -2,17 +2,17 @@
 
 > Canonical page: https://zukiapps.com/timesince/support  
 > Product page: https://zukiapps.com/timesince  
-> App: iOS live on App Store · Android coming soon · Package `com.zuki.apps.timesince` · Support: zuki.apps@gmail.com
+> App: iOS App Store + Android Google Play · Package `com.zuki.apps.timesince` · Support: zuki.apps@gmail.com
 
 > App icon: https://zukiapps.com/images/timesince-icon.png
 
 ## What is Time Since?
 
-Streak tracker for iOS (live on the [App Store](https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926); Android coming soon). Quit & build modes, goal rings, widgets, share cards.
+Streak tracker for iOS and Android. Live on the [App Store](https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926) and [Google Play](https://play.google.com/store/apps/details?id=com.zuki.apps.timesince). Quit & build modes, goal rings, widgets, share cards.
 
 ## Where can I download Time Since?
 
-Free on the [App Store](https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926) for iPhone and iPad. Google Play for Android is coming soon.
+Free on the [App Store](https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926) for iPhone and iPad, and on [Google Play](https://play.google.com/store/apps/details?id=com.zuki.apps.timesince) for Android.
 
 ## Getting started
 
@@ -69,4 +69,4 @@ https://zukiapps.com/images/timesince/screenshot-editor.png
 Privacy: https://zukiapps.com/timesince/privacy  
 Terms: https://zukiapps.com/timesince/terms  
 App Store: https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926  
-Google Play: coming soon (com.zuki.apps.timesince)
+Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince

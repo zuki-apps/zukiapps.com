@@ -2,16 +2,16 @@
   "timeSince": {
     "back": "Retour à la maison",
     "hero": {
-      "badge": "Sur l’App Store · Android bientôt",
+      "badge": "Sur l’App Store et Google Play",
       "title": "Ne brisez pas la chaîne.",
       "productName": "Time Since — Suivi des séquences",
       "subtitle": "Time Since — Suivi des séquences",
       "description": "Un outil de suivi des séquences pour les habitudes que vous développez et les jours écoulés depuis que vous avez arrêté — avec des anneaux d'objectifs, des widgets et des cartes de séquences partageables. L'application est encore en développement.",
-      "socialProof": "Bientôt disponible le iOS et le Android · Aucun compte requis",
-      "structuredDataDescription": "Time Since — suivi des séquences pour iOS et Android (en construction). Compteurs journaliers en direct, anneaux d'objectifs, widgets et cartes de partage. Android com.zuki.apps.timesince. Les données de séquence restent sur votre appareil.",
+      "socialProof": "Disponible sur l’App Store et Google Play · Pas de compte",
+      "structuredDataDescription": "Time Since: Streak Tracker — séries quit & build avec compteurs journaliers, anneaux d’objectif, widgets et cartes pour iOS et Android (App Store id6787023926 ; Google Play com.zuki.apps.timesince). Les données restent sur l’appareil.",
       "phoneAlt": "Aperçu de l'application Time Since",
       "seoTitle": "Time Since — Suivi des séries | Zuki Apps",
-      "metaDescription": "Suivez vos séries abandon/construction avec compteurs live, anneaux d’objectif, widgets et cartes. Gratuit sur iOS ; Android bientôt."
+      "metaDescription": "Suivez vos séries d’habitudes et les jours depuis l’arrêt avec compteurs, anneaux d’objectif et cartes à partager. Gratuit sur iOS et Android. Sans compte."
     },
     "legalNav": {
       "privacy": "politique de confidentialité",
@@ -351,7 +351,7 @@
         },
         {
           "question": "Où puis-je télécharger Time Since ?",
-          "answer": "Google Play : https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS Le lien App Store apparaîtra sur cette page lorsque la liste sera en ligne."
+          "answer": "iOS: https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926 · Android: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince · Product page: https://zukiapps.com/timesince"
         }
       ]
     },
@@ -382,21 +382,22 @@
     },
     "status": {
       "title": "Disponibilité",
-      "description": "Time Since: Streak Tracker est disponible sur l’App Store. Google Play pour Android arrive bientôt.",
+      "description": "Time Since: Streak Tracker est disponible sur l’App Store et Google Play.",
       "version": "Version cible",
       "status": "Disponibilité",
       "versionValue": "1.0.0",
-      "statusValue": "App Store (iOS) · Google Play bientôt"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
-      "title": "À venir",
-      "description": "Suivez vos séries avec anneaux d’objectif, widgets et cartes à partager. Gratuit sur iOS dès aujourd’hui ; Android bientôt.",
+      "title": "Télécharger Time Since",
+      "description": "Suivez vos séries quit & build avec anneaux d’objectif, widgets et cartes. Gratuit sur iOS et Android.",
       "soon": "Bientôt disponible sur l'App Store et Google Play",
       "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Icône de l'application Time Since",
       "appStoreAlt": "Télécharger sur l'App Store",
       "googlePlayAlt": "Obtenez-le sur Google Play",
-      "googlePlaySoon": "Bientôt sur Google Play"
+      "googlePlaySoon": "Bientôt sur Google Play",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.timesince"
     },
     "links": {
       "title": "Liens importants",

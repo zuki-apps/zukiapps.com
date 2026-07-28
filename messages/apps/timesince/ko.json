@@ -2,16 +2,16 @@
   "timeSince": {
     "back": "홈으로 돌아가기",
     "hero": {
-      "badge": "App Store 출시 · Android 곧 출시",
+      "badge": "App Store & Google Play 출시",
       "title": "사슬을 끊지 마십시오.",
       "productName": "Time Since — 연속 추적기",
       "subtitle": "Time Since — 연속 추적기",
       "description": "목표 링, 위젯, 공유 가능한 연속 카드를 통해 쌓고 있는 습관과 금연한 이후의 일수를 추적하는 연속 추적기입니다. 앱은 아직 개발 중입니다.",
-      "socialProof": "iOS 및 Android에 출시 예정 · 계정이 필요하지 않습니다",
-      "structuredDataDescription": "Time Since — iOS 및 Android에 대한 연속 추적기(제작 중). 라이브 데이 카운터, 골 링, 위젯 및 공유 카드. Android com.zuki.apps.timesince. 연속 데이터는 기기에 유지됩니다.",
+      "socialProof": "App Store 및 Google Play에서 이용 가능 · 계정 없음",
+      "structuredDataDescription": "Time Since: Streak Tracker — iOS 및 Android용 quit/build 스트릭(App Store id6787023926; Google Play com.zuki.apps.timesince). 일수 카운터, 목표 링, 위젯, 공유 카드. 데이터는 기기에 저장.",
       "phoneAlt": "Time Since 앱 미리보기",
       "seoTitle": "Time Since — 스트릭 트래커 | Zuki Apps",
-      "metaDescription": "끊기/쌓기 스트릭을 실시간 일수, 목표 링, 위젯, 공유 카드로 추적. iOS 무료, Android 곧 출시."
+      "metaDescription": "습관 만들기와 금단 일수를 실시간 카운터, 목표 링, 공유 카드로 추적. iOS 및 Android 무료. 계정 불필요."
     },
     "legalNav": {
       "privacy": "개인 정보 보호 정책",
@@ -351,7 +351,7 @@
         },
         {
           "question": "Time Since은(는) 어디서 다운로드할 수 있나요?",
-          "answer": "Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince — iOS 목록이 활성화되면 이 페이지에 App Store 링크가 표시됩니다."
+          "answer": "iOS: https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926 · Android: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince · Product page: https://zukiapps.com/timesince"
         }
       ]
     },
@@ -382,21 +382,22 @@
     },
     "status": {
       "title": "제공 현황",
-      "description": "Time Since: Streak Tracker는 App Store에서 이용할 수 있습니다. Android용 Google Play는 곧 출시됩니다.",
+      "description": "Time Since: Streak Tracker는 App Store와 Google Play에서 이용할 수 있습니다.",
       "version": "대상 버전",
       "status": "유효성",
       "versionValue": "1.0.0",
-      "statusValue": "App Store (iOS) · Google Play 곧 출시"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
-      "title": "곧 출시 예정",
-      "description": "목표 링, 위젯, 공유 카드로 스트릭을 추적하세요. 오늘 iOS에서 무료, Android 곧 출시.",
+      "title": "Time Since 다운로드",
+      "description": "목표 링, 위젯, 공유 카드로 quit/build 스트릭을 추적. iOS 및 Android 무료.",
       "soon": "App Store 및 Google Play에 곧 출시됩니다.",
       "appStoreUrl": "https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926",
       "appIconAlt": "Time Since 앱 아이콘",
       "appStoreAlt": "앱 스토어에서 다운로드",
       "googlePlayAlt": "Google Play에서 받으세요",
-      "googlePlaySoon": "곧 Google Play 출시"
+      "googlePlaySoon": "곧 Google Play 출시",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.timesince"
     },
     "links": {
       "title": "중요한 링크",
