@@ -83,7 +83,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'zuli-collage-howto-ld',
     accent: 'rose',
     hasSupportPage: true,
-    operatingSystem: 'iOS',
+    operatingSystem: 'iOS,Android',
   },
   'football-trivia': {
     slug: 'football-trivia',

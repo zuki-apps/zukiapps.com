@@ -4,11 +4,11 @@ Canonical page: https://zukiapps.com/zuli-collage
 
 ## What is Zuli Collage?
 
-Zuli Collage is a photo collage maker for iOS (Android coming soon). Pick 2–10 photos, choose a layout, style your collage, and save or share — usually in under 30 seconds.
+Zuli Collage is a photo collage maker for iOS and Android. Pick 2–10 photos, choose a layout, style your collage, and save or share — usually in under 30 seconds. Live on the [App Store](https://apps.apple.com/il/app/zuli-collage/id6774583525) and [Google Play](https://play.google.com/store/apps/details?id=com.zuki.apps.collagio).
 
 ## Where can I download Zuli Collage?
 
-Free on the [App Store](https://apps.apple.com/il/app/zuli-collage/id6774583525) for iPhone and iPad. Google Play for Android is coming soon.
+Free on the [App Store](https://apps.apple.com/il/app/zuli-collage/id6774583525) for iPhone and iPad, and on [Google Play](https://play.google.com/store/apps/details?id=com.zuki.apps.collagio) for Android.
 
 ## Do I need an account?
 
@@ -73,3 +73,6 @@ Tap Restore purchases in Settings. Use the same Apple ID or Google account as yo
 ## Contact
 
 Support: zuki.apps.dev@gmail.com · Website: https://zukiapps.com/zuli-collage
+
+App Store: https://apps.apple.com/il/app/zuli-collage/id6774583525
+Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.collagio

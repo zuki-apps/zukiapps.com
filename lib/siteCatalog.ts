@@ -36,7 +36,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/zuli-collage',
     name: 'Zuli Collage',
     description:
-      'Photo collage maker: 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device. Free on the App Store; Google Play coming soon (com.zuki.apps.collagio).',
+      'Photo collage maker: 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device. Free on the App Store and Google Play (com.zuki.apps.collagio).',
   },
   {
     path: '/timesince',
