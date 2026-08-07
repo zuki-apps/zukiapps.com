@@ -246,7 +246,40 @@ async function checkLiveHttp(sitemapPaths) {
 
   await waitForLiveReady(base);
 
-  const { ok, errors, total } = await probeAllHttp(base, sitemapPaths, { concurrency: 16 });
+  // Pages edges can lag after deploy — probe twice for any remaining 404s.
+  let ok = 0;
+  let errors = [];
+  let total = sitemapPaths.length;
+  for (let pass = 1; pass <= 3; pass += 1) {
+    const pathsToProbe =
+      pass === 1 ? sitemapPaths : errors.map((e) => e.pathname);
+    if (pathsToProbe.length === 0) break;
+
+    const result = await probeAllHttp(base, pathsToProbe, {
+      concurrency: pass === 1 ? 12 : 6,
+      retries: 3,
+      retryDelayMs: 1500,
+    });
+    if (pass === 1) {
+      ok = result.ok;
+      total = result.total;
+      errors = result.errors;
+    } else {
+      const stillBad = [];
+      for (const err of result.errors) stillBad.push(err);
+      const recovered = errors.length - stillBad.length;
+      ok += recovered;
+      errors = stillBad;
+      console.log(
+        `smoke: live retry pass ${pass}: recovered ${recovered}, remaining ${errors.length}`
+      );
+    }
+    if (errors.length === 0) break;
+    if (pass < 3) {
+      await new Promise((r) => setTimeout(r, 8000));
+    }
+  }
+
   if (errors.length) {
     const sample = errors
       .slice(0, 15)

@@ -163,22 +163,40 @@ export function startStaticServer(outDir, port = 0) {
   });
 }
 
-export async function probeHttp(base, pathname, { timeoutMs = 15000, retries = 1 } = {}) {
+export async function probeHttp(
+  base,
+  pathname,
+  { timeoutMs = 15000, retries = 1, retryDelayMs = 400 } = {}
+) {
   const url = `${base.replace(/\/+$/, '')}${pathname === '/' ? '/' : pathname}`;
   let lastErr;
+  let lastStatus = 'ERR';
+  let lastLocation = null;
   for (let attempt = 0; attempt <= retries; attempt++) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
     try {
       const res = await fetch(url, { method: 'HEAD', redirect: 'manual', signal: controller.signal });
-      return { pathname, status: res.status, location: res.headers.get('location') };
+      lastStatus = res.status;
+      lastLocation = res.headers.get('location');
+      if (res.status === 200 || res.status === 301 || res.status === 302 || res.status === 308) {
+        return { pathname, status: res.status, location: lastLocation };
+      }
+      // Retry transient 404/5xx while Pages edges catch up after deploy.
+      if (attempt < retries && (res.status === 404 || res.status >= 500)) {
+        await new Promise((r) => setTimeout(r, retryDelayMs * (attempt + 1)));
+        continue;
+      }
+      return { pathname, status: res.status, location: lastLocation };
     } catch (err) {
       lastErr = err;
-      // Brief backoff before retrying aborted/live network flakes.
-      if (attempt < retries) await new Promise((r) => setTimeout(r, 400 * (attempt + 1)));
+      if (attempt < retries) await new Promise((r) => setTimeout(r, retryDelayMs * (attempt + 1)));
     } finally {
       clearTimeout(timer);
     }
+  }
+  if (lastStatus !== 'ERR') {
+    return { pathname, status: lastStatus, location: lastLocation };
   }
   return {
     pathname,
@@ -187,13 +205,20 @@ export async function probeHttp(base, pathname, { timeoutMs = 15000, retries = 1
   };
 }
 
-export async function probeAllHttp(base, paths, { concurrency = 32, expectRedirect } = {}) {
+export async function probeAllHttp(
+  base,
+  paths,
+  { concurrency = 32, expectRedirect, retries, retryDelayMs } = {}
+) {
   const errors = [];
   let ok = 0;
+  const probeOpts = {};
+  if (retries != null) probeOpts.retries = retries;
+  if (retryDelayMs != null) probeOpts.retryDelayMs = retryDelayMs;
 
   for (let i = 0; i < paths.length; i += concurrency) {
     const batch = paths.slice(i, i + concurrency);
-    const results = await Promise.all(batch.map((p) => probeHttp(base, p)));
+    const results = await Promise.all(batch.map((p) => probeHttp(base, p, probeOpts)));
     for (const r of results) {
       const redirectOk = expectRedirect?.(r);
       if (r.status === 200 || redirectOk) {
