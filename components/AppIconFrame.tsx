@@ -45,6 +45,7 @@ export default function AppIconFrame({
         sizes={sizes}
         priority={priority}
         loading={priority ? undefined : 'lazy'}
+        aria-hidden={alt === '' ? true : undefined}
         className={`${imageFit} motion-safe:transition-transform motion-safe:duration-300 ${hover}`.trim()}
       />
     </div>

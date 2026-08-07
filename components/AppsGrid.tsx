@@ -165,7 +165,7 @@ export default async function AppsGrid({ locale }: { locale: string }) {
               {app.iconImage ? (
                 <AppIconFrame
                   src={app.iconImage}
-                  alt={t(app.titleKey)}
+                  alt=""
                   sizes="(max-width: 768px) 80px, 96px"
                   boxClassName="w-20 h-20 md:w-24 md:h-24"
                   frameClassName={

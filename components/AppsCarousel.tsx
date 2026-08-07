@@ -74,7 +74,7 @@ export default function AppsCarousel() {
       learnMoreKey: 'zulist.learnMore',
       link: `/${locale}/zulist`,
       isComingSoon: false,
-      monsters: ['zuli-04.png', 'zuli-15.png'],
+      monsters: ['zuli-04.webp', 'zuli-15.webp'],
     },
     'hush-gallery': {
       id: 'hush-gallery',
@@ -412,7 +412,7 @@ export default function AppsCarousel() {
                   {app.iconImage ? (
                     <AppIconFrame
                       src={app.iconImage}
-                      alt={t(app.titleKey)}
+                      alt=""
                       sizes="(max-width: 768px) 96px, 128px"
                       boxClassName="w-24 h-24 md:w-32 md:h-32"
                       frameClassName={
@@ -447,7 +447,7 @@ export default function AppsCarousel() {
                       >
                         <Image
                           src={`/images/monsters/${monster}`}
-                          alt="Zuli Monster"
+                          alt=""
                           fill
                           sizes="(max-width: 768px) 128px, 160px"
                           className="object-contain p-1 drop-shadow-lg"

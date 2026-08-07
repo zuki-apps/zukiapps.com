@@ -52,10 +52,11 @@ export default function OtherZukiApps({ currentAppId, limit = 4 }: OtherZukiApps
               key={id}
               href={`/${locale}/${id}`}
               className="flex flex-col items-center gap-3 p-4 rounded-xl bg-white/5 border border-white/10 hover:border-white/25 hover:bg-white/10 transition-colors"
+              aria-label={tHome(TITLE_KEY[id])}
             >
               <AppIconFrame
                 src={HOME_APP_ICON_WEBP[id]}
-                alt={tHome(TITLE_KEY[id])}
+                alt=""
                 sizes="64px"
                 edgeToEdge={
                   id === 'hush-gallery' ||
