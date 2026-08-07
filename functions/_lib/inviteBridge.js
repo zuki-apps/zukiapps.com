@@ -56,7 +56,7 @@ export function inviteHtml(invitationId, listName = '') {
     </p>
     <p style="margin-top:1.5rem;font-size:.9rem;color:#6b7280">אין לך את האפליקציה?</p>
     <p>
-      <a class="store" href="https://apps.apple.com/app/zulist" target="_blank" rel="noopener noreferrer">הורד מ-App Store</a>
+      <a class="store" href="https://apps.apple.com/us/app/zulist/id6753878439" target="_blank" rel="noopener noreferrer">הורד מ-App Store</a>
     </p>
   </div>
 </body>

@@ -1,7 +1,7 @@
 import type { HomeAppId } from '@/lib/homeApps';
 
 /** WebP grid/carousel icons (256px) — bump ?v= after re-running scripts/optimize-home-images.mjs */
-const v = '3';
+const v = '4';
 
 export const HOME_APP_ICON_WEBP: Record<HomeAppId, string> = {
   zulist: `/images/zulist-icon.webp?v=${v}`,

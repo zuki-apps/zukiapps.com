@@ -140,11 +140,11 @@
           "category": "特征"
         },
         {
-          "id": "航路点",
-          "title": "导出GPX",
-          "description": "在本地保存航路点并导出 GPX 以进行 GIS 或 GPS 切换。",
-          "image": "/images/geo-calc/screenshot-waypoints.png",
-          "alt": "带有 GPX 导出的 GEO Calc 航点列表",
+          "id": "navigate",
+          "title": "Walk to any point",
+          "description": "Live compass arrow and arrival alert for field navigation.",
+          "image": "/images/geo-calc/screenshot-navigate.png",
+          "alt": "GEO Calc navigator with compass arrow to waypoint",
           "category": "特征"
         },
         {

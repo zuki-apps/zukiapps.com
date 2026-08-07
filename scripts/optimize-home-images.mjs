@@ -43,7 +43,7 @@ async function writeOptimizedIcon(relPath) {
     background: { r: 0, g: 0, b: 0, alpha: 0 },
   });
 
-  await pipeline.clone().webp({ quality: 70, effort: 6 }).toFile(webpOut);
+  await pipeline.clone().webp({ quality: 82, effort: 6 }).toFile(webpOut);
   await pipeline.clone().png({ compressionLevel: 9 }).toFile(pngTmp);
   fs.renameSync(pngTmp, input);
 

@@ -222,6 +222,8 @@ async function checkLiveHttp(sitemapPaths) {
 
   const redirectChecks = [
     { path: '/collagio', mustInclude: 'zuli-collage' },
+    { path: '/Collagio', mustInclude: 'zuli-collage' },
+    { path: '/collagio/privacy', mustInclude: 'zuli-collage' },
     { path: '/hushgallery', mustInclude: 'hush-gallery' },
     { path: '/he/collagio', mustInclude: 'zuli-collage' },
     { path: '/ja/hushgallery', mustInclude: 'hush-gallery' },
