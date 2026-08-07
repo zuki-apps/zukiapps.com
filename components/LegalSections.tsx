@@ -20,6 +20,7 @@ type LegalSectionsProps = {
   contactExtraLinks?: { href: string; label: string }[];
   emailLabel: string;
   addressLabel: string;
+  phoneLabel?: string;
 };
 
 export default function LegalSections({
@@ -34,6 +35,7 @@ export default function LegalSections({
   contactExtraLinks = [],
   emailLabel,
   addressLabel,
+  phoneLabel = 'Phone',
 }: LegalSectionsProps) {
   const listKeys = new Set(listSectionKeys);
   const content2Keys = new Set(withContent2);
@@ -71,6 +73,7 @@ export default function LegalSections({
       {contactSectionKey && (() => {
         const contactContent2 = optionalMessage(`${contactSectionKey}.content2`);
         const contactEmail = optionalMessage(`${contactSectionKey}.email`);
+        const contactPhone = optionalMessage(`${contactSectionKey}.phone`);
         const contactAddress = optionalMessage(`${contactSectionKey}.address`);
         return (
         <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-emerald-600">
@@ -89,6 +92,17 @@ export default function LegalSections({
                 className="text-emerald-600 hover:underline"
               >
                 {contactEmail}
+              </a>
+            </p>
+          )}
+          {contactPhone && (
+            <p className="text-gray-700 mb-2">
+              <strong>{phoneLabel}:</strong>{' '}
+              <a
+                href={`tel:${contactPhone.replace(/[^\d+]/g, '')}`}
+                className="text-emerald-600 hover:underline"
+              >
+                {contactPhone}
               </a>
             </p>
           )}

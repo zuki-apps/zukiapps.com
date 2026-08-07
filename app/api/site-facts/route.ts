@@ -2,6 +2,11 @@ import { NextResponse } from 'next/server';
 import { getSiteUrl } from '@/lib/hreflang';
 import { routing } from '@/routing';
 import { ZUKI_SITE_APPS, buildSoftwareCatalogItemList } from '@/lib/siteCatalog';
+import {
+  PUBLISHER_EMAIL,
+  PUBLISHER_PHONE_DISPLAY,
+  PUBLISHER_PHONE_E164,
+} from '@/lib/publisherContact';
 
 /**
  * Machine-readable site summary for crawlers, answer engines, and tooling.
@@ -18,7 +23,9 @@ export async function GET() {
     publisher: {
       name: 'Zuki Apps',
       url: baseUrl,
-      email: 'zuki.apps.dev@gmail.com',
+      email: PUBLISHER_EMAIL,
+      telephone: PUBLISHER_PHONE_E164,
+      phoneDisplay: PUBLISHER_PHONE_DISPLAY,
     },
     site: {
       origin: baseUrl,

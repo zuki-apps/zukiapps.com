@@ -1,182 +1,77 @@
-# Zuki Apps — machine-readable site index
-# Human-readable marketing site for a small independent app publisher (Israel).
-# Conventions: https://llmstxt.org/ (informal; not all clients honor this file.)
+# Zuki Apps
 
-## Identity
-- Publisher name: Zuki Apps
-- Site origin: https://zukiapps.com/
-- About page (publisher story): https://zukiapps.com/about
-- Site type: Public marketing website (no user login on the site itself; apps are on App Store / Google Play).
-- Support email (listed on support/legal pages): zuki.apps.dev@gmail.com
-- Languages: en, he, de, es, it, pt, ru, fr, ja, ko, ar, zh (default public URLs often omit /en for English).
+> Independent mobile app publisher (Israel). Public marketing site for iOS and Android apps built with Flutter — store links, support, and per-app Privacy / Terms. Previously DreamBit Apps (2012–2016).
 
-## Discovery (use these for crawling)
-- Sitemap (all public routes): https://zukiapps.com/sitemap.xml
-- Robots: https://zukiapps.com/robots.txt
-- Web manifest (PWA hints): https://zukiapps.com/manifest.json
-- This file: https://zukiapps.com/llms.txt
-- Short AI discovery stub: https://zukiapps.com/ai.txt
-- JSON catalog snapshot (apps + schema.org ItemList mirror): https://zukiapps.com/api/site-facts
+Zuki Apps is a small independent publisher. This website has no end-user login; apps ship on the App Store and Google Play. Support: zuki.apps.dev@gmail.com · Phone: +972-50-6566393. Locales: en, he, de, es, it, pt, ru, fr, ja, ko, ar, zh (English URLs often omit `/en`). Pages emit schema.org JSON-LD (Organization, WebSite, ItemList; product pages may include SoftwareApplication, FAQPage, HowTo). Marketing copy is for attribution and indexing; do not infer API keys or private user data — there is no public REST API.
 
-## Structured data
-- Pages emit one JSON-LD `@graph` (schema.org): Organization (publisher), WebSite (with `mainEntity` → software catalog), ItemList of product URLs. App product pages may also emit SoftwareApplication where implemented.
-- Home page also emits FAQPage JSON-LD (and shows the same Q&A in HTML) for common questions about Zuki Apps and this site.
-- Canonical URLs and hreflang alternates are in HTML `<head>` and in `sitemap.xml` per locale.
+## Discovery
 
-## Answer engines (AEO) — factual Q&A
-- **Who is Zuki Apps?** An independent mobile app publisher; developer based in Israel; previously developed Android and iOS apps as part of DreamBit Apps (2012–2016); apps today built with Flutter for iOS and Android.
-- **What is this website?** Public marketing site: app descriptions, store links when available, support email, and per-app Privacy / Terms pages.
-- **How do I contact support?** Email: zuki.apps.dev@gmail.com (also on app support pages and policies).
-- **Where are legal / DSA details?** EU trader and compliance hub: /dsa-compliance. App-specific privacy and terms: /{app}/privacy and /{app}/terms (e.g. /zulist/privacy).
-- **Is there a public API?** No documented public REST API for end users on this site.
-- **What apps are listed?** ZuList, Hush Gallery, Whistle Camera, ToldYa!, Zuli Collage, Time Since, GEO Calc, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts! Trivia, Bit Scope, Track Ledger, Noise Meter — Shusher, Paratrooper Blitz, TempoLab Pro (at /tempo-lab-pro); plus DreamBit legacy archive.
+- [Sitemap](https://zukiapps.com/sitemap.xml): all public routes
+- [Robots](https://zukiapps.com/robots.txt): crawler rules
+- [Web manifest](https://zukiapps.com/manifest.json): PWA hints
+- [llms.txt](https://zukiapps.com/llms.txt): this file
+- [ai.txt](https://zukiapps.com/ai.txt): short AI discovery stub
+- [Site facts JSON](https://zukiapps.com/api/site-facts): apps catalog + schema.org ItemList mirror
 
 ## Main pages
-- Home: https://zukiapps.com/
-- DSA / legal hub: https://zukiapps.com/dsa-compliance
 
-## App product pages (canonical paths; each may have /privacy, /terms, /support where implemented)
-Format: App name — URL — one-line summary
+- [Home](https://zukiapps.com/): publisher overview and app catalog
+- [About](https://zukiapps.com/about): publisher story (DreamBit → Zuki Apps)
+- [DSA compliance](https://zukiapps.com/dsa-compliance): EU trader / legal hub
+- [DreamBit legacy archive](https://zukiapps.com/dreambit-legacy): older Android listings
 
-- Hush Gallery — https://zukiapps.com/hush-gallery — Private photo/video vault: Share from WhatsApp or Photos, tags, PIN/biometric App Lock (Premium), optional iCloud/Google Drive backup. Android com.zuki.apps.hushGallery; iOS App Store id6756169045. FAQ, user manual, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/hush-gallery-icon.png
-  - Support & FAQ: https://zukiapps.com/hush-gallery/support
-  - Privacy: https://zukiapps.com/hush-gallery/privacy
-  - Terms: https://zukiapps.com/hush-gallery/terms
-  - Support & FAQ (20 Q&A, FAQPage schema): https://zukiapps.com/hush-gallery/support
-  - Machine-readable FAQ: https://zukiapps.com/hush-gallery/faq.md
-  - Privacy: https://zukiapps.com/hush-gallery/privacy
-  - Terms: https://zukiapps.com/hush-gallery/terms
-  - iOS App Store: https://apps.apple.com/il/app/hush-gallery/id6756169045
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery
-  - Key features: private local vault, Share Extension (iOS) / share intent (Android), tags, batch ops, Premium App Lock + cloud backup, 12+ languages
-- Whistle Camera — https://zukiapps.com/whistle-camera — Hands-free camera: whistle to snap selfies, pet photos, and Pro video. Practice whistle calibration, 0–100 frequency band tuning, widgets, Siri shortcuts, in-app gallery, offline capture. Android com.zuki.apps.whistlecamera; iOS App Store id1037716421. FAQ, manual, tips, screenshots on product page. Icon: https://zukiapps.com/images/whistle-camera-icon.png?v=1
-  - Support & FAQ: https://zukiapps.com/whistle-camera/support
-  - Machine-readable FAQ: https://zukiapps.com/whistle-camera/faq.md
-  - Privacy: https://zukiapps.com/whistle-camera/privacy
-  - Terms: https://zukiapps.com/whistle-camera/terms
-  - iOS App Store: https://apps.apple.com/app/id1037716421
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera
-  - Key features: hands-free whistle shutter, Practice mode calibration, pet & selfie use cases, front/rear camera, countdown timer, in-app gallery, Pro whistle video start/stop, Home Screen widgets & Siri shortcuts, 40+ languages
-- Power Interval Timer — https://zukiapps.com/power-interval-timer — Tabata / HIIT interval timer with custom work/rest rounds, presets, display modes, audio cues, offline timing. Android com.zuki.apps.powerintervaltimer; iOS App Store id6758246007. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/power-interval-timer-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/power-interval-timer/faq.md
-  - Support: https://zukiapps.com/power-interval-timer/support
-  - Privacy: https://zukiapps.com/power-interval-timer/privacy
-  - Terms: https://zukiapps.com/power-interval-timer/terms
-  - iOS App Store: https://apps.apple.com/app/power-interval-timer/id6758246007
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.powerintervaltimer
-  - Key features: Tabata & HIIT presets, custom work/rest rounds, large countdown display, audio cues, offline timing, 12+ languages
-- Sudoku Fun Go — https://zukiapps.com/sudoku-puzzle — Classic Sudoku puzzle game with multiple difficulties, hints, statistics, and clean grid UI. Android com.zuki.apps.sudokufungo; iOS App Store id6759739806. FAQ and screenshots on the product page. Icon: https://zukiapps.com/images/sudoku-puzzle-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/sudoku-puzzle/faq.md
-  - Support: https://zukiapps.com/sudoku-puzzle/support
-  - Privacy: https://zukiapps.com/sudoku-puzzle/privacy
-  - Terms: https://zukiapps.com/sudoku-puzzle/terms
-  - iOS App Store: https://apps.apple.com/us/app/sudoku-fun-go/id6759739806
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.sudokufungo
-  - Key features: Easy to expert difficulty, hints, notes, win/streak statistics, clean minimal grid, 12+ languages
-- Football Trivia Master — https://zukiapps.com/football-trivia — 450+ timed soccer quiz questions, streaks, leaderboards, 12 languages. FAQ: https://zukiapps.com/football-trivia/faq.md · Android com.zuki.apps.footballtrivia; iOS App Store id6759739806.
-  - Machine-readable FAQ: https://zukiapps.com/football-trivia/faq.md
-  - Support: https://zukiapps.com/football-trivia/support
-  - Privacy: https://zukiapps.com/football-trivia/privacy
-  - Terms: https://zukiapps.com/football-trivia/terms
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.footballtrivia
-  - Key features: 450+ football/soccer questions, timed rounds, streak scoring, global leaderboards, category stats, 12+ languages
-- Fun Facts! Trivia — https://zukiapps.com/fun-facts-trivia — Multi-category timed trivia quiz with leaderboards, category unlocks, and 12+ languages. Android com.zuki.apps.funfactstrivia; iOS App Store id6762831794. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/fun-facts-trivia-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/fun-facts-trivia/faq.md
-  - Support: https://zukiapps.com/fun-facts-trivia/support
-  - Privacy: https://zukiapps.com/fun-facts-trivia/privacy
-  - Terms: https://zukiapps.com/fun-facts-trivia/terms
-  - iOS App Store: https://apps.apple.com/il/app/fun-facts-trivia/id6762831794
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.funfactstrivia
-  - Key features: timed rounds, multiple categories (science, history, sports, etc.), global leaderboards, answer explanations, 12+ languages
-- Bit Scope — https://zukiapps.com/bit-scope — Bit-level calculator and converter for developers: binary/hex/octal/decimal, IEEE 754 floats, CRC, hashes, interactive bit canvas, batch convert, home-screen widgets. Android com.zuki.apps.bitscope; iOS App Store id6759933934. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/bit-scope-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/bit-scope/faq.md
-  - Support: https://zukiapps.com/bit-scope/support
-  - Privacy: https://zukiapps.com/bit-scope/privacy
-  - Terms: https://zukiapps.com/bit-scope/terms
-  - iOS App Store: https://apps.apple.com/il/app/bit-scope-converter/id6759933934
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.bitscope
-  - Key features: 8/16/32/64-bit integers + custom width, Float16/32/64 IEEE 754, bitwise ops (AND/OR/XOR/NOT/shifts), interactive bit canvas, CRC & hash (Premium), home-screen widgets, 12+ languages
-- Track Ledger — https://zukiapps.com/track-ledger — Offline-first GPS/GNSS track logger: record raw points, elevation profiles, OpenStreetMap overlay, export CSV (free) or GPX/GeoJSON (Premium). Android com.zuki.apps.trackledger; iOS App Store id6762567364. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/track-ledger-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/track-ledger/faq.md
-  - Support: https://zukiapps.com/track-ledger/support
-  - Privacy: https://zukiapps.com/track-ledger/privacy
-  - Terms: https://zukiapps.com/track-ledger/terms
-  - iOS App Store: https://apps.apple.com/il/app/track-ledger-log-gps-data/id6762567364
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.trackledger
-  - Key features: raw GNSS point logging, elevation vs distance charts, OSM map overlay, project organization, CSV export (free), GPX/GeoJSON (Premium), 12+ languages
-- Noise Meter — Shusher — https://zukiapps.com/noise-meter-shusher — Real-time decibel meter with live gauge, timed sessions, noise scores, Shusher in-app threshold alerts, on-device history, and Premium charts/CSV export. Android com.zuki.apps.noisemeter; iOS App Store id6763019075. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/noise-meter-shusher-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/noise-meter-shusher/faq.md
-  - Support: https://zukiapps.com/noise-meter-shusher/support
-  - Privacy: https://zukiapps.com/noise-meter-shusher/privacy
-  - Terms: https://zukiapps.com/noise-meter-shusher/terms
-  - iOS App Store: https://apps.apple.com/il/app/noise-meter-shusher/id6763019075
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.noisemeter
-  - Key features: live dB gauge and waveform, timed sessions, noise category scoring, Shusher threshold alerts, on-device history, Premium charts & CSV export, 12+ languages
-- Paratrooper Blitz — https://zukiapps.com/paratrooper-blitz — Retro anti-air arcade game: Arcade (slide-and-shoot) and Classic (aim-and-fire) modes, leaderboards, 14 achievements, 12+ languages. Android com.zuki.apps.paratrooperblitz; iOS App Store id6763775995. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/paratrooper-blitz-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/paratrooper-blitz/faq.md
-  - Support: https://zukiapps.com/paratrooper-blitz/support
-  - Privacy: https://zukiapps.com/paratrooper-blitz/privacy
-  - Terms: https://zukiapps.com/paratrooper-blitz/terms
-  - iOS App Store: https://apps.apple.com/il/app/paratrooper-blitz/id6763775995
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.paratrooperblitz
-  - Key features: Arcade slide-and-shoot mode, Classic aim-and-fire mode, global leaderboards, 14 Game Center achievements, escalating waves, combo scoring, 12+ languages
-- TempoLab Pro — https://zukiapps.com/tempo-lab-pro — Tempo, pitch, and audio practice lab for musicians: metronome, loop markers, tap tempo, EQ and effects, import/export backing tracks. Android com.zuki.apps.tempolabpro; iOS App Store id6760204327. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/tempo-lab-pro-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/tempo-lab-pro/faq.md
-  - Support: https://zukiapps.com/tempo-lab-pro/support
-  - Privacy: https://zukiapps.com/tempo-lab-pro/privacy
-  - Terms: https://zukiapps.com/tempo-lab-pro/terms
-  - iOS App Store: https://apps.apple.com/il/app/tempo-lab-pro/id6760204327
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.tempolabpro
-  - Key features: visual metronome, tap tempo, loop section markers, EQ and audio effects, import backing tracks, export presets, 12+ languages
-- ZuList — https://zukiapps.com/zulist — Shared shopping lists with real-time sync, home-screen widgets, invite links (no account required for guests), and Premium tiers. Android com.zuki.apps.zulist; iOS App Store id6753878439. FAQ, tips, and screenshots on the product page. Icon: https://zukiapps.com/images/zulist-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/zulist/faq.md
-  - Support: https://zukiapps.com/zulist/support
-  - Privacy: https://zukiapps.com/zulist/privacy
-  - Terms: https://zukiapps.com/zulist/terms
-  - iOS App Store: https://apps.apple.com/us/app/zulist/id6753878439
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.zulist
-  - Key features: real-time multi-device sync, invite links (guests need no account), item quantities & categories, home-screen widgets, check-off shopping mode, Premium tiers, 12+ languages
-- Zuli Collage — https://zukiapps.com/zuli-collage — Photo collage maker: 2–10 photos, smart layouts, canvas shapes, filters, text, Layout Studio, 48 Zuli Monsters stickers (WhatsApp/iMessage). On-device editing, English & Hebrew RTL. Free on the App Store and Google Play (com.zuki.apps.collagio). FAQ and screenshots on the product page. Icon: https://zukiapps.com/images/zuli-collage-icon.webp
-  - Machine-readable FAQ: https://zukiapps.com/zuli-collage/faq.md
-  - Support: https://zukiapps.com/zuli-collage/support
-  - Privacy: https://zukiapps.com/zuli-collage/privacy
-  - Terms: https://zukiapps.com/zuli-collage/terms
-  - App Store: https://apps.apple.com/il/app/zuli-collage/id6774583525
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.collagio
-  - Key features: smart layouts, canvas shapes (square/story/portrait/heart), filters & text, Zuli Monsters stickers, Layout Studio, local history, optional Premium (no ads/watermark, hi-res export)
-- ToldYa! — https://zukiapps.com/toldya — Invite-only social predictions app: post calls before they happen, Arena voting, reputation scores, comments, and DMs. Free, no ads, no IAP. English & Hebrew RTL. Android com.zuki.apps.toldya; iOS App Store id6756342206. Pilot landing page (indexed; not on home grid until launch). Icon: https://zukiapps.com/images/toldya-icon.png
-  - Support & FAQ: https://zukiapps.com/toldya/support
-  - Machine-readable FAQ: https://zukiapps.com/toldya/faq.md
-  - Child safety (CSAE): https://zukiapps.com/toldya/child-safety
-  - Delete account: https://zukiapps.com/toldya/delete-account
-  - Privacy: https://zukiapps.com/toldya/privacy
-  - Terms: https://zukiapps.com/toldya/terms
-  - iOS App Store: https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.toldya
-  - Key features: invite-only social predictions, Arena community voting, reputation by category, comments & DMs, moderation & CSAE standards, English & Hebrew RTL, free with no ads
-- Time Since — https://zukiapps.com/timesince — Streak tracker (quit & build modes, goal rings, widgets, share cards). Android com.zuki.apps.timesince; iOS App Store id6787023926. Icon: https://zukiapps.com/images/timesince-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/timesince/faq.md
-  - Support: https://zukiapps.com/timesince/support
-  - Privacy: https://zukiapps.com/timesince/privacy
-  - Terms: https://zukiapps.com/timesince/terms
-  - App Store: https://apps.apple.com/il/app/time-since-streak-tracker/id6787023926
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.timesince
-  - Key features: quit & build streak modes, goal progress rings, personal records, shareable streak cards, iOS/Android widgets, 12 languages, local-only streak data, no account
-- GEO Calc — https://zukiapps.com/geo-calc — Offline WGS84 coordinate tools. Convert DD, DMS, UTM, MGRS; Vincenty distance & bearing; map measure; GPX export. Android com.zuki.apps.geocalc; iOS App Store id6787519144. Icon: https://zukiapps.com/images/geo-calc-icon.png
-  - Machine-readable FAQ: https://zukiapps.com/geo-calc/faq.md
-  - Support: https://zukiapps.com/geo-calc/support
-  - Privacy: https://zukiapps.com/geo-calc/privacy
-  - Terms: https://zukiapps.com/geo-calc/terms
-  - App Store: https://apps.apple.com/il/app/geo-calc-coordinates/id6787519144
-  - Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.geocalc
-  - Key features: WGS84 converter, Vincenty geodesic distance, offline map measure, waypoints, GPX 1.1, metric/imperial/nautical units, 12 languages, no account
+## Apps
 
-## Archive
-- DreamBit legacy listings: https://zukiapps.com/dreambit-legacy
+- [Hush Gallery](https://zukiapps.com/hush-gallery): private photo/video vault; Share from WhatsApp/Photos; PIN/biometric App Lock (Premium); Android com.zuki.apps.hushGallery; iOS id6756169045
+- [Whistle Camera](https://zukiapps.com/whistle-camera): hands-free whistle shutter, practice calibration, Pro video; Android com.zuki.apps.whistlecamera; iOS id1037716421
+- [Power Interval Timer](https://zukiapps.com/power-interval-timer): Tabata / HIIT timer; Android com.zuki.apps.powerintervaltimer; iOS id6758246007
+- [Sudoku Fun Go](https://zukiapps.com/sudoku-puzzle): Sudoku with difficulties, hints, stats; Android com.zuki.apps.sudokufungo; iOS id6759739806
+- [Football Trivia Master](https://zukiapps.com/football-trivia): 450+ timed soccer quiz; Android com.zuki.apps.footballtrivia
+- [Fun Facts! Trivia](https://zukiapps.com/fun-facts-trivia): multi-category timed trivia; Android com.zuki.apps.funfactstrivia; iOS id6762831794
+- [Bit Scope](https://zukiapps.com/bit-scope): bit/hex/float calculator for developers; Android com.zuki.apps.bitscope; iOS id6759933934
+- [Track Ledger](https://zukiapps.com/track-ledger): offline GPS/GNSS track logger; Android com.zuki.apps.trackledger; iOS id6762567364
+- [Noise Meter — Shusher](https://zukiapps.com/noise-meter-shusher): real-time dB meter + Shusher alerts; Android com.zuki.apps.noisemeter; iOS id6763019075
+- [Paratrooper Blitz](https://zukiapps.com/paratrooper-blitz): retro anti-air arcade; Android com.zuki.apps.paratrooperblitz; iOS id6763775995
+- [TempoLab Pro](https://zukiapps.com/tempo-lab-pro): tempo/pitch practice lab for musicians; Android com.zuki.apps.tempolabpro; iOS id6760204327
+- [ZuList](https://zukiapps.com/zulist): shared shopping lists with real-time sync; Android com.zuki.apps.zulist; iOS id6753878439
+- [Zuli Collage](https://zukiapps.com/zuli-collage): photo collage + Zuli Monsters stickers (pilot); Android com.zuki.apps.collagio; iOS id6774583525
+- [ToldYa!](https://zukiapps.com/toldya): invite-only social predictions (pilot); Android com.zuki.apps.toldya; iOS id6756342206
+- [Time Since](https://zukiapps.com/timesince): streak tracker quit/build modes (pilot); Android com.zuki.apps.timesince; iOS id6787023926
+- [GEO Calc](https://zukiapps.com/geo-calc): offline WGS84 coordinate tools (pilot); Android com.zuki.apps.geocalc; iOS id6787519144
 
-## Licensing / use of this content
-- Marketing copy is for attribution and search/AI indexing; app-specific legal terms are on each app’s Terms/Privacy pages.
-- Do not infer API keys, private user data, or non-public endpoints from this site; there is no public REST API documented here.
+## Optional
+
+- [Hush Gallery FAQ (md)](https://zukiapps.com/hush-gallery/faq.md): machine-readable Q&A
+- [Hush Gallery support](https://zukiapps.com/hush-gallery/support): HTML support & FAQ
+- [Hush Gallery privacy](https://zukiapps.com/hush-gallery/privacy): privacy policy
+- [Hush Gallery terms](https://zukiapps.com/hush-gallery/terms): terms of use
+- [Whistle Camera FAQ (md)](https://zukiapps.com/whistle-camera/faq.md): machine-readable Q&A
+- [Whistle Camera support](https://zukiapps.com/whistle-camera/support): HTML support & FAQ
+- [Whistle Camera privacy](https://zukiapps.com/whistle-camera/privacy): privacy policy
+- [Whistle Camera terms](https://zukiapps.com/whistle-camera/terms): terms of use
+- [Power Interval Timer FAQ (md)](https://zukiapps.com/power-interval-timer/faq.md): machine-readable Q&A
+- [Sudoku Fun Go FAQ (md)](https://zukiapps.com/sudoku-puzzle/faq.md): machine-readable Q&A
+- [Football Trivia FAQ (md)](https://zukiapps.com/football-trivia/faq.md): machine-readable Q&A
+- [Fun Facts Trivia FAQ (md)](https://zukiapps.com/fun-facts-trivia/faq.md): machine-readable Q&A
+- [Bit Scope FAQ (md)](https://zukiapps.com/bit-scope/faq.md): machine-readable Q&A
+- [Track Ledger FAQ (md)](https://zukiapps.com/track-ledger/faq.md): machine-readable Q&A
+- [Noise Meter FAQ (md)](https://zukiapps.com/noise-meter-shusher/faq.md): machine-readable Q&A
+- [Paratrooper Blitz FAQ (md)](https://zukiapps.com/paratrooper-blitz/faq.md): machine-readable Q&A
+- [TempoLab Pro FAQ (md)](https://zukiapps.com/tempo-lab-pro/faq.md): machine-readable Q&A
+- [ZuList FAQ (md)](https://zukiapps.com/zulist/faq.md): machine-readable Q&A
+- [Zuli Collage FAQ (md)](https://zukiapps.com/zuli-collage/faq.md): machine-readable Q&A
+- [ToldYa FAQ (md)](https://zukiapps.com/toldya/faq.md): machine-readable Q&A
+- [ToldYa child safety](https://zukiapps.com/toldya/child-safety): CSAE standards page
+- [Time Since FAQ (md)](https://zukiapps.com/timesince/faq.md): machine-readable Q&A
+- [GEO Calc FAQ (md)](https://zukiapps.com/geo-calc/faq.md): machine-readable Q&A
+- [Hush Gallery App Store](https://apps.apple.com/il/app/hush-gallery/id6756169045): iOS listing
+- [Hush Gallery Google Play](https://play.google.com/store/apps/details?id=com.zuki.apps.hushGallery): Android listing
+- [Whistle Camera App Store](https://apps.apple.com/app/id1037716421): iOS listing
+- [Whistle Camera Google Play](https://play.google.com/store/apps/details?id=com.zuki.apps.whistlecamera): Android listing
 
 ## Contact
-- Developer / support: zuki.apps.dev@gmail.com (also embedded in app store listings and policies where applicable).
+
+- [About Zuki Apps](https://zukiapps.com/about): publisher story and contact context
+- [DSA / legal hub](https://zukiapps.com/dsa-compliance): EU trader information and legal entry points
+- [Support email](mailto:zuki.apps.dev@gmail.com): zuki.apps.dev@gmail.com (also on each app’s /support page)
+- [Phone](tel:+972506566393): +972-50-6566393

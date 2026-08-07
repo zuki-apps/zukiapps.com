@@ -7,8 +7,9 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import StarField from '@/components/StarField';
 import type { Metadata } from 'next';
-import { ArrowLeft, Code, Mail, Sparkles } from 'lucide-react';
+import { ArrowLeft, Code, Mail, Phone, Sparkles } from 'lucide-react';
 import { ZUKI_SITE_APPS } from '@/lib/siteCatalog';
+import { PUBLISHER_PHONE_E164 } from '@/lib/publisherContact';
 
 export async function generateMetadata({
   params,
@@ -51,6 +52,7 @@ export default async function AboutPage({
     name: 'Zuki Apps',
     url: 'https://zukiapps.com',
     email: t('email'),
+    telephone: PUBLISHER_PHONE_E164,
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Nachshol 36',
@@ -151,13 +153,22 @@ export default async function AboutPage({
 
             <h2 className="text-2xl font-semibold text-indigo-200 mb-3">{t('contactTitle')}</h2>
             <p className="text-gray-300 mb-2">{t('contactBody')}</p>
-            <a
-              href={`mailto:${t('email')}`}
-              className={`inline-flex items-center gap-2 text-indigo-300 hover:underline ${isRtl ? 'flex-row-reverse' : ''}`}
-            >
-              <Mail className="w-4 h-4" />
-              {t('email')}
-            </a>
+            <div className={`flex flex-col gap-2 mb-2 ${isRtl ? 'items-end' : 'items-start'}`}>
+              <a
+                href={`mailto:${t('email')}`}
+                className={`inline-flex items-center gap-2 text-indigo-300 hover:underline ${isRtl ? 'flex-row-reverse' : ''}`}
+              >
+                <Mail className="w-4 h-4" aria-hidden="true" />
+                {t('email')}
+              </a>
+              <a
+                href={`tel:${PUBLISHER_PHONE_E164}`}
+                className={`inline-flex items-center gap-2 text-indigo-300 hover:underline ${isRtl ? 'flex-row-reverse' : ''}`}
+              >
+                <Phone className="w-4 h-4" aria-hidden="true" />
+                {t('phone')}
+              </a>
+            </div>
             <p className="text-gray-400 text-sm mt-4">{t('address')}</p>
           </article>
         </div>

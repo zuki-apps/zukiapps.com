@@ -6,6 +6,7 @@ import LocaleHtmlSync from '@/components/LocaleHtmlSync';
 import { pickSharedClientMessages } from '@/lib/loadAppMessages';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
 import { buildSoftwareCatalogItemList } from '@/lib/siteCatalog';
+import { PUBLISHER_PHONE_E164 } from '@/lib/publisherContact';
 import { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import '../globals.css';
@@ -195,7 +196,10 @@ export default async function LocaleLayout({
     contactPoint: {
       '@type': 'ContactPoint',
       email: 'zuki.apps.dev@gmail.com',
-      contactType: 'Customer Service'
+      telephone: PUBLISHER_PHONE_E164,
+      contactType: 'Customer Service',
+      areaServed: 'Worldwide',
+      availableLanguage: ['en', 'he'],
     }
   };
 

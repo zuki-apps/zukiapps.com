@@ -6,6 +6,7 @@ import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
+import { PUBLISHER_PHONE_E164 } from '@/lib/publisherContact';
 
 export async function generateMetadata({
   params
@@ -130,6 +131,15 @@ export default async function DSACompliancePage({
                       </a>
                     </li>
                     <li className="text-gray-700">
+                      <strong>{t('businessInfo.phone')}:</strong>{' '}
+                      <a
+                        href={`tel:${PUBLISHER_PHONE_E164}`}
+                        className="text-blue-600 hover:underline"
+                      >
+                        {t('businessInfo.phoneValue')}
+                      </a>
+                    </li>
+                    <li className="text-gray-700">
                       <strong>{t('businessInfo.website')}:</strong>{' '}
                       <a
                         href={t('businessInfo.websiteValue')}
@@ -171,6 +181,15 @@ export default async function DSACompliancePage({
                       className="text-blue-600 hover:underline"
                     >
                       {t('contact.email')}
+                    </a>
+                  </p>
+                  <p className="text-gray-700 mb-2">
+                    <strong>{tCommon('phone')}:</strong>{' '}
+                    <a
+                      href={`tel:${PUBLISHER_PHONE_E164}`}
+                      className="text-blue-600 hover:underline"
+                    >
+                      {t('contact.phone')}
                     </a>
                   </p>
                   <p className="text-gray-700 mb-2">

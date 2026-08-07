@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Mail, Heart, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Mail, Heart, Instagram, Facebook, Youtube, Phone } from 'lucide-react';
 import lazyLoad from 'next/dynamic';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
@@ -102,7 +102,7 @@ export default async function Home({
               <p className="text-lg text-gray-300 mb-6">
                 {t('contact.description')}
               </p>
-              <div className="flex justify-center mb-6">
+              <div className="flex flex-wrap justify-center gap-3 mb-6">
                 <a
                   href="mailto:zuki.apps.dev@gmail.com"
                   className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-lg font-black hover:from-blue-400 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-lg hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
@@ -110,6 +110,14 @@ export default async function Home({
                 >
                   <Mail className="w-5 h-5" aria-hidden="true" />
                   {t('contact.sendEmail')}
+                </a>
+                <a
+                  href="tel:+972506566393"
+                  className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-indigo-500 to-indigo-700 text-white px-6 py-3 rounded-lg font-black hover:from-indigo-400 hover:to-indigo-600 focus:outline-none focus:ring-4 focus:ring-indigo-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-lg hover:shadow-xl hover:shadow-indigo-500/50 hover:scale-105 active:scale-95 border-2 border-indigo-400"
+                  aria-label={`${tCommon('phone')} - ${t('contact.phone')}`}
+                >
+                  <Phone className="w-5 h-5" aria-hidden="true" />
+                  {t('contact.phone')}
                 </a>
               </div>
               <div className="flex justify-center mb-6">

@@ -186,7 +186,7 @@
         },
         {
           "question": "How do I contact Zuki Apps?",
-          "answer": "For support and general inquiries, email zuki.apps.dev@gmail.com. The same address appears on app pages and in store listings where applicable."
+          "answer": "For support and general inquiries, email zuki.apps.dev@gmail.com or call +972-50-6566393. The same contact details appear on the About and DSA Compliance pages and in store listings where applicable."
         },
         {
           "question": "Where can I read privacy policies and terms?",
@@ -207,6 +207,7 @@
       "description": "Have a question, an idea, or just want to connect? I’d love to hear from you. Feedback, feature requests, and bug reports are welcome — I read what you send and do my best to reply to everyone.",
       "sendEmail": "Send Email",
       "email": "zuki.apps.dev@gmail.com",
+      "phone": "+972-50-6566393",
       "support": "Support My Work"
     },
     "social": {
@@ -286,6 +287,7 @@
     "back": "Back",
     "home": "Home",
     "email": "Email",
+    "phone": "Phone",
     "address": "Address",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
@@ -311,6 +313,7 @@
     "contactTitle": "Contact",
     "contactBody": "Questions, press, or partnership inquiries:",
     "email": "zuki.apps.dev@gmail.com",
+    "phone": "+972-50-6566393",
     "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
     "catalogTitle": "App catalog",
     "catalogBody": "Browse all product pages, support, and policies from the home page or our machine-readable catalog at /api/site-facts."
@@ -332,6 +335,8 @@
       "contactEmailValue": "zuki.apps.dev@gmail.com",
       "supportEmail": "Support Email",
       "supportEmailValue": "zuki.apps@gmail.com",
+      "phone": "Phone",
+      "phoneValue": "+972-50-6566393",
       "website": "Website",
       "websiteValue": "https://zukiapps.com"
     },
@@ -349,6 +354,7 @@
       "title": "Contact Us",
       "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
       "email": "zuki.apps.dev@gmail.com",
+      "phone": "+972-50-6566393",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
     }
   }
