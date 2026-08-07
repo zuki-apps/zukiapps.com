@@ -223,7 +223,6 @@ async function checkLiveHttp(sitemapPaths) {
   const redirectChecks = [
     { path: '/collagio', mustInclude: 'zuli-collage' },
     { path: '/hushgallery', mustInclude: 'hush-gallery' },
-    { path: '/zulist/invite/smoke-test-id', mustInclude: 'zulist' },
     { path: '/he/collagio', mustInclude: 'zuli-collage' },
     { path: '/ja/hushgallery', mustInclude: 'hush-gallery' },
   ];
@@ -234,6 +233,23 @@ async function checkLiveHttp(sitemapPaths) {
       fail(`live redirect check failed: ${path} → ${res.status} ${res.url}`);
     }
     console.log(`  OK ${path} → 200 (${mustInclude})`);
+  }
+
+  // Invite deep links must serve the ZuList shell (not CF 404.html / home SPA).
+  for (const path of ['/zulist/invite/smoke-test-id', '/he/zulist/invite/smoke-test-id']) {
+    const res = await fetch(`${base}${path}`, { redirect: 'follow' });
+    const body = await res.text();
+    const looksLikeInvite =
+      /<title>[^<]*ZuList/i.test(body) || /הזמנה|zulist:\/\/invite/i.test(body);
+    const looksLikeMissing =
+      /404:\s*This page could not be found/i.test(body) ||
+      /Deployment Not Found/i.test(body);
+    if (res.status !== 200 || !looksLikeInvite || looksLikeMissing) {
+      fail(
+        `live invite deep link failed: ${path} → ${res.status} (expected ZuList invite shell)`
+      );
+    }
+    console.log(`  OK ${path} → 200 (zulist invite shell)`);
   }
 
   const assetErrors = await verifyLiveAssetHeaders(base);

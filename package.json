@@ -22,6 +22,7 @@
     "start": "next start",
     "preview": "set -a && . ./.env.cloudflare && set +a && opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "node scripts/static-export-build.mjs && node scripts/pages-deploy.mjs",
+    "functions:build": "node scripts/pages-functions-build.mjs",
     "upload": "set -a && . ./.env.cloudflare && set +a && opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "lint": "next lint",

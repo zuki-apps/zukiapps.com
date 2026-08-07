@@ -122,6 +122,10 @@ try {
     { allowFail: true }
   );
 
+  // Bundle invite deep-link Functions into out/_worker.js before upload.
+  run(['node', 'scripts/pages-functions-build.mjs']);
+
+  // Pages deploy rejects --config; only hide wrangler.jsonc (done above).
   const deployArgs = [
     'wrangler',
     'pages',
@@ -131,8 +135,6 @@ try {
     projectName,
     '--branch',
     branch,
-    '--config',
-    'wrangler.pages.jsonc',
     '--skip-caching',
   ];
 

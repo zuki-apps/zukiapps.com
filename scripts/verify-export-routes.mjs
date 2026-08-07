@@ -163,18 +163,28 @@ export function startStaticServer(outDir, port = 0) {
   });
 }
 
-export async function probeHttp(base, pathname) {
+export async function probeHttp(base, pathname, { timeoutMs = 15000, retries = 1 } = {}) {
   const url = `${base.replace(/\/+$/, '')}${pathname === '/' ? '/' : pathname}`;
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 10000);
-  try {
-    const res = await fetch(url, { method: 'HEAD', redirect: 'manual', signal: controller.signal });
-    return { pathname, status: res.status, location: res.headers.get('location') };
-  } catch (err) {
-    return { pathname, status: 'ERR', error: err instanceof Error ? err.message : String(err) };
-  } finally {
-    clearTimeout(timer);
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const res = await fetch(url, { method: 'HEAD', redirect: 'manual', signal: controller.signal });
+      return { pathname, status: res.status, location: res.headers.get('location') };
+    } catch (err) {
+      lastErr = err;
+      // Brief backoff before retrying aborted/live network flakes.
+      if (attempt < retries) await new Promise((r) => setTimeout(r, 400 * (attempt + 1)));
+    } finally {
+      clearTimeout(timer);
+    }
   }
+  return {
+    pathname,
+    status: 'ERR',
+    error: lastErr instanceof Error ? lastErr.message : String(lastErr),
+  };
 }
 
 export async function probeAllHttp(base, paths, { concurrency = 32, expectRedirect } = {}) {
