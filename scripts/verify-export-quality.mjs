@@ -95,6 +95,9 @@ export function verifyStaticAssets(outDir) {
   if (!headers.includes('/images/*')) {
     errors.push('_headers missing /images/* cache rule');
   }
+  if (!/X-Robots-Tag:\s*index,\s*follow/i.test(headers)) {
+    errors.push('_headers missing X-Robots-Tag: index, follow (prevents accidental noindex)');
+  }
 
   return errors;
 }

@@ -242,6 +242,13 @@ async function checkLiveHttp(sitemapPaths) {
   }
   console.log('smoke: live asset headers OK');
 
+  const homeHeaders = await fetch(`${base}/`, { method: 'HEAD', redirect: 'follow' });
+  const robotsTag = (homeHeaders.headers.get('x-robots-tag') || '').toLowerCase();
+  if (robotsTag.includes('noindex')) {
+    fail(`live X-Robots-Tag blocks indexing: ${robotsTag}`);
+  }
+  console.log(`smoke: live robots tag OK (${robotsTag || 'none'})`);
+
   const bogus = await fetch(`${base}/__smoke-missing-page-${Date.now()}`);
   if (bogus.status !== 404) {
     fail(`live 404 check: expected 404 for bogus path, got ${bogus.status}`);

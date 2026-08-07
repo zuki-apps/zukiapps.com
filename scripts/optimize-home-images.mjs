@@ -1,5 +1,5 @@
 /**
- * Resize + compress home LCP assets (logo, grid icons, carousel monsters).
+ * Resize + compress home LCP assets (logo, grid icons, carousel monsters, CTA).
  * Run: node scripts/optimize-home-images.mjs
  */
 import fs from 'fs';
@@ -37,18 +37,19 @@ async function writeOptimizedIcon(relPath) {
   const webpOut = input.replace(/\.png$/i, '.webp');
   const pngTmp = `${input}.opt.tmp`;
 
-  const pipeline = sharp(input).resize(256, 256, {
+  // Grid/carousel display ≤128 CSS px → 192 covers 1.5–2×; keeps files small for LCP.
+  const pipeline = sharp(input).resize(192, 192, {
     fit: 'contain',
     background: { r: 0, g: 0, b: 0, alpha: 0 },
   });
 
-  await pipeline.clone().webp({ quality: 78, effort: 6 }).toFile(webpOut);
+  await pipeline.clone().webp({ quality: 70, effort: 6 }).toFile(webpOut);
   await pipeline.clone().png({ compressionLevel: 9 }).toFile(pngTmp);
   fs.renameSync(pngTmp, input);
 
-  const afterWebp = fs.statSync(webpOut).size;
-  const afterPng = fs.statSync(input).size;
-  console.log(`${relPath} → webp ${(afterWebp / 1024).toFixed(1)} KiB, png ${(afterPng / 1024).toFixed(1)} KiB`);
+  console.log(
+    `${relPath} → webp ${(fs.statSync(webpOut).size / 1024).toFixed(1)} KiB, png ${(fs.statSync(input).size / 1024).toFixed(1)} KiB`
+  );
 }
 
 async function writeOptimizedMonster(relPath) {
@@ -58,13 +59,12 @@ async function writeOptimizedMonster(relPath) {
     return;
   }
   const webpOut = input.replace(/\.png$/i, '.webp');
-  // Displayed ~128–160 CSS px → 320px covers 2× DPR
   await sharp(input)
-    .resize(320, 320, {
+    .resize(256, 256, {
       fit: 'contain',
       background: { r: 0, g: 0, b: 0, alpha: 0 },
     })
-    .webp({ quality: 80, effort: 6 })
+    .webp({ quality: 72, effort: 6 })
     .toFile(webpOut);
 
   console.log(`${relPath} → webp ${(fs.statSync(webpOut).size / 1024).toFixed(1)} KiB`);
@@ -73,16 +73,24 @@ async function writeOptimizedMonster(relPath) {
 async function writeOptimizedLogo() {
   const input = path.join(publicDir, 'logo.png');
   const webpOut = path.join(publicDir, 'logo.webp');
-  const pngTmp = path.join(publicDir, 'logo.opt.tmp');
+  // Hero CSS max ~160px → 280px source covers ~1.75× DPR with far fewer bytes.
+  await sharp(input)
+    .resize(280, 280, { fit: 'inside' })
+    .webp({ quality: 62, effort: 6 })
+    .toFile(webpOut);
 
-  // Keep native 370px; display CSS is capped in Logo.tsx for retina.
-  await sharp(input).webp({ quality: 82, effort: 6 }).toFile(webpOut);
-  await sharp(input).png({ compressionLevel: 9 }).toFile(pngTmp);
-  fs.renameSync(pngTmp, input);
+  console.log(`logo → webp ${(fs.statSync(webpOut).size / 1024).toFixed(1)} KiB`);
+}
 
-  console.log(
-    `logo → webp ${(fs.statSync(webpOut).size / 1024).toFixed(1)} KiB, png ${(fs.statSync(input).size / 1024).toFixed(1)} KiB`
-  );
+async function writeCoffeeButton() {
+  const input = path.join(publicDir, 'images/buy-me-a-coffee-button.png');
+  if (!fs.existsSync(input)) return;
+  const webpOut = input.replace(/\.png$/i, '.webp');
+  await sharp(input)
+    .resize({ width: 290, withoutEnlargement: true })
+    .webp({ quality: 75, effort: 6 })
+    .toFile(webpOut);
+  console.log(`coffee → webp ${(fs.statSync(webpOut).size / 1024).toFixed(1)} KiB`);
 }
 
 for (const rel of HOME_ICONS) {
@@ -92,4 +100,5 @@ for (const rel of MONSTERS) {
   await writeOptimizedMonster(rel);
 }
 await writeOptimizedLogo();
+await writeCoffeeButton();
 console.log('Done.');

@@ -129,7 +129,7 @@ export default async function Home({
                   aria-label={t('contact.support')}
                 >
                   <Image
-                    src="/images/buy-me-a-coffee-button.png"
+                    src="/images/buy-me-a-coffee-button.webp"
                     alt={t('contact.support')}
                     width={145}
                     height={40}

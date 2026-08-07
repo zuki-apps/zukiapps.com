@@ -56,22 +56,31 @@ export default function RootLayout({
       </head>
       <body className="bg-twilight-canvas min-h-screen text-white antialiased">
         {measurementId ? (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
-              strategy="lazyOnload"
-            />
-            <Script id="google-analytics" strategy="lazyOnload">
-              {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${measurementId}', {
-              page_path: window.location.pathname,
-            });
+          <Script id="google-analytics-deferred" strategy="afterInteractive">
+            {`
+            (function () {
+              var id = '${measurementId}';
+              var loaded = false;
+              function loadGa() {
+                if (loaded) return;
+                loaded = true;
+                var s = document.createElement('script');
+                s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+                s.async = true;
+                document.head.appendChild(s);
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                window.gtag = gtag;
+                gtag('js', new Date());
+                gtag('config', id, { page_path: window.location.pathname });
+              }
+              ['pointerdown','keydown','touchstart','scroll'].forEach(function (evt) {
+                window.addEventListener(evt, loadGa, { once: true, passive: true });
+              });
+              setTimeout(loadGa, 8000);
+            })();
           `}
-            </Script>
-          </>
+          </Script>
         ) : null}
         {children}
       </body>
