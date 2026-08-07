@@ -209,9 +209,9 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Post-deploy smoke (all routes on pages.dev)
-        run: |
-          sleep 15
-          npm run smoke:live
+        run: npm run smoke:live
+        env:
+          SMOKE_LIVE_READY_TIMEOUT_MS: "180000"
 
       - name: Restore Worker wrangler config
         if: always()

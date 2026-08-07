@@ -203,10 +203,48 @@ async function checkLocalHttp(paths) {
   }
 }
 
+async function waitForLiveReady(base) {
+  const timeoutMs = Number(process.env.SMOKE_LIVE_READY_TIMEOUT_MS || 180_000);
+  const intervalMs = Number(process.env.SMOKE_LIVE_READY_INTERVAL_MS || 5_000);
+  const canaryPaths = ['/', '/privacy', '/accessibility', '/en'];
+  const deadline = Date.now() + timeoutMs;
+  let attempt = 0;
+
+  while (Date.now() < deadline) {
+    attempt += 1;
+    try {
+      const results = await Promise.all(
+        canaryPaths.map(async (path) => {
+          const res = await fetch(`${base}${path}`, { redirect: 'follow' });
+          return { path, status: res.status };
+        })
+      );
+      const bad = results.filter((r) => r.status !== 200);
+      if (bad.length === 0) {
+        console.log(`smoke: live host ready after ${attempt} attempt(s)`);
+        return;
+      }
+      console.log(
+        `smoke: waiting for live host (attempt ${attempt}): ${bad
+          .map((r) => `${r.path}→${r.status}`)
+          .join(', ')}`
+      );
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.log(`smoke: waiting for live host (attempt ${attempt}): ${msg}`);
+    }
+    await new Promise((r) => setTimeout(r, intervalMs));
+  }
+
+  fail(`live host not ready within ${timeoutMs}ms: ${base}`);
+}
+
 async function checkLiveHttp(sitemapPaths) {
   const { probeAllHttp } = await import('./verify-export-routes.mjs');
   const base = urlFlag.replace(/\/+$/, '');
   console.log(`smoke: live HTTP probe ${base} (${sitemapPaths.length} sitemap URLs)`);
+
+  await waitForLiveReady(base);
 
   const { ok, errors, total } = await probeAllHttp(base, sitemapPaths, { concurrency: 16 });
   if (errors.length) {
