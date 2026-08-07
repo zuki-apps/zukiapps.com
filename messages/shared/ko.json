@@ -203,7 +203,8 @@
       "description": "질문이나 아이디어가 있거나 그냥 인사를 나누고 싶으신가요? 언제든 연락 주세요. 피드백·기능 요청·버그 신고도 환영이며, 보내 주신 내용은 모두 읽고 가능한 한 모두에게 답하려고 노력합니다.",
       "sendEmail": "이메일 보내기",
       "email": "zuki.apps@gmail.com",
-      "support": "내 작업 지원하기"
+      "support": "내 작업 지원하기",
+      "phone": "+972-50-6566393"
     },
     "social": {
       "title": "소셜 미디어",
@@ -218,7 +219,8 @@
       "copyright": "© 2025 Zuki Apps - 모든 권리 보유. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "이스라엘에서 개발 • 취미로 • 열정을 가지고",
       "support": "내 작업 지원하기",
-      "about": "Zuki Apps 소개"
+      "about": "Zuki Apps 소개",
+      "dreambitLegacy": "DreamBit 레거시 앱 (Android)"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -258,6 +260,29 @@
         "filters": "필터 및 스티커",
         "private": "로그인 불필요"
       }
+    },
+    "carouselAriaLabel": "추천 앱",
+    "geoCalc": {
+      "title": "GEO Calc : Coordinates",
+      "subtitle": "UTM · MGRS · 지도 · 탐색",
+      "description": "DD, DMS, UTM, MGRS 변환, Vincenty 거리·방위 계산, 지도 측정, GPX 내보내기. App Store와 Google Play에서 무료.",
+      "features": {
+        "converter": "좌표 변환",
+        "distance": "거리와 방위",
+        "offline": "오프라인 작동"
+      },
+      "learnMore": "GEO Calc 자세히 →"
+    },
+    "timeSince": {
+      "title": "Time Since — 연속 기록 트래커",
+      "subtitle": "체인을 끊지 마세요",
+      "description": "형성하는 습관과 끊은 지 며칠째인지 연속으로 추적 — 목표 링, 위젯, 공유 카드 포함. App Store와 Google Play에서 무료.",
+      "features": {
+        "streaks": "끊기·형성 연속 기록",
+        "goals": "목표 링",
+        "widgets": "홈 위젯"
+      },
+      "learnMore": "Time Since 자세히 →"
     }
   },
   "common": {
@@ -272,7 +297,35 @@
     "contact": "연락처",
     "contactUs": "문의하기",
     "dsaCompliance": "DSA 준수",
-    "deleteAccount": "Delete Account"
+    "deleteAccount": "Delete Account",
+    "changeLanguage": "언어 변경",
+    "siteLegalNav": "법률 및 접근성",
+    "accessibilityFab": "접근성 성명",
+    "currentLanguage": "현재 언어",
+    "accessibility": "접근성",
+    "skipToContent": "본문으로 건너뛰기",
+    "cookies": {
+      "title": "쿠키 및 분석",
+      "body": "동의한 경우에만 Google Analytics를 사용합니다. 어떤 페이지가 유용한지 파악하는 데 도움이 됩니다. 광고 쿠키는 없습니다. 거부하고 정상적으로 이용할 수 있습니다.",
+      "accept": "분석 허용",
+      "reject": "거부",
+      "learnMore": "DSA / 법률",
+      "learnMoreA11y": "접근성",
+      "learnMorePrivacy": "웹사이트 개인정보"
+    },
+    "carousel": {
+      "previous": "이전 앱",
+      "next": "다음 앱",
+      "goToSlide": "{n}번 슬라이드로 이동"
+    },
+    "phone": "전화",
+    "otherZukiApps": {
+      "title": "Zuki Apps의 더 많은 앱",
+      "subtitle": "같은 개발자의 다른 무료 iOS·Android 앱을 살펴보세요.",
+      "viewAll": "모든 앱 보기 →"
+    },
+    "sitePrivacy": "웹사이트 개인정보",
+    "privacyShort": "개인정보"
   },
   "dsa": {
     "title": "디지털 서비스법(DSA) 준수",
@@ -292,7 +345,9 @@
       "supportEmail": "지원 이메일",
       "supportEmailValue": "zuki.apps@gmail.com",
       "website": "웹사이트",
-      "websiteValue": "https://zukiapps.com"
+      "websiteValue": "https://zukiapps.com",
+      "phone": "전화",
+      "phoneValue": "+972-50-6566393"
     },
     "consumerRights": {
       "title": "소비자 권리",
@@ -308,7 +363,8 @@
       "title": "Contact Us",
       "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
       "email": "zuki.apps.dev@gmail.com",
-      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "phone": "+972-50-6566393"
     }
   },
   "about": {
@@ -323,6 +379,39 @@
     "contactBody": "질문, 보도 자료 또는 파트너십 문의:",
     "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘",
     "catalogTitle": "앱 카탈로그",
-    "catalogBody": "홈 페이지나 /api/site-facts의 기계 판독 가능 카탈로그에서 모든 제품 페이지, 지원 및 정책을 찾아보세요."
+    "catalogBody": "홈 페이지나 /api/site-facts의 기계 판독 가능 카탈로그에서 모든 제품 페이지, 지원 및 정책을 찾아보세요.",
+    "email": "zuki.apps.dev@gmail.com",
+    "phone": "+972-50-6566393"
+  },
+  "accessibility": {
+    "metaTitle": "접근성 성명 | Zuki Apps",
+    "metaDescription": "zukiapps.com 접근성: 키보드, 스크린 리더, 연락처, WCAG 2.1 AA 지향.",
+    "title": "접근성 성명",
+    "subtitle": "Zuki Apps 웹사이트(zukiapps.com)",
+    "lastUpdated": "최종 업데이트: 2026년 8월",
+    "s1": {
+      "title": "우리의 약속",
+      "body": "Zuki Apps는 키보드, 스크린 리더, 확대, 모션 감소 설정을 사용하는 분을 포함해 가능한 한 많은 사람이 이 마케팅 사이트를 이용할 수 있도록 노력합니다.\n\nWCAG 2.1 수준 AA를 지향합니다. 본 사이트는 소개/카탈로그 사이트입니다(사이트 자체 사용자 계정 없음)."
+    },
+    "s2": {
+      "title": "조치 사항",
+      "body": "• 본문 건너뛰기 링크\n• 가능한 범위의 의미론적 제목과 랜드마크\n• 의미 있는 이미지의 대체 텍스트\n• 키보드 포커스 표시\n• prefers-reduced-motion 존중\n• 히브리어·아랍어 RTL\n• 선택적 동의 후에만 분석 쿠키"
+    },
+    "s3": {
+      "title": "알려진 제한",
+      "body": "• 일부 제품 페이지의 캐러셀·장식 모션은 보조공학과의 호환이 아직 완벽하지 않을 수 있습니다\n• Apple/Google 스토어 배지는 제3자입니다\n• DreamBit 아카이브는 편차가 있을 수 있습니다\n\n확인된 문제는 지속적으로 개선합니다."
+    },
+    "s4": {
+      "title": "호환성",
+      "body": "최신 주요 브라우저(Chrome, Safari, Firefox, Edge)와 데스크톱·모바일의 일반 보조공학을 기준으로 합니다. OS와 브라우저를 최신으로 유지하세요."
+    },
+    "s5": {
+      "title": "표준",
+      "body": "본 성명은 WCAG 2.1을 따르며, 이스라엘 방문자에게는 SI 5568(WCAG 2.0 AA) 취지에도 부합하도록 합니다. 공식 전체 감사는 진행 중이며, 여기서는 실무 접근과 신고 방법을 안내합니다."
+    },
+    "contact": {
+      "title": "장벽 신고",
+      "body": "zukiapps.com에서 장벽을 만나면 이메일 또는 전화로 알려 주세요. 페이지 URL과 하려던 작업을 적어 주시면 최선을 다해 도와드리겠습니다."
+    }
   }
 }

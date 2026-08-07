@@ -60,6 +60,18 @@
     scroll-behavior: smooth;
   }
 
+  /* Keyboard focus — visible ring for interactive controls */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  summary:focus-visible,
+  [tabindex]:not([tabindex='-1']):focus-visible {
+    outline: 2px solid #60a5fa;
+    outline-offset: 2px;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     *,
     *::before,

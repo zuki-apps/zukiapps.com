@@ -203,7 +203,8 @@
       "description": "有问题、点子，或只是想打个招呼？欢迎联系我。反馈、功能建议和错误报告都很欢迎——我会阅读每一封消息，并尽力回复大家。",
       "sendEmail": "发送邮件",
       "email": "zuki.apps@gmail.com",
-      "support": "支持我的工作"
+      "support": "支持我的工作",
+      "phone": "+972-50-6566393"
     },
     "social": {
       "title": "社交媒体",
@@ -218,7 +219,8 @@
       "copyright": "© 2025 Zuki Apps - All rights reserved. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "在以色列开发 • 作为爱好 • 充满热情",
       "support": "支持我的工作",
-      "about": "约Zuki Apps"
+      "about": "约Zuki Apps",
+      "dreambitLegacy": "DreamBit 旧版应用（Android）"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -258,6 +260,29 @@
         "filters": "滤镜和贴纸",
         "private": "无需登录"
       }
+    },
+    "carouselAriaLabel": "精选应用",
+    "geoCalc": {
+      "title": "GEO Calc : Coordinates",
+      "subtitle": "UTM · MGRS · 地图 · 导航",
+      "description": "转换 DD、DMS、UTM 与 MGRS，计算 Vincenty 距离与方位，地图测距并导出 GPX。App Store 与 Google Play 免费。",
+      "features": {
+        "converter": "坐标转换",
+        "distance": "距离与方位",
+        "offline": "可离线使用"
+      },
+      "learnMore": "了解更多 GEO Calc →"
+    },
+    "timeSince": {
+      "title": "Time Since — 连续打卡",
+      "subtitle": "别打断连锁",
+      "description": "追踪正在养成的习惯与戒断天数——含目标环、小组件与可分享卡片。App Store 与 Google Play 免费。",
+      "features": {
+        "streaks": "戒断与养成连续",
+        "goals": "目标环",
+        "widgets": "主屏幕小组件"
+      },
+      "learnMore": "了解更多 Time Since →"
     }
   },
   "common": {
@@ -272,7 +297,35 @@
     "contact": "联系",
     "contactUs": "联系我们",
     "dsaCompliance": "DSA合规",
-    "deleteAccount": "Delete Account"
+    "deleteAccount": "Delete Account",
+    "changeLanguage": "更改语言",
+    "siteLegalNav": "法律与无访问性",
+    "accessibilityFab": "无访问性声明",
+    "currentLanguage": "当前语言",
+    "accessibility": "无障碍",
+    "skipToContent": "跳到主要内容",
+    "cookies": {
+      "title": "Cookie 与分析",
+      "body": "仅在您同意后使用 Google Analytics，以了解哪些页面有用。无广告 Cookie。可拒绝并正常浏览。",
+      "accept": "接受分析",
+      "reject": "拒绝",
+      "learnMore": "DSA / 法律",
+      "learnMoreA11y": "无障碍",
+      "learnMorePrivacy": "网站隐私"
+    },
+    "carousel": {
+      "previous": "上一个应用",
+      "next": "下一个应用",
+      "goToSlide": "转到第 {n} 张幻灯片"
+    },
+    "phone": "电话",
+    "otherZukiApps": {
+      "title": "更多 Zuki Apps",
+      "subtitle": "探索同一开发者的其他免费 iOS 与 Android 应用。",
+      "viewAll": "查看全部应用 →"
+    },
+    "sitePrivacy": "网站隐私",
+    "privacyShort": "隐私"
   },
   "dsa": {
     "title": "数字服务法 (DSA) 合规性",
@@ -292,7 +345,9 @@
       "supportEmail": "支持邮箱",
       "supportEmailValue": "zuki.apps@gmail.com",
       "website": "网站",
-      "websiteValue": "https://zukiapps.com"
+      "websiteValue": "https://zukiapps.com",
+      "phone": "电话",
+      "phoneValue": "+972-50-6566393"
     },
     "consumerRights": {
       "title": "消费者权利",
@@ -308,7 +363,8 @@
       "title": "Contact Us",
       "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
       "email": "zuki.apps.dev@gmail.com",
-      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "phone": "+972-50-6566393"
     }
   },
   "about": {
@@ -323,6 +379,39 @@
     "contactBody": "问题、新闻或合作询问：",
     "address": "Nachshol 36，SAAR，邮政信箱22805, 以色列",
     "catalogTitle": "应用目录",
-    "catalogBody": "从主页或位于 /api/site-facts 的机器可读目录浏览所有产品页面、支持和政策。"
+    "catalogBody": "从主页或位于 /api/site-facts 的机器可读目录浏览所有产品页面、支持和政策。",
+    "email": "zuki.apps.dev@gmail.com",
+    "phone": "+972-50-6566393"
+  },
+  "accessibility": {
+    "metaTitle": "无障碍声明 | Zuki Apps",
+    "metaDescription": "zukiapps.com 无障碍：键盘、屏幕阅读器、联系方式，并以 WCAG 2.1 AA 为导向。",
+    "title": "无障碍声明",
+    "subtitle": "Zuki Apps 网站（zukiapps.com）",
+    "lastUpdated": "最近更新：2026年8月",
+    "s1": {
+      "title": "我们的承诺",
+      "body": "Zuki Apps 希望尽量让更多人能使用本营销网站，包括使用键盘、屏幕阅读器、放大显示和减少动效的用户。\n\n我们以 WCAG 2.1 AA 级为目标。本站为介绍/目录站（网站本身无用户账户）。"
+    },
+    "s2": {
+      "title": "采取的措施",
+      "body": "• 跳到主内容链接\n• 在可行处使用语义标题与地标\n• 重要图片的替代文本\n• 键盘可见焦点\n• 尊重 prefers-reduced-motion\n• 希伯来语与阿拉伯语 RTL\n• 仅在可选同意后使用分析 Cookie"
+    },
+    "s3": {
+      "title": "已知限制",
+      "body": "• 部分产品页的轮播或装饰动效在辅助技术下仍可能不完善\n• Apple/Google 商店徽章为第三方\n• DreamBit 归档页可能不够一致\n\n我们会持续改进发现问题。"
+    },
+    "s4": {
+      "title": "兼容性",
+      "body": "面向主流新版浏览器（Chrome、Safari、Firefox、Edge）及常见桌面/移动辅助技术。建议保持系统和浏览器更新。"
+    },
+    "s5": {
+      "title": "标准",
+      "body": "本声明参考 WCAG 2.1；对以色列访客亦体现 SI 5568（WCAG 2.0 AA）精神。正式全面审计持续进行中；此处说明实务做法与反馈渠道。"
+    },
+    "contact": {
+      "title": "报告障碍",
+      "body": "若在 zukiapps.com 遇到障碍，请发邮件或致电。请提供页面 URL 与您想完成的操作——我们会尽力协助。"
+    }
   }
 }

@@ -280,6 +280,11 @@
         "goals": "Goal Rings",
         "widgets": "Home Widgets"
       }
+    },
+    "heroCta": {
+      "browseApps": "Browse our apps",
+      "googlePlay": "Google Play developer",
+      "appStore": "Find us on the App Store"
     }
   },
   "common": {
@@ -300,7 +305,29 @@
       "title": "More from Zuki Apps",
       "subtitle": "Explore other free iOS & Android apps from the same developer.",
       "viewAll": "View all apps →"
-    }
+    },
+    "cookies": {
+      "title": "Cookies & analytics",
+      "body": "We use Google Analytics only if you accept. It helps us understand which pages are useful. No ads cookies. You can reject and browse normally.",
+      "accept": "Accept analytics",
+      "reject": "Reject",
+      "learnMore": "DSA / legal info",
+      "learnMoreA11y": "Accessibility",
+      "learnMorePrivacy": "Website privacy"
+    },
+    "skipToContent": "Skip to main content",
+    "accessibility": "Accessibility",
+    "changeLanguage": "Change language",
+    "siteLegalNav": "Site legal and accessibility",
+    "accessibilityFab": "Accessibility statement",
+    "currentLanguage": "Current language",
+    "carousel": {
+      "previous": "Previous app",
+      "next": "Next app",
+      "goToSlide": "Go to slide {n}"
+    },
+    "sitePrivacy": "Website privacy",
+    "privacyShort": "Privacy"
   },
   "about": {
     "metaTitle": "About Zuki Apps — Mobile Developer | Zuki Apps",
@@ -356,6 +383,64 @@
       "email": "zuki.apps.dev@gmail.com",
       "phone": "+972-50-6566393",
       "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+    }
+  },
+  "accessibility": {
+    "metaTitle": "Accessibility statement | Zuki Apps",
+    "metaDescription": "Accessibility statement for zukiapps.com: keyboard access, screen readers, contact for barriers, alignment with WCAG 2.1 Level AA aims.",
+    "title": "Accessibility statement",
+    "subtitle": "Zuki Apps website (zukiapps.com)",
+    "lastUpdated": "Last updated: August 2026",
+    "s1": {
+      "title": "Our commitment",
+      "body": "Zuki Apps aims to make this marketing website usable by as many people as possible, including people who use keyboards, screen readers, magnification, and reduced-motion preferences.\n\nWe work toward the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. This site is a brochure / catalog site (no user accounts on the website itself)."
+    },
+    "s2": {
+      "title": "Measures we take",
+      "body": "• Skip link to jump to main content\n• Semantic headings and landmarks where practical\n• Text alternatives for meaningful images\n• Visible focus styles for keyboard users\n• Respect for prefers-reduced-motion\n• RTL layout support for Hebrew and Arabic\n• Analytics cookies only after optional consent"
+    },
+    "s3": {
+      "title": "Known limitations",
+      "body": "• Some product pages include rich carousels or decorative motion that may still be imperfect with assistive technology\n• Third-party store badges and embeds are controlled by Apple / Google and may not meet the same standard\n• Older archive pages (DreamBit legacy) prioritize historical listings and may be simpler or uneven\n\nWe improve issues as we find them."
+    },
+    "s4": {
+      "title": "Compatibility",
+      "body": "The site is designed to work with current versions of major browsers (Chrome, Safari, Firefox, Edge) and common assistive technologies on desktop and mobile. We recommend keeping your browser and OS up to date."
+    },
+    "s5": {
+      "title": "Standards",
+      "body": "This statement is informed by WCAG 2.1 and, for visitors in Israel, the spirit of Israeli Standard SI 5568 (based on WCAG 2.0 AA). Full formal conformance auditing is ongoing; this page describes our practical approach and how to report barriers."
+    },
+    "contact": {
+      "title": "Report an accessibility barrier",
+      "body": "If you encounter a barrier on zukiapps.com, email or call us. Please include the page URL and what you were trying to do. We will do our best to help."
+    }
+  },
+  "sitePrivacy": {
+    "metaTitle": "Website Privacy | Zuki Apps",
+    "metaDescription": "How zukiapps.com handles analytics cookies, contact data, and links to per-app privacy policies.",
+    "title": "Website privacy",
+    "subtitle": "zukiapps.com",
+    "lastUpdated": "Last updated: August 2026",
+    "s1": {
+      "title": "Scope",
+      "body": "This notice covers the public marketing website zukiapps.com (including locale paths). Each mobile app has its own Privacy Policy linked from that app’s product page."
+    },
+    "s2": {
+      "title": "What we collect on the website",
+      "body": "• No account or login on this website\n• Optional Google Analytics only after you accept cookies (you can reject)\n• If you email or call us, we process the contact details you send in order to reply\n• Server or CDN logs may include standard technical data (IP, user agent) for security and reliability"
+    },
+    "s3": {
+      "title": "Cookies & analytics",
+      "body": "Non-essential analytics cookies load only after Accept on the cookie banner. Reject keeps the site fully usable. You can clear site data in your browser to reset the choice."
+    },
+    "s4": {
+      "title": "App privacy policies",
+      "body": "For data practices inside each app (camera, lists, location, ads SDKs, and so on), open that app’s page on this site and read its Privacy Policy."
+    },
+    "s5": {
+      "title": "Contact",
+      "body": "Questions about this website’s privacy: zuki.apps.dev@gmail.com or +972-50-6566393."
     }
   }
 }

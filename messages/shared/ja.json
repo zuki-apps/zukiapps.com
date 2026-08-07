@@ -203,7 +203,8 @@
       "description": "ご質問、アイデア、またはご連絡はいつでもどうぞ。フィードバック、機能のご要望、不具合のご報告も歓迎です。お送りいただいた内容はすべて目を通し、できる限りすべての方に返信するよう心がけています。",
       "sendEmail": "メールを送信",
       "email": "zuki.apps@gmail.com",
-      "support": "私の仕事をサポート"
+      "support": "私の仕事をサポート",
+      "phone": "+972-50-6566393"
     },
     "social": {
       "title": "ソーシャルメディア",
@@ -218,7 +219,8 @@
       "copyright": "© 2025 Zuki Apps - 全著作権所有. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "イスラエルで開発 • 趣味として • 情熱を持って",
       "support": "私の仕事をサポート",
-      "about": "Zuki Appsについて"
+      "about": "Zuki Appsについて",
+      "dreambitLegacy": "DreamBit レガシーアプリ（Android）"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -258,6 +260,29 @@
         "filters": "フィルターとステッカー",
         "private": "ログイン不要"
       }
+    },
+    "carouselAriaLabel": "注目のアプリ",
+    "geoCalc": {
+      "title": "GEO Calc : Coordinates",
+      "subtitle": "UTM · MGRS · 地図 · ナビ",
+      "description": "DD / DMS / UTM / MGRS 変換、Vincenty 距離・方位、地図計測、GPX 書き出し。App Store と Google Play で無料。",
+      "features": {
+        "converter": "座標変換",
+        "distance": "距離と方位",
+        "offline": "オフライン対応"
+      },
+      "learnMore": "GEO Calc の詳細 →"
+    },
+    "timeSince": {
+      "title": "Time Since — ストリーク記録",
+      "subtitle": "チェーンを切らさない",
+      "description": "続ける習慣とやめた日数をストリークで記録。目標リング、ウィジェット、共有カード付き。App Store と Google Play で無料。",
+      "features": {
+        "streaks": "やめる／続けるストリーク",
+        "goals": "目標リング",
+        "widgets": "ホームウィジェット"
+      },
+      "learnMore": "Time Since の詳細 →"
     }
   },
   "common": {
@@ -272,7 +297,35 @@
     "contact": "お問い合わせ",
     "contactUs": "お問い合わせ",
     "dsaCompliance": "DSA準拠",
-    "deleteAccount": "Delete Account"
+    "deleteAccount": "Delete Account",
+    "changeLanguage": "言語を変更",
+    "siteLegalNav": "法務・アクセシビリティ",
+    "accessibilityFab": "アクセシビリティに関する声明",
+    "currentLanguage": "現在の言語",
+    "accessibility": "アクセシビリティ",
+    "skipToContent": "メインコンテンツへスキップ",
+    "cookies": {
+      "title": "Cookieとアナリティクス",
+      "body": "同意いただいた場合のみ Google Analytics を使用します。どのページが役立つか把握するためです。広告 Cookie はありません。拒否しても閲覧できます。",
+      "accept": "アナリティクスを許可",
+      "reject": "拒否",
+      "learnMore": "DSA / 法務",
+      "learnMoreA11y": "アクセシビリティ",
+      "learnMorePrivacy": "サイトのプライバシー"
+    },
+    "carousel": {
+      "previous": "前のアプリ",
+      "next": "次のアプリ",
+      "goToSlide": "スライド {n} へ"
+    },
+    "phone": "電話",
+    "otherZukiApps": {
+      "title": "Zuki Apps のその他のアプリ",
+      "subtitle": "同じ開発者の無料 iOS / Android アプリをチェック。",
+      "viewAll": "すべてのアプリ →"
+    },
+    "sitePrivacy": "サイトのプライバシー",
+    "privacyShort": "プライバシー"
   },
   "dsa": {
     "title": "デジタルサービス法（DSA）への準拠",
@@ -292,7 +345,9 @@
       "supportEmail": "サポートメール",
       "supportEmailValue": "zuki.apps@gmail.com",
       "website": "ウェブサイト",
-      "websiteValue": "https://zukiapps.com"
+      "websiteValue": "https://zukiapps.com",
+      "phone": "電話",
+      "phoneValue": "+972-50-6566393"
     },
     "consumerRights": {
       "title": "消費者権利",
@@ -308,7 +363,8 @@
       "title": "お問い合わせ",
       "content": "お問い合わせ、苦情、または消費者の権利を行使する場合は、以下までご連絡ください：",
       "email": "zuki.apps.dev@gmail.com",
-      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "phone": "+972-50-6566393"
     }
   },
   "about": {
@@ -323,6 +379,39 @@
     "contactBody": "質問、プレス、またはパートナーシップに関するお問い合わせ:",
     "address": "Nachshol 36、SAAR、郵便局22805、イスラエル",
     "catalogTitle": "アプリカタログ",
-    "catalogBody": "ホームページまたは /api/site-facts にある機械可読カタログからすべての製品ページ、サポート、ポリシーを参照してください。"
+    "catalogBody": "ホームページまたは /api/site-facts にある機械可読カタログからすべての製品ページ、サポート、ポリシーを参照してください。",
+    "email": "zuki.apps.dev@gmail.com",
+    "phone": "+972-50-6566393"
+  },
+  "accessibility": {
+    "metaTitle": "アクセシビリティ声明 | Zuki Apps",
+    "metaDescription": "zukiapps.com のアクセシビリティ：キーボード、スクリーンリーダー、連絡先、WCAG 2.1 AA を目指す取り組み。",
+    "title": "アクセシビリティ声明",
+    "subtitle": "Zuki Apps ウェブサイト（zukiapps.com）",
+    "lastUpdated": "最終更新：2026年8月",
+    "s1": {
+      "title": "私たちの取り組み",
+      "body": "Zuki Apps は、キーボード、スクリーンリーダー、拡大表示、モーション低減を使う方を含め、できるだけ多くの人がこのマーケティングサイトを使えるように目指しています。\n\nWCAG 2.1 レベル AA を目標にします。本サイトはカタログ／紹介サイトです（サイト上のユーザーアカウントはありません）。"
+    },
+    "s2": {
+      "title": "実施している対策",
+      "body": "• メインコンテンツへのスキップリンク\n• 可能な範囲での意味的な見出しとランドマーク\n• 重要な画像の代替テキスト\n• キーボード操作時のフォーカス表示\n• prefers-reduced-motion の尊重\n• ヘブライ語・アラビア語の RTL\n• 任意同意後のみのアナリティクス Cookie"
+    },
+    "s3": {
+      "title": "既知の制限",
+      "body": "• 一部の製品ページのカルーセルや装飾モーションは支援技術との相性がまだ不完全な場合があります\n• Apple / Google のストアバッジは第三者提供です\n• DreamBit アーカイブはばらつきがある場合があります\n\n見つかった問題は順次改善します。"
+    },
+    "s4": {
+      "title": "互換性",
+      "body": "最新の主要ブラウザ（Chrome、Safari、Firefox、Edge）と一般的な支援技術（PC・モバイル）を想定しています。OS とブラウザの更新をおすすめします。"
+    },
+    "s5": {
+      "title": "基準",
+      "body": "本声明は WCAG 2.1 を踏まえ、イスラエルの訪問者向けには SI 5568（WCAG 2.0 AA）の趣旨にも沿います。正式な完全監査は継続中です。ここでは実務的な方針と報告方法を示します。"
+    },
+    "contact": {
+      "title": "障壁の報告",
+      "body": "zukiapps.com で障壁に遭った場合はメールまたはお電話ください。ページ URL とやりたかった操作を書いてください。できる限り対応します。"
+    }
   }
 }

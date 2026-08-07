@@ -9,6 +9,7 @@ import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
 import StarBackground from '@/components/StarBackground';
 import { ProductMarketingSections, ProductPageNav, DownloadStoreFab } from '@/lib/lazyProductComponents';
+import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 
 export default function PowerIntervalTimerPage() {
   const t = useTranslations('powerIntervalTimer');
@@ -241,42 +242,14 @@ export default function PowerIntervalTimerPage() {
             <p className="text-lg text-gray-300 mb-8">
               {t('download.description')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              {t('download.appStoreUrl') && (
-                <a
-                  href={t('download.appStoreUrl')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block hover:opacity-80 transition-opacity"
-                  aria-label={t('download.appStoreAlt') || 'Download on App Store'}
-                >
-                  <Image
-                    src="/images/app-store-badge.svg"
-                    alt={t('download.appStoreAlt') || 'Download on App Store'}
-                    width={180}
-                    height={60}
-                    className="h-auto"
-                  />
-                </a>
-              )}
-              {t('download.googlePlayUrl') && (
-                <a
-                  href={t('download.googlePlayUrl')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block hover:opacity-80 transition-opacity"
-                  aria-label={t('download.googlePlayAlt') || 'Get it on Google Play'}
-                >
-                  <Image
-                    src="/images/google-play-badge.svg"
-                    alt={t('download.googlePlayAlt') || 'Get it on Google Play'}
-                    width={180}
-                    height={60}
-                    className="h-auto"
-                  />
-                </a>
-              )}
-            </div>
+            <StoreDownloadBadges
+              appStoreUrl={t('download.appStoreUrl')}
+              googlePlayUrl={t('download.googlePlayUrl')}
+              appStoreAlt={t('download.appStoreAlt') || 'Download on App Store'}
+              googlePlayAlt={t('download.googlePlayAlt') || 'Get it on Google Play'}
+              fallbackBorderClass="border-orange-600/30"
+              utmContent="power-interval-timer"
+            />
           </div>
         </section>
 

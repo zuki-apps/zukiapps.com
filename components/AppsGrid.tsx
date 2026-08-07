@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import AppIconFrame from '@/components/AppIconFrame';
 import { HOME_APP_ICON_WEBP } from '@/lib/homeAppIcons';
-import { HOME_APP_IDS } from '@/lib/homeApps';
+import { getPublishedHomeAppIds } from '@/lib/homeApps';
 import {
   ShoppingCart,
   ImageIcon,
@@ -146,7 +146,7 @@ export default async function AppsGrid({ locale }: { locale: string }) {
     },
   };
 
-  const apps = HOME_APP_IDS.map((id) => appsById[id]);
+  const apps = getPublishedHomeAppIds().map((id) => appsById[id]);
 
   return (
     <div className="mb-12">

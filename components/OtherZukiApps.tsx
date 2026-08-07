@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import AppIconFrame from '@/components/AppIconFrame';
 import { HOME_APP_ICON_WEBP } from '@/lib/homeAppIcons';
-import { HOME_APP_IDS, type HomeAppId } from '@/lib/homeApps';
+import { getPublishedHomeAppIds, type HomeAppId } from '@/lib/homeApps';
 
 const TITLE_KEY: Record<HomeAppId, string> = {
   zulist: 'zulist.title',
@@ -34,7 +34,7 @@ export default function OtherZukiApps({ currentAppId, limit = 4 }: OtherZukiApps
   const tHome = useTranslations('home');
   const tCommon = useTranslations('common');
 
-  const others = HOME_APP_IDS.filter((id) => id !== currentAppId).slice(0, limit);
+  const others = getPublishedHomeAppIds().filter((id) => id !== currentAppId).slice(0, limit);
   if (others.length === 0) return null;
 
   return (

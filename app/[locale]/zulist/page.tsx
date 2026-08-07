@@ -8,6 +8,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
 import StarBackground from '@/components/StarBackground';
+import StoreRatingBadge from '@/components/StoreRatingBadge';
 import { ProductMarketingSections, ProductPageNav, DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 export default function ZuListPage() {
@@ -66,6 +67,7 @@ export default function ZuListPage() {
           <p className="text-xl md:text-2xl mb-4 text-gray-300 max-w-3xl mx-auto">
             {t('hero.subtitle')}
           </p>
+          <StoreRatingBadge appPath="/zulist" className="mb-6" />
           <p className="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">
             {t('hero.description')}
           </p>

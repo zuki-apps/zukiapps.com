@@ -19,7 +19,7 @@ export const TOLDYA_CHILD_SAFETY_PATH = '/toldya/child-safety' as const;
  * Privacy/terms/support sitemap entries follow the same pilot/published gate in `app/sitemap.ts`.
  */
 export const ZULI_COLLAGE_PILOT = true;
-export const ZULI_COLLAGE_PUBLISHED = false;
+export const ZULI_COLLAGE_PUBLISHED = true;
 
 export const ZULI_COLLAGE_APP_PATH = '/zuli-collage' as const;
 
@@ -30,7 +30,7 @@ export const ZULI_COLLAGE_APP_PATH = '/zuli-collage' as const;
  */
 export const TIMESINCE_UNDER_CONSTRUCTION = false;
 export const TIMESINCE_PILOT = true;
-export const TIMESINCE_PUBLISHED = false;
+export const TIMESINCE_PUBLISHED = true;
 
 export const TIMESINCE_APP_PATH = '/timesince' as const;
 
@@ -41,7 +41,7 @@ export const TIMESINCE_APP_PATH = '/timesince' as const;
  */
 export const GEO_CALC_UNDER_CONSTRUCTION = false;
 export const GEO_CALC_PILOT = true;
-export const GEO_CALC_PUBLISHED = false;
+export const GEO_CALC_PUBLISHED = true;
 
 export const GEO_CALC_APP_PATH = '/geo-calc' as const;
 

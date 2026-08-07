@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Mail, Heart, Instagram, Facebook, Youtube, Phone } from 'lucide-react';
+import { Mail, Heart, Instagram, Facebook, Youtube } from 'lucide-react';
 import lazyLoad from 'next/dynamic';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
@@ -46,21 +46,13 @@ export default async function Home({
           <StarField />
         </div>
 
-        {/* Skip to main content link for accessibility */}
-        <a
-          href="#main-content"
-          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded-lg focus:font-semibold"
-        >
-          Skip to main content
-        </a>
-
         {/* Language Switcher */}
         <div className="max-w-4xl mx-auto px-4 pt-4 flex justify-end relative z-[9999]">
           <LanguageSwitcher />
         </div>
 
         {/* Hero Section */}
-        <section id="main-content" className="py-12 px-4 relative z-10">
+        <section className="py-12 px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             {/* Logo */}
             <div className="mb-8 flex justify-center animate-fade-in">
@@ -76,7 +68,7 @@ export default async function Home({
               </p>
             </div>
 
-            <div className="mb-10 max-w-2xl mx-auto text-center">
+            <div className="mb-8 max-w-2xl mx-auto text-center">
               <p className="text-gray-400 text-sm md:text-base leading-relaxed mb-3">
                 {t('aboutTeaser.body')}
               </p>
@@ -88,10 +80,34 @@ export default async function Home({
               </Link>
             </div>
 
-            <AppsGrid locale={locale} />
+            <div className="mb-10 flex flex-col sm:flex-row flex-wrap items-center justify-center gap-3">
+              <a
+                href="#our-apps"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-bold text-white bg-gradient-to-r from-indigo-500 to-violet-600 hover:from-indigo-400 hover:to-violet-500 border border-indigo-300/40 shadow-lg hover:shadow-indigo-500/30 transition-all"
+              >
+                {t('heroCta.browseApps')}
+              </a>
+              <a
+                href="https://play.google.com/store/apps/dev?id=7972373639235841172"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-emerald-100 bg-emerald-950/60 hover:bg-emerald-900/70 border border-emerald-500/40 transition-colors"
+              >
+                {t('heroCta.googlePlay')}
+              </a>
+              <a
+                href="https://apps.apple.com/search?term=Zuki%20Apps"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-sky-100 bg-sky-950/60 hover:bg-sky-900/70 border border-sky-500/40 transition-colors"
+              >
+                {t('heroCta.appStore')}
+              </a>
+            </div>
 
-            {/* Apps Carousel Section */}
-            <AppsCarousel />
+            <div id="our-apps" className="scroll-mt-20">
+              <AppsGrid locale={locale} />
+            </div>
 
             {/* Contact Section */}
             <div className="card-twilight !mb-0">
@@ -110,14 +126,6 @@ export default async function Home({
                 >
                   <Mail className="w-5 h-5" aria-hidden="true" />
                   {t('contact.sendEmail')}
-                </a>
-                <a
-                  href="tel:+972506566393"
-                  className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-indigo-500 to-indigo-700 text-white px-6 py-3 rounded-lg font-black hover:from-indigo-400 hover:to-indigo-600 focus:outline-none focus:ring-4 focus:ring-indigo-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-lg hover:shadow-xl hover:shadow-indigo-500/50 hover:scale-105 active:scale-95 border-2 border-indigo-400"
-                  aria-label={`${tCommon('phone')} - ${t('contact.phone')}`}
-                >
-                  <Phone className="w-5 h-5" aria-hidden="true" />
-                  {t('contact.phone')}
                 </a>
               </div>
               <div className="flex justify-center mb-6">
@@ -144,6 +152,11 @@ export default async function Home({
             </div>
 
             <HomeFaq locale={locale} />
+
+            {/* Featured carousel — below grid/FAQ so first viewport stays conversion-focused */}
+            <div className="mt-12">
+              <AppsCarousel />
+            </div>
 
             {/* Social Media Section */}
             <div className="card-twilight mt-12 !mb-0">
@@ -269,6 +282,13 @@ export default async function Home({
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >
                 {tCommon('dsaCompliance')}
+              </Link>
+              <span className="text-slate-600 hidden sm:inline">|</span>
+              <Link
+                href={`/${locale}/accessibility`}
+                className="text-indigo-100 hover:text-emerald-300 transition-colors font-medium"
+              >
+                {tCommon('accessibility')}
               </Link>
             </div>
           </div>

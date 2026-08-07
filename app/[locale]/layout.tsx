@@ -3,6 +3,10 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
 import LocaleHtmlSync from '@/components/LocaleHtmlSync';
+import CookieConsent from '@/components/CookieConsent';
+import SkipToContent from '@/components/SkipToContent';
+import SiteLegalStrip from '@/components/SiteLegalStrip';
+import AccessibilityFab from '@/components/AccessibilityFab';
 import { pickSharedClientMessages } from '@/lib/loadAppMessages';
 import { buildCanonical, buildLanguageAlternates, getSiteUrl, openGraphLocale } from '@/lib/hreflang';
 import { buildSoftwareCatalogItemList } from '@/lib/siteCatalog';
@@ -242,12 +246,18 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider messages={messages}>
       <LocaleHtmlSync locale={locale} dir={dir} />
+      <SkipToContent />
       <Script
         id="zuki-schema-org-graph"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaGraphLd) }}
       />
-      {children}
+      <main id="main-content" tabIndex={-1} className="outline-none">
+        {children}
+      </main>
+      <SiteLegalStrip />
+      <AccessibilityFab />
+      <CookieConsent />
     </NextIntlClientProvider>
   );
 }

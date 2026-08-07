@@ -14,6 +14,7 @@ import StarBackground from '@/components/StarBackground';
 import ScreenshotLightbox from '@/components/ScreenshotLightbox';
 import OtherZukiApps from '@/components/OtherZukiApps';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
+import StoreRatingBadge from '@/components/StoreRatingBadge';
 import { DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 type ScreenshotItem = {
@@ -103,6 +104,7 @@ export default function HushGalleryPage() {
             <p className="text-xl md:text-2xl mb-4 text-gray-300 max-w-3xl mx-auto">
               {t('hero.subtitle')}
             </p>
+            <StoreRatingBadge appPath="/hush-gallery" className="mb-6" />
             <p className="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">
               {t('hero.description')}
             </p>

@@ -10,6 +10,7 @@ import AppIconFrame from '@/components/AppIconFrame';
 import StarBackground from '@/components/StarBackground';
 import { ProductMarketingSections, ProductPageNav, DownloadStoreFab } from '@/lib/lazyProductComponents';
 import StoreRatingBadge from '@/components/StoreRatingBadge';
+import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 
 export default function FootballTriviaPage() {
   const t = useTranslations('footballTrivia');
@@ -129,42 +130,14 @@ export default function FootballTriviaPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-white">{t('download.title')}</h2>
             <p className="text-lg text-gray-300 mb-8">{t('download.description')}</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              {t('download.appStoreUrl') && (
-                <a
-                  href={t('download.appStoreUrl')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 rounded-lg"
-                  aria-label={t('download.appStoreAlt')}
-                >
-                  <Image
-                    src="/images/app-store-badge.svg"
-                    alt={t('download.appStoreAlt')}
-                    width={160}
-                    height={48}
-                    className="object-contain hover:opacity-90 transition-opacity"
-                  />
-                </a>
-              )}
-              {t('download.googlePlayUrl') && (
-                <a
-                  href={t('download.googlePlayUrl')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 rounded-lg"
-                  aria-label={t('download.googlePlayAlt')}
-                >
-                  <Image
-                    src="/images/google-play-badge.svg"
-                    alt={t('download.googlePlayAlt')}
-                    width={160}
-                    height={48}
-                    className="object-contain hover:opacity-90 transition-opacity"
-                  />
-                </a>
-              )}
-            </div>
+            <StoreDownloadBadges
+              appStoreUrl={t('download.appStoreUrl')}
+              googlePlayUrl={t('download.googlePlayUrl')}
+              appStoreAlt={t('download.appStoreAlt')}
+              googlePlayAlt={t('download.googlePlayAlt')}
+              fallbackBorderClass="border-sky-600/30"
+              utmContent="football-trivia"
+            />
             <p className="text-xs text-gray-400 mt-6 max-w-2xl mx-auto">{t('hero.trustLine')}</p>
           </div>
         </section>

@@ -203,7 +203,8 @@
       "description": "هل لديك سؤال أو فكرة أو ترغب فقط بالتواصل؟ يسعدني سماعك. الملاحظات وطلبات الميزات والإبلاغ عن الأخطاء مرحّب بها — أقرأ كل الرسائل وأبذل قصارى جهدي للرد على الجميع.",
       "sendEmail": "إرسال بريد إلكتروني",
       "email": "zuki.apps@gmail.com",
-      "support": "دعم عملي"
+      "support": "دعم عملي",
+      "phone": "+972-50-6566393"
     },
     "social": {
       "title": "وسائل التواصل الاجتماعي",
@@ -218,7 +219,8 @@
       "copyright": "© 2025 Zuki Apps - جميع الحقوق محفوظة. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "مطور في إسرائيل • كهواية • بشغف",
       "support": "دعم عملي",
-      "about": "حول Zuki Apps"
+      "about": "حول Zuki Apps",
+      "dreambitLegacy": "تطبيقات DreamBit القديمة (Android)"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -258,6 +260,29 @@
         "filters": "فلاتر وملصقات",
         "private": "بدون تسجيل دخول"
       }
+    },
+    "carouselAriaLabel": "تطبيقات مميزة",
+    "geoCalc": {
+      "title": "GEO Calc : Coordinates",
+      "subtitle": "UTM · MGRS · خريطة · تنقّل",
+      "description": "حوّل DD وDMS وUTM وMGRS، واحسب مسافة واتجاه Vincenty، وقِس على الخريطة، وصدّر GPX. مجاناً على App Store وGoogle Play.",
+      "features": {
+        "converter": "محوّل إحداثيات",
+        "distance": "مسافة واتجاه",
+        "offline": "يعمل دون اتصال"
+      },
+      "learnMore": "المزيد عن GEO Calc ←"
+    },
+    "timeSince": {
+      "title": "Time Since — تتبّع السلاسل",
+      "subtitle": "لا تكسر السلسلة",
+      "description": "تتبّع سلاسل العادات التي تبنيها والأيام منذ التوقف — مع حلقات أهداف وودجات وبطاقات للمشاركة. مجاناً على App Store وGoogle Play.",
+      "features": {
+        "streaks": "سلاسل التوقف والبناء",
+        "goals": "حلقات الأهداف",
+        "widgets": "ودجات الشاشة الرئيسية"
+      },
+      "learnMore": "المزيد عن Time Since ←"
     }
   },
   "common": {
@@ -272,7 +297,35 @@
     "contact": "اتصل",
     "contactUs": "اتصل بنا",
     "dsaCompliance": "امتثال DSA",
-    "deleteAccount": "Delete Account"
+    "deleteAccount": "Delete Account",
+    "changeLanguage": "تغيير اللغة",
+    "siteLegalNav": "الشؤون القانونية وإمكانية الوصول",
+    "accessibilityFab": "بيان إمكانية الوصول",
+    "currentLanguage": "اللغة الحالية",
+    "accessibility": "إمكانية الوصول",
+    "skipToContent": "تخطَّ إلى المحتوى الرئيسي",
+    "cookies": {
+      "title": "ملفات تعريف الارتباط والتحليلات",
+      "body": "نستخدم Google Analytics فقط إذا وافقت. يساعدنا على فهم الصفحات المفيدة. بلا ملفات إعلانية. يمكنك الرفض والتصفح كالمعتاد.",
+      "accept": "قبول التحليلات",
+      "reject": "رفض",
+      "learnMore": "DSA / قانوني",
+      "learnMoreA11y": "إمكانية الوصول",
+      "learnMorePrivacy": "خصوصية الموقع"
+    },
+    "carousel": {
+      "previous": "التطبيق السابق",
+      "next": "التطبيق التالي",
+      "goToSlide": "الانتقال إلى الشريحة {n}"
+    },
+    "phone": "الهاتف",
+    "otherZukiApps": {
+      "title": "المزيد من Zuki Apps",
+      "subtitle": "استكشف تطبيقات iOS وAndroid مجانية أخرى من نفس المطوّر.",
+      "viewAll": "عرض كل التطبيقات ←"
+    },
+    "sitePrivacy": "خصوصية الموقع",
+    "privacyShort": "الخصوصية"
   },
   "dsa": {
     "title": "الامتثال لقانون الخدمات الرقمية (DSA)",
@@ -292,7 +345,9 @@
       "supportEmail": "البريد الإلكتروني للدعم",
       "supportEmailValue": "zuki.apps@gmail.com",
       "website": "الموقع الإلكتروني",
-      "websiteValue": "https://zukiapps.com"
+      "websiteValue": "https://zukiapps.com",
+      "phone": "الهاتف",
+      "phoneValue": "+972-50-6566393"
     },
     "consumerRights": {
       "title": "حقوق المستهلك",
@@ -308,7 +363,8 @@
       "title": "Contact Us",
       "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
       "email": "zuki.apps.dev@gmail.com",
-      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "phone": "+972-50-6566393"
     }
   },
   "about": {
@@ -323,6 +379,39 @@
     "contactBody": "الأسئلة أو الاستفسارات الصحفية أو الشراكة:",
     "address": "Nachshol 36، سار، ص. 22805، إسرائيل",
     "catalogTitle": "كتالوج التطبيقات",
-    "catalogBody": "تصفح جميع صفحات المنتج والدعم والسياسات من الصفحة الرئيسية أو من الكتالوج القابل للقراءة آليًا على /api/site-facts."
+    "catalogBody": "تصفح جميع صفحات المنتج والدعم والسياسات من الصفحة الرئيسية أو من الكتالوج القابل للقراءة آليًا على /api/site-facts.",
+    "email": "zuki.apps.dev@gmail.com",
+    "phone": "+972-50-6566393"
+  },
+  "accessibility": {
+    "metaTitle": "بيان إمكانية الوصول | Zuki Apps",
+    "metaDescription": "إمكانية الوصول في zukiapps.com: لوحة المفاتيح، قارئات الشاشة، التواصل، والتوجه نحو WCAG 2.1 AA.",
+    "title": "بيان إمكانية الوصول",
+    "subtitle": "موقع Zuki Apps (zukiapps.com)",
+    "lastUpdated": "آخر تحديث: أغسطس 2026",
+    "s1": {
+      "title": "التزامنا",
+      "body": "تسعى Zuki Apps لجعل موقع التسويق هذا قابلاً للاستخدام لأكبر عدد ممكن، بما في ذلك مستخدمو لوحة المفاتيح وقارئات الشاشة والتكبير وتقليل الحركة.\n\nنتوجه نحو WCAG 2.1 المستوى AA. الموقع كتالوج تعريفي (لا حسابات مستخدمين على الموقع نفسه)."
+    },
+    "s2": {
+      "title": "إجراءاتنا",
+      "body": "• رابط تخطٍّ إلى المحتوى\n• عناوين ومعالم دلالية حيث أمكن\n• بدائل نصية للصور المهمة\n• تركيز مرئي بلوحة المفاتيح\n• احترام prefers-reduced-motion\n• دعم RTL للعبرية والعربية\n• ملفات تحليلات فقط بعد موافقة اختيارية"
+    },
+    "s3": {
+      "title": "قيود معروفة",
+      "body": "• بعض صفحات المنتجات تتضمن دوارات أو حركة زخرفية قد لا تكون مثالية بعد مع التقنيات المساعدة\n• شارات متاجر Apple/Google من جهات خارجية\n• أرشيف DreamBit قد يكون غير متساوٍ\n\nنحسّن المشكلات عند اكتشافها."
+    },
+    "s4": {
+      "title": "التوافق",
+      "body": "مصمم للمتصفحات الحديثة (Chrome وSafari وFirefox وEdge) والتقنيات المساعدة الشائعة على سطح المكتب والجوال. يُفضَّل تحديث النظام والمتصفح."
+    },
+    "s5": {
+      "title": "المعايير",
+      "body": "يستند هذا البيان إلى WCAG 2.1، وللزوار في إسرائيل أيضاً إلى روح المعيار SI 5568 (WCAG 2.0 AA). التدقيق الرسمي الكامل مستمر؛ نصف هنا النهج العملي وكيفية الإبلاغ عن العوائق."
+    },
+    "contact": {
+      "title": "الإبلاغ عن عائق",
+      "body": "إن واجهت عائقاً على zukiapps.com، راسلنا أو اتصل بنا. اذكر عنوان الصفحة وما حاولت فعله — سنبذل قصارى جهدنا للمساعدة."
+    }
   }
 }

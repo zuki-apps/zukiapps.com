@@ -7,7 +7,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import AppIconFrame from '@/components/AppIconFrame';
 import { getCarouselFeatureCells } from '@/lib/carouselFeatures';
 import { HOME_APP_ICON_WEBP } from '@/lib/homeAppIcons';
-import { HOME_APP_IDS } from '@/lib/homeApps';
+import { getPublishedHomeAppIds } from '@/lib/homeApps';
 import {
   ShoppingCart,
   ImageIcon,
@@ -48,6 +48,7 @@ interface AppData {
 
 export default function AppsCarousel() {
   const t = useTranslations('home');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
   const [currentIndex, setCurrentIndex] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
@@ -253,7 +254,7 @@ export default function AppsCarousel() {
   );
 
   const apps: AppData[] = useMemo(
-    () => HOME_APP_IDS.map((id) => appsById[id]),
+    () => getPublishedHomeAppIds().map((id) => appsById[id]),
     [appsById]
   );
 
@@ -533,7 +534,7 @@ export default function AppsCarousel() {
             <button
               onClick={goToPrevious}
               className={`${prevClass} ${btnClass}`}
-              aria-label="Previous app"
+              aria-label={tCommon('carousel.previous')}
               type="button"
             >
               {rtl ? (
@@ -545,7 +546,7 @@ export default function AppsCarousel() {
             <button
               onClick={goToNext}
               className={`${nextClass} ${btnClass}`}
-              aria-label="Next app"
+              aria-label={tCommon('carousel.next')}
               type="button"
             >
               {rtl ? (
@@ -565,7 +566,8 @@ export default function AppsCarousel() {
             key={index}
             onClick={() => goToSlide(index)}
             className="inline-flex h-6 w-6 items-center justify-center rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
-            aria-label={`Go to slide ${index + 1}`}
+            aria-label={tCommon('carousel.goToSlide', { n: index + 1 })}
+            aria-current={index === currentIndex ? 'true' : undefined}
             type="button"
           >
             <span

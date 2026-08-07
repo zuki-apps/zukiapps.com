@@ -9,7 +9,26 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['var(--font-display)', 'system-ui', 'sans-serif'],
+        display: [
+          'var(--font-display)',
+          'var(--font-hebrew)',
+          'var(--font-arabic)',
+          'PingFang SC',
+          'Hiragino Sans',
+          'Noto Sans KR',
+          'system-ui',
+          'sans-serif',
+        ],
+        sans: [
+          'var(--font-display)',
+          'var(--font-hebrew)',
+          'var(--font-arabic)',
+          'PingFang SC',
+          'Hiragino Sans',
+          'Noto Sans KR',
+          'system-ui',
+          'sans-serif',
+        ],
       },
       colors: {
         primary: {

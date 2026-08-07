@@ -30,6 +30,7 @@ import StarBackground from '@/components/StarBackground';
 import OtherZukiApps from '@/components/OtherZukiApps';
 import ScreenshotLightbox from '@/components/ScreenshotLightbox';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
+import StoreRatingBadge from '@/components/StoreRatingBadge';
 import { DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 type ScreenshotItem = {
@@ -125,6 +126,7 @@ export default function WhistleCameraPage() {
               {t('hero.title')}
             </h1>
             <p className="text-xl md:text-2xl mb-4 text-gray-300 max-w-3xl mx-auto">{t('hero.subtitle')}</p>
+            <StoreRatingBadge appPath="/whistle-camera" className="mb-4" />
             <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto">{t('hero.description')}</p>
             <p className="text-sm text-amber-400/90 mb-8">{t('hero.socialProof')}</p>
             <div className="flex justify-center gap-4 text-sm flex-wrap mb-8">

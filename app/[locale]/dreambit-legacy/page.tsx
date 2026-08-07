@@ -91,7 +91,7 @@ export default function DreambitLegacyPage() {
           </Link>
         </div>
 
-        <main className="relative z-10 max-w-4xl mx-auto px-4 pb-16 pt-8">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 pb-16 pt-8">
           <header className="text-center mb-10">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-950/70 border border-amber-400/30 text-amber-200/90 text-sm font-semibold mb-6">
               <Archive className="w-4 h-4" aria-hidden />
@@ -117,6 +117,20 @@ export default function DreambitLegacyPage() {
               {t('hero.unmaintained')}
             </p>
             <p className="text-sm text-slate-300 max-w-2xl mx-auto">{t('hero.brandNote')}</p>
+            <figure className="mt-8 mb-2">
+              <Image
+                src="/images/zuki-apps-facebook-cover.png"
+                alt={t('hero.coverAlt')}
+                width={1640}
+                height={624}
+                className="w-full h-auto rounded-2xl ring-1 ring-white/10 shadow-2xl"
+                sizes="(max-width: 896px) 100vw, 896px"
+                priority
+              />
+              <figcaption className="mt-3 text-sm text-slate-400">
+                {t('hero.coverCaption')}
+              </figcaption>
+            </figure>
           </header>
 
           <p className="text-center text-slate-400 text-sm mb-6">{t('legalLinksIntro')}</p>
@@ -210,7 +224,7 @@ export default function DreambitLegacyPage() {
               );
             })}
           </ul>
-        </main>
+        </div>
       </div>
     </>
   );

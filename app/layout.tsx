@@ -1,13 +1,27 @@
 import { ReactNode } from 'react';
-import Script from 'next/script';
 import type { Metadata } from 'next';
-import { Sora } from 'next/font/google';
+import { Noto_Sans_Arabic, Noto_Sans_Hebrew, Sora } from 'next/font/google';
 import { getSiteUrl } from '@/lib/hreflang';
 
 const displayFont = Sora({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext'],
   weight: ['600', '700', '800'],
   variable: '--font-display',
+  display: 'swap',
+});
+
+/** Script coverage for he/ar; Latin headings still prefer Sora, then fall back here. */
+const hebrewFont = Noto_Sans_Hebrew({
+  subsets: ['hebrew'],
+  weight: ['400', '600', '700'],
+  variable: '--font-hebrew',
+  display: 'swap',
+});
+
+const arabicFont = Noto_Sans_Arabic({
+  subsets: ['arabic'],
+  weight: ['400', '600', '700'],
+  variable: '--font-arabic',
   display: 'swap',
 });
 
@@ -41,10 +55,14 @@ export default function RootLayout({
 }: {
   children: ReactNode;
 }) {
-  const measurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-
+  // Google Analytics loads only after CookieConsent Accept (see components/CookieConsent.tsx).
   return (
-    <html lang="en" dir="ltr" className={`dark ${displayFont.variable}`} suppressHydrationWarning>
+    <html
+      lang="en"
+      dir="ltr"
+      className={`dark ${displayFont.variable} ${hebrewFont.variable} ${arabicFont.variable}`}
+      suppressHydrationWarning
+    >
       <head>
         <link
           rel="preload"
@@ -54,34 +72,7 @@ export default function RootLayout({
           fetchPriority="high"
         />
       </head>
-      <body className="bg-twilight-canvas min-h-screen text-white antialiased">
-        {measurementId ? (
-          <Script id="google-analytics-deferred" strategy="afterInteractive">
-            {`
-            (function () {
-              var id = '${measurementId}';
-              var loaded = false;
-              function loadGa() {
-                if (loaded) return;
-                loaded = true;
-                var s = document.createElement('script');
-                s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
-                s.async = true;
-                document.head.appendChild(s);
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                window.gtag = gtag;
-                gtag('js', new Date());
-                gtag('config', id, { page_path: window.location.pathname });
-              }
-              ['pointerdown','keydown','touchstart','scroll'].forEach(function (evt) {
-                window.addEventListener(evt, loadGa, { once: true, passive: true });
-              });
-              setTimeout(loadGa, 8000);
-            })();
-          `}
-          </Script>
-        ) : null}
+      <body className="bg-twilight-canvas min-h-screen font-sans text-white antialiased">
         {children}
       </body>
     </html>

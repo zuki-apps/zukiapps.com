@@ -203,7 +203,8 @@
       "description": "Tem uma dúvida, uma ideia ou só quer falar comigo? Adoraria ouvir você. Feedback, pedidos de recursos e relatos de bugs são bem-vindos — leio tudo e faço o possível para responder a todos.",
       "sendEmail": "Enviar Email",
       "email": "zuki.apps@gmail.com",
-      "support": "Apoie Meu Trabalho"
+      "support": "Apoie Meu Trabalho",
+      "phone": "+972-50-6566393"
     },
     "social": {
       "title": "Redes Sociais",
@@ -218,7 +219,8 @@
       "copyright": "© 2025 Zuki Apps - Todos os direitos reservados. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "Desenvolvido em Israel • Como hobby • Com paixão",
       "support": "Apoie Meu Trabalho",
-      "about": "Sobre Zuki Apps"
+      "about": "Sobre Zuki Apps",
+      "dreambitLegacy": "Apps legacy DreamBit (Android)"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -258,6 +260,29 @@
         "filters": "Filtros e adesivos",
         "private": "Sem login"
       }
+    },
+    "carouselAriaLabel": "Apps em destaque",
+    "geoCalc": {
+      "title": "GEO Calc : Coordinates",
+      "subtitle": "UTM · MGRS · Mapa · Navegar",
+      "description": "Converta DD, DMS, UTM e MGRS, calcule distância e rumo Vincenty, meça no mapa e exporte GPX. Grátis na App Store e Google Play.",
+      "features": {
+        "converter": "Conversor de coordenadas",
+        "distance": "Distância e rumo",
+        "offline": "Funciona offline"
+      },
+      "learnMore": "Saiba mais sobre GEO Calc →"
+    },
+    "timeSince": {
+      "title": "Time Since — Contador de sequências",
+      "subtitle": "Não quebre a corrente",
+      "description": "Acompanhe sequências de hábitos a construir e dias desde que parou — com anéis de meta, widgets e cartões para partilhar. Grátis na App Store e Google Play.",
+      "features": {
+        "streaks": "Sequências parar e construir",
+        "goals": "Anéis de meta",
+        "widgets": "Widgets do ecrã inicial"
+      },
+      "learnMore": "Saiba mais sobre Time Since →"
     }
   },
   "common": {
@@ -272,7 +297,35 @@
     "contact": "Contato",
     "contactUs": "Entre em contato",
     "dsaCompliance": "Conformidade DSA",
-    "deleteAccount": "Delete Account"
+    "deleteAccount": "Delete Account",
+    "changeLanguage": "Mudar idioma",
+    "siteLegalNav": "Legal e acessibilidade",
+    "accessibilityFab": "Declaração de acessibilidade",
+    "currentLanguage": "Idioma atual",
+    "accessibility": "Acessibilidade",
+    "skipToContent": "Saltar para o conteúdo principal",
+    "cookies": {
+      "title": "Cookies e analytics",
+      "body": "Usamos Google Analytics só se aceitar. Ajuda-nos a ver que páginas são úteis. Sem cookies de anúncios. Pode recusar.",
+      "accept": "Aceitar analytics",
+      "reject": "Recusar",
+      "learnMore": "DSA / legal",
+      "learnMoreA11y": "Acessibilidade",
+      "learnMorePrivacy": "Privacidade do site"
+    },
+    "carousel": {
+      "previous": "App anterior",
+      "next": "App seguinte",
+      "goToSlide": "Ir para o slide {n}"
+    },
+    "phone": "Telefone",
+    "otherZukiApps": {
+      "title": "Mais da Zuki Apps",
+      "subtitle": "Explore outras apps iOS e Android gratuitas do mesmo programador.",
+      "viewAll": "Ver todas as apps →"
+    },
+    "sitePrivacy": "Privacidade do site",
+    "privacyShort": "Privacidade"
   },
   "dsa": {
     "title": "Conformidade com a Lei de Serviços Digitais (DSA)",
@@ -292,7 +345,9 @@
       "supportEmail": "Email de Suporte",
       "supportEmailValue": "zuki.apps@gmail.com",
       "website": "Site",
-      "websiteValue": "https://zukiapps.com"
+      "websiteValue": "https://zukiapps.com",
+      "phone": "Telefone",
+      "phoneValue": "+972-50-6566393"
     },
     "consumerRights": {
       "title": "Direitos do Consumidor",
@@ -308,7 +363,8 @@
       "title": "Entre em contato",
       "content": "Para consultas, reclamações ou para exercer seus direitos do consumidor, entre em contato conosco:",
       "email": "zuki.apps.dev@gmail.com",
-      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "phone": "+972-50-6566393"
     }
   },
   "about": {
@@ -323,6 +379,39 @@
     "contactBody": "Perguntas, imprensa ou consultas de parceria:",
     "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
     "catalogTitle": "Catálogo de aplicativos",
-    "catalogBody": "Navegue por todas as páginas de produtos, suporte e políticas na página inicial ou em nosso catálogo legível por máquina em /api/site-facts."
+    "catalogBody": "Navegue por todas as páginas de produtos, suporte e políticas na página inicial ou em nosso catálogo legível por máquina em /api/site-facts.",
+    "email": "zuki.apps.dev@gmail.com",
+    "phone": "+972-50-6566393"
+  },
+  "accessibility": {
+    "metaTitle": "Declaração de acessibilidade | Zuki Apps",
+    "metaDescription": "Acessibilidade em zukiapps.com: teclado, leitores de ecrã, contacto, orientação WCAG 2.1 AA.",
+    "title": "Declaração de acessibilidade",
+    "subtitle": "Site Zuki Apps (zukiapps.com)",
+    "lastUpdated": "Última atualização: agosto de 2026",
+    "s1": {
+      "title": "O nosso compromisso",
+      "body": "A Zuki Apps pretende tornar este site de marketing utilizável pelo maior número de pessoas possível, incluindo teclado, leitores de ecrã, ampliação e menos movimento.\n\nOrientamo-nos para WCAG 2.1 nível AA. O site é um catálogo informativo (sem contas de utilizador no próprio site)."
+    },
+    "s2": {
+      "title": "Medidas",
+      "body": "• Ligação para saltar ao conteúdo\n• Cabeçalhos e landmarks semânticos quando prático\n• Alternativas de texto para imagens significativas\n• Foco visível com teclado\n• Respeito por prefers-reduced-motion\n• RTL para hebraico e árabe\n• Cookies de analytics só após consentimento opcional"
+    },
+    "s3": {
+      "title": "Limitações conhecidas",
+      "body": "• Algumas páginas de produto têm carrosséis ou animação ainda imperfeitos com tecnologias de apoio\n• Badges das lojas Apple/Google são de terceiros\n• O arquivo DreamBit pode ser irregular\n\nMelhoramos problemas à medida que surgem."
+    },
+    "s4": {
+      "title": "Compatibilidade",
+      "body": "Pensado para browsers atuais (Chrome, Safari, Firefox, Edge) e tecnologias de apoio comuns em desktop e telemóvel. Mantenha o SO e o browser atualizados."
+    },
+    "s5": {
+      "title": "Normas",
+      "body": "Esta declaração inspira-se em WCAG 2.1 e, para visitantes em Israel, no espírito da norma SI 5568 (WCAG 2.0 AA). A auditoria formal completa é contínua; aqui descrevemos a abordagem prática e como reportar barreiras."
+    },
+    "contact": {
+      "title": "Reportar uma barreira",
+      "body": "Se encontrar uma barreira em zukiapps.com, escreva ou ligue. Inclua o URL e o que tentava fazer — faremos o nosso melhor."
+    }
   }
 }

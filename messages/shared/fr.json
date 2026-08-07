@@ -203,7 +203,8 @@
       "description": "Une question, une idée ou simplement envie de dire bonjour ? J’aimerais vous lire. Retours, demandes de fonctionnalités et signalements de bugs sont les bienvenus — je fais de mon mieux pour répondre à tout le monde.",
       "sendEmail": "Envoyer un e-mail",
       "email": "zuki.apps@gmail.com",
-      "support": "Soutenez Mon Travail"
+      "support": "Soutenez Mon Travail",
+      "phone": "+972-50-6566393"
     },
     "social": {
       "title": "Réseaux Sociaux",
@@ -218,7 +219,8 @@
       "copyright": "© 2025 Zuki Apps - Tous droits réservés. Zuki Apps is a brand of <pulse>Pulse Studio</pulse>.",
       "tagline": "Développé en Israël • En tant que passe-temps • Avec passion",
       "support": "Soutenez Mon Travail",
-      "about": "À propos de Zuki Apps"
+      "about": "À propos de Zuki Apps",
+      "dreambitLegacy": "Apps DreamBit historiques (Android)"
     },
     "noiseMeterShusher": {
       "title": "Noise Meter — Shusher",
@@ -258,6 +260,29 @@
         "filters": "Filtres et autocollants",
         "private": "Sans connexion"
       }
+    },
+    "carouselAriaLabel": "Apps à la une",
+    "geoCalc": {
+      "title": "GEO Calc : Coordinates",
+      "subtitle": "UTM · MGRS · Carte · Navigation",
+      "description": "Convertissez DD, DMS, UTM et MGRS, calculez distance et azimut Vincenty, mesurez sur la carte et exportez en GPX. Gratuit sur l’App Store et Google Play.",
+      "features": {
+        "converter": "Convertisseur de coordonnées",
+        "distance": "Distance et azimut",
+        "offline": "Fonctionne hors ligne"
+      },
+      "learnMore": "En savoir plus sur GEO Calc →"
+    },
+    "timeSince": {
+      "title": "Time Since — Suivi de séries",
+      "subtitle": "Ne cassez pas la chaîne",
+      "description": "Suivez des séries pour les habitudes à construire et les jours depuis l’arrêt — avec anneaux d’objectif, widgets et cartes à partager. Gratuit sur l’App Store et Google Play.",
+      "features": {
+        "streaks": "Séries arrêt & construction",
+        "goals": "Anneaux d’objectif",
+        "widgets": "Widgets d’accueil"
+      },
+      "learnMore": "En savoir plus sur Time Since →"
     }
   },
   "common": {
@@ -272,7 +297,35 @@
     "contact": "Contact",
     "contactUs": "Contactez-nous",
     "dsaCompliance": "Conformité DSA",
-    "deleteAccount": "Delete Account"
+    "deleteAccount": "Delete Account",
+    "changeLanguage": "Changer de langue",
+    "siteLegalNav": "Mentions légales et accessibilité",
+    "accessibilityFab": "Déclaration d’accessibilité",
+    "currentLanguage": "Langue actuelle",
+    "accessibility": "Accessibilité",
+    "skipToContent": "Aller au contenu principal",
+    "cookies": {
+      "title": "Cookies et analytics",
+      "body": "Nous utilisons Google Analytics uniquement si vous acceptez. Cela nous aide à comprendre les pages utiles. Pas de cookies pub. Vous pouvez refuser.",
+      "accept": "Accepter les analytics",
+      "reject": "Refuser",
+      "learnMore": "DSA / legal",
+      "learnMoreA11y": "Accessibilité",
+      "learnMorePrivacy": "Confidentialité du site"
+    },
+    "carousel": {
+      "previous": "App précédente",
+      "next": "App suivante",
+      "goToSlide": "Aller à la diapositive {n}"
+    },
+    "phone": "Téléphone",
+    "otherZukiApps": {
+      "title": "Plus de Zuki Apps",
+      "subtitle": "Découvrez d’autres apps iOS & Android gratuites du même développeur.",
+      "viewAll": "Voir toutes les apps →"
+    },
+    "sitePrivacy": "Confidentialité du site",
+    "privacyShort": "Confidentialité"
   },
   "dsa": {
     "title": "Conformité à la Loi sur les Services Numériques (DSA)",
@@ -292,7 +345,9 @@
       "supportEmail": "Email de Support",
       "supportEmailValue": "zuki.apps@gmail.com",
       "website": "Site Web",
-      "websiteValue": "https://zukiapps.com"
+      "websiteValue": "https://zukiapps.com",
+      "phone": "Téléphone",
+      "phoneValue": "+972-50-6566393"
     },
     "consumerRights": {
       "title": "Droits des Consommateurs",
@@ -308,7 +363,8 @@
       "title": "Contact Us",
       "content": "For inquiries, complaints, or to exercise your consumer rights, please contact us:",
       "email": "zuki.apps.dev@gmail.com",
-      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+      "phone": "+972-50-6566393"
     }
   },
   "about": {
@@ -323,6 +379,39 @@
     "contactBody": "Questions, demandes de presse ou de partenariat :",
     "address": "Nachshol 36, SAAR, p.o. 22805, ISRAËL",
     "catalogTitle": "Catalogue d'applications",
-    "catalogBody": "Parcourez toutes les pages de produits, l'assistance et les politiques depuis la page d'accueil ou notre catalogue lisible par machine à l'adresse /api/site-facts."
+    "catalogBody": "Parcourez toutes les pages de produits, l'assistance et les politiques depuis la page d'accueil ou notre catalogue lisible par machine à l'adresse /api/site-facts.",
+    "email": "zuki.apps.dev@gmail.com",
+    "phone": "+972-50-6566393"
+  },
+  "accessibility": {
+    "metaTitle": "Déclaration d’accessibilité | Zuki Apps",
+    "metaDescription": "Accessibilité de zukiapps.com : clavier, lecteurs d’écran, contact, orientation WCAG 2.1 AA.",
+    "title": "Déclaration d’accessibilité",
+    "subtitle": "Site Zuki Apps (zukiapps.com)",
+    "lastUpdated": "Dernière mise à jour : août 2026",
+    "s1": {
+      "title": "Notre engagement",
+      "body": "Zuki Apps vise à rendre ce site marketing utilisable par le plus grand nombre, y compris clavier, lecteurs d’écran, zoom et réduction des mouvements.\n\nNous nous orientons vers WCAG 2.1 niveau AA. Le site est une vitrine / catalogue (pas de comptes utilisateurs sur le site)."
+    },
+    "s2": {
+      "title": "Mesures",
+      "body": "• Lien d’évitement vers le contenu\n• Titres et landmarks sémantiques lorsque c’est pertinent\n• Alternatives textuelles pour images importantes\n• Focus visible au clavier\n• Respect de prefers-reduced-motion\n• RTL pour l’hébreu et l’arabe\n• Cookies analytics uniquement après consentement optionnel"
+    },
+    "s3": {
+      "title": "Limitations connues",
+      "body": "• Certaines pages produit ont des carrousels ou animations encore imparfaites avec les aides techniques\n• Les badges des stores Apple/Google sont tiers\n• Les pages d’archives DreamBit peuvent être inégales\n\nNous corrigeons les problèmes signalés."
+    },
+    "s4": {
+      "title": "Compatibilité",
+      "body": "Conçu pour les navigateurs récents (Chrome, Safari, Firefox, Edge) et aides techniques courantes sur desktop et mobile. Gardez l’OS et le navigateur à jour."
+    },
+    "s5": {
+      "title": "Normes",
+      "body": "Cette déclaration s’inspire de WCAG 2.1 et, pour les visiteurs en Israël, de l’esprit de la norme SI 5568 (WCAG 2.0 AA). L’audit formel complet est continu ; nous décrivons ici l’approche pratique et les contacts."
+    },
+    "contact": {
+      "title": "Signaler une barrière",
+      "body": "Si vous rencontrez une barrière sur zukiapps.com, écrivez ou appelez. Indiquez l’URL et votre objectif — nous ferons de notre mieux."
+    }
   }
 }
