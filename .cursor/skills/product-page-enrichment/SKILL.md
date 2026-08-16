@@ -1,52 +1,52 @@
 ---
 name: product-page-enrichment
-description: Enrich ZukiApps-WEB product pages from sibling app marketing kits for Google SEO, Search Console, and AI answer engines (AEO). Use when syncing marketing folders, adding FAQ/HowTo schema, llms.txt, or upgrading pages to hush-gallery benchmark.
+description: Enrich ZukiApps-WEB product pages from sibling app marketing kits for Google SEO, Search Console, and AI answer engines (AEO, citations in Gemini, ChatGPT, Perplexity, Claude). Use when syncing marketing folders, adding FAQ/HowTo schema, llms.txt, ai.txt, faq.md, or upgrading pages to the hush-gallery benchmark.
 ---
 
 # Product page enrichment
+
+Read [aeo-reference.md](aeo-reference.md) before writing copy or schema.
 
 ## When to use
 
 - User provides `/Users/zukman/GIT/{App}/marketing/` or `Marketing/`
 - Batch sync of multiple app pages
 - SEO/AEO gap vs `hush-gallery` / `whistle-camera`
+- Google Search Console / AI-engine citation work
 
 ## Orchestrator
 
 Use agent **site-growth-orchestrator** (coordinates marketing-seo, advertising, UX, web-dev, content-sync).
 
-## Benchmark checklist
+## Current paths (do not use a root `messages/en.json`)
 
 | Item | Location |
 |------|----------|
-| `hero.structuredDataDescription` | `messages/en.json` |
-| `pageNav`, `screenshots`, `howToUse`, `faq`, `tips`, `manual` | `messages/en.json` |
-| `ProductStructuredDataBlock` | `app/[locale]/{slug}/layout.tsx` |
-| `ProductMarketingSections` | `app/[locale]/{slug}/page.tsx` after features |
-| `public/images/{slug}/` | Screenshots from app repo |
-| `public/{slug}/faq.md` | Crawler-friendly Q&A |
-| `public/llms.txt` | Expanded bullet with stores + faq.md |
+| App copy | `messages/apps/{slug}/en.json` |
+| Home carousel | `messages/shared/en.json` → `home.{namespace}` |
+| Metadata | `hero.seoTitle`, `hero.metaDescription`, `hero.structuredDataDescription` + `lib/productSeo.ts` |
+| Layout | `buildProductPageMetadata` in `app/[locale]/{slug}/layout.tsx` |
+| App config | `lib/productApps.ts` |
+| Screenshots | `public/images/{slug}/` |
+| Crawler Q&A | `public/{slug}/faq.md` |
+| Machine index | `public/llms.txt` + `public/ai.txt` |
 
-## Sync script
+## Benchmark checklist
 
-```bash
-python3 scripts/sync-product-marketing.py --app all
-python3 scripts/sync-product-marketing.py --app noise-meter-shusher
-npm run build
-```
-
-Config: `scripts/marketing-sync-manifest.json`
+- `pageNav`, `screenshots`, `howToUse`, `faq` (8–12), `tips`, `manual`
+- `ProductStructuredDataBlock` / FAQ + HowTo JSON-LD matching **on-page** sections
+- Expanded `llms.txt` bullet with stores, package IDs, faq.md link
 
 ## Copy rules
 
-- Lead with user benefit; factual package IDs in structured data only
-- FAQ: 8–12 concrete Q&As with real `https://zukiapps.com/...` URLs
-- English first in `messages/en.json`; other locales inherit via `i18n.ts` merge
+- Answer-first: sentence 1 of hero and each FAQ answer is quotable
+- Publisher entity: **Zuki Apps** (never invent ratings)
+- English first; other locales inherit via merge
+- Never invent store package IDs — `lib/appStructuredData.ts` + live listings
 
-## Specialists
+## Sync
 
-- `.claude/agents/senior-marketing-seo.md`
-- `.claude/agents/senior-advertising.md`
-- `.claude/agents/senior-ux-designer.md`
-- `.claude/agents/senior-web-developer.md`
-- `.claude/agents/content-sync-specialist.md`
+```bash
+python3 scripts/sync-product-marketing.py --app all
+npm run build
+```

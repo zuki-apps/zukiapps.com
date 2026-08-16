@@ -4,12 +4,13 @@ Review the diff for this Next.js marketing site.
 
 Check:
 
-1. **Routes** — `app/[locale]/` paths, sitemap entries, publish flags
-2. **i18n** — all `t('…')` keys exist in `messages/en.json`; legal section keys match `LegalSections` config
-3. **SEO** — canonical, hreflang, robots for under-construction pages
-4. **Store links** — package IDs match `lib/appStructuredData.ts` and live listings
-5. **Scope** — no unrelated refactors or full-file JSON reformats
+1. **Routes** — `app/[locale]/` paths, sitemap, publish flags
+2. **i18n** — `t('…')` keys exist in `messages/apps/{slug}/en.json` or `messages/shared/`; legal keys match `LegalSections`
+3. **Google SEO** — `buildProductPageMetadata`, unique title/description, canonical, hreflang, robots
+4. **AI discovery** — if copy changed: `faq.md`, `llms.txt`, schema matches visible FAQ/HowTo
+5. **Store links** — package IDs match `lib/appStructuredData.ts` and live listings
+6. **Scope** — no unrelated refactors or full-file JSON reformats
 
-Output: Critical → SEO/i18n → suggested minimal patches → summary.
+Output: Critical → SEO/AEO → suggested minimal patches → summary.
 
-Run `npm run build` if routes or messages changed.
+`npm run build` if routes or messages changed.

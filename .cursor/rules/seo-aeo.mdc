@@ -1,45 +1,44 @@
 ---
-description: SEO, Google ranking, and answer-engine (AEO) patterns for product pages and public indexes
-globs: app/**/layout.tsx,app/**/page.tsx,public/llms.txt,public/**/faq.md,lib/siteCatalog.ts,lib/appStructuredData.ts,components/*StructuredData*
+description: Google SEO and AI-engine (AEO) rules for product pages, metadata, and machine indexes
+globs: app/**/layout.tsx,app/**/page.tsx,public/llms.txt,public/ai.txt,public/**/faq.md,lib/siteCatalog.ts,lib/appStructuredData.ts,lib/productSeo.ts,lib/productApps.ts,messages/apps/**/*.json,components/*StructuredData*
 alwaysApply: false
 ---
 
 # SEO & AEO
 
-## Every published app page
+Goal: each published app is the **citable source** for “what is {app}, who makes it, iOS/Android, free/paid.”
 
-- `hero.structuredDataDescription` in `messages/en.json` — factual, includes Android package + iOS store ID when known
-- `layout.tsx`: title `"{hero.title} — {hero.subtitle} | Zuki Apps"`, description from structuredDataDescription
-- `buildCanonical` + `buildLanguageAlternates` on all indexable routes
-- `SoftwareApplicationStructuredData` on main product page (`lib/appStructuredData.ts` Android ID)
-- Rich pages: `FaqStructuredData` + `HowToStructuredData` (`components/FaqHowToStructuredData.tsx`)
+## Google (people-first)
 
-## Machine-readable discovery
+- Unique `hero.seoTitle` (≤58) and `hero.metaDescription` (≤155) via `buildProductPageMetadata`
+- H1 = product name; first paragraph answers what the app does
+- One primary intent per URL; no keyword stuffing or hidden text
+- JSON-LD must match **visible** copy (`FAQPage` / `HowTo` only if those sections exist)
+- Never invent `AggregateRating` / review counts — `lib/appStoreRatings.ts` only when live
+- Image `alt` describes the screen, not “screenshot 1”
+- Canonical + hreflang on every indexable route
 
-| File | Purpose |
-|------|---------|
-| `public/llms.txt` | Expanded per-app entry: support, faq.md, store URLs, features |
-| `public/{slug}/faq.md` | Crawler Q&A stub |
-| `app/api/site-facts/route.ts` | JSON catalog (`lib/siteCatalog.ts`) |
-| `app/sitemap.ts` | All public routes |
+## AI engines (citation-ready)
 
-## Rich product page sections (benchmark: hush-gallery, whistle-camera)
+Keep these four in lockstep after every copy change:
 
-`screenshots`, `howToUse`, `faq.items`, `manual`, `tips`, `pageNav`, `useCases` (optional), `premium` (optional)
+| Surface | File |
+|---------|------|
+| HTML + JSON-LD | `layout.tsx` + page sections |
+| Crawler Q&A | `public/{slug}/faq.md` — question headings, first sentence = quotable fact, absolute `https://zukiapps.com/...` URLs |
+| Machine index | `public/llms.txt` expanded bullet (stores, package IDs, faq.md) |
+| Short stub | `public/ai.txt` if adding a **new** app |
 
-## Icons & OG
+Entity name is always **Zuki Apps**. Include platforms, Android package, iOS id, price model, and what the app does **not** do. No puffery (“best”, “revolutionary”).
 
-- `lib/appIcons.ts` — bump `?v=` when replacing PNGs (Next image cache)
-- OG: app icon 512×512 or `opengraph-image.tsx` via `renderAppOgBanner`
+`app/robots.ts` must keep GPTBot, ClaudeBot, PerplexityBot, Google-Extended **allowed**.
 
-## Home alignment
-
-`home.{namespace}` carousel copy must match product page — stale copy hurts SEO and ad message match.
-
-## Verify before ship
+## Verify
 
 ```bash
 npm run build
 ```
 
-Spot-check: store URLs 200, package IDs match Play Console / App Store Connect.
+Spot-check: unique titles, store URLs 200, package IDs match Play / App Store Connect.
+
+Playbook: `.cursor/skills/product-page-enrichment/SKILL.md`

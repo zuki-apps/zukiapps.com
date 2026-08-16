@@ -1,5 +1,5 @@
 ---
-description: App Router pages, components, SEO, and store badges
+description: App Router pages, metadata helper, and store badges
 globs: app/**/*.tsx,components/**/*.tsx,lib/**/*.ts
 alwaysApply: false
 ---
@@ -10,44 +10,31 @@ alwaysApply: false
 
 ```
 app/[locale]/{slug}/
-  layout.tsx      # generateMetadata, robots if under construction
-  page.tsx        # landing
+  layout.tsx      # generateMetadata via buildProductPageMetadata
+  page.tsx
   privacy/page.tsx
   terms/page.tsx
 ```
 
-Mirror an existing app (e.g. `bit-scope/` full page, `zuli-collage/` under construction).
+Mirror `hush-gallery/` (full) or an unpublished landing. Config: `lib/productApps.ts`.
 
 ## Metadata
 
 ```typescript
-import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
+import { buildProductPageMetadata } from '@/lib/productSeo';
+import { getTranslations } from 'next-intl/server';
 
-alternates: {
-  canonical: buildCanonical(locale, '/my-app'),
-  languages: buildLanguageAlternates('/my-app'),
-}
+const t = await getTranslations({ locale, namespace: 'myApp' });
+return buildProductPageMetadata({ locale, appPath: '/my-app', t, keywords: [...] });
 ```
 
-Under construction: `robots: { index: false, follow: true }` via publish flag in layout.
+Unpublished: `robots: { index: false, follow: true }` from the publish flag.
 
-## Store downloads
+## Stores & schema
 
-```tsx
-<DownloadStoreFab
-  appStoreUrl={t('download.appStoreUrl')}
-  googlePlayUrl={t('download.googlePlayUrl')}
-  utmContent="my-app"
-/>
-<StoreDownloadBadges ... utmContent="my-app" />
-```
-
-## Structured data
-
+- `DownloadStoreFab` / `StoreDownloadBadges` with `t('download.*')` and `utmContent`
 - `BreadcrumbsStructuredData` on every page
-- `SoftwareApplicationStructuredData` on full product pages with store URLs
-- Android ID in `lib/appStructuredData.ts` for JSON-LD
+- `SoftwareApplicationStructuredData` on full product pages
+- Android ID in `lib/appStructuredData.ts`
 
-## Sitemap
-
-Add routes in `app/sitemap.ts`. Legal pages always listed; main app path only when published.
+New routes → `app/sitemap.ts`. Legal always listed; main path when published.

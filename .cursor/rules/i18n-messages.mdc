@@ -1,16 +1,22 @@
 ---
-description: next-intl messages and legal section JSON structure
-globs: messages/**,i18n.ts
+description: next-intl message folders and legal JSON structure
+globs: messages/**,i18n.ts,lib/loadAppMessages.ts
 alwaysApply: false
 ---
 
 # i18n & messages
 
-## Namespaces
+## Layout
 
-One top-level key per app in `messages/en.json` (camelCase): `bitScope`, `noiseMeterShusher`,  `zuliCollage`, etc.
+```
+messages/shared/{locale}.json     # home, common, dsa
+messages/apps/{slug}/en.json      # English source of truth per app
+messages/apps/{slug}/{locale}.json  # optional overlay (deep-merge)
+```
 
-Typical keys: `hero`, `download`, `privacy`, `terms`, `footer`, `features`, …
+App folders are listed in `i18n.ts` (`APPS`). Loader: `lib/loadAppMessages.ts`.
+
+Typical keys: `hero` (include `seoTitle`, `metaDescription`, `structuredDataDescription`), `download`, `privacy`, `terms`, `features`, `faq.items`, `howToUse`.
 
 ## Legal sections
 
@@ -24,15 +30,11 @@ Typical keys: `hero`, `download`, `privacy`, `terms`, `footer`, `features`, …
 }
 ```
 
-Wire in page with `LegalSections` — pass `sections`, `listSectionKeys`, `withContent2`, `contactSectionKey`.
+Render with `LegalSections`.
 
-## Locales
+## Rules
 
-- `i18n.ts` deep-merges `{locale}.json` over `en.json`
-- For new apps, **en.json only** is often sufficient (other locales inherit)
-- `dreambitLegacy` loaded separately — do not nest under app keys
-
-## Pitfalls
-
-- Invalid JSON or missing nested keys → runtime 500 in prod; always mirror section keys used in `page.tsx`
-- Reformatting entire `en.json` creates huge diffs — patch surgically
+- New copy: English file first; other locales inherit
+- Home carousel: `messages/shared/en.json` → `home.{namespace}` must match the product page
+- Invalid JSON or missing `t()` keys → runtime 500 — mirror keys used in `page.tsx`
+- Surgical patches only (no whole-file reformat)

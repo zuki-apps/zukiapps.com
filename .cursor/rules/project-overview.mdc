@@ -1,29 +1,32 @@
 ---
-description: ZukiApps-WEB stack, locales, and maintenance principles
+description: ZukiApps-WEB stack, i18n paths, and discovery-first maintenance
 alwaysApply: true
 ---
 
 # Zuki Apps website — overview
 
-Next.js 14 + TypeScript + Tailwind + **next-intl**. All product pages live under `app/[locale]/`.
+Next.js 14 + TypeScript + Tailwind + **next-intl**. Product pages live under `app/[locale]/`.
+
+**Primary job of this site:** Google ranking + citations in AI engines (Google AI Overviews, Gemini, ChatGPT, Perplexity, Claude). Every published app page must be factual, unique, and machine-readable.
 
 ## Must-know
 
-- **English source:** `messages/en.json` — add full namespaces here first
-- **Publish flags:** `lib/appPublishState.ts` — hidden apps (ToldYa, Zuli Collage) omit home grid until `*_PUBLISHED = true`
-- **Store URLs:** `messages/en.json` → `{namespace}.download.*` and `lib/appStructuredData.ts`
+- **English source:** `messages/apps/{slug}/en.json` (app copy) and `messages/shared/en.json` (home/common). Other locales overlay.
+- **SEO helper:** `lib/productSeo.ts` → `buildProductPageMetadata` (`hero.seoTitle`, `hero.metaDescription`)
+- **Publish flags:** `lib/appPublishState.ts` — unpublished apps stay off home grid
+- **Store IDs:** `download.*` in app messages + `lib/appStructuredData.ts`
 - **Deep context:** `.cursor/context/project_context.md`
 
 ## Conventions
 
-- Client product pages: `'use client'` + `useTranslations` + shared components (`StarBackground`, `DownloadStoreFab`, `LegalSections`)
-- Legal copy: structured sections in JSON; render with `LegalSections`
-- RTL: `locale === 'he' || locale === 'ar'` for text alignment
+- Client product pages: `'use client'` + `useTranslations` + shared components
+- RTL: `locale === 'he' || locale === 'ar'`
 - Links: `` `/${locale}/path` `` (locale from `useLocale()`)
 
 ## Do not
 
-- Commit unless explicitly asked
-- Hardcode store URLs when `t('download.*')` exists
-- Add apps to home/sitemap catalog without updating publish flags
-- Edit all 12 locale JSON files when en fallback is enough for new keys
+- Commit unless asked
+- Write to a root `messages/en.json` (it does not exist)
+- Invent package / App Store IDs
+- Add apps to home/sitemap catalog without publish flags
+- Edit all 12 locale files when English + merge is enough

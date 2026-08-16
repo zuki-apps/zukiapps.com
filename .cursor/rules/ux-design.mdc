@@ -21,7 +21,7 @@ alwaysApply: false
 ## UX checklist
 
 - One clear primary action per viewport
-- User strings in `messages/en.json`, not hardcoded
+- User strings in `messages/apps/{slug}/en.json` or `messages/shared/en.json`, not hardcoded
 - RTL: `locale === 'he' || locale === 'ar'` → `text-right`
 - Decorative icons: `aria-hidden`; meaningful controls: labels
 - Mobile touch targets ≥ 44px; test `md:` icon/heading scale

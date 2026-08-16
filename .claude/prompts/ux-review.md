@@ -10,7 +10,8 @@ Review the changed pages/components for:
 4. **Mobile & responsive** — spacing, tap targets, text scale at `md:`
 5. **Accessibility** — contrast, focus, aria, reduced motion
 6. **RTL** — Hebrew/Arabic alignment and nav
-7. **i18n** — no hardcoded copy in TSX
+7. **i18n** — no hardcoded copy in TSX (`messages/apps/{slug}/en.json`)
+8. **Crawlers** — one H1; FAQ visible in the DOM; screenshot `alt` text is descriptive
 
 Output: Critical UX → Visual polish → A11y/RTL → Minimal Tailwind patches → summary.
 

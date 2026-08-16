@@ -1,33 +1,30 @@
 # ZukiApps-WEB — Claude Code
 
-Marketing and legal site for **Zuki Apps** (Next.js 14, next-intl, Tailwind). Optimized for **Google SEO** and **answer-engine (AEO)** discovery.
+Marketing site for **Zuki Apps**. Optimize for **Google SEO** and **AI-engine citations** (Gemini, ChatGPT, Perplexity, Claude, AI Overviews).
 
 ## Quick reference
 
 | Topic | Location |
 |-------|----------|
-| Full context | `.cursor/context/project_context.md` |
-| Short context | `.claude/context.md` |
+| Project map | `.cursor/context/project_context.md` |
+| AEO playbook | `.cursor/skills/product-page-enrichment/aeo-reference.md` |
 | Agent roster | `AGENTS.md` |
-| Cursor rules | `.cursor/rules/*.mdc` |
-| SEO/AEO rule | `.cursor/rules/seo-aeo.mdc` |
-| Publish flags | `lib/appPublishState.ts` |
-| English copy | `messages/en.json` |
-| Rich page examples | `hush-gallery/`, `whistle-camera/` |
-| Machine index | `public/llms.txt`, `api/site-facts` |
+| App copy | `messages/apps/{slug}/en.json` |
+| Shared / home | `messages/shared/en.json` |
+| Metadata | `lib/productSeo.ts` |
+| Slug map | `lib/productApps.ts` |
+| Machine index | `public/llms.txt`, `public/ai.txt`, `public/{slug}/faq.md` |
 
 ## Agents (`.claude/agents/`)
 
 | Agent | Role |
 |-------|------|
-| `senior-marketing-seo` | SEO, AEO, structured data, llms.txt |
-| `senior-advertising` | Paid ads ↔ landing message match |
-| `senior-web-developer` | Next.js implementation |
-| `senior-ux-designer` | UI, twilight theme, a11y |
-| `content-sync-specialist` | App repo → web page sync |
-| `site-growth-orchestrator` | Multi-app SEO/AEO; coordinates specialists |
-
-**Skill:** `.cursor/skills/product-page-enrichment/SKILL.md`
+| `site-growth-orchestrator` | Multi-app Google + AI exposure |
+| `senior-marketing-seo` | SEO, AEO, schema, llms.txt |
+| `senior-advertising` | Paid ↔ landing message match |
+| `senior-web-developer` | Next.js, metadata, sitemap |
+| `senior-ux-designer` | UI, a11y, visible H1/FAQ |
+| `content-sync-specialist` | App repo → web page |
 
 ## Commands
 
@@ -39,10 +36,9 @@ npm run lint
 
 ## Hard constraints
 
-- Minimize diff scope; match existing app page patterns
-- Update `messages/en.json` first for new copy
-- Do not commit unless explicitly asked
-- Store URLs: verify live package IDs; `lib/appStructuredData.ts`
-- Hidden apps: no home grid until `*_PUBLISHED = true`
+- No root `messages/en.json`
+- Do not invent store IDs or ratings
+- Copy change → update `faq.md` + `llms.txt`
+- Do not commit unless asked
 
-See **`AGENTS.md`** at repo root.
+See **`AGENTS.md`**.

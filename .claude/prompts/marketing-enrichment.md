@@ -2,12 +2,13 @@
 
 Act as **content-sync-specialist** + **senior-marketing-seo**.
 
-1. Scan `/Users/zukman/GIT/{AppRepo}/marketing/` and `docs/`
+Read `.cursor/skills/product-page-enrichment/SKILL.md`.
+
+1. Scan `/Users/zukman/GIT/{AppRepo}/marketing/` (or `Marketing/`) and `docs/`
 2. List assets (icons, screenshots) with paths
-3. Propose `messages/en.json` sections: hero, features, screenshots, howToUse, faq (8+), manual, tips
-4. Implement: assets → `public/images/`, patch JSON, update `page.tsx`, `layout.tsx`, `llms.txt`, `faq.md`
-5. Run `npm run build`
+3. Patch `messages/apps/{slug}/en.json`: hero (incl. seoTitle/metaDescription), features, screenshots, howToUse, faq (8+), manual, tips
+4. Implement: assets → `public/images/{slug}/`, page + layout (`buildProductPageMetadata`), `llms.txt`, `faq.md`
+5. Align `messages/shared/en.json` → `home.{namespace}`
+6. `npm run build`
 
-Match accent color to existing app family. Use `StoreDownloadBadges`, `FaqStructuredData`, `HowToStructuredData`.
-
-Do not commit unless asked.
+Match accent to `lib/productApps.ts`. Do not invent store IDs. Do not commit unless asked.

@@ -1,52 +1,32 @@
 ---
 description: Pull marketing copy and assets from sibling app repos into product pages
-globs: messages/en.json,scripts/patch-*.py,public/images/**
+globs: messages/apps/**/*.json,messages/shared/**/*.json,scripts/patch-*.py,public/images/**,public/**/faq.md,public/llms.txt
 alwaysApply: false
 ---
 
 # Marketing content sync
 
-## Source repos (sibling to ZukiApps-WEB)
+Source: `/Users/zukman/GIT/{AppName}/` — `marketing/` or `Marketing/`, `docs/`, screenshots, `AppConfig`.
 
-`/Users/zukman/GIT/{AppName}/` — scan:
+Canonical slug map: `lib/productApps.ts` (do not duplicate here).
 
-- `marketing/shared/guides/faq.md`, `user-manual.md`, `tips-and-tricks.md`
-- `marketing/shared/website/landing-page.md`, `copy/locales.json`
-- `marketing/android/screenshots/`, `marketing/shared/branding/app-icon-512.png`
-- `docs/APP_STORE_LISTING_*.md`, `GOOGLE_PLAY_LISTING_*.md`
+## Workflow
 
-## Patch workflow
-
-1. English only first: `messages/en.json` namespace (`hero`, `features`, `faq.items`, …)
-2. Optional script: `scripts/patch-{slug}-content.py`
-3. Assets: `public/images/{slug}/`, icon at `public/images/{slug}-icon.png`
-4. Page: mirror `hush-gallery` or `whistle-camera` section order
-5. Update `public/llms.txt` + `public/{slug}/faq.md`
-
-## Copy rules
-
-- Lead with user benefit, not tech stack (unless dev-focused app like Bit Scope)
-- FAQ answers: concrete steps, real URLs (`https://zukiapps.com/...`)
-- No placeholder screenshots (black/empty viewer frames)
-- Version in `status.versionValue` from app marketing version when known
-
-| ZuList | `Marketing/` | `/zulist` | `zulist` |
-| BitScope | `Marketing/` | `/bit-scope` | `bitScope` |
-| FunFactsTrivia | `marketing/` | `/fun-facts-trivia` | `funFactsTrivia` |
-| NoiseMeterShusher | `marketing/` | `/noise-meter-shusher` | `noiseMeterShusher` |
-| ParatrooperBlitz | `marketing/` | `/paratrooper-blitz` | `paratrooperBlitz` |
-| PowerIntervalTimer | `marketing/` | `/power-interval-timer` | `powerIntervalTimer` |
-| SudokuPuzzle | `marketing/` | `/sudoku-puzzle` | `sudokuPuzzle` |
-| TempoLabPro | `marketing/` | `/tempo-lab-pro` | `tempoLabPro` |
-| TrackLedger | `marketing/` | `/track-ledger` | `trackLedger` |
-
-## Batch sync
+1. English first: `messages/apps/{slug}/en.json`
+2. Assets: `public/images/{slug}/`, icon `{slug}-icon.png`
+3. Page order: mirror `hush-gallery` / `whistle-camera`
+4. AEO lockstep: `public/{slug}/faq.md` + `public/llms.txt` (+ `ai.txt` if new app)
+5. Home match: `messages/shared/en.json` → `home.{namespace}`
 
 ```bash
 python3 scripts/sync-product-marketing.py --app all
-python3 scripts/apply-product-page-enrichment.py
 npm run build
 ```
 
-Skill: `.cursor/skills/product-page-enrichment/SKILL.md`  
-Orchestrator: `.claude/agents/site-growth-orchestrator.md`
+## Copy
+
+- Lead with user benefit; package IDs only as facts
+- FAQ: 8–12 real Q&As; first sentence of each answer is citation-ready
+- No placeholder screenshots; no invented store IDs
+
+Skill: `.cursor/skills/product-page-enrichment/SKILL.md`
