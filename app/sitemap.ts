@@ -82,7 +82,7 @@ const routes: SitemapRouteMeta[] = [
   ...(TOLDYA_PUBLISHED || TOLDYA_PILOT
     ? [
         { path: '/toldya', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
-        // Store compliance URLs — indexed while pilot/published; omitted when ToldYa is fully hidden.
+        // Store compliance URLs — indexed while published.
         { path: '/toldya/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/toldya/child-safety', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/toldya/community', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,

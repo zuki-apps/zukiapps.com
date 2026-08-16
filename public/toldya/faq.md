@@ -11,7 +11,7 @@ ToldYa! is a free social predictions app from Zuki Apps. Post your call before i
 
 ## Do I need an invitation code?
 
-Not during open beta. Create an account with email and password until further notice. Invitation-only signup may return later.
+No. Anyone can register with email and password. No invitation code.
 
 ## Is ToldYa! free?
 

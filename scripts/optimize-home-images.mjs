@@ -24,6 +24,7 @@ const HOME_ICONS = [
   'images/geo-calc-icon.png',
   'images/zuli-collage-icon.png',
   'images/timesince-icon.png',
+  'images/toldya-icon.png',
 ];
 
 const MONSTERS = ['images/monsters/zuli-01.png', 'images/monsters/zuli-04.png', 'images/monsters/zuli-15.png'];

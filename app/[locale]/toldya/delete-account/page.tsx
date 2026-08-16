@@ -1,18 +1,28 @@
-'use client';
-
-import { useTranslations, useLocale } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+import { routing } from '@/routing';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
+import ToldyaLegalNav from '@/components/ToldyaLegalNav';
 import { AlertTriangle } from 'lucide-react';
+import { PUBLISHER_EMAIL } from '@/lib/publisherContact';
 
-export default function ToldyaDeleteAccountPage() {
-  const t = useTranslations('toldya.deleteAccount');
-  const tCommon = useTranslations('common');
-  const tApp = useTranslations('toldya.hero');
-  const locale = useLocale();
+export default async function ToldyaDeleteAccountPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+
+  if (!routing.locales.includes(locale as any)) {
+    notFound();
+  }
+
+  const t = await getTranslations({ locale, namespace: 'toldya.deleteAccount' });
+  const tCommon = await getTranslations({ locale, namespace: 'common' });
+  const tApp = await getTranslations({ locale, namespace: 'toldya.hero' });
   const rtl = locale === 'he' || locale === 'ar';
-  const supportEmail = 'zuki.apps.dev@gmail.com';
 
   return (
     <>
@@ -45,6 +55,8 @@ export default function ToldyaDeleteAccountPage() {
               <h1 className="text-3xl font-bold text-gray-900 mb-6">{t('title')}</h1>
               <p className="text-gray-700 mb-8 leading-relaxed">{t('intro')}</p>
 
+              <ToldyaLegalNav locale={locale} current="delete-account" />
+
               <div className="bg-yellow-50 border-2 border-yellow-400 rounded-lg p-6 mb-8">
                 <div className={`flex items-start gap-3 ${rtl ? 'flex-row-reverse' : ''}`}>
                   <AlertTriangle className="w-6 h-6 text-yellow-600 flex-shrink-0 mt-1" aria-hidden />
@@ -70,8 +82,8 @@ export default function ToldyaDeleteAccountPage() {
                 <h2 className="text-2xl font-bold text-emerald-600 mb-4">{t('stepsEmail.title')}</h2>
                 <p className="text-gray-700 leading-relaxed">
                   {t('stepsEmail.content')}{' '}
-                  <a href={`mailto:${supportEmail}`} className="text-emerald-600 hover:underline">
-                    {supportEmail}
+                  <a href={`mailto:${PUBLISHER_EMAIL}`} className="text-emerald-600 hover:underline">
+                    {PUBLISHER_EMAIL}
                   </a>
                 </p>
               </section>
@@ -97,8 +109,8 @@ export default function ToldyaDeleteAccountPage() {
                 <h2 className="text-2xl font-bold text-emerald-600 mb-4">{t('contact.title')}</h2>
                 <p className="text-gray-700 mb-4">{t('contact.content')}</p>
                 <p className="text-gray-700 mb-4">
-                  <a href={`mailto:${supportEmail}`} className="text-emerald-600 hover:underline">
-                    {supportEmail}
+                  <a href={`mailto:${PUBLISHER_EMAIL}`} className="text-emerald-600 hover:underline">
+                    {PUBLISHER_EMAIL}
                   </a>
                 </p>
                 <p className="text-sm flex flex-wrap gap-x-4 gap-y-2">

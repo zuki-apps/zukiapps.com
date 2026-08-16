@@ -29,6 +29,7 @@ import {
   Layers,
   Compass,
   CalendarClock,
+  Megaphone,
 } from 'lucide-react';
 
 interface AppData {
@@ -247,6 +248,18 @@ export default function AppsCarousel() {
       featuresKey: 'timeSince.features',
       learnMoreKey: 'timeSince.learnMore',
       link: `/${locale}/timesince`,
+      isComingSoon: false,
+    },
+    toldya: {
+      id: 'toldya',
+      icon: <Megaphone className="w-16 h-16 text-emerald-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP.toldya,
+      titleKey: 'toldya.title',
+      subtitleKey: 'toldya.subtitle',
+      descriptionKey: 'toldya.description',
+      featuresKey: 'toldya.features',
+      learnMoreKey: 'toldya.learnMore',
+      link: `/${locale}/toldya`,
       isComingSoon: false,
     },
     }),

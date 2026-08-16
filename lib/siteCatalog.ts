@@ -2,7 +2,7 @@
  * Canonical list of public product URLs and labels for JSON-LD (ItemList) and docs.
  * Paths are locale-agnostic; default locale uses unprefixed URLs per routing.
  *
- * ToldYa! (`/toldya`) is indexed as a pilot page when `TOLDYA_PILOT` is true; omitted from the home grid until `TOLDYA_PUBLISHED`.
+ * ToldYa! (`/toldya`) is on the home grid when `TOLDYA_PUBLISHED` is true.
  * Crawler JSON: keep `public/site-facts.json` in lockstep (static export has no `/api/*`).
  */
 export type SiteCatalogEntry = {

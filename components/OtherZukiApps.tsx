@@ -22,6 +22,7 @@ const TITLE_KEY: Record<HomeAppId, string> = {
   'fun-facts-trivia': 'funFactsTrivia.title',
   'zuli-collage': 'zuliCollage.title',
   timesince: 'timeSince.title',
+  toldya: 'toldya.title',
 };
 
 type OtherZukiAppsProps = {

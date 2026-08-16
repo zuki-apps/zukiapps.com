@@ -1,6 +1,7 @@
 import {
   GEO_CALC_PUBLISHED,
   TIMESINCE_PUBLISHED,
+  TOLDYA_PUBLISHED,
   ZULI_COLLAGE_PUBLISHED,
 } from '@/lib/appPublishState';
 
@@ -24,6 +25,7 @@ export const HOME_APP_IDS = [
   'fun-facts-trivia',
   'zuli-collage',
   'timesince',
+  'toldya',
 ] as const;
 
 export type HomeAppId = (typeof HOME_APP_IDS)[number];
@@ -33,6 +35,7 @@ const HOME_PUBLISH_REQUIRED: Partial<Record<HomeAppId, boolean>> = {
   'geo-calc': GEO_CALC_PUBLISHED,
   'zuli-collage': ZULI_COLLAGE_PUBLISHED,
   timesince: TIMESINCE_PUBLISHED,
+  toldya: TOLDYA_PUBLISHED,
 };
 
 /** Home-visible apps (respects publish flags). */

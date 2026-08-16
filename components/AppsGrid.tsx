@@ -19,6 +19,7 @@ import {
   Layers,
   Compass,
   CalendarClock,
+  Megaphone,
 } from 'lucide-react';
 
 interface AppInfo {
@@ -143,6 +144,13 @@ export default async function AppsGrid({ locale }: { locale: string }) {
       iconEdgeToEdge: true,
       titleKey: 'timeSince.title',
       link: `/${locale}/timesince`,
+    },
+    toldya: {
+      id: 'toldya',
+      icon: <Megaphone className="w-12 h-12 text-emerald-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP.toldya,
+      titleKey: 'toldya.title',
+      link: `/${locale}/toldya`,
     },
   };
 

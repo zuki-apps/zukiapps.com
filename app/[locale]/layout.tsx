@@ -218,7 +218,7 @@ export default async function LocaleLayout({
     name: 'Zuki Apps',
     url: baseUrl,
     description:
-      'Official site for Zuki Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts! Trivia, Bit Scope, Track Ledger (GPS/GNSS logger), Noise Meter — Shusher, Paratrooper Blitz, TempoLab Pro; plus DreamBit legacy archive. iOS and Android. Multilingual.',
+      'Official site for Zuki Apps: ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Football Trivia Master, Fun Facts! Trivia, Bit Scope, Track Ledger (GPS/GNSS logger), Noise Meter — Shusher, Paratrooper Blitz, TempoLab Pro, Zuli Collage, Time Since, GEO Calc, ToldYa!; plus DreamBit legacy archive. iOS and Android. Multilingual.',
     publisher: {
       '@id': organizationId,
     },

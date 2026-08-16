@@ -6,6 +6,7 @@ import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import LegalSections from '@/components/LegalSections';
+import ToldyaLegalNav from '@/components/ToldyaLegalNav';
 import type { Metadata } from 'next';
 
 const BODY_SECTIONS = [
@@ -90,6 +91,8 @@ export default async function ToldyaChildSafetyPage({
               <h1 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h1>
               <p className="text-gray-400 mb-4">{t('lastUpdated')}</p>
               <p className="text-gray-700 leading-relaxed mb-8">{t('intro')}</p>
+
+              <ToldyaLegalNav locale={locale} current="child-safety" />
 
               <LegalSections
                 sections={BODY_SECTIONS}

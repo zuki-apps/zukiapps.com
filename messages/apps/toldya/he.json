@@ -6,7 +6,7 @@
       "description": "תחזיות חברתיות (בטא פתוחה) — פרסמו את ה-call לפני שזה קורה, הצביעו בזירה, סגרו תוצאה כשצדקתם והוכיחו שידעתם. הרשמה חופשית ב-iOS וב-Android; בלי פרסומות, בלי רכישות; מוניטין בלבד, בלי כסף אמיתי.",
       "structuredDataDescription": "ToldYa! — רשת חברתית לתחזיות, הצבעות בזירה, סגירת תוצאות, חדרים פרטיים וכרטיסי תוצאה. הרשמה פתוחה בבטא. Android com.zuki.apps.toldya; iOS App Store id6756342206 מאת Zuki Apps.",
       "seoTitle": "ToldYa! — תחזיות חברתיות | Zuki Apps",
-      "metaDescription": "Told you so! תוכיחו. תחזיות חברתיות בהרשמה פתוחה (בטא) עם הצבעה בזירה, סגירת תוצאות, חדרים פרטיים וכרטיסי שיתוף. חינם ב-iOS וב-Android."
+      "metaDescription": "ToldYa! (בטא פתוחה): תחזיות חברתיות, זירה, חדרים פרטיים. חינם ב-iOS וב-Android."
     },
     "back": "חזרה לבית",
     "legalNav": {
@@ -19,7 +19,7 @@
       "support": "תמיכה ועזרה"
     },
     "download": {
-      "appStoreUrl": "https://apps.apple.com/app/id6756342206",
+      "appStoreUrl": "https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206",
       "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.toldya",
       "appStoreAlt": "הורד ב-App Store",
       "googlePlayAlt": "קבל את זה בGoogle Play",
@@ -114,7 +114,7 @@
     "terms": {
       "title": "תנאי שימוש",
       "lastUpdated": "עדכון אחרון: מאי 2026",
-      "intro": "תנאי שימוש אלה (\"תנאים\") מסדירים את הגישה שלך אל ToldYa! (\"שירות\", \"אפליקציה\"), רשת חברתית המופעלת על ידי Zuki Apps. בתקופת הבטא הפתוחה ניתן להירשם ללא קוד הזמנה עד להודעה חדשה. ביצירת חשבון או שימוש בשירות אתה מסכים לתנאים אלה ולמדיניות הפרטיות. אם אינך מסכים, אל תשתמש בשירות.",
+      "intro": "תנאי שימוש אלה (\"תנאים\") מסדירים את הגישה שלך אל ToldYa! (\"שירות\", \"אפליקציה\"), רשת חברתית המופעלת על ידי Zuki Apps. בבטא הפתוחה כל אחד יכול להירשם עם אימייל וסיסמה — אין צורך בקוד הזמנה. ביצירת חשבון או שימוש בשירות אתה מסכים לתנאים אלה ולמדיניות הפרטיות. אם אינך מסכים, אל תשתמש בשירות.",
       "section1": {
         "title": "1. קבלה",
         "content": "אתה חייב להיות מסוגל מבחינה חוקית להתקשר בהסכם מחייב בתחום השיפוט שלך. אם אתה משתמש בשירות מטעם ארגון, אתה מצהיר שיש לך סמכות לחייב את הארגון הזה.",
@@ -276,6 +276,7 @@
         "items": [
           "תוכן בלתי חוקי, כולל ניצול והתעללות מינית בילדים (ראו תקני בטיחות ילדים)",
           "תוכן מיני הכולל קטינים, או תוכן שמציג קטינים באופן מיני",
+          "עירום, פורנוגרפיה או תוכן מיני מפורש",
           "הימורים בכסף אמיתי, הונאות או פישינג",
           "אלימות גרפית, או תוכן שמעודד פגיעה באחרים"
         ],
@@ -349,7 +350,7 @@
         "title": "8. מגע ייעודי לבטיחות ילדים",
         "content": "נקודת הקשר המיועדת לבטיחות ילדים, נוהלי מניעת CSAM ועמידה בתקני בטיחות ילדים Google Play מוכנה להגיב לפניות מפלטפורמות, רגולטורים ומשתמשים:",
         "email": "liorzukman@gmail.com",
-        "content2": "For general app support (non–child-safety), you may also contact zuki.apps.dev@gmail.com. For privacy requests, see our Privacy Policy.",
+        "content2": "לתמיכה כללית (שאינה בטיחות ילדים) אפשר גם לפנות ל-zuki.apps.dev@gmail.com. לבקשות פרטיות ראו את מדיניות הפרטיות.",
         "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
       },
       "metaDescription": "ToldYa! תקני בטיחות ילדים שפורסמו נגד CSAE - אפס סובלנות, דיווח בתוך האפליקציה, התנהלות, ציות לחוק ויצירת קשר ייעודי."
@@ -358,7 +359,7 @@
       "badge": "בטא — הרשמה פתוחה",
       "title": "עכשיו בבטא",
       "message": "ToldYa! בבטא פתוחה ב־App Store וב־Google Play. פרסמו תחזיות, הצביעו בזירה, סגרו תוצאות כשצדקתם, שתפו כרטיסי תוצאה והשתמשו בחדרים פרטיים עם חברים.",
-      "inviteNote": "הרשמה פתוחה בבטא — צרו חשבון עם אימייל וסיסמה (ללא קוד הזמנה עד להודעה חדשה). חינם: בלי פרסומות, בלי רכישות, בלי הימורים בכסף (12+ UGC).",
+      "inviteNote": "כל אחד יכול להירשם עם אימייל וסיסמה — אין צורך בקוד הזמנה. חינם: בלי פרסומות, בלי רכישות, בלי הימורים בכסף. לא מיועד לילדים מתחת לגיל 13.",
       "highlights": [
         "פרסם תחזיות שהעוקבים שלך יכולים לראות; להצביע ולהגיב בזירה",
         "ציוני דיוק בקטגוריה ושיא מסלול שאחרים יכולים לצפות בהם",
@@ -375,7 +376,7 @@
       "title": "תמיכה ועזרה",
       "subtitle": "אנחנו כאן כדי לעזור עם ToldYa! - תחזיות, החשבון שלך, פרטיות ובטיחות ילדים.",
       "metaTitle": "תמיכה ועזרה - ToldYa! | Zuki Apps",
-      "metaDescription": "קבל עזרה עם ToldYa! - חיזויים להזמנה בלבד, מחיקת חשבון, פרטיות, קשר לבטיחות ילדים ותמיכה טכנית.",
+      "metaDescription": "עזרה ל-ToldYa! — בטא פתוחה, מחיקת חשבון, פרטיות, בטיחות ילדים ותמיכה.",
       "contact": {
         "title": "צור קשר",
         "description": "יש לך שאלה או זקוק לסיוע? שלחו לנו מייל ונחזור אליכם בהקדם האפשרי."
@@ -407,11 +408,11 @@
         "title": "שאלות נפוצות",
         "q1": {
           "question": "מה זה ToldYa!?",
-          "answer": "ToldYa! היא אפליקציה חברתית להזמנה בלבד לתחזיות - פרסם את השיחה שלך לפני שהיא מתרחשת, הצביעו בזירה, בנה ציון מוניטין והוכח שקראת לזה. חינם ב-iOS ו-Android ללא פרסומות וללא רכישות בתוך האפליקציה."
+          "answer": "ToldYa! היא אפליקציית תחזיות חברתיות: מפרסמים תחזית לפני שהדבר קורה, מצביעים בזירה, בונים מוניטין ומוכיחים שצדקתם. חינם ב-iOS וב-Android; בלי פרסומות ובלי רכישות. הרשמה פתוחה בבטא."
         },
         "q2": {
-          "question": "האם ToldYa! להזמנה בלבד?",
-          "answer": "כֵּן. במהלך הפיילוט, הגישה היא להזמנה בלבד. אתה צריך הזמנה כדי ליצור חשבון ולהשתמש בתכונות החברתיות."
+          "question": "האם צריך קוד הזמנה?",
+          "answer": "לא. כל אחד יכול להירשם עם אימייל וסיסמה. אין צורך בקוד הזמנה."
         },
         "q3": {
           "question": "איך אני מוחק את החשבון שלי?",
@@ -419,7 +420,7 @@
         },
         "q4": {
           "question": "האם ToldYa! יש לך מודעות או רכישות בתוך האפליקציה?",
-          "answer": "לא. ToldYa! הוא בחינם ללא פרסומות וללא רכישות בתוך האפליקציה במהדורת הפיילוט הנוכחית."
+          "answer": "לא. ToldYa! חינמית בלי פרסומות ובלי רכישות בבטא הנוכחית."
         },
         "q5": {
           "question": "אילו שפות נתמכות?",
@@ -427,7 +428,7 @@
         },
         "q6": {
           "question": "כיצד אוכל לדווח על חששות לבטיחות ילדים?",
-          "answer": "See our Child Safety Standards page at https://zukiapps.com/toldya/safety for CSAE policy and the designated child safety contact. For general support, email zuki.apps.dev@gmail.com."
+          "answer": "ראו את תקני בטיחות הילדים ב־https://zukiapps.com/toldya/child-safety למדיניות CSAE ואיש הקשר. לתמיכה כללית: zuki.apps.dev@gmail.com."
         },
         "q7": {
           "question": "איך עובדת ההצבעה בזירה?",
@@ -438,18 +439,107 @@
           "answer": "iOS: https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206 · Android: https://play.google.com/store/apps/details?id=com.zuki.apps.toldya/ דף מוצר toldya/"
         },
         "q9": {
-          "question": "How do prediction resolution and disputes work?",
-          "answer": "After the voting deadline, the prediction author must submit the outcome. Other members can dispute an outcome they believe is wrong through the in-app flow. Disputes are reviewed by our team and do not instantly change the result. See our Terms of Use for details."
+          "question": "איך עובדות סגירת תחזית ומחלוקות?",
+          "answer": "אחרי דדליין ההצבעה, מחבר התחזית חייב לשלוח תוצאה. אחרים יכולים לערער באפליקציה. הצוות בודק ערעורים והתוצאה לא משתנה מיד. ראו תנאי השימוש."
         },
         "q10": {
-          "question": "What are private rooms?",
-          "answer": "Private rooms let invited friends make predictions visible only within that room—not in public feeds or global leaderboards. The same community rules, reporting, and blocking apply inside rooms."
+          "question": "מה זה חדרים פרטיים?",
+          "answer": "חדרים פרטיים מאפשרים לחברים מוזמנים לפרסם תחזיות שנראות רק בחדר — לא בפידים ציבוריים ולא בלוחות מובילים. אותם כללי קהילה, דיווח וחסימה חלים בפנים."
+        },
+        "q11": {
+          "question": "איפה כללי הקהילה?",
+          "answer": "ראו https://zukiapps.com/toldya/community. בטיחות ילדים / CSAE: https://zukiapps.com/toldya/child-safety"
         }
       },
       "additionalHelp": {
         "title": "זקוק לעזרה נוספת?",
         "description": "אם לא מצאת את התשובה שחיפשת, אנא צור איתנו קשר. בדרך כלל אנו מגיבים תוך 24-48 שעות."
       }
+    },
+    "howToUse": {
+      "title": "איך משתמשים ב-ToldYa!",
+      "subtitle": "פרסמו תחזית, הצביעו בזירה, סגרו כשצדקתם.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "פרסמו תחזית",
+          "description": "כתבו מה לדעתכם יקרה והגדירו תאריך יעד. העוקבים רואים את זה ברשומה."
+        },
+        {
+          "number": "2",
+          "title": "הצביעו בזירה",
+          "description": "הקהילה מצביעה אם התחזית תתממש. תגובות ותגובות נשארות צמודות לתחזית."
+        },
+        {
+          "number": "3",
+          "title": "סגרו ושתפו",
+          "description": "אחרי הדדליין חובה לשלוח תוצאה. שתפו כרטיס כשצדקתם."
+        }
+      ]
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "subtitle": "בטא פתוחה ב-iOS וב-Android — חינם, בלי פרסומות, בלי רכישות.",
+      "viewAllSupport": "לתמיכה ועזרה ←",
+      "items": [
+        {
+          "question": "מה זה ToldYa!?",
+          "answer": "ToldYa! היא אפליקציית תחזיות חברתיות חינמית של Zuki Apps. מפרסמים תחזית לפני שהדבר קורה, מצביעים בזירה, בונים ציון מוניטין ומוכיחים שצדקתם. בטא פתוחה ב-iOS וב-Android; בלי פרסומות ובלי רכישות."
+        },
+        {
+          "question": "האם צריך קוד הזמנה?",
+          "answer": "לא. כל אחד יכול להירשם עם אימייל וסיסמה. אין צורך בקוד הזמנה."
+        },
+        {
+          "question": "האם ToldYa! בחינם?",
+          "answer": "כן. בלי פרסומות ובלי רכישות בבטא הנוכחית. מוניטין וזכות להתפאר בלבד — בלי הימורים בכסף."
+        },
+        {
+          "question": "איך עובדת ההצבעה בזירה?",
+          "answer": "מפרסמים תחזית, והקהילה מצביעה אם היא תתממש. אחרי הדדליין המחבר חייב לשלוח תוצאה. התוצאות מעדכנות את ציון המוניטין לפי קטגוריה."
+        },
+        {
+          "question": "מה זה חדרים פרטיים?",
+          "answer": "חדרים פרטיים מאפשרים לחברים מוזמנים לפרסם תחזיות שנראות רק בחדר — לא בפידים ציבוריים ולא בלוחות מובילים. אותם כללי קהילה חלים."
+        },
+        {
+          "question": "אילו שפות נתמכות?",
+          "answer": "אנגלית ועברית, כולל פריסת RTL מלאה לעברית."
+        },
+        {
+          "question": "איך מוחקים את החשבון?",
+          "answer": "באפליקציה: הגדרות ← מחק חשבון. או ב־https://zukiapps.com/toldya/delete-account. המחיקה קבועה."
+        },
+        {
+          "question": "איך מדווחים על בטיחות ילדים?",
+          "answer": "ראו https://zukiapps.com/toldya/child-safety לתקני CSAE ואיש הקשר. תמיכה כללית: zuki.apps.dev@gmail.com."
+        },
+        {
+          "question": "איפה כללי הקהילה?",
+          "answer": "ראו https://zukiapps.com/toldya/community. אותם כללים חלים גם בחדרים פרטיים."
+        }
+      ]
+    },
+    "links": {
+      "navTitle": "דפי ToldYa! הרשמיים (App Store ו-Google Play)",
+      "productPage": "דף המוצר",
+      "website": "https://zukiapps.com/toldya",
+      "privacy": "https://zukiapps.com/toldya/privacy",
+      "terms": "https://zukiapps.com/toldya/terms",
+      "community": "https://zukiapps.com/toldya/community",
+      "support": "https://zukiapps.com/toldya/support",
+      "deleteAccount": "https://zukiapps.com/toldya/delete-account",
+      "childSafety": "https://zukiapps.com/toldya/safety",
+      "websiteLabel": "אתר / תמיכה",
+      "privacyLabel": "מדיניות פרטיות",
+      "termsLabel": "תנאי שימוש",
+      "communityLabel": "כללי הקהילה",
+      "supportLabel": "תמיכה ועזרה",
+      "deleteAccountLabel": "מחיקת חשבון",
+      "childSafetyLabel": "תקני בטיחות ילדים",
+      "supportEmail": "zuki.apps.dev@gmail.com",
+      "childSafetyEmail": "liorzukman@gmail.com",
+      "safety": "https://zukiapps.com/toldya/safety"
     }
   }
 }

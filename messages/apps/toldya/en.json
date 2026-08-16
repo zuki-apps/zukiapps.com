@@ -41,7 +41,7 @@
         },
         {
           "question": "Do I need an invitation code?",
-          "answer": "Not during open beta. Create an account with email and password until further notice. Invitation-only signup may return later."
+          "answer": "No. Anyone can register with email and password. No invitation code."
         },
         {
           "question": "Is ToldYa! free?",
@@ -207,7 +207,7 @@
       "section16": {
         "title": "16. Sharing outside the Service",
         "content": "The Service may let you generate a shareable image card (for example after a resolved prediction) containing your username, prediction text, outcome, vote summary, and branding. That export is created on your device and shared through third-party apps you choose (via the system share sheet). We do not automatically post shared cards on your behalf.",
-        "content2": "Once you share content outside ToldYa!, the receiving platform’s terms and privacy policy govern that copy. You are responsible for what you share and with whom. Deep links included in shares may require sign-in or an invitation to view the full Arena."
+        "content2": "Once you share content outside ToldYa!, the receiving platform’s terms and privacy policy govern that copy. You are responsible for what you share and with whom. Deep links included in shares may require sign-in to view the full Arena."
       },
       "sectionContact": {
         "title": "Contact",
@@ -221,7 +221,7 @@
     "terms": {
       "title": "Terms of Use",
       "lastUpdated": "Last updated: August 2026",
-      "intro": "These Terms of Use (“Terms”) govern your access to ToldYa! (“Service”, “app”), a social network operated by Zuki Apps. During the open beta period, new accounts may register without an invitation code until further notice. By creating an account or using the Service, you agree to these Terms and our Privacy Policy. If you do not agree, do not use the Service.",
+      "intro": "These Terms of Use (“Terms”) govern your access to ToldYa! (“Service”, “app”), a social network operated by Zuki Apps. During open beta, anyone can register with email and password — no invitation code. By creating an account or using the Service, you agree to these Terms and our Privacy Policy. If you do not agree, do not use the Service.",
       "section1": {
         "title": "1. Acceptance",
         "content": "You must be legally able to enter a binding agreement in your jurisdiction. If you use the Service on behalf of an organization, you represent that you have authority to bind that organization.",
@@ -329,7 +329,7 @@
       "section17": {
         "title": "17. Sharing result cards",
         "content": "The Service may let you export an image card summarizing a resolved prediction (including your username, question, outcome, and branding) and share it through third-party apps. You are responsible for ensuring your shares comply with these Terms and the policies of the platform where you post.",
-        "content2": "Do not use shared cards to misrepresent outcomes, impersonate others, or promote prohibited content. Shared deep links may require an account or invitation to view the underlying Arena."
+        "content2": "Do not use shared cards to misrepresent outcomes, impersonate others, or promote prohibited content. Shared deep links may require an account to view the underlying Arena."
       },
       "section18": {
         "title": "18. Safety tools (Apple & Google requirements)",
@@ -419,6 +419,7 @@
         "items": [
           "Illegal content, including child sexual abuse and exploitation (see Child Safety Standards)",
           "Sexual content involving minors, or content that sexualizes minors",
+          "Nudity, pornography, or sexually explicit material",
           "Real-money gambling, scams, or phishing",
           "Graphic violence, or content that promotes harm to others"
         ],
@@ -501,7 +502,7 @@
       "badge": "Beta — free to join",
       "title": "Now in beta",
       "message": "ToldYa! is in open beta on the App Store and Google Play. Post predictions on the record, vote in the Arena, resolve when you're right, share result cards, and use private rooms with friends.",
-      "inviteNote": "Free to join during beta — create an account with email and password (no invitation code required until further notice). Free app: no ads, no in-app purchases, no real-money gambling (12+ UGC).",
+      "inviteNote": "Anyone can register with email and password — no invitation code. Free app: no ads, no in-app purchases, no real-money gambling. Not directed at children under 13.",
       "highlights": [
         "Post predictions your followers see; Arena voting with comments and reactions",
         "Authors must resolve after the deadline — accountability built in",
@@ -553,7 +554,7 @@
         },
         "q2": {
           "question": "Do I need an invitation code?",
-          "answer": "Not during open beta. Create an account free with email and password until further notice. We may re-enable invitation-only signup later."
+          "answer": "No. Anyone can register with email and password. No invitation code."
         },
         "q3": {
           "question": "How do I delete my account?",
@@ -561,7 +562,7 @@
         },
         "q4": {
           "question": "Does ToldYa! have ads or in-app purchases?",
-          "answer": "No. ToldYa! is free with no ads and no in-app purchases in the current pilot release."
+          "answer": "No. ToldYa! is free with no ads and no in-app purchases in the current beta."
         },
         "q5": {
           "question": "Which languages are supported?",

@@ -3,10 +3,10 @@
     "hero": {
       "title": "ToldYa!",
       "subtitle": "Te l'avevo detto! Dimostralo.",
-      "description": "Previsioni social solo su invito: pubblica la tua chiamata prima che avvenga, vota nell'Arena, costruisci un punteggio di reputazione e dimostra di avercela fatta. Gratuito il iOS e Android; nessuna pubblicità, nessun acquisto in-app.",
-      "structuredDataDescription": "ToldYa! - Social network solo su invito per pronostici, votazioni nell'Arena, commenti e reputazione. Android com.zuki.app.toldya; iOS App Store id6756342206 di Zuki Apps.",
+      "description": "Previsioni social (beta aperta): pubblica la previsione prima che accada, vota in arena, chiudi quando avevi ragione. Gratis su iOS e Android; niente ads né acquisti in-app; solo reputazione, niente soldi veri.",
+      "structuredDataDescription": "ToldYa! — rete social per previsioni, voto in arena, chiusura da parte dell’autore, stanze private, card risultato e reputazione. Registrazione aperta in beta. Android com.zuki.apps.toldya; iOS App Store id6756342206 di Zuki Apps.",
       "seoTitle": "ToldYa! — Previsioni sociali | Zuki Apps",
-      "metaDescription": "Fai pronostici con gli amici, monitora risultati e serie consecutive. Gratis su iOS e Android."
+      "metaDescription": "App gratuita di previsioni (beta aperta). Arena, stanze private, reputazione. Niente ads. iOS e Android."
     },
     "back": "Ritorno a casa",
     "legalNav": {
@@ -15,7 +15,8 @@
       "deleteAccount": "Elimina account",
       "contact": "Contatta l'assistenza",
       "childSafety": "Standard di sicurezza dei bambini",
-      "support": "Supporto e aiuto"
+      "support": "Supporto e aiuto",
+      "community": "Linee guida della community"
     },
     "download": {
       "appStoreUrl": "https://apps.apple.com/app/id6756342206",
@@ -112,7 +113,7 @@
     "terms": {
       "title": "Termini di utilizzo",
       "lastUpdated": "Ultimo aggiornamento: maggio 2026",
-      "intro": "Le presenti Condizioni d'uso (\"Condizioni\") regolano il tuo accesso a ToldYa! (\"Servizio\", \"app\"), un social network solo su invito gestito da Zuki Apps. Creando un account o utilizzando il Servizio, accetti i presenti Termini e la nostra Informativa sulla privacy. Se non sei d'accordo, non utilizzare il Servizio.",
+      "intro": "Le presenti Condizioni d’uso (“Condizioni”) regolano l’accesso a ToldYa! (“Servizio”, “app”), un social network gestito da Zuki Apps. Nella beta aperta i nuovi account possono registrarsi senza codice invito fino a nuovo avviso. Creando un account o usando il Servizio accetti queste Condizioni e l’Informativa sulla privacy. Se non sei d’accordo, non usare il Servizio.",
       "section1": {
         "title": "1. Accettazione",
         "content": "Devi essere legalmente in grado di stipulare un accordo vincolante nella tua giurisdizione. Se utilizzi il Servizio per conto di un'organizzazione, dichiari di avere l'autorità per vincolare tale organizzazione.",
@@ -125,7 +126,7 @@
       },
       "section3": {
         "title": "3. Account e inviti",
-        "content": "L'accesso attualmente richiede un codice di invito valido. È necessario fornire informazioni di registrazione accurate e mantenere riservate le proprie credenziali. Sei responsabile di tutte le attività del tuo account.",
+        "content": "Nella beta aperta la registrazione è disponibile senza codice invito fino a nuovo avviso. Devi fornire dati di registrazione accurati e tenere riservate le credenziali. Sei responsabile di tutta l’attività sul tuo account.",
         "content2": "Non puoi condividere, vendere o distribuire pubblicamente i codici di invito in modo da eludere i nostri controlli di accesso. Possiamo rifiutare la registrazione, recuperare nomi utente o chiudere account a nostra discrezione."
       },
       "section4": {
@@ -249,7 +250,7 @@
     "childSafety": {
       "title": "Standard di sicurezza dei bambini",
       "lastUpdated": "Ultimo aggiornamento: maggio 2026",
-      "intro": "ToldYa! è un social network solo su invito gestito da Zuki Apps. Manteniamo una tolleranza zero nei confronti dell’abuso e dello sfruttamento sessuale dei minori (CSAE). Questa pagina descrive i nostri standard pubblicati, i report in-app, le pratiche di moderazione e come contattarci in merito alla sicurezza dei bambini.",
+      "intro": "ToldYa! è un social network gestito da Zuki Apps. Manteniamo tolleranza zero verso abuso e sfruttamento sessuale di minori (CSAE). Questa pagina descrive gli standard pubblicati, le segnalazioni in-app, la moderazione e come contattarci per la sicurezza dei minori.",
       "section1": {
         "title": "1. Tolleranza zero",
         "content": "Vietiamo qualsiasi contenuto o condotta che sfrutti sessualmente, metta in pericolo o danneggi in altro modo i bambini. Gli account coinvolti in CSAE potrebbero essere rimossi immediatamente e permanentemente. Ove richiesto dalla legge, segnaliamo alle autorità regionali e nazionali e collaboriamo con le forze dell’ordine."
@@ -268,7 +269,7 @@
       },
       "section3": {
         "title": "3. Requisito di età",
-        "content": "ToldYa! non è rivolto a bambini di età inferiore a 13 anni (o all'età minima richiesta nel tuo Paese). La registrazione richiede un codice invito ed è destinata ad adulti e ragazzi che raggiungano l'età minima. Potremmo sospendere gli account che riteniamo appartengano a utenti minorenni."
+        "content": "ToldYa! non è rivolto a bambini sotto i 13 anni (o all’età minima richiesta nel tuo Paese). La registrazione è per adulti e adolescenti che rispettano l’età minima. Possiamo sospendere account che riteniamo di utenti minorenni."
       },
       "section4": {
         "title": "4. Reporting in-app",
@@ -299,10 +300,10 @@
       "metaDescription": "ToldYa! ha pubblicato standard di sicurezza per i bambini contro CSAE: tolleranza zero, segnalazioni in-app, moderazione, conformità legale e contatto designato."
     },
     "pilot": {
-      "badge": "Pilota — iOS e Android",
-      "title": "Ora nel pilota",
-      "message": "ToldYa! è in diretta su App Store e Google Play come progetto pilota solo su invito. Scarica l'app, registrati con il tuo codice di invito e inizia a registrare i tuoi pronostici.",
-      "inviteNote": "Solo su invito: per registrarti è necessario un codice invito valido.",
+      "badge": "Beta — iscrizione libera",
+      "title": "Ora in beta",
+      "message": "ToldYa! è in beta aperta su App Store e Google Play. Pubblica previsioni, vota in arena, chiudi quando avevi ragione, condividi card e usa stanze private con gli amici.",
+      "inviteNote": "Chiunque può registrarsi con email e password — nessun codice invito. App gratis: niente ads, niente acquisti in-app, niente gioco d’azzardo. Non destinata ai minori di 13 anni.",
       "highlights": [
         "Pubblica previsioni che i tuoi follower possono vedere; vota e commenta in Arena",
         "Punteggi di precisione della categoria e track record che altri possono guardare",
@@ -319,7 +320,7 @@
       "title": "Supporto e aiuto",
       "subtitle": "Siamo qui per aiutarti con ToldYa! - previsioni, account, privacy e sicurezza dei bambini.",
       "metaTitle": "Supporto e aiuto — ToldYa! | Zuki Apps",
-      "metaDescription": "Ottieni aiuto con ToldYa! - previsioni solo su invito, cancellazione dell'account, privacy, contatto per la sicurezza dei bambini e supporto tecnico.",
+      "metaDescription": "Aiuto ToldYa! — beta aperta, eliminazione account, privacy, sicurezza minori e supporto.",
       "contact": {
         "title": "Contattaci",
         "description": "Hai una domanda o hai bisogno di assistenza? Inviaci un'e-mail e ti risponderemo il prima possibile."
@@ -346,12 +347,12 @@
       "faq": {
         "title": "Domande frequenti",
         "q1": {
-          "question": "Cos'è ToldYa!?",
-          "answer": "ToldYa! è un'app social solo su invito per i pronostici: pubblica la tua chiamata prima che avvenga, vota nell'Arena, costruisci un punteggio di reputazione e dimostra di aver vinto. Gratis su iOS e Android senza pubblicità e senza acquisti in-app."
+          "question": "Cos’è ToldYa!?",
+          "answer": "ToldYa! è un’app di previsioni social: pubblica, vota in arena, costruisci reputazione. Gratis su iOS e Android; niente ads né acquisti in-app. Registrazione aperta in beta."
         },
         "q2": {
-          "question": "È ToldYa! solo su invito?",
-          "answer": "SÌ. Durante il progetto pilota, l'accesso è solo su invito. Hai bisogno di un invito per creare un account e utilizzare le funzionalità social."
+          "question": "Serve un codice invito?",
+          "answer": "No. Chiunque può registrarsi con email e password. Nessun codice invito."
         },
         "q3": {
           "question": "Come posso eliminare il mio account?",
@@ -359,7 +360,7 @@
         },
         "q4": {
           "question": "Fa ToldYa! hai pubblicità o acquisti in-app?",
-          "answer": "No ToldYa! è gratuito senza pubblicità e senza acquisti in-app nell'attuale versione pilota."
+          "answer": "No. ToldYa! è gratuito, senza pubblicità e senza acquisti in-app nella beta attuale."
         },
         "q5": {
           "question": "Quali lingue sono supportate?",
@@ -390,6 +391,70 @@
         "title": "Hai bisogno di ulteriore aiuto?",
         "description": "Se non sei riuscito a trovare la risposta che cercavi, contattaci. Solitamente rispondiamo entro 24-48 ore."
       }
+    },
+    "howToUse": {
+      "title": "Come usare ToldYa!",
+      "subtitle": "Pubblica la previsione, vota in arena, chiudi quando avevi ragione.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Pubblica una previsione",
+          "description": "Scrivi cosa succederà e imposta una scadenza. I follower la vedono in archivio."
+        },
+        {
+          "number": "2",
+          "title": "Vota nell’arena",
+          "description": "La community vota se la tua previsione si avvererà. Commenti e reazioni restano collegati."
+        },
+        {
+          "number": "3",
+          "title": "Chiudi e condividi",
+          "description": "Dopo la scadenza devi inviare l’esito. Condividi una card quando hai indovinato."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "subtitle": "Beta aperta su iOS e Android — gratis, niente ads né acquisti in-app.",
+      "viewAllSupport": "Supporto e aiuto →",
+      "items": [
+        {
+          "question": "Cos’è ToldYa!?",
+          "answer": "ToldYa! è un’app gratuita di previsioni social di Zuki Apps. Pubblica la previsione prima che accada, vota in arena, costruisci reputazione e dimostra che avevi ragione. Beta aperta su iOS e Android; niente ads né acquisti in-app."
+        },
+        {
+          "question": "Serve un codice invito?",
+          "answer": "No. Chiunque può registrarsi con email e password. Nessun codice invito."
+        },
+        {
+          "question": "ToldYa! è gratis?",
+          "answer": "Sì. Niente ads né acquisti in-app nella beta attuale. Solo reputazione — niente gioco d’azzardo con denaro reale."
+        },
+        {
+          "question": "Come funziona il voto in arena?",
+          "answer": "Pubblichi una previsione e la community vota. Dopo la scadenza l’autore deve inviare l’esito. I risultati aggiornano la reputazione per categoria."
+        },
+        {
+          "question": "Cosa sono le stanze private?",
+          "answer": "Le stanze private permettono ad amici invitati di fare previsioni visibili solo lì, non nei feed pubblici o nelle classifiche. Valgono le stesse regole della community."
+        },
+        {
+          "question": "Quali lingue sono supportate?",
+          "answer": "Inglese ed ebraico, con layout RTL completo per l’ebraico."
+        },
+        {
+          "question": "Come cancello l’account?",
+          "answer": "Nell’app: Impostazioni → Elimina account. Oppure https://zukiapps.com/toldya/delete-account. L’eliminazione è permanente."
+        },
+        {
+          "question": "Dove segnalo problemi di sicurezza dei minori?",
+          "answer": "Vedi https://zukiapps.com/toldya/child-safety per gli standard CSAE e il contatto. Supporto generale: zuki.apps.dev@gmail.com."
+        },
+        {
+          "question": "Dove sono le regole della community?",
+          "answer": "Vedi https://zukiapps.com/toldya/community. Le stesse regole valgono nelle stanze private."
+        }
+      ]
     }
   }
 }

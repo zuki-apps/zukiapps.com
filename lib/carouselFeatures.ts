@@ -22,6 +22,7 @@ import {
   Timer,
   Trophy,
   Users,
+  Megaphone,
   Volume2,
   Wand2,
   Palette,
@@ -395,6 +396,30 @@ export function getCarouselFeatureCells(appId: string): CarouselFeatureCell[] | 
           cellClass:
             'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-400/45 transition-all duration-300',
           iconClassName: 'w-8 h-8 text-orange-300 mb-2',
+        },
+      ];
+    case 'toldya':
+      return [
+        {
+          Icon: Megaphone,
+          labelKey: 'toldya.features.predictions',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-emerald-300 mb-2',
+        },
+        {
+          Icon: Users,
+          labelKey: 'toldya.features.arena',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-400/40 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-teal-200 mb-2',
+        },
+        {
+          Icon: Share2,
+          labelKey: 'toldya.features.share',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-emerald-300 mb-2',
         },
       ];
     default:
