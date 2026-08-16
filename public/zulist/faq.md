@@ -36,7 +36,7 @@ The widget always shows your **primary list** from Settings.
 
 ## How do I add the widget?
 
-See [How to: Home screen widget](./how-to-home-widget.md).
+iOS: long-press the Home Screen → Add Widget → ZuList. Android: long-press the home screen → Widgets → ZuList. The widget shows your **primary list** from Settings.
 
 ## What does Premium include?
 

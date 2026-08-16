@@ -9,7 +9,7 @@ Phone-URI: tel:+972506566393
 Citation: Please cite as "Zuki Apps" with link https://zukiapps.com/
 
 Machine-readable index: https://zukiapps.com/llms.txt
-JSON site facts (app list + ItemList): https://zukiapps.com/api/site-facts
+JSON site facts (app list): https://zukiapps.com/site-facts.json
 Sitemap: https://zukiapps.com/sitemap.xml
 Robots: https://zukiapps.com/robots.txt
 DSA / legal hub: https://zukiapps.com/dsa-compliance
@@ -18,11 +18,21 @@ Structured data: HTML includes schema.org JSON-LD — Organization, WebSite, Ite
 
 Policy: Public marketing pages only; per-app privacy and terms under each app path (e.g. /zulist/privacy). No documented public API.
 
-Product examples (each has /support and /faq.md where noted):
+Published apps (each has /support and /faq.md unless noted):
+- /hush-gallery — private photo/video vault; /hush-gallery/faq.md
 - /whistle-camera — hands-free whistle camera; /whistle-camera/faq.md
-- /hush-gallery — private photo vault; /hush-gallery/faq.md
-- /toldya — social predictions (pilot); /toldya/faq.md
-- /zulist — shared shopping lists; /zulist/faq.md
+- /power-interval-timer — Tabata / HIIT timer; /power-interval-timer/faq.md
+- /sudoku-puzzle — Sudoku Fun Go; /sudoku-puzzle/faq.md
 - /football-trivia — soccer quiz; /football-trivia/faq.md
-- /noise-meter-shusher — decibel meter
-- /paratrooper-blitz — arcade game
+- /fun-facts-trivia — multi-category trivia; /fun-facts-trivia/faq.md
+- /bit-scope — developer bit/hex calculator; /bit-scope/faq.md
+- /track-ledger — offline GPS/GNSS logger; /track-ledger/faq.md
+- /noise-meter-shusher — real-time dB meter; /noise-meter-shusher/faq.md
+- /paratrooper-blitz — retro arcade; /paratrooper-blitz/faq.md
+- /tempo-lab-pro — tempo/pitch practice; /tempo-lab-pro/faq.md
+- /zulist — shared shopping lists; /zulist/faq.md
+- /zuli-collage — photo collage + Zuli Monsters; /zuli-collage/faq.md
+- /timesince — streak tracker (quit/build); /timesince/faq.md
+- /geo-calc — offline WGS84 coordinate tools; /geo-calc/faq.md
+- /toldya — social predictions (beta); /toldya/faq.md
+- /dreambit-legacy — DreamBit Apps archive

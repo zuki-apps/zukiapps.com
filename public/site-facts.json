@@ -1,0 +1,43 @@
+{
+  "kind": "zukiapps-site-facts",
+  "version": 1,
+  "about": "Public marketing site index for Zuki Apps (Israel). Same app list as HTML JSON-LD ItemList; not a backend API for mobile apps.",
+  "publisher": {
+    "name": "Zuki Apps",
+    "url": "https://zukiapps.com",
+    "email": "zuki.apps.dev@gmail.com",
+    "telephone": "+972506566393",
+    "phoneDisplay": "+972-50-6566393"
+  },
+  "site": {
+    "origin": "https://zukiapps.com",
+    "locales": ["en", "he", "de", "es", "it", "pt", "ru", "fr", "ja", "ko", "ar", "zh"],
+    "defaultLocale": "en"
+  },
+  "discovery": {
+    "llmsTxt": "https://zukiapps.com/llms.txt",
+    "aiTxt": "https://zukiapps.com/ai.txt",
+    "sitemap": "https://zukiapps.com/sitemap.xml",
+    "robots": "https://zukiapps.com/robots.txt",
+    "siteFacts": "https://zukiapps.com/site-facts.json"
+  },
+  "apps": [
+    { "name": "ZuList", "path": "/zulist", "url": "https://zukiapps.com/zulist", "description": "Shopping and shared lists — Flutter, iOS and Android." },
+    { "name": "Hush Gallery", "path": "/hush-gallery", "url": "https://zukiapps.com/hush-gallery", "description": "Private photo and video gallery with secure storage." },
+    { "name": "Whistle Camera", "path": "/whistle-camera", "url": "https://zukiapps.com/whistle-camera", "description": "Hands-free camera app: whistle for selfies, pet photos, and group shots. Practice calibration, offline capture, Pro video. iOS & Android." },
+    { "name": "Power Interval Timer", "path": "/power-interval-timer", "url": "https://zukiapps.com/power-interval-timer", "description": "Tabata and HIIT interval workout timer." },
+    { "name": "Sudoku Fun Go", "path": "/sudoku-puzzle", "url": "https://zukiapps.com/sudoku-puzzle", "description": "Classic 9×9 Sudoku puzzle game." },
+    { "name": "Football Trivia Master", "path": "/football-trivia", "url": "https://zukiapps.com/football-trivia", "description": "450+ timed football quiz questions with streaks and global leaderboards." },
+    { "name": "Fun Facts! Trivia", "path": "/fun-facts-trivia", "url": "https://zukiapps.com/fun-facts-trivia", "description": "Timed trivia across multiple categories." },
+    { "name": "Bit Scope", "path": "/bit-scope", "url": "https://zukiapps.com/bit-scope", "description": "Bit-level number inspector and base converter for developers." },
+    { "name": "Track Ledger", "path": "/track-ledger", "url": "https://zukiapps.com/track-ledger", "description": "Offline-first GPS / GNSS track logger; CSV, GPX, GeoJSON export; OpenStreetMap map." },
+    { "name": "Noise Meter — Shusher", "path": "/noise-meter-shusher", "url": "https://zukiapps.com/noise-meter-shusher", "description": "Real-time decibel meter, noise scoring, local history, CSV export, charts; ads and optional Premium." },
+    { "name": "Paratrooper Blitz", "path": "/paratrooper-blitz", "url": "https://zukiapps.com/paratrooper-blitz", "description": "Classic arcade action: aircraft and paratroopers; Arcade and Classic DOS modes; scores, ranks, leaderboards." },
+    { "name": "TempoLab Pro", "path": "/tempo-lab-pro", "url": "https://zukiapps.com/tempo-lab-pro", "description": "Tempo, pitch, and audio practice tools." },
+    { "name": "Zuli Collage", "path": "/zuli-collage", "url": "https://zukiapps.com/zuli-collage", "description": "Photo collage maker: 2–10 photos, layouts, filters, Zuli Monsters stickers, Layout Studio. On-device. Free on the App Store and Google Play (com.zuki.apps.collagio)." },
+    { "name": "Time Since", "path": "/timesince", "url": "https://zukiapps.com/timesince", "description": "Streak tracker (quit & build modes, goal rings, widgets, share cards). Free on the App Store and Google Play (com.zuki.apps.timesince)." },
+    { "name": "GEO Calc", "path": "/geo-calc", "url": "https://zukiapps.com/geo-calc", "description": "Offline WGS84 coordinate tools: DD/DMS/UTM/MGRS, Vincenty distance, map measure, GPX. Free on the App Store and Google Play (com.zuki.apps.geocalc)." },
+    { "name": "ToldYa!", "path": "/toldya", "url": "https://zukiapps.com/toldya", "description": "Social predictions (open beta): Arena voting, reputation, private rooms. Free, no ads. English & Hebrew. iOS & Android." },
+    { "name": "DreamBit legacy archive", "path": "/dreambit-legacy", "url": "https://zukiapps.com/dreambit-legacy", "description": "Legacy DreamBit Apps listings and history." }
+  ]
+}

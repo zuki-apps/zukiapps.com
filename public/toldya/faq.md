@@ -1,45 +1,43 @@
 # ToldYa! — FAQ (machine-readable)
 
-> Canonical page: https://zukiapps.com/toldya/support  
-> Product page: https://zukiapps.com/toldya  
+> Canonical page: https://zukiapps.com/toldya  
+> Support: https://zukiapps.com/toldya/support  
 > App: iOS & Android · Android `com.zuki.apps.toldya` · iOS App Store `6756342206`  
 > Icon: https://zukiapps.com/images/toldya-icon.png
 
 ## What is ToldYa!?
 
-Invite-only social app for predictions — post your call before it happens, vote in the Arena, build a reputation score, and prove you called it. Free on iOS and Android with no ads and no in-app purchases.
+ToldYa! is a free social predictions app from Zuki Apps. Post your call before it happens, vote in the Arena, build a reputation score, and prove you called it. Open beta on iOS and Android; no ads and no in-app purchases.
 
-## Is ToldYa! invite-only?
+## Do I need an invitation code?
 
-Yes. During the pilot, access is invite-only. You need an invitation to create an account.
+Not during open beta. Create an account with email and password until further notice. Invitation-only signup may return later.
+
+## Is ToldYa! free?
+
+Yes. No ads and no in-app purchases in the current beta. Reputation and bragging rights only — no real-money gambling.
 
 ## How does Arena voting work?
 
-Post a prediction, then the community votes in the Arena on whether your call will happen. Results update your reputation score by category.
+Post a prediction, then the community votes on whether your call will happen. After the deadline the author must submit the outcome. Results update your category reputation score.
+
+## What are private rooms?
+
+Private rooms let invited friends make predictions visible only in that room — not in public feeds or global leaderboards. The same community rules apply.
+
+## Which languages are supported?
+
+English and Hebrew, including full RTL layout for Hebrew.
 
 ## How do I delete my account?
 
-https://zukiapps.com/toldya/delete-account — or use in-app Settings → Delete account. Deletion is permanent.
+In the app: Settings → Delete account. Or follow https://zukiapps.com/toldya/delete-account. Deletion is permanent.
 
-## Ads or in-app purchases?
+## Where do I report child safety concerns?
 
-No ads and no in-app purchases in the current pilot release.
-
-## Languages
-
-English and Hebrew with full RTL layout for Hebrew.
-
-## Child safety
-
-Published CSAE standards and designated contact: https://zukiapps.com/toldya/child-safety
+See https://zukiapps.com/toldya/child-safety for CSAE standards and the designated contact. General support: zuki.apps.dev@gmail.com.
 
 ## Download
 
-- iOS: https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206  
+- iOS: https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206
 - Android: https://play.google.com/store/apps/details?id=com.zuki.apps.toldya
-
-## Legal
-
-Privacy: https://zukiapps.com/toldya/privacy  
-Terms: https://zukiapps.com/toldya/terms  
-Support: zuki.apps.dev@gmail.com

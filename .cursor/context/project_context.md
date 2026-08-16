@@ -27,6 +27,7 @@ messages/shared/{locale}.json
 messages/apps/{slug}/en.json   # English source of truth per app
 public/llms.txt
 public/ai.txt
+public/site-facts.json   # static catalog (export has no /api)
 public/{slug}/faq.md
 ```
 

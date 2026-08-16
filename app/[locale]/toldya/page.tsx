@@ -6,26 +6,18 @@ import { ArrowLeft, Mail, Rocket, CheckCircle2 } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
-import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import StarBackground from '@/components/StarBackground';
+import ProductMarketingSections from '@/components/ProductMarketingSections';
 import { DownloadStoreFab } from '@/lib/lazyProductComponents';
 
 export default function ToldyaPage() {
   const t = useTranslations('toldya');
-  const tCommon = useTranslations('common');
   const locale = useLocale();
   const pilotHighlights = (t.raw('pilot.highlights') as string[] | undefined) ?? [];
 
   return (
     <>
-      <BreadcrumbsStructuredData
-        locale={locale}
-        items={[
-          { name: tCommon('home'), path: '/' },
-          { name: t('hero.title'), path: '/toldya' },
-        ]}
-      />
       <div className="min-h-screen relative overflow-hidden">
         <StarBackground />
 
@@ -145,6 +137,8 @@ export default function ToldyaPage() {
             </nav>
           </div>
         </section>
+
+        <ProductMarketingSections namespace="toldya" slug="toldya" accent="emerald" hasSupportPage />
 
         <DownloadStoreFab
           accent="emerald"

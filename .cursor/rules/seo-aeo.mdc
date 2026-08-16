@@ -1,6 +1,6 @@
 ---
 description: Google SEO and AI-engine (AEO) rules for product pages, metadata, and machine indexes
-globs: app/**/layout.tsx,app/**/page.tsx,public/llms.txt,public/ai.txt,public/**/faq.md,lib/siteCatalog.ts,lib/appStructuredData.ts,lib/productSeo.ts,lib/productApps.ts,messages/apps/**/*.json,components/*StructuredData*
+globs: app/**/layout.tsx,app/**/page.tsx,public/llms.txt,public/ai.txt,public/site-facts.json,public/**/faq.md,lib/siteCatalog.ts,lib/appStructuredData.ts,lib/productSeo.ts,lib/productApps.ts,messages/apps/**/*.json,components/*StructuredData*
 alwaysApply: false
 ---
 
@@ -27,6 +27,7 @@ Keep these four in lockstep after every copy change:
 | HTML + JSON-LD | `layout.tsx` + page sections |
 | Crawler Q&A | `public/{slug}/faq.md` — question headings, first sentence = quotable fact, absolute `https://zukiapps.com/...` URLs |
 | Machine index | `public/llms.txt` expanded bullet (stores, package IDs, faq.md) |
+| Catalog JSON | `public/site-facts.json` (static host has no `/api/*`) |
 | Short stub | `public/ai.txt` if adding a **new** app |
 
 Entity name is always **Zuki Apps**. Include platforms, Android package, iOS id, price model, and what the app does **not** do. No puffery (“best”, “revolutionary”).

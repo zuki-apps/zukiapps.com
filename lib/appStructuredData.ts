@@ -10,6 +10,7 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/sudoku-puzzle': 'com.zuki.apps.sudokufungo',
   '/tempo-lab-pro': 'com.zuki.apps.tempolabpro',
   '/football-trivia': 'com.zuki.apps.footballtrivia',
+  '/fun-facts-trivia': 'com.zuki.apps.funfactstrivia',
   '/bit-scope': 'com.zuki.apps.bitscope',
   '/track-ledger': 'com.zuki.apps.trackledger',
   '/noise-meter-shusher': 'com.zuki.apps.noisemeter',

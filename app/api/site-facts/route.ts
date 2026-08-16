@@ -9,8 +9,9 @@ import {
 } from '@/lib/publisherContact';
 
 /**
- * Machine-readable site summary for crawlers, answer engines, and tooling.
- * Stays in sync with lib/siteCatalog.ts (single source of truth for app list).
+ * Machine-readable site summary (dev / Workers only).
+ * Production is a static export — crawlers must use `/site-facts.json`.
+ * Keep that file in lockstep with `lib/siteCatalog.ts`.
  */
 export async function GET() {
   const baseUrl = getSiteUrl().replace(/\/+$/, '');
@@ -37,6 +38,7 @@ export async function GET() {
       aiTxt: `${baseUrl}/ai.txt`,
       sitemap: `${baseUrl}/sitemap.xml`,
       robots: `${baseUrl}/robots.txt`,
+      siteFacts: `${baseUrl}/site-facts.json`,
     },
     apps: ZUKI_SITE_APPS.map((app) => ({
       name: app.name,

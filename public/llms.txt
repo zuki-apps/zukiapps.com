@@ -11,7 +11,7 @@ Zuki Apps is a small independent publisher. This website has no end-user login; 
 - [Web manifest](https://zukiapps.com/manifest.json): PWA hints
 - [llms.txt](https://zukiapps.com/llms.txt): this file
 - [ai.txt](https://zukiapps.com/ai.txt): short AI discovery stub
-- [Site facts JSON](https://zukiapps.com/api/site-facts): apps catalog + schema.org ItemList mirror
+- [Site facts JSON](https://zukiapps.com/site-facts.json): apps catalog (static; `/api/site-facts` is not served on the static host)
 
 ## Main pages
 
@@ -28,7 +28,7 @@ Zuki Apps is a small independent publisher. This website has no end-user login; 
 - [Whistle Camera](https://zukiapps.com/whistle-camera): hands-free whistle shutter, practice calibration, Pro video; Android com.zuki.apps.whistlecamera; iOS id1037716421
 - [Power Interval Timer](https://zukiapps.com/power-interval-timer): Tabata / HIIT timer; Android com.zuki.apps.powerintervaltimer; iOS id6758246007
 - [Sudoku Fun Go](https://zukiapps.com/sudoku-puzzle): Sudoku with difficulties, hints, stats; Android com.zuki.apps.sudokufungo; iOS id6759739806
-- [Football Trivia Master](https://zukiapps.com/football-trivia): 450+ timed soccer quiz; Android com.zuki.apps.footballtrivia
+- [Football Trivia Master](https://zukiapps.com/football-trivia): 450+ timed soccer quiz; Android com.zuki.apps.footballtrivia; iOS id6760652362
 - [Fun Facts! Trivia](https://zukiapps.com/fun-facts-trivia): multi-category timed trivia; Android com.zuki.apps.funfactstrivia; iOS id6762831794
 - [Bit Scope](https://zukiapps.com/bit-scope): bit/hex/float calculator for developers; Android com.zuki.apps.bitscope; iOS id6759933934
 - [Track Ledger](https://zukiapps.com/track-ledger): offline GPS/GNSS track logger; Android com.zuki.apps.trackledger; iOS id6762567364
@@ -37,9 +37,9 @@ Zuki Apps is a small independent publisher. This website has no end-user login; 
 - [TempoLab Pro](https://zukiapps.com/tempo-lab-pro): tempo/pitch practice lab for musicians; Android com.zuki.apps.tempolabpro; iOS id6760204327
 - [ZuList](https://zukiapps.com/zulist): shared shopping lists with real-time sync; Android com.zuki.apps.zulist; iOS id6753878439
 - [Zuli Collage](https://zukiapps.com/zuli-collage): photo collage + Zuli Monsters stickers (formerly Collagio; `/collagio` redirects here); Android package `com.zuki.apps.collagio`; iOS id6774583525
-- [ToldYa!](https://zukiapps.com/toldya): invite-only social predictions (pilot); Android com.zuki.apps.toldya; iOS id6756342206
-- [Time Since](https://zukiapps.com/timesince): streak tracker quit/build modes (pilot); Android com.zuki.apps.timesince; iOS id6787023926
-- [GEO Calc](https://zukiapps.com/geo-calc): offline WGS84 coordinate tools (pilot); Android com.zuki.apps.geocalc; iOS id6787519144
+- [ToldYa!](https://zukiapps.com/toldya): social predictions (beta); Android com.zuki.apps.toldya; iOS id6756342206
+- [Time Since](https://zukiapps.com/timesince): streak tracker quit/build modes; Android com.zuki.apps.timesince; iOS id6787023926
+- [GEO Calc](https://zukiapps.com/geo-calc): offline WGS84 coordinate tools; Android com.zuki.apps.geocalc; iOS id6787519144
 
 ## Optional
 

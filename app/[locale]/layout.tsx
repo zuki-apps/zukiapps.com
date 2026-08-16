@@ -191,11 +191,12 @@ export default async function LocaleLayout({
     ],
     sameAs: [
       'https://play.google.com/store/apps/dev?id=7972373639235841172',
+      'https://x.com/zuki_apps',
       'https://www.instagram.com/zuki.apps/',
       'https://www.facebook.com/profile.php?id=61581736876235',
       'https://www.tiktok.com/@zukiapps',
       'https://www.youtube.com/@ZukiApps',
-      'https://whatsapp.com/channel/0029VbCgjkcDzgTDclgLLR0T'
+      'https://whatsapp.com/channel/0029VbCgjkcDzgTDclgLLR0T',
     ],
     contactPoint: {
       '@type': 'ContactPoint',

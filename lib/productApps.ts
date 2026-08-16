@@ -17,7 +17,8 @@ export type ProductAppSlug =
   | 'geo-calc'
   | 'roamguard'
   | 'questivo'
-  | 'coloring-my-photo';
+  | 'coloring-my-photo'
+  | 'toldya';
 
 export type ProductAppNamespace =
   | 'bitScope'
@@ -37,7 +38,8 @@ export type ProductAppNamespace =
   | 'geoCalc'
   | 'roamGuard'
   | 'questivo'
-  | 'coloringMyPhoto';
+  | 'coloringMyPhoto'
+  | 'toldya';
 
 export type ProductAppConfig = {
   slug: ProductAppSlug;
@@ -147,6 +149,17 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     accent: 'rose',
     hasSupportPage: true,
   },
+  toldya: {
+    slug: 'toldya',
+    namespace: 'toldya',
+    appPath: '/toldya',
+    applicationCategory: 'SocialNetworkingApplication',
+    faqId: 'toldya-faq-ld',
+    howToId: 'toldya-howto-ld',
+    accent: 'emerald',
+    hasSupportPage: true,
+    operatingSystem: 'iOS,Android',
+  },
   'bit-scope': {
     slug: 'bit-scope',
     namespace: 'bitScope',
@@ -175,6 +188,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'noise-meter-shusher-faq-ld',
     howToId: 'noise-meter-shusher-howto-ld',
     accent: 'violet',
+    hasSupportPage: true,
   },
   'paratrooper-blitz': {
     slug: 'paratrooper-blitz',
@@ -184,6 +198,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'paratrooper-blitz-faq-ld',
     howToId: 'paratrooper-blitz-howto-ld',
     accent: 'green',
+    hasSupportPage: true,
   },
   'power-interval-timer': {
     slug: 'power-interval-timer',
@@ -223,6 +238,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'track-ledger-faq-ld',
     howToId: 'track-ledger-howto-ld',
     accent: 'teal',
+    hasSupportPage: true,
   },
   zulist: {
     slug: 'zulist',

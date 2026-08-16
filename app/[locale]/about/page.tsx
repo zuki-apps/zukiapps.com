@@ -60,7 +60,11 @@ export default async function AboutPage({
       postalCode: '22805',
       addressCountry: 'IL',
     },
-    sameAs: ['https://twitter.com/zuki_apps', 'https://www.instagram.com/zuki_apps/'],
+    sameAs: [
+      'https://x.com/zuki_apps',
+      'https://www.instagram.com/zuki.apps/',
+      'https://play.google.com/store/apps/dev?id=7972373639235841172',
+    ],
   };
 
   return (

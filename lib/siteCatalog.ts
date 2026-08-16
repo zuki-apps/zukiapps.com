@@ -3,6 +3,7 @@
  * Paths are locale-agnostic; default locale uses unprefixed URLs per routing.
  *
  * ToldYa! (`/toldya`) is indexed as a pilot page when `TOLDYA_PILOT` is true; omitted from the home grid until `TOLDYA_PUBLISHED`.
+ * Crawler JSON: keep `public/site-facts.json` in lockstep (static export has no `/api/*`).
  */
 export type SiteCatalogEntry = {
   path: string;
@@ -53,7 +54,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
   {
     path: '/toldya',
     name: 'ToldYa!',
-    description: 'Invite-only social predictions app: Arena voting, reputation scores, comments, DMs. Free, no ads. English & Hebrew. iOS & Android pilot.',
+    description: 'Social predictions (open beta): Arena voting, reputation, private rooms. Free, no ads. English & Hebrew. iOS & Android.',
   },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];

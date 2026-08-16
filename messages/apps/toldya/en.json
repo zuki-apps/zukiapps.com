@@ -6,9 +6,69 @@
       "description": "Social predictions (open beta) — post your call before it happens, let the Arena vote, resolve when you're right, and prove you called it. Free to join on iOS and Android; no ads, no in-app purchases; reputation only, no real money.",
       "structuredDataDescription": "ToldYa! — social network for predictions, Arena voting, mandatory author resolution, private rooms, shareable result cards, and reputation. Open registration during beta. Android com.zuki.apps.toldya; iOS App Store id6756342206 by Zuki Apps.",
       "seoTitle": "ToldYa! — Social Predictions | Zuki Apps",
-      "metaDescription": "Told you so! Prove it. Free-to-join social predictions (beta) with Arena voting, mandatory resolution, private rooms, and shareable result cards. Free on iOS & Android."
+      "metaDescription": "Free social predictions app (open beta). Arena voting, private rooms, reputation. No ads. iOS & Android."
     },
     "back": "Back to Home",
+    "howToUse": {
+      "title": "How to use ToldYa!",
+      "subtitle": "Post a call, let the Arena vote, resolve when you were right.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Post a prediction",
+          "description": "Write what you think will happen and set a deadline. Followers see it on the record."
+        },
+        {
+          "number": "2",
+          "title": "Vote in the Arena",
+          "description": "The community votes on whether your call will happen. Comments and reactions stay attached to the prediction."
+        },
+        {
+          "number": "3",
+          "title": "Resolve and share",
+          "description": "After the deadline you must submit the outcome. Share a result card when you called it."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Open beta on iOS and Android — free, no ads, no in-app purchases.",
+      "viewAllSupport": "Support & help →",
+      "items": [
+        {
+          "question": "What is ToldYa!?",
+          "answer": "ToldYa! is a free social predictions app from Zuki Apps. Post your call before it happens, vote in the Arena, build a reputation score, and prove you called it. Open beta on iOS and Android; no ads and no in-app purchases."
+        },
+        {
+          "question": "Do I need an invitation code?",
+          "answer": "Not during open beta. Create an account with email and password until further notice. Invitation-only signup may return later."
+        },
+        {
+          "question": "Is ToldYa! free?",
+          "answer": "Yes. No ads and no in-app purchases in the current beta. Reputation and bragging rights only — no real-money gambling."
+        },
+        {
+          "question": "How does Arena voting work?",
+          "answer": "Post a prediction, then the community votes on whether your call will happen. After the deadline the author must submit the outcome. Results update your category reputation score."
+        },
+        {
+          "question": "What are private rooms?",
+          "answer": "Private rooms let invited friends make predictions visible only in that room — not in public feeds or global leaderboards. The same community rules apply."
+        },
+        {
+          "question": "Which languages are supported?",
+          "answer": "English and Hebrew, including full RTL layout for Hebrew."
+        },
+        {
+          "question": "How do I delete my account?",
+          "answer": "In the app: Settings → Delete account. Or follow https://zukiapps.com/toldya/delete-account. Deletion is permanent."
+        },
+        {
+          "question": "Where do I report child safety concerns?",
+          "answer": "See https://zukiapps.com/toldya/child-safety for CSAE standards and the designated contact. General support: zuki.apps.dev@gmail.com."
+        }
+      ]
+    },
     "legalNav": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Use",
