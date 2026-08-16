@@ -7,7 +7,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { Mail, HelpCircle, MessageCircle, FileText, Shield, UserX, Baby } from 'lucide-react';
+import { Mail, HelpCircle, MessageCircle, FileText, Shield, UserX, Baby, BookOpen } from 'lucide-react';
 import { buildFaqPageJsonLd, collectNumberedSupportFaq } from '@/lib/supportFaq';
 
 export async function generateMetadata({
@@ -66,6 +66,12 @@ export default async function ToldyaSupportPage({
       icon: FileText,
       title: t('quickLinks.terms.title'),
       description: t('quickLinks.terms.description'),
+    },
+    {
+      href: `/${locale}/toldya/community`,
+      icon: BookOpen,
+      title: t('quickLinks.community.title'),
+      description: t('quickLinks.community.description'),
     },
     {
       href: `/${locale}/toldya/delete-account`,

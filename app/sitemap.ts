@@ -85,6 +85,7 @@ const routes: SitemapRouteMeta[] = [
         // Store compliance URLs — indexed while pilot/published; omitted when ToldYa is fully hidden.
         { path: '/toldya/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/toldya/child-safety', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/toldya/community', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/toldya/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/toldya/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/toldya/delete-account', priority: 0.35, changefreq: 'yearly' } satisfies SitemapRouteMeta,

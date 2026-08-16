@@ -37,6 +37,10 @@ In the app: Settings → Delete account. Or follow https://zukiapps.com/toldya/d
 
 See https://zukiapps.com/toldya/child-safety for CSAE standards and the designated contact. General support: zuki.apps.dev@gmail.com.
 
+## Where are the community rules?
+
+See https://zukiapps.com/toldya/community. The same rules apply in private rooms.
+
 ## Download
 
 - iOS: https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206

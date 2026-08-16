@@ -5,6 +5,7 @@ type ToldyaLegalPage =
   | 'product'
   | 'privacy'
   | 'terms'
+  | 'community'
   | 'support'
   | 'delete-account'
   | 'child-safety';
@@ -18,6 +19,7 @@ const NAV_ITEMS: { key: ToldyaLegalPage; path: string; labelKey?: string }[] = [
   { key: 'product', path: '/toldya' },
   { key: 'privacy', path: '/toldya/privacy', labelKey: 'privacy' },
   { key: 'terms', path: '/toldya/terms', labelKey: 'terms' },
+  { key: 'community', path: '/toldya/community', labelKey: 'community' },
   { key: 'support', path: '/toldya/support', labelKey: 'support' },
   { key: 'child-safety', path: '/toldya/child-safety', labelKey: 'childSafety' },
   { key: 'delete-account', path: '/toldya/delete-account', labelKey: 'deleteAccount' },
@@ -58,6 +60,7 @@ export default async function ToldyaLegalNav({ locale, current }: ToldyaLegalNav
             ['websiteLabel', 'website'],
             ['privacyLabel', 'privacy'],
             ['termsLabel', 'terms'],
+            ['communityLabel', 'community'],
             ['supportLabel', 'support'],
             ['deleteAccountLabel', 'deleteAccount'],
             ['childSafetyLabel', 'childSafety'],

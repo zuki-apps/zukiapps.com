@@ -12,8 +12,10 @@ export const TOLDYA_APP_PATH = '/toldya' as const;
 
 /** Google Play “Child safety standards” URL (public HTML, not a PDF). */
 export const TOLDYA_CHILD_SAFETY_PATH = '/toldya/child-safety' as const;
-/** Store / in-app alias — redirects to {@link TOLDYA_CHILD_SAFETY_PATH}. */
+/** Store / in-app alias — same content as {@link TOLDYA_CHILD_SAFETY_PATH}. */
 export const TOLDYA_SAFETY_PATH = '/toldya/safety' as const;
+/** Community Guidelines (in-app Settings + store listings). */
+export const TOLDYA_COMMUNITY_PATH = '/toldya/community' as const;
 
 /**
  * Zuli Collage is on the home grid when `ZULI_COLLAGE_PUBLISHED` is true.

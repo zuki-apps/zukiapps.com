@@ -6,6 +6,7 @@ import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import LegalSections from '@/components/LegalSections';
+import ToldyaLegalNav from '@/components/ToldyaLegalNav';
 import type { Metadata } from 'next';
 
 const BODY_SECTIONS = [
@@ -15,7 +16,6 @@ const BODY_SECTIONS = [
   'section4',
   'section5',
   'section6',
-  'section7',
 ] as const;
 
 export async function generateMetadata({
@@ -29,20 +29,20 @@ export async function generateMetadata({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'toldya.childSafety' });
+  const t = await getTranslations({ locale, namespace: 'toldya.community' });
 
   return {
     title: `${t('title')} — ToldYa! | Zuki Apps`,
     description: t('metaDescription'),
     robots: { index: true, follow: true },
     alternates: {
-      canonical: buildCanonical(locale, '/toldya/child-safety'),
-      languages: buildLanguageAlternates('/toldya/child-safety'),
+      canonical: buildCanonical(locale, '/toldya/community'),
+      languages: buildLanguageAlternates('/toldya/community'),
     },
   };
 }
 
-export default async function ToldyaChildSafetyPage({
+export default async function ToldyaCommunityPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -53,7 +53,7 @@ export default async function ToldyaChildSafetyPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'toldya.childSafety' });
+  const t = await getTranslations({ locale, namespace: 'toldya.community' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const tApp = await getTranslations({ locale, namespace: 'toldya.hero' });
   const tLegal = await getTranslations({ locale, namespace: 'toldya.legalNav' });
@@ -66,7 +66,7 @@ export default async function ToldyaChildSafetyPage({
         items={[
           { name: tCommon('home'), path: '/' },
           { name: tApp('title'), path: '/toldya' },
-          { name: t('title'), path: '/toldya/child-safety' },
+          { name: t('title'), path: '/toldya/community' },
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-slate-50 to-teal-50">
@@ -91,16 +91,12 @@ export default async function ToldyaChildSafetyPage({
               <p className="text-gray-400 mb-4">{t('lastUpdated')}</p>
               <p className="text-gray-700 leading-relaxed mb-8">{t('intro')}</p>
 
+              <ToldyaLegalNav locale={locale} current="community" />
+
               <LegalSections
                 sections={BODY_SECTIONS}
-                listSectionKeys={['section2']}
-                withContent2={[
-                  'section2',
-                  'section4',
-                  'section5',
-                  'section6',
-                  'sectionContact',
-                ]}
+                listSectionKeys={['section1', 'section2', 'section3']}
+                withContent2={['section3', 'sectionContact']}
                 t={t}
                 tRaw={t.raw}
                 rtl={rtl}
@@ -109,16 +105,16 @@ export default async function ToldyaChildSafetyPage({
                 addressLabel={tCommon('address')}
                 contactExtraLinks={[
                   {
-                    href: `/${locale}/toldya/privacy`,
-                    label: tCommon('privacyPolicy'),
-                  },
-                  {
-                    href: `/${locale}/toldya/community`,
-                    label: tLegal('community'),
-                  },
-                  {
                     href: `/${locale}/toldya/terms`,
                     label: tCommon('termsOfService'),
+                  },
+                  {
+                    href: `/${locale}/toldya/child-safety`,
+                    label: tLegal('childSafety'),
+                  },
+                  {
+                    href: `/${locale}/toldya/privacy`,
+                    label: tCommon('privacyPolicy'),
                   },
                 ]}
               />

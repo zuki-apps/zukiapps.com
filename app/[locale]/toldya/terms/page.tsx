@@ -141,6 +141,10 @@ export default async function ToldyaTermsPage({
                     label: tCommon('privacyPolicy'),
                   },
                   {
+                    href: `/${locale}/toldya/community`,
+                    label: tLegal('community'),
+                  },
+                  {
                     href: `/${locale}/toldya/child-safety`,
                     label: tLegal('childSafety'),
                   },

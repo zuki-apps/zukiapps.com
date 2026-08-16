@@ -66,6 +66,10 @@
         {
           "question": "Where do I report child safety concerns?",
           "answer": "See https://zukiapps.com/toldya/child-safety for CSAE standards and the designated contact. General support: zuki.apps.dev@gmail.com."
+        },
+        {
+          "question": "Where are the community rules?",
+          "answer": "See https://zukiapps.com/toldya/community for Community Guidelines. The same rules apply in private rooms."
         }
       ]
     },
@@ -75,6 +79,7 @@
       "deleteAccount": "Delete Account",
       "contact": "Contact Support",
       "childSafety": "Child Safety Standards",
+      "community": "Community Guidelines",
       "support": "Support & Help"
     },
     "links": {
@@ -83,12 +88,14 @@
       "website": "https://zukiapps.com/toldya",
       "privacy": "https://zukiapps.com/toldya/privacy",
       "terms": "https://zukiapps.com/toldya/terms",
+      "community": "https://zukiapps.com/toldya/community",
       "support": "https://zukiapps.com/toldya/support",
       "deleteAccount": "https://zukiapps.com/toldya/delete-account",
       "childSafety": "https://zukiapps.com/toldya/safety",
       "websiteLabel": "Website / support",
       "privacyLabel": "Privacy policy",
       "termsLabel": "Terms of use",
+      "communityLabel": "Community guidelines",
       "supportLabel": "Support & help",
       "deleteAccountLabel": "Delete account",
       "childSafetyLabel": "Child safety standards",
@@ -330,7 +337,7 @@
         "items": [
           "In-app reporting on predictions, comments, profiles, and messages (where available)",
           "The ability to block users so their content is hidden from your feed",
-          "Published community standards (these Terms) and a Child Safety Standards page",
+          "Published Community Guidelines and a Child Safety Standards page",
           "A published contact for support and a designated child-safety contact",
           "Moderation and enforcement, including removal of violating content and account suspension or termination"
         ],
@@ -341,7 +348,7 @@
         "content": "Questions about these Terms:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
-        "content2": "Privacy: https://zukiapps.com/toldya/privacy · Support: https://zukiapps.com/toldya/support · Child safety: https://zukiapps.com/toldya/child-safety · Delete account: https://zukiapps.com/toldya/delete-account"
+        "content2": "Privacy: https://zukiapps.com/toldya/privacy · Community: https://zukiapps.com/toldya/community · Support: https://zukiapps.com/toldya/support · Child safety: https://zukiapps.com/toldya/child-safety · Delete account: https://zukiapps.com/toldya/delete-account"
       }
     },
     "deleteAccount": {
@@ -383,6 +390,60 @@
         "privacyLink": "Privacy Policy",
         "termsLink": "Terms of Use"
       }
+    },
+    "community": {
+      "title": "Community Guidelines",
+      "lastUpdated": "Last updated: August 2026",
+      "intro": "ToldYa! is a social predictions app. Post calls, vote in the Arena, and prove you called it — without harassment, scams, or illegal content.",
+      "section1": {
+        "title": "1. Be respectful",
+        "content": "Disagree with predictions — do not attack the person.",
+        "items": [
+          "No harassment, hate speech, threats, or bullying",
+          "No impersonation of people, brands, or other users",
+          "Keep comments and DMs civil, including in private rooms"
+        ]
+      },
+      "section2": {
+        "title": "2. Keep it honest",
+        "content": "Predictions are opinions, not financial, legal, or medical advice.",
+        "items": [
+          "Do not spam, run bots, or manipulate votes, follows, or reports",
+          "Do not mislead others about outcomes or your identity",
+          "Do not use share cards to misrepresent a result"
+        ]
+      },
+      "section3": {
+        "title": "3. Prohibited content",
+        "content": "The following are not allowed on ToldYa!:",
+        "items": [
+          "Illegal content, including child sexual abuse and exploitation (see Child Safety Standards)",
+          "Sexual content involving minors, or content that sexualizes minors",
+          "Real-money gambling, scams, or phishing",
+          "Graphic violence, or content that promotes harm to others"
+        ],
+        "content2": "Full child-safety standards: https://zukiapps.com/toldya/child-safety"
+      },
+      "section4": {
+        "title": "4. Report and block",
+        "content": "Use in-app Report on predictions, comments, or users, and Block to stop seeing someone immediately. We review reports and may remove content or suspend accounts."
+      },
+      "section5": {
+        "title": "5. Enforcement",
+        "content": "Violations can result in content removal, feature limits, or account suspension or termination. We have zero tolerance for CSAE/CSAM and will report as required by law."
+      },
+      "section6": {
+        "title": "6. Age",
+        "content": "ToldYa! is not directed at children under 13 (or the minimum age required in your country)."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these guidelines:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL",
+        "content2": "Terms: https://zukiapps.com/toldya/terms · Child safety: https://zukiapps.com/toldya/child-safety · Support: https://zukiapps.com/toldya/support"
+      },
+      "metaDescription": "ToldYa! Community Guidelines — respect, honest predictions, prohibited content, report and block, and enforcement."
     },
     "childSafety": {
       "title": "Child Safety Standards",
@@ -475,6 +536,10 @@
           "title": "Delete Account",
           "description": "Permanently delete your ToldYa! account"
         },
+        "community": {
+          "title": "Community Guidelines",
+          "description": "Rules for predictions, voting, and UGC"
+        },
         "childSafety": {
           "title": "Child Safety Standards",
           "description": "CSAE policy and designated contact"
@@ -521,6 +586,10 @@
         "q10": {
           "question": "What are private rooms?",
           "answer": "Private rooms let invited friends make predictions visible only within that room—not in public feeds or global leaderboards. The same community rules, reporting, and blocking apply inside rooms."
+        },
+        "q11": {
+          "question": "Where are the community rules?",
+          "answer": "See https://zukiapps.com/toldya/community for Community Guidelines (respect, honest predictions, prohibited content, report and block). Child safety / CSAE: https://zukiapps.com/toldya/child-safety"
         }
       },
       "additionalHelp": {
