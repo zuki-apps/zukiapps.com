@@ -3,10 +3,10 @@
     "hero": {
       "title": "ToldYa!",
       "subtitle": "Told you so! Prove it.",
-      "description": "Invite-only social predictions — post your call before it happens, let the Arena vote, resolve when you're right, and prove you called it. Free on iOS and Android; no ads, no in-app purchases; reputation only, no real money.",
-      "structuredDataDescription": "ToldYa! — invite-only social network for predictions, Arena voting, mandatory author resolution, private rooms, shareable result cards, and reputation. Android com.zuki.apps.toldya; iOS App Store id6756342206 by Zuki Apps.",
+      "description": "Social predictions (open beta) — post your call before it happens, let the Arena vote, resolve when you're right, and prove you called it. Free to join on iOS and Android; no ads, no in-app purchases; reputation only, no real money.",
+      "structuredDataDescription": "ToldYa! — social network for predictions, Arena voting, mandatory author resolution, private rooms, shareable result cards, and reputation. Open registration during beta. Android com.zuki.apps.toldya; iOS App Store id6756342206 by Zuki Apps.",
       "seoTitle": "ToldYa! — Social Predictions | Zuki Apps",
-      "metaDescription": "Told you so! Prove it. Invite-only social predictions with Arena voting, mandatory resolution, private rooms, and shareable result cards. Free on iOS & Android."
+      "metaDescription": "Told you so! Prove it. Free-to-join social predictions (beta) with Arena voting, mandatory resolution, private rooms, and shareable result cards. Free on iOS & Android."
     },
     "back": "Back to Home",
     "legalNav": {
@@ -25,7 +25,7 @@
       "terms": "https://zukiapps.com/toldya/terms",
       "support": "https://zukiapps.com/toldya/support",
       "deleteAccount": "https://zukiapps.com/toldya/delete-account",
-      "childSafety": "https://zukiapps.com/toldya/child-safety",
+      "childSafety": "https://zukiapps.com/toldya/safety",
       "websiteLabel": "Website / support",
       "privacyLabel": "Privacy policy",
       "termsLabel": "Terms of use",
@@ -33,7 +33,8 @@
       "deleteAccountLabel": "Delete account",
       "childSafetyLabel": "Child safety standards",
       "supportEmail": "zuki.apps.dev@gmail.com",
-      "childSafetyEmail": "liorzukman@gmail.com"
+      "childSafetyEmail": "liorzukman@gmail.com",
+      "safety": "https://zukiapps.com/toldya/safety"
     },
     "download": {
       "appStoreUrl": "https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206",
@@ -44,8 +45,8 @@
     },
     "privacy": {
       "title": "Privacy Policy",
-      "lastUpdated": "Last updated: July 2026",
-      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) processes personal data when you use the ToldYa! mobile application and related pages at zukiapps.com/toldya (the “Service”). ToldYa! is an invite-only social network for user-generated predictions, Arena voting, mandatory author resolution, outcome disputes, optional private rooms with friends, comments, direct messages, and reputation scoring.",
+      "lastUpdated": "Last updated: August 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps (“we”, “us”) processes personal data when you use the ToldYa! mobile application and related pages at zukiapps.com/toldya (the “Service”). ToldYa! is a social network for user-generated predictions, Arena voting, mandatory author resolution, outcome disputes, optional private rooms with friends, comments, direct messages, and reputation scoring. During open beta, new accounts may register without an invitation code.",
       "section1": {
         "title": "1. Who we are",
         "content": "The data controller for ToldYa! is Zuki Apps. Contact details are at the end of this Policy.",
@@ -55,7 +56,7 @@
         "title": "2. Information we collect",
         "content": "We collect information you provide and information generated when you use the Service:",
         "items": [
-          "Account data: email address, username, display name, password (stored in hashed form by our authentication provider), optional profile bio and avatar image, language preference, and invitation-related metadata.",
+          "Account data: email address, username, display name, password (stored in hashed form by our authentication provider), optional profile bio and avatar image, language preference, and optional invitation-related metadata when invitation codes are used.",
           "Social & content data: predictions (text, category, target dates, status, visibility), votes, likes, comments, retweets/shares, follower relationships, reputation or category scores, and direct messages you send or receive.",
           "Resolution & dispute data: outcomes submitted by prediction authors (including optional notes and evidence links), resolution timestamps, dispute reports filed by other members, and moderation-queue records related to outcomes.",
           "Private room data: room names, membership lists, invitations, and predictions scoped to a room (visible only to room members, excluded from public feeds and global leaderboards).",
@@ -70,7 +71,7 @@
         "title": "3. How we use your information",
         "content": "We use personal data to provide and secure the social network, including:",
         "items": [
-          "Create and manage your account, invitation access, and profile",
+          "Create and manage your account and profile",
           "Display feeds, Arena views, voting results, comments, and notifications",
           "Operate mandatory prediction resolution, overdue reminders, and dispute review",
           "Operate private rooms, membership, and room-scoped feeds",
@@ -94,7 +95,7 @@
       "section6": {
         "title": "6. User-generated content & moderation",
         "content": "Predictions, comments, messages, room content, and media are user-generated. We provide in-app tools to report content or users and to block other users, as required by Apple App Store and Google Play policies for apps with user-generated content. Reports and blocks are reviewed by our team; safety-related reports are prioritized. We also use automated content filtering on create flows where configured.",
-        "content2": "We may review, remove, restrict, or correct content and accounts that violate our Terms or applicable law, including after an outcome dispute is filed. Removed content may remain in backups for a limited period before deletion. For child safety, see https://zukiapps.com/toldya/child-safety"
+        "content2": "We may review, remove, restrict, or correct content and accounts that violate our Terms or applicable law, including after an outcome dispute is filed. Removed content may remain in backups for a limited period before deletion. For child safety, see https://zukiapps.com/toldya/safety"
       },
       "section7": {
         "title": "7. Retention",
@@ -152,8 +153,8 @@
     },
     "terms": {
       "title": "Terms of Use",
-      "lastUpdated": "Last updated: July 2026",
-      "intro": "These Terms of Use (“Terms”) govern your access to ToldYa! (“Service”, “app”), an invite-only social network operated by Zuki Apps. By creating an account or using the Service, you agree to these Terms and our Privacy Policy. If you do not agree, do not use the Service.",
+      "lastUpdated": "Last updated: August 2026",
+      "intro": "These Terms of Use (“Terms”) govern your access to ToldYa! (“Service”, “app”), a social network operated by Zuki Apps. During the open beta period, new accounts may register without an invitation code until further notice. By creating an account or using the Service, you agree to these Terms and our Privacy Policy. If you do not agree, do not use the Service.",
       "section1": {
         "title": "1. Acceptance",
         "content": "You must be legally able to enter a binding agreement in your jurisdiction. If you use the Service on behalf of an organization, you represent that you have authority to bind that organization.",
@@ -165,9 +166,9 @@
         "content2": "There is no real-money wagering, betting, prizes with monetary value, or virtual currency redeemable for money. Private rooms are for friendly predictions among invited members only—not gambling or financial contracts. Predictions are not financial, legal, or professional advice."
       },
       "section3": {
-        "title": "3. Accounts & invitations",
-        "content": "Access currently requires a valid invitation code. You must provide accurate registration information and keep your credentials confidential. You are responsible for all activity under your account.",
-        "content2": "You may not share, sell, or publicly distribute invitation codes in a way that circumvents our access controls. We may refuse registration, reclaim usernames, or close accounts at our discretion."
+        "title": "3. Accounts & registration",
+        "content": "During open beta, registration is available without an invitation code until we announce otherwise. You must provide accurate registration information and keep your credentials confidential. You are responsible for all activity under your account.",
+        "content2": "We may re-enable invitation-only signup later. If invitation codes are required, you may not share, sell, or publicly distribute codes in a way that circumvents our access controls. We may refuse registration, reclaim usernames, or close accounts at our discretion."
       },
       "section4": {
         "title": "4. Your responsibilities",
@@ -325,8 +326,8 @@
     },
     "childSafety": {
       "title": "Child Safety Standards",
-      "lastUpdated": "Last updated: May 2026",
-      "intro": "ToldYa! is an invite-only social network operated by Zuki Apps. We maintain zero tolerance for child sexual abuse and exploitation (CSAE). This page describes our published standards, in-app reporting, moderation practices, and how to contact us regarding child safety.",
+      "lastUpdated": "Last updated: August 2026",
+      "intro": "ToldYa! is a social network operated by Zuki Apps. We maintain zero tolerance for child sexual abuse and exploitation (CSAE). This page describes our published standards, in-app reporting, moderation practices, and how to contact us regarding child safety.",
       "section1": {
         "title": "1. Zero tolerance",
         "content": "We prohibit any content or conduct that sexually exploits, endangers, or otherwise harms children. Accounts involved in CSAE may be removed immediately and permanently. Where required by law, we report to regional and national authorities and cooperate with law enforcement."
@@ -345,7 +346,7 @@
       },
       "section3": {
         "title": "3. Age requirement",
-        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). Registration requires an invitation code and is intended for adults and teens who meet the minimum age. We may suspend accounts we believe belong to underage users."
+        "content": "ToldYa! is not directed to children under 13 (or the minimum age required in your country). Registration is intended for adults and teens who meet the minimum age. We may suspend accounts we believe belong to underage users."
       },
       "section4": {
         "title": "4. In-app reporting",
@@ -376,10 +377,10 @@
       "metaDescription": "ToldYa! published child safety standards against CSAE — zero tolerance, in-app reporting, moderation, legal compliance, and designated contact."
     },
     "pilot": {
-      "badge": "Beta — invite-only",
+      "badge": "Beta — free to join",
       "title": "Now in beta",
-      "message": "ToldYa! is in open beta on the App Store and Google Play as an invite-only release. Post predictions on the record, vote in the Arena, resolve when you're right, share result cards, and use private rooms with friends.",
-      "inviteNote": "Invite-only — you need a valid invitation code to register. Free app: no ads, no in-app purchases, no real-money gambling (12+ UGC).",
+      "message": "ToldYa! is in open beta on the App Store and Google Play. Post predictions on the record, vote in the Arena, resolve when you're right, share result cards, and use private rooms with friends.",
+      "inviteNote": "Free to join during beta — create an account with email and password (no invitation code required until further notice). Free app: no ads, no in-app purchases, no real-money gambling (12+ UGC).",
       "highlights": [
         "Post predictions your followers see; Arena voting with comments and reactions",
         "Authors must resolve after the deadline — accountability built in",
@@ -394,7 +395,7 @@
       "title": "Support & Help",
       "subtitle": "We're here to help with ToldYa! — predictions, your account, privacy, and child safety.",
       "metaTitle": "Support & Help — ToldYa! | Zuki Apps",
-      "metaDescription": "Get help with ToldYa! — invite-only predictions, account deletion, privacy, child safety contact, and technical support.",
+      "metaDescription": "Get help with ToldYa! — open-beta predictions, account deletion, privacy, child safety contact, and technical support.",
       "contact": {
         "title": "Contact Us",
         "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
@@ -423,11 +424,11 @@
         "title": "Frequently Asked Questions",
         "q1": {
           "question": "What is ToldYa!?",
-          "answer": "ToldYa! is an invite-only social app for predictions — post your call before it happens, vote in the Arena, build a reputation score, and prove you called it. Free on iOS and Android with no ads and no in-app purchases."
+          "answer": "ToldYa! is a social app for predictions — post your call before it happens, vote in the Arena, build a reputation score, and prove you called it. Free on iOS and Android with no ads and no in-app purchases. Open registration during beta."
         },
         "q2": {
-          "question": "Is ToldYa! invite-only?",
-          "answer": "Yes. During the pilot, access is invite-only. You need an invitation to create an account and use the social features."
+          "question": "Do I need an invitation code?",
+          "answer": "Not during open beta. Create an account free with email and password until further notice. We may re-enable invitation-only signup later."
         },
         "q3": {
           "question": "How do I delete my account?",
@@ -443,7 +444,7 @@
         },
         "q6": {
           "question": "How do I report child safety concerns?",
-          "answer": "See our Child Safety Standards page at https://zukiapps.com/toldya/child-safety for CSAE policy and the designated child safety contact. For general support, email zuki.apps.dev@gmail.com."
+          "answer": "See our Child Safety Standards page at https://zukiapps.com/toldya/safety for CSAE policy and the designated child safety contact. For general support, email zuki.apps.dev@gmail.com."
         },
         "q7": {
           "question": "How does Arena voting work?",

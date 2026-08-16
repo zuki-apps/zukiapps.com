@@ -53,6 +53,9 @@ export function verifyLegacyRedirectRules(redirectsPath) {
   if (!text.includes('/zulist/invite/*')) {
     errors.push('missing ZuList invite rewrite');
   }
+  if (!text.includes('/toldya/safety /toldya/child-safety 301')) {
+    errors.push('missing ToldYa safety → child-safety redirect');
+  }
   if (!text.includes('/ /index.html 200')) {
     errors.push('missing home rewrite');
   }
