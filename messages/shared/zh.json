@@ -283,6 +283,17 @@
         "widgets": "主屏幕小组件"
       },
       "learnMore": "了解更多 Time Since →"
+    },
+    "toldya": {
+      "title": "ToldYa! — 社交预测",
+      "subtitle": "我就说吧！证明给你看。",
+      "description": "公开测试：在事情发生前发布预测，在竞技场投票，猜对后结算。任何人都可以注册。iOS 与 Android 免费 — 无广告、无内购。",
+      "learnMore": "了解 ToldYa! →",
+      "features": {
+        "predictions": "发布预测",
+        "arena": "竞技场投票",
+        "share": "分享结果卡"
+      }
     }
   },
   "common": {
@@ -306,8 +317,8 @@
     "skipToContent": "跳到主要内容",
     "cookies": {
       "title": "Cookie 与分析",
-      "body": "仅在您同意后使用 Google Analytics，以了解哪些页面有用。无广告 Cookie。可拒绝并正常浏览。",
-      "accept": "接受分析",
+      "body": "Google Analytics 为可选项，仅在您允许时加载。此选择会在本设备上保留约一年。无广告 Cookie。您可以拒绝并正常浏览。",
+      "accept": "始终允许",
       "reject": "拒绝",
       "learnMore": "DSA / 法律",
       "learnMoreA11y": "无障碍",
@@ -332,7 +343,7 @@
     "lastUpdated": "最后更新：2025年1月",
     "traderIdentification": {
       "title": "交易者识别",
-      "content": "Zuki Apps根据欧盟数字服务法 (DSA) 作为交易者运营。所有应用程序（ZuList、Hush Gallery、Whistle Camera、Power Interval Timer）均由 Zuki Apps 提供，这是一家致力于遵守欧盟法规的商业实体。"
+      "content": "Zuki Apps根据欧盟数字服务法 (DSA) 作为交易者运营。所有应用程序（ZuList、Hush Gallery、Whistle Camera、Power Interval Timer、Sudoku Fun Go、Fun Facts! Trivia、ToldYa!、Time Since、GEO Calc、Zuli Collage）均由 Zuki Apps 提供，这是一家致力于遵守欧盟法规的商业实体。"
     },
     "businessInfo": {
       "title": "商业信息",

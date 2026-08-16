@@ -39,6 +39,9 @@
         "items": [
           "بيانات الحساب: عنوان البريد الإلكتروني، واسم المستخدم، واسم العرض، وكلمة المرور (المخزنة في شكل مجزأ بواسطة موفر المصادقة لدينا)، والسيرة الذاتية الاختيارية للملف الشخصي والصورة الرمزية، وتفضيلات اللغة، والبيانات الوصفية المتعلقة بالدعوة.",
           "البيانات الاجتماعية وبيانات المحتوى: التنبؤات (النص، الفئة، التواريخ المستهدفة، الحالة)، الأصوات، الإعجابات، التعليقات، إعادة التغريد/المشاركات، علاقات المتابعين، درجات السمعة أو الفئة، والرسائل المباشرة التي ترسلها أو تستقبلها.",
+          "Resolution & dispute data: outcomes submitted by prediction authors (including optional notes and evidence links), resolution timestamps, dispute reports filed by other members, and moderation-queue records related to outcomes.",
+          "Private room data: room names, membership lists, invitations, and predictions scoped to a room (visible only to room members, excluded from public feeds and global leaderboards).",
+          "Safety & moderation data: content reports, block lists, automated content-filter signals, and enforcement actions taken on your account or content.",
           "الوسائط: الصور أو مقاطع الفيديو التي يمكنك إضافة att إليها للتنبؤات، إذا اخترت تحميلها.",
           "بيانات الجهاز والاستخدام: نوع الجهاز ونظام التشغيل وإصدار التطبيق والرموز المميزة للإشعارات (إذا قمت بتمكين الإشعارات) والمنطقة المشتقة من IP (حيثما كان ذلك متاحًا) وسجلات الأعطال وأحداث التحليلات عبر Google Firebase Analytics وCrashlytics.",
           "الدعم والأمان: المعلومات التي ترسلها عند الاتصال بالدعم أو الإبلاغ عن المحتوى أو المستخدمين.",
@@ -51,6 +54,8 @@
         "items": [
           "قم بإنشاء وإدارة حسابك والوصول إلى الدعوة وملفك الشخصي",
           "عرض الخلاصات وطرق عرض الساحة ونتائج التصويت والتعليقات والإشعارات",
+          "Operate mandatory prediction resolution, overdue reminders, and dispute review",
+          "Operate private rooms, membership, and room-scoped feeds",
           "تشغيل ميزات المتابعين والبحث وتسجيل السمعة",
           "أرسل إشعارات الدفع أو الإشعارات داخل التطبيق التي قمت بتمكينها",
           "اكتشاف إساءة الاستخدام، وفرض شروطنا، والرد على التقارير",
@@ -138,6 +143,8 @@
           "استخدم هويتك الحقيقية فقط على النحو الذي يسمح به المنتج (لا يجوز انتحال الشخصية أو الملفات الشخصية الخادعة)",
           "لا يجوز حذف الخدمة أو إجراء هندسة عكسية لها أو التحميل الزائد على الخدمة دون إذن",
           "عدم التلاعب بالأصوات أو التصنيفات أو السمعة من خلال الروبوتات أو السلوك المنسق غير الأصيل أو عمليات الاستغلال",
+          "Resolve your own predictions honestly after the deadline when you are the author",
+          "Not submit false or misleading resolution outcomes",
           "قم بالإبلاغ عن المحتوى أو المستخدمين الذين تعتقد أنهم ينتهكون هذه الشروط"
         ]
       },
@@ -306,7 +313,10 @@
       "inviteNote": "يمكن لأي شخص التسجيل بالبريد وكلمة المرور — لا رمز دعوة. تطبيق مجاني: بلا إعلانات أو مشتريات أو مقامرة بمال حقيقي. غير موجّه للأطفال دون سن 13.",
       "highlights": [
         "نشر التوقعات التي يمكن لمتابعيك رؤيتها؛ التصويت والتعليق في الساحة",
+        "Authors must resolve after the deadline — accountability built in",
         "درجات دقة الفئة وسجل حافل يمكن للآخرين مشاهدته",
+        "Private rooms for predictions with friends (up to 8 members, not in public feeds)",
+        "Share branded result cards when you called it",
         "الإنجليزية والعبرية مع RTL · موضوعات داكنة وفاتحة",
         "مجانًا: لا إعلانات ولا عمليات شراء داخل التطبيق - حقوق السمعة والتفاخر فقط"
       ]

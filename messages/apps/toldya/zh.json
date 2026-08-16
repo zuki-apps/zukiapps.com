@@ -39,6 +39,9 @@
         "items": [
           "帐户数据：电子邮件地址、用户名、显示名称、密码（由我们的身份验证提供商以散列形式存储）、可选的个人资料简介和头像图像、语言首选项以及与邀请相关的元数据。",
           "社交和内容数据：预测（文本、类别、目标日期、状态）、投票、点赞、评论、转发/分享、关注者关系、声誉或类别分数以及您发送或接收的直接消息。",
+          "Resolution & dispute data: outcomes submitted by prediction authors (including optional notes and evidence links), resolution timestamps, dispute reports filed by other members, and moderation-queue records related to outcomes.",
+          "Private room data: room names, membership lists, invitations, and predictions scoped to a room (visible only to room members, excluded from public feeds and global leaderboards).",
+          "Safety & moderation data: content reports, block lists, automated content-filter signals, and enforcement actions taken on your account or content.",
           "媒体：您att获取预测的照片或视频（如果您选择上传）。",
           "设备和使用数据：设备类型、操作系统、应用程序版本、推送通知令牌（如果您启用通知）、IP 派生区域（如果可用）、崩溃日志以及通过 Google Firebase Analytics 和 Crashlytics 的分析事件。",
           "支持和安全：您在联系支持或报告内容或用户时发送的信息。",
@@ -51,6 +54,8 @@
         "items": [
           "创建和管理您的帐户、邀请访问权限和个人资料",
           "显示提要、竞技场视图、投票结果、评论和通知",
+          "Operate mandatory prediction resolution, overdue reminders, and dispute review",
+          "Operate private rooms, membership, and room-scoped feeds",
           "操作关注者功能、搜索和声誉评分",
           "发送您已启用的推送或应用内通知",
           "检测滥用行为、执行我们的条款并回复报告",
@@ -138,6 +143,8 @@
           "仅在产品允许的情况下使用您的真实身份（不得冒充或欺骗性的个人资料）",
           "未经许可不得抓取、逆向工程或超载服务",
           "不通过机器人、协调的不真实行为或漏洞操纵投票、排名或声誉",
+          "Resolve your own predictions honestly after the deadline when you are the author",
+          "Not submit false or misleading resolution outcomes",
           "举报您认为违反这些条款的内容或用户"
         ]
       },
@@ -306,7 +313,10 @@
       "inviteNote": "任何人都可以用邮箱和密码注册 — 无需邀请码。免费应用：无广告、无应用内购买、无真金赌博。不面向 13 岁以下儿童。",
       "highlights": [
         "您的关注者可以看到的发布预测；在竞技场投票和评论",
+        "Authors must resolve after the deadline — accountability built in",
         "其他人可以观看的类别准确度分数和跟踪记录",
+        "Private rooms for predictions with friends (up to 8 members, not in public feeds)",
+        "Share branded result cards when you called it",
         "英语和希伯来语，带有 RTL · 深色和浅色主题",
         "免费：没有广告，没有应用内购买——只有声誉和吹牛的权利"
       ]

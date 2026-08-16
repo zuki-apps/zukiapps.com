@@ -283,6 +283,17 @@
         "widgets": "ホームウィジェット"
       },
       "learnMore": "Time Since の詳細 →"
+    },
+    "toldya": {
+      "title": "ToldYa! — ソーシャル予測",
+      "subtitle": "だから言ったでしょ！証明しよう。",
+      "description": "オープンベータ：起こる前に予測を投稿し、アリーナで投票し、当たったら確定。誰でも登録できます。iOS / Android 無料 — 広告なし、アプリ内課金なし。",
+      "learnMore": "ToldYa! の詳細 →",
+      "features": {
+        "predictions": "予測を投稿",
+        "arena": "アリーナ投票",
+        "share": "結果カード"
+      }
     }
   },
   "common": {
@@ -306,8 +317,8 @@
     "skipToContent": "メインコンテンツへスキップ",
     "cookies": {
       "title": "Cookieとアナリティクス",
-      "body": "同意いただいた場合のみ Google Analytics を使用します。どのページが役立つか把握するためです。広告 Cookie はありません。拒否しても閲覧できます。",
-      "accept": "アナリティクスを許可",
+      "body": "Google Analytics は任意です。許可した場合のみ読み込みます。この端末での選択は約1年間保存されます。広告用 Cookie はありません。拒否しても通常どおり閲覧できます。",
+      "accept": "常に許可",
       "reject": "拒否",
       "learnMore": "DSA / 法務",
       "learnMoreA11y": "アクセシビリティ",
@@ -332,7 +343,7 @@
     "lastUpdated": "最終更新：2025年1月",
     "traderIdentification": {
       "title": "事業者識別",
-      "content": "Zuki Appsは、EUデジタルサービス法（DSA）の下で事業者として運営しています。すべてのアプリケーション（ZuList、Hush Gallery、Whistle Camera、Power Interval Timer）は、EU規則の遵守に取り組む事業体であるZuki Appsによって提供されています。"
+      "content": "Zuki Appsは、EUデジタルサービス法（DSA）の下で事業者として運営しています。すべてのアプリケーション（ZuList、Hush Gallery、Whistle Camera、Power Interval Timer、Sudoku Fun Go、Fun Facts! Trivia、ToldYa!、Time Since、GEO Calc、Zuli Collage）は、EU規則の遵守に取り組む事業体であるZuki Appsによって提供されています。"
     },
     "businessInfo": {
       "title": "事業情報",

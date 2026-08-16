@@ -283,6 +283,17 @@
         "widgets": "Widgets de inicio"
       },
       "learnMore": "Más sobre Time Since →"
+    },
+    "toldya": {
+      "title": "ToldYa! — Predicciones sociales",
+      "subtitle": "¡Te lo dije! Demuéstralo.",
+      "description": "Beta abierta: publica tu predicción antes de que ocurra, vota en la Arena y resuelve cuando aciertes. Cualquiera puede registrarse. Gratis en iOS y Android — sin anuncios ni compras.",
+      "learnMore": "Más sobre ToldYa! →",
+      "features": {
+        "predictions": "Publicar predicciones",
+        "arena": "Votación en la Arena",
+        "share": "Tarjetas de resultado"
+      }
     }
   },
   "common": {
@@ -306,8 +317,8 @@
     "skipToContent": "Saltar al contenido principal",
     "cookies": {
       "title": "Cookies y analítica",
-      "body": "Usamos Google Analytics solo si acepta. Nos ayuda a ver qué páginas son útiles. Sin cookies publicitarias. Puede rechazar y navegar con normalidad.",
-      "accept": "Aceptar analítica",
+      "body": "Google Analytics es opcional y se carga solo si lo permite. Recordamos su elección en este dispositivo durante aproximadamente un año. Sin cookies publicitarias. Rechace y siga navegando con normalidad.",
+      "accept": "Permitir siempre",
       "reject": "Rechazar",
       "learnMore": "DSA / legal",
       "learnMoreA11y": "Accesibilidad",
@@ -332,7 +343,7 @@
     "lastUpdated": "Última actualización: Enero 2025",
     "traderIdentification": {
       "title": "Identificación del Comerciante",
-      "content": "Zuki Apps opera como comerciante bajo la Ley de Servicios Digitales de la UE (DSA). Todas las aplicaciones (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer) son proporcionadas por Zuki Apps, una entidad comercial comprometida con el cumplimiento de las regulaciones de la UE."
+      "content": "Zuki Apps opera como comerciante bajo la Ley de Servicios Digitales de la UE (DSA). Todas las aplicaciones (ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Fun Facts! Trivia, ToldYa!, Time Since, GEO Calc, Zuli Collage) son proporcionadas por Zuki Apps, una entidad comercial comprometida con el cumplimiento de las regulaciones de la UE."
     },
     "businessInfo": {
       "title": "Información Comercial",

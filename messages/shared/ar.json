@@ -283,6 +283,17 @@
         "widgets": "ودجات الشاشة الرئيسية"
       },
       "learnMore": "المزيد عن Time Since ←"
+    },
+    "toldya": {
+      "title": "ToldYa! — توقعات اجتماعية",
+      "subtitle": "قلت لك! أثبتها.",
+      "description": "بيتا مفتوحة: انشر توقعك قبل أن يحدث، صوّت في الحلبة، وأغلق النتيجة عندما تصيب. يمكن لأي شخص التسجيل. مجاني على iOS وAndroid — بلا إعلانات وبلا مشتريات داخل التطبيق.",
+      "learnMore": "المزيد عن ToldYa! ←",
+      "features": {
+        "predictions": "نشر التوقعات",
+        "arena": "التصويت في الحلبة",
+        "share": "بطاقات النتيجة"
+      }
     }
   },
   "common": {
@@ -306,8 +317,8 @@
     "skipToContent": "تخطَّ إلى المحتوى الرئيسي",
     "cookies": {
       "title": "ملفات تعريف الارتباط والتحليلات",
-      "body": "نستخدم Google Analytics فقط إذا وافقت. يساعدنا على فهم الصفحات المفيدة. بلا ملفات إعلانية. يمكنك الرفض والتصفح كالمعتاد.",
-      "accept": "قبول التحليلات",
+      "body": "Google Analytics اختياري ويُحمَّل فقط إذا وافقتم. نحفظ الاختيار على هذا الجهاز لنحو سنة. بلا ملفات تعريف إعلانية. يمكنكم الرفض وتصفّح الموقع كالمعتاد.",
+      "accept": "السماح دائمًا",
       "reject": "رفض",
       "learnMore": "DSA / قانوني",
       "learnMoreA11y": "إمكانية الوصول",
@@ -332,7 +343,7 @@
     "lastUpdated": "آخر تحديث: يناير 2025",
     "traderIdentification": {
       "title": "تحديد هوية التاجر",
-      "content": "تعمل Zuki Apps كتاجر بموجب قانون الخدمات الرقمية للاتحاد الأوروبي (DSA). يتم توفير جميع التطبيقات (ZuList، Hush Gallery، Whistle Camera، Power Interval Timer) بواسطة Zuki Apps، وهي كيان تجاري ملتزم بالامتثال للوائح الاتحاد الأوروبي."
+      "content": "تعمل Zuki Apps كتاجر بموجب قانون الخدمات الرقمية للاتحاد الأوروبي (DSA). يتم توفير جميع التطبيقات (ZuList، Hush Gallery، Whistle Camera، Power Interval Timer، Sudoku Fun Go، Fun Facts! Trivia، ToldYa!، Time Since، GEO Calc، Zuli Collage) بواسطة Zuki Apps، وهي كيان تجاري ملتزم بالامتثال للوائح الاتحاد الأوروبي."
     },
     "businessInfo": {
       "title": "معلومات العمل",

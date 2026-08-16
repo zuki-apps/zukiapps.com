@@ -283,6 +283,17 @@
         "widgets": "홈 위젯"
       },
       "learnMore": "Time Since 자세히 →"
+    },
+    "toldya": {
+      "title": "ToldYa! — 소셜 예측",
+      "subtitle": "내가 그랬잖아! 증명하세요.",
+      "description": "오픈 베타: 일어나기 전에 예측을 올리고, 아레나에서 투표하고, 맞으면 결과를 확정하세요. 누구나 가입할 수 있습니다. iOS·Android 무료 — 광고 없음, 인앱 결제 없음.",
+      "learnMore": "ToldYa! 자세히 보기 →",
+      "features": {
+        "predictions": "예측 게시",
+        "arena": "아레나 투표",
+        "share": "결과 카드 공유"
+      }
     }
   },
   "common": {
@@ -306,8 +317,8 @@
     "skipToContent": "본문으로 건너뛰기",
     "cookies": {
       "title": "쿠키 및 분석",
-      "body": "동의한 경우에만 Google Analytics를 사용합니다. 어떤 페이지가 유용한지 파악하는 데 도움이 됩니다. 광고 쿠키는 없습니다. 거부하고 정상적으로 이용할 수 있습니다.",
-      "accept": "분석 허용",
+      "body": "Google Analytics는 선택 사항이며, 허용한 경우에만 로드됩니다. 이 기기의 선택은 약 1년간 기억됩니다. 광고 쿠키는 없습니다. 거부해도 사이트를 이용할 수 있습니다.",
+      "accept": "항상 허용",
       "reject": "거부",
       "learnMore": "DSA / 법률",
       "learnMoreA11y": "접근성",
@@ -332,7 +343,7 @@
     "lastUpdated": "최종 업데이트: 2025년 1월",
     "traderIdentification": {
       "title": "사업자 식별",
-      "content": "Zuki Apps는 EU 디지털 서비스법(DSA)에 따라 사업자로 운영됩니다. 모든 애플리케이션(ZuList, Hush Gallery, Whistle Camera, Power Interval Timer)은 EU 규정 준수에 전념하는 사업체인 Zuki Apps에서 제공합니다."
+      "content": "Zuki Apps는 EU 디지털 서비스법(DSA)에 따라 사업자로 운영됩니다. 모든 애플리케이션(ZuList, Hush Gallery, Whistle Camera, Power Interval Timer, Sudoku Fun Go, Fun Facts! Trivia, ToldYa!, Time Since, GEO Calc, Zuli Collage)은 EU 규정 준수에 전념하는 사업체인 Zuki Apps에서 제공합니다."
     },
     "businessInfo": {
       "title": "사업 정보",

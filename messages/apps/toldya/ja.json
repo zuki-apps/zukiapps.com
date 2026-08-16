@@ -39,6 +39,9 @@
         "items": [
           "アカウント データ: 電子メール アドレス、ユーザー名、表示名、パスワード (認証プロバイダーによってハッシュ化された形式で保存)、オプションのプロフィールのプロフィールとアバター画像、言語設定、招待関連のメタデータ。",
           "ソーシャルおよびコンテンツ データ: 予測 (テキスト、カテゴリ、目標日、ステータス)、投票、いいね、コメント、リツイート/シェア、フォロワー関係、評判またはカテゴリのスコア、送受信するダイレクト メッセージ。",
+          "Resolution & dispute data: outcomes submitted by prediction authors (including optional notes and evidence links), resolution timestamps, dispute reports filed by other members, and moderation-queue records related to outcomes.",
+          "Private room data: room names, membership lists, invitations, and predictions scoped to a room (visible only to room members, excluded from public feeds and global leaderboards).",
+          "Safety & moderation data: content reports, block lists, automated content-filter signals, and enforcement actions taken on your account or content.",
           "メディア: アップロードすることを選択した場合、予測に使用される写真やビデオ。",
           "デバイスと使用状況データ: デバイスの種類、オペレーティング システム、アプリのバージョン、プッシュ通知トークン (通知を有効にした場合)、IP 由来のリージョン (利用可能な場合)、クラッシュ ログ、Google Firebase Analytics および Crashlytics による分析イベント。",
           "サポートと安全性: サポートに連絡するとき、またはコンテンツやユーザーを報告するときに送信する情報。",
@@ -51,6 +54,8 @@
         "items": [
           "アカウント、招待アクセス、プロフィールを作成および管理する",
           "フィード、アリーナビュー、投票結果、コメント、通知を表示します",
+          "Operate mandatory prediction resolution, overdue reminders, and dispute review",
+          "Operate private rooms, membership, and room-scoped feeds",
           "フォロワー機能、検索、評判スコアの操作",
           "有効にしたプッシュ通知またはアプリ内通知を送信する",
           "不正行為を検出し、規約を施行し、報告に対応します",
@@ -138,6 +143,8 @@
           "製品で許可されている場合にのみ、実際のアイデンティティを使用してください (なりすましや虚偽のプロフィールは使用しないでください)",
           "許可なくサービスをスクレイピング、リバース エンジニアリング、または過負荷にしないでください。",
           "ボット、連携した不正な動作、またはエクスプロイトを通じて、投票、ランキング、または評判を操作しないでください。",
+          "Resolve your own predictions honestly after the deadline when you are the author",
+          "Not submit false or misleading resolution outcomes",
           "本規約に違反していると思われるコンテンツまたはユーザーを報告する"
         ]
       },
@@ -306,7 +313,10 @@
       "inviteNote": "メールとパスワードで誰でも登録できます。招待コードは不要です。無料：広告なし、アプリ内課金なし、現金ギャンブルなし。13歳未満の子どもを対象としていません。",
       "highlights": [
         "フォロワーが見ることができる予測を投稿します。アリーナでの投票とコメント",
+        "Authors must resolve after the deadline — accountability built in",
         "カテゴリの精度スコアと他の人が見ることができる実績",
+        "Private rooms for predictions with friends (up to 8 members, not in public feeds)",
+        "Share branded result cards when you called it",
         "RTL · 暗いテーマと明るいテーマの英語とヘブライ語",
         "無料: 広告なし、アプリ内購入なし - 評判と自慢の権利のみ"
       ]

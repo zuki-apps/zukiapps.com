@@ -39,6 +39,9 @@
         "items": [
           "Datos de la cuenta: dirección de correo electrónico, nombre de usuario, nombre para mostrar, contraseña (almacenada en formato hash por nuestro proveedor de autenticación), biografía del perfil e imagen de avatar opcionales, preferencia de idioma y metadatos relacionados con la invitación.",
           "Datos sociales y de contenido: predicciones (texto, categoría, fechas objetivo, estado), votos, me gusta, comentarios, retuits/compartidos, relaciones con los seguidores, puntuación de reputación o categoría y mensajes directos que envía o recibe.",
+          "Resolution & dispute data: outcomes submitted by prediction authors (including optional notes and evidence links), resolution timestamps, dispute reports filed by other members, and moderation-queue records related to outcomes.",
+          "Private room data: room names, membership lists, invitations, and predictions scoped to a room (visible only to room members, excluded from public feeds and global leaderboards).",
+          "Safety & moderation data: content reports, block lists, automated content-filter signals, and enforcement actions taken on your account or content.",
           "Medios: fotos o videos que attaccedes a las predicciones, si eliges subirlos.",
           "Datos de uso y dispositivo: tipo de dispositivo, sistema operativo, versión de la aplicación, tokens de notificación push (si habilita las notificaciones), región derivada de IP (cuando esté disponible), registros de fallas y eventos analíticos a través de Google Firebase Analytics y Crashlytics.",
           "Soporte y seguridad: información que envía cuando se comunica con el soporte o informa sobre contenido o usuarios.",
@@ -51,6 +54,8 @@
         "items": [
           "Cree y administre su cuenta, acceso a invitaciones y perfil",
           "Mostrar feeds, vistas de Arena, resultados de votación, comentarios y notificaciones",
+          "Operate mandatory prediction resolution, overdue reminders, and dispute review",
+          "Operate private rooms, membership, and room-scoped feeds",
           "Operar funciones de seguidores, búsqueda y puntuación de reputación.",
           "Envía notificaciones push o dentro de la aplicación que hayas habilitado",
           "Detectar abusos, hacer cumplir nuestros Términos y responder a informes",
@@ -138,6 +143,8 @@
           "Utilice su identidad real solo según lo permita el producto (sin suplantaciones ni perfiles engañosos)",
           "No raspar, realizar ingeniería inversa ni sobrecargar el Servicio sin permiso.",
           "No manipular votos, clasificaciones o reputación a través de bots, comportamiento no auténtico coordinado o exploits.",
+          "Resolve your own predictions honestly after the deadline when you are the author",
+          "Not submit false or misleading resolution outcomes",
           "Reporte contenido o usuarios que crea que violan estos Términos"
         ]
       },
@@ -306,7 +313,10 @@
       "inviteNote": "Cualquiera puede registrarse con correo y contraseña — sin código de invitación. App gratis: sin anuncios, sin compras in-app, sin apuestas con dinero real. No dirigida a menores de 13 años.",
       "highlights": [
         "Publica predicciones que tus seguidores puedan ver; vota y comenta en la Arena",
+        "Authors must resolve after the deadline — accountability built in",
         "Puntuaciones de precisión de categorías y un historial que otros pueden ver",
+        "Private rooms for predictions with friends (up to 8 members, not in public feeds)",
+        "Share branded result cards when you called it",
         "Inglés y hebreo con RTL · temas oscuros y claros",
         "Gratis: sin anuncios, sin compras dentro de la aplicación: solo reputación y derechos de fanfarronear"
       ]
