@@ -64,6 +64,7 @@ export default async function AboutPage({
       'https://x.com/zuki_apps',
       'https://www.instagram.com/zuki.apps/',
       'https://play.google.com/store/apps/dev?id=7972373639235841172',
+      'https://apps.apple.com/us/developer/lior-zukman/id1845410217',
     ],
   };
 

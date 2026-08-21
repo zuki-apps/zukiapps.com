@@ -96,7 +96,7 @@ export default async function Home({
                 {t('heroCta.googlePlay')}
               </a>
               <a
-                href="https://apps.apple.com/search?term=Zuki%20Apps"
+                href="https://apps.apple.com/us/developer/lior-zukman/id1845410217"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-sky-100 bg-sky-950/60 hover:bg-sky-900/70 border border-sky-500/40 transition-colors"
@@ -268,6 +268,15 @@ export default async function Home({
                 className="text-gray-400 hover:text-green-400 transition-colors"
               >
                 Google Play
+              </a>
+              <span className="text-slate-600 hidden sm:inline">|</span>
+              <a
+                href="https://apps.apple.com/us/developer/lior-zukman/id1845410217"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-sky-400 transition-colors"
+              >
+                App Store
               </a>
               <span className="text-slate-600 hidden sm:inline">|</span>
               <Link
