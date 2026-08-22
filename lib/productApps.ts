@@ -18,6 +18,7 @@ export type ProductAppSlug =
   | 'roamguard'
   | 'questivo'
   | 'coloring-my-photo'
+  | 'photo-stamp'
   | 'toldya';
 
 export type ProductAppNamespace =
@@ -39,6 +40,7 @@ export type ProductAppNamespace =
   | 'roamGuard'
   | 'questivo'
   | 'coloringMyPhoto'
+  | 'photoStamp'
   | 'toldya';
 
 export type ProductAppConfig = {
@@ -147,6 +149,16 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'coloring-my-photo-faq-ld',
     howToId: 'coloring-my-photo-howto-ld',
     accent: 'rose',
+    hasSupportPage: true,
+  },
+  'photo-stamp': {
+    slug: 'photo-stamp',
+    namespace: 'photoStamp',
+    appPath: '/photo-stamp',
+    applicationCategory: 'PhotographyApplication',
+    faqId: 'photo-stamp-faq-ld',
+    howToId: 'photo-stamp-howto-ld',
+    accent: 'teal',
     hasSupportPage: true,
   },
   toldya: {

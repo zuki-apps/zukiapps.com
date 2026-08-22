@@ -22,4 +22,5 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/roamguard': 'com.zuki.apps.roamguard',
   '/questivo': 'com.zuki.apps.questivo',
   '/coloring-my-photo': 'com.zuki.apps.coloringmyphoto',
+  '/photo-stamp': 'com.zuki.apps.photostamp',
 };

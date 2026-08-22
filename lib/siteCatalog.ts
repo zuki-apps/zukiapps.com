@@ -59,6 +59,25 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];
 
+/** Unpublished / under-construction titles — About portfolio only, not home or JSON-LD ItemList. */
+export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
+  {
+    path: '/questivo',
+    name: 'Questivo',
+    description: 'Scavenger hunts and real-world missions. Create a quest, share a code. Coming soon. com.zuki.apps.questivo.',
+  },
+  {
+    path: '/coloring-my-photo',
+    name: 'Coloring My Photo',
+    description: 'Turn photos into color-by-number pages on your device. Coming soon. com.zuki.apps.coloringmyphoto.',
+  },
+  {
+    path: '/photo-stamp',
+    name: 'Photo Stamp: Date & Location',
+    description: 'Stamp date, time, and location onto existing photos and videos. On-device. Coming soon. com.zuki.apps.photostamp.',
+  },
+];
+
 export function buildSoftwareCatalogItemList(baseUrl: string) {
   const origin = baseUrl.replace(/\/+$/, '');
   return {

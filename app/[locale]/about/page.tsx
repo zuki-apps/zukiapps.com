@@ -8,7 +8,7 @@ import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import StarField from '@/components/StarField';
 import type { Metadata } from 'next';
 import { ArrowLeft, Code, Mail, Phone, Sparkles } from 'lucide-react';
-import { ZUKI_SITE_APPS } from '@/lib/siteCatalog';
+import { ZUKI_IN_DEVELOPMENT_APPS, ZUKI_SITE_APPS } from '@/lib/siteCatalog';
 import { PUBLISHER_PHONE_E164 } from '@/lib/publisherContact';
 
 export async function generateMetadata({
@@ -152,6 +152,31 @@ export default async function AboutPage({
                     {app.name}
                   </Link>
                   <span className="text-gray-400"> — {app.description}</span>
+                </li>
+              ))}
+            </ul>
+
+            <h2 className="text-2xl font-semibold text-indigo-200 mb-3">{t('inDevTitle')}</h2>
+            <p className="text-gray-400 mb-4">{t('inDevBody')}</p>
+            <ul className="list-disc list-inside space-y-2 mb-10 text-gray-300">
+              {ZUKI_IN_DEVELOPMENT_APPS.map((app) => (
+                <li key={app.path}>
+                  <Link href={`/${locale}${app.path}`} className="text-teal-300 hover:underline">
+                    {app.name}
+                  </Link>
+                  <span className="text-gray-400"> — {app.description}</span>
+                  <span className="text-gray-500">
+                    {' '}
+                    (
+                    <Link href={`/${locale}${app.path}/privacy`} className="text-teal-400/80 hover:underline">
+                      {tCommon('privacyPolicy')}
+                    </Link>
+                    {' · '}
+                    <Link href={`/${locale}${app.path}/terms`} className="text-teal-400/80 hover:underline">
+                      {tCommon('termsOfService')}
+                    </Link>
+                    )
+                  </span>
                 </li>
               ))}
             </ul>

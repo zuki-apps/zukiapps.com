@@ -28,6 +28,7 @@ const APPS = [
   'roamguard',
   'questivo',
   'coloring-my-photo',
+  'photo-stamp',
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

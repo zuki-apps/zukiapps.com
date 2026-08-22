@@ -1,0 +1,301 @@
+{
+  "photoStamp": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming soon · iOS & Android",
+      "title": "Photo Stamp: Date & Location",
+      "productName": "Photo Stamp: Date & Location",
+      "subtitle": "Stamp date, time, and location onto photos and videos you already have.",
+      "description": "Select from your library, we read the date and place already stored on the file, you design the stamp, and we export a new copy. Originals stay untouched. Everything stays on the device.",
+      "socialProof": "Gallery first · Photos and videos · No account · No upload · No AI · About 10–20 seconds",
+      "structuredDataDescription": "Photo Stamp adds date, time, and location stamps to photos and videos you already have. On-device, no account, originals never overwritten. Coming soon. com.zuki.apps.photostamp.",
+      "seoTitle": "Photo Stamp — Date & Location | Zuki Apps",
+      "metaDescription": "Stamp date, time, and location onto existing photos and videos. On-device. Originals untouched. Coming soon on iOS and Android."
+    },
+    "pageNav": {
+      "features": "Features",
+      "howTo": "How it works",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "features": {
+      "title": "Stamp existing gallery photos and videos",
+      "gallery": {
+        "title": "Gallery first",
+        "description": "The main path is your library. Camera is optional.",
+        "items": [
+          "Select photos and videos you already took",
+          "Date Taken when the file has it",
+          "Last Modified is labeled Last Modified — never Date Taken"
+        ]
+      },
+      "metadata": {
+        "title": "Date, time, and location from the file",
+        "description": "We read metadata already on your files. We do not request GPS to stamp the gallery.",
+        "items": [
+          "Location only if the file already has it, or you type a place",
+          "Missing location fields stay hidden — no fake GPS",
+          "No cloud processing"
+        ]
+      },
+      "export": {
+        "title": "New file on export",
+        "description": "Design the stamp, preview, export. About 10–20 seconds.",
+        "items": [
+          "Originals are never overwritten",
+          "Media stays on your device",
+          "No account and no upload"
+        ]
+      },
+      "pro": {
+        "title": "Photo Stamp Pro",
+        "description": "One-time unlock. Unlimited exports, premium styles, full resolution, no ads.",
+        "items": [
+          "Removes weekly free limits and ads",
+          "Lifetime product id: premium_lifetime",
+          "Restore purchases after reinstall"
+        ]
+      }
+    },
+    "howToUse": {
+      "title": "How it works",
+      "subtitle": "Select → read metadata → design → preview → export.",
+      "steps": [
+        {
+          "title": "Select from your library",
+          "description": "Pick photos or videos you already have. Camera is optional."
+        },
+        {
+          "title": "Design the stamp",
+          "description": "We read date, time, and location from the file. Style the stamp and preview."
+        },
+        {
+          "title": "Export a new copy",
+          "description": "Save a new file. The original stays untouched on your device."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Privacy, metadata, and Photo Stamp Pro.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is Photo Stamp?",
+          "answer": "Photo Stamp adds date, time, and location to photos and videos you already have. Processing stays on your device. Package: com.zuki.apps.photostamp."
+        },
+        {
+          "question": "Are my photos uploaded?",
+          "answer": "No. There is no account and no upload. Media stays on the device."
+        },
+        {
+          "question": "Do you overwrite originals?",
+          "answer": "No. Export creates a new file. Originals are never overwritten."
+        },
+        {
+          "question": "Do you need location permission?",
+          "answer": "No GPS permission is required to stamp the gallery. Location appears only if the file already has it, or if you type a place."
+        },
+        {
+          "question": "Is this a GPS camera or AI editor?",
+          "answer": "No. Photo Stamp is not a GPS camera, survey tool, or AI editor."
+        },
+        {
+          "question": "How do I get support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/photo-stamp/support."
+        }
+      ]
+    },
+    "status": {
+      "title": "Availability",
+      "description": "Photo Stamp is in development. App Store and Google Play listings coming soon.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "0.1.0",
+      "statusValue": "iOS & Android · Coming soon"
+    },
+    "download": {
+      "title": "Download Photo Stamp",
+      "description": "Stamp date, time, and location onto photos and videos you already have. Coming soon.",
+      "soon": "Coming soon to the App Store and Google Play",
+      "googlePlaySoon": "Coming soon on Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Photo Stamp app icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "footer": {
+      "copyright": "© 2026 Photo Stamp — All rights reserved",
+      "tagline": "Part of Zuki Apps"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Privacy Policy for Photo Stamp: Date & Location — on-device stamping, no media upload.",
+      "lastUpdated": "Last updated: August 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps handles information when you use Photo Stamp: Date & Location and related pages at zukiapps.com/photo-stamp. Photo Stamp stamps date, time, and location onto photos and videos you already have. Media is processed on your device. We do not upload your photos or videos.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the Photo Stamp app and the legal pages we publish for the product."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "Photo Stamp works on files you select. We do not upload media to our servers.",
+        "items": [
+          "Photos and videos you select — processed locally to read metadata and render a stamp",
+          "Date, time, and location already stored on the file (EXIF / similar metadata)",
+          "Optional place text you type if a file has no location",
+          "App preferences such as stamp style — stored on device",
+          "Support email — if you contact us directly"
+        ]
+      },
+      "section3": {
+        "title": "3. How we use information",
+        "content": "We use information to:",
+        "items": [
+          "Read date, time, and location already on your files",
+          "Render a stamp and export a new copy on your device",
+          "Remember stamp preferences on your device",
+          "Respond to support requests"
+        ],
+        "content2": "We do not sell your personal information. We do not use your media for advertising profiles or AI training."
+      },
+      "section4": {
+        "title": "4. Photos, videos, and location",
+        "content": "The app accesses media you select from your library (camera is optional). Location on the stamp comes from file metadata or text you type — not from a live GPS request for gallery stamping.",
+        "content2": "If a file has no location metadata, that field is hidden. We do not invent a location. You can revoke photo or camera permission in system settings at any time."
+      },
+      "section5": {
+        "title": "5. Storage and retention",
+        "content": "Media and exported copies remain on your device until you delete them or uninstall the app. Originals are never overwritten.",
+        "content2": "Support emails are retained as long as needed to resolve your request."
+      },
+      "section6": {
+        "title": "6. Third-party services",
+        "content": "Free users may see ads. Ad networks (for example Google AdMob) may collect device advertising identifiers under their policies. Photo Stamp Pro (one-time unlock) removes ads.",
+        "content2": "Purchases are processed by Apple App Store or Google Play. We do not receive your full payment card details. System share sheet and photo library are governed by Apple or Google policies."
+      },
+      "section7": {
+        "title": "7. Your rights and children",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights.",
+        "content2": "Photo Stamp is rated 4+ / general audiences. It is not directed at children under 13 (or the minimum age in your country). We do not knowingly collect personal data from children."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new Last updated date."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "metaDescription": "Terms of Use for Photo Stamp: Date & Location.",
+      "lastUpdated": "Last updated: August 2026",
+      "intro": "Please read these Terms carefully before using Photo Stamp: Date & Location. By downloading or using the app, you agree to these Terms and our Privacy Policy.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your use of Photo Stamp operated by Zuki Apps. If you do not agree, do not use the Service.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Photo Stamp includes:",
+        "items": [
+          "Stamping date, time, and location onto photos and videos you already have",
+          "On-device processing with a new exported file",
+          "Optional Photo Stamp Pro one-time unlock (premium_lifetime)"
+        ]
+      },
+      "section3": {
+        "title": "3. Your content",
+        "content": "You retain rights to media you import. You are responsible for having permission to use any photos or videos you stamp.",
+        "content2": "Do not use the app to process media you do not have rights to use."
+      },
+      "section4": {
+        "title": "4. Purchases",
+        "content": "Photo Stamp Pro, if purchased, is a one-time in-app unlock processed by Apple or Google. Their terms and refund policies apply.",
+        "content2": "Use Restore purchases after reinstall on the same store account."
+      },
+      "section5": {
+        "title": "5. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Use the Service for unlawful purposes",
+          "Reverse engineer the app except as permitted by law",
+          "Interfere with security or stability features",
+          "Create content that infringes others' rights",
+          "Misrepresent stamped date or location as live GPS or official survey data"
+        ]
+      },
+      "section6": {
+        "title": "6. Disclaimer",
+        "content": "The Service is provided as is without warranties of any kind. Stamp accuracy depends on metadata already on your files.",
+        "content2": "Photo Stamp is not a GPS camera, surveying instrument, or substitute for official records."
+      },
+      "section7": {
+        "title": "7. Limitation of liability",
+        "content": "To the maximum extent permitted by law, Zuki Apps shall not be liable for indirect, incidental, or consequential damages arising from use of the Service."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may modify these Terms. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "Find answers about Photo Stamp.",
+      "metaTitle": "Support & Help — Photo Stamp | Zuki Apps",
+      "metaDescription": "Photo Stamp FAQ — on-device stamping, metadata, and Photo Stamp Pro.",
+      "contact": {
+        "title": "Contact us",
+        "description": "Email us and we will get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "How Photo Stamp handles your media"
+        },
+        "terms": {
+          "title": "Terms of Use",
+          "description": "Terms for using Photo Stamp"
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "q1": {
+          "question": "Are originals overwritten?",
+          "answer": "No. Export creates a new file. Originals stay untouched."
+        },
+        "q2": {
+          "question": "Why is location missing?",
+          "answer": "Location appears only if the file already has it, or if you type a place. We do not invent GPS."
+        },
+        "q3": {
+          "question": "Is Photo Stamp Pro a subscription?",
+          "answer": "No. Photo Stamp Pro is a one-time unlock (premium_lifetime) via the App Store or Google Play."
+        },
+        "q4": {
+          "question": "Do you upload my photos?",
+          "answer": "No. There is no account and no upload. Processing stays on your device."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need more help?",
+        "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+      }
+    }
+  }
+}

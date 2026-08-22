@@ -290,6 +290,24 @@
         "title": "Need more help?",
         "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
       }
+    },
+    "howToUse": {
+      "title": "How to play",
+      "subtitle": "From code to finale in three steps.",
+      "steps": [
+        {
+          "title": "Get the code",
+          "description": "Open Questivo, tap Play, and enter the host's game code or scan a QR."
+        },
+        {
+          "title": "Complete missions",
+          "description": "Solve riddles, take photos, confirm GPS arrivals, or scan checkpoints in order."
+        },
+        {
+          "title": "Share results",
+          "description": "See your score, journey recap, and optional surprise ending when you finish."
+        }
+      ]
     }
   }
 }

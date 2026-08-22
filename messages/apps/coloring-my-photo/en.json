@@ -167,13 +167,13 @@
       },
       "section6": {
         "title": "6. Third-party services",
-        "content": "The app may open system services (photo library, camera, share sheet, app store rating).",
-        "content2": "Those services are governed by Apple or Google policies."
+        "content": "The app may open system services (photo library, camera, share sheet, app store rating). Free users may see banner and interstitial ads served by Google AdMob. Ad networks may collect device advertising identifiers under their policies. Premium removes ads.",
+        "content2": "Optional Premium unlock is processed by Apple App Store or Google Play. We do not receive your full payment card details."
       },
       "section7": {
         "title": "7. Your rights and children",
         "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights.",
-        "content2": "The app is suitable for general audiences. Parents should supervise children's use of the camera and gallery."
+        "content2": "The app is intended for general audiences ages 12 and up. It is not directed at children under 13. Parents should supervise children's use of the camera and gallery."
       },
       "section8": {
         "title": "8. Changes",
@@ -212,8 +212,8 @@
       },
       "section4": {
         "title": "4. Purchases",
-        "content": "If in-app purchases are offered in the future, they will be processed by Apple or Google under their terms.",
-        "content2": "Digital unlocks, if any, follow the applicable store refund policies."
+        "content": "Optional Premium is a one-time in-app unlock (no ads and premium features). Purchases are billed by Apple or Google under their terms.",
+        "content2": "Restore purchases from the Premium sheet if you reinstall on the same store account."
       },
       "section5": {
         "title": "5. Acceptable use",
@@ -289,6 +289,24 @@
         "title": "Need more help?",
         "description": "If you could not find an answer, email zuki.apps@gmail.com. We typically respond within 24–48 hours."
       }
+    },
+    "howToUse": {
+      "title": "How it works",
+      "subtitle": "From photo to finished art in three steps.",
+      "steps": [
+        {
+          "title": "Pick a photo",
+          "description": "Choose from gallery or camera — selfie, pet, landscape, or any moment."
+        },
+        {
+          "title": "Choose detail & colors",
+          "description": "Select Easy, Medium, or Advanced and how many colors you want."
+        },
+        {
+          "title": "Color & export",
+          "description": "Tap numbered regions to fill, then save, share, or print as PDF."
+        }
+      ]
     }
   }
 }

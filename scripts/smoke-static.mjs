@@ -60,7 +60,13 @@ const REQUIRED_FILES = [
   'roamguard/index.html',
   'roamguard/privacy/index.html',
   'questivo/index.html',
+  'questivo/privacy/index.html',
   'coloring-my-photo/index.html',
+  'coloring-my-photo/privacy/index.html',
+  'photo-stamp/index.html',
+  'photo-stamp/privacy/index.html',
+  'photo-stamp/terms/index.html',
+  'photo-stamp/support/index.html',
   'dreambit-legacy/privacy/index.html',
   'dreambit-legacy/terms/index.html',
 ];
