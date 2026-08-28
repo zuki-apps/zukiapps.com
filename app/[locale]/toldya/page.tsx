@@ -6,6 +6,7 @@ import { ArrowLeft, Mail, Rocket, CheckCircle2 } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
+import PromoMascotStill from '@/components/PromoMascotStill';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import StarBackground from '@/components/StarBackground';
 import ProductMarketingSections from '@/components/ProductMarketingSections';
@@ -60,6 +61,7 @@ export default function ToldyaPage() {
             </h1>
             <p className="text-xl text-gray-300 mb-2">{t('hero.subtitle')}</p>
             <p className="text-gray-400 mb-8 leading-relaxed">{t('hero.description')}</p>
+            <PromoMascotStill slug="toldya" alt={t('hero.title')} />
 
             <div className="card-twilight text-left mb-8">
               <h2 className="text-2xl font-black text-white mb-3 text-center">{t('pilot.title')}</h2>
@@ -147,7 +149,7 @@ export default function ToldyaPage() {
           </div>
         </section>
 
-        <ProductMarketingSections namespace="toldya" slug="toldya" accent="emerald" hasSupportPage />
+        <ProductMarketingSections namespace="toldya" slug="toldya" accent="emerald" hasSupportPage showPromoMascot={false} />
 
         <DownloadStoreFab
           accent="emerald"

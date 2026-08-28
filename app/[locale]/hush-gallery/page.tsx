@@ -8,6 +8,7 @@ import { ArrowLeft, Lock, FolderTree, Cloud, Shield, Image as ImageIcon, Downloa
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
+import PromoMascotStill from '@/components/PromoMascotStill';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { HUSH_GALLERY_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
@@ -155,6 +156,7 @@ export default function HushGalleryPage() {
               <span className="text-gray-400" aria-hidden>|</span>
               <a href="#download" className="hover:text-purple-300 transition-colors">{t('pageNav.download')}</a>
             </nav>
+            <PromoMascotStill slug="hush-gallery" alt={t('hero.title')} />
           </div>
         </section>
 

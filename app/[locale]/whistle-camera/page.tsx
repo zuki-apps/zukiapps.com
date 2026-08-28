@@ -24,6 +24,7 @@ import {
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
+import PromoMascotStill from '@/components/PromoMascotStill';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
@@ -159,6 +160,7 @@ export default function WhistleCameraPage() {
               <span className="text-gray-400" aria-hidden>|</span>
               <a href="#download" className="hover:text-amber-300">{t('pageNav.download')}</a>
             </nav>
+            <PromoMascotStill slug="whistle-camera" alt={t('hero.title')} />
           </div>
         </section>
 

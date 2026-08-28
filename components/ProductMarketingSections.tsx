@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { asArray, hasMessage, safeRaw } from '@/lib/safeTranslations';
 import OtherZukiApps from '@/components/OtherZukiApps';
+import PromoMascotStill, { hasPromoMascot } from '@/components/PromoMascotStill';
 
 const ScreenshotLightbox = dynamic(() => import('@/components/ScreenshotLightbox'), {
   ssr: false,
@@ -199,6 +200,7 @@ type Props = {
   slug: string;
   accent?: string;
   hasSupportPage?: boolean;
+  showPromoMascot?: boolean;
 };
 
 export function ProductPageNav({ namespace, accent = 'purple' }: { namespace: string; accent?: string }) {
@@ -239,7 +241,13 @@ export function ProductPageNav({ namespace, accent = 'purple' }: { namespace: st
   );
 }
 
-export default function ProductMarketingSections({ namespace, slug, accent = 'purple', hasSupportPage }: Props) {
+export default function ProductMarketingSections({
+  namespace,
+  slug,
+  accent = 'purple',
+  hasSupportPage,
+  showPromoMascot = true,
+}: Props) {
   const t = useTranslations(namespace);
   const locale = useLocale();
   const a = ACCENT[accent] ?? ACCENT.purple;
@@ -318,6 +326,12 @@ export default function ProductMarketingSections({ namespace, slug, accent = 'pu
         onClose={() => setLightboxIndex(null)}
         onChange={setLightboxIndex}
       />
+
+      {showPromoMascot && hasPromoMascot(slug) && (
+        <section className="px-4 pb-4 relative z-10" aria-label="Promo">
+          <PromoMascotStill slug={slug} alt={hasMessage(t, 'hero.title') ? t('hero.title') : slug} />
+        </section>
+      )}
 
       {showFeatures && (
         <section className="py-12 px-4 relative z-10" id="features">

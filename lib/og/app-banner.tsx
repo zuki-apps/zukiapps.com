@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og';
 import path from 'node:path';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { getTranslations } from 'next-intl/server';
 import { getSiteUrl } from '@/lib/hreflang';
 import { ogTextLocale } from '@/lib/locale-static-params';
@@ -10,12 +10,32 @@ export const OG_CONTENT_TYPE = 'image/png';
 
 type OgNamespaceMode = 'hero' | 'meta' | 'home';
 
+function promoGooglePathFromIcon(iconPath: string): string | null {
+  const clean = iconPath.split('?')[0] ?? iconPath;
+  const match = clean.match(/\/images\/([^/]+)-icon\.(?:png|webp)$/i);
+  if (!match) return null;
+  const dir = path.join(process.cwd(), 'public', 'images', match[1]);
+  const v2 = path.join(dir, 'promo-google-theme-v2-1200x628.png');
+  if (existsSync(v2)) return v2;
+  const themed = path.join(dir, 'promo-google-theme-1200x628.png');
+  if (existsSync(themed)) return themed;
+  const abs = path.join(dir, 'promo-google-1200x628.png');
+  return existsSync(abs) ? abs : null;
+}
+
 export async function renderAppOgBanner(options: {
   locale: string;
   namespace: string;
   iconPath: string;
   mode?: OgNamespaceMode;
 }) {
+  const promo = promoGooglePathFromIcon(options.iconPath);
+  if (promo) {
+    return new Response(readFileSync(promo), {
+      headers: { 'Content-Type': OG_CONTENT_TYPE },
+    });
+  }
+
   const mode = options.mode ?? 'hero';
   const t = await getTranslations({
     locale: ogTextLocale(options.locale),
