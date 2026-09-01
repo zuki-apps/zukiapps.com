@@ -97,17 +97,16 @@ export default function DreambitLegacyPage() {
               <Archive className="w-4 h-4" aria-hidden />
               {t('hero.badge')}
             </div>
-            <div className="mx-auto mb-8 w-fit max-w-[min(100%,18rem)] rounded-2xl bg-white p-4 md:p-6 shadow-2xl ring-1 ring-cyan-400/30">
-              <div className="relative aspect-square w-52 sm:w-56 md:w-64">
-                <Image
-                  src="/images/dreambit-logo.png"
-                  alt={t('hero.logoAlt')}
-                  fill
-                  className="object-contain object-center"
-                  sizes="(max-width: 768px) 208px, 256px"
-                  priority
-                />
-              </div>
+            <div className="mx-auto mb-8 w-full max-w-xl">
+              <Image
+                src="/images/dreambit-applications-logo.png"
+                alt={t('hero.logoAlt')}
+                width={1024}
+                height={500}
+                className="w-full h-auto rounded-2xl ring-1 ring-cyan-400/25 shadow-2xl"
+                sizes="(max-width: 576px) 100vw, 576px"
+                priority
+              />
             </div>
             <h1 className="text-3xl md:text-5xl font-black text-white mb-4 leading-tight">
               {t('hero.title')}
