@@ -98,6 +98,12 @@ export function verifyStaticAssets(outDir) {
   if (!/X-Robots-Tag:\s*index,\s*follow/i.test(headers)) {
     errors.push('_headers missing X-Robots-Tag: index, follow (prevents accidental noindex)');
   }
+  if (!/\/apple-app-site-association[\s\S]*Content-Type:\s*application\/json/i.test(headers)) {
+    errors.push('_headers missing Content-Type: application/json for /apple-app-site-association');
+  }
+  if (!existsSync(join(outDir, '.well-known', 'apple-app-site-association'))) {
+    errors.push('missing .well-known/apple-app-site-association (iOS Universal Links)');
+  }
 
   return errors;
 }

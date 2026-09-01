@@ -2,6 +2,10 @@
 
 ToldYa deep-link files live next to ZuList under `public/.well-known/` and `public/apple-app-site-association`.
 
+**iOS (Universal Links):** AASA at site root; build mirrors to `out/.well-known/apple-app-site-association`. Headers force `Content-Type: application/json`. See `../ToldYA/DOCS/IOS_UNIVERSAL_LINKS.md`.
+
+**Android:** `public/.well-known/assetlinks.json` — needs Play App signing SHA-256. See `../ToldYA/DOCS/ANDROID_APP_LINKS.md`.
+
 ## After changing fingerprints
 
 From the ToldYA repo (merges ToldYa entry into this file):
