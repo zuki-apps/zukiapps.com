@@ -1,11 +1,27 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.zuki.apps.zulist",
       "sha256_cert_fingerprints": [
-        "E8:58:CB:F8:52:BB:FB:A0:61:C5:DB:91:0E:80:11:F7:7F:D1:15:27:E8:41:A2:35:25:12:C9:6B:8A:85:82:30"
+        "E8:58:CB:F8:52:BB:FB:A0:61:C5:DB:91:0E:80:11:F7:7F:D1:15:27:E8:41:A2:35:25:12:C9:6B:8A:85:82:30",
+        "ED:D5:42:3B:EB:66:FD:D3:23:56:17:1F:E7:B1:BC:DC:1D:A0:EE:3D:61:C1:48:68:B8:80:DD:A5:FE:1F:AA:F0"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zuki.apps.toldya",
+      "sha256_cert_fingerprints": [
+        "CE:5D:EF:C4:35:B1:6C:15:55:39:44:0A:C9:19:A4:6F:FD:FC:DB:CF:76:88:24:F1:7B:62:71:11:7D:09:91:3D",
+        "ED:D5:42:3B:EB:66:FD:D3:23:56:17:1F:E7:B1:BC:DC:1D:A0:EE:3D:61:C1:48:68:B8:80:DD:A5:FE:1F:AA:F0"
       ]
     }
   }

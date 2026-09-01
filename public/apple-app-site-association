@@ -7,6 +7,15 @@
         "paths": [
           "/zulist/invite/*"
         ]
+      },
+      {
+        "appID": "LYA8T9V55S.com.zuki.apps.toldya",
+        "paths": [
+          "/join",
+          "/join/*",
+          "/arena/*",
+          "/rooms/*"
+        ]
       }
     ]
   }

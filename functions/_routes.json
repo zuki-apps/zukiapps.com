@@ -1,9 +1,13 @@
 {
   "version": 1,
-  "description": "Only ZuList invite deep links invoke Pages Functions",
+  "description": "ZuList invite + ToldYa deep links",
   "include": [
     "/zulist/invite/*",
-    "/*/zulist/invite/*"
+    "/*/zulist/invite/*",
+    "/join",
+    "/join/*",
+    "/arena/*",
+    "/rooms/*"
   ],
   "exclude": []
 }
