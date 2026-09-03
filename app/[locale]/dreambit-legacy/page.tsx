@@ -18,6 +18,8 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import DreambitArchiveStructuredData from '@/components/DreambitArchiveStructuredData';
+import PressMentions from '@/components/PressMentions';
+import { WHISTLE_CAMERA_PRESS } from '@/lib/whistleCameraPress';
 
 const APP_KEYS = [
   'hushGallery',
@@ -116,6 +118,12 @@ export default function DreambitLegacyPage() {
               {t('hero.unmaintained')}
             </p>
             <p className="text-sm text-slate-300 max-w-2xl mx-auto">{t('hero.brandNote')}</p>
+            <PressMentions
+              className="mt-6"
+              heading={t('hero.pressHeading')}
+              disclaimer={t('hero.pressNote')}
+              items={WHISTLE_CAMERA_PRESS.slice(0, 2)}
+            />
             <figure className="mt-8 mb-2">
               <Image
                 src="/images/zuki-apps-facebook-cover.png"

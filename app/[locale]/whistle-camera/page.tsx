@@ -25,6 +25,8 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
 import PromoMascotStill from '@/components/PromoMascotStill';
+import PressMentions from '@/components/PressMentions';
+import { WHISTLE_CAMERA_PRESS } from '@/lib/whistleCameraPress';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
@@ -129,7 +131,13 @@ export default function WhistleCameraPage() {
             <p className="text-xl md:text-2xl mb-4 text-gray-300 max-w-3xl mx-auto">{t('hero.subtitle')}</p>
             <StoreRatingBadge appPath="/whistle-camera" className="mb-4" />
             <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto">{t('hero.description')}</p>
-            <p className="text-sm text-amber-400/90 mb-8">{t('hero.socialProof')}</p>
+            <p className="text-sm text-amber-400/90 mb-6">{t('hero.socialProof')}</p>
+            <PressMentions
+              className="mb-8"
+              heading={t('press.heading')}
+              disclaimer={t('press.disclaimer')}
+              items={WHISTLE_CAMERA_PRESS}
+            />
             <div className="flex justify-center gap-4 text-sm flex-wrap mb-8">
               <Link href={`/${locale}/whistle-camera/privacy`} className="text-amber-400 hover:text-amber-300 underline">
                 {tCommon('privacyPolicy')}
