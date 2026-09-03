@@ -19,7 +19,15 @@ import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import DreambitArchiveStructuredData from '@/components/DreambitArchiveStructuredData';
 import PressMentions from '@/components/PressMentions';
+import { HUSH_GALLERY_PRESS } from '@/lib/hushGalleryPress';
 import { WHISTLE_CAMERA_PRESS } from '@/lib/whistleCameraPress';
+
+const ARCHIVE_PRESS = [
+  WHISTLE_CAMERA_PRESS[0],
+  { name: 'Android Authority — Whistle Camera', href: WHISTLE_CAMERA_PRESS[1].href },
+  WHISTLE_CAMERA_PRESS[2],
+  { name: 'Android Authority — Hush Gallery', href: HUSH_GALLERY_PRESS[0].href },
+] as const;
 
 const APP_KEYS = [
   'hushGallery',
@@ -122,7 +130,7 @@ export default function DreambitLegacyPage() {
               className="mt-6"
               heading={t('hero.pressHeading')}
               disclaimer={t('hero.pressNote')}
-              items={WHISTLE_CAMERA_PRESS.slice(0, 2)}
+              items={ARCHIVE_PRESS}
             />
             <figure className="mt-8 mb-2">
               <Image

@@ -328,6 +328,10 @@
           "answer": "Hush Gallery is a private photo and video gallery for iOS and Android. Media is stored in the app's private storage (separate from your public Photos app), organized with tags, protected with optional Premium app lock (PIN/biometric), and optionally backed up to iCloud (iOS) or Google Drive (Android). Package: com.zuki.apps.hushGallery."
         },
         {
+          "question": "Has Hush Gallery been covered in the press?",
+          "answer": "Yes. On 1 December 2014 Android Authority named the original Android Hush Gallery Indie App of the Day (Joe Hindy). That review describes the 2014 DreamBit Apps listing (com.dreambit.hushgallery), not the current Zuki Apps build. Product page: https://zukiapps.com/hush-gallery"
+        },
+        {
           "question": "How do I import photos and videos into Hush Gallery?",
           "answer": "Open Hush Gallery and tap the + (Add) button. Choose Import from Gallery, Take Photo, or Take Video. Select one or more items from your device library. After import you can optionally delete the originals from your public gallery. You can also share directly from WhatsApp, Messages, Photos, or other apps using Share → Hush Gallery."
         },
@@ -696,6 +700,10 @@
           "description": "Settings → About → Send feedback, or email zuki.apps.dev@gmail.com before leaving a store review."
         }
       ]
+    },
+    "press": {
+      "heading": "As featured in (2014)",
+      "disclaimer": "Android Authority named the original Android Hush Gallery Indie App of the Day. That piece describes the 2014 DreamBit Apps listing, not the current Zuki Apps build."
     },
     "pageNav": {
       "features": "Features",

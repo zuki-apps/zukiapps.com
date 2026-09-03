@@ -11,6 +11,10 @@ export const WHISTLE_CAMERA_PRESS = [
     date: '2014-05-19',
   },
   {
+    name: 'Geektime',
+    href: 'https://www.geektime.co.il/whistle-camera-for-android-lets-you-take-selfies-with-a-whistle/',
+  },
+  {
     name: 'NerdsChalk',
     href: 'https://nerdschalk.com/take-selfies-easily-just-whistle-phones-camera/',
     date: '2014-04-07',

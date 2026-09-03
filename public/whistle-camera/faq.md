@@ -23,9 +23,10 @@ Lower sensitivity (level 1), widen the 0–100 frequency band in Settings, enabl
 
 ## Has Whistle Camera been covered in the press?
 
-Yes. In May 2014 The Next Web and Android Authority published hands-on reviews of the original Android Whistle Camera from DreamBit Apps. Those articles describe the 2014 app, not the current Zuki Apps build. Product page: https://zukiapps.com/whistle-camera  
+Yes. In May 2014 The Next Web and Android Authority published hands-on reviews of the original Android Whistle Camera from DreamBit Apps. Geektime covered it in Hebrew. Those articles describe the 2014 app, not the current Zuki Apps build. Product page: https://zukiapps.com/whistle-camera  
 The Next Web: https://thenextweb.com/news/whistle-camera-android-lets-take-photos-selfies-mouth  
-Android Authority: https://www.androidauthority.com/whistle-camera-383364/
+Android Authority: https://www.androidauthority.com/whistle-camera-383364/  
+Geektime: https://www.geektime.co.il/whistle-camera-for-android-lets-you-take-selfies-with-a-whistle/
 
 ## Is Whistle Camera free?
 

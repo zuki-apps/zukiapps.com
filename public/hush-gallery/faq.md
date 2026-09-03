@@ -10,6 +10,11 @@
 
 Private photo and video gallery. Media stored in app-private storage, organized with tags, optional Premium App Lock (PIN/biometric), optional cloud backup (iCloud / Google Drive).
 
+## Has Hush Gallery been covered in the press?
+
+Yes. On 1 December 2014 Android Authority named the original Android Hush Gallery Indie App of the Day (Joe Hindy). That review describes the 2014 DreamBit Apps listing, not the current Zuki Apps build. Product page: https://zukiapps.com/hush-gallery  
+Android Authority: https://www.androidauthority.com/hush-gallery-review-571092/
+
 ## Import & share
 
 **Q: How do I import photos?**  

@@ -9,6 +9,8 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
 import PromoMascotStill from '@/components/PromoMascotStill';
+import PressMentions from '@/components/PressMentions';
+import { HUSH_GALLERY_PRESS } from '@/lib/hushGalleryPress';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { HUSH_GALLERY_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
@@ -106,9 +108,15 @@ export default function HushGalleryPage() {
               {t('hero.subtitle')}
             </p>
             <StoreRatingBadge appPath="/hush-gallery" className="mb-6" />
-            <p className="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto">
               {t('hero.description')}
             </p>
+            <PressMentions
+              className="mb-8"
+              heading={t('press.heading')}
+              disclaimer={t('press.disclaimer')}
+              items={HUSH_GALLERY_PRESS}
+            />
             <div className="flex justify-center gap-4 text-sm flex-wrap mb-8">
               <Link
                 href={`/${locale}/hush-gallery/privacy`}
