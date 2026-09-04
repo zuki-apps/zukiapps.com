@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { getSiteUrl } from '@/lib/hreflang';
+import { GTAG_CONSENT_DEFAULT_SCRIPT } from '@/lib/analyticsConsent';
 
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 const bingSiteAuth = process.env.NEXT_PUBLIC_BING_SITE_AUTH;
@@ -36,6 +37,9 @@ export default function RootLayout({
   return (
     <html lang="en" dir="ltr" className="dark" suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{ __html: GTAG_CONSENT_DEFAULT_SCRIPT }}
+        />
         <link
           rel="preload"
           href="/logo.webp"

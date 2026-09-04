@@ -6,6 +6,7 @@ import Link from 'next/link';
 import {
   loadGoogleAnalytics,
   readAnalyticsConsent,
+  updateGoogleConsent,
   writeAnalyticsConsent,
 } from '@/lib/analyticsConsent';
 
@@ -102,6 +103,7 @@ export default function CookieConsent() {
 
   const reject = () => {
     writeAnalyticsConsent('rejected');
+    updateGoogleConsent(false);
     setVisible(false);
   };
 

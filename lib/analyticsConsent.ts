@@ -73,21 +73,52 @@ declare global {
   }
 }
 
+const CONSENT_DENIED = {
+  analytics_storage: 'denied',
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+} as const;
+
+/** Inline in <head> so Consent Mode is set before any Google tag. */
+export const GTAG_CONSENT_DEFAULT_SCRIPT =
+  'window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",wait_for_update:500});';
+
+function ensureGtagStub(): void {
+  window.dataLayer = window.dataLayer || [];
+  if (!window.gtag) {
+    window.gtag = function gtag(..._args: unknown[]) {
+      // eslint-disable-next-line prefer-rest-params
+      window.dataLayer!.push(arguments as unknown as IArguments);
+    };
+  }
+}
+
+/** Consent Mode v2 update after the user chooses. Ads stay denied (no ads cookies). */
+export function updateGoogleConsent(analyticsGranted: boolean): void {
+  if (typeof window === 'undefined') return;
+  ensureGtagStub();
+  window.gtag!('consent', 'update', {
+    ...CONSENT_DENIED,
+    analytics_storage: analyticsGranted ? 'granted' : 'denied',
+  });
+}
+
 /** Load Google Analytics only after explicit Accept. Idempotent. */
 export function loadGoogleAnalytics(measurementId: string): void {
   if (typeof window === 'undefined' || !measurementId) return;
   if (window.__zukiGaLoaded) return;
   window.__zukiGaLoaded = true;
 
-  window.dataLayer = window.dataLayer || [];
-  // GA expects an Arguments-like push (same as official snippet)
-  window.gtag = function gtag(..._args: unknown[]) {
-    // eslint-disable-next-line prefer-rest-params
-    window.dataLayer!.push(arguments as unknown as IArguments);
-  };
+  ensureGtagStub();
+  updateGoogleConsent(true);
+  window.gtag!('js', new Date());
+  window.gtag!('config', measurementId, { anonymize_ip: true, allow_google_signals: false });
 
-  window.gtag('js', new Date());
-  window.gtag('config', measurementId, { anonymize_ip: true });
+  const googleTagId = process.env.NEXT_PUBLIC_GOOGLE_TAG_ID;
+  if (googleTagId && googleTagId !== measurementId) {
+    window.gtag!('config', googleTagId, { allow_google_signals: false });
+  }
 
   const s = document.createElement('script');
   s.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
