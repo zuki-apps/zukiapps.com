@@ -74,14 +74,14 @@ export default async function SitePrivacyPage({
           </div>
 
           <article className={isRtl ? 'text-right' : 'text-left'}>
-            <h1 className="text-4xl md:text-5xl font-black mb-2">{t('title')}</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-2">{t('title')}</h1>
             <p className="text-indigo-200 mb-2 text-lg">{t('subtitle')}</p>
             <p className="text-indigo-200/80 text-sm mb-8">{t('lastUpdated')}</p>
 
             <div className="space-y-8">
               {sections.map((key) => (
                 <section key={key} className="card-twilight" aria-labelledby={`privacy-${key}`}>
-                  <h2 id={`privacy-${key}`} className="text-2xl font-black text-white mb-3">
+                  <h2 id={`privacy-${key}`} className="text-2xl font-extrabold text-white mb-3">
                     {t(`${key}.title`)}
                   </h2>
                   <p className="text-gray-300 leading-relaxed whitespace-pre-line">{t(`${key}.body`)}</p>

@@ -74,10 +74,10 @@ async function writeOptimizedMonster(relPath) {
 async function writeOptimizedLogo() {
   const input = path.join(publicDir, 'logo.png');
   const webpOut = path.join(publicDir, 'logo.webp');
-  // Hero CSS max ~160px → 280px source covers ~1.75× DPR with far fewer bytes.
+  // Hero display 180px → 270px covers ~1.5× DPR without a huge download.
   await sharp(input)
-    .resize(280, 280, { fit: 'inside' })
-    .webp({ quality: 62, effort: 6 })
+    .resize(270, 270, { fit: 'inside' })
+    .webp({ quality: 58, effort: 6 })
     .toFile(webpOut);
 
   console.log(`logo → webp ${(fs.statSync(webpOut).size / 1024).toFixed(1)} KiB`);

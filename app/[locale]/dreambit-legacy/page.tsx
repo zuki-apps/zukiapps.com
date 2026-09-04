@@ -118,7 +118,7 @@ export default function DreambitLegacyPage() {
                 priority
               />
             </div>
-            <h1 className="text-3xl md:text-5xl font-black text-white mb-4 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4 leading-tight">
               {t('hero.title')}
             </h1>
             <p className="text-lg text-indigo-100/85 max-w-2xl mx-auto mb-4">{t('hero.subtitle')}</p>
@@ -165,7 +165,7 @@ export default function DreambitLegacyPage() {
             </Link>
           </div>
 
-          <h2 className="text-2xl font-black text-white mb-6 text-center">{t('appsTitle')}</h2>
+          <h2 className="text-2xl font-extrabold text-white mb-6 text-center">{t('appsTitle')}</h2>
           <ul className="space-y-5">
             {APP_KEYS.map((key) => {
               const playUrl = t(`playUrls.${key}`).trim();
@@ -209,7 +209,7 @@ export default function DreambitLegacyPage() {
                     </div>
                   </div>
                   <div className="flex-1 min-w-0 text-left">
-                    <h3 className="text-xl font-black text-white mb-2">{t(`apps.${key}.title`)}</h3>
+                    <h3 className="text-xl font-extrabold text-white mb-2">{t(`apps.${key}.title`)}</h3>
                     <p className="text-slate-300 leading-relaxed">{t(`apps.${key}.description`)}</p>
                   </div>
                   <div className="flex sm:flex-col justify-center sm:items-center gap-2 flex-shrink-0">

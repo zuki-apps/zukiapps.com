@@ -58,7 +58,7 @@ export default function NoiseMeterShusherPage() {
               {t('hero.badge')}
             </div>
             <h1
-              className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-violet-400 via-fuchsia-300 to-violet-500 bg-clip-text text-transparent"
+              className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-violet-400 via-fuchsia-300 to-violet-500 bg-clip-text text-transparent"
               style={{
                 filter: 'drop-shadow(0 0 8px rgba(167, 139, 250, 0.45))',
               }}

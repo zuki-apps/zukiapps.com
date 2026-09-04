@@ -248,7 +248,7 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider messages={messages}>
       <LocaleHtmlSync locale={locale} dir={dir} />
-      <SkipToContent />
+      <SkipToContent locale={locale} />
       <Script
         id="zuki-schema-org-graph"
         type="application/ld+json"
@@ -257,8 +257,8 @@ export default async function LocaleLayout({
       <main id="main-content" tabIndex={-1} className="outline-none">
         {children}
       </main>
-      <SiteLegalStrip />
-      <AccessibilityFab />
+      <SiteLegalStrip locale={locale} />
+      <AccessibilityFab locale={locale} />
       <CookieConsent />
     </NextIntlClientProvider>
   );

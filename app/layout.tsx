@@ -1,29 +1,6 @@
 import { ReactNode } from 'react';
 import type { Metadata } from 'next';
-import { Noto_Sans_Arabic, Noto_Sans_Hebrew, Sora } from 'next/font/google';
 import { getSiteUrl } from '@/lib/hreflang';
-
-const displayFont = Sora({
-  subsets: ['latin', 'latin-ext'],
-  weight: ['600', '700', '800'],
-  variable: '--font-display',
-  display: 'swap',
-});
-
-/** Script coverage for he/ar; Latin headings still prefer Sora, then fall back here. */
-const hebrewFont = Noto_Sans_Hebrew({
-  subsets: ['hebrew'],
-  weight: ['400', '600', '700'],
-  variable: '--font-hebrew',
-  display: 'swap',
-});
-
-const arabicFont = Noto_Sans_Arabic({
-  subsets: ['arabic'],
-  weight: ['400', '600', '700'],
-  variable: '--font-arabic',
-  display: 'swap',
-});
 
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 const bingSiteAuth = process.env.NEXT_PUBLIC_BING_SITE_AUTH;
@@ -57,12 +34,7 @@ export default function RootLayout({
 }) {
   // Google Analytics loads only after CookieConsent Accept (see components/CookieConsent.tsx).
   return (
-    <html
-      lang="en"
-      dir="ltr"
-      className={`dark ${displayFont.variable} ${hebrewFont.variable} ${arabicFont.variable}`}
-      suppressHydrationWarning
-    >
+    <html lang="en" dir="ltr" className="dark" suppressHydrationWarning>
       <head>
         <link
           rel="preload"

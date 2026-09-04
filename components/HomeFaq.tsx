@@ -39,7 +39,7 @@ export default async function HomeFaq({ locale }: { locale: string }) {
           className={`flex items-center gap-3 mb-6 ${rtl ? 'flex-row-reverse' : 'flex-row'} justify-center`}
         >
           <CircleHelp className="w-10 h-10 text-sky-400 shrink-0" aria-hidden="true" />
-          <h2 id="home-faq-heading" className="text-3xl font-black text-white text-center">
+          <h2 id="home-faq-heading" className="text-3xl font-extrabold text-white text-center">
             {t('faq.title')}
           </h2>
         </div>

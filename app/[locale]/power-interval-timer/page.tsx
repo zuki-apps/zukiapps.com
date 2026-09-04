@@ -59,7 +59,7 @@ export default function PowerIntervalTimerPage() {
               <CheckCircle2 className="w-4 h-4" />
               {t('hero.badge')}
             </div>
-            <h1 className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500 bg-clip-text text-transparent" style={{
+            <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500 bg-clip-text text-transparent" style={{
               filter: 'drop-shadow(0 0 8px rgba(251, 146, 60, 0.6))',
             }}>
               {t('hero.title')}

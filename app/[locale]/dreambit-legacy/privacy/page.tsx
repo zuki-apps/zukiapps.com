@@ -80,7 +80,7 @@ export default async function DreambitLegacyPrivacyPage({
           <div className="card-twilight !mb-0">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8 pb-6 border-b border-indigo-400/25">
               <div>
-                <h1 className="text-2xl md:text-3xl font-black text-white">{t('title')}</h1>
+                <h1 className="text-2xl md:text-3xl font-extrabold text-white">{t('title')}</h1>
                 <p className="text-slate-400 text-sm md:text-base mt-2 font-medium">{t('titleSub')}</p>
               </div>
               <Link
@@ -95,7 +95,7 @@ export default async function DreambitLegacyPrivacyPage({
             <div className="space-y-8">
               {sections.map((s, i) => (
                 <section key={i}>
-                  <h2 className="text-lg font-black text-amber-200/90 mb-3">{s.title}</h2>
+                  <h2 className="text-lg font-extrabold text-amber-200/90 mb-3">{s.title}</h2>
                   <p className="text-slate-300 leading-relaxed whitespace-pre-wrap">{s.body}</p>
                 </section>
               ))}

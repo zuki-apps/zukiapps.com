@@ -75,14 +75,14 @@ export default async function AccessibilityPage({
           </div>
 
           <article className={isRtl ? 'text-right' : 'text-left'}>
-            <h1 className="text-4xl md:text-5xl font-black mb-2">{t('title')}</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-2">{t('title')}</h1>
             <p className="text-indigo-200 mb-2 text-lg">{t('subtitle')}</p>
             <p className="text-indigo-200/80 text-sm mb-8">{t('lastUpdated')}</p>
 
             <div className="space-y-8">
               {sections.map((key) => (
                 <section key={key} className="card-twilight" aria-labelledby={`a11y-${key}`}>
-                  <h2 id={`a11y-${key}`} className="text-2xl font-black text-white mb-3">
+                  <h2 id={`a11y-${key}`} className="text-2xl font-extrabold text-white mb-3">
                     {t(`${key}.title`)}
                   </h2>
                   <p className="text-gray-300 leading-relaxed whitespace-pre-line">{t(`${key}.body`)}</p>
@@ -90,7 +90,7 @@ export default async function AccessibilityPage({
               ))}
 
               <section className="card-twilight" aria-labelledby="a11y-contact">
-                <h2 id="a11y-contact" className="text-2xl font-black text-white mb-3">
+                <h2 id="a11y-contact" className="text-2xl font-extrabold text-white mb-3">
                   {t('contact.title')}
                 </h2>
                 <p className="text-gray-300 leading-relaxed mb-4">{t('contact.body')}</p>

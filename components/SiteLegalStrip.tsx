@@ -1,13 +1,10 @@
-'use client';
-
 import Link from 'next/link';
-import { useLocale, useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 /** Site-wide legal / accessibility strip under every page. */
-export default function SiteLegalStrip() {
-  const t = useTranslations('common');
-  const tHome = useTranslations('home');
-  const locale = useLocale();
+export default async function SiteLegalStrip({ locale }: { locale: string }) {
+  const t = await getTranslations({ locale, namespace: 'common' });
+  const tHome = await getTranslations({ locale, namespace: 'home' });
   const isRtl = locale === 'he' || locale === 'ar';
 
   const linkClass =

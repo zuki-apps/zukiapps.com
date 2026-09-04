@@ -57,7 +57,7 @@ export default function SudokuPuzzlePage() {
               <CheckCircle2 className="w-4 h-4" />
               {t('hero.badge')}
             </div>
-            <h1 className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-teal-400 via-cyan-300 to-teal-500 bg-clip-text text-transparent" style={{
+            <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-teal-400 via-cyan-300 to-teal-500 bg-clip-text text-transparent" style={{
               filter: 'drop-shadow(0 0 8px rgba(45, 212, 191, 0.6))',
             }}>
               {t('hero.title')}

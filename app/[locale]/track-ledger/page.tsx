@@ -58,7 +58,7 @@ export default function TrackLedgerPage() {
               {t('hero.badge')}
             </div>
             <h1
-              className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-cyan-400 via-sky-300 to-cyan-500 bg-clip-text text-transparent"
+              className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-cyan-400 via-sky-300 to-cyan-500 bg-clip-text text-transparent"
               style={{
                 filter: 'drop-shadow(0 0 8px rgba(34, 211, 238, 0.45))',
               }}

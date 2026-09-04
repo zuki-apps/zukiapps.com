@@ -53,7 +53,7 @@ export default function FootballTriviaPage() {
                 frameClassName="rounded-2xl overflow-hidden shadow-2xl ring-2 ring-sky-400/40 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-950"
               />
             </div>
-            <h1 className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-slate-100 via-sky-200 to-blue-400 bg-clip-text text-transparent" style={{ filter: 'drop-shadow(0 0 10px rgba(56, 189, 248, 0.45))' }}>
+            <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-slate-100 via-sky-200 to-blue-400 bg-clip-text text-transparent" style={{ filter: 'drop-shadow(0 0 10px rgba(56, 189, 248, 0.45))' }}>
               {t('hero.title')}
             </h1>
             <p className="text-xl md:text-2xl mb-4 text-gray-300 max-w-3xl mx-auto">

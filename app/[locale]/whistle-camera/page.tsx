@@ -123,7 +123,7 @@ export default function WhistleCameraPage() {
               {t('hero.badge')}
             </div>
             <h1
-              className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-transparent"
+              className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-transparent"
               style={{ filter: 'drop-shadow(0 0 8px rgba(245, 158, 11, 0.6))' }}
             >
               {t('hero.title')}

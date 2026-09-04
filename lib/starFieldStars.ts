@@ -15,7 +15,7 @@ function seededUnit(seed: number): number {
 }
 
 /** Deterministic star positions — SSR-safe (no client random / layout shift). */
-export const STAR_FIELD_SPECS: StarSpec[] = Array.from({ length: 48 }, (_, i) => ({
+export const STAR_FIELD_SPECS: StarSpec[] = Array.from({ length: 16 }, (_, i) => ({
   left: seededUnit(i * 5 + 1) * 100,
   top: seededUnit(i * 5 + 2) * 100,
   width: seededUnit(i * 5 + 3) * 3 + 1,

@@ -100,7 +100,7 @@ export default async function AboutPage({
           </div>
 
           <article className={isRtl ? 'text-right' : 'text-left'}>
-            <h1 className="text-4xl md:text-5xl font-black mb-2">{t('title')}</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-2">{t('title')}</h1>
             <p className="text-indigo-200 mb-8 text-lg">{t('subtitle')}</p>
             <p className="text-gray-300 mb-4 leading-relaxed">{t('p1')}</p>
             <p className="text-gray-300 mb-4 leading-relaxed">{t('p2')}</p>
@@ -109,7 +109,7 @@ export default async function AboutPage({
             <section className="card-twilight mb-8" aria-labelledby="about-story-heading">
               <div className={`flex items-center gap-3 mb-6 ${isRtl ? 'flex-row-reverse' : ''}`}>
                 <Code className="w-8 h-8 text-blue-400 shrink-0" aria-hidden="true" />
-                <h2 id="about-story-heading" className="text-3xl font-black text-white">
+                <h2 id="about-story-heading" className="text-3xl font-extrabold text-white">
                   {tHome('story.title')}
                 </h2>
               </div>
@@ -132,7 +132,7 @@ export default async function AboutPage({
               <div className="flex items-center justify-center mb-6">
                 <Sparkles className="w-12 h-12 text-blue-400" aria-hidden="true" />
               </div>
-              <h2 id="about-zuli-heading" className="text-3xl font-black mb-4 text-white text-center">
+              <h2 id="about-zuli-heading" className="text-3xl font-extrabold mb-4 text-white text-center">
                 {tHome('zuliMonsters.title')}
               </h2>
               <p className="text-lg text-gray-300 mb-4 text-center">

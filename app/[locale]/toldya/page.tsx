@@ -56,7 +56,7 @@ export default function ToldyaPage() {
               {t('pilot.badge')}
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-black mb-4 bg-gradient-to-r from-emerald-400 via-teal-300 to-blue-400 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-emerald-400 via-teal-300 to-blue-400 bg-clip-text text-transparent">
               {t('hero.title')}
             </h1>
             <p className="text-xl text-gray-300 mb-2">{t('hero.subtitle')}</p>
@@ -64,7 +64,7 @@ export default function ToldyaPage() {
             <PromoMascotStill slug="toldya" alt={t('hero.title')} />
 
             <div className="card-twilight text-left mb-8">
-              <h2 className="text-2xl font-black text-white mb-3 text-center">{t('pilot.title')}</h2>
+              <h2 className="text-2xl font-extrabold text-white mb-3 text-center">{t('pilot.title')}</h2>
               <p className="text-gray-300 text-center leading-relaxed mb-4">{t('pilot.message')}</p>
               <p className="text-sm text-emerald-300/90 text-center font-semibold mb-6">{t('pilot.inviteNote')}</p>
               {pilotHighlights.length > 0 && (

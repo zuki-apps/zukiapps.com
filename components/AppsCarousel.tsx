@@ -443,13 +443,13 @@ export default function AppsCarousel() {
                 
                 {app.isComingSoon && (
                   <div className="text-center mb-4">
-                    <span className="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-4 py-2 rounded-full text-sm font-black animate-pulse motion-reduce:animate-none">
+                    <span className="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-4 py-2 rounded-full text-sm font-extrabold animate-pulse motion-reduce:animate-none">
                       {t('comingSoon')}
                     </span>
                   </div>
                 )}
 
-                <h2 className="text-3xl font-black mb-6 text-white text-center">{t(app.titleKey)}</h2>
+                <h2 className="text-3xl font-extrabold mb-6 text-white text-center">{t(app.titleKey)}</h2>
                 
                 {/* Zuli Monsters Images (only for ZuList) */}
                 {app.monsters && (
@@ -496,7 +496,7 @@ export default function AppsCarousel() {
                             aria-label={t(cell.labelKey)}
                           >
                             <CellIcon className={cell.iconClassName} aria-hidden="true" />
-                            <p className="text-sm font-black text-white">{t(cell.labelKey)}</p>
+                            <p className="text-sm font-extrabold text-white">{t(cell.labelKey)}</p>
                           </div>
                         );
                       })}
@@ -508,7 +508,7 @@ export default function AppsCarousel() {
                   <div className="text-center">
                     <Link
                       href={app.link}
-                      className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-black text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-indigo-950 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
+                      className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-extrabold text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-indigo-950 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
                       aria-label={`${t(app.learnMoreKey)} - ${t(app.titleKey)}`}
                     >
                       {t(app.learnMoreKey)}
@@ -518,7 +518,7 @@ export default function AppsCarousel() {
                   <div className="text-center">
                     <Link
                       href={app.link || `/${locale}/${app.id}`}
-                      className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-black text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-indigo-950 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
+                      className="inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-extrabold text-lg hover:from-blue-400 hover:via-blue-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-indigo-950 transition-all shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
                       aria-label={`${t(app.learnMoreKey)} - ${t(app.titleKey)}`}
                     >
                       {t(app.learnMoreKey)}

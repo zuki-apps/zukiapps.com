@@ -45,11 +45,23 @@ export default async function Home({
           <div className="max-w-4xl mx-auto text-center">
             {/* Logo */}
             <div className="mb-8 flex justify-center">
-              <Logo size="xl" priority />
+              <div className="h-[180px] w-[180px] shrink-0">
+                {/* Native img: next/image sets decoding=async which delays LCP. */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/logo.webp"
+                  alt="Zuki Apps"
+                  width={180}
+                  height={180}
+                  fetchPriority="high"
+                  decoding="sync"
+                  className="block h-[180px] w-[180px] border-0"
+                />
+              </div>
             </div>
 
             <div className="mb-8">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 text-white">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-4 text-white">
                 {t('subtitle')}
               </h1>
               <p className="text-lg md:text-xl font-semibold text-gray-300">
@@ -63,6 +75,7 @@ export default async function Home({
               </p>
               <Link
                 href={`/${locale}/about`}
+                prefetch={false}
                 className="inline-flex items-center gap-1 text-indigo-300 hover:text-indigo-200 font-semibold text-sm transition-colors"
               >
                 {t('aboutTeaser.cta')}
@@ -103,14 +116,14 @@ export default async function Home({
               <div className="flex items-center justify-center mb-6">
                 <Mail className="w-12 h-12 text-blue-400" aria-hidden="true" />
               </div>
-              <h2 className="text-3xl font-black mb-6 text-white">{t('contact.title')}</h2>
+              <h2 className="text-3xl font-extrabold mb-6 text-white">{t('contact.title')}</h2>
               <p className="text-lg text-gray-300 mb-6">
                 {t('contact.description')}
               </p>
               <div className="flex flex-wrap justify-center gap-3 mb-6">
                 <a
                   href="mailto:zuki.apps.dev@gmail.com"
-                  className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-lg font-black hover:from-blue-400 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-lg hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
+                  className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-lg font-extrabold hover:from-blue-400 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all shadow-lg hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105 active:scale-95 border-2 border-blue-400"
                   aria-label={`${t('contact.sendEmail')} - zuki.apps.dev@gmail.com`}
                 >
                   <Mail className="w-5 h-5" aria-hidden="true" />
@@ -149,7 +162,7 @@ export default async function Home({
 
             {/* Social Media Section */}
             <div className="card-twilight mt-12 !mb-0">
-              <h2 className="text-3xl font-black mb-4 text-white text-center">{t('social.title')}</h2>
+              <h2 className="text-3xl font-extrabold mb-4 text-white text-center">{t('social.title')}</h2>
               <p className="text-lg text-gray-300 mb-8 text-center max-w-2xl mx-auto leading-relaxed">
                 {t('social.description')}
               </p>

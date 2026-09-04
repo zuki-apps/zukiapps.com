@@ -56,7 +56,7 @@ export default function RoamGuardPage() {
             {t('hero.badge')}
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-black mb-4 bg-gradient-to-r from-cyan-400 via-cyan-300 to-cyan-500 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-cyan-400 via-cyan-300 to-cyan-500 bg-clip-text text-transparent">
             {t('hero.title')}
           </h1>
           <p className="text-xl text-cyan-300/90 mb-2">{t('hero.subtitle')}</p>

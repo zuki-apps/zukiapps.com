@@ -66,7 +66,7 @@ export default function GeoCalcPage() {
               {t('hero.badge')}
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-black mb-4 bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent">
               {t('hero.title')}
             </h1>
             <p className="text-xl text-amber-300/90 mb-2">{t('hero.subtitle')}</p>

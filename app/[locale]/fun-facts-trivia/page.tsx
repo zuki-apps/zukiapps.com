@@ -57,7 +57,7 @@ export default function FunFactsTriviaPage() {
               {t('hero.badge')}
             </div>
             <h1
-              className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent"
+              className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent"
               style={{
                 filter: 'drop-shadow(0 0 8px rgba(251, 191, 36, 0.5))',
               }}

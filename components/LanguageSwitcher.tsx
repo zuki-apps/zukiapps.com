@@ -133,6 +133,7 @@ export default function LanguageSwitcher() {
               <li key={loc} role="option" aria-selected={selected}>
                 <Link
                   href={href}
+                  prefetch={false}
                   onClick={(e) => {
                     e.stopPropagation();
                     setIsOpen(false);

@@ -92,7 +92,7 @@ export default function ZuliCollagePage() {
               {t('hero.badge')}
             </div>
             <h1
-              className={`text-5xl md:text-6xl font-black mb-3 bg-gradient-to-r from-rose-400 via-red-300 to-rose-500 bg-clip-text text-transparent ${rtl ? 'text-right' : 'text-center'}`}
+              className={`text-5xl md:text-6xl font-extrabold mb-3 bg-gradient-to-r from-rose-400 via-red-300 to-rose-500 bg-clip-text text-transparent ${rtl ? 'text-right' : 'text-center'}`}
               style={{ filter: 'drop-shadow(0 0 8px rgba(244, 63, 94, 0.5))' }}
             >
               {t('hero.title')}
@@ -179,7 +179,7 @@ export default function ZuliCollagePage() {
               <p className="text-xs font-bold uppercase tracking-widest text-rose-400 mb-3 text-center">
                 {t('zuliMonsters.subtitle')}
               </p>
-              <h2 className="text-3xl md:text-4xl font-black text-center text-white mb-4">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-center text-white mb-4">
                 {t('zuliMonsters.title')}
               </h2>
               <p className="text-gray-300 text-center mb-8 max-w-2xl mx-auto leading-relaxed">

@@ -15,6 +15,9 @@ const nextConfig = {
     : {}),
   reactStrictMode: true,
   poweredByHeader: false,
+  experimental: {
+    optimizePackageImports: ['lucide-react'],
+  },
   async redirects() {
     if (isStaticExport) return [];
     return getNextRedirects();

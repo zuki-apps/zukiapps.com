@@ -1,10 +1,8 @@
-'use client';
-
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 /** First focusable control: jump past chrome to #main-content */
-export default function SkipToContent() {
-  const t = useTranslations('common');
+export default async function SkipToContent({ locale }: { locale: string }) {
+  const t = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <a

@@ -99,7 +99,7 @@ export default function HushGalleryPage() {
               <CheckCircle2 className="w-4 h-4" />
               {t('hero.badge')}
             </div>
-            <h1 className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-purple-400 via-purple-300 to-purple-500 bg-clip-text text-transparent" style={{
+            <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-purple-400 via-purple-300 to-purple-500 bg-clip-text text-transparent" style={{
               filter: 'drop-shadow(0 0 8px rgba(168, 85, 247, 0.6))',
             }}>
               {t('hero.title')}
