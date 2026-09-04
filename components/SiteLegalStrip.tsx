@@ -24,7 +24,7 @@ export default function SiteLegalStrip() {
         }`}
       >
         <li>
-          <Link href={`/${locale}/about`} className={linkClass}>
+          <Link href={`/${locale}/about`} prefetch={false} className={linkClass}>
             {tHome('footer.about')}
           </Link>
         </li>
@@ -32,7 +32,7 @@ export default function SiteLegalStrip() {
           |
         </li>
         <li>
-          <Link href={`/${locale}/privacy`} className={linkClass}>
+          <Link href={`/${locale}/privacy`} prefetch={false} className={linkClass}>
             {t('privacyShort')}
           </Link>
         </li>
@@ -40,7 +40,7 @@ export default function SiteLegalStrip() {
           |
         </li>
         <li>
-          <Link href={`/${locale}/dsa-compliance`} className={linkClass}>
+          <Link href={`/${locale}/dsa-compliance`} prefetch={false} className={linkClass}>
             {t('dsaCompliance')}
           </Link>
         </li>
@@ -48,7 +48,7 @@ export default function SiteLegalStrip() {
           |
         </li>
         <li>
-          <Link href={`/${locale}/accessibility`} className={linkClass}>
+          <Link href={`/${locale}/accessibility`} prefetch={false} className={linkClass}>
             {t('accessibility')}
           </Link>
         </li>

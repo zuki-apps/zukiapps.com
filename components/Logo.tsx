@@ -22,8 +22,8 @@ export default function Logo({ className = '', size = 'lg', href, priority = fal
     <Image
       src="/logo.webp"
       alt="Zuki Apps"
-      width={280}
-      height={280}
+      width={160}
+      height={160}
       sizes={`${maxPx}px`}
       quality={80}
       priority={priority}

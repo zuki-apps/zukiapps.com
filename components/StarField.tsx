@@ -6,7 +6,9 @@ export default function StarField() {
       {STAR_FIELD_SPECS.map((star, i) => (
         <div
           key={i}
-          className={`absolute rounded-full animate-pulse motion-reduce:animate-none ${star.colorClass}`}
+          className={`absolute rounded-full motion-reduce:animate-none ${
+            i % 6 === 0 ? 'animate-pulse' : ''
+          } ${star.colorClass}`}
           style={{
             left: `${star.left}%`,
             top: `${star.top}%`,

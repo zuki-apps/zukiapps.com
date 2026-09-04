@@ -578,7 +578,7 @@ export default function AppsCarousel() {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className="inline-flex h-6 w-6 items-center justify-center rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+            className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
             aria-label={tCommon('carousel.goToSlide', { n: index + 1 })}
             aria-current={index === currentIndex ? 'true' : undefined}
             type="button"

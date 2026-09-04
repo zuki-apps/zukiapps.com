@@ -99,6 +99,7 @@ export default function CookieConsent() {
           {t('body')}{' '}
           <Link
             href={`/${locale}/privacy`}
+            prefetch={false}
             className="text-sky-200 underline underline-offset-2 hover:text-sky-100"
           >
             {t('learnMorePrivacy')}
@@ -106,6 +107,7 @@ export default function CookieConsent() {
           {' · '}
           <Link
             href={`/${locale}/dsa-compliance`}
+            prefetch={false}
             className="text-amber-200 underline underline-offset-2 hover:text-amber-100"
           >
             {t('learnMore')}
@@ -113,6 +115,7 @@ export default function CookieConsent() {
           {' · '}
           <Link
             href={`/${locale}/accessibility`}
+            prefetch={false}
             className="text-emerald-200 underline underline-offset-2 hover:text-emerald-100"
           >
             {t('learnMoreA11y')}

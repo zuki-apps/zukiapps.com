@@ -2,24 +2,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Mail, Heart, Instagram, Facebook, Youtube } from 'lucide-react';
-import lazyLoad from 'next/dynamic';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
 import AppsGrid from '@/components/AppsGrid';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import HomeFaq from '@/components/HomeFaq';
 import StarField from '@/components/StarField';
-
-const AppsCarousel = lazyLoad(() => import('@/components/AppsCarousel'), {
-  ssr: false,
-  loading: () => (
-    <div
-      className="relative w-full mb-12 max-w-4xl mx-auto min-h-[648px] rounded-2xl border border-indigo-500/20 bg-indigo-950/30"
-      aria-busy="true"
-      aria-label="Loading apps carousel"
-    />
-  ),
-});
+import DeferredAppsCarousel from '@/components/DeferredAppsCarousel';
 
 export const dynamic = 'force-static';
 
@@ -55,11 +44,11 @@ export default async function Home({
         <section className="py-12 px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             {/* Logo */}
-            <div className="mb-8 flex justify-center animate-fade-in">
+            <div className="mb-8 flex justify-center">
               <Logo size="xl" priority />
             </div>
 
-            <div className="mb-8 animate-fade-in-delay">
+            <div className="mb-8">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 text-white">
                 {t('subtitle')}
               </h1>
@@ -155,7 +144,7 @@ export default async function Home({
 
             {/* Featured carousel — below grid/FAQ so first viewport stays conversion-focused */}
             <div className="mt-12">
-              <AppsCarousel />
+              <DeferredAppsCarousel />
             </div>
 
             {/* Social Media Section */}
@@ -256,6 +245,7 @@ export default async function Home({
             <div className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm">
               <Link
                 href={`/${locale}/dreambit-legacy`}
+                prefetch={false}
                 className="text-gray-400 hover:text-amber-300 transition-colors"
               >
                 {t('footer.dreambitLegacy')}
@@ -281,6 +271,7 @@ export default async function Home({
               <span className="text-slate-600 hidden sm:inline">|</span>
               <Link
                 href={`/${locale}/about`}
+                prefetch={false}
                 className="text-gray-400 hover:text-indigo-300 transition-colors"
               >
                 {t('footer.about')}
@@ -288,6 +279,7 @@ export default async function Home({
               <span className="text-slate-600 hidden sm:inline">|</span>
               <Link
                 href={`/${locale}/dsa-compliance`}
+                prefetch={false}
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >
                 {tCommon('dsaCompliance')}
@@ -295,6 +287,7 @@ export default async function Home({
               <span className="text-slate-600 hidden sm:inline">|</span>
               <Link
                 href={`/${locale}/accessibility`}
+                prefetch={false}
                 className="text-indigo-100 hover:text-emerald-300 transition-colors font-medium"
               >
                 {tCommon('accessibility')}
