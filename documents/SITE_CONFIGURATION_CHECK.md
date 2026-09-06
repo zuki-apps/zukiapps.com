@@ -130,7 +130,7 @@
 
 **הערה:**
 
-- אם `firebase-admin` הוסר מ-`package.json` אבל זה עובד ב-production, כנראה שהוא מותקן ב-Netlify או שיש דרך אחרת
+- אם `firebase-admin` הוסר מ-`package.json` אבל זה עובד ב-production, כנראה שהוא מותקן ב-CI או שיש דרך אחרת
 
 ---
 
@@ -140,7 +140,7 @@
 
 - ✅ `NEXT_PUBLIC_SITE_URL` - משמש בכל הקבצים
 - ⚠️ `NEXT_PUBLIC_BASE_URL` - משמש ב-API route (שונה מ-SITE_URL)
-- ⚠️ `FIREBASE_SERVICE_ACCOUNT_KEY` - מוזכר ב-`netlify.toml` אבל לא בשימוש (כי הסרנו Firebase)
+- ⚠️ `FIREBASE_SERVICE_ACCOUNT_KEY` - Worker secret אופציונלי (לא בשימוש אם Firebase כבוי)
 
 **לפי המסמך:**
 
@@ -148,8 +148,8 @@
 
 **המלצה:**
 
-- לוודא ש-`NEXT_PUBLIC_SITE_URL` = `https://zukiapps.com` ב-Netlify
-- לוודא ש-`NEXT_PUBLIC_BASE_URL` = `https://zukiapps.com` ב-Netlify (אם צריך)
+- לוודא ש-`NEXT_PUBLIC_SITE_URL` = `https://zukiapps.com` ב-GitHub Actions / CI
+- לוודא ש-`NEXT_PUBLIC_BASE_URL` = `https://zukiapps.com` ב-GitHub Actions / CI (אם צריך)
 - להסיר `FIREBASE_SERVICE_ACCOUNT_KEY` אם לא משתמשים ב-Firebase
 
 ---
@@ -168,15 +168,14 @@
 
 ### ✅ מה מוגדר נכון:
 
-1. ✅ Environment Variables ב-Netlify - **כל המשתנים מוגדרים נכון!**:
+1. ✅ Environment Variables ב-GitHub / Cloudflare - **כל המשתנים מוגדרים נכון!**:
 
-   - ✅ `NEXT_PUBLIC_SITE_URL` = `https://zukiapps.com` (מוגדר בכל ה-contexts)
-   - ✅ `NEXT_PUBLIC_BASE_URL` = `https://zukiapps.com` (מוגדר בכל ה-contexts)
-   - ✅ `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-ZQS2LWYD18` (מוגדר בכל ה-contexts)
-   - ✅ `FIREBASE_SERVICE_ACCOUNT_KEY` - מוגדר נכון (Production, Deploy Previews, Branch deploys, Preview Server & Agent Runners)
+   - ✅ `NEXT_PUBLIC_SITE_URL` = `https://zukiapps.com`
+   - ✅ `NEXT_PUBLIC_BASE_URL` = `https://zukiapps.com`
+   - ✅ `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-ZQS2LWYD18`
+   - ✅ `FIREBASE_SERVICE_ACCOUNT_KEY` - Worker secret אופציונלי
 
-   **📖 ראה מדריך מפורט:** `documents/NETLIFY_ENV_VARIABLES_GUIDE.md`  
-   **📋 ראה checklist:** `documents/NETLIFY_ENV_CHECKLIST.md`
+   **📖 ראה מדריך:** `documents/CLOUDFLARE_CUTOVER.md`
 
 ---
 
@@ -199,7 +198,7 @@
 - ✅ ה-API route עובד וההזמנות עובדות
 - ✅ אם `firebase-admin` הוסר מ-`package.json`, צריך להחזיר אותו או לוודא שהוא מותקן ב-production
 
-### 3. בדוק Environment Variables ב-Netlify
+### 3. בדוק Environment Variables ב-GitHub / Cloudflare
 
 - `NEXT_PUBLIC_SITE_URL` = `https://zukiapps.com`
 - `NEXT_PUBLIC_BASE_URL` = `https://zukiapps.com` (אם צריך)

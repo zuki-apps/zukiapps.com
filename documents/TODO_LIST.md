@@ -12,17 +12,17 @@
 3. ✅ **קישורי הזמנות** - עובדים עם `zukiapps.com/zulist/invite/{id}`
 4. ✅ **URLs** - כל האתר משתמש ב-`https://zukiapps.com`
 5. ✅ **עמודי Privacy, Terms, Support** - קיימים ומוגדרים
-6. ✅ **Environment Variables** - כל המשתנים החשובים מוגדרים נכון ב-Netlify:
-   - ✅ `NEXT_PUBLIC_SITE_URL` = `https://zukiapps.com` (בכל ה-contexts)
-   - ✅ `NEXT_PUBLIC_BASE_URL` = `https://zukiapps.com` (בכל ה-contexts)
-   - ✅ `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-ZQS2LWYD18` (בכל ה-contexts)
-   - ✅ `FIREBASE_SERVICE_ACCOUNT_KEY` - מוגדר (4 values in 4 deploy contexts)
+6. ✅ **Environment Variables** - כל המשתנים החשובים מוגדרים נכון ב-GitHub / Cloudflare:
+   - ✅ `NEXT_PUBLIC_SITE_URL` = `https://zukiapps.com`
+   - ✅ `NEXT_PUBLIC_BASE_URL` = `https://zukiapps.com`
+   - ✅ `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-ZQS2LWYD18`
+   - ✅ `FIREBASE_SERVICE_ACCOUNT_KEY` - מוגדר (Worker secret, אם צריך API)
 
 ---
 
 ## ✅ מה הושלם (עודכן)
 
-### 1. ✅ Environment Variables ב-Netlify - **כל המשתנים מוגדרים נכון!**
+### 1. ✅ Environment Variables ב-GitHub / Cloudflare - **כל המשתנים מוגדרים נכון!**
 
 **✅ מה מוגדר נכון:**
 - [x] ✅ `NEXT_PUBLIC_SITE_URL` = `https://zukiapps.com` - **מוגדר נכון!**
@@ -33,7 +33,7 @@
 - [x] ✅ `NEXT_PUBLIC_BASE_URL` = `https://zukiapps.com` - **מוגדר נכון!**
 
 **✅ סיכום Environment Variables:**
-- ✅ כל המשתנים החשובים מוגדרים נכון ב-Netlify!
+- ✅ כל המשתנים החשובים מוגדרים נכון ב-GitHub / Cloudflare!
 - ✅ `NEXT_PUBLIC_SITE_URL` = `https://zukiapps.com`
 - ✅ `NEXT_PUBLIC_BASE_URL` = `https://zukiapps.com`
 - ✅ `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-ZQS2LWYD18`
@@ -48,11 +48,11 @@
 - ✅ ה-API route משתמש ב-`firebase-admin`
 
 **צריך לבדוק:**
-- [ ] האם `firebase-admin` מותקן ב-production (Netlify)?
-- [ ] האם `FIREBASE_SERVICE_ACCOUNT_KEY` מוגדר ב-Netlify?
+- [ ] האם `firebase-admin` מותקן ב-production (Cloudflare)?
+- [ ] האם `FIREBASE_SERVICE_ACCOUNT_KEY` מוגדר ב-Cloudflare Worker?
 
 **אם לא עובד:**
-- צריך להריץ `npm install` ב-Netlify או לוודא שהתלויות מותקנות
+- צריך לוודא שהתלויות מותקנות ב-CI (`npm ci`)
 
 ---
 
@@ -174,7 +174,7 @@
 ## 📝 סיכום עדיפויות
 
 ### 🔴 עדיפות גבוהה (לעשות עכשיו):
-1. ✅ בדיקת Environment Variables ב-Netlify
+1. ✅ בדיקת Environment Variables ב-GitHub / Cloudflare
 2. ✅ בדיקת Firebase Admin ב-production
 
 ### 🟡 עדיפות בינונית (לעשות השבוע):

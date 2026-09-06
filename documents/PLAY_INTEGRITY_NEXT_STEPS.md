@@ -9,7 +9,7 @@
 
 - ✅ Play Integrity API מוגדר ב-Google Play Console
 - ✅ API endpoint נוצר: `/api/play-integrity/verify`
-- ✅ Environment Variables מוגדרים ב-Netlify:
+- ✅ Environment Variables מוגדרים ב-Cloudflare Worker / GitHub:
   - `GOOGLE_CLOUD_PROJECT_ID` = `zulist-26`
   - `FIREBASE_SERVICE_ACCOUNT_KEY` = מוגדר
 
@@ -50,7 +50,7 @@
 
 ---
 
-### שלב 3: Deploy ל-Netlify
+### שלב 3: Deploy ל-Cloudflare Pages
 
 **למה?** צריך לפרוס את הקוד החדש עם ה-API endpoint.
 
@@ -66,13 +66,13 @@
 
 2. **המתן ל-Deploy**:
 
-   - Netlify אמור להתחיל deploy אוטומטית
-   - לך ל-Netlify Dashboard → Deploys
+   - GitHub Actions אמור להתחיל deploy אוטומטית ב-push ל-`main`
+   - לך ל-GitHub → Actions → Deploy Cloudflare
    - חכה שהדיפלוי מסתיים (✅ Deploy successful)
 
 3. **וודא שהדיפלוי הצליח**:
    - בדוק שאין שגיאות ב-logs
-   - אם יש שגיאות, בדוק את ה-logs ב-Netlify
+   - אם יש שגיאות, בדוק את ה-logs ב-GitHub Actions
 
 ---
 
@@ -166,14 +166,14 @@
 
 **פתרון**:
 
-- ודא ש-`GOOGLE_CLOUD_PROJECT_ID` = `zulist-26` ב-Netlify
+- ודא ש-`GOOGLE_CLOUD_PROJECT_ID` = `zulist-26` ב-Cloudflare Worker
 - ודא שהדיפלוי הצליח
 
 ### בעיה: "Authentication error"
 
 **פתרון**:
 
-- בדוק ש-`FIREBASE_SERVICE_ACCOUNT_KEY` מוגדר נכון ב-Netlify
+- בדוק ש-`FIREBASE_SERVICE_ACCOUNT_KEY` מוגדר נכון ב-Cloudflare Worker
 - ודא שה-JSON תקין (לא שבור)
 - בדוק שה-Service Account יש לו הרשאות
 
@@ -186,7 +186,7 @@
 - [x] ✅ **Play Integrity API מופעל ב-Google Cloud Console** - **הושלם!** 🎉
 - [x] ✅ **Service Account יש לו הרשאות** - **לא נדרש!** (אתה Owner/Editor) 🎉
 - [ ] ✅ הקוד נדחף ל-Git
-- [ ] ✅ Deploy הושלם ב-Netlify
+- [ ] ✅ Deploy הושלם ב-Cloudflare Pages
 - [ ] ✅ בדיקה ראשונית של ה-endpoint עברה
 - [ ] ✅ האפליקציה Android מוכנה לשלוח tokens
 
@@ -196,9 +196,9 @@
 
 אם אתה נתקל בבעיות:
 
-1. **בדוק את ה-logs ב-Netlify**:
+1. **בדוק את ה-logs ב-Cloudflare / GitHub Actions**:
 
-   - Netlify Dashboard → Functions → Logs
+   - GitHub → Actions, או Cloudflare → Workers → Logs
    - חפש שגיאות הקשורות ל-Play Integrity API
 
 2. **בדוק את ה-logs ב-Google Cloud Console**:

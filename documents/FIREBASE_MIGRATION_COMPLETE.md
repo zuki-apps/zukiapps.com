@@ -27,11 +27,11 @@
 
 ## 🔧 מה צריך לעשות עכשיו
 
-### 1. הגדרת Firebase Admin SDK ב-Netlify
+### 1. הגדרת Firebase Admin SDK ב-Cloudflare
 
-**צריך להוסיף Environment Variables ב-Netlify:**
+**צריך להוסיף Environment Variables ב-Cloudflare Worker:**
 
-1. לך ל-Netlify Dashboard → Site settings → Environment variables
+1. לך ל-Cloudflare Dashboard → Workers & Pages → Variables and Secrets
 2. הוסף את המשתנה הבא:
 
 **`FIREBASE_SERVICE_ACCOUNT_KEY`**
@@ -40,7 +40,7 @@
   1. לך ל-Firebase Console → Project Settings → Service Accounts
   2. לחץ "Generate new private key"
   3. הורד את ה-JSON file
-  4. העתק את כל התוכן והדבק ב-Netlify
+  4. העתק את כל התוכן והדבק ב-Cloudflare Worker secret
 
 **דוגמה:**
 ```json
@@ -228,7 +228,7 @@ final actionCodeSettings = ActionCodeSettings(
    git commit -m "Complete Firebase Hosting migration to Next.js"
    git push
    ```
-   Netlify יעשה deploy אוטומטית
+   GitHub Actions יעשה deploy ל-Cloudflare Pages
 
 2. **Flutter App:**
    - עדכן את הקוד
@@ -254,7 +254,7 @@ final actionCodeSettings = ActionCodeSettings(
 ### ✅ מה עבר ל-Next.js:
 - **Static HTML pages** - עברו ל-Next.js pages
 - **Invitation handling** - עבר ל-API Route
-- **Hosting** - עבר ל-Netlify
+- **Hosting** - עבר ל-Cloudflare Pages
 
 ### ⚠️ תקופת מעבר:
 - אפשר להשאיר את Firebase Hosting פעיל במקביל לתקופת מעבר
@@ -266,7 +266,7 @@ final actionCodeSettings = ActionCodeSettings(
 ## 🎯 סיכום
 
 **הכל מוכן!** עכשיו צריך:
-1. ✅ להוסיף Firebase Service Account Key ב-Netlify
+1. ✅ להוסיף Firebase Service Account Key ב-Cloudflare Worker
 2. ✅ לעדכן את הקוד ב-Flutter
 3. ✅ לעדכן Deep Links
 4. ✅ לעדכן Google Play Data Safety

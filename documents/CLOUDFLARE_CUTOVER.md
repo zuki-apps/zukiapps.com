@@ -1,41 +1,39 @@
-# Netlify → Cloudflare env mapping (zukiapps.com)
+# Cloudflare env mapping (zukiapps.com)
 
-Copy **Production** values from Netlify. Your Netlify list:
+Host is **Cloudflare Pages** (`zukiapps-site`). Secrets live in GitHub Actions and (optional) Worker variables.
 
-| Netlify key | Netlify value (production) |
-|-------------|----------------------------|
+| Key | Production value |
+|-----|------------------|
 | `NEXT_PUBLIC_SITE_URL` | `https://zukiapps.com` |
 | `NEXT_PUBLIC_BASE_URL` | `https://zukiapps.com` |
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | `G-ZQS2LWYD18` |
 | `GOOGLE_CLOUD_PROJECT_ID` | `zulist-26` |
-| `FIREBASE_SERVICE_ACCOUNT_KEY` | *(full JSON — copy from Netlify Production)* |
+| `FIREBASE_SERVICE_ACCOUNT_KEY` | *(full service-account JSON)* |
 
 ---
 
 ## Where each variable goes
 
-Cloudflare splits this differently than Netlify. Use **two places**:
-
 ### A) GitHub → Repository secrets
 
 **GitHub** → `zuki-apps/zukiapps.com` → **Settings → Secrets and variables → Actions → New repository secret**
 
-| Secret name | Paste from Netlify |
-|-------------|-------------------|
-| `CLOUDFLARE_API_TOKEN` | *(create in Cloudflare — not from Netlify)* |
-| `CLOUDFLARE_ACCOUNT_ID` | *(Cloudflare dashboard sidebar — not from Netlify)* |
+| Secret name | Value |
+|-------------|-------|
+| `CLOUDFLARE_API_TOKEN` | Create in Cloudflare |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard sidebar |
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | `G-ZQS2LWYD18` |
 | `SITE_URL` | `https://zukiapps.com` *(sitemap ping workflow)* |
 
-`NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_BASE_URL` are already hardcoded in `.github/workflows/ci.yml` as `https://zukiapps.com`.
+`NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_BASE_URL` are hardcoded in `.github/workflows/ci.yml` as `https://zukiapps.com`.
 
 ### B) Cloudflare Worker secrets (runtime — server APIs)
 
-**Cloudflare** → **Workers & Pages** → **zukiapps-com** → **Settings** → **Variables and Secrets** → **Add**
+**Cloudflare** → **Workers & Pages** → worker → **Settings** → **Variables and Secrets** → **Add**
 
 | Name | Type | Value |
 |------|------|-------|
-| `FIREBASE_SERVICE_ACCOUNT_KEY` | **Secret** | Entire JSON from Netlify (one line is fine) |
+| `FIREBASE_SERVICE_ACCOUNT_KEY` | **Secret** | Entire JSON (one line is fine) |
 | `GOOGLE_CLOUD_PROJECT_ID` | **Secret** or Text | `zulist-26` |
 
 Used by:
@@ -52,16 +50,14 @@ wrangler secret put GOOGLE_CLOUD_PROJECT_ID
 
 ---
 
-## Netlify “4 deploy contexts” → Cloudflare
+## Deploy contexts
 
-| Netlify context | Cloudflare equivalent |
-|-----------------|----------------------|
-| Production | Worker **Production** secrets (above) |
-| Deploy Previews | Not used — PRs only run CI, no deploy |
+| Context | Where |
+|---------|-------|
+| Production | GitHub Actions on `main` → Pages `zukiapps-site` |
+| Deploy previews | Not used — PRs only run CI |
 | Branch deploys | Not used |
 | Local development | `.dev.vars` (copy from `.dev.vars.example`) |
-
-For cutover, copy the **Production** value of `FIREBASE_SERVICE_ACCOUNT_KEY` only (all 4 Netlify contexts had the same key).
 
 ---
 
@@ -71,12 +67,12 @@ For cutover, copy the **Production** value of `FIREBASE_SERVICE_ACCOUNT_KEY` onl
 - [ ] GitHub: `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-ZQS2LWYD18`
 - [ ] Cloudflare Worker: `FIREBASE_SERVICE_ACCOUNT_KEY` (secret)
 - [ ] Cloudflare Worker: `GOOGLE_CLOUD_PROJECT_ID` = `zulist-26`
-- [ ] Run deploy: GitHub **Actions → CI → Run workflow**
-- [ ] Test: `https://zukiapps.com`, `/api/site-facts`, Zulist invite link
+- [ ] Run deploy: GitHub **Actions → Deploy Cloudflare**
+- [ ] Test: `https://zukiapps.com`, Zulist invite link
 
 ---
 
-## Optional (not in your Netlify list)
+## Optional
 
 If you add Google Search Console verification later:
 

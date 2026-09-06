@@ -1,7 +1,7 @@
 # Get zukiapps.com back online
 
 **Current status:** Deploy target is **Cloudflare Pages** project **`zukiapps-site`**.  
-Preview: `https://zukiapps-site.pages.dev` · Production: `https://zukiapps.com` (after DNS + custom domain).
+Preview: `https://zukiapps-site.pages.dev` · Production: `https://zukiapps.com`
 
 Static export runs `scripts/post-static-export.mjs` after `next build` to:
 - mirror English pages to unprefixed URLs (`/hush-gallery`, not only `/en/hush-gallery`)
@@ -12,14 +12,13 @@ CI smoke: `npm run smoke:static` (local) · `npm run smoke:live` (production pre
 
 ---
 
-## Overview (≈30 minutes)
+## Overview
 
 ```
-1. Cloudflare account + add zukiapps.com
-2. GitHub secrets → deploy Worker
-3. Change nameservers (GoDaddy/registrar) → Cloudflare
-4. Attach custom domain to Worker
-5. Copy secrets from Netlify → Cloudflare Worker
+1. Cloudflare account + zone zukiapps.com (already live)
+2. GitHub secrets → CI deploy to Pages project zukiapps-site
+3. Nameservers at the registrar stay on Cloudflare
+4. Custom domain on the Pages project: zukiapps.com + www
 ```
 
 ---
@@ -29,8 +28,7 @@ CI smoke: `npm run smoke:static` (local) · `npm run smoke:live` (production pre
 1. Go to [dash.cloudflare.com](https://dash.cloudflare.com) → **Sign up** (free plan is fine).
 2. **Add a site** → enter `zukiapps.com` → Continue.
 3. Choose **Free** plan.
-4. Cloudflare shows **two nameservers** (e.g. `ada.ns.cloudflare.com`, `bob.ns.cloudflare.com`).  
-   **Keep this tab open** — you need them in Step 4.
+4. Cloudflare shows **two nameservers**. **Keep this tab open** — you need them in Step 6.
 5. Copy your **Account ID** (right sidebar on any Cloudflare page).
 
 ---
@@ -68,7 +66,7 @@ Build command: `npm run deploy` → static export to `out/` → `wrangler pages 
 
 **Verify:** Cloudflare → **Workers & Pages** → **zukiapps-site** → open `https://zukiapps-site.pages.dev`
 
-> Project name is **zukiapps-site** (not zukiapps-com — that name was used by the failed Worker deploy).
+> Project name is **zukiapps-site** (not zukiapps-com — that name was used by a failed Worker deploy).
 
 > **Note:** Static hosting serves all marketing pages. `/api/*` routes are disabled until you add a small Worker later (optional). ZuList invite pages use a client shell + `_redirects` rewrite.
 
@@ -82,18 +80,14 @@ Skip for initial recovery. Only needed if you restore `/api/zulist/invite`, Play
 
 | Name | Type | Value |
 |------|------|-------|
-| `FIREBASE_SERVICE_ACCOUNT_KEY` | Secret | Full JSON from Netlify |
+| `FIREBASE_SERVICE_ACCOUNT_KEY` | Secret | Full service-account JSON |
 | `GOOGLE_CLOUD_PROJECT_ID` | Secret | `zulist-26` |
 
 ---
 
-## Step 6 — Point DNS to Cloudflare (this brings zukiapps.com live)
+## Step 6 — DNS
 
-Your domain currently uses **Netlify DNS** (`dns1.p09.nsone.net`, etc.).
-
-1. Log in where you manage the domain (**GoDaddy**, etc.).
-2. **Nameservers** → **Custom** → replace Netlify NS with the **two Cloudflare nameservers** from Step 1.
-3. Save. Propagation can take 5 minutes–48 hours (often under 1 hour).
+Nameservers at the registrar must be the **two Cloudflare nameservers** from Step 1.
 
 In **Cloudflare** → **DNS** for `zukiapps.com`:
 
@@ -102,7 +96,7 @@ In **Cloudflare** → **DNS** for `zukiapps.com`:
 | CNAME | `@` | `zukiapps-site.pages.dev` | Proxied (orange) |
 | CNAME | `www` | `zukiapps-site.pages.dev` | Proxied (orange) |
 
-Delete any old Netlify A/CNAME records. SendGrid DKIM CNAMEs can stay (prefer **DNS only** / grey cloud for mail).
+SendGrid DKIM CNAMEs can stay (prefer **DNS only** / grey cloud for mail).
 
 ---
 
@@ -114,7 +108,7 @@ Add:
 - `zukiapps.com`
 - `www.zukiapps.com`
 
-Then **DNS** → confirm `@` and `www` point to **Pages** (not Netlify). If you still see `x-nf-request-id` on responses, delete old Netlify CNAME/A records and let Pages own the zone records.
+Then **DNS** → confirm `@` and `www` point to **Pages**.
 
 SSL is automatic. Test:
 
@@ -122,13 +116,6 @@ SSL is automatic. Test:
 npm run smoke:live          # pages.dev
 curl -sI https://zukiapps.com/ | head -1   # should be HTTP/2 200
 ```
-
----
-
-## Step 8 — Turn off Netlify
-
-Netlify → your site → **Site configuration → Build & deploy → Stop builds**  
-Remove custom domain from Netlify so traffic doesn’t hit the capped account.
 
 ---
 
@@ -150,15 +137,8 @@ npm run deploy
 |---------|-----|
 | Home works, other pages 404 | Redeploy from `main`; CI must pass smoke (≥800 HTML files). Check **Deployments** on `zukiapps-site`. |
 | `/about` 404 but `/en/about` worked | Fixed in build — run latest `npm run build:static` (post-export mirrors English to root). |
-| Still 503 + `server: Netlify` | DNS not switched yet; wait for NS propagation or flush local DNS |
 | Deploy fails “authentication” | Check `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` in GitHub |
 | Custom domain Active but 404 | Confirm DNS CNAME → `zukiapps-site.pages.dev`; remove domains from empty `zukiapps-com` Pages project |
 | `www` broken | Add CNAME `www` → `zukiapps-site.pages.dev` (proxied) |
 | Zulist invites fail API | Expected on static-only — invite page shell loads; API needs a Worker later |
 | GA missing | Add `NEXT_PUBLIC_GA_MEASUREMENT_ID` GitHub secret, redeploy |
-
----
-
-## Why not fix Netlify?
-
-Netlify is returning **usage exceeded** — restoring `netlify.toml` will not help until bandwidth resets or you pay for more. Cloudflare free tier avoids this cap for a marketing site.

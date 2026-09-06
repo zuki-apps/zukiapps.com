@@ -12,9 +12,9 @@
 
 ## 🔧 הגדרה מהירה
 
-### 1. הוסף Environment Variables ב-Netlify
+### 1. הוסף Environment Variables ב-Cloudflare
 
-**Netlify Dashboard → Site settings → Environment variables:**
+**Cloudflare Dashboard → Workers & Pages → Variables and Secrets:**
 
 | Variable | Value | איך להשיג |
 |----------|-------|-----------|
@@ -31,7 +31,7 @@ git commit -m "Complete Firebase Hosting migration"
 git push
 ```
 
-Netlify יעשה deploy אוטומטית!
+GitHub Actions יעשה deploy ל-Cloudflare Pages.
 
 ## 📝 מה עוד צריך לעשות
 
@@ -52,7 +52,7 @@ Netlify יעשה deploy אוטומטית!
 ## 🆘 בעיות?
 
 אם יש שגיאות:
-1. בדוק את ה-logs ב-Netlify Dashboard
+1. בדוק את ה-logs ב-GitHub Actions / Cloudflare Dashboard
 2. ודא ש-`FIREBASE_SERVICE_ACCOUNT_KEY` מוגדר נכון
 3. בדוק שהכתובות נכונות
 

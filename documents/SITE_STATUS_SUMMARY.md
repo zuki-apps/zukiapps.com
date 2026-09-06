@@ -7,7 +7,7 @@
 
 ## ✅ מה מוגדר ועובד
 
-### 1. Environment Variables ב-Netlify - ✅ מושלם!
+### 1. Environment Variables ב-GitHub / Cloudflare - ✅ מושלם!
 
 כל המשתנים מוגדרים נכון:
 
@@ -85,7 +85,7 @@
 
 - ✅ `firebase-admin` ב-`package.json` (גרסה 13.6.0)
 - ✅ API route משתמש ב-Firebase Admin
-- ✅ `FIREBASE_SERVICE_ACCOUNT_KEY` מוגדר ב-Netlify
+- ✅ `FIREBASE_SERVICE_ACCOUNT_KEY` מוגדר ב-Cloudflare Worker
 - ✅ ההזמנות עובדות
 
 ---

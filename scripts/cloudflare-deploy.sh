@@ -20,4 +20,4 @@ echo "Next: Cloudflare dashboard → Workers → zukiapps-com → Settings → V
 echo "  wrangler secret put FIREBASE_SERVICE_ACCOUNT_KEY"
 echo "  wrangler secret put GOOGLE_CLOUD_PROJECT_ID"
 echo ""
-echo "DNS: point zukiapps.com A/CNAME to Cloudflare (orange cloud). Disable Netlify deploy hook."
+echo "DNS: apex + www stay on Cloudflare nameservers (orange cloud)."

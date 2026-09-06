@@ -143,14 +143,14 @@ NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 ```
 
-**ב-Netlify:**
-- הוסף את ה-variables ב-Site settings → Environment variables
+**ב-Cloudflare / GitHub:**
+- הוסף את ה-variables ב-GitHub Actions secrets או Cloudflare Worker Variables
 
 ---
 
-### שלב 6: Deploy ל-Netlify
+### שלב 6: Deploy ל-Cloudflare Pages
 
-**האתר כבר מוגדר ל-Netlify!**
+**האתר כבר מוגדר ל-Cloudflare Pages.**
 
 1. **Push ל-Git:**
    ```bash
@@ -159,14 +159,14 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
    git push
    ```
 
-2. **Netlify יעשה deploy אוטומטית**
+2. **GitHub Actions יעשה deploy אוטומטית ל-Cloudflare Pages**
 
 ---
 
 ## שאלות נפוצות
 
 ### Q: מה עם Firebase Hosting domain?
-**A:** העבר את ה-domain ל-Netlify (כבר יש לך מדריך ב-`NETLIFY_CUSTOM_DOMAIN.md`)
+**A:** ה-domain כבר על Cloudflare Pages. ראה `documents/SITE_RECOVERY.md`
 
 ### Q: מה עם Firebase Functions שכבר עובדות?
 **A:** אפשר להשאיר אותן ב-Firebase ולהשתמש בהן מ-Next.js, או להעביר ל-API Routes

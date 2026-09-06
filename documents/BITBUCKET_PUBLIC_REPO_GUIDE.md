@@ -46,13 +46,9 @@
 
 ## פתרון 3: אם אתה לא רוצה לשנות את ה-Project
 
-**אפשרות A: שדרג ל-Netlify Pro**
-- Netlify Pro ($19/month) מאפשר unlimited contributors ב-private repos
-- זה יפתור את הבעיה בלי לשנות את ה-Project
-
-**אפשרות B: השתמש ב-GitHub במקום**
-- GitHub Free מאפשר private repos עם unlimited contributors
-- אבל זה דורש העברה של הקוד
+**אפשרות: השתמש ב-GitHub**
+- GitHub Free מאפשר private repos עם unlimited collaborators
+- האתר כבר ב-GitHub (`zuki-apps/zukiapps.com`) ומתפרס ל-Cloudflare Pages
 
 ---
 
@@ -74,7 +70,7 @@
 
 1. אחרי שתשמור, לך ל-Repository
 2. בדוק שהאיקון 🔒 נעלם (או שהאיקון 🌐 מופיע)
-3. לך ל-Netlify Dashboard → **Trigger deploy**
+3. לך ל-GitHub → **Actions → Deploy Cloudflare**
 4. זה אמור לעבוד עכשיו! ✅
 
 ---

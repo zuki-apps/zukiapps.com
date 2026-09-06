@@ -212,14 +212,14 @@ if (result.valid && result.deviceIntegrity?.meetsDeviceIntegrity == true) {
 
 ## 📝 Environment Variables
 
-**נדרש ב-Netlify**:
+**נדרש ב-Cloudflare Worker**:
 
 - `GOOGLE_CLOUD_PROJECT_ID` - Project ID של Google Cloud: `zulist-26` ✅ **מוגדר בכל ה-contexts!**
 - `FIREBASE_SERVICE_ACCOUNT_KEY` - Service Account credentials (JSON string) ✅ **מוגדר ב-4 deploy contexts!**
 
 **הערה**:
 
-- ✅ `FIREBASE_SERVICE_ACCOUNT_KEY` כבר מוגדר ב-Netlify (4 values in 4 deploy contexts)
+- ✅ `FIREBASE_SERVICE_ACCOUNT_KEY` כבר מוגדר ב-Cloudflare Worker (secret)
 - ✅ ה-API endpoint משתמש ב-`FIREBASE_SERVICE_ACCOUNT_KEY` לאימות עם Play Integrity API
 - ⚠️ **חשוב**: צריך לוודא שה-Service Account יש לו הרשאות ל-Play Integrity API ב-Google Cloud Console
 
@@ -289,8 +289,8 @@ if (result.valid && result.deviceIntegrity?.meetsDeviceIntegrity == true) {
 ### Backend Integration
 
 - [x] ✅ יצירת API endpoint לאימות tokens - `app/api/play-integrity/verify/route.ts`
-- [x] ✅ הגדרת `GOOGLE_CLOUD_PROJECT_ID` ב-Netlify (ערך: `zulist-26`) - **מוגדר בכל ה-contexts!**
-- [x] ✅ הגדרת `FIREBASE_SERVICE_ACCOUNT_KEY` ב-Netlify - **מוגדר ב-4 deploy contexts!**
+- [x] ✅ הגדרת `GOOGLE_CLOUD_PROJECT_ID` ב-Cloudflare Worker (ערך: `zulist-26`)
+- [x] ✅ הגדרת `FIREBASE_SERVICE_ACCOUNT_KEY` ב-Cloudflare Worker
 - [ ] בדיקת Service Account permissions (צריך Play Integrity API access)
 - [ ] בדיקות end-to-end
 

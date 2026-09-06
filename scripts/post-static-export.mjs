@@ -22,7 +22,7 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const require = createRequire(import.meta.url);
-const { getNetlifyRedirectLines, LOCALES } = require('../lib/legacySlugRedirects.js');
+const { getPagesRedirectLines, LOCALES } = require('../lib/legacySlugRedirects.js');
 
 const OUT = 'out';
 const localeSet = new Set(LOCALES);
@@ -224,7 +224,7 @@ export function writeRedirectsFile(outDir = OUT) {
     '/ /index.html 200',
     '',
     '# Legacy app slug redirects',
-    ...getNetlifyRedirectLines(),
+    ...getPagesRedirectLines(),
     '',
   ];
   writeFileSync(join(outDir, '_redirects'), `${lines.join('\n')}\n`);

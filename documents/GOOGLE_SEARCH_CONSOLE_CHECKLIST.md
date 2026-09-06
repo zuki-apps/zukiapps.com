@@ -27,7 +27,7 @@
   1. Go to [search.google.com/search-console](https://search.google.com/search-console).
   2. Click **Add property** → **URL prefix** → enter `https://zukiapps.com` → **Continue**.
 - [x] **Verify**
-  1. GSC shows an HTML tag; your site uses `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` in layout. Set that env var (e.g. Netlify) so the meta tag matches.
+  1. GSC shows an HTML tag; your site uses `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` in layout. Set that env var in GitHub Actions so the meta tag matches.
   2. Click **Verify** in GSC.
 - [x] **Sitemaps**
   1. Left menu → **Sitemaps**. Under "Add a new sitemap" enter `sitemap.xml` → **Submit**.
