@@ -29,6 +29,7 @@ const APPS = [
   'questivo',
   'coloring-my-photo',
   'photo-stamp',
+  'blockora',
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

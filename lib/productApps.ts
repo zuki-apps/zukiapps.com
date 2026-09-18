@@ -19,6 +19,7 @@ export type ProductAppSlug =
   | 'questivo'
   | 'coloring-my-photo'
   | 'photo-stamp'
+  | 'blockora'
   | 'toldya';
 
 export type ProductAppNamespace =
@@ -41,6 +42,7 @@ export type ProductAppNamespace =
   | 'questivo'
   | 'coloringMyPhoto'
   | 'photoStamp'
+  | 'blockora'
   | 'toldya';
 
 export type ProductAppConfig = {
@@ -160,6 +162,17 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'photo-stamp-howto-ld',
     accent: 'teal',
     hasSupportPage: true,
+  },
+  blockora: {
+    slug: 'blockora',
+    namespace: 'blockora',
+    appPath: '/blockora',
+    applicationCategory: 'GameApplication',
+    faqId: 'blockora-faq-ld',
+    howToId: 'blockora-howto-ld',
+    accent: 'amber',
+    hasSupportPage: true,
+    operatingSystem: 'iOS,Android',
   },
   toldya: {
     slug: 'toldya',

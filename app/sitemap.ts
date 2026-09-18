@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED, TIMESINCE_PILOT, TIMESINCE_PUBLISHED, TIMESINCE_UNDER_CONSTRUCTION, GEO_CALC_PILOT, GEO_CALC_PUBLISHED, GEO_CALC_UNDER_CONSTRUCTION, ROAMGUARD_UNDER_CONSTRUCTION, ROAMGUARD_PILOT, ROAMGUARD_PUBLISHED, QUESTIVO_UNDER_CONSTRUCTION, QUESTIVO_PILOT, QUESTIVO_PUBLISHED, COLORING_MY_PHOTO_UNDER_CONSTRUCTION, COLORING_MY_PHOTO_PILOT, COLORING_MY_PHOTO_PUBLISHED, PHOTO_STAMP_UNDER_CONSTRUCTION, PHOTO_STAMP_PILOT, PHOTO_STAMP_PUBLISHED } from '@/lib/appPublishState';
+import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED, TIMESINCE_PILOT, TIMESINCE_PUBLISHED, TIMESINCE_UNDER_CONSTRUCTION, GEO_CALC_PILOT, GEO_CALC_PUBLISHED, GEO_CALC_UNDER_CONSTRUCTION, ROAMGUARD_UNDER_CONSTRUCTION, ROAMGUARD_PILOT, ROAMGUARD_PUBLISHED, QUESTIVO_UNDER_CONSTRUCTION, QUESTIVO_PILOT, QUESTIVO_PUBLISHED, COLORING_MY_PHOTO_UNDER_CONSTRUCTION, COLORING_MY_PHOTO_PILOT, COLORING_MY_PHOTO_PUBLISHED, PHOTO_STAMP_UNDER_CONSTRUCTION, PHOTO_STAMP_PILOT, PHOTO_STAMP_PUBLISHED, BLOCKORA_UNDER_CONSTRUCTION, BLOCKORA_PILOT, BLOCKORA_PUBLISHED } from '@/lib/appPublishState';
 import { routing } from '@/routing';
 import { getSiteUrl } from '@/lib/hreflang';
 import {
@@ -187,6 +187,21 @@ const routes: SitemapRouteMeta[] = [
           { path: '/photo-stamp/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/photo-stamp/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/photo-stamp/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        ]
+      : []),
+  ...(BLOCKORA_PUBLISHED || BLOCKORA_PILOT
+    ? [
+        { path: '/blockora', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
+        { path: '/blockora/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/blockora/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/blockora/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+      ]
+    : BLOCKORA_UNDER_CONSTRUCTION
+      ? [
+          { path: '/blockora', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/blockora/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/blockora/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/blockora/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         ]
       : []),
   { path: '/dreambit-legacy', priority: 0.55, changefreq: 'yearly' },

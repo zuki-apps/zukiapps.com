@@ -76,6 +76,11 @@ export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
     name: 'Photo Stamp: Date & Location',
     description: 'Stamp date, time, and location onto existing photos and videos. On-device. Coming soon. com.zuki.apps.photostamp.',
   },
+  {
+    path: '/blockora',
+    name: 'Blockiva – Block Puzzle',
+    description: 'Block puzzle with shifting placement rules. Coming soon. com.zuki.apps.blockiva.',
+  },
 ];
 
 export function buildSoftwareCatalogItemList(baseUrl: string) {

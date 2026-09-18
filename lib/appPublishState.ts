@@ -72,3 +72,9 @@ export const PHOTO_STAMP_UNDER_CONSTRUCTION = true;
 export const PHOTO_STAMP_PILOT = false;
 export const PHOTO_STAMP_PUBLISHED = false;
 export const PHOTO_STAMP_APP_PATH = '/photo-stamp' as const;
+
+/** Blockiva – Block Puzzle — hidden until published; legal pages for store compliance. */
+export const BLOCKORA_UNDER_CONSTRUCTION = true;
+export const BLOCKORA_PILOT = false;
+export const BLOCKORA_PUBLISHED = false;
+export const BLOCKORA_APP_PATH = '/blockora' as const;
