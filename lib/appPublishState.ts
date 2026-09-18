@@ -74,7 +74,31 @@ export const PHOTO_STAMP_PUBLISHED = false;
 export const PHOTO_STAMP_APP_PATH = '/photo-stamp' as const;
 
 /** Blockiva – Block Puzzle — hidden until published; legal pages for store compliance. */
-export const BLOCKORA_UNDER_CONSTRUCTION = true;
-export const BLOCKORA_PILOT = false;
-export const BLOCKORA_PUBLISHED = false;
-export const BLOCKORA_APP_PATH = '/blockora' as const;
+export const BLOCKIVA_UNDER_CONSTRUCTION = true;
+export const BLOCKIVA_PILOT = false;
+export const BLOCKIVA_PUBLISHED = false;
+export const BLOCKIVA_APP_PATH = '/blockiva' as const;
+
+/** EventTick — hidden until published; legal pages for store compliance. */
+export const EVENTTICK_UNDER_CONSTRUCTION = true;
+export const EVENTTICK_PILOT = false;
+export const EVENTTICK_PUBLISHED = false;
+export const EVENTTICK_APP_PATH = '/eventtick' as const;
+
+/** TallyNudge — hidden until published; legal pages for store compliance. */
+export const TALLY_NUDGE_UNDER_CONSTRUCTION = true;
+export const TALLY_NUDGE_PILOT = false;
+export const TALLY_NUDGE_PUBLISHED = false;
+export const TALLY_NUDGE_APP_PATH = '/tally-nudge' as const;
+
+/** ZTLGuard — hidden until published; legal pages for store compliance. */
+export const ZTL_GUARD_UNDER_CONSTRUCTION = true;
+export const ZTL_GUARD_PILOT = false;
+export const ZTL_GUARD_PUBLISHED = false;
+export const ZTL_GUARD_APP_PATH = '/ztl-guard' as const;
+
+/** Contacts Toolbox — hidden until published; legal pages for store compliance. */
+export const CONTACTS_TOOLBOX_UNDER_CONSTRUCTION = true;
+export const CONTACTS_TOOLBOX_PILOT = false;
+export const CONTACTS_TOOLBOX_PUBLISHED = false;
+export const CONTACTS_TOOLBOX_APP_PATH = '/contacts-toolbox' as const;

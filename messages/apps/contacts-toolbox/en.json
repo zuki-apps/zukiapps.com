@@ -1,0 +1,286 @@
+{
+  "contactsToolbox": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming soon · iOS & Android",
+      "title": "Contacts Toolbox — Contacts Organizer",
+      "productName": "Contacts Toolbox — Contacts Organizer",
+      "subtitle": "Contacts Organizer",
+      "description": "Organize, deduplicate, and bulk-edit an address book on your device. Matching, merges, and bulk edits run locally with preview and undo.",
+      "socialProof": "On-device · Preview + undo · Optional Premium · iOS & Android",
+      "structuredDataDescription": "Contacts Toolbox is a contacts organizer for iOS and Android. Deduplicate and bulk-edit an address book on-device with preview and undo. com.zuki.apps.contactstoolbox.",
+      "seoTitle": "Contacts Toolbox — Contacts Organizer | Zuki Apps",
+      "metaDescription": "Contacts organizer: deduplicate and bulk-edit on your device. Coming soon to iOS and Android."
+    },
+    "pageNav": {
+      "features": "Features",
+      "howTo": "How to use",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "features": {
+      "title": "Clean up a messy address book",
+      "play": {
+        "title": "Find duplicates",
+        "description": "Match similar contacts and review merges before you apply them.",
+        "items": [
+          "On-device matching",
+          "Preview before merge",
+          "Undo after edits"
+        ]
+      },
+      "create": {
+        "title": "Bulk edit",
+        "description": "Update groups of contacts in one pass instead of card-by-card.",
+        "items": [
+          "Groups and insights",
+          "History of changes",
+          "No upload of your address book"
+        ]
+      },
+      "host": {
+        "title": "Free and Premium",
+        "description": "Premium is a one-time unlock (contacts_toolbox_premium). Store listings coming soon.",
+        "items": [
+          "Product ID: contacts_toolbox_premium",
+          "Restore purchases after reinstall",
+          "Support: zuki.apps.dev@gmail.com"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Duplicates, bulk edit, and Premium.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is Contacts Toolbox?",
+          "answer": "A contacts organizer for iOS and Android. Package: com.zuki.apps.contactstoolbox."
+        },
+        {
+          "question": "Does it upload my contacts?",
+          "answer": "No. Matching, merges, and bulk edits run on your device."
+        },
+        {
+          "question": "Do I need an account?",
+          "answer": "No."
+        },
+        {
+          "question": "What is Premium?",
+          "answer": "A one-time unlock: contacts_toolbox_premium, processed by Apple or Google."
+        },
+        {
+          "question": "How do I get support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/contacts-toolbox/support."
+        }
+      ]
+    },
+    "status": {
+      "title": "Availability",
+      "description": "Contacts Toolbox is in development. App Store and Google Play listings coming soon.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "0.9.0",
+      "statusValue": "iOS & Android · Coming soon"
+    },
+    "download": {
+      "title": "Download Contacts Toolbox — Contacts Organizer",
+      "description": "Contacts organizer. Coming soon to the App Store and Google Play.",
+      "soon": "Coming soon to the App Store and Google Play",
+      "googlePlaySoon": "Coming soon on Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Contacts Toolbox — Contacts Organizer app icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "footer": {
+      "copyright": "© 2026 Contacts Toolbox — Contacts Organizer — All rights reserved",
+      "tagline": "Part of Zuki Apps · by Zuki.Apps"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Privacy Policy for Contacts Toolbox — Contacts Organizer.",
+      "lastUpdated": "Last updated: September 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps handles information when you use Contacts Toolbox and related pages at zukiapps.com/contacts-toolbox.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the Contacts Toolbox app and the legal pages we publish for the product."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "Contacts Toolbox is designed to work on-device. Contact data is processed locally.",
+        "items": [
+          "Contact records you choose to organize, processed on device (not uploaded to Zuki Apps)",
+          "Groups, match suggestions, edit history, and Premium status stored on device",
+          "Advertising identifier and ad performance data via Google AdMob (if you allow tracking on iOS)",
+          "Crash and diagnostic data via Firebase Crashlytics",
+          "Feedback and support messages you send",
+          "Purchase records handled by Apple or Google — tokens only, not full card data"
+        ]
+      },
+      "section3": {
+        "title": "3. How we use information",
+        "content": "We use information to:",
+        "items": [
+          "Organize and deduplicate contacts on your device",
+          "Operate and improve Contacts Toolbox",
+          "Respond to support requests",
+          "Validate in-app purchases"
+        ],
+        "content2": "We do not sell your personal information."
+      },
+      "section4": {
+        "title": "4. Advertising and tracking",
+        "content": "The free version shows Google AdMob ads. On iOS we ask for App Tracking Transparency permission before initializing ads. You can deny tracking; ads may still appear in a non-personalized form.",
+        "content2": "We do not upload your address book to Zuki Apps servers. Premium removes ads."
+      },
+      "section5": {
+        "title": "5. Storage and retention",
+        "content": "Contact edits and history remain on device until you uninstall or clear them.",
+        "content2": "Ad and purchase partners retain data under their own policies."
+      },
+      "section6": {
+        "title": "6. Third-party services",
+        "content": "Apple App Store, Google Play Billing, Google AdMob, and Firebase (Analytics and Crashlytics) process data under their own policies.",
+        "content2": "We do not sell your personal information or your address book."
+      },
+      "section7": {
+        "title": "7. Your rights and children",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights.",
+        "content2": "Contacts Toolbox is a general-audience utility. It is not directed to children under 13."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new Last updated date."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "metaDescription": "Terms of Use for Contacts Toolbox — Contacts Organizer.",
+      "lastUpdated": "Last updated: September 2026",
+      "intro": "Please read these Terms carefully before using Contacts Toolbox. By downloading or using the app, you agree to these Terms and our Privacy Policy.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your use of Contacts Toolbox operated by Zuki Apps. If you do not agree, do not use the Service.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Contacts Toolbox includes:",
+        "items": [
+          "On-device contact organize, duplicate matching, and bulk edit",
+          "Optional Premium via app stores"
+        ]
+      },
+      "section3": {
+        "title": "3. Fair use",
+        "content": "Contacts Toolbox is a utility. Always review merge and bulk-edit previews before you apply them. We are not responsible for contact data you delete.",
+        "content2": "Do not attempt to reverse-engineer or abuse the Service except as permitted by law."
+      },
+      "section4": {
+        "title": "4. Purchases",
+        "content": "Premium is processed by Apple or Google. Their terms and refund policies apply.",
+        "content2": "Use Restore purchases after reinstall when applicable."
+      },
+      "section5": {
+        "title": "5. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Use the Service for unlawful purposes",
+          "Reverse engineer the app except as permitted by law",
+          "Interfere with security or purchase features"
+        ]
+      },
+      "section6": {
+        "title": "6. Disclaimer",
+        "content": "THE APP IS PROVIDED AS IS WITHOUT WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.",
+        "content2": "We do not guarantee uninterrupted or error-free service."
+      },
+      "section7": {
+        "title": "7. Limitation of liability",
+        "content": "To the maximum extent permitted by law, Zuki Apps shall not be liable for indirect, incidental, or consequential damages arising from use of the Service."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may modify these Terms. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "Find answers about Contacts Toolbox — Contacts Organizer.",
+      "metaTitle": "Support & Help — Contacts Toolbox — Contacts Organizer | Zuki Apps",
+      "metaDescription": "Contacts Toolbox FAQ — duplicates, bulk edit, Premium, and restore purchases.",
+      "contact": {
+        "title": "Contact us",
+        "description": "Email us and we will get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "How Contacts Toolbox handles your data"
+        },
+        "terms": {
+          "title": "Terms of Use",
+          "description": "Terms for using Contacts Toolbox — Contacts Organizer"
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "q1": {
+          "question": "Are my contacts uploaded?",
+          "answer": "No. Matching and edits run on the device."
+        },
+        "q2": {
+          "question": "Can I undo a merge?",
+          "answer": "Yes. Review the preview first; history supports undo."
+        },
+        "q3": {
+          "question": "How do I restore Premium?",
+          "answer": "Use Restore purchases after reinstall. Product ID: contacts_toolbox_premium."
+        },
+        "q4": {
+          "question": "Do I need an account?",
+          "answer": "No."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need more help?",
+        "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+      }
+    },
+    "howToUse": {
+      "title": "How to use",
+      "subtitle": "Review. Merge. Undo if needed.",
+      "steps": [
+        {
+          "title": "Open your list",
+          "description": "Browse contacts and groups on the device."
+        },
+        {
+          "title": "Review duplicates",
+          "description": "Inspect suggested matches before merging."
+        },
+        {
+          "title": "Bulk edit with undo",
+          "description": "Apply a change to many contacts, then undo if it was not what you wanted."
+        }
+      ]
+    }
+  }
+}

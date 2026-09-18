@@ -19,7 +19,11 @@ export type ProductAppSlug =
   | 'questivo'
   | 'coloring-my-photo'
   | 'photo-stamp'
-  | 'blockora'
+  | 'blockiva'
+  | 'eventtick'
+  | 'tally-nudge'
+  | 'ztl-guard'
+  | 'contacts-toolbox'
   | 'toldya';
 
 export type ProductAppNamespace =
@@ -42,7 +46,11 @@ export type ProductAppNamespace =
   | 'questivo'
   | 'coloringMyPhoto'
   | 'photoStamp'
-  | 'blockora'
+  | 'blockiva'
+  | 'eventTick'
+  | 'tallyNudge'
+  | 'ztlGuard'
+  | 'contactsToolbox'
   | 'toldya';
 
 export type ProductAppConfig = {
@@ -163,14 +171,58 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     accent: 'teal',
     hasSupportPage: true,
   },
-  blockora: {
-    slug: 'blockora',
-    namespace: 'blockora',
-    appPath: '/blockora',
+  blockiva: {
+    slug: 'blockiva',
+    namespace: 'blockiva',
+    appPath: '/blockiva',
     applicationCategory: 'GameApplication',
-    faqId: 'blockora-faq-ld',
-    howToId: 'blockora-howto-ld',
+    faqId: 'blockiva-faq-ld',
+    howToId: 'blockiva-howto-ld',
     accent: 'amber',
+    hasSupportPage: true,
+    operatingSystem: 'iOS,Android',
+  },
+  eventtick: {
+    slug: 'eventtick',
+    namespace: 'eventTick',
+    appPath: '/eventtick',
+    applicationCategory: 'LifestyleApplication',
+    faqId: 'eventtick-faq-ld',
+    howToId: 'eventtick-howto-ld',
+    accent: 'sky',
+    hasSupportPage: true,
+    operatingSystem: 'iOS,Android',
+  },
+  'tally-nudge': {
+    slug: 'tally-nudge',
+    namespace: 'tallyNudge',
+    appPath: '/tally-nudge',
+    applicationCategory: 'UtilitiesApplication',
+    faqId: 'tally-nudge-faq-ld',
+    howToId: 'tally-nudge-howto-ld',
+    accent: 'emerald',
+    hasSupportPage: true,
+    operatingSystem: 'iOS,Android',
+  },
+  'ztl-guard': {
+    slug: 'ztl-guard',
+    namespace: 'ztlGuard',
+    appPath: '/ztl-guard',
+    applicationCategory: 'TravelApplication',
+    faqId: 'ztl-guard-faq-ld',
+    howToId: 'ztl-guard-howto-ld',
+    accent: 'orange',
+    hasSupportPage: true,
+    operatingSystem: 'iOS,Android',
+  },
+  'contacts-toolbox': {
+    slug: 'contacts-toolbox',
+    namespace: 'contactsToolbox',
+    appPath: '/contacts-toolbox',
+    applicationCategory: 'UtilitiesApplication',
+    faqId: 'contacts-toolbox-faq-ld',
+    howToId: 'contacts-toolbox-howto-ld',
+    accent: 'violet',
     hasSupportPage: true,
     operatingSystem: 'iOS,Android',
   },

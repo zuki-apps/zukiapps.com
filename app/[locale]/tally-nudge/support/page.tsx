@@ -21,15 +21,15 @@ export async function generateMetadata({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'blockora.support' });
+  const t = await getTranslations({ locale, namespace: 'tallyNudge.support' });
 
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
     robots: 'index, follow',
     alternates: {
-      canonical: buildCanonical(locale, '/blockora/support'),
-      languages: buildLanguageAlternates('/blockora/support'),
+      canonical: buildCanonical(locale, '/tally-nudge/support'),
+      languages: buildLanguageAlternates('/tally-nudge/support'),
     },
   };
 }
@@ -45,8 +45,8 @@ export default async function GeoCalcSupportPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'blockora.support' });
-  const tHero = await getTranslations({ locale, namespace: 'blockora.hero' });
+  const t = await getTranslations({ locale, namespace: 'tallyNudge.support' });
+  const tHero = await getTranslations({ locale, namespace: 'tallyNudge.hero' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   const faqItems = collectNumberedSupportFaq(t);
@@ -57,7 +57,7 @@ export default async function GeoCalcSupportPage({
   return (
     <>
       <Script
-        id="blockora-support-faq-ld"
+        id="tally-nudge-support-faq-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
@@ -65,22 +65,22 @@ export default async function GeoCalcSupportPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: brandName, path: '/blockora' },
-          { name: tCommon('support'), path: '/blockora/support' },
+          { name: brandName, path: '/tally-nudge' },
+          { name: tCommon('support'), path: '/tally-nudge/support' },
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-amber-50 to-gray-50">
+      <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-emerald-50 to-gray-50">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="mb-6 flex justify-end">
             <LanguageSwitcher />
           </div>
 
-          <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-              <h1 className="text-4xl font-bold text-amber-700">{brandName}</h1>
+          <div className="bg-emerald-50 rounded-2xl shadow-xl p-8 md:p-12">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-emerald-600">
+              <h1 className="text-4xl font-bold text-emerald-700">{brandName}</h1>
               <Link
-                href={`/${locale}/blockora`}
-                className="px-4 py-2 border-2 border-amber-600 bg-white text-amber-700 rounded-lg hover:bg-amber-600 hover:text-white transition-colors text-sm"
+                href={`/${locale}/tally-nudge`}
+                className="px-4 py-2 border-2 border-emerald-600 bg-white text-emerald-700 rounded-lg hover:bg-emerald-600 hover:text-white transition-colors text-sm"
               >
                 {tCommon('back')}
               </Link>
@@ -90,15 +90,15 @@ export default async function GeoCalcSupportPage({
               <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('title')}</h2>
               <p className="text-gray-400 mb-8">{t('subtitle')}</p>
 
-              <section className="bg-white rounded-lg p-6 mb-8 border-l-4 border-amber-600">
+              <section className="bg-white rounded-lg p-6 mb-8 border-l-4 border-emerald-600">
                 <div className="flex items-start gap-4">
-                  <Mail className="w-6 h-6 text-amber-700 flex-shrink-0 mt-1" />
+                  <Mail className="w-6 h-6 text-emerald-700 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-2xl font-bold text-amber-700 mb-3">{t('contact.title')}</h3>
+                    <h3 className="text-2xl font-bold text-emerald-700 mb-3">{t('contact.title')}</h3>
                     <p className="text-gray-700 mb-4">{t('contact.description')}</p>
                     <a
                       href={`mailto:${t('contact.email')}`}
-                      className="inline-flex items-center gap-2 text-amber-700 hover:text-amber-800 font-semibold"
+                      className="inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-800 font-semibold"
                     >
                       <Mail className="w-5 h-5" />
                       {t('contact.email')}
@@ -108,14 +108,14 @@ export default async function GeoCalcSupportPage({
               </section>
 
               <section className="mb-8">
-                <h3 className="text-2xl font-bold text-amber-700 mb-4">{t('quickLinks.title')}</h3>
+                <h3 className="text-2xl font-bold text-emerald-700 mb-4">{t('quickLinks.title')}</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <Link
-                    href={`/${locale}/blockora/privacy`}
+                    href={`/${locale}/tally-nudge/privacy`}
                     className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200"
                   >
                     <div className="flex items-start gap-3">
-                      <Shield className="w-5 h-5 text-amber-700 flex-shrink-0 mt-1" />
+                      <Shield className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">{t('quickLinks.privacy.title')}</h4>
                         <p className="text-sm text-gray-400">{t('quickLinks.privacy.description')}</p>
@@ -123,11 +123,11 @@ export default async function GeoCalcSupportPage({
                     </div>
                   </Link>
                   <Link
-                    href={`/${locale}/blockora/terms`}
+                    href={`/${locale}/tally-nudge/terms`}
                     className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200"
                   >
                     <div className="flex items-start gap-3">
-                      <FileText className="w-5 h-5 text-amber-700 flex-shrink-0 mt-1" />
+                      <FileText className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">{t('quickLinks.terms.title')}</h4>
                         <p className="text-sm text-gray-400">{t('quickLinks.terms.description')}</p>
@@ -138,12 +138,12 @@ export default async function GeoCalcSupportPage({
               </section>
 
               <section>
-                <h3 className="text-2xl font-bold text-amber-700 mb-6">{t('faq.title')}</h3>
+                <h3 className="text-2xl font-bold text-emerald-700 mb-6">{t('faq.title')}</h3>
                 <div className="space-y-6">
                   {faqItems.map((item, index) => (
                     <div key={index} className="bg-white rounded-lg p-6 border border-gray-200">
                       <div className="flex items-start gap-3">
-                        <HelpCircle className="w-5 h-5 text-amber-700 flex-shrink-0 mt-1" />
+                        <HelpCircle className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-1" />
                         <div>
                           <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.question}</h3>
                           <p className="text-gray-700 leading-relaxed">{item.answer}</p>
@@ -154,11 +154,11 @@ export default async function GeoCalcSupportPage({
                 </div>
               </section>
 
-              <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-amber-600 mt-8">
+              <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-emerald-600 mt-8">
                 <div className="flex items-start gap-3">
-                  <MessageCircle className="w-6 h-6 text-amber-700 flex-shrink-0 mt-1" />
+                  <MessageCircle className="w-6 h-6 text-emerald-700 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-2xl font-bold text-amber-700 mb-3">{t('additionalHelp.title')}</h3>
+                    <h3 className="text-2xl font-bold text-emerald-700 mb-3">{t('additionalHelp.title')}</h3>
                     <p className="text-gray-700">{t('additionalHelp.description')}</p>
                   </div>
                 </div>

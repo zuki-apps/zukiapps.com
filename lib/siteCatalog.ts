@@ -62,6 +62,31 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
 /** Unpublished / under-construction titles — About portfolio only, not home or JSON-LD ItemList. */
 export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
   {
+    path: '/eventtick',
+    name: 'EventTick',
+    description: 'Countdown & Widgets. Coming soon. com.zuki.apps.eventtick.',
+  },
+  {
+    path: '/tally-nudge',
+    name: 'TallyNudge',
+    description: 'Tally Counter & Clicker. Coming soon. com.zuki.apps.tallynudge.',
+  },
+  {
+    path: '/ztl-guard',
+    name: 'ZTLGuard',
+    description: 'Italy ZTL Alerts. Coming soon. com.zuki.apps.ztlguard.',
+  },
+  {
+    path: '/contacts-toolbox',
+    name: 'Contacts Toolbox',
+    description: 'Contacts Organizer. Coming soon. com.zuki.apps.contactstoolbox.',
+  },
+  {
+    path: '/blockiva',
+    name: 'Blockiva – Block Puzzle',
+    description: 'Block puzzle with shifting placement rules. Coming soon. com.zuki.apps.blockiva.',
+  },
+  {
     path: '/questivo',
     name: 'Questivo',
     description: 'Scavenger hunts and real-world missions. Create a quest, share a code. Coming soon. com.zuki.apps.questivo.',
@@ -75,11 +100,6 @@ export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
     path: '/photo-stamp',
     name: 'Photo Stamp: Date & Location',
     description: 'Stamp date, time, and location onto existing photos and videos. On-device. Coming soon. com.zuki.apps.photostamp.',
-  },
-  {
-    path: '/blockora',
-    name: 'Blockiva – Block Puzzle',
-    description: 'Block puzzle with shifting placement rules. Coming soon. com.zuki.apps.blockiva.',
   },
 ];
 

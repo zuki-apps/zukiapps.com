@@ -30,21 +30,21 @@ export async function generateMetadata({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'blockora.terms' });
-  const tHero = await getTranslations({ locale, namespace: 'blockora' });
+  const t = await getTranslations({ locale, namespace: 'tallyNudge.privacy' });
+  const tHero = await getTranslations({ locale, namespace: 'tallyNudge' });
 
   return {
     title: `${t('title')} — ${tHero('hero.subtitle')} | Zuki Apps`,
     description: t('metaDescription'),
     robots: { index: true, follow: true },
     alternates: {
-      canonical: buildCanonical(locale, '/blockora/terms'),
-      languages: buildLanguageAlternates('/blockora/terms'),
+      canonical: buildCanonical(locale, '/tally-nudge/privacy'),
+      languages: buildLanguageAlternates('/tally-nudge/privacy'),
     },
   };
 }
 
-export default async function GeoCalcTermsPage({
+export default async function GeoCalcPrivacyPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -55,9 +55,9 @@ export default async function GeoCalcTermsPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'blockora.terms' });
+  const t = await getTranslations({ locale, namespace: 'tallyNudge.privacy' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
-  const tApp = await getTranslations({ locale, namespace: 'blockora.hero' });
+  const tApp = await getTranslations({ locale, namespace: 'tallyNudge.hero' });
   const rtl = locale === 'he' || locale === 'ar';
   const brandName = tApp('subtitle');
 
@@ -67,22 +67,22 @@ export default async function GeoCalcTermsPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: brandName, path: '/blockora' },
-          { name: tCommon('termsOfService'), path: '/blockora/terms' },
+          { name: brandName, path: '/tally-nudge' },
+          { name: tCommon('privacyPolicy'), path: '/tally-nudge/privacy' },
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-amber-50 to-gray-50">
+      <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-emerald-50 to-gray-50">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="mb-6 flex justify-end">
             <LanguageSwitcher />
           </div>
 
-          <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-              <h1 className="text-4xl font-bold text-amber-800">{brandName}</h1>
+          <div className="bg-emerald-50 rounded-2xl shadow-xl p-8 md:p-12">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-emerald-600">
+              <h1 className="text-4xl font-bold text-emerald-800">{brandName}</h1>
               <Link
-                href={`/${locale}/blockora`}
-                className="px-4 py-2 border-2 border-amber-600 bg-white text-amber-800 rounded-lg hover:bg-amber-600 hover:text-white transition-colors text-sm"
+                href={`/${locale}/tally-nudge`}
+                className="px-4 py-2 border-2 border-emerald-600 bg-white text-emerald-800 rounded-lg hover:bg-emerald-600 hover:text-white transition-colors text-sm"
               >
                 {tCommon('back')}
               </Link>
@@ -95,8 +95,8 @@ export default async function GeoCalcTermsPage({
 
               <LegalSections
                 sections={BODY_SECTIONS}
-                listSectionKeys={['section2', 'section5']}
-                withContent2={['section1', 'section3', 'section4', 'section6']}
+                listSectionKeys={['section2', 'section3']}
+                withContent2={['section1', 'section3', 'section4', 'section5', 'section6', 'section7']}
                 t={t}
                 tRaw={t.raw}
                 rtl={rtl}
@@ -105,8 +105,8 @@ export default async function GeoCalcTermsPage({
                 addressLabel={tCommon('address')}
                 contactExtraLinks={[
                   {
-                    href: `/${locale}/blockora/privacy`,
-                    label: tCommon('privacyPolicy'),
+                    href: `/${locale}/tally-nudge/terms`,
+                    label: tCommon('termsOfService'),
                   },
                 ]}
               />

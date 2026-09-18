@@ -29,7 +29,11 @@ const APPS = [
   'questivo',
   'coloring-my-photo',
   'photo-stamp',
-  'blockora',
+  'blockiva',
+  'eventtick',
+  'tally-nudge',
+  'ztl-guard',
+  'contacts-toolbox',
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

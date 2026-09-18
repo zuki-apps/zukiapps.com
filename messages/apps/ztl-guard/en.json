@@ -1,0 +1,286 @@
+{
+  "ztlGuard": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming soon · iOS & Android",
+      "title": "ZTLGuard — Italy ZTL Alerts",
+      "productName": "ZTLGuard — Italy ZTL Alerts",
+      "subtitle": "Italy ZTL Alerts",
+      "description": "Italy ZTL (zona a traffico limitato) alerts. Browse city zones on a map and measure distance to boundaries on-device. Location is used only on the device — it is not stored or uploaded.",
+      "socialProof": "On-device location · Map of demonstration zones · Optional Premium · iOS & Android",
+      "structuredDataDescription": "ZTLGuard is an Italy ZTL alert app for iOS and Android. Browse limited-traffic zones and measure distance on-device. Location is not uploaded. com.zuki.apps.ztlguard.",
+      "seoTitle": "ZTLGuard — Italy ZTL Alerts | Zuki Apps",
+      "metaDescription": "Italy ZTL alerts with on-device location. Coming soon to iOS and Android."
+    },
+    "pageNav": {
+      "features": "Features",
+      "howTo": "How to use",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "features": {
+      "title": "Know when you are near a ZTL",
+      "play": {
+        "title": "City zones",
+        "description": "Open a city, see limited-traffic zones on the map, and check distance from your position.",
+        "items": [
+          "Dark cartographic UI",
+          "Works without GPS for browsing",
+          "Distance to zone boundaries on-device"
+        ]
+      },
+      "create": {
+        "title": "On-device location",
+        "description": "Position is used only on the device to measure distance to zone boundaries. It is not stored or uploaded.",
+        "items": [
+          "Permission requested after onboarding",
+          "Browse cities without GPS",
+          "No account required"
+        ]
+      },
+      "host": {
+        "title": "Free and Premium",
+        "description": "Premium is a one-time unlock (ztlguard_premium). Store listings coming soon.",
+        "items": [
+          "Product ID: ztlguard_premium",
+          "Restore purchases after reinstall",
+          "Support: zuki.apps.dev@gmail.com"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Italy ZTL zones, location, and Premium.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "What is ZTLGuard?",
+          "answer": "An Italy ZTL (limited-traffic zone) alert app for iOS and Android. Package: com.zuki.apps.ztlguard."
+        },
+        {
+          "question": "Does it upload my location?",
+          "answer": "No. Position is used only on-device to measure distance to zone boundaries. It is not stored or uploaded."
+        },
+        {
+          "question": "Do I need GPS?",
+          "answer": "No. You can browse cities and zones without GPS. Location is optional for distance alerts."
+        },
+        {
+          "question": "Is the zone data official live municipal data?",
+          "answer": "The current build uses demonstration zone data for a set of Italian cities. Treat it as guidance, not a legal driving permit."
+        },
+        {
+          "question": "How do I get support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/ztl-guard/support."
+        }
+      ]
+    },
+    "status": {
+      "title": "Availability",
+      "description": "ZTLGuard is in development. App Store and Google Play listings coming soon.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "1.0.0",
+      "statusValue": "iOS & Android · Coming soon"
+    },
+    "download": {
+      "title": "Download ZTLGuard — Italy ZTL Alerts",
+      "description": "Italy ZTL alerts. Coming soon to the App Store and Google Play.",
+      "soon": "Coming soon to the App Store and Google Play",
+      "googlePlaySoon": "Coming soon on Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "ZTLGuard — Italy ZTL Alerts app icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "footer": {
+      "copyright": "© 2026 ZTLGuard — Italy ZTL Alerts — All rights reserved",
+      "tagline": "Part of Zuki Apps · by Zuki.Apps"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Privacy Policy for ZTLGuard — Italy ZTL Alerts.",
+      "lastUpdated": "Last updated: September 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps handles information when you use ZTLGuard and related pages at zukiapps.com/ztl-guard.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the ZTLGuard app and the legal pages we publish for the product."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "ZTLGuard is designed to work on-device. Location is used only to measure distance to zone boundaries.",
+        "items": [
+          "On-device location while the app is open (optional, after permission) — not stored or uploaded",
+          "City and zone data cached on device",
+          "Premium status stored on device",
+          "Feedback and support messages you send",
+          "Purchase records handled by Apple or Google — tokens only, not full card data"
+        ]
+      },
+      "section3": {
+        "title": "3. How we use information",
+        "content": "We use information to:",
+        "items": [
+          "Show nearby ZTL zones and distances on your device",
+          "Operate and improve ZTLGuard",
+          "Respond to support requests",
+          "Validate in-app purchases"
+        ],
+        "content2": "We do not sell your personal information."
+      },
+      "section4": {
+        "title": "4. Advertising and tracking",
+        "content": "ZTLGuard does not show ads in the current build. If ads are added later, this Policy will be updated.",
+        "content2": "Location permission can be denied; you can still browse cities and zones."
+      },
+      "section5": {
+        "title": "5. Storage and retention",
+        "content": "Zone cache and settings remain on device until you uninstall. Location is not retained after you leave the session.",
+        "content2": "Ad and purchase partners retain data under their own policies."
+      },
+      "section6": {
+        "title": "6. Third-party services",
+        "content": "Apple App Store and Google Play Billing may process purchase data under their policies. Map tiles may be fetched from the map provider while you browse.",
+        "content2": "We do not sell your personal information. We do not upload your GPS track."
+      },
+      "section7": {
+        "title": "7. Your rights and children",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights.",
+        "content2": "ZTLGuard is a general-audience travel utility. It is not directed to children under 13. It is not a substitute for official signs or local rules."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new Last updated date."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "metaDescription": "Terms of Use for ZTLGuard — Italy ZTL Alerts.",
+      "lastUpdated": "Last updated: September 2026",
+      "intro": "Please read these Terms carefully before using ZTLGuard. By downloading or using the app, you agree to these Terms and our Privacy Policy.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your use of ZTLGuard operated by Zuki Apps. If you do not agree, do not use the Service.",
+        "content2": "If you use the Service on behalf of an organization, you represent that you have authority to bind that organization."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "ZTLGuard includes:",
+        "items": [
+          "Map of Italy ZTL zones for demonstration and guidance",
+          "Optional on-device location for distance alerts",
+          "Optional Premium via app stores"
+        ]
+      },
+      "section3": {
+        "title": "3. Fair use",
+        "content": "ZTLGuard is a guidance utility. Zone data may be incomplete or out of date. Always follow official signs and local law. It is not a driving permit.",
+        "content2": "Do not attempt to reverse-engineer or abuse the Service except as permitted by law."
+      },
+      "section4": {
+        "title": "4. Purchases",
+        "content": "Premium is processed by Apple or Google. Their terms and refund policies apply.",
+        "content2": "Use Restore purchases after reinstall when applicable."
+      },
+      "section5": {
+        "title": "5. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Use the Service for unlawful purposes",
+          "Reverse engineer the app except as permitted by law",
+          "Interfere with security or purchase features"
+        ]
+      },
+      "section6": {
+        "title": "6. Disclaimer",
+        "content": "THE APP IS PROVIDED AS IS WITHOUT WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.",
+        "content2": "We do not guarantee uninterrupted or error-free service."
+      },
+      "section7": {
+        "title": "7. Limitation of liability",
+        "content": "To the maximum extent permitted by law, Zuki Apps shall not be liable for indirect, incidental, or consequential damages arising from use of the Service."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may modify these Terms. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "Find answers about ZTLGuard — Italy ZTL Alerts.",
+      "metaTitle": "Support & Help — ZTLGuard — Italy ZTL Alerts | Zuki Apps",
+      "metaDescription": "ZTLGuard FAQ — Italy ZTL zones, location, Premium, and restore purchases.",
+      "contact": {
+        "title": "Contact us",
+        "description": "Email us and we will get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "How ZTLGuard handles your data"
+        },
+        "terms": {
+          "title": "Terms of Use",
+          "description": "Terms for using ZTLGuard — Italy ZTL Alerts"
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "q1": {
+          "question": "Is this legal advice?",
+          "answer": "No. ZTLGuard is a guidance tool. Official signs and local rules always win."
+        },
+        "q2": {
+          "question": "Is my location uploaded?",
+          "answer": "No. Distance is measured on the device."
+        },
+        "q3": {
+          "question": "How do I restore Premium?",
+          "answer": "Use Restore purchases after reinstall. Product ID: ztlguard_premium."
+        },
+        "q4": {
+          "question": "Does it work without GPS?",
+          "answer": "Yes. You can browse cities and zones without turning on location."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need more help?",
+        "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+      }
+    },
+    "howToUse": {
+      "title": "How to use",
+      "subtitle": "Browse a city. Optionally enable location.",
+      "steps": [
+        {
+          "title": "Pick a city",
+          "description": "Open the city list and choose where you are going."
+        },
+        {
+          "title": "View zones",
+          "description": "See limited-traffic zones on the map."
+        },
+        {
+          "title": "Optional alerts",
+          "description": "Allow location so the app can measure distance to zone boundaries on-device."
+        }
+      ]
+    }
+  }
+}

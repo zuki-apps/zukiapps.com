@@ -9,8 +9,8 @@ import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import StarBackground from '@/components/StarBackground';
 import { ProductMarketingSections, ProductPageNav, DownloadStoreFab } from '@/lib/lazyProductComponents';
 
-export default function BlockoraPage() {
-  const t = useTranslations('blockora');
+export default function EventTickPage() {
+  const t = useTranslations('eventTick');
   const tCommon = useTranslations('common');
   const locale = useLocale();
   const rtl = locale === 'he' || locale === 'ar';
@@ -26,7 +26,7 @@ export default function BlockoraPage() {
       <div className="max-w-7xl mx-auto px-4 pt-4 flex items-center justify-between relative z-10">
         <Link
           href={`/${locale}`}
-          className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-medium transition-colors"
+          className="inline-flex items-center gap-2 text-sky-400 hover:text-sky-300 font-medium transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
           {t('back')}
@@ -38,19 +38,19 @@ export default function BlockoraPage() {
 
       <section className={`py-12 px-4 relative z-10 ${rtl ? 'text-right' : 'text-center'}`} id="download">
         <div className={`max-w-7xl mx-auto ${rtl ? '' : 'text-center'}`}>
-          <div className="inline-flex items-center gap-2 bg-amber-950/60 border border-amber-500/40 text-amber-200 px-4 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
+          <div className="inline-flex items-center gap-2 bg-sky-950/60 border border-sky-500/40 text-sky-200 px-4 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
             <CheckCircle2 className="w-4 h-4" aria-hidden />
             {t('hero.badge')}
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-sky-400 via-sky-300 to-sky-500 bg-clip-text text-transparent">
             {t('hero.title')}
           </h1>
-          <p className="text-xl text-amber-300/90 mb-2">{t('hero.subtitle')}</p>
+          <p className="text-xl text-sky-300/90 mb-2">{t('hero.subtitle')}</p>
           <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto">{t('hero.description')}</p>
           <p className="text-sm text-gray-500 mb-8 max-w-2xl mx-auto">{t('hero.socialProof')}</p>
 
-          <ProductPageNav namespace="blockora" accent="amber" />
+          <ProductPageNav namespace="eventTick" accent="sky" />
 
           <div className="mb-10">
             <StoreDownloadBadges
@@ -59,32 +59,32 @@ export default function BlockoraPage() {
               appStoreAlt={t('download.appStoreAlt')}
               googlePlayAlt={t('download.googlePlayAlt')}
               googlePlaySoonLabel={t('download.googlePlaySoon')}
-              fallbackBorderClass="border-amber-600/30"
-              utmContent="blockora"
+              fallbackBorderClass="border-sky-600/30"
+              utmContent="eventtick"
             />
           </div>
 
           <div className="flex justify-center gap-4 text-sm flex-wrap mb-4">
-            <Link href={`/${locale}/blockora/privacy`} className="text-amber-400 hover:text-amber-300 underline">
+            <Link href={`/${locale}/eventtick/privacy`} className="text-sky-400 hover:text-sky-300 underline">
               {tCommon('privacyPolicy')}
             </Link>
             <span className="text-gray-500">|</span>
-            <Link href={`/${locale}/blockora/terms`} className="text-amber-400 hover:text-amber-300 underline">
+            <Link href={`/${locale}/eventtick/terms`} className="text-sky-400 hover:text-sky-300 underline">
               {tCommon('termsOfService')}
             </Link>
             <span className="text-gray-500">|</span>
-            <Link href={`/${locale}/blockora/support`} className="text-amber-400 hover:text-amber-300 underline">
+            <Link href={`/${locale}/eventtick/support`} className="text-sky-400 hover:text-sky-300 underline">
               {tCommon('support')}
             </Link>
           </div>
         </div>
       </section>
 
-      <ProductMarketingSections namespace="blockora" slug="blockora" accent="amber" hasSupportPage showPromoMascot={false} />
+      <ProductMarketingSections namespace="eventTick" slug="eventtick" accent="sky" hasSupportPage showPromoMascot={false} />
 
       <section className="py-12 px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-amber-500/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
+          <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-sky-500/30 rounded-xl p-8 backdrop-blur-sm bg-opacity-90">
             <h2 className="text-3xl font-bold mb-4 text-white">{t('status.title')}</h2>
             <p className="text-lg text-gray-300 mb-6">{t('status.description')}</p>
             <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-400">
@@ -111,8 +111,8 @@ export default function BlockoraPage() {
             appStoreAlt={t('download.appStoreAlt')}
             googlePlayAlt={t('download.googlePlayAlt')}
             googlePlaySoonLabel={t('download.googlePlaySoon')}
-            fallbackBorderClass="border-amber-600/30"
-            utmContent="blockora"
+            fallbackBorderClass="border-sky-600/30"
+            utmContent="eventtick"
           />
         </div>
       </section>
@@ -125,15 +125,15 @@ export default function BlockoraPage() {
           <p className="text-gray-400 mb-2">{t('footer.copyright')}</p>
           <p className="text-sm text-gray-400">{t('footer.tagline')}</p>
           <div className="flex justify-center gap-4 mt-4 text-sm flex-wrap">
-            <Link href={`/${locale}/blockora/support`} className="text-gray-400 hover:text-amber-400 transition-colors">
+            <Link href={`/${locale}/eventtick/support`} className="text-gray-400 hover:text-sky-400 transition-colors">
               {tCommon('support')}
             </Link>
             <span className="text-gray-500">|</span>
-            <Link href={`/${locale}/blockora/privacy`} className="text-gray-400 hover:text-amber-400 transition-colors">
+            <Link href={`/${locale}/eventtick/privacy`} className="text-gray-400 hover:text-sky-400 transition-colors">
               {tCommon('privacyPolicy')}
             </Link>
             <span className="text-gray-500">|</span>
-            <Link href={`/${locale}/blockora/terms`} className="text-gray-400 hover:text-amber-400 transition-colors">
+            <Link href={`/${locale}/eventtick/terms`} className="text-gray-400 hover:text-sky-400 transition-colors">
               {tCommon('termsOfService')}
             </Link>
           </div>
@@ -141,12 +141,12 @@ export default function BlockoraPage() {
       </footer>
 
       <DownloadStoreFab
-        accent="amber"
+        accent="sky"
         appStoreUrl={t('download.appStoreUrl')}
         googlePlayUrl={t('download.googlePlayUrl')}
         appStoreAlt={t('download.appStoreAlt')}
         googlePlayAlt={t('download.googlePlayAlt')}
-        utmContent="blockora"
+        utmContent="eventtick"
       />
     </div>
   );

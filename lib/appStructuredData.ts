@@ -23,5 +23,9 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/questivo': 'com.zuki.apps.questivo',
   '/coloring-my-photo': 'com.zuki.apps.coloringmyphoto',
   '/photo-stamp': 'com.zuki.apps.photostamp',
-  '/blockora': 'com.zuki.apps.blockiva',
+  '/blockiva': 'com.zuki.apps.blockiva',
+  '/eventtick': 'com.zuki.apps.eventtick',
+  '/tally-nudge': 'com.zuki.apps.tallynudge',
+  '/ztl-guard': 'com.zuki.apps.ztlguard',
+  '/contacts-toolbox': 'com.zuki.apps.contactstoolbox',
 };

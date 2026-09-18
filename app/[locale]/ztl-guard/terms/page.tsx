@@ -30,21 +30,21 @@ export async function generateMetadata({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'blockora.privacy' });
-  const tHero = await getTranslations({ locale, namespace: 'blockora' });
+  const t = await getTranslations({ locale, namespace: 'ztlGuard.terms' });
+  const tHero = await getTranslations({ locale, namespace: 'ztlGuard' });
 
   return {
     title: `${t('title')} — ${tHero('hero.subtitle')} | Zuki Apps`,
     description: t('metaDescription'),
     robots: { index: true, follow: true },
     alternates: {
-      canonical: buildCanonical(locale, '/blockora/privacy'),
-      languages: buildLanguageAlternates('/blockora/privacy'),
+      canonical: buildCanonical(locale, '/ztl-guard/terms'),
+      languages: buildLanguageAlternates('/ztl-guard/terms'),
     },
   };
 }
 
-export default async function GeoCalcPrivacyPage({
+export default async function GeoCalcTermsPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -55,9 +55,9 @@ export default async function GeoCalcPrivacyPage({
     notFound();
   }
 
-  const t = await getTranslations({ locale, namespace: 'blockora.privacy' });
+  const t = await getTranslations({ locale, namespace: 'ztlGuard.terms' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
-  const tApp = await getTranslations({ locale, namespace: 'blockora.hero' });
+  const tApp = await getTranslations({ locale, namespace: 'ztlGuard.hero' });
   const rtl = locale === 'he' || locale === 'ar';
   const brandName = tApp('subtitle');
 
@@ -67,22 +67,22 @@ export default async function GeoCalcPrivacyPage({
         locale={locale}
         items={[
           { name: tCommon('home'), path: '/' },
-          { name: brandName, path: '/blockora' },
-          { name: tCommon('privacyPolicy'), path: '/blockora/privacy' },
+          { name: brandName, path: '/ztl-guard' },
+          { name: tCommon('termsOfService'), path: '/ztl-guard/terms' },
         ]}
       />
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-amber-50 to-gray-50">
+      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-orange-50 to-gray-50">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="mb-6 flex justify-end">
             <LanguageSwitcher />
           </div>
 
-          <div className="bg-amber-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-amber-600">
-              <h1 className="text-4xl font-bold text-amber-800">{brandName}</h1>
+          <div className="bg-orange-50 rounded-2xl shadow-xl p-8 md:p-12">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-orange-600">
+              <h1 className="text-4xl font-bold text-orange-800">{brandName}</h1>
               <Link
-                href={`/${locale}/blockora`}
-                className="px-4 py-2 border-2 border-amber-600 bg-white text-amber-800 rounded-lg hover:bg-amber-600 hover:text-white transition-colors text-sm"
+                href={`/${locale}/ztl-guard`}
+                className="px-4 py-2 border-2 border-orange-600 bg-white text-orange-800 rounded-lg hover:bg-orange-600 hover:text-white transition-colors text-sm"
               >
                 {tCommon('back')}
               </Link>
@@ -95,8 +95,8 @@ export default async function GeoCalcPrivacyPage({
 
               <LegalSections
                 sections={BODY_SECTIONS}
-                listSectionKeys={['section2', 'section3']}
-                withContent2={['section1', 'section3', 'section4', 'section5', 'section6', 'section7']}
+                listSectionKeys={['section2', 'section5']}
+                withContent2={['section1', 'section3', 'section4', 'section6']}
                 t={t}
                 tRaw={t.raw}
                 rtl={rtl}
@@ -105,8 +105,8 @@ export default async function GeoCalcPrivacyPage({
                 addressLabel={tCommon('address')}
                 contactExtraLinks={[
                   {
-                    href: `/${locale}/blockora/terms`,
-                    label: tCommon('termsOfService'),
+                    href: `/${locale}/ztl-guard/privacy`,
+                    label: tCommon('privacyPolicy'),
                   },
                 ]}
               />

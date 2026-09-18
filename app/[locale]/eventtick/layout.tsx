@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/routing';
 import {
-  BLOCKORA_PILOT,
-  BLOCKORA_PUBLISHED,
-  BLOCKORA_UNDER_CONSTRUCTION,
+  EVENTTICK_PILOT,
+  EVENTTICK_PUBLISHED,
+  EVENTTICK_UNDER_CONSTRUCTION,
 } from '@/lib/appPublishState';
 import { buildProductPageMetadata } from '@/lib/productSeo';
 import ProductStructuredDataBlock from '@/components/ProductStructuredDataBlock';
 import AppClientMessages from '@/components/AppClientMessages';
 
-const BLOCKORA_INDEXABLE = BLOCKORA_PUBLISHED || BLOCKORA_PILOT;
-const BLOCKORA_ROBOTS = BLOCKORA_INDEXABLE
+const EVENTTICK_INDEXABLE = EVENTTICK_PUBLISHED || EVENTTICK_PILOT;
+const EVENTTICK_ROBOTS = EVENTTICK_INDEXABLE
   ? undefined
-  : BLOCKORA_UNDER_CONSTRUCTION
+  : EVENTTICK_UNDER_CONSTRUCTION
     ? { index: false, follow: true }
     : { index: false, follow: true };
 
@@ -28,32 +28,29 @@ export async function generateMetadata({
     return {};
   }
 
-  const t = await getTranslations({ locale, namespace: 'blockora' });
+  const t = await getTranslations({ locale, namespace: 'eventTick' });
 
   const meta = buildProductPageMetadata({
     locale,
-    appPath: '/blockora',
+    appPath: '/eventtick',
     t,
     keywords: [
-      'Blockiva – Block Puzzle',
-      'Blockiva',
-      'block puzzle',
-      'block puzzle game',
-      'shifting rules',
-      'casual puzzle',
-      'iOS Android puzzle',
-      'remove ads',
-      'com.zuki.apps.blockiva',
+      'EventTick',
+      'countdown',
+      'countdown widgets',
+      'event countdown',
+      'home screen widgets',
+      'com.zuki.apps.eventtick',
     ],
   });
 
   return {
     ...meta,
-    robots: BLOCKORA_ROBOTS ?? meta.robots,
+    robots: EVENTTICK_ROBOTS ?? meta.robots,
   };
 }
 
-export default async function BlockoraLayout({
+export default async function EventTickLayout({
   children,
   params,
 }: {
@@ -64,8 +61,8 @@ export default async function BlockoraLayout({
 
   return (
     <>
-      <ProductStructuredDataBlock locale={locale} slug="blockora" />
-      <AppClientMessages locale={locale} appFolder="blockora">
+      <ProductStructuredDataBlock locale={locale} slug="eventtick" />
+      <AppClientMessages locale={locale} appFolder="eventtick">
         {children}
       </AppClientMessages>
     </>
