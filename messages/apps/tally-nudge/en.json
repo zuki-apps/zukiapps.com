@@ -3,71 +3,94 @@
     "back": "Back to Home",
     "hero": {
       "badge": "Coming soon · iOS & Android",
-      "title": "TallyNudge — Tally Counter & Clicker",
+      "title": "Count anything with a tactile tap",
       "productName": "TallyNudge — Tally Counter & Clicker",
       "subtitle": "Tally Counter & Clicker",
-      "description": "A tally counter and clicker with optional Home Screen widgets. Count taps, track history, and keep counters on-device. Free includes 4 counters; Premium unlocks unlimited counters, history, volume buttons, and widgets.",
-      "socialProof": "12 languages · On-device · Optional Premium · iOS & Android",
-      "structuredDataDescription": "TallyNudge is a tally counter and clicker for iOS and Android. Count on-device with optional Home Screen widgets. Free: 4 counters. Premium: unlimited counters, history, volume buttons, widgets. com.zuki.apps.tallynudge.",
+      "description": "A dark, tactile tally counter for reps, water, laps, and inventory. One giant button, optional targets, and on-device history. Free includes 4 counters with ads. Widget layouts in 0.9.0 are in-app previews, not Home Screen widgets.",
+      "socialProof": "12 languages · Productivity · On-device · Optional Premium · Coming soon",
+      "structuredDataDescription": "TallyNudge is a Productivity tally counter and clicker for iOS and Android by Zuki Apps. Giant +/− buttons, haptics, optional tick sounds, targets, and on-device history. Free: 4 counters, AdMob banner and interstitial (4-minute cooldown). Premium product tallynudge_premium is a $2.99 one-time unlock: unlimited counters, history, volume-button counting, extra widget layouts, no ads. Widget layouts in 0.9.0 are in-app previews, not OS Home Screen widgets. Counters stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.tallynudge. Store listings coming soon.",
       "seoTitle": "TallyNudge — Tally Counter & Clicker | Zuki Apps",
-      "metaDescription": "Tally counter and clicker with Home Screen widgets. Coming soon to iOS and Android."
+      "metaDescription": "Dark tactile tally counter for reps, water, laps, and inventory. No account. Optional one-time Premium. Coming soon to iOS and Android."
     },
     "pageNav": {
       "features": "Features",
       "howTo": "How to use",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Download",
+      "screenshots": "Screenshots",
+      "manual": "Manual",
+      "tips": "Tips"
     },
     "features": {
       "title": "Count anything, on your terms",
       "play": {
-        "title": "Tap to count",
-        "description": "Increment or decrement a counter with a tap. Set a step, min, max, and optional target.",
+        "title": "One giant button",
+        "description": "Tap to count up or down. Large +/− controls, haptics, and optional tick sounds.",
         "items": [
           "Named counters with accents",
-          "Pin favorites",
+          "Optional targets and celebration",
           "Works offline"
         ]
       },
       "create": {
-        "title": "Widgets and history",
-        "description": "Put a counter on the Home Screen. Premium adds history, extra widget styles, and volume-button counting.",
+        "title": "Targets, history, and layouts",
+        "description": "Give a counter a goal — 50 reps, 8 glasses, 10 laps. History and volume-button counting are Premium. Widget layouts in 0.9.0 are in-app previews only.",
         "items": [
-          "Interactive widget previews in-app",
-          "Home Screen widgets on Premium",
-          "History on Premium"
+          "Four in-app widget preview layouts",
+          "History on Premium",
+          "Volume up / volume down counting on Premium"
         ]
       },
       "host": {
         "title": "Free and Premium",
-        "description": "Premium is a one-time unlock: unlimited counters, history, volume buttons, and widgets.",
+        "description": "Free includes ads (banner + occasional interstitial, 4-minute cooldown). Premium is a one-time purchase — not a subscription.",
         "items": [
-          "Free plan: 4 counters",
-          "Product ID: tallynudge_premium",
-          "Restore purchases after reinstall"
+          "Free plan: 4 counters and ads",
+          "Premium: unlimited counters, history, volume buttons, extra layouts, no ads",
+          "Product ID: tallynudge_premium · Restore from Settings"
         ]
       }
     },
     "faq": {
       "title": "Frequently asked questions",
-      "subtitle": "Counters, widgets, and Premium.",
+      "subtitle": "Counters, ads, widgets, and Premium.",
       "viewAllSupport": "View full support & FAQ",
       "items": [
         {
           "question": "What is TallyNudge?",
-          "answer": "A tally counter and clicker for iOS and Android. Package: com.zuki.apps.tallynudge."
+          "answer": "TallyNudge is a dark, tactile tally counter and clicker for iOS and Android. Package: com.zuki.apps.tallynudge."
         },
         {
           "question": "Do I need an account?",
-          "answer": "No. Counters stay on your device."
+          "answer": "No. Counters stay on your device. Crash and usage diagnostics go to Firebase."
         },
         {
           "question": "What is included for free?",
-          "answer": "Up to 4 counters. Premium unlocks unlimited counters, history, volume buttons, and Home Screen widgets."
+          "answer": "Up to 4 counters, core counting, and optional ads (banner plus occasional interstitial). Premium unlocks unlimited counters, history, volume-button counting, extra widget layouts, and no ads."
+        },
+        {
+          "question": "Does TallyNudge have Home Screen widgets?",
+          "answer": "Not in 0.9.0. The Widgets tab shows four in-app preview layouts so you can pick how a counter looks. Those are not iOS or Android Home Screen widgets."
         },
         {
           "question": "What is the Premium product ID?",
-          "answer": "tallynudge_premium. Payments are processed by Apple or Google."
+          "answer": "tallynudge_premium. Recommended price USD $2.99, one-time, not a subscription. Payments are processed by Apple or Google."
+        },
+        {
+          "question": "Does TallyNudge show ads?",
+          "answer": "Yes on the free plan: Google AdMob banner and interstitial with a 4-minute cooldown. Premium removes ads."
+        },
+        {
+          "question": "Can I count with volume buttons?",
+          "answer": "Yes on Premium. Volume up increments, volume down decrements, so you can keep your eyes on the set."
+        },
+        {
+          "question": "Where are my counters stored?",
+          "answer": "On your device. Uninstalling the app deletes local counters and history."
+        },
+        {
+          "question": "How do I restore Premium?",
+          "answer": "Open Settings and tap Restore purchases with the same Apple ID or Google account. Product ID: tallynudge_premium."
         },
         {
           "question": "How do I get support?",
@@ -77,15 +100,15 @@
     },
     "status": {
       "title": "Availability",
-      "description": "TallyNudge is in development. App Store and Google Play listings coming soon.",
+      "description": "TallyNudge v0.9.0 is in development. App Store and Google Play listings coming soon.",
       "version": "Version",
       "status": "Platform",
-      "versionValue": "1.0.0",
+      "versionValue": "0.9.0",
       "statusValue": "iOS & Android · Coming soon"
     },
     "download": {
-      "title": "Download TallyNudge — Tally Counter & Clicker",
-      "description": "Tally counter & clicker. Coming soon to the App Store and Google Play.",
+      "title": "Download TallyNudge",
+      "description": "Tactile tally counter and clicker. Coming soon to the App Store and Google Play.",
       "soon": "Coming soon to the App Store and Google Play",
       "googlePlaySoon": "Coming soon on Google Play",
       "appStoreUrl": "",
@@ -113,6 +136,8 @@
         "content": "TallyNudge is designed to work on-device. We collect limited data to run the app and optional purchases.",
         "items": [
           "Counter names, values, history, and Premium status stored on device",
+          "Crash and usage diagnostics sent to Firebase Crashlytics and Firebase Analytics",
+          "Advertising identifiers if you allow tracking (iOS App Tracking Transparency)",
           "Feedback and support messages you send",
           "Purchase records handled by Apple or Google — tokens only, not full card data"
         ]
@@ -122,6 +147,7 @@
         "content": "We use information to:",
         "items": [
           "Operate and improve TallyNudge",
+          "Show ads to free players (Google AdMob)",
           "Respond to support requests",
           "Validate in-app purchases"
         ],
@@ -129,8 +155,8 @@
       },
       "section4": {
         "title": "4. Advertising and tracking",
-        "content": "TallyNudge does not show ads in the current build. If ads are added later, this Policy will be updated.",
-        "content2": "You can limit tracking in system settings."
+        "content": "Free players may see Google AdMob banners and interstitials (about a 4-minute cooldown). On iOS we request tracking permission before personalized ads.",
+        "content2": "You can limit ad tracking in system settings. Premium removes ads."
       },
       "section5": {
         "title": "5. Storage and retention",
@@ -139,8 +165,8 @@
       },
       "section6": {
         "title": "6. Third-party services",
-        "content": "Apple App Store and Google Play Billing may process purchase data under their policies.",
-        "content2": "We do not sell your personal information."
+        "content": "Google AdMob (ads), Firebase (Crashlytics and Analytics), Apple App Store, and Google Play Billing may process data under their policies.",
+        "content2": "Crash reports are sent with Firebase Crashlytics in release builds. We do not sell your personal information."
       },
       "section7": {
         "title": "7. Your rights and children",
@@ -172,8 +198,9 @@
         "title": "2. Description of Service",
         "content": "TallyNudge includes:",
         "items": [
-          "On-device tally counters and optional Home Screen widgets",
-          "Optional Premium via app stores"
+          "On-device tally counters, targets, and in-app widget layout previews",
+          "Optional ads for free players",
+          "Optional Premium via app stores (tallynudge_premium)"
         ]
       },
       "section3": {
@@ -219,7 +246,7 @@
       "title": "Support & Help",
       "subtitle": "Find answers about TallyNudge — Tally Counter & Clicker.",
       "metaTitle": "Support & Help — TallyNudge — Tally Counter & Clicker | Zuki Apps",
-      "metaDescription": "TallyNudge FAQ — counters, widgets, Premium, and restore purchases.",
+      "metaDescription": "TallyNudge FAQ — counters, ads, in-app widget previews, Premium, and restore purchases.",
       "contact": {
         "title": "Contact us",
         "description": "Email us and we will get back to you as soon as possible.",
@@ -243,8 +270,8 @@
           "answer": "Free includes 4 counters. Premium unlocks unlimited counters."
         },
         "q2": {
-          "question": "Do widgets need an internet connection?",
-          "answer": "No. Counting runs on your device."
+          "question": "Are there Home Screen widgets?",
+          "answer": "Not in 0.9.0. The Widgets tab shows in-app preview layouts only."
         },
         "q3": {
           "question": "How do I restore Premium?",
@@ -253,6 +280,22 @@
         "q4": {
           "question": "Where are my counters stored?",
           "answer": "On your device. Uninstalling the app deletes local counters and history."
+        },
+        "q5": {
+          "question": "Does TallyNudge show ads?",
+          "answer": "Yes on the free plan via Google AdMob (banner and interstitial, 4-minute cooldown). Premium removes ads."
+        },
+        "q6": {
+          "question": "What does volume-button counting do?",
+          "answer": "Premium only. Volume up increments the active counter; volume down decrements it."
+        },
+        "q7": {
+          "question": "Is Premium a subscription?",
+          "answer": "No. TallyNudge Premium is a one-time purchase. Recommended price USD $2.99."
+        },
+        "q8": {
+          "question": "How do I contact support?",
+          "answer": "Email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
         }
       },
       "additionalHelp": {
@@ -262,19 +305,157 @@
     },
     "howToUse": {
       "title": "How to use",
-      "subtitle": "Tap to count. Optionally add a widget.",
+      "subtitle": "Tap to count. Optionally set a target.",
       "steps": [
         {
           "title": "Create a counter",
-          "description": "Name it, pick an accent, and set a step size."
+          "description": "Name it, pick an accent, and set a step size. Free includes 4 counters."
         },
         {
           "title": "Tap up or down",
-          "description": "Each tap changes the value. Optional min, max, and target."
+          "description": "Each tap changes the value. Optional min, max, and target with a celebration when you hit the goal."
         },
         {
-          "title": "Add a widget",
-          "description": "Premium users can place a counter on the Home Screen."
+          "title": "Preview a layout",
+          "description": "Open the Widgets tab to preview four in-app layouts. These are not Home Screen widgets in 0.9.0."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Counter list, giant button, in-app layouts, and Settings.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "home",
+          "title": "Count anything with a tap",
+          "description": "A dark list of named counters — reps, water, laps, inventory.",
+          "image": "/images/tally-nudge/01-home.png",
+          "alt": "TallyNudge home list of counters",
+          "category": "features"
+        },
+        {
+          "id": "detail",
+          "title": "One giant button",
+          "description": "Large +/− controls, haptics, and optional tick sounds.",
+          "image": "/images/tally-nudge/02-detail.png",
+          "alt": "TallyNudge counter detail with giant button",
+          "category": "features"
+        },
+        {
+          "id": "widgets",
+          "title": "Layouts for every count",
+          "description": "Four in-app preview layouts in 0.9.0 — not Home Screen widgets.",
+          "image": "/images/tally-nudge/03-widgets.png",
+          "alt": "TallyNudge in-app widget layout previews",
+          "category": "features"
+        },
+        {
+          "id": "settings",
+          "title": "Pay once · no ads",
+          "description": "TallyNudge Premium is a one-time unlock. Restore from Settings.",
+          "image": "/images/tally-nudge/04-settings.png",
+          "alt": "TallyNudge Settings and Premium",
+          "category": "features"
+        },
+        {
+          "id": "banner",
+          "title": "Count anything with a tactile tap",
+          "description": "Dark tally counter. One giant button.",
+          "image": "/images/tally-nudge/feature.webp",
+          "alt": "TallyNudge Play feature graphic",
+          "category": "banner"
+        },
+        {
+          "id": "life-gym",
+          "title": "Reps on the floor",
+          "description": "Giant + next to the kettlebell — eyes on the set.",
+          "image": "/images/tally-nudge/life-gym.webp",
+          "alt": "TallyNudge lifestyle — phone counter beside a kettlebell",
+          "category": "lifestyle"
+        },
+        {
+          "id": "life-water",
+          "title": "Glasses, not guesswork",
+          "description": "A water-count target that stays on the device.",
+          "image": "/images/tally-nudge/life-water.webp",
+          "alt": "TallyNudge lifestyle — water glass counter on a phone",
+          "category": "lifestyle"
+        },
+        {
+          "id": "life-door",
+          "title": "Door counts",
+          "description": "Inventory or headcount without opening a spreadsheet.",
+          "image": "/images/tally-nudge/life-door.webp",
+          "alt": "TallyNudge lifestyle — tally counter by a door",
+          "category": "lifestyle"
+        }
+      ],
+      "moreTitle": "Lifestyle"
+    },
+    "manual": {
+      "title": "User manual",
+      "subtitle": "Counters, targets, layouts, and Premium.",
+      "sections": [
+        {
+          "title": "1. Counters",
+          "steps": [
+            "Create a named counter with an accent and step size.",
+            "Free allows 4 counters. Premium removes the limit.",
+            "Tap + or − on the detail screen. Optional min and max."
+          ]
+        },
+        {
+          "title": "2. Targets and history",
+          "steps": [
+            "Set a target (50 reps, 8 glasses, 10 laps) and celebrate when you hit it.",
+            "History of recent changes is a Premium feature."
+          ]
+        },
+        {
+          "title": "3. Widget layouts",
+          "steps": [
+            "Open the Widgets tab to preview four layouts.",
+            "In 0.9.0 these are in-app previews only — they are not Home Screen widgets."
+          ]
+        },
+        {
+          "title": "4. Premium and ads",
+          "steps": [
+            "Free shows AdMob banner and interstitial ads (4-minute cooldown).",
+            "Buy tallynudge_premium in Settings for unlimited counters, history, volume buttons, extra layouts, and no ads.",
+            "Restore purchases after reinstall with the same store account."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get more from TallyNudge.",
+      "items": [
+        {
+          "title": "Name the habit",
+          "description": "Use a specific name (Push Ups, Water) so the list stays scannable."
+        },
+        {
+          "title": "Set a target",
+          "description": "A goal turns a raw count into a session you can finish."
+        },
+        {
+          "title": "Volume buttons (Premium)",
+          "description": "Count without looking at the screen — useful for sets and door counts."
+        },
+        {
+          "title": "History is local (Premium)",
+          "description": "Recent changes stay on the device. There is no cloud backup."
+        },
+        {
+          "title": "Layouts are previews",
+          "description": "Do not expect an OS Home Screen widget in 0.9.0."
+        },
+        {
+          "title": "Restore after reinstall",
+          "description": "Premium is tied to your Apple ID or Google account — tap Restore in Settings."
         }
       ]
     }

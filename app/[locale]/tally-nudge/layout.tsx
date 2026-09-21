@@ -34,11 +34,12 @@ export async function generateMetadata({
     locale,
     appPath: '/tally-nudge',
     t,
+    ogImage: '/images/tally-nudge/og.webp',
     keywords: [
       'TallyNudge',
       'tally counter',
       'clicker counter',
-      'home screen widgets',
+      'volume button counter',
       'com.zuki.apps.tallynudge',
     ],
   });

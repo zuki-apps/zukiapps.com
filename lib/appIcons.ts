@@ -8,3 +8,6 @@ export const ROAMGUARD_ICON = '/images/roamguard-icon.png?v=1' as const;
 export const QUESTIVO_ICON = '/images/questivo-icon.png?v=1' as const;
 export const COLORING_MY_PHOTO_ICON = '/images/coloring-my-photo-icon.png?v=1' as const;
 export const PHOTO_STAMP_ICON = '/images/photo-stamp-icon.png?v=1' as const;
+export const EVENTTICK_ICON = '/images/eventtick-icon.png?v=1' as const;
+export const TALLY_NUDGE_ICON = '/images/tally-nudge-icon.png?v=1' as const;
+export const BLOCKIVA_ICON = '/images/blockiva-icon.png?v=1' as const;

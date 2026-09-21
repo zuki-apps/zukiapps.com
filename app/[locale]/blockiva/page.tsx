@@ -5,9 +5,11 @@ import { useTranslations, useLocale } from 'next-intl';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Logo from '@/components/Logo';
+import AppIconFrame from '@/components/AppIconFrame';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import StarBackground from '@/components/StarBackground';
 import { ProductMarketingSections, ProductPageNav, DownloadStoreFab } from '@/lib/lazyProductComponents';
+import { BLOCKIVA_ICON } from '@/lib/appIcons';
 
 export default function BlockivaPage() {
   const t = useTranslations('blockiva');
@@ -38,6 +40,17 @@ export default function BlockivaPage() {
 
       <section className={`py-12 px-4 relative z-10 ${rtl ? 'text-right' : 'text-center'}`} id="download">
         <div className={`max-w-7xl mx-auto ${rtl ? '' : 'text-center'}`}>
+          <AppIconFrame
+            src={BLOCKIVA_ICON}
+            alt={t('download.appIconAlt')}
+            sizes="(max-width: 768px) 96px, 128px"
+            priority
+            edgeToEdge
+            className="mx-auto mb-6"
+            boxClassName="w-24 h-24 md:w-32 md:h-32"
+            frameClassName="rounded-[22%] overflow-hidden shadow-2xl ring-2 ring-amber-400/40"
+          />
+
           <div className="inline-flex items-center gap-2 bg-amber-950/60 border border-amber-500/40 text-amber-200 px-4 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
             <CheckCircle2 className="w-4 h-4" aria-hidden />
             {t('hero.badge')}

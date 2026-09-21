@@ -34,12 +34,13 @@ export async function generateMetadata({
     locale,
     appPath: '/eventtick',
     t,
+    ogImage: '/images/eventtick/og.webp',
     keywords: [
       'EventTick',
-      'countdown',
-      'countdown widgets',
       'event countdown',
+      'countdown widgets',
       'home screen widgets',
+      'Orbit countdown',
       'com.zuki.apps.eventtick',
     ],
   });

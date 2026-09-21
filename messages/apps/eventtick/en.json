@@ -3,71 +3,94 @@
     "back": "Back to Home",
     "hero": {
       "badge": "Coming soon · iOS & Android",
-      "title": "EventTick — Countdown & Widgets",
-      "productName": "EventTick — Countdown & Widgets",
-      "subtitle": "Countdown & Widgets",
-      "description": "Countdown timers and Home Screen widgets for the dates you are counting down to. Free plan includes 3 events; Premium unlocks unlimited events and extra countdown and widget looks.",
-      "socialProof": "12 languages · On-device · Optional Premium · iOS & Android",
-      "structuredDataDescription": "EventTick is a countdown and Home Screen widget app for iOS and Android. Track upcoming dates on-device. Free plan: 3 events. Premium: unlimited events and extra styles. com.zuki.apps.eventtick.",
-      "seoTitle": "EventTick — Countdown & Widgets | Zuki Apps",
-      "metaDescription": "Countdown timers and Home Screen widgets for the moments you cannot wait for. Coming soon to iOS and Android."
+      "title": "Count down to the days that matter.",
+      "productName": "EventTick — Event Countdown",
+      "subtitle": "Event Countdown & Home Screen Widgets",
+      "description": "Live event countdowns and Home Screen widgets for trips, birthdays, launches, and everything in between. Free includes 3 events with ads. Premium is a one-time unlock for unlimited events, every look, and no ads. No account required.",
+      "socialProof": "12 languages · Lifestyle · On-device · Optional Premium · Coming soon",
+      "structuredDataDescription": "EventTick is a Lifestyle countdown app for iOS and Android by Zuki Apps. Eight styles: Breaking Down, Total Days, Weeks & Days, Months & Days, The Big Number, Orbit, Momentum, Immersive. Eight accents. Midnight or Dawn. Home Screen widgets. Free: 3 events, three styles, four accents, two widget looks, AdMob banner and interstitial. Premium product com.zuki.apps.eventtick.premium is a $3.99 one-time unlock: unlimited events, all looks, no ads. Events stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.eventtick. Store listings coming soon.",
+      "seoTitle": "EventTick — Event Countdown & Home Screen Widgets | Zuki Apps",
+      "metaDescription": "Live event countdowns and Home Screen widgets for trips, birthdays, and launches. Coming soon to iOS and Android. No account required."
     },
     "pageNav": {
       "features": "Features",
       "howTo": "How to use",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Download",
+      "screenshots": "Screenshots",
+      "manual": "Manual",
+      "tips": "Tips"
     },
     "features": {
-      "title": "Countdown the moments that matter",
+      "title": "The wait, in one glance",
       "play": {
-        "title": "Events you can see at a glance",
-        "description": "Add a date, pick a style, and keep the countdown on your phone — or on the Home Screen.",
+        "title": "Live countdowns",
+        "description": "Name a moment, pick a date, and watch days, weeks, a big number, or a ring count down every second.",
         "items": [
           "Up to 3 events on Free",
-          "Multiple countdown styles",
-          "Home Screen widgets"
+          "Eight styles: Breaking Down, Total Days, Weeks & Days, Months & Days, The Big Number, Orbit, Momentum, Immersive",
+          "Numbers update every second"
         ]
       },
       "create": {
-        "title": "Widgets",
-        "description": "Put a countdown on the Home Screen. Free includes minimal and compact looks; Premium unlocks more widget concepts.",
+        "title": "Home Screen widgets",
+        "description": "Pin a countdown so the next big day stays in view without opening the app. Free includes Minimal and Compact looks.",
         "items": [
-          "Minimal and compact widgets on Free",
-          "Extra widget looks on Premium",
+          "Minimal and Compact widgets on Free",
+          "Every widget look on Premium",
           "Works offline"
         ]
       },
       "host": {
         "title": "Free and Premium",
-        "description": "Premium is a one-time unlock: unlimited events plus extra countdown styles, accents, and widget looks.",
+        "description": "Free includes ads (banner + occasional interstitial). Premium is a one-time purchase — not a subscription.",
         "items": [
-          "Product ID: com.zuki.apps.eventtick.premium",
-          "Restore purchases after reinstall",
-          "No account required"
+          "Free: 3 events, 3 styles, 4 accents, 2 widget looks, ads",
+          "Premium: unlimited events, all 8 styles and 8 accents, all widget looks, no ads",
+          "Product ID: com.zuki.apps.eventtick.premium · Restore from Settings"
         ]
       }
     },
     "faq": {
       "title": "Frequently asked questions",
-      "subtitle": "Events, widgets, and Premium.",
+      "subtitle": "Events, widgets, ads, and Premium.",
       "viewAllSupport": "View full support & FAQ",
       "items": [
         {
           "question": "What is EventTick?",
-          "answer": "A countdown and widget app for iOS and Android. Package: com.zuki.apps.eventtick."
+          "answer": "EventTick is a Lifestyle countdown app for iOS and Android. Name a date, pick a style, and keep it on your Home Screen. Package: com.zuki.apps.eventtick."
         },
         {
           "question": "Do I need an account?",
-          "answer": "No. Events stay on your device."
+          "answer": "No. Events stay on your device. Crash and usage diagnostics go to Firebase."
         },
         {
           "question": "What is included for free?",
-          "answer": "Three events, a set of countdown styles and accents, and minimal/compact widgets."
+          "answer": "Three events, three countdown styles, four accents, Minimal and Compact widgets, and optional ads (banner plus occasional interstitial)."
         },
         {
           "question": "What does Premium add?",
-          "answer": "Unlimited events and extra countdown styles, accents, and widget looks. Product ID: com.zuki.apps.eventtick.premium."
+          "answer": "Unlimited events, all eight countdown styles and eight accents, every widget look, and no ads. Product ID: com.zuki.apps.eventtick.premium. Recommended price USD $3.99, one-time, not a subscription."
+        },
+        {
+          "question": "Which countdown styles are available?",
+          "answer": "Breaking Down, Total Days, Weeks & Days, Months & Days, The Big Number, Orbit, Momentum, and Immersive. Free unlocks the first three; Premium unlocks all eight."
+        },
+        {
+          "question": "Does EventTick have Home Screen widgets?",
+          "answer": "Yes. Pin a countdown on the iOS or Android Home Screen. Free includes Minimal and Compact looks; Premium unlocks the rest."
+        },
+        {
+          "question": "Does EventTick show ads?",
+          "answer": "Yes on the free plan: a banner and an occasional interstitial via Google AdMob. Premium removes ads."
+        },
+        {
+          "question": "Where are my events stored?",
+          "answer": "On your device. Uninstalling EventTick deletes local events."
+        },
+        {
+          "question": "How do I restore Premium?",
+          "answer": "Open Settings and tap Restore purchases with the same Apple ID or Google account. Product ID: com.zuki.apps.eventtick.premium."
         },
         {
           "question": "How do I get support?",
@@ -77,30 +100,30 @@
     },
     "status": {
       "title": "Availability",
-      "description": "EventTick is in development. App Store and Google Play listings coming soon.",
+      "description": "EventTick v0.9.0 is in development. App Store and Google Play listings coming soon.",
       "version": "Version",
       "status": "Platform",
-      "versionValue": "1.0.0",
+      "versionValue": "0.9.0",
       "statusValue": "iOS & Android · Coming soon"
     },
     "download": {
-      "title": "Download EventTick — Countdown & Widgets",
-      "description": "Countdown & widgets. Coming soon to the App Store and Google Play.",
+      "title": "Download EventTick",
+      "description": "Event countdown and Home Screen widgets. Coming soon to the App Store and Google Play.",
       "soon": "Coming soon to the App Store and Google Play",
       "googlePlaySoon": "Coming soon on Google Play",
       "appStoreUrl": "",
       "googlePlayUrl": "",
-      "appIconAlt": "EventTick — Countdown & Widgets app icon",
+      "appIconAlt": "EventTick app icon — event countdown",
       "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play"
     },
     "footer": {
-      "copyright": "© 2026 EventTick — Countdown & Widgets — All rights reserved",
+      "copyright": "© 2026 EventTick — Event Countdown — All rights reserved",
       "tagline": "Part of Zuki Apps · by Zuki.Apps"
     },
     "privacy": {
       "title": "Privacy Policy",
-      "metaDescription": "Privacy Policy for EventTick — Countdown & Widgets.",
+      "metaDescription": "Privacy Policy for EventTick — Event Countdown.",
       "lastUpdated": "Last updated: September 2026",
       "intro": "This Privacy Policy explains how Zuki Apps handles information when you use EventTick and related pages at zukiapps.com/eventtick.",
       "section1": {
@@ -112,7 +135,9 @@
         "title": "2. Information we collect",
         "content": "EventTick is designed to work on-device. We collect limited data to run the app and optional purchases.",
         "items": [
-          "Event names, dates, styles, and Premium status stored on device",
+          "Event names, dates, styles, accents, and Premium status stored on device",
+          "Crash and usage diagnostics sent to Firebase Crashlytics and Firebase Analytics",
+          "Advertising identifiers if you allow tracking (iOS App Tracking Transparency)",
           "Feedback and support messages you send",
           "Purchase records handled by Apple or Google — tokens only, not full card data"
         ]
@@ -122,6 +147,7 @@
         "content": "We use information to:",
         "items": [
           "Operate and improve EventTick",
+          "Show ads to free players (Google AdMob)",
           "Respond to support requests",
           "Validate in-app purchases"
         ],
@@ -129,8 +155,8 @@
       },
       "section4": {
         "title": "4. Advertising and tracking",
-        "content": "EventTick does not show ads in the current build. If ads are added later, this Policy will be updated.",
-        "content2": "You can limit tracking in system settings."
+        "content": "Free players may see Google AdMob banners and interstitials. On iOS we request tracking permission before personalized ads.",
+        "content2": "You can limit ad tracking in system settings. Premium removes ads."
       },
       "section5": {
         "title": "5. Storage and retention",
@@ -139,8 +165,8 @@
       },
       "section6": {
         "title": "6. Third-party services",
-        "content": "Apple App Store and Google Play Billing may process purchase data under their policies.",
-        "content2": "We do not sell your personal information."
+        "content": "Google AdMob (ads), Firebase (Crashlytics and Analytics), Apple App Store, and Google Play Billing may process data under their policies.",
+        "content2": "Crash reports are sent with Firebase Crashlytics in release builds. We do not sell your personal information."
       },
       "section7": {
         "title": "7. Your rights and children",
@@ -160,7 +186,7 @@
     },
     "terms": {
       "title": "Terms of Use",
-      "metaDescription": "Terms of Use for EventTick — Countdown & Widgets.",
+      "metaDescription": "Terms of Use for EventTick — Event Countdown.",
       "lastUpdated": "Last updated: September 2026",
       "intro": "Please read these Terms carefully before using EventTick. By downloading or using the app, you agree to these Terms and our Privacy Policy.",
       "section1": {
@@ -173,7 +199,8 @@
         "content": "EventTick includes:",
         "items": [
           "On-device countdown events and Home Screen widgets",
-          "Optional Premium via app stores"
+          "Optional ads for free players",
+          "Optional Premium via app stores (com.zuki.apps.eventtick.premium)"
         ]
       },
       "section3": {
@@ -217,9 +244,9 @@
     },
     "support": {
       "title": "Support & Help",
-      "subtitle": "Find answers about EventTick — Countdown & Widgets.",
-      "metaTitle": "Support & Help — EventTick — Countdown & Widgets | Zuki Apps",
-      "metaDescription": "EventTick FAQ — events, widgets, Premium, and restore purchases.",
+      "subtitle": "Find answers about EventTick — Event Countdown.",
+      "metaTitle": "Support & Help — EventTick | Zuki Apps",
+      "metaDescription": "EventTick FAQ — events, Home Screen widgets, ads, Premium, and restore purchases.",
       "contact": {
         "title": "Contact us",
         "description": "Email us and we will get back to you as soon as possible.",
@@ -253,6 +280,22 @@
         "q4": {
           "question": "Where are my events stored?",
           "answer": "On your device. Uninstalling the app deletes local events."
+        },
+        "q5": {
+          "question": "Does EventTick show ads?",
+          "answer": "Yes on the free plan via Google AdMob (banner and occasional interstitial). Premium removes ads."
+        },
+        "q6": {
+          "question": "Which styles are free?",
+          "answer": "Free includes Breaking Down, Total Days, and Weeks & Days. Premium unlocks Months & Days, The Big Number, Orbit, Momentum, and Immersive."
+        },
+        "q7": {
+          "question": "Is Premium a subscription?",
+          "answer": "No. EventTick Premium is a one-time purchase. Recommended price USD $3.99."
+        },
+        "q8": {
+          "question": "How do I contact support?",
+          "answer": "Email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
         }
       },
       "additionalHelp": {
@@ -266,15 +309,156 @@
       "steps": [
         {
           "title": "Add an event",
-          "description": "Name the moment and pick the date and time."
+          "description": "Name the moment and pick the date and time. Free includes up to 3 events."
         },
         {
           "title": "Choose a look",
-          "description": "Pick a countdown style and accent. Free includes a starter set."
+          "description": "Pick a countdown style and accent. Midnight or Dawn. Free includes a starter set of three styles and four accents."
         },
         {
           "title": "Add a widget",
           "description": "Place a countdown on the Home Screen so you see it without opening the app."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Home list, Orbit ring, widget studio, and Settings.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "home",
+          "title": "All your moments, one list",
+          "description": "Pin, search, and reorder the dates you are counting down to.",
+          "image": "/images/eventtick/01-home.png",
+          "alt": "EventTick home list of countdown events",
+          "category": "features"
+        },
+        {
+          "id": "orbit",
+          "title": "A ring filling toward zero",
+          "description": "Orbit is one of eight live countdown styles. Numbers update every second.",
+          "image": "/images/eventtick/02-orbit.png",
+          "alt": "EventTick Orbit countdown ring",
+          "category": "features"
+        },
+        {
+          "id": "widgets",
+          "title": "On your Home Screen",
+          "description": "Minimal and Compact widgets on Free. Every widget look on Premium.",
+          "image": "/images/eventtick/03-widgets.png",
+          "alt": "EventTick Home Screen widget studio",
+          "category": "features"
+        },
+        {
+          "id": "settings",
+          "title": "Looks that fit your grid",
+          "description": "Eight accents, Midnight or Dawn, language, and one-time Premium.",
+          "image": "/images/eventtick/04-settings.png",
+          "alt": "EventTick Settings and Premium",
+          "category": "features"
+        },
+        {
+          "id": "banner",
+          "title": "Count down to the days that matter",
+          "description": "Live widgets. Eight styles. Midnight look.",
+          "image": "/images/eventtick/feature.webp",
+          "alt": "EventTick Play feature graphic — countdown on a desk",
+          "category": "banner"
+        },
+        {
+          "id": "life-calendar",
+          "title": "Mark the day",
+          "description": "A calendar date and a live countdown on the same desk.",
+          "image": "/images/eventtick/life-calendar.webp",
+          "alt": "EventTick lifestyle — circled calendar date and phone countdown",
+          "category": "lifestyle"
+        },
+        {
+          "id": "life-orbit",
+          "title": "A ring filling toward zero",
+          "description": "Orbit style — the wait as a single glowing ring.",
+          "image": "/images/eventtick/life-orbit-ring.webp",
+          "alt": "EventTick lifestyle — Orbit countdown ring on a phone",
+          "category": "lifestyle"
+        },
+        {
+          "id": "life-tokyo",
+          "title": "Pack for the trip",
+          "description": "Countdown on the nightstand next to the ticket and the bag.",
+          "image": "/images/eventtick/life-tokyo-bag.webp",
+          "alt": "EventTick lifestyle — Tokyo trip countdown beside a packed bag",
+          "category": "lifestyle"
+        }
+      ],
+      "moreTitle": "Lifestyle"
+    },
+    "manual": {
+      "title": "User manual",
+      "subtitle": "Events, styles, widgets, and Premium.",
+      "sections": [
+        {
+          "title": "1. Events",
+          "steps": [
+            "Tap Add, name the moment, and set the date and time.",
+            "Free allows 3 events. Premium removes the limit.",
+            "Pin, search, and reorder events on the home list."
+          ]
+        },
+        {
+          "title": "2. Styles and accents",
+          "steps": [
+            "Free styles: Breaking Down, Total Days, Weeks & Days.",
+            "Premium adds Months & Days, The Big Number, Orbit, Momentum, Immersive.",
+            "Free accents: Coral, Violet, Mint, Amber. Premium unlocks all eight.",
+            "Choose Midnight or Dawn in Settings."
+          ]
+        },
+        {
+          "title": "3. Widgets",
+          "steps": [
+            "Open the widget studio and pick Minimal or Compact on Free.",
+            "Add the EventTick widget from the iOS or Android Home Screen editor.",
+            "Premium unlocks the remaining widget looks."
+          ]
+        },
+        {
+          "title": "4. Premium and ads",
+          "steps": [
+            "Free shows AdMob banner and occasional interstitial ads.",
+            "Buy EventTick Premium (com.zuki.apps.eventtick.premium) in Settings.",
+            "Restore purchases after reinstall with the same store account."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Get more from EventTick.",
+      "items": [
+        {
+          "title": "Pin the next big day",
+          "description": "Pin the event you check most so it stays at the top of the list."
+        },
+        {
+          "title": "Orbit for a visual wait",
+          "description": "Use Orbit when you want a ring filling toward zero instead of a number stack."
+        },
+        {
+          "title": "Widget first",
+          "description": "Add a Home Screen widget so you do not open the app just to check the date."
+        },
+        {
+          "title": "Midnight vs Dawn",
+          "description": "Midnight is the default dark look. Dawn lightens the chrome if your grid is bright."
+        },
+        {
+          "title": "Restore after reinstall",
+          "description": "Premium is tied to your Apple ID or Google account — tap Restore in Settings."
+        },
+        {
+          "title": "Events are local",
+          "description": "There is no account and no cloud backup. Uninstalling deletes events."
         }
       ]
     }

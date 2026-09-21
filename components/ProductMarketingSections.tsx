@@ -279,7 +279,11 @@ export default function ProductMarketingSections({
   const showFaq = hasMessage(t, 'faq.title') && faqItems.length > 0;
 
   const featureShots = screenshotItems.filter((item) => !item.category || item.category === 'features');
-  const otherShots = screenshotItems.filter((item) => item.category && item.category !== 'features');
+  const bannerShots = screenshotItems.filter((item) => item.category === 'banner');
+  const lifestyleShots = screenshotItems.filter((item) => item.category === 'lifestyle');
+  const otherShots = screenshotItems.filter(
+    (item) => item.category && item.category !== 'features' && item.category !== 'banner' && item.category !== 'lifestyle'
+  );
   const howToCols =
     howToSteps.length >= 5 ? 'lg:grid-cols-5' : howToSteps.length === 4 ? 'lg:grid-cols-4' : howToSteps.length === 3 ? 'lg:grid-cols-3' : 'md:grid-cols-2';
 
@@ -298,7 +302,7 @@ export default function ProductMarketingSections({
       <button
         type="button"
         onClick={() => setLightboxIndex(globalIndex)}
-        className="w-full max-w-[220px] mx-auto block cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 rounded-t-xl"
+        className={`w-full ${item.category === 'banner' || item.category === 'lifestyle' ? 'max-w-xl' : 'max-w-[220px]'} mx-auto block cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 rounded-t-xl`}
         aria-label={`View larger: ${item.title}`}
       >
         <Image
@@ -394,9 +398,30 @@ export default function ProductMarketingSections({
                 </div>
               </>
             )}
+            {bannerShots.length > 0 && (
+              <div className="mb-16 max-w-4xl mx-auto">
+                {bannerShots.map((item) =>
+                  renderScreenshotFigure(item, screenshotItems.findIndex((s) => s.id === item.id))
+                )}
+              </div>
+            )}
+            {lifestyleShots.length > 0 && (
+              <>
+                {hasMessage(t, 'screenshots.moreTitle') && (
+                  <h3 className={`text-2xl font-bold ${a.heading} mb-6`}>{t('screenshots.moreTitle')}</h3>
+                )}
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 items-start">
+                  {lifestyleShots.map((item) =>
+                    renderScreenshotFigure(item, screenshotItems.findIndex((s) => s.id === item.id))
+                  )}
+                </div>
+              </>
+            )}
             {otherShots.length > 0 && (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
-                {otherShots.map((item, i) => renderScreenshotFigure(item, featureShots.length + i))}
+                {otherShots.map((item) =>
+                  renderScreenshotFigure(item, screenshotItems.findIndex((s) => s.id === item.id))
+                )}
               </div>
             )}
           </div>

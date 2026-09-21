@@ -5,69 +5,92 @@
       "badge": "Coming soon · iOS & Android",
       "title": "Blockiva – Block Puzzle",
       "productName": "Blockiva – Block Puzzle",
-      "subtitle": "Place blocks. The rules keep changing.",
-      "description": "A casual block puzzle where placement rules shift as you play. Clear lines, spend shuffles, and go Premium for extra continues and an ad-free board.",
-      "socialProof": "12 languages · Offline play · Optional ads · Premium remove-ads",
-      "structuredDataDescription": "Blockiva is a block puzzle game for iOS and Android with shifting placement rules, shuffles, and optional Premium to remove ads. com.zuki.apps.blockiva.",
+      "subtitle": "Place. Clear. Survive the rule.",
+      "description": "Place shapes. Clear rows and columns. Then the rule changes. Four difficulties, five rotating rules, combos, and one shuffle. Dark-only. Free, with optional one-time Remove Ads.",
+      "socialProof": "12 languages · Offline play · AdMob on Free · One-time Remove Ads · Coming soon",
+      "structuredDataDescription": "Blockiva is a block puzzle for iOS and Android by Zuki Apps. Tagline: Place. Clear. Survive the rule. Five rotating rules: Locked Tiles, Frozen Row, Shadow Blocks, Double Score, Fake Block. Four difficulties: Chill 10×10, Classic 8×8, Intense 7×7, Chaos 6×6. Drag-and-drop and tap-to-place, ghost preview, combo scoring, one shuffle per game. Free includes AdMob banner and interstitial (2-minute cooldown). Remove Ads IAP blockiva_remove_ads is $2.99 one-time and adds extra shuffles plus a continue. No account. Package com.zuki.apps.blockiva. Store listings coming soon.",
       "seoTitle": "Blockiva – Block Puzzle | Zuki Apps",
-      "metaDescription": "Place blocks while the rules change. Casual puzzle for iOS and Android. Coming soon."
+      "metaDescription": "Place. Clear. Survive the rule. Five rotating rules, four difficulties, combos. Coming soon to iOS and Android."
     },
     "pageNav": {
       "features": "Features",
       "howTo": "How to play",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Download",
+      "screenshots": "Screenshots",
+      "manual": "Manual",
+      "tips": "Tips"
     },
     "features": {
       "title": "A familiar puzzle with a twist",
       "play": {
-        "title": "Shifting rules",
-        "description": "Each round the board asks for a different placement pattern — stay alert.",
+        "title": "Survive the rule",
+        "description": "Place blocks, clear rows and columns, then watch the rule chip. Every few turns a new rule appears.",
         "items": [
-          "Classic block-drop feel",
-          "Rules change as you score",
-          "Three difficulty levels"
+          "Five rotating rules: Locked Tiles, Frozen Row, Shadow Blocks, Double Score, Fake Block",
+          "Four difficulties: Chill 10×10, Classic 8×8, Intense 7×7, Chaos 6×6",
+          "Drag-and-drop or tap-to-place with a ghost preview"
         ]
       },
       "create": {
-        "title": "Shuffles and continues",
-        "description": "Stuck? Shuffle the next pieces. Premium players get extra shuffles and a continue.",
+        "title": "Combos and one shuffle",
+        "description": "Clear on consecutive turns to combo. You get one shuffle per game. Premium adds extra shuffles and a continue.",
         "items": [
           "1 shuffle per game on Free",
-          "3 shuffles + 1 continue on Premium",
-          "Restore purchases after reinstall"
+          "Premium: extra shuffles + one continue",
+          "Combo scoring for consecutive-turn clears"
         ]
       },
       "host": {
-        "title": "Ads or Premium",
-        "description": "Free play includes banner and interstitial ads. Remove Ads is a one-time in-app purchase.",
+        "title": "Ads or Remove Ads",
+        "description": "Free play includes a menu banner and an interstitial after game over (2-minute cooldown). Remove Ads is a one-time purchase, not a subscription.",
         "items": [
-          "Banner on the menu",
-          "Interstitial after game over",
-          "One-time Remove Ads purchase"
+          "Banner on the menu · interstitial after game over",
+          "Product ID: blockiva_remove_ads · recommended USD $2.99",
+          "Restore purchases after reinstall"
         ]
       }
     },
     "faq": {
       "title": "Frequently asked questions",
-      "subtitle": "Gameplay, ads, and Premium.",
+      "subtitle": "Gameplay, rules, ads, and Remove Ads.",
       "viewAllSupport": "View full support & FAQ",
       "items": [
         {
           "question": "What is Blockiva – Block Puzzle?",
-          "answer": "A mobile block puzzle with shifting placement rules. Package: com.zuki.apps.blockiva."
+          "answer": "Blockiva is a rotating-rules block puzzle for iOS and Android. Place shapes, clear rows and columns, then survive the next rule. Package: com.zuki.apps.blockiva."
+        },
+        {
+          "question": "Is this Block Blast?",
+          "answer": "No. Blockiva is its own rotating-rules puzzle. We do not name competitors in ads."
         },
         {
           "question": "Do I need an account?",
           "answer": "No. Scores and settings stay on your device."
         },
         {
+          "question": "What are the five rotating rules?",
+          "answer": "Locked Tiles, Frozen Row, Shadow Blocks, Double Score, and Fake Block. A new rule appears every N turns."
+        },
+        {
+          "question": "What difficulties are available?",
+          "answer": "Chill 10×10 (5 turns), Classic 8×8 (3 turns), Intense 7×7 (2 turns), and Chaos 6×6 (1 turn)."
+        },
+        {
           "question": "How do ads work?",
-          "answer": "Free players may see a menu banner and an interstitial after game over, with a cooldown. Premium removes ads."
+          "answer": "Free players may see a menu banner and an interstitial after game over, with a 2-minute cooldown. Remove Ads (blockiva_remove_ads) is a one-time purchase."
         },
         {
           "question": "Is Blockiva free?",
-          "answer": "Yes. Optional Premium removes ads and unlocks extra shuffles and a continue."
+          "answer": "Yes. Optional Remove Ads (blockiva_remove_ads, recommended USD $2.99) removes ads and unlocks extra shuffles and a continue. It is not a subscription."
+        },
+        {
+          "question": "How many shuffles do I get?",
+          "answer": "One shuffle per game on Free. When nothing fits, the run ends. Premium adds extra shuffles and a continue."
+        },
+        {
+          "question": "Does Fake Block count toward clears?",
+          "answer": "No. Fake Block does not count toward clears — do not try to complete a line with it."
         },
         {
           "question": "How do I get support?",
@@ -80,12 +103,12 @@
       "description": "Blockiva is in development. App Store and Google Play listings coming soon.",
       "version": "Version",
       "status": "Platform",
-      "versionValue": "1.0.0",
+      "versionValue": "0.9.0",
       "statusValue": "iOS & Android · Coming soon"
     },
     "download": {
       "title": "Download Blockiva – Block Puzzle",
-      "description": "Block puzzle with shifting rules. Coming soon to the App Store and Google Play.",
+      "description": "Place. Clear. Survive the rule. Coming soon to the App Store and Google Play.",
       "soon": "Coming soon to the App Store and Google Play",
       "googlePlaySoon": "Coming soon on Google Play",
       "appStoreUrl": "",
@@ -222,7 +245,7 @@
       "title": "Support & Help",
       "subtitle": "Find answers about Blockiva – Block Puzzle.",
       "metaTitle": "Support & Help — Blockiva – Block Puzzle | Zuki Apps",
-      "metaDescription": "Blockiva FAQ — gameplay, ads, Premium, and restore purchases.",
+      "metaDescription": "Blockiva FAQ — rotating rules, difficulties, ads, Remove Ads, and restore purchases.",
       "contact": {
         "title": "Contact us",
         "description": "Email us and we will get back to you as soon as possible.",
@@ -243,19 +266,35 @@
         "title": "Frequently asked questions",
         "q1": {
           "question": "How do I play?",
-          "answer": "Place the given blocks on the board following the current rule. Clear lines to score. Rules change as you progress."
+          "answer": "Drag a shape onto the board (or tap to select, then tap a cell). Fill a full row or column to clear it. Use all three shapes to get a new set. Watch the rule chip."
         },
         "q2": {
           "question": "What does Shuffle do?",
-          "answer": "Shuffle replaces the unused pieces for the current game. Free players get 1 shuffle; Premium gets 3."
+          "answer": "Shuffle replaces the unused pieces for the current game. Free players get 1 shuffle. Premium adds extra shuffles and a continue."
         },
         "q3": {
           "question": "How do I remove ads?",
-          "answer": "Buy Remove Ads in Settings. Payments are processed by Apple or Google. Use Restore purchases after reinstall."
+          "answer": "Buy Remove Ads (blockiva_remove_ads) in Settings. Recommended price USD $2.99, one-time. Use Restore purchases after reinstall."
         },
         "q4": {
           "question": "Where are my scores stored?",
           "answer": "On your device. Uninstalling the app deletes local scores."
+        },
+        "q5": {
+          "question": "What are the five rules?",
+          "answer": "Locked Tiles, Frozen Row, Shadow Blocks, Double Score, and Fake Block."
+        },
+        "q6": {
+          "question": "What are the four difficulties?",
+          "answer": "Chill 10×10 / 5 turns, Classic 8×8 / 3 turns, Intense 7×7 / 2 turns, Chaos 6×6 / 1 turn."
+        },
+        "q7": {
+          "question": "Is Remove Ads a subscription?",
+          "answer": "No. blockiva_remove_ads is a one-time in-app purchase."
+        },
+        "q8": {
+          "question": "How do I contact support?",
+          "answer": "Email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
         }
       },
       "additionalHelp": {
@@ -269,15 +308,147 @@
       "steps": [
         {
           "title": "Place blocks",
-          "description": "Drag a piece onto the board. It must follow the current rule."
+          "description": "Drag a shape onto the board, or tap to select then tap a cell. A ghost preview shows valid and invalid spots."
         },
         {
-          "title": "Clear lines",
-          "description": "Fill rows or columns to score. Watch for frozen or locked cells."
+          "title": "Clear lines and combo",
+          "description": "Fill a full row or column to clear it. Use all three shapes to get a new set. Consecutive-turn clears combo."
         },
         {
-          "title": "Use a shuffle",
-          "description": "If the remaining pieces do not fit, shuffle (limited per game) or go Premium for a continue."
+          "title": "Watch the rule and shuffle once",
+          "description": "Every N turns a new rule appears. You get one shuffle per game. When nothing fits, the run ends."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Board, rotating rules, combos, difficulties, and placement.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "hero",
+          "title": "Place. Clear.",
+          "description": "Survive the rule on a dark board.",
+          "image": "/images/blockiva/01-hero.png",
+          "alt": "Blockiva block puzzle board",
+          "category": "features"
+        },
+        {
+          "id": "rules",
+          "title": "The rule changes",
+          "description": "Five rotating rules: Locked Tiles, Frozen Row, Shadow Blocks, Double Score, Fake Block.",
+          "image": "/images/blockiva/02-rules.png",
+          "alt": "Blockiva rotating rule chip",
+          "category": "features"
+        },
+        {
+          "id": "combo",
+          "title": "Combos pay",
+          "description": "Clear on consecutive turns to score more.",
+          "image": "/images/blockiva/03-combo.png",
+          "alt": "Blockiva combo scoring",
+          "category": "features"
+        },
+        {
+          "id": "difficulty",
+          "title": "Four difficulties",
+          "description": "Chill 10×10 to Chaos 6×6.",
+          "image": "/images/blockiva/04-difficulty.png",
+          "alt": "Blockiva difficulty select",
+          "category": "features"
+        },
+        {
+          "id": "place",
+          "title": "Drag or tap",
+          "description": "One shuffle per game. Ghost preview shows valid placements.",
+          "image": "/images/blockiva/05-place.png",
+          "alt": "Blockiva drag or tap placement",
+          "category": "features"
+        },
+        {
+          "id": "banner",
+          "title": "Place. Clear. Survive the rule.",
+          "description": "Five rotating rules. Four difficulties. One shuffle.",
+          "image": "/images/blockiva/feature.webp",
+          "alt": "Blockiva Play feature graphic — four colored cubes",
+          "category": "banner"
+        },
+        {
+          "id": "life-still",
+          "title": "Blocks on the table",
+          "description": "The puzzle as objects — place, clear, adapt.",
+          "image": "/images/blockiva/life-still.webp",
+          "alt": "Blockiva still life — colorful cubes on a dark surface",
+          "category": "lifestyle"
+        }
+      ],
+      "moreTitle": "Still life"
+    },
+    "manual": {
+      "title": "User manual",
+      "subtitle": "Placement, rules, scoring, and Remove Ads.",
+      "sections": [
+        {
+          "title": "1. Placement",
+          "steps": [
+            "Drag a shape onto the board, or tap a piece then tap a cell.",
+            "Ghost preview shows valid (and invalid) placements.",
+            "Use all three shapes to receive a new set."
+          ]
+        },
+        {
+          "title": "2. Rules and difficulties",
+          "steps": [
+            "Watch the rule chip — a new rule appears every N turns.",
+            "Rules: Locked Tiles, Frozen Row, Shadow Blocks, Double Score, Fake Block.",
+            "Difficulties: Chill 10×10 / 5 turns, Classic 8×8 / 3 turns, Intense 7×7 / 2 turns, Chaos 6×6 / 1 turn."
+          ]
+        },
+        {
+          "title": "3. Shuffle and scoring",
+          "steps": [
+            "One shuffle per game on Free. Save it for a dead board.",
+            "Combos need consecutive-turn clears, not the same turn only.",
+            "Fake Block does not count toward clears."
+          ]
+        },
+        {
+          "title": "4. Remove Ads",
+          "steps": [
+            "Free shows AdMob banner and interstitial (2-minute cooldown).",
+            "Buy blockiva_remove_ads in Settings (recommended USD $2.99, one-time).",
+            "Premium also adds extra shuffles and a continue. Restore after reinstall."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Stay alive when the rule changes.",
+      "items": [
+        {
+          "title": "Save the shuffle",
+          "description": "Save the shuffle for a dead board, not turn 3."
+        },
+        {
+          "title": "Chaos is small",
+          "description": "Chaos is 6×6 — think two placements ahead."
+        },
+        {
+          "title": "Fake Block",
+          "description": "Fake Block does not count toward clears. Do not complete a line with it."
+        },
+        {
+          "title": "Combo timing",
+          "description": "Combos need consecutive-turn clears, not the same turn only."
+        },
+        {
+          "title": "Watch the chip",
+          "description": "The rule chip is the whole game. Place for the next rule, not only the current board."
+        },
+        {
+          "title": "Restore Remove Ads",
+          "description": "Purchases are tied to your Apple ID or Google account — tap Restore in Settings."
         }
       ]
     }

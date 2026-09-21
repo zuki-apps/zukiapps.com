@@ -42,6 +42,8 @@ export type BuildProductMetadataOptions = {
   appPath: string;
   t: TranslateFn;
   keywords?: string[];
+  /** Site-relative path, e.g. /images/eventtick/og.webp */
+  ogImage?: string;
 };
 
 export function buildProductPageMetadata({
@@ -49,6 +51,7 @@ export function buildProductPageMetadata({
   appPath,
   t,
   keywords = [],
+  ogImage,
 }: BuildProductMetadataOptions): Metadata {
   const title = resolveProductSeoTitle(t);
   const description = resolveProductMetaDescription(t);
@@ -68,6 +71,7 @@ export function buildProductPageMetadata({
       siteName: 'Zuki Apps',
       title,
       description,
+      ...(ogImage ? { images: [{ url: ogImage }] } : {}),
     },
     twitter: {
       card: 'summary_large_image',
@@ -75,6 +79,7 @@ export function buildProductPageMetadata({
       description,
       creator: '@zuki_apps',
       site: '@zuki_apps',
+      ...(ogImage ? { images: [ogImage] } : {}),
     },
     robots: {
       index: true,

@@ -64,12 +64,12 @@ export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
   {
     path: '/eventtick',
     name: 'EventTick',
-    description: 'Countdown & Widgets. Coming soon. com.zuki.apps.eventtick.',
+    description: 'Lifestyle event countdown and Home Screen widgets. Eight styles, Midnight or Dawn. Coming soon. com.zuki.apps.eventtick.',
   },
   {
     path: '/tally-nudge',
     name: 'TallyNudge',
-    description: 'Tally Counter & Clicker. Coming soon. com.zuki.apps.tallynudge.',
+    description: 'Tactile tally counter and clicker. In-app widget previews in 0.9.0, not Home Screen widgets. Coming soon. com.zuki.apps.tallynudge.',
   },
   {
     path: '/ztl-guard',
@@ -84,7 +84,7 @@ export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
   {
     path: '/blockiva',
     name: 'Blockiva – Block Puzzle',
-    description: 'Block puzzle with shifting placement rules. Coming soon. com.zuki.apps.blockiva.',
+    description: 'Place. Clear. Survive the rule. Five rotating rules, four difficulties. Coming soon. com.zuki.apps.blockiva.',
   },
   {
     path: '/questivo',
