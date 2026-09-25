@@ -73,22 +73,22 @@ export const PHOTO_STAMP_PILOT = false;
 export const PHOTO_STAMP_PUBLISHED = false;
 export const PHOTO_STAMP_APP_PATH = '/photo-stamp' as const;
 
-/** Blockiva – Block Puzzle — hidden until published; legal pages for store compliance. */
-export const BLOCKIVA_UNDER_CONSTRUCTION = true;
-export const BLOCKIVA_PILOT = false;
-export const BLOCKIVA_PUBLISHED = false;
+/** Blockiva – Block Puzzle — on home when published. iOS live; Play coming soon. */
+export const BLOCKIVA_UNDER_CONSTRUCTION = false;
+export const BLOCKIVA_PILOT = true;
+export const BLOCKIVA_PUBLISHED = true;
 export const BLOCKIVA_APP_PATH = '/blockiva' as const;
 
-/** EventTick — hidden until published; legal pages for store compliance. */
-export const EVENTTICK_UNDER_CONSTRUCTION = true;
-export const EVENTTICK_PILOT = false;
-export const EVENTTICK_PUBLISHED = false;
+/** EventTick — on home when published. iOS live; Play coming soon. */
+export const EVENTTICK_UNDER_CONSTRUCTION = false;
+export const EVENTTICK_PILOT = true;
+export const EVENTTICK_PUBLISHED = true;
 export const EVENTTICK_APP_PATH = '/eventtick' as const;
 
-/** TallyNudge — hidden until published; legal pages for store compliance. */
-export const TALLY_NUDGE_UNDER_CONSTRUCTION = true;
-export const TALLY_NUDGE_PILOT = false;
-export const TALLY_NUDGE_PUBLISHED = false;
+/** TallyNudge — on home when published. iOS live; Play coming soon. */
+export const TALLY_NUDGE_UNDER_CONSTRUCTION = false;
+export const TALLY_NUDGE_PILOT = true;
+export const TALLY_NUDGE_PUBLISHED = true;
 export const TALLY_NUDGE_APP_PATH = '/tally-nudge' as const;
 
 /** ZTLGuard — hidden until published; legal pages for store compliance. */

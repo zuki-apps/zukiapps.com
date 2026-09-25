@@ -20,7 +20,7 @@ export function truncateSeoText(text: string, max: number): string {
 }
 
 export function resolveProductSeoTitle(t: TranslateFn): string {
-  if (t.has?.('hero.seoTitle')) return t('hero.seoTitle');
+  if (t.has?.('hero.seoTitle')) return truncateSeoText(t('hero.seoTitle'), MAX_TITLE);
   const title = t('hero.title');
   const subtitle = t.has?.('hero.subtitle') ? t('hero.subtitle') : '';
   const combined = subtitle
@@ -30,7 +30,9 @@ export function resolveProductSeoTitle(t: TranslateFn): string {
 }
 
 export function resolveProductMetaDescription(t: TranslateFn): string {
-  if (t.has?.('hero.metaDescription')) return t('hero.metaDescription');
+  if (t.has?.('hero.metaDescription')) {
+    return truncateSeoText(t('hero.metaDescription'), MAX_META_DESC);
+  }
   if (t.has?.('hero.structuredDataDescription')) {
     return truncateSeoText(t('hero.structuredDataDescription'), MAX_META_DESC);
   }
@@ -44,6 +46,8 @@ export type BuildProductMetadataOptions = {
   keywords?: string[];
   /** Site-relative path, e.g. /images/eventtick/og.webp */
   ogImage?: string;
+  /** Numeric App Store id for iOS Smart App Banner (Safari download prompt). */
+  itunesAppId?: string;
 };
 
 export function buildProductPageMetadata({
@@ -52,6 +56,7 @@ export function buildProductPageMetadata({
   t,
   keywords = [],
   ogImage,
+  itunesAppId,
 }: BuildProductMetadataOptions): Metadata {
   const title = resolveProductSeoTitle(t);
   const description = resolveProductMetaDescription(t);
@@ -60,6 +65,13 @@ export function buildProductPageMetadata({
     title,
     description,
     ...(keywords.length > 0 ? { keywords } : {}),
+    ...(itunesAppId
+      ? {
+          other: {
+            'apple-itunes-app': `app-id=${itunesAppId}, app-argument=${buildCanonical(locale, appPath)}`,
+          },
+        }
+      : {}),
     alternates: {
       canonical: buildCanonical(locale, appPath),
       languages: buildLanguageAlternates(appPath),

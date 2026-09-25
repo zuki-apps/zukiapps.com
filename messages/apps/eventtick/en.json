@@ -2,15 +2,15 @@
   "eventTick": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming soon · iOS & Android",
-      "title": "Count down to the days that matter.",
+      "badge": "Free on the App Store · Google Play coming soon",
+      "title": "EventTick — Event Countdown",
       "productName": "EventTick — Event Countdown",
-      "subtitle": "Event Countdown & Home Screen Widgets",
+      "subtitle": "Count down to the days that matter.",
       "description": "Live event countdowns and Home Screen widgets for trips, birthdays, launches, and everything in between. Free includes 3 events with ads. Premium is a one-time unlock for unlimited events, every look, and no ads. No account required.",
-      "socialProof": "12 languages · Lifestyle · On-device · Optional Premium · Coming soon",
-      "structuredDataDescription": "EventTick is a Lifestyle countdown app for iOS and Android by Zuki Apps. Eight styles: Breaking Down, Total Days, Weeks & Days, Months & Days, The Big Number, Orbit, Momentum, Immersive. Eight accents. Midnight or Dawn. Home Screen widgets. Free: 3 events, three styles, four accents, two widget looks, AdMob banner and interstitial. Premium product com.zuki.apps.eventtick.premium is a $3.99 one-time unlock: unlimited events, all looks, no ads. Events stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.eventtick. Store listings coming soon.",
-      "seoTitle": "EventTick — Event Countdown & Home Screen Widgets | Zuki Apps",
-      "metaDescription": "Live event countdowns and Home Screen widgets for trips, birthdays, and launches. Coming soon to iOS and Android. No account required."
+      "socialProof": "12 languages · Lifestyle · On-device · Optional Premium · Free on iOS",
+      "structuredDataDescription": "EventTick is a Lifestyle countdown app for iOS by Zuki Apps. Free on the App Store (id6813929052). Google Play coming soon. Eight styles: Breaking Down, Total Days, Weeks & Days, Months & Days, The Big Number, Orbit, Momentum, Immersive. Eight accents. Midnight or Dawn. iPhone Home Screen widgets. Free: 3 events, three styles, four accents, two widget looks, AdMob banner and interstitial. Premium product com.zuki.apps.eventtick.premium is a $3.99 one-time unlock: unlimited events, all looks, no ads. Events stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.eventtick.",
+      "seoTitle": "EventTick — Countdown Widgets | Zuki Apps",
+      "metaDescription": "Live iPhone countdown widgets for trips and birthdays. Free on the App Store. Google Play coming soon."
     },
     "pageNav": {
       "features": "Features",
@@ -58,7 +58,7 @@
       "items": [
         {
           "question": "What is EventTick?",
-          "answer": "EventTick is a Lifestyle countdown app for iOS and Android. Name a date, pick a style, and keep it on your Home Screen. Package: com.zuki.apps.eventtick."
+          "answer": "EventTick is a Lifestyle countdown app for iOS. Name a date, pick a style, and keep it on your iPhone Home Screen. Free on the App Store (id6813929052). Google Play coming soon. Package: com.zuki.apps.eventtick."
         },
         {
           "question": "Do I need an account?",
@@ -78,7 +78,7 @@
         },
         {
           "question": "Does EventTick have Home Screen widgets?",
-          "answer": "Yes. Pin a countdown on the iOS or Android Home Screen. Free includes Minimal and Compact looks; Premium unlocks the rest."
+          "answer": "Yes on iPhone. Pin a countdown on the Home Screen. Free includes Minimal and Compact looks; Premium unlocks the rest. Google Play (and Android widgets) coming soon."
         },
         {
           "question": "Does EventTick show ads?",
@@ -90,7 +90,7 @@
         },
         {
           "question": "How do I restore Premium?",
-          "answer": "Open Settings and tap Restore purchases with the same Apple ID or Google account. Product ID: com.zuki.apps.eventtick.premium."
+          "answer": "Open Settings and tap Restore purchases with the same Apple ID. Product ID: com.zuki.apps.eventtick.premium. Google Play coming soon."
         },
         {
           "question": "How do I get support?",
@@ -100,18 +100,18 @@
     },
     "status": {
       "title": "Availability",
-      "description": "EventTick v0.9.0 is in development. App Store and Google Play listings coming soon.",
+      "description": "EventTick is free on the App Store. Google Play coming soon.",
       "version": "Version",
       "status": "Platform",
       "versionValue": "0.9.0",
-      "statusValue": "iOS & Android · Coming soon"
+      "statusValue": "iOS · Google Play coming soon"
     },
     "download": {
       "title": "Download EventTick",
-      "description": "Event countdown and Home Screen widgets. Coming soon to the App Store and Google Play.",
-      "soon": "Coming soon to the App Store and Google Play",
+      "description": "Event countdown and Home Screen widgets. Free on the App Store. Google Play coming soon.",
+      "soon": "Google Play coming soon",
       "googlePlaySoon": "Coming soon on Google Play",
-      "appStoreUrl": "",
+      "appStoreUrl": "https://apps.apple.com/us/app/eventtick-event-countdown/id6813929052",
       "googlePlayUrl": "",
       "appIconAlt": "EventTick app icon — event countdown",
       "appStoreAlt": "Download on the App Store",
@@ -418,7 +418,7 @@
           "title": "3. Widgets",
           "steps": [
             "Open the widget studio and pick Minimal or Compact on Free.",
-            "Add the EventTick widget from the iOS or Android Home Screen editor.",
+            "Add the EventTick widget from the iPhone Home Screen editor.",
             "Premium unlocks the remaining widget looks."
           ]
         },
@@ -454,7 +454,7 @@
         },
         {
           "title": "Restore after reinstall",
-          "description": "Premium is tied to your Apple ID or Google account — tap Restore in Settings."
+          "description": "Premium is tied to your Apple ID — tap Restore in Settings. Google Play coming soon."
         },
         {
           "title": "Events are local",

@@ -35,6 +35,7 @@ export async function generateMetadata({
     appPath: '/tally-nudge',
     t,
     ogImage: '/images/tally-nudge/og.webp',
+    itunesAppId: '6814104401',
     keywords: [
       'TallyNudge',
       'tally counter',

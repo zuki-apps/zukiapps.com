@@ -20,4 +20,7 @@ export const HOME_APP_ICON_WEBP: Record<HomeAppId, string> = {
   'zuli-collage': `/images/zuli-collage-icon.webp?v=${v}`,
   timesince: `/images/timesince-icon.webp?v=${v}`,
   toldya: `/images/toldya-icon.webp?v=${v}`,
+  eventtick: `/images/eventtick-icon.webp?v=${v}`,
+  'tally-nudge': `/images/tally-nudge-icon.webp?v=${v}`,
+  blockiva: `/images/blockiva-icon.webp?v=${v}`,
 };

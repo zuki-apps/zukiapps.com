@@ -56,21 +56,29 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     name: 'ToldYa!',
     description: 'Social predictions (open beta): Arena voting, reputation, private rooms. Free, no ads. English & Hebrew. iOS & Android.',
   },
+  {
+    path: '/eventtick',
+    name: 'EventTick',
+    description:
+      'Lifestyle event countdown and Home Screen widgets. Eight styles, Midnight or Dawn. Free on the App Store (id6813929052). Google Play coming soon. com.zuki.apps.eventtick.',
+  },
+  {
+    path: '/tally-nudge',
+    name: 'TallyNudge',
+    description:
+      'Tactile tally counter and clicker. In-app widget previews in 0.9.0, not Home Screen widgets. Free on the App Store (id6814104401). Google Play coming soon. com.zuki.apps.tallynudge.',
+  },
+  {
+    path: '/blockiva',
+    name: 'Blockiva – Block Puzzle',
+    description:
+      'Place. Clear. Survive the rule. Five rotating rules, four difficulties. Free on the App Store (id6813509536). Google Play coming soon. com.zuki.apps.blockiva.',
+  },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];
 
 /** Unpublished / under-construction titles — About portfolio only, not home or JSON-LD ItemList. */
 export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
-  {
-    path: '/eventtick',
-    name: 'EventTick',
-    description: 'Lifestyle event countdown and Home Screen widgets. Eight styles, Midnight or Dawn. Coming soon. com.zuki.apps.eventtick.',
-  },
-  {
-    path: '/tally-nudge',
-    name: 'TallyNudge',
-    description: 'Tactile tally counter and clicker. In-app widget previews in 0.9.0, not Home Screen widgets. Coming soon. com.zuki.apps.tallynudge.',
-  },
   {
     path: '/ztl-guard',
     name: 'ZTLGuard',
@@ -80,11 +88,6 @@ export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
     path: '/contacts-toolbox',
     name: 'Contacts Toolbox',
     description: 'Contacts Organizer. Coming soon. com.zuki.apps.contactstoolbox.',
-  },
-  {
-    path: '/blockiva',
-    name: 'Blockiva – Block Puzzle',
-    description: 'Place. Clear. Survive the rule. Five rotating rules, four difficulties. Coming soon. com.zuki.apps.blockiva.',
   },
   {
     path: '/questivo',

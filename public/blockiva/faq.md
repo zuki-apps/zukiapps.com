@@ -2,12 +2,13 @@
 
 > Canonical page: https://zukiapps.com/blockiva/support
 > Product page: https://zukiapps.com/blockiva
-> App: iOS & Android · Android `com.zuki.apps.blockiva` · listings coming soon
+> App Store: https://apps.apple.com/us/app/blockiva-block-puzzle/id6813509536 (id6813509536)
+> Google Play: coming soon · Android `com.zuki.apps.blockiva`
 > Icon: https://zukiapps.com/images/blockiva-icon.png?v=1
 
 ## What is Blockiva – Block Puzzle?
 
-Blockiva is a rotating-rules block puzzle for iOS and Android by Zuki Apps. Place shapes, clear rows and columns, then survive the next rule. Tagline: Place. Clear. Survive the rule. Package: `com.zuki.apps.blockiva`. Store listings coming soon.
+Blockiva is a rotating-rules block puzzle for iOS by Zuki Apps. Place shapes, clear rows and columns, then survive the next rule. Tagline: Place. Clear. Survive the rule. Free on the App Store (id6813509536). Google Play coming soon. Package: `com.zuki.apps.blockiva`.
 
 ## Is this Block Blast?
 

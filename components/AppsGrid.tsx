@@ -21,6 +21,9 @@ const TITLE_KEY: Record<HomeAppId, string> = {
   'zuli-collage': 'zuliCollage.title',
   timesince: 'timeSince.title',
   toldya: 'toldya.title',
+  eventtick: 'eventTick.title',
+  'tally-nudge': 'tallyNudge.title',
+  blockiva: 'blockiva.title',
 };
 
 const EDGE_TO_EDGE = new Set<HomeAppId>([
@@ -29,6 +32,9 @@ const EDGE_TO_EDGE = new Set<HomeAppId>([
   'geo-calc',
   'zuli-collage',
   'timesince',
+  'eventtick',
+  'tally-nudge',
+  'blockiva',
 ]);
 
 export default async function AppsGrid({ locale }: { locale: string }) {

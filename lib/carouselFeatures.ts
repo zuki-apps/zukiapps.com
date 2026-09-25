@@ -23,6 +23,9 @@ import {
   Trophy,
   Users,
   Megaphone,
+  CalendarClock,
+  Hash,
+  Puzzle,
   Volume2,
   Wand2,
   Palette,
@@ -396,6 +399,78 @@ export function getCarouselFeatureCells(appId: string): CarouselFeatureCell[] | 
           cellClass:
             'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-orange-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-orange-400/45 transition-all duration-300',
           iconClassName: 'w-8 h-8 text-orange-300 mb-2',
+        },
+      ];
+    case 'eventtick':
+      return [
+        {
+          Icon: CalendarClock,
+          labelKey: 'eventTick.features.countdown',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-sky-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-sky-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-sky-300 mb-2',
+        },
+        {
+          Icon: LayoutGrid,
+          labelKey: 'eventTick.features.widgets',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-sky-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-sky-400/40 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-sky-200 mb-2',
+        },
+        {
+          Icon: Sparkles,
+          labelKey: 'eventTick.features.styles',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-sky-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-sky-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-sky-300 mb-2',
+        },
+      ];
+    case 'tally-nudge':
+      return [
+        {
+          Icon: Hash,
+          labelKey: 'tallyNudge.features.tap',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-emerald-300 mb-2',
+        },
+        {
+          Icon: Target,
+          labelKey: 'tallyNudge.features.targets',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-400/40 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-teal-200 mb-2',
+        },
+        {
+          Icon: Volume2,
+          labelKey: 'tallyNudge.features.premium',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-emerald-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-emerald-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-emerald-300 mb-2',
+        },
+      ];
+    case 'blockiva':
+      return [
+        {
+          Icon: Puzzle,
+          labelKey: 'blockiva.features.rules',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-amber-300 mb-2',
+        },
+        {
+          Icon: LayoutGrid,
+          labelKey: 'blockiva.features.difficulty',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/40 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-amber-200 mb-2',
+        },
+        {
+          Icon: Sparkles,
+          labelKey: 'blockiva.features.combo',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-amber-300 mb-2',
         },
       ];
     case 'toldya':

@@ -2,15 +2,15 @@
   "tallyNudge": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming soon · iOS & Android",
-      "title": "Count anything with a tactile tap",
+      "badge": "Free on the App Store · Google Play coming soon",
+      "title": "TallyNudge — Tally Counter & Clicker",
       "productName": "TallyNudge — Tally Counter & Clicker",
-      "subtitle": "Tally Counter & Clicker",
+      "subtitle": "Count anything with a tactile tap",
       "description": "A dark, tactile tally counter for reps, water, laps, and inventory. One giant button, optional targets, and on-device history. Free includes 4 counters with ads. Widget layouts in 0.9.0 are in-app previews, not Home Screen widgets.",
-      "socialProof": "12 languages · Productivity · On-device · Optional Premium · Coming soon",
-      "structuredDataDescription": "TallyNudge is a Productivity tally counter and clicker for iOS and Android by Zuki Apps. Giant +/− buttons, haptics, optional tick sounds, targets, and on-device history. Free: 4 counters, AdMob banner and interstitial (4-minute cooldown). Premium product tallynudge_premium is a $2.99 one-time unlock: unlimited counters, history, volume-button counting, extra widget layouts, no ads. Widget layouts in 0.9.0 are in-app previews, not OS Home Screen widgets. Counters stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.tallynudge. Store listings coming soon.",
+      "socialProof": "12 languages · Productivity · On-device · Optional Premium · Free on iOS",
+      "structuredDataDescription": "TallyNudge is a Productivity tally counter and clicker for iOS by Zuki Apps. Free on the App Store (id6814104401). Google Play coming soon. Giant +/− buttons, haptics, optional tick sounds, targets, and on-device history. Free: 4 counters, AdMob banner and interstitial (4-minute cooldown). Premium product tallynudge_premium is a $2.99 one-time unlock: unlimited counters, history, volume-button counting, extra widget layouts, no ads. Widget layouts in 0.9.0 are in-app previews, not OS Home Screen widgets. Counters stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.tallynudge.",
       "seoTitle": "TallyNudge — Tally Counter & Clicker | Zuki Apps",
-      "metaDescription": "Dark tactile tally counter for reps, water, laps, and inventory. No account. Optional one-time Premium. Coming soon to iOS and Android."
+      "metaDescription": "Dark tactile tally counter for reps, water, laps, and inventory. Free on the App Store. Google Play coming soon. No account. Optional one-time Premium."
     },
     "pageNav": {
       "features": "Features",
@@ -58,7 +58,7 @@
       "items": [
         {
           "question": "What is TallyNudge?",
-          "answer": "TallyNudge is a dark, tactile tally counter and clicker for iOS and Android. Package: com.zuki.apps.tallynudge."
+          "answer": "TallyNudge is a dark, tactile tally counter and clicker for iOS. Free on the App Store (id6814104401). Google Play coming soon. Package: com.zuki.apps.tallynudge."
         },
         {
           "question": "Do I need an account?",
@@ -74,7 +74,7 @@
         },
         {
           "question": "What is the Premium product ID?",
-          "answer": "tallynudge_premium. Recommended price USD $2.99, one-time, not a subscription. Payments are processed by Apple or Google."
+          "answer": "tallynudge_premium. Recommended price USD $2.99, one-time, not a subscription. Payments are processed by Apple. Google Play coming soon."
         },
         {
           "question": "Does TallyNudge show ads?",
@@ -90,7 +90,7 @@
         },
         {
           "question": "How do I restore Premium?",
-          "answer": "Open Settings and tap Restore purchases with the same Apple ID or Google account. Product ID: tallynudge_premium."
+          "answer": "Open Settings and tap Restore purchases with the same Apple ID. Product ID: tallynudge_premium. Google Play coming soon."
         },
         {
           "question": "How do I get support?",
@@ -100,18 +100,18 @@
     },
     "status": {
       "title": "Availability",
-      "description": "TallyNudge v0.9.0 is in development. App Store and Google Play listings coming soon.",
+      "description": "TallyNudge is free on the App Store. Google Play coming soon.",
       "version": "Version",
       "status": "Platform",
       "versionValue": "0.9.0",
-      "statusValue": "iOS & Android · Coming soon"
+      "statusValue": "iOS · Google Play coming soon"
     },
     "download": {
       "title": "Download TallyNudge",
-      "description": "Tactile tally counter and clicker. Coming soon to the App Store and Google Play.",
-      "soon": "Coming soon to the App Store and Google Play",
+      "description": "Tactile tally counter and clicker. Free on the App Store. Google Play coming soon.",
+      "soon": "Google Play coming soon",
       "googlePlaySoon": "Coming soon on Google Play",
-      "appStoreUrl": "",
+      "appStoreUrl": "https://apps.apple.com/us/app/tally-nudge/id6814104401",
       "googlePlayUrl": "",
       "appIconAlt": "TallyNudge — Tally Counter & Clicker app icon",
       "appStoreAlt": "Download on the App Store",
@@ -455,7 +455,7 @@
         },
         {
           "title": "Restore after reinstall",
-          "description": "Premium is tied to your Apple ID or Google account — tap Restore in Settings."
+          "description": "Premium is tied to your Apple ID — tap Restore in Settings. Google Play coming soon."
         }
       ]
     }

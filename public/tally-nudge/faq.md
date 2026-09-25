@@ -2,12 +2,13 @@
 
 > Canonical page: https://zukiapps.com/tally-nudge/support
 > Product page: https://zukiapps.com/tally-nudge
-> App: iOS & Android · Android `com.zuki.apps.tallynudge` · listings coming soon
+> App Store: https://apps.apple.com/us/app/tally-nudge/id6814104401 (id6814104401)
+> Google Play: coming soon · Android `com.zuki.apps.tallynudge`
 > Icon: https://zukiapps.com/images/tally-nudge-icon.png?v=1
 
 ## What is TallyNudge?
 
-TallyNudge is a dark, tactile tally counter and clicker for iOS and Android by Zuki Apps. Package: `com.zuki.apps.tallynudge`. Store listings coming soon.
+TallyNudge is a dark, tactile tally counter and clicker for iOS by Zuki Apps. Free on the App Store (id6814104401). Google Play coming soon. Package: `com.zuki.apps.tallynudge`.
 
 ## Do I need an account?
 
@@ -23,7 +24,7 @@ Not in 0.9.0. The Widgets tab shows four in-app preview layouts so you can pick 
 
 ## What is the Premium product ID?
 
-`tallynudge_premium`. Recommended price USD $2.99, one-time, not a subscription. Payments are processed by Apple or Google.
+`tallynudge_premium`. Recommended price USD $2.99, one-time, not a subscription. Payments are processed by Apple. Google Play coming soon.
 
 ## Does TallyNudge show ads?
 
@@ -39,7 +40,7 @@ On your device. Uninstalling the app deletes local counters and history.
 
 ## How do I restore Premium?
 
-Open Settings and tap Restore purchases with the same Apple ID or Google account. Product ID: `tallynudge_premium`.
+Open Settings and tap Restore purchases with the same Apple ID. Product ID: `tallynudge_premium`. Google Play coming soon.
 
 ## How do I get support?
 

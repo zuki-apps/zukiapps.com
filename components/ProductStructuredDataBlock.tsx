@@ -49,7 +49,7 @@ export default async function ProductStructuredDataBlock({
       <SoftwareApplicationStructuredData
         locale={locale}
         appPath={config.appPath}
-        appName={t('hero.title')}
+        appName={t.has('hero.productName') ? t('hero.productName') : t('hero.title')}
         appDescription={structuredDescription}
         operatingSystem={config.operatingSystem ?? 'iOS,Android'}
         applicationCategory={config.applicationCategory}

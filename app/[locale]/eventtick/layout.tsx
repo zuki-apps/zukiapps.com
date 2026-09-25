@@ -35,6 +35,7 @@ export async function generateMetadata({
     appPath: '/eventtick',
     t,
     ogImage: '/images/eventtick/og.webp',
+    itunesAppId: '6813929052',
     keywords: [
       'EventTick',
       'event countdown',

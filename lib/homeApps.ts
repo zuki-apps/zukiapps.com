@@ -1,5 +1,8 @@
 import {
+  BLOCKIVA_PUBLISHED,
+  EVENTTICK_PUBLISHED,
   GEO_CALC_PUBLISHED,
+  TALLY_NUDGE_PUBLISHED,
   TIMESINCE_PUBLISHED,
   TOLDYA_PUBLISHED,
   ZULI_COLLAGE_PUBLISHED,
@@ -26,6 +29,9 @@ export const HOME_APP_IDS = [
   'zuli-collage',
   'timesince',
   'toldya',
+  'eventtick',
+  'tally-nudge',
+  'blockiva',
 ] as const;
 
 export type HomeAppId = (typeof HOME_APP_IDS)[number];
@@ -36,6 +42,9 @@ const HOME_PUBLISH_REQUIRED: Partial<Record<HomeAppId, boolean>> = {
   'zuli-collage': ZULI_COLLAGE_PUBLISHED,
   timesince: TIMESINCE_PUBLISHED,
   toldya: TOLDYA_PUBLISHED,
+  eventtick: EVENTTICK_PUBLISHED,
+  'tally-nudge': TALLY_NUDGE_PUBLISHED,
+  blockiva: BLOCKIVA_PUBLISHED,
 };
 
 /** Home-visible apps (respects publish flags). */

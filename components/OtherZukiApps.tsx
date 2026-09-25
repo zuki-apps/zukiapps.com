@@ -23,6 +23,9 @@ const TITLE_KEY: Record<HomeAppId, string> = {
   'zuli-collage': 'zuliCollage.title',
   timesince: 'timeSince.title',
   toldya: 'toldya.title',
+  eventtick: 'eventTick.title',
+  'tally-nudge': 'tallyNudge.title',
+  blockiva: 'blockiva.title',
 };
 
 type OtherZukiAppsProps = {

@@ -35,6 +35,7 @@ export async function generateMetadata({
     appPath: '/blockiva',
     t,
     ogImage: '/images/blockiva/feature.webp',
+    itunesAppId: '6813509536',
     keywords: [
       'Blockiva – Block Puzzle',
       'Blockiva',

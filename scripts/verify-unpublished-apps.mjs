@@ -15,9 +15,6 @@ const UNPUBLISHED = [
   { slug: 'questivo', namespace: 'questivo', flag: 'QUESTIVO' },
   { slug: 'coloring-my-photo', namespace: 'coloringMyPhoto', flag: 'COLORING_MY_PHOTO' },
   { slug: 'photo-stamp', namespace: 'photoStamp', flag: 'PHOTO_STAMP' },
-  { slug: 'blockiva', namespace: 'blockiva', flag: 'BLOCKIVA' },
-  { slug: 'eventtick', namespace: 'eventTick', flag: 'EVENTTICK' },
-  { slug: 'tally-nudge', namespace: 'tallyNudge', flag: 'TALLY_NUDGE' },
   { slug: 'ztl-guard', namespace: 'ztlGuard', flag: 'ZTL_GUARD' },
   { slug: 'contacts-toolbox', namespace: 'contactsToolbox', flag: 'CONTACTS_TOOLBOX' },
 ];

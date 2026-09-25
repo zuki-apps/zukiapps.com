@@ -180,7 +180,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'blockiva-howto-ld',
     accent: 'amber',
     hasSupportPage: true,
-    operatingSystem: 'iOS,Android',
+    operatingSystem: 'iOS',
   },
   eventtick: {
     slug: 'eventtick',
@@ -191,7 +191,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'eventtick-howto-ld',
     accent: 'sky',
     hasSupportPage: true,
-    operatingSystem: 'iOS,Android',
+    operatingSystem: 'iOS',
   },
   'tally-nudge': {
     slug: 'tally-nudge',
@@ -202,7 +202,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'tally-nudge-howto-ld',
     accent: 'emerald',
     hasSupportPage: true,
-    operatingSystem: 'iOS,Android',
+    operatingSystem: 'iOS',
   },
   'ztl-guard': {
     slug: 'ztl-guard',
