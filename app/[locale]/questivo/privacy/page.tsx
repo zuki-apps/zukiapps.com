@@ -108,6 +108,10 @@ export default async function GeoCalcPrivacyPage({
                     href: `/${locale}/questivo/terms`,
                     label: tCommon('termsOfService'),
                   },
+                  {
+                    href: `/${locale}/questivo/delete-account`,
+                    label: tCommon('deleteAccount'),
+                  },
                 ]}
               />
             </div>

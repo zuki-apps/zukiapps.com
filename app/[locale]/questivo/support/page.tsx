@@ -7,7 +7,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { Mail, HelpCircle, MessageCircle, FileText, Shield } from 'lucide-react';
+import { Mail, HelpCircle, MessageCircle, FileText, Shield, Trash2 } from 'lucide-react';
 import { buildFaqPageJsonLd, collectNumberedSupportFaq } from '@/lib/supportFaq';
 
 export async function generateMetadata({
@@ -131,6 +131,18 @@ export default async function GeoCalcSupportPage({
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">{t('quickLinks.terms.title')}</h4>
                         <p className="text-sm text-gray-400">{t('quickLinks.terms.description')}</p>
+                      </div>
+                    </div>
+                  </Link>
+                  <Link
+                    href={`/${locale}/questivo/delete-account`}
+                    className="bg-white rounded-lg p-4 hover:shadow-lg transition-shadow border border-gray-200"
+                  >
+                    <div className="flex items-start gap-3">
+                      <Trash2 className="w-5 h-5 text-violet-700 flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">{t('quickLinks.deleteAccount.title')}</h4>
+                        <p className="text-sm text-gray-400">{t('quickLinks.deleteAccount.description')}</p>
                       </div>
                     </div>
                   </Link>

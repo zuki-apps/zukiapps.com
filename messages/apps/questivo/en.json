@@ -265,6 +265,10 @@
         "terms": {
           "title": "Terms of Use",
           "description": "Terms for using Questivo"
+        },
+        "deleteAccount": {
+          "title": "Delete account",
+          "description": "How to delete your Questivo host account and cloud data"
         }
       },
       "faq": {
@@ -289,6 +293,52 @@
       "additionalHelp": {
         "title": "Need more help?",
         "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+      }
+    },
+    "deleteAccount": {
+      "title": "Delete your Questivo account",
+      "metaDescription": "How to delete a Questivo host account and associated cloud data. Steps in the app, email request, and what Zuki Apps deletes or keeps.",
+      "intro": "Questivo, by Zuki Apps, lets you delete your host account and the cloud data tied to it. Follow the steps below, or email us if you cannot open the app.",
+      "warning": {
+        "title": "This cannot be undone",
+        "content": "Deleting your account removes your host sign-in, published quests, and live rooms. Confirm only if you want that data gone."
+      },
+      "steps": {
+        "title": "Delete your account in the app",
+        "step1": "Open Questivo on your device.",
+        "step2": "Sign in with the Google or Apple account you use as a host.",
+        "step3": "Open Settings.",
+        "step4": "Tap Delete account.",
+        "step5": "Confirm. Cloud account data is deleted when you confirm."
+      },
+      "stepsEmail": {
+        "title": "Request deletion by email",
+        "content": "If you cannot open the app, email us with the subject “Delete Questivo account” and the Google or Apple email on the account. We delete the account data within 30 days."
+      },
+      "data": {
+        "title": "Data that is deleted",
+        "intro": "When deletion finishes, we remove:",
+        "item1": "Your host sign-in (Google or Apple) and profile",
+        "item2": "Cloud history, sessions, and blocked users",
+        "item3": "Quests you published and live rooms you hosted, including mission photos stored for those quests"
+      },
+      "kept": {
+        "title": "Data that is kept",
+        "intro": "The following is not removed by account deletion:",
+        "item1": "Quests and progress stored only on a device, until that app is uninstalled",
+        "item2": "Copies other players already saved on their own devices",
+        "item3": "Crash reports, for up to 90 days",
+        "item4": "Purchase records, which stay with Google Play or the App Store"
+      },
+      "retention": {
+        "title": "Retention",
+        "content": "In the app, cloud account data is deleted when you confirm. Email requests are completed within 30 days. Crash reports may remain for up to 90 days. Players who never signed in have no host account. Uninstalling Questivo removes the data stored on that device."
+      },
+      "contact": {
+        "title": "Contact Zuki Apps",
+        "content": "Questions about deleting your Questivo account:",
+        "privacyLink": "Privacy Policy",
+        "termsLink": "Terms of Use"
       }
     },
     "howToUse": {

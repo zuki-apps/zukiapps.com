@@ -61,6 +61,7 @@ const REQUIRED_FILES = [
   'roamguard/privacy/index.html',
   'questivo/index.html',
   'questivo/privacy/index.html',
+  'questivo/delete-account/index.html',
   'coloring-my-photo/index.html',
   'coloring-my-photo/privacy/index.html',
   'photo-stamp/index.html',

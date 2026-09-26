@@ -150,6 +150,7 @@ const routes: SitemapRouteMeta[] = [
         { path: '/questivo/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/questivo/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/questivo/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/questivo/delete-account', priority: 0.3, changefreq: 'yearly' } satisfies SitemapRouteMeta,
       ]
     : QUESTIVO_UNDER_CONSTRUCTION
       ? [
@@ -157,6 +158,7 @@ const routes: SitemapRouteMeta[] = [
           { path: '/questivo/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/questivo/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/questivo/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/questivo/delete-account', priority: 0.3, changefreq: 'yearly' } satisfies SitemapRouteMeta,
         ]
       : []),
   ...(COLORING_MY_PHOTO_PUBLISHED || COLORING_MY_PHOTO_PILOT
