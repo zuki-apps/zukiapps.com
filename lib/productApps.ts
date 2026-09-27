@@ -140,6 +140,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'roamguard-howto-ld',
     accent: 'cyan',
     hasSupportPage: true,
+    operatingSystem: 'Android',
   },
   questivo: {
     slug: 'questivo',

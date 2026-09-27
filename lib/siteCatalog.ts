@@ -66,7 +66,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/tally-nudge',
     name: 'TallyNudge',
     description:
-      'Tactile tally counter and clicker. In-app widget previews in 0.9.0, not Home Screen widgets. Free on the App Store (id6814104401). Google Play coming soon. com.zuki.apps.tallynudge.',
+      'Tactile tally counter and clicker. In-app widget previews in 0.9.1, not Home Screen widgets. Free on the App Store (id6814104401). Google Play coming soon. com.zuki.apps.tallynudge.',
   },
   {
     path: '/blockiva',
@@ -103,6 +103,11 @@ export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
     path: '/photo-stamp',
     name: 'Photo Stamp: Date & Location',
     description: 'Stamp date, time, and location onto existing photos and videos. On-device. Coming soon. com.zuki.apps.photostamp.',
+  },
+  {
+    path: '/roamguard',
+    name: 'Roam Guard',
+    description: 'Travel data monitor for Android. Per-app usage and eSIM alerts. Coming soon. com.zuki.apps.roamguard.',
   },
 ];
 

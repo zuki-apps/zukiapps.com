@@ -242,11 +242,13 @@ const routes: SitemapRouteMeta[] = [
         { path: '/ztl-guard/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/ztl-guard/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         { path: '/ztl-guard/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/ztl-guard/delete-account', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
       ]
     : ZTL_GUARD_UNDER_CONSTRUCTION
       ? [
           { path: '/ztl-guard', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/ztl-guard/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/ztl-guard/delete-account', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/ztl-guard/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/ztl-guard/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         ]

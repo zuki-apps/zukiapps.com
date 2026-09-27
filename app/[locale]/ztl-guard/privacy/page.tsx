@@ -108,6 +108,10 @@ export default async function GeoCalcPrivacyPage({
                     href: `/${locale}/ztl-guard/terms`,
                     label: tCommon('termsOfService'),
                   },
+                  {
+                    href: `/${locale}/ztl-guard/delete-account`,
+                    label: t('deleteAccountLink'),
+                  },
                 ]}
               />
             </div>

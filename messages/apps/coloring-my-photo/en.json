@@ -75,6 +75,60 @@
         }
       ]
     },
+    "screenshots": {
+      "title": "Coloring My Photo in action",
+      "subtitle": "Turn your photos into color-by-number pages — on device, no account.",
+      "items": [
+        {
+          "id": "ss-your-photo",
+          "title": "Your photo, your page",
+          "description": "Pick any photo from your library and convert it into a color-by-number coloring page.",
+          "image": "/images/coloring-my-photo/01-store-your-photo-your-page.png",
+          "alt": "Coloring My Photo pick photo screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-portraits",
+          "title": "Pets & portraits",
+          "description": "Portraits, pets, and objects make the best pages — clear subjects fill beautifully.",
+          "image": "/images/coloring-my-photo/02-store-pets-portraits.png",
+          "alt": "Coloring My Photo pet portrait coloring page",
+          "category": "features"
+        },
+        {
+          "id": "ss-on-device",
+          "title": "On-device processing",
+          "description": "Everything runs on your phone — your photos never leave the device.",
+          "image": "/images/coloring-my-photo/03-store-on-device.png",
+          "alt": "Coloring My Photo on-device privacy screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-tap-fill",
+          "title": "Tap to fill",
+          "description": "Tap a numbered region to fill it with color. Undo if you miss.",
+          "image": "/images/coloring-my-photo/04-store-tap-to-fill.png",
+          "alt": "Coloring My Photo tap-to-fill interaction",
+          "category": "features"
+        },
+        {
+          "id": "ss-detail-level",
+          "title": "Easy to Advanced",
+          "description": "Choose Easy, Medium, or Advanced detail. Advanced is a Premium unlock.",
+          "image": "/images/coloring-my-photo/05-store-easy-advanced.png",
+          "alt": "Coloring My Photo detail level selection screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-save-share",
+          "title": "Save & share",
+          "description": "Save finished art as an image, share as a .cmpage to continue later, or export to PDF with Premium.",
+          "image": "/images/coloring-my-photo/06-store-save-share.png",
+          "alt": "Coloring My Photo save and share screen",
+          "category": "features"
+        }
+      ]
+    },
     "faq": {
       "title": "Frequently asked questions",
       "subtitle": "Privacy, processing, and supported devices.",
@@ -85,16 +139,36 @@
           "answer": "An app that turns personal photos into interactive color-by-number pages. All processing happens on your device. Package: com.zuki.apps.coloringmyphoto."
         },
         {
-          "question": "Are my photos uploaded?",
+          "question": "Does my photo leave the phone?",
           "answer": "No. Photos are processed locally to create coloring pages. We do not upload your photos to our servers."
+        },
+        {
+          "question": "How many colors can I use?",
+          "answer": "12, 16, 24, or 32 colors. Free goes up to 16 (plus one Premium-quality trial). Premium unlocks 32."
+        },
+        {
+          "question": "What is Easy / Medium / Advanced?",
+          "answer": "How detailed the coloring page is. Easy is fewer, larger regions. Advanced is a Premium unlock."
         },
         {
           "question": "Do I need an account?",
           "answer": "No account is required. Preferences and saved projects are stored on your device."
         },
         {
+          "question": "Can I drop the background?",
+          "answer": "Yes — subject isolation keeps the person or pet and turns the background into paper."
+        },
+        {
+          "question": "What does Premium include?",
+          "answer": "Premium removes ads and the export watermark, unlocks Advanced detail, 32 colors, PDF export, and the subject isolation feature."
+        },
+        {
           "question": "What if processing fails?",
-          "answer": "Try a clearer photo, use Easy detail level, and ensure the image is not extremely small."
+          "answer": "Try a clearer photo with good lighting, use Easy detail level, and make sure the image is not extremely small or busy."
+        },
+        {
+          "question": "Can I restore Premium?",
+          "answer": "Yes. Use Restore on the Premium screen with the same account you used to purchase."
         },
         {
           "question": "How do I get support?",
@@ -107,7 +181,7 @@
       "description": "Coloring My Photo is in development. App Store and Google Play listings coming soon.",
       "version": "Version",
       "status": "Platform",
-      "versionValue": "1.0.0",
+      "versionValue": "0.9.0",
       "statusValue": "iOS & Android · Coming soon"
     },
     "download": {
@@ -292,19 +366,27 @@
     },
     "howToUse": {
       "title": "How it works",
-      "subtitle": "From photo to finished art in three steps.",
+      "subtitle": "From photo to finished art in minutes.",
       "steps": [
         {
-          "title": "Pick a photo",
-          "description": "Choose from gallery or camera — selfie, pet, landscape, or any moment."
+          "title": "Open the app and tap New page",
+          "description": "Pick a photo with a clear subject — pet, portrait, or object."
         },
         {
-          "title": "Choose detail & colors",
-          "description": "Select Easy, Medium, or Advanced and how many colors you want."
+          "title": "Choose detail level and colors",
+          "description": "Start with Easy and 16 colors for a first try. Advanced and 32 colors are Premium unlocks."
         },
         {
-          "title": "Color & export",
-          "description": "Tap numbered regions to fill, then save, share, or print as PDF."
+          "title": "Wait for on-device processing",
+          "description": "Your photo is converted to a color-by-number page. No upload — everything happens on your phone."
+        },
+        {
+          "title": "Tap to fill",
+          "description": "Tap a numbered region to fill it with color. Toggle numbers off to see the art. Use undo if you miss."
+        },
+        {
+          "title": "Save or share",
+          "description": "Save as an image, share a .cmpage to continue later, or export as PDF with Premium."
         }
       ]
     }

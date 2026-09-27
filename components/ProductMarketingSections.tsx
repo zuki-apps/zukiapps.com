@@ -390,9 +390,11 @@ export default function ProductMarketingSections({
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-4 text-white">{t('screenshots.title')}</h2>
             <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">{t('screenshots.subtitle')}</p>
-            {featureShots.length > 0 && hasMessage(t, 'screenshots.featuresTitle') && (
+            {featureShots.length > 0 && (
               <>
-                <h3 className={`text-2xl font-bold ${a.heading} mb-6`}>{t('screenshots.featuresTitle')}</h3>
+                {hasMessage(t, 'screenshots.featuresTitle') && (
+                  <h3 className={`text-2xl font-bold ${a.heading} mb-6`}>{t('screenshots.featuresTitle')}</h3>
+                )}
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 items-start">
                   {featureShots.map((item, i) => renderScreenshotFigure(item, i))}
                 </div>
@@ -443,7 +445,7 @@ export default function ProductMarketingSections({
                   className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-6 shadow-lg ${a.borderHover} border-2 ${a.border} transition-all text-center`}
                 >
                   <div className={`w-16 h-16 rounded-full ${a.stepBg} border-2 ${a.stepBorder} flex items-center justify-center mx-auto mb-4`}>
-                    <span className={`text-2xl font-bold ${a.stepNumber}`}>{step.number}</span>
+                    <span className={`text-2xl font-bold ${a.stepNumber}`}>{step.number || String(i + 1)}</span>
                   </div>
                   <h3 className="text-xl font-bold mb-2 text-white">{step.title}</h3>
                   <p className="text-sm text-gray-300">{step.description}</p>

@@ -9,6 +9,67 @@
       "metaDescription": "Free social predictions app (open beta). Arena voting, private rooms, reputation. No ads. iOS & Android."
     },
     "back": "Back to Home",
+    "pageNav": {
+      "screenshots": "Screenshots",
+      "howTo": "How to use",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real app screens from ToldYa! — post predictions, vote in the Arena, and prove you called it.",
+      "featuresTitle": "App screens",
+      "items": [
+        {
+          "id": "home-feed",
+          "title": "Home feed",
+          "description": "Browse predictions from users you follow. Vote in the Arena or post your own call on the record.",
+          "image": "/images/toldya/sim-home-feed.png",
+          "alt": "ToldYa! home feed showing recent predictions",
+          "category": "features"
+        },
+        {
+          "id": "create",
+          "title": "Create a prediction",
+          "description": "Write your call, set a category and deadline, then publish it for the Arena to vote on.",
+          "image": "/images/toldya/sim-create.png",
+          "alt": "ToldYa! create prediction screen",
+          "category": "features"
+        },
+        {
+          "id": "arena",
+          "title": "Arena voting",
+          "description": "The Arena shows live votes, comments, and reactions on a single prediction. See who's calling it right.",
+          "image": "/images/toldya/sim-arena.png",
+          "alt": "ToldYa! Arena with votes and comments on a prediction",
+          "category": "features"
+        },
+        {
+          "id": "profile",
+          "title": "Your profile",
+          "description": "Track your accuracy score by category, see your resolved predictions, and share your reputation.",
+          "image": "/images/toldya/sim-profile.png",
+          "alt": "ToldYa! user profile with category accuracy scores",
+          "category": "features"
+        },
+        {
+          "id": "search-categories",
+          "title": "Search & categories",
+          "description": "Explore predictions by category — sports, entertainment, tech, and more.",
+          "image": "/images/toldya/sim-search-categories.png",
+          "alt": "ToldYa! search and category browse screen",
+          "category": "features"
+        },
+        {
+          "id": "messages",
+          "title": "Direct messages",
+          "description": "Send private messages to other ToldYa! members.",
+          "image": "/images/toldya/sim-messages.png",
+          "alt": "ToldYa! direct messages screen",
+          "category": "features"
+        }
+      ]
+    },
     "howToUse": {
       "title": "How to use ToldYa!",
       "subtitle": "Post a call, let the Arena vote, resolve when you were right.",
@@ -70,6 +131,18 @@
         {
           "question": "Where are the community rules?",
           "answer": "See https://zukiapps.com/toldya/community for Community Guidelines. The same rules apply in private rooms."
+        },
+        {
+          "question": "Is ToldYa! a gambling or betting app?",
+          "answer": "No. There is no real money, no wallets, no cash prizes, and no payouts. ToldYa! is for reputation and bragging rights only — predictions are entertainment, not financial contracts."
+        },
+        {
+          "question": "What happens if an author never resolves a prediction?",
+          "answer": "The prediction stays in an awaiting-resolution state. Reminders are sent to the author, and overdue predictions may block them from posting new public predictions until resolved."
+        },
+        {
+          "question": "Can I change my vote?",
+          "answer": "No — one vote per prediction. Once you vote in the Arena, your vote is locked."
         }
       ]
     },

@@ -48,6 +48,52 @@
         ]
       }
     },
+    "screenshots": {
+      "title": "ZTLGuard in action",
+      "subtitle": "Browse city zones, check distances, and drive protected.",
+      "items": [
+        {
+          "id": "ss-driving",
+          "title": "Driving Mode",
+          "description": "Large-format status display keeps your eyes on the road while approaching a restricted zone.",
+          "image": "/images/ztl-guard/01-driving.png",
+          "alt": "ZTLGuard Driving Mode screen showing zone status",
+          "category": "features"
+        },
+        {
+          "id": "ss-map",
+          "title": "City map",
+          "description": "Browse ZTL polygons on a dark cartographic map. No GPS required to explore.",
+          "image": "/images/ztl-guard/02-map.png",
+          "alt": "ZTLGuard city map with ZTL zones highlighted",
+          "category": "features"
+        },
+        {
+          "id": "ss-cities",
+          "title": "City list",
+          "description": "Select from a growing list of Italian cities with available zone data.",
+          "image": "/images/ztl-guard/03-cities.png",
+          "alt": "ZTLGuard city selection screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-privacy",
+          "title": "Privacy at a glance",
+          "description": "Location permission summary — on-device only, not uploaded or stored.",
+          "image": "/images/ztl-guard/04-privacy.png",
+          "alt": "ZTLGuard privacy screen showing on-device location policy",
+          "category": "features"
+        },
+        {
+          "id": "ss-premium",
+          "title": "Premium features",
+          "description": "Unlock all cities, voice alerts, and extended lead distance with ztlguard_premium.",
+          "image": "/images/ztl-guard/05-premium.png",
+          "alt": "ZTLGuard Premium upgrade screen",
+          "category": "features"
+        }
+      ]
+    },
     "faq": {
       "title": "Frequently asked questions",
       "subtitle": "Italy ZTL zones, location, and Premium.",
@@ -67,7 +113,27 @@
         },
         {
           "question": "Is the zone data official live municipal data?",
-          "answer": "The current build uses demonstration zone data for a set of Italian cities. Treat it as guidance, not a legal driving permit."
+          "answer": "The current build uses demonstration zone data for a set of Italian cities. Official Florence and Bologna polygons are published under CC BY 4.0. Treat all data as guidance, not a legal driving permit."
+        },
+        {
+          "question": "Does this stop me from getting a fine?",
+          "answer": "No. ZTLGuard is an informational navigation aid. It does not grant permission or confirm a fine. Local signs and the comune always win."
+        },
+        {
+          "question": "What is free vs Premium?",
+          "answer": "Free includes the map, Rome and Florence, foreground alerts up to 500 m, and ads on non-driving screens. Premium (product ID: ztlguard_premium) adds all cities, voice alerts, 1–2 km lead distance, keep-awake Driving Mode, background alerts, and no ads. Stores coming soon."
+        },
+        {
+          "question": "Why isn't my city available?",
+          "answer": "Zone data depends on official municipal open-data feeds. Some cities are missing licensed GeoJSON. Demo data is labelled in-app."
+        },
+        {
+          "question": "Can I report a wrong zone while driving?",
+          "answer": "No. Driving Mode blocks reports to prevent distraction. Submit a zone report after you stop."
+        },
+        {
+          "question": "How do I restore Premium?",
+          "answer": "Premium is a one-time unlock (product ID: ztlguard_premium), not a subscription. Use Restore purchases on the Premium screen after reinstall. Store listings are coming soon."
         },
         {
           "question": "How do I get support?",
@@ -80,7 +146,7 @@
       "description": "ZTLGuard is in development. App Store and Google Play listings coming soon.",
       "version": "Version",
       "status": "Platform",
-      "versionValue": "1.0.0",
+      "versionValue": "0.9.0",
       "statusValue": "iOS & Android · Coming soon"
     },
     "download": {
@@ -147,13 +213,14 @@
       },
       "section7": {
         "title": "7. Your rights and children",
-        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. Contact us to exercise rights.",
+        "content": "Depending on your jurisdiction, you may have rights to access, correct, delete, or object to certain processing. To delete a ZTLGuard account, follow the steps at zukiapps.com/ztl-guard/delete-account or email zuki.apps.dev@gmail.com.",
         "content2": "ZTLGuard is a general-audience travel utility. It is not directed to children under 13. It is not a substitute for official signs or local rules."
       },
       "section8": {
         "title": "8. Changes",
         "content": "We may update this Policy from time to time. We will post the revised version with a new Last updated date."
       },
+      "deleteAccountLink": "Delete account",
       "sectionContact": {
         "title": "Contact",
         "content": "Questions about this Privacy Policy:",
@@ -238,6 +305,10 @@
         "terms": {
           "title": "Terms of Use",
           "description": "Terms for using ZTLGuard — Italy ZTL Alerts"
+        },
+        "deleteAccount": {
+          "title": "Delete account",
+          "description": "Ask Zuki Apps to delete your ZTLGuard account and associated data"
         }
       },
       "faq": {
@@ -264,21 +335,59 @@
         "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
       }
     },
+    "deleteAccount": {
+      "title": "Delete your ZTLGuard account",
+      "metaDescription": "Request deletion of your ZTLGuard account and associated data from Zuki Apps. Steps, what is deleted, what is kept, and the retention period.",
+      "intro": "ZTLGuard by Zuki Apps lets you sign in with Google or Apple. This page is how you ask Zuki Apps to delete that account and the data tied to it.",
+      "warningTitle": "This cannot be undone",
+      "warningBody": "After we delete the account, sign-in, reports, and saved settings for that account are gone. Store purchases stay with Apple or Google.",
+      "stepsTitle": "How to request deletion",
+      "step1": "Send an email to zuki.apps.dev@gmail.com from the Google or Apple address you used in ZTLGuard.",
+      "step2": "Use the subject line: Delete ZTLGuard account.",
+      "step3": "Say whether you signed in with Google or Apple, and include the email shown on that account.",
+      "step4": "We reply to confirm, then delete the ZTLGuard account and the associated data listed below.",
+      "step5": "On your phone, uninstall ZTLGuard or use Settings to remove the offline city pack. That data never leaves the device.",
+      "deletedTitle": "Data we delete",
+      "deletedIntro": "Within 30 days of a confirmed request we delete:",
+      "deleted1": "The ZTLGuard sign-in account (Firebase Auth user id, and the name or email provided by Google or Apple).",
+      "deleted2": "Profile and settings stored with that account.",
+      "deleted3": "Zone reports you submitted while signed in.",
+      "keptTitle": "Data we keep",
+      "keptIntro": "We do not delete:",
+      "kept1": "Location. ZTLGuard does not upload your GPS position or trip history, so there is no location record to delete.",
+      "kept2": "Purchase records held by Apple or Google for ztlguard_premium. Refunds and restore follow the store, not this request.",
+      "kept3": "Crash logs and analytics events that are not linked to your account.",
+      "kept4": "Zone data and municipal sources. Those are not your personal data.",
+      "retentionTitle": "Retention period",
+      "retentionBody": "Account data is deleted from our active systems within 30 days of confirmation. Copies in backups are removed on the next backup cycle, and no later than 30 days after the account is deleted. We do not keep the account for longer than that unless the law requires a specific record.",
+      "guestTitle": "If you never signed in",
+      "guestBody": "A guest session is not an account. Uninstalling ZTLGuard removes the on-device cache. There is no Zuki Apps account to delete.",
+      "contactTitle": "Contact Zuki Apps",
+      "linkLabel": "Delete account"
+    },
     "howToUse": {
       "title": "How to use",
-      "subtitle": "Browse a city. Optionally enable location.",
+      "subtitle": "Browse a city. Optionally enable location for live alerts.",
       "steps": [
         {
           "title": "Pick a city",
-          "description": "Open the city list and choose where you are going."
+          "description": "Open the city list and choose where you are driving. Zone data loads instantly."
         },
         {
-          "title": "View zones",
-          "description": "See limited-traffic zones on the map."
+          "title": "View zones on the map",
+          "description": "See limited-traffic zones drawn on the dark cartographic map. Explore without GPS."
         },
         {
-          "title": "Optional alerts",
-          "description": "Allow location so the app can measure distance to zone boundaries on-device."
+          "title": "Allow location (optional)",
+          "description": "Grant When In Use permission so the app can measure your distance to zone boundaries on-device."
+        },
+        {
+          "title": "Start Driving Mode",
+          "description": "Tap Driving Mode for a large status display. Sound and haptics escalate as you approach."
+        },
+        {
+          "title": "Check zone details",
+          "description": "Open a zone to see source, freshness, and confidence. Demonstration data is clearly labelled."
         }
       ]
     }

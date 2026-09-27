@@ -10,6 +10,7 @@ const ACCENT: Record<string, string> = {
   purple: 'border-purple-500/50 hover:shadow-purple-500/50',
   orange: 'border-orange-500/50 hover:shadow-orange-500/50',
   cyan: 'border-cyan-500/50 hover:shadow-cyan-500/50',
+  sky: 'border-sky-500/50 hover:shadow-sky-500/50',
   amber: 'border-amber-500/50 hover:shadow-amber-500/50',
   emerald: 'border-emerald-500/50 hover:shadow-emerald-500/50',
   rose: 'border-rose-500/50 hover:shadow-rose-500/50',

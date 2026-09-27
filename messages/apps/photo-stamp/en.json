@@ -75,6 +75,52 @@
         }
       ]
     },
+    "screenshots": {
+      "title": "Photo Stamp in action",
+      "subtitle": "Select, design, preview, and export — originals always stay untouched.",
+      "items": [
+        {
+          "id": "ss-home",
+          "title": "Home screen",
+          "description": "Choose photos or videos from your library to start stamping.",
+          "image": "/images/photo-stamp/01_home.png",
+          "alt": "Photo Stamp home screen with library picker",
+          "category": "features"
+        },
+        {
+          "id": "ss-editor",
+          "title": "Stamp editor",
+          "description": "Design the date, time, and location stamp — position, font, and style.",
+          "image": "/images/photo-stamp/02_editor.png",
+          "alt": "Photo Stamp editor screen showing stamp customization",
+          "category": "features"
+        },
+        {
+          "id": "ss-export",
+          "title": "Export preview",
+          "description": "Preview the stamped result and save a new file. The original is never overwritten.",
+          "image": "/images/photo-stamp/03_export.png",
+          "alt": "Photo Stamp export preview screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-premium",
+          "title": "Photo Stamp Pro",
+          "description": "One-time unlock for unlimited exports, premium styles, full resolution, and no ads.",
+          "image": "/images/photo-stamp/04_premium.png",
+          "alt": "Photo Stamp Pro upgrade screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-settings",
+          "title": "Settings",
+          "description": "Manage privacy, restore Pro, and configure default stamp preferences.",
+          "image": "/images/photo-stamp/05_settings.png",
+          "alt": "Photo Stamp settings screen",
+          "category": "features"
+        }
+      ]
+    },
     "faq": {
       "title": "Frequently asked questions",
       "subtitle": "Privacy, metadata, and Photo Stamp Pro.",
@@ -98,7 +144,23 @@
         },
         {
           "question": "Is this a GPS camera or AI editor?",
-          "answer": "No. Photo Stamp is not a GPS camera, survey tool, or AI editor."
+          "answer": "No. Photo Stamp is not a GPS camera, survey tool, or AI editor. It reads existing EXIF metadata from your files."
+        },
+        {
+          "question": "What is free vs Photo Stamp Pro?",
+          "answer": "Free includes weekly export limits and ads outside the editor. Photo Stamp Pro is a one-time unlock for unlimited exports, premium styles, full resolution, and no ads."
+        },
+        {
+          "question": "How long does stamping take?",
+          "answer": "Most stamps take about 10–20 seconds. Everything processes on your device."
+        },
+        {
+          "question": "Does it work with videos?",
+          "answer": "Yes. Select a video from your library and stamp it the same way as a photo."
+        },
+        {
+          "question": "When will it be available on the App Store?",
+          "answer": "Photo Stamp is currently in development. App Store and Google Play listings are coming soon."
         },
         {
           "question": "How do I get support?",

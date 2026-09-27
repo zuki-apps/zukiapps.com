@@ -41,6 +41,18 @@ See https://zukiapps.com/toldya/child-safety for CSAE standards and the designat
 
 See https://zukiapps.com/toldya/community. The same rules apply in private rooms.
 
+## Is ToldYa! a gambling or betting app?
+
+No. There is no real money, no wallets, no cash prizes, and no payouts. ToldYa! is for reputation and bragging rights only — predictions are entertainment, not financial contracts.
+
+## What happens if an author never resolves a prediction?
+
+The prediction stays in an awaiting-resolution state. Reminders are sent to the author, and overdue predictions may block them from posting new public predictions until resolved.
+
+## Can I change my vote?
+
+No — one vote per prediction. Once you vote in the Arena, your vote is locked.
+
 ## Download
 
 - iOS: https://apps.apple.com/il/app/toldya-double-or-nothing/id6756342206

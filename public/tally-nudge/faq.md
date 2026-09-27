@@ -20,7 +20,7 @@ Up to 4 counters, core counting, and optional ads (AdMob banner plus occasional 
 
 ## Does TallyNudge have Home Screen widgets?
 
-Not in 0.9.0. The Widgets tab shows four in-app preview layouts so you can pick how a counter looks. Those are not iOS or Android Home Screen widgets.
+Not in 0.9.1. The Widgets tab shows four in-app preview layouts so you can pick how a counter looks. Those are not iOS or Android Home Screen widgets.
 
 ## What is the Premium product ID?
 

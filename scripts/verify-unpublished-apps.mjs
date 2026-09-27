@@ -17,6 +17,7 @@ const UNPUBLISHED = [
   { slug: 'photo-stamp', namespace: 'photoStamp', flag: 'PHOTO_STAMP' },
   { slug: 'ztl-guard', namespace: 'ztlGuard', flag: 'ZTL_GUARD' },
   { slug: 'contacts-toolbox', namespace: 'contactsToolbox', flag: 'CONTACTS_TOOLBOX' },
+  { slug: 'roamguard', namespace: 'roamGuard', flag: 'ROAMGUARD' },
 ];
 
 const LEGAL_PAGES = ['privacy', 'terms', 'support'];

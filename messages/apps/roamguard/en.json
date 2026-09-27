@@ -76,6 +76,32 @@
         }
       ]
     },
+    "howToUse": {
+      "title": "How to use Roam Guard",
+      "subtitle": "Set up in minutes. Alerts run in the background.",
+      "steps": [
+        {
+          "title": "Grant usage access",
+          "description": "Open Roam Guard and allow usage access. Android requires this to read per-app mobile data."
+        },
+        {
+          "title": "Set your travel package",
+          "description": "Enter your eSIM or roaming package size. Create multiple travel profiles for different trips."
+        },
+        {
+          "title": "Watch the dashboard",
+          "description": "See today's usage, remaining package, live speed, and estimated time until you run out."
+        },
+        {
+          "title": "Get smart alerts",
+          "description": "Receive warnings on spikes, backups, video streaming, and low package — not just end-of-day totals."
+        },
+        {
+          "title": "Enable Ultra Saver (optional)",
+          "description": "Activate the local on-phone VPN to block background apps when every megabyte counts."
+        }
+      ]
+    },
     "premium": {
       "title": "Roam Guard Pro",
       "subtitle": "One-time purchase — no subscription.",
@@ -106,11 +132,27 @@
         },
         {
           "question": "Is Roam Guard free?",
-          "answer": "Yes. Core monitoring, alerts, travel modes, and one travel profile are free. Roam Guard Pro is an optional one-time upgrade."
+          "answer": "Yes. Core monitoring, alerts, travel modes, and one travel profile are free. Roam Guard Pro is an optional one-time upgrade via Google Play."
         },
         {
           "question": "Does it work on iPhone?",
-          "answer": "Roam Guard v1.0.0 is Android only (Android 10+)."
+          "answer": "Roam Guard v1.0.0 is Android only (Android 10 / API 29 or later)."
+        },
+        {
+          "question": "Why does it need Usage Access permission?",
+          "answer": "Android requires this special permission for apps to read per-app mobile data usage. Without it, Roam Guard cannot monitor."
+        },
+        {
+          "question": "Can I monitor two SIMs or an eSIM separately?",
+          "answer": "Yes, on dual-SIM Android phones. Choose which line to monitor in the app. Per-line stats may require Phone permission. Some manufacturers report combined data regardless of permission."
+        },
+        {
+          "question": "What are smart detections?",
+          "answer": "Heuristics that label likely usage patterns such as photo backup, video streaming, cloud sync, app updates, and large downloads."
+        },
+        {
+          "question": "What does Roam Guard Pro include?",
+          "answer": "Unlimited travel profiles, unlimited app ignore rules, full usage history, CSV export, home screen widget, Quick Settings tile, premium themes, and full smart insights. One-time purchase — no subscription."
         },
         {
           "question": "How do I get support?",

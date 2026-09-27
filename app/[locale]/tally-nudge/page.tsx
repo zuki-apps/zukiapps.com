@@ -51,7 +51,7 @@ export default function TallyNudgePage() {
             frameClassName="rounded-[22%] overflow-hidden shadow-2xl ring-2 ring-emerald-400/40"
           />
 
-          <div className="inline-flex items-center gap-2 bg-emerald-950/60 border border-emerald-500/40 text-emerald-200 px-4 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
+          <div className="inline-flex flex-wrap justify-center items-center gap-2 bg-emerald-950/60 border border-emerald-500/40 text-emerald-200 px-4 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm max-w-[min(100%,28rem)] text-center">
             <CheckCircle2 className="w-4 h-4" aria-hidden />
             {t('hero.badge')}
           </div>

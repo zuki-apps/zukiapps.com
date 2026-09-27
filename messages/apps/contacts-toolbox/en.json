@@ -48,6 +48,60 @@
         ]
       }
     },
+    "screenshots": {
+      "title": "Contacts Toolbox in action",
+      "subtitle": "Organize, deduplicate, and bulk-edit your contacts — all on device.",
+      "items": [
+        {
+          "id": "ss-home",
+          "title": "Home screen",
+          "description": "Overview of contacts, duplicates found, and quick-action shortcuts.",
+          "image": "/images/contacts-toolbox/01-home.png",
+          "alt": "Contacts Toolbox home screen with contacts summary",
+          "category": "features"
+        },
+        {
+          "id": "ss-contacts",
+          "title": "Contact list",
+          "description": "Browse all contacts with search. Nothing is uploaded — reads your on-device Contacts app.",
+          "image": "/images/contacts-toolbox/02-contacts.png",
+          "alt": "Contacts Toolbox contact list screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-duplicates",
+          "title": "Duplicate finder",
+          "description": "Review suggested duplicate pairs side by side before merging.",
+          "image": "/images/contacts-toolbox/03-duplicates.png",
+          "alt": "Contacts Toolbox duplicate detection screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-insights",
+          "title": "Insights",
+          "description": "See contacts missing phone, email, or other fields — and fix them in bulk.",
+          "image": "/images/contacts-toolbox/04-insights.png",
+          "alt": "Contacts Toolbox insights screen showing incomplete contacts",
+          "category": "features"
+        },
+        {
+          "id": "ss-settings",
+          "title": "Settings & Premium",
+          "description": "Upgrade to Premium for unlimited merge, CSV export, and no ads.",
+          "image": "/images/contacts-toolbox/05-settings.png",
+          "alt": "Contacts Toolbox settings and Premium upgrade screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-groups",
+          "title": "Groups",
+          "description": "Manage contact groups and bulk-edit members from one screen.",
+          "image": "/images/contacts-toolbox/06-groups.png",
+          "alt": "Contacts Toolbox groups management screen",
+          "category": "features"
+        }
+      ]
+    },
     "faq": {
       "title": "Frequently asked questions",
       "subtitle": "Duplicates, bulk edit, and Premium.",
@@ -58,16 +112,32 @@
           "answer": "A contacts organizer for iOS and Android. Package: com.zuki.apps.contactstoolbox."
         },
         {
+          "question": "Does it read my phone contacts?",
+          "answer": "Yes. After you grant permission it reads and updates the system Contacts app on this device. Matching and edits stay on device — nothing is uploaded."
+        },
+        {
           "question": "Does it upload my contacts?",
-          "answer": "No. Matching, merges, and bulk edits run on your device."
+          "answer": "No. Matching, merges, and bulk edits run entirely on your device."
         },
         {
           "question": "Do I need an account?",
-          "answer": "No."
+          "answer": "No. Contacts Toolbox works without any sign-in or account."
         },
         {
-          "question": "What is Premium?",
-          "answer": "A one-time unlock: contacts_toolbox_premium, processed by Apple or Google."
+          "question": "What is free vs Premium?",
+          "answer": "Free includes browse, scan, and duplicate preview. Premium (product ID: contacts_toolbox_premium) unlocks applying merges, bulk edits, insights, CSV export, and removes ads."
+        },
+        {
+          "question": "Can I undo a merge or bulk edit?",
+          "answer": "Yes. History snapshots let you reverse operations you have applied."
+        },
+        {
+          "question": "What formats can I export?",
+          "answer": "CSV export is a Premium feature. Free users can preview suggestions without exporting."
+        },
+        {
+          "question": "When will it be available on the App Store and Google Play?",
+          "answer": "Contacts Toolbox is currently in development. Store listings are coming soon."
         },
         {
           "question": "How do I get support?",
@@ -269,16 +339,24 @@
       "subtitle": "Review. Merge. Undo if needed.",
       "steps": [
         {
-          "title": "Open your list",
-          "description": "Browse contacts and groups on the device."
+          "title": "Open the app",
+          "description": "Launch Contacts Toolbox. Skip onboarding — ATT consent may appear on iOS."
         },
         {
-          "title": "Review duplicates",
-          "description": "Inspect suggested matches before merging."
+          "title": "Scan for duplicates",
+          "description": "Tap Scan for duplicates. Open any pair and preview the merged result before committing."
         },
         {
-          "title": "Bulk edit with undo",
-          "description": "Apply a change to many contacts, then undo if it was not what you wanted."
+          "title": "Bulk edit with preview",
+          "description": "Apply bulk edits — add fields, clean formatting — and use History to undo if needed."
+        },
+        {
+          "title": "Check Insights",
+          "description": "See contacts missing phone numbers, emails, or names. Preview suggestions before applying."
+        },
+        {
+          "title": "Premium & export",
+          "description": "Upgrade to Premium to apply changes, export to CSV, and remove ads."
         }
       ]
     }

@@ -75,6 +75,68 @@
         }
       ]
     },
+    "screenshots": {
+      "title": "Questivo in action",
+      "subtitle": "Create quests, join with a code, and complete real-world missions.",
+      "items": [
+        {
+          "id": "ss-discover",
+          "title": "Discover quests",
+          "description": "Browse featured and nearby quests or enter a game code to join any quest instantly.",
+          "image": "/images/questivo/01-discover.png",
+          "alt": "Questivo discover screen showing quest listings",
+          "category": "features"
+        },
+        {
+          "id": "ss-detail",
+          "title": "Quest detail",
+          "description": "Preview mission count, distance, and difficulty before starting a quest.",
+          "image": "/images/questivo/02-quest-detail.png",
+          "alt": "Questivo quest detail screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-game",
+          "title": "Play missions",
+          "description": "Solve riddles, scan QR codes, take photos, and confirm GPS arrivals step by step.",
+          "image": "/images/questivo/03-game.png",
+          "alt": "Questivo active mission gameplay screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-play",
+          "title": "Live game view",
+          "description": "See progress, hints, and score during a live quest session.",
+          "image": "/images/questivo/04-play.png",
+          "alt": "Questivo live game progress screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-create",
+          "title": "Create a quest",
+          "description": "Build riddles, photo tasks, GPS checkpoints, and QR scans with a guided wizard.",
+          "image": "/images/questivo/05-create.png",
+          "alt": "Questivo quest creation screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-wizard",
+          "title": "Quest wizard",
+          "description": "Set story, mission order, visibility, and optional pricing in a few taps.",
+          "image": "/images/questivo/06-wizard.png",
+          "alt": "Questivo quest wizard configuration screen",
+          "category": "features"
+        },
+        {
+          "id": "ss-profile",
+          "title": "Host profile",
+          "description": "Manage your published quests and track player completions from the host dashboard.",
+          "image": "/images/questivo/07-profile.png",
+          "alt": "Questivo host profile and quest management screen",
+          "category": "features"
+        }
+      ]
+    },
     "faq": {
       "title": "Frequently asked questions",
       "subtitle": "Playing, creating, and privacy.",
@@ -86,7 +148,11 @@
         },
         {
           "question": "Do players need an account?",
-          "answer": "No account is required to play. Optional cloud features may require sign-in when offered."
+          "answer": "No account is required to play — join with a nickname and a game code. Hosts can sign in with Google to save and sync quests."
+        },
+        {
+          "question": "How do I join a quest?",
+          "answer": "Open Questivo, tap Play, enter the host's game code, or scan the quest QR code. No registration needed."
         },
         {
           "question": "What permissions does Questivo use?",
@@ -94,7 +160,23 @@
         },
         {
           "question": "Is Questivo free?",
-          "answer": "Core play and creation are free. Hosts may publish optional paid premium quests with in-app unlock."
+          "answer": "Free to download. Many quests are free to play. Some quests use a one-time unlock. Host Pro is a subscription for larger live rooms — 5 guests free, 50 with Pro. There are no ads."
+        },
+        {
+          "question": "Does it track my location?",
+          "answer": "Only when a quest has a GPS checkpoint and you allow location. The phone checks that you arrived. Indoor quests do not use GPS."
+        },
+        {
+          "question": "Can I create my own quest?",
+          "answer": "Yes. Use the guided wizard to add riddles, photo missions, GPS checkpoints, QR scans, and a story. Share a code or QR with players."
+        },
+        {
+          "question": "Can I delete my host account?",
+          "answer": "Yes. In the app: Settings → Delete account. Or visit https://zukiapps.com/questivo/delete-account."
+        },
+        {
+          "question": "When will Questivo be available on the App Store and Google Play?",
+          "answer": "Questivo is currently in development. Store listings are coming soon."
         },
         {
           "question": "How do I get support?",

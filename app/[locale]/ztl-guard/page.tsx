@@ -76,6 +76,10 @@ export default function ZTLGuardPage() {
             <Link href={`/${locale}/ztl-guard/support`} className="text-orange-400 hover:text-orange-300 underline">
               {tCommon('support')}
             </Link>
+            <span className="text-gray-500">|</span>
+            <Link href={`/${locale}/ztl-guard/delete-account`} className="text-orange-400 hover:text-orange-300 underline">
+              {t('deleteAccount.linkLabel')}
+            </Link>
           </div>
         </div>
       </section>
@@ -135,6 +139,10 @@ export default function ZTLGuardPage() {
             <span className="text-gray-500">|</span>
             <Link href={`/${locale}/ztl-guard/terms`} className="text-gray-400 hover:text-orange-400 transition-colors">
               {tCommon('termsOfService')}
+            </Link>
+            <span className="text-gray-500">|</span>
+            <Link href={`/${locale}/ztl-guard/delete-account`} className="text-gray-400 hover:text-orange-400 transition-colors">
+              {t('deleteAccount.linkLabel')}
             </Link>
           </div>
         </div>

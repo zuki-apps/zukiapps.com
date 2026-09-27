@@ -2,13 +2,13 @@
   "tallyNudge": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Free on the App Store · Google Play coming soon",
+      "badge": "Free on the App Store",
       "title": "TallyNudge — Tally Counter & Clicker",
       "productName": "TallyNudge — Tally Counter & Clicker",
       "subtitle": "Count anything with a tactile tap",
-      "description": "A dark, tactile tally counter for reps, water, laps, and inventory. One giant button, optional targets, and on-device history. Free includes 4 counters with ads. Widget layouts in 0.9.0 are in-app previews, not Home Screen widgets.",
+      "description": "A dark, tactile tally counter for reps, water, laps, and inventory. One giant button, optional targets, and on-device history. Free includes 4 counters with ads. Widget layouts in 0.9.1 are in-app previews, not Home Screen widgets.",
       "socialProof": "12 languages · Productivity · On-device · Optional Premium · Free on iOS",
-      "structuredDataDescription": "TallyNudge is a Productivity tally counter and clicker for iOS by Zuki Apps. Free on the App Store (id6814104401). Google Play coming soon. Giant +/− buttons, haptics, optional tick sounds, targets, and on-device history. Free: 4 counters, AdMob banner and interstitial (4-minute cooldown). Premium product tallynudge_premium is a $2.99 one-time unlock: unlimited counters, history, volume-button counting, extra widget layouts, no ads. Widget layouts in 0.9.0 are in-app previews, not OS Home Screen widgets. Counters stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.tallynudge.",
+      "structuredDataDescription": "TallyNudge is a Productivity tally counter and clicker for iOS by Zuki Apps. Free on the App Store (id6814104401). Google Play coming soon. Giant +/− buttons, haptics, optional tick sounds, targets, and on-device history. Free: 4 counters, AdMob banner and interstitial (4-minute cooldown). Premium product tallynudge_premium is a $2.99 one-time unlock: unlimited counters, history, volume-button counting, extra widget layouts, no ads. Widget layouts in 0.9.1 are in-app previews, not OS Home Screen widgets. Counters stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.tallynudge.",
       "seoTitle": "TallyNudge — Tally Counter & Clicker | Zuki Apps",
       "metaDescription": "Dark tactile tally counter for reps, water, laps, and inventory. Free on the App Store. Google Play coming soon. No account. Optional one-time Premium."
     },
@@ -34,7 +34,7 @@
       },
       "create": {
         "title": "Targets, history, and layouts",
-        "description": "Give a counter a goal — 50 reps, 8 glasses, 10 laps. History and volume-button counting are Premium. Widget layouts in 0.9.0 are in-app previews only.",
+        "description": "Give a counter a goal — 50 reps, 8 glasses, 10 laps. History and volume-button counting are Premium. Widget layouts in 0.9.1 are in-app previews only.",
         "items": [
           "Four in-app widget preview layouts",
           "History on Premium",
@@ -70,7 +70,7 @@
         },
         {
           "question": "Does TallyNudge have Home Screen widgets?",
-          "answer": "Not in 0.9.0. The Widgets tab shows four in-app preview layouts so you can pick how a counter looks. Those are not iOS or Android Home Screen widgets."
+          "answer": "Not in 0.9.1. The Widgets tab shows four in-app preview layouts so you can pick how a counter looks. Those are not iOS or Android Home Screen widgets."
         },
         {
           "question": "What is the Premium product ID?",
@@ -103,7 +103,7 @@
       "description": "TallyNudge is free on the App Store. Google Play coming soon.",
       "version": "Version",
       "status": "Platform",
-      "versionValue": "0.9.0",
+      "versionValue": "0.9.1",
       "statusValue": "iOS · Google Play coming soon"
     },
     "download": {
@@ -271,7 +271,7 @@
         },
         "q2": {
           "question": "Are there Home Screen widgets?",
-          "answer": "Not in 0.9.0. The Widgets tab shows in-app preview layouts only."
+          "answer": "Not in 0.9.1. The Widgets tab shows in-app preview layouts only."
         },
         "q3": {
           "question": "How do I restore Premium?",
@@ -317,7 +317,7 @@
         },
         {
           "title": "Preview a layout",
-          "description": "Open the Widgets tab to preview four in-app layouts. These are not Home Screen widgets in 0.9.0."
+          "description": "Open the Widgets tab to preview four in-app layouts. These are not Home Screen widgets in 0.9.1."
         }
       ]
     },
@@ -345,7 +345,7 @@
         {
           "id": "widgets",
           "title": "Layouts for every count",
-          "description": "Four in-app preview layouts in 0.9.0 — not Home Screen widgets.",
+          "description": "Four in-app preview layouts in 0.9.1 — not Home Screen widgets.",
           "image": "/images/tally-nudge/03-widgets.png",
           "alt": "TallyNudge in-app widget layout previews",
           "category": "features"
@@ -416,7 +416,7 @@
           "title": "3. Widget layouts",
           "steps": [
             "Open the Widgets tab to preview four layouts.",
-            "In 0.9.0 these are in-app previews only — they are not Home Screen widgets."
+            "In 0.9.1 these are in-app previews only — they are not Home Screen widgets."
           ]
         },
         {
@@ -451,7 +451,7 @@
         },
         {
           "title": "Layouts are previews",
-          "description": "Do not expect an OS Home Screen widget in 0.9.0."
+          "description": "Do not expect an OS Home Screen widget in 0.9.1."
         },
         {
           "title": "Restore after reinstall",
