@@ -40,10 +40,10 @@
       },
       "host": {
         "title": "Free and Premium",
-        "description": "Premium is a one-time unlock (ztlguard_premium). Store listings coming soon.",
+        "description": "Premium is an optional monthly subscription (ztlguard_premium). The price is shown by the store.",
         "items": [
           "Product ID: ztlguard_premium",
-          "Restore purchases after reinstall",
+          "Restore purchases on the Premium screen",
           "Support: zuki.apps.dev@gmail.com"
         ]
       }
@@ -113,7 +113,7 @@
         },
         {
           "question": "Is the zone data official live municipal data?",
-          "answer": "The current build uses demonstration zone data for a set of Italian cities. Official Florence and Bologna polygons are published under CC BY 4.0. Treat all data as guidance, not a legal driving permit."
+          "answer": "ZTLGuard does not represent a government entity. It is not affiliated with the Italian government or any municipality. Published polygons are adapted from municipal open data: Florence, Bologna, Bergamo, Pavia, Genova, Lecce, Trento, and Turin (CC BY 4.0) and Naples (IODL 2.0). Hours are not inferred from the polygons. Milan, Rome, Verona, Venice, and Pisa are labelled Demonstration and are not municipal truth. Sources: https://opendata.comune.fi.it/ · https://opendata.comune.bologna.it/explore/dataset/zona-a-traffico-limitato/ · https://www.dati.lombardia.it/Trasporti/Comune-Bergamo-Zone-a-Traffico-Limitato-ZTL-/tkwz-spd9 · https://www.dati.lombardia.it/Trasporti/MappaZTL_Pavia_WGS84/axvu-yx4b · https://dati.comune.genova.it/dataset/zone-a-traffico-limitato · https://dati.comune.lecce.it/dataset/ztl-apu-centro-storico-lecce · https://www.comune.trento.it/ · https://trasparenza.comune.napoli.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/46176 · https://aperto.comune.torino.it/dataset/zone-traffico-limitato"
         },
         {
           "question": "Does this stop me from getting a fine?",
@@ -121,7 +121,7 @@
         },
         {
           "question": "What is free vs Premium?",
-          "answer": "Free includes the map, Rome and Florence, foreground alerts up to 500 m, and ads on non-driving screens. Premium (product ID: ztlguard_premium) adds all cities, voice alerts, 1–2 km lead distance, keep-awake Driving Mode, background alerts, and no ads. Stores coming soon."
+          "answer": "Free includes the map, Rome and Florence, foreground alerts up to 500 m, and ads on non-driving screens. Premium is an optional monthly subscription (ztlguard_premium): all cities, voice alerts, offline data, 1–2 km lead, keep-awake Driving Mode, background alerts where the phone allows, and no ads. The warning itself is not paywalled. The store shows the price."
         },
         {
           "question": "Why isn't my city available?",
@@ -133,7 +133,7 @@
         },
         {
           "question": "How do I restore Premium?",
-          "answer": "Premium is a one-time unlock (product ID: ztlguard_premium), not a subscription. Use Restore purchases on the Premium screen after reinstall. Store listings are coming soon."
+          "answer": "Premium is a monthly subscription (ztlguard_premium). Use Restore purchases on the Premium screen. Cancel in your App Store or Google Play subscription settings."
         },
         {
           "question": "How do I get support?",
@@ -198,7 +198,7 @@
       },
       "section4": {
         "title": "4. Advertising and tracking",
-        "content": "ZTLGuard does not show ads in the current build. If ads are added later, this Policy will be updated.",
+        "content": "Users who do not have Premium see ads. Ads are not shown in Driving Mode. Location is not used for ads.",
         "content2": "Location permission can be denied; you can still browse cities and zones."
       },
       "section5": {
@@ -231,8 +231,8 @@
     "terms": {
       "title": "Terms of Use",
       "metaDescription": "Terms of Use for ZTLGuard — Italy ZTL Alerts.",
-      "lastUpdated": "Last updated: September 2026",
-      "intro": "Please read these Terms carefully before using ZTLGuard. By downloading or using the app, you agree to these Terms and our Privacy Policy.",
+      "lastUpdated": "Last updated: 28 September 2026",
+      "intro": "Please read these Terms of Use carefully before using ZTLGuard. By downloading, installing, or using the application, you agree to these Terms and to the Privacy Policy. If you do not agree, do not use the application.",
       "section1": {
         "title": "1. Acceptance of Terms",
         "content": "These Terms govern your use of ZTLGuard operated by Zuki Apps. If you do not agree, do not use the Service.",
@@ -240,17 +240,17 @@
       },
       "section2": {
         "title": "2. Description of Service",
-        "content": "ZTLGuard includes:",
+        "content": "ZTLGuard is an informational aid concerning limited-traffic zones (zone a traffico limitato) in selected Italian cities. It includes:",
         "items": [
-          "Map of Italy ZTL zones for demonstration and guidance",
-          "Optional on-device location for distance alerts",
-          "Optional Premium via app stores"
+          "A map drawn as an aid. It is not a complete cadastre and it is not an official survey by any municipality.",
+          "Optional location used on the device only to estimate distance. A location reading is not permission to enter a zone.",
+          "An optional Premium subscription sold and billed by Apple or Google."
         ]
       },
       "section3": {
-        "title": "3. Fair use",
-        "content": "ZTLGuard is a guidance utility. Zone data may be incomplete or out of date. Always follow official signs and local law. It is not a driving permit.",
-        "content2": "Do not attempt to reverse-engineer or abuse the Service except as permitted by law."
+        "title": "3. No reliance; the user's responsibility",
+        "content": "You must not treat the Service as a final decision, as a permit, or as a determination by a municipality or by any other public authority. Before and during travel you must read the road signs and comply with the rules of the competent municipality and with the Italian Highway Code (Codice della strada). Avoiding a limited-traffic zone, and any consequence of entry, remains solely your responsibility.",
+        "content2": "You must not operate the application while the vehicle is in motion. You must not reverse-engineer or misuse the Service except where applicable law allows it."
       },
       "section4": {
         "title": "4. Purchases",
@@ -268,12 +268,12 @@
       },
       "section6": {
         "title": "6. Disclaimer",
-        "content": "THE APP IS PROVIDED AS IS WITHOUT WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.",
-        "content2": "We do not guarantee uninterrupted or error-free service."
+        "content": "ZTLGuard does not represent a government entity. It is not affiliated with or endorsed by the Italian government or any municipality. The Service is provided “as is” and “as available.” To the extent permitted by applicable law, Zuki Apps disclaims warranties of accuracy, completeness, currency, merchantability, and fitness for a particular purpose. Zone information may be missing, incomplete, out of date, or incorrect. Milan, Rome, Verona, Venice, and Pisa are shown from demonstration data and are not municipal records. Where municipal open data is used, names and geometry may be adapted. That use does not mean the municipality endorses the Service.",
+        "content2": "Nothing in these Terms excludes or limits liability that applicable law does not allow to be excluded or limited, including liability for wilful misconduct or gross negligence, or rights that a consumer cannot waive."
       },
       "section7": {
         "title": "7. Limitation of liability",
-        "content": "To the maximum extent permitted by law, Zuki Apps shall not be liable for indirect, incidental, or consequential damages arising from use of the Service."
+        "content": "To the maximum extent permitted by applicable law, Zuki Apps is not liable for fines, administrative penalties, towing, charges, loss, or other damage arising from reliance on the Service, from entering or avoiding a zone, or from missing, incorrect, or outdated information. This clause does not affect liability that applicable law does not allow to be limited."
       },
       "section8": {
         "title": "8. Changes",

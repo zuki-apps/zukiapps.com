@@ -1,0 +1,116 @@
+{
+  "ztlGuard": {
+    "features": {
+      "host": {
+        "description": "Premium è un abbonamento mensile facoltativo (ztlguard_premium). Il prezzo lo mostra lo store.",
+        "items": [
+          "ID prodotto: ztlguard_premium",
+          "Ripristino nella schermata Premium",
+          "Supporto: zuki.apps.dev@gmail.com"
+        ]
+      }
+    },
+    "faq": {
+      "items": [
+        {
+          "question": "What is ZTLGuard?",
+          "answer": "An Italy ZTL (limited-traffic zone) alert app for iOS and Android. Package: com.zuki.apps.ztlguard."
+        },
+        {
+          "question": "Does it upload my location?",
+          "answer": "No. Position is used only on-device to measure distance to zone boundaries. It is not stored or uploaded."
+        },
+        {
+          "question": "Do I need GPS?",
+          "answer": "No. You can browse cities and zones without GPS. Location is optional for distance alerts."
+        },
+        {
+          "question": "Is the zone data official live municipal data?",
+          "answer": "ZTLGuard non rappresenta un ente pubblico e non è affiliata al governo italiano o ad alcun comune. I poligoni pubblicati sono adattati da open data comunali: Firenze, Bologna, Bergamo, Pavia, Genova, Lecce, Trento e Torino (CC BY 4.0) e Napoli (IODL 2.0). Orari ed esenzioni non si ricavano dai poligoni. Milano, Roma, Verona, Venezia e Pisa sono etichettati Dimostrazione e non sono verità municipale. Fonti: https://opendata.comune.fi.it/ · https://opendata.comune.bologna.it/explore/dataset/zona-a-traffico-limitato/ · https://www.dati.lombardia.it/Trasporti/Comune-Bergamo-Zone-a-Traffico-Limitato-ZTL-/tkwz-spd9 · https://www.dati.lombardia.it/Trasporti/MappaZTL_Pavia_WGS84/axvu-yx4b · https://dati.comune.genova.it/dataset/zone-a-traffico-limitato · https://dati.comune.lecce.it/dataset/ztl-apu-centro-storico-lecce · https://www.comune.trento.it/ · https://trasparenza.comune.napoli.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/46176 · https://aperto.comune.torino.it/dataset/zone-traffico-limitato"
+        },
+        {
+          "question": "Does this stop me from getting a fine?",
+          "answer": "No. ZTLGuard is an informational navigation aid. It does not grant permission or confirm a fine. Local signs and the comune always win."
+        },
+        {
+          "question": "What is free vs Premium?",
+          "answer": "Gratis: mappa, Roma e Firenze, avvisi in primo piano fino a 500 m e pubblicità fuori dalla guida. Premium è un abbonamento mensile facoltativo (ztlguard_premium): tutte le città, voce, dati offline, preavviso 1–2 km, schermo sempre acceso, avvisi in background dove il telefono lo consente, senza pubblicità. L’avviso in sé non è a pagamento. Il prezzo lo mostra lo store."
+        },
+        {
+          "question": "Why isn't my city available?",
+          "answer": "Zone data depends on official municipal open-data feeds. Some cities are missing licensed GeoJSON. Demo data is labelled in-app."
+        },
+        {
+          "question": "Can I report a wrong zone while driving?",
+          "answer": "No. Driving Mode blocks reports to prevent distraction. Submit a zone report after you stop."
+        },
+        {
+          "question": "How do I restore Premium?",
+          "answer": "Premium è un abbonamento mensile (ztlguard_premium). Il ripristino è nella schermata Premium. La disdetta si fa nelle impostazioni abbonamenti di App Store o Google Play."
+        },
+        {
+          "question": "How do I get support?",
+          "answer": "Email zuki.apps.dev@gmail.com or visit https://zukiapps.com/ztl-guard/support."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Condizioni di utilizzo",
+      "metaDescription": "Condizioni di utilizzo di ZTLGuard — avvisi ZTL in Italia.",
+      "lastUpdated": "Ultimo aggiornamento: 28 settembre 2026",
+      "intro": "Si prega di leggere attentamente le presenti Condizioni di utilizzo prima di usare ZTLGuard. Scaricando, installando o utilizzando l’applicazione, l’utente accetta le presenti Condizioni e l’Informativa sulla privacy. In mancanza di accettazione, l’applicazione non va utilizzata.",
+      "section1": {
+        "title": "1. Accettazione",
+        "content": "Le presenti Condizioni disciplinano l’uso di ZTLGuard, gestito da Zuki Apps. In mancanza di accettazione, il servizio non va utilizzato.",
+        "content2": "Chi utilizza il servizio per conto di un’organizzazione dichiara di avere il potere di vincolarla."
+      },
+      "section2": {
+        "title": "2. Descrizione del servizio",
+        "content": "ZTLGuard è un ausilio informativo sulle zone a traffico limitato in alcune città italiane. Comprende:",
+        "items": [
+          "Una mappa disegnata come ausilio. Non è un catasto completo e non è un rilievo ufficiale di alcun Comune.",
+          "La localizzazione facoltativa, usata solo sul dispositivo per stimare la distanza. Una lettura di posizione non è un’autorizzazione all’ingresso.",
+          "Un abbonamento Premium facoltativo, venduto e addebitato da Apple o da Google."
+        ]
+      },
+      "section3": {
+        "title": "3. Divieto di affidamento; responsabilità dell’utente",
+        "content": "Il servizio non va trattato come decisione definitiva, come permesso o come accertamento di un Comune o di altra autorità pubblica. Prima e durante lo spostamento l’utente è tenuto a leggere i segnali stradali e a osservare le disposizioni del Comune competente e il Codice della strada. Evitare una zona a traffico limitato, e ogni conseguenza dell’ingresso, resta di esclusiva responsabilità dell’utente.",
+        "content2": "L’applicazione non va utilizzata mentre il veicolo è in movimento. È vietato decompilare o abusare del servizio, salvo quanto la legge applicabile consente."
+      },
+      "section4": {
+        "title": "4. Acquisti",
+        "content": "Premium è trattato da Apple o da Google. Si applicano le loro condizioni e le loro regole sui rimborsi.",
+        "content2": "Dopo una reinstallazione, ove previsto, si utilizzi il ripristino degli acquisti."
+      },
+      "section5": {
+        "title": "5. Uso consentito",
+        "content": "L’utente si impegna a non:",
+        "items": [
+          "Usare il servizio per fini illeciti",
+          "Decompilare l’applicazione, salvo quanto la legge consente",
+          "Interferire con la sicurezza o con le funzioni di acquisto"
+        ]
+      },
+      "section6": {
+        "title": "6. Esclusione di garanzia",
+        "content": "ZTLGuard non rappresenta un ente pubblico. Non è affiliata né approvata dal governo italiano o da alcun comune. Il servizio è fornito «così com’è» e «secondo disponibilità». Nei limiti consentiti dalla legge applicabile, Zuki Apps esclude garanzie di esattezza, completezza, aggiornamento, commerciabilità e idoneità a un fine particolare. Le informazioni sulle zone possono essere assenti, incomplete, non aggiornate o errate. Milano, Roma, Verona, Venezia e Pisa sono mostrate con dati dimostrativi e non sono registri comunali. Ove si usino dati aperti comunali, nomi e geometrie possono essere adattati. Tale uso non significa che il Comune avalli il servizio.",
+        "content2": "Nulla nelle presenti Condizioni esclude o limita una responsabilità che la legge applicabile non consente di escludere o di limitare, compresa la responsabilità per dolo o colpa grave, o diritti cui il consumatore non può rinunciare."
+      },
+      "section7": {
+        "title": "7. Limitazione di responsabilità",
+        "content": "Nei limiti massimi consentiti dalla legge applicabile, Zuki Apps non risponde di sanzioni, penalità amministrative, rimozioni, oneri, perdite o altri danni derivanti dall’affidamento sul servizio, dall’ingresso in una zona o dal suo evitamento, o da informazioni mancanti, errate o non aggiornate. La presente clausola non incide sulla responsabilità che la legge applicabile non consente di limitare."
+      },
+      "section8": {
+        "title": "8. Modifiche",
+        "content": "Le presenti Condizioni possono essere modificate. L’uso continuato dopo la data di efficacia costituisce accettazione."
+      },
+      "sectionContact": {
+        "title": "Contatti",
+        "content": "Per domande sulle presenti Condizioni:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    }
+  }
+}
