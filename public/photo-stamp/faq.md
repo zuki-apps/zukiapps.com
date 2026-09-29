@@ -3,9 +3,10 @@
 App: Photo Stamp: Date & Location  
 Developer: Zuki Apps  
 Package: com.zuki.apps.photostamp  
-Platform: iOS & Android (coming soon)  
+Platform: iOS (App Store id6804026637); Google Play coming soon  
 Site: https://zukiapps.com/photo-stamp  
 Support: https://zukiapps.com/photo-stamp/support
+App Store: https://apps.apple.com/us/app/photo-stamp-date-location/id6804026637
 
 ---
 
@@ -31,7 +32,7 @@ No. Photo Stamp reads existing EXIF metadata from files already in your library.
 
 ## What is free vs Photo Stamp Pro?
 
-Free includes weekly export limits and ads (never in the editor or during export). Photo Stamp Pro is a one-time unlock for unlimited exports, premium styles, full resolution, and no ads.
+Free includes 30 photo and 3 video exports per week, plus ads (never in the editor or during export). Photo Stamp Pro is a $4.99 one-time unlock (com.zuki.apps.photostamp.premium_lifetime) for unlimited exports, premium styles, full resolution, and no ads.
 
 ## How long does stamping take?
 
@@ -43,11 +44,11 @@ Yes. Select a video from your library and stamp it the same way as a photo.
 
 ## How do I restore Pro after reinstalling?
 
-Use Restore on the Pro screen with the same Apple or Google account you used to purchase.
+Use Restore on the Pro screen with the same Apple ID. Product ID: com.zuki.apps.photostamp.premium_lifetime. Google Play coming soon.
 
-## When will Photo Stamp be available on the App Store?
+## Is Photo Stamp on the App Store?
 
-Photo Stamp is currently in development. App Store and Google Play listings are coming soon.
+Yes. Photo Stamp is free on the App Store (id6804026637). Google Play is coming soon.
 
 ## How do I get support?
 

@@ -26,6 +26,7 @@ const TITLE_KEY: Record<HomeAppId, string> = {
   eventtick: 'eventTick.title',
   'tally-nudge': 'tallyNudge.title',
   blockiva: 'blockiva.title',
+  'photo-stamp': 'photoStamp.title',
 };
 
 type OtherZukiAppsProps = {
@@ -67,7 +68,11 @@ export default function OtherZukiApps({ currentAppId, limit = 4 }: OtherZukiApps
                   id === 'whistle-camera' ||
                   id === 'zuli-collage' ||
                   id === 'geo-calc' ||
-                  id === 'timesince'
+                  id === 'timesince' ||
+                  id === 'eventtick' ||
+                  id === 'tally-nudge' ||
+                  id === 'blockiva' ||
+                  id === 'photo-stamp'
                 }
                 boxClassName="w-16 h-16"
                 frameClassName="rounded-xl overflow-hidden"

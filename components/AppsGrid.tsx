@@ -24,6 +24,7 @@ const TITLE_KEY: Record<HomeAppId, string> = {
   eventtick: 'eventTick.title',
   'tally-nudge': 'tallyNudge.title',
   blockiva: 'blockiva.title',
+  'photo-stamp': 'photoStamp.title',
 };
 
 const EDGE_TO_EDGE = new Set<HomeAppId>([
@@ -35,6 +36,7 @@ const EDGE_TO_EDGE = new Set<HomeAppId>([
   'eventtick',
   'tally-nudge',
   'blockiva',
+  'photo-stamp',
 ]);
 
 export default async function AppsGrid({ locale }: { locale: string }) {

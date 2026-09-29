@@ -68,6 +68,7 @@ export default function SoftwareApplicationStructuredData({
     '/eventtick': '/images/eventtick-icon.png?v=1',
     '/tally-nudge': '/images/tally-nudge-icon.png?v=1',
     '/blockiva': '/images/blockiva-icon.png?v=1',
+    '/photo-stamp': '/images/photo-stamp-icon.webp?v=2',
     '/roamguard': '/images/roamguard-icon.png?v=1',
     '/questivo': '/images/questivo-icon.png?v=1',
     '/coloring-my-photo': '/images/coloring-my-photo-icon.png?v=1',

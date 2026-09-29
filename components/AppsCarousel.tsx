@@ -303,6 +303,19 @@ export default function AppsCarousel() {
       link: `/${locale}/blockiva`,
       isComingSoon: false,
     },
+    'photo-stamp': {
+      id: 'photo-stamp',
+      icon: <ImageIcon className="w-16 h-16 text-teal-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP['photo-stamp'],
+      iconEdgeToEdge: true,
+      titleKey: 'photoStamp.title',
+      subtitleKey: 'photoStamp.subtitle',
+      descriptionKey: 'photoStamp.description',
+      featuresKey: 'photoStamp.features',
+      learnMoreKey: 'photoStamp.learnMore',
+      link: `/${locale}/photo-stamp`,
+      isComingSoon: false,
+    },
     }),
     [locale]
   );

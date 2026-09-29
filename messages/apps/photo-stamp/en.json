@@ -2,19 +2,22 @@
   "photoStamp": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming soon · iOS & Android",
+      "badge": "Free on the App Store",
       "title": "Photo Stamp: Date & Location",
       "productName": "Photo Stamp: Date & Location",
-      "subtitle": "Stamp date, time, and location onto photos and videos you already have.",
-      "description": "Select from your library, we read the date and place already stored on the file, you design the stamp, and we export a new copy. Originals stay untouched. Everything stays on the device.",
-      "socialProof": "Gallery first · Photos and videos · No account · No upload · No AI · About 10–20 seconds",
-      "structuredDataDescription": "Photo Stamp adds date, time, and location stamps to photos and videos you already have. On-device, no account, originals never overwritten. Coming soon. com.zuki.apps.photostamp.",
+      "subtitle": "Add date, time and location to photos and videos you've already taken.",
+      "description": "Your photos already know when and where they were taken. Photo Stamp puts that on the picture, clearly, and without touching the original. Select from your library, design the stamp, preview, then export a new copy. About 10–20 seconds. On your device.",
+      "socialProof": "Gallery first · Photos and videos · No account · No upload · No AI · About 10–20 seconds · Free on iOS",
+      "structuredDataDescription": "Photo Stamp adds date, time, and location stamps to photos and videos you already have. On-device, no account, originals never overwritten. Free on the App Store (id6804026637). Google Play coming soon. Photo Stamp Pro is a $4.99 one-time unlock (com.zuki.apps.photostamp.premium_lifetime). Package com.zuki.apps.photostamp.",
       "seoTitle": "Photo Stamp — Date & Location | Zuki Apps",
-      "metaDescription": "Stamp date, time, and location onto existing photos and videos. On-device. Originals untouched. Coming soon on iOS and Android."
+      "metaDescription": "Stamp date, time, and location onto existing photos and videos. On-device. Originals untouched. Free on the App Store. Google Play coming soon."
     },
     "pageNav": {
       "features": "Features",
       "howTo": "How it works",
+      "screenshots": "Screenshots",
+      "manual": "Manual",
+      "tips": "Tips",
       "faq": "FAQ",
       "download": "Download"
     },
@@ -52,7 +55,7 @@
         "description": "One-time unlock. Unlimited exports, premium styles, full resolution, no ads.",
         "items": [
           "Removes weekly free limits and ads",
-          "Lifetime product id: premium_lifetime",
+          "Lifetime product id: com.zuki.apps.photostamp.premium_lifetime",
           "Restore purchases after reinstall"
         ]
       }
@@ -75,49 +78,143 @@
         }
       ]
     },
+    "manual": {
+      "title": "User manual",
+      "subtitle": "Select, stamp, export, and restore Pro.",
+      "sections": [
+        {
+          "title": "1. Select media",
+          "steps": [
+            "Open Photo Stamp and pick photos or videos from your library.",
+            "Camera is optional. The gallery is the main path.",
+            "You can stamp stills and clips."
+          ]
+        },
+        {
+          "title": "2. Design the stamp",
+          "steps": [
+            "We read Date Taken when the file has it. Last Modified is never labeled as Date Taken.",
+            "Location appears only if it is already on the file, or if you type a place.",
+            "Preview the stamp before you export. What you see is what you get."
+          ]
+        },
+        {
+          "title": "3. Export and Pro",
+          "steps": [
+            "Export creates a new file. Originals are never overwritten.",
+            "Free includes 30 photo and 3 video exports per week, plus ads outside the editor.",
+            "Photo Stamp Pro (com.zuki.apps.photostamp.premium_lifetime) is a $4.99 one-time unlock. Restore with the same Apple ID."
+          ]
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Honest metadata and a clean export.",
+      "items": [
+        {
+          "title": "Start from the gallery",
+          "description": "Photo Stamp is built for photos and videos you already took. Camera is optional."
+        },
+        {
+          "title": "Trust Date Taken",
+          "description": "If the file has Date Taken, that is what we stamp. Last Modified is labeled Last Modified."
+        },
+        {
+          "title": "No fake GPS",
+          "description": "Missing location stays hidden unless you type a place. We do not invent a pin."
+        },
+        {
+          "title": "Originals stay safe",
+          "description": "Every export is a new copy. Delete the stamped file if you do not want it — the original remains."
+        },
+        {
+          "title": "Ads stay out of the editor",
+          "description": "Free shows a home banner and an interstitial after a successful export. Never during editing or export."
+        },
+        {
+          "title": "Restore after reinstall",
+          "description": "Photo Stamp Pro is tied to your Apple ID. Use Restore on the Pro screen. Google Play coming soon."
+        }
+      ]
+    },
     "screenshots": {
       "title": "Photo Stamp in action",
       "subtitle": "Select, design, preview, and export — originals always stay untouched.",
+      "featuresTitle": "App screens",
+      "moreTitle": "Lifestyle",
       "items": [
         {
           "id": "ss-home",
-          "title": "Home screen",
-          "description": "Choose photos or videos from your library to start stamping.",
-          "image": "/images/photo-stamp/01_home.png",
-          "alt": "Photo Stamp home screen with library picker",
+          "title": "Stamp photos you already have",
+          "description": "Gallery-first. Pick photos or videos from your library. Camera is optional.",
+          "image": "/images/photo-stamp/01_home.webp",
+          "alt": "Photo Stamp home screen — stamp photos you already have",
           "category": "features"
         },
         {
           "id": "ss-editor",
-          "title": "Stamp editor",
-          "description": "Design the date, time, and location stamp — position, font, and style.",
-          "image": "/images/photo-stamp/02_editor.png",
-          "alt": "Photo Stamp editor screen showing stamp customization",
+          "title": "See the stamp before you save",
+          "description": "Date Taken when the file has it. Location only if it is on the file, or a place you type.",
+          "image": "/images/photo-stamp/02_editor.webp",
+          "alt": "Photo Stamp editor previewing a date and location stamp",
           "category": "features"
         },
         {
           "id": "ss-export",
-          "title": "Export preview",
-          "description": "Preview the stamped result and save a new file. The original is never overwritten.",
-          "image": "/images/photo-stamp/03_export.png",
-          "alt": "Photo Stamp export preview screen",
+          "title": "Originals stay untouched",
+          "description": "Export always creates a new file. The original photo or video is never overwritten.",
+          "image": "/images/photo-stamp/03_export.webp",
+          "alt": "Photo Stamp export success — originals stay untouched",
           "category": "features"
         },
         {
           "id": "ss-premium",
-          "title": "Photo Stamp Pro",
+          "title": "Unlock Photo Stamp Pro",
           "description": "One-time unlock for unlimited exports, premium styles, full resolution, and no ads.",
-          "image": "/images/photo-stamp/04_premium.png",
-          "alt": "Photo Stamp Pro upgrade screen",
+          "image": "/images/photo-stamp/04_premium.webp",
+          "alt": "Photo Stamp Pro one-time unlock screen",
           "category": "features"
         },
         {
           "id": "ss-settings",
-          "title": "Settings",
-          "description": "Manage privacy, restore Pro, and configure default stamp preferences.",
-          "image": "/images/photo-stamp/05_settings.png",
-          "alt": "Photo Stamp settings screen",
+          "title": "On your device. No account.",
+          "description": "Restore Pro, privacy, and stamp defaults. Media stays on the device.",
+          "image": "/images/photo-stamp/05_settings.webp",
+          "alt": "Photo Stamp settings — restore purchases and privacy",
           "category": "features"
+        },
+        {
+          "id": "ss-banner",
+          "title": "Date & location stamps",
+          "description": "Stamp photos and videos you already took. On your device.",
+          "image": "/images/photo-stamp/feature.webp",
+          "alt": "Photo Stamp feature graphic — date and location stamps",
+          "category": "banner"
+        },
+        {
+          "id": "ss-life-stamped",
+          "title": "What the stamp looks like",
+          "description": "Date, time, and place on the picture — without touching the original.",
+          "image": "/images/photo-stamp/life-stamped.webp",
+          "alt": "Demo photo with a Photo Stamp date, time, and location overlay",
+          "category": "lifestyle"
+        },
+        {
+          "id": "ss-life-scene",
+          "title": "Gallery first",
+          "description": "We read the date and place already on the file. No fake GPS.",
+          "image": "/images/photo-stamp/life-scene.webp",
+          "alt": "Photo Stamp promo art — photo, date stamp, and location pin",
+          "category": "lifestyle"
+        },
+        {
+          "id": "ss-life-wordmark",
+          "title": "Photo Stamp: Date & Location",
+          "description": "From Zuki Apps. Free on the App Store. Google Play coming soon.",
+          "image": "/images/photo-stamp/life-wordmark.webp",
+          "alt": "Photo Stamp landscape wordmark promo",
+          "category": "lifestyle"
         }
       ]
     },
@@ -148,7 +245,11 @@
         },
         {
           "question": "What is free vs Photo Stamp Pro?",
-          "answer": "Free includes weekly export limits and ads outside the editor. Photo Stamp Pro is a one-time unlock for unlimited exports, premium styles, full resolution, and no ads."
+          "answer": "Free includes 30 photo and 3 video exports per week, plus ads outside the editor. Photo Stamp Pro is a $4.99 one-time unlock (com.zuki.apps.photostamp.premium_lifetime) for unlimited exports, premium styles, full resolution, and no ads."
+        },
+        {
+          "question": "How do I restore Photo Stamp Pro?",
+          "answer": "Use Restore on the Pro screen with the same Apple ID. Product ID: com.zuki.apps.photostamp.premium_lifetime. Google Play coming soon."
         },
         {
           "question": "How long does stamping take?",
@@ -159,8 +260,8 @@
           "answer": "Yes. Select a video from your library and stamp it the same way as a photo."
         },
         {
-          "question": "When will it be available on the App Store?",
-          "answer": "Photo Stamp is currently in development. App Store and Google Play listings are coming soon."
+          "question": "Is Photo Stamp on the App Store?",
+          "answer": "Yes. Photo Stamp is free on the App Store (id6804026637). Google Play is coming soon."
         },
         {
           "question": "How do I get support?",
@@ -170,18 +271,18 @@
     },
     "status": {
       "title": "Availability",
-      "description": "Photo Stamp is in development. App Store and Google Play listings coming soon.",
+      "description": "Photo Stamp is free on the App Store. Google Play coming soon.",
       "version": "Version",
       "status": "Platform",
       "versionValue": "0.1.0",
-      "statusValue": "iOS & Android · Coming soon"
+      "statusValue": "iOS · Google Play coming soon"
     },
     "download": {
       "title": "Download Photo Stamp",
-      "description": "Stamp date, time, and location onto photos and videos you already have. Coming soon.",
-      "soon": "Coming soon to the App Store and Google Play",
+      "description": "Stamp date, time, and location onto photos and videos you already have. Free on the App Store. Google Play coming soon.",
+      "soon": "Google Play coming soon",
       "googlePlaySoon": "Coming soon on Google Play",
-      "appStoreUrl": "",
+      "appStoreUrl": "https://apps.apple.com/us/app/photo-stamp-date-location/id6804026637",
       "googlePlayUrl": "",
       "appIconAlt": "Photo Stamp app icon",
       "appStoreAlt": "Download on the App Store",
@@ -270,7 +371,7 @@
         "items": [
           "Stamping date, time, and location onto photos and videos you already have",
           "On-device processing with a new exported file",
-          "Optional Photo Stamp Pro one-time unlock (premium_lifetime)"
+          "Optional Photo Stamp Pro one-time unlock (com.zuki.apps.photostamp.premium_lifetime)"
         ]
       },
       "section3": {
@@ -347,7 +448,7 @@
         },
         "q3": {
           "question": "Is Photo Stamp Pro a subscription?",
-          "answer": "No. Photo Stamp Pro is a one-time unlock (premium_lifetime) via the App Store or Google Play."
+          "answer": "No. Photo Stamp Pro is a $4.99 one-time unlock (com.zuki.apps.photostamp.premium_lifetime) via the App Store. Google Play coming soon."
         },
         "q4": {
           "question": "Do you upload my photos?",

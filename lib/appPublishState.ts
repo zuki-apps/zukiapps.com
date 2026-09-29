@@ -67,10 +67,10 @@ export const COLORING_MY_PHOTO_PILOT = false;
 export const COLORING_MY_PHOTO_PUBLISHED = false;
 export const COLORING_MY_PHOTO_APP_PATH = '/coloring-my-photo' as const;
 
-/** Photo Stamp — hidden until published; legal pages for store compliance. */
-export const PHOTO_STAMP_UNDER_CONSTRUCTION = true;
-export const PHOTO_STAMP_PILOT = false;
-export const PHOTO_STAMP_PUBLISHED = false;
+/** Photo Stamp — on home when published. iOS live; Play coming soon. */
+export const PHOTO_STAMP_UNDER_CONSTRUCTION = false;
+export const PHOTO_STAMP_PILOT = true;
+export const PHOTO_STAMP_PUBLISHED = true;
 export const PHOTO_STAMP_APP_PATH = '/photo-stamp' as const;
 
 /** Blockiva – Block Puzzle — on home when published. iOS live; Play coming soon. */

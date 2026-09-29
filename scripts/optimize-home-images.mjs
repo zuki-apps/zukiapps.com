@@ -25,6 +25,10 @@ const HOME_ICONS = [
   'images/zuli-collage-icon.png',
   'images/timesince-icon.png',
   'images/toldya-icon.png',
+  'images/eventtick-icon.png',
+  'images/tally-nudge-icon.png',
+  'images/blockiva-icon.png',
+  'images/photo-stamp-icon.png',
 ];
 
 const MONSTERS = ['images/monsters/zuli-01.png', 'images/monsters/zuli-04.png', 'images/monsters/zuli-15.png'];

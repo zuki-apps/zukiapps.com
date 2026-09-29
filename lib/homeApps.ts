@@ -2,6 +2,7 @@ import {
   BLOCKIVA_PUBLISHED,
   EVENTTICK_PUBLISHED,
   GEO_CALC_PUBLISHED,
+  PHOTO_STAMP_PUBLISHED,
   TALLY_NUDGE_PUBLISHED,
   TIMESINCE_PUBLISHED,
   TOLDYA_PUBLISHED,
@@ -32,6 +33,7 @@ export const HOME_APP_IDS = [
   'eventtick',
   'tally-nudge',
   'blockiva',
+  'photo-stamp',
 ] as const;
 
 export type HomeAppId = (typeof HOME_APP_IDS)[number];
@@ -45,6 +47,7 @@ const HOME_PUBLISH_REQUIRED: Partial<Record<HomeAppId, boolean>> = {
   eventtick: EVENTTICK_PUBLISHED,
   'tally-nudge': TALLY_NUDGE_PUBLISHED,
   blockiva: BLOCKIVA_PUBLISHED,
+  'photo-stamp': PHOTO_STAMP_PUBLISHED,
 };
 
 /** Home-visible apps (respects publish flags). */

@@ -171,6 +171,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'photo-stamp-howto-ld',
     accent: 'teal',
     hasSupportPage: true,
+    operatingSystem: 'iOS',
   },
   blockiva: {
     slug: 'blockiva',

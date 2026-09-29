@@ -17,13 +17,12 @@ const SKIP_SLUGS = new Set(['dreambit-legacy']);
 const UNPUBLISHED = new Set([
   'questivo',
   'coloring-my-photo',
-  'photo-stamp',
   'ztl-guard',
   'contacts-toolbox',
   'roamguard',
 ]);
 
-const IOS_ONLY = new Set(['blockiva', 'eventtick', 'tally-nudge']);
+const IOS_ONLY = new Set(['blockiva', 'eventtick', 'tally-nudge', 'photo-stamp']);
 const ANDROID_ONLY = new Set(['roamguard']);
 
 function fail(msg) {

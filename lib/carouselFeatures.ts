@@ -29,6 +29,7 @@ import {
   Volume2,
   Wand2,
   Palette,
+  ImageIcon,
   Wifi,
 } from 'lucide-react';
 
@@ -471,6 +472,30 @@ export function getCarouselFeatureCells(appId: string): CarouselFeatureCell[] | 
           cellClass:
             'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-amber-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-amber-400/45 transition-all duration-300',
           iconClassName: 'w-8 h-8 text-amber-300 mb-2',
+        },
+      ];
+    case 'photo-stamp':
+      return [
+        {
+          Icon: ImageIcon,
+          labelKey: 'photoStamp.features.gallery',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-teal-300 mb-2',
+        },
+        {
+          Icon: MapPinned,
+          labelKey: 'photoStamp.features.metadata',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-400/40 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-emerald-200 mb-2',
+        },
+        {
+          Icon: Sparkles,
+          labelKey: 'photoStamp.features.export',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-teal-300 mb-2',
         },
       ];
     case 'toldya':

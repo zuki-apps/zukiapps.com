@@ -74,6 +74,12 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     description:
       'Place. Clear. Survive the rule. Five rotating rules, four difficulties. Free on the App Store (id6813509536). Google Play coming soon. com.zuki.apps.blockiva.',
   },
+  {
+    path: '/photo-stamp',
+    name: 'Photo Stamp: Date & Location',
+    description:
+      'Stamp date, time, and location onto existing photos and videos. On-device. Free on the App Store (id6804026637). Google Play coming soon. com.zuki.apps.photostamp.',
+  },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];
 
@@ -98,11 +104,6 @@ export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
     path: '/coloring-my-photo',
     name: 'Coloring My Photo',
     description: 'Turn photos into color-by-number pages on your device. Coming soon. com.zuki.apps.coloringmyphoto.',
-  },
-  {
-    path: '/photo-stamp',
-    name: 'Photo Stamp: Date & Location',
-    description: 'Stamp date, time, and location onto existing photos and videos. On-device. Coming soon. com.zuki.apps.photostamp.',
   },
   {
     path: '/roamguard',
