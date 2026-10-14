@@ -295,7 +295,7 @@
     "eventTick": {
       "title": "EventTick — Event Countdown",
       "subtitle": "Count down to the days that matter",
-      "description": "Live event countdowns and iPhone Home Screen widgets for trips, birthdays, and launches. Free on the App Store. Google Play coming soon. No account required.",
+      "description": "Live event countdowns and Home Screen widgets for trips, birthdays, and launches. Free on the App Store and Google Play. No account required.",
       "learnMore": "Learn more about EventTick →",
       "features": {
         "countdown": "Live Countdowns",
@@ -328,12 +328,34 @@
     "photoStamp": {
       "title": "Photo Stamp: Date & Location",
       "subtitle": "Add date, time and location to photos you already took",
-      "description": "Stamp date, time, and location onto photos and videos you already have. On-device. Originals untouched. Free on the App Store. Google Play coming soon.",
+      "description": "Stamp date, time, and location onto photos and videos you already have. On-device. Originals untouched. Free on the App Store and Google Play.",
       "learnMore": "Learn more about Photo Stamp →",
       "features": {
         "gallery": "Gallery First",
         "metadata": "Honest Metadata",
         "export": "New File on Export"
+      }
+    },
+    "contactsToolbox": {
+      "title": "Contacts Toolbox — Contacts Organizer",
+      "subtitle": "Clean your address book on device",
+      "description": "Scan duplicates, preview merges, bulk-edit with undo, and export CSV. Free on Google Play. App Store coming soon.",
+      "learnMore": "Learn more about Contacts Toolbox →",
+      "features": {
+        "scan": "Duplicate Scan",
+        "preview": "Preview & Undo",
+        "private": "On Device"
+      }
+    },
+    "coloringMyPhoto": {
+      "title": "Coloring My Photo",
+      "subtitle": "Your memories. Your coloring pages.",
+      "description": "Turn photos into color-by-number pages on your device. Free on Google Play. App Store coming soon.",
+      "learnMore": "Learn more about Coloring My Photo →",
+      "features": {
+        "onDevice": "On Device",
+        "detail": "Easy to Advanced",
+        "share": "Save & Share"
       }
     },
     "heroCta": {

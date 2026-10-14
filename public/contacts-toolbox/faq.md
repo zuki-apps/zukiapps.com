@@ -3,15 +3,16 @@
 App: Contacts Toolbox  
 Developer: Zuki Apps  
 Package: com.zuki.apps.contactstoolbox  
-Platform: iOS & Android (coming soon)  
+Platform: Android (Google Play); App Store coming soon  
 Site: https://zukiapps.com/contacts-toolbox  
 Support: https://zukiapps.com/contacts-toolbox/support
+Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.contactstoolbox
 
 ---
 
 ## What is Contacts Toolbox?
 
-Contacts Toolbox is a contacts organizer for iOS and Android. It finds duplicates, enables bulk edits, and shows insights about incomplete contacts — entirely on your device. Package: com.zuki.apps.contactstoolbox.
+Contacts Toolbox is a contacts organizer for Android. It finds duplicates, enables bulk edits, and shows insights about incomplete contacts — entirely on your device. Free on Google Play. Package: com.zuki.apps.contactstoolbox. App Store coming soon.
 
 ## Does Contacts Toolbox read my phone contacts?
 
@@ -37,9 +38,9 @@ Yes. History snapshots let you reverse operations you have applied.
 
 CSV export is a Premium feature. Free users can preview suggestions without exporting.
 
-## When will Contacts Toolbox be available on the App Store and Google Play?
+## Where can I download Contacts Toolbox?
 
-Contacts Toolbox is currently in development. Store listings are coming soon.
+Contacts Toolbox is free on Google Play (com.zuki.apps.contactstoolbox). App Store coming soon.
 
 ## How do I get support?
 

@@ -60,7 +60,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/eventtick',
     name: 'EventTick',
     description:
-      'Lifestyle event countdown and Home Screen widgets. Eight styles, Midnight or Dawn. Free on the App Store (id6813929052). Google Play coming soon. com.zuki.apps.eventtick.',
+      'Lifestyle event countdown and Home Screen widgets. Eight styles, Midnight or Dawn. Free on the App Store (id6813929052) and Google Play. com.zuki.apps.eventtick.',
   },
   {
     path: '/tally-nudge',
@@ -78,7 +78,19 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/photo-stamp',
     name: 'Photo Stamp: Date & Location',
     description:
-      'Stamp date, time, and location onto existing photos and videos. On-device. Free on the App Store (id6804026637). Google Play coming soon. com.zuki.apps.photostamp.',
+      'Stamp date, time, and location onto existing photos and videos. On-device. Free on the App Store (id6804026637) and Google Play. com.zuki.apps.photostamp.',
+  },
+  {
+    path: '/contacts-toolbox',
+    name: 'Contacts Toolbox',
+    description:
+      'Contacts organizer: duplicates, preview merges, bulk edit, CSV export. Free on Google Play. App Store coming soon. com.zuki.apps.contactstoolbox.',
+  },
+  {
+    path: '/coloring-my-photo',
+    name: 'Coloring My Photo',
+    description:
+      'Turn photos into color-by-number pages on your device. Free on Google Play. App Store coming soon. com.zuki.apps.coloringmyphoto.',
   },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];
@@ -91,19 +103,9 @@ export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
     description: 'Italy ZTL Alerts. Coming soon. com.zuki.apps.ztlguard.',
   },
   {
-    path: '/contacts-toolbox',
-    name: 'Contacts Toolbox',
-    description: 'Contacts Organizer. Coming soon. com.zuki.apps.contactstoolbox.',
-  },
-  {
     path: '/questivo',
     name: 'Questivo',
     description: 'Scavenger hunts and real-world missions. Create a quest, share a code. Coming soon. com.zuki.apps.questivo.',
-  },
-  {
-    path: '/coloring-my-photo',
-    name: 'Coloring My Photo',
-    description: 'Turn photos into color-by-number pages on your device. Coming soon. com.zuki.apps.coloringmyphoto.',
   },
   {
     path: '/roamguard',

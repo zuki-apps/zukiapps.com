@@ -1,5 +1,7 @@
 import {
   BLOCKIVA_PUBLISHED,
+  COLORING_MY_PHOTO_PUBLISHED,
+  CONTACTS_TOOLBOX_PUBLISHED,
   EVENTTICK_PUBLISHED,
   GEO_CALC_PUBLISHED,
   PHOTO_STAMP_PUBLISHED,
@@ -34,6 +36,8 @@ export const HOME_APP_IDS = [
   'tally-nudge',
   'blockiva',
   'photo-stamp',
+  'contacts-toolbox',
+  'coloring-my-photo',
 ] as const;
 
 export type HomeAppId = (typeof HOME_APP_IDS)[number];
@@ -48,6 +52,8 @@ const HOME_PUBLISH_REQUIRED: Partial<Record<HomeAppId, boolean>> = {
   'tally-nudge': TALLY_NUDGE_PUBLISHED,
   blockiva: BLOCKIVA_PUBLISHED,
   'photo-stamp': PHOTO_STAMP_PUBLISHED,
+  'contacts-toolbox': CONTACTS_TOOLBOX_PUBLISHED,
+  'coloring-my-photo': COLORING_MY_PHOTO_PUBLISHED,
 };
 
 /** Home-visible apps (respects publish flags). */

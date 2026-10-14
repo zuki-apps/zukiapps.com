@@ -72,6 +72,7 @@ export default function ColoringMyPhotoPage() {
               appStoreAlt={t('download.appStoreAlt')}
               googlePlayAlt={t('download.googlePlayAlt')}
               googlePlaySoonLabel={t('download.googlePlaySoon')}
+              appStoreSoonLabel={t('download.soon')}
               fallbackBorderClass="border-rose-600/30"
               utmContent="coloring-my-photo"
             />
@@ -124,6 +125,7 @@ export default function ColoringMyPhotoPage() {
             appStoreAlt={t('download.appStoreAlt')}
             googlePlayAlt={t('download.googlePlayAlt')}
             googlePlaySoonLabel={t('download.googlePlaySoon')}
+            appStoreSoonLabel={t('download.soon')}
             fallbackBorderClass="border-rose-600/30"
             utmContent="coloring-my-photo"
           />

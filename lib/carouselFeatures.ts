@@ -30,6 +30,7 @@ import {
   Wand2,
   Palette,
   ImageIcon,
+  Contact,
   Wifi,
 } from 'lucide-react';
 
@@ -496,6 +497,54 @@ export function getCarouselFeatureCells(appId: string): CarouselFeatureCell[] | 
           cellClass:
             'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-teal-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-teal-400/45 transition-all duration-300',
           iconClassName: 'w-8 h-8 text-teal-300 mb-2',
+        },
+      ];
+    case 'contacts-toolbox':
+      return [
+        {
+          Icon: Contact,
+          labelKey: 'contactsToolbox.features.scan',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-violet-300 mb-2',
+        },
+        {
+          Icon: Sparkles,
+          labelKey: 'contactsToolbox.features.preview',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-400/40 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-fuchsia-200 mb-2',
+        },
+        {
+          Icon: Shield,
+          labelKey: 'contactsToolbox.features.private',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-violet-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-violet-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-violet-300 mb-2',
+        },
+      ];
+    case 'coloring-my-photo':
+      return [
+        {
+          Icon: Palette,
+          labelKey: 'coloringMyPhoto.features.onDevice',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-rose-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-rose-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-rose-300 mb-2',
+        },
+        {
+          Icon: Sparkles,
+          labelKey: 'coloringMyPhoto.features.detail',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-rose-600/30 shadow-lg hover:shadow-xl hover:scale-105 hover:border-rose-400/40 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-pink-200 mb-2',
+        },
+        {
+          Icon: Share2,
+          labelKey: 'coloringMyPhoto.features.share',
+          cellClass:
+            'flex flex-col items-center p-4 bg-gradient-to-br from-indigo-950/65 to-slate-950/85 rounded-xl border-2 border-rose-600/35 shadow-lg hover:shadow-xl hover:scale-105 hover:border-rose-400/45 transition-all duration-300',
+          iconClassName: 'w-8 h-8 text-rose-300 mb-2',
         },
       ];
     case 'toldya':

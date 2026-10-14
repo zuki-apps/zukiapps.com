@@ -2,15 +2,15 @@
   "coloringMyPhoto": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming soon · iOS & Android",
+      "badge": "Free on Google Play",
       "title": "Coloring My Photo",
       "productName": "Coloring My Photo — Turn Photos into Color-by-Number Pages",
       "subtitle": "Your memories. Your coloring pages.",
       "description": "Pick a picture from your gallery or camera. Coloring My Photo builds a numbered coloring page on your device in seconds — private, fast, and fun for kids and adults.",
-      "socialProof": "On-device processing · Easy / Medium / Advanced · 8–24 colors · Save, share & PDF · 12 languages",
-      "structuredDataDescription": "Coloring My Photo turns personal photos into color-by-number coloring pages on iOS and Android. On-device processing, no account required. Coming soon. com.zuki.apps.coloringmyphoto.",
+      "socialProof": "On-device processing · Easy / Medium / Advanced · 12–32 colors · Save, share & PDF · Free on Android",
+      "structuredDataDescription": "Coloring My Photo turns personal photos into color-by-number coloring pages on Android. On-device processing, no account required. Free on Google Play. Premium is a one-time unlock. Package com.zuki.apps.coloringmyphoto. App Store coming soon.",
       "seoTitle": "Coloring My Photo — Photo Color-by-Number | Zuki Apps",
-      "metaDescription": "Turn any photo into a personalized color-by-number page. 100% on-device. Coming soon on iOS and Android."
+      "metaDescription": "Turn any photo into a personalized color-by-number page. 100% on-device. Free on Google Play. App Store coming soon."
     },
     "pageNav": {
       "features": "Features",
@@ -136,7 +136,7 @@
       "items": [
         {
           "question": "What is Coloring My Photo?",
-          "answer": "An app that turns personal photos into interactive color-by-number pages. All processing happens on your device. Package: com.zuki.apps.coloringmyphoto."
+          "answer": "Coloring My Photo turns your personal photos into interactive color-by-number pages on Android. All processing happens on your device. Free on Google Play. Package: com.zuki.apps.coloringmyphoto. App Store coming soon."
         },
         {
           "question": "Does my photo leave the phone?",
@@ -168,7 +168,11 @@
         },
         {
           "question": "Can I restore Premium?",
-          "answer": "Yes. Use Restore on the Premium screen with the same account you used to purchase."
+          "answer": "Yes. Use Restore on the Premium screen with the same Google account you used to purchase. App Store coming soon."
+        },
+        {
+          "question": "Where can I download Coloring My Photo?",
+          "answer": "Coloring My Photo is free on Google Play (com.zuki.apps.coloringmyphoto). App Store coming soon."
         },
         {
           "question": "How do I get support?",
@@ -178,19 +182,19 @@
     },
     "status": {
       "title": "Availability",
-      "description": "Coloring My Photo is in development. App Store and Google Play listings coming soon.",
+      "description": "Coloring My Photo is free on Google Play. App Store coming soon.",
       "version": "Version",
       "status": "Platform",
       "versionValue": "0.9.0",
-      "statusValue": "iOS & Android · Coming soon"
+      "statusValue": "Google Play (Android) · App Store coming soon"
     },
     "download": {
       "title": "Download Coloring My Photo",
-      "description": "Turn your favorite memories into personalized coloring pages. Coming soon.",
-      "soon": "Coming soon to the App Store and Google Play",
+      "description": "Turn your favorite memories into personalized coloring pages. Free on Google Play. App Store coming soon.",
+      "soon": "Coming soon on the App Store",
       "googlePlaySoon": "Coming soon on Google Play",
       "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.coloringmyphoto",
       "appIconAlt": "Coloring My Photo app icon",
       "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play"

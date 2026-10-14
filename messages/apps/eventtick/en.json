@@ -2,15 +2,15 @@
   "eventTick": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Free on the App Store",
+      "badge": "Live on App Store & Google Play",
       "title": "EventTick — Event Countdown",
       "productName": "EventTick — Event Countdown",
       "subtitle": "Count down to the days that matter.",
       "description": "Live event countdowns and Home Screen widgets for trips, birthdays, launches, and everything in between. Free includes 3 events with ads. Premium is a one-time unlock for unlimited events, every look, and no ads. No account required.",
-      "socialProof": "12 languages · Lifestyle · On-device · Optional Premium · Free on iOS",
-      "structuredDataDescription": "EventTick is a Lifestyle countdown app for iOS by Zuki Apps. Free on the App Store (id6813929052). Google Play coming soon. Eight styles: Breaking Down, Total Days, Weeks & Days, Months & Days, The Big Number, Orbit, Momentum, Immersive. Eight accents. Midnight or Dawn. iPhone Home Screen widgets. Free: 3 events, three styles, four accents, two widget looks, AdMob banner and interstitial. Premium product com.zuki.apps.eventtick.premium is a $3.99 one-time unlock: unlimited events, all looks, no ads. Events stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.eventtick.",
+      "socialProof": "12 languages · Lifestyle · On-device · Optional Premium · Free on iOS & Android",
+      "structuredDataDescription": "EventTick is a Lifestyle countdown app for iOS and Android by Zuki Apps. Free on the App Store (id6813929052) and Google Play. Eight styles: Breaking Down, Total Days, Weeks & Days, Months & Days, The Big Number, Orbit, Momentum, Immersive. Eight accents. Midnight or Dawn. Home Screen widgets. Free: 3 events, three styles, four accents, two widget looks, AdMob banner and interstitial. Premium product com.zuki.apps.eventtick.premium is a $3.99 one-time unlock: unlimited events, all looks, no ads. Events stay on device. Firebase Crashlytics and Analytics. Package com.zuki.apps.eventtick.",
       "seoTitle": "EventTick — Countdown Widgets | Zuki Apps",
-      "metaDescription": "Live iPhone countdown widgets for trips and birthdays. Free on the App Store. Google Play coming soon."
+      "metaDescription": "Live countdown widgets for trips and birthdays. Free on the App Store and Google Play."
     },
     "pageNav": {
       "features": "Features",
@@ -58,7 +58,7 @@
       "items": [
         {
           "question": "What is EventTick?",
-          "answer": "EventTick is a Lifestyle countdown app for iOS. Name a date, pick a style, and keep it on your iPhone Home Screen. Free on the App Store (id6813929052). Google Play coming soon. Package: com.zuki.apps.eventtick."
+          "answer": "EventTick is a Lifestyle countdown app for iOS and Android. Name a date, pick a style, and keep it on your Home Screen. Free on the App Store (id6813929052) and Google Play. Package: com.zuki.apps.eventtick."
         },
         {
           "question": "Do I need an account?",
@@ -78,7 +78,7 @@
         },
         {
           "question": "Does EventTick have Home Screen widgets?",
-          "answer": "Yes on iPhone. Pin a countdown on the Home Screen. Free includes Minimal and Compact looks; Premium unlocks the rest. Google Play (and Android widgets) coming soon."
+          "answer": "Yes on iPhone and Android. Pin a countdown on the Home Screen. Free includes Minimal and Compact looks; Premium unlocks the rest."
         },
         {
           "question": "Does EventTick show ads?",
@@ -90,7 +90,7 @@
         },
         {
           "question": "How do I restore Premium?",
-          "answer": "Open Settings and tap Restore purchases with the same Apple ID. Product ID: com.zuki.apps.eventtick.premium. Google Play coming soon."
+          "answer": "Open Settings and tap Restore purchases with the same Apple ID or Google account. Product ID: com.zuki.apps.eventtick.premium."
         },
         {
           "question": "How do I get support?",
@@ -100,19 +100,19 @@
     },
     "status": {
       "title": "Availability",
-      "description": "EventTick is free on the App Store. Google Play coming soon.",
+      "description": "EventTick is free on the App Store and Google Play.",
       "version": "Version",
       "status": "Platform",
       "versionValue": "0.9.1",
-      "statusValue": "iOS · Google Play coming soon"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
       "title": "Download EventTick",
-      "description": "Event countdown and Home Screen widgets. Free on the App Store. Google Play coming soon.",
-      "soon": "Google Play coming soon",
+      "description": "Event countdown and Home Screen widgets. Free on the App Store and Google Play.",
+      "soon": "",
       "googlePlaySoon": "Coming soon on Google Play",
       "appStoreUrl": "https://apps.apple.com/us/app/eventtick-event-countdown/id6813929052",
-      "googlePlayUrl": "",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.eventtick",
       "appIconAlt": "EventTick app icon — event countdown",
       "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play"
@@ -454,7 +454,7 @@
         },
         {
           "title": "Restore after reinstall",
-          "description": "Premium is tied to your Apple ID — tap Restore in Settings. Google Play coming soon."
+          "description": "Premium is tied to your Apple ID or Google account — tap Restore in Settings."
         },
         {
           "title": "Events are local",

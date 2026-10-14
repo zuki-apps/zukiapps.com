@@ -3,10 +3,11 @@
 App: Photo Stamp: Date & Location  
 Developer: Zuki Apps  
 Package: com.zuki.apps.photostamp  
-Platform: iOS (App Store id6804026637); Google Play coming soon  
+Platform: iOS (App Store id6804026637) and Android (Google Play)  
 Site: https://zukiapps.com/photo-stamp  
 Support: https://zukiapps.com/photo-stamp/support
 App Store: https://apps.apple.com/us/app/photo-stamp-date-location/id6804026637
+Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.photostamp
 
 ---
 
@@ -44,11 +45,11 @@ Yes. Select a video from your library and stamp it the same way as a photo.
 
 ## How do I restore Pro after reinstalling?
 
-Use Restore on the Pro screen with the same Apple ID. Product ID: com.zuki.apps.photostamp.premium_lifetime. Google Play coming soon.
+Use Restore on the Pro screen with the same Apple ID or Google account. Product ID: com.zuki.apps.photostamp.premium_lifetime.
 
-## Is Photo Stamp on the App Store?
+## Where can I download Photo Stamp?
 
-Yes. Photo Stamp is free on the App Store (id6804026637). Google Play is coming soon.
+Photo Stamp is free on the App Store (id6804026637) and Google Play (com.zuki.apps.photostamp).
 
 ## How do I get support?
 

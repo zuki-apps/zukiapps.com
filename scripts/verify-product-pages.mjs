@@ -16,14 +16,12 @@ const SKIP_SLUGS = new Set(['dreambit-legacy']);
 
 const UNPUBLISHED = new Set([
   'questivo',
-  'coloring-my-photo',
   'ztl-guard',
-  'contacts-toolbox',
   'roamguard',
 ]);
 
-const IOS_ONLY = new Set(['blockiva', 'eventtick', 'tally-nudge', 'photo-stamp']);
-const ANDROID_ONLY = new Set(['roamguard']);
+const IOS_ONLY = new Set(['blockiva', 'tally-nudge']);
+const ANDROID_ONLY = new Set(['roamguard', 'contacts-toolbox', 'coloring-my-photo']);
 
 function fail(msg) {
   console.error(`product-pages: FAIL — ${msg}`);
@@ -84,6 +82,7 @@ for (const slug of slugs) {
     assert(!play, `${slug} is iOS-first — googlePlayUrl must stay empty until Play is live`);
   } else if (ANDROID_ONLY.has(slug)) {
     assert(!ios, `${slug} is Android-only — appStoreUrl must stay empty`);
+    assert(/^https:\/\/play\.google\.com\//.test(play), `${slug} needs a live Play URL`);
   } else {
     assert(/^https:\/\/apps\.apple\.com\//.test(ios), `${slug} needs a live App Store URL`);
     assert(/^https:\/\/play\.google\.com\//.test(play), `${slug} needs a live Play URL`);

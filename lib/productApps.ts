@@ -161,6 +161,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'coloring-my-photo-howto-ld',
     accent: 'rose',
     hasSupportPage: true,
+    operatingSystem: 'Android',
   },
   'photo-stamp': {
     slug: 'photo-stamp',
@@ -171,7 +172,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'photo-stamp-howto-ld',
     accent: 'teal',
     hasSupportPage: true,
-    operatingSystem: 'iOS',
+    operatingSystem: 'iOS,Android',
   },
   blockiva: {
     slug: 'blockiva',
@@ -193,7 +194,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'eventtick-howto-ld',
     accent: 'sky',
     hasSupportPage: true,
-    operatingSystem: 'iOS',
+    operatingSystem: 'iOS,Android',
   },
   'tally-nudge': {
     slug: 'tally-nudge',
@@ -226,7 +227,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'contacts-toolbox-howto-ld',
     accent: 'violet',
     hasSupportPage: true,
-    operatingSystem: 'iOS,Android',
+    operatingSystem: 'Android',
   },
   toldya: {
     slug: 'toldya',

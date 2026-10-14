@@ -2,15 +2,15 @@
   "contactsToolbox": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Coming soon · iOS & Android",
+      "badge": "Free on Google Play",
       "title": "Contacts Toolbox — Contacts Organizer",
       "productName": "Contacts Toolbox — Contacts Organizer",
       "subtitle": "Contacts Organizer",
       "description": "Organize, deduplicate, and bulk-edit an address book on your device. Matching, merges, and bulk edits run locally with preview and undo.",
-      "socialProof": "On-device · Preview + undo · Optional Premium · iOS & Android",
-      "structuredDataDescription": "Contacts Toolbox is a contacts organizer for iOS and Android. Deduplicate and bulk-edit an address book on-device with preview and undo. com.zuki.apps.contactstoolbox.",
+      "socialProof": "On-device · Preview + undo · Optional Premium · Free on Android",
+      "structuredDataDescription": "Contacts Toolbox is a contacts organizer for Android by Zuki Apps. Deduplicate and bulk-edit an address book on-device with preview and undo. Free on Google Play. Premium is a one-time unlock. Package com.zuki.apps.contactstoolbox. App Store coming soon.",
       "seoTitle": "Contacts Toolbox — Contacts Organizer | Zuki Apps",
-      "metaDescription": "Contacts organizer: deduplicate and bulk-edit on your device. Coming soon to iOS and Android."
+      "metaDescription": "Contacts organizer: deduplicate and bulk-edit on your device. Free on Google Play. App Store coming soon."
     },
     "pageNav": {
       "features": "Features",
@@ -40,7 +40,7 @@
       },
       "host": {
         "title": "Free and Premium",
-        "description": "Premium is a one-time unlock (contacts_toolbox_premium). Store listings coming soon.",
+        "description": "Premium is a one-time unlock (contacts_toolbox_premium). Free on Google Play; App Store coming soon.",
         "items": [
           "Product ID: contacts_toolbox_premium",
           "Restore purchases after reinstall",
@@ -109,7 +109,7 @@
       "items": [
         {
           "question": "What is Contacts Toolbox?",
-          "answer": "A contacts organizer for iOS and Android. Package: com.zuki.apps.contactstoolbox."
+          "answer": "Contacts Toolbox is a contacts organizer for Android. It finds duplicates, enables bulk edits, and shows insights about incomplete contacts — entirely on your device. Free on Google Play. Package: com.zuki.apps.contactstoolbox. App Store coming soon."
         },
         {
           "question": "Does it read my phone contacts?",
@@ -136,8 +136,8 @@
           "answer": "CSV export is a Premium feature. Free users can preview suggestions without exporting."
         },
         {
-          "question": "When will it be available on the App Store and Google Play?",
-          "answer": "Contacts Toolbox is currently in development. Store listings are coming soon."
+          "question": "Where can I download Contacts Toolbox?",
+          "answer": "Contacts Toolbox is free on Google Play (com.zuki.apps.contactstoolbox). App Store coming soon."
         },
         {
           "question": "How do I get support?",
@@ -147,19 +147,19 @@
     },
     "status": {
       "title": "Availability",
-      "description": "Contacts Toolbox is in development. App Store and Google Play listings coming soon.",
+      "description": "Contacts Toolbox is free on Google Play. App Store coming soon.",
       "version": "Version",
       "status": "Platform",
       "versionValue": "0.9.0",
-      "statusValue": "iOS & Android · Coming soon"
+      "statusValue": "Google Play (Android) · App Store coming soon"
     },
     "download": {
       "title": "Download Contacts Toolbox — Contacts Organizer",
-      "description": "Contacts organizer. Coming soon to the App Store and Google Play.",
-      "soon": "Coming soon to the App Store and Google Play",
+      "description": "Organize, deduplicate, and bulk-edit your address book on device. Free on Google Play. App Store coming soon.",
+      "soon": "Coming soon on the App Store",
       "googlePlaySoon": "Coming soon on Google Play",
       "appStoreUrl": "",
-      "googlePlayUrl": "",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.contactstoolbox",
       "appIconAlt": "Contacts Toolbox — Contacts Organizer app icon",
       "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play"

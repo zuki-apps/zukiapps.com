@@ -29,6 +29,8 @@ const HOME_ICONS = [
   'images/tally-nudge-icon.png',
   'images/blockiva-icon.png',
   'images/photo-stamp-icon.png',
+  'images/contacts-toolbox-icon.png',
+  'images/coloring-my-photo-icon.png',
 ];
 
 const MONSTERS = ['images/monsters/zuli-01.png', 'images/monsters/zuli-04.png', 'images/monsters/zuli-15.png'];

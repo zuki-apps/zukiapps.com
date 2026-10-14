@@ -62,9 +62,10 @@ export const QUESTIVO_PUBLISHED = false;
 export const QUESTIVO_APP_PATH = '/questivo' as const;
 
 /** Coloring My Photo — hidden until published; legal pages for store compliance. */
-export const COLORING_MY_PHOTO_UNDER_CONSTRUCTION = true;
-export const COLORING_MY_PHOTO_PILOT = false;
-export const COLORING_MY_PHOTO_PUBLISHED = false;
+/** Coloring My Photo — Android live; App Store coming soon. */
+export const COLORING_MY_PHOTO_UNDER_CONSTRUCTION = false;
+export const COLORING_MY_PHOTO_PILOT = true;
+export const COLORING_MY_PHOTO_PUBLISHED = true;
 export const COLORING_MY_PHOTO_APP_PATH = '/coloring-my-photo' as const;
 
 /** Photo Stamp — on home when published. iOS live; Play coming soon. */
@@ -98,7 +99,8 @@ export const ZTL_GUARD_PUBLISHED = false;
 export const ZTL_GUARD_APP_PATH = '/ztl-guard' as const;
 
 /** Contacts Toolbox — hidden until published; legal pages for store compliance. */
-export const CONTACTS_TOOLBOX_UNDER_CONSTRUCTION = true;
-export const CONTACTS_TOOLBOX_PILOT = false;
-export const CONTACTS_TOOLBOX_PUBLISHED = false;
+/** Contacts Toolbox — Android live; App Store coming soon. */
+export const CONTACTS_TOOLBOX_UNDER_CONSTRUCTION = false;
+export const CONTACTS_TOOLBOX_PILOT = true;
+export const CONTACTS_TOOLBOX_PUBLISHED = true;
 export const CONTACTS_TOOLBOX_APP_PATH = '/contacts-toolbox' as const;

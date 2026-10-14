@@ -3,12 +3,12 @@
 > Canonical page: https://zukiapps.com/eventtick/support
 > Product page: https://zukiapps.com/eventtick
 > App Store: https://apps.apple.com/us/app/eventtick-event-countdown/id6813929052 (id6813929052)
-> Google Play: coming soon · Android `com.zuki.apps.eventtick`
+> Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.eventtick · Android `com.zuki.apps.eventtick`
 > Icon: https://zukiapps.com/images/eventtick-icon.png?v=1
 
 ## What is EventTick?
 
-EventTick is a Lifestyle countdown app for iOS by Zuki Apps. Name a date, pick a style, and keep it on your iPhone Home Screen. Free on the App Store (id6813929052). Google Play coming soon. Package: `com.zuki.apps.eventtick`.
+EventTick is a Lifestyle countdown app for iOS and Android by Zuki Apps. Name a date, pick a style, and keep it on your Home Screen. Free on the App Store (id6813929052) and Google Play. Package: `com.zuki.apps.eventtick`.
 
 ## Do I need an account?
 
@@ -28,7 +28,7 @@ Breaking Down, Total Days, Weeks & Days, Months & Days, The Big Number, Orbit, M
 
 ## Does EventTick have Home Screen widgets?
 
-Yes on iPhone. Pin a countdown on the Home Screen. Free includes Minimal and Compact looks; Premium unlocks the rest. Google Play (and Android widgets) coming soon.
+Yes on iPhone and Android. Pin a countdown on the Home Screen. Free includes Minimal and Compact looks; Premium unlocks the rest.
 
 ## Does EventTick show ads?
 
@@ -40,7 +40,7 @@ On your device. Uninstalling EventTick deletes local events.
 
 ## How do I restore Premium?
 
-Open Settings and tap Restore purchases with the same Apple ID. Product ID: `com.zuki.apps.eventtick.premium`. Google Play coming soon.
+Open Settings and tap Restore purchases with the same Apple ID or Google account. Product ID: `com.zuki.apps.eventtick.premium`.
 
 ## How do I get support?
 

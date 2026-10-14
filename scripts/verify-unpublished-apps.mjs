@@ -13,9 +13,7 @@ const ROOT = process.cwd();
 
 const UNPUBLISHED = [
   { slug: 'questivo', namespace: 'questivo', flag: 'QUESTIVO' },
-  { slug: 'coloring-my-photo', namespace: 'coloringMyPhoto', flag: 'COLORING_MY_PHOTO' },
   { slug: 'ztl-guard', namespace: 'ztlGuard', flag: 'ZTL_GUARD' },
-  { slug: 'contacts-toolbox', namespace: 'contactsToolbox', flag: 'CONTACTS_TOOLBOX' },
   { slug: 'roamguard', namespace: 'roamGuard', flag: 'ROAMGUARD' },
 ];
 

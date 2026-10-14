@@ -2,15 +2,15 @@
   "photoStamp": {
     "back": "Back to Home",
     "hero": {
-      "badge": "Free on the App Store",
+      "badge": "Live on App Store & Google Play",
       "title": "Photo Stamp: Date & Location",
       "productName": "Photo Stamp: Date & Location",
       "subtitle": "Add date, time and location to photos and videos you've already taken.",
       "description": "Your photos already know when and where they were taken. Photo Stamp puts that on the picture, clearly, and without touching the original. Select from your library, design the stamp, preview, then export a new copy. About 10–20 seconds. On your device.",
-      "socialProof": "Gallery first · Photos and videos · No account · No upload · No AI · About 10–20 seconds · Free on iOS",
-      "structuredDataDescription": "Photo Stamp adds date, time, and location stamps to photos and videos you already have. On-device, no account, originals never overwritten. Free on the App Store (id6804026637). Google Play coming soon. Photo Stamp Pro is a $4.99 one-time unlock (com.zuki.apps.photostamp.premium_lifetime). Package com.zuki.apps.photostamp.",
+      "socialProof": "Gallery first · Photos and videos · No account · No upload · No AI · About 10–20 seconds · Free on iOS & Android",
+      "structuredDataDescription": "Photo Stamp adds date, time, and location stamps to photos and videos you already have. On-device, no account, originals never overwritten. Free on the App Store (id6804026637) and Google Play. Photo Stamp Pro is a $4.99 one-time unlock (com.zuki.apps.photostamp.premium_lifetime). Package com.zuki.apps.photostamp.",
       "seoTitle": "Photo Stamp — Date & Location | Zuki Apps",
-      "metaDescription": "Stamp date, time, and location onto existing photos and videos. On-device. Originals untouched. Free on the App Store. Google Play coming soon."
+      "metaDescription": "Stamp date, time, and location onto existing photos and videos. On-device. Originals untouched. Free on the App Store and Google Play."
     },
     "pageNav": {
       "features": "Features",
@@ -103,7 +103,7 @@
           "steps": [
             "Export creates a new file. Originals are never overwritten.",
             "Free includes 30 photo and 3 video exports per week, plus ads outside the editor.",
-            "Photo Stamp Pro (com.zuki.apps.photostamp.premium_lifetime) is a $4.99 one-time unlock. Restore with the same Apple ID."
+            "Photo Stamp Pro (com.zuki.apps.photostamp.premium_lifetime) is a $4.99 one-time unlock. Restore with the same Apple ID or Google account."
           ]
         }
       ]
@@ -134,7 +134,7 @@
         },
         {
           "title": "Restore after reinstall",
-          "description": "Photo Stamp Pro is tied to your Apple ID. Use Restore on the Pro screen. Google Play coming soon."
+          "description": "Photo Stamp Pro is tied to your Apple ID or Google account. Use Restore on the Pro screen."
         }
       ]
     },
@@ -211,7 +211,7 @@
         {
           "id": "ss-life-wordmark",
           "title": "Photo Stamp: Date & Location",
-          "description": "From Zuki Apps. Free on the App Store. Google Play coming soon.",
+          "description": "From Zuki Apps. Free on the App Store and Google Play.",
           "image": "/images/photo-stamp/life-wordmark.webp",
           "alt": "Photo Stamp landscape wordmark promo",
           "category": "lifestyle"
@@ -249,7 +249,7 @@
         },
         {
           "question": "How do I restore Photo Stamp Pro?",
-          "answer": "Use Restore on the Pro screen with the same Apple ID. Product ID: com.zuki.apps.photostamp.premium_lifetime. Google Play coming soon."
+          "answer": "Use Restore on the Pro screen with the same Apple ID or Google account. Product ID: com.zuki.apps.photostamp.premium_lifetime."
         },
         {
           "question": "How long does stamping take?",
@@ -260,8 +260,8 @@
           "answer": "Yes. Select a video from your library and stamp it the same way as a photo."
         },
         {
-          "question": "Is Photo Stamp on the App Store?",
-          "answer": "Yes. Photo Stamp is free on the App Store (id6804026637). Google Play is coming soon."
+          "question": "Where can I download Photo Stamp?",
+          "answer": "Photo Stamp is free on the App Store (id6804026637) and Google Play (com.zuki.apps.photostamp)."
         },
         {
           "question": "How do I get support?",
@@ -271,19 +271,19 @@
     },
     "status": {
       "title": "Availability",
-      "description": "Photo Stamp is free on the App Store. Google Play coming soon.",
+      "description": "Photo Stamp is free on the App Store and Google Play.",
       "version": "Version",
       "status": "Platform",
       "versionValue": "0.1.0",
-      "statusValue": "iOS · Google Play coming soon"
+      "statusValue": "App Store (iOS) · Google Play (Android)"
     },
     "download": {
       "title": "Download Photo Stamp",
-      "description": "Stamp date, time, and location onto photos and videos you already have. Free on the App Store. Google Play coming soon.",
-      "soon": "Google Play coming soon",
+      "description": "Stamp date, time, and location onto photos and videos you already have. Free on the App Store and Google Play.",
+      "soon": "",
       "googlePlaySoon": "Coming soon on Google Play",
       "appStoreUrl": "https://apps.apple.com/us/app/photo-stamp-date-location/id6804026637",
-      "googlePlayUrl": "",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.photostamp",
       "appIconAlt": "Photo Stamp app icon",
       "appStoreAlt": "Download on the App Store",
       "googlePlayAlt": "Get it on Google Play"
@@ -448,7 +448,7 @@
         },
         "q3": {
           "question": "Is Photo Stamp Pro a subscription?",
-          "answer": "No. Photo Stamp Pro is a $4.99 one-time unlock (com.zuki.apps.photostamp.premium_lifetime) via the App Store. Google Play coming soon."
+          "answer": "No. Photo Stamp Pro is a $4.99 one-time unlock (com.zuki.apps.photostamp.premium_lifetime) via the App Store or Google Play."
         },
         "q4": {
           "question": "Do you upload my photos?",

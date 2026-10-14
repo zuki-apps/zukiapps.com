@@ -32,6 +32,10 @@ const SOON_RE = new RegExp(
 );
 
 const PLAY_HINT_RE = /google\s*play|android|play\.google/i;
+/** Clause boundaries, so "Free on Google Play. App Store coming soon." is not flagged. */
+const CLAUSE_SPLIT_RE = /[.;·!?。！？]\s*/;
+const saysPlaySoon = (text) =>
+  text.split(CLAUSE_SPLIT_RE).some((c) => SOON_RE.test(c) && PLAY_HINT_RE.test(c));
 const STORE_URL_RE = /https?:\/\/(?:apps\.apple\.com|play\.google\.com)\//i;
 const EN_STORE_BLOB_RE = /^Free on the App Store\b/i;
 const PRIVACY_Q_RE =
@@ -94,7 +98,7 @@ function checkAppLocale(appSlug, locale, data) {
     if (!SOON_RE.test(text)) continue;
     if (!MARKETING_PATH_RE.test(path) && !path.includes('.faq')) continue;
 
-    if (playLive && PLAY_HINT_RE.test(text)) {
+    if (playLive && saysPlaySoon(text)) {
       errors.push(
         `${appSlug}/${locale}.json: ${path} still says coming-soon while googlePlayUrl is live`,
       );
