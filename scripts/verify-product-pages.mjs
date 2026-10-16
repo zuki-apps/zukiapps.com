@@ -20,7 +20,7 @@ const UNPUBLISHED = new Set([
   'roamguard',
 ]);
 
-const IOS_ONLY = new Set(['blockiva', 'tally-nudge']);
+const IOS_ONLY = new Set(['blockiva']);
 const ANDROID_ONLY = new Set(['roamguard', 'contacts-toolbox', 'coloring-my-photo']);
 
 function fail(msg) {

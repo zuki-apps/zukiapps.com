@@ -1,0 +1,33 @@
+---
+description: iPhone Duo layout and required App Store screenshots
+alwaysApply: true
+---
+
+# iPhone Duo (required)
+
+Starting April 2027, App Store screenshots are required for any app built with the iOS 27.1 SDK or later. The next build, UI change, or store-asset change must leave this app ready for iPhone Duo. Do not defer it.
+
+Applies to every target that ships on iPhone. Skip pure web, scripts, and signing tooling.
+
+## Build
+- Build iPhone targets with Xcode 27.1 or later (iOS 27.1 SDK) so the app uses the full inner display, including under the status bar, and system bars can lay out vertically.
+- Test in the iPhone Duo simulator (Xcode 27.1 Device Hub): closed, fully open, partially folded, and rotated in each pose.
+
+## Layout
+- Outer display is compact, wider, and shorter. Inner display is regular width and large. Adapt with size classes and the container's bounds. Do not hardcode iPhone point sizes or use screen bounds or orientation alone for layout.
+- Use system navigation, toolbars, tab bars, and split views so controls move to the side on the outer display and stay consistent in landscape on the inner display. Toolbar items need both an icon and a title.
+- Keep controls and text out of the fold and camera occlusions. Custom layouts must react when the fold is active.
+- Sheets, dialogs, and lists stay usable on both displays. Nothing clipped, overflowing, or hidden under the vertical bar or hinge.
+- Flutter: size from MediaQuery, safe padding, and constraints. Do not use fixed widths that assume a tall phone.
+
+## App Store screenshots
+Capture real iPhone Duo simulator frames for both displays. JPEG or PNG, no alpha. Keep the existing required iPhone sizes as well.
+- Outer: 1398×2034 portrait, 2034×1398 landscape
+- Inner: 2007×2853 portrait, 2853×2007 landscape
+
+## Done when
+- The app is usable on the outer and inner displays in every pose above.
+- Both Duo screenshot sets exist beside the current App Store screenshots.
+
+Refs: https://developer.apple.com/documentation/technologyoverviews/preparing-your-app-for-iphone-duo
+https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/

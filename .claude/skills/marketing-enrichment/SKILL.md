@@ -1,3 +1,9 @@
+---
+name: marketing-enrichment
+description: Full product-page sync from a sibling app repo marketing folder into the web page.
+disable-model-invocation: true
+---
+
 # Marketing page enrichment — ZukiApps-WEB
 
 Act as **content-sync-specialist** + **senior-marketing-seo**.

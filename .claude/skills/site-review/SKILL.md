@@ -1,3 +1,9 @@
+---
+name: site-review
+description: Code review checklist for ZukiApps-WEB diffs: routes, i18n, SEO, AI files, store links.
+disable-model-invocation: true
+---
+
 # Code review — ZukiApps-WEB
 
 Review the diff for this Next.js marketing site.

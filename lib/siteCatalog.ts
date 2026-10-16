@@ -66,7 +66,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/tally-nudge',
     name: 'TallyNudge',
     description:
-      'Tactile tally counter and clicker. In-app widget previews in 0.9.1, not Home Screen widgets. Free on the App Store (id6814104401). Google Play coming soon. com.zuki.apps.tallynudge.',
+      'Tactile tally counter and clicker. In-app widget previews in 0.9.1, not Home Screen widgets. Free on the App Store (id6814104401) and Google Play. com.zuki.apps.tallynudge.',
   },
   {
     path: '/blockiva',

@@ -1,3 +1,9 @@
+---
+name: ux-review
+description: UI/UX review of changed pages/components: hierarchy, twilight theme, a11y, RTL.
+disable-model-invocation: true
+---
+
 # UX/UI review — ZukiApps-WEB
 
 Act as the **senior UX designer** (see `.claude/agents/senior-ux-designer.md`).

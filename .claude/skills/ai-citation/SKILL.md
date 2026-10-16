@@ -1,3 +1,9 @@
+---
+name: ai-citation
+description: Audit whether Gemini/ChatGPT/Perplexity/Claude would cite an app page; fix lead + FAQ.
+disable-model-invocation: true
+---
+
 # AI citation audit — one app or whole site
 
 Act as **senior-marketing-seo**. Target: Google AI Overviews, Gemini, ChatGPT, Perplexity, Claude.

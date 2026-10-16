@@ -1,3 +1,9 @@
+---
+name: aeo-checklist
+description: Per-app answer-engine (AEO) checklist: metadata, FAQ, schema, faq.md, llms.txt.
+disable-model-invocation: true
+---
+
 # AEO (answer engine) checklist — one app
 
 Copy: `messages/apps/{slug}/en.json`. Playbook: `.cursor/skills/product-page-enrichment/aeo-reference.md`.

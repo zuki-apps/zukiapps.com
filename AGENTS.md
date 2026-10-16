@@ -27,16 +27,16 @@ Slug / namespace source of truth: `lib/productApps.ts`. Copy: `messages/apps/{sl
 
 Definitions: `.claude/agents/{name}.md` (copied to `.cursor/agents/`).
 
-## Prompts (paste into chat)
+## Slash commands (Claude Code skills)
 
-| Prompt | Purpose |
+| Command | Purpose |
 |--------|---------|
-| `.claude/prompts/seo-audit.md` | Google + AEO gap analysis |
-| `.claude/prompts/aeo-checklist.md` | Per-app answer-engine checklist |
-| `.claude/prompts/ai-citation.md` | Would an AI cite this page? |
-| `.claude/prompts/marketing-enrichment.md` | Full page sync from app repo |
-| `.claude/prompts/ux-review.md` | UI/UX review |
-| `.claude/prompts/review.md` | Code review |
+| `/seo-audit` (`.claude/skills/seo-audit/`) | Google + AEO gap analysis |
+| `/aeo-checklist` (`.claude/skills/aeo-checklist/`) | Per-app answer-engine checklist |
+| `/ai-citation` (`.claude/skills/ai-citation/`) | Would an AI cite this page? |
+| `/marketing-enrichment` (`.claude/skills/marketing-enrichment/`) | Full page sync from app repo |
+| `/ux-review` (`.claude/skills/ux-review/`) | UI/UX review |
+| `/site-review` (`.claude/skills/site-review/`) | Code review |
 
 ## Cursor rules
 

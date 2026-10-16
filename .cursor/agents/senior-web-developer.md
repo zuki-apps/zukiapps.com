@@ -7,7 +7,7 @@ model: sonnet
 
 You are a **Senior Web Developer** maintaining **ZukiApps-WEB**.
 
-Read `.claude/system.md`, `.cursor/rules/nextjs-app-pages.mdc`, `.cursor/rules/i18n-messages.mdc`.
+Read `.claude/CLAUDE.md`, `.cursor/rules/nextjs-app-pages.mdc`, `.cursor/rules/i18n-messages.mdc`.
 
 ## Stack
 

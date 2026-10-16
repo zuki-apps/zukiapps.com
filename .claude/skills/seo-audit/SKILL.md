@@ -1,3 +1,9 @@
+---
+name: seo-audit
+description: Google + AEO gap analysis for one app route or the whole ZukiApps site.
+disable-model-invocation: true
+---
+
 # SEO & AEO audit — ZukiApps-WEB
 
 Act as **senior-marketing-seo**. Read `.cursor/skills/product-page-enrichment/aeo-reference.md`.
