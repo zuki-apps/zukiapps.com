@@ -34,6 +34,7 @@ const APPS = [
   'tally-nudge',
   'ztl-guard',
   'contacts-toolbox',
+  'trickyrooms',
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

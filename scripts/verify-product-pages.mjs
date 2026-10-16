@@ -18,6 +18,7 @@ const UNPUBLISHED = new Set([
   'questivo',
   'ztl-guard',
   'roamguard',
+  'trickyrooms',
 ]);
 
 const IOS_ONLY = new Set(['blockiva']);

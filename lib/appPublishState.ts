@@ -98,6 +98,12 @@ export const ZTL_GUARD_PILOT = false;
 export const ZTL_GUARD_PUBLISHED = false;
 export const ZTL_GUARD_APP_PATH = '/ztl-guard' as const;
 
+/** Tricky Rooms — hidden until published; legal pages for store compliance. */
+export const TRICKYROOMS_UNDER_CONSTRUCTION = true;
+export const TRICKYROOMS_PILOT = false;
+export const TRICKYROOMS_PUBLISHED = false;
+export const TRICKYROOMS_APP_PATH = '/trickyrooms' as const;
+
 /** Contacts Toolbox — hidden until published; legal pages for store compliance. */
 /** Contacts Toolbox — Android live; App Store coming soon. */
 export const CONTACTS_TOOLBOX_UNDER_CONSTRUCTION = false;

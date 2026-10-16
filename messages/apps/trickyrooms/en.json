@@ -1,0 +1,402 @@
+{
+  "trickyRooms": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming soon · iOS & Android",
+      "title": "Tricky Rooms — What is wrong?",
+      "productName": "Tricky Rooms — What is wrong?",
+      "subtitle": "Tricky Rooms",
+      "description": "A cosy puzzle game with 30 hand-drawn rooms. Each one hides exactly one thing that's wrong — find it in a few taps, fix the room, and open the next door.",
+      "socialProof": "30 hand-drawn rooms · 6 themed halls · Plays offline · No account · iOS & Android",
+      "structuredDataDescription": "Tricky Rooms is a spot-the-mistake puzzle game for iOS and Android. 30 hand-drawn rooms in 6 themed halls, one mistake in each. Plays offline, no account. com.zuki.apps.trickyrooms.",
+      "seoTitle": "Tricky Rooms — Spot What's Wrong | Zuki Apps",
+      "metaDescription": "30 hand-drawn rooms, one mistake in each. A cosy spot-the-mistake puzzle game. Coming soon to iOS and Android."
+    },
+    "pageNav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "howTo": "How to play",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "features": {
+      "title": "Key Features",
+      "modes": {
+        "title": "One mistake per room",
+        "description": "Every room has exactly one thing that doesn't make sense.",
+        "items": [
+          "30 hand-drawn rooms",
+          "Tap the mistake to fix it",
+          "A few attempts per room: 5 down to 2"
+        ]
+      },
+      "action": {
+        "title": "Six themed halls",
+        "description": "From a mint corridor to an indoor basketball court.",
+        "items": [
+          "Five doors per hall, opened in order",
+          "Hall picker to revisit any hall you've reached",
+          "Original music and sound effects"
+        ]
+      },
+      "social": {
+        "title": "Fair and friendly",
+        "description": "Lives come back on their own, and help is never far away.",
+        "items": [
+          "5 lives, one back every 30 minutes",
+          "Share a room to ask friends for help",
+          "Plays offline, no account"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "Real game screens from Tricky Rooms.",
+      "featuresTitle": "Game screens",
+      "items": [
+        {
+          "id": "spot-it",
+          "title": "Spot the mistake",
+          "description": "Every room hides one thing that's wrong.",
+          "image": "/images/trickyrooms/screenshot-spot-it.jpg",
+          "alt": "A classroom of cartoon insects with one detail out of place",
+          "category": "features"
+        },
+        {
+          "id": "fix-it",
+          "title": "Tap to fix",
+          "description": "The right tap puts the room right.",
+          "image": "/images/trickyrooms/screenshot-fix-it.jpg",
+          "alt": "Room 1's door plate fixed, outlined in blue",
+          "category": "features"
+        },
+        {
+          "id": "halls",
+          "title": "Six themed halls",
+          "description": "Five doors in each, opened in order.",
+          "image": "/images/trickyrooms/screenshot-halls.jpg",
+          "alt": "Underwater hall with numbered doors",
+          "category": "features"
+        },
+        {
+          "id": "explore",
+          "title": "Hall picker",
+          "description": "Jump between every hall you've reached.",
+          "image": "/images/trickyrooms/screenshot-explore.jpg",
+          "alt": "Hall picker with reached halls in colour",
+          "category": "features"
+        },
+        {
+          "id": "solved",
+          "title": "Level completed",
+          "description": "A mascot cheers you on to the next door.",
+          "image": "/images/trickyrooms/screenshot-solved.jpg",
+          "alt": "Level Completed card with a mascot",
+          "category": "features"
+        },
+        {
+          "id": "lobby",
+          "title": "The lobby",
+          "description": "Your way in to Tricky Rooms.",
+          "image": "/images/trickyrooms/screenshot-lobby.jpg",
+          "alt": "Green lobby with an OPEN door",
+          "category": "features"
+        }
+      ]
+    },
+    "tips": {
+      "title": "Tips & tricks",
+      "subtitle": "Spoiler-free help for tricky rooms.",
+      "items": [
+        {
+          "title": "Beginner",
+          "description": "1. Ask \"does this make sense?\" — the mistake couldn't be right in a real room, like a keyhole above a door handle. 2. Look before you tap: each miss costs an attempt. 3. Try the free hint in room 1 to see what a fix looks like."
+        },
+        {
+          "title": "Getting better",
+          "description": "4. Scan in a grid, one area at a time. 5. Check things that come in pairs or rows. 6. Think about how things work — doors, lights, furniture, clothes."
+        },
+        {
+          "title": "Lives",
+          "description": "7. Leaving a room costs a life, so keep looking while you have attempts. 8. Lives return every 30 minutes, even with the app closed. 9. Stuck? Share the room with a friend or watch a short video to see where to look. Out of taps? A video gives you two more."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers about the game, privacy, and purchases.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "Is Tricky Rooms free?",
+          "answer": "Yes. It's free to download and play, with optional in-app purchases: refill lives, buy a pack of 5 hints, or unlock Unlimited (unlimited lives and no banner or full-screen ads)."
+        },
+        {
+          "question": "What age is it for?",
+          "answer": "Everyone. Cartoon art, no violence, no chat and no user-generated content."
+        },
+        {
+          "question": "Does it work offline?",
+          "answer": "Yes. All 30 rooms play offline. Ads, purchases and sharing need a connection."
+        },
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Your progress is saved on your device."
+        },
+        {
+          "question": "How many rooms are there?",
+          "answer": "30 rooms in 6 halls of 5 doors. Doors open in order."
+        },
+        {
+          "question": "How many taps do I get?",
+          "answer": "5 per room in the first hall, then 4, 3, and 2 in the last hall. A miss leaves a red scratch and costs one."
+        },
+        {
+          "question": "How do lives work?",
+          "answer": "You have 5. Failing a room, trying again, or leaving a room after a tap costs one; backing out before your first tap is free. A new life arrives every 30 minutes, even with the app closed."
+        },
+        {
+          "question": "I'm stuck — any help?",
+          "answer": "Share the room picture with friends from the fail screen, or watch a short video to see where to look. Out of taps? A video gives you two more."
+        },
+        {
+          "question": "Is this the old Tricky Rooms?",
+          "answer": "It's a remaster of the 2014 original: the same rooms, art and music, rebuilt for today's phones and tablets. Progress from the old app doesn't carry over."
+        },
+        {
+          "question": "Will there be more rooms?",
+          "answer": "Yes — more halls are planned and will arrive in free updates. Your progress carries straight on into them."
+        },
+        {
+          "question": "What ads are there?",
+          "answer": "A banner on the win and fail screens, occasional full-screen ads between rooms (never in your first session or first five rooms), and optional videos you choose to watch for a life or a hint."
+        },
+        {
+          "question": "How do I restore Unlimited?",
+          "answer": "Settings → Restore purchases, signed in with the same Apple ID or Google account."
+        },
+        {
+          "question": "How do I contact you?",
+          "answer": "In the app: Settings → Send feedback. Or email zuki.apps.dev@gmail.com."
+        }
+      ]
+    },
+    "status": {
+      "title": "Availability",
+      "description": "Tricky Rooms is in development. App Store and Google Play listings coming soon.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "0.1.0+1",
+      "statusValue": "iOS & Android · Coming soon"
+    },
+    "download": {
+      "title": "Download Tricky Rooms",
+      "description": "A spot-the-mistake puzzle game. Coming soon to the App Store and Google Play.",
+      "soon": "Coming soon to the App Store and Google Play",
+      "googlePlaySoon": "Coming soon on Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "Tricky Rooms app icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "footer": {
+      "copyright": "© 2026 Tricky Rooms — All rights reserved",
+      "tagline": "Part of Zuki Apps · by Zuki.Apps"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Privacy Policy for Tricky Rooms — puzzle game. No accounts; progress stays on your device; how AdMob ads and Firebase diagnostics use data.",
+      "lastUpdated": "Last updated: October 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps handles information when you use Tricky Rooms and related pages at zukiapps.com/trickyrooms.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the Tricky Rooms game and the legal pages we publish for it."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "Tricky Rooms has no accounts and we run no servers for it.",
+        "items": [
+          "Game progress (rooms, lives, settings) stored only on your device and deleted when you uninstall",
+          "Advertising identifier, approximate location derived from your IP address, and ad interaction data collected by Google AdMob",
+          "Crash reports and anonymous usage statistics collected by Firebase Crashlytics and Analytics",
+          "Purchase records handled by Apple or Google — we never receive your payment details",
+          "Feedback and support messages you send us"
+        ]
+      },
+      "section3": {
+        "title": "3. How we use information",
+        "content": "We use information to:",
+        "items": [
+          "Show and measure ads (Google AdMob)",
+          "Fix crashes and improve the game",
+          "Validate in-app purchases",
+          "Reply to your messages"
+        ],
+        "content2": "We do not sell your personal information."
+      },
+      "section4": {
+        "title": "4. Advertising and consent",
+        "content": "Where required, you are asked for consent before personalised ads are shown: Google's consent form in the EEA, UK, Switzerland and some US states, and Apple's App Tracking Transparency prompt on iOS.",
+        "content2": "You can change ad consent in the app's settings and limit ad tracking in your device settings (iOS: Settings → Privacy & Security → Tracking; Android: Settings → Google → Ads)."
+      },
+      "section5": {
+        "title": "5. Storage and security",
+        "content": "Game progress never leaves your device. Data sent by the SDKs is encrypted in transit.",
+        "content2": "Ad, analytics and purchase partners retain data under their own policies."
+      },
+      "section6": {
+        "title": "6. Third-party services",
+        "content": "Google AdMob and Firebase process data under Google's privacy policy. In-app purchases are processed by Apple App Store or Google Play Billing under their policies.",
+        "content2": "Sharing a room picture uses your device's share sheet; we do not see what you share or with whom."
+      },
+      "section7": {
+        "title": "7. Your rights and children",
+        "content": "Depending on your region you may have rights to access or delete data. Delete all game data by uninstalling, or email zuki.apps.dev@gmail.com and we will help.",
+        "content2": "Tricky Rooms is not directed at children under 13."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new Last updated date."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "metaDescription": "Terms of Use for Tricky Rooms — spot-the-mistake puzzle game.",
+      "lastUpdated": "Last updated: October 2026",
+      "intro": "Please read these Terms of Use carefully before using Tricky Rooms. By accessing or using the game, you agree to be bound by these terms. If you do not agree, please do not use the game.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your access to and use of Tricky Rooms (\"Service\", \"Game\"), operated by Zuki Apps. By downloading, installing, accessing, or using the Service, you agree to these Terms and our Privacy Policy.",
+        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian authorized to agree on their behalf where required."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "Tricky Rooms is a single-player puzzle game. The Service includes:",
+        "items": [
+          "30 puzzle rooms, lives and progression saved on your device",
+          "Advertising, including optional rewarded videos",
+          "Optional in-app purchases (consumable lives refills and hint packs, and a one-time Unlimited unlock) processed by Apple or Google",
+          "Sharing room pictures through your device's share sheet"
+        ]
+      },
+      "section3": {
+        "title": "3. Licence",
+        "content": "Zuki Apps grants you a personal, non-exclusive, non-transferable licence to use the game on devices you own or control. The rooms, art, music and code remain the property of Zuki Apps.",
+        "content2": "Progress is stored on your device; we cannot restore it if you uninstall or change devices."
+      },
+      "section4": {
+        "title": "4. Purchases",
+        "content": "In-app purchases are processed by Apple or Google. Their terms and refund policies apply. Prices are shown by the store.",
+        "content2": "Use Settings → Restore purchases after reinstalling to restore the Unlimited unlock. Consumable purchases (lives refills, hint packs) cannot be restored."
+      },
+      "section5": {
+        "title": "5. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Use the game for unlawful purposes",
+          "Reverse engineer the app except as permitted by law",
+          "Interfere with ads, security or purchase features"
+        ]
+      },
+      "section6": {
+        "title": "6. Disclaimer",
+        "content": "The game is provided “as is” and “as available”. To the extent permitted by applicable law, Zuki Apps disclaims warranties of merchantability and fitness for a particular purpose.",
+        "content2": "Nothing in these Terms excludes or limits liability that applicable law does not allow to be excluded or limited, or rights that a consumer cannot waive."
+      },
+      "section7": {
+        "title": "7. Limitation of liability",
+        "content": "To the maximum extent permitted by applicable law, Zuki Apps is not liable for indirect or consequential loss arising from use of the game, including loss of progress."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may modify these Terms. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact Zuki Apps about Tricky Rooms.",
+      "metaTitle": "Support & Help — Tricky Rooms | Zuki Apps",
+      "metaDescription": "Get help with Tricky Rooms — rooms, attempts, lives, hints, purchases, and restoring Unlimited.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "How Tricky Rooms handles your data"
+        },
+        "terms": {
+          "title": "Terms of Use",
+          "description": "Terms for playing Tricky Rooms"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "Is Tricky Rooms free?",
+          "answer": "Yes. It's free to download and play, with optional in-app purchases: refill lives, buy a pack of 5 hints, or unlock Unlimited (unlimited lives and no banner or full-screen ads)."
+        },
+        "q2": {
+          "question": "Do I need an account?",
+          "answer": "No. Your progress is saved on your device."
+        },
+        "q3": {
+          "question": "How do lives work?",
+          "answer": "You have 5. Failing a room, trying again, or leaving a room after a tap costs one; backing out before your first tap is free. A new life arrives every 30 minutes, even with the app closed."
+        },
+        "q4": {
+          "question": "How do I restore Unlimited?",
+          "answer": "Settings → Restore purchases, signed in with the same Apple ID or Google account."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need more help?",
+        "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+      }
+    },
+    "howToUse": {
+      "title": "How to play",
+      "subtitle": "Open a door, find the one thing that's wrong, tap to fix it.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Open a door",
+          "description": "Enter a hall and pick the door with the arrow."
+        },
+        {
+          "number": "2",
+          "title": "Look closer",
+          "description": "One thing in the room is wrong."
+        },
+        {
+          "number": "3",
+          "title": "Tap to fix",
+          "description": "The right tap fixes it; a miss costs an attempt."
+        },
+        {
+          "number": "4",
+          "title": "Keep going",
+          "description": "30 rooms across 6 halls. Lives refill every 30 minutes."
+        }
+      ]
+    }
+  }
+}

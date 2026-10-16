@@ -103,6 +103,11 @@ export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
     description: 'Italy ZTL Alerts. Coming soon. com.zuki.apps.ztlguard.',
   },
   {
+    path: '/trickyrooms',
+    name: 'Tricky Rooms',
+    description: 'Spot-the-mistake puzzle game. 30 hand-drawn rooms, one mistake in each. Coming soon. com.zuki.apps.trickyrooms.',
+  },
+  {
     path: '/questivo',
     name: 'Questivo',
     description: 'Scavenger hunts and real-world missions. Create a quest, share a code. Coming soon. com.zuki.apps.questivo.',

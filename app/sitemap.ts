@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED, TIMESINCE_PILOT, TIMESINCE_PUBLISHED, TIMESINCE_UNDER_CONSTRUCTION, GEO_CALC_PILOT, GEO_CALC_PUBLISHED, GEO_CALC_UNDER_CONSTRUCTION, ROAMGUARD_UNDER_CONSTRUCTION, ROAMGUARD_PILOT, ROAMGUARD_PUBLISHED, QUESTIVO_UNDER_CONSTRUCTION, QUESTIVO_PILOT, QUESTIVO_PUBLISHED, COLORING_MY_PHOTO_UNDER_CONSTRUCTION, COLORING_MY_PHOTO_PILOT, COLORING_MY_PHOTO_PUBLISHED, PHOTO_STAMP_UNDER_CONSTRUCTION, PHOTO_STAMP_PILOT, PHOTO_STAMP_PUBLISHED, BLOCKIVA_UNDER_CONSTRUCTION, BLOCKIVA_PILOT, BLOCKIVA_PUBLISHED, EVENTTICK_UNDER_CONSTRUCTION, EVENTTICK_PILOT, EVENTTICK_PUBLISHED, TALLY_NUDGE_UNDER_CONSTRUCTION, TALLY_NUDGE_PILOT, TALLY_NUDGE_PUBLISHED, ZTL_GUARD_UNDER_CONSTRUCTION, ZTL_GUARD_PILOT, ZTL_GUARD_PUBLISHED, CONTACTS_TOOLBOX_UNDER_CONSTRUCTION, CONTACTS_TOOLBOX_PILOT, CONTACTS_TOOLBOX_PUBLISHED } from '@/lib/appPublishState';
+import { ZULI_COLLAGE_PUBLISHED, ZULI_COLLAGE_PILOT, TOLDYA_PILOT, TOLDYA_PUBLISHED, TIMESINCE_PILOT, TIMESINCE_PUBLISHED, TIMESINCE_UNDER_CONSTRUCTION, GEO_CALC_PILOT, GEO_CALC_PUBLISHED, GEO_CALC_UNDER_CONSTRUCTION, ROAMGUARD_UNDER_CONSTRUCTION, ROAMGUARD_PILOT, ROAMGUARD_PUBLISHED, QUESTIVO_UNDER_CONSTRUCTION, QUESTIVO_PILOT, QUESTIVO_PUBLISHED, COLORING_MY_PHOTO_UNDER_CONSTRUCTION, COLORING_MY_PHOTO_PILOT, COLORING_MY_PHOTO_PUBLISHED, PHOTO_STAMP_UNDER_CONSTRUCTION, PHOTO_STAMP_PILOT, PHOTO_STAMP_PUBLISHED, BLOCKIVA_UNDER_CONSTRUCTION, BLOCKIVA_PILOT, BLOCKIVA_PUBLISHED, EVENTTICK_UNDER_CONSTRUCTION, EVENTTICK_PILOT, EVENTTICK_PUBLISHED, TALLY_NUDGE_UNDER_CONSTRUCTION, TALLY_NUDGE_PILOT, TALLY_NUDGE_PUBLISHED, ZTL_GUARD_UNDER_CONSTRUCTION, ZTL_GUARD_PILOT, ZTL_GUARD_PUBLISHED, CONTACTS_TOOLBOX_UNDER_CONSTRUCTION, CONTACTS_TOOLBOX_PILOT, CONTACTS_TOOLBOX_PUBLISHED, TRICKYROOMS_UNDER_CONSTRUCTION, TRICKYROOMS_PILOT, TRICKYROOMS_PUBLISHED } from '@/lib/appPublishState';
 import { routing } from '@/routing';
 import { getSiteUrl } from '@/lib/hreflang';
 import {
@@ -266,6 +266,21 @@ const routes: SitemapRouteMeta[] = [
           { path: '/contacts-toolbox/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/contacts-toolbox/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/contacts-toolbox/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        ]
+      : []),
+  ...(TRICKYROOMS_PUBLISHED || TRICKYROOMS_PILOT
+    ? [
+        { path: '/trickyrooms', priority: 0.9, changefreq: 'weekly' } satisfies SitemapRouteMeta,
+        { path: '/trickyrooms/support', priority: 0.7, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/trickyrooms/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+        { path: '/trickyrooms/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+      ]
+    : TRICKYROOMS_UNDER_CONSTRUCTION
+      ? [
+          { path: '/trickyrooms', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/trickyrooms/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/trickyrooms/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
+          { path: '/trickyrooms/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
         ]
       : []),
   { path: '/dreambit-legacy', priority: 0.55, changefreq: 'yearly' },

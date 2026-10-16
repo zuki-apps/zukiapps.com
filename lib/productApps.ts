@@ -24,6 +24,7 @@ export type ProductAppSlug =
   | 'tally-nudge'
   | 'ztl-guard'
   | 'contacts-toolbox'
+  | 'trickyrooms'
   | 'toldya';
 
 export type ProductAppNamespace =
@@ -51,6 +52,7 @@ export type ProductAppNamespace =
   | 'tallyNudge'
   | 'ztlGuard'
   | 'contactsToolbox'
+  | 'trickyRooms'
   | 'toldya';
 
 export type ProductAppConfig = {
@@ -228,6 +230,17 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     accent: 'violet',
     hasSupportPage: true,
     operatingSystem: 'Android',
+  },
+  trickyrooms: {
+    slug: 'trickyrooms',
+    namespace: 'trickyRooms',
+    appPath: '/trickyrooms',
+    applicationCategory: 'GameApplication',
+    faqId: 'trickyrooms-faq-ld',
+    howToId: 'trickyrooms-howto-ld',
+    accent: 'emerald',
+    hasSupportPage: true,
+    operatingSystem: 'iOS,Android',
   },
   toldya: {
     slug: 'toldya',
