@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "remoteCatalogUrl": "https://zukiapps.com/house-ads/catalog.json",
   "apps": [
     {
@@ -385,22 +385,6 @@
       "interstitial": "assets/interstitials/coloring-my-photo.jpg",
       "creativeSource": "generated",
       "color": "#33230F"
-    },
-    {
-      "id": "roamguard",
-      "name": "Roam Guard",
-      "tagline": "Protect your travel data plan",
-      "project": "RoamGuard",
-      "promote": true,
-      "showHouseAds": true,
-      "icon": "assets/icons/roamguard.png",
-      "appStoreUrl": "",
-      "playStoreUrl": "",
-      "websiteUrl": "https://zukiapps.com/roamguard",
-      "banner": "assets/banners/roamguard.png",
-      "interstitial": "assets/interstitials/roamguard.jpg",
-      "creativeSource": "generated",
-      "color": "#0F3033"
     }
   ]
 }
