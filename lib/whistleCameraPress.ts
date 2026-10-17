@@ -28,4 +28,11 @@ export const WHISTLE_CAMERA_PRESS = [
     href: 'https://coolmomtech.com/2015/04/selfie-stick-alternatives-for-selfie-stick-ban/',
     date: '2015-04',
   },
+  {
+    name: 'UpdateStar — Excellent (Legacy)',
+    href: 'https://whistle-camera-legacy.updatestar.com/',
+  },
 ] as const;
+
+export const UPDATESTAR_WHISTLE_CAMERA_LEGACY =
+  'https://whistle-camera-legacy.updatestar.com/' as const;

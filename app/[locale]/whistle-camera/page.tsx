@@ -26,7 +26,11 @@ import Logo from '@/components/Logo';
 import AppIconFrame from '@/components/AppIconFrame';
 import PromoMascotStill from '@/components/PromoMascotStill';
 import PressMentions from '@/components/PressMentions';
-import { WHISTLE_CAMERA_PRESS } from '@/lib/whistleCameraPress';
+import UpdateStarAward from '@/components/UpdateStarAward';
+import {
+  UPDATESTAR_WHISTLE_CAMERA_LEGACY,
+  WHISTLE_CAMERA_PRESS,
+} from '@/lib/whistleCameraPress';
 import StoreDownloadBadges from '@/components/StoreDownloadBadges';
 import { WHISTLE_CAMERA_ICON } from '@/lib/appIcons';
 import StarBackground from '@/components/StarBackground';
@@ -133,10 +137,20 @@ export default function WhistleCameraPage() {
             <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto">{t('hero.description')}</p>
             <p className="text-sm text-amber-400/90 mb-6">{t('hero.socialProof')}</p>
             <PressMentions
-              className="mb-8"
+              className="mb-6"
               heading={t('press.heading')}
               disclaimer={t('press.disclaimer')}
               items={WHISTLE_CAMERA_PRESS}
+            />
+            <UpdateStarAward
+              className="mb-8"
+              heading={t('press.awardHeading')}
+              body={t('press.awardBody')}
+              quote={t('press.awardQuote')}
+              attribution={t('press.awardAttribution')}
+              href={UPDATESTAR_WHISTLE_CAMERA_LEGACY}
+              linkLabel={t('press.awardLinkLabel')}
+              logoAlt={t('press.awardLogoAlt')}
             />
             <div className="flex justify-center gap-4 text-sm flex-wrap mb-8">
               <Link href={`/${locale}/whistle-camera/privacy`} className="text-amber-400 hover:text-amber-300 underline">

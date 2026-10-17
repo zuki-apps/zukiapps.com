@@ -19,8 +19,12 @@ import Logo from '@/components/Logo';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import DreambitArchiveStructuredData from '@/components/DreambitArchiveStructuredData';
 import PressMentions from '@/components/PressMentions';
+import UpdateStarAward from '@/components/UpdateStarAward';
 import { HUSH_GALLERY_PRESS } from '@/lib/hushGalleryPress';
-import { WHISTLE_CAMERA_PRESS } from '@/lib/whistleCameraPress';
+import {
+  UPDATESTAR_WHISTLE_CAMERA_LEGACY,
+  WHISTLE_CAMERA_PRESS,
+} from '@/lib/whistleCameraPress';
 
 const ARCHIVE_PRESS = [
   WHISTLE_CAMERA_PRESS[0],
@@ -131,6 +135,16 @@ export default function DreambitLegacyPage() {
               heading={t('hero.pressHeading')}
               disclaimer={t('hero.pressNote')}
               items={ARCHIVE_PRESS}
+            />
+            <UpdateStarAward
+              className="mt-6"
+              heading={t('hero.awardHeading')}
+              body={t('hero.awardBody')}
+              quote={t('hero.awardQuote')}
+              attribution={t('hero.awardAttribution')}
+              href={UPDATESTAR_WHISTLE_CAMERA_LEGACY}
+              linkLabel={t('hero.awardLinkLabel')}
+              logoAlt={t('hero.awardLogoAlt')}
             />
             <figure className="mt-8 mb-2">
               <Image
