@@ -22,7 +22,7 @@ const UNPUBLISHED = new Set([
 ]);
 
 const IOS_ONLY = new Set(['blockiva']);
-const ANDROID_ONLY = new Set(['roamguard', 'contacts-toolbox', 'coloring-my-photo']);
+const ANDROID_ONLY = new Set(['roamguard', 'contacts-toolbox']);
 
 function fail(msg) {
   console.error(`product-pages: FAIL — ${msg}`);

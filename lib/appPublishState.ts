@@ -61,8 +61,7 @@ export const QUESTIVO_PILOT = false;
 export const QUESTIVO_PUBLISHED = false;
 export const QUESTIVO_APP_PATH = '/questivo' as const;
 
-/** Coloring My Photo — hidden until published; legal pages for store compliance. */
-/** Coloring My Photo — Android live; App Store coming soon. */
+/** Coloring My Photo — on home when published. Live on App Store and Google Play. */
 export const COLORING_MY_PHOTO_UNDER_CONSTRUCTION = false;
 export const COLORING_MY_PHOTO_PILOT = true;
 export const COLORING_MY_PHOTO_PUBLISHED = true;

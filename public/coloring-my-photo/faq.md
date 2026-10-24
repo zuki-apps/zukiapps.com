@@ -3,16 +3,17 @@
 App: Coloring My Photo  
 Developer: Zuki Apps  
 Package: com.zuki.apps.coloringmyphoto  
-Platform: Android (Google Play); App Store coming soon  
+Platform: iOS (App Store id6789850054) and Android (Google Play)  
 Site: https://zukiapps.com/coloring-my-photo  
-Support: https://zukiapps.com/coloring-my-photo/support
+Support: https://zukiapps.com/coloring-my-photo/support  
+App Store: https://apps.apple.com/app/id6789850054  
 Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.coloringmyphoto
 
 ---
 
 ## What is Coloring My Photo?
 
-Coloring My Photo turns your personal photos into interactive color-by-number pages on Android. All processing happens on your device. Free on Google Play. Package: com.zuki.apps.coloringmyphoto. App Store coming soon.
+Coloring My Photo turns your personal photos into interactive color-by-number pages on iOS and Android. All processing happens on your device. Free on the App Store (id6789850054) and Google Play. Package: com.zuki.apps.coloringmyphoto.
 
 ## Does my photo leave the phone?
 
@@ -48,11 +49,11 @@ Try a clearer photo with good lighting, use Easy detail level, and make sure the
 
 ## Can I restore Premium?
 
-Yes. Use Restore on the Premium screen with the same Google account you used to purchase. App Store coming soon.
+Yes. Use Restore on the Premium screen with the same Apple ID or Google account you used to purchase.
 
 ## Where can I download Coloring My Photo?
 
-Coloring My Photo is free on Google Play (com.zuki.apps.coloringmyphoto). App Store coming soon.
+Coloring My Photo is free on the App Store (id6789850054) and Google Play (com.zuki.apps.coloringmyphoto).
 
 ## How do I share a coloring page?
 

@@ -163,7 +163,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'coloring-my-photo-howto-ld',
     accent: 'rose',
     hasSupportPage: true,
-    operatingSystem: 'Android',
+    operatingSystem: 'iOS,Android',
   },
   'photo-stamp': {
     slug: 'photo-stamp',

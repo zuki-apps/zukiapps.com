@@ -90,7 +90,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/coloring-my-photo',
     name: 'Coloring My Photo',
     description:
-      'Turn photos into color-by-number pages on your device. Free on Google Play. App Store coming soon. com.zuki.apps.coloringmyphoto.',
+      'Turn photos into color-by-number pages on your device. Free on the App Store (id6789850054) and Google Play. com.zuki.apps.coloringmyphoto.',
   },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];
