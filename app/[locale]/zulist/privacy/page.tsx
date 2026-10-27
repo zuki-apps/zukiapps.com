@@ -1,11 +1,28 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/routing';
-import { buildCanonical, buildLanguageAlternates, getSiteUrl } from '@/lib/hreflang';
+import { buildCanonical, buildLanguageAlternates } from '@/lib/hreflang';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
+import LegalSections from '@/components/LegalSections';
 import type { Metadata } from 'next';
+
+// New keys (not section1–8) so untranslated locales fall back to the current
+// English text instead of mixing it with the retired translated sections.
+const BODY_SECTIONS = [
+  'collect',
+  'use',
+  'sharing',
+  'providers',
+  'ads',
+  'device',
+  'retention',
+  'rights',
+  'children',
+  'security',
+  'changes',
+] as const;
 
 export async function generateMetadata({
   params
@@ -45,6 +62,7 @@ export default async function PrivacyPolicyPage({
   const t = await getTranslations({ locale, namespace: 'zulist.privacy' });
   const tCommon = await getTranslations({ locale, namespace: 'common' });
   const tApp = await getTranslations({ locale, namespace: 'zulist.hero' });
+  const rtl = locale === 'he' || locale === 'ar';
 
   return (
     <>
@@ -76,151 +94,31 @@ export default async function PrivacyPolicyPage({
             </div>
           </div>
 
-          <div className={`${locale === 'he' || locale === 'ar' ? 'text-right' : 'text-left'}`}>
+          <div className={rtl ? 'text-right' : 'text-left'}>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {t('title')}
             </h1>
-            <p className="text-gray-400 mb-8">
-              {t('lastUpdated')}
+            <p className="text-gray-400 mb-4">
+              {t('lastUpdatedOn')}
             </p>
+            <p className="text-gray-700 leading-relaxed mb-8">{t('intro')}</p>
 
-            <div className="space-y-6">
-              <section>
-                <h2 className="text-2xl font-bold text-blue-600 mb-4">
-                  {t('section1.title')}
-                </h2>
-                <p className="text-gray-700 leading-relaxed">
-                  {t('section1.content')}
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-blue-600 mb-4">
-                  {t('section2.title')}
-                </h2>
-                <p className="text-gray-700 leading-relaxed">
-                  {t('section2.content')}
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-blue-600 mb-4">
-                  {t('section3.title')}
-                </h2>
-                <p className="text-gray-700 leading-relaxed">
-                  {t('section3.content')}
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-blue-600 mb-4">
-                  {t('section4.title')}
-                </h2>
-                <p className="text-gray-700 leading-relaxed">
-                  {t('section4.content')}
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-blue-600 mb-4">
-                  {t('section5.title')}
-                </h2>
-                <p className="text-gray-700 leading-relaxed">
-                  {t('section5.content')}
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-blue-600 mb-4">
-                  {t('section6.title')}
-                </h2>
-                <p className="text-gray-700 leading-relaxed">
-                  {t('section6.content')}
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-blue-600 mb-4">
-                  {t('section7.title')}
-                </h2>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  {t('section7.content')}
-                </p>
-                <p className="text-gray-700 font-semibold mb-2">
-                  {t('section7.dataCollected')}
-                </p>
-                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 text-gray-700 space-y-2`}>
-                  {t.raw('section7.dataCollectedItems').map((item: string, index: number) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-                <p className="text-gray-700 font-semibold mb-2">
-                  {t('section7.purpose')}
-                </p>
-                <ul className={`list-disc ${locale === 'he' || locale === 'ar' ? 'mr-6' : 'ml-6'} mb-4 text-gray-700 space-y-2`}>
-                  {t.raw('section7.purposeItems').map((item: string, index: number) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-                <p className="text-gray-700 font-semibold mb-2">
-                  {t('section7.dataSharing')}
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  {t('section7.dataSharingContent')}{' '}
-                  <a
-                    href="https://policies.google.com/privacy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline"
-                  >
-                    {locale === 'he' || locale === 'ar' ? 'מדיניות הפרטיות של Google' : "Google's Privacy Policy"}
-                  </a>.
-                </p>
-                <p className="text-gray-700 font-semibold mb-2">
-                  {t('section7.dataRetention')}
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  {t('section7.dataRetentionContent')}
-                </p>
-                <p className="text-gray-700 font-semibold mb-2">
-                  {t('section7.yourRights')}
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  {t('section7.yourRightsContent')}
-                </p>
-              </section>
-
-              <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-blue-600 mt-8">
-                <h2 className="text-2xl font-bold text-blue-600 mb-4">
-                  {t('section8.title')}
-                </h2>
-                <p className="text-gray-700 mb-4">
-                  {t('section8.content')}
-                </p>
-                <p className="text-gray-700 mb-2">
-                  <strong>{tCommon('email')}:</strong>{' '}
-                  <a
-                    href={`mailto:${t('section8.email')}`}
-                    className="text-blue-600 hover:underline"
-                  >
-                    {t('section8.email')}
-                  </a>
-                </p>
-                <p className="text-gray-700 mb-4">
-                  <strong>{tCommon('address')}:</strong>{' '}
-                  {t('section8.address')}
-                </p>
-                <p className="text-gray-700 text-sm">
-                  {locale === 'he' || locale === 'ar' ? '📄 ' : '📄 '}
-                  <Link
-                    href={`/${locale}/zulist/terms`}
-                    className="text-blue-600 hover:underline"
-                  >
-                    {locale === 'he' || locale === 'ar' ? 'קרא את תנאי השימוש' : 'Read the Terms of Service'}
-                  </Link>
-                </p>
-              </section>
-            </div>
+            <LegalSections
+              sections={BODY_SECTIONS}
+              listSectionKeys={['collect', 'use', 'providers']}
+              withContent2={['use', 'sharing', 'ads', 'device', 'retention']}
+              t={t}
+              tRaw={t.raw}
+              rtl={rtl}
+              headingClassName="text-blue-600"
+              contactSectionKey="contact"
+              emailLabel={tCommon('email')}
+              addressLabel={tCommon('address')}
+              contactExtraLinks={[
+                { href: `/${locale}/zulist/terms`, label: tCommon('termsOfService') },
+                { href: `/${locale}/zulist/delete-account`, label: tCommon('deleteAccount') },
+              ]}
+            />
           </div>
         </div>
       </div>

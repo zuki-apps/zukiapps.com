@@ -232,61 +232,89 @@
     },
     "privacy": {
       "title": "Privacy Policy",
-      "lastUpdated": "Last updated: January 2025",
-      "section1": {
+      "lastUpdatedOn": "Last updated: October 27, 2026",
+      "metaDescription": "ZuList privacy policy — how we handle your data on iOS and Android.",
+      "intro": "This policy explains what ZuList for iOS and Android collects, why we collect it, who processes it, and the choices you have. ZuList is published by Zuki Apps.",
+      "collect": {
         "title": "1. Information We Collect",
-        "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support."
+        "content": "Depending on how you use ZuList, we collect:",
+        "items": [
+          "Account information: your name, email address, profile photo and a user ID when you sign in with Google, Apple or email. You can also use ZuList as a guest; guest lists stay on your device.",
+          "Your content: lists, categories, items, notes, due dates and the photos you attach to items.",
+          "List membership: who you share a list with, their role, and invitation details, including the email address of a person you invite.",
+          "Purchase information: your Premium plan, its status and the receipt or purchase token from Apple or Google. We never receive your card or payment details.",
+          "Device information: a push-notification token, device model, operating system, app version and language.",
+          "Usage information: how features are used, such as lists created or items checked off, linked to your user ID.",
+          "Diagnostics: crash reports and app performance information, which are not linked to your identity.",
+          "Advertising data in the free version: see section 5."
+        ]
       },
-      "section2": {
+      "use": {
         "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you."
-      },
-      "section3": {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy."
-      },
-      "section4": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
-      },
-      "section5": {
-        "title": "5. Your Rights",
-        "content": "You have the right to access, update, or delete your personal information. You may also opt out of certain communications from us."
-      },
-      "section6": {
-        "title": "6. Camera and Photo Library Access",
-        "content": "ZuList requires access to your device's camera and photo library to allow you to take and upload photos of shopping list items. We only access these features when you explicitly choose to add a photo to a list or item. Photos are stored securely in our cloud storage and are only accessible to you and users you share your lists with."
-      },
-      "section7": {
-        "title": "7. Crash Reporting and Error Analytics",
-        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
-        "dataCollected": "Data Collected:",
-        "dataCollectedItems": [
-          "Technical information about crashes and errors (stack traces, error messages)",
-          "Device information (operating system, device model, app version)",
-          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
-          "Custom diagnostic information related to errors (error codes, operation types)"
+        "content": "We use your information to:",
+        "items": [
+          "Provide ZuList: sign you in, store your lists and keep them in sync across your devices and with the people you share them with.",
+          "Send the notifications you allow, such as list changes, reminders and invitations.",
+          "Send invitation emails that you ask ZuList to send.",
+          "Verify purchases and unlock Premium.",
+          "Find and fix crashes and improve the app.",
+          "Show ads in the free version."
         ],
-        "purpose": "Purpose:",
-        "purposeItems": [
-          "Identify and fix bugs and crashes",
-          "Improve app stability and performance",
-          "Analyze error patterns"
-        ],
-        "dataSharing": "Data Sharing:",
-        "dataSharingContent": "This data is processed by Google Firebase and is subject to Google's Privacy Policy.",
-        "dataRetention": "Data Retention:",
-        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
-        "yourRights": "Your Rights:",
-        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
+        "content2": "We do not sell your personal information."
       },
-      "section8": {
-        "title": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+      "sharing": {
+        "title": "3. Who Can See Your Lists",
+        "content": "A list you share is visible to its members. Members of a shared list can see each other's name, email address and profile photo, as well as the list's items and photos.",
+        "content2": "When you leave a list, or the owner removes you, you no longer have access to it."
+      },
+      "providers": {
+        "title": "4. Service Providers",
+        "content": "We use these providers to run ZuList. They process data on our behalf under their own privacy policies, for example policies.google.com/privacy.",
+        "items": [
+          "Google Firebase (Authentication, Cloud Firestore, Realtime Database, Cloud Storage, Cloud Functions, Cloud Messaging, Analytics and Crashlytics): accounts, storage and sync, notifications, usage analytics and crash reports.",
+          "Google AdMob and Google User Messaging Platform: ads and ad consent in the free version.",
+          "Google Sign-In and Sign in with Apple: sign-in.",
+          "Apple App Store and Google Play: purchases and subscription verification.",
+          "Twilio SendGrid: delivery of the invitation emails you send."
+        ]
+      },
+      "ads": {
+        "title": "5. Advertising",
+        "content": "The free version shows ads from Google AdMob; Premium removes them. AdMob may collect your device's advertising identifier, an approximate location based on your IP address, and your interactions with ads, and may use them to personalize and measure ads across apps and websites owned by other companies.",
+        "content2": "On iOS, we ask for permission through Apple's App Tracking Transparency prompt. If you decline, your advertising identifier is not used for tracking. In the EEA, the UK and Switzerland, we ask for your consent before ads load, and you can change that choice at any time in ZuList's Settings. You can also reset or limit your advertising identifier in your device settings."
+      },
+      "device": {
+        "title": "6. Camera, Photos, Notifications and Data on Your Device",
+        "content": "ZuList uses the camera and photo library only when you choose to add a photo. Photos are uploaded to cloud storage and are visible to you and the members of the list. Notifications are sent only if you allow them, and you can mute them in the app at any time.",
+        "content2": "ZuList keeps a copy of your lists on your device so you can shop without a connection, and shares a short summary with the home-screen widget. This copy is removed when you delete the app."
+      },
+      "retention": {
+        "title": "7. Data Retention and Account Deletion",
+        "content": "We keep your data for as long as your account exists. You can delete your account in the app (Profile → Delete account) or at zukiapps.com/zulist/delete-account. Deleting your account removes your profile, your profile photos and the lists only you belong to. Shared lists you own are transferred to another member, and you are removed from lists shared with you.",
+        "content2": "Crash reports are kept for up to 90 days. Usage analytics are kept according to Google Analytics retention settings."
+      },
+      "rights": {
+        "title": "8. Your Rights",
+        "content": "Depending on where you live (for example under the GDPR or the CCPA), you have the right to access, correct, export or delete your personal information, to object to or restrict its processing, and to withdraw consent. To make a request, contact us using the details below. We respond within 30 days."
+      },
+      "children": {
+        "title": "9. Children",
+        "content": "ZuList is not directed to children under 13, and we do not knowingly collect their personal information. If you believe a child has given us personal information, contact us and we will delete it."
+      },
+      "security": {
+        "title": "10. Security",
+        "content": "Data is encrypted in transit, and access to lists is enforced by server-side security rules. No method of storage or transmission is completely secure."
+      },
+      "changes": {
+        "title": "11. Changes to This Policy",
+        "content": "When we update this policy, we change the date at the top of this page. For significant changes, we will also tell you in the app."
+      },
+      "contact": {
+        "title": "12. Contact Us",
+        "content": "If you have questions about this policy or your data, contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
-      },
-      "metaDescription": "ZuList privacy policy — how we handle your data on iOS and Android."
+      }
     },
     "terms": {
       "title": "Terms of Use",

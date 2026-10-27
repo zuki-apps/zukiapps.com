@@ -236,61 +236,87 @@
     },
     "privacy": {
       "title": "Política de Privacidad",
-      "lastUpdated": "Última actualización: Enero 2025",
-      "section1": {
-        "title": "1. Información que Recopilamos",
-        "content": "Recopilamos información que nos proporcionas directamente, como cuando creas una cuenta, usas nuestros servicios o nos contactas para soporte."
+      "metaDescription": "ZuList política de privacidad: cómo manejamos sus datos en iOS y Android.",
+      "lastUpdatedOn": "Última actualización: 27 de octubre de 2026",
+      "intro": "Esta política explica qué datos recopila ZuList para iOS y Android, por qué, quién los trata y qué opciones tienes. ZuList está publicada por Zuki Apps.",
+      "collect": {
+        "title": "1. Información que recopilamos",
+        "content": "Según cómo uses ZuList, recopilamos:",
+        "items": [
+          "Información de la cuenta: tu nombre, correo electrónico, foto de perfil y un ID de usuario cuando inicias sesión con Google, Apple o correo electrónico. También puedes usar ZuList como invitado; las listas de invitado se quedan en tu dispositivo.",
+          "Tu contenido: listas, categorías, artículos, notas, fechas límite y las fotos que adjuntas a los artículos.",
+          "Miembros de las listas: con quién compartes una lista, su función y los datos de la invitación, incluido el correo electrónico de la persona que invitas.",
+          "Información de compra: tu plan Premium, su estado y el recibo o token de compra de Apple o Google. Nunca recibimos los datos de tu tarjeta ni de pago.",
+          "Información del dispositivo: un token de notificaciones push, el modelo del dispositivo, el sistema operativo, la versión de la app y el idioma.",
+          "Información de uso: cómo se usan las funciones, como las listas creadas o los artículos marcados, vinculada a tu ID de usuario.",
+          "Diagnóstico: informes de fallos e información de rendimiento de la app, no vinculados a tu identidad.",
+          "Datos publicitarios en la versión gratuita: consulta la sección 5."
+        ]
       },
-      "section2": {
-        "title": "2. Cómo Usamos Tu Información",
-        "content": "Usamos la información que recopilamos para proporcionar, mantener y mejorar nuestros servicios, procesar transacciones y comunicarnos contigo."
-      },
-      "section3": {
-        "title": "3. Compartición de Información",
-        "content": "No vendemos, intercambiamos ni transferimos tu información personal a terceros sin tu consentimiento, excepto como se describe en esta política."
-      },
-      "section4": {
-        "title": "4. Seguridad de Datos",
-        "content": "Implementamos medidas de seguridad apropiadas para proteger tu información personal contra acceso no autorizado, alteración, divulgación o destrucción."
-      },
-      "section5": {
-        "title": "5. Tus Derechos",
-        "content": "Tienes derecho a acceder, actualizar o eliminar tu información personal. También puedes optar por no recibir ciertas comunicaciones de nosotros."
-      },
-      "section6": {
-        "title": "6. Acceso a Cámara y Biblioteca de Fotos",
-        "content": "ZuList requiere acceso a la cámara y biblioteca de fotos de tu dispositivo para permitirte tomar y subir fotos de artículos de lista de compras. Solo accedemos a estas características cuando eliges explícitamente agregar una foto a una lista o artículo. Las fotos se almacenan de forma segura en nuestro almacenamiento en la nube y solo son accesibles para ti y los usuarios con los que compartes tus listas."
-      },
-      "section7": {
-        "title": "7. Informes de Fallos y Análisis de Errores",
-        "content": "Usamos Firebase Crashlytics, un servicio proporcionado por Google, para recopilar información sobre fallos y errores de la aplicación. Esto nos ayuda a identificar y corregir problemas para mejorar tu experiencia.",
-        "dataCollected": "Datos Recopilados:",
-        "dataCollectedItems": [
-          "Información técnica sobre fallos y errores (rastros de pila, mensajes de error)",
-          "Información del dispositivo (sistema operativo, modelo del dispositivo, versión de la aplicación)",
-          "ID de instalación (un identificador único para tu instalación de la aplicación, no vinculado a tu identidad personal)",
-          "Información de diagnóstico personalizada relacionada con errores (códigos de error, tipos de operación)"
+      "use": {
+        "title": "2. Cómo usamos tu información",
+        "content": "Usamos tu información para:",
+        "items": [
+          "Prestar ZuList: iniciar tu sesión, guardar tus listas y sincronizarlas entre tus dispositivos y con las personas con quienes las compartes.",
+          "Enviar las notificaciones que permitas, como cambios en las listas, recordatorios e invitaciones.",
+          "Enviar los correos de invitación que pidas a ZuList que envíe.",
+          "Verificar compras y desbloquear Premium.",
+          "Detectar y corregir fallos y mejorar la app.",
+          "Mostrar anuncios en la versión gratuita."
         ],
-        "purpose": "Propósito:",
-        "purposeItems": [
-          "Identificar y corregir errores y fallos",
-          "Mejorar la estabilidad y el rendimiento de la aplicación",
-          "Analizar patrones de error"
-        ],
-        "dataSharing": "Compartición de Datos:",
-        "dataSharingContent": "Estos datos son procesados por Google Firebase y están sujetos a la Política de Privacidad de Google.",
-        "dataRetention": "Retención de Datos:",
-        "dataRetentionContent": "Los informes de fallos se conservan en Firebase hasta por 90 días y luego se eliminan automáticamente.",
-        "yourRights": "Tus Derechos:",
-        "yourRightsContent": "Puedes optar por no participar en los informes de fallos desactivándolo en la configuración de tu dispositivo, aunque esto puede impedirnos corregir problemas que te afecten."
+        "content2": "No vendemos tu información personal."
       },
-      "section8": {
-        "title": "8. Contáctanos",
-        "content": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en:",
-        "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      "sharing": {
+        "title": "3. Quién puede ver tus listas",
+        "content": "Una lista que compartes es visible para sus miembros. Los miembros de una lista compartida pueden ver el nombre, el correo electrónico y la foto de perfil de los demás, así como los artículos y fotos de la lista.",
+        "content2": "Cuando abandonas una lista, o el propietario te elimina, dejas de tener acceso a ella."
       },
-      "metaDescription": "ZuList política de privacidad: cómo manejamos sus datos en iOS y Android."
+      "providers": {
+        "title": "4. Proveedores de servicios",
+        "content": "Usamos estos proveedores para hacer funcionar ZuList. Tratan los datos en nuestro nombre según sus propias políticas de privacidad, por ejemplo policies.google.com/privacy.",
+        "items": [
+          "Google Firebase (Authentication, Cloud Firestore, Realtime Database, Cloud Storage, Cloud Functions, Cloud Messaging, Analytics, Crashlytics): cuentas, almacenamiento y sincronización, notificaciones, análisis de uso e informes de fallos",
+          "Google AdMob, Google User Messaging Platform: anuncios y consentimiento publicitario en la versión gratuita",
+          "Google Sign-In, Sign in with Apple: inicio de sesión",
+          "Apple App Store, Google Play: compras y verificación de suscripciones",
+          "Twilio SendGrid: entrega de los correos de invitación que envías"
+        ]
+      },
+      "ads": {
+        "title": "5. Publicidad",
+        "content": "La versión gratuita muestra anuncios de Google AdMob; Premium los elimina. AdMob puede recopilar el identificador publicitario de tu dispositivo, una ubicación aproximada basada en tu dirección IP y tus interacciones con los anuncios, y usarlos para personalizar y medir anuncios en apps y sitios web de otras empresas.",
+        "content2": "En iOS pedimos permiso mediante el aviso de Transparencia de Seguimiento de Apps de Apple; si lo rechazas, tu identificador publicitario no se usa para seguimiento. En el EEE, el Reino Unido y Suiza pedimos tu consentimiento antes de cargar anuncios, y puedes cambiar tu elección en cualquier momento en los Ajustes de ZuList. También puedes restablecer o limitar tu identificador publicitario en los ajustes del dispositivo."
+      },
+      "device": {
+        "title": "6. Cámara, fotos, notificaciones y datos en tu dispositivo",
+        "content": "ZuList usa la cámara y la fototeca solo cuando decides añadir una foto. Las fotos se suben al almacenamiento en la nube y son visibles para ti y los miembros de la lista. Las notificaciones solo se envían si las permites, y puedes silenciarlas en la app en cualquier momento.",
+        "content2": "ZuList guarda una copia de tus listas en tu dispositivo para que puedas comprar sin conexión, y comparte un breve resumen con el widget de la pantalla de inicio. Esta copia se elimina al borrar la app."
+      },
+      "retention": {
+        "title": "7. Conservación de datos y eliminación de la cuenta",
+        "content": "Conservamos tus datos mientras exista tu cuenta. Puedes eliminar tu cuenta en la app (Perfil → Eliminar cuenta) o en zukiapps.com/zulist/delete-account. Al eliminarla se borran tu perfil, tus fotos de perfil y las listas de las que eres el único miembro. Las listas compartidas de las que eres propietario pasan a otro miembro, y se te elimina de las listas compartidas contigo.",
+        "content2": "Los informes de fallos se conservan hasta 90 días. Los análisis de uso se conservan según la configuración de retención de Google Analytics."
+      },
+      "rights": {
+        "title": "8. Tus derechos",
+        "content": "Según dónde vivas (por ejemplo, conforme al RGPD o la CCPA), tienes derecho a acceder, rectificar, exportar o eliminar tu información personal, a oponerte a su tratamiento o limitarlo y a retirar tu consentimiento. Para hacer una solicitud, contáctanos con los datos de abajo. Respondemos en un plazo de 30 días."
+      },
+      "children": {
+        "title": "9. Menores",
+        "content": "ZuList no está dirigida a menores de 13 años y no recopilamos a sabiendas su información personal. Si crees que un menor nos ha proporcionado información personal, contáctanos y la eliminaremos."
+      },
+      "security": {
+        "title": "10. Seguridad",
+        "content": "Los datos se cifran en tránsito y el acceso a las listas se controla mediante reglas de seguridad en el servidor. Ningún método de almacenamiento o transmisión es completamente seguro."
+      },
+      "changes": {
+        "title": "11. Cambios en esta política",
+        "content": "Cuando actualicemos esta política, cambiaremos la fecha en la parte superior de esta página. Si los cambios son importantes, también te avisaremos en la app."
+      },
+      "contact": {
+        "title": "12. Contacto",
+        "content": "Si tienes preguntas sobre esta política o tus datos, escríbenos a:"
+      }
     },
     "terms": {
       "title": "Términos de Uso",

@@ -236,61 +236,87 @@
     },
     "privacy": {
       "title": "Politique de confidentialité",
-      "lastUpdated": "Dernière mise à jour : janvier 2025",
-      "section1": {
+      "metaDescription": "ZuList politique de confidentialité — comment nous traitons vos données sur iOS et Android.",
+      "lastUpdatedOn": "Dernière mise à jour : 27 octobre 2026",
+      "intro": "Cette politique explique quelles données ZuList pour iOS et Android collecte, pourquoi, qui les traite et quels choix s'offrent à vous. ZuList est publiée par Zuki Apps.",
+      "collect": {
         "title": "1. Informations que nous collectons",
-        "content": "Nous collectons les informations que vous nous fournissez directement, par exemple lorsque vous créez un compte, utilisez nos services ou nous contactez pour obtenir de l'aide."
+        "content": "Selon votre utilisation de ZuList, nous collectons :",
+        "items": [
+          "Informations de compte : votre nom, votre adresse e-mail, votre photo de profil et un identifiant utilisateur lorsque vous vous connectez avec Google, Apple ou par e-mail. Vous pouvez aussi utiliser ZuList en tant qu'invité ; les listes invité restent sur votre appareil.",
+          "Votre contenu : listes, catégories, articles, notes, échéances et photos que vous joignez aux articles.",
+          "Membres des listes : les personnes avec qui vous partagez une liste, leur rôle et les détails de l'invitation, y compris l'adresse e-mail de la personne invitée.",
+          "Informations d'achat : votre abonnement Premium, son statut et le reçu ou jeton d'achat d'Apple ou de Google. Nous ne recevons jamais vos données de carte ou de paiement.",
+          "Informations sur l'appareil : un jeton de notifications push, le modèle de l'appareil, le système d'exploitation, la version de l'app et la langue.",
+          "Données d'utilisation : la façon dont les fonctionnalités sont utilisées, comme les listes créées ou les articles cochés, associée à votre identifiant utilisateur.",
+          "Diagnostics : rapports de plantage et informations de performance de l'app, non associés à votre identité.",
+          "Données publicitaires dans la version gratuite : voir la section 5."
+        ]
       },
-      "section2": {
-        "title": "2. Comment nous utilisons vos informations",
-        "content": "Nous utilisons les informations que nous collectons pour fournir, maintenir et améliorer nos services, traiter les transactions et communiquer avec vous."
-      },
-      "section3": {
-        "title": "3. Partage d'informations",
-        "content": "Nous ne vendons, n'échangeons ni ne transférons vos informations personnelles à des tiers sans votre consentement, sauf tel que décrit dans cette politique."
-      },
-      "section4": {
-        "title": "4. Sécurité des données",
-        "content": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles contre l'accès non autorisé, l'altération, la divulgation ou la destruction."
-      },
-      "section5": {
-        "title": "5. Vos droits",
-        "content": "Vous avez le droit d'accéder, de mettre à jour ou de supprimer vos informations personnelles. Vous pouvez également vous désinscrire de certaines communications de notre part."
-      },
-      "section6": {
-        "title": "6. Accès à la caméra et à la bibliothèque de photos",
-        "content": "ZuList nécessite l'accès à la caméra et à la bibliothèque de photos de votre appareil pour vous permettre de prendre et de télécharger des photos d'articles de liste de courses. Nous n'accédons à ces fonctionnalités que lorsque vous choisissez explicitement d'ajouter une photo à une liste ou à un article. Les photos sont stockées en toute sécurité dans notre stockage cloud et ne sont accessibles qu'à vous et aux utilisateurs avec lesquels vous partagez vos listes."
-      },
-      "section7": {
-        "title": "7. Rapports de plantage et analyse d'erreurs",
-        "content": "Nous utilisons Firebase Crashlytics, un service fourni par Google, pour collecter des informations sur les plantages et les erreurs de l'application. Cela nous aide à identifier et à corriger les problèmes pour améliorer votre expérience.",
-        "dataCollected": "Données collectées :",
-        "dataCollectedItems": [
-          "Informations techniques sur les plantages et les erreurs (traces de pile, messages d'erreur)",
-          "Informations sur l'appareil (système d'exploitation, modèle d'appareil, version de l'application)",
-          "ID d'installation (un identifiant unique pour l'installation de votre application, non lié à votre identité personnelle)",
-          "Informations de diagnostic personnalisées liées aux erreurs (codes d'erreur, types d'opérations)"
+      "use": {
+        "title": "2. Utilisation de vos informations",
+        "content": "Nous utilisons vos informations pour :",
+        "items": [
+          "Fournir ZuList : vous connecter, enregistrer vos listes et les synchroniser entre vos appareils et avec les personnes avec qui vous les partagez.",
+          "Envoyer les notifications que vous autorisez, comme les modifications de listes, les rappels et les invitations.",
+          "Envoyer les e-mails d'invitation que vous demandez à ZuList d'envoyer.",
+          "Vérifier les achats et débloquer Premium.",
+          "Détecter et corriger les plantages et améliorer l'app.",
+          "Afficher des publicités dans la version gratuite."
         ],
-        "purpose": "Objectif :",
-        "purposeItems": [
-          "Identifier et corriger les bugs et les plantages",
-          "Améliorer la stabilité et les performances de l'application",
-          "Analyser les modèles d'erreurs"
-        ],
-        "dataSharing": "Partage de données :",
-        "dataSharingContent": "Ces données sont traitées par Google Firebase et sont soumises à la politique de confidentialité de Google.",
-        "dataRetention": "Conservation des données :",
-        "dataRetentionContent": "Les rapports de plantage sont conservés par Firebase pendant jusqu'à 90 jours, puis supprimés automatiquement.",
-        "yourRights": "Vos droits :",
-        "yourRightsContent": "Vous pouvez vous désinscrire du rapport de plantage en le désactivant dans les paramètres de votre appareil, bien que cela puisse nous empêcher de corriger les problèmes qui vous affectent."
+        "content2": "Nous ne vendons pas vos informations personnelles."
       },
-      "section8": {
-        "title": "8. Contactez-nous",
-        "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :",
-        "email": "zuki.apps@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAËL"
+      "sharing": {
+        "title": "3. Qui peut voir vos listes",
+        "content": "Une liste que vous partagez est visible par ses membres. Les membres d'une liste partagée voient le nom, l'adresse e-mail et la photo de profil des autres, ainsi que les articles et photos de la liste.",
+        "content2": "Lorsque vous quittez une liste, ou que son propriétaire vous retire, vous n'y avez plus accès."
       },
-      "metaDescription": "ZuList politique de confidentialité — comment nous traitons vos données sur iOS et Android."
+      "providers": {
+        "title": "4. Prestataires",
+        "content": "Nous faisons appel à ces prestataires pour faire fonctionner ZuList. Ils traitent les données pour notre compte selon leurs propres politiques de confidentialité, par exemple policies.google.com/privacy.",
+        "items": [
+          "Google Firebase (Authentication, Cloud Firestore, Realtime Database, Cloud Storage, Cloud Functions, Cloud Messaging, Analytics, Crashlytics): comptes, stockage et synchronisation, notifications, analyse d'utilisation et rapports de plantage",
+          "Google AdMob, Google User Messaging Platform: publicités et consentement publicitaire dans la version gratuite",
+          "Google Sign-In, Sign in with Apple: connexion",
+          "Apple App Store, Google Play: achats et vérification des abonnements",
+          "Twilio SendGrid: envoi des e-mails d'invitation que vous envoyez"
+        ]
+      },
+      "ads": {
+        "title": "5. Publicité",
+        "content": "La version gratuite affiche des publicités Google AdMob ; Premium les supprime. AdMob peut collecter l'identifiant publicitaire de votre appareil, une localisation approximative basée sur votre adresse IP et vos interactions avec les publicités, et les utiliser pour personnaliser et mesurer les publicités dans des apps et sites web appartenant à d'autres entreprises.",
+        "content2": "Sur iOS, nous demandons votre autorisation via l'invite App Tracking Transparency d'Apple ; si vous refusez, votre identifiant publicitaire n'est pas utilisé pour le suivi. Dans l'EEE, au Royaume-Uni et en Suisse, nous demandons votre consentement avant le chargement des publicités, et vous pouvez modifier ce choix à tout moment dans les Réglages de ZuList. Vous pouvez aussi réinitialiser ou limiter votre identifiant publicitaire dans les réglages de l'appareil."
+      },
+      "device": {
+        "title": "6. Appareil photo, photos, notifications et données sur votre appareil",
+        "content": "ZuList utilise l'appareil photo et la photothèque uniquement lorsque vous choisissez d'ajouter une photo. Les photos sont envoyées vers un stockage cloud et sont visibles par vous et les membres de la liste. Les notifications ne sont envoyées que si vous les autorisez, et vous pouvez les couper dans l'app à tout moment.",
+        "content2": "ZuList conserve une copie de vos listes sur votre appareil pour vous permettre de faire vos courses hors connexion, et partage un court résumé avec le widget de l'écran d'accueil. Cette copie est supprimée lorsque vous supprimez l'app."
+      },
+      "retention": {
+        "title": "7. Conservation des données et suppression du compte",
+        "content": "Nous conservons vos données tant que votre compte existe. Vous pouvez supprimer votre compte dans l'app (Profil → Supprimer le compte) ou sur zukiapps.com/zulist/delete-account. La suppression efface votre profil, vos photos de profil et les listes dont vous êtes le seul membre. Les listes partagées dont vous êtes propriétaire sont transférées à un autre membre, et vous êtes retiré des listes partagées avec vous.",
+        "content2": "Les rapports de plantage sont conservés jusqu'à 90 jours. Les analyses d'utilisation sont conservées selon les paramètres de conservation de Google Analytics."
+      },
+      "rights": {
+        "title": "8. Vos droits",
+        "content": "Selon votre lieu de résidence (par exemple en vertu du RGPD ou du CCPA), vous avez le droit d'accéder à vos informations personnelles, de les rectifier, de les exporter ou de les supprimer, de vous opposer à leur traitement ou de le limiter, et de retirer votre consentement. Pour faire une demande, contactez-nous avec les coordonnées ci-dessous. Nous répondons sous 30 jours."
+      },
+      "children": {
+        "title": "9. Enfants",
+        "content": "ZuList ne s'adresse pas aux enfants de moins de 13 ans et nous ne collectons pas sciemment leurs informations personnelles. Si vous pensez qu'un enfant nous a communiqué des informations personnelles, contactez-nous et nous les supprimerons."
+      },
+      "security": {
+        "title": "10. Sécurité",
+        "content": "Les données sont chiffrées en transit et l'accès aux listes est contrôlé par des règles de sécurité côté serveur. Aucune méthode de stockage ou de transmission n'est totalement sûre."
+      },
+      "changes": {
+        "title": "11. Modifications de cette politique",
+        "content": "Lorsque nous mettons à jour cette politique, nous modifions la date en haut de cette page. En cas de changement important, nous vous en informons aussi dans l'app."
+      },
+      "contact": {
+        "title": "12. Nous contacter",
+        "content": "Pour toute question sur cette politique ou vos données, contactez-nous :"
+      }
     },
     "terms": {
       "title": "Conditions d'utilisation",
