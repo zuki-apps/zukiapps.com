@@ -73,7 +73,7 @@ export const PHOTO_STAMP_PILOT = true;
 export const PHOTO_STAMP_PUBLISHED = true;
 export const PHOTO_STAMP_APP_PATH = '/photo-stamp' as const;
 
-/** Blockiva – Block Puzzle — on home when published. iOS live; Play coming soon. */
+/** Blockiva – Block Puzzle — on home when published. Live on App Store and Google Play. */
 export const BLOCKIVA_UNDER_CONSTRUCTION = false;
 export const BLOCKIVA_PILOT = true;
 export const BLOCKIVA_PUBLISHED = true;

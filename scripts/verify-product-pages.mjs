@@ -21,7 +21,7 @@ const UNPUBLISHED = new Set([
   'trickyrooms',
 ]);
 
-const IOS_ONLY = new Set(['blockiva']);
+const IOS_ONLY = new Set([]);
 const ANDROID_ONLY = new Set(['roamguard', 'contacts-toolbox']);
 
 function fail(msg) {

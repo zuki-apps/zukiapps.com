@@ -72,7 +72,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/blockiva',
     name: 'Blockiva – Block Puzzle',
     description:
-      'Place. Clear. Survive the rule. Five rotating rules, four difficulties. Free on the App Store (id6813509536). Google Play coming soon. com.zuki.apps.blockiva.',
+      'Place. Clear. Survive the rule. Five rotating rules, four difficulties. Free on the App Store (id6813509536) and Google Play. com.zuki.apps.blockiva.',
   },
   {
     path: '/photo-stamp',
