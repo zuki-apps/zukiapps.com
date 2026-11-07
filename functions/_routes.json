@@ -1,9 +1,13 @@
 {
   "version": 1,
-  "description": "ZuList invite + ToldYa deep links",
+  "description": "ZuList invite + ToldYa + Questivo deep links",
   "include": [
     "/zulist/invite/*",
     "/*/zulist/invite/*",
+    "/questivo/join",
+    "/questivo/join/*",
+    "/*/questivo/join",
+    "/*/questivo/join/*",
     "/join",
     "/join/*",
     "/arena/*",
