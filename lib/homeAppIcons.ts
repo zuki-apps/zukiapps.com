@@ -26,4 +26,5 @@ export const HOME_APP_ICON_WEBP: Record<HomeAppId, string> = {
   'photo-stamp': `/images/photo-stamp-icon.webp?v=${v}`,
   'contacts-toolbox': `/images/contacts-toolbox-icon.webp?v=${v}`,
   'coloring-my-photo': `/images/coloring-my-photo-icon.webp?v=${v}`,
+  'ztl-guard': `/images/ztl-guard-icon.webp?v=${v}`,
 };

@@ -185,7 +185,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'blockiva-howto-ld',
     accent: 'amber',
     hasSupportPage: true,
-    operatingSystem: 'iOS',
+    operatingSystem: 'iOS,Android',
   },
   eventtick: {
     slug: 'eventtick',
@@ -218,7 +218,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'ztl-guard-howto-ld',
     accent: 'orange',
     hasSupportPage: true,
-    operatingSystem: 'iOS,Android',
+    operatingSystem: 'Android',
   },
   'contacts-toolbox': {
     slug: 'contacts-toolbox',
@@ -229,7 +229,7 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     howToId: 'contacts-toolbox-howto-ld',
     accent: 'violet',
     hasSupportPage: true,
-    operatingSystem: 'Android',
+    operatingSystem: 'iOS,Android',
   },
   trickyrooms: {
     slug: 'trickyrooms',

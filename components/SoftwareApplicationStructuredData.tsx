@@ -73,6 +73,7 @@ export default function SoftwareApplicationStructuredData({
     '/questivo': '/images/questivo-icon.png?v=1',
     '/coloring-my-photo': '/images/coloring-my-photo-icon.png?v=1',
     '/contacts-toolbox': '/images/contacts-toolbox-icon.png?v=1',
+    '/ztl-guard': '/images/ztl-guard-icon.png?v=1',
   };
 
   const appUrl = locale === routing.defaultLocale && routing.localePrefix === 'as-needed'

@@ -84,7 +84,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/contacts-toolbox',
     name: 'Contacts Toolbox',
     description:
-      'Contacts organizer: duplicates, preview merges, bulk edit, CSV export. Free on Google Play. App Store coming soon. com.zuki.apps.contactstoolbox.',
+      'Contacts organizer: duplicates, preview merges, bulk edit, CSV export. Free on the App Store (id6813645876) and Google Play. com.zuki.apps.contactstoolbox.',
   },
   {
     path: '/coloring-my-photo',
@@ -92,16 +92,17 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     description:
       'Turn photos into color-by-number pages on your device. Free on the App Store (id6789850054) and Google Play. com.zuki.apps.coloringmyphoto.',
   },
+  {
+    path: '/ztl-guard',
+    name: 'ZTLGuard',
+    description:
+      'Italy ZTL alerts with on-device location. Free on Google Play. App Store coming soon. com.zuki.apps.ztlguard.',
+  },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
 ];
 
 /** Unpublished / under-construction titles — About portfolio only, not home or JSON-LD ItemList. */
 export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
-  {
-    path: '/ztl-guard',
-    name: 'ZTLGuard',
-    description: 'Italy ZTL Alerts. Coming soon. com.zuki.apps.ztlguard.',
-  },
   {
     path: '/trickyrooms',
     name: 'Tricky Rooms',

@@ -8,6 +8,7 @@ import {
   TALLY_NUDGE_PUBLISHED,
   TIMESINCE_PUBLISHED,
   TOLDYA_PUBLISHED,
+  ZTL_GUARD_PUBLISHED,
   ZULI_COLLAGE_PUBLISHED,
 } from '@/lib/appPublishState';
 
@@ -38,6 +39,7 @@ export const HOME_APP_IDS = [
   'photo-stamp',
   'contacts-toolbox',
   'coloring-my-photo',
+  'ztl-guard',
 ] as const;
 
 export type HomeAppId = (typeof HOME_APP_IDS)[number];
@@ -54,6 +56,7 @@ const HOME_PUBLISH_REQUIRED: Partial<Record<HomeAppId, boolean>> = {
   'photo-stamp': PHOTO_STAMP_PUBLISHED,
   'contacts-toolbox': CONTACTS_TOOLBOX_PUBLISHED,
   'coloring-my-photo': COLORING_MY_PHOTO_PUBLISHED,
+  'ztl-guard': ZTL_GUARD_PUBLISHED,
 };
 
 /** Home-visible apps (respects publish flags). */

@@ -16,13 +16,12 @@ const SKIP_SLUGS = new Set(['dreambit-legacy']);
 
 const UNPUBLISHED = new Set([
   'questivo',
-  'ztl-guard',
   'roamguard',
   'trickyrooms',
 ]);
 
 const IOS_ONLY = new Set([]);
-const ANDROID_ONLY = new Set(['roamguard', 'contacts-toolbox']);
+const ANDROID_ONLY = new Set(['roamguard', 'ztl-guard']);
 
 function fail(msg) {
   console.error(`product-pages: FAIL — ${msg}`);

@@ -12,3 +12,4 @@ export const PHOTO_STAMP_ICON = '/images/photo-stamp-icon.webp?v=2' as const;
 export const EVENTTICK_ICON = '/images/eventtick-icon.png?v=1' as const;
 export const TALLY_NUDGE_ICON = '/images/tally-nudge-icon.png?v=1' as const;
 export const BLOCKIVA_ICON = '/images/blockiva-icon.png?v=1' as const;
+export const ZTL_GUARD_ICON = '/images/ztl-guard-icon.webp?v=1' as const;

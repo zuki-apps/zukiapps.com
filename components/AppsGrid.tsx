@@ -27,6 +27,7 @@ const TITLE_KEY: Record<HomeAppId, string> = {
   'photo-stamp': 'photoStamp.title',
   'contacts-toolbox': 'contactsToolbox.title',
   'coloring-my-photo': 'coloringMyPhoto.title',
+  'ztl-guard': 'ztlGuard.title',
 };
 
 const EDGE_TO_EDGE = new Set<HomeAppId>([
@@ -41,6 +42,7 @@ const EDGE_TO_EDGE = new Set<HomeAppId>([
   'photo-stamp',
   'contacts-toolbox',
   'coloring-my-photo',
+  'ztl-guard',
 ]);
 
 export default async function AppsGrid({ locale }: { locale: string }) {

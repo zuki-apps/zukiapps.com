@@ -59,6 +59,7 @@ export default function ZTLGuardPage() {
               appStoreAlt={t('download.appStoreAlt')}
               googlePlayAlt={t('download.googlePlayAlt')}
               googlePlaySoonLabel={t('download.googlePlaySoon')}
+              appStoreSoonLabel={t('download.soon')}
               fallbackBorderClass="border-orange-600/30"
               utmContent="ztl-guard"
             />
@@ -115,6 +116,7 @@ export default function ZTLGuardPage() {
             appStoreAlt={t('download.appStoreAlt')}
             googlePlayAlt={t('download.googlePlayAlt')}
             googlePlaySoonLabel={t('download.googlePlaySoon')}
+            appStoreSoonLabel={t('download.soon')}
             fallbackBorderClass="border-orange-600/30"
             utmContent="ztl-guard"
           />

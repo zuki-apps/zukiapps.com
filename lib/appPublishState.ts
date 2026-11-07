@@ -91,10 +91,10 @@ export const TALLY_NUDGE_PILOT = true;
 export const TALLY_NUDGE_PUBLISHED = true;
 export const TALLY_NUDGE_APP_PATH = '/tally-nudge' as const;
 
-/** ZTLGuard — hidden until published; legal pages for store compliance. */
-export const ZTL_GUARD_UNDER_CONSTRUCTION = true;
-export const ZTL_GUARD_PILOT = false;
-export const ZTL_GUARD_PUBLISHED = false;
+/** ZTLGuard — Android live; App Store coming soon. */
+export const ZTL_GUARD_UNDER_CONSTRUCTION = false;
+export const ZTL_GUARD_PILOT = true;
+export const ZTL_GUARD_PUBLISHED = true;
 export const ZTL_GUARD_APP_PATH = '/ztl-guard' as const;
 
 /** Tricky Rooms — hidden until published; legal pages for store compliance. */
@@ -103,8 +103,7 @@ export const TRICKYROOMS_PILOT = false;
 export const TRICKYROOMS_PUBLISHED = false;
 export const TRICKYROOMS_APP_PATH = '/trickyrooms' as const;
 
-/** Contacts Toolbox — hidden until published; legal pages for store compliance. */
-/** Contacts Toolbox — Android live; App Store coming soon. */
+/** Contacts Toolbox — dual-store live. */
 export const CONTACTS_TOOLBOX_UNDER_CONSTRUCTION = false;
 export const CONTACTS_TOOLBOX_PILOT = true;
 export const CONTACTS_TOOLBOX_PUBLISHED = true;

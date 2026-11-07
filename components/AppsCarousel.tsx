@@ -344,6 +344,19 @@ export default function AppsCarousel() {
       link: `/${locale}/coloring-my-photo`,
       isComingSoon: false,
     },
+    'ztl-guard': {
+      id: 'ztl-guard',
+      icon: <MapPinned className="w-16 h-16 text-orange-400" aria-hidden="true" />,
+      iconImage: HOME_APP_ICON_WEBP['ztl-guard'],
+      iconEdgeToEdge: true,
+      titleKey: 'ztlGuard.title',
+      subtitleKey: 'ztlGuard.subtitle',
+      descriptionKey: 'ztlGuard.description',
+      featuresKey: 'ztlGuard.features',
+      learnMoreKey: 'ztlGuard.learnMore',
+      link: `/${locale}/ztl-guard`,
+      isComingSoon: false,
+    },
     }),
     [locale]
   );

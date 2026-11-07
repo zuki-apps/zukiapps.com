@@ -31,6 +31,7 @@ const HOME_ICONS = [
   'images/photo-stamp-icon.png',
   'images/contacts-toolbox-icon.png',
   'images/coloring-my-photo-icon.png',
+  'images/ztl-guard-icon.png',
 ];
 
 const MONSTERS = ['images/monsters/zuli-01.png', 'images/monsters/zuli-04.png', 'images/monsters/zuli-15.png'];

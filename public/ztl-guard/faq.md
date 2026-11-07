@@ -4,16 +4,17 @@ App: ZTLGuard — Italy ZTL Alerts
 Developer: Zuki Apps  
 Package: com.zuki.apps.ztlguard  
 Version: 0.9.0  
-Platform: iOS & Android (store listings coming soon)  
+Platform: Android (Google Play); App Store coming soon  
 Premium: monthly auto-renewable subscription `ztlguard_premium`  
 Site: https://zukiapps.com/ztl-guard  
-Support: https://zukiapps.com/ztl-guard/support
+Support: https://zukiapps.com/ztl-guard/support  
+Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.ztlguard
 
 ---
 
 ## What is ZTLGuard?
 
-An Italy ZTL (limited-traffic zone) alert app for iOS and Android. Browse city zones on a map and measure distance to zone boundaries on-device. Package: com.zuki.apps.ztlguard.
+An Italy ZTL (limited-traffic zone) alert app for Android. Browse city zones on a map and measure distance to zone boundaries on-device. Free on Google Play. Package: com.zuki.apps.ztlguard. App Store coming soon.
 
 ## Does ZTLGuard upload my location?
 
@@ -33,7 +34,7 @@ No. ZTLGuard is an informational navigation aid. It does not grant permission or
 
 ## What is free vs Premium?
 
-Free includes the map, Rome and Florence, foreground alerts up to 500 m, and ads on non-driving screens. Premium is an optional monthly subscription (ztlguard_premium): all cities, voice alerts, offline data, 1–2 km lead, keep-awake Driving Mode, background alerts where the phone allows, and no ads. The warning itself is not paywalled. The store shows the price. Store listings are coming soon.
+Free includes the map, Rome and Florence, foreground alerts up to 500 m, and ads on non-driving screens. Premium is an optional monthly subscription (ztlguard_premium): all cities, voice alerts, offline data, 1–2 km lead, keep-awake Driving Mode, background alerts where the phone allows, and no ads. The warning itself is not paywalled. The store shows the price.
 
 ## Why isn't my city available?
 
