@@ -1,5 +1,7 @@
 # Source of truth for redirect rules: lib/legacySlugRedirects.js
 # Build overwrites out/_redirects via scripts/post-static-export.mjs
+# www → apex host rule is ignored by Cloudflare Pages; live 301 is the zone
+# Redirect Rule upserted by scripts/ensure-www-apex-redirect.mjs
 
 https://www.zukiapps.com/* https://zukiapps.com/:splat 301
 

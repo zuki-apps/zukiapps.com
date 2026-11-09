@@ -1,0 +1,40 @@
+name: Ensure www → apex redirect
+
+# Pages ignores absolute-host rules in _redirects. This upserts the zone Redirect Rule
+# without a full site deploy.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ensure-www-redirect
+  cancel-in-progress: true
+
+jobs:
+  redirect:
+    name: Upsert Cloudflare Redirect Rule
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Ensure www → apex Redirect Rule
+        run: node scripts/ensure-www-apex-redirect.mjs
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Verify live 301
+        run: |
+          set -euo pipefail
+          CODE=$(curl -sS -o /dev/null -w '%{http_code}' --max-redirs 0 \
+            'https://www.zukiapps.com/en/about' || true)
+          LOC=$(curl -sS -o /dev/null -w '%{redirect_url}' --max-redirs 0 \
+            'https://www.zukiapps.com/en/about' || true)
+          echo "status=${CODE} location=${LOC}"
+          test "${CODE}" = "301"
+          echo "${LOC}" | grep -q '^https://zukiapps.com/en/about'

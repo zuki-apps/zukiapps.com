@@ -61,14 +61,24 @@ wrangler secret put GOOGLE_CLOUD_PROJECT_ID
 
 ---
 
+## www → apex
+
+Cloudflare Pages **ignores** absolute-host lines in `_redirects` (e.g. `https://www.zukiapps.com/* …`).
+Live 301 is a zone **Redirect Rule** upserted by `npm run cf:www-redirect` (`scripts/ensure-www-apex-redirect.mjs`):
+
+`www.zukiapps.com/*` → `https://zukiapps.com/${1}` (301, query preserved)
+
+Token needs **Zone → Single Redirect → Edit** (plus Zone Read). Fast path: Actions → **Ensure www → apex redirect**.
+
 ## Checklist
 
 - [ ] GitHub: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
 - [ ] GitHub: `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-ZQS2LWYD18`
 - [ ] Cloudflare Worker: `FIREBASE_SERVICE_ACCOUNT_KEY` (secret)
 - [ ] Cloudflare Worker: `GOOGLE_CLOUD_PROJECT_ID` = `zulist-26`
+- [ ] Zone Redirect Rule: www → apex (`cf:www-redirect` / workflow above)
 - [ ] Run deploy: GitHub **Actions → Deploy Cloudflare**
-- [ ] Test: `https://zukiapps.com`, Zulist invite link
+- [ ] Test: `https://zukiapps.com`, Zulist invite link, `https://www.zukiapps.com/…` → apex 301
 
 ---
 
