@@ -212,6 +212,8 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Ensure www → apex Redirect Rule
+        # Optional: rule already exists in the dashboard; deploy token lacks Single Redirect Edit.
+        continue-on-error: true
         run: npm run cf:www-redirect
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
