@@ -4,7 +4,7 @@ Canonical page: https://zukiapps.com/power-interval-timer
 
 ## What is Power Interval Timer?
 
-A minimal interval timer for Tabata, HIIT, and custom work/rest rounds. It runs offline and focuses on clarity mid-workout.
+Power Interval Timer by Zuki Apps. A minimal interval timer for Tabata, HIIT, and custom work/rest rounds. It runs offline and focuses on clarity mid-workout.
 
 ## Do I need an account?
 

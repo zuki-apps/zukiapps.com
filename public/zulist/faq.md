@@ -4,7 +4,7 @@ Canonical page: https://zukiapps.com/zulist
 
 ## What is ZuList?
 
-A collaborative shopping list app. Create lists, share with others, and sync in real time on iOS and Android.
+ZuList by Zuki Apps. A collaborative shopping list app. Create lists, share with others, and sync in real time on iOS and Android.
 
 ## Is ZuList free?
 

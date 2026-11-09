@@ -8,7 +8,7 @@ No. Open the app and tap New Game. Game Center (iOS) or Google Play Games (Andro
 
 ## Is the app free?
 
-Yes. Sudoku Fun Go is free to download and play. Ads support development. You can remove ads with a one-time in-app purchase.
+Yes. Sudoku Fun Go by Zuki Apps is free to download and play. Ads support development. You can remove ads with a one-time in-app purchase.
 
 ## Which devices are supported?
 

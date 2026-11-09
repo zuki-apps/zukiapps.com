@@ -1,8 +1,8 @@
 {
   "dreambitLegacy": {
     "meta": {
-      "title": "Legacy mobile apps — DreamBit Apps",
-      "description": "Archive of classic mobile apps originally published under DreamBit Apps (2012–2016) for Android and iOS. Not maintained. This page links Google Play listings where they remain available."
+      "title": "DreamBit Apps legacy archive — older Android & iOS titles",
+      "description": "DreamBit Apps (2012–2016) legacy archive by Zuki Apps: historic Play listings, press notes, and UpdateStar Excellent for Whistle Camera - Legacy."
     },
     "nav": {
       "backHome": "Back to home",
@@ -13,9 +13,9 @@
       "badge": "Archive",
       "logoAlt": "DreamBit Applications legacy logo — 3D Dream and Bit wordmark with cyan D and grey B monogram on a dark reflective background",
       "title": "DreamBit Apps — legacy mobile apps",
-      "subtitle": "Original titles from the DreamBit Apps era (Android and iOS). Listed here for history and transparency; listings below are Google Play.",
+      "subtitle": "DreamBit Apps (2012–2016) published Android and iOS utilities and games. Zuki Apps hosts this courtesy archive so store listings, press coverage, and awards stay discoverable — these builds are not maintained.",
       "unmaintained": "These apps are not maintained. They may not run correctly on modern devices. Install and use at your own risk.",
-      "brandNote": "DreamBit Apps was the former publishing name for Android and iOS apps. Zuki Apps hosts this page as a courtesy archive; active Zuki Apps products are listed separately on the home page.",
+      "brandNote": "Zuki Apps is the current publisher for active products such as Hush Gallery, Whistle Camera, and ZuList. DreamBit Apps was the former publishing name for the same developer lineage. Use this page for historical context; download current apps from the zukiapps.com home page or the stores.",
       "pressHeading": "As featured in (2014)",
       "pressNote": "The original Android Whistle Camera was reviewed by The Next Web, Android Authority, and Geektime. Hush Gallery was Android Authority’s Indie App of the Day (1 Dec 2014). Those pieces describe the 2014 DreamBit Apps listings, not current Zuki Apps builds.",
       "awardHeading": "UpdateStar Excellent award",
@@ -25,7 +25,9 @@
       "awardLinkLabel": "View on UpdateStar",
       "awardLogoAlt": "UpdateStar Excellent award — five stars",
       "coverAlt": "Zuki Apps Facebook cover: silver Zuki and Apps wordmark flanking the blue ZA logo with paint splash, on a dark reflective background",
-      "coverCaption": "Same team, new brand — current Zuki Apps Facebook cover (DreamBit heritage)."
+      "coverCaption": "Same team, new brand — current Zuki Apps Facebook cover (DreamBit heritage).",
+      "seoTitle": "DreamBit Apps legacy archive | Zuki Apps",
+      "metaDescription": "DreamBit Apps (2012–2016) legacy archive by Zuki Apps: historic Play listings, press notes, and UpdateStar Excellent for Whistle Camera - Legacy."
     },
     "appsTitle": "Apps",
     "googlePlay": "Google Play",
@@ -119,6 +121,36 @@
       "s5t": "Contact",
       "s5b": "Questions:"
     },
-    "email": "zuki.apps.dev@gmail.com"
+    "email": "zuki.apps.dev@gmail.com",
+    "history": {
+      "title": "From DreamBit Apps to Zuki Apps",
+      "body": "DreamBit Apps shipped consumer Android and iOS apps between roughly 2012 and 2016, including early versions of Whistle Camera and Hush Gallery that received independent press coverage. The publisher later continued as Zuki Apps. This archive lists historic Google Play package IDs under the DreamBit name, notes that the apps are unmaintained, and links privacy and terms for transparency when those listings still appear in search or APK catalogs."
+    },
+    "currentApps": {
+      "title": "Current Zuki Apps products",
+      "body": "For maintained apps with support and store links, start on the Zuki Apps home page.",
+      "cta": "Browse current apps"
+    },
+    "faq": {
+      "title": "Legacy archive FAQ",
+      "items": [
+        {
+          "question": "Are DreamBit Apps still updated?",
+          "answer": "No. Titles on this archive page are historic and unmaintained. They may fail on modern OS versions. Prefer current Zuki Apps products when available."
+        },
+        {
+          "question": "Is Zuki Apps the same developer as DreamBit Apps?",
+          "answer": "Yes. DreamBit Apps was the earlier publishing name. Zuki Apps hosts this archive and publishes the current product lineup on zukiapps.com."
+        },
+        {
+          "question": "Where can I find the UpdateStar Excellent award?",
+          "answer": "Whistle Camera - Legacy earned UpdateStar’s Excellent award from verified installers (5/5). That applies to the legacy UpdateStar product page, not App Store or Google Play star ratings for the current Whistle Camera."
+        },
+        {
+          "question": "Do the Google Play links still work?",
+          "answer": "Where a listing remains on Google Play, the button opens that package ID. Some older listings may disappear from the store over time; this page still documents the historic package names."
+        }
+      ]
+    }
   }
 }

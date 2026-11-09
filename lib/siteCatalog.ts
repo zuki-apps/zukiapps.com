@@ -98,7 +98,7 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     description:
       'Italy ZTL alerts with on-device location. Free on Google Play. App Store coming soon. com.zuki.apps.ztlguard.',
   },
-  { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'Legacy DreamBit Apps listings and history.' },
+  { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'DreamBit Apps (2012–2016) archive stewarded by Zuki Apps — historic Play listings, press notes, UpdateStar Excellent for Whistle Camera - Legacy.' },
 ];
 
 /** Unpublished / under-construction titles — About portfolio only, not home or JSON-LD ItemList. */

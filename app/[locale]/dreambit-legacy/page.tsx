@@ -20,6 +20,7 @@ import BreadcrumbsStructuredData from '@/components/BreadcrumbsStructuredData';
 import DreambitArchiveStructuredData from '@/components/DreambitArchiveStructuredData';
 import PressMentions from '@/components/PressMentions';
 import UpdateStarAward from '@/components/UpdateStarAward';
+import { FaqStructuredData } from '@/components/FaqHowToStructuredData';
 import { HUSH_GALLERY_PRESS } from '@/lib/hushGalleryPress';
 import {
   UPDATESTAR_WHISTLE_CAMERA_LEGACY,
@@ -64,6 +65,10 @@ export default function DreambitLegacyPage() {
   const t = useTranslations('dreambitLegacy');
   const tCommon = useTranslations('common');
   const locale = useLocale();
+  const faqItems =
+    (t.has('faq.items')
+      ? (t.raw('faq.items') as { question: string; answer: string }[])
+      : []);
 
   return (
     <>
@@ -83,6 +88,9 @@ export default function DreambitLegacyPage() {
           googlePlayUrl: t(`playUrls.${key}`),
         }))}
       />
+      {faqItems.length > 0 ? (
+        <FaqStructuredData id="dreambit-legacy-faq-ld" items={faqItems} />
+      ) : null}
       <div className="min-h-screen relative overflow-hidden">
         <div className="fixed inset-0 z-0" aria-hidden="true">
           <div className="absolute inset-0 twilight-sky-overlay" />
@@ -161,6 +169,22 @@ export default function DreambitLegacyPage() {
               </figcaption>
             </figure>
           </header>
+
+          <section className="mb-12 max-w-3xl mx-auto text-start">
+            <h2 className="text-2xl font-extrabold text-white mb-4 text-center">
+              {t('history.title')}
+            </h2>
+            <p className="text-slate-300 leading-relaxed mb-6">{t('history.body')}</p>
+            <p className="text-slate-400 text-sm mb-3">{t('currentApps.body')}</p>
+            <p className="text-center">
+              <Link
+                href={`/${locale}`}
+                className="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-violet-600/90 hover:bg-violet-500 text-white text-sm font-semibold transition-colors"
+              >
+                {t('currentApps.cta')}
+              </Link>
+            </p>
+          </section>
 
           <p className="text-center text-slate-400 text-sm mb-6">{t('legalLinksIntro')}</p>
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -253,6 +277,30 @@ export default function DreambitLegacyPage() {
               );
             })}
           </ul>
+
+          {faqItems.length > 0 ? (
+            <section className="mt-14 max-w-3xl mx-auto" aria-labelledby="dreambit-legacy-faq">
+              <h2
+                id="dreambit-legacy-faq"
+                className="text-2xl font-extrabold text-white mb-6 text-center"
+              >
+                {t('faq.title')}
+              </h2>
+              <div className="space-y-3">
+                {faqItems.map((item) => (
+                  <details
+                    key={item.question}
+                    className="group rounded-xl border border-indigo-400/20 bg-indigo-950/40 px-4 py-3"
+                  >
+                    <summary className="cursor-pointer list-none font-semibold text-white marker:content-none">
+                      {item.question}
+                    </summary>
+                    <p className="mt-2 text-slate-300 leading-relaxed text-sm">{item.answer}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          ) : null}
         </div>
       </div>
     </>

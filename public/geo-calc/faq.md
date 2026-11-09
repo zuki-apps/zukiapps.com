@@ -2,7 +2,7 @@
 
 > Canonical page: https://zukiapps.com/geo-calc/support  
 > Product page: https://zukiapps.com/geo-calc  
-> App: iOS App Store + Android Google Play · Package `com.zuki.apps.geocalc` · Support: zuki.apps@gmail.com
+> Publisher: Zuki Apps · App: iOS App Store + Android Google Play · Package `com.zuki.apps.geocalc` · Support: zuki.apps@gmail.com
 
 > App icon: https://zukiapps.com/images/geo-calc-icon.png
 

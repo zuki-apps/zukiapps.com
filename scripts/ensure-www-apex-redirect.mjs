@@ -145,5 +145,15 @@ async function main() {
 main().catch((err) => {
   console.error(err.message);
   if (err.json?.errors) console.error(JSON.stringify(err.json.errors, null, 2));
+  if (/Authentication error|10000/i.test(err.message + JSON.stringify(err.json?.errors ?? []))) {
+    console.error(
+      '\nToken needs Zone → Single Redirect → Edit (and Zone → Zone → Read).\n' +
+        'Update GitHub secret CLOUDFLARE_API_TOKEN, then re-run workflow "Ensure www → apex redirect".\n' +
+        'Or create manually: https://dash.cloudflare.com/?to=/:account/zukiapps.com/rules/redirect-rules\n' +
+        `  Request URL: ${REQUEST_PATTERN}\n` +
+        `  Target URL:  ${TARGET_PATTERN}\n` +
+        '  Status: 301 · Preserve query string: on'
+    );
+  }
   process.exit(1);
 });

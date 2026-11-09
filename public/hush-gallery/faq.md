@@ -8,7 +8,7 @@
 
 ## What is Hush Gallery?
 
-Private photo and video gallery. Media stored in app-private storage, organized with tags, optional Premium App Lock (PIN/biometric), optional cloud backup (iCloud / Google Drive).
+Hush Gallery by Zuki Apps. Private photo and video gallery. Media stored in app-private storage, organized with tags, optional Premium App Lock (PIN/biometric), optional cloud backup (iCloud / Google Drive).
 
 ## Has Hush Gallery been covered in the press?
 

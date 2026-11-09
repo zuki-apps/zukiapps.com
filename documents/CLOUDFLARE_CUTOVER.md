@@ -68,7 +68,11 @@ Live 301 is a zone **Redirect Rule** upserted by `npm run cf:www-redirect` (`scr
 
 `www.zukiapps.com/*` → `https://zukiapps.com/${1}` (301, query preserved)
 
-Token needs **Zone → Single Redirect → Edit** (plus Zone Read). Fast path: Actions → **Ensure www → apex redirect**.
+Token needs **Zone → Single Redirect → Edit** (plus Zone Read). The Pages-only deploy token is not enough — extend `CLOUDFLARE_API_TOKEN` or create the rule in the dashboard:
+
+**Rules → Redirect Rules** → wildcard `https://www.zukiapps.com/*` → `https://zukiapps.com/${1}` · **301** · preserve query string.
+
+Fast path after token update: Actions → **Ensure www → apex redirect**.
 
 ## Checklist
 

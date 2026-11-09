@@ -76,17 +76,44 @@ export function getDefaultSitemapLastModified(): Date {
   return isNaN(d.getTime()) ? new Date() : d;
 }
 
-/** Last commit date touching `repoRelativePath`, or null if unavailable */
+const gitDateCache = new Map<string, Date | null>();
+
+/** Last commit date touching `repoRelativePath`, or null if unavailable (cached per build). */
 export function getGitLastModifiedForFile(repoRelativePath: string): Date | null {
   if (process.env.SITEMAP_USE_GIT !== 'true') return null;
+  if (gitDateCache.has(repoRelativePath)) return gitDateCache.get(repoRelativePath) ?? null;
+  const d = readGitLastModified(repoRelativePath);
+  gitDateCache.set(repoRelativePath, d);
+  return d;
+}
+
+function readGitLastModified(repoRelativePath: string): Date | null {
   const out = spawnSync(
     'git',
     ['log', '-1', '--format=%cI', '--', repoRelativePath],
     { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }
   );
   if (out.error || out.status !== 0) return null;
-  const d = new Date(out.stdout.trim());
+  const line = out.stdout.trim();
+  if (!line) return null;
+  const d = new Date(line);
   return isNaN(d.getTime()) ? null : d;
+}
+
+/**
+ * Files that typically drive content for a public route (page + English messages).
+ * Using the latest git date among them so copy-only updates bump lastmod.
+ */
+export function contentSourceFilesForRoute(routePath: string): string[] {
+  const page = routePathToSourceFile(routePath);
+  const files = [page];
+  const slug = routePath.replace(/^\//, '').split('/')[0];
+  if (slug) {
+    files.push(`messages/apps/${slug}/en.json`);
+  } else {
+    files.push('messages/shared/en.json');
+  }
+  return files;
 }
 
 export function resolveRouteLastModified(
@@ -94,9 +121,15 @@ export function resolveRouteLastModified(
   fallback: Date
 ): Date {
   if (route.lastModified) return route.lastModified;
-  const file = route.sourceFile ?? routePathToSourceFile(route.path);
-  const fromGit = getGitLastModifiedForFile(file);
-  return fromGit ?? fallback;
+  const files = route.sourceFile
+    ? [route.sourceFile]
+    : contentSourceFilesForRoute(route.path);
+  let latest: Date | null = null;
+  for (const file of files) {
+    const fromGit = getGitLastModifiedForFile(file);
+    if (fromGit && (!latest || fromGit > latest)) latest = fromGit;
+  }
+  return latest ?? fallback;
 }
 
 /** Build hreflang map; every locale and x-default are valid absolute URLs */

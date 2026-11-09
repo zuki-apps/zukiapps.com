@@ -104,6 +104,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          # Full history so SITEMAP_USE_GIT can resolve per-URL lastmod (shallow = all tip dates).
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

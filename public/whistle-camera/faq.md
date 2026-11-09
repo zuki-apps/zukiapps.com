@@ -7,7 +7,7 @@
 
 ## What is Whistle Camera?
 
-Hands-free camera app for iOS and Android. Whistle to take a photo or (with Pro) start and stop video. Practice mode calibrates detection to your whistle. Works offline for core capture.
+Whistle Camera by Zuki Apps. Hands-free camera app for iOS and Android. Whistle to take a photo or (with Pro) start and stop video. Practice mode calibrates detection to your whistle. Works offline for core capture.
 
 ## How do I take hands-free selfies?
 
