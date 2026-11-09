@@ -106,4 +106,21 @@ for (const slug of UNPUBLISHED) {
   assert(flags.includes(`${flag}_PUBLISHED = false`), `${flag}_PUBLISHED must be false`);
 }
 
+// lib/appLocales.ts must list every app folder with partial locale coverage (canonical/hreflang/sitemap).
+const appLocalesSrc = readFileSync(join(ROOT, 'lib/appLocales.ts'), 'utf8');
+const ALL_LOCALES = readdirSync(join(ROOT, 'messages/shared')).filter((f) => f.endsWith('.json')).length;
+for (const slug of readdirSync(join(ROOT, 'messages/apps'))) {
+  const locales = readdirSync(join(ROOT, 'messages/apps', slug))
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => f.replace(/\.json$/, ''))
+    .sort();
+  if (locales.length >= ALL_LOCALES) continue;
+  const m = appLocalesSrc.match(new RegExp(`'/${slug}': \\[([^\\]]*)\\]`));
+  const listed = m ? [...m[1].matchAll(/'(\w+)'/g)].map((x) => x[1]).sort() : null;
+  assert(
+    listed && listed.join(',') === locales.join(','),
+    `lib/appLocales.ts: '/${slug}' must be [${locales.join(', ')}] (messages/apps/${slug})`
+  );
+}
+
 console.log(`product-pages: OK (${slugs.length} apps, ${UNPUBLISHED.size} unpublished)`);

@@ -559,7 +559,7 @@ export default function ProductMarketingSections({
                 <details key={i} className={`bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl border ${a.faqBorder} group`}>
                   <summary className="cursor-pointer p-5 min-h-[44px] font-semibold text-white list-none flex justify-between items-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40 rounded-xl">
                     {item.question}
-                    <span className={`${a.faqToggle} ml-2 group-open:rotate-45 transition-transform`}>+</span>
+                    <span className={`${a.faqToggle} ms-2 group-open:rotate-45 transition-transform`}>+</span>
                   </summary>
                   <p className="px-5 pb-5 text-gray-300 text-sm leading-relaxed">{item.answer}</p>
                 </details>

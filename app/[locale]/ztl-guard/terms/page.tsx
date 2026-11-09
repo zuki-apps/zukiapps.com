@@ -79,7 +79,7 @@ export default async function GeoCalcTermsPage({
 
           <div className="bg-orange-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-orange-600">
-              <h1 className="text-4xl font-bold text-orange-800">{brandName}</h1>
+              <p className="text-4xl font-bold text-orange-800">{brandName}</p>
               <Link
                 href={`/${locale}/ztl-guard`}
                 className="px-4 py-2 border-2 border-orange-600 bg-white text-orange-800 rounded-lg hover:bg-orange-600 hover:text-white transition-colors text-sm"

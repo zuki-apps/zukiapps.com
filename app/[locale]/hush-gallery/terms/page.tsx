@@ -73,7 +73,7 @@ export default async function HushGalleryTermsPage({
 
           <div className="bg-purple-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-purple-600">
-              <h1 className="text-4xl font-bold text-purple-600">Hush Gallery</h1>
+              <p className="text-4xl font-bold text-purple-600">Hush Gallery</p>
               <div className="flex gap-2">
                 <Link
                   href={`/${locale}/hush-gallery`}

@@ -47,7 +47,7 @@ export default async function FootballTriviaTermsPage({ params }: { params: Prom
           </div>
           <div className="bg-slate-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-blue-700">
-              <h1 className="text-4xl font-bold text-blue-700">{tApp('hero.title')}</h1>
+              <p className="text-4xl font-bold text-blue-700">{tApp('hero.title')}</p>
               <Link href={`/${locale}/football-trivia`} className="px-4 py-2 border-2 border-blue-700 bg-white text-blue-700 rounded-lg hover:bg-blue-700 hover:text-white transition-colors text-sm">
                 {tCommon('back')}
               </Link>

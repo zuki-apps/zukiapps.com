@@ -82,7 +82,7 @@ export default async function ZuliCollagePrivacyPage({
 
           <div className="bg-rose-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-rose-600">
-              <h1 className="text-4xl font-bold text-rose-700">{brandName}</h1>
+              <p className="text-4xl font-bold text-rose-700">{brandName}</p>
               <Link
                 href={`/${locale}/zuli-collage`}
                 className="px-4 py-2 border-2 border-rose-600 bg-white text-rose-700 rounded-lg hover:bg-rose-600 hover:text-white transition-colors text-sm"

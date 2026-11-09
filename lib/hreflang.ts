@@ -1,4 +1,5 @@
 import { routing } from '@/routing';
+import { getPathLocales } from '@/lib/appLocales';
 
 /** Open Graph `og:locale` (language_TERRITORY) per locale code */
 const OG_LOCALE: Record<string, string> = {
@@ -36,10 +37,13 @@ export function buildCanonical(locale: string, pathname: string): string {
       : pathname.startsWith('/')
         ? pathname
         : `/${pathname}`;
-  if (locale === routing.defaultLocale && routing.localePrefix === 'as-needed') {
+  const effectiveLocale = getPathLocales(path, routing.locales).includes(locale as never)
+    ? locale
+    : routing.defaultLocale;
+  if (effectiveLocale === routing.defaultLocale && routing.localePrefix === 'as-needed') {
     return `${baseUrl}${path}`;
   }
-  return `${baseUrl}/${locale}${path}`;
+  return `${baseUrl}/${effectiveLocale}${path}`;
 }
 
 /** All locale hreflang URLs + x-default (default locale / unprefixed English URL) */
@@ -53,7 +57,7 @@ export function buildLanguageAlternates(pathname: string): Record<string, string
         : `/${pathname}`;
   const defaultLocaleUrl = `${baseUrl}${path}`;
   const languages = Object.fromEntries(
-    routing.locales.map((loc) => [
+    getPathLocales(path, routing.locales).map((loc) => [
       loc,
       loc === routing.defaultLocale && routing.localePrefix === 'as-needed'
         ? defaultLocaleUrl

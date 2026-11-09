@@ -9,6 +9,7 @@ import {
   resolveRouteLastModified,
   buildLanguageAlternateMap,
 } from '@/lib/sitemap-build';
+import { getPathLocales } from '@/lib/appLocales';
 
 /**
  * Static routes for sitemap generation.
@@ -138,7 +139,6 @@ const routes: SitemapRouteMeta[] = [
       ]
     : ROAMGUARD_UNDER_CONSTRUCTION
       ? [
-          { path: '/roamguard', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/roamguard/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/roamguard/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/roamguard/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
@@ -154,7 +154,6 @@ const routes: SitemapRouteMeta[] = [
       ]
     : QUESTIVO_UNDER_CONSTRUCTION
       ? [
-          { path: '/questivo', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/questivo/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/questivo/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/questivo/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
@@ -277,7 +276,6 @@ const routes: SitemapRouteMeta[] = [
       ]
     : TRICKYROOMS_UNDER_CONSTRUCTION
       ? [
-          { path: '/trickyrooms', priority: 0.55, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/trickyrooms/privacy', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/trickyrooms/terms', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
           { path: '/trickyrooms/support', priority: 0.5, changefreq: 'monthly' } satisfies SitemapRouteMeta,
@@ -300,11 +298,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         : locale;
 
     routes.forEach((route) => {
+      const pathLocales = getPathLocales(route.path, routing.locales);
+      if (!pathLocales.includes(locale)) return;
       const url = joinPublicUrl(baseUrl, localeSegment, route.path);
       const lastModified = resolveRouteLastModified(route, defaultLastModified);
       const alternates = buildLanguageAlternateMap(
         baseUrl,
-        routing.locales,
+        pathLocales,
         routing.defaultLocale,
         routing.localePrefix,
         route.path

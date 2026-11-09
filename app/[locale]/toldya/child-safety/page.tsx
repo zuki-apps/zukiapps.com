@@ -78,7 +78,7 @@ export default async function ToldyaChildSafetyPage({
 
           <div className="bg-emerald-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-emerald-600">
-              <h1 className="text-4xl font-bold text-emerald-700">{tApp('title')}</h1>
+              <p className="text-4xl font-bold text-emerald-700">{tApp('title')}</p>
               <Link
                 href={`/${locale}/toldya`}
                 className="px-4 py-2 border-2 border-emerald-600 bg-white text-emerald-700 rounded-lg hover:bg-emerald-600 hover:text-white transition-colors text-sm"

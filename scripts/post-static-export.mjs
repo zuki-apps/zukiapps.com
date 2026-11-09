@@ -232,6 +232,38 @@ export function writeRedirectsFile(outDir = OUT) {
   console.log('post-static-export: wrote out/_redirects');
 }
 
+const RTL_LOCALES = new Set(['he', 'ar']);
+
+/**
+ * Root layout ships `<html lang="en" dir="ltr">` (kept static); LocaleHtmlSync only fixes it in JS.
+ * Rewrite it in exported HTML so non-JS crawlers see the real language/direction.
+ */
+export function setLocaleHtmlAttributes(outDir = OUT) {
+  let count = 0;
+  const walk = (dir, rel) => {
+    for (const ent of readdirSync(dir, { withFileTypes: true })) {
+      const relPath = rel ? `${rel}/${ent.name}` : ent.name;
+      const full = join(dir, ent.name);
+      if (ent.isDirectory()) {
+        walk(full, relPath);
+        continue;
+      }
+      if (!ent.name.endsWith('.html')) continue;
+      const locale = relPath.split('/')[0].replace(/\.html$/, '');
+      if (!localeSet.has(locale) || locale === 'en') continue;
+      const html = readFileSync(full, 'utf8');
+      const dirAttr = RTL_LOCALES.has(locale) ? 'rtl' : 'ltr';
+      const next = html.replace('<html lang="en" dir="ltr"', `<html lang="${locale}" dir="${dirAttr}"`);
+      if (next !== html) {
+        writeFileSync(full, next);
+        count++;
+      }
+    }
+  };
+  walk(outDir, '');
+  console.log(`post-static-export: set <html lang/dir> on ${count} locale pages`);
+}
+
 export function runPostStaticExport(outDir = OUT) {
   if (!existsSync(outDir)) {
     throw new Error(`Missing ${outDir}/ — run next build with STATIC_EXPORT=1 first`);
@@ -248,6 +280,7 @@ export function runPostStaticExport(outDir = OUT) {
   removeRscTxtArtifacts(outDir);
   mirrorAasaToWellKnown(outDir);
   writeRedirectsFile(outDir);
+  setLocaleHtmlAttributes(outDir);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

@@ -72,7 +72,7 @@ export default async function DSACompliancePage({
 
           <div className="bg-blue-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-blue-600">
-              <h1 className="text-4xl font-bold text-blue-600">Zuki Apps</h1>
+              <p className="text-4xl font-bold text-blue-600">Zuki Apps</p>
               <div className="flex gap-2">
                 <Link
                   href={`/${locale}`}
@@ -87,7 +87,7 @@ export default async function DSACompliancePage({
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
                 {t('title')}
               </h1>
-              <p className="text-gray-400 mb-8">
+              <p className="text-gray-600 mb-8">
                 {t('lastUpdated')}
               </p>
 

@@ -76,7 +76,7 @@ export default async function TempoLabProSupportPage({
 
           <div className="bg-violet-50 rounded-2xl shadow-xl p-8 md:p-12">
             <div className="flex items-center justify-between mb-8 pb-6 border-b-2 border-violet-600">
-              <h1 className="text-4xl font-bold text-violet-600">{tHero('title')}</h1>
+              <p className="text-4xl font-bold text-violet-600">{tHero('title')}</p>
               <div className="flex gap-2">
                 <Link
                   href={`/${locale}/tempo-lab-pro`}
