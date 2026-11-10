@@ -1,5 +1,5 @@
 # Runs on push to main when SITE_URL is set in repository secrets.
-# CI runs in .github/workflows/ci.yml (mirrors bitbucket-pipelines.yml ci:full).
+# CI runs in .github/workflows/ci.yml (npm run ci:full).
 
 name: Ping sitemap on push
 

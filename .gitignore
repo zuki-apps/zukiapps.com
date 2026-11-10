@@ -34,8 +34,7 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 
-# Vercel / Cloudflare
-.vercel
+# Cloudflare
 .open-next/
 .wrangler/
 .dev.vars
