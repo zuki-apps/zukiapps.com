@@ -240,18 +240,18 @@
     },
     "privacy": {
       "title": "מדיניות פרטיות",
-      "lastUpdated": "עודכן לאחרונה: ינואר 2025",
+      "lastUpdated": "עודכן לאחרונה: נובמבר 2026",
       "section1": {
         "title": "1. מידע שאנו אוספים",
-        "content": "Power Interval Timer מעוצב עם פרטיות בחשבון. אנו אוספים מידע מינימלי הנדרש לספק את השירות. האפליקציה עובדת במלואה במצב לא מקוון ושומרת את כל הנתונים מקומית במכשיר שלך."
+        "content": "Power Interval Timer תוכנן עם דגש על פרטיות. הגדרות טיימרים ואימונים שמורים מאוחסנים מקומית במכשיר. בגרסה החינמית משתמשים ב-Google AdMob לפרסומות וב-Firebase Crashlytics לדיווחי קריסות, שעשויים לאסוף נתוני מכשיר ואבחון מוגבלים כמתואר להלן. Premium מסיר פרסומות."
       },
       "section2": {
-        "title": "2. איך אנו משתמשים במידע שלך",
-        "content": "אנו משתמשים במידע שאנו אוספים כדי לספק, לתחזק ולשפר את השירותים שלנו. כל תצורות הטיימר ואימונים שמורים נשמרים מקומית במכשיר שלך ואינם מועברים לשרתים שלנו."
+        "title": "2. כיצד אנו משתמשים במידע",
+        "content": "אנו משתמשים במידע כדי לספק ולשפר את האפליקציה, להציג פרסומות בגרסה החינמית (Google AdMob), לאסוף אבחוני קריסות (Firebase Crashlytics), לעבד רכישות Premium אופציונליות דרך Apple או Google, ולהשיב לפניות תמיכה. הגדרות הטיימרים והאימונים נשארים במכשיר ואינם מועלים לשרתים שלנו."
       },
       "section3": {
         "title": "3. שיתוף מידע",
-        "content": "אנו לא מוכרים, סוחרים או מעבירים את המידע האישי שלך לצדדים שלישיים. נתוני הטיימר שלך נשארים במכשיר שלך ונגישים רק לך."
+        "content": "איננו מוכרים את המידע האישי שלך. אנו משתפים נתונים מוגבלים עם ספקי שירות שעוזרים לנו להפעיל את האפליקציה—כולל Google AdMob (פרסום), Google User Messaging Platform (הסכמה לפרסומות ב-EEA, בבריטניה ובשווייץ) ו-Firebase Crashlytics (דיווחי קריסות)—בהתאם למדיניות הפרטיות שלהם. נתוני הטיימר שלך נשארים במכשיר ונגישים רק לך."
       },
       "section4": {
         "title": "4. אבטחת נתונים",
@@ -263,38 +263,47 @@
       },
       "section6": {
         "title": "6. גישה לספריית תמונות",
-        "content": "Power Interval Timer עשוי לבקש גישה לספריית התמונות של המכשיר שלך כדי לאפשר לך לבחור תמונות טיימר מותאמות אישית. אנו ניגשים לתמונות שלך רק כאשר אתה בוחר במפורש להוסיף תמונת טיימר. תמונות נשמרות מקומית ואינן משותפות עם צדדים שלישיים."
+        "content": "Power Interval Timer עשוי לבקש גישה לספריית התמונות כדי לבחור תמונות טיימר מותאמות. אנו ניגשים לתמונות רק כשאתה בוחר במפורש להוסיף תמונה. התמונות מאוחסנות מקומית ואינן מועלות לשרתים שלנו."
       },
       "section7": {
-        "title": "7. דיווח על קריסות ואנליטיקת שגיאות",
-        "content": "אנו משתמשים ב-Firebase Crashlytics, שירות המסופק על ידי Google, כדי לאסוף מידע על קריסות ושגיאות אפליקציה. זה עוזר לנו לזהות ולתקן בעיות כדי לשפר את החוויה שלך.",
-        "dataCollected": "נתונים שנאספו:",
+        "title": "7. Crash Reporting and Error Analytics",
+        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
+        "dataCollected": "Data Collected:",
         "dataCollectedItems": [
-          "מידע טכני על קריסות ושגיאות (עקבות מחסנית, הודעות שגיאה)",
-          "מידע על המכשיר (מערכת הפעלה, דגם מכשיר, גרסת אפליקציה)",
-          "מזהה התקנה (מזהה ייחודי להתקנת האפליקציה שלך, לא מקושר לזהות האישית שלך)",
-          "מידע אבחון מותאם אישית הקשור לשגיאות (קודי שגיאה, סוגי פעולות)"
+          "Technical information about crashes and errors (stack traces, error messages)",
+          "Device information (operating system, device model, app version)",
+          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
+          "Custom diagnostic information related to errors (error codes, operation types)"
         ],
-        "purpose": "מטרה:",
+        "purpose": "Purpose:",
         "purposeItems": [
-          "זיהוי ותיקון באגים וקריסות",
-          "שיפור יציבות וביצועי האפליקציה",
-          "ניתוח דפוסי שגיאות"
+          "Identify and fix bugs and crashes",
+          "Improve app stability and performance",
+          "Analyze error patterns"
         ],
-        "dataSharing": "שיתוף נתונים:",
-        "dataSharingContent": "נתונים אלה מעובדים על ידי Google Firebase וכפופים למדיניות הפרטיות של Google.",
-        "dataRetention": "שמירת נתונים:",
-        "dataRetentionContent": "דוחות קריסה נשמרים על ידי Firebase עד 90 יום ואז נמחקים אוטומטית.",
-        "yourRights": "הזכויות שלך:",
-        "yourRightsContent": "אתה יכול לבטל את דיווח הקריסות על ידי השבתתו בהגדרות המכשיר שלך, אם כי זה עלול למנוע מאיתנו לתקן בעיות המשפיעות עליך."
+        "dataSharing": "Data Sharing:",
+        "dataSharingContent": "נתוני קריסות מעובדים על ידי Google Firebase וכפופים למדיניות הפרטיות של Google. בנפרד, נתוני פרסום עשויים להיות מעובדים על ידי Google AdMob כמתואר בסעיף הפרסום למטה.",
+        "dataRetention": "Data Retention:",
+        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
+        "yourRights": "Your Rights:",
+        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
       },
       "section8": {
-        "title": "8. צור איתנו קשר",
-        "content": "אם יש לך שאלות כלשהן על מדיניות הפרטיות הזו, אנא צור איתנו קשר ב:",
+        "title": "10. צור קשר",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
-        "address": "Nachshol 36, SAAR, p.o. 22805, ישראל"
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       },
-      "metaDescription": "מדיניות הפרטיות של Power Interval Timer - כיצד אנו מטפלים בנתונים שלך ב-iOS ו-Android."
+      "metaDescription": "מדיניות פרטיות של Power Interval Timer — נתוני טיימר מקומיים, פרסומות Google AdMob, Firebase Crashlytics והבחירות שלך ב-iOS וב-Android.",
+      "section9": {
+        "title": "8. פרסום",
+        "content": "הגרסה החינמית מציגה פרסומות מ-Google AdMob; Premium מסיר אותן. AdMob עשוי לאסוף את מזהה הפרסום של המכשיר, מיקום משוער לפי כתובת IP, ואת האינטראקציות שלך עם פרסומות, ולהשתמש בהם להתאמה אישית ומדידה של פרסומות באפליקציות ואתרים של חברות אחרות.",
+        "content2": "ב-EEA, בבריטניה ובשווייץ אנו מבקשים הסכמה לפני טעינת פרסומות (Google User Messaging Platform), וניתן לשנות את הבחירה בהגדרות כשאפשרויות פרטיות זמינות. ניתן גם לאפס או להגביל את מזהה הפרסום בהגדרות המכשיר."
+      },
+      "section10": {
+        "title": "9. ילדים",
+        "content": "Power Interval Timer אינו מיועד לילדים מתחת לגיל 13, ואיננו אוספים ביודעין את המידע האישי שלהם. אם לדעתך ילד מסר לנו מידע אישי, צור קשר ונמחק אותו."
+      }
     },
     "pageNav": {
       "features": "תכונות",

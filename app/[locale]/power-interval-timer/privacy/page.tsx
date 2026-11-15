@@ -191,6 +191,27 @@ export default async function PowerIntervalTimerPrivacyPage({
                   </p>
                 </section>
 
+                <section>
+                  <h2 className="text-2xl font-bold text-orange-600 mb-4">
+                    {t('section9.title')}
+                  </h2>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    {t('section9.content')}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('section9.content2')}
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-2xl font-bold text-orange-600 mb-4">
+                    {t('section10.title')}
+                  </h2>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('section10.content')}
+                  </p>
+                </section>
+
                 <section className="bg-gray-100 p-6 rounded-lg border-l-4 border-orange-600 mt-8">
                   <h2 className="text-2xl font-bold text-orange-600 mb-4">
                     {t('section8.title')}

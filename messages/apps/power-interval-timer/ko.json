@@ -240,18 +240,18 @@
     },
     "privacy": {
       "title": "개인 정보 보호 정책",
-      "lastUpdated": "최종 업데이트: 2025년 1월",
+      "lastUpdated": "Last updated: November 2026",
       "section1": {
         "title": "1. 당사가 수집하는 정보",
-        "content": "전원 간격 타이머는 개인 정보 보호를 염두에 두고 설계되었습니다. 서비스 제공을 위해 필요한 최소한의 정보를 수집합니다. 이 앱은 완전히 오프라인으로 작동하며 모든 데이터를 기기에 로컬로 저장합니다."
+        "content": "Power Interval Timer is designed with privacy in mind. Timer configurations and saved workouts are stored locally on your device. The free version uses Google AdMob for ads and Firebase Crashlytics for crash reports, which may collect limited device and diagnostic data as described below. Premium removes ads."
       },
       "section2": {
         "title": "2. 당사가 귀하의 정보를 사용하는 방법",
-        "content": "당사는 서비스를 제공, 유지 및 개선하기 위해 수집한 정보를 사용합니다. 모든 타이머 구성과 저장된 운동은 귀하의 장치에 로컬로 저장되며 당사 서버로 전송되지 않습니다."
+        "content": "We use information to provide and improve the app, show ads in the free version (Google AdMob), collect crash diagnostics (Firebase Crashlytics), process optional Premium purchases through Apple or Google, and respond to support requests. Your timer configurations and saved workouts stay on your device and are not uploaded to our servers."
       },
       "section3": {
         "title": "3. 정보 공유",
-        "content": "당사는 귀하의 개인정보를 제3자에게 판매, 거래 또는 기타 방법으로 양도하지 않습니다. 귀하의 타이머 데이터는 귀하의 장치에 남아 있으며 귀하만 접근할 수 있습니다."
+        "content": "We do not sell your personal information. We share limited data with service providers that help us operate the app—including Google AdMob (advertising), Google User Messaging Platform (ad consent in the EEA, UK, and Switzerland), and Firebase Crashlytics (crash reports)—under their privacy policies. Your timer data remains on your device and is only accessible to you."
       },
       "section4": {
         "title": "4. 데이터 보안",
@@ -263,7 +263,7 @@
       },
       "section6": {
         "title": "6. 사진 라이브러리 액세스",
-        "content": "전원 간격 타이머는 사용자가 사용자 정의 타이머 이미지를 선택할 수 있도록 장치의 사진 라이브러리에 대한 액세스를 요청할 수 있습니다. 귀하가 명시적으로 타이머 이미지를 추가하도록 선택한 경우에만 당사는 귀하의 사진에 접근합니다. 사진은 로컬에 저장되며 제3자와 공유되지 않습니다."
+        "content": "Power Interval Timer may request access to your device's photo library to allow you to select custom timer images. We only access your photos when you explicitly choose to add a timer image. Photos are stored locally and are not uploaded to our servers."
       },
       "section7": {
         "title": "7. 충돌 보고 및 오류 분석",
@@ -282,19 +282,28 @@
           "오류 patterns 분석"
         ],
         "dataSharing": "데이터 공유:",
-        "dataSharingContent": "이 데이터는 Google Firebase에서 처리되며 Google 개인정보취급방침의 적용을 받습니다.",
+        "dataSharingContent": "Crash data is processed by Google Firebase and is subject to Google's Privacy Policy. Separately, advertising data may be processed by Google AdMob as described in Advertising below.",
         "dataRetention": "데이터 보존:",
         "dataRetentionContent": "충돌 보고서는 Firebase에서 최대 90일 동안 보관한 후 자동으로 삭제됩니다.",
         "yourRights": "귀하의 권리:",
         "yourRightsContent": "장치 설정에서 충돌 보고를 비활성화하여 이를 거부할 수 있습니다. 하지만 이렇게 하면 귀하에게 영향을 미치는 문제를 해결하지 못할 수도 있습니다."
       },
       "section8": {
-        "title": "8. 문의하기",
+        "title": "10. Contact Us",
         "content": "본 개인정보 보호정책에 대해 질문이 있는 경우 다음 주소로 문의하시기 바랍니다.",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, 이스라엘"
       },
-      "metaDescription": "전원 간격 타이머 개인 정보 보호 정책 — iOS 및 Android에서 귀하의 데이터를 처리하는 방법."
+      "metaDescription": "Power Interval Timer privacy policy — local timer data, Google AdMob ads, Firebase Crashlytics, and your choices on iOS and Android.",
+      "section9": {
+        "title": "8. Advertising",
+        "content": "The free version shows ads from Google AdMob; Premium removes them. AdMob may collect your device's advertising identifier, an approximate location based on your IP address, and your interactions with ads, and may use them to personalize and measure ads across apps and websites owned by other companies.",
+        "content2": "In the EEA, the UK, and Switzerland, we ask for your consent before ads load (Google User Messaging Platform), and you can change that choice in Settings when privacy options are available. You can also reset or limit your advertising identifier in your device settings."
+      },
+      "section10": {
+        "title": "9. Children",
+        "content": "Power Interval Timer is not directed to children under 13, and we do not knowingly collect their personal information. If you believe a child has given us personal information, contact us and we will delete it."
+      }
     },
     "pageNav": {
       "features": "특징",

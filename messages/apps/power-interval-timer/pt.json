@@ -240,18 +240,18 @@
     },
     "privacy": {
       "title": "política de Privacidade",
-      "lastUpdated": "Última atualização: janeiro de 2025",
+      "lastUpdated": "Last updated: November 2026",
       "section1": {
         "title": "1. Informações que coletamos",
-        "content": "O Power Interval Timer foi projetado tendo a privacidade em mente. Coletamos informações mínimas necessárias para fornecer o serviço. O aplicativo funciona totalmente offline e armazena todos os dados localmente no seu dispositivo."
+        "content": "Power Interval Timer is designed with privacy in mind. Timer configurations and saved workouts are stored locally on your device. The free version uses Google AdMob for ads and Firebase Crashlytics for crash reports, which may collect limited device and diagnostic data as described below. Premium removes ads."
       },
       "section2": {
         "title": "2. Como usamos suas informações",
-        "content": "Usamos as informações que coletamos para fornecer, manter e melhorar nossos serviços. Todas as configurações do cronômetro e treinos salvos são armazenados localmente no seu dispositivo e não são transmitidos para nossos servidores."
+        "content": "We use information to provide and improve the app, show ads in the free version (Google AdMob), collect crash diagnostics (Firebase Crashlytics), process optional Premium purchases through Apple or Google, and respond to support requests. Your timer configurations and saved workouts stay on your device and are not uploaded to our servers."
       },
       "section3": {
         "title": "3. Compartilhamento de informações",
-        "content": "Não vendemos, comercializamos ou transferimos de outra forma suas informações pessoais a terceiros. Os dados do seu cronômetro permanecem no seu dispositivo e só podem ser acessados ​​por você."
+        "content": "We do not sell your personal information. We share limited data with service providers that help us operate the app—including Google AdMob (advertising), Google User Messaging Platform (ad consent in the EEA, UK, and Switzerland), and Firebase Crashlytics (crash reports)—under their privacy policies. Your timer data remains on your device and is only accessible to you."
       },
       "section4": {
         "title": "4. Segurança de dados",
@@ -263,7 +263,7 @@
       },
       "section6": {
         "title": "6. Acesso à biblioteca de fotos",
-        "content": "O Power Interval Timer pode solicitar acesso à biblioteca de fotos do seu dispositivo para permitir que você selecione imagens personalizadas do temporizador. Só acessamos suas fotos quando você escolhe explicitamente adicionar uma imagem com temporizador. As fotos são armazenadas localmente e não são compartilhadas com terceiros."
+        "content": "Power Interval Timer may request access to your device's photo library to allow you to select custom timer images. We only access your photos when you explicitly choose to add a timer image. Photos are stored locally and are not uploaded to our servers."
       },
       "section7": {
         "title": "7. Relatórios de falhas e análises de erros",
@@ -282,19 +282,28 @@
           "Analisar patterns de erro"
         ],
         "dataSharing": "Compartilhamento de dados:",
-        "dataSharingContent": "Esses dados são processados ​​pelo Google Firebase e estão sujeitos à Política de Privacidade do Google.",
+        "dataSharingContent": "Crash data is processed by Google Firebase and is subject to Google's Privacy Policy. Separately, advertising data may be processed by Google AdMob as described in Advertising below.",
         "dataRetention": "Retenção de dados:",
         "dataRetentionContent": "Os relatórios de falhas são retidos por Firebase por até 90 dias e depois são excluídos automaticamente.",
         "yourRights": "Seus direitos:",
         "yourRightsContent": "Você pode desativar o relatório de falhas desativando-o nas configurações do seu dispositivo, embora isso possa nos impedir de corrigir problemas que afetam você."
       },
       "section8": {
-        "title": "8. Contate-nos",
+        "title": "10. Contact Us",
         "content": "Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       },
-      "metaDescription": "Política de privacidade do Power Interval Timer — como lidamos com seus dados em iOS e Android."
+      "metaDescription": "Power Interval Timer privacy policy — local timer data, Google AdMob ads, Firebase Crashlytics, and your choices on iOS and Android.",
+      "section9": {
+        "title": "8. Advertising",
+        "content": "The free version shows ads from Google AdMob; Premium removes them. AdMob may collect your device's advertising identifier, an approximate location based on your IP address, and your interactions with ads, and may use them to personalize and measure ads across apps and websites owned by other companies.",
+        "content2": "In the EEA, the UK, and Switzerland, we ask for your consent before ads load (Google User Messaging Platform), and you can change that choice in Settings when privacy options are available. You can also reset or limit your advertising identifier in your device settings."
+      },
+      "section10": {
+        "title": "9. Children",
+        "content": "Power Interval Timer is not directed to children under 13, and we do not knowingly collect their personal information. If you believe a child has given us personal information, contact us and we will delete it."
+      }
     },
     "pageNav": {
       "features": "Características",

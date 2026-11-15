@@ -240,18 +240,18 @@
     },
     "privacy": {
       "title": "política de privacidad",
-      "lastUpdated": "Última actualización: enero de 2025",
+      "lastUpdated": "Última actualización: noviembre de 2026",
       "section1": {
         "title": "1. Información que recopilamos",
-        "content": "Power Interval Timer está diseñado teniendo en cuenta la privacidad. Recopilamos la información mínima necesaria para proporcionar el servicio. La aplicación funciona completamente sin conexión y almacena todos los datos localmente en su dispositivo."
+        "content": "Power Interval Timer está diseñado pensando en la privacidad. Las configuraciones del temporizador y los entrenamientos guardados se almacenan localmente en su dispositivo. La versión gratuita usa Google AdMob para anuncios y Firebase Crashlytics para informes de fallos, que pueden recopilar datos limitados del dispositivo y de diagnóstico como se describe más abajo. Premium elimina los anuncios."
       },
       "section2": {
-        "title": "2. Cómo utilizamos su información",
-        "content": "Utilizamos la información que recopilamos para proporcionar, mantener y mejorar nuestros servicios. Todas las configuraciones del temporizador y los entrenamientos guardados se almacenan localmente en su dispositivo y no se transmiten a nuestros servidores."
+        "title": "2. Cómo usamos su información",
+        "content": "Usamos la información para proporcionar y mejorar la aplicación, mostrar anuncios en la versión gratuita (Google AdMob), recopilar diagnósticos de fallos (Firebase Crashlytics), procesar compras Premium opcionales a través de Apple o Google y responder a solicitudes de soporte. Las configuraciones del temporizador y los entrenamientos permanecen en su dispositivo y no se suben a nuestros servidores."
       },
       "section3": {
-        "title": "3. Intercambio de información",
-        "content": "No vendemos, comercializamos ni transferimos de otro modo su información personal a terceros. Los datos de su temporizador permanecen en su dispositivo y solo usted puede acceder a ellos."
+        "title": "3. Compartición de información",
+        "content": "No vendemos su información personal. Compartimos datos limitados con proveedores de servicios que nos ayudan a operar la aplicación—incluido Google AdMob (publicidad), Google User Messaging Platform (consentimiento de anuncios en el EEE, el Reino Unido y Suiza) y Firebase Crashlytics (informes de fallos)—según sus políticas de privacidad. Los datos de su temporizador permanecen en su dispositivo y solo usted puede acceder a ellos."
       },
       "section4": {
         "title": "4. Seguridad de los datos",
@@ -262,39 +262,48 @@
         "content": "Tiene derecho a acceder, actualizar o eliminar los datos de su temporizador en cualquier momento. Puede eliminar todos los temporizadores guardados a través de la aplicación. También puedes desinstalar la aplicación en cualquier momento, lo que eliminará todos los datos almacenados localmente."
       },
       "section6": {
-        "title": "6. Acceso a la biblioteca de fotografías",
-        "content": "Power Interval Timer puede solicitar acceso a la biblioteca de fotos de su dispositivo para permitirle seleccionar imágenes de temporizador personalizadas. Solo accedemos a tus fotos cuando eliges explícitamente agregar una imagen de temporizador. Las fotos se almacenan localmente y no se comparten con terceros."
+        "title": "6. Acceso a la biblioteca de fotos",
+        "content": "Power Interval Timer puede solicitar acceso a la biblioteca de fotos para seleccionar imágenes personalizadas del temporizador. Solo accedemos a sus fotos cuando usted elige explícitamente añadir una imagen. Las fotos se almacenan localmente y no se suben a nuestros servidores."
       },
       "section7": {
-        "title": "7. Informes de fallos y análisis de errores",
-        "content": "Usamos Firebase Crashlytics, un servicio proporcionado por Google, para recopilar información sobre fallas y errores de la aplicación. Esto nos ayuda a identificar y solucionar problemas para mejorar su experiencia.",
-        "dataCollected": "Datos recopilados:",
+        "title": "7. Crash Reporting and Error Analytics",
+        "content": "We use Firebase Crashlytics, a service provided by Google, to collect information about app crashes and errors. This helps us identify and fix issues to improve your experience.",
+        "dataCollected": "Data Collected:",
         "dataCollectedItems": [
-          "Información técnica sobre fallos y errores (seguimientos de pila, mensajes de error)",
-          "Información del dispositivo (sistema operativo, modelo de dispositivo, versión de la aplicación)",
-          "ID de instalación (un identificador único para la instalación de su aplicación, no vinculado a su identidad personal)",
-          "Información de diagnóstico personalizada relacionada con errores (códigos de error, tipos de operación)"
+          "Technical information about crashes and errors (stack traces, error messages)",
+          "Device information (operating system, device model, app version)",
+          "Installation ID (a unique identifier for your app installation, not linked to your personal identity)",
+          "Custom diagnostic information related to errors (error codes, operation types)"
         ],
-        "purpose": "Objetivo:",
+        "purpose": "Purpose:",
         "purposeItems": [
-          "Identificar y corregir errores y fallas",
-          "Mejorar la estabilidad y el rendimiento de la aplicación",
-          "Analizar patterns de error"
+          "Identify and fix bugs and crashes",
+          "Improve app stability and performance",
+          "Analyze error patterns"
         ],
-        "dataSharing": "Intercambio de datos:",
-        "dataSharingContent": "Estos datos son procesados ​​por Google Firebase y están sujetos a la Política de Privacidad de Google.",
-        "dataRetention": "Retención de datos:",
-        "dataRetentionContent": "Los informes de fallos se conservan en Firebase durante un máximo de 90 días y luego se eliminan automáticamente.",
-        "yourRights": "Tus derechos:",
-        "yourRightsContent": "Puede optar por no recibir informes de fallos deshabilitándolos en la configuración de su dispositivo, aunque esto puede impedir que solucionemos los problemas que le afectan."
+        "dataSharing": "Data Sharing:",
+        "dataSharingContent": "Los datos de fallos los procesa Google Firebase y están sujetos a la Política de Privacidad de Google. Por separado, los datos publicitarios pueden ser procesados por Google AdMob como se describe en Publicidad más abajo.",
+        "dataRetention": "Data Retention:",
+        "dataRetentionContent": "Crash reports are retained by Firebase for up to 90 days and are then automatically deleted.",
+        "yourRights": "Your Rights:",
+        "yourRightsContent": "You can opt-out of crash reporting by disabling it in your device settings, though this may prevent us from fixing issues that affect you."
       },
       "section8": {
-        "title": "8. Contáctenos",
-        "content": "Si tiene alguna pregunta sobre esta Política de Privacidad, contáctenos en:",
+        "title": "10. Contáctenos",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
         "email": "zuki.apps.dev@gmail.com",
         "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
       },
-      "metaDescription": "Política de privacidad de Power Interval Timer: cómo manejamos sus datos en iOS y Android."
+      "metaDescription": "Política de privacidad de Power Interval Timer: datos locales del temporizador, anuncios de Google AdMob, Firebase Crashlytics y sus opciones en iOS y Android.",
+      "section9": {
+        "title": "8. Publicidad",
+        "content": "La versión gratuita muestra anuncios de Google AdMob; Premium los elimina. AdMob puede recopilar el identificador publicitario de su dispositivo, una ubicación aproximada basada en su dirección IP y sus interacciones con anuncios, y puede usarlos para personalizar y medir anuncios en apps y sitios web de otras empresas.",
+        "content2": "En el EEE, el Reino Unido y Suiza, pedimos su consentimiento antes de cargar anuncios (Google User Messaging Platform), y puede cambiar esa elección en Ajustes cuando las opciones de privacidad estén disponibles. También puede restablecer o limitar su identificador publicitario en los ajustes del dispositivo."
+      },
+      "section10": {
+        "title": "9. Niños",
+        "content": "Power Interval Timer no está dirigido a niños menores de 13 años y no recopilamos conscientemente su información personal. Si cree que un niño nos ha facilitado información personal, contáctenos y la eliminaremos."
+      }
     },
     "pageNav": {
       "features": "Características",
