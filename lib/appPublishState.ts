@@ -103,6 +103,12 @@ export const TRICKYROOMS_PILOT = false;
 export const TRICKYROOMS_PUBLISHED = false;
 export const TRICKYROOMS_APP_PATH = '/trickyrooms' as const;
 
+/** TriggerLab — coming soon; legal pages live for store compliance. */
+export const TRIGGERLAB_UNDER_CONSTRUCTION = true;
+export const TRIGGERLAB_PILOT = false;
+export const TRIGGERLAB_PUBLISHED = false;
+export const TRIGGERLAB_APP_PATH = '/triggerlab' as const;
+
 /** Contacts Toolbox — dual-store live. */
 export const CONTACTS_TOOLBOX_UNDER_CONSTRUCTION = false;
 export const CONTACTS_TOOLBOX_PILOT = true;

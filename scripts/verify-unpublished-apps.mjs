@@ -15,6 +15,7 @@ const UNPUBLISHED = [
   { slug: 'questivo', namespace: 'questivo', flag: 'QUESTIVO' },
   { slug: 'roamguard', namespace: 'roamGuard', flag: 'ROAMGUARD' },
   { slug: 'trickyrooms', namespace: 'trickyRooms', flag: 'TRICKYROOMS' },
+  { slug: 'triggerlab', namespace: 'triggerLab', flag: 'TRIGGERLAB' },
 ];
 
 const LEGAL_PAGES = ['privacy', 'terms', 'support'];

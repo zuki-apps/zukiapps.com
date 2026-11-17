@@ -104,6 +104,11 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
 /** Unpublished / under-construction titles — About portfolio only, not home or JSON-LD ItemList. */
 export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
   {
+    path: '/triggerlab',
+    name: 'TriggerLab',
+    description: 'Event timer: measure the time between a start and a stop, down to the millisecond. Stopwatch, laps, reaction test. Coming soon. com.zuki.apps.triggerlab.',
+  },
+  {
     path: '/trickyrooms',
     name: 'Tricky Rooms',
     description: 'Spot-the-mistake puzzle game. 30 hand-drawn rooms, one mistake in each. Coming soon. com.zuki.apps.trickyrooms.',

@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "remoteCatalogUrl": "https://zukiapps.com/house-ads/catalog.json",
   "apps": [
     {
@@ -385,6 +385,22 @@
       "interstitial": "assets/interstitials/coloring-my-photo.jpg",
       "creativeSource": "generated",
       "color": "#33230F"
+    },
+    {
+      "id": "triggerlab",
+      "name": "TriggerLab",
+      "tagline": "Event timer, down to the millisecond",
+      "project": "TriggerLab",
+      "promote": true,
+      "showHouseAds": true,
+      "icon": "assets/icons/triggerlab.png",
+      "appStoreUrl": "",
+      "playStoreUrl": "",
+      "websiteUrl": "https://zukiapps.com/triggerlab",
+      "banner": "assets/banners/triggerlab.png",
+      "interstitial": "assets/interstitials/triggerlab.jpg",
+      "creativeSource": "generated",
+      "color": "#33150F"
     }
   ]
 }

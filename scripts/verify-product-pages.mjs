@@ -18,6 +18,7 @@ const UNPUBLISHED = new Set([
   'questivo',
   'roamguard',
   'trickyrooms',
+  'triggerlab',
 ]);
 
 const IOS_ONLY = new Set([]);

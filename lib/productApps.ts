@@ -25,6 +25,7 @@ export type ProductAppSlug =
   | 'ztl-guard'
   | 'contacts-toolbox'
   | 'trickyrooms'
+  | 'triggerlab'
   | 'toldya';
 
 export type ProductAppNamespace =
@@ -53,6 +54,7 @@ export type ProductAppNamespace =
   | 'ztlGuard'
   | 'contactsToolbox'
   | 'trickyRooms'
+  | 'triggerLab'
   | 'toldya';
 
 export type ProductAppConfig = {
@@ -239,6 +241,17 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     faqId: 'trickyrooms-faq-ld',
     howToId: 'trickyrooms-howto-ld',
     accent: 'emerald',
+    hasSupportPage: true,
+    operatingSystem: 'iOS,Android',
+  },
+  triggerlab: {
+    slug: 'triggerlab',
+    namespace: 'triggerLab',
+    appPath: '/triggerlab',
+    applicationCategory: 'UtilitiesApplication',
+    faqId: 'triggerlab-faq-ld',
+    howToId: 'triggerlab-howto-ld',
+    accent: 'cyan',
     hasSupportPage: true,
     operatingSystem: 'iOS,Android',
   },

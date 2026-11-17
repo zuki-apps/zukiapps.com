@@ -29,4 +29,5 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/ztl-guard': 'com.zuki.apps.ztlguard',
   '/contacts-toolbox': 'com.zuki.apps.contactstoolbox',
   '/trickyrooms': 'com.zuki.apps.trickyrooms',
+  '/triggerlab': 'com.zuki.apps.triggerlab',
 };

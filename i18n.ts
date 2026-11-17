@@ -35,6 +35,7 @@ const APPS = [
   'ztl-guard',
   'contacts-toolbox',
   'trickyrooms',
+  'triggerlab',
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

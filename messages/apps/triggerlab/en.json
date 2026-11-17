@@ -1,0 +1,323 @@
+{
+  "triggerLab": {
+    "back": "Back to Home",
+    "hero": {
+      "badge": "Coming soon · iOS & Android",
+      "title": "TriggerLab — Event Timer",
+      "productName": "TriggerLab — Event Timer",
+      "subtitle": "TriggerLab",
+      "description": "Measure the time between a start and a stop, down to the millisecond. A large clock you can read from across the room, laps, multi-stage runs and a reaction test.",
+      "socialProof": "Millisecond display · Laps & stages · Reaction test · No account · 12 languages · iOS & Android",
+      "structuredDataDescription": "TriggerLab is an event timer for iOS and Android. It measures the time between a start event and a stop event on a monotonic clock that keeps counting while the phone sleeps, with single, repeated, lap, multi-stage and reaction modes, history, profiles and CSV export.",
+      "seoTitle": "TriggerLab — Event Timer & Millisecond Stopwatch | Zuki Apps",
+      "metaDescription": "Time the gap between two events to the millisecond. Stopwatch, laps, multi-stage runs and a reaction test. Coming soon to iOS and Android."
+    },
+    "pageNav": {
+      "features": "Features",
+      "howTo": "How to use",
+      "tips": "Tips",
+      "faq": "FAQ",
+      "download": "Download"
+    },
+    "features": {
+      "title": "Key Features",
+      "modes": {
+        "title": "Five measurement modes",
+        "description": "Pick the run that matches what you are timing.",
+        "items": [
+          "Single start-to-stop timing",
+          "Repeated runs and laps",
+          "Multi-stage runs and a reaction test"
+        ]
+      },
+      "action": {
+        "title": "Exact by design",
+        "description": "Durations are stored in microseconds on a monotonic clock.",
+        "items": [
+          "Seconds, tenths, hundredths or milliseconds",
+          "Changing the display never changes the stored time",
+          "Keeps counting correctly while the phone is locked"
+        ]
+      },
+      "social": {
+        "title": "Yours, on your device",
+        "description": "No account. Measurements stay on the phone.",
+        "items": [
+          "History with session statistics",
+          "Saved profiles for repeat setups",
+          "CSV export through the share sheet"
+        ]
+      }
+    },
+    "tips": {
+      "title": "Tips",
+      "subtitle": "Get cleaner timings.",
+      "items": [
+        {
+          "title": "Use the volume keys",
+          "description": "Start and stop with a volume key when you need to watch the event, not the screen."
+        },
+        {
+          "title": "Read it from afar",
+          "description": "Switch to the large or full-screen clock to read the time from across the room."
+        },
+        {
+          "title": "Save a profile",
+          "description": "Save the mode and settings you use most, then start a new measurement from the profile in one tap."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers about timing, data, and ads.",
+      "viewAllSupport": "View full support & FAQ",
+      "items": [
+        {
+          "question": "Is TriggerLab free?",
+          "answer": "Yes. TriggerLab is free to download and use. It shows ads."
+        },
+        {
+          "question": "How precise is it?",
+          "answer": "Times are taken on the device's monotonic clock and stored in microseconds. You choose whether to display seconds, tenths, hundredths or milliseconds; the stored value stays the same."
+        },
+        {
+          "question": "Does the timer keep running when the phone is locked?",
+          "answer": "Yes. TriggerLab adds the time the device spent asleep, so a run measured across a locked screen stays correct."
+        },
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Measurements, history and profiles are stored only on your device."
+        },
+        {
+          "question": "Can I export my results?",
+          "answer": "Yes. Results can be exported as CSV and shared with any app through the share sheet."
+        },
+        {
+          "question": "Which triggers are supported?",
+          "answer": "This version uses manual start and stop and the volume keys. Camera, microphone and location triggers are not in this version."
+        },
+        {
+          "question": "Which languages does TriggerLab support?",
+          "answer": "English, Hebrew, Arabic, German, Spanish, French, Italian, Portuguese, Russian, Japanese, Korean and Chinese (Simplified)."
+        },
+        {
+          "question": "Can I turn off personalised ads?",
+          "answer": "Yes. Open Settings → Privacy choices to review or change ad consent. On iPhone you can also decline tracking in the App Tracking Transparency prompt."
+        }
+      ]
+    },
+    "status": {
+      "title": "Availability",
+      "description": "TriggerLab is in development. App Store and Google Play listings coming soon.",
+      "version": "Version",
+      "status": "Platform",
+      "versionValue": "0.1.0",
+      "statusValue": "iOS & Android · Coming soon"
+    },
+    "download": {
+      "title": "Download TriggerLab",
+      "description": "An event timer with millisecond display. Coming soon to the App Store and Google Play.",
+      "soon": "Coming soon to the App Store and Google Play",
+      "googlePlaySoon": "Coming soon on Google Play",
+      "appStoreUrl": "",
+      "googlePlayUrl": "",
+      "appIconAlt": "TriggerLab app icon",
+      "appStoreAlt": "Download on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    },
+    "footer": {
+      "copyright": "© 2026 TriggerLab — All rights reserved",
+      "tagline": "Part of Zuki Apps · by Zuki.Apps"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Privacy Policy for TriggerLab — event timer. No accounts; measurements stay on your device; ads by Google AdMob with consent.",
+      "lastUpdated": "Last updated: November 2026",
+      "intro": "This Privacy Policy explains how Zuki Apps handles information when you use TriggerLab and the pages we publish for it.",
+      "section1": {
+        "title": "1. Who we are",
+        "content": "The data controller is Zuki Apps. Contact details are at the end of this Policy.",
+        "content2": "This Policy applies to the TriggerLab app for iOS and Android and the legal pages we publish for it."
+      },
+      "section2": {
+        "title": "2. Information we collect",
+        "content": "TriggerLab has no accounts and we run no servers for it.",
+        "items": [
+          "Measurements, names, notes, history, profiles and settings are stored only on your device and deleted when you delete them in the app or uninstall it. We never receive them.",
+          "Advertising: Google AdMob may process your device's advertising identifier, IP address and ad interactions to show and measure ads. On iOS, the advertising identifier is used only if you allow tracking.",
+          "Crash reports and diagnostics (Firebase Crashlytics): device model, OS version, app version and the technical details of a crash. They do not include your measurements.",
+          "Usage analytics (Firebase Analytics), only after you give consent: screens opened and coarse feature events. Events never contain your measurement names, notes or times."
+        ]
+      },
+      "section3": {
+        "title": "3. How we use information",
+        "content": "We use information to:",
+        "items": [
+          "Show and measure ads (Google AdMob)",
+          "Find and fix crashes",
+          "Understand which features are used, if you consented"
+        ],
+        "content2": "We do not sell your personal information."
+      },
+      "section4": {
+        "title": "4. Advertising and consent",
+        "content": "Where required, you are asked for consent before personalised ads are shown, using Google's consent form. On iOS, Apple's App Tracking Transparency prompt asks before the advertising identifier is used.",
+        "content2": "You can review or change ad consent in the app under Settings → Privacy choices, and limit ad tracking in your device settings."
+      },
+      "section5": {
+        "title": "5. Storage and security",
+        "content": "Your measurements never leave your device unless you export or share them yourself. Data sent by the SDKs is encrypted in transit.",
+        "content2": "Google retains advertising, crash and analytics data under its own policies."
+      },
+      "section6": {
+        "title": "6. Third-party services",
+        "content": "Google AdMob and Firebase (Crashlytics, Analytics) process data under Google's privacy policy.",
+        "content2": "CSV export uses your device's share sheet; we do not see what you share or with whom."
+      },
+      "section7": {
+        "title": "7. Your rights and children",
+        "content": "Depending on your region you may have rights to access or delete data. Delete all measurements in the app under Settings → Delete history, or uninstall the app. For data held by Google, see Google's privacy controls.",
+        "content2": "TriggerLab is not directed at children under 13."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may update this Policy from time to time. We will post the revised version with a new Last updated date."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about this Privacy Policy:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "metaDescription": "Terms of Use for TriggerLab — event timer.",
+      "lastUpdated": "Last updated: November 2026",
+      "intro": "Please read these Terms of Use carefully before using TriggerLab. By accessing or using the app you agree to these Terms.",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "content": "These Terms govern your access to and use of TriggerLab (\"Service\", \"App\"), operated by Zuki Apps.",
+        "content2": "If you use the Service on behalf of a minor, you represent that you are the parent or guardian and accept these Terms on their behalf."
+      },
+      "section2": {
+        "title": "2. Description of Service",
+        "content": "TriggerLab is an event timer. The Service includes:",
+        "items": [
+          "Manual and volume-key timing with single, repeated, lap, multi-stage and reaction modes",
+          "History, profiles and CSV export stored on your device",
+          "Ads served by Google AdMob"
+        ]
+      },
+      "section3": {
+        "title": "3. Licence",
+        "content": "Zuki Apps grants you a personal, non-exclusive, non-transferable licence to use the app on devices you own or control.",
+        "content2": "Measurements are stored on your device; we cannot restore them if you uninstall or change devices. Export anything you want to keep."
+      },
+      "section4": {
+        "title": "4. Accuracy",
+        "content": "TriggerLab measures time as precisely as your device allows, but timings depend on the hardware, the operating system and how fast you trigger start and stop.",
+        "content2": "Do not rely on TriggerLab for safety-critical, medical, legal or officially sanctioned timing."
+      },
+      "section5": {
+        "title": "5. Acceptable use",
+        "content": "You agree not to:",
+        "items": [
+          "Use the app for unlawful purposes",
+          "Reverse engineer or tamper with the app or its ads",
+          "Interfere with the app's normal operation"
+        ]
+      },
+      "section6": {
+        "title": "6. Disclaimer",
+        "content": "The app is provided “as is” and “as available”. To the extent permitted by applicable law, Zuki Apps disclaims all warranties, express or implied.",
+        "content2": "Nothing in these Terms excludes or limits liability that applicable law does not allow to be excluded or limited."
+      },
+      "section7": {
+        "title": "7. Limitation of liability",
+        "content": "To the maximum extent permitted by applicable law, Zuki Apps is not liable for indirect or consequential damages, or for loss of data, arising from your use of the app."
+      },
+      "section8": {
+        "title": "8. Changes",
+        "content": "We may modify these Terms. Continued use after the effective date constitutes acceptance."
+      },
+      "sectionContact": {
+        "title": "Contact",
+        "content": "Questions about these Terms:",
+        "email": "zuki.apps.dev@gmail.com",
+        "address": "Nachshol 36, SAAR, p.o. 22805, ISRAEL"
+      }
+    },
+    "support": {
+      "title": "Support & Help",
+      "subtitle": "We're here to help! Find answers to common questions or contact Zuki Apps about TriggerLab.",
+      "metaTitle": "Support & Help — TriggerLab | Zuki Apps",
+      "metaDescription": "Get help with TriggerLab — timing modes, precision, locked-screen timing, export, ads and privacy choices.",
+      "contact": {
+        "title": "Contact Us",
+        "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
+        "email": "zuki.apps.dev@gmail.com"
+      },
+      "quickLinks": {
+        "title": "Quick links",
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "How TriggerLab handles your data"
+        },
+        "terms": {
+          "title": "Terms of Use",
+          "description": "Terms for using TriggerLab"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "Is TriggerLab free?",
+          "answer": "Yes. It's free to download and use, and it shows ads."
+        },
+        "q2": {
+          "question": "Do I need an account?",
+          "answer": "No. Your measurements are saved on your device."
+        },
+        "q3": {
+          "question": "Why does the time keep counting when my phone is locked?",
+          "answer": "That's on purpose: TriggerLab adds the time the phone spent asleep so a run stays correct. Settings → Native monotonic clock shows how much sleep was added."
+        },
+        "q4": {
+          "question": "How do I change ad consent?",
+          "answer": "Open Settings → Privacy choices."
+        }
+      },
+      "additionalHelp": {
+        "title": "Need more help?",
+        "description": "If you could not find an answer, email zuki.apps.dev@gmail.com. We typically respond within 24–48 hours."
+      }
+    },
+    "howToUse": {
+      "title": "How to use",
+      "subtitle": "Start, stop, read the result.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Pick a mode",
+          "description": "Use the quick stopwatch, or set up a single, repeated, lap, multi-stage or reaction measurement."
+        },
+        {
+          "number": "2",
+          "title": "Start",
+          "description": "Tap Start or press a volume key when the event begins."
+        },
+        {
+          "number": "3",
+          "title": "Stop",
+          "description": "Tap Stop or press a volume key when it ends. Add laps along the way."
+        },
+        {
+          "number": "4",
+          "title": "Review and export",
+          "description": "See the result and session statistics, find it later in History, or export it as CSV."
+        }
+      ]
+    }
+  }
+}
