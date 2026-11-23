@@ -19,10 +19,11 @@ const UNPUBLISHED = new Set([
   'roamguard',
   'trickyrooms',
   'triggerlab',
+  'drawingpilot',
 ]);
 
 const IOS_ONLY = new Set([]);
-const ANDROID_ONLY = new Set(['roamguard', 'ztl-guard']);
+const ANDROID_ONLY = new Set(['roamguard']);
 
 function fail(msg) {
   console.error(`product-pages: FAIL — ${msg}`);

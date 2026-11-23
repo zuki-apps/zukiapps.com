@@ -4,17 +4,18 @@ App: ZTLGuard — Italy ZTL Alerts
 Developer: Zuki Apps  
 Package: com.zuki.apps.ztlguard  
 Version: 0.9.0  
-Platform: Android (Google Play); App Store coming soon  
+Platform: iPhone (App Store) and Android (Google Play)  
 Premium: monthly auto-renewable subscription `ztlguard_premium`  
 Site: https://zukiapps.com/ztl-guard  
 Support: https://zukiapps.com/ztl-guard/support  
+App Store: https://apps.apple.com/il/app/ztlguard-italy/id6816073300  
 Google Play: https://play.google.com/store/apps/details?id=com.zuki.apps.ztlguard
 
 ---
 
 ## What is ZTLGuard?
 
-An Italy ZTL (limited-traffic zone) alert app for Android. Browse city zones on a map and measure distance to zone boundaries on-device. Free on Google Play. Package: com.zuki.apps.ztlguard. App Store coming soon.
+An Italy ZTL (limited-traffic zone) alert app for iPhone and Android. Browse city zones on a map and measure distance to zone boundaries on-device. Free on the App Store and Google Play. Package: com.zuki.apps.ztlguard.
 
 ## Does ZTLGuard upload my location?
 

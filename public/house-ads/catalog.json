@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "remoteCatalogUrl": "https://zukiapps.com/house-ads/catalog.json",
   "apps": [
     {
@@ -330,7 +330,7 @@
       "promote": true,
       "showHouseAds": true,
       "icon": "assets/icons/ztl-guard.png",
-      "appStoreUrl": "",
+      "appStoreUrl": "https://apps.apple.com/il/app/ztlguard-italy/id6816073300",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.zuki.apps.ztlguard",
       "websiteUrl": "https://zukiapps.com/ztl-guard",
       "banner": "assets/banners/ztl-guard.png",
@@ -401,6 +401,22 @@
       "interstitial": "assets/interstitials/triggerlab.jpg",
       "creativeSource": "generated",
       "color": "#33150F"
+    },
+    {
+      "id": "drawingpilot",
+      "name": "DrawingPilot",
+      "tagline": "Trace a photo onto paper",
+      "project": "DrawingPilot",
+      "promote": true,
+      "showHouseAds": true,
+      "icon": "assets/icons/drawingpilot.png",
+      "appStoreUrl": "",
+      "playStoreUrl": "",
+      "websiteUrl": "https://zukiapps.com/drawingpilot",
+      "banner": "assets/banners/drawingpilot.png",
+      "interstitial": "assets/interstitials/drawingpilot.jpg",
+      "creativeSource": "generated",
+      "color": "#332A0F"
     }
   ]
 }

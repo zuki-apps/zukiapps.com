@@ -36,6 +36,7 @@ const APPS = [
   'contacts-toolbox',
   'trickyrooms',
   'triggerlab',
+  'drawingpilot',
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

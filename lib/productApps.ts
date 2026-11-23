@@ -26,6 +26,7 @@ export type ProductAppSlug =
   | 'contacts-toolbox'
   | 'trickyrooms'
   | 'triggerlab'
+  | 'drawingpilot'
   | 'toldya';
 
 export type ProductAppNamespace =
@@ -55,6 +56,7 @@ export type ProductAppNamespace =
   | 'contactsToolbox'
   | 'trickyRooms'
   | 'triggerLab'
+  | 'drawingPilot'
   | 'toldya';
 
 export type ProductAppConfig = {
@@ -251,6 +253,17 @@ export const PRODUCT_APPS: Record<ProductAppSlug, ProductAppConfig> = {
     applicationCategory: 'UtilitiesApplication',
     faqId: 'triggerlab-faq-ld',
     howToId: 'triggerlab-howto-ld',
+    accent: 'cyan',
+    hasSupportPage: true,
+    operatingSystem: 'iOS,Android',
+  },
+  drawingpilot: {
+    slug: 'drawingpilot',
+    namespace: 'drawingPilot',
+    appPath: '/drawingpilot',
+    applicationCategory: 'DesignApplication',
+    faqId: 'drawingpilot-faq-ld',
+    howToId: 'drawingpilot-howto-ld',
     accent: 'cyan',
     hasSupportPage: true,
     operatingSystem: 'iOS,Android',

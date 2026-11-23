@@ -91,7 +91,7 @@ export const TALLY_NUDGE_PILOT = true;
 export const TALLY_NUDGE_PUBLISHED = true;
 export const TALLY_NUDGE_APP_PATH = '/tally-nudge' as const;
 
-/** ZTLGuard — Android live; App Store coming soon. */
+/** ZTLGuard — live on App Store and Google Play. */
 export const ZTL_GUARD_UNDER_CONSTRUCTION = false;
 export const ZTL_GUARD_PILOT = true;
 export const ZTL_GUARD_PUBLISHED = true;
@@ -102,6 +102,12 @@ export const TRICKYROOMS_UNDER_CONSTRUCTION = true;
 export const TRICKYROOMS_PILOT = false;
 export const TRICKYROOMS_PUBLISHED = false;
 export const TRICKYROOMS_APP_PATH = '/trickyrooms' as const;
+
+/** DrawingPilot — coming soon; legal pages live for store compliance. */
+export const DRAWINGPILOT_UNDER_CONSTRUCTION = true;
+export const DRAWINGPILOT_PILOT = false;
+export const DRAWINGPILOT_PUBLISHED = false;
+export const DRAWINGPILOT_APP_PATH = '/drawingpilot' as const;
 
 /** TriggerLab — coming soon; legal pages live for store compliance. */
 export const TRIGGERLAB_UNDER_CONSTRUCTION = true;

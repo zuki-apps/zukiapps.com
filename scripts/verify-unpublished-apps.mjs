@@ -16,6 +16,7 @@ const UNPUBLISHED = [
   { slug: 'roamguard', namespace: 'roamGuard', flag: 'ROAMGUARD' },
   { slug: 'trickyrooms', namespace: 'trickyRooms', flag: 'TRICKYROOMS' },
   { slug: 'triggerlab', namespace: 'triggerLab', flag: 'TRIGGERLAB' },
+  { slug: 'drawingpilot', namespace: 'drawingPilot', flag: 'DRAWINGPILOT' },
 ];
 
 const LEGAL_PAGES = ['privacy', 'terms', 'support'];

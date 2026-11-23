@@ -15,6 +15,7 @@ export const LIMITED_LOCALE_APPS: Record<string, readonly string[]> = {
   '/tally-nudge': ['en'],
   '/trickyrooms': ['en'],
   '/triggerlab': ['en'],
+  '/drawingpilot': ['en'],
   '/ztl-guard': ['en', 'it'],
 };
 

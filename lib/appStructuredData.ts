@@ -30,4 +30,5 @@ export const ANDROID_APPLICATION_ID_BY_PATH: Record<string, string> = {
   '/contacts-toolbox': 'com.zuki.apps.contactstoolbox',
   '/trickyrooms': 'com.zuki.apps.trickyrooms',
   '/triggerlab': 'com.zuki.apps.triggerlab',
+  '/drawingpilot': 'com.zuki.apps.drawingpilot',
 };

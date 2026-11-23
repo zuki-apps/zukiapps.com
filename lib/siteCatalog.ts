@@ -96,13 +96,19 @@ export const ZUKI_SITE_APPS: SiteCatalogEntry[] = [
     path: '/ztl-guard',
     name: 'ZTLGuard',
     description:
-      'Italy ZTL alerts with on-device location. Free on Google Play. App Store coming soon. com.zuki.apps.ztlguard.',
+      'Italy ZTL alerts with on-device location. Free on the App Store and Google Play. com.zuki.apps.ztlguard.',
   },
   { path: '/dreambit-legacy', name: 'DreamBit legacy archive', description: 'DreamBit Apps (2012–2016) archive stewarded by Zuki Apps — historic Play listings, press notes, UpdateStar Excellent for Whistle Camera - Legacy.' },
 ];
 
 /** Unpublished / under-construction titles — About portfolio only, not home or JSON-LD ItemList. */
 export const ZUKI_IN_DEVELOPMENT_APPS: SiteCatalogEntry[] = [
+  {
+    path: '/drawingpilot',
+    name: 'DrawingPilot',
+    description:
+      'AR drawing and tracing: float a photo over the live camera and trace it onto paper. Coming soon. com.zuki.apps.drawingpilot.',
+  },
   {
     path: '/triggerlab',
     name: 'TriggerLab',
