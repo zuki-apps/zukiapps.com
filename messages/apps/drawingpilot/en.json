@@ -6,11 +6,11 @@
       "title": "DrawingPilot — AR Drawing & Trace",
       "productName": "DrawingPilot: AR Drawing & Trace",
       "subtitle": "DrawingPilot",
-      "description": "Float a photo over the live camera and trace it onto paper. Import from your gallery, your camera, or Pinterest, and turn a photo into line art on your device.",
-      "socialProof": "Camera tracing · Line art on device · Gallery and Pinterest · 12 languages · iOS & Android",
-      "structuredDataDescription": "DrawingPilot is an AR drawing and tracing app for iOS and Android. A reference image floats over the live camera so it can be traced onto paper. Photos and projects stay on the device. Line art is created on the device.",
+      "description": "Float a photo over the live camera and trace it onto paper. Bring it from your gallery, camera, Files or any app, or find a free image, and turn it into line art on your device.",
+      "socialProof": "Camera tracing · Line art on device · Time-lapse for Reels & TikTok · One-time Pro, no subscription · 12 languages",
+      "structuredDataDescription": "DrawingPilot is an AR drawing and tracing app for iOS and Android. A reference image floats over the live camera so it can be traced onto paper. No account is needed; photos and projects stay on the device, and line art is created on the device. Pro is a one-time purchase, not a subscription.",
       "seoTitle": "DrawingPilot — AR Drawing & Tracing App | Zuki Apps",
-      "metaDescription": "Trace a photo onto paper with the live camera. Import from your gallery or Pinterest and make line art on your device. Coming soon to iOS and Android."
+      "metaDescription": "Trace a photo onto paper with the live camera. Import from your gallery, Files or any app, make line art on your device and export time-lapse videos. Coming soon to iOS and Android."
     },
     "pageNav": {
       "features": "Features",
@@ -43,8 +43,8 @@
         "title": "Your drawings stay yours",
         "description": "Projects are saved on the device.",
         "items": [
-          "Gallery, camera or Pinterest as the source",
-          "Record a tracing session to Photos",
+          "Gallery, camera, Files, paste, share from any app, or free images",
+          "Record a session and export a time-lapse for Reels, TikTok or Instagram",
           "Folders, rename, duplicate, share and delete"
         ]
       }
@@ -69,20 +69,28 @@
     },
     "faq": {
       "title": "Frequently asked questions",
-      "subtitle": "Quick answers about tracing, photos, Pinterest, and ads.",
+      "subtitle": "Quick answers about tracing, photos, free images, Pro and ads.",
       "viewAllSupport": "View full support & FAQ",
       "items": [
         {
           "question": "Is DrawingPilot free?",
-          "answer": "Yes. DrawingPilot is free to download and use. It shows ads."
+          "answer": "Yes, it is free to download and use, with ads and a few limits (10 projects, 60-second recordings, line art and pencil styles). DrawingPilot Pro is a one-time purchase that removes ads and unlocks unlimited projects, HD conversions, blueprint and cartoon styles and recordings of any length. It is not a subscription."
         },
         {
           "question": "Do you upload my camera or my drawings?",
-          "answer": "No. The camera is used as a live view for tracing. Photos, projects and line art stay on your device unless you save, share or export them yourself."
+          "answer": "No. The camera is used as a live view for tracing. Photos, projects and line art stay on your device unless you save, share or export them yourself. DrawingPilot has no account and no server of its own."
         },
         {
-          "question": "How does Pinterest work?",
-          "answer": "You can connect a Pinterest account to import boards and pins. The connection uses an anonymous sign-in, and the Pinterest tokens are stored on our server so the app can fetch pins for you. We do not post to Pinterest."
+          "question": "Where do the free images come from?",
+          "answer": "From Openverse, a search engine for Creative Commons and public-domain images. The creator and licence are shown before you use an image, and the source page is kept with the project. Follow the licence, for example credit the creator or skip non-commercial images for paid work."
+        },
+        {
+          "question": "Can I send a photo from another app?",
+          "answer": "Yes. Use Share → DrawingPilot in Photos, Safari, Files, Pinterest, WhatsApp and other apps. You can also pick an image from Files or Google Drive, or paste one from the clipboard."
+        },
+        {
+          "question": "Can I make a time-lapse for Reels or TikTok?",
+          "answer": "Yes. Record a tracing session, then tap Export: choose Reels/TikTok (9:16), square (1:1) or the original frame, and a speed up to 16×. The video is saved to your photo library and opens the share sheet."
         },
         {
           "question": "Which languages does DrawingPilot support?",
@@ -90,7 +98,7 @@
         },
         {
           "question": "Can I turn off personalised ads?",
-          "answer": "Yes. Open Settings → Ad privacy choices to review or change ad consent. On iPhone you can also decline tracking in the App Tracking Transparency prompt."
+          "answer": "Yes. Open Settings → Ad privacy choices to review or change ad consent. On iPhone you can also decline tracking in the App Tracking Transparency prompt. DrawingPilot Pro removes ads."
         },
         {
           "question": "Where are my projects stored?",
@@ -98,11 +106,7 @@
         },
         {
           "question": "Does line art use a server?",
-          "answer": "No. The edges, pencil, blueprint and cartoon conversions run on the phone."
-        },
-        {
-          "question": "Can I record a tracing session?",
-          "answer": "Yes. You can record the camera view and save the video to your photo library."
+          "answer": "No. The line art, pencil, blueprint and cartoon conversions run on the phone."
         }
       ]
     },
@@ -131,7 +135,7 @@
     },
     "privacy": {
       "title": "Privacy Policy",
-      "metaDescription": "Privacy Policy for DrawingPilot — AR drawing and tracing. Photos stay on your device. Pinterest tokens are stored on our server. Ads by Google AdMob with consent.",
+      "metaDescription": "Privacy Policy for DrawingPilot — AR drawing and tracing. No account, photos stay on your device, free-image search via Openverse, ads by Google AdMob with consent.",
       "lastUpdated": "Last updated: November 2026",
       "intro": "This Privacy Policy explains how Zuki Apps handles information when you use DrawingPilot and the pages we publish for it.",
       "section1": {
@@ -141,15 +145,15 @@
       },
       "section2": {
         "title": "2. Information we collect",
-        "content": "DrawingPilot keeps your drawings on your device. A few features use a sign-in or a server.",
+        "content": "DrawingPilot has no account and no server of its own. Your drawings stay on your device. Some features use services from other companies, described below.",
         "items": [
-          "Camera: the live camera is shown so you can trace an image onto paper, and you can record that session. We do not upload the camera preview. A recording is saved to your photo library only when you save it.",
-          "Photos and projects: images you import, line art, project names and folders stay on your device. Line art is created on the device. We do not receive those files.",
-          "Anonymous sign-in (Firebase Authentication): the app signs in anonymously so Cloud Functions can act for that install. This creates an anonymous identifier. It is not your name or email.",
-          "Pinterest: if you connect Pinterest, we store the OAuth tokens for that anonymous account on our server and use them to read your boards and pins (scopes boards:read, pins:read and user_accounts:read). We do not post, edit or delete pins. You can disconnect in the app.",
-          "Advertising: Google AdMob may process your device's advertising identifier, IP address and ad interactions to show and measure ads. On iOS, the advertising identifier is used only if you allow tracking. The app may also show ads for other Zuki Apps.",
-          "Crash reports and diagnostics (Firebase Crashlytics): device model, OS version, app version and the technical details of a crash. They do not include your photos, project names or Pinterest searches.",
-          "Usage analytics (Firebase Analytics), only after you give consent: screens opened and coarse feature events. Events never contain project names, image contents or Pinterest queries."
+          "Camera: the live camera is shown so you can trace an image onto paper, and you can record that session. We do not upload the camera preview. A recording, or a time-lapse you export, is saved to your photo library only when you save it.",
+          "Photos and projects: images you import from your gallery, camera, Files, the clipboard or another app (Share → DrawingPilot), line art, project names and folders stay on your device. Line art and video exports are created on the device. We do not receive those files.",
+          "Free image search (Openverse): when you search for free images, the words you type are sent directly from the app to Openverse (api.openverse.org, run by the WordPress Foundation) to find Creative Commons and public-domain images. Thumbnails and images load from Openverse and from the sites that host them, which see your IP address like any website. We do not receive or store your searches. The source page of an image you use is saved with the project on your device.",
+          "Purchases: DrawingPilot Pro is a one-time in-app purchase processed by Apple or Google. We do not receive your payment details. The app checks your purchase with the store on your device.",
+          "Advertising: Google AdMob may process your device's advertising identifier, IP address and ad interactions to show and measure ads. On iOS, the advertising identifier is used only if you allow tracking. The app may also show ads for other Zuki Apps. Pro users see no ads.",
+          "Crash reports and diagnostics (Firebase Crashlytics): device model, OS version, app version, the screens visited before a crash and the technical details of the crash. They do not include your photos, project names or search words.",
+          "Usage analytics (Firebase Analytics), only after you give consent: screens opened and coarse feature events. Events never contain project names, image contents or search words."
         ]
       },
       "section3": {
@@ -157,7 +161,8 @@
         "content": "We use information to:",
         "items": [
           "Show the tracing camera and save what you choose to keep",
-          "Import boards and pins after you connect Pinterest",
+          "Search free images when you ask (Openverse)",
+          "Unlock Pro after a purchase through Apple or Google",
           "Show and measure ads (Google AdMob)",
           "Find and fix crashes",
           "Understand which features are used, if you consented"
@@ -171,17 +176,17 @@
       },
       "section5": {
         "title": "5. Storage and security",
-        "content": "Photos, projects and line art stay on your device unless you save, share or export them yourself. Pinterest tokens are stored in Firebase and are readable only by our Cloud Functions, not by the app directly. Data sent by the SDKs is encrypted in transit.",
-        "content2": "Google retains advertising, crash, analytics and authentication data under its own policies. Pinterest processes the account connection under Pinterest's privacy policy."
+        "content": "Photos, projects, line art and videos stay on your device unless you save, share or export them yourself. We do not run a server for DrawingPilot and do not store your data. Data sent by the services below is encrypted in transit.",
+        "content2": "Google retains advertising, crash and analytics data under its own policies. Openverse handles search requests under the WordPress Foundation's privacy policy. Apple and Google handle purchases under their own policies."
       },
       "section6": {
         "title": "6. Third-party services",
-        "content": "Google AdMob and Firebase (Authentication, Cloud Functions, Crashlytics, Analytics) process data under Google's privacy policy. Pinterest processes the account connection under Pinterest's privacy policy.",
-        "content2": "Saving a recording uses your photo library. Sharing a project uses your device's share sheet; we do not see what you share or with whom."
+        "content": "Google AdMob and Firebase (Crashlytics, Analytics) process data under Google's privacy policy. Openverse processes image searches under the WordPress Foundation's privacy policy, and images you open load from their source sites. Apple (App Store) and Google (Google Play) process in-app purchases.",
+        "content2": "Saving a recording uses your photo library. Sharing a project or video uses your device's share sheet; we do not see what you share or with whom. Images shared into DrawingPilot from other apps are copied to the app on your device only."
       },
       "section7": {
         "title": "7. Your rights and children",
-        "content": "Depending on your region you may have rights to access or delete data. Delete projects in the app, disconnect Pinterest in the app, or uninstall the app. Uninstalling removes the on-device copy. To delete the anonymous account and its server-side Pinterest tokens, email us from the address below. For data held by Google or Pinterest, see their privacy controls.",
+        "content": "Depending on your region you may have rights to access or delete data. Delete projects in the app, or uninstall the app to remove everything stored on the device. We hold no account or server-side data about you. For data held by Google, Apple or Openverse, see their privacy controls, or email us and we will help.",
         "content2": "DrawingPilot is not directed at children under 13, and it is not part of a Designed for Families program."
       },
       "section8": {
@@ -210,21 +215,21 @@
         "content": "DrawingPilot helps you trace a reference image onto paper. The Service includes:",
         "items": [
           "A reference image over the live camera, with size, rotation, opacity and lock",
-          "Import from your gallery or camera, and on-device line art",
-          "Optional Pinterest import after you connect an account",
-          "Projects stored on your device, and an optional recording saved to your photo library",
-          "Ads served by Google AdMob"
+          "Import from your gallery, camera, Files, the clipboard or other apps, and on-device line art",
+          "Free-image search through Openverse",
+          "Projects stored on your device, recordings saved to your photo library, and time-lapse exports for Reels, TikTok and Instagram",
+          "Ads served by Google AdMob, and an optional one-time Pro purchase"
         ]
       },
       "section3": {
-        "title": "3. Your content and Pinterest",
-        "content": "You keep the rights to the photos and drawings you create. You are responsible for having the right to trace or import an image, including pins you import from Pinterest.",
-        "content2": "Pinterest content is provided by Pinterest under your account and Pinterest's own terms. We do not claim ownership of pins. Connecting Pinterest lets the app read boards and pins; it does not let us post on your behalf."
+        "title": "3. Your content and images by others",
+        "content": "You keep the rights to the photos and drawings you create. You are responsible for having the right to trace or import an image, including images you share into the app from other apps.",
+        "content2": "Free images come from Openverse under Creative Commons or public-domain licences chosen by their creators. The creator and licence are shown before you use an image; you must follow that licence (for example, credit the creator, or do not use a non-commercial image for commercial work). We do not own or license those images."
       },
       "section4": {
-        "title": "4. Licence and subscriptions",
-        "content": "Zuki Apps grants you a personal, non-exclusive, non-transferable licence to use the app on devices you own or control. The app is free and shows ads.",
-        "content2": "We may later offer an optional auto-renewing subscription, billed by Apple or Google, for extra features and to remove ads. If we do, the price and period are shown by the store before you buy, and you can cancel in that store's subscription settings. Projects stay on your device; we cannot restore them if you uninstall or change devices."
+        "title": "4. Licence and purchases",
+        "content": "Zuki Apps grants you a personal, non-exclusive, non-transferable licence to use the app on devices you own or control. The app is free to download and shows ads.",
+        "content2": "DrawingPilot Pro is an optional one-time in-app purchase, billed by Apple or Google, that removes ads and unlocks extra features. It is not a subscription and does not renew. You can restore it on devices signed in to the same store account. Refunds are handled by Apple or Google under their policies. Projects stay on your device; we cannot restore them if you uninstall or change devices."
       },
       "section5": {
         "title": "5. Acceptable use",
@@ -232,7 +237,7 @@
         "items": [
           "Use the app for unlawful purposes or to copy work you have no right to copy",
           "Reverse engineer or tamper with the app or its ads",
-          "Interfere with the app's normal operation or with another person's Pinterest account"
+          "Interfere with the app's normal operation or with the services it uses (such as Openverse)"
         ]
       },
       "section6": {
@@ -259,7 +264,7 @@
       "title": "Support & Help",
       "subtitle": "We're here to help! Find answers to common questions or contact Zuki Apps about DrawingPilot.",
       "metaTitle": "Support & Help — DrawingPilot | Zuki Apps",
-      "metaDescription": "Get help with DrawingPilot — camera tracing, line art, Pinterest import, recordings, ads and privacy choices.",
+      "metaDescription": "Get help with DrawingPilot — camera tracing, line art, free images, sharing photos into the app, time-lapse export, Pro, ads and privacy choices.",
       "contact": {
         "title": "Contact Us",
         "description": "Have a question or need assistance? Send us an email and we'll get back to you as soon as possible.",
@@ -280,15 +285,15 @@
         "title": "Frequently Asked Questions",
         "q1": {
           "question": "Is DrawingPilot free?",
-          "answer": "Yes. It's free to download and use, and it shows ads."
+          "answer": "Yes. It's free to download and use, with ads and a few limits. DrawingPilot Pro is a one-time purchase (no subscription) that removes ads and unlocks every feature."
         },
         "q2": {
           "question": "Does the camera upload what it sees?",
           "answer": "No. The camera is a live guide for tracing. Photos and projects stay on your device unless you save or share them."
         },
         "q3": {
-          "question": "Why does Pinterest say it could not be reached?",
-          "answer": "Pinterest import runs through our server. It stays unavailable until that connection is turned on for this version."
+          "question": "How do I send a photo to DrawingPilot from another app?",
+          "answer": "Tap Share in Photos, Safari, Files, Pinterest or any app and pick DrawingPilot. The image opens as a new project. You can also use Files or Paste image on the Create screen."
         },
         "q4": {
           "question": "How do I change ad consent?",
@@ -307,7 +312,7 @@
         {
           "number": "1",
           "title": "Choose a reference",
-          "description": "Import a photo from your gallery or camera, or turn it into line art first."
+          "description": "Import a photo from your gallery, camera or Files, share one from another app, or find a free image. Turn it into line art if you like."
         },
         {
           "number": "2",
@@ -322,7 +327,7 @@
         {
           "number": "4",
           "title": "Keep it",
-          "description": "The project stays on your device. You can record the session to Photos or share the image."
+          "description": "The project stays on your device. Record the session and export a time-lapse for Reels or TikTok, or share the image."
         }
       ]
     }
